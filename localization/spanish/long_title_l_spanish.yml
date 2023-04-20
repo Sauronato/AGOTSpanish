@@ -1,0 +1,47 @@
+﻿l_spanish:
+# Stuff that references THIS: Used by custom_tooltip #NT!
+# Stuff that references ROOT: Returned by Custom #NT!
+# Stuff that references Character: Used by the GUI. #NT!
+
+long_title: "[THIS.Char.Custom('LongTitle')]" #NT!
+long_title.character: "[THIS.Char.Custom('LongTitleWithName')]" #NT!
+long_title.house: "[THIS.Char.Custom('LongTitleWithNameAndHouse')]" #NT!
+long_title.character.start: "$long_title.character.fallback$[ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')][ROOT.Char.Custom('LongTitleEnding')]" #NT!
+long_title.character.fallback: "[ROOT.Char.GetFullNameNicknamedNoTooltip]" #NT!
+long_title.house.start: "$long_title.house.fallback$[ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
+long_title.house.fallback: "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip] [ROOT.Char.GetHouse.GetBaseNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+long_title.tier: "[ROOT.Title.Custom('LongTitleTierName')]" #NT!
+long_title.title: "[ROOT.Title.GetNameNoTierNoTooltip]" #NT!
+long_title.title.definite: "[ROOT.Title.GetNameNoTooltip]" #NT!
+long_title.next: "[ROOT.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
+long_title.title.definite: " of [ROOT.Title.GetNameNoTooltip]" #NT!
+long_title.start: "[ROOT.Char.GetTitleAsNameNoTooltip] of [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip][ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
+long_title.fallback: "Fallback" #NT!
+long_title.recursive: "$long_title.title$, $long_title.next$" #NT!
+long_title.recursive.definite: "$long_title.title$$long_title.next$" #NT!
+long_title.recursive.new_tier: ", $long_title.tier$ of $long_title.title$$long_title.next$" #NT!
+long_title.recursive.same_tier: ", $long_title.title$$long_title.next$" #NT!
+long_title.recursive.end_tier: " and $long_title.title$$long_title.next$" #NT!
+long_title.end.same_tier: " and $long_title.title$" #NT!
+long_title.end.new_tier: " and $long_title.tier$ of $long_title.title$" #NT!
+long_title.generation: "Initialized [THIS.Title.GetNameNoTooltip]" #NT!
+# long_title.custom: "[ROOT.Title.Custom('LongTitleCustom')]" #NT!
+
+long_title.tier.primary: "[ROOT.Title.GetHolder.GetTitleAsNameNoTooltip]" #NT!
+long_title.tier.nonexistent: "[ROOT.Title.GetTierAsNameNoTooltip]" #NT!
+long_title.tier.ruler: "Ruler" #NT!
+
+long_title.council_position.start: "$long_title.character.start$, [ROOT.Char.GetCouncilTitle] to [ROOT.Char.GetLiege.GetFullNameNoTooltip]" #NT!
+long_title.relation_and_council_position.start: "$long_title.character.start$, [ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] and [ROOT.Char.GetCouncilTitle] to [ROOT.Char.GetLiege.GetFullNameNoTooltip]" #NT!
+long_title.liege.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] to [ROOT.Char.GetLiege.GetFullNameNoTooltip], $long_title.character.start$" #NT!
+long_title.courtier.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] to [ROOT.Char.GetLiege.GetTitledFirstNameNicknamedNoTooltip], $long_title.character.fallback$[ROOT.Char.Custom('LongTitleEnding')]" #NT!
+
+
+long_title_ending_variable: "[ROOT.Var('long_title_ending_variable').GetFlagName]" #NT!
+
+long_title_mod_name: "Recursive and Potentially Very Long Title Builder, Game Modification for Crusader Kings 3, Submodule of Agamidae's Fullscreen Barbershop, Torturer of Paradox Developers and anyone with high standards for code quality, brought to you by Tobbzn of the Way of Kings mod, Team Lead, Janker Extraordinaire, and Modder of Dragons." #NT!
+
+print_flag: "[THIS.GetFlagName]" #NT!
+
+en_garde_name: "En Garde" #NT!
+en_garde_abb_name: "En Garde (Arm behind)" #NT!

@@ -1,0 +1,580 @@
+﻿l_spanish:
+ IMPORTANT_ACTION_CLICK_TO_HIDE:0 "#I Haz clic para ocultar todo#!" #NT!
+ IMPORTANT_ACTION_CLICK_TO_EXPAND:0 "#I Haz clic para mostrar todo#!" #NT!
+ IMPORTANT_ACTION_CLICK_TO_DISMISS:0 "#I Haz clic derecho para descartar todo#!" #NT!
+ IMPORTANT_ACTION_COMBINED_LABEL:0 "[GuiActionItem.GetCombinedGroupLabel]" #NT!
+ IMPORTANT_ACTION_TITLE:0 "#T $NAME$#!" #NT!
+ NUM_UNREAD_ACTION:0 "1" #Translation Error!
+ GENERAL_MARRIAGE_ACTION_HELP:1 "#help Si no tienes [player_heir|E], el juego terminará cuando mueras. Estar casado asegura que nazcan suficientes [legitimate|E] niños. Un buen Cónyuge también puede ayudarlo a ejecutar su [realm|E] o brindarle un [alliance|E].#! sólido" #NT!
+ GENERAL_MARRIAGE_ACTION_HEIR_HELP:1 "#help Si no tienes [player_heir|E], el juego terminará cuando mueras. Arreglar un buen Matrimonio para su Heredero asegura su linaje a largo plazo. También te puede dar un [alliance|E] con otro [realm|E]#!" #NT!
+ action_adult_player_heir_not_married:0 "heredero soltero" #NT!
+ action_adult_player_heir_not_married_label:0 "heredero soltero" #NT!
+ action_adult_player_heir_not_married_desc:2 "Tu [player_heir|E] [recipient.GetUIName] no tiene [spouse|E].\n\n$GENERAL_MARRIAGE_ACTION_HEIR_HELP$" #NT!
+ action_adult_player_heir_not_married_click:0 "#I Haz clic para encontrar un [spouse|E]#! adecuado" #NT!
+ action_adult_ruler_not_married:1 "No eres [married|E]" #NT!
+ action_adult_ruler_not_married_label:1 "No eres [married|E]" #NT!
+ action_adult_ruler_not_married_desc:2 "No tienes [spouse|E].\n\n$GENERAL_MARRIAGE_ACTION_HELP$" #NT!
+ action_adult_ruler_not_married_click:0 "#I Haz clic para encontrar un [spouse|E]#! adecuado" #NT!
+ action_non_adult_ruler_not_betrothed:1 "No eres [betrothed|E]" #NT!
+ action_non_adult_ruler_not_betrothed_label:1 "No eres [betrothed|E]" #NT!
+ action_non_adult_ruler_not_betrothed_desc:3 "Todavía no eres un [adult|E], pero no eres un [betrothed|E].\n\n#help A Compromiso se convertirá en un verdadero [marriage|E] una vez que ambas partes sean Adultos.#! $GENERAL_MARRIAGE_ACTION_HELP$" #NT!
+ action_non_adult_ruler_not_betrothed_click:0 "#I Haz clic para encontrar un [spouse|E]#! adecuado" #NT!
+ action_betrothed_can_marry:0 "Prometido puede casarse" #NT!
+ action_betrothed_can_marry_label:0 "Prometido puede casarse" #NT!
+ action_betrothed_can_marry_desc:2 "[betrothed|E] [secondary_recipient.GetUIName] y [secondary_actor.GetUIName] son [adults|E] y ahora pueden obtener [married|E].\n\n#help Si bien puedes romper el Compromiso, generalmente es mejor honrarlo.#!" #NT!
+ action_betrothed_can_marry_click:0 "#I Haga clic para confirmar el Matrimonio#!" #NT!
+ action_close_family_can_marry:0 "[recipient.GetShortUINameNoTooltip] puede casarse" #NT!
+ action_close_family_can_marry_label:0 "$action_close_family_can_marry$" #NT!
+ action_close_family_can_marry_desc:2 "Tu [actor.Custom2('RelationToMe', recipient)] [recipient.GetShortUIName] es elegible para casarse.\n\n#help Organizar un [marriage|E] adecuado para [recipient.GetHerHim] beneficiaría a tu [dynasty|E] e incluso podría resultar en un nuevo [alliance|E].#!" #NT!
+ action_close_family_can_marry_click:0 "#I Haz clic para encontrar un [spouse|E]#! adecuado" #NT!
+ action_close_family_can_marry_combined_group_name:0 "Los familiares cercanos pueden casarse" #NT!
+ action_close_family_can_marry_combined_group_label:1 "Los miembros de la familia pueden casarse." #NT!
+ action_close_family_can_marry_combined_group_description:2 "Varios de tus miembros de [close_family|E] son elegibles para casarse.\n\n#help Organizar [marriages|E] para ellos beneficiaría a tu [dynasty|E] y podría permitirte formar un nuevo [alliances|E].#!" #NT!
+ action_close_family_can_marry_combined_label:2 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]" #NT!
+ action_close_family_can_marry_combined_unimportant:1 "$action_close_family_can_marry_unimportant$" #NT!
+ action_close_family_can_marry_unimportant:2 "@warning_icon!#X Debes concentrarte en casar a tus hijos mayores" #NT!
+
+ action_can_take_concubine:0 "tomar concubina" #NT!
+ action_can_take_concubine_label:0 "$action_can_take_concubine$" #NT!
+ action_can_take_concubine_desc:2 "Actualmente estás por debajo del número adecuado de [concubines|E] para alguien de tu rango.\n\n#help Toma más [concubines|E] para anular la penalización de [prestige|E] que estás sufriendo actualmente.#!" #NT!
+ action_can_take_concubine_click:0 "#I Haz clic para encontrar una concubina adecuada#!" #NT!
+
+ action_too_few_spouses:0 "Muy pocos cónyuges" #NT!
+ action_too_few_spouses_label:0 "$action_too_few_spouses$" #NT!
+ action_too_few_spouses_desc:0 "No tienes el número apropiado de [spouses|E] para alguien de tu [faith|E].\n\n#help Deberías casarte para negar la penalización de [piety|E] que estás sufriendo actualmente.#!" #NT!
+ action_too_few_spouses_click:0 "#I Haga clic para ver posibles cónyuges en su tribunal#!" #NT!
+
+ action_can_choose_lifestyle:0 "No [lifestyle|E] Chosen" #NT!
+ action_can_choose_lifestyle_label:1 "Debes elegir un estilo de vida" #NT!
+ action_can_choose_lifestyle_desc:2 "No tienes [lifestyle|E]\n\n#help Al elegir un enfoque de estilo de vida, obtendrás una bonificación inmediata y también desbloquearás [perks|E] con el tiempo.#!" #NT!
+ action_can_choose_lifestyle_click:0 "#I Haz clic para elegir un estilo de vida#!" #NT!
+ action_can_spend_perk_point:1 "Disponible [perks|E] ([actor.GetTotalPerkPoints])" #NT!
+ action_can_spend_perk_point_label:2 "Deberías desbloquear ventajas" #NT!
+ action_can_spend_perk_point_desc:2 "Puedes desbloquear el nuevo [lifestyle|E] [perks|E].\n\n#help Cada ventaja de estilo de vida te da una bonificación de alguna forma. Se desbloquean a medida que ganas [experience|E].#!" #NT!
+ action_can_spend_perk_point_click:1 "#I Haz clic para desbloquear una nueva ventaja#!" #NT!
+
+ action_lifestyle_diplo:0 "$action_can_spend_perk_point$" #NT!
+ action_lifestyle_diplo_label:0 "$action_can_spend_perk_point_label$" #NT!
+ action_lifestyle_diplo_desc:0 "$action_can_spend_perk_point_desc$" #NT!
+ action_lifestyle_diplo_click:0 "$action_can_spend_perk_point_click$" #NT!
+
+ action_lifestyle_intrigue:0 "$action_can_spend_perk_point$" #NT!
+ action_lifestyle_intrigue_label:0 "$action_can_spend_perk_point_label$" #NT!
+ action_lifestyle_intrigue_desc:0 "$action_can_spend_perk_point_desc$" #NT!
+ action_lifestyle_intrigue_click:0 "$action_can_spend_perk_point_click$" #NT!
+
+ action_lifestyle_learning:0 "$action_can_spend_perk_point$" #NT!
+ action_lifestyle_learning_label:0 "$action_can_spend_perk_point_label$" #NT!
+ action_lifestyle_learning_desc:0 "$action_can_spend_perk_point_desc$" #NT!
+ action_lifestyle_learning_click:0 "$action_can_spend_perk_point_click$" #NT!
+
+ action_lifestyle_martial:0 "$action_can_spend_perk_point$" #NT!
+ action_lifestyle_martial_label:0 "$action_can_spend_perk_point_label$" #NT!
+ action_lifestyle_martial_desc:0 "$action_can_spend_perk_point_desc$" #NT!
+ action_lifestyle_martial_click:0 "$action_can_spend_perk_point_click$" #NT!
+
+ action_lifestyle_stewarship:0 "$action_can_spend_perk_point$" #NT!
+ action_lifestyle_stewarship_label:0 "$action_can_spend_perk_point_label$" #NT!
+ action_lifestyle_stewarship_desc:0 "$action_can_spend_perk_point_desc$" #NT!
+ action_lifestyle_stewarship_click:0 "$action_can_spend_perk_point_click$" #NT!
+
+ action_can_choose_dynasty_perk:0 "Legado de la dinastía disponible" #NT!
+ action_can_choose_dynasty_perk_label:1 "Deberías desbloquear un [dynasty_perk|E]" #NT!
+ action_can_choose_dynasty_perk_desc:2 "Tienes suficiente [dynasty_prestige|E] para desbloquear un [dynasty_perk|E] para tu [dynasty|E].\n\n#help Como [dynast|E], puedes gastar Renombre en acciones con tus compañeros miembros de la dinastía, pero los legados son bonificaciones a largo plazo para toda tu dinastía.#!" #NT!
+ action_can_choose_dynasty_perk_click:1 "#I Haz clic para elegir un legado#!" #NT!
+
+ action_can_lawfully_imprison:0 "El criminal puede ser encarcelado" #NT!
+ action_can_lawfully_imprison_label:1 "Puedes encarcelar legalmente a [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_lawfully_imprison_combined_label:0 "[recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_lawfully_imprison_desc:3 "[recipient.GetUIName] ha asignado [crimes|E] ([recipient.GetImprisonmentReasons( actor.Self )]), lo que le permite encarcelar a [recipient.GetHerHim] sin obtener [tyranny|E].$action_can_lawfully_imprison_HELP$" #NT!
+ action_can_lawfully_imprison_click:0 "#I Haz clic para encarcelar a [recipient.GetHerHim]#!" #NT!
+ action_can_lawfully_imprison_combined_group_label:1 "Puede encarcelar a los criminales" #NT!
+ action_can_lawfully_imprison_combined_group_name:0 "Puede encarcelar a los criminales" #NT!
+ action_can_lawfully_imprison_combined_group_description:2 "Algunos de tus súbditos han cometido [crimes|E], lo que te permite encarcelarlos sin obtener [tyranny|E].$action_can_lawfully_imprison_HELP$." #NT!
+ action_can_lawfully_imprison_combined_unimportant:1 "@warning_icon!#X Ninguno de los criminales es importante para ti#!" #NT!
+ action_can_lawfully_imprison_unimportant:1 "@warning_icon!#X [recipient.GetSheHe|U] no es importante para ti#!" #NT!
+ action_can_lawfully_imprison_HELP:0 "\n\n#help Como [ruler|E], no tienes que encarcelar a todos los [criminal|E], pero tener un prisionero rico o poderoso puede ser útil. Podrías obtener algo de ellos a cambio de su libertad, o puedes ejecutarlos si te sientes sediento de sangre.#!" #NT!
+ action_can_create_title:0 "Se puede crear un título" #NT!
+ action_can_create_title_combined_group_label:1 "Se pueden crear títulos" #NT!
+ action_can_create_title_combined_group_name:0 "Se puede crear [titles|E]" #NT!
+ action_can_create_title_desc:2 "Controlas suficiente [counties|E] en el [landed_title.GetName] para crear el [title|E].$action_can_create_title_HELP$" #NT!
+ action_can_create_title_combined_group_description:2 "Controlas suficientes [counties|E] para crear el [titles|E] que los contiene.$action_can_create_title_HELP$" #NT!
+ action_can_create_title_label:1 "Puedes crear el [landed_title.GetNameNoTooltip]" #NT!
+ action_can_create_title_combined_label:0 "[landed_title.GetNameNoTooltip]" #NT!
+ action_can_create_title_click:0 "#I Haga clic para ver el título#!" #NT!
+ action_can_create_title_combined_unimportant:1 "@warning_icon!#X No tienes suficiente [gold|E] para crear ninguno de los Títulos#!" #NT!
+ action_can_create_title_unimportant:1 "@warning_icon!#X No tienes suficiente [gold|E] para crear el Título#!" #NT!
+ action_can_create_title_HELP:0 "\n\n#help Crear un Título puede costar [gold|E], pero tiene sus ventajas: $CREATE_USURP_TITLE_PROS_CONS$#!" #NT!
+ action_can_usurp_title:0 "El título puede ser usurpado" #NT!
+ action_can_usurp_title_combined_group_label:1 "Los títulos pueden ser usurpados" #NT!
+ action_can_usurp_title_combined_group_name:0 "[title|E] puede ser usurpado" #NT!
+ action_can_usurp_title_desc:2 "Controlas suficiente [counties|E] en el [landed_title.GetName] para usurpar el [title|E].$action_can_usurp_title_HELP$" #NT!
+ action_can_usurp_title_combined_group_description:2 "Controlas suficiente [counties|E] contenido en algún [titles|E] para usurpar los títulos.$action_can_usurp_title_HELP$" #NT!
+ action_can_usurp_title_label:1 "Puedes usurpar el [landed_title.GetNameNoTooltip]" #NT!
+ action_can_usurp_title_combined_label:0 "[landed_title.GetNameNoTooltip]" #NT!
+ action_can_usurp_title_click:0 "#I Haga clic para ver el título#!" #NT!
+ action_can_usurp_title_combined_unimportant:1 "@warning_icon!#X No tienes suficiente [gold|E] para usurpar ninguno de los Títulos#!" #NT!
+ action_can_usurp_title_unimportant:1 "@warning_icon!#X No tienes suficiente [gold|E] para usurpar el Título#!" #NT!
+ action_can_usurp_title_HELP:0 "\n\n#help Usurpar pacíficamente un título puede costar [gold|E], pero tiene sus ventajas: $CREATE_USURP_TITLE_PROS_CONS$#!" #NT!
+ CREATE_USURP_TITLE_PROS_CONS:0 "\n$BULLET_WITH_TAB$Puedes aumentar tu [rank|E]\n$BULLET_WITH_TAB$Obtendrás [de_jure|E] [casus_bellis|E] en Títulos que son parte De Jure del Título\n$BULLET_WITH_TAB$[vassals|E] ahora puede considerarte su [rightful_liege|E]\n$BULLET_WITH_TAB$Obtienes [prestige|E]\n\nSin embargo, hay algunas desventajas:\n$BULLET_WITH_TAB$Tus vasallos pueden desear el Título\n$BULLET_WITH_TAB$Si su [rank|E]2 tiene un [rank|E]3 con múltiples [rank|E]4, afectará quién hereda qué títulos." #NT!
+ action_above_domain_limit:0 "Por encima de [domain_limit|E]" #NT!
+ action_above_domain_limit_label:0 "Por encima de [domain_limit|E]" #NT!
+ action_above_domain_limit_desc:2 "Estás [actor.GetDomainLimitOverrunWithoutGracePeriod|V] [holdings|E] por encima de tu límite de [domain|E] de [actor.GetDomainLimit|V], lo que reducirá tus [taxes|E] y [levies|E].\n\n#help Como [ruler|E], solo puedes conservar una cantidad limitada de existencias. El resto de las existencias en su [realm|E] debe estar en manos de su [vassals|E].\n\nDebe otorgar parte de su [holdings|E]0 con las existencias fuera. [holdings|E]1 y [holdings|E]2 son una buena opción, ya que serán débiles. ¡Los vasallos existentes también pueden aceptar títulos, pero luego se volverán más fuertes y podrían presentar una amenaza en el futuro![holdings|E]3" #NT!
+ action_above_domain_limit_click:0 "#I Haz clic para mostrar tus títulos#!" #NT!
+ action_above_vassal_limit:0 "Por encima de [vassal_limit|E]" #NT!
+ action_above_vassal_limit_label:0 "Por encima de [vassal_limit|E]" #NT!
+ action_above_vassal_limit_desc:1 "Estás [actor.GetVassalLimitOverrun|V] [direct_vassals|E] por encima de tu límite de Vasallo de [actor.GetVassalLimit|V], lo que reducirá los [taxes|E] y [levies|E] recibidos de tu [vassals|E].\n#help Cada [ruler|E] solo puede controlar una cierta cantidad de Vasallos Directos. En lugar de tenerlos como vasallos directos, deberían ser administrados por uno de tus otros vasallos. Para hacer esto, otorga uno de tus Vasallos a otro Vasallo.#!" #NT!
+ action_above_vassal_limit_click:0 "#I Haz clic para mostrar tus vasallos#!" #NT!
+
+ action_too_many_held_duchies_combined_group_label:1 "Demasiados ducados retenidos" #NT!
+ action_too_many_held_duchies_label:0 "$action_too_many_held_duchies_combined_group_label$" #NT!
+ action_too_many_held_duchies_combined_group_name:0 "$action_too_many_held_duchies_combined_group_label$" #NT!
+ action_too_many_held_duchies_combined_group_description:2 "Tienes más de dos [duchies|E] como [king|E] o [emperor|E], lo que reduce tu [vassals|E]' [opinion|E] de ti.\n\n#help Cuanto más $game_concept_duchies$ tengas sobre tus dos primeros, más envidiosos se pondrán tus vasallos. Si bien puedes ignorar sus quejas, considera otorgar parte de tu $game_concept_duchy$ [titles|E].\n\nDebes mantener $game_concept_duchies$ donde tienes muchos [king|E]0, especialmente tu [king|E]1[king|E]2" #NT!
+ action_too_many_held_duchies:0 "$action_too_many_held_duchies_combined_group_label$" #NT!
+ action_too_many_held_duchies_combined_label:0 "[landed_title.GetNameNoTooltip]" #NT!
+ action_too_many_held_duchies_desc:0 "$action_too_many_held_duchies_combined_group_description$" #NT!
+ action_too_many_held_duchies_click:0 "#I Haz clic para mostrar tus Ducados#!" #NT!
+ action_dying:0 "Muriendo" #NT!
+ action_dying_desc:5 "Estás a las puertas de la muerte.\n\n#help Si tienes un [player_heir|E], seguirás jugando como él. Es posible que tu [vassals|E] no les sea tan leal. Por lo tanto, es una buena idea no gastar demasiado [gold|E], para que pueda permitirse [mercenaries|E] o [Concept( 'gift', 'gifts' )|E]#!" #NT!
+ action_dying_label:1 "Estás a las puertas de la muerte." #NT!
+ action_dying_click:2 "#I Haz clic para ver tu personaje#!" #NT!
+ action_empty_council_position:0 "Posición vacía de [council|E]" #NT!
+ action_empty_council_position_label:0 "Posiciones vacías de [council|E]" #NT!
+ action_empty_council_position_desc:2 "A uno de sus puestos de [council|E] le falta un [councillor|E].\n\n#help Si un puesto del consejo está vacío, su tarea del consejo se suspende. Puede elegir un nuevo Concejal por su [skill|E] relevante, o porque es un [powerful_vassal|E] esperando un asiento.#!" #NT!
+ action_empty_council_position_click:2 "#I Haz clic para ver tu consejo#!" #NT!
+
+ action_powerful_vassal_not_on_council:2 "Poderoso vasallo espera un puesto en el consejo" #NT!
+ action_powerful_vassal_not_on_council_combined_group_label:2 "Poderosos Vasallos esperan Posiciones en el Consejo" #NT!
+ action_powerful_vassal_not_on_council_combined_group_name:1 "[powerful_vassals|E] espera [council|E] Posiciones" #NT!
+ action_powerful_vassal_not_on_council_desc:2 "[recipient.GetUIName] espera estar en tu [council|E] ya que [recipient.GetSheHe] es ​​un [powerful_vassal|E]. $action_powerful_vassal_not_on_council_HELP$" #NT!
+ action_powerful_vassal_not_on_council_combined_group_description:2 "Tu [powerful_vassals|E] espera estar en tu [council|E]. $action_powerful_vassal_not_on_council_HELP$" #NT!
+ action_powerful_vassal_not_on_council_label:3 "Poderoso vasallo espera un puesto en el consejo" #NT!
+ action_powerful_vassal_not_on_council_combined_label:1 "[recipient.GetUINameNoTooltip]" #NT!
+ action_powerful_vassal_not_on_council_click:3 "#I Haz clic para ver tu consejo#!" #NT!
+ action_powerful_vassal_not_on_council_HELP:0 "\n\n#help Deberías considerar darle a Powerful Vassals una posición [councillor|E]. De lo contrario, su [opinion|E] se reducirá y es posible que se unan a un [faction|E] en su contra.\n\nSin embargo, no todos tienen un [skills|E] lo suficientemente alto como para ser útiles, y si su [rank|E] es lo suficientemente alto, es posible que simplemente haya más Vasallos poderosos que asientos. en el Consejo.#!" #NT!
+
+ action_wrong_holding_type_combined_group_label:1 "[holdings|E] de tipo incorrecto" #NT!
+ action_wrong_holding_type_combined_label:0 "[landed_title.GetNameNoTierNoTooltip]" #NT!
+ action_wrong_holding_type:0 "[holding|E] de tipo incorrecto" #NT!
+ action_wrong_holding_type_combined_group_name:0 "[holdings|E] de tipo incorrecto" #NT!
+ action_wrong_holding_type_combined_group_description:1 "Algunas existencias son del tipo incorrecto para su forma de [government|E] y apenas le dan [taxes|E] o [levies|E].$action_wrong_holding_type_HELP$" #NT!
+ action_wrong_holding_type_label:1 "Deberías otorgar [landed_title.GetNameNoTier] a alguien" #NT!
+ action_wrong_holding_type_desc:1 "[landed_title.GetNameNoTier] es el tipo incorrecto para su forma de [government|E] y apenas le da [taxes|E] o [levies|E].$action_wrong_holding_type_HELP$" #NT!
+ action_wrong_holding_type_click:1 "#I Haz clic para seleccionar Título#!" #NT!
+ action_wrong_holding_type_HELP:0 "\n\n#help Cada gobernante tiene un tipo de Gobierno, que dicta qué tipos de [holdings|E] pueden administrar correctamente. Por ejemplo, los gobernantes feudales solo pueden manejar correctamente [castles|E]. Cualquier Holding del tipo incorrecto es prácticamente inútil y solo cuenta contra su [domain_limit|E].\n\nDebe otorgar este tipo de Holdings a un miembro [unlanded|E] de su [court|E], y se convertirá en su [vassal|E].#!" #NT!
+
+ action_upgrade_tribal_holding_type_combined_group_label:0 "Debería Feudalizar [tribal|E] [holdings|E]" #NT!
+ action_upgrade_tribal_holding_type_combined_label:0 "[landed_title.GetNameNoTierNoTooltip]" #NT!
+ action_upgrade_tribal_holding_type:0 "Debería Feudalizar [tribal|E] [holding|E]" #NT!
+ action_upgrade_tribal_holding_type_combined_group_name:0 "$action_upgrade_tribal_holding_type_combined_group_label$" #NT!
+ action_upgrade_tribal_holding_type_combined_group_description:0 "Como no [tribal|E] [character|E], $game_concept_tribal$ [holdings|E] no te da ni [levies|E] ni [taxes|E]. Deberías reformar el $game_concept_holding$, convirtiéndolo en un [castle|E].$action_upgrade_tribal_holding_type_HELP$" #NT!
+ action_upgrade_tribal_holding_type_label:0 "Deberías feudalizar [landed_title.GetNameNoTier]" #NT!
+ action_upgrade_tribal_holding_type_desc:0 "$action_upgrade_tribal_holding_type_combined_group_description$" #NT!
+ action_upgrade_tribal_holding_type_click:1 "#I Haz clic para seleccionar el $game_concept_holding$#!" #NT!
+ action_upgrade_tribal_holding_type_HELP:0 "\n\n#help $game_concept_tribal$ $game_concept_holdings$ son muy útiles para [rulers|E] con $game_concept_tribal$ [government|E], pero nadie más puede gobernarlos correctamente. Sin embargo, al invertir [gold|E] en la reforma de las tribus locales, el [holding_type|E] se puede cambiar permanentemente a un $game_concept_castle$, ¡que puede ser administrado por cualquiera!#!" #NT!
+
+ action_can_call_ally:1 "puedes llamar a aliado" #NT!
+ action_can_call_ally_combined_group_label:3 "Puedes llamar a los aliados a la guerra" #NT!
+ action_can_call_ally_combined_group_name:1 "Puedes llamar a aliados" #NT!
+ action_can_call_ally_desc:2 "Puedes llamar a tu [ally|E] [recipient.GetUIName] a tu [wars|E].$CALL_TO_WAR_HELP$" #NT!
+ action_can_call_ally_combined_group_description:2 "Puedes llamar a tu [allies|E] a tu [wars|E].$CALL_TO_WAR_HELP$" #NT!
+ action_can_call_ally_label:2 "Puedes llamar a tu Ally [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_call_ally_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_can_call_ally_click:0 "#I Haz clic para llamar a Ally#!" #NT!
+ CALL_TO_WAR_HELP:1 "\n\n#help Llamar a otros [rulers|E] a tu Guerra significa que es más probable que ganes, pero ten en cuenta que debes gastar [prestige|E] por cada [ally|E] que se una. Invocar miembros de [dynasty|E] cuesta [dynasty_prestige|E], mientras que los miembros de [house|E] se unirán a usted de forma gratuita, si aceptan su llamada.#!" #NT!
+
+ action_has_any_display_cb_on:1 "Puedes declarar [war|E] en [recipient.GetShortUINameNoTooltip]" #NT!
+ action_has_any_display_cb_on_combined_group_label:2 "Puedes declarar guerras" #NT!
+ action_has_any_display_cb_on_combined_group_name:1 "Puedes declarar múltiples [wars|E]" #NT!
+ action_has_any_display_cb_on_desc:2 "Tienes uno o más [casus_bellis|E] en [recipient.GetUIName]$action_has_any_display_cb_on_HELP$" #NT!
+ action_has_any_display_cb_on_combined_group_description:2 "Tienes [casus_bellis|E] en múltiples [rulers|E] $action_has_any_display_cb_on_HELP$" #NT!
+ action_has_any_display_cb_on_label:1 "Puedes declarar la guerra a [recipient.GetShortUINameNoTooltip]" #NT!
+ action_has_any_display_cb_on_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_has_any_display_cb_on_click:0 "#I Haz clic para ver [casus_bellis|E]#!" #NT!
+ action_has_any_display_cb_on_combined_unimportant:1 "@warning_icon!#X Todos tienen un [army|E] más fuerte que tú#!" #NT!
+ action_has_any_display_cb_on_unimportant:1 "@warning_icon!#X [recipient.GetSheHe|U] tiene un [army|E] más fuerte que tú#!" #NT!
+ action_has_any_display_cb_on_HELP:0 "\n\n#help Si tu ejército y [allies|E] son más fuertes que tu enemigo, la guerra puede ser muy beneficiosa. Puedes tomar [titles|E], expandir tu [realm|E] y ganar [prestige_experience|E].\n\nSin embargo, las guerras son costosas, especialmente si tienes que admitir [defeat|E]. Los vecinos ambiciosos pueden aprovecharse de tu Reino debilitado.#!" #NT!
+
+ action_dangerous_faction_targeting_me:0 "Facción peligrosa" #NT!
+ action_dangerous_faction_targeting_me_label:1 "Eres el objetivo de una facción peligrosa." #NT!
+ action_dangerous_faction_targeting_me_desc:3 "Un [faction|E] tiene suficiente [military_power|E] y enviará un Ultimátum pronto.\n\n#help Una vez que la Facción es lo suficientemente fuerte, su [discontent|E] aumenta hasta que finalmente envía un Ultimátum. ¡Tienes que aceptar sus demandas o prepararte para un [civil_war|E]!#!" #NT!
+ action_dangerous_faction_targeting_me_click:1 "#I Haz clic para ver la facción#!" #NT!
+
+ action_county_in_dangerous_populist_faction:0 "Condado en Facción Populista" #NT!
+ action_county_in_dangerous_populist_faction_label:0 "[landed_title.GetNameNoTierNoTooltip] en la Facción Populista" #NT!
+ action_county_in_dangerous_populist_faction_desc:0 "[landed_title.GetNameNoTierNoTooltip] se ha unido a un [popular_faction|E] contra tu señor.\n\n¡Aumenta el [county_opinion|E] de este condado o corre el riesgo de perderlo cuando la facción presente sus demandas!" #NT!
+ action_county_in_dangerous_populist_faction_click:0 "#I Haz clic para ver el condado#!" #NT!
+ action_county_in_dangerous_populist_faction_combined_group_label:0 "Condados en Facción Populista" #NT!
+ action_county_in_dangerous_populist_faction_combined_group_name:0 "$action_county_in_dangerous_populist_faction_combined_group_label$" #NT!
+ action_county_in_dangerous_populist_faction_combined_group_description:0 "Los campesinos de varios de tus condados se han unido en un [popular_faction|E] contra tu señor.\n\n¡Aumenta el [county_opinion|E] de estos condados o corre el riesgo de perderlos por completo cuando presenten sus demandas!" #NT!
+ action_county_in_dangerous_populist_faction_combined_label:0 "[landed_title.GetNameNoTierNoTooltip]" #NT!
+
+ action_can_send_faction_demand:0 "Enviar demanda de facción" #NT!
+ action_can_send_faction_demand_label:1 "Puedes enviar una demanda de facción" #NT!
+ action_can_send_faction_demand_desc:1 "Tu [faction|E] ha crecido lo suficiente como para convertirse en una amenaza. Debería considerar presionar sus demandas." #NT!
+ action_can_send_faction_demand_click:1 "#I Haz clic para ver la facción#!" #NT!
+ action_primary_heir_wrong_dynasty_but_replacement_exists:0 "[primary_heir|E] del [dynasty|E] incorrecto" #NT!
+ action_primary_heir_wrong_dynasty_but_replacement_exists_label:1 "¡Tu [primary_heir|E] no es de tu [dynasty|E]!" #NT!
+ action_primary_heir_wrong_dynasty_but_replacement_exists_desc:3 "¡Tu [primary_heir|E] no es de tu [dynasty|E]!\n\n#help Tu [primary_title|E] está configurado para ser heredado por alguien fuera de tu Dinastía. Esto significa que puedes perder bastante tierra una vez que mueras. Hay miembros de tu [dynasty|E] más abajo en el [line_of_succession|E]. Debes asegurarte de que uno de ellos herede, cambiando el [succession_laws|E] o incluso Asesinato...#!" #NT!
+ action_primary_heir_wrong_dynasty_but_replacement_exists_click:1 "#I Haz clic para ver tu heredero principal#!" #NT!
+ action_primary_heir_wrong_dynasty_no_replacement_exists:0 "$action_primary_heir_wrong_dynasty_but_replacement_exists$" #NT!
+ action_primary_heir_wrong_dynasty_no_replacement_exists_label:0 "$action_primary_heir_wrong_dynasty_but_replacement_exists_label$" #NT!
+ action_primary_heir_wrong_dynasty_no_replacement_exists_desc:0 "$action_primary_heir_wrong_dynasty_but_replacement_exists_label$\n\n#help Tu [primary_title|E] está configurado para ser heredado por alguien fuera de tu Dinastía. Esto significa que puedes perder bastante tierra una vez que mueras. Es posible que aún puedas hacer que los miembros de tu dinastía hereden cambiando los cambios actuales de [line_of_succession|E] en [succession_laws|E] o incluso Asesinato...#!" #NT!
+ action_primary_heir_wrong_dynasty_no_replacement_exists_click:0 "$action_primary_heir_wrong_dynasty_but_replacement_exists_click$" #NT!
+ action_no_player_heir_but_replacement_exists_gameover_risk:0 "Ningún [player_heir|E] de tu [dynasty|E]" #NT!
+ action_no_player_heir_but_replacement_exists_gameover_risk_label:0 "$action_no_player_heir_but_replacement_exists_gameover_risk$" #NT!
+ action_no_player_heir_but_replacement_exists_gameover_risk_desc:1 "¡No tienes ningún [titles|E] jugable que tus miembros de [dynasty|E] heredarán cuando fallezcas!\n\n#help ¡Esto significa que tu juego terminará si mueres! Sin embargo, hay miembros de tu $game_concept_dynasty$ más abajo en el [line_of_succession|E] en al menos uno de tus $game_concept_titles$. Debe asegurarse de que uno de ellos pueda heredar un $game_concept_title$ de [count|E] [title_rank|E] o superior, cambiando el [succession_laws|E] o trazando un [dynasty|E]0...[dynasty|E]1" #NT!
+ action_no_player_heir_but_replacement_exists_gameover_risk_click:0 "#I Haz clic para ver $game_concept_title$#!" #NT!
+
+ action_no_heir:1 "Sin [player_heir|E]" #NT!
+ action_no_heir_label:2 "¡No tienes un [player_heir|E] válido!" #NT!
+ action_no_heir_desc:5 "¡Ninguno de tus [titles|E] puede ser heredado por un [heir|E] de tu [dynasty|E]!\n\n#help Si no tienes heredero de tu dinastía, ¡el juego habrá terminado! ¡Usted (o uno de sus parientes dinásticos cercanos) necesita tener un hijo legítimo y asegurarse de que el [succession_laws|E] y el [gender_laws|E] de su [realm|E] les permitan heredar!#!" #NT!
+ action_no_heir_click:1 "#I Haz clic para ver tu personaje#!" #NT!
+ action_title_lost_from_realm_on_succession:0 "El reino perderá tierras cuando Vassal muera." #NT!
+ action_title_lost_from_realm_on_succession_label:0 "$action_title_lost_from_realm_on_succession$" #NT!
+ action_title_lost_from_realm_on_succession_desc:2 "Tu [vassal|E] [recipient.GetUIName] tiene [titles|E] que será heredado por [rulers|E] que no son tus [vassals|E].\n\n$TLFR_CROWN_AUTHORITY_TIP$" #NT!
+ action_title_lost_from_realm_on_succession_click:0 "#I Haz clic para ver#!" #NT!
+ action_title_lost_from_realm_on_succession_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_title_lost_from_realm_on_succession_combined_group_label:1 "El reino perderá la tierra cuando los vasallos mueran." #NT!
+ action_title_lost_from_realm_on_succession_combined_group_name:0 "El reino perderá la tierra cuando los vasallos mueran." #NT!
+ action_title_lost_from_realm_on_succession_combined_group_description:2 "Algunos de tus [vassals|E] tienen [titles|E] que serán heredados por [rulers|E] que no son tus [vassals|E].\n\n$TLFR_CROWN_AUTHORITY_TIP$" #NT!
+ TLFR_CROWN_AUTHORITY_TIP:1 "#help La forma más confiable de evitar esto es aumentar tu [crown_authority|E] a [GetLaw('crown_authority_2').GetName]. Dicho esto, podría ser simplemente que el Vasallo en cuestión no tiene hijos legítimos. Si son [married|E] y fértiles, el problema podría resolverse solo.#!" #NT!
+
+ action_title_lost_from_realm_on_foreign_ruler_succession:0 "El reino perderá tierras cuando Vassal herede un título extranjero" #NT!
+ action_title_lost_from_realm_on_foreign_ruler_succession_label:0 "$action_title_lost_from_realm_on_foreign_ruler_succession$" #NT!
+ action_title_lost_from_realm_on_foreign_ruler_succession_desc:0 "Tu [vassal|E] [recipient.GetShortUIName] será [Concept( 'heir', 'inherit' )|E] el [landed_title.GetBaseName], un [title|E] extranjero de un [Concept( 'title_tier', 'Tier' )|E] superior al [recipient.GetHerHis] actual [primary_title|E].\n\n$TLFR_FOREIGN_RULER_SUCCESSION_TIPS$" #NT!
+ action_title_lost_from_realm_on_foreign_ruler_succession_click:0 "#I Haz clic para ver#!" #NT!
+ action_title_lost_from_realm_on_foreign_ruler_succession_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_title_lost_from_realm_on_foreign_ruler_succession_combined_group_label:0 "El reino perderá tierras cuando los vasallos hereden títulos extranjeros" #NT!
+ action_title_lost_from_realm_on_foreign_ruler_succession_combined_group_name:0 "El reino perderá tierras cuando los vasallos hereden títulos extranjeros" #NT!
+ action_title_lost_from_realm_on_foreign_ruler_succession_combined_group_description:0 "Algunos de tus [vassals|E] [Concept( 'heir', 'inherit' )|E] títulos extranjeros de un [Concept( 'title_tier', 'Tier' )|E] más alto que su [primary_title|E] actual.\n\n$TLFR_FOREIGN_RULER_SUCCESSION_TIPS$" #NT!
+ TLFR_FOREIGN_RULER_SUCCESSION_TIPS:0 "#help Si un vasallo obtiene un título en un reino extranjero de un [title_rank|E] más alto que su [primary_title|E] actual, ya no será su vasallo.\n\nEs posible evitar que la tierra de su vasallo abandone su reino mediante:\n$BULLET_WITH_TAB$[Concept( 'revoke', 'Revoking' )|E] el título de su vasallo\ n$BULLET_WITH_TAB$Otorgar a tu vasallo un título igual en [Concept('title_tier', 'Tier')|E] al que heredarán#!" #NT!
+
+ action_disabled_building:0 "Edificio para discapacitados en [landed_title.GetNameNoTierNoTooltip]" #NT!
+ action_disabled_building_label:0 "Edificio para discapacitados en [landed_title.GetNameNoTierNoTooltip]" #NT!
+ action_disabled_building_combined_label:0 "[landed_title.GetNameNoTierNoTooltip]" #NT!
+ action_disabled_building_desc:2 "Uno o más de tus [buildings|E] en [landed_title.GetNameNoTier] están deshabilitados.$action_disabled_building_HELP$" #NT!
+ action_disabled_building_click:0 "#I Haz clic para ver#!" #NT!
+ action_disabled_building_combined_group_label:2 "Edificios para discapacitados" #NT!
+ action_disabled_building_combined_group_name:1 "Edificios para discapacitados" #NT!
+ action_disabled_building_combined_group_description:2 "Múltiples [buildings|E] en tu [holdings|E] deshabilitado.$action_disabled_building_HELP$" #NT!
+ action_disabled_building_HELP:0 "\n\n#help Un edificio deshabilitado no proporciona beneficios a su propietario. Si bien puede haber muchas razones por las que un edificio está deshabilitado, el más común es que tiene el tipo de [government|E] incorrecto.#!" #NT!
+ action_nominate_successor:0 "Nominar sucesor" #NT!
+ action_nominate_successor_desc:4 "No ha emitido su voto para [title_heir|E] para [landed_title.GetName].\n\n#help Algunos [titles|E] usan la forma electiva de [succession|E], donde se elige al Heredero en lugar de pasarlo a un pariente directo. Deberías votar por alguien, idealmente uno de tus [realm_heirs|E] o un miembro de tu [dynasty|E].#!" #NT!
+ action_nominate_successor_click:1 "#I Haga clic para ver las elecciones#!" #NT!
+ action_can_call_house_member:1 "Puede llamar a un miembro de la Cámara" #NT!
+ action_can_call_house_member_combined_group_label:3 "Puede llamar a los miembros de la Cámara" #NT!
+ action_can_call_house_member_combined_group_name:2 "Puede llamar a los miembros de la Cámara" #NT!
+ action_can_call_house_member_desc:2 "Puedes llamar a tu [house|E] miembro [recipient.GetUIName] a tu [wars|E].$CALL_TO_WAR_HELP$" #NT!
+ action_can_call_house_member_group_description:2 "Puedes llamar a tus miembros de [house|E] a tu [wars|E].$CALL_TO_WAR_HELP$" #NT!
+ action_can_call_house_member_combined_group_description:0 "$action_can_call_house_member_group_description$" #NT!
+ action_can_call_house_member_label:2 "Puedes llamar a tu miembro de la Cámara [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_call_house_member_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_can_call_house_member_click:0 "#I Haz clic para llamar Miembro de la Cámara#!" #NT!
+
+ action_can_call_dynasty_member:2 "Puedes llamar a un miembro de Dynasty" #NT!
+ action_can_call_dynasty_member_combined_group_label:3 "Puedes llamar a los miembros de Dynasty" #NT!
+ action_can_call_dynasty_member_combined_group_name:2 "Puedes llamar a los miembros de Dynasty" #NT!
+ action_can_call_dynasty_member_desc:2 "Puedes llamar a tu [dynasty|E] miembro [recipient.GetUIName] a tu [wars|E].$CALL_TO_WAR_HELP$" #NT!
+ action_can_call_dynasty_member_group_description:2 "Puedes llamar a tus miembros de [dynasty|E] a tu [wars|E].$CALL_TO_WAR_HELP$" #NT!
+ action_can_call_dynasty_member_combined_group_description:0 "$action_can_call_dynasty_member_group_description$" #NT!
+ action_can_call_dynasty_member_label:2 "Puedes llamar a tu miembro de Dynasty [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_call_dynasty_member_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_can_call_dynasty_member_click:0 "#I Haz clic para llamar a Dynasty Member#!" #NT!
+
+ action_not_enough_knights:1 "Pocos $knight_culture_player_plural_no_tooltip$" #NT!
+ action_not_enough_knights_label:2 "Pocos $knight_culture_player_plural_no_tooltip$" #NT!
+ action_not_enough_knights_desc:3 "No tiene la cantidad máxima de $knight_culture_player_plural$ empleados.\n\n#help Si bien no es necesario tener la cantidad máxima de $knight_culture_player_plural_no_tooltip$, un $knight_culture_player_no_tooltip$ con un [prowess|E] alto hará una gran diferencia en [battles|E].\n\nObtenga más y $knight_culture_player_plural_no_tooltip$ reclutando [guests|E] existente en su [court|E], o envíe la palabra que está buscando $knight_culture_player_plural_no_tooltip$.#help 0" #NT!
+ action_not_enough_knights_click:1 "#I Haz clic para ver tu Military#!" #NT!
+
+
+ action_take_decision:1 "Decisión disponible: [SCOPE.GetDecisionFromEventTargetFlag( 'decision_type' ).GetTitleForPlayer]" #NT!
+ action_take_decision_label:0 "[SCOPE.GetDecisionFromEventTargetFlag( 'decision_type' ).GetTitleForPlayer]" #NT!
+ action_take_decision_desc:1 "[SCOPE.GetDecisionFromEventTargetFlag( 'decision_type' ).GetDescriptionForPlayer]\n\n#help Esta decisión está configurada para notificarle tan pronto como esté disponible. Puede activar y desactivar esto para cada Decisión#!" #NT!
+ action_take_decision_click:1 "#I Haz clic para ver tus Decisiones#!" #NT!
+
+ action_ask_for_pardon:0 "Indulto disponible" #NT!
+ action_ask_for_pardon_label:0 "Puedes pedir perdón" #NT!
+ action_ask_for_pardon_desc:1 "Actualmente, tu [top_liege|E] te considera un [criminal|E], pero [recipient.GetSheHe] puede otorgarte el perdón.\n\n#help Si eres un criminal, ¡tu Lieja podría [imprison|E] en cualquier momento! Si bien puede costarle [hook|E], por lo general es mejor tratar de obtener el indulto.#!" #NT!
+ action_ask_for_pardon_click:1 "#I Haz clic para pedir perdón#!" #NT!
+
+ action_convert_at_war_interaction:0 "Adoptar el [faith|E] del atacante disponible" #NT!
+ action_convert_at_war_interaction_label:1 "Puedes convertir a la Fe del atacante" #NT!
+ action_convert_at_war_interaction_desc:2 "Puedes convertirte al [faith|E] de [recipient.GetShortUIName] para acabar con [recipient.GetHerHis] [holy_war|E] en tu contra.\n\n#help Aunque es útil terminar una guerra que estás perdiendo, ¡ten en cuenta que los miembros de tu antigua fe perderán [opinion|E] de ti!#!" #NT!
+ action_convert_at_war_interaction_click:1 "#I Haz clic para adoptar su Fe#!" #NT!
+
+ mercenary_contract_expiring:0 "[mercenary_company|E] Contrato a punto de expirar" #NT!
+ mercenary_contract_expiring_label:0 "Expiración del contrato de mercenario" #NT!
+ mercenary_contract_expiring_desc:2 "El contrato con [SCOPE.sMercenary('target').GetName] expirará en [SCOPE.sMercenary('target').GetHiredTimeLeft].\n\n#help Los mercenarios solo lucharán por ti por un tiempo limitado. Si no los necesita, puede dejar que el contrato caduque.#!" #NT!
+ mercenary_contract_expiring_click:1 "#I Haz clic para ver la Compañía Mercenaria#!" #NT!
+ action_mega_duke_penalty:0 "Demasiados [counties|E]" #NT!
+ action_mega_duke_penalty_label:0 "Demasiados [counties|E]" #NT!
+ action_mega_duke_penalty_desc:3 "Tu [realm_size|E] es demasiado grande para un [duke|E], lo que te hace sufrir [megaduke_penalty|E].\n\n#help Los Dukes no pueden crecer demasiado y tener demasiados [counties|E] en su [realm|E]. Mientras tenga demasiados [counties|E], sufrirá una reducción de [income|E]. Debes crear un [kingdom|E] Título.#!" #NT!
+ action_mega_duke_penalty_click:0 ""
+ action_in_debt:0 "En deuda" #NT!
+ action_in_debt_label:1 "usted está en deuda" #NT!
+ action_in_debt_desc:6 "¡Tiene menos de 0 [gold|E] y por lo tanto está en [debt|E]!\n\nEstar en deuda tiene los siguientes efectos:\n$BULLET_WITH_TAB$No puede declarar [war|E]\n$BULLET_WITH_TAB$No puede reforzar [men_at_arms|E] que requieren [gold|E]\n$BULLET_WITH_TAB$[county_corruption|E] se extiende en su [domain|E]\n$BULLET_WITH_TAB$[debt|E]1 tiene más probabilidades de unirse a [debt|E]2\n \nCuanto más endeudado esté, más duras serán las sanciones a las que se enfrentará. Su nivel de deuda actual tiene los siguientes efectos adicionales:\n\n[debt|E]3\n\n[debt|E]4Si no gana oro todos los meses, considere reducir sus gastos, por ejemplo:\n$BULLET_WITH_TAB$Desmantelando su [debt|E]6\n$BULLET_WITH_TAB$Reduciendo el tamaño de, o destruyendo, su [men_at_arms|E]\n$BULLET_WITH_TAB$Aumentando $BULLET_WITH_TAB$0 usando su $BULLET_WITH_TAB$1\n$BULLET_WITH_TAB$Revocando $BULLET_WITH_TAB$3$BULLET_WITH_TAB$4" #NT!
+ action_in_debt_click:0 ""
+
+ action_send_child_to_university:0 "Enviar niño a la universidad" #NT!
+ action_send_child_to_university_label:0 "Enviar niño a la universidad" #NT!
+ action_send_child_to_university_click:1 "#I Haga clic para enviar a su hijo a la universidad#!" #NT!
+ action_send_child_to_university_desc:1 "Puede enviar a su hijo a la universidad\n\n#help ¡Existe una universidad [building|E] en su [realm|E]! Enviar a un niño allí para recibir educación es beneficioso, ya que mejorará su [education|E].\n\nSin embargo, es posible que ya tenga en mente un [guardian|E] específico.#!" #NT!
+ action_send_child_to_university_unimportant:0 "@warning_icon!#X No tienes suficiente [gold|E] para pagar la educación#!" #NT!
+ is_sent_to_university:1 "Obtendrá una mejor educación de lo habitual!" #NT!
+
+ action_send_guardian_to_university:0 "$action_send_child_to_university$" #NT!
+ action_send_guardian_to_university_label:0 "$action_send_child_to_university_label$" #NT!
+ action_send_guardian_to_university_click:1 "$action_send_child_to_university_click$" #NT!
+ action_send_guardian_to_university_desc:0 "Puede enviar a su hijo a la universidad\n\n#help ¡Existe una universidad [building|E] en el [realm|E] del niño! Enviar a un niño allí para recibir educación es beneficioso ya que mejorará su [education|E].\n\nSin embargo, necesitan un [guardian|E] para guiarlos.#!" #NT!
+ action_send_guardian_to_university_unimportant:0 "$action_send_child_to_university_unimportant$" #NT!
+
+ action_send_child_to_your_university:0 "$action_send_child_to_university$" #NT!
+ action_send_child_to_your_university_label:0 "$action_send_child_to_university_label$" #NT!
+ action_send_child_to_your_university_click:1 "$action_send_child_to_university_click$" #NT!
+ action_send_child_to_your_university_desc:0 "$action_send_child_to_university_desc$" #NT!
+ action_send_child_to_your_university_unimportant:0 "$action_send_child_to_university_unimportant$" #NT!
+
+ action_send_yourself_to_university:0 "Asistir a la universidad" #NT!
+ action_send_yourself_to_university_label:0 "$action_send_yourself_to_university$" #NT!
+ action_send_yourself_to_university_click:1 "#I Haz clic para asistir a la Universidad#!" #NT!
+ action_send_yourself_to_university_desc:0 "Puedes asistir a la universidad\n\n#help ¡Existe una universidad [building|E] en tu [realm|E]! Asistir a la universidad como parte de tu [education|E] es beneficioso ya que mejorará los resultados de tus estudios.#!" #NT!
+ action_send_yourself_to_university_unimportant:0 "$action_send_child_to_university_unimportant$" #NT!
+
+ action_war_declared:0 "¡Declaracion de guerra!" #NT!
+ action_war_declared_desc:0 "[war.GetName]" #NT!
+ action_war_declared_click:0 "#I Haz clic para ver#!" #NT!
+
+ is_defender_in_war_trigger:0 "¿Está el Defensor en [war.GetName]?" #NT!
+ is_attacker_in_war_trigger:0 "¿Está el atacante en [war.GetName]?" #NT!
+ is_leader_in_war_trigger:0 "Es un [war_leader|E] en [war.GetName]" #NT!
+ is_participant_in_war_trigger:0 "Es un participante en [war.GetName]" #NT!
+ is_at_war_as_attacker_trigger:0 "Está en [war|E] como atacante" #NT!
+ is_at_war_as_defender_trigger:0 "Está en [war|E] como Defensor" #NT!
+ faction_is_at_war_trigger:0 "La facción está en [war|E]" #NT!
+ attacker_war_score:0 "Puntuación de guerra del atacante" #NT!
+ defender_war_score:0 "Puntuación de guerra del defensor" #NT!
+
+ action_war_summary_header:1 "#T Fin de la guerra#!" #NT!
+ action_war_summary_victory:0 "Ganamos el $WAR_NAME$" #NT!
+ action_war_summary_white_peace:0 "El $WAR_NAME$ ha terminado en un [white_peace|E]" #NT!
+ action_war_summary_defeat:0 "Perdimos el $WAR_NAME$" #NT!
+ action_war_summary_invalid:0 "El $WAR_NAME$ se ha vuelto inválido" #NT!
+ action_war_summary_click:0 "#I Haz clic para mostrar el resumen de la guerra#!" #NT!
+
+ action_missing_ghw_beneficiary:1 "Sin [beneficiary|E]" #NT!
+ action_missing_ghw_beneficiary_label:1 "Sin [beneficiary|E]" #NT!
+ action_missing_ghw_beneficiary_desc:2 "No tienes ningún [beneficiary|E] seleccionado para [actor.GetFaith.GHWName].\n\n#help En Great Holy Wars, cada Participante puede tener un Beneficiario. Este Beneficiario obtendrá parte de los [titles|E] conquistados si se gana la guerra. Lo mejor es elegir un beneficiario que le guste o traerá [dynasty_prestige|E] a su [dynasty|E].#!" #NT!
+ action_missing_ghw_beneficiary_click:1 "Click para ver Gran Guerra Santa" #NT!
+
+ action_ghw_participation_alert:0 "Pendiente [actor.GetFaith.GHWName] Participación" #NT!
+ action_ghw_participation_alert_label:0 "Pendiente [actor.GetFaith.GHWName] Participación" #NT!
+ action_ghw_participation_alert_desc:3 "No has donado [gold|E] ni has prometido tu [armies|E] al próximo [actor.GetFaith.GHWName].\n\n#help Si no entregas ni Oro ni Soldados al esfuerzo de guerra, tu [head_of_faith|E] te condenará y perderás [piety|E].#!" #NT!
+ action_ghw_participation_alert_click:1 "Click para ver Gran Guerra Santa" #NT!
+
+ action_not_endorsed_by_realm_priest:1 "No respaldado por tu [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E]" #NT!
+ action_not_endorsed_by_realm_priest_label:2 "No respaldado por tu [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName ]" #NT!
+ action_not_endorsed_by_realm_priest_desc:3 "Tu [recipient.GetCouncilTitle], [recipient.GetUIName], no te respalda. \n\n#help Debes asegurarte de que [recipient.GetSheHe] tenga un #P positivo#! [opinion|E] tuyo. De lo contrario, ¡[recipient.GetSheHe] no le proporcionará ningún [levies|E] o [taxes|E]!\n\nSi [recipient.GetUIName]0 Su opinión es igual o inferior a [recipient.GetUIName]1-10[recipient.GetUIName]2[recipient.GetSheHe] podría empezar a interferir en sus asuntos.[recipient.GetUIName]4" #NT!
+ action_not_endorsed_by_realm_priest_click:1 "#I Haz clic para ver tu [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName]#!" #NT!
+
+ action_not_endorsed_by_realm_priest_no_holding:0 "$action_not_endorsed_by_realm_priest$" #NT!
+ action_not_endorsed_by_realm_priest_no_holding_label:0 "$action_not_endorsed_by_realm_priest_label$" #NT!
+ action_not_endorsed_by_realm_priest_no_holding_desc:0 "Tu [recipient.GetCouncilTitle], [recipient.GetUIName], no te respalda.\n\n#help Debes asegurarte de que [recipient.GetSheHe] tenga un #P positivo#! [opinion|E] tuyo. Si [recipient.GetHerHis] Tu opinión es igual o inferior a #N -10#!, [recipient.GetSheHe] podría empezar a interferir en tus asuntos.[recipient.GetUIName]1" #NT!
+ action_not_endorsed_by_realm_priest_no_holding_click:0 "$action_not_endorsed_by_realm_priest_click$" #NT!
+
+ action_can_assign_guardian:0 "Se puede asignar tutor" #NT!
+ action_can_assign_guardian_combined_group_label:2 "Los niños carecen de tutores" #NT!
+ action_can_assign_guardian_combined_group_name:0 "$action_can_assign_guardian$" #NT!
+ action_can_assign_guardian_desc:2 "Puede designar un [guardian|E] para [recipient.GetShortUIName].$action_can_assign_guardian_HELP$" #NT!
+ action_can_assign_guardian_combined_group_description:2 "Puedes designar [guardians|E] para tus hijos.$action_can_assign_guardian_HELP$" #NT!
+ action_can_assign_guardian_label:1 "Puedes designar un tutor para [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_assign_guardian_combined_label:1 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_assign_guardian_click:0 "#I Haz clic para designar un [guardian|E]#!" #NT!
+ action_can_assign_guardian_combined_unimportant:1 "@warning_icon!#X Solo a tus hijos menores les falta [guardians|E]#!" #NT!
+ action_can_assign_guardian_unimportant:1 "@warning_icon!#X Tienes muchos hijos mayores#!" #NT!
+ action_can_assign_guardian_HELP:0 "\n\n#help A sus hijos se les puede asignar un tutor, quien transferirá su [skills|E] y otros conocimientos al niño. Un guardián con un buen [education_trait|E] se lo transferirá al niño, mientras que dejar que un [vassal|E] eduque a su hijo aumentará su [opinion|E] de usted. Si quiere más control, puede educar al niño usted mismo. #!" #NT!
+
+ action_in_line_of_succession_for_title:1 "[actor.GetPlaceInSuccession(landed_title)|O] en línea para heredar el [landed_title.GetNameNoTooltip]" #NT!
+ action_in_line_of_succession_for_title_combined_group_label:2 "Estás en línea para heredar títulos" #NT!
+ action_in_line_of_succession_for_title_combined_group_name:1 "Estás en línea para heredar múltiples [titles|E]" #NT!
+ action_in_line_of_succession_for_title_desc:4 "Eres [actor.GetPlaceInSuccession(landed_title)|O] en [line|E] para el [landed_title.GetName].\n\n#help Si bien es posible que eventualmente heredes este título incluso sin tomar medidas, un [GetScheme('murder').GetTypeName] podría acelerar tu adquisición y evitar que pierdas tu lugar en la fila.#!" #NT!
+ action_in_line_of_succession_for_title_combined_group_description:3 "Estás alto en el [line_of_succession|E] para múltiples [titles|E].\n\n#help Si bien es posible que eventualmente heredes estos títulos sin tomar medidas, un [GetScheme('murder').GetTypeName] podría acelerar tu adquisición de ellos y evitar que pierdas tu lugar en la fila.#!" #NT!
+ action_in_line_of_succession_for_title_label:0 "$action_in_line_of_succession_for_title$" #NT!
+ action_in_line_of_succession_for_title_combined_label:1 "[actor.GetPlaceInSuccession(landed_title)|O] en línea para [landed_title.GetNameNoTooltip]" #NT!
+ action_in_line_of_succession_for_title_click:0 "#I Haz clic para ver [title|E]#!" #NT!
+ action_in_line_of_succession_for_title_combined_unimportant:0 "@warning_icon!#X Todos estos títulos ya están en tu [realm|E]#!" #NT!
+ action_in_line_of_succession_for_title_unimportant:0 "@warning_icon!#X Este título ya está en tu [realm|E]#!" #NT!
+
+ action_heir_in_line_of_succession_for_title:1 "Heredero [actor.GetPlaceInSuccession(landed_title)|O] en línea para heredar [landed_title.GetNameNoTierNoTooltip]" #NT!
+ action_heir_in_line_of_succession_for_title_combined_group_label:1 "Heredero en línea para heredar títulos" #NT!
+ action_heir_in_line_of_succession_for_title_combined_group_name:0 "Heredero en línea para heredar múltiples [titles|E]" #NT!
+ action_heir_in_line_of_succession_for_title_desc:5 "Su [player_heir|E] [actor.GetShortUIName] es [actor.GetPlaceInSuccession(landed_title)|O] en [line_of_succession|E] para [landed_title.GetName].\n\n#help Si bien es posible que [actor.GetSheHe] herede este título en [actor.GetHerHis], un [GetScheme('murder').GetTypeName] podría acelerar la adquisición de [actor.GetHerHis] y garantizar que [actor.GetSheHe] no pierda el lugar de [actor.GetHerHis] en la línea.[actor.GetShortUIName]2" #NT!
+ action_heir_in_line_of_succession_for_title_combined_group_description:4 "Su [player_heir|E] [actor.GetShortUIName] es alto en el [line_of_succession|E] para múltiples [titles|E].\n\n#help Si bien es posible que [actor.GetSheHe] herede estos títulos en [actor.GetHerHis], un [GetScheme('murder').GetTypeName] podría acelerar la adquisición de [actor.GetHerHis] y garantizar que [actor.GetSheHe] no pierda el lugar de [actor.GetHerHis] en la línea.[actor.GetShortUIName]1" #NT!
+ action_heir_in_line_of_succession_for_title_label:0 "$action_heir_in_line_of_succession_for_title$" #NT!
+ action_heir_in_line_of_succession_for_title_combined_label:1 "[actor.GetPlaceInSuccession(landed_title)|O] en línea para [landed_title.GetNameNoTooltip]" #NT!
+ action_heir_in_line_of_succession_for_title_click:0 "#I Haz clic para ver [title|E]#!" #NT!
+ action_heir_in_line_of_succession_for_title_combined_unimportant:0 "$action_in_line_of_succession_for_title_combined_unimportant$" #NT!
+ action_heir_in_line_of_succession_for_title_unimportant:0 "$action_in_line_of_succession_for_title_unimportant$" #NT!
+
+ action_low_control_in_county:0 "Bajo control del condado en [landed_title.GetNameNoTierNoTooltip]" #NT!
+ action_low_control_in_county_combined_group_label:1 "Bajo control en los condados" #NT!
+ action_low_control_in_county_combined_group_name:0 "[control|E] bajo en múltiples [counties|E]" #NT!
+ action_low_control_in_county_desc:2 "Tu [control|E] del [landed_title.GetName] es bajo, lo que reduce el [taxes|e] y el [levies|e] que recibes de él.$action_low_control_in_county_HELP$" #NT!
+ action_low_control_in_county_combined_group_description:2 "Tu [control|E] en varios [counties|E] es bajo, reduciendo los [taxes|E] y [levies|E] que recibes de ellos. $action_low_control_in_county_HELP$" #NT!
+ action_low_control_in_county_label:0 "$action_low_control_in_county$" #NT!
+ action_low_control_in_county_combined_label:0 "[landed_title.GetNameNoTooltip]" #NT!
+ action_low_control_in_county_click:1 "#I Haz clic para ver el [county|E]#! afectado" #NT!
+ action_low_control_in_county_HELP:0 "\n\n#help Puedes asignar [marshal|E] a la tarea [increase_control|E] para aumentar el control del condado.#!" #NT!
+
+
+ action_not_rightful_liege:1 "No es señor legítimo de [recipient.GetShortUINameNoTooltip]" #NT!
+ action_not_rightful_liege_combined_group_label:1 "No legítimo señor de vasallos" #NT!
+ action_not_rightful_liege_combined_group_name:0 "No [rightful_liege|E] de múltiples [vassals|E]" #NT!
+ action_not_rightful_liege_desc:2 "No eres el [rightful_liege|E] de tu [actor.Custom2('RelationToMeShort', recipient)] [recipient.GetShortUIName].\n\nDebes comprobar si puedes [create|E] o [usurp|E] un título que te haría [recipient.GetHerHis] [de_jure|E] [liege|E]; al hacerlo, mejorará [recipient.GetHerHis] [opinion|E] y aumentará el [actor.Custom2('RelationToMeShort', recipient)]0 y [actor.Custom2('RelationToMeShort', recipient)]1 que recibe de [actor.Custom2('RelationToMeShort', recipient)]2.\n\nSi eso no es posible, puede considerar [actor.Custom2('RelationToMeShort', recipient)]3 a otro de sus vasallos, especialmente si ese vasallo sería su [rightful_liege|E]." #NT!
+ action_not_rightful_liege_combined_group_description:1 "No eres el [rightful_liege|E] de varios de tus vasallos.\n\nComprueba si puedes [create|E] o [usurp|E] títulos que te convertirán en su [de_jure|E] [liege|E]; al hacerlo, mejorará su [opinion|E] de usted y aumentará el [taxes|E] y el [levies|E] que recibe de ellos.\n\nSi eso no es posible, puede considerarlos [transferring|E] como otro de sus vasallos, especialmente si ese vasallo sería su [rightful_liege|E]." #NT!
+ action_not_rightful_liege_label:0 "$action_not_rightful_liege$" #NT!
+ action_not_rightful_liege_combined_label:1 "[recipient.GetShortUINameNoTooltip]" #NT!
+ action_not_rightful_liege_click:0 "#I Haz clic para ver los [vassals|E]#! afectados" #NT!
+
+ action_being_raided:0 "siendo allanado" #NT!
+ action_being_raided_desc:1 "[raiders|E] de [recipient.GetShortUIName] están en tu territorio.\n\n#help Levanta tu [armies|E] y derrótalos en [battle|E] para evitar que asalten y reduzcan [county_control|E] en tu [realm|E]#!" #NT!
+ action_being_raided_click:0 "#I Haz clic para ir al ejército de asalto#!" #NT!
+
+ ACTION_IS_VISIBLE_READ_UNREAD:1 "[Select_CString( ImportantActionItem.IsRead, '#same', '#medium')] [ImportantActionItem.GetLabel]#!" #NT!
+ ACTION_IS_VISIBLE_READ_UNREAD_COMBINED:1 "[Select_CString( ImportantActionItem.IsRead, '#same', '#medium;italic')] [ImportantActionItem.GetCombinedLabel]#!" #NT!
+
+ action_can_ransom:0 "El prisionero puede ser rescatado" #NT!
+ action_can_ransom_combined_group_label:0 "¡Los prisioneros pueden ser rescatados @gold_icon!" #NT!
+ action_can_ransom_combined_group_name:0 "$action_can_ransom$" #NT!
+ action_can_ransom_desc:1 "Puedes rescatar tu [prisoner|E], [recipient.GetShortUIName], por [gold|E].$action_can_ransom_HELP$" #NT!
+ action_can_ransom_combined_group_description:1 "Puedes rescatar tu [prisoners|E] por [gold|E].$action_can_ransom_HELP$" #NT!
+ action_can_ransom_label:0 "¡Puedes rescatar a [recipient.GetShortUINameNoTooltip] @gold_icon!" #NT!
+ action_can_ransom_combined_label:0 "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_ransom_click:0 "#I Haga clic para rescatar [prisoner]#!" #NT!
+ action_can_ransom_HELP:0 "\n\n#help Si un prisionero es una amenaza para ti, como un [rival|E], es posible que no quieras rescatarlo. Si es así, tal vez quieras [execute|E] o dejar que se pudran en las mazmorras indefinidamente... #!" #NT!
+
+ action_can_vassalize:0 "El vecino puede ser Vassalized" #NT!
+ action_can_vassalize_combined_group_label:0 "Los vecinos pueden ser vasalizados" #NT!
+ action_can_vassalize_combined_group_name:0 "$action_can_vassalize_combined_group_label$" #NT!
+ action_can_vassalize_desc:1 "Un vecino [ruler|E], [recipient.GetUIName], desea su protección y aceptaría [vassalization|E].$action_can_vassalize_HELP$" #NT!
+ action_can_vassalize_combined_group_description:1 "Puedes [vassalize|E] vecino [rulers|E].$action_can_vassalize_HELP$" #NT!
+ action_can_vassalize_label:0 "Puedes vasalizar [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_vassalize_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_can_vassalize_click:0 "#I Haz clic para ofrecer vasallaje#!" #NT!
+ action_can_vassalize_HELP:0 "\n\n#help Los gobernantes [independent|E] débiles pueden buscar tu protección y solicitar convertirse en tu [vassal|E]. Ampliar tu [realm|E] sin pasar a [war|E] es prácticamente siempre beneficioso.#!" #NT!
+
+ action_can_propose_alliance_to_family_member:0 "Puedes Negociar Alianza" #NT!
+ action_can_propose_alliance_to_family_member_combined_group_label:0 "Puedes Negociar Alianzas" #NT!
+ action_can_propose_alliance_to_family_member_combined_group_name:0 "$action_can_propose_alliance_to_family_member_combined_group_label$" #NT!
+ action_can_propose_alliance_to_family_member_desc:2 "Puedes negociar un [alliance|E] con [recipient.GetUIName] ya que comparten lazos de sangre.#help \n\n¡Cuidado! Algunos [alliances|E] son más problemáticos de lo que valen...\n\nAsegúrate de que realmente deseas este [alliance|E], ya que podrías verte arrastrado a sus conflictos sin sentido.#!" #NT!
+ action_can_propose_alliance_to_family_member_combined_group_description:2 "Puedes negociar [alliances|E] con algunos miembros de tu [close_family|E] sin tener que organizar un nuevo [marriage|E], ya que compartes lazos de sangre.#help \n\n¡Cuidado! Algunos [alliances|E] son más problemáticos de lo que valen...\n\nAsegúrate de que realmente deseas este [alliance|E], ya que podrías verte arrastrado a sus conflictos sin sentido.#!" #NT!
+ action_can_propose_alliance_to_family_member_label:0 "Puedes Negociar una Alianza con [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_propose_alliance_to_family_member_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_can_propose_alliance_to_family_member_click:0 "#I Haz clic para negociar la alianza#!" #NT!
+
+ action_can_demand_payment:0 "Puede exigir el pago" #NT!
+ action_can_demand_payment_combined_group_label:0 "Puede Exigir Pagos" #NT!
+ action_can_demand_payment_combined_group_name:0 "$action_can_demand_payment_combined_group_label$" #NT!
+ action_can_demand_payment_desc:1 "Puedes gastar los [hook|E] que tienes en [recipient.GetUIName] para exigir que te paguen [gold|E].$action_can_demand_payment_HELP$" #NT!
+ action_can_demand_payment_combined_group_description:1 "Puede gastar [hooks|E] que tiene para exigir pagos de [gold|E].$action_can_demand_payment_HELP$" #NT!
+ action_can_demand_payment_label:0 "Puede exigir el pago de [recipient.GetShortUINameNoTooltip]" #NT!
+ action_can_demand_payment_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_can_demand_payment_click:0 "#I Haga clic para exigir el pago#!" #NT!
+ action_can_demand_payment_HELP:0 "\n\n#help Puedes hacer esto porque tienes el [GetPerk('golden_obligations_perk').GetName(GetPlayer)] [perk|E]\n\nExigir el pago de alguien gastará el [hook|E] que tienes en él, ¡así que asegúrate de que esto es para lo que quieres usarlo!#!" #NT!
+
+ action_hook_expiring:0 "Gancho que caduca pronto" #NT!
+ action_hook_expiring_combined_group_label:0 "Ganchos que caducan pronto" #NT!
+ action_hook_expiring_combined_group_name:0 "$action_hook_expiring_combined_group_label$" #NT!
+ action_hook_expiring_desc:0 "Deberías gastar el [hook|E] que tienes en [recipient.GetUIName] pronto o vencerá en [actor.GetHookOn( recipient.Self ).GetExpirationDate.GetString]." #NT!
+ action_hook_expiring_combined_group_description:0 "Deberías gastar los [hooks|E] que tienes que caducan, o simplemente desaparecerán" #NT!
+ action_hook_expiring_label:0 "Tu [hook|E] en [recipient.GetShortUINameNoTooltip] caducará pronto" #NT!
+ action_hook_expiring_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_hook_expiring_click:0 "#I Haz clic para abrir la vista de personaje#!" #NT!
+
+ action_can_use_hook_to_change_contract:0 "¡Puedes modificar un contrato @weak_hook_icon!" #NT!
+ action_can_use_hook_to_change_contract_combined_group_label:0 "¡Puedes modificar contratos @weak_hook_icon!" #NT!
+ action_can_use_hook_to_change_contract_combined_group_name:0 "$action_can_use_hook_to_change_contract_combined_group_label$" #NT!
+ action_can_use_hook_to_change_contract_desc:1 "Como tienes un [hook|E] en tu [GetGovernment( 'feudal_government' ).GetName] [vassal|E] [recipient.GetUIName], puedes gastarlo para modificar su [contract|E].\n\n#help Aumentar un [vassals_possessive|E] [obligations|E] para ti es uno de los usos más valiosos para un [hook].\n\nNormalmente, proponer un cambio injusto de [contract|E] incurriría en [GetGovernment( 'feudal_government' ).GetName]0, pero lo evita gastando [hook|E]. Solo puede proponer un cambio injusto, más y aún obtendrá [GetGovernment( 'feudal_government' ).GetName]2.\n\nRecuerde [GetGovernment( 'feudal_government' ).GetName]3marque la casilla 'Usar un Hook'[GetGovernment( 'feudal_government' ).GetName]4cuando modifique el [GetGovernment( 'feudal_government' ).GetName]5![GetGovernment( 'feudal_government' ).GetName]6" #NT!
+ action_can_use_hook_to_change_contract_combined_group_description:0 "Como tienes [hooks|E] en [GetGovernment( 'feudal_government' ).GetName] [vassals|E], puedes gastarlos para modificar su [feudal_contracts|E].\n\n#help Aumentar un [vassals_possessive|E] [obligations|E] para ti es uno de los usos más valiosos para un [hook].\n\nNormalmente, proponer un cambio injusto de [contract] incurriría en [tyranny|E] – pero evitas esto gastando un [hook]. Solo puede proponer un cambio injusto por cada cambio de [contract], más y aún obtendrá [GetGovernment( 'feudal_government' ).GetName]2.\n\nRecuerde [GetGovernment( 'feudal_government' ).GetName]3marque la casilla 'Usar un Hook'[GetGovernment( 'feudal_government' ).GetName]4al modificar [GetGovernment( 'feudal_government' ).GetName]5![GetGovernment( 'feudal_government' ).GetName]6" #NT!
+ action_can_use_hook_to_change_contract_label:0 "¡Puedes cambiar el contrato de [recipient.GetShortUINamePossessiveNoTooltip] @weak_hook_icon!" #NT!
+ action_can_use_hook_to_change_contract_combined_label:0 "[recipient.GetUINameNoTooltip]" #NT!
+ action_can_use_hook_to_change_contract_click:1 "#I Haga clic para modificar el contrato#!" #NT!
+
+ action_can_ask_hof_for_money:0 "¡Puedes pedirle oro a tu Jefe de Fe @gold_icon!" #NT!
+ action_can_ask_hof_for_money_label:0 "$action_can_ask_hof_for_money$" #NT!
+ action_can_ask_hof_for_money_desc:1 "Tu [head_of_faith|E], [recipient.GetUIName], aceptaría una súplica por [gold|E].\n\n#help Si tienes poco [gold|E], ¡esta es una manera de gastar tu [piety|E] para expandir tu tesorería!#!" #NT!
+ action_can_ask_hof_for_money_click:0 "#I Haz clic en $hof_ask_for_gold_interaction$#!" #NT!
+
+ action_title_election:0 "Elección activa en [landed_title.GetNameNoTooltip]" #NT!
+ action_title_election_combined_group_label:0 "Elecciones Activas" #NT!
+ action_title_election_combined_group_name:0 "Las elecciones activas se pueden previsualizar" #NT!
+ action_title_election_desc:0 "Hay una elección en curso en [landed_title.GetNameNoTooltip], un [title|E] gobernado por [landed_title.GetHolder.GetShortUIName]. Actualmente, el candidato principal es [landed_title.GetHeir.GetUIName].\n\n#help Si usted es un [elector|E], vale la pena estar al tanto de las elecciones activas, incluso si ya emitió sus votos. ¡Recuerde, puede cambiar su voto en cualquier momento!\n\nIncluso si no es un [elector|E], es bueno estar al tanto de las elecciones. Después de todo, cualquier cosa puede pasar... ¡puede que #emp tú#!  seas el principal candidato!#!" #NT!
+ action_title_election_combined_group_description:0 "Hay elecciones en curso en tu reino.\n\n#help Si eres un [elector|E], vale la pena estar al tanto de las elecciones activas, incluso si ya has emitido tus votos. Recuerde, puede cambiar su voto en cualquier momento.\n\nIncluso si no es un [elector|E], es bueno estar al tanto de las elecciones. Después de todo, cualquier cosa puede pasar... ¡podría ser #emp tú#! quien sea el principal candidato!#!" #NT!
+ action_title_election_label:0 "Elección activa en [landed_title.GetNameNoTooltip]" #NT!
+ action_title_election_combined_label:0 "[landed_title.GetNameNoTooltip|U]" #NT!
+ action_title_election_click:0 "#I Haz clic para ver las elecciones#!" #NT!
+ action_grant_vassal_to_rightful_liege:0 "Puede otorgar vasallo a Legítimo Lieja" #NT!
+ action_grant_vassal_to_rightful_liege_combined_group_label:0 "Puede otorgar vasallos a Legítimo Lieja" #NT!
+ action_grant_vassal_to_rightful_liege_combined_group_name:0 "Los vasallos se pueden otorgar a su Legítimo Lieja" #NT!
+ action_grant_vassal_to_rightful_liege_desc:0 "Al transferir [secondary_actor.GetNameNoTooltip] a [recipient.GetNameNoTooltip] te librarás de la penalización de [rightful_liege|E].$action_grant_vassal_to_rightful_liege_HELP$" #NT!
+ action_grant_vassal_to_rightful_liege_combined_group_description:0 "Puedes transferir un [vassal|E] a su [rightful_liege|E].$action_grant_vassal_to_rightful_liege_HELP$" #NT!
+ action_grant_vassal_to_rightful_liege_label:0 "Puedes transferir [secondary_actor.GetNameNoTooltip] a [recipient.GetNameNoTooltip]" #NT!
+ action_grant_vassal_to_rightful_liege_combined_label:0 "Otorgar [secondary_actor.GetNameNoTooltip] a [recipient.GetNameNoTooltip]" #NT!
+ action_grant_vassal_to_rightful_liege_click:0 "#I Haz clic para otorgar vasallo#!" #NT!
+ action_grant_vassal_to_rightful_liege_HELP:0 "\n\n#help [vassals|E] de quien no eres el Legítimo Señor te da menos recursos y tiene un [opinion|E] reducido de ti. A veces es mejor otorgar estos Vasallos a su Legítimo Lieja, asumiendo que también son tu Vasallo.\n\nA veces, otorgar un Vasallo a su Legítimo Lieja significa que ganas menos, pero por lo general vale la pena dárselos de todos modos: su Legítimo Lieja lo hará. tienen una fuerte penalización de Opinión hacia ti por tener un Vasallo que creen que es suyo.\n\nMantener una buena estructura vasalla es la clave para un reino estable.#!" #NT!
+ action_can_create_head_of_faith_title:0 "Crear [head_of_faith|E] [title|E]" #NT!
+ action_can_create_head_of_faith_title_desc:1 "$action_can_create_head_of_faith_title_spiritual_desc$\n\n#help Al crear el título de líder religioso, ¡también te conviertes en [temporal_head_of_faith|E]!#!" #NT!
+ action_can_create_head_of_faith_title_label:0 "Crear [head_of_faith|E] [title|E]" #NT!
+ action_can_create_head_of_faith_title_click:0 "#I Haz clic para ver Faith#!" #NT!
+ action_can_claim_liege_title:0 "Puede reclamar su título de Lieja" #NT!
+ action_can_claim_liege_title_desc:1 "Controlas la mayoría de los [counties|E] que son [de_jure|E] a uno de [titles|E] tu [liege|E]. ¡Esto significa que puede gastar [prestige|E] para obtener un [unpressed_claim|E]!\n\n#help Tener un Reclamo sin presionar en un título de nivel superior le brinda la oportunidad de aumentar su rango. Puede usarlo para iniciar un [claimant_faction|E] o simplemente declarar [war|E] directamente sobre su Lieja para ello.#!" #NT!
+ action_can_claim_liege_title_label:0 "Puede reclamar su título de Lieja" #NT!
+ action_can_claim_liege_title_click:0 "#I Haz clic en $vassal_claim_liege_title_interaction$#!" #NT!
+ action_can_reforge_artifact:0 "[artifact.GetNameNoTooltip] tiene baja durabilidad" #NT!
+ action_can_reforge_artifact_label:0 "$action_can_reforge_artifact$" #NT!
+ action_can_reforge_artifact_desc:2 "Tu [artifact|E] [artifact.GetName] tiene [durability|E] bajo. Los artefactos que pierden toda su durabilidad se interrumpen y ya no se pueden usar.\n\n¡#help [reforge|E] o [repair|E] artefactos de baja durabilidad con la ayuda de un [GetCourtPositionType('antiquarian_court_position').GetName()] para evitar que se destruya!#!" #NT!
+ action_can_reforge_artifact_click:0 "#I Haz clic para abrir la vista de inventario#!" #NT!
+ action_can_reforge_artifact_combined_group_name:0 "Los artefactos tienen baja durabilidad." #NT!
+ action_can_reforge_artifact_combined_group_label:0 "$action_can_reforge_artifact_combined_group_name$" #NT!
+ action_can_reforge_artifact_combined_group_description:2 "Varios de tus [artifacts|E] tienen [durability|E] bajo. Los artefactos que pierden toda su durabilidad se interrumpen y ya no se pueden usar.\n\n¡#help [reforge|E] o [repair|E] artefactos de baja durabilidad con la ayuda de [GetCourtPositionType('antiquarian_court_position').GetName()] para evitar que sean destruidos!#!" #NT!
+ action_can_reforge_artifact_combined_label:0 "[artifact.GetName]" #NT!
+ is_white_peace_possible_trigger:0 "¿Es posible la Paz Blanca?" #NT!
+ WAR_DAYS_TRIGGER:0 "Los días pasados ​​en [war|E] son $COMPARATOR$ $NUM|V0$" #NT!
+ USING_CB_TRIGGER:0 "[casus_belli|E] es $CASUS_BELLI$" #NT!
+ HAS_CB_ON_TARGET_TRIGGER:0 "Tiene un $CASUS_BELLI$ en [TARGET_CHARACTER.GetShortUIName|U]" #NT!
+ MAX_MILITARY_STRENGTH_TRIGGER:0 "Fuerza militar máxima: $VALUE|+0=$" #NT!
+ IS_ARMY_IN_SIEGE_RELEVANT_FOR_TRIGGER:0 "[CHARACTER.GetShortUIName|U] está en un ejército de asedio en una guerra relevante para [TARGET_CHARACTER.GetShortUIName|U]" #NT!
+ RAID_LOOT_TRIGGER:0 "[raid_loot|E] es: $COMPARATOR$ $NUM|V0$" #NT!
+
+ action_has_unopened_court_event:2 "Evento de corte disponible" #NT!
+ action_has_unopened_court_event_label:2 "Tienes un nuevo Evento de Corte" #NT!
+ action_has_unopened_court_event_desc:2 "Ha aparecido una situación en tu [royal_court|E] sobre la que puedes opinar." #NT!
+ action_has_unopened_court_event_click:1 "$action_has_open_court_event_click$" #NT!
+
+ action_has_open_court_event:1 "Reanudar evento judicial" #NT!
+ action_has_open_court_event_label:1 "Tienes un Evento de Corte sin terminar" #NT!
+ action_has_open_court_event_desc:1 "Tiene un asunto pendiente en su [royal_court|E], debe regresar y tomar medidas." #NT!
+ action_has_open_court_event_click:0 "#I Haz clic para ver#!" #NT!
+
+
+ #TODO_CD_EP1 Remove this comment meant to help translators: The string below will display as "La persona inspirada puede ser patrocinada" in the game. #NT!
+ action_has_courtier_or_guest_with_inspiration:1 "[Concept('inspiration','Inspired')|E] La persona puede ser [Concept('sponsor','Sponsored')|E]" #NT!
+ action_has_courtier_or_guest_with_inspiration_label:0 "Uno de tus cortesanos o invitados tiene un [inspiration|E]" #NT!
+ action_has_courtier_or_guest_with_inspiration_desc:0 "Uno de sus cortesanos o invitados tiene un [inspiration|E] y puede ser patrocinado para crear un [artifact|E]" #NT!
+ action_has_courtier_or_guest_with_inspiration_click:0 "#I Haz clic para ver#!" #NT!
+
+ action_can_create_head_of_faith_title_spiritual:0 "$action_can_create_head_of_faith_title$" #NT!
+ action_can_create_head_of_faith_title_spiritual_desc:0 "Controlas suficiente [actor.GetFaith.GetAdjective] [holy_sites|E] para crear el [head_of_faith|E] [title|E]." #NT!
+ action_can_create_head_of_faith_title_spiritual_label:0 "$action_can_create_head_of_faith_title_label$" #NT!
+ action_can_create_head_of_faith_title_spiritual_click:0 "$action_can_create_head_of_faith_title_click$" #NT!
+ action_can_create_head_of_faith_title_spiritual_unimportant:0 "$action_can_create_title_unimportant$" #NT!
+
+ action_can_hire_court_physician:0 "Contratar a un médico de la corte" #NT!
+ action_can_hire_court_physician_label:0 "Puede contratar un médico de la corte" #NT!
+ action_can_hire_court_physician_desc:0 "No está empleando a un médico de la corte como [court_position|E], debe contratar uno." #NT!
+ action_can_hire_court_physician_click:0 "#I Haz clic para ver#!" #NT!
+
+ action_can_hire_maester:0 "contratar a un maestre" #NT!
+ action_can_hire_maester_label:0 "Puedes contratar a un Maestre" #NT!
+ action_can_hire_maester_desc:0 "No está empleando a un Maestre como [court_position|E], debe contratar uno." #NT!
+ action_can_hire_maester_click:0 "#I Haz clic para ver#!" #NT!

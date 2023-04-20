@@ -1,0 +1,187 @@
+﻿l_spanish:
+ #Reasons #NT!
+
+ MAA_TOUGHNESS:0 "$EFFECT_LIST_BULLET$[toughness|E]: $VALUE|0V$" #NT!
+ MAA_DAMAGE:0 "$EFFECT_LIST_BULLET$[damage|E]: $VALUE|0V$" #NT!
+ MAA_SIEGE_VALUE:0 "$EFFECT_LIST_BULLET$[siege_progress|E]: $VALUE|1=V$/day" #NT!
+ MAA_SIEGE_TIER:1 "$EFFECT_LIST_BULLET$Siege Tier: $VALUE|0V$" #NT!
+ MAA_PURSUIT:0 "$EFFECT_LIST_BULLET$[pursuit|E]: $VALUE|0V$" #NT!
+ MAA_SCREEN:0 "$EFFECT_LIST_BULLET$[screen|E]: $VALUE|0V$" #NT!
+ MAA_TOUGHNESS_DIFF:0 "$EFFECT_LIST_BULLET$[toughness|E]: $VALUE|0+=$" #NT!
+ MAA_DAMAGE_DIFF:0 "$EFFECT_LIST_BULLET$[damage|E]: $VALUE|0+=$" #NT!
+ MAA_SIEGE_VALUE_DIFF:0 "$EFFECT_LIST_BULLET$[siege_progress|E]: $VALUE|1=V$/day" #NT!
+ MAA_SIEGE_TIER_DIFF:1 "$EFFECT_LIST_BULLET$Siege Tier: $VALUE|0V$" #NT!
+ MAA_PURSUIT_DIFF:0 "$EFFECT_LIST_BULLET$[pursuit|E]: $VALUE|0+=$" #NT!
+ MAA_SCREEN_DIFF:0 "$EFFECT_LIST_BULLET$[screen|E]: $VALUE|0+=$" #NT!
+ MAA_COUNTERS_EFFECT:0 "$EFFECT_LIST_BULLET$Counters $TYPE|V$" #NT!
+ MAA_COUNTERS_EFFECT_SHORT:0 "$TYPE|V$" #NT!
+ MAA_COUNTERS_LABEL:1 "[MenAtArmsType.GetNameNoTooltip] [counters|E] these Types:\n[MenAtArmsType.GetCountersString]" #NT!
+ MAA_COUNTER_SHORT_LIST:1 "$LIST$" #NT!
+ MAA_COUNTER_NONE:0 "#weak None#!" #NT!
+ MAA_TERRAIN_EFFECT_FORMAT:0 "$EFFECT_LIST_BULLET$In $TERRAIN_TYPE|V$: $LIST$" #NT!
+ MAA_TERRAIN_EFFECT_DAMAGE:1 "$VALUE|+=0$ [damage|E]" #NT!
+ MAA_TERRAIN_EFFECT_TOUGHNESS:1 "$VALUE|+=0$ [toughness|E]" #NT!
+ MAA_TERRAIN_EFFECT_PURSUIT:1 "$VALUE|+=0$ [pursuit|E]" #NT!
+ MAA_TERRAIN_EFFECT_SCREEN:1 "$VALUE|+=0$ [screen|E]" #NT!
+ MAA_TERRAIN_EFFECT_SIEGE_VALUE:0 "$VALUE|+=0$/day [siege_progress|E]" #NT!
+ MAA_DOES_NOT_FIGHT_IN_MAIN_PHASE:0 "Siege Weapons do not attack in combat" #NT!
+ MEN_AT_ARMS_TYPE_TOOLTIP_CREATION_COST:0 "Creation cost: [MenAtArmsType.GetCostString(GetPlayer)]" #NT!
+ SIEGE_TIER_MAX_FORT_LEVEL:0 "$EFFECT_LIST_BULLET$Max [fort_level|E]: $VALUE|V$" #NT!
+ SIEGE_TIER_BEATS_ALL_FORTS:0 "$EFFECT_LIST_BULLET$Beats all [fort_level|E]" #NT!
+ REGIMENT_TERRAIN_MODIFIER_TOOLTIP:0 "#T In [RegimentTerrainModifier.GetTerrain.GetName]#!\n[RegimentTerrainModifier.GetEffectString]" #NT!
+ REGIMENT_TERRAIN_BONUS_HEADER:0 "[terrain|E] Effects:" #NT!
+ REGIMENT_TERRAIN_BONUS_NONE:0 "#weak No terrain effects#!" #NT!
+ REGIMENT_WINTER_EFFECT_HEADER:0 "Winter Effects:" #NT!
+ REGIMENT_DAMAGE_TT:2 "#T [damage|E]: [MenAtArmsType.GetStat( GetPlayer, 'damage' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'damage' )]" #NT!
+ REGIMENT_TOUGHNESS_TT:2 "#T [toughness|E]: [MenAtArmsType.GetStat( GetPlayer, 'toughness' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'toughness' )]" #NT!
+ REGIMENT_PURSUIT_TT:2 "#T [pursuit|E]: [MenAtArmsType.GetStat( GetPlayer, 'pursuit' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'pursuit' )]" #NT!
+ REGIMENT_SCREEN_TT:2 "#T [screen|E]: [MenAtArmsType.GetStat( GetPlayer, 'screen' )|1V]#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'screen' )]" #NT!
+ REGIMENT_SIEGE:2 "+[MenAtArmsType.GetStat( GetPlayer, 'siege_value' )|1]/day" #NT!
+ REGIMENT_SIEGE_TT:1 "#T [siege_progress|E]: [MenAtArmsType.GetStat( GetPlayer, 'siege_value' )|1V]/day#!\n[MenAtArmsType.GetStatDesc( GetPlayer, 'siege_value' )]" #NT!
+ REGIMENT_SIEGE_MAX_FORT_LEVEL:1 "Effective up to [fort_level|E] #high [MenAtArmsType.GetMaxFortLevel]#!" #NT!
+ REGIMENT_STAT_ENTRY:0 "$KEY$: $VALUE|+=0$" #NT!
+ BASE_VALUE_SIEGE:0 "Base: $VALUE|V1$" #NT!
+ REGIMENT_WINTER_NORMAL_MODIFIER_TOOLTIP:2 "#T In Normal Winter#!\n[MenAtArmsType.GetWinterNormalModifier.GetEffectString]" #NT!
+ REGIMENT_WINTER_HARSH_MODIFIER_TOOLTIP:2 "#T In Harsh Winter#!\n[MenAtArmsType.GetWinterHarshModifier.GetEffectString]" #NT!
+
+ #MaA types #NT!
+ skirmishers:2 "[skirmishers|E]" #NT!
+ archers:2 "[archers|E]" #NT!
+ light_cavalry:2 "[light_cavalry|E]" #NT!
+ heavy_cavalry:2 "[heavy_cavalry|E]" #NT!
+ pikemen:2 "[spearmen|E]" #NT!
+ heavy_infantry:2 "[heavy_infantry|E]" #NT!
+ archer_cavalry:0 "[archer_cavalry|E]" #NT!
+ camel_cavalry:0 "[camel_cavalry|E]" #NT!
+ elephant_cavalry:0 "[elephant_cavalry|E]" #NT!
+
+ #Base MaA #NT!
+ light_footmen:0 "Light Footmen" #NT!
+ bowmen:0 "Bowmen" #NT!
+ light_horsemen:0 "Light Horsemen" #NT!
+ pikemen_unit:0 "Pikemen" #NT!
+ armored_footmen:0 "Armored Footmen" #NT!
+ armored_horsemen:0 "Armored Horsemen" #NT!
+ crossbowmen:0 "Crossbowmen" #NT!
+
+ #Siege MaA #NT!
+ siege_weapon:2 "[siege_weapons|E]" #NT!
+ onager:0 "Onagers" #NT!
+ mangonel:0 "Mangonels" #NT!
+ trebuchet:0 "Trebuchets" #NT!
+ bombard:0 "Bombards" #NT!
+
+ #Regional MaA #NT!
+ war_elephant:0 "War Elephants" #NT!
+ camel_rider:0 "Camel Riders" #NT!
+
+ #Cultural MaA #NT!
+ huscarl:0 "Huscarls" #NT!
+ landsknecht:0 "Landsknechts" #NT!
+ longbowmen:0 "Longbowmen" #NT!
+ goedendag:0 "Goedendag Militia" #NT!
+ gendarme:0 "Gendarmes" #NT!
+ chasseur:0 "Chasseurs" #NT!
+ picchieri:0 "Picchieri" #NT!
+ praetorian:1 "Palatini" #NT!
+ caballero:0 "Caballeros" #NT!
+ cataphract:0 "Cataphracts" #NT!
+ monaspa:0 "Monaspa" #NT!
+ hobelar:0 "Hobelars" #NT!
+ schiltron:0 "Schiltron" #NT!
+ metsanvartija:0 "Metsänvartija" #NT!
+ horse_archers:0 "Horse Archers" #NT!
+ mubarizun:0 "Mubarizun" #NT!
+ ayyar:0 "Ayyar" #NT!
+ druzhina:0 "Druzhina" #NT!
+ hussar:1 "Konni" #NT!
+ horn_warrior:0 "Horn Warriors" #NT!
+ bush_hunter:0 "Bush Hunters" #NT!
+ shomer:0 "Shomer" #NT!
+ khandayat:0 "Khandayat" #NT!
+ garudas:1 "Lenkas" #NT!
+ mountaineer:0 "Mountaineers" #NT!
+ sahel_horsemen:0 "Sahel Horsemen" #NT!
+ guinea_warrior:0 "Guinean Uplanders" #NT!
+ sarawit:0 "Sarawit" #NT!
+ abudrar:0 "Abudrar" #NT!
+ zbrojnosh:0 "Zbrojnosh" #NT!
+ palace_guards:0 "Palace Guards" #NT!
+ chu_ko_nu:0 "Chu-ko-nu Archers" #NT!
+ mulaththamun:0 "Mulathamūn" #NT!
+ archers_of_the_nile:0 "Nile Archers" #NT!
+ paiks:0 "Paiks" #NT!
+ guanch_vaulter:0 "Vaulter Infantry" #NT!
+
+ #Special MaA #NT!
+ house_guard:0 "House Guard" #NT!
+ house_guard_flavor:0 "#F This elite regiment is in the service of a specific Dynasty. The warriors are hand-picked from the most loyal subjects.#!" #NT!
+
+ #MaA Descriptions #NT!
+ bowmen_flavor:1 "#F Professional archers fill the air with arrows, devastating the foremost enemy troops.#!" #NT!
+ light_footmen_flavor:1 "#F Veteran skirmishers are invaluable harriers, disrupting enemy flanks and chipping away at morale.#!" #NT!
+ light_cavalry_flavor:0 "#F Light and swift, these horsemen are excellent at flanking, and devastating when pursuing routing enemies.#!" #NT!
+ armored_footmen_flavor:1 "#F Heavily armed and well-trained, these troops specialize in smashing massed infantry.#!" #NT!
+ pikemen_unit_flavor:0 "#F Long pikes allow these regiments to form walls of spikes that can stop a cavalry charge dead.#!" #NT!
+ armored_horsemen_flavor:0 "#F Heavily armed and armored, these horsemen dominate warfare in the open plains.#!" #NT!
+ crossbowmen_flavor:0 "#F Though slow to reload, crossbows are easy to use and fire bolts which can pierce through most armor at a good range.#!" #NT!
+
+ onager_flavor:0 "#F These small torsion catapults can tear down enemy fortifications by hurling stone projectiles over a distance.#!" #NT!
+ mangonel_flavor:0 "#F The traction-powered mangonel is easier to operate than the onager while also boasting a faster rate-of-fire.#!" #NT!
+ trebuchet_flavor:0 "#F The counterweight trebuchet can hurl large projectiles with much greater force than mangonels or onagers.#!" #NT!
+ bombard_flavor:0 "#F No longer constrained by the limits of levers and pulleys, these cannons can blast through fortifications with ease.#!" #NT!
+
+ war_elephant_flavor:0 "#F A charging elephant is almost impossible to stop, making them excellent shock troops.#!" #NT!
+ camel_rider_flavor:0 "#F Better suited to desert warfare than traditional cavalry, these riders dominate the sands.#!" #NT!
+
+ huscarl_flavor:1 "#F Germanic Huscarls are masters of using shield walls to block incoming volleys of arrows.#!" #NT!
+ landsknecht_flavor:1 "#F German Landsknechts can use their massive zweihanders to tear through the massed ranks of enemy spearmen.#!" #NT!
+ longbowmen_flavor:2 "#F Though they require a lifetime to properly master, Longbows are powerful enough to pierce plate and can loose volleys at an almost-unequaled rate.#!" #NT!
+ goedendag_flavor:0 "#F The Flemish goedendag is a spiked club which can be braced against cavalry charges.#!" #NT!
+ gendarme_flavor:0 "#F French Gendarmes are the shining pinnacle of heavy cavalry, inspiring awe around the world.#!" #NT!
+ chasseur_flavor:0 "#F Outremer knights have mastered both European horsemenship and Levantine desert tactics.#!" #NT!
+ picchieri_flavor:0 "#F The mobile formations used by Latin Picchieri make them more deadly than traditional pikemen.#!" #NT!
+ praetorian_flavor:1 "#F The best of the best, Palatini are elite Roman soldiers who serve the Emperor directly.#!" #NT!
+ caballero_flavor:0 "#F Unlike most cavalry, Iberian Caballeros are at home both on flat plains and in rough hilly terrain.#!" #NT!
+ cataphract_flavor:0 "#F Armored in coats of iron, Greek Cataphracts can break almost any defensive line with their charge.#!" #NT!
+ monaspa_flavor:0 "#F Formed from the core of the bodyguards of the Georgian kings the Monaspa are a fearsome heavy cavalry force that is well at home in the undulating terrain of the Caucasus.#!" #NT!
+ hobelar_flavor:0 "#F Fast and agile, Celtic Hobelars can easily raid the forests and hills other cavalry avoid.#!" #NT!
+ schiltron_flavor:0 "#F The incredible discipline of Scottish pikemen lets them easily break enemy charges, even on open plains.#!" #NT!
+ metsanvartija_flavor:0 "#F Uralic Metsänvartija can ambush invaders with a hail of arrows before melting back into the trees.#!" #NT!
+ horse_archers_flavor:0 "#F Horse archers are used by nomadic tribes to unleash hails of arrows while being almost impossible to catch.#!" #NT!
+ ayyar_flavor:0 "#F Young and eager, members of the Ayyar fighting clubs serve as willing and able soldiers ready to be called upon at a moment's notice.#!" #NT!
+ mubarizun_flavor:0 "#F Trained in both formation fighting and single combat, Arabic Mubarizun can crush most other infantry in battle.#!" #NT!
+ druzhina_flavor:0 "#F Russian Druzhina are skilled bodyguards who have devoted themselves to protecting their allies.#!" #NT!
+ hussar_flavor:1 "#F Masters of raiding, the infamous $hussar$ light cavalry of Eastern Europe can make short work of a fleeing enemy army.#!" #NT!
+ horn_warrior_flavor:0 "#F Practiced in mountainous warfare, warriors from the Horn of Africa are not to be underestimated.#!" #NT!
+ bush_hunter_flavor:0 "#F These West African archers turn the difficult terrain of the bush to their advantage.#!" #NT!
+ shomer_flavor:0 "#F Devoted to protecting their kin, Jewish shomer are adept at covering for their fellows in battle.#!" #NT!
+ khandayat_flavor:0 "#F Indian Khandayats are master swordsmen who can easily cut down both men and horse alike.#!" #NT!
+ garudas_flavor:0 "#F Garuda Warriors are famous for their loyalty, and for fighting to the death. Once a Garuda warrior fall his entire retinue of Lenka warriors are expected to die with him.#!" #NT!
+ mountaineer_flavor:0 "#F Intense training at high altitudes makes Tibetan soldiers the undisputed champions of their domain.#!" #NT!
+ sahel_horsemen_flavor:0 "#F Sahel Riders are mounted warriors who use light quilted armor and javelins to devastate their enemies#!" #NT!
+ guinea_warrior_flavor:0 "#F Warriors of the uplands of Guinea move fast, and their javelins are precise and deadly.#!" #NT!
+ sarawit_flavor:0 "#F The Sarawit is a well-trained army at home in the Ethiopian highlands.#!" #NT!
+ zbrojnosh_flavor:0 "#F At home in the hills and forests of Central Europe, the Zbrojnosh are feared far and wide.#!" #NT!
+ abudrar_flavor:0 "#F The Abudrar mountaineers know every gorge and wadi of their homeland.#!" #NT!
+ palace_guards_flavor:0 "#F Usually standing guard and keeping the peace, these versatile warriors can form the backbone of any army.#!" #NT!
+ chu_ko_nu_flavor:1 "#F Armed with Chu-ko-nu, these archers are capable of shooting bolts at a devastating rate.#!" #NT!
+ mulaththamun_flavor:0 "#F These riders have honed their skills during a lifetime in close connection with the desert and cover their faces with the Litham veil, protecting them from the sand and from recognition by the enemy.#!" #NT!
+ archers_of_the_nile_flavor:0 "#F For thousands of years the Nubians have protected their homeland by mastering the bow from a young age, fighting off the raids from surrounding desert peoples and invaders alike.#!" #NT!
+ paiks_flavor:0 "#F Footmen have been the mainstay of Indian armies for centuries, and no weapon is as common as the simple bamboo bow which many Indian commoners practice through hunting from young age.#!" #NT!
+ guanch_vaulter_flavor:0 "#F Armed with long vaulting poles, these nimble warriors are able to navigate craggy and mountainous terrain with ease and can even vault over some fortifications.#!" #NT!
+
+ #Religious MaA #NT!
+ teutonic_knights:1 "Order Knights" #NT!
+ teutonic_knights_flavor:1 "#F Heavily armored and zealous knights, specializing in massed infantry battles in addition to their heavy cavalry charges.#!" #NT!
+
+ skirmishers_lowercase:0 "skirmishers" #NT!
+ light_cavalry_lowercase:0 "light horsemen" #NT!
+ heavy_cavalry_lowercase:0 "heavy horsemen" #NT!
+ archers_lowercase:0 "archers" #NT!
+ pikemen_lowercase:0 "pikemen" #NT!
+ heavy_infantry_lowercase:0 "armored footmen" #NT!
+ elephant_cavalry_lowercase:0 "war elephants" #NT!
+ camel_cavalry_lowercase:0 "camel cavalry" #NT!
+ horse_archers_lowercase:0 "horse archers" #NT!
+ levies_lowercase:0 "levies" #NT!

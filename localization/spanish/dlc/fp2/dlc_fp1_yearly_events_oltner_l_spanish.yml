@@ -1,0 +1,107 @@
+﻿l_spanish:
+ fp1_yearly.2000.t:0 "Pasión de viajar" #NT!
+ fp1_yearly.2000.desc:0 ""Me voy, [parent.GetMotherFather]. [lover_of_child.GetFirstNameNoTooltip] y yo estamos #EMP enamorados#!!"\n\nYou pon los ojos en blanco ante [child_to_leave.GetFirstNameNoTooltip]. ¿Cuál es tu tonto de [child_to_leave.Custom('GetDaughterSon')] hasta #EMP  ahora?#!\n\n"¡[lover_of_child.GetFirstNameNoTooltip] y buscaré aventuras! ¡El mundo es vasto y hay gloria por descubrir! ¡Quiero gritar #EMP '[child_to_leave.GetHouse.GetMotto]'[lover_of_child.GetFirstNameNoTooltip]0 al mundo, hasta que recuerde mi nombre!"\n\nEs evidente que mi #EMP amada[lover_of_child.GetFirstNameNoTooltip]0[child_to_leave.Custom('GetDaughterSon')] habla en serio. Voy a tener que hacer algo." #NT!
+ fp1_yearly.2000.a:0 ""Ven aquí, querido [child_to_leave.Custom('GetDaughterSon')], creo que es hora de un poco de #EMP amor duro#!."" #NT!
+ fp1_yearly.2000.b:0 ""Escucha aquí, hay #EMP glory#!  para tener en casa"." #NT!
+ fp1_yearly.2000.c:0 ""¿Tal vez #EMP this#!  te haría olvidar que te vas?"" #NT!
+ fp1_yearly.2000.d:0 ""Volverás, pronto verás..."" #NT!
+ fp1_yearly.2000.d.tt:0 "#weak  "...recordarás que me perteneces".#!" #NT!
+ fp1_yearly.2000.a.tt:0 "#V Duelo#! [child_to_leave.GetFirstName] para que [child_to_leave.GetHerHim] se quede!\n#weak Este duelo NO es a muerte.#!\nIf si ganas, obtendrás [prestige_i] [prestige|E]\n\nTu [prowess|E]: [prowess_i]#V #! 1#! 2[prowess|E]: [prowess_i]#V #! 6#! 7" #NT!
+ fp1_yearly.2000.c.tt:0 "[child_to_leave.GetFirstName] permanece en tu [court|E]" #NT!
+ fp1_yearly.2000.b.tt:0 "Se queda en tu [court|E]" #NT!
+ lust_for_adventure:0 "lujuria por la aventura" #NT!
+ lust_for_adventure_desc:0 "Este personaje anhela la aventura y los viajes. Es poco probable que regresen a la corte de sus padres." #NT!
+ mellowed_spirit:0 "Espíritu suavizado" #NT!
+ mellowed_spirit_desc:0 "Este personaje ha sido convencido por uno de sus padres de que la aventura no es para ellos y que su lugar está en casa." #NT!
+ fp1_yearly.2003.t:0 "Wanderlust: amor duro" #NT!
+ fp1_yearly.2003.desc:0 ""¡Me rindo! ¡Me rindo, [parent.GetMotherFather]! ¡No más!" Mi [child_to_leave.Custom('GetDaughterSon')] exclama.\n\n"Me quedaré aquí en la corte. ¡[lover_of_child.GetFirstNameNoTooltip] no es más importante para mí que mi vida!" [child_to_leave.GetFirstNameNoTooltip] dice, con [lover_of_child.GetFirstNameNoTooltip] mirando con desaprobación.\n\nFinalmente, ¡parece que [child_to_leave.GetFirstNameNoTooltip] está entendiendo la razón!" #NT!
+ fp1_yearly.2003.a:0 ""[parent.GetMotherFather|U] sabe más, querido [child_to_leave.Custom('GirlBoy')]"." #NT!
+ fp1_yearly.2003.b:0 ""¡Y termina con ese '[lover_of_child.GetFirstNameNoTooltip]' también!"" #NT!
+ fp1_yearly.2000.trigger_failure:0 "Mi duelo contra [child_to_leave.GetFirstNameNoTooltip] ha sido invalidado" #NT!
+ fp1_yearly.2004.t:0 "Wanderlust: Profundamente golpeado" #NT!
+ fp1_yearly.2004.desc:0 "Soy derribado, debilitado por la lucha, mientras [child_to_leave.GetFirstNameNoTooltip] se acerca a mí con el arma en la mano.\n\n"Ya te lo dije, soy #EMP dejando#! [parent.GetMotherFather]. Para mis problemas, sacaré un saco del tesoro. Estoy seguro lo entiendes".\n\nNo puedo hacer nada más que mirar mientras mi [child_to_leave.Custom('GetDaughterSon')] se va, con [lover_of_child.GetFirstNameNoTooltip] en un brazo y #EMP mi #!  dorado en el otro." #NT!
+ fp1_yearly.2004.a:0 "niño insolente..." #NT!
+ fp1_yearly.2000.b.success:0 "[child_to_leave.GetFirstNameNoTooltip] renuncia a las esperanzas y sueños de [child_to_leave.GetHerHis]" #NT!
+ fp1_yearly.2000.b.failure:0 "A [child_to_leave.GetFirstNameNoTooltip] no le convencen tus argumentos" #NT!
+
+ fp1_yearly.2100.t:0 "Competencia abundante" #NT!
+ fp1_yearly.2100.desc:0 ""¡Tú [lover_2.Custom('InsultAdjective')] [lover_2.Custom('InsultNounSexual')]! ¡Tú [lover_2.Custom('InsultAdjective')] [lover_2.Custom('InsultNoun')]! ¡[lover_2.Custom('InsultSentence')|U], tú [lover_2.Custom('InsultNounSexual')]!" [lover_1.GetFirstName] grita a todo pulmón de [lover_1.GetHerHis].\n\nParece que tus amantes están en la garganta del otro.\n\n"Tu [lover_1.Custom('PointOfRidicule')] hace que [lover_quarrel_target.GetHerHim] vomite de asco, tú [lover_2.Custom('InsultNounSexual')]0. ¡[lover_2.Custom('InsultNounSexual')]1 no podría amar a un [lover_2.Custom('InsultNounSexual')]2 [lover_2.Custom('InsultNounSexual')]0 como tú! [lover_2.Custom('InsultNounSexual')]4[lover_2.Custom('InsultNounSexual')]5 ¡será solo mía! [lover_2.Custom('InsultNounSexual')]6[lover_2.Custom('InsultNounSexual')]7 grita, tirando de [lover_2.Custom('InsultNounSexual')]8 [lover_2.Custom('InsultNounSexual')]9 del cinturón de [lover_2.Custom('InsultAdjective')]0...\n\nEsto está a punto de ponerse sangriento." #NT!
+ fp1_yearly.2100.a:0 "¡Diablos #EMP emocionante!#! ¡Sí! ¡Lucha por mi amor!" #NT!
+ fp1_yearly.2100.b:0 "¡Esto es #EMP locura! #! Te lo ruego, ¡detente de inmediato!" #NT!
+ fp1_yearly.2100.c:0 "¡Te detendré yo mismo!" #NT!
+ fp1_yearly.2100.a.tt:0 "[lover_1.GetFirstName] y [lover_2.GetFirstName] #V Duelo#! a muerte." #NT!
+ fp1_yearly.2100.b.tt:0 "[lover_1.GetFirstName] y [lover_2.GetFirstName] se enfrían." #NT!
+ fp1_yearly.2101.t:0 "Competencia abundante: corazón roto" #NT!
+ fp1_yearly.2101.desc:0 ""¡Ahora eres todo mío, mi [lover_quarrel_target.Custom('RomanticComplimentAdjective')] [lover_quarrel_target.GetFirstNameNoTooltip]! ¡Ese [lover_2.Custom('InsultNounSexual')] [losing_lover.GetFirstName] nunca volverá a interponerse entre nosotros!" [winning_lover.GetFirstName] susurra con voz dulce mientras [winning_lover.GetSheHe] deja a [winning_lover.GetHerHis] [winning_lover.Custom('signature_weapon')] en el suelo.\n\n"Ven, mi [lover_quarrel_target.Custom('RomanticComplimentAdjective')] [lover_quarrel_target.Custom('RomanticComplimentNoun')]. Esta farsa ha sido agotadora, ¿por qué no nos retiramos a tus aposentos?" [lover_quarrel_target.GetFirstNameNoTooltip]0 sugiere, seductoramente." #NT!
+ fp1_yearly.2101.a:0 "¡Ay, mi [winning_lover.Custom('RomanticComplimentNoun')]! ¡Sabes cómo cortejar a un [lover_quarrel_target.GetWomanMan]!" #NT!
+ fp1_yearly.2101.b:0 "[losing_lover.GetFirstNameNoTooltip], no! #EMP ¡Pagarás por esto, [winning_lover.GetFirstNameNoTooltip]!#!" #NT!
+ fp1_yearly.2101.c:0 "¿Un jugueteo en el heno? Por qué no." #NT!
+ fp1_yearly.2101.d:0 "Sólo... déjame por ahora." #NT!
+ fp1_yearly.2100.b.success:0 "Tus palabras de amor los calman a ambos." #NT!
+ fp1_yearly.2100.b.failure:0 "Tus palabras caen en oídos sordos" #NT!
+ fp1_yearly.2100.c.success:0 "Separas a los pendencieros" #NT!
+ fp1_yearly.2100.c.failure:0 "no llegas a tiempo" #NT!
+ fp1_yearly.2100.c.tt:0 "Evitas que [lover_1.GetFirstName] y [lover_2.GetFirstName] peleen." #NT!
+
+ fp1_yearly.2200.t:0 "El berserker aburrido" #NT!
+ fp1_yearly.2200.desc:0 ""¡Mira! Soy [new_berserker.GetFirstNameNoTooltip] el [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))|U]. ¡Tráeme jarras de cerveza, [new_berserker.Custom('AttractionWomanManMultiple')] y [new_berserker.Custom('FavoriteTreatDemand')]! ¡Para que no te atrevas a provocar mi ira!" el [new_berserker.GetWomanMan] grita a la multitud reunida.\n\nEvidentemente, este enorme guerrero está aburrido y busca causar problemas. ¿Quizás la ira de [new_berserker.GetHerHis] tendría un mejor uso en mis filas?\n\n"¿No hay nadie que se atreva a enfrentarme? ¡Cobardes! Lo que no daría por una buena trifulca..."" #NT!
+ fp1_yearly.2200.a:0 "¡Nadie me llama cobarde, tú [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('new_berserker'))] [new_berserker.Custom('InsultNoun')]!" #NT!
+ fp1_yearly.2200.b:0 "Te traeré un montón de [new_berserker.Custom('FavoriteTreatDemand')], si te unes a mis filas." #NT!
+ fp1_yearly.2200.c:0 "Vamos a hacer una incursión pronto, ¿por qué no te unes como mi [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')]?" #NT!
+ fp1_yearly.2200.d:0 "¡Guardias! ¡Detén ese [new_berserker.GetWomanMan]!" #NT!
+ fp1_yearly.2200.a.tt:0 "¡#V Duelo#! [new_berserker.GetFirstName] para que [new_berserker.GetHerHim] sirva como tu [potential_employer.Custom('KnightCultureNoTooltipLowercase')]!\n#weak Este duelo NO es a muerte.#!\nEven si pierdes, tal vez [new_berserker.GetFirstNamePossessiveNoTooltip] se calme la ira...\n\nTu [prowess|E]: [prowess_i]#V #! 1#! 2[prowess|E]: [prowess_i]#! 7#V #! 7" #NT!
+ fp1_yearly.2200.c.success:0 "[new_berserker.GetFirstNameNoTooltip] acepta unirse a tus filas" #NT!
+ fp1_yearly.2200.c.failure:0 "[new_berserker.GetFirstNameNoTooltip] arrasa tu corte" #NT!
+ fp1_yearly.2200.fail.tt:0 "¡[new_berserker.GetFirstNameNoTooltip] hiere a [potential_victim.GetFirstName] con la furia de [new_berserker.GetHerHis]!" #NT!
+ hurt_someone_close_to_me_crime:0 "Herir a alguien cercano a mí" #NT!
+ fp1_yearly.2200.d.success:0 "[new_berserker.GetFirstNameNoTooltip] es golpeado muerto" #NT!
+ fp1_yearly.2200.trigger_failure:0 "Mi duelo contra [new_berserker.GetFirstNameNoTooltip] ha sido invalidado" #NT!
+ fp1_yearly.2203.t:0 "El berserker aburrido: ira saciada" #NT!
+ fp1_yearly.2203.desc:0 ""¡Eres más fuerte de lo que pareces!" [new_berserker.GetFirstNameNoTooltip] chisporrotea.\n\nEl [new_berserker.GetWomanMan] yace ensangrentado en el suelo, la rabia de [new_berserker.GetHerHis] está saciada... por ahora.\n\n"Estaría feliz de luchar a tu lado, ¡juntos seríamos #EMP imparables!", Grita #!" ." #NT!
+ fp1_yearly.2203.a:0 ""Lo siento, pero tu camino termina aquí"." #NT!
+ fp1_yearly.2203.b:0 ""¡Sería un honor luchar junto a ti!"" #NT!
+ fp1_yearly.2203.c:0 "Ya has causado suficiente daño. Vete ahora." #NT!
+ fp1_yearly.2204.t:0 "El berserker aburrido: Gigante gentil" #NT!
+ fp1_yearly.2204.desc:0 ""Lo siento." [new_berserker.GetFirstNameNoTooltip] dice, en un tono emotivo. "Me enfado cuando tengo hambre".\n\nEl enorme [new_berserker.GetWomanMan] me ofrece la [new_berserker.GetHerHis] mano para ayudarme a levantarme. La ira de [new_berserker.GetHerHis|U] parece estar saciada... por ahora.\n\n"Disfruté nuestra pelea. Me encantaría unirme a ti, amigo". él dice." #NT!
+ fp1_yearly.2204.a:0 ""¡Y con mucho gusto te tendría a ti, amigo!"" #NT!
+ fp1_yearly.2204.b:0 ""Por favor, solo vete..."" #NT!
+
+ grizzled_veterans:0 "Veteranos canosos" #NT!
+ glory_seekers:0 "Buscadores de gloria" #NT!
+ fp1_yearly.2300.t:0 "Buscadores de gloria" #NT!
+ fp1_yearly.2300.desc:0 "Últimamente, las tabernas de [tavern_location.GetNameNoTier] han visto una afluencia de guerreros en busca de la gloria.\n\nEntre ellos, un grupo de viejos veteranos curtidos en la batalla, saqueadores que buscan un nuevo [recruiting_character.Custom('MistressMaster')].\n\nTambién hay una gran cantidad de jóvenes entusiastas que hablan sin parar de encontrar la gloria en tierras extranjeras.\n\n¿Quizás debería buscar emplear a algunos de ellos?" #NT!
+ fp1_yearly.2300.a:0 "Traeré a los atracadores a mi casa." #NT!
+ fp1_yearly.2300.b:0 "Los jóvenes no tienen experiencia, ¡pero son muchos!" #NT!
+ fp1_yearly.2300.c:0 "¡Es hora de duplicar el precio de la cerveza!" #NT!
+ fp1_yearly.2300.d:0 "¡Únete a mí, valientes guerreros! ¡Te llevaré a la victoria!" #NT!
+ huscarls_tt:0 "#F Los saqueadores son luchadores duros de primera línea capaces de infligir mucho daño a las tropas más débiles#!" #NT!
+ bondi_tt:0 "#F Los bondí son resistentes y sobresalen en la lucha en las llanuras o tierras de cultivo de costas extranjeras#!" #NT!
+
+ fp1_yearly.2400.t:0 "Preparativos para la caza" #NT!
+ fp1_yearly.2400.desc:0 "El desierto me está llamando. Ha pasado demasiado tiempo desde la última vez que cacé. Allá afuera, en el [ROOT.Char.Custom('TerrainType')] de [hunting_province.GetName], hay muchos [ROOT.Char.Custom('LocalAnimalDesc')] [ROOT.Char.Custom('LocalAnimalMultiple')]. ¡Uno de esos quedaría bien en mi mesa esta noche!\n\nSin embargo, falta algo. ¿Son mis lanzas de caza demasiado viejas y aburridas? ¿O es un compañero que me falta?\n\nDebo asegurarme de prepararme bien." #NT!
+ fp1_yearly.2400.a:0 "¡Un nuevo perro de caza es lo que necesito!" #NT!
+ fp1_yearly.2400.b:0 "Lanzas recién forjadas y flechas emplumadas con plumas de cuervo." #NT!
+ fp1_yearly.2400.c:0 "Lo que tengo es suficiente. Solo necesito tiempo para prepararme." #NT!
+ fp1_yearly.2400.free_hunt:0 "Tu próximo [hunt|E] no te costará ningún [gold|E]" #NT!
+ brand_new_hunting_tools:0 "Nuevas herramientas de caza" #NT!
+ brand_new_hunting_tools_desc:0 "Este personaje ha gastado una gran cantidad de oro en nuevos equipos de caza." #NT!
+
+ fp1_yearly.2500.t:0 "Piedra rúnica obscena" #NT!
+ fp1_yearly.2500.desc:0 "Después de un buen viaje a través de [runestone_location.Custom('TerrainTypeCountyScope')] de [runestone_location.GetNameNoTier], llego al sitio de la piedra rúnica de mi familia. Aunque parece que no estoy solo, mi invitado [deviant_guest.GetTitledFirstName] también está aquí. ¿Cómo encontró [deviant_guest.GetSheHe] este lugar?\n\n"¡No es lo que parece, mi [ROOT.Char.GetTitleTierName]!" afirma [deviant_guest.GetSheHe].\n\nEl hecho de que [deviant_guest.GetSheHe] esté semidesnudo, y en el proceso de frotar vigorosamente [deviant_guest.GetHerselfHimself] contra #EMP la piedra rúnica de mi familia#!, me dice que, de hecho, es exactamente lo que parece." #NT!
+
+ fp1_yearly.2600.t:0 "Furia de los hombres del norte" #NT!
+ fp1_yearly.2600.desc:0 ""[ROOT.GetCharacter.GetFirstNameNoTooltip], eres un gran guerrero, pero ¿tus enemigos #EMP realmente#!  te temen?" dice [berserker_teacher.GetFirstName].\n\nHe visto a [berserker_teacher.GetFirstNameNoTooltip] convertir a [berserker_teacher.GetHerselfHimself] en una furia inhumana en el campo de batalla, y he visto a innumerables enemigos huir ante la forma aulladora de [berserker_teacher.GetHerHis]. Presenciar [berserker_teacher.GetFirstNamePossessiveNoTooltip] berserkergang es como presenciar la furia de [ROOT.GetCharacter.GetFaith.HighGodName] [ROOT.GetCharacter.GetFaith.HighGodHerselfHimself].\n\n"Únete a mí frente al fuego. Déjanos evocar tu furia". #EMP 0 llama." #NT!
+ fp1_yearly.2600.a:0 "¡Déjame ir a buscar mi piel de oso!" #NT!
+ fp1_yearly.2600.b:0 "No, prefiero tener el control total." #NT!
+ fp1_yearly.2600.a.tt:0 "Intenta convertirte en [GetTrait('berserker').GetName( GetNullCharacter )]\n#weak Puede haber riesgos...#!" #NT!
+ fp1_yearly.2600.b.tt:0 "Pierde la oportunidad de convertirte en [GetTrait('berserker').GetName( GetNullCharacter )]" #NT!
+ fp1_yearly.2601.desc:0 "Nos sentamos junto al fuego, cantando palabras de gran poder: aprieto los dientes y cierro los ojos. Escalofríos recorren mi cuerpo, algo se agita dentro de mí... abrazándome.\n\nDespierto de mi frenesí," #NT!
+ fp1_yearly.2601.success_no_one_harmed:0 "[berserker_teacher.GetFirstName] a mi lado.\n\n"¡Invocaste una ira realmente impresionante! ¡Esos troncos no tenían ninguna posibilidad!" [berserker_teacher.GetFirstNameNoTooltip] sonríe.\n\n¡Aparentemente trabajé en un frenesí durante toda la noche! Al menos no nos faltará leña durante semanas..." #NT!
+ fp1_yearly.2601.success_harm_close_one:0 "[berserker_teacher.GetFirstName] agarrándome por los hombros.\n\n "¡Recupera el sentido! ¡[harmed_victim.GetFirstName] no es tu enemigo!" [berserker_teacher.GetFirstNameNoTooltip] grita.\n\n¡Por [ROOT.GetCharacter.GetFaith.HighGodName], qué he hecho!?" #NT!
+ fp1_yearly.2601.success_kill_berserker:0 "[berserker_teacher.GetFirstNamePossessive] cadáver destrozado a mi lado. Miro mis puños cerrados, ambos están agarrando hachas ensangrentadas...\n\nPor [ROOT.GetCharacter.GetFaith.HighGodName], ¿¡qué he hecho!?" #NT!
+ fp1_yearly.2601.success_kill_everyone:0 "la sangre está a mi alrededor. Todos están muertos. #EMP Todo el mundo está muerto.#!\n\n#EMP ¿¡Qué he hecho!?#!" #NT!
+ fp1_yearly.2601.fail_fall_asleep:0 "sintiéndose tan renovado como un bebé recién nacido! [berserker_teacher.GetFirstName] me mira con desaprobación.\n\n"¿Tuviste una siesta agradable? Y aquí pensé que lo tenías en ti..." dice [berserker_teacher.GetFirstNameNoTooltip], sacudiendo la cabeza de [berserker_teacher.GetHerHis].\n\nSupongo que mi frenesí era solo un sueño !" #NT!
+ fp1_yearly.2601.a:0 "¡No puedo esperar a la próxima batalla!" #NT!
+ fp1_yearly.2601.b:0 "Esto debe haber sido obra de [ROOT.Char.GetFaith.TricksterGodName]..." #NT!
+ fp1_yearly.2601.c:0 "¡Oh bien! ¡Al menos me siento genial!" #NT!
+

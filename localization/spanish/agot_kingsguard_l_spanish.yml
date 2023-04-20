@@ -1,0 +1,73 @@
+﻿l_spanish:
+ kingsguard_lord_commander_flavor: "Lord Commander" #NT!
+ kingsguard_lord_commander_flavors: "Lord Commander" #NT!
+ kingsguard_lord_commander: "Lord Commander of the Kingsguard" #NT!
+ kingsguard_lord_commander_name: "$kingsguard_lord_commander$" #NT!
+ kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$" #NT!
+
+ queensguard_lord_commander_name:0 "Lord Commander of the Queensguard" #NT!
+
+
+ KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]" #NT!
+
+
+ Kingsguard_possesive:0 "[CHARACTER.Custom('KingsguardName')]'s" #NT!
+
+ kingsguard: "Kingsguard" #NT!
+ Kingsguard_possesive: "Kingsguard's" #NT!
+ kingsguard_1: "Kingsguard" # $KINGSGUARD$ #NT!
+ kingsguard_2: "Kingsguard" #NT!
+ kingsguard_3: "Kingsguard" #NT!
+ kingsguard_4: "Kingsguard" #NT!
+ kingsguard_5: "Kingsguard" #NT!
+ kingsguard_6: "Kingsguard" #NT!
+ kingsguard_1_possessive: "$Kingsguard_possesive$" #NT!
+ kingsguard_2_possessive: "$Kingsguard_possesive$" #NT!
+ kingsguard_3_possessive: "$Kingsguard_possesive$" #NT!
+ kingsguard_4_possessive: "$Kingsguard_possesive$" #NT!
+ kingsguard_5_possessive: "$Kingsguard_possesive$" #NT!
+ kingsguard_6_possessive: "$Kingsguard_possesive$" #NT!
+
+ #Naming #NT!
+ kingsguard_name:0 "Kingsguard" #NT!
+ queensguard_name:0 "Queensguard" #NT!
+
+ # Modifiers #NT!
+ kingsguard_lord_commander_modifier:0 "Liege's Lord Commander" #NT!
+ kingsguard_modifier:0 "Liege's Kingsguard" #NT!
+
+ training_for_kingsguard:0 "Training to Join the Kingsguard" #NT!
+ training_for_kingsguard_desc:0 "This character is training to join the Kingsguard." #NT!
+
+ kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]" #NT!
+ kingsguard_bodyguard: "Bodyguard" #NT!
+ kingsguard_bodyguard_desc: "This character is being guarded by a member of the Kingsguard" #NT!
+
+
+
+
+
+# Failed selection: Seems we cannot scope to the holding character from the modifier itself. #NT!
+#[SelectLocalization(ROOT.Char.MakeScope.Var('latest_kingsguard_bodyguard').IsSet,ROOT.Var('latest_kingsguard_bodyguard').Char.GetFirstName,'a member of the Kingsguard.'] x[Character.GetFirstName]y" #NT!
+ kingsguard_bodyguard_1: "$kingsguard_bodyguard$" #NT!
+ kingsguard_bodyguard_2: "$kingsguard_bodyguard$" #NT!
+ kingsguard_bodyguard_3: "$kingsguard_bodyguard$" #NT!
+ kingsguard_bodyguard_4: "$kingsguard_bodyguard$" #NT!
+ kingsguard_bodyguard_5: "$kingsguard_bodyguard$" #NT!
+ kingsguard_bodyguard_6: "$kingsguard_bodyguard$" #NT!
+
+ knight_hero: "Knight" #NT!
+ knight_hero_possessive: "Knight's" #NT!
+
+ kingsguard_lord_commander_default: "Protection" #NT!
+ kingsguard_default_1: "Protection" #NT!
+ kingsguard_default_2: "Protection" #NT!
+ kingsguard_default_3: "Protection" #NT!
+ kingsguard_default_4: "Protection" #NT!
+ kingsguard_default_5: "Protection" #NT!
+ kingsguard_default_6: "Protection" #NT!
+
+ you_agot_kingsguard_can_fire:0 "Kingsguards may be fired or reassigned if certain requirements are met." #NT!
+ you_dont_agot_kingsguard_can_fire:0 "A kingsguard serves for life, unless you break with that tradition." #NT!
+ you_agot_kingsguard_fire_requirements:0 "PLACEHOLDER" #NT!
+ you_dont_agot_kingsguard_fire_requirements:0 "PLACEHOLDER does not fit requirements" #NT!

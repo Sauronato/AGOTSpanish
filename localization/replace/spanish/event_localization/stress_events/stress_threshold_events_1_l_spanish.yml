@@ -1,0 +1,494 @@
+﻿l_spanish:
+ stress_threshold.1701.t:0 "Descanso mental: Regresando a casa a Roost" #NT!
+ stress_threshold.1701.desc.intro:0 "Mientras camino por los pasillos de mi palacio, frustrado, muchos de mis cortesanos parecen estar hablando sin parar sobre algún problema que tienen en [capital_province.GetNameNoTooltip].\n\n" #NT!
+ stress_threshold.1701.desc.lazy:0 "¡Simplemente no tengo la energía para preocuparme, y quiero desesperadamente volver a la cama!" #NT!
+ stress_threshold.1701.desc.wrathful:0 "En días como estos, cuando sus palabras se han convertido en un zumbido aburrido y molesto en mis oídos, tengo ganas de ahorcarme." #NT!
+ stress_threshold.1701.desc.impatient:0 "Desearía que se dieran prisa y arreglaran las cosas ellos mismos, sin que yo tenga que lidiar personalmente con cada uno. Pequeño. Cosa." #NT!
+ stress_threshold.1701.desc.arrogant:0 "Honestamente, a veces, se siente como si todo el reino se derrumbaría si no lo ejecutara todo yo mismo." #NT!
+ stress_threshold.1701.desc.arbitrary:0 "Tal vez ni siquiera es realmente un problema. Podría ser solo un problema local tonto de poca importancia, tal vez." #NT!
+ stress_threshold.1701.desc.trusting:0 "Con cómo han estado las cosas últimamente, me cuesta concentrarme, pero estoy seguro de que nadie estaría diciendo cosas tan duras si no fueran ciertas." #NT!
+ stress_threshold.1701.desc.stubborn:0 "Honestamente, esto ni siquiera suena particularmente problemático. Si se esforzaran más, ni siquiera notarían la falla." #NT!
+ stress_threshold.1701.desc.fallback:0 "A veces es mentalmente agotador simplemente ser yo." #NT!
+ stress_threshold.1701.desc.rump:0 "\n\nAlgo sobre la discusión suena... Sin embargo, familiar. ¿E-esa ley no fue idea mía? ¿Es esta #EMP my#! falla?" #NT!
+ stress_threshold.1701.a.rakish.gain:0 "¡A la mierda esto! Me voy al burdel." #NT!
+ stress_threshold.1701.a.rakish.effect:0 "$stress_threshold.1701.a.rakish.gain$" #NT!
+ stress_threshold.1701.b.irritable.gain:0 "Lo juro por [ROOT.GetCharacter.GetFaith.HighGodName], golpearé a alguien." #NT!
+ stress_threshold.1701.b.irritable.effect:0 "$stress_threshold.1701.b.irritable.gain$" #NT!
+ stress_threshold.1701.c.flagellant.gain:0 "¡Me azotaré por mis pecados!" #NT!
+ stress_threshold.1701.c.flagellant.effect:0 "$stress_threshold.1701.c.flagellant.gain$" #NT!
+ stress_threshold.1701.d.profligate.gain:0 "Tal vez una capa nueva me haría sentir mejor..." #NT!
+ stress_threshold.1701.d.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.1701.g.journaller.gain:0 "Debo deshacerme de estos pensamientos a través de la pluma." #NT!
+ stress_threshold.1701.g.journaller.effect:0 "$stress_threshold.1701.g.journaller.gain$" #NT!
+ stress_threshold.1701.h.confider.gain:0 "¿Tal vez [friend.GetFirstNameNoTooltip] me apoye?" #NT!
+ stress_threshold.1701.h.confider.effect:0 "¡[friend.GetFirstNameNoTooltip] seguramente me apoyará!" #NT!
+ stress_threshold.1701.i.drunkard.gain:0 "Un trago fuerte resuelve la mayoría de los problemas..." #NT!
+ stress_threshold.1701.i.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.1701.j.hashishiyah.gain:0 "La leche de amapola calmará mis nervios atribulados..." #NT!
+ stress_threshold.1701.j.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ #NOTE: Discuss w/ Sean?
+ stress_threshold.1701.k:0 "Es solo una charla sin sentido, nada que ver conmigo." #NT!
+
+ stress_threshold.1711.t:0 "Descanso mental: demasiado ocupado" #NT!
+ stress_threshold.1711.desc.intro:0 "Por [ROOT.GetCharacter.GetFaith.FateGodName], los peticionarios del reino han estado haciendo cola últimamente. Este trabajo se siente #EMP infinito#!. Y otro da un paso al frente, evidentemente un comerciante angustiado de algún tipo.\n\n" #NT!
+ stress_threshold.1711.desc.greedy:0 ""¿Tienes algún impuesto para mí? ¿No? Entonces no me importa mucho"." #NT!
+ stress_threshold.1711.desc.diligent:0 ""Me ocuparé de tus problemas en unas pocas semanas, pero no eres lo suficientemente importante para nada más rápido"." #NT!
+ stress_threshold.1711.desc.patient:0 "$stress_threshold.1711.desc.diligent$" #NT!
+ stress_threshold.1711.desc.deceitful:0 ""No pareces uno de mis súbditos. Ve a molestar a alguien más"." #NT!
+ stress_threshold.1711.desc.ambitious:0 ""¿Crees que puedes sacarme un sello real, burgués? ¡Soy un [ROOT.GetCharacter.GetTitleAsNameNoTooltip|L]!"" #NT!
+ stress_threshold.1711.desc.just:0 ""Si ha venido por justicia, sepa que no anulo a mis jueces solo por una moneda pequeña"." #NT!
+ stress_threshold.1711.desc.zealous:0 ""¡Prácticamente puedo oler el hedor del pecado sobre ti, burgués!"" #NT!
+ stress_threshold.1711.desc.fallback:0 ""¡[ROOT.GetCharacter.GetFaith.HealthGodNamePossessive] piedad, ni uno más!"" #NT!
+ stress_threshold.1711.desc.rump:0 "\n\nEl comerciante me mira boquiabierto, parpadeando rápidamente en estado de shock. ¿Fue algo que dije?" #NT!
+ stress_threshold.1711.a.reclusive.gain:0 "El último. Entonces quiero estar solo." #NT!
+ stress_threshold.1711.a.reclusive.effect:0 "$stress_threshold.1711.a.reclusive.gain$" #NT!
+ stress_threshold.1711.b.flagellant.gain:0 "Tal vez azotarme a mí mismo aflojaría el pecado del reino..." #NT!
+ stress_threshold.1711.b.flagellant.effect:0 "$stress_threshold.1711.b.flagellant.gain$" #NT!
+ stress_threshold.1711.c.profligate.gain:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.1711.c.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.1711.d.improvident.gain:0 "Ayúdate del tesoro, burgués. Lo necesita." #NT!
+ stress_threshold.1711.d.improvident.effect:0 "$stress_threshold.1711.d.improvident.gain$" #NT!
+ stress_threshold.1711.e.journaller.gain:0 "Buscaré consuelo en mi diario." #NT!
+ stress_threshold.1711.e.journaller.effect:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.1711.f.athletic.gain:0 "voy a dar un paseo Ahora." #NT!
+ stress_threshold.1711.f.athletic.effect:0 "$stress_threshold.1711.f.athletic.gain$" #NT!
+ stress_threshold.1711.g.drunkard.gain:0 "¡Beber! Esto es demasiado para una mente sobria." #NT!
+ stress_threshold.1711.g.drunkard.effect:0 "$stress_threshold.1711.g.drunkard.gain$" #NT!
+ stress_threshold.1711.h.hashishiyah.gain:0 "¡Leche de la amapola! Esto es demasiado para mi mente." #NT!
+ stress_threshold.1711.h.hashishiyah.effect:0 "$stress_threshold.1711.h.hashishiyah.gain$" #NT!
+ stress_threshold.1711.i:0 "¡Soy el [ROOT.GetCharacter.GetTitleAsNameNoTooltip], puedo hacer esto!" #NT!
+
+ stress_threshold.1721.t:0 "Descanso Mental: ¡Impostor!" #NT!
+ stress_threshold.1721.desc.intro:1 "Recientemente, siento que no soy digno de [ROOT.GetCharacter.GetPrimaryTitle.GetBaseNameNoTooltip]. ¿Otros gobernantes dudan de sí mismos como yo dudo de mí mismo?\n\nTrato de ser bueno," #NT!
+ stress_threshold.1721.desc.chaste:0 "casto [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero parece que siempre estoy tentado por los placeres de la carne. Los de mi posición no deberían sentir estos impulsos libidinosos." #NT!
+ stress_threshold.1721.desc.temperate:0 "templado [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero se me hace agua la boca constantemente. Todo me da hambre. ¿Por qué estoy tan malditamente, inusualmente hambriento?" #NT!
+ stress_threshold.1721.desc.generous:0 "generoso [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero no importa cuánto regale, siempre hay alguien más con un cuenco de limosna fuera de las paredes. Otros de mi estación no parecen tener estos problemas." #NT!
+ stress_threshold.1721.desc.calm:0 "calma [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero cada #EMP uno#!  de mis cortesanos parece decidido a freírme los nervios. Pequeñas crisis dominan mis días, y puedo sentir que me derrumbo de una manera que otros de mi posición nunca lo hacen." #NT!
+ stress_threshold.1721.desc.humble:0 "humilde [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero siento que cada una de mis acciones apesta a orgullo. Otros de mi posición viven tan modestamente, pero parece que hago alarde de mi magnificencia en cada oportunidad, y no puedo soportarlo." #NT!
+ stress_threshold.1721.desc.honest:0 "honesto [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero con cada proclamación y ley, puedo ver mentiras de omisión y pequeños errores torciendo mi sentido. Otros de mi posición son tan diligentes y abiertos, entonces, ¿por qué debo ser maldecido con esta naturaleza engañosa?" #NT!
+ stress_threshold.1721.desc.craven:0 "noble [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero simplemente soy demasiado cobarde para actuar con tanta valentía como otros de mi posición, y parece que mis súbditos lo notan constantemente." #NT!
+ stress_threshold.1721.desc.content:0 "noble [ROOT.GetCharacter.GetTitleAsNameNoTooltip], contento con mi suerte y sin ambiciones innecesarias, pero siento que actúo mucho más celoso y orgulloso que otros de mi posición." #NT!
+ stress_threshold.1721.desc.cynical_no_collide:0 "racional [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero mis sujetos siempre parecen adorar las filosofías de los demás y nunca mis propias reflexiones." #NT!
+ stress_threshold.1721.desc.paranoid:0 "cauteloso [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero no puedo predecirlo todo. Siempre hay más traidores que encontrar, más conspiradores escondidos en habitaciones secretas. Otros tribunales nunca parecen tener tanta traición, y solo puedo culparme a mí mismo por inspirarla." #NT!
+ stress_threshold.1721.desc.callous:0 "[ROOT.GetCharacter.GetTitleAsNameNoTooltip] realista, pero mis sujetos toman todo lo que hago como algo mezquino y se preocupan constantemente por trivialidades insignificantes. Otros de mi estación no parecen tener problemas para controlar a sus inferiores." #NT!
+ stress_threshold.1721.desc.compassionate:0 "compasivo [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero otros de mi estación parecen ser mucho más amados que yo. Simplemente no puedo conectarme con la gente tan bien como me gustaría." #NT!
+ stress_threshold.1721.desc.fickle:0 "flexible [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero no importa cuántas veces cambie de opinión, no importa cuánta información nueva obtenga, otros de mi estación parecen más capaces de cambiar que yo." #NT!
+ stress_threshold.1721.desc.vengeful:0 "solo [ROOT.GetCharacter.GetTitleAsNameNoTooltip], vengando los desaires y repartiendo represalias, pero otros de mi posición siempre parecen vengarse mucho más rápido." #NT!
+ stress_threshold.1721.desc.forgiving:0 "perdonando a [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero mis súbditos aún tienen miedo de acudir a mí con su problema. Otros de mi posición parecen ser los confidentes de cientos, y no sé cómo puedo hacer que mi gente confíe en mí de esa manera." #NT!
+ stress_threshold.1721.desc.fallback:0 "noble [ROOT.GetCharacter.GetTitleAsNameNoTooltip], pero estoy plagado de imperfecciones." #NT!
+ stress_threshold.1721.desc.rump:0 "\n\n¡Maldito sea este universo, por elevar a alguien tan pobre como yo a tales alturas!" #NT!
+ stress_threshold.1721.a.reclusive.gain:0 "Necesito estar solo para pensar en esto." #NT!
+ stress_threshold.1721.a.reclusive.effect:0 "$stress_threshold.1721.a.reclusive.gain$" #NT!
+ stress_threshold.1721.b.irritable.gain:0 "$stress_threshold.1701.b.irritable.gain$" #NT!
+ stress_threshold.1721.b.irritable.effect:0 "$stress_threshold.1701.b.irritable.gain$" #NT!
+ stress_threshold.1721.c.flagellant.gain:0 "$stress_threshold.1701.c.flagellant.gain$" #NT!
+ stress_threshold.1721.c.flagellant.effect:0 "$stress_threshold.1701.c.flagellant.gain$" #NT!
+ stress_threshold.1721.d.profligate.gain:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.1721.d.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.1721.e.improvident.gain:0 "La caridad me hace mejor persona, ¿no?" #NT!
+ stress_threshold.1721.e.improvident.effect:0 "$stress_threshold.1721.e.improvident.gain$" #NT!
+ stress_threshold.1721.f.contrite.gain:0 "Debo confesar mis pecados públicamente." #NT!
+ stress_threshold.1721.f.contrite.effect:0 "$stress_threshold.1721.f.contrite.gain$" #NT!
+ #NOTE: Discuss w/ Sean?
+ stress_threshold.1721.g.comfort_eater.gain:0 "¡Haremos un festín, un festín hasta que me sienta mejor!" #NT!
+ stress_threshold.1721.g.comfort_eater.effect:0 "¡Haz otra fiesta! ¡Y otro, y otro!" #NT!
+ stress_threshold.1721.h.inappetetic.gain:0 "Dile al cocinero que deje de hacerme la cena. no lo quiero" #NT!
+ stress_threshold.1721.h.inappetetic.effect:0 "$stress_threshold.1721.h.inappetetic.gain$" #NT!
+ stress_threshold.1721.i.journaller.gain:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.1721.i.journaller.effect:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.1721.j.confider.gain:0 "$stress_threshold.1701.h.confider.gain$" #NT!
+ stress_threshold.1721.j.confider.effect:0 "$stress_threshold.1701.h.confider.effect$" #NT!
+ stress_threshold.1721.k.drunkard.gain:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.1721.k.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.1721.l.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.1721.l.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.1721.m:0 "¡Soy tan bueno como el resto!" #NT!
+ stress_threshold.1721.n:0 "Tal vez estoy deseando la carne más rara..." #NT!
+
+ stress_threshold.1731.t:0 "Descanso mental: sin tiempo para mí" #NT!
+ stress_threshold.1731.desc.intro:1 "Gobernar ha sido un trabajo tan agotador últimamente. ¡Es como si ningún sujeto de [ROOT.GetCharacter.GetPrimaryTitle.GetNameNoTierNoTooltip] pudiera limpiarse el trasero sin mi instrucción expresa!\n\nEstaba planeando una pequeña escapada" #NT!
+ stress_threshold.1731.desc.lustful:0 "a un burdel local, donde tengo la intención de permanecer hasta que esté irritado y dolorido," #NT!
+ stress_threshold.1731.desc.gluttonous:0 "a una taberna famosa, donde estaré probando la exótica cocina extranjera," #NT!
+ stress_threshold.1731.desc.brave:0 "a un torneo lejano con reputación de una ferocidad particular," #NT!
+ stress_threshold.1731.desc.shy:0 "a una finca privada lejos de la capital," #NT!
+ stress_threshold.1731.desc.gregarious:0 "para divertirse con algunos tipos amables," #NT!
+ stress_threshold.1731.desc.sadistic:0 "a un calabozo aislado lleno de campesinos sin importancia," #NT!
+ stress_threshold.1731.desc.fallback:0 "lejos del ajetreo y el bullicio de [capital_province.GetNameNoTooltip]," #NT!
+ stress_threshold.1731.desc.rump:0 "cuando un sirviente viene corriendo hacia mí, balbuceando sobre alguna nueva catástrofe trivial." #NT!
+ stress_threshold.1731.a.rakish.gain:0 "$stress_threshold.1701.a.rakish.gain$" #NT!
+ stress_threshold.1731.a.rakish.effect:0 "$stress_threshold.1701.a.rakish.gain$" #NT!
+ stress_threshold.1731.b.reclusive.gain:0 "Puede esperar, todo puede esperar." #NT!
+ stress_threshold.1731.b.reclusive.effect:0 "$stress_threshold.1731.b.reclusive.gain$" #NT!
+ stress_threshold.1731.c.profligate.gain:0 "Me detendré a comprar algunas cosas en el camino..." #NT!
+ stress_threshold.1731.c.profligate.effect:0 "$stress_threshold.1731.c.profligate.gain$" #NT!
+ stress_threshold.1731.d.comfort_eater.gain:0 "Pensaré en volver temprano para el almuerzo." #NT!
+ stress_threshold.1731.d.comfort_eater.effect:0 "$stress_threshold.1731.d.comfort_eater.gain$" #NT!
+ stress_threshold.1731.e.journaller.gain:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.1731.e.journaller.effect:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.1731.f.confider.gain:0 "Hablaré con [friend.GetFirstNameNoTooltip] sobre esto en el camino." #NT!
+ stress_threshold.1731.f.confider.effect:0 "$stress_threshold.1731.f.confider.gain$" #NT!
+ stress_threshold.1731.g.athletic.gain:0 "Tal vez camine hasta mi escapada..." #NT!
+ stress_threshold.1731.g.athletic.effect:0 "$stress_threshold.1731.g.athletic.gain$" #NT!
+ stress_threshold.1731.h.drunkard.gain:0 "Estaré bebiendo todo el viaje, parece." #NT!
+ stress_threshold.1731.h.drunkard.effect:0 "$stress_threshold.1731.h.drunkard.gain$" #NT!
+ stress_threshold.1731.i.hashishiyah.gain:0 "¿Tenemos un poco de leche de amapola para facilitar el viaje?" #NT!
+ stress_threshold.1731.i.hashishiyah.effect:1 "$stress_threshold.1731.i.hashishiyah.gain$" #NT!
+ stress_threshold.1731.g:0 "#EMP Fine#!, Cancelaré mis planes." #NT!
+
+ stress_threshold.2301.t:0 "Descanso mental: necesidades crecientes" #NT!
+ stress_threshold.2301.desc.intro:0 "Todos los días parecen escaparse de mí recientemente, un tren interminable de peticionarios codiciosos y decisiones difíciles. Mi pecho se aprieta cuando otro da un paso adelante. Mis dedos pican y hormiguean en las puntas, mis ojos se sienten demasiado pequeños para mi cráneo.\n\nNecesito alejarme de esto, solo por un rato, necesito" #NT!
+ stress_threshold.2301.desc.lustful:0 "sentir el calor de otro ser humano en mis brazos, solo para conectarme un poco con alguien." #NT!
+ stress_threshold.2301.desc.gluttonous:0 "comer algo, cualquier cosa, para saciar este vacío de sentido." #NT!
+ stress_threshold.2301.desc.greedy:0 "sentir la dureza tranquilizadora de la moneda fría entre mis dedos, algo confiable, algo que tiene sentido." #NT!
+ stress_threshold.2301.desc.gregarious:0 "hablar con alguien, cualquiera, realmente #EMP hablar#! y sentir que me entienden." #NT!
+ stress_threshold.2301.desc.fallback:0 "solo respira sin sentirte aplastado, sonríe sin sentirte vacío." #NT!
+ stress_threshold.2301.desc.rump:0 "\n\n¿Es mucho pedir?" #NT!
+ stress_threshold.2301.a.rakish.gain:0 "$stress_threshold.1701.a.rakish.gain$" #NT!
+ stress_threshold.2301.a.rakish.effect:0 "$stress_threshold.1701.a.rakish.gain$" #NT!
+ stress_threshold.2301.b.profligate.gain:0 "Tal vez... ¿Quizás una cama nueva? ¿O tres?" #NT!
+ stress_threshold.2301.b.profligate.effect:0 "$stress_threshold.2301.b.profligate.gain$" #NT!
+ stress_threshold.2301.c.comfort_eater.gain:0 "$stress_threshold.1721.g.comfort_eater.gain$" #NT!
+ stress_threshold.2301.c.comfort_eater.effect:0 "$stress_threshold.1721.g.comfort_eater.effect$" #NT!
+ stress_threshold.2301.d.drunkard.gain:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2301.d.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2301.e.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2301.e.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2301.f:0 "Odio esto." #NT!
+
+ stress_threshold.2311.t:0 "Descanso mental: perseguido por el pasado" #NT!
+ stress_threshold.2311.desc.intro:0 "Me siento meditando en mi trono, con el corazón cargado de recuerdos, reflexionando sobre cosas que hice hace años y años." #NT!
+ stress_threshold.2311.desc.generous:0 "¿Fui realmente un [ROOT.GetCharacter.GetTitleAsNameNoTooltip] generoso? ¿Realmente ayudé a la gente?" #NT!
+ stress_threshold.2311.desc.diligent:0 "¿Trabajé lo suficiente en ese entonces? ¿Mi trabajo evitó problemas o los causó?" #NT!
+ stress_threshold.2311.desc.wrathful:0 "¿Cuántas veces he arremetido con rabia? ¿Ha sido mi ira bien gastada o mal dirigida?" #NT!
+ stress_threshold.2311.desc.patient:0 "¿He sido demasiado cauteloso? ¿Ha sido mi paciencia algo más que una indecisión glorificada?" #NT!
+ stress_threshold.2311.desc.arrogant:0 "¿Me ha llevado mi orgullo hasta aquí? ¿Tengo una caída proporcional esperando para condenarme?" #NT!
+ stress_threshold.2311.desc.humble:0 "¿Era realmente lo suficientemente bueno? ¿No hubiera sido más adecuado otro [ROOT.GetCharacter.GetTitleAsNameNoTooltip]?" #NT!
+ stress_threshold.2311.desc.deceitful:0 "¿Estoy demasiado enredado en mis propias mentiras? Pensé que era inteligente, pero ¿tal vez mi engaño me está alcanzando incluso ahora?" #NT!
+ stress_threshold.2311.desc.zealous:0 "¿Realmente tengo el ojo [ROOT.GetCharacter.GetFaith.HighGodNamePossessive]? ¿Ha sido mi fe una antorcha en la oscuridad, o una pira para mi propia locura?" #NT!
+ stress_threshold.2311.desc.fallback:0 "¿Tenía razón? ¿Estaba equivocado?" #NT!
+ stress_threshold.2311.desc.rump:0 "¿He hecho realmente lo correcto alguna vez?\n\nMe duele la cabeza. ¿Por qué [ROOT.GetCharacter.GetFaith.HighGodName] me pediría que decidiera si [ROOT.GetCharacter.GetFaith.HighGodNameSheHe] sabía que me haría sentir tan miserable?" #NT!
+ stress_threshold.2311.a.rakish.gain:0 "$stress_threshold.1701.a.rakish.gain$" #NT!
+ stress_threshold.2311.a.rakish.effect:0 "$stress_threshold.1701.a.rakish.gain$" #NT!
+ stress_threshold.2311.b.irritable.gain:0 "$stress_threshold.1701.b.irritable.gain$" #NT!
+ stress_threshold.2311.b.irritable.effect:0 "$stress_threshold.1701.b.irritable.gain$" #NT!
+ stress_threshold.2311.c.flagellant.gain:0 "$stress_threshold.1701.c.flagellant.gain$" #NT!
+ stress_threshold.2311.c.flagellant.effect:0 "$stress_threshold.1701.c.flagellant.gain$" #NT!
+ stress_threshold.2311.d.improvident.gain:0 "Tal vez una donación caritativa me tranquilice..." #NT!
+ stress_threshold.2311.d.improvident.effect:0 "$stress_threshold.2311.d.improvident.gain$" #NT!
+ stress_threshold.2311.e.contrite.gain:0 "$stress_threshold.1721.f.contrite.gain$" #NT!
+ stress_threshold.2311.e.contrite.effect:0 "$stress_threshold.1721.f.contrite.gain$" #NT!
+ stress_threshold.2311.f.inappetetic.gain:0 "No puedo comer en un momento como este." #NT!
+ stress_threshold.2311.f.inappetetic.effect:0 "$stress_threshold.2311.f.inappetetic.gain$" #NT!
+ stress_threshold.2311.g.journaller.gain:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2311.g.journaller.effect:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2311.h.confider.gain:0 "$stress_threshold.1701.h.confider.gain$" #NT!
+ stress_threshold.2311.h.confider.effect:0 "$stress_threshold.1701.h.confider.effect$" #NT!
+ stress_threshold.2311.i.athletic.gain:0 "$stress_threshold.1711.f.athletic.gain$" #NT!
+ stress_threshold.2311.i.athletic.effect:0 "$stress_threshold.1711.f.athletic.gain$" #NT!
+ stress_threshold.2311.j.drunkard.gain:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2311.j.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2311.k.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2311.k.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2311.l:0 "¡No puedo cometer errores, soy un [ROOT.GetCharacter.GetTitleAsNameNoTooltip]!" #NT!
+
+ stress_threshold.2321.t:0 "Descanso mental: aturdido por la corte" #NT!
+ stress_threshold.2321.desc.intro:0 "¡Todo lo que hago, la gente lo aprovecha!" #NT!
+ stress_threshold.2321.desc.impatient:0 "¡Mi vida es una procesión constante de largas y divagantes explicaciones para las que no tengo tiempo!" #NT!
+ stress_threshold.2321.desc.honest:0 "¡Mi corte me miente en la cara, todo el día, todos los días, tanto plebeyos como nobles!" #NT!
+ stress_threshold.2321.desc.trusting:0 "$stress_threshold.2321.desc.honest$" #NT!
+ stress_threshold.2321.desc.compassionate:0 "¡Mis sujetos juegan con mi compasión constantemente, ansiosos por explotar hasta la última gota de empatía en mi hígado!" #NT!
+ stress_threshold.2321.desc.forgiving:0 "¡Mi misericordia es puesta a prueba diariamente, a veces dos veces al día, por una legión de apestosos ingratos!" #NT!
+ stress_threshold.2321.desc.fallback:0 "¡Mi corte está llena de parásitos! ¡vampiros! ¡Sanguijuelas!" #NT!
+ stress_threshold.2321.desc.rump:0 "¡Me hierve la sangre!\n\n¡Simplemente no puedo soportarlo más! ¡Si no hago algo al respecto, gritaré!" #NT!
+ stress_threshold.2321.a.irritable.gain:0 "¡Y tal vez grite de todos modos!" #NT!
+ stress_threshold.2321.a.irritable.effect:0 "$stress_threshold.2321.a.irritable.gain$" #NT!
+ stress_threshold.2321.b.profligate.gain:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2321.b.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2321.c.improvident.gain:0 "$stress_threshold.2311.d.improvident.gain$" #NT!
+ stress_threshold.2321.c.improvident.effect:0 "$stress_threshold.2311.d.improvident.gain$" #NT!
+ stress_threshold.2321.d.contrite.gain:0 "¡No puedo mantener todo esto adentro por más tiempo!" #NT!
+ stress_threshold.2321.d.contrite.effect:0 "$stress_threshold.2321.d.contrite.gain$" #NT!
+ stress_threshold.2321.e.comfort_eater.gain:0 "$stress_threshold.1721.g.comfort_eater.gain$" #NT!
+ stress_threshold.2321.e.comfort_eater.effect:0 "$stress_threshold.1721.g.comfort_eater.effect$" #NT!
+ stress_threshold.2321.f.journaller.gain:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2321.f.journaller.effect:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2321.g.confider.gain:0 "$stress_threshold.1701.h.confider.gain$" #NT!
+ stress_threshold.2321.g.confider.effect:0 "$stress_threshold.1701.h.confider.effect$" #NT!
+ stress_threshold.2321.h.drunkard.gain:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2321.h.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2321.i.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2321.i.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2321.a.irritable.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('wrathful').GetName(GetNullCharacter)], [GetTrait('callous').GetName(GetNullCharacter)] o [GetTrait('sadistic').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.b.profligate.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('fickle').GetName(GetNullCharacter)], [GetTrait('forgiving').GetName(GetNullCharacter)] o [GetTrait('trusting').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.c.improvident.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('generous').GetName(GetNullCharacter)], [GetTrait('compassionate').GetName(GetNullCharacter)] o [GetTrait('humble').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.d.contrite.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('honest').GetName(GetNullCharacter)], [GetTrait('just').GetName(GetNullCharacter)] o [GetTrait('compassionate').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.e.comfort_eater.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('gluttonous').GetName(GetNullCharacter)], [GetTrait('arbitrary').GetName(GetNullCharacter)] o [GetTrait('calm').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.f.journaller.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('patient').GetName(GetNullCharacter)], [GetTrait('scholar').GetName(GetNullCharacter)] o [GetTrait('theologian').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.g.confider.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('gregarious').GetName(GetNullCharacter)], [GetTrait('shy').GetName(GetNullCharacter)] o [GetTrait('trusting').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.h.drunkard.list:0 "[vassals|E] y [courtiers|E] sin [GetTrait('gluttonous').GetName(GetNullCharacter)], [GetTrait('forgiving').GetName(GetNullCharacter)] o [GetTrait('compassionate').GetName(GetNullCharacter)]" #NT!
+ stress_threshold.2321.i.hashishiyah.list:0 "$stress_threshold.2321.h.drunkard.list$" #NT!
+ stress_threshold.2321.j:0 "Aprieto los dientes y fuerzo una sonrisa." #NT!
+
+ stress_threshold.2331.t:0 "Descanso mental: autoridad enajenada" #NT!
+ stress_threshold.2331.desc.intro:0 "Últimamente, mis cortesanos parecen evitarme a toda costa. Escucho susurros que" #NT!
+ stress_threshold.2331.desc.calm:0 "consideran mi mirada tranquila perturbadora, desprovista de emoción" #NT!
+ stress_threshold.2331.desc.brave:0 "mi valentía se confunde con sed de sangre" #NT!
+ stress_threshold.2331.desc.ambitious:0 "piensan que no me detendré ante nada para lograr mis ambiciones, que nada es sagrado para mí" #NT!
+ stress_threshold.2331.desc.just:0 "piensan que soy demasiado severo, que me adhiero demasiado a la letra de la ley en lugar de a su espíritu" #NT!
+ stress_threshold.2331.desc.callous:0 "Dicen que no tengo corazón, que no me importa nadie más que yo" #NT!
+ stress_threshold.2331.desc.stubborn:0 "me consideran demasiado terco, demasiado inflexible, demasiado intransigente" #NT!
+ stress_threshold.2331.desc.fallback:0 "me creen demasiado impersonal, demasiado distante" #NT!
+ stress_threshold.2331.desc.rump:0 ", pero eso solo significa que gobierno con mano firme. No significa que sea un monstruo.\n\n... ¿O sí?" #NT!
+ stress_threshold.2331.a.reclusive.gain:0 "¡Yo tampoco quiero ver #EMP ellos#! !" #NT!
+ stress_threshold.2331.a.reclusive.effect:0 "$stress_threshold.2331.a.reclusive.gain$" #NT!
+ stress_threshold.2331.a.reclusive.opinion_list:0 "Tus [courtiers|E] son expulsados" #NT!
+ stress_threshold.2331.b.irritable.gain:0 "¡Malditos ingratos!" #NT!
+ stress_threshold.2331.b.irritable.effect:0 "$stress_threshold.2331.b.irritable.gain$" #NT!
+ stress_threshold.2331.c.profligate.gain:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2331.c.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2331.d.improvident.gain:0 "¡El oro y la plata me comprarán amor!" #NT!
+ stress_threshold.2331.d.improvident.effect:0 "$stress_threshold.2331.d.improvident.gain$" #NT!
+ stress_threshold.2331.e.journaller.gain:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2331.e.journaller.effect:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2331.f.confider.gain:0 "$stress_threshold.1701.h.confider.gain$" #NT!
+ stress_threshold.2331.f.confider.effect:0 "$stress_threshold.1701.h.confider.effect$" #NT!
+ stress_threshold.2331.g.athletic.gain:0 "$stress_threshold.1711.f.athletic.gain$" #NT!
+ stress_threshold.2331.g.athletic.effect:0 "$stress_threshold.1711.f.athletic.gain$" #NT!
+ stress_threshold.2331.h.drunkard.gain:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2331.h.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2331.i.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2331.i.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2331.j:0 "No necesito amor, solo obediencia." #NT!
+
+ stress_threshold.2341.t:0 "Descanso mental: deber eludido" #NT!
+ stress_threshold.2341.desc.intro:0 "¡Maldita sea, yo también necesito tiempo para mí! Entonces, ¿qué pasa si no voy a la corte por unos días, o incluso un mes? Gobernar es mi prerrogativa y lo ejerceré o lo dejaré a mi antojo.\n\nSoy el [ROOT.GetCharacter.GetTitleAsNameNoTooltip]," #NT!
+ stress_threshold.2341.desc.lazy:0 "y requiero mi descanso!" #NT!
+ stress_threshold.2341.desc.craven:0 "y si elijo no exponerme a los peligros de la vida cortesana, ¡no es asunto de nadie más que mío!" #NT!
+ stress_threshold.2341.desc.shy:0 "y si no quiero enfrentarme a las hordas cortesanas, ¡no tengo por qué hacerlo!" #NT!
+ stress_threshold.2341.desc.arbitrary:0 "¡y no tengo obligaciones excepto aquellas que elijo mantener!" #NT!
+ stress_threshold.2341.desc.fickle:0 "$stress_threshold.2341.desc.arbitrary$" #NT!
+ stress_threshold.2341.desc.fallback:0 "y mis elecciones son inviolables!" #NT!
+ stress_threshold.2341.a.reclusive.gain:0 "¡Vete! ¡Todos ustedes!" #NT!
+ stress_threshold.2341.a.reclusive.effect:0 "$stress_threshold.2341.a.reclusive.gain$" #NT!
+ stress_threshold.2341.a.reclusive.list_courtier:0 "$stress_threshold.2331.a.reclusive.opinion_list$" #NT!
+ stress_threshold.2341.a.reclusive.list_guest:0 "Cada [guest|E] sale" #NT!
+ stress_threshold.2341.b.profligate.gain:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2341.b.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2341.c.comfort_eater.gain:0 "$stress_threshold.1721.g.comfort_eater.gain$" #NT!
+ stress_threshold.2341.c.comfort_eater.effect:0 "$stress_threshold.1721.g.comfort_eater.effect$" #NT!
+ stress_threshold.2341.c.comfort_eater.tt:0 "Tus cortesanos se burlan de un apodo desagradable a tus espaldas..." #NT!
+ stress_threshold.2341.d.journaller.gain:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2341.d.journaller.effect:0 "$stress_threshold.1711.e.journaller.gain$" #NT!
+ stress_threshold.2341.e.confider.gain:0 "$stress_threshold.1701.h.confider.gain$" #NT!
+ stress_threshold.2341.e.confider.effect:0 "$stress_threshold.1701.h.confider.effect$" #NT!
+ stress_threshold.2341.f.drunkard.gain:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2341.f.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2341.g.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2341.g.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2341.h:0 "¡Malditos sean vuestros pellejos petulantes!" #NT!
+
+ stress_threshold.2351.t:0 "Descanso mental: comentarios impropios" #NT!
+ stress_threshold.2351.desc.intro:0 "Me siento, prestando solo un poco de atención, mientras el campesino termina su historia de aflicción. Francamente, apenas registré de qué estaban hablando. Mi mente está llena a reventar con mis propios problemas.\n\n" #NT!
+ stress_threshold.2351.desc.content:0 ""¿No puedes estar #EMP contenido#! con lo que te queda?"," #NT!
+ stress_threshold.2351.desc.cynical:0 ""Pfft, ¿cómo puedo siquiera saber que no estás #EMP mintiendo#!?"," #NT!
+ stress_threshold.2351.desc.paranoid:0 ""Una #EMP probable#! historia. ¡Probablemente seas un espía extranjero!"," #NT!
+ stress_threshold.2351.desc.sadistic:0 ""Sabes, creo que hay un #EMP perfect#! lugar en mi mazmorra para ti"," #NT!
+ stress_threshold.2351.desc.vengeful:0 ""Seguro que te merecías #EMP todo lo #! que te pasó"," #NT!
+ stress_threshold.2351.desc.fallback:0 ""Por [ROOT.GetCharacter.GetFaith.HighGodName], #EMP apestas #!"," #NT!
+ stress_threshold.2351.desc.rump:0 "Respondo, sin pensar.\n\nLa corte que nos rodea queda completamente en silencio, todos los ojos están puestos en el desconcertado plebeyo y en mí. Evidentemente, esa no era la respuesta que esperaban." #NT!
+ stress_threshold.2351.a.reclusive.gain:0 "¡#EMP Dejen#!, todos ustedes!" #NT!
+ stress_threshold.2351.a.reclusive.effect:0 "$stress_threshold.2351.a.reclusive.gain$" #NT!
+ stress_threshold.2351.b.irritable.gain:0 "¿Qué esperáis de mí, bebedores de leche?" #NT!
+ stress_threshold.2351.b.irritable.effect:0 "$stress_threshold.2351.b.irritable.gain$" #NT!
+ stress_threshold.2351.c.profligate.gain:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2351.c.profligate.effect:0 "$stress_threshold.1701.d.profligate.gain$" #NT!
+ stress_threshold.2351.d.improvident.gain:0 "$stress_threshold.1711.d.improvident.gain$" #NT!
+ stress_threshold.2351.d.improvident.effect:0 "$stress_threshold.1711.d.improvident.gain$" #NT!
+ stress_threshold.2351.e.inappetetic.gain:0 "$stress_threshold.1721.h.inappetetic.gain$" #NT!
+ stress_threshold.2351.e.inappetetic.effect:0 "$stress_threshold.1721.h.inappetetic.gain$" #NT!
+ stress_threshold.2351.f.journaller.gain:0 "Tal vez dibuje a los peticionarios en mi diario..." #NT!
+ stress_threshold.2351.f.journaller.effect:0 "$stress_threshold.2351.f.journaller.gain$" #NT!
+ stress_threshold.2351.g.drunkard.gain:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2351.g.drunkard.effect:0 "$stress_threshold.1701.i.drunkard.gain$" #NT!
+ stress_threshold.2351.h.hashishiyah.gain:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2351.h.hashishiyah.effect:0 "$stress_threshold.1701.j.hashishiyah.gain$" #NT!
+ stress_threshold.2351.i:0 "Disculpas, ahora, por favor repite tu historia..." #NT!
+
+ stress_threshold.3401.t:0 "Descanso mental: disparar al mensajero" #NT!
+ stress_threshold.3401.desc.intro:0 "Mi cabeza se siente como una tormenta atrapada en un huevo. Me retuerzo, tratando de ponerme cómodo en mi trono, mientras un mensajero me cuenta una triste historia irrelevante sobre piratas, bandidos, asaltantes o algún tipo de tontería común.\n\nLa presión en mi cráneo aumenta, exigiendo liberación en alguna parte , y, casi involuntariamente, mi boca se abre para hablar." #NT!
+ stress_threshold.3401.desc.vengeful:0 ""¿No me arrojaste un huevo hace algunos años?" #NT!
+ stress_threshold.3401.desc.wrathful:0 ""¡¿Cómo te atreves a traerme tales trivialidades?!" #NT!
+ stress_threshold.3401.desc.impatient:0 ""¡Escúpelo, imbécil! ¡Gah, demasiado lento!" #NT!
+ stress_threshold.3401.desc.arbitrary:0 ""Por [ROOT.GetCharacter.GetFaith.HighGodName], encuentro tu olor bastante potente." #NT!
+ stress_threshold.3401.desc.paranoid:0 ""¿Crees que caeré en estas mentiras obvias? ¡Claramente eres un asesino a sueldo!" #NT!
+ stress_threshold.3401.desc.callous:0 ""No me importan esos problemas insignificantes." #NT!
+ stress_threshold.3401.desc.sadistic:0 ""Su mal servicio da un mal ejemplo." #NT!
+ stress_threshold.3401.desc.fallback:0 "$stress_threshold.3401.desc.wrathful$" #NT!
+ stress_threshold.3401.desc.rump:0 "#EMP ¡Decapitad a este idiota! #!"\n\nThe La corte que nos rodea queda en un silencio sepulcral." #NT!
+ stress_threshold.3401.a.reclusive.gain:0 "¡Y luego todos ustedes salgan de mi vista!" #NT!
+ stress_threshold.3401.a.reclusive.effect:0 "$stress_threshold.3401.a.reclusive.gain$" #NT!
+ stress_threshold.3401.a.reclusive.list:0 "Cada [character|E] fuera de su hogar inmediato" #NT!
+ stress_threshold.3401.b.irritable.gain:0 "¡Y decapitad a cualquiera que intente hablarme!" #NT!
+ stress_threshold.3401.b.irritable.effect:0 "$stress_threshold.3401.b.irritable.gain$" #NT!
+ stress_threshold.3401.c.journaller.gain:0 "¡Exprime el cadáver! #EMP ¡Tendré los fluidos para la tinta!#!" #NT!
+ stress_threshold.3401.c.journaller.effect:0 "$stress_threshold.3401.c.journaller.gain$" #NT!
+ stress_threshold.3401.d.confider.gain:0 "$stress_threshold.1701.h.confider.gain$" #NT!
+ stress_threshold.3401.d.confider.effect:0 "$stress_threshold.1701.h.confider.effect$" #NT!
+ stress_threshold.3401.e.drunkard.gain:0 "¡Y tráeme un trago! ¡Y un repuesto!" #NT!
+ stress_threshold.3401.e.drunkard.effect:0 "$stress_threshold.3401.e.drunkard.gain$" #NT!
+ stress_threshold.3401.f.hashishiyah.gain:0 "¡Y tráeme un poco de leche de amapola!" #NT!
+ stress_threshold.3401.f.hashishiyah.effect:0 "$stress_threshold.3401.f.hashishiyah.gain$" #NT!
+ stress_threshold.3401.g:0 "¡Y tráeme la cabeza como escabel!" #NT!
+
+ stress_threshold.3411.t:0 "Descanso mental: ¡Soy indigno!" #NT!
+ stress_threshold.3411.desc.intro:0 "no puedo hacer esto Simplemente no puedo hacer esto. ¡No puedo ser [ROOT.GetCharacter.GetTitleAsNameNoTooltip|L] ni un momento más! ¿Cómo alguien #EMP maneja #! esta masa hirviente de estrés? No importa cómo" #NT!
+ stress_threshold.3411.desc.generous:0 "Cuánto doy, no importa cuán generoso sea con mis súbditos, algunos siempre parecen ser pobres y algunos siempre parecen odiarme." #NT!
+ stress_threshold.3411.desc.diligent:0 "cuánto trabajo, cuántas noches de insomnio me quedo en la cama, los problemas del reino solo parecen multiplicarse y enconarse." #NT!
+ stress_threshold.3411.desc.patient:0 "Pacientemente escucho problema tras problema, simplemente nunca parezco tener soluciones lo suficientemente buenas." #NT!
+ stress_threshold.3411.desc.humble:0 "poco dejo que mi orgullo se interponga en el camino de mi deber, todavía siento como si mi propia arrogancia me estuviera consumiendo viva." #NT!
+ stress_threshold.3411.desc.shy:0 "Por mucho esfuerzo que puse en mantener la corte, la visión de los cortesanos en tropel me provoca apoplejías de miedo." #NT!
+ stress_threshold.3411.desc.just:0 "tal como soy, no importa cuán fervientemente persiga el estado de derecho, el crimen aún se encona en todos los rincones de mi dominio." #NT!
+ stress_threshold.3411.desc.trusting:0 "muchas veces perdono a las personas, o les hago préstamos, o les doy el beneficio de la duda, siempre parece suceder algo catastrófico e impredecible." #NT!
+ stress_threshold.3411.desc.compassionate:0 "a menudo trato de hacer una corte, de escuchar a la gente común de la tierra, siempre hay cientos más esperando para solicitar mi ayuda." #NT!
+ stress_threshold.3411.desc.forgiving:0 "$stress_threshold.3411.desc.trusting$" #NT!
+ stress_threshold.3411.desc.fallback:0 "Me esfuerzo mucho, todo lo que hago parece ser un error, cada logro se convierte en cenizas en mis manos." #NT!
+ stress_threshold.3411.desc.rump:0 "\n\nEstá claro que #EMP nunca#! seré lo suficientemente bueno para gobernar. Algo que #EMP tiene#! para dar." #NT!
+ stress_threshold.3411.a.reclusive.gain:1 "¡NO ME MIRES!" #NT!
+ stress_threshold.3411.a.reclusive.effect:0 "$stress_threshold.2351.a.reclusive.gain$" #NT!
+ stress_threshold.3411.b.flagellant.gain:0 "¡Mi carne para el perdón!" #NT!
+ stress_threshold.3411.b.flagellant.effect:0 "$stress_threshold.3411.b.flagellant.gain$" #NT!
+ stress_threshold.3411.c.profligate.gain:0 "Los grandes monumentos engañarán a mis súbditos..." #NT!
+ stress_threshold.3411.c.profligate.effect:0 "$stress_threshold.3411.c.profligate.gain$" #NT!
+ stress_threshold.3411.d.improvident.gain:0 "¿Y si el tesoro fuera de todos?" #NT!
+ stress_threshold.3411.d.improvident.effect:0 "$stress_threshold.3411.d.improvident.gain$" #NT!
+ stress_threshold.3411.e.contrite.gain:0 "¡El mundo #EMP debe#!  saber de mi insuficiencia!" #NT!
+ stress_threshold.3411.e.contrite.effect:0 "$stress_threshold.3411.e.contrite.gain$" #NT!
+ stress_threshold.3411.f.inappetetic.gain:0 "¡Vacía las despensas! No merezco comida tentadora." #NT!
+ stress_threshold.3411.f.inappetetic.effect:0 "$stress_threshold.3411.f.inappetetic.gain$" #NT!
+ stress_threshold.3411.f.inappetetic.list:0 "Todos los [courtier|E] y [guest|E] murieron de hambre junto a ti" #NT!
+ stress_threshold.3411.g.journaller.gain:0 "¡Mis viejos diarios! Debo estudiar mis defectos..." #NT!
+ stress_threshold.3411.g.journaller.effect:0 "$stress_threshold.3411.g.journaller.gain$" #NT!
+ stress_threshold.3411.h.confider.gain:0 "$stress_threshold.1701.h.confider.gain$" #NT!
+ stress_threshold.3411.h.confider.effect:0 "$stress_threshold.1701.h.confider.effect$" #NT!
+ stress_threshold.3411.i.athletic.gain:0 "No puedo huir de esta responsabilidad, pero puedo intentarlo." #NT!
+ stress_threshold.3411.i.athletic.effect:0 "$stress_threshold.3411.i.athletic.gain$" #NT!
+ stress_threshold.3411.j.drunkard.gain:0 "Tráeme un barril de bebida para bañar mis penas." #NT!
+ stress_threshold.3411.j.drunkard.effect:0 "$stress_threshold.3411.j.drunkard.gain$" #NT!
+ stress_threshold.3411.k.hashishiyah.gain:0 "Quiero leche de amapola para borrar esta vergüenza." #NT!
+ stress_threshold.3411.k.hashishiyah.effect:0 "$stress_threshold.3411.k.hashishiyah.gain$" #NT!
+ stress_threshold.3411.l:0 "¡Eso es todo! ¡Abdico!" #NT!
+ stress_threshold.3411.l.list:0 "Cada [vassal|E] que no te odia" #NT!
+ stress_threshold.3411.l.tt:0 "Todos los [claims|E] contra tu [titles|E] se convierten en [pressed|E]" #NT!
+
+ stress_threshold.3421.t:0 "Descanso mental: Dominio del libertinaje" #NT!
+ stress_threshold.3421.desc.intro:0 ""Mi señor", ruega el sirviente, "¿no harías algo por favor? ¡[burning_holding.GetNameNoTier] arde! ¡Debes enviar ayuda!".\n\n" #NT!
+ stress_threshold.3421.desc.lustful:0 "Me estiro, mis dos manos entran en contacto con la hermosa carne joven sin esfuerzo. Un coro de gemidos detrás de mí parece no haber sido molestado por el visitante." #NT!
+ #Go full Denethor:
+ stress_threshold.3421.desc.gluttonous:0 "Continúo llevándome comida a la boca, solo detengo mi festín one-[ROOT.GetCharacter.GetWomanMan] después de que pasan varios minutos incómodos y queda claro que el mensajero no se irá sin una orden explícita." #NT!
+ stress_threshold.3421.desc.greedy:0 "Simplemente sigo contando mis monedas, imperturbable. Los relucientes montones de plata y oro me rodean como las torres de un pequeño castillo, clasificados por tamaño y pureza, y constituyen una parte significativa de mi riqueza." #NT!
+ stress_threshold.3421.desc.lazy:0 "Mis ojos permanecen cerrados. Me balanceo suavemente en mi cabestrillo de tela, solo en la torre más alta que poseo, excepto por el mensajero y un rescate [ROOT.GetCharacter.GetTitleAsNamePossessiveNoTooltip|L] en almohadas y mantas suaves." #NT!
+ stress_threshold.3421.desc.arrogant:0 "Me quedo con mi modelo de construcción de una versión nueva y perfecta del palacio ideal. Es como yo en cada detalle y, debido a que lo estoy haciendo, hasta el último detalle es intrínsecamente correcto." #NT!
+ stress_threshold.3421.desc.craven:0 "Permanezco firmemente asegurado detrás de una pesada puerta con bandas de hierro. Se necesitarían una docena de soldados fornidos para entrar aquí, y en esta habitación segura y sin ventanas estoy más lejos del peligro." #NT!
+ stress_threshold.3421.desc.gregarious:0 "Apenas puedo escucharlos por encima de los sonidos de la risa estridente y la alegría que viene detrás de mí. Mi fiesta está en pleno apogeo, y lo ha estado durante varios días." #NT!
+ stress_threshold.3421.desc.cynical:0 "Les devuelvo la mirada desde la puerta de mi santuario, mi rostro es una máscara de incredulidad. Ardiendo, honestamente? Una mentira clara y evidente. ¿Cómo puedo saber que este es verdaderamente uno de los servidores de #EMP my#! ? ¡Podrían ser cualquiera! Lo mejor es deshacerse de ellos rápidamente." #NT!
+ stress_threshold.3421.desc.zealous:0 "Sigo leyendo de [ROOT.GetCharacter.GetFaith.ReligiousText], rodeado de los símbolos sagrados de mi fe, suplicando a [ROOT.GetCharacter.GetFaith.HighGodName] que me guíe. Solo cuando queda claro que el mensajero no se irá, me giro." #NT!
+ stress_threshold.3421.desc.stubborn:0 "Mis ojos permanecen cerrados, mi cama tranquila. Mi rutina es mi rutina y no la cambiaré sin una #EMP extremely#! buena razón. Solo cuando el mensajero comienza a preguntar de nuevo, me muevo." #NT!
+ stress_threshold.3421.desc.fallback:0 "Estoy de pie en la torre más alta de [capital_holding.GetNameNoTier], mirando hacia la capital, con los labios fruncidos. Se siente como si no me hubiera ido de aquí en días, y cada vez que lo hago, algo más sale dramáticamente mal." #NT!
+ stress_threshold.3421.desc.rump:0 "\n\n"Creo que di instrucciones estrictas de no ser molestado", respondo. Solo que esta habitación, esta realidad, ya tiene sentido para mi mente deshilachada." #NT!
+ stress_threshold.3421.a.rakish.gain:0 "Tráeme un compañero y te enviaré socorro." #NT!
+ stress_threshold.3421.a.rakish.effect:0 "$stress_threshold.3421.a.rakish.gain$" #NT!
+ stress_threshold.3421.b.reclusive.gain:0 "¡Hacedlo vosotros mismos! ¡Déjame ser!" #NT!
+ stress_threshold.3421.b.reclusive.effect:0 "$stress_threshold.3421.b.reclusive.gain$" #NT!
+ stress_threshold.3421.c.irritable.gain:0 "¡Maldita sea, desafortunados ingratos, lo arreglaré!" #NT!
+ stress_threshold.3421.c.irritable.effect:0 "$stress_threshold.3421.c.irritable.gain$" #NT!
+ stress_threshold.3421.d.flagellant.gain:0 "¡¿Qué?! ¡Debo ser azotado por mi fracaso!" #NT!
+ stress_threshold.3421.d.flagellant.effect:0 "$stress_threshold.3421.d.flagellant.gain$" #NT!
+ stress_threshold.3421.e.profligate.gain:0 "¡Vacía la tesorería! ¡Protege los mercados!" #NT!
+ stress_threshold.3421.e.profligate.effect:0 "$stress_threshold.3421.e.profligate.gain$" #NT!
+ stress_threshold.3421.f.comfort_eater.gain:0 "Prepara una buena comida, saldré pronto." #NT!
+ stress_threshold.3421.f.comfort_eater.effect:0 "$stress_threshold.3421.f.comfort_eater.gain$" #NT!
+ stress_threshold.3421.g.drunkard.gain:0 "Listo un barril de lo mejor, saldré pronto." #NT!
+ stress_threshold.3421.g.drunkard.effect:0 "$stress_threshold.3421.g.drunkard.gain$" #NT!
+ stress_threshold.3421.h.hashishiyah.gain:0 "Prepara una taza con leche de amapola, pronto saldré." #NT!
+ stress_threshold.3421.h.hashishiyah.effect:0 "$stress_threshold.3421.h.hashishiyah.gain$" #NT!
+ stress_threshold.3421.i:0 "Déjalos a todos #EMP quemar#!." #NT!
+ stress_threshold.3421.b.reclusive.list:0 "Cada [vassal|E] con un corazón" #NT!
+
+#Other
+ jealousy_at_court_effect.confider.list:0 "Todos los [courtiers|E] considerarán a [friend.GetFirstNameNoTooltip] un adulador" #NT!
+
+#Character Modifiers
+ encouraged_city_burn_modifier:0 "Deja que todos se quemen" #NT!
+ encouraged_city_burn_modifier_desc:0 "Este personaje dejó que una propiedad entera se quemara casi hasta los cimientos." #NT!
+ lashing_out_at_victims_modifier:0 "Arremetiendo contra las víctimas" #NT!
+ lashing_out_at_victims_modifier_desc:0 "Este personaje ataca continuamente a las víctimas que necesitan su ayuda." #NT!
+ lost_in_lust_modifier:0 "perdido en la lujuria" #NT!
+ lost_in_lust_modifier_desc:0 "Este personaje ahoga su pasado en una maraña de miembros." #NT!
+ agonising_irritations_modifier:0 "Irritaciones insoportables" #NT!
+ agonising_irritations_modifier_desc:0 "Este personaje ahoga su pasado con irritación en el presente." #NT!
+ scars_over_scars_modifier:0 "Cicatrices sobre cicatrices" #NT!
+ scars_over_scars_modifier_desc:0 "Este personaje ahoga su pasado con dolor terrenal." #NT!
+ trying_to_buy_happiness_modifier:0 "Tratando de comprar la felicidad" #NT!
+ trying_to_buy_happiness_modifier_desc:0 "Este personaje ahoga su pasado comprando constantemente fruslerías." #NT!
+ outer_monologue_modifier:0 "Monólogo exterior" #NT!
+ outer_monologue_modifier_desc:0 "Este personaje busca el perdón de su pasado exponiéndolo constantemente." #NT!
+ sated_by_mistakes_modifier:0 "saciado por errores" #NT!
+ sated_by_mistakes_modifier_desc:0 "Este carácter se sustenta más en el arrepentimiento que en la comida." #NT!
+ refuge_in_words_modifier:0 "Refugio en Palabras" #NT!
+ refuge_in_words_modifier_desc:0 "Este personaje ahoga su pasado con notas manchadas de tinta." #NT!
+ sorely_needed_confidant_modifier:0 "sobrecompartidor" #NT!
+ sorely_needed_confidant_modifier_desc:0 "Este personaje habla de su pasado con un confidente constantemente." #NT!
+ long_walks_of_the_mind_modifier:0 "Largos paseos de la mente" #NT!
+ long_walks_of_the_mind_modifier_desc:0 "Este personaje revive su pasado realizando largos y aislados paseos." #NT!
+ bottom_of_a_bottle_modifier:0 "Fondo de una botella" #NT!
+ bottom_of_a_bottle_modifier_desc:0 "Este personaje ahoga su pasado con el fondo de una botella." #NT!
+ fogging_hard_memories_modifier:0 "Empañando los recuerdos duros" #NT!
+ fogging_hard_memories_modifier_desc:0 "Este personaje ahoga su pasado con leche de amapola." #NT!
+ high_blood_pressure_modifier:0 "Hipertensión" #NT!
+ high_blood_pressure_modifier_desc:0 "La irritación de este personaje no es buena para su corazón." #NT!
+ regular_walking_routes_modifier:0 "Rutas regulares para caminar" #NT!
+ regular_walking_routes_modifier_desc:0 "Este personaje regularmente se toma el tiempo para recorrer ciertos caminos, solo..." #NT!
+ symbol_of_folly_modifier:0 "símbolo de la locura" #NT!
+ symbol_of_folly_modifier_desc:0 "La capa más fabulosa de este personaje es un símbolo de su deber eludido." #NT!
+ deserted_halls_modifier:0 "Salones desiertos" #NT!
+ deserted_halls_modifier_desc:0 "Pocas personas comparten los mismos pasillos que este personaje, dejándolos solos..." #NT!
+ glut_of_furniture_modifier:0 "exceso de muebles" #NT!
+ glut_of_furniture_modifier_desc:0 "Los pasillos de este personaje están cada vez más llenos de muebles de mala calidad y de mal gusto." #NT!
+ strange_recluse_modifier:0 "recluso extraño" #NT!
+ strange_recluse_modifier_desc:0 "Se sabe que este personaje se esconde en reclusión y dice cosas extrañas a los visitantes..." #NT!
+ grouchy_ruler_modifier:0 "Gobernante Gruñón" #NT!
+ grouchy_ruler_modifier_desc:0 "Este personaje es gruñón y escueto con todos los que le molestan." #NT!
+ suspicious_sketcher_modifier:0 "Dibujante sospechoso" #NT!
+ suspicious_sketcher_modifier_desc:0 "Este personaje siempre parece estar dibujando y tomando notas en medio de una conversación..." #NT!
+ carrion_writer_modifier:0 "escritor carroñero" #NT!
+ carrion_writer_modifier_desc:0 "Este personaje escribe en su diario con una tinta muy personal." #NT!
+ pickled_human_head_footstool:0 "Cabeza humana en escabeche" #NT!
+ pickled_human_head_footstool_desc:0 "Este personaje insiste en usar un reposapiés macabro." #NT!
+ ostentatious_follies_modifier:0 "locuras ostentosas" #NT!
+ ostentatious_follies_modifier_desc:0 "El dominio de este personaje está salpicado de feos monumentos a medio terminar de su grandeza." #NT!
+ extreme_tax_rebates_modifier:0 "Reembolsos de impuestos extremos" #NT!
+ extreme_tax_rebates_modifier_desc:0 "¡Es bien sabido que este personaje devuelve impuestos a cualquier plebeyo que lo solicite!" #NT!
+ obsessed_autobiographer_modifier:0 "Autobiógrafo obsesionado" #NT!
+ obsessed_autobiographer_modifier_desc:0 "Este personaje tiene poco tiempo para cualquier cosa que no sea releer sus propios diarios." #NT!
+ scopophobic_modifier:0 "escopofóbico" #NT!
+ scopophobic_modifier_desc:0 "Este personaje #EMP detesta #! que lo miren." #NT!
+ running_from_responsibilities_modifier:0 "Huyendo de la responsabilidad" #NT!
+ running_from_responsibilities_modifier_desc:0 "Este personaje toma literalmente el concepto de huir de las responsabilidades." #NT!
+ tragic_drunk_modifier:0 "borracho trágico" #NT!
+ tragic_drunk_modifier_desc:0 "Este personaje teme el regreso de la sobriedad más que nada." #NT!
+ tragic_stoner_modifier:0 "Hashishiyah trágico" #NT!
+ tragic_stoner_modifier_desc:0 "$tragic_drunk_modifier_desc$" #NT!
+ good_exercise_modifier:0 "Buen ejercicio" #NT!
+ good_exercise_modifier_desc:0 "Este personaje superó su límite en el entrenamiento y, como resultado, se siente más fuerte. Aunque huelen a sudor..." #NT!
+
+#Title Modifiers
+ controlled_urban_fires_modifier:0 "Incendios Urbanos Controlados" #NT!
+ controlled_urban_fires_modifier_desc:0 "Un gran incendio se ha evitado por poco en una de las explotaciones de este condado." #NT!
+ managed_urban_fires_modifier:0 "Incendios urbanos gestionados" #NT!
+ managed_urban_fires_modifier_desc:0 "Un gran incendio ha devastado una de las propiedades de este condado." #NT!
+ uncontrolled_urban_fires_modifier:0 "Incendios urbanos desenfrenados" #NT!
+ uncontrolled_urban_fires_modifier_desc:0 "Un gran incendio casi ha destruido una de las propiedades en este condado." #NT!
+ an_influx_of_eager_beggars_modifier:0 "Afluencia de mendigos ansiosos" #NT!
+ an_influx_of_eager_beggars_modifier_desc:0 "Los mendigos se alinean en las calles de muchos asentamientos aquí, ávidos de monedas." #NT!
+ deplenished_forests_and_fields_modifier:0 "Bosques y campos agotados" #NT!
+ deplenished_forests_and_fields_modifier_desc:0 "El vert y el venado de este condado han sido devastados por las fiestas de su señor." #NT!

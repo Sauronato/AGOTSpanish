@@ -1,0 +1,17 @@
+﻿l_spanish:
+ TOP_BAR_VERSION:2 "Versión del juego: [GetGameVersionInfo]\nMP Suma de comprobación: [GetMPChecksum|V] $MODIFIED_CHECKSUM$ [GetRandomLogInfo] $AGOT_VERSION_BUILD$" #NT!
+ VERSION_SHORT:2 "[GetGameVersionInfoShort], suma de comprobación: [GetMPChecksum] $MODIFIED_CHECKSUM$ $AGOT_VERSION_BUILD$" #NT!
+
+ CHARACTER_AT_ACTIVITY:0 "[Character.Custom('is_missing_location_activity_loc')]" #NT!
+
+ head_of_faith_male_normal:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]" #NT!
+ head_of_faith_male_fots:0 ""
+ head_of_faith_male:0 "[CHARACTER.GetFaith.ReligiousHeadName|U]" #NT!
+
+ activity_MISSING: "#true_white #underline Paradero desconocido#!" #NT!
+ activity_PROPER: "En actividad: [Character.GetCurrentActivity.GetName|V]" #NT!
+
+ CHARACTER_IN_LOCATION:0 "[CHARACTER.Custom('is_missing_location_loc')]" #NT!
+ CHARACTER_LOCATION_TOOLTIP:0 "[Character.Custom('is_missing_location_loc')]" #NT!
+ CHARACTER_IN_LOCATION_MISSING:0 "#underline No se puede determinar la ubicación de este personaje.#!" #NT!
+ CHARACTER_IN_LOCATION_PROPER:0 "#underline Ubicado en [Character.GetCurrentLocation.GetName|V]#!" #NT!
