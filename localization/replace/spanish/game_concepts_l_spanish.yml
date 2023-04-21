@@ -40,7 +40,7 @@
  game_concept_recently_acquired_holding_desc:0 "[holdings|E] adquiridos en el último año que colocan una regla por encima de su [domain_limit|E] no causan penalizaciones a sus otras propiedades, pero tampoco proporcionan [taxes|E] o [levies|E]." #NT!
  game_concept_domain_size:0 "Tamaño del dominio" #NT!
  game_concept_domain_size_desc:0 "El $game_concept_domain_size$ de un personaje refleja cuántos [barony|E] y [county|E] [titles|E] tiene personalmente." #NT!
- game_concept_levies:0 "gravámenes" #NT!
+ game_concept_levies:0 "Levas" #NT!
  game_concept_levy:0 "Exacción" #NT!
  game_concept_levies_desc:2 "La mayor parte de la mayoría de [armies|E] se compone de $game_concept_levies$.\n\nCada [holding|E] proporciona un número determinado de $game_concept_levies$ a su [holder|E]. [vassals|E], a su vez, proporciona una parte de su $game_concept_levies$ a su [liege|E].\n\n$game_concept_levies$ está compuesto en su mayoría por combatientes mal armados #weak  (milicias campesinas, rufianes, mercenarios locales, nobles indigentes, terratenientes menores, etc.) $game_concept_levies$0 y se consideran propios tipo de unidad.\n\nUn $game_concept_levies$1 tiene $game_concept_levies$2 $game_concept_levies$3 y $game_concept_levies$4 $game_concept_levies$5. El otro tipo de $game_concept_levies$6 en el juego son $game_concept_levies$7: profesionales capacitados y costosos." #NT!
  game_concept_vassal_obligations:0 "Obligaciones Vasallas" #NT!
@@ -291,7 +291,7 @@
  game_concept_rightful_liege:0 "Lieja legítima" #NT!
  game_concept_rightful_liege_desc:1 "$game_concept_rightful_liege_desc_part1$\n\n$game_concept_rightful_liege_desc_part2$" #NT!
  game_concept_rightful_liege_desc_part1:1 "El $game_concept_rightful_liege$ de un [vassal|E] es el [ruler|E] que ostenta el [de_jure|E] [liege|E] [title|E] directo del $game_concept_vassal$ de [primary_title|E]. Si un $game_concept_vassal$ no está por debajo de su $game_concept_rightful_liege$, contribuirá menos con [vassal|E]0 y [vassal|E]1 y sufrirá una penalización de [vassal|E]2 hacia su [vassal|E]3. Tener un [vassal|E]4 [vassal|E]5 más alto del mismo [vassal|E]6 da como resultado penalizaciones reducidas.\n\nUna excepción a esto son los [vassal|E]7 que son parte de la jerarquía [vassal|E]6 de un [vassal|E]8 y directamente vasallados de su [ruler|E]0, que aún contribuyen completamente, exactamente como si el [ruler|E]0 tuviera su [vassal|E]6 [ruler|E]3 [vassal|E]5." #NT!
- game_concept_rightful_liege_desc_part2:0 "#weak Ejemplo: El Conde de $c_dunbar$ es vasallo directo del Rey de $k_england$. Dado que el Rey no es Duque de $d_lothian$, Rey de $k_scotland$ ni Emperador de $e_britannia$, el Conde de $c_dunbar$ solo aporta una pequeña cantidad de sus impuestos y gravámenes.\n\nEl Conde de $c_norfolk$ también es vasallo directo del Rey de $k_england$ . El Rey no posee el Ducado de $d_norfolk$, por lo que el Conde también contribuye con impuestos y tasas reducidos. Sin embargo, debido a que $k_england$ es ​​el Reino De Jure de $c_norfolk$, el Conde de $c_norfolk$ aún contribuye significativamente más impuestos y gravámenes al Rey que el Conde de $c_dunbar$.$c_dunbar$4" #NT!
+ game_concept_rightful_liege_desc_part2:0 "#weak Ejemplo: El Conde de $c_dunbar$ es vasallo directo del Rey de $k_england$. Dado que el Rey no es Duque de $d_lothian$, Rey de $k_scotland$ ni Emperador de $e_britannia$, el Conde de $c_dunbar$ solo aporta una pequeña cantidad de sus impuestos y Levas.\n\nEl Conde de $c_norfolk$ también es vasallo directo del Rey de $k_england$ . El Rey no posee el Ducado de $d_norfolk$, por lo que el Conde también contribuye con impuestos y tasas reducidos. Sin embargo, debido a que $k_england$ es ​​el Reino De Jure de $c_norfolk$, el Conde de $c_norfolk$ aún contribuye significativamente más impuestos y Levas al Rey que el Conde de $c_dunbar$.$c_dunbar$4" #NT!
  game_concept_megaduke_penalty:0 "sobreextensión" #NT!
  game_concept_megaduke_penalty_desc:1 "Cuando tienes más de [GetDefine('NCharacter', 'MAX_COUNTIES_IN_REALM_AS_DUKE')] [counties|E] en tu [realm|E] como [duke|E], sufres una penalización de $game_concept_megaduke_penalty$, lo que reduce tus ingresos de [tax|E].\n\nConvertirte en [king|E] o [emperor|E] [rank|E] elimina esta penalización." #NT!
  game_concept_top_liege:0 "Lieja superior" #NT!
@@ -370,14 +370,14 @@
  game_concept_prestige_levels:0 "Niveles de fama" #NT!
  game_concept_prestige_level_desc:2 "El $game_concept_prestige_level$ de un personaje mide su reputación general y qué tan bien lo perciben todos.\n\nCada vez que un personaje gana [prestige|E], también avanza hacia el siguiente $game_concept_prestige_level$.\n\nLos niveles son:\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_0' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_1' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_2' ).GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[prestige|E]0 \n$EFFECT_LIST_BULLET$[prestige|E]2\n$EFFECT_LIST_BULLET$[prestige|E]4" #NT!
  game_concept_dynast:1 "Jefe de la dinastía" #NT!
- game_concept_dynast_desc:2 "Un $game_concept_dynast$ es la cabecera de un [dynasty|E] completo y de todos sus [houses|E]. Dynasty Head ejerce ciertos poderes únicos sobre los miembros de Dynasty, conocidos como [dynast_interactions|E]." #NT!
+ game_concept_dynast_desc:2 "Un $game_concept_dynast$ es la cabecera de un [dynasty|E] completo y de todos sus [houses|E]. Dinastia Head ejerce ciertos poderes únicos sobre los miembros de Dinastia, conocidos como [dynast_interactions|E]." #NT!
  game_concept_dynasty:0 "Dinastía" #NT!
  game_concept_dynasties:0 "dinastías" #NT!
  game_concept_dynastic:0 "Dinástico" #NT!
  game_concept_dynasty_members:0 "Miembros de la dinastía" #NT!
  game_concept_dynasty_desc:1 "Un $game_concept_dynasty$ es un grupo de [noble|E] descendientes de un antepasado [landed|E]; el fundador de la dinastía. El [house|E] original puede dividirse en otros nuevos ([cadet_branches|E]), todos miembros de la Dinastía más amplia.\n\nCuando tu Personaje muere, debes tener un [player_heir|E], o el juego terminará (aunque puedes elegir otro gobernante y continuar jugando en el mismo mundo).\n\nAl igual que [prestige|E] para los personajes, las dinastías tienen [dynasty_prestige|E]." #NT!
  game_concept_dynast_interaction:0 "Interacción con el jefe de la dinastía" #NT!
- game_concept_dynast_interactions:0 "Interacciones de Dynasty Head" #NT!
+ game_concept_dynast_interactions:0 "Interacciones de Dinastia Head" #NT!
  game_concept_dynast_interaction_desc:0 "Interacciones que están disponibles únicamente para el [dynast|E] de un [dynasty|E], contra otros miembros de esa dinastía.\n\nSu uso cuesta [dynasty_prestige|E]." #NT!
  game_concept_dynasty_prestige:0 "Renombre" #NT!
  game_concept_dynasty_prestige_i:0 "@dynasty_prestige_icon!" #NT!
@@ -386,7 +386,7 @@
  game_concept_dynasty_prestige_level_desc:1 "$game_concept_dynasty_prestige_level$ es una medida de cuán famoso es un [dynasty|E]. El progreso de nivel se realiza cada vez que su Dinastía gana [dynasty_prestige|E]. Los personajes obtienen una cantidad de [prestige|E] inicial cuando nacen dependiendo de su $game_concept_dynasty_prestige_level$. Del mismo modo, [spouses|E] obtienen algo de prestigio de la dinastía de los demás cuando [marry|E].\n\nLos niveles son:\n$EFFECT_LIST_BULLET$[dynasty_prestige_level_0|E]\n$EFFECT_LIST_BULLET$[dynasty|E]0\n$EFFECT_LIST_BULLET$[dynasty|E]2\n$EFFECT_LIST_BULLET$[dynasty|E]4\n$EFFECT_LIST_BULLET$[dynasty|E]6\n$EFFECT_LIST_BULLET$[dynasty|E]8\n$EFFECT_LIST_BULLET$[dynasty_prestige|E]7\n[dynasty_prestige|E]0 _7[dynasty_prestige|E]4\n$EFFECT_LIST_BULLET$[dynasty_prestige|E]6\n$EFFECT_LIST_BULLET$[dynasty_prestige|E]8" #NT!
  game_concept_house:0 "Casa" #NT!
  game_concept_houses:0 "Casas" #NT!
- game_concept_house_desc:1 "Un $game_concept_house$ es una rama de miembros en el árbol más grande de un [dynasty|E]. Las Casas son creadas por [rulers|E] que ya no desean responder a su [house_head|E] actual y prefieren ser el Jefe de una nueva Casa.\n\nAunque las Casas tienen sus propios nombres y escudos de armas, todavía comparten [dynasty_prestige|E] y otros miembros de la Dynasty aún puede ser tu [player_heir|E]." #NT!
+ game_concept_house_desc:1 "Un $game_concept_house$ es una rama de miembros en el árbol más grande de un [dynasty|E]. Las Casas son creadas por [rulers|E] que ya no desean responder a su [house_head|E] actual y prefieren ser el Jefe de una nueva Casa.\n\nAunque las Casas tienen sus propios nombres y escudos de armas, todavía comparten [dynasty_prestige|E] y otros miembros de la Dinastia aún puede ser tu [player_heir|E]." #NT!
  game_concept_house_head:0 "Jefe de la casa" #NT!
  game_concept_house_heads:0 "Jefes de casa" #NT!
  game_concept_house_head_head:0 "Cabeza" #NT!
@@ -484,7 +484,7 @@
  game_concept_eligible_child_desc:0 "Los $game_concept_eligible_children$, por ley, pueden heredar el [titles|E] de sus padres.\n\n[bastards|E] no se consideran elegibles, así como los niños de ciertos géneros bajo [gender_laws|E] específico." #NT!
  game_concept_alliance:0 "Alianza" #NT!
  game_concept_alliances:0 "Alianzas" #NT!
- game_concept_allies:0 "aliados" #NT!
+ game_concept_allies:0 "Aliados" #NT!
  game_concept_allied:0 "Aliado" #NT!
  game_concept_ally:0 "Aliado" #NT!
  game_concept_ally_i:0 "@alliance_icon!" #NT!

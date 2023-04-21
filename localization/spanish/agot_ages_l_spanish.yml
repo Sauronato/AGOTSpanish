@@ -25,7 +25,7 @@
  YEAR_1E_IG:0 "Select_int32( GreaterThan_int32( '(int32)$YEAR$', $ERA_HEROES_END$), Subtract_int32( '(int32)$YEAR$', $ERA_HEROES_END$ ) , $YEAR_YT_IG$ )" #NT!
  YEAR_YT_IG:0 "Max_int32( Select_int32( GreaterThan_int32( '(int32)$YEAR$', $ERA_DAWN_END$), Subtract_int32( '(int32)$YEAR$', $ERA_DAWN_END$ ) , '(int32)$YEAR$' ) , '(int32)1' )" #NT!
 
- ### Dynasty Founding Date
+ ### Dinastia Founding Date
  ## DATE Replacements
  # ERA
  ERA_SEL_DYNFOUND:0 "[Select_CString( GreaterThan_int32( DynastyHouse.GetFoundYear, $ERA_DOOM_END$), 'A.C.', $ERA_2E_DYNFOUND$ )]" #NT!
