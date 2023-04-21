@@ -216,22 +216,22 @@
 
  chief_eunuch_court_position:1 "Eunuco jefe" #NT!
  chief_eunuch_employer_custom_effect_description:0 "@warning_icon!#X PODEROSO [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
- chief_eunuch_court_position_desc:1 "El $chief_eunuch_court_position$ es un servidor de confianza responsable de los eunucos en la corte. No sucede mucho de lo que no se enteren, tanto entre los sirvientes como entre la realeza." #NT!
+ chief_eunuch_court_position_desc:1 "El $chief_eunuch_court_position$ es un servidor de confianza responsable de los eunucos en la corte del señor. No sucede mucho de lo que no se enteren, tanto entre los sirvientes como entre la realeza." #NT!
 
  keeper_of_swans_court_position:0 "Oficial de armas" #NT!
- keeper_of_swans_court_position_desc:1 "El $keeper_of_swans_court_position$ está a cargo de las armas del relam. Conservar y presidir los asuntos heráldicos y heráldicos; a menudo se doblan como heraldo cortesano de su Lieja." #NT!
+ keeper_of_swans_court_position_desc:1 "El $keeper_of_swans_court_position$ está a cargo de las armas del relam. Conservar y presidir los asuntos heráldicos y heráldicos; a menudo se doblan como heraldo cortesano de su corte." #NT!
 
  master_of_horse_court_position:0 "Maestro del caballo" #NT!
- master_of_horse_court_position_desc:1 "El $master_of_horse_court_position$ es responsable de los majestuosos caballos y establos de Lieja. Tienen mucho trabajo por delante, ya que un caballo bien cuidado es una bendición tanto en el campo de batalla como en la carretera." #NT!
+ master_of_horse_court_position_desc:1 "El $master_of_horse_court_position$ es responsable de los majestuosos caballos y establos del señor. Tienen mucho trabajo por delante, ya que un caballo bien cuidado es una bendición tanto en el campo de batalla como en la carretera." #NT!
 
  master_of_hunt_court_position:0 "Maestro de la perrera" #NT!
  master_of_hunt_employer_custom_effect_description:0 "Ayudas al usar el [hunt|E] [activity|E]" #NT!
- master_of_hunt_court_position_desc:1 "El $master_of_hunt_court_position$ es responsable de las partidas de caza que organicen los miembros de su corte de Lieja. También están a cargo de las perreras y los perros dentro de ella." #NT!
+ master_of_hunt_court_position_desc:1 "El $master_of_hunt_court_position$ es responsable de las partidas de caza que organicen los miembros de su corte de señor. También están a cargo de las perreras y los perros dentro de ella." #NT!
 
 
  court_jester_court_position:0 "Tonto" #NT!
  court_jester_employer_custom_effect_description:0 "Posibilidad de eventos de alivio [stress|E]" #NT!
- court_jester_court_position_desc:1 "Un $court_jester_court_position$ está ahí para entretener tanto a su Lieja como a cualquier invitado que visite la corte. Mientras que un ingenioso giro de la frase se puede apreciar de vez en cuando, una desagradable caída siempre provoca risas." #NT!
+ court_jester_court_position_desc:1 "Un $court_jester_court_position$ está ahí para entretener tanto a su Señor Feudal como a cualquier invitado que visite la corte. Mientras que un ingenioso giro de la frase se puede apreciar de vez en cuando, una desagradable caída siempre provoca risas." #NT!
 
  high_almoner_court_position:0 "Alto limosnero" #NT!
  high_almoner_court_position_desc:1 "El $high_almoner_court_position$ está a cargo de distribuir limosnas a los pobres merecedores y otros sujetos necesitados." #NT!
@@ -254,7 +254,7 @@
 
  court_poet_court_position:0 "Poeta de la corte" #NT!
  court_poet_employer_custom_effect_description:1 "Puede convertirse aleatoriamente en [inspired|E]" #NT!
- court_poet_court_position_desc:1 "El $court_poet_court_position$ es un conocedor de las palabras y los versos, proporcionando a su Lieja y a toda la corte entretenimiento, estimulación intelectual y experiencias emocionales." #NT!
+ court_poet_court_position_desc:1 "El $court_poet_court_position$ es un conocedor de las palabras y los versos, proporcionando a su Señor Feudal y a toda la corte entretenimiento, estimulación intelectual y experiencias emocionales." #NT!
  poet_inspired_message:0 "¡La inspiración ataca!" #NT!
  poet_inspired_effect:0 "Tu [GetCourtPositionType('court_poet_court_position').GetName()] [inspired_poet.GetFirstName] ganó un [inspiration|E]" #NT!
 
@@ -264,15 +264,15 @@
 
  champion_court_position:1 "Campeón" #NT!
  champion_employer_custom_effect_description:1 "Puede ocupar tu lugar en algún [single_combat_duel_plural|E]" #NT!
- champion_court_position_desc:1 "Un $champion_court_position$ es un luchador habilidoso y letal que puede representar a su Lieja en los duelos." #NT!
+ champion_court_position_desc:1 "Un $champion_court_position$ es un luchador habilidoso y letal que puede representar a su Señor Feudal en los duelos." #NT!
 
  court_musician_court_position:0 "Bardo de la corte" #NT!
  court_musician_employer_custom_effect_description:1 "Aumenta la ganancia de [opinion|E] cuando se aloja un [feast|E]" #NT!
- court_musician_court_position_desc:1 "A $court_musician_court_position$ es un artista que canta y toca instrumentos para entretener a su Lieja y la corte." #NT!
+ court_musician_court_position_desc:1 "A $court_musician_court_position$ es un artista que canta y toca instrumentos para entretener a su Señor Feudal y la corte." #NT!
 
  food_taster_court_position:0 "Catador de alimentos" #NT!
  food_taster_employer_custom_effect_description:1 "Probabilidad de detener a Poison [GetScheme('murder').GetTypeName] [schemes|E]#!\nYou perderá peso más rápido#!\n@warning_icon!#X Potente [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
- food_taster_court_position_desc:1 "Un $food_taster_court_position$ tiene el deber solemne de asegurarse de que el plato de su Lieja nunca sea tocado por veneno, y si algún polvo o líquido nefasto, sin embargo, llega a la comida... Bueno, es por eso que el catador tiene que probar la comida antes de que comience la comida. ." #NT!
+ food_taster_court_position_desc:1 "Un $food_taster_court_position$ tiene el deber solemne de asegurarse de que el plato de su Señor Feudal nunca sea tocado por veneno, y si algún polvo o líquido nefasto, sin embargo, llega a la comida... Bueno, es por eso que el catador tiene que probar la comida antes de que comience la comida. ." #NT!
 
  lady_in_waiting_court_position:0 "dama de honor" #NT!
  lady_in_waiting_employer_custom_effect_description:0 "@warning_icon!#X PODEROSO [agent|E] en [hostile_schemes|E] contra ti#!" #NT!

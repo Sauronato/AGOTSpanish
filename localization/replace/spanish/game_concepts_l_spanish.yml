@@ -127,7 +127,7 @@
  game_concept_council_desc:0 "El $game_concept_council$ consta de varios [councillors|E] que asisten a su [ruler|E] en la administración del [realm|E]. Como jefes de sus respectivos departamentos, se les pueden asignar varios [councillor_tasks|E] importantes." #NT!
  game_concept_councillor:0 "Concejal" #NT!
  game_concept_councillors:0 "Concejales" #NT!
- game_concept_councillor_desc:2 "Los consejeros son los asistentes principales de cualquier [ruler|E] y conforman el [council|E]. Hay muchos puestos posibles en el consejo: [chancellor|E], [marshal|E], [steward|E], [spymaster|E], [court_chaplain|E] (o [realm_priest|E]), [chancellor|E] y, finalmente, su [spouse|E].\n\nCada uno está a cargo de un departamento al que se le pueden asignar diferentes [council|E]0 para desempeñar.\ n\n[council|E]1 se molestará si no se le asigna uno de estos puestos, lo que significa que a menudo tendrá que elegir entre aplacar a un poderoso vasallo o nombrar a alguien que sea realmente competente.\n\nServir como consejero de su [council|E]2 le otorga una bonificación , que aumenta con el [council|E]3 del Lieja." #NT!
+ game_concept_councillor_desc:2 "Los consejeros son los asistentes principales de cualquier [ruler|E] y conforman el [council|E]. Hay muchos puestos posibles en el consejo: [chancellor|E], [marshal|E], [steward|E], [spymaster|E], [court_chaplain|E] (o [realm_priest|E]), [chancellor|E] y, finalmente, su [spouse|E].\n\nCada uno está a cargo de un departamento al que se le pueden asignar diferentes [council|E]0 para desempeñar.\ n\n[council|E]1 se molestará si no se le asigna uno de estos puestos, lo que significa que a menudo tendrá que elegir entre aplacar a un poderoso vasallo o nombrar a alguien que sea realmente competente.\n\nServir como consejero de su [council|E]2 le otorga una bonificación , que aumenta con el [council|E]3 del Señor Feudal." #NT!
  game_concept_councillor_task:0 "Tarea del Concejal" #NT!
  game_concept_councillor_tasks:0 "Tareas del Concejal" #NT!
  game_concept_councillor_task_desc:1 "$game_concept_councillor_tasks$ son trabajos importantes que se le pueden dar a tu [councillors|E]. Estas tareas pueden ser generales o dirigidas específicamente a un [county|E] o [court|E].\n\nSi tiene un [relation|E] con un Consejero, las tareas con un tiempo de finalización pueden tardar más o menos tiempo.\n\n#weak Tenga en cuenta que los concejales no están físicamente presentes para realizar estas tareas, sino simplemente liderar los esfuerzos.#!" #NT!
@@ -163,7 +163,7 @@
  game_concept_realm_priest:0 "Sacerdote del reino" #NT!
  game_concept_realm_priests:0 "Sacerdotes del Reino" #NT!
  game_concept_realm_priest_possessive:0 "Sacerdotes del Reino" #NT!
- game_concept_realm_priest_desc:0 "Un $game_concept_realm_priest$ es un [councillor|E] a cargo de los asuntos religiosos y espirituales en [faiths|E] con el [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName] [doctrine|E].\n\nA diferencia de su [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName] equivalente ([court_chaplains|E]), $game_concept_realm_priests$ automáticamente [lease|E] todos los [temple_holdings|E] en un [councillor|E]0's [councillor|E]1, y también reciben una parte de [councillor|E]2 y [councillor|E]3 de [councillor|E]4 $game_concept_realm_priests$.\n\n$game_concept_realm_priests$ proporciona a su [councillor|E]7 Gravámenes e Impuestos si tiene una Opinión positiva sobre ellos. Cuanto mayor sea el [councillor|E]8 de su [councillor|E]7, más proporcionarán.\n\n$game_concept_realm_priests$ con una opinión baja de su Lieja no les proporcionará ningún impuesto o gravamen, y podría causar problemas." #NT!
+ game_concept_realm_priest_desc:0 "Un $game_concept_realm_priest$ es un [councillor|E] a cargo de los asuntos religiosos y espirituales en [faiths|E] con el [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName] [doctrine|E].\n\nA diferencia de su [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName] equivalente ([court_chaplains|E]), $game_concept_realm_priests$ automáticamente [lease|E] todos los [temple_holdings|E] en un [councillor|E]0's [councillor|E]1, y también reciben una parte de [councillor|E]2 y [councillor|E]3 de [councillor|E]4 $game_concept_realm_priests$.\n\n$game_concept_realm_priests$ proporciona a su [councillor|E]7 Gravámenes e Impuestos si tiene una Opinión positiva sobre ellos. Cuanto mayor sea el [councillor|E]8 de su [councillor|E]7, más proporcionarán.\n\n$game_concept_realm_priests$ con una opinión baja de su Señor Feudal no les proporcionará ningún impuesto o gravamen, y podría causar problemas." #NT!
 
  game_concept_law:0 "Ley" #NT!
  game_concept_laws:0 "leyes" #NT!
@@ -286,15 +286,15 @@
  game_concept_capital_duchy:0 "Ducado capitalino" #NT!
  game_concept_capital_duchy_desc:0 "El modificador $game_concept_capital_duchy$ aumenta la cantidad de [levies|E] que obtienes de todos los [holdings|E] que tienes dentro del mismo [de_jure|E] [duchy|E] que tu [capital|E]. Para que este modificador esté activo, debes poseer personalmente el Ducado asociado.\n\nEste modificador no se acumula con la bonificación de Realm Capital." #NT!
  game_concept_liege:0 "Feudal" #NT!
- game_concept_lieges:1 "Lieja" #NT!
+ game_concept_lieges:1 "Señor Feudal" #NT!
  game_concept_liege_desc:0 "Un $game_concept_liege$ es un [ruler|E] con al menos un [vassal|E]. Los mismos Liejas pueden ser Vasallos incluso de Gobernantes de mayor rango, y así sucesivamente." #NT!
- game_concept_rightful_liege:0 "Lieja legítima" #NT!
+ game_concept_rightful_liege:0 "Señor Feudal legítima" #NT!
  game_concept_rightful_liege_desc:1 "$game_concept_rightful_liege_desc_part1$\n\n$game_concept_rightful_liege_desc_part2$" #NT!
  game_concept_rightful_liege_desc_part1:1 "El $game_concept_rightful_liege$ de un [vassal|E] es el [ruler|E] que ostenta el [de_jure|E] [liege|E] [title|E] directo del $game_concept_vassal$ de [primary_title|E]. Si un $game_concept_vassal$ no está por debajo de su $game_concept_rightful_liege$, contribuirá menos con [vassal|E]0 y [vassal|E]1 y sufrirá una penalización de [vassal|E]2 hacia su [vassal|E]3. Tener un [vassal|E]4 [vassal|E]5 más alto del mismo [vassal|E]6 da como resultado penalizaciones reducidas.\n\nUna excepción a esto son los [vassal|E]7 que son parte de la jerarquía [vassal|E]6 de un [vassal|E]8 y directamente vasallados de su [ruler|E]0, que aún contribuyen completamente, exactamente como si el [ruler|E]0 tuviera su [vassal|E]6 [ruler|E]3 [vassal|E]5." #NT!
  game_concept_rightful_liege_desc_part2:0 "#weak Ejemplo: El Conde de $c_dunbar$ es vasallo directo del Rey de $k_england$. Dado que el Rey no es Duque de $d_lothian$, Rey de $k_scotland$ ni Emperador de $e_britannia$, el Conde de $c_dunbar$ solo aporta una pequeña cantidad de sus impuestos y Levas.\n\nEl Conde de $c_norfolk$ también es vasallo directo del Rey de $k_england$ . El Rey no posee el Ducado de $d_norfolk$, por lo que el Conde también contribuye con impuestos y tasas reducidos. Sin embargo, debido a que $k_england$ es ​​el Reino De Jure de $c_norfolk$, el Conde de $c_norfolk$ aún contribuye significativamente más impuestos y Levas al Rey que el Conde de $c_dunbar$.$c_dunbar$4" #NT!
  game_concept_megaduke_penalty:0 "sobreextensión" #NT!
  game_concept_megaduke_penalty_desc:1 "Cuando tienes más de [GetDefine('NCharacter', 'MAX_COUNTIES_IN_REALM_AS_DUKE')] [counties|E] en tu [realm|E] como [duke|E], sufres una penalización de $game_concept_megaduke_penalty$, lo que reduce tus ingresos de [tax|E].\n\nConvertirte en [king|E] o [emperor|E] [rank|E] elimina esta penalización." #NT!
- game_concept_top_liege:0 "Lieja superior" #NT!
+ game_concept_top_liege:0 "Señor Feudal superior" #NT!
  game_concept_top_liege_desc:0 "El '$game_concept_top_liege$' es el [liege|E] en la parte superior de la jerarquía [vassal|E].\n\nSon totalmente [independent|E] [rulers|E] y no responden ante ningún mortal." #NT!
  game_concept_top_realm:0 "Reino superior" #NT!
  game_concept_top_realm_desc:0 "El '$game_concept_top_realm$' es el [realm|E] del [top_liege|E]." #NT!
@@ -488,7 +488,7 @@
  game_concept_allied:0 "Aliado" #NT!
  game_concept_ally:0 "Aliado" #NT!
  game_concept_ally_i:0 "@alliance_icon!" #NT!
- game_concept_alliance_desc:2 "Un $game_concept_alliance$ es una relación diplomática entre dos [rulers|E]. [independent|E] Los Gobernantes pueden llamar a $game_concept_allies$ para que se unan a [wars|E].\n\nLas alianzas se crean y mantienen a través de un [marriage|E] o [betrothal|E], siempre que los dos personajes que se casan estén lo suficientemente relacionados con los dos Gobernantes. Por ejemplo, si un [king|E] casa a su hija con el hijo de otro rey, los dos reyes se convierten en $game_concept_allies$.\n\n[lieges|E] también puede crear [rulers|E]0 con su [rulers|E]1. El Lieja no puede llamar a la Guerra al Vasallo, pero les impide unirse a [rulers|E]2" #NT!
+ game_concept_alliance_desc:2 "Un $game_concept_alliance$ es una relación diplomática entre dos [rulers|E]. [independent|E] Los Gobernantes pueden llamar a $game_concept_allies$ para que se unan a [wars|E].\n\nLas alianzas se crean y mantienen a través de un [marriage|E] o [betrothal|E], siempre que los dos personajes que se casan estén lo suficientemente relacionados con los dos Gobernantes. Por ejemplo, si un [king|E] casa a su hija con el hijo de otro rey, los dos reyes se convierten en $game_concept_allies$.\n\n[lieges|E] también puede crear [rulers|E]0 con su [rulers|E]1. El Señor Feudal no puede llamar a la Guerra al Vasallo, pero les impide unirse a [rulers|E]2" #NT!
  game_concept_war:0 "Guerra" #NT!
  game_concept_wars:0 "Guerras" #NT!
  game_concept_war_desc:0 "El conflicto armado es la forma más directa de expandir su [realm|E]. Sin embargo, declarar $game_concept_war$ requiere una justificación para hacerlo, llamada [casus_belli|E]. No puedes lograr más con un $game_concept_war$ de lo que permite el casus belli seleccionado.\n\nLas guerras se ganan derrotando al enemigo [armies|E] en [battle|E] y al enemigo [occupying|E] en [holdings|E]. Si lo hace, acumulará [war_score|E], lo que eventualmente obligará al enemigo a aceptar [defeat|E] en $game_concept_war$0.\n\nIndependientemente del resultado de $game_concept_war$, el atacante obtiene $game_concept_war$2 hacia el defensor por un tiempo, pero el defensor es libre de declarar una nueva guerra. inmediatamente." #NT!
@@ -681,14 +681,14 @@
  game_concept_feudal:0 "Feudal" #NT!
  game_concept_feudal_government:0 "gobierno feudal" #NT!
  game_concept_feudalism:0 "Feudalismo" #NT!
- game_concept_feudal_desc:0 "Bajo el [government_form|E] Feudal, un [liege|E] entrega su [vassals|E] [land|E] para gobernar a cambio de [levies|E] y [taxes|E], regulados por [feudal_contracts|E] individuales entre Vasallo y Lieja." #NT!
+ game_concept_feudal_desc:0 "Bajo el [government_form|E] Feudal, un [liege|E] entrega su [vassals|E] [land|E] para gobernar a cambio de [levies|E] y [taxes|E], regulados por [feudal_contracts|E] individuales entre Vasallo y Señor Feudal." #NT!
  game_concept_tribal:0 "Tribal" #NT!
  game_concept_tribal_government:0 "Gobierno Tribal" #NT!
  game_concept_tribal_desc:0 "Los reinos tribales han atrofiado el condado [development|E], no pueden avanzar más allá de la era tribal [innovations|E], no pueden construir nuevos [holdings|E] y, por lo general, no pueden cambiar su [succession_law|E].\n\nSin embargo, pueden usar [prestige|E] en lugar de [gold|E] para construir sus reinos y contratar a [men_at_arms|E], y tener acceso a más [casus_belli|E] en comparación con [feudal|E] Realms. Los ejércitos no tribales sufren una penalización de [supply_limit|E] en territorio tribal hostil." #NT!
 
  game_concept_clan:0 "Clan" #NT!
  game_concept_clan_government:0 "Gobierno de clanes" #NT!
- game_concept_clan_desc:0 "Los clanes son un [government_form|E] en el que la cantidad de [levies|E] y [taxes|E] dada a un [liege|E] por su [vassals|E] está determinada por su [opinion|E] de dicho Lieja. Sin embargo, el [crown_authority|E] de Lieja puede aumentar la cantidad mínima que deben proporcionar independientemente de la Opinión." #NT!
+ game_concept_clan_desc:0 "Los clanes son un [government_form|E] en el que la cantidad de [levies|E] y [taxes|E] dada a un [liege|E] por su [vassals|E] está determinada por su [opinion|E] de dicho Señor Feudal. Sin embargo, el [crown_authority|E] de Señor Feudal puede aumentar la cantidad mínima que deben proporcionar independientemente de la Opinión." #NT!
  game_concept_theocracy:0 "Teocracia" #NT!
  game_concept_theocracies:0 "teocracias" #NT!
  game_concept_theocratic:0 "Teocrático" #NT!
@@ -991,8 +991,8 @@
  game_concept_domain_income_desc:1 "Tu $game_concept_domain_income$ consiste en el [taxes|E] que recolectas de tu propio [domain|E]. La cantidad recaudada depende de los niveles locales de [control|E] y [development|E]." #NT!
  game_concept_vassal_taxes:0 "Impuestos vasallos" #NT!
  game_concept_vassal_taxes_desc:1 "Tu $game_concept_vassal_taxes$ consiste en el [taxes|E] que recibes de tu [vassals|E]. La cantidad depende del [obligations|E] de cada Vasallo.\n\nDesde el punto de vista de tus Vasallos, estos mismos impuestos se denominan [liege_taxes|E] para distinguirlos de cualquier $game_concept_vassal_taxes$ que recauden de su propio $game_concept_vassals$." #NT!
- game_concept_liege_taxes:0 "Impuestos de Lieja" #NT!
- game_concept_liege_taxes_desc:1 "Tus $game_concept_liege_taxes$ son los [taxes|E] que debes pagar a tu [liege|E] como parte de tu [obligations|E]. No paga ningún $game_concept_liege_taxes$ si es [independent|E].\n\nDesde el punto de vista de su Lieja, estos mismos impuestos se denominan [vassal_taxes|E] para distinguirlos de cualquier impuesto que puedan adeudar a su propio $game_concept_liege$." #NT!
+ game_concept_liege_taxes:0 "Impuestos de Señor Feudal" #NT!
+ game_concept_liege_taxes_desc:1 "Tus $game_concept_liege_taxes$ son los [taxes|E] que debes pagar a tu [liege|E] como parte de tu [obligations|E]. No paga ningún $game_concept_liege_taxes$ si es [independent|E].\n\nDesde el punto de vista de su Señor Feudal, estos mismos impuestos se denominan [vassal_taxes|E] para distinguirlos de cualquier impuesto que puedan adeudar a su propio $game_concept_liege$." #NT!
  game_concept_usurp_title:0 "Título de usurpación" #NT!
  game_concept_usurp:0 "Usurpar" #NT!
  game_concept_usurped:0 "usurpado" #NT!
@@ -1481,7 +1481,7 @@
  game_concept_abandon_celibacy_desc:0 "Un [decision|E] que permite a un personaje perder el [GetTrait('celibate').GetName( GetPlayer )] [trait|E] a voluntad." #NT!
 
  game_concept_convert_county:0 "$task_conversion$" #NT!
- game_concept_convert_county_desc:0 "Un [councillor_task|E] realizado por el [court_chaplain|E] que apunta a un [county|E] de una fe diferente a la del [liege|E].\nEl progreso aumenta cada mes y, al 100 %, la mayoría del condado objetivo ha cambiado de su fe anterior a la fe de Lieja.\n\nConversión la velocidad se ve afectada por muchos factores, incluidos el [councillor|E] de [learning_skill|E] y el [fervor|E] de las dos religiones." #NT!
+ game_concept_convert_county_desc:0 "Un [councillor_task|E] realizado por el [court_chaplain|E] que apunta a un [county|E] de una fe diferente a la del [liege|E].\nEl progreso aumenta cada mes y, al 100 %, la mayoría del condado objetivo ha cambiado de su fe anterior a la fe de Señor Feudal.\n\nConversión la velocidad se ve afectada por muchos factores, incluidos el [councillor|E] de [learning_skill|E] y el [fervor|E] de las dos religiones." #NT!
 
  game_concept_commission_epic:0 "$commission_epic_decision$" #NT!
  game_concept_commission_epic_decision:0 "$commission_epic_decision$ Decisión" #NT!
@@ -1506,7 +1506,7 @@
 
  game_concept_claimant_faction:0 "$claimant_faction$" #NT!
  game_concept_claimant_factions:0 "Facciones reclamantes" #NT!
- game_concept_claimant_faction_desc:1 "El $game_concept_claimant_faction$ busca instalar un [claimant|E] particular en el trono de un [title|E] sostenido por su [liege|E]. Si tiene éxito, Lieja tendrá que ceder el Título al Demandante y la estructura de [vassal|E] se actualizará en consecuencia. Todos los miembros de [faction|E] obtendrán un [hook|E] en el Reclamante." #NT!
+ game_concept_claimant_faction_desc:1 "El $game_concept_claimant_faction$ busca instalar un [claimant|E] particular en el trono de un [title|E] sostenido por su [liege|E]. Si tiene éxito, Señor Feudal tendrá que ceder el Título al Demandante y la estructura de [vassal|E] se actualizará en consecuencia. Todos los miembros de [faction|E] obtendrán un [hook|E] en el Reclamante." #NT!
 
  game_concept_peasant_faction:0 "$peasant_faction$" #NT!
  game_concept_peasant_factions:0 "Facciones campesinas" #NT!
@@ -1518,7 +1518,7 @@
 
  game_concept_buy_claim:0 "$buy_claim_interaction$" #NT!
  game_concept_buy_claim_interaction:0 "$buy_claim_interaction$ Interacción" #NT!
- game_concept_buy_claim_desc:2 "Una interacción que permite que un personaje compre [unpressed_claims|E] a cambio de [piety|E].\n\n$EFFECT_LIST_BULLET$A [vassal|E] no puede comprar un reclamo sobre ningún [liege|E] de [title|E], y un Lieja no puede comprar un reclamo sobre ningún título de vasallo\n$EFFECT_LIST_BULLET$A [king|E] o [emperor|E] no pueden comprar reclamos sobre títulos de reino, y los emperadores no pueden comprar derechos sobre otros imperios\n$EFFECT_LIST_BULLET$Nadie puede comprar derechos sobre su [piety|E]0" #NT!
+ game_concept_buy_claim_desc:2 "Una interacción que permite que un personaje compre [unpressed_claims|E] a cambio de [piety|E].\n\n$EFFECT_LIST_BULLET$A [vassal|E] no puede comprar un reclamo sobre ningún [liege|E] de [title|E], y un Señor Feudal no puede comprar un reclamo sobre ningún título de vasallo\n$EFFECT_LIST_BULLET$A [king|E] o [emperor|E] no pueden comprar reclamos sobre títulos de reino, y los emperadores no pueden comprar derechos sobre otros imperios\n$EFFECT_LIST_BULLET$Nadie puede comprar derechos sobre su [piety|E]0" #NT!
 
  game_concept_develop_county:0 "$task_develop_county$" #NT!
  game_concept_develop_county_desc:0 "Un [councillor_task|E] realizado por el [steward|E]. Apunta a un [county|E], donde acelera [development_growth|E] y reduce el tiempo de construcción de [buildings|E]." #NT!

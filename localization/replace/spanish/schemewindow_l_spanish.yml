@@ -91,7 +91,7 @@
  SCHEME_SUCCESS_DIFFICULTY_EASY:0 "$easy_difficulty$: $VALUE|0=+%/$" #NT!
  SCHEME_SUCCESS_DIFFICULTY_VERY_EASY:0 "$very_easy_difficulty$: $VALUE|0=+%/$" #NT!
  SCHEME_PREPARED_FOR_ANYTHING_PERK_MODIFIER:0 "[GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$" #NT!
- SCHEME_PREPARED_FOR_ANYTHING_LIEGE_PERK_MODIFIER:0 "Lieja es [GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$" #NT!
+ SCHEME_PREPARED_FOR_ANYTHING_LIEGE_PERK_MODIFIER:0 "Señor Feudal es [GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$" #NT!
  SCHEME_A_JOB_DONE_RIGHT_PERK_MODIFIER:0 "[GetPerk( 'a_job_done_right_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$" #NT!
  SCHEME_AGENT_IS_SPYMASTER:1 "[target.GetShortUINamePossessiveNoTooltip] [spymaster|E]: $VALUE|+0=$" #NT!
  SCHEME_AGENT_IS_SPYMASTER_IN_MY_COURT:1 "El [spymaster|E] de [target.GetShortUINamePossessiveNoTooltip] [court|E]: $VALUE|+0=$" #NT!
@@ -156,7 +156,7 @@
  SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET:1 "Tienes un [rank|E] más alto que [target.GetTitledFirstName]: $VALUE|+0=$" #NT!
  SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET_NEGATIVE:1 "[target.GetTitledFirstName] tiene un [rank|E] más alto que tú: $VALUE|+0=$" #NT!
  SCHEME_BEFRIEND_OUR_TRAITS:0 "[target.GetTitledFirstNamePossessive] Afinidad: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET_LIEGE:1 "[target.GetTitledFirstNamePossessive] Lieja tiene un [rank|E] más alto que tú: $VALUE|+0=$" #NT!
+ SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET_LIEGE:1 "[target.GetTitledFirstNamePossessive] Señor Feudal tiene un [rank|E] más alto que tú: $VALUE|+0=$" #NT!
  HIGHER_RANK_THAN_SCHEME_TARGET:2 "Tu [rank|E] es superior a [target.GetShortUINamePossessive]: $VALUE|+0=-+$" #NT!
  LOWER_RANK_THAN_SCHEME_TARGET:2 "Tu [rank|E] es inferior a [target.GetShortUINamePossessive]: $VALUE|+0=-+$" #NT!
  HIGHER_RANK_THAN_SCHEME_TARGET_LIEGE:2 "Tu [rank|E] es mayor que el de [target.GetShortUINamePossessive] Lord: $VALUE|+0=-+$" #NT!
