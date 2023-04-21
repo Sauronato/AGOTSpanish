@@ -15,13 +15,13 @@
  LOAD_GAME:0 "Cargar juego" #NT!
  SAVE_GAME:0 "Guardar partida" #NT!
  DELETE_GAME:0 "Eliminar juego" #NT!
- SAVE:0 "Ahorrar" #NT!
+ SAVE:0 "Guardar" #NT!
  DELETE:0 "Borrar" #NT!
  DELETE_CONFIRMATION_DESC:0 "Se eliminará la partida guardada $NAME|V$. ¿Está seguro?" #NT!
  CLOUDSAVE_UNVAVAILABLE_TOOLTIP:0 "Los guardados en la nube no están disponibles" #NT!
  SAVE_ENABLE_CLOUDSAVE_TOOLTIP:0 "Guardar en la nube" #NT!
  LOAD_CLOUDSAVE_TOOLTIP:0 "Guardar en la nube" #NT!
- LOAD_IRONMAN_TOOLTIP:0 "guardar ironman" #NT!
+ LOAD_IRONMAN_TOOLTIP:0 "Guardar ironman" #NT!
  LOAD_MULTIPLAYER_TOOLTIP:0 "Guardado multijugador ([SaveGameItem.GetNumberOfPlayers] jugadores)" #NT!
  LOAD_INVALID_TOOLTIP:0 "#X Partida guardada no válida. Podría causar bloqueos.#!" #NT!
  LOAD_LAST_PLAYED:0 "Última reproducción: [SaveGameItem.GetLastPlayed]" #NT!
@@ -509,7 +509,7 @@
  event_target_desc:0 "Un alcance se puede guardar como un "objetivo de evento". Entonces será accesible desde cualquier disparador/efecto que se pueda "retroceder" en una línea directa hasta el punto donde guardó el objetivo del evento (es decir, cualquier disparador que esté marcado o efectos que se disparen después de guardar el objetivo del evento, pero solo en una cadena continua, como una cadena de eventos). Si una cadena de eventos finaliza, el destino del evento se pierde.\nTenga en cuenta que una cantidad de on_actions configuradas por código y una cantidad de interacciones especiales vienen con sus propios objetivos de eventos predefinidos.\nNota final: también puede guardar valores y bools como destinos de eventos, lo que puede ser útil en ciertas situaciones." #NT!
  parameter_desc:0 "Restos de Stellaris. Si está considerando usar esto, probablemente sea mejor que use ámbitos guardados como variables. (¡Cambie esta descripción si hemos comenzado a usar "parámetro" por cualquier motivo!)" #NT!
  variable_desc:0 "Las variables de script son accesibles y modificables por script. Actualmente vienen en las siguientes formas:\n\nvariable:example_number = 1\nvariable:example_flag = flag:example\nvariable:example_scope = root\nvariable:example_bool = yes" #NT!
- flag_desc:0 "Las banderas son marcadores simples que puedes usar para rastrear que algo ha sucedido en el juego. Tienen un tipo específico según el tipo de alcance en el que se haya establecido (bandera de carácter, bandera de esquema, sC.). El alcance en particular (por ejemplo, un carácter en particular) tendrá la bandera establecida hasta que un efecto lo elimine, o hasta que se agote su temporizador, si se definió un temporizador para él." #NT!
+ flag_desc:0 "Las banderas son marcadores simples que puedes usar para rastrear que algo ha sucedido en el juego. Tienen un tipo específico según el tipo de alcance en el que se haya establecido (bandera de carácter, bandera de esquema, sC.). Altojardin en particular (por ejemplo, un carácter en particular) tendrá la bandera establecida hasta que un efecto lo elimine, o hasta que se agote su temporizador, si se definió un temporizador para él." #NT!
  TODO:0 "POR HACER: $WHAT$" #NT!
  EVENT_SIGNED:0 "firmado," #NT!
  EVENT_SIGNATURE:1 "[CHARACTER.GetNameNoTooltip]" #NT!
@@ -698,7 +698,7 @@
  #GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY$ $MONTH_SHORT$" #NT!
  #GAME_DATE_STRING_LONG:2 "$DAY|O$ de $MONTH$, $YEAR$ ANUNCIO" #NT!
  CONCEPT_TEXT:0 "[$KEY$|E]" #NT!
- NOT_IN_DIPLOMATIC_RANGE:0 "No dentro del alcance diplomático" #NT!
+ NOT_IN_DIPLOMATIC_RANGE:0 "No dentro dAltojardin diplomático" #NT!
  FIND_CHARACTER:0 "Buscar personaje" #NT!
  GO_TO_CAPITAL:0 "Ir a Capital" #NT!
  CHARACTER_ARMY_COMPOSITION_NAME:0 "Ejército de [CHARACTER.GetShortUINameNotMe]" #NT!
