@@ -95,7 +95,7 @@
  debug_remove_full_interaction_set:0 "#D Eliminar el conjunto de interacción completo#!" #NT!
  debug_show_relation_event:0 "#D Mostrar evento de relación#!" #NT!
  add_test_hook:0 "#D Añadir gancho de prueba#!" #NT!
- make_liege_host_feast:0 "#D Haz que el señor festejar sea el festín#!" #NT!
+ make_liege_host_feast:0 "#D Haz que el Lord festejar sea el festín#!" #NT!
  offer_vassalization_interaction:0 "Ofrecer vasallaje" #NT!
  offer_vassalization_interaction_desc:0 "Pide a [recipient.GetShortUINameNoTooltip] que se convierta en tu [vassal|E]" #NT!
  offer_fealty_interaction:0 "jura lealtad" #NT!
@@ -363,7 +363,7 @@
  GENERAL_SEDUCE_COOLDOWN:0 "[CHARACTER.GetShortUIName|U] no quiere dejarse seducir por nadie" #NT!
  NOT_ATTRACTED_TO_GENDER:0 "[TARGET_CHARACTER.GetShortUIName|U] no se siente atraído por [CHARACTER.GetWomenMen]" #NT!
  NOT_ATTRACTED_TO_THEIR_GENDER:0 "No me atrae [CHARACTER.GetWomenMen]" #NT!
- I_CANNOT_DECLARE_WAR_WITHOUT_USING_HOOK_ON_LIEGE:0 "No puedo declarar esta guerra sin usar un [hook|E] en mi señor debido a las leyes del reino" #NT!
+ I_CANNOT_DECLARE_WAR_WITHOUT_USING_HOOK_ON_LIEGE:0 "No puedo declarar esta guerra sin usar un [hook|E] en mi Lord debido a las leyes del reino" #NT!
  I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT:1 "No puedes declarar la guerra mientras estás en [debt|E]" #NT!
  call_ally_interaction:0 "llamada a la guerra" #NT!
  call_ally_interaction_desc:0 "Llama a tu [ally|E] para que te ayude en tus guerras" #NT!
@@ -429,8 +429,8 @@
  IS_OF_ATTACKER_FAITH_IN_HOLY_WAR:0 "[TARGET_CHARACTER.GetShortUIName|U] sigue al [TARGET_CHARACTER.GetFaith.GetAdjective] [faith|E] atacante y no se unirá a ti en este [great_holy_war|E]" #NT!
  IS_WAR_ALLY_OF_ANOTHER_TARGET_ENEMY:1 "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'are', 'is' )] del mismo lado que uno de sus oponentes, en otra guerra" #NT!
  THEY_CANNOT_CREATE_CADET_BRANCH:0 "[CHARACTER.GetShortUIName|U] no puede crear un [cadet_branch|E]" #NT!
- is_married_and_spouse_is_dominant_partner:0 "[CHARACTER.GetShortUIName|U] está en un matrimonio [matrilineal|E] y la pareja de [CHARACTER.GetHerHis] es ​​empleada por su señor" #NT!
- is_married_patrilineally_and_spouse_is_dominant_partner:0 "[CHARACTER.GetShortUIName|U] está en un matrimonio [patrilineal|E] y la pareja de [CHARACTER.GetHerHis] es ​​empleada por su señor" #NT!
+ is_married_and_spouse_is_dominant_partner:0 "[CHARACTER.GetShortUIName|U] está en un matrimonio [matrilineal|E] y la pareja de [CHARACTER.GetHerHis] es ​​empleada por su Lord" #NT!
+ is_married_patrilineally_and_spouse_is_dominant_partner:0 "[CHARACTER.GetShortUIName|U] está en un matrimonio [patrilineal|E] y la pareja de [CHARACTER.GetHerHis] es ​​empleada por su Lord" #NT!
  is_escaped_prisoner:0 "Recientemente intentaste [imprison|E] [CHARACTER.GetShortUIName|U]" #NT!
  DECISION_COST:0 "Costo:" #NT!
 
@@ -717,12 +717,12 @@
  foreign_realm_court_language_non_spoken_interaction_reason:0 "[recipient.GetShortUINamePossessive] [realm|E] es Extranjero y comparte tu [court_language|E] #weak (no conoces personalmente a [actor.GetCourtLanguage.GetNameNoTooltip])#!: $VALUE|=+0$" #NT!
  foreign_realm_court_language_spoken_interaction_reason:0 "[recipient.GetShortUINamePossessive] [realm|E] es Extranjero y comparte su [court_language|E] #weak (y conoce personalmente a [actor.GetCourtLanguage.GetNameNoTooltip])#!: $VALUE|=+0$" #NT!
  offer_fealty_interaction_aibehavior_amkingtier_tt:0 "Eres un [actor.GetTitleTierName]: $VALUE|=+0$" #NT!
- IS_NEIGHBOR_OR_DEJURE_LIEGE:0 "[TARGET_CHARACTER.GetShortUINameNotMe] debe ser vecino, o el [de_jure|E] señor de tu capital" #NT!
- OFFER_VASSALIZATION_INTERACTION_NOTIFICATION:1 "Deseo extender mi protección a usted como su nuevo señor feudal. Todo lo que pido a cambio es tu juramento de lealtad..." #NT!
+ IS_NEIGHBOR_OR_DEJURE_LIEGE:0 "[TARGET_CHARACTER.GetShortUINameNotMe] debe ser vecino, o el [de_jure|E] Lord de tu capital" #NT!
+ OFFER_VASSALIZATION_INTERACTION_NOTIFICATION:1 "Deseo extender mi protección a usted como su nuevo Lord feudal. Todo lo que pido a cambio es tu juramento de lealtad..." #NT!
  GRANT_INDEPENDENCE_INTERACTION_NOTIFICATION:0 "He decidido concederte tu independencia. A partir de hoy, estás libre de tu juramento de lealtad." #NT!
  FORCE_VOTE_INTERACTION_NOTIFICATION:0 "He decidido aprovechar mi influencia sobre ti para obligarte a votar por mi sucesor elegido en las próximas elecciones." #NT!
  FORCE_JOIN_FACTION_NOTIFICATION:0 "He decidido aprovechar mi influencia sobre ti para obligarte a unirte a mi facción." #NT!
- OFFER_FEALTY_INTERACTION_NOTIFICATION:1 "Humildemente te pido que aceptes mi juramento de lealtad como mi nuevo señor feudal." #NT!
+ OFFER_FEALTY_INTERACTION_NOTIFICATION:1 "Humildemente te pido que aceptes mi juramento de lealtad como mi nuevo Lord feudal." #NT!
  REQUEST_ARREST_NOTIFICATION_TEXT:0 "Queda bajo arresto por delitos contra la Corona." #NT!
  REQUEST_VOWS_NOTIFICATION_TEXT:0 "Se le pide que deje su posición en la corte y tome los votos." #NT!
  CHARACTER_INTERACTION_ALLOWED_TO_MARRY:0 "permitir el matrimonio" #NT!
@@ -764,14 +764,14 @@
  call_ally.0101.a:0 "¡Qué [recipient.Custom('InsultAdjective')] [recipient.Custom('InsultNoun')]!" #NT!
 
  char_interaction.0001.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]" #NT!
- char_interaction.0001.desc:0 "Acepto tu amable oferta de vasallaje. ¡Mi señor!" #NT!
+ char_interaction.0001.desc:0 "Acepto tu amable oferta de vasallaje. ¡Mi Lord!" #NT!
 
  char_interaction.0002.desc:0 "No necesito tu protección y prefiero quedarme con la generosidad de mi Reino." #NT!
  char_interaction.0002.a:0 "Tendré que explorar otras opciones..." #NT!
 
  char_interaction.0010.opening:0 "[recipient.Custom2('AppropriateGreetingPositive', actor )]" #NT!
  char_interaction.0010.desc:0 "¡[actor.GetFirstName], creo que este es el comienzo de un hermoso vasallaje!" #NT!
- char_interaction.0010.a:0 "¡Mi señor!" #NT!
+ char_interaction.0010.a:0 "¡Mi Lord!" #NT!
 
  char_interaction.0011.desc:0 "Si bien aprecio tu oferta de lealtad, no puedo aceptarla." #NT!
  char_interaction.0011.a:0 "Eso es lamentable." #NT!
@@ -858,7 +858,7 @@
  char_interaction.0170.a:0 "¡¡¡Maldice tu alma negra, [actor.GetFirstNameNoTooltip]!!!" #NT!
  char_interaction.0170.life_is_just_a_joke.a:0 "La vida #EMP is#! es solo una broma, ¿eh?" #NT!
  char_interaction.0180.desc:0 "Como jefe de su casa, he decidido que debe abrazar [actor.GetFaith.GetName], la única fe verdadera. Me temo que no tienes elección en este asunto." #NT!
- char_interaction.0180.desc.liege:0 "Como su señor, exijo que abandone su falsa fe y se una a mí como compañero [actor.GetFaith.GetAdherentName], inmediatamente." #NT!
+ char_interaction.0180.desc.liege:0 "Como su Lord, exijo que abandone su falsa fe y se una a mí como compañero [actor.GetFaith.GetAdherentName], inmediatamente." #NT!
  char_interaction.0180.a:0 "Supongo que debo." #NT!
 
  char_interaction.0181.desc:1 "Muy bien, abrazaré la Fe [actor.GetFaith.GetAdjective] aunque se sentirá extraño abandonar tanto que es familiar." #NT!
@@ -896,7 +896,7 @@
  char_interaction.0231.desc_house_arrest:0 "Según mis órdenes, [recipient.GetTitledFirstName] ahora se limitará a la casa de [recipient.GetHerHis]. He enviado a algunos de mis guardias para garantizar que [recipient.GetSheHe] cumpla con el arresto domiciliario." #NT!
  char_interaction.0231.a:0 "Bien." #NT!
 
- char_interaction.0232.desc:0 "Durante demasiado tiempo he sufrido humillaciones a manos de [actor.GetTitledFirstName]. No me quedaré de brazos cruzados mientras nuestro señor abusa de [actor.GetHerHis] vasallos leales. Les insto a que se unan a mí en la lucha para derrocar a este tirano." #NT!
+ char_interaction.0232.desc:0 "Durante demasiado tiempo he sufrido humillaciones a manos de [actor.GetTitledFirstName]. No me quedaré de brazos cruzados mientras nuestro Lord abusa de [actor.GetHerHis] vasallos leales. Les insto a que se unan a mí en la lucha para derrocar a este tirano." #NT!
  char_interaction.0232.a:0 "¡No estarás solo!" #NT!
  char_interaction.0232.b:0 "¡Eres el traidor!" #NT!
 
@@ -1267,7 +1267,7 @@
  character_interaction_on_cooldown:0 "$INTERACTION_NAME$ no disponible hasta [DATE.GetStringLong]" #NT!
  character_interaction_against_on_cooldown:0 "$INTERACTION_NAME$ no disponible en [TARGET_CHARACTER.GetShortUIName] hasta [DATE.GetStringLong]" #NT!
 
- NOT_offer_fealty_neighboring_condition:0 "[CHARACTER.GetShortUIName|U] no es su señor de jure ni un señor vecino" #NT!
+ NOT_offer_fealty_neighboring_condition:0 "[CHARACTER.GetShortUIName|U] no es su Lord de jure ni un Lord vecino" #NT!
 
  NOT_character_interaction_within_diplomatic_range:0 "[TARGET_CHARACTER.GetUIName] está demasiado lejos para que [CHARACTER.GetUIName] interactúe con él." #NT!
 
@@ -1375,7 +1375,7 @@
  ARTIFACT_BOLDNESS_REASON:0 "[recipient.GetShortUINamePossessiveNoTooltip] Negrita: $VALUE|=+0$" #NT!
  ARTIFACT_RIVAL_REASON:0 "[recipient.GetShortUINameNoTooltip] es tu rival: $VALUE|=+0$" #NT!
  ARTIFACT_NEMESIS_REASON:0 "[recipient.GetShortUINameNoTooltip] es tu némesis: $VALUE|=+0$" #NT!
- ARTIFACT_LIEGE_REASON:0 "Eres [recipient.GetShortUINamePossessiveNoTooltip] señor: $VALUE|=+0$" #NT!
+ ARTIFACT_LIEGE_REASON:0 "Eres [recipient.GetShortUINamePossessiveNoTooltip] Lord: $VALUE|=+0$" #NT!
  ARTIFACT_CLAIM_REASON:0 "[recipient.GetShortUINameNoTooltip] podría reclamar el artefacto: $VALUE|=+0$" #NT!
  ARTIFACT_CURSED_REASON:1 "No, prefiero no tener eso, gracias: $VALUE|=+0$" #NT!
 

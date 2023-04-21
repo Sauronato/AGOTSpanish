@@ -9,7 +9,7 @@
  game_concept_direct_vassal_desc:0 "Tus $game_concept_direct_vassals$ son los [vassals|E] que te sirven personalmente. Los vasallos de vasallos están incluidos en #emphasis no en #! ." #NT!
  game_concept_vassalize:0 "Vassalizar" #NT!
  game_concept_vassalization:0 "vasallaje" #NT!
- game_concept_vassal_desc:1 "Un $game_concept_vassal$ es un [ruler|E] que ha jurado lealtad a otro gobernante, su [liege|E].\n\nEl $game_concept_vassal$ proporciona a su señor [levies|E] y [taxes|E], su [obligations|E], a cambio de protección.\n\nSi el [opinion|E] de un $game_concept_vassal$ de su señor es bajo, pueden unirse a [factions|E] o [ruler|E]0 para reemplazar a su señor con otra persona." #NT!
+ game_concept_vassal_desc:1 "Un $game_concept_vassal$ es un [ruler|E] que ha jurado lealtad a otro gobernante, su [liege|E].\n\nEl $game_concept_vassal$ proporciona a su Lord [levies|E] y [taxes|E], su [obligations|E], a cambio de protección.\n\nSi el [opinion|E] de un $game_concept_vassal$ de su Lord es bajo, pueden unirse a [factions|E] o [ruler|E]0 para reemplazar a su Lord con otra persona." #NT!
  game_concept_ruler:0 "Gobernante" #NT!
  game_concept_rulers:0 "Gobernantes" #NT!
  game_concept_rulerpossessive:0 "del gobernante" #NT!
@@ -55,13 +55,13 @@
  game_concept_crown_authority_desc:1 "$game_concept_crown_authority$ representa el poder general que ejerce un [ruler|E] sobre su [vassals|E].\n\nHay cuatro niveles de $game_concept_crown_authority$; [autonomous_vassals|E], [limited|E], [high|E] y [absolute|E]. Aumentar $game_concept_crown_authority$ cuesta una cantidad de [prestige|E] según el nivel y el [ruler|E]0 del gobernante.\n\n[ruler|E]1A los vasallos no les gustan los niveles más altos de $game_concept_crown_authority$, y reducirlo es el objetivo principal de [ruler|E]3.[ruler|E]4" #NT!
  game_concept_autonomous_vassals:0 "Vasallos Autónomos" #NT!
  game_concept_autonomous_vassals_crown_authority:0 "Autoridad Autónoma de la Corona de Vasallos" #NT!
- game_concept_autonomous_vassals_crown_authority_desc:0 "'$game_concept_autonomous_vassals$' es el nivel más bajo de [crown_authority|E]. En este nivel, [vassals|E] no tiene penalización de [opinion|E] hacia su [liege|E], y el señor solo tiene un poder básico sobre ellos." #NT!
+ game_concept_autonomous_vassals_crown_authority_desc:0 "'$game_concept_autonomous_vassals$' es el nivel más bajo de [crown_authority|E]. En este nivel, [vassals|E] no tiene penalización de [opinion|E] hacia su [liege|E], y el Lord solo tiene un poder básico sobre ellos." #NT!
  game_concept_limited:0 "Limitado" #NT!
  game_concept_limited_crown_authority:0 "Autoridad de la corona limitada" #NT!
- game_concept_limited_crown_authority_desc:1 "'$game_concept_limited_crown_authority$' es el segundo al nivel más bajo de [crown_authority|E]. [vassals|E] tiene una penalización #N -10#! [opinion|E] hacia su [liege|E], y el señor puede [revoke|E] [titles|E] y [retract|E] los vasallos de un vasallo. El [crown_authority|E]0 puede cambiar entre la Partición [crown_authority|E]1 disponible." #NT!
+ game_concept_limited_crown_authority_desc:1 "'$game_concept_limited_crown_authority$' es el segundo al nivel más bajo de [crown_authority|E]. [vassals|E] tiene una penalización #N -10#! [opinion|E] hacia su [liege|E], y el Lord puede [revoke|E] [titles|E] y [retract|E] los vasallos de un vasallo. El [crown_authority|E]0 puede cambiar entre la Partición [crown_authority|E]1 disponible." #NT!
  game_concept_high:0 "Alto" #NT!
  game_concept_high_crown_authority:0 "Alta Autoridad de la Corona" #NT!
- game_concept_high_crown_authority_desc:2 "$game_concept_high_crown_authority$ es el segundo al nivel más alto. [vassals|E] tienen una penalización de #N -20#! [opinion|E] hacia su [liege|E].\n\nEn este nivel, además de los poderes que obtiene el señor en [limited_crown_authority|E], los vasallos bajo el mismo señor ya no pueden hacer la guerra entre sí, el gobernante puede cambiar entre todos los disponibles. [succession_laws|E], y los vasallos [titles|E] no pueden ser heredados por gobernantes fuera del [realm|E] del señor.\n\nPor último, rechazar el título [vassals|E]0 o vasallo [vassals|E]1 se considera un [vassals|E]2 incluso si el señor no tiene suficiente justificación." #NT!
+ game_concept_high_crown_authority_desc:2 "$game_concept_high_crown_authority$ es el segundo al nivel más alto. [vassals|E] tienen una penalización de #N -20#! [opinion|E] hacia su [liege|E].\n\nEn este nivel, además de los poderes que obtiene el Lord en [limited_crown_authority|E], los vasallos bajo el mismo Lord ya no pueden hacer la guerra entre sí, el gobernante puede cambiar entre todos los disponibles. [succession_laws|E], y los vasallos [titles|E] no pueden ser heredados por gobernantes fuera del [realm|E] del Lord.\n\nPor último, rechazar el título [vassals|E]0 o vasallo [vassals|E]1 se considera un [vassals|E]2 incluso si el Lord no tiene suficiente justificación." #NT!
  game_concept_absolute:0 "Absoluto" #NT!
  game_concept_absolute_crown_authority:0 "Autoridad absoluta de la corona" #NT!
  game_concept_absolute_crown_authority_desc:2 "$game_concept_absolute_crown_authority$ es el nivel más alto de [crown_authority|E]. [vassals|E] tiene una penalización de #N -30#! [opinion|E] hacia su [liege|E].\n\nA este nivel, además de los efectos de [high|E] y [limited|E] Crown Authority, el gobernante puede elegir un [designated_heir|E] a un costo de [crown_authority|E]0.\n\nAdemás, los vasallos no pueden declarar la guerra incluso contra gobernantes extranjeros." #NT!
@@ -69,13 +69,13 @@
  game_concept_tribal_authority_desc:2 "$game_concept_tribal_authority$ representa la influencia general que un [tribal|E] [ruler|E] ejerce sobre su [vassals|E]. En comparación con [crown_authority|E], ofrece menos poderes y en niveles posteriores.\n\nHay cuatro niveles de $game_concept_tribal_authority$: [disparate_tribes|E], [limited_tribal|E], [high_tribal|E] y [absolute_tribal|E]. Aumentar $game_concept_tribal_authority$ cuesta una cantidad de [tribal|E]1 según el nivel y el [tribal|E]2 del gobernante, pero generalmente es más costoso que aumentar la autoridad de la corona.\n\n[tribal|E]3A los vasallos no les gustan los niveles más altos de $game_concept_tribal_authority$, y reducirlo es el objetivo principal de cualquier [tribal|E]5.[tribal|E]6" #NT!
  game_concept_disparate_tribes:0 "Tribus Dispares" #NT!
  game_concept_disparate_tribes_tribal_authority:0 "Autoridad tribal de tribus dispares" #NT!
- game_concept_disparate_tribes_tribal_authority_desc:0 "$game_concept_disparate_tribes$ es el nivel más bajo de [tribal_authority|E]. En este nivel, [vassals|E] no tiene penalización de [opinion|E] hacia su [liege|E], y el señor no tiene poder sobre ellos más que la capacidad de exigir [levies|E] y [taxes|E]." #NT!
+ game_concept_disparate_tribes_tribal_authority_desc:0 "$game_concept_disparate_tribes$ es el nivel más bajo de [tribal_authority|E]. En este nivel, [vassals|E] no tiene penalización de [opinion|E] hacia su [liege|E], y el Lord no tiene poder sobre ellos más que la capacidad de exigir [levies|E] y [taxes|E]." #NT!
  game_concept_limited_tribal:0 "Limitado" #NT!
  game_concept_limited_tribal_authority:0 "Autoridad tribal limitada" #NT!
- game_concept_limited_tribal_authority_desc:0 "$game_concept_limited_tribal_authority$ es el segundo nivel más bajo de [tribal_authority|E]. [vassals|E] tiene una penalización de #N -10#! [opinion|E] hacia su [liege|E], y el señor ahora puede [imprison|E] [characters|E] en su [realm|E]." #NT!
+ game_concept_limited_tribal_authority_desc:0 "$game_concept_limited_tribal_authority$ es el segundo nivel más bajo de [tribal_authority|E]. [vassals|E] tiene una penalización de #N -10#! [opinion|E] hacia su [liege|E], y el Lord ahora puede [imprison|E] [characters|E] en su [realm|E]." #NT!
  game_concept_high_tribal:0 "Alto" #NT!
  game_concept_high_tribal_authority:0 "Alta autoridad tribal" #NT!
- game_concept_high_tribal_authority_desc:0 "$game_concept_high_tribal_authority$ es el segundo nivel más alto de [tribal_authority|E]. [vassals|E] tiene una penalización de #N -20#! [opinion|E] hacia su [liege|E].\n\nEn este nivel, además de la capacidad de [imprison|E] [characters|E], el señor puede [revoke|E] [tribal_authority|E]0 y [tribal_authority|E]1 ser vasallo de un vasallo." #NT!
+ game_concept_high_tribal_authority_desc:0 "$game_concept_high_tribal_authority$ es el segundo nivel más alto de [tribal_authority|E]. [vassals|E] tiene una penalización de #N -20#! [opinion|E] hacia su [liege|E].\n\nEn este nivel, además de la capacidad de [imprison|E] [characters|E], el Lord puede [revoke|E] [tribal_authority|E]0 y [tribal_authority|E]1 ser vasallo de un vasallo." #NT!
  game_concept_absolute_tribal:0 "Absoluto" #NT!
  game_concept_absolute_tribal_authority:0 "Autoridad tribal absoluta" #NT!
  game_concept_absolute_tribal_authority_desc:0 "$game_concept_absolute_tribal_authority$ es el nivel más alto de [tribal_authority|E]. [vassals|E] tiene una penalización de #N -30#! [opinion|E] hacia su [liege|E].\n\nA este nivel, además de los efectos de [limited_tribal|E] y [high_tribal_authority|E], los gobernantes ahora pueden asentarse y convertirse en [feudal|E].\n\nProtarg_10 sin reformar Los gobernantes de [tribal_authority|E]1 requieren esta ley para reformar su [tribal_authority|E]2 ." #NT!
@@ -91,7 +91,7 @@
  game_concept_title_law_desc:1 "A [titles|E] se le puede otorgar una Ley [title_specific_succession|E] específica de ese Título. Esta Ley dictará reglas de sucesión diferentes a las de otros títulos de igual carácter." #NT!
  game_concept_strong_vassal:0 "Vasallo fuerte" #NT!
  game_concept_strong_vassals:0 "Vasallos fuertes" #NT!
- game_concept_strong_vassal_desc:0 "Un $game_concept_strong_vassal$ es un [vassal|E] que se acerca o supera su [liege|E] en potencia, incurriendo en una penalización de [opinion|E]. #weak Ven a su señor como débil e inadecuado para gobernar el reino.#!" #NT!
+ game_concept_strong_vassal_desc:0 "Un $game_concept_strong_vassal$ es un [vassal|E] que se acerca o supera su [liege|E] en potencia, incurriendo en una penalización de [opinion|E]. #weak Ven a su Lord como débil e inadecuado para gobernar el reino.#!" #NT!
  game_concept_domain_limit:0 "Límite de dominio" #NT!
  game_concept_domain_limit_desc:0 "El $game_concept_domain_limit$ determina cuántos [holdings|E] puedes tener legalmente en tu [domain|E]. El $game_concept_domain_limit$ se ve afectado por muchas cosas, como tu [stewardship_skill|E], [succession_law|E] y el nivel de tu [primary_title|E].\n\nAunque puedes subir tu $game_concept_domain_limit$, hacerlo reducirá tu [income|E] y [vassal|E] [holdings|E]0." #NT!
  game_concept_vassal_limit:0 "Límite vasallo" #NT!
@@ -187,7 +187,7 @@
  game_concept_faction_discontent_desc:1 "$game_concept_faction_discontent$ es una medida de qué tan cerca está un [faction|E] de dar un ultimátum.\n\nSi el [military_power|E] de una facción está en el umbral, el descontento aumentará cada mes. Si el poder militar está por debajo del umbral, el descontento disminuirá. Las facciones muy poderosas verán aumentar su descontento rápidamente." #NT!
  game_concept_military_power:0 "Poder militar" #NT!
  game_concept_faction_military_power:0 "Poder militar de facción" #NT!
- game_concept_faction_military_power_desc:0 "$game_concept_faction_military_power$ es una medida de la fuerza militar total de un [faction|E] en relación con su objetivo.\n\nCada miembro individual de la facción suma toda su fuerza a la facción mientras permanezca en la facción. Si el objetivo de la facción es el [liege|E] de un miembro, la fuerza del miembro también se resta del poder relativo del señor." #NT!
+ game_concept_faction_military_power_desc:0 "$game_concept_faction_military_power$ es una medida de la fuerza militar total de un [faction|E] en relación con su objetivo.\n\nCada miembro individual de la facción suma toda su fuerza a la facción mientras permanezca en la facción. Si el objetivo de la facción es el [liege|E] de un miembro, la fuerza del miembro también se resta del poder relativo del Lord." #NT!
  game_concept_scheme:0 "Esquema" #NT!
  game_concept_scheming:0 "Maquinación" #NT!
  game_concept_schemes:0 "esquemas" #NT!
@@ -813,7 +813,7 @@
  game_concept_wanderers:0 "vagabundos" #NT!
  game_concept_wanderer_desc:0 "Los personajes que no pertenecen a un [court|E] ni tienen ningún [titles|e] se denominan Wanderers. Viajan por el mundo, visitando Tribunales como [guests|E] en el camino. Los vagabundos pueden convertirse en capitanes de [mercenary|E], líderes de [holy_orders|E], miembros de [clergy|E] o titulares de [city|E]." #NT!
  game_concept_host:0 "Anfitrión" #NT!
- game_concept_host_desc:1 "Un $game_concept_host$ es un [ruler|E] que no es el señor de un personaje, pero aún lo tiene en su [court].\n\nHay varias razones posibles por las que esto puede ocurrir, como que [wanderers|E] visite a un Gobernante o que [wards|E] permanezca en la misma Corte que su [guardian|E] ." #NT!
+ game_concept_host_desc:1 "Un $game_concept_host$ es un [ruler|E] que no es el Lord de un personaje, pero aún lo tiene en su [court].\n\nHay varias razones posibles por las que esto puede ocurrir, como que [wanderers|E] visite a un Gobernante o que [wards|E] permanezca en la misma Corte que su [guardian|E] ." #NT!
  game_concept_noble:0 "Noble" #NT!
  game_concept_nobles:0 "nobles" #NT!
  game_concept_nobleman:0 "Noble" #NT!
@@ -1174,7 +1174,7 @@
  game_concept_house_head_interaction_desc:0 "[interactions|E] especial que puede realizar un [house_head|E] contra miembros de su [house|E]." #NT!
  game_concept_demand_conversion:0 "Conversión de demanda" #NT!
  game_concept_demanding_conversion:0 "Conversión exigente" #NT!
- game_concept_demand_conversion_desc:1 "Los [rulers|E] que tienen un súbdito de otro [faith|E] pueden exigir la conversión para cambiar la Fe de su súbdito por la suya propia. La habilidad [learning|E] del gobernante y la [opinion|E] del sujeto de su señor son factores importantes para determinar si el sujeto acepta la demanda o la [Concept('refuse_conversion_crime','refuses')|E]." #NT!
+ game_concept_demand_conversion_desc:1 "Los [rulers|E] que tienen un súbdito de otro [faith|E] pueden exigir la conversión para cambiar la Fe de su súbdito por la suya propia. La habilidad [learning|E] del gobernante y la [opinion|E] del sujeto de su Lord son factores importantes para determinar si el sujeto acepta la demanda o la [Concept('refuse_conversion_crime','refuses')|E]." #NT!
  game_concept_damage:0 "Daño" #NT!
  game_concept_damage_desc:1 "El daño de un [soldier|E] determina cuántos [casualties|E] pueden infligir al enemigo durante un [battle|E].\n\nUn soldado [levy|E] inflige daño [GetDefine('NCombat', 'LEVY_ATTACK')|0]." #NT!
  game_concept_toughness:0 "Tenacidad" #NT!

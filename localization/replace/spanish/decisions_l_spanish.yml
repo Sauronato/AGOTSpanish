@@ -25,7 +25,7 @@
  host_feast_decision_desc_pensive:0 "#N No perderás [stress|E] ya que eres [GetTrait('pensive').GetName( GetPlayer )]#!" #NT!
  host_feast_decision_desc_stress_medium:1 "Tu [stress|E] se reducirá" #NT!
  host_feast_decision_desc_stress:1 "Tu [stress|E] puede reducir" #NT!
- host_feast_decision_desc_liege_opinion:1 "Puede aumentar el [opinion|E] de tu señor" #NT!
+ host_feast_decision_desc_liege_opinion:1 "Puede aumentar el [opinion|E] de tu Lord" #NT!
  host_feast_decision_confirm:0 "Envía las invitaciones" #NT!
 
  borrow_from_holy_order_decision:0 "Pedir prestado oro de la orden sagrada" #NT!
@@ -404,7 +404,7 @@
  convert_to_feudalism_decision_tooltip:0 "Cambiar el tipo de [government|E] convirtiéndose en [feudal|E] o [clan|E]" #NT!
 
  convert_to_feudalism_liege_converted_decision:0 "Adoptar [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] Caminos a través de Lieja" #NT!
- convert_to_feudalism_liege_converted_decision_desc:1 "A medida que mi reino crece, también lo hace el desafío de controlarlo. Mi señor ya sigue el sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]; Podría pedirle ayuda a [ROOT.Char.GetLiege.GetHerHis] para reestructurar mi reino de manera similar." #NT!
+ convert_to_feudalism_liege_converted_decision_desc:1 "A medida que mi reino crece, también lo hace el desafío de controlarlo. Mi Lord ya sigue el sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]; Podría pedirle ayuda a [ROOT.Char.GetLiege.GetHerHis] para reestructurar mi reino de manera similar." #NT!
  convert_to_feudalism_liege_converted_decision_confirm:1 "Adoptar [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U] maneras" #NT!
  convert_to_feudalism_liege_converted_decision_tooltip:0 "Cambiar el tipo de [government|E] convirtiéndose en [feudal|E] o [clan|E]" #NT!
 
@@ -430,10 +430,10 @@
  create_outremer_empire_decision_effect_tooltip:0 "Se establecerá el Imperio de Ultramar" #NT!
  outremer_decision_hybrid_tt:0 "Formarás un [THIS.Char.GetCulture.GetPrefix]-[hybrid_culture.GetName] [hybrid_culture|E] con el $innovation_men_at_arms$ y el $innovation_desert_tactics$ [innovations|E]" #NT!
 
- I_AM_UNDER_OUTREMER_LIEGE:0 "Mi señor tiene Outremer [culture|E]" #NT!
- I_AM_NOT_UNDER_OUTREMER_LIEGE:0 "Mi señor tiene #bold not#! Outremer [culture|E]" #NT!
- I_AM_UNDER_OUTREMER_EMPIRE:0 "Mi señor #bold no#!  gobierna el Imperio de Ultramar" #NT!
- I_AM_NOT_UNDER_OUTREMER_EMPIRE:0 "Mi señor gobierna el Imperio de Ultramar" #NT!
+ I_AM_UNDER_OUTREMER_LIEGE:0 "Mi Lord tiene Outremer [culture|E]" #NT!
+ I_AM_NOT_UNDER_OUTREMER_LIEGE:0 "Mi Lord tiene #bold not#! Outremer [culture|E]" #NT!
+ I_AM_UNDER_OUTREMER_EMPIRE:0 "Mi Lord #bold no#!  gobierna el Imperio de Ultramar" #NT!
+ I_AM_NOT_UNDER_OUTREMER_EMPIRE:0 "Mi Lord gobierna el Imperio de Ultramar" #NT!
 
  embrace_celibacy_decision:0 "Abraza el celibato" #NT!
  embrace_celibacy_decision_desc:0 "#F Una vida sin placeres carnales me traerá paz y satisfacción.#!" #NT!
@@ -864,7 +864,7 @@
  secede_from_empire_decision:0 "Separarse de [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
  secede_from_empire_decision_desc:0 "La incompetencia de [ROOT.Char.GetLiege.GetTitledFirstNamePossessive] ha dejado a [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTooltip] incapaz de proteger a sus súbditos de sus enemigos, tanto internos como externos. Incluso un nuevo gobernante estaría en apuros para deshacer todo el daño que [ROOT.Char.GetLiege.GetSheHe] ha causado.\n\nEs un curso de acción mucho más sabio para nosotros separarnos y formar un nuevo reino, viviendo o muriendo por nuestros propios méritos en lugar de siendo arrastrado hacia abajo con el resto del Imperio." #NT!
  secede_from_empire_decision_tooltip:0 "Déjate llevar y pierde algo de estrés" #NT!
- secede_from_empire_decision_effect_tooltip:0 "Parte de la deuda de su antiguo señor será cancelada" #NT!
+ secede_from_empire_decision_effect_tooltip:0 "Parte de la deuda de su antiguo Lord será cancelada" #NT!
  secede_from_empire_decision_trigger_debt:0 "[CHARACTER.GetTitledFirstName] tiene más de 25 años de deuda" #NT!
  secede_from_empire_decision_trigger_war:0 "[CHARACTER.GetTitledFirstName] lleva más de 25 años librando la misma guerra ofensiva" #NT!
  secede_from_empire_decision_confirm:0 "¡Salud!" #NT!
@@ -1079,7 +1079,7 @@
  PAY_HOMAGE_DECISION_SELECT_GIFT_TITLE:0 "Elige un regalo de [pay_homage|E]" #NT!
 
  convert_to_tribalism_decision:0 "Abraza el tribalismo" #NT!
- convert_to_tribalism_decision_desc:0 "¿Cómo puedo llamarme señor cuando no significa nada para mi gente? Si no puedo convertirlos, solo hay una alternativa: necesito adoptarlos." #NT!
+ convert_to_tribalism_decision_desc:0 "¿Cómo puedo llamarme Lord cuando no significa nada para mi gente? Si no puedo convertirlos, solo hay una alternativa: necesito adoptarlos." #NT!
  convert_to_tribalism_decision_confirm:0 "Sigan el camino de mi Pueblo" #NT!
  convert_to_tribalism_decision_tooltip:0 "Abandona tu [government|E] actual y conviértete en [tribal|E]" #NT!
  recent_conversion_to_tribalism:0 "No has cambiado tu gobierno a [tribal|E] en los últimos 5 años" #NT!
@@ -1120,7 +1120,7 @@
  mozarabic_bind_the_faith_to_rome_decision.threaten_pope:0 "@advertencia_icono! #warning Obligas al Papa con un [strong_hook|E], ¡eso no les gustará!#!" #NT!
 
  mozarabic_break_with_rome_decision:0 "romper con roma" #NT!
- mozarabic_break_with_rome_decision_desc:0 "¿Qué sabe [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] de nuestras vidas o tierras? Roma es un señor temporal distante, que no se preocupa ni comprende nuestras necesidades espirituales.\n\nSolo si nos liberamos de los grilletes de [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName] y purgamos las últimas mentiras, [ROOT.Char.GetFaith.GetName] puede alcanzar la perfección." #NT!
+ mozarabic_break_with_rome_decision_desc:0 "¿Qué sabe [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] de nuestras vidas o tierras? Roma es un Lord temporal distante, que no se preocupa ni comprende nuestras necesidades espirituales.\n\nSolo si nos liberamos de los grilletes de [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName] y purgamos las últimas mentiras, [ROOT.Char.GetFaith.GetName] puede alcanzar la perfección." #NT!
  mozarabic_break_with_rome_decision_tooltip:0 "Llevar a [ROOT.Char.GetFaith.GetName] al cisma lejos de [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetName]" #NT!
  mozarabic_break_with_rome_decision_confirm:0 "¡Un camino justo y piadoso!" #NT!
  mozarabic_break_with_rome_decision.tt.hof_and_ecumenism_warning:0 "Crearás un [religious_leader.GetFaith.GetName] [head_of_faith|E], pero #X permanentemente#! perderás [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]" #NT!

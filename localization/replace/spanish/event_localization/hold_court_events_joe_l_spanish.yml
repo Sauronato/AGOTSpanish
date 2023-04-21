@@ -295,7 +295,7 @@
  hold_court_8090_interest_poet:0 "\n\n"Soy un trovador renombrado; ¡sus pasillos resonarán con historias de su distinción!"" #NT!
  hold_court_8090_interest_musician_gregarious:0 "\n\n"Confía en mí, ¡haré que tus banquetes sean aún más inolvidables!"" #NT!
  hold_court_8090_interest_musician_culture:0 "\n\n"Los [ROOT.Char.GetCulture.GetNameNoTooltip] tienen mucho que enseñar a tu gente sobre las artes melodiosas"." #NT!
- hold_court_8090_interest_cupbearer:2 "\n\n"¡No se preocupe mi señor, su jarra siempre estará llena a mi cuidado!"" #NT!
+ hold_court_8090_interest_cupbearer:2 "\n\n"¡No se preocupe mi Lord, su jarra siempre estará llena a mi cuidado!"" #NT!
  hold_court_8090_interest_lady_lover:0 "\n\nLa descarada astuta me guiña un ojo, y apenas puedo resistir el sonrojo cuando pienso en las oportunidades que esto nos dará..." #NT!
  hold_court_8090_interest_lady_soulmate:0 "\n\nNo hay nadie a quien prefiera tener a mi lado..." #NT!
  hold_court_8090_interest_lady_bestie:0 "\n\n¡Parece que nunca necesito separarme de mi amigo más cercano!" #NT!
@@ -513,7 +513,7 @@
  hold_court.8161.d.fallback:0 "¿No hay pruebas?" #NT!
  # # Services Rendered
  hold_court.8170.t:0 "Servicios prestados" #NT!
- hold_court.8170.desc.intro:1 "Mi [knight.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('knight'))], [knight.GetTitledFirstName], se inclina ante mí, [knight.GetHerHis] confiable [knight.Custom('signature_weapon')] brillando al lado de [knight.GetHerHis]. \n\n"Le he servido fielmente, mi señor, sabe de mi cargo contra [knight.MakeScope.Var('hc_8170_fought_battle_against').Char.GetName] en medio de [knight.MakeScope.Var('hc_8170_fought_battle_where').Province.GetTerrain.GetNameNoTooltip|l] de [knight.MakeScope.Var('hc_8170_fought_battle_where').Province.GetTitle.GetNameNoTierNoTooltip], pero ya no soy joven". \n\n"Te ofrezco que me inviertas con mis propias tierras en tu [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]; a otros [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('knight'))]0 se les ha dado más por mucho menos"." #NT!
+ hold_court.8170.desc.intro:1 "Mi [knight.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('knight'))], [knight.GetTitledFirstName], se inclina ante mí, [knight.GetHerHis] confiable [knight.Custom('signature_weapon')] brillando al lado de [knight.GetHerHis]. \n\n"Le he servido fielmente, mi Lord, sabe de mi cargo contra [knight.MakeScope.Var('hc_8170_fought_battle_against').Char.GetName] en medio de [knight.MakeScope.Var('hc_8170_fought_battle_where').Province.GetTerrain.GetNameNoTooltip|l] de [knight.MakeScope.Var('hc_8170_fought_battle_where').Province.GetTitle.GetNameNoTierNoTooltip], pero ya no soy joven". \n\n"Te ofrezco que me inviertas con mis propias tierras en tu [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip]; a otros [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('knight'))]0 se les ha dado más por mucho menos"." #NT!
  hold_court.8170.a:0 "Te concedo [my_title.GetNameNoTierNoTooltip], por tu servicio." #NT!
  hold_court.8170.b:0 "Tendrás el título [vassal_title.GetNameNoTierNoTooltip], [vassal_title.GetHolder.GetTitledFirstNamePossessiveNoTooltip]." #NT!
  hold_court.8170.c:0 "Ese es un hermoso [knight.Custom('signature_weapon')], [knight.GetFirstNameNoTooltip]..." #NT!
@@ -745,7 +745,7 @@
  hold_court.8240.c:0 "Solo hay una manera de resolver esto." #NT!
  # # Spoiled for Choice
  hold_court.8241.t:0 "Mimado por elegir" #NT!
- hold_court.8241.desc:0 "[vassal_1.GetTitledFirstName] y [vassal_2.GetTitledFirstName] se empujan ante mí, en medio de alguna disputa. \n\n"Mi [ROOT.Char.GetLadyLord]", escupe [vassal_1.GetFirstName], "he estado buscando matrimonio con el radiante [yearn_target.GetFirstName] durante meses, ¡pero [vassal_2.GetFirstName], el [vassal_2.Custom('InsultNoun')], también ha ido tras [yearn_target.GetHerHim]!" \n\n[vassal_2.GetFirstName] grita indignado: "¡Eso es pura tontería, mi señor! ¡Los [vassal_1.Custom('InsultAdjective')] [vassal_2.GetTitledFirstName]0 ni siquiera habían oído hablar de los [vassal_2.GetTitledFirstName]1 hasta que los presenté en [vassal_2.GetTitledFirstName]2!"" #NT!
+ hold_court.8241.desc:0 "[vassal_1.GetTitledFirstName] y [vassal_2.GetTitledFirstName] se empujan ante mí, en medio de alguna disputa. \n\n"Mi [ROOT.Char.GetLadyLord]", escupe [vassal_1.GetFirstName], "he estado buscando matrimonio con el radiante [yearn_target.GetFirstName] durante meses, ¡pero [vassal_2.GetFirstName], el [vassal_2.Custom('InsultNoun')], también ha ido tras [yearn_target.GetHerHim]!" \n\n[vassal_2.GetFirstName] grita indignado: "¡Eso es pura tontería, mi Lord! ¡Los [vassal_1.Custom('InsultAdjective')] [vassal_2.GetTitledFirstName]0 ni siquiera habían oído hablar de los [vassal_2.GetTitledFirstName]1 hasta que los presenté en [vassal_2.GetTitledFirstName]2!"" #NT!
  hold_court.8241.a:0 "Tienes mi bendición, [vassal_1.GetTitledFirstNameNoTooltip]." #NT!
  hold_court.8241.b:0 "Bueno, [vassal_2.GetTitledFirstNameNoTooltip] #EMP estaba#! allí primero..." #NT!
  hold_court.8241.c:0 "[yearn_target.GetFirstNameNoTooltip] #EMP es#! bastante cautivador." #NT!
@@ -754,7 +754,7 @@
  hold_court_8241_duel_vassal_2:0 "[vassal_2.GetFirstNameNoTooltip] convence a [yearn_target.GetFirstNameNoTooltip] para que se case" #NT!
  # # Hankering for Concubine
  hold_court.8250.t:0 "Anhelando [yearn_target.GetFirstNameNoTooltip]" #NT!
- hold_court.8250.desc:1 "Las puertas son abiertas por [vassal_victim.GetTitledFirstName], con [vassal_jealous.GetTitledFirstName] siguiéndolo de cerca. \n\n[vassal_victim.GetFirstNameNoTooltip] apunta hacia atrás, "¡Este [vassal_jealous.Custom('InsultNoun')] desea que mi [yearn_target.GetConcubineName], [yearn_target.GetFirstName], visite [vassal_victim.GetPrimaryHolding.GetNameNoTierNoTooltip] con el más mínimo pretexto de echar un vistazo a [yearn_target.GetHerHim]! ¡Corta a [vassal_jealous.GetHerHim]!" \n\n"Es verdad". [vassal_jealous.GetFirstNameNoTooltip] admite lastimeramente: "[vassal_jealous.GetTitledFirstName]0 ha estado rondando mis sueños durante semanas. ¡Por favor, mi señor, no sé qué haría sin [yearn_target.GetHerHim]!"." #NT!
+ hold_court.8250.desc:1 "Las puertas son abiertas por [vassal_victim.GetTitledFirstName], con [vassal_jealous.GetTitledFirstName] siguiéndolo de cerca. \n\n[vassal_victim.GetFirstNameNoTooltip] apunta hacia atrás, "¡Este [vassal_jealous.Custom('InsultNoun')] desea que mi [yearn_target.GetConcubineName], [yearn_target.GetFirstName], visite [vassal_victim.GetPrimaryHolding.GetNameNoTierNoTooltip] con el más mínimo pretexto de echar un vistazo a [yearn_target.GetHerHim]! ¡Corta a [vassal_jealous.GetHerHim]!" \n\n"Es verdad". [vassal_jealous.GetFirstNameNoTooltip] admite lastimeramente: "[vassal_jealous.GetTitledFirstName]0 ha estado rondando mis sueños durante semanas. ¡Por favor, mi Lord, no sé qué haría sin [yearn_target.GetHerHim]!"." #NT!
  hold_court.8250.a:0 "¡El [yearn_target.GetWomanMan] es [vassal_victim.GetFirstNamePossessiveNoTooltip]!" #NT!
  hold_court.8250.b:0 "[vassal_jealous.GetFirstNameNoTooltip] tendrá [yearn_target.GetHerHim]. Esa es mi última palabra." #NT!
  hold_court.8250.c:0 "¡Sé cómo resolver esto!" #NT!
@@ -784,7 +784,7 @@
  hold_court.8260.e:0 "Oh, yo #EMP debo#!, ¿debo?" #NT!
  # # Oath of Fealty
  hold_court.8270.t:0 "juramento de fidelidad" #NT!
- hold_court.8270.desc:1 "Mis heraldos anuncian la llegada de un pequeño gobernante vecino; [neighbor.GetTitledFirstName] de [neighbor.GetPrimaryTitle.GetNameNoTier]. \n\n[neighbor.GetSheHe|U] entra en sus salones con dignidad y se inclina profundamente: "Su excelencia, he venido a prometerle humildemente mi reino, si acepta mis términos". \n\n"Te serviré como un fiel señor vasallo de [ROOT.Char.GetPrimaryTitle.GetNameNoTier] a cambio de tu protección; ¡que nuestras dos grandes casas prosperen gracias al acuerdo!"" #NT!
+ hold_court.8270.desc:1 "Mis heraldos anuncian la llegada de un pequeño gobernante vecino; [neighbor.GetTitledFirstName] de [neighbor.GetPrimaryTitle.GetNameNoTier]. \n\n[neighbor.GetSheHe|U] entra en sus salones con dignidad y se inclina profundamente: "Su excelencia, he venido a prometerle humildemente mi reino, si acepta mis términos". \n\n"Te serviré como un fiel Lord vasallo de [ROOT.Char.GetPrimaryTitle.GetNameNoTier] a cambio de tu protección; ¡que nuestras dos grandes casas prosperen gracias al acuerdo!"" #NT!
  hold_court.8270.a:0 "Acepto, [neighbor.GetTitledFirstNameNoTooltip]." #NT!
  hold_court.8270.b:0 "Creo que estos términos son un poco unilaterales..." #NT!
  hold_court.8270.b.accept:0 "[neighbor.GetTitledFirstNameNoTooltip] acepta tus cambios" #NT!
