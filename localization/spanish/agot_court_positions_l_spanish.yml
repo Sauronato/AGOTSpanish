@@ -1,17 +1,17 @@
 ﻿l_spanish:
 
-#AGOT COURT POSITIONS #NT!
+#AGOT COURT POSITIONS
 
-#King's Justice - Executioner re-flavour #NT!
-#King's Counter/Sclaes? #NT!
-#Keeper of Keys? #NT!
-#Wardens of Mint? #NT!
-#Lord Confessor/Keeper of the Cells #NT!
-#Gold Cloaks #NT!
-#Dragonmount Keeper / Dragon Pit Keeper? #NT!
+#King's Justice - Executioner re-flavour
+#King's Counter/Sclaes?
+#Keeper of Keys?
+#Wardens of Mint?
+#Lord Confessor/Keeper of the Cells
+#Gold Cloaks
+#Dragonmount Keeper / Dragon Pit Keeper?
 
 
-## TRAITS ## #NT!
+## TRAITS ##
 
  court_position_education_martial_1_trait:0 "[GetTrait('education_martial_1').GetName( ROOT.Char )]" #NT!
  court_position_education_martial_2_trait:0 "[GetTrait('education_martial_2').GetName( ROOT.Char )]" #NT!
@@ -30,121 +30,121 @@
 
 
 
-#Positions #NT!
+#Positions
 
- maester_court_position:0 "Maester" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')] #NT!
- maester_tradition_bonus:0 "From [culture_tradition|E]" #NT!
- maester_court_position_desc:1 "The $maester_court_position$ is responsible for the health and well-being of the [court|E] they are in. They will treat disease and suture wounds to the best of their abilities." #NT!
- maester_employer_custom_effect_description:1 "Performs [medical_treatments|E]#!\nImproves [education|E] outcomes\nUnlocks the #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!" #NT!
+ maester_court_position:0 "maestre" #[CharacterWindow.GetCourtOwner.Custom('MaesterCourtPosition')] #NT!
+ maester_tradition_bonus:0 "Desde [culture_tradition|E]" #NT!
+ maester_court_position_desc:1 "El $maester_court_position$ es responsable de la salud y el bienestar del [court|E] en el que se encuentran. Tratarán enfermedades y suturarán heridas lo mejor que puedan." #NT!
+ maester_employer_custom_effect_description:1 "Realiza [medical_treatments|E]#!\nImproves [education|E] resultados\nDesbloquea el #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Poderoso [agent|E] en [hostile_schemes|E] contra ti#!\nImproves 0" #NT!
 
- household_guard_court_position:0 "Captain of the Household Guard" #NT!
- household_guard_tradition_bonus:0 "From [culture_tradition|E]" #NT!
- household_guard_court_position_desc:0 "The $household_guard_court_position$ is responsible for organizing the protection of the [house|E] they serve." #NT!
- household_guard_employer_custom_effect_description:2 "Reduces your risk to die or be captured in battles you're both fighting in #!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!" #NT!
+ household_guard_court_position:0 "Capitán de la Guardia Nacional" #NT!
+ household_guard_tradition_bonus:0 "Desde [culture_tradition|E]" #NT!
+ household_guard_court_position_desc:0 "El $household_guard_court_position$ es responsable de organizar la protección de los [house|E] a los que sirven." #NT!
+ household_guard_employer_custom_effect_description:2 "Reduce el riesgo de morir o ser capturado en las batallas en las que ambos están luchando #!\n@warning_icon!#X Potente [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
 
- septon_court_position:0 "Septon" #NT!
- speton_tradition_bonus:0 "From [culture_tradition|E]" #NT!
- septon_court_position_desc:1 "The $septon_court_position$ provides religious services for the members of your [court|E] who are belong to the Faith of the Seven." #NT!
+ septon_court_position:0 "septón" #NT!
+ speton_tradition_bonus:0 "Desde [culture_tradition|E]" #NT!
+ septon_court_position_desc:1 "El $septon_court_position$ brinda servicios religiosos para los miembros de su [court|E] que pertenecen a la Fe de los Siete." #NT!
 
- septa_court_position:0 "Septa" #NT!
- speta_tradition_bonus:0 "From [culture_tradition|E]" #NT!
- septa_court_position_desc:1 "The $septa_court_position$ is responsible for educating your female [children|E] who do not have a [guardian|E]." #NT!
+ septa_court_position:0 "septos" #NT!
+ speta_tradition_bonus:0 "Desde [culture_tradition|E]" #NT!
+ septa_court_position_desc:1 "El $septa_court_position$ se encarga de educar a tu hembra [children|E] que no tiene un [guardian|E]." #NT!
 
- gaoler_court_position:0 "Keeper of the Cells" #NT!
- gaoler_court_position_desc:1 "In the dank depths of the castle sprawl the dungeons; where the prisoners wail, and the $gaoler_court_position$  it." #NT!
+ gaoler_court_position:0 "Guardián de las celdas" #NT!
+ gaoler_court_position_desc:1 "En las húmedas profundidades del castillo se extienden las mazmorras; donde los presos gimen, y el $gaoler_court_position$ lo." #NT!
 
- harbormaster_court_position:0 "Harbormaster" #NT!
- harbormaster_tradition_bonus:0 "From [culture_tradition|E]" #NT!
- harbormaster_court_position_desc:0 "The $harbormaster_court_position$ is the official who regulates maritime trade and oversees customs in your ports." #NT!
+ harbormaster_court_position:0 "Capitán de Puerto" #NT!
+ harbormaster_tradition_bonus:0 "Desde [culture_tradition|E]" #NT!
+ harbormaster_court_position_desc:0 "El $harbormaster_court_position$ es el funcionario que regula el comercio marítimo y supervisa las aduanas en tus puertos." #NT!
 
- warden_of_the_north_court_position:0 "Warden of the North" #NT!
- warden_of_the_north_court_position_desc:1 "The Warden of the North is charged with the defense of the North in cases of foreign threats or invasions." #NT!
- warden_of_the_east_court_position:0 "Warden of the East" #NT!
- warden_of_the_east_court_position_desc:1 "The Warden of the East is charged with the defense of the East in cases of foreign threats or invasions." #NT!
- warden_of_the_west_court_position:0 "Warden of the West" #NT!
- warden_of_the_west_court_position_desc:1 "The Warden of the West is charged with the defense of the West in cases of foreign threats or invasions." #NT!
- warden_of_the_south_court_position:0 "Warden of the South" #NT!
- warden_of_the_south_court_position_desc:1 "The Warden of the South is charged with the defense of the South in cases of foreign threats or invasions." #NT!
+ warden_of_the_north_court_position:0 "Guardián del Norte" #NT!
+ warden_of_the_north_court_position_desc:1 "El Guardián del Norte está encargado de la defensa del Norte en casos de amenazas o invasiones extranjeras." #NT!
+ warden_of_the_east_court_position:0 "Guardián del Este" #NT!
+ warden_of_the_east_court_position_desc:1 "El Guardián del Este está encargado de la defensa del Este en casos de amenazas o invasiones extranjeras." #NT!
+ warden_of_the_west_court_position:0 "Guardián del Oeste" #NT!
+ warden_of_the_west_court_position_desc:1 "El Guardián del Oeste está encargado de la defensa del Oeste en casos de amenazas o invasiones extranjeras." #NT!
+ warden_of_the_south_court_position:0 "Guardián del Sur" #NT!
+ warden_of_the_south_court_position_desc:1 "El Guardián del Sur está encargado de la defensa del Sur en casos de amenazas o invasiones extranjeras." #NT!
 
- goldcloaks_court_position:0 "Commander of the Gold Cloaks" #NT!
- goldcloaks_tradition_bonus:0 "From [culture_tradition|E]" #NT!
- goldcloaks_court_position_desc:0 "The $goldcloaks_court_position$ is the commander of King's Landing's City Watch, a position of significant prestige and importance." #NT!
- goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X Powerful [agent|E] in [hostile_schemes|E] against you#!" #NT!
-
-
-
-#NIGHTS WATCH #NT!
+ goldcloaks_court_position:0 "Comandante de los Capas Doradas" #NT!
+ goldcloaks_tradition_bonus:0 "Desde [culture_tradition|E]" #NT!
+ goldcloaks_court_position_desc:0 "El $goldcloaks_court_position$ es el comandante de la Guardia de la Ciudad de Desembarco del Rey, una posición de gran prestigio e importancia." #NT!
+ goldcloaks_employer_custom_effect_description:2 "#!\n@warning_icon!#X PODEROSO [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
 
 
- COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Castle Keepers" #NT!
- b_the_shadow_tower_keeper:0 "Commander of The Shadow Tower" #NT!
- b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Keeps and protects The Shadow Tower" #NT!
- b_the_shadow_tower_keeper_desc:0 "Keeps and protects The Shadow Tower" #NT!
 
- b_eastwatch_by_the_sea_keeper:0 "Commander of Eastwatch by The Sea" #NT!
- b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Keeps and protects the Eastwatch by The Sea" #NT!
- b_eastwatch_by_the_sea_keeper_desc:0 "Keeps and protects the Eastwatch by The Sea" #NT!
+#NIGHTS WATCH
 
- b_the_nightfort_keeper:0 "Commander of The Nightfort" #NT!
- b_the_nightfort_keeper_employer_custom_effect_description:0 "Keeps and protects The Nightfort" #NT!
- b_the_nightfort_keeper_desc:0 "Keeps and protects The Nightfort" #NT!
 
- b_icemark_keeper:0 "Commander of Icemark" #NT!
- b_icemark_keeper_employer_custom_effect_description:0 "Keeps and protects the Icemark" #NT!
- b_icemark_keeper_desc:0 "Keeps and protects the Icemark" #NT!
+ COURT_POSITION_CATEGORY_CASTLE_KEEPER:0 "Guardianes del castillo" #NT!
+ b_the_shadow_tower_keeper:0 "Comandante de la Torre de las Sombras" #NT!
+ b_the_shadow_tower_keeper_employer_custom_effect_description:0 "Guarda y protege The Shadow Tower" #NT!
+ b_the_shadow_tower_keeper_desc:0 "Guarda y protege The Shadow Tower" #NT!
 
- b_deep_lake_keeper:0 "Commander of Deep Lake" #NT!
- b_deep_lake_keeper_employer_custom_effect_description:0 "Keeps and protects the Deep Lake" #NT!
- b_deep_lake_keeper_desc:0 "Keeps and protects the Deep Lake" #NT!
+ b_eastwatch_by_the_sea_keeper:0 "Comandante de Eastwatch by The Sea" #NT!
+ b_eastwatch_by_the_sea_keeper_employer_custom_effect_description:0 "Mantiene y protege Eastwatch by The Sea" #NT!
+ b_eastwatch_by_the_sea_keeper_desc:0 "Mantiene y protege Eastwatch by The Sea" #NT!
 
- b_queensgate_keeper:0 "Commander of Queen's gate" #NT!
- b_queensgate_keeper_employer_custom_effect_description:0 "Keeps and protects the Queen's gate" #NT!
- b_queensgate_keeper_desc:0 "Keeps and protects the Queen's gate" #NT!
+ b_the_nightfort_keeper:0 "Comandante del Fuerte de la Noche" #NT!
+ b_the_nightfort_keeper_employer_custom_effect_description:0 "Mantiene y protege The Nightfort" #NT!
+ b_the_nightfort_keeper_desc:0 "Mantiene y protege The Nightfort" #NT!
 
- b_oakenshield_keeper:0 "Commander of Oakenshield" #NT!
- b_oakenshield_keeper_employer_custom_effect_description:0 "Keeps and protects the Oakenshield" #NT!
- b_oakenshield_keeper_desc:0 "Keeps and protects the Oakenshield" #NT!
+ b_icemark_keeper:0 "Comandante de Marcahielo" #NT!
+ b_icemark_keeper_employer_custom_effect_description:0 "Guarda y protege el Icemark" #NT!
+ b_icemark_keeper_desc:0 "Guarda y protege el Icemark" #NT!
 
- b_woodswatch_by_the_pool_keeper:0 "Commander of Wood's Watch by The Pool" #NT!
- b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Keeps and protects the Wood's Watch by The Pool" #NT!
- b_woodswatch_by_the_pool_keeper_desc:0 "Keeps and protects the Wood's Watch by The Pool" #NT!
+ b_deep_lake_keeper:0 "Comandante de Deep Lake" #NT!
+ b_deep_lake_keeper_employer_custom_effect_description:0 "Mantiene y protege el Lago Profundo" #NT!
+ b_deep_lake_keeper_desc:0 "Mantiene y protege el Lago Profundo" #NT!
 
- b_westwatch_by_the_bridge_keeper:0 "Commander of Westwatch by The Bridge" #NT!
- b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Keeps and protects the Westwatch by The Bridge" #NT!
- b_westwatch_by_the_bridge_keeper_desc:0 "Keeps and protects the Westwatch by The Bridge" #NT!
+ b_queensgate_keeper:0 "Comandante de la puerta de la reina" #NT!
+ b_queensgate_keeper_employer_custom_effect_description:0 "Guarda y protege la puerta de la Reina" #NT!
+ b_queensgate_keeper_desc:0 "Guarda y protege la puerta de la Reina" #NT!
 
- b_sentinel_stand_keeper:0 "Commander of Sentinel Stand" #NT!
- b_sentinel_stand_keeper_employer_custom_effect_description:0 "Keeps and protects the Sentinel Stand" #NT!
- b_sentinel_stand_keeper_desc:0 "Keeps and protects the Sentinel Stand" #NT!
+ b_oakenshield_keeper:0 "Comandante de Escudo de Roble" #NT!
+ b_oakenshield_keeper_employer_custom_effect_description:0 "Guarda y protege el Oakenshield" #NT!
+ b_oakenshield_keeper_desc:0 "Guarda y protege el Oakenshield" #NT!
 
- b_greyguard_keeper:0 "Commander of Greyguard" #NT!
- b_greyguard_keeper_employer_custom_effect_description:0 "Keeps and protects the Greyguard" #NT!
- b_greyguard_keeper_desc:0 "Keeps and protects the Greyguard" #NT!
+ b_woodswatch_by_the_pool_keeper:0 "Comandante de Wood's Watch junto a The Pool" #NT!
+ b_woodswatch_by_the_pool_keeper_employer_custom_effect_description:0 "Guarda y protege el Wood's Watch de The Pool" #NT!
+ b_woodswatch_by_the_pool_keeper_desc:0 "Guarda y protege el Wood's Watch de The Pool" #NT!
 
- b_stonedoor_keeper:0 "Commander of Stonedoor" #NT!
- b_stonedoor_keeper_employer_custom_effect_description:0 "Keeps and protects the Stonedoor" #NT!
- b_stonedoor_keeper_desc:0 "Keeps and protects the Stonedoor" #NT!
+ b_westwatch_by_the_bridge_keeper:0 "Comandante de Westwatch por The Bridge" #NT!
+ b_westwatch_by_the_bridge_keeper_employer_custom_effect_description:0 "Guarda y protege el Westwatch por The Bridge" #NT!
+ b_westwatch_by_the_bridge_keeper_desc:0 "Guarda y protege el Westwatch por The Bridge" #NT!
 
- b_hoarfrost_hill_keeper:0 "Commander of Hoarfrost Hill" #NT!
- b_hoarfrost_hill_keeper_employer_custom_effect_description:0 "Keeps and protects the Hoarfrost Hill" #NT!
- b_hoarfrost_hill_keeper_desc:0 "Keeps and protects the Hoarfrost Hill" #NT!
+ b_sentinel_stand_keeper:0 "Comandante de Puesto Centinela" #NT!
+ b_sentinel_stand_keeper_employer_custom_effect_description:0 "Guarda y protege el Stand Sentinel" #NT!
+ b_sentinel_stand_keeper_desc:0 "Guarda y protege el Stand Sentinel" #NT!
 
- b_sable_hall_keeper:0 "Commander of Sable Hall" #NT!
- b_sable_hall_keeper_employer_custom_effect_description:0 "Keeps and protects the Sable Hall" #NT!
- b_sable_hall_keeper_desc:0 "Keeps and protects the Sable Hall" #NT!
+ b_greyguard_keeper:0 "Comandante de la Guardia Gris" #NT!
+ b_greyguard_keeper_employer_custom_effect_description:0 "Guarda y protege a la Guardia Gris" #NT!
+ b_greyguard_keeper_desc:0 "Guarda y protege a la Guardia Gris" #NT!
 
- b_rimegate_keeper:0 "Commander of Rimegate" #NT!
- b_rimegate_keeper_employer_custom_effect_description:0 "Keeps and protects the Rimegate" #NT!
- b_rimegate_keeper_desc:0 "Keeps and protects the Rimegate" #NT!
+ b_stonedoor_keeper:0 "Comandante de Puerta de Piedra" #NT!
+ b_stonedoor_keeper_employer_custom_effect_description:0 "Guarda y protege el Stonedoor" #NT!
+ b_stonedoor_keeper_desc:0 "Guarda y protege el Stonedoor" #NT!
 
- b_long_barrow_keeper:0 "Commander of Long Barrow" #NT!
- b_long_barrow_keeper_employer_custom_effect_description:0 "Keeps and protects the Long Barrow" #NT!
- b_long_barrow_keeper_desc:0 "Keeps and protects the Long Barrow" #NT!
+ b_hoarfrost_hill_keeper:0 "Comandante de la Colina Escarcha" #NT!
+ b_hoarfrost_hill_keeper_employer_custom_effect_description:0 "Guarda y protege la Colina de Escarcha" #NT!
+ b_hoarfrost_hill_keeper_desc:0 "Guarda y protege la Colina de Escarcha" #NT!
 
- b_the_torches_keeper:0 "Commander of The Torches" #NT!
- b_the_torches_keeper_employer_custom_effect_description:0 "Keeps and protects The Torches" #NT!
- b_the_torches_keeper_desc:0 "Keeps and protects The Torches" #NT!
+ b_sable_hall_keeper:0 "Comandante de Sable Hall" #NT!
+ b_sable_hall_keeper_employer_custom_effect_description:0 "Mantiene y protege el Sable Hall" #NT!
+ b_sable_hall_keeper_desc:0 "Mantiene y protege el Sable Hall" #NT!
 
- b_greenguard_keeper:0 "Commander of Greenguard" #NT!
- b_greenguard_keeper_employer_custom_effect_description:0 "Keeps and protects the Greenguard" #NT!
- b_greenguard_keeper_desc:0 "Keeps and protects the Greenguard" #NT!
+ b_rimegate_keeper:0 "Comandante de Rimegate" #NT!
+ b_rimegate_keeper_employer_custom_effect_description:0 "Guarda y protege el Rimegate" #NT!
+ b_rimegate_keeper_desc:0 "Guarda y protege el Rimegate" #NT!
+
+ b_long_barrow_keeper:0 "Comandante de Long Barrow" #NT!
+ b_long_barrow_keeper_employer_custom_effect_description:0 "Guarda y protege el Túmulo Largo" #NT!
+ b_long_barrow_keeper_desc:0 "Guarda y protege el Túmulo Largo" #NT!
+
+ b_the_torches_keeper:0 "Comandante de las Antorchas" #NT!
+ b_the_torches_keeper_employer_custom_effect_description:0 "Guarda y protege Las Antorchas" #NT!
+ b_the_torches_keeper_desc:0 "Guarda y protege Las Antorchas" #NT!
+
+ b_greenguard_keeper:0 "Comandante de la Guardia Verde" #NT!
+ b_greenguard_keeper_employer_custom_effect_description:0 "Guarda y protege al Greenguard" #NT!
+ b_greenguard_keeper_desc:0 "Guarda y protege al Greenguard" #NT!
