@@ -33,9 +33,9 @@
  start_abduct:0 "Secuestrar #weak (Plan)#!" #NT!
  start_abduct_notification:0 "Secuestrar" #NT!
  abduct_own_children_block:0 "No tienes un rasgo que te permita usar [hostile_schemes|E] contra tus propios hijos #weak  (como [GetTrait('sadistic').GetName(GetNullCharacter)]) #!" #NT!
- break_up_with_lover_interaction:0 "romper con el amante" #NT!
+ break_up_with_lover_interaction:0 "Romper con el amante" #NT!
  break_up_with_lover_interaction_desc:0 "Termina tu [lover|E] [relation|E] con [recipient.GetShortUINameNoTooltip]" #NT!
- break_up_with_lover_interaction_notification:0 "rompió con el amante" #NT!
+ break_up_with_lover_interaction_notification:0 "Rompió con el amante" #NT!
  blackmail_interaction:0 "Chantaje" #NT!
  blackmail_interaction_desc:0 "Usa un [secret|E] que hayas descubierto para ganar un [hook|E]" #NT!
  blackmail_decline_summary:3 "@warning_icon!#X Si [recipient.GetShortUINameNoTooltip] rechaza, ¡el secreto de [recipient.GetHerHis] puede quedar expuesto!#!" #NT!
@@ -66,7 +66,7 @@
  sway_interaction:0 "Balanceo #weak (Esquema)#!" #NT!
  sway_interaction_notification:0 "Influencia" #NT!
  learn_language_interaction:0 "Aprender idioma #weak (Esquema)#!" #NT!
- learn_language_interaction_notification:0 "aprender idioma" #NT!
+ learn_language_interaction_notification:0 "Aprender idioma" #NT!
  make_educator_of_my_child:0 "#D Convertir a mi hijo en educador#!" #NT!
  remove_guardian_interaction:0 "Eliminar guardián" #NT!
  remove_guardian_interaction_desc:0 "Retirar el [guardianship|E] de un [guardian|E] o [ward|E] sobre el que tiene autoridad" #NT!
@@ -98,7 +98,7 @@
  make_liege_host_feast:0 "#D Haz que el Lord festejar sea el festín#!" #NT!
  offer_vassalization_interaction:0 "Ofrecer vasallaje" #NT!
  offer_vassalization_interaction_desc:0 "Pide a [recipient.GetShortUINameNoTooltip] que se convierta en tu [vassal|E]" #NT!
- offer_fealty_interaction:0 "jura lealtad" #NT!
+ offer_fealty_interaction:0 "Jura lealtad" #NT!
  offer_fealty_interaction_desc:0 "Pide a [recipient.GetShortUINameNoTooltip] que se convierta en tu [liege|E]" #NT!
  force_vote_in_succession_election_interaction:0 "Forzar voto" #NT!
  force_vote_in_succession_election_interaction_desc:0 "Al usar un [hook|E], puedo obligar a alguien a votar por el mismo candidato que yo durante los próximos [GetDefine('NCharacter', 'FORCED_SUCCESSION_ELECTION_YEARS')] años" #NT!
@@ -113,8 +113,8 @@
  divorce_character_rel_head_interaction:0 "Solicitar Divorcio" #NT!
  recipient_secondary_divorce_character_rel_head_interaction:0 "[spouse|E]" #NT!
  divorce_character_rel_head_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
- divorce_character_rel_head_interaction_decline_notification:0 "divorcio rechazado" #NT!
- compose_poetry:0 "componer poesía" #NT!
+ divorce_character_rel_head_interaction_decline_notification:0 "Divorcio rechazado" #NT!
+ compose_poetry:0 "Componer poesía" #NT!
  compose_poetry_to:0 "Componer poesía para" #NT!
  compose_insult_poetry_to:0 "Componer poemas de insulto a" #NT!
  setup_courtiers_for_schemes:0 "#D Configurar cortesanos para esquemas#!" #NT!
@@ -122,7 +122,7 @@
  designate_rival:0 "Designar rival" #NT!
  declare_war_interaction:0 "Declarar la guerra" #NT!
  declare_war_desc:0 "Usa un [casus_belli|E] para declarar [war|E] en [recipient.GetShortUINameNoTooltip]" #NT!
- declare_war_interaction_notification:0 "guerra declarada" #NT!
+ declare_war_interaction_notification:0 "Guerra declarada" #NT!
  declare_war_interaction_notification_tooltip:0 "Guerra declarada a [recipient.GetShortUINameNoTooltip]" #NT!
  declare_war_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
  offer_peace_interaction:0 "Ofrecer paz" #NT!
@@ -189,24 +189,24 @@
  AI_GUARDIAN_SKILL_INTRIGUE:0 "Habilidad [intrigue|E] del Guardián: $VALUE|=+0$" #NT!
  AI_GUARDIAN_SKILL_LEARNING:0 "Habilidad [learning|E] del Guardián: $VALUE|=+0$" #NT!
 
- educate_child_interaction:0 "educar niño" #NT!
+ educate_child_interaction:0 "Educar niño" #NT!
  educate_child_interaction_desc:0 "Designa un [ward|E] y un [guardian|E] en tu [court|E]" #NT!
  educate_child_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
  actor_secondary_educate_child_interaction:0 "[guardian|E]" #NT!
  recipient_secondary_educate_child_interaction:0 "[ward|E]" #NT!
- educate_child_interaction_notification:0 "educar niño" #NT!
+ educate_child_interaction_notification:0 "Educar niño" #NT!
 
 
  offer_ward_interaction:0 "Oferta Ward" #NT!
  offer_ward_interaction_desc:0 "Ofrecer [recipient.GetShortUIName] a [ward|E], haciendo [recipient.GetHerHim], o alguien en [recipient.GetHerHis] [court|E], el [guardian|E] del niño elegido" #NT!
  offer_ward_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
  actor_secondary_offer_ward_interaction:0 "Pabellón" #NT!
- recipient_secondary_offer_ward_interaction:0 "guardián" #NT!
+ recipient_secondary_offer_ward_interaction:0 "Guardián" #NT!
 
  offer_guardianship_interaction:0 "Ofrecer tutela" #NT!
  offer_guardianship_interaction_desc:0 "Ofrecer [recipient.GetShortUIName] a [guardian|E], convirtiendo a alguien en [recipient.GetHerHis] [court|E] en el [ward|E] del adulto elegido" #NT!
  offer_guardianship_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
- actor_secondary_offer_guardianship_interaction:0 "guardián" #NT!
+ actor_secondary_offer_guardianship_interaction:0 "Guardián" #NT!
  recipient_secondary_offer_guardianship_interaction:0 "Pabellón" #NT!
 
  EDUCATE_SELECT_YOUR_WARD_OR_GUARDIAN:0 "#I Elige un [ward|E] o [guardian|E] de tu [court|E]#!" #NT!
@@ -232,7 +232,7 @@
  EDUCATE_ME_OPTION_CONVERT_FAITH_LIKELY_EFFECT:1 "#TUT_KW Es probable que me convierta en [FAITH.GetAdjective]#!" #NT!
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT:1 "#TUT_KW Es poco probable que se convierta en [FAITH.GetAdjective] debido a su edad#!" #NT!
  EDUCATE_ME_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT:1 "#TUT_KW Mi edad hace que sea poco probable que me convierta en [FAITH.GetAdjective]#!" #NT!
- EDUCATION_UNIVERSITY:0 "enviar a la universidad" #NT!
+ EDUCATION_UNIVERSITY:0 "Enviar a la universidad" #NT!
  imprison_interaction:0 "Encarcelar" #NT!
  imprison_interaction_desc:0 "Intento de [imprison|E] [recipient.GetShortUINameNoTooltip]" #NT!
  imprison_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
@@ -251,7 +251,7 @@
  move_to_house_arrest_interaction_desc:0 "Mover [recipient.GetShortUINameNoTooltip] de [dungeon|E] a [house_arrest|E]" #NT!
  ransom_interaction:0 "Rescate" #NT!
  ransom_interaction_desc:1 "Liberación de [secondary_recipient.GetShortUINamePossessiveNoTooltip] de rescate por un pago de [gold|E] o un [favor|E]" #NT!
- msg_ransom_prisoner:0 "rescate aceptado" #NT!
+ msg_ransom_prisoner:0 "Rescate aceptado" #NT!
  recipient_secondary_ransom_interaction:0 "[prisoner|E]" #NT!
  pay_ransom_interaction:0 "Rescate" #NT!
  pay_ransom_interaction_desc:0 "Oferta para pagar el rescate por un [imprisoned|E] [vassal|E] o [courtier|E]" #NT!
@@ -275,7 +275,7 @@
  RANSOM_EXTORTIONATE_CURRENT_GOLD_OPTION:0 "Para [gold_i]$CURRENT_GOLD|0$ y [prestige_i]$CURRENT_GOLD|0$ #weak (no puede pagar el rescate total de [gold_i]$EXTORTIONATE_RANSOM_COST|0$)#!" #NT!
  RANSOM_EXTORTIONATE_CURRENT_GOLD_IMPRISONED_PERSPECTIVE_OPTION:0 "Para [gold_i]$CURRENT_GOLD|0$ #weak (no puede pagar el rescate total de [gold_i]$EXTORTIONATE_RANSOM_COST|0$)#!" #NT!
 
- RANSOM_FAVOR_OPTION:0 "por un favor" #NT!
+ RANSOM_FAVOR_OPTION:0 "Por un favor" #NT!
  ALREADY_SENT_GIFT_WARNING:0 "@warning_icon!#X Ya enviaste un Regalo a [recipient.GetShortUIName], enviar otro #underline anulará#! el modificador existente de [opinion|E]!#!" #NT!
  ALREADY_SENT_GIFT_CULTURAL_ACCEPTANCE_WARNING:0 "@warning_icon!#X Como enviaste un regalo recientemente, no aumentarás la aceptación cultural" #NT!
  BANISH_TYRANNY_WARNING:0 "@warning_icon!#X Este es un acto de [tyranny|E], que hace que tus sujetos pierdan #V [EmptyScope.ScriptValue('banishment_tyranny_gain')|0]#! [opinion|E] de ti#!" #NT!
@@ -307,11 +307,11 @@
  RELEASE_RENOUNCE_CLAIMS_DESC:1 "[recipient.GetShortUIName] pierde todo [claims|E] en Títulos en tu Reino" #NT!
  RELEASE_RENOUNCE_CLAIMS_CONDITION:1 "[CHARACTER.GetShortUIName] no tiene [claims|E] en Títulos en su Reino que pueden ser [renounced|E]" #NT!
  RELEASE_BANISH:0 "[banish|E]" #NT!
- RELEASE_TAKE_VOWS:0 "tomar los votos" #NT!
+ RELEASE_TAKE_VOWS:0 "Tomar los votos" #NT!
  RELEASE_TAKE_VOWS_VALID:0 "[recipient.GetShortUIName|U] entra en un pacto monástico." #NT!
  take_vows_decline_summary:1 "Si [recipient.GetShortUINameNoTooltip] rechaza, [recipient.GetSheHe] permanecerá en su [court|E]" #NT!
  RELEASE_RECRUIT:0 "Recluta" #NT!
- RELEASE_AS_EXECUTIONER:0 "emplear verdugo" #NT!
+ RELEASE_AS_EXECUTIONER:0 "Emplear verdugo" #NT!
  RELEASE_AS_EXECUTIONER_VALID:0 "[recipient.GetShortUIName|U] llena el Verdugo [court_position|E]." #NT!
 
  RELEASE_BANISH_INVALID_TAKE_VOWS_CONDITION:0 "No puedes desterrar a [TARGET_CHARACTER.GetShortUINameNoTooltip] y ordenar a [TARGET_CHARACTER.GetHerHim] que tome votos al mismo tiempo" #NT!
@@ -365,9 +365,9 @@
  NOT_ATTRACTED_TO_THEIR_GENDER:0 "No me atrae [CHARACTER.GetWomenMen]" #NT!
  I_CANNOT_DECLARE_WAR_WITHOUT_USING_HOOK_ON_LIEGE:0 "No puedo declarar esta guerra sin usar un [hook|E] en mi Lord debido a las leyes del reino" #NT!
  I_CANNOT_DECLARE_WAR_WHILE_BANKRUPT:1 "No puedes declarar la guerra mientras estás en [debt|E]" #NT!
- call_ally_interaction:0 "llamada a la guerra" #NT!
+ call_ally_interaction:0 "Llamada a la guerra" #NT!
  call_ally_interaction_desc:0 "Llama a tu [ally|E] para que te ayude en tus guerras" #NT!
- call_ally:0 "llamada a la guerra" #NT!
+ call_ally:0 "Llamada a la guerra" #NT!
  CALL_ALLY_NOTIFICATION:0 "¡Te pido que honres nuestra Alianza y te unas a mí en el [target.GetName]!" #NT!
  CALL_HOUSE_MEMBER_NOTIFICATION:0 "Como Jefe de la Casa [actor.GetHouse.GetName], ¡les pido que se unan a mí en el [target.GetName]!" #NT!
  CALL_DYNASTY_MEMBER_NOTIFICATION:1 "Como jefe de su dinastía, ¡les pido que se unan a mí en el [target.GetName]!" #NT!
@@ -666,7 +666,7 @@
  demand_conversion_player_ruler_interaction:0 "Conversión de demanda" #NT!
  demand_conversion_player_ruler_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
  donated_ghw_money_1:0 "Contribuido al Botín de Guerra" #NT!
- donated_ghw_money_2:0 "donante piadoso" #NT!
+ donated_ghw_money_2:0 "Donante piadoso" #NT!
  convert_to_religion_interaction:0 "Adoptar la fe" #NT!
  convert_to_religion_interaction_desc:0 "Convertir a [recipient.GetShortUINamePossessiveNoTooltip] [faith|E]\n#weak (De [actor.GetFaith.GetName] a [recipient.GetFaith.GetName])#!" #NT!
  convert_at_war_interaction:0 "$convert_to_religion_interaction$" #NT!
@@ -725,7 +725,7 @@
  OFFER_FEALTY_INTERACTION_NOTIFICATION:1 "Humildemente te pido que aceptes mi juramento de lealtad como mi nuevo Lord feudal." #NT!
  REQUEST_ARREST_NOTIFICATION_TEXT:0 "Queda bajo arresto por delitos contra la Corona." #NT!
  REQUEST_VOWS_NOTIFICATION_TEXT:0 "Se le pide que deje su posición en la corte y tome los votos." #NT!
- CHARACTER_INTERACTION_ALLOWED_TO_MARRY:0 "permitir el matrimonio" #NT!
+ CHARACTER_INTERACTION_ALLOWED_TO_MARRY:0 "Permitir el matrimonio" #NT!
  CHARACTER_INTERACTION_ALLOW_MARRIAGE:0 "#T Permitir matrimonio\n#!#I Haz clic para permitir que [CHARACTER.GetUIName] se case en [CHARACTER.GetHerHis] #!" #NT!
  CHARACTER_INTERACTION_DISALLOW_MARRIAGE:0 "#T Prohibir el matrimonio\n#!#I Haz clic para prohibir que [CHARACTER.GetUIName] se case en [CHARACTER.GetHerHis] #!" #NT!
  CHARACTER_INTERACTION_CANT_CONTROL_MARRIAGE:0 "#T Prohibir el matrimonio\n#!#X [CHARACTER.GetUIName] ha sido gobernante durante más de $YEARS|V$ años y puede casarse en [CHARACTER.GetHerHis] propio#!" #NT!
@@ -751,7 +751,7 @@
  ASK_TO_TAKE_VOWS:0 "Creo que está dentro de sus mejores intereses entrar en un pacto monástico. Si bien no puedo obligarte a hacerlo, realmente deberías considerarlo..." #NT!
  SEND_GIFT_PROPOSAL:0 "Por favor acepte este humilde regalo. No es mucho, pero espero que sea de utilidad. ¡Por nuestra continua amistad!" #NT!
  SEND_GIFT_ACCEPT:0 "¡Acepto tu regalo!" #NT!
- SEND_GIFT_REJECT:0 "rechazo tu caridad" #NT!
+ SEND_GIFT_REJECT:0 "Rechazo tu caridad" #NT!
 
  call_ally.0001.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
  call_ally.0001.desc:0 "¡Te pido que honres nuestro [alliance|E] y te unas al [target.GetName]!" #NT!
@@ -850,7 +850,7 @@
 
  char_interaction.0161.desc:0 "Prefiero pudrirme en tu mazmorra que aceptar tus demandas irrazonables." #NT!
 
- char_interaction.0170.t:0 "un tiempo dificil" #NT!
+ char_interaction.0170.t:0 "Un tiempo dificil" #NT!
  char_interaction.0170.desc:0 "Me despertaron en las primeras horas de la mañana dos guardias desconocidos. Al ser conducido afuera, no me hacía ilusiones sobre lo que estaba a punto de suceder. Mientras me arrodillo ante el verdugo de [actor.GetShortUINamePossessive], experimento un momento de serena y perfecta claridad." #NT!
  char_interaction.0170.desc_burned:0 "Justo cuando había terminado mi exigua comida, la puerta se abrió de golpe y me agarraron y maltrataron afuera. No será una muerte fácil para mí: la pira está encendida y ya siento el calor en las piernas. Un silencio desciende sobre la multitud mientras contemplan mis momentos finales con expresiones desquiciadas en sus rostros." #NT!
  char_interaction.0170.desc_devoured:0 "La puerta se abrió de golpe y los guardias de [actor.GetShortUINamePossessive] me obligaron a tirarme al suelo y me inmovilizaron. Entonces entró el [actor.GetTitleAsNameNoTooltip] [actor.GetHerselfHimself], cuchillo en mano y una amplia sonrisa.\n\nSin prestar atención a mis gritos, [actor.GetSheHe] se clava en mi carne con cuchillo y dientes. A través de una neblina, encuentro el rostro de [actor.GetHerHis] cubierto de sangre, cubierto con pedazos de #EMP me#! , y suplico, pero mientras [actor.GetSheHe] mastica y traga con deleite, me doy cuenta de que así es como muero." #NT!
@@ -1052,11 +1052,11 @@
  I_AM_NOT_A_DYNAST:0 "Eres #bold no#! a [dynast|E]" #NT!
  CHARACTER_IS_A_DYNAST:0 "[CHARACTER.GetShortUIName|U] es un [dynast|E]" #NT!
  CHARACTER_IS_NOT_A_DYNAST:0 "[CHARACTER.GetShortUIName|U] es #bold no#! a [dynast|E]" #NT!
- IS_A_DYNAST:0 "es un [dynast|E]" #NT!
+ IS_A_DYNAST:0 "Es un [dynast|E]" #NT!
  IS_NOT_A_DYNAST:0 "Es #bold no#! a [dynast|E]" #NT!
 
  CHARACTER_IS_A_WITCH:0 "[CHARACTER.GetShortUIName|U] es un [GetTrait('witch').GetName( CHARACTER.Self )]" #NT!
- IS_A_WITCH:0 "es un [GetTrait('witch').GetName( GetNullCharacter )]" #NT!
+ IS_A_WITCH:0 "Es un [GetTrait('witch').GetName( GetNullCharacter )]" #NT!
  IS_NOT_A_WITCH:0 "Es #bold no#! a [GetTrait('witch').GetName( CHARACTER.Self )]" #NT!
 
  CHARCTER_HAS_A_WITCH_SECRET_KNOWN_BY_CHARACTER:0 "[CHARACTER.GetShortUIName|U] tiene una bruja [secret|E] conocida por [TARGET_CHARACTER.GetShortUIName]" #NT!
@@ -1096,7 +1096,7 @@
  THEY_ARE_BEING_TORTURED:0 "[CHARACTER.GetShortUIName|U] está siendo torturado" #NT!
 
  #Recruit to Court
- recruit_guest_interaction:0 "reclutar a la corte" #NT!
+ recruit_guest_interaction:0 "Reclutar a la corte" #NT!
  recruit_guest_interaction_desc:0 "Paga para emplear a [recipient.GetShortUINameNoTooltip] como tu [courtier|E]" #NT!
  recruit_guest_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
 
@@ -1112,9 +1112,9 @@
  KICK_FROM_COURT_INTERACTION_TRAVELLING_FAMILY_INVALID_LOC:0 "[CHARACTER.GetShortUIName|U] estaría dejando atrás a un familiar cercano" #NT!
 
  #Invite to court
- invite_to_court_interaction:0 "invitar a la corte" #NT!
+ invite_to_court_interaction:0 "Invitar a la corte" #NT!
  invite_to_court_interaction_desc:0 "Invita a [recipient.GetShortUINameNoTooltip] a pasar a tu [court|E], donde [recipient.GetSheHe] será tu [courtier|E]" #NT!
- invite_to_court_interaction_notification:0 "llegó a la corte" #NT!
+ invite_to_court_interaction_notification:0 "Llegó a la corte" #NT!
  invite_to_court_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
  AI_YOUR_LOVER:0 "[recipient.GetSheHe|U] es tu amante: $VALUE|=+0$" #NT!
  AI_YOUR_FRIEND:0 "[recipient.GetSheHe|U] es tu Amigo: $VALUE|=+0$" #NT!
@@ -1217,7 +1217,7 @@
  set_primary_spouse_interaction_desc:0 "Convierte a [recipient.GetFirstNameNoTooltip] en tu cónyuge principal. Esto permitirá que [recipient.GetHerHim] se una a tu [council|E] y ayude a administrar los asuntos del reino." #NT!
  ENFORCE_DEMANDS_INTERACTION:0 "Paz" #NT!
  SURRENDER_WAR_INTERACTION:0 "Rendirse" #NT!
- WHITE_PEACE_INTERACTION:0 "paz blanca" #NT!
+ WHITE_PEACE_INTERACTION:0 "Paz blanca" #NT!
  end_war_attacker_victory_interaction:0 "Oferta de Paz" #NT!
  end_war_attacker_white_peace_interaction:0 "$end_war_attacker_victory_interaction$" #NT!
  end_war_attacker_defeat_interaction:0 "$end_war_attacker_victory_interaction$" #NT!
@@ -1227,9 +1227,9 @@
  end_war_attacker_white_peace_defender_desc:0 "\n¿No se ha derramado suficiente sangre en esta guerra sin sentido vuestra? Ninguno de nosotros ganará nada si continúa luchando. Hagamos las paces." #NT!
  end_war_attacker_defeat_attacker_desc:0 "\nOjalá supiera qué me poseyó para pensar que podría vencer a un enemigo tan formidable como tú en una pelea. Por desgracia, no puedo cambiar el pasado, solo el futuro.\n\nMe rindo a ti, salgamos de este conflicto." #NT!
  end_war_attacker_defeat_defender_desc:0 "\nEs posible que hayas pensado que podrías superarme, pero te he demostrado que estás equivocado. No hagas esto más complicado de lo que tiene que ser: ríndete y déjanos terminar esta guerra." #NT!
- designate_heir_interaction:0 "heredero designado" #NT!
+ designate_heir_interaction:0 "Heredero designado" #NT!
  designate_heir_interaction_desc:1 "Elige [recipient.GetShortUINameNoTooltip] como tu [designated_heir|E]" #NT!
- designate_heir_interaction_notification:0 "heredero designado" #NT!
+ designate_heir_interaction_notification:0 "Heredero designado" #NT!
 
  join_war_interaction:0 "Oferta para unirse a la guerra" #NT!
  join_war_interaction_desc:3 "Ofrécete para acudir en ayuda de un [ally|E], tu [liege|E], un defensor de tu [faith|E] en un [holy_war|E], o ayuda a un vasallo a sofocar a un Campesino [revolt|E]" #NT!
@@ -1244,7 +1244,7 @@
  join_war_interaction_recipient_too_distant:3 "[TARGET_TITLE.GetName] está demasiado lejos" #NT!
  join_war_interaction_already_in_target_war:0 "Ya estás participando en esta guerra." #NT!
 
- grant_independence_interaction:0 "conceder la independencia" #NT!
+ grant_independence_interaction:0 "Conceder la independencia" #NT!
  grant_independence_interaction_desc:1 "¡Otorga a [recipient.GetShortUINameNoTooltip] la independencia de tu reino\n\n@warning_icon! ¡#X [recipient.GetSheHe|U] ya no será tu vasallo!#!" #NT!
  was_recently_granted_independence:0 "Recientemente se le concedió la independencia" #NT!
  CHARACTER_IS_MY_DE_JURE_VASSAL:1 "[TARGET_CHARACTER.GetShortUIName|U] es tu vasallo de [de_jure|E]" #NT!
@@ -1274,7 +1274,7 @@
 
 
  #Sun Trial
- sun_trial_interaction:0 "prueba de sol" #NT!
+ sun_trial_interaction:0 "Prueba de sol" #NT!
  sun_trial_interaction.success.tt:0 "[recipient.GetTitledFirstName] muere al sol" #NT!
  sun_trial_interaction.failure.tt:0 "[recipient.GetTitledFirstName] sobrevive al juicio" #NT!
  sun_trial_interaction.non_faith_family:0 "Todos los que no son [actor.GetFaith.GetAdjective] [family_members|E] de [recipient.GetTitledFirstName]" #NT!
@@ -1298,7 +1298,7 @@
  ACCEPT:0 "Va a aceptar" #NT!
  DECLINE:0 "Rechazará" #NT!
 
- is_ai:0 "es un personaje controlado por IA" #NT!
+ is_ai:0 "Es un personaje controlado por IA" #NT!
 
  #Elopement
  elope_interaction:0 "Fuga #weak (Esquema)#!" #NT!
@@ -1341,7 +1341,7 @@
  IS_CHARACTER_INTERACTION_POTENTIALLY_ACCEPTED_TRIGGER:0 "La interacción de personajes puede ser potencialmente aceptada" #NT!
 
  NOT_TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION:0 "[TARGET_CHARACTER.GetTitledFirstName] #bold no#! tiene un [martial|E] [education_trait|E]" #NT!
- TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION:0 "tiene un [martial|E] [education_trait|E] y puede unirse a un [holy_order|E]" #NT!
+ TAKE_VOWS_INTERACTION_MARTIAL_EDUCATION:0 "Tiene un [martial|E] [education_trait|E] y puede unirse a un [holy_order|E]" #NT!
 
  release_pow_at_end_of_war:0 "Se liberará [hostages|EU] tomado por todos los participantes de la guerra." #NT!
 
@@ -1397,14 +1397,14 @@
  REQUEST_ARTIFACT_COMBAT_REJECT:1 "Rechazar" #NT!
  challenge_for_artifact_interaction_valid_tt_1:0 "Este personaje no posee ningún artefacto que puedas reclamar." #NT!
  challenge_for_artifact_interaction_valid_tt_2:0 "Este personaje no puede pelear en duelo." #NT!
- challenge_for_artifact_interaction_valid_tt_3:0 "estas encarcelado" #NT!
+ challenge_for_artifact_interaction_valid_tt_3:0 "Estas encarcelado" #NT!
  challenge_to_artifact_combat_interaction_victor_gets.tt:0 "El Vencedor mantendrá o ganará el Artefacto" #NT!
  challenge_to_artifact_combat_interaction_loser_gets.tt:0 "El Perdedor perderá el Artefacto y cualquier reclamo sobre él." #NT!
  challenge_to_artifact_combat_interaction_loser_result.tt:0 "Perdiste tu derecho al Artefacto" #NT!
  challenge_to_artifact_combat_interaction_victor_result.tt:0 "Has demostrado tu derecho al artefacto." #NT!
  demand_artifact_interaction_valid_tt_1:0 "$challenge_for_artifact_interaction_valid_tt_1$" #NT!
- they_banned_from_combat_old_and_frail:0 "son viejos y frágiles" #NT!
- i_banned_from_combat_old_and_frail:0 "soy viejo y frágil" #NT!
+ they_banned_from_combat_old_and_frail:0 "Son viejos y frágiles" #NT!
+ i_banned_from_combat_old_and_frail:0 "Soy viejo y frágil" #NT!
 
  #reforge_artifact_durability_desc: "La durabilidad del artefacto es #TODO_CD" #NT!
  #reforge_artifact_rarity_desc: "La rareza del artefacto es #TODO_CD" #NT!
@@ -1420,7 +1420,7 @@
  dismiss_weak_hook_interaction_desc:0 "Obliga a [recipient.GetShortUINameNoTooltip] a renunciar a su [hook|E].\nTe costará [prestige|E] y obtendrás [tyranny|E]." #NT!
  msg_dismiss_hook_interaction_title:0 "Gancho despedido" #NT!
 
- force_duel_criminals_interaction:0 "castigar criminal" #NT!
+ force_duel_criminals_interaction:0 "Castigar criminal" #NT!
  force_duel_criminals_interaction_desc:0 "Desafía a un [criminal|E] con un [single_combat_duel|E] para imponer su castigo si ganas." #NT!
  force_duel_criminals_interaction.imprison_punishment.tt:0 "Encarcelarás a [recipient.GetUIName] si ganas." #NT!
  force_duel_criminals_interaction.banish_punishment.tt:0 "Desterrarás a [recipient.GetUIName] si ganas." #NT!
@@ -1434,15 +1434,15 @@
  force_duel_anyone_interaction_desc:0 "Desafía a cualquiera a un [single_combat_duel|E], infligiendo [stress|E] si ganas." #NT!
  not_enough_stress:0 "Necesitas un [stress_level|E] más alto." #NT!
 
- expose_secret_interaction:0 "exponer un secreto" #NT!
+ expose_secret_interaction:0 "Exponer un secreto" #NT!
  expose_secret_interaction_desc:0 "Exponer un secreto destruye todos los [hooks|E] proporcionados por el [secret|E] seleccionado" #NT!
- divorce_character_dynast_request_interaction:0 "hacer cumplir el divorcio" #NT!
+ divorce_character_dynast_request_interaction:0 "Hacer cumplir el divorcio" #NT!
  divorce_character_dynast_request_interaction_desc:0 "Ha llegado el momento de que [secondary_actor.GetTitledFirstNameNoTooltip] y [recipient.GetTitledFirstNameNoTooltip] se separen" #NT!
  divorce_character_dynast_request_rel_head_interaction:0 "Solicitar Divorcio" #NT!
  recipient_secondary_divorce_character_dynast_request_rel_head_interaction:0 "[spouse|E]" #NT!
  actor_secondary_divorce_character_dynast_request_rel_head_interaction:0 "[spouse|E]" #NT!
  divorce_character_dynast_request_rel_head_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
- divorce_character_dynast_request_rel_head_interaction_decline_notification:0 "divorcio rechazado" #NT!
+ divorce_character_dynast_request_rel_head_interaction_decline_notification:0 "Divorcio rechazado" #NT!
  divorce_character_dynast_request_interaction_title:0 "Divorcio promulgado" #NT!
  MATCH_OFFER_INBREEDING_WARNING:0 "@warning_icon!#X [MatchOffer.GetInbreedingDesc]#!" #NT!
  FOREIGN_PRISONER_RECOVATION_TT:0 "[TARGET_CHARACTER.GetShortUIName] rechazó la revocación de su título mientras estaba encarcelado por otra persona" #NT!

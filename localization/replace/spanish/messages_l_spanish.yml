@@ -17,9 +17,9 @@
  msg_new_heir_newborn_desc:2 "Tu recién nacido [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] es tu nuevo [player_heir|E]" #NT!
  msg_new_heir_old_heir_dead:0 "Nuevo heredero" #NT!
  msg_new_heir_old_heir_dead_desc:2 "Con la muerte de [RIGHT_CHARACTER.GetUINameNoTooltip], tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] es ​​tu nuevo [player_heir|E]" #NT!
- msg_no_new_heir:0 "sin heredero" #NT!
+ msg_no_new_heir:0 "Sin heredero" #NT!
  msg_no_new_heir_desc:2 "[LEFT_CHARACTER.GetUINameNoTooltip] ya no es tu [player_heir|E]" #NT!
- msg_no_new_heir_old_heir_dead:0 "sin heredero" #NT!
+ msg_no_new_heir_old_heir_dead:0 "Sin heredero" #NT!
  msg_no_new_heir_old_heir_dead_desc:2 "Con la muerte de [LEFT_CHARACTER.GetUINameNoTooltip], no tienes [player_heir|E]" #NT!
  msg_inherited_single_title:0 "Herencia" #NT!
  msg_inherited_single_title_desc:1 "Heredaste el [LEFT_TITLE.GetName] de [CHARACTER.GetUINameNoTooltip] ($LAW$)" #NT!
@@ -31,9 +31,9 @@
  msg_lost_titles_desc:0 "Perdiste los otros títulos de [LEFT_TITLE.GetName] y $VALUE$ ante [CHARACTER.GetUINameNoTooltip]" #NT!
  msg_siege_started:1 "[PROVINCE.GetName|U] bajo asedio" #NT!
  msg_siege_started_desc:1 "¡[PROVINCE.GetName|U] está debajo de [siege|E] por [PROVINCE.GetSiege.GetSiegingRealmCharacter.GetUIName]!" #NT!
- msg_siege_won:0 "asedio ganado" #NT!
+ msg_siege_won:0 "Asedio ganado" #NT!
  msg_siege_won_desc:1 "Ahora controlas [PROVINCE.GetName]" #NT!
- msg_siege_loot:0 "asedio ganado" #NT!
+ msg_siege_loot:0 "Asedio ganado" #NT!
  msg_siege_loot_desc:1 "Ahora controlas [PROVINCE.GetName]\nObtuviste [gold_i]$VALUE|V0$ por ocupar [PROVINCE.GetName]" #NT!
  msg_scheme_abandoned:0 "Esquema abandonado" #NT!
  msg_scheme_abandoned_desc:0 "$SCHEME_NAME|V$ en [CHARACTER.GetUINameNoTooltip] ha sido abandonado" #NT!
@@ -49,9 +49,9 @@
  msg_2_agents_removed_my_scheme_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] y [RIGHT_CHARACTER.GetUINameNoTooltip] ya no forman parte de tu [scheme|E] a [SCHEME.GetFullActionName]" #NT!
  msg_multiple_agents_removed_my_scheme:0 "Agentes eliminados del esquema" #NT!
  msg_multiple_agents_removed_my_scheme_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] y $OTHER|V$ otros [agents|E] ya no forman parte de tu [scheme|E] a [SCHEME.GetFullActionName]" #NT!
- msg_council_task_finished_location:0 "tarea terminada" #NT!
+ msg_council_task_finished_location:0 "Tarea terminada" #NT!
  msg_council_task_finished_location_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] terminó la tarea $TASK_NAME|D$ en $TASK_LOCATION|D$" #NT!
- msg_council_task_finished:0 "tarea terminada" #NT!
+ msg_council_task_finished:0 "Tarea terminada" #NT!
  msg_council_task_finished_desc:0 "[LEFT_CHARACTER.GetUINameNoTooltip] terminó la tarea $TASK_NAME|D$" #NT!
  msg_alliance:1 "Alianza formada: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
  msg_alliance_desc:0 "[alliance|E] formado con [LEFT_CHARACTER.GetUINameNoTooltip]" #NT!
@@ -219,7 +219,7 @@
  msg_new_fascination_selected_desc:2 "Tu [culture|E] ahora es [Concept( 'fascination', 'Fascinated' )|E] por el $NAME|V$ [innovation|E]" #NT!
  msg_innovation_discovered:0 "Innovación descubierta" #NT!
  msg_innovation_discovered_desc:3 "¡Tu [culture|E] ha descubierto $NAME|V$!" #NT!
- msg_fascination_discovered:0 "fascinación descubierta" #NT!
+ msg_fascination_discovered:0 "Fascinación descubierta" #NT!
  msg_fascination_discovered_desc:3 "¡Tu [culture|E] ha descubierto el [fascination|E] $NAME|V$!\nSe puede seleccionar una nueva fascinación." #NT!
  msg_era_discovered:0 "Nueva Era Cultural" #NT!
  msg_era_discovered_desc:2 "Tu cultura se ha unido a la era $NAME|N$.\n¡Hay nuevas innovaciones disponibles!" #NT!
@@ -236,7 +236,7 @@
  msg_mercenary_company_dismissed_desc:0 "El contrato de [LEFT_TITLE.GetNameNoTooltip] ha vencido y los soldados han sido despedidos" #NT!
  msg_holy_order_dismissed:0 "Orden sagrada despedida" #NT!
  msg_holy_order_dismissed_desc:0 "[LEFT_TITLE.GetNameNoTooltip] ha sido descartado" #NT!
- msg_fired_from_council:0 "despedido del consejo" #NT!
+ msg_fired_from_council:0 "Despedido del consejo" #NT!
  msg_fired_from_council_desc:0 "[LEFT_CHARACTER.GetShortUIName|U] te ha despedido de [council|E]" #NT!
  msg_council_swap_position:0 "Nueva posición del consejo" #NT!
  msg_council_swap_position_desc:2 "Ahora eres un $POSITION_NAME$ en [LEFT_CHARACTER.GetShortUINamePossessive] [council|E]" #NT!
@@ -329,14 +329,14 @@
  msg_courtier_left_court_interaction_title:0 "Cortesano a la izquierda" #NT!
  msg_hired_court_physician_interaction_title:0 "Maestre contratado" #NT!
  msg_hired_court_physician_interaction_message:1 "[recipient.GetTitledFirstName] ahora es tu [GetCourtPositionType('court_physician_court_position').GetName()]." #NT!
- msg_fired_court_physician_interaction_title:0 "maestre despedido" #NT!
+ msg_fired_court_physician_interaction_title:0 "Maestre despedido" #NT!
  msg_fired_court_physician_interaction_message:1 "Disparaste a [recipient.GetTitledFirstName] desde la posición como [GetCourtPositionType('court_physician_court_position').GetName()]." #NT!
 
  msg_concubine_taken_title:2 "Tomado una concubina" #NT!
  msg_concubine_accepted_title:1 "Acepté a [secondary_actor.GetShortUIName] como mi concubina" #NT!
  msg_concubine_dismissed_title:2 "Concubina despedida" #NT!
  msg_concubine_offered_title:1 "Hizo [secondary_actor.GetTitledFirstName] [recipient.GetTitledFirstNamePossessive] concubina" #NT!
- msg_concubine_offered_invalidated_title:0 "no podía ofrecer concubina" #NT!
+ msg_concubine_offered_invalidated_title:0 "No podía ofrecer concubina" #NT!
  msg_concubine_offered_invalidated_recipient_title:0 "No podía aceptar concubina" #NT!
  msg_concubine_offered_invalidated_consort:1 "[secondary_actor.GetTitledFirstName] es consorte de [spouse.GetShortUINamePossessive] y por lo tanto no puede convertirse en concubina de [recipient.GetShortUINamePossessive]" #NT!
  msg_concubine_offered_invalidated_betrothed:1 "[secondary_actor.GetTitledFirstName] está comprometido con [spouse.GetShortUIName] y, por lo tanto, no puede convertirse en concubina de [recipient.GetShortUINamePossessive]" #NT!
@@ -367,7 +367,7 @@
 
  msg_becomes_obese:1 "se volvió obeso" #NT!
  msg_becomes_obese_desc:0 "Te has convertido en [GetModifier( 'obese_modifier' ).GetNameWithTooltip]" #NT!
- msg_becomes_malnourished:0 "se convirtió en desnutrido" #NT!
+ msg_becomes_malnourished:0 "Se convirtió en desnutrido" #NT!
  msg_becomes_malnourished_desc:0 "Te has convertido en [GetModifier( 'malnourished_modifier' ).GetNameWithTooltip]" #NT!
  msg_stops_being_obese:1 "Ya No Obeso" #NT!
  msg_stops_being_obese_desc:0 "Ya no eres [GetModifier( 'obese_modifier' ).GetNameWithTooltip]" #NT!

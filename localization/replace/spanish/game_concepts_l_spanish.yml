@@ -1,18 +1,18 @@
 ﻿l_spanish:
  test_text_to_use_explanation:0 "La palabra [primary_title|E] es un concepto de juego." #NT!
  game_concept_vassal:0 "Vasallo" #NT!
- game_concept_vassals:0 "vasallos" #NT!
+ game_concept_vassals:0 "Vasallos" #NT!
  game_concept_vassalage:0 "Vasallaje" #NT!
- game_concept_vassals_possessive:0 "vasallos" #NT!
- game_concept_direct_vassal:0 "vasallo directo" #NT!
- game_concept_direct_vassals:0 "vasallos directos" #NT!
+ game_concept_vassals_possessive:0 "Vasallos" #NT!
+ game_concept_direct_vassal:0 "Vasallo directo" #NT!
+ game_concept_direct_vassals:0 "Vasallos directos" #NT!
  game_concept_direct_vassal_desc:0 "Tus $game_concept_direct_vassals$ son los [vassals|E] que te sirven personalmente. Los vasallos de vasallos están incluidos en #emphasis no en #! ." #NT!
  game_concept_vassalize:0 "Vassalizar" #NT!
- game_concept_vassalization:0 "vasallaje" #NT!
+ game_concept_vassalization:0 "Vasallaje" #NT!
  game_concept_vassal_desc:1 "Un $game_concept_vassal$ es un [ruler|E] que ha jurado lealtad a otro gobernante, su [liege|E].\n\nEl $game_concept_vassal$ proporciona a su Lord [levies|E] y [taxes|E], su [obligations|E], a cambio de protección.\n\nSi el [opinion|E] de un $game_concept_vassal$ de su Lord es bajo, pueden unirse a [factions|E] o [ruler|E]0 para reemplazar a su Lord con otra persona." #NT!
  game_concept_ruler:0 "Gobernante" #NT!
  game_concept_rulers:0 "Gobernantes" #NT!
- game_concept_rulerpossessive:0 "del gobernante" #NT!
+ game_concept_rulerpossessive:0 "Del gobernante" #NT!
  game_concept_ruler_desc:1 "Un $game_concept_ruler$ es un [character|E] que posee al menos un [title|E]." #NT!
  game_concept_title:0 "Título" #NT!
  game_concept_titles:0 "Títulos" #NT!
@@ -20,14 +20,14 @@
  game_concept_title_desc:1 "Un $game_concept_title$ es esencialmente un certificado de propiedad de la tierra.\n\nLa unidad de tierra más pequeña en el mapa es el [barony|E]. Las baronías se organizan en áreas más grandes llamadas [counties|E]. Los condados [de_jure|E] pertenecen a un [duchy|E], los ducados a un [kingdom|E] y los reinos a un [empire|E].\n\nDucados, reinos e imperios no siempre tienen un [holder|E], pero son títulos que pueden ser [created|E] por un gobernante que controla suficiente del territorio correspondiente ." #NT!
  game_concept_holder:0 "Poseedor" #NT!
  game_concept_holders:0 "Titulares" #NT!
- game_concept_holder_possessive:0 "del titular" #NT!
+ game_concept_holder_possessive:0 "Del titular" #NT!
  game_concept_holders_possessive:0 "Titulares" #NT!
  game_concept_hold:0 "Sostener" #NT!
  game_concept_holder_desc:1 "El $game_concept_holder$ de [title|E] es el personaje que posee el título. Los títulos [barony|E] y [county|E] siempre tendrán $game_concept_holders$ una vez liquidados, mientras que los títulos [duchy|E], [kingdom|E] y [empire|E] podrían no haberse creado todavía. Como advertencia adicional, es posible que el $game_concept_holder$ de un título de alto nivel no controle ningún territorio dentro del área [de_jure|E] del título.\n\nTener títulos de nivel superior le permite tener un $game_concept_holder$0 de nivel superior. Por ejemplo, los duques pueden tener condes como vasallos y los reyes pueden tener duques." #NT!
  game_concept_de_jure:0 "De jure" #NT!
  game_concept_de_jure_desc:1 "La mayoría de los [titles|E] se consideran parte de un título de nivel superior $game_concept_de_jure$ ("por ley").\n\nPor ejemplo, un [ruler|E] puede ser un [king|E] de Inglaterra, pero su [realm|E] aún no contiene todas las tierras que se consideran legalmente como parte de Inglaterra.\n\nEl [holder|E] de un [duchy|E], [kingdom|E] o [empire|E] siempre tiene un [casus_belli|E] para tomar el control de sus títulos constituyentes de $game_concept_de_jure$.\n\n$game_concept_de_jure$1 también decidirá quién es su $game_concept_de_jure$2 en función del Título que su $game_concept_de_jure$3 es De Jure una parte de." #NT!
  game_concept_de_jure_drift:0 "Deriva de jure" #NT!
- game_concept_de_jure_drift_drifted:0 "a la deriva" #NT!
+ game_concept_de_jure_drift_drifted:0 "A la deriva" #NT!
  game_concept_de_jure_drift_drift:0 "Deriva" #NT!
  game_concept_de_jure_drift_desc:1 "$game_concept_de_jure_drift_desc_part_1$\n\n$game_concept_de_jure_drift_desc_part_2$" #NT!
  game_concept_de_jure_drift_desc_part_1:0 "Un proceso lento por el cual el [de_jure|E] [liege|E] de un [title|E] puede cambiar. Ocurre naturalmente cuando un [duchy|E] o [kingdom|E] está completamente controlado por un [ruler|E] que no posee el título de feudalismo de jure del territorio.\n\nEste proceso se puede acelerar asignando su [chancellor|E] al [councillor_task|E] apropiado #weak ($task_integrate_title$)[de_jure|E]0Los ducados solo pueden [de_jure|E]1 en Kingdoms, y Kingdoms solo puede Drift en [de_jure|E]2.\n\nPermitir que los títulos De Jure Drift entren en su [de_jure|E]3 es una buena manera de deshacerse de la penalización de [de_jure|E]4." #NT!
@@ -47,7 +47,7 @@
  game_concept_obligations:1 "Obligaciones" #NT!
  game_concept_obligation:0 "Obligación" #NT!
  game_concept_vassal_obligations_desc:4 "$game_concept_vassal_obligations$ define cuánto [tax|E] y cuántos [levies|E] proporciona un [vassal|E] a su [liege|E]. El [government_form|E] del Vasallo decide cuáles son los $game_concept_vassal_obligations$.\n\n#weak Por ejemplo, los Vasallos Feudales tienen su $game_concept_vassal_obligations$ establecido por su [feudal_contract|E].[tax|E]0[tax|E]1 pagan un porcentaje de su [tax|E]2 y [tax|E]3 totales a través de los Impuestos Feudales y Obligaciones de Levas Feudales. [tax|E]4Estos [tax|E]5 pueden a su vez ser modificados por opciones de 'letra pequeña' como [tax|E]6 o [tax|E]7.[tax|E]8" #NT!
- game_concept_feudal_contract:0 "contrato feudal" #NT!
+ game_concept_feudal_contract:0 "Contrato feudal" #NT!
  game_concept_feudal_contracts:0 "Contratos feudales" #NT!
  game_concept_contract:0 "Contrato" #NT!
  game_concept_feudal_contract_desc:2 "Un $game_concept_contract$ especifica el [obligations|E] entre un [vassal|E] y su [liege|E]. Solo el feudal y el clan [government_forms|E] permiten que cada vasallo negocie sus obligaciones individualmente.\n\nLos contratos especiales, como los contratos #V $special_contract_march_short$#!, #V $special_contract_scutage_short$[obligations|E]0o #V [obligations|E]2[obligations|E]0, solo pueden ser mantenidos por [obligations|E]4-nivel [obligations|E]5 o superior." #NT!
@@ -65,7 +65,7 @@
  game_concept_absolute:0 "Absoluto" #NT!
  game_concept_absolute_crown_authority:0 "Autoridad absoluta de la corona" #NT!
  game_concept_absolute_crown_authority_desc:2 "$game_concept_absolute_crown_authority$ es el nivel más alto de [crown_authority|E]. [vassals|E] tiene una penalización de #N -30#! [opinion|E] hacia su [liege|E].\n\nA este nivel, además de los efectos de [high|E] y [limited|E] Crown Authority, el gobernante puede elegir un [designated_heir|E] a un costo de [crown_authority|E]0.\n\nAdemás, los vasallos no pueden declarar la guerra incluso contra gobernantes extranjeros." #NT!
- game_concept_tribal_authority:0 "autoridad tribal" #NT!
+ game_concept_tribal_authority:0 "Autoridad tribal" #NT!
  game_concept_tribal_authority_desc:2 "$game_concept_tribal_authority$ representa la influencia general que un [tribal|E] [ruler|E] ejerce sobre su [vassals|E]. En comparación con [crown_authority|E], ofrece menos poderes y en niveles posteriores.\n\nHay cuatro niveles de $game_concept_tribal_authority$: [disparate_tribes|E], [limited_tribal|E], [high_tribal|E] y [absolute_tribal|E]. Aumentar $game_concept_tribal_authority$ cuesta una cantidad de [tribal|E]1 según el nivel y el [tribal|E]2 del gobernante, pero generalmente es más costoso que aumentar la autoridad de la corona.\n\n[tribal|E]3A los vasallos no les gustan los niveles más altos de $game_concept_tribal_authority$, y reducirlo es el objetivo principal de cualquier [tribal|E]5.[tribal|E]6" #NT!
  game_concept_disparate_tribes:0 "Tribus Dispares" #NT!
  game_concept_disparate_tribes_tribal_authority:0 "Autoridad tribal de tribus dispares" #NT!
@@ -99,18 +99,18 @@
  game_concept_leasing:0 "Arrendamiento" #NT!
  game_concept_lease:0 "Alquiler" #NT!
  game_concept_leases:0 "Arrendamientos" #NT!
- game_concept_leased:0 "arrendado" #NT!
+ game_concept_leased:0 "Arrendado" #NT!
  game_concept_lessee:0 "Arrendatario" #NT!
  game_concept_leasing_desc:1 "[baronies|E] menor puede ser $game_concept_leased$ a [holy_orders|E] o [clergy|E]. Las baronías arrendadas proporcionan [taxes|E] y [levies|E] a [lessee|E] en lugar de [holder|E].\n\nUna orden sagrada puede arrendar [castle_holdings|E], mientras que el clero puede arrendar [temple_holdings|E].\n\nLos $game_concept_leased$0 arrendados aún se consideran parte del $game_concept_leased$1 del titular. $game_concept_leased$2 no se puede arrendar." #NT!
  game_concept_succession:0 "Sucesión" #NT!
  game_concept_succession_desc:1 "$game_concept_succession$ ocurre cuando un [ruler|E] muere, dividiendo su [gold|E] y [titles|E] entre sus [heirs|E] de acuerdo con el [succession_laws|E].\n\nLos jugadores seguirán jugando como su [player_heir|E] incluso si algunos títulos se pierden para otros personajes.\n\nSi no hay un jugador heredero, el juego terminará.\n\n#weak Algunas circunstancias excepcionales pueden obligar a que ocurra una Sucesión incluso antes de que muera un gobernante, como perder un [excommunication_war|E]. Sin embargo, legalmente hablando, los Gobernantes no pueden optar por abdicar por su cuenta.#!" #NT!
  game_concept_heir:0 "Heredero" #NT!
- game_concept_heirs:0 "herederos" #NT!
+ game_concept_heirs:0 "Herederos" #NT!
  game_concept_heir_desc:3 "Un heredero es un personaje que puede heredar uno o más [titles|E].\n\nCada [title|E] que tiene tiene un $game_concept_heir$, determinado por el [succession_laws|E] de su [holder|E] actual. Cuando el Titular actual del Título muere, o activa un [succession|E], el $game_concept_heir$ actual del Título lo heredará.\n\nTenga en cuenta que los Títulos del mismo [ruler|E] pueden tener un $game_concept_heirs$ diferente. En particular, el [primary_title|E] es heredado por el [title|E]0 y los jugadores seguirán jugando como su [title|E]1." #NT!
  game_concept_primary_heir:0 "Heredero principal" #NT!
  game_concept_primary_heirs:0 "Herederos primarios" #NT!
  game_concept_primary_heir_desc:0 "El $game_concept_primary_heir$ es el personaje que heredará el [primary_title|E] de un [ruler|E] en [succession|E]. Por lo general, pero no siempre, es el mismo carácter que [player_heir|E]." #NT!
- game_concept_player_heir:0 "heredero del jugador" #NT!
+ game_concept_player_heir:0 "Heredero del jugador" #NT!
  game_concept_player_heir_desc:1 "El $game_concept_player_heir$ es el [heir|E] con el que un jugador seguirá jugando en [succession|E].\n\nEl $game_concept_player_heir$ suele ser el mismo que el [primary_heir|E], pero si el [succession_law|E] de su [primary_title|E] dicta que debe ir a un personaje fuera de su [dynasty|E], en lugar de eso, sigue jugando como el heredero dinástico de tu segundo título más alto (o tercero, cuarto, etc.).\n\nEsta situación es común cuando tu $game_concept_player_heir$ es expulsado bajo una ley de sucesión electiva." #NT!
  game_concept_title_heir:0 "Heredero del título" #NT!
  game_concept_title_heirs:0 "Herederos del título" #NT!
@@ -119,7 +119,7 @@
  game_concept_realm_heirs:0 "Herederos del reino" #NT!
  game_concept_realm_heir_desc:0 "Un Heredero de un Reino es uno de los [heirs|E] de un [realm|E], y recibirá todos o algunos de los [titles|E] en poder del [ruler|E] de ese Reino cuando ese Gobernante muera.\n\nUn Reino puede tener uno o más Herederos del Reino dependiendo de su [succession_law|E] ." #NT!
  game_concept_disinherit:0 "Desheredar" #NT!
- game_concept_disinherited:0 "desheredado" #NT!
+ game_concept_disinherited:0 "Desheredado" #NT!
  game_concept_disinherit_desc:1 "Un [dynast|E] puede desheredar a un miembro de su [dynasty|E] a costa de [dynasty_prestige|E].\n\nEsto eliminará al miembro de la dinastía de cualquier [line_of_succession|E] regular de cualquier título que esté actualmente en manos de otros miembros de la dinastía." #NT!
 
 
@@ -139,25 +139,25 @@
  game_concept_chancellor_desc:0 "El $game_concept_chancellor$ es el [councillor|E] a cargo de las gestiones diplomáticas, tanto dentro como fuera del [realm|E]." #NT!
 
  game_concept_steward:0 "Mayordomo" #NT!
- game_concept_stewards:0 "mayordomos" #NT!
+ game_concept_stewards:0 "Mayordomos" #NT!
  game_concept_steward_desc:0 "El $game_concept_steward$ es el [councillor|E] a cargo de la administración de [domain|E], por ejemplo asuntos de [taxation|E], [culture|E] y [development|E]." #NT!
 
  game_concept_marshal:0 "Mariscal" #NT!
  game_concept_marshals:0 "Alguaciles" #NT!
  game_concept_marshal_desc:0 "El $game_concept_marshal$ es tu jefe [commander|E] y el [councillor|E] a cargo de los asuntos militares en general." #NT!
 
- game_concept_spymaster:0 "maestro de espías" #NT!
+ game_concept_spymaster:0 "Maestro de espías" #NT!
  game_concept_spymaster_desc:1 "El $game_concept_spymaster$ es tu [councillor|E] encargado de asuntos de intriga e inteligencia. ¡Cuidado con tener un Spymaster desleal, ya que pueden ocultar y participar fácilmente en un [GetScheme('murder').GetTypeName] contra usted y su familia cercana!" #NT!
 
  game_concept_admiral:0 "Almirante" #NT!
- game_concept_admirals:0 "almirantes" #NT!
+ game_concept_admirals:0 "Almirantes" #NT!
  game_concept_admiral_desc:1 "El $game_concept_admiral$ es tu [councillor|E] encargado de asuntos náuticos y navales. Gran Capitán de tu [fleet|E], y capataz de cuando tus ejércitos [embark|E]." #NT!
 
  game_concept_castellan:0 "Castellano" #NT!
  game_concept_castellan_desc:1 "El $game_concept_castellan$ es tu [councillor|E] que actúa en su capacidad como tu fuerte mano derecha. Pueden realizar una variedad de [councillor_tasks|E] según sus capacidades, hablar con la voz y actuar con la mano." #NT!
 
- game_concept_court_chaplain:0 "capellán de la corte" #NT!
- game_concept_court_chaplains:0 "capellanes de la corte" #NT!
+ game_concept_court_chaplain:0 "Capellán de la corte" #NT!
+ game_concept_court_chaplains:0 "Capellanes de la corte" #NT!
  game_concept_court_chaplain_desc:0 "El $game_concept_court_chaplain$ es el [councillor|E] a cargo de los asuntos religiosos y espirituales en [faiths|E] con el [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName] [doctrine|E].\n\nLas religiones con la Doctrina [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName] tienen el mucho más poderoso (y problemático) [realm_priest|E] en lugar de un $game_concept_court_chaplain$." #NT!
 
  game_concept_realm_priest:0 "Sacerdote del reino" #NT!
@@ -166,7 +166,7 @@
  game_concept_realm_priest_desc:0 "Un $game_concept_realm_priest$ es un [councillor|E] a cargo de los asuntos religiosos y espirituales en [faiths|E] con el [GetFaithDoctrine('doctrine_theocracy_temporal').GetBaseName] [doctrine|E].\n\nA diferencia de su [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName] equivalente ([court_chaplains|E]), $game_concept_realm_priests$ automáticamente [lease|E] todos los [temple_holdings|E] en un [councillor|E]0's [councillor|E]1, y también reciben una parte de [councillor|E]2 y [councillor|E]3 de [councillor|E]4 $game_concept_realm_priests$.\n\n$game_concept_realm_priests$ proporciona a su [councillor|E]7 Gravámenes e Impuestos si tiene una Opinión positiva sobre ellos. Cuanto mayor sea el [councillor|E]8 de su [councillor|E]7, más proporcionarán.\n\n$game_concept_realm_priests$ con una opinión baja de su Señor Feudal no les proporcionará ningún impuesto o gravamen, y podría causar problemas." #NT!
 
  game_concept_law:0 "Ley" #NT!
- game_concept_laws:0 "leyes" #NT!
+ game_concept_laws:0 "Leyes" #NT!
  game_concept_law_desc:0 "Las leyes de un reino son las que determinan cómo se estructura ese reino. El más fundamental de estos es el [crown_authority|E] del reino (o [tribal_authority|E] para las tribus), ya que esas Leyes determinan cómo [lieges|E] y [vassals|E] interactúan regularmente.\n\nAunque tienen menos impacto en la vida cotidiana de los gobernantes de un reino, [succession_laws|E] y [title_laws|E] siguen siendo muy importantes a tener en cuenta para [succession|E]." #NT!
  game_concept_succession_law:0 "Ley de sucesiones" #NT!
  game_concept_succession_laws:0 "Leyes de Sucesión" #NT!
@@ -180,7 +180,7 @@
  game_concept_opinions:0 "Opiniones" #NT!
  game_concept_opinion_desc:1 "Cada personaje tiene un $game_concept_opinion$ unidireccional de todos los demás personajes, representado por un valor que va de #N -100#!  a #P +100#!.\n\nThe La opinión que otro personaje tiene de ti es de crucial importancia, ¡ya que determinará su comportamiento!\n\nDebes ser especialmente desconfía de las Opiniones de tu [powerful_vassals|E], [spymaster|E] y [spouse|E]." #NT!
  game_concept_faction:0 "Facción" #NT!
- game_concept_factions:0 "facciones" #NT!
+ game_concept_factions:0 "Facciones" #NT!
  game_concept_faction_desc:0 "Un $game_concept_faction$ es un grupo de [vassals|E] con intereses políticos comunes. La población local de [counties|E] también puede unirse a ciertos tipos de Facciones, como la Facción Campesina.\n\nLas Facciones se vuelven peligrosas una vez que su [faction_discontent|E] llega a cierto punto, momento en el cual darán un ultimátum.\n\nSi el [liege|E] no lo hace cumplir, la Facción se levantará en rebelión, provocando un [civil_war|E]." #NT!
  game_concept_faction_discontent:0 "Descontento" #NT!
  game_concept_discontent:0 "Descontento" #NT!
@@ -190,7 +190,7 @@
  game_concept_faction_military_power_desc:0 "$game_concept_faction_military_power$ es una medida de la fuerza militar total de un [faction|E] en relación con su objetivo.\n\nCada miembro individual de la facción suma toda su fuerza a la facción mientras permanezca en la facción. Si el objetivo de la facción es el [liege|E] de un miembro, la fuerza del miembro también se resta del poder relativo del Lord." #NT!
  game_concept_scheme:0 "Esquema" #NT!
  game_concept_scheming:0 "Maquinación" #NT!
- game_concept_schemes:0 "esquemas" #NT!
+ game_concept_schemes:0 "Esquemas" #NT!
  game_concept_scheme_desc:2 "Un $game_concept_scheme$ es un intento a largo plazo de afectar a otro Personaje de alguna manera. Algunos esquemas son [personal|E], mientras que otros son [scheme_hostile|E].\n\nEl [success_chance|E] de un esquema se basa en el [skill|E] asociado. Algunos Esquemas también dependen de otros Personajes que podrían unirse como [agents|E].\n\nUn Esquema tiene la posibilidad de progresar cada mes #weak (mínimo #V 5%#!)#!. Una vez que llega al final, el Esquema puede ejecutarse automáticamente, aunque algunos Esquemas (como [GetScheme('murder').GetTypeName]) dan el [personal|E]0 la oportunidad de retroceder en caso de que sientan que el [personal|E]1 es demasiado bajo o que el momento no es el adecuado." #NT!
  game_concept_personal_scheme:0 "Esquema personal" #NT!
  game_concept_personal_schemes:0 "Esquemas personales" #NT!
@@ -204,7 +204,7 @@
  game_concept_scheme_targets:0 "Objetivo del esquema" #NT!
  game_concept_scheme_target_target:0 "Objetivo" #NT!
  game_concept_scheme_target_desc:0 "El $game_concept_scheme_target$ es el personaje contra el que [scheme_owner|E] está tramando." #NT!
- game_concept_secret_scheme:0 "esquema secreto" #NT!
+ game_concept_secret_scheme:0 "Esquema secreto" #NT!
  game_concept_secret_scheme_single:0 "Secreto" #NT!
  game_concept_secret_schemes:0 "Esquemas secretos" #NT!
  game_concept_secret_scheme_desc:0 "Un $game_concept_secret_scheme$ es un [scheme|E] que progresa sin que el [scheme_target|E] lo sepa. Sin embargo, se puede descubrir, lo que provoca una reducción en [success_chance|E] y aumenta la probabilidad de que se descubra [scheme_owner|E] cuando se ejecuta el esquema.\n\n[agents|E] que se reclutan para $game_concept_secret_scheme$ tienen la posibilidad de ser [agent_discovery_discovered|E]." #NT!
@@ -219,7 +219,7 @@
  game_concept_prevented_murder:0 "Asesinato Prevenido" #NT!
  game_concept_prevented_murder_prevent:0 "Prevenir" #NT!
  game_concept_prevented_murder_desc:2 "En raras ocasiones, ciertas situaciones en la vida del objetivo de un [GetScheme('murder').GetTypeName] pueden causar que el [scheme|E] falle en las etapas finales de su ejecución. Esto anula la posibilidad de éxito." #NT!
- game_concept_hostile_scheme:0 "esquema hostil" #NT!
+ game_concept_hostile_scheme:0 "Esquema hostil" #NT!
  game_concept_scheme_hostile:0 "Hostil" #NT!
  game_concept_hostile_schemes:0 "Esquemas hostiles" #NT!
  game_concept_hostile_scheme_desc:5 "$game_concept_hostile_schemes$ son [schemes|E] que tienen como objetivo causar daño a un personaje. La mayoría de los esquemas hostiles utilizan [secrecy|E].\n\nLos esquemas hostiles son:\n$BULLET_WITH_TAB$[GetScheme('murder').GetTypeName]\n$BULLET_WITH_TAB$[GetScheme('abduct').GetTypeName]\n$BULLET_WITH_TAB$[GetScheme('claim_throne').GetTypeName]\n$BULLET_WITH_TAB$[schemes|E]0" #NT!
@@ -227,17 +227,17 @@
  game_concept_secrets:0 "Misterios" #NT!
  game_concept_secret_desc:0 "$game_concept_secrets$ son cosas que los personajes no desean que otros sepan porque son vergonzosas, inmorales o simplemente [criminal|E].\n\nLos secretos se pueden descubrir a través de '$task_find_secrets$' [councillor_task|E] para [spymaster|E]. Una vez que conoces el $game_concept_secret$ de alguien, puedes [blackmail|E] el personaje para obtener un [hook|E]." #NT!
  game_concept_barony:0 "Baronía" #NT!
- game_concept_baronies:0 "baronías" #NT!
- game_concept_barons:0 "barones" #NT!
+ game_concept_baronies:0 "Baronías" #NT!
+ game_concept_barons:0 "Barones" #NT!
  game_concept_baron:0 "Barón" #NT!
  game_concept_barony_desc:0 "$game_concept_baronies$ son los [titles|E] con la clasificación más baja y tienen la huella más pequeña en el mapa, organizados en [counties|E] más grandes.\n\nLos títulos de baronía siempre deben tener un [holder|E] si contienen un [holding|E]." #NT!
  game_concept_county:0 "Condado" #NT!
- game_concept_counties:0 "condados" #NT!
+ game_concept_counties:0 "Condados" #NT!
  game_concept_count:0 "Contar" #NT!
- game_concept_counts:0 "cuenta" #NT!
+ game_concept_counts:0 "Cuenta" #NT!
  game_concept_county_desc:0 "Un $game_concept_county$ es un [title|E] clasificado por debajo de [duchy|E] y por encima de [barony|E].\n\nEl título incluye el [county_capital|E] en el condado, así como los derechos de [de_jure|E] a todas las baronías del condado.\n\nLos condados siempre tienen [holders|E] porque las capitales de condado no pueden Se destruido." #NT!
  game_concept_duchy:0 "Ducado" #NT!
- game_concept_duchies:0 "ducados" #NT!
+ game_concept_duchies:0 "Ducados" #NT!
  game_concept_duke:0 "Duque" #NT!
  game_concept_duchy_desc:0 "Un $game_concept_duchy$ es un [title|E] clasificado por debajo de [kingdom|E] y por encima de [county|E].\n\nEl [holder|E] de un Ducado tiene derechos de [de_jure|E] sobre sus Condados constituyentes y puede tener Condes como [vassals|E].\n\nLos Ducados pueden estar inactivos y no tener un Titular actual. Dichos Títulos pueden ser creados por un [ruler|E] que controle al menos la mitad de sus Condados." #NT!
  game_concept_kingdom:0 "Reino" #NT!
@@ -246,9 +246,9 @@
  game_concept_kings:0 "Reyes" #NT!
  game_concept_kingdom_desc:0 "Un $game_concept_kingdom$ es un [title|E] clasificado por debajo de un [empire|E] y por encima de un [duchy|E].\n\nEl [holder|E] de un Reino tiene derechos de [de_jure|E] sobre su territorio constituyente y puede tener Duques como [vassals|E].\n\nLos Reinos pueden estar inactivos y no tener un Titular actual. Dichos títulos pueden ser creados por un [ruler|E] que controle al menos la mitad de los condados dentro." #NT!
  game_concept_empire:0 "Imperio" #NT!
- game_concept_empires:0 "imperios" #NT!
+ game_concept_empires:0 "Imperios" #NT!
  game_concept_emperor:0 "Emperador" #NT!
- game_concept_emperors:0 "emperadores" #NT!
+ game_concept_emperors:0 "Emperadores" #NT!
  game_concept_empire_desc:1 "$game_concept_empires$ son los [titles|E] mejor clasificados.\n\nEl [holder|E] de un Imperio tiene derechos [de_jure|E] sobre su territorio constituyente y puede tener reyes como [vassals|E].\n\nLos imperios pueden estar inactivos y no tener un Titular actual. Tales Títulos pueden ser creados por un [ruler|E] que controla más del 80% de los Condados dentro." #NT!
  game_concept_culture:0 "Cultura" #NT!
  game_concept_cultures:0 "Culturas" #NT!
@@ -258,11 +258,11 @@
  game_concept_religions:0 "Religiones" #NT!
  game_concept_religion_desc:0 "Un $game_concept_religion$ puede constar de muchas denominaciones diferentes, llamadas [faiths|E]. Las religiones, a su vez, pertenecen a uno de los tres [religious_families|E] más grandes; [GetReligionFamily('rf_faith_of_the_seven').GetName], [GetReligionFamily('rf_westerosi').GetName] o [GetReligionFamily('rf_valyrian').GetName]." #NT!
  game_concept_heresy:0 "Herejía" #NT!
- game_concept_heresies:0 "herejías" #NT!
+ game_concept_heresies:0 "Herejías" #NT!
  game_concept_heresy_desc:0 "Cuando el [fervor|E] de un [faith|E] es bajo, puede ocurrir un brote de herejía. Cuando eso suceda, un [ruler|E] de fe de bajo fervor se convertirá a otra fe, convirtiéndose en un [GetTrait('heresiarch').GetName( GetNullCharacter )]. Luego extenderán su nueva Fe a su [counties|E] y [vassals|E].\n\nSi un brote es menor, se detendrá allí. Si es un brote importante, se convertirán más gobernantes en la misma área. Si se encuentra en esa área, también tiene la opción de convertir, si así lo desea." #NT!
  game_concept_faith:0 "Fe" #NT!
- game_concept_faiths:0 "religiones" #NT!
- game_concept_faithpossessive:0 "de fe" #NT!
+ game_concept_faiths:0 "Religiones" #NT!
+ game_concept_faithpossessive:0 "De fe" #NT!
  game_concept_faith_desc:0 "Una fe es una denominación específica de un [religion|E] más grande. Todos los personajes y [counties|E] tienen una Fe al igual que tienen un [culture|E].\n\nCada Fe está definida por un conjunto de [doctrines|E] con consecuencias de gran alcance para sus adherentes.\n\nCada Fe también tiene un valor de [fervor|E] que controla qué tan vulnerable es es para [heresy|E] ([rulers|E] y condados que se están convirtiendo a otras religiones dentro de la misma religión)." #NT!
  game_concept_tolerance:0 "Tolerancia" #NT!
  game_concept_tolerate:0 "Tolerar" #NT!
@@ -270,7 +270,7 @@
  game_concept_fervor:0 "Fervor" #NT!
  game_concept_fervor_desc:2 "El $game_concept_fervor$ de un [faith|E] varía de #V 0#!  a #V 100%#!. Low $game_concept_fervor$ facilita que [rulers|E] cree nuevas religiones propias y aumenta la probabilidad de que [counties|E] y los personajes se conviertan a otras religiones, incluido [heresies|E]. $game_concept_fervor$ alto aumenta la velocidad de conversión del condado.\n\n$game_concept_fervor$ cambia naturalmente con el tiempo. Las Fes más pequeñas tienden a tener mayor Fervor. Las religiones más grandes tienden a tener un $game_concept_fervor$ bajo.\n\nLa realización de Grandes Guerras Santas y las Guerras Santas exitosas disminuirán el $game_concept_fervor$. Ser el objetivo aumentará $game_concept_fervor$. Los brotes de [faith|E]5 aumentarán $game_concept_fervor$ significativamente." #NT!
  game_concept_doctrine:0 "Doctrina" #NT!
- game_concept_doctrines:0 "doctrinas" #NT!
+ game_concept_doctrines:0 "Doctrinas" #NT!
  game_concept_doctrines_desc:1 "Las doctrinas podrían considerarse leyes religiosas que determinan cuál es el comportamiento aceptable dentro de un [faith|E]." #NT!
  game_concept_gender_doctrines:0 "Doctrinas de Género" #NT!
  game_concept_gender_doctrines_desc:0 "Estos [doctrines|E] determinan qué [gender_laws|E] están disponibles para los personajes del [faith|E].\n\nTambién determina ciertas reglas adicionales, como qué [claims|E] se puede heredar, quién puede ser [commanders|E] y [knights|E], y a cuál de los [house|E] de sus padres pertenecerá un [bastard|E] .\n\nLas doctrinas de género son:\n$BULLET_WITH_TAB$Dominación masculina\n$BULLET_WITH_TAB$Equal\n$BULLET_WITH_TAB$Dominación femenina" #NT!
@@ -278,7 +278,7 @@
  game_concept_realm_capitals:0 "Capitales de reino" #NT!
  game_concept_capital:0 "Capital" #NT!
  game_concept_realm_capital_desc:0 "El $game_concept_realm_capital$ es el [holding|E] donde reside un [ruler|E] y su [court|E]. Esta propiedad tiene una bonificación de [tax|E] y siempre es heredada por [primary_heir|E].\n\n[occupying|E], la capital del reino de un enemigo en una guerra, otorga una cantidad significativa de [war_score|E] y, a veces, te permite [imprison|E] miembros de la familia del enemigo." #NT!
- game_concept_county_capital:0 "capital del condado" #NT!
+ game_concept_county_capital:0 "Capital del condado" #NT!
  game_concept_county_capitals:0 "Capitales de condado" #NT!
  game_concept_county_capital_desc:0 "El $game_concept_county_capital$ es el [holding|E] principal de un [county|E]. Este Holding nunca puede ser destruido o [leased|E] eliminado y siempre es propiedad del [ruler|E] que posee el [title|E] del condado.\n\nCounty Capitals permite la construcción de un [building|E] adicional en comparación con un Holding menor." #NT!
  game_concept_de_jure_capital:0 "Capital de derecho" #NT!
@@ -292,7 +292,7 @@
  game_concept_rightful_liege_desc:1 "$game_concept_rightful_liege_desc_part1$\n\n$game_concept_rightful_liege_desc_part2$" #NT!
  game_concept_rightful_liege_desc_part1:1 "El $game_concept_rightful_liege$ de un [vassal|E] es el [ruler|E] que ostenta el [de_jure|E] [liege|E] [title|E] directo del $game_concept_vassal$ de [primary_title|E]. Si un $game_concept_vassal$ no está por debajo de su $game_concept_rightful_liege$, contribuirá menos con [vassal|E]0 y [vassal|E]1 y sufrirá una penalización de [vassal|E]2 hacia su [vassal|E]3. Tener un [vassal|E]4 [vassal|E]5 más alto del mismo [vassal|E]6 da como resultado penalizaciones reducidas.\n\nUna excepción a esto son los [vassal|E]7 que son parte de la jerarquía [vassal|E]6 de un [vassal|E]8 y directamente vasallados de su [ruler|E]0, que aún contribuyen completamente, exactamente como si el [ruler|E]0 tuviera su [vassal|E]6 [ruler|E]3 [vassal|E]5." #NT!
  game_concept_rightful_liege_desc_part2:0 "#weak Ejemplo: El Conde de $c_dunbar$ es vasallo directo del Rey de $k_england$. Dado que el Rey no es Duque de $d_lothian$, Rey de $k_scotland$ ni Emperador de $e_britannia$, el Conde de $c_dunbar$ solo aporta una pequeña cantidad de sus impuestos y Levas.\n\nEl Conde de $c_norfolk$ también es vasallo directo del Rey de $k_england$ . El Rey no posee el Ducado de $d_norfolk$, por lo que el Conde también contribuye con impuestos y tasas reducidos. Sin embargo, debido a que $k_england$ es ​​el Reino De Jure de $c_norfolk$, el Conde de $c_norfolk$ aún contribuye significativamente más impuestos y Levas al Rey que el Conde de $c_dunbar$.$c_dunbar$4" #NT!
- game_concept_megaduke_penalty:0 "sobreextensión" #NT!
+ game_concept_megaduke_penalty:0 "Sobreextensión" #NT!
  game_concept_megaduke_penalty_desc:1 "Cuando tienes más de [GetDefine('NCharacter', 'MAX_COUNTIES_IN_REALM_AS_DUKE')] [counties|E] en tu [realm|E] como [duke|E], sufres una penalización de $game_concept_megaduke_penalty$, lo que reduce tus ingresos de [tax|E].\n\nConvertirte en [king|E] o [emperor|E] [rank|E] elimina esta penalización." #NT!
  game_concept_top_liege:0 "Señor Feudal superior" #NT!
  game_concept_top_liege_desc:0 "El '$game_concept_top_liege$' es el [liege|E] en la parte superior de la jerarquía [vassal|E].\n\nSon totalmente [independent|E] [rulers|E] y no responden ante ningún mortal." #NT!
@@ -302,7 +302,7 @@
  game_concept_domains:0 "Dominios" #NT!
  game_concept_domain_desc:0 "El $game_concept_domain$ de [ruler|E] es la colección de todos los [holdings|E] que posee personalmente.\n\nEl [domain_limit|E] bastante estático significa que los Gobernantes tienen que confiar en [vassals|E] para aumentar el tamaño de su [realm|E] más allá de cierto punto." #NT!
  game_concept_regiment:0 "Regimiento" #NT!
- game_concept_regiments:0 "regimientos" #NT!
+ game_concept_regiments:0 "Regimientos" #NT!
  game_concept_regiment_desc:1 "Un $game_concept_regiment$ es un grupo de [soldiers|E] de un solo tipo (por ejemplo, arqueros, lacayos o [levies|E]). Aunque $game_concept_levies$ están organizados en $game_concept_regiments$, los de verdadero interés son los [men_at_arms|E]." #NT!
  game_concept_realm:0 "Reino" #NT!
  game_concept_realms:0 "Reinos" #NT!
@@ -328,17 +328,17 @@
  game_concept_holding_type:0 "Tipo de tenencia" #NT!
  game_concept_holding_types:0 "Tipos de tenencia" #NT!
  game_concept_holding_type_desc:2 "Hay cuatro tipos de [holdings|E]: [castles|E], [cities|E], [tribes|E] y [temples|E]. Cada tipo permite diferentes tipos de [buildings|E]. El [government_form|E] de un [ruler|E] determina qué tipos de Holding the Ruler pueden poseer personalmente sin penalización. En el caso de los Templos, el [doctrines|E] de su [faith|E] también puede jugar un papel." #NT!
- game_concept_castle_holding:0 "tenencia del castillo" #NT!
+ game_concept_castle_holding:0 "Tenencia del castillo" #NT!
  game_concept_castle:0 "Castillo" #NT!
- game_concept_castles:0 "castillos" #NT!
+ game_concept_castles:0 "Castillos" #NT!
  game_concept_castle_holdings:0 "Explotaciones del castillo" #NT!
  game_concept_castle_holding_desc:0 "Los castillos son los [holding_type|E] más fuertemente fortificados y el tipo estándar para [feudal|E], [clan|E] y [tribal|E] [rulers|E], así como [holy_orders|E]. Tienden a proporcionar más [levies|E] que [taxes|E]." #NT!
- game_concept_temple_holding:0 "tenencia del templo" #NT!
+ game_concept_temple_holding:0 "Tenencia del templo" #NT!
  game_concept_temple:0 "Templo" #NT!
- game_concept_temples:0 "templos" #NT!
+ game_concept_temples:0 "Templos" #NT!
  game_concept_temple_holdings:0 "Posesiones del templo" #NT!
  game_concept_temple_holding_desc:0 "Los templos son un [holding_type|E] que pueden ser ocupados por miembros del [clergy|E] como [church_property|E] (el [theocratic|E] [government_form|E]). Sin embargo, en [faiths|E] con [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName] [doctrine|E], cualquiera puede tener Templos sin penalización.\n\nLos Templos ofrecen una combinación bastante pareja de [levies|E] y [taxes|E]." #NT!
- game_concept_city_holding:0 "tenencia de la ciudad" #NT!
+ game_concept_city_holding:0 "Tenencia de la ciudad" #NT!
  game_concept_city:0 "Ciudad" #NT!
  game_concept_cities:0 "Ciudades" #NT!
  game_concept_city_holdings:0 "Participaciones de la ciudad" #NT!
@@ -372,7 +372,7 @@
  game_concept_dynast:1 "Jefe de la dinastía" #NT!
  game_concept_dynast_desc:2 "Un $game_concept_dynast$ es la cabecera de un [dynasty|E] completo y de todos sus [houses|E]. Dinastia Head ejerce ciertos poderes únicos sobre los miembros de Dinastia, conocidos como [dynast_interactions|E]." #NT!
  game_concept_dynasty:0 "Dinastía" #NT!
- game_concept_dynasties:0 "dinastías" #NT!
+ game_concept_dynasties:0 "Dinastías" #NT!
  game_concept_dynastic:0 "Dinástico" #NT!
  game_concept_dynasty_members:0 "Miembros de la dinastía" #NT!
  game_concept_dynasty_desc:1 "Un $game_concept_dynasty$ es un grupo de [noble|E] descendientes de un antepasado [landed|E]; el fundador de la dinastía. El [house|E] original puede dividirse en otros nuevos ([cadet_branches|E]), todos miembros de la Dinastía más amplia.\n\nCuando tu Personaje muere, debes tener un [player_heir|E], o el juego terminará (aunque puedes elegir otro gobernante y continuar jugando en el mismo mundo).\n\nAl igual que [prestige|E] para los personajes, las dinastías tienen [dynasty_prestige|E]." #NT!
@@ -405,25 +405,25 @@
  game_concept_strong_hooks:0 "Ganchos Fuertes" #NT!
  game_concept_strong_hook_desc:2 "Un $game_concept_strong_hook$ es un [hook|E] muy poderoso que puedes tener en un personaje que tienes [blackmailed|E].\n\n$game_concept_strong_hooks$ son mucho más poderosos que [weak_hooks|E] y pueden obligar a alguien a hacer cosas terribles por ti, como convertirse en tu [agent|E] en un [GetScheme('murder').GetTypeName] #weak  (¡además de todo lo que puede hacer un $game_concept_weak_hook$!) #!\n\nA $game_concept_strong_hook$ también evita que el objetivo realice acciones hostiles hacia el portador.\n\n$game_concept_strong_hooks$ no se gastan cuando se usan, sino que se enfrían antes de que se puedan volver a usar. El efecto pasivo no se pierde cuando se usa el Hook." #NT!
  game_concept_favor:0 "Favor" #NT!
- game_concept_favors:0 "favores" #NT!
+ game_concept_favors:0 "Favores" #NT!
  game_concept_favor_desc:0 "Los personajes pueden deberse $game_concept_favors$, que se considera un tipo de [hook|E].\n\nLos favores se pueden obtener de muchas maneras, pero a menudo a través de varios eventos programados. Cada hijo nacido de un [noble|E] [house|E] también le debe un Favor inicial al [house_head|E]." #NT!
  game_concept_blackmail:0 "Chantaje" #NT!
- game_concept_blackmailed:0 "chantajeado" #NT!
- game_concept_blackmailing:0 "chantajear" #NT!
+ game_concept_blackmailed:0 "Chantajeado" #NT!
+ game_concept_blackmailing:0 "Chantajear" #NT!
  game_concept_blackmail_desc:1 "Si conoces el [criminal|E] [secret|E] de otro Personaje, puedes usar un $game_concept_blackmail$ [character_interaction|E] para potencialmente obtener un [hook|E] en él.\n\nLa fuerza de este Gancho varía con la severidad del Secreto, que a su vez a menudo está determinado por [doctrines|E]." #NT!
  game_concept_manipulation:0 "Manipulación" #NT!
  game_concept_manipulation_desc:0 "$game_concept_manipulation$ es una forma de [hook|E] en la que has logrado manipular la mente de otro personaje de alguna manera para que haga tu voluntad." #NT!
  game_concept_soldier:0 "Soldado" #NT!
- game_concept_soldiers:0 "soldados" #NT!
+ game_concept_soldiers:0 "Soldados" #NT!
  game_concept_soldier_i:0 "@soldier_icon!" #NT!
  game_concept_soldiers_desc:0 "$game_concept_soldiers$ es un término colectivo para las tropas en un [regiment|E] o un [army|E], ya sean [levies|E] o [men_at_arms|E].\n\nTener más $game_concept_soldiers$ ayuda a ganar [battles|E] y [sieges|E]." #NT!
  game_concept_health:0 "Salud" #NT!
  game_concept_health_desc:0 "$game_concept_health$ mide la probabilidad de que un personaje muera antes de [illnesses|E] y la vejez." #NT!
  game_concept_character_death:0 "Muerte del personaje" #NT!
  game_concept_character_death_death:0 "Muerte" #NT!
- game_concept_character_death_dying:0 "muriendo" #NT!
- game_concept_character_death_die:0 "morir" #NT!
- game_concept_character_death_dies:0 "muere" #NT!
+ game_concept_character_death_dying:0 "Muriendo" #NT!
+ game_concept_character_death_die:0 "Morir" #NT!
+ game_concept_character_death_dies:0 "Muere" #NT!
  game_concept_character_death_desc:1 "La muerte activa [succession|E], lo cual es importante para [rulers|E].\n\nSi un personaje de jugador muere, el jugador continuará jugando como su [player_heir|E], o se enfrentará a Game Over, si no tiene un heredero válido." #NT!
  game_concept_fertility:0 "Fertilidad" #NT!
  game_concept_fertility_desc:0 "$game_concept_fertility$ mide la capacidad de un personaje para producir hijos." #NT!
@@ -436,35 +436,35 @@
  game_concept_marriage:0 "Casamiento" #NT!
  game_concept_marriages:0 "Matrimonios" #NT!
  game_concept_marry:0 "Casar" #NT!
- game_concept_marries:0 "se casa" #NT!
+ game_concept_marries:0 "Se casa" #NT!
  game_concept_married:0 "Casado" #NT!
- game_concept_marrying:0 "casarse" #NT!
+ game_concept_marrying:0 "Casarse" #NT!
  game_concept_marriage_desc:2 "$game_concept_marriages$ son una unión entre dos [spouses|E], y son (junto con [betrothals|E]) la forma principal de forjar un [alliance|E] con otro [ruler|E]. $game_concept_spouses$ también puede producir hijos [legitimate|E], que pueden ser [bred|E] y criarse como [heirs|E] adecuados.\n\n$game_concept_marriages$ solo termina cuando uno [spouses|E]0 muere o [spouses|E]1 el otro." #NT!
  game_concept_concubinage:0 "Concubinato" #NT!
  game_concept_concubine:0 "Concubina" #NT!
- game_concept_concubines:0 "concubinas" #NT!
+ game_concept_concubines:0 "Concubinas" #NT!
  game_concept_concubine_male:0 "Hombre" #NT!
  game_concept_concubine_female:0 "Mujer" #NT!
  game_concept_concubinage_desc:1 "Una Concubina tiene un estatus menor que un [spouse|E], permitido en [faiths|E] con [GetFaithDoctrine('doctrine_concubines').GetBaseName] [doctrine|E].\n\nA diferencia de [marriage|E], Concubinato no produce [alliances|E]. Las concubinas también se pueden apartar a voluntad, sin las complicaciones de un [divorce|E]. Los hijos de Concubinas se consideran [legitimate|E].\n\nEl Concubinato es mutuamente excluyente con [GetFaithDoctrine('doctrine_polygamy').GetBaseName]." #NT!
  game_concept_bastard:0 "Bastardo" #NT!
- game_concept_bastards:0 "bastardos" #NT!
+ game_concept_bastards:0 "Bastardos" #NT!
  game_concept_bastard_desc:1 "$game_concept_bastards$ son hijos ilegítimos nacidos fuera del matrimonio. Como tal, no pueden heredar [titles|E]. Sin embargo, sus padres pueden [Concept( 'legitimized', 'legitimize' )|E] a su hijo con la aprobación de su [house_head|E].\n\nA qué [house|E] pertenece un bastardo lo determina el [doctrines|E] del [faiths|E] de sus padres cuando nacen.\n\nSi los bastardos obtienen títulos o tienen hijos por su cuenta, fundarán un nuevo [dynasty|E]." #NT!
  game_concept_legitimized_bastard:0 "Bastardo legitimado" #NT!
- game_concept_legitimized:0 "legitimado" #NT!
+ game_concept_legitimized:0 "Legitimado" #NT!
  game_concept_legitimized_bastard_desc:0 "Un [bastard|E] puede ser Legitimado, ya sea al nacer, o como [character_interaction|E] más tarde, dependiendo de la aprobación de su [house_head|E].\n\nUn Bastardo Legitimado tiene el mismo derecho de herencia que los niños [legitimate|E], pero la mancha de la bastardía los seguirá durante toda su vida. ." #NT!
- game_concept_real_father:0 "verdadero padre" #NT!
+ game_concept_real_father:0 "Verdadero padre" #NT!
  game_concept_real_father_desc:0 "El verdadero padre de un personaje. Para la mayoría de los personajes, este es el personaje ampliamente reconocido como su padre, pero para los bastardos secretos, es otra persona." #NT!
  game_concept_legitimate:0 "Legítimo" #NT!
  game_concept_legitimate_desc:0 "Los niños nacidos de padres [married|E] se consideran $game_concept_legitimate$, a diferencia de los [bastards|E] que no pueden heredar ningún [titles|E]. Los hijos de [concubines|E] también se consideran [legitimate|E], aunque de estatus ligeramente inferior." #NT!
- game_concept_matrilineal:0 "matrilineal" #NT!
- game_concept_matrilineally:0 "matrilinealmente" #NT!
+ game_concept_matrilineal:0 "Matrilineal" #NT!
+ game_concept_matrilineally:0 "Matrilinealmente" #NT!
  game_concept_matrilineal_desc:0 "En un $game_concept_matrilineal$ [marriage|E], los niños nacerán en el [house|E] de su madre en lugar del padre." #NT!
  game_concept_patrilineal:0 "Por línea paterna" #NT!
  game_concept_patrilineal_desc:0 "En un $game_concept_patrilineal$ [marriage|E], los niños nacerán en el [house|E] de su padre." #NT!
  game_concept_divorce:0 "Divorcio" #NT!
  game_concept_divorced:0 "Divorciado" #NT!
- game_concept_divorcing:0 "divorciarse" #NT!
- game_concept_divorces:0 "divorcios" #NT!
+ game_concept_divorcing:0 "Divorciarse" #NT!
+ game_concept_divorces:0 "Divorcios" #NT!
  game_concept_divorce_desc:0 "[married|E] [spouses|E] puede organizar un $game_concept_divorce$, aunque las reglas, los requisitos y las consecuencias dependen del [doctrines|E] de su [faiths|E].\n\n[concubines|E] simplemente se puede dejar de lado a voluntad." #NT!
  game_concept_stress:0 "Estrés" #NT!
  game_concept_stress_i:0 "@stress_icon!" #NT!
@@ -495,16 +495,16 @@
  game_concept_civil_war:0 "Guerra civil" #NT!
  game_concept_civil_wars:0 "Guerras civiles" #NT!
  game_concept_raid:0 "Redada" #NT!
- game_concept_raids:0 "redadas" #NT!
- game_concept_raiding:0 "asalto" #NT!
+ game_concept_raids:0 "Redadas" #NT!
+ game_concept_raiding:0 "Asalto" #NT!
  game_concept_raider:0 "Asaltante" #NT!
- game_concept_raiders:0 "asaltantes" #NT!
- game_concept_raided:0 "allanado" #NT!
+ game_concept_raiders:0 "Asaltantes" #NT!
+ game_concept_raided:0 "Allanado" #NT!
  game_concept_raid_desc:0 "[armies|E] se puede generar como $game_concept_raiders$ desde [rally_points|E]. $game_concept_raiders$ puede trasladarse a tierras vecinas y saquearlas para [gold|E].\n\nPara $game_concept_raid$, un ejército de Incursión debe detenerse en un [holding|E] propiedad de un [ruler|E] extranjero y elegir iniciar Incursión; tiempo, después de lo cual obtendrán oro y saquearán la propiedad.\n\nEl oro se almacenará en el ejército y solo se agregará a la tesorería cuando lleguen a casa. Si derrotas a un ejército atacante que lleva oro, lo tomarás y no podrán atacarte durante algún tiempo.\n\nSolo algunos Gobernantes pueden usar $game_concept_raid$, sobre todo los Gobernantes [tribal|E]." #NT!
  game_concept_raid_loot:0 "Botín" #NT!
  game_concept_raid_loot_desc:0 "Si un [holding|E] es [Concept( 'raid', 'Raided' )|E] o [occupied|E] en un [siege|E], el atacante obtendrá una cantidad de [gold|E] igual al $game_concept_raid_loot$. Cuanto más próspero sea un [holding|E], más $game_concept_raid_loot$ tendrá.\n\nUna propiedad que haya sido asaltada o asediada recientemente no tendrá ningún botín." #NT!
  game_concept_revolt:0 "Revuelta" #NT!
- game_concept_revolts:0 "revueltas" #NT!
+ game_concept_revolts:0 "Revueltas" #NT!
  game_concept_revolting:0 "Repugnante" #NT!
  game_concept_civil_war_desc:0 "Un [war|E] donde uno o más [vassals|E] y/o [counties|E] se rebelan contra su [liege|E]. Por lo general, son el resultado de un [faction|E] cuyas demandas no se han cumplido.\n\nPerder un $game_concept_civil_war$ a menudo tiene consecuencias que son más graves que las demandas originales de la facción rebelde." #NT!
  game_concept_casus_belli:0 "Caso Belli" #NT!
@@ -512,13 +512,13 @@
  game_concept_casus_belli_desc:1 "Se requiere un $game_concept_casus_belli$ ('Causa de guerra') para declarar [war|E] en otro [ruler|E].\n\nEl $game_concept_casus_belli$ especifica de qué se trata la guerra, generalmente un territorio específico: el [war_target|E]. No es posible obtener nada más de lo que permite $game_concept_casus_belli$, independientemente de cuán sólidamente se derrote al enemigo.\n\nUno de los Casus Bellis más importantes son [claims|E], ya sea que provengan de [succession|E] o de [fabricate_claim|E] Task." #NT!
  game_concept_war_score:0 "Puntuación de guerra" #NT!
  game_concept_war_score_desc:1 "Una medida de qué lado está ganando en un [war|E]. Va de #N -100#!  a #P 100#!,  con, p. #N -25#!  para un lado siendo #P 25#!  para el otro. En #P 100#! Puntuación de guerra, puedes obligar al otro bando a aceptar tu #N 1.\n\nLa puntuación de guerra se puede obtener al:\n#N 2 Derrotar a #N 3 en #N 4\n#N 2 #N 6 el enemigo #N 7 o su #N 8 (sin incluir su #N 9)\n#N 2 #! 1 enemigo #! 2 (especialmente dentro de #! 3)\n#N 2 Ocupar el #! 5 del enemigo\n#N 2 Controlar todo #! 7 durante un período prolongado de tiempo" #NT!
- game_concept_war_target:0 "objetivo de guerra" #NT!
- game_concept_war_targets:0 "objetivos de guerra" #NT!
+ game_concept_war_target:0 "Objetivo de guerra" #NT!
+ game_concept_war_targets:0 "Objetivos de guerra" #NT!
  game_concept_war_target_desc:0 "Una región en el mapa objetivo de un [casus_belli|E] en un [war|E]. Si el casus belli no apunta a una región específica, el [realm_capital|E] del defensor es el $game_concept_war_target$.\n\nEl lado atacante gana más [war_score|E] por [occupying|E] [holdings|E] dentro del $game_concept_war_target$. Por el contrario, el defensor, después de un período de gracia inicial, comenzará a acumular puntuación de guerra por mantener todos los [counties|E] en la región $game_concept_war_target$." #NT!
  game_concept_occupation:0 "Ocupación" #NT!
- game_concept_occupations:0 "ocupaciones" #NT!
+ game_concept_occupations:0 "Ocupaciones" #NT!
  game_concept_occupy:0 "Ocupar" #NT!
- game_concept_occupying:0 "ocupando" #NT!
+ game_concept_occupying:0 "Ocupando" #NT!
  game_concept_occupied:0 "Ocupado" #NT!
  game_concept_occupation_desc:0 "Los [holdings|E] ocupados están temporalmente bajo el control de un [ruler|E] hostil durante un [war|E]. Un [army|E] parado en un [barony|E] con un [fortified_holding|E] hostil comenzará a [besiege|E] si el número de [soldiers|E] en el ejército supera al de [garrison|E].\n\nSi el Asedio tiene éxito, el Refugio está Ocupado, lo que le dará [war_score|E] al bando Ocupante en el [war|E].\n\n¡Ocupar una propiedad no significa que ahora sea tuya! Solo el territorio especificado por [ruler|E]1 puede cambiar de manos, y solo si el atacante [ruler|E]2." #NT!
  game_concept_peace:0 "Paz" #NT!
@@ -527,22 +527,22 @@
  game_concept_peace_desc:1 "[wars|E] puede terminar en tres tipos de $game_concept_peace$: [victory|E], [defeat|E] o [white_peace|E].\n\nEn #V 100%#! [war_score|E], la otra parte no puede rechazar una oferta de paz y debe aceptar [defeat|E].\n\nLos efectos de $game_concept_victory$ o $game_concept_peace$0 dependen completamente de la tipo de $game_concept_peace$1 que se utilizó para declarar la guerra y su $game_concept_peace$2 asociado." #NT!
  game_concept_victory:0 "Victoria" #NT!
  game_concept_win:0 "Ganar" #NT!
- game_concept_wins:0 "victorias" #NT!
+ game_concept_wins:0 "Victorias" #NT!
  game_concept_winning:0 "Victorioso" #NT!
  game_concept_victory_desc:0 "$game_concept_victory$ es uno de los tres posibles [peace_offers|E]. El resultado exacto de la Victoria en un [war|E] depende del [casus_belli|E].\n\nPara el Atacante, normalmente implica la incautación de [titles|E] dentro de la región de [war_target|E].\n\nPara el Defensor, la Victoria normalmente significa que el atacante tiene que pagar una gran suma de oro como reparaciones de guerra." #NT!
  game_concept_defeat:0 "Fracaso" #NT!
  game_concept_defeat_desc:0 "$game_concept_defeat$ es uno de los tres posibles [peace_offers|E]. El resultado exacto de la Derrota en un [war|E] depende del [casus_belli|E], pero los Defensores derrotados normalmente pierden [titles|E] dentro de la región [war_target|E], mientras que los Atacantes derrotados pierden cosas como [gold|E], [prestige|E] y [piety|E]." #NT!
- game_concept_white_peace:0 "paz blanca" #NT!
+ game_concept_white_peace:0 "Paz blanca" #NT!
  game_concept_white_peace_desc:0 "Un $game_concept_white_peace$ es uno de los tres posibles [peace_offers|E]. A veces, ambas partes estarán de acuerdo en que ya no vale la pena perseguir el [war|E].\n\nCon una paz blanca, el atacante normalmente pierde algo de [piety|E] o [prestige|E], pero mucho menos que con un [defeat|E] humillante." #NT!
  game_concept_siege:0 "Cerco" #NT!
- game_concept_sieges:0 "asedios" #NT!
+ game_concept_sieges:0 "Asedios" #NT!
  game_concept_besiege:0 "Sitiar" #NT!
- game_concept_besieging:0 "asediando" #NT!
+ game_concept_besieging:0 "Asediando" #NT!
  game_concept_besieged:0 "Sitiado" #NT!
  game_concept_siege_desc:0 "El asedio es cuando un [army|E] rodea a un [fortified_holding|E] para hacer que los ciudadanos se sometan de hambre para que pueda ser [occupied|E]. Un asedio comienza automáticamente una vez que un ejército ingresa a la ubicación de una posición fortificada hostil y se detiene, si el ejército supera en número al [garrison|E].\n\nEl ejército asediador puede [assault|E] la posición si sus muros son violados." #NT!
  game_concept_assault:0 "Agresión" #NT!
- game_concept_assaults:0 "agresiones" #NT!
- game_concept_assaulting:0 "agredir" #NT!
+ game_concept_assaults:0 "Agresiones" #NT!
+ game_concept_assaulting:0 "Agredir" #NT!
  game_concept_assaulted:0 "Asaltado" #NT!
  game_concept_assault_desc:0 "Un Asalto es cuando un [besieging|E] [army|E] intenta asaltar un [fortified_holding|E] a riesgo de perder una gran cantidad de [soldiers|E]. Los asaltos solo se pueden intentar si se han violado los muros del Holding, lo que requiere que el Ejército contenga [siege_weapons|E]." #NT!
  game_concept_fort_level:0 "Nivel de fuerte" #NT!
@@ -556,24 +556,24 @@
  game_concept_fortified_holdings:0 "Posesiones fortificadas" #NT!
  game_concept_fortified_holding_desc:0 "Un $game_concept_fortified_holding$ es un [holding|E] con [buildings|E] que aumentan su [fort_level|E]. Los [county_capitals|E] siempre están Fortificados.\n\nPara poder [occupy|E] a [county|E] por completo, todas sus Propiedades Fortificadas deben estar Ocupadas." #NT!
  game_concept_army:0 "Ejército" #NT!
- game_concept_armies:0 "ejércitos" #NT!
+ game_concept_armies:0 "Ejércitos" #NT!
  game_concept_army_desc:1 "Los ejércitos se utilizan para ganar [wars|E] participando en [battle|E] con otros ejércitos, y para [besiege|E] y [occupy|E] enemigos [fortified_holdings|E]. Los ejércitos se forman en [rally_points|E] y consisten principalmente en [levies|E] y [men_at_arms|E], pero también pueden ser reforzados por [mercenaries|E] y [holy_orders|E].\n\nLos ejércitos pueden moverse a través del agua gastando una cantidad de [battle|E]0 para asegurar el transporte. Pueden sufrir pérdidas de [battle|E]1 si el [battle|E]2 local no puede [battle|E]3 adecuadamente." #NT!
- game_concept_holy_order:0 "orden sagrada" #NT!
- game_concept_holy_orders:0 "ordenes Sagradas" #NT!
+ game_concept_holy_order:0 "Orden sagrada" #NT!
+ game_concept_holy_orders:0 "Ordenes Sagradas" #NT!
  game_concept_holy_order_desc:1 "$game_concept_holy_orders$ son organizaciones militares independientes que trabajan para defender y expandir la influencia de su [faith|E].\n\nLos gobernantes de su fe pueden contratarlos si están en [war|E] con un [faith_hostile|L] o [faith_evil|L] [faith|E], a un costo de [piety|E]. Una vez que termine esta Guerra, ya no lucharán por ese Gobernante.\n\nUN $game_concept_holy_order$ puede tener un [holy_order_patron|E], que no necesita pagar para contratar sus servicios." #NT!
  game_concept_holy_order_patron:0 "Patrón" #NT!
  game_concept_holy_order_patron_desc:0 "El $game_concept_holy_order_patron$ de un [holy_order|E] es un Rey o Emperador que comparte su [faith|E] y cuyo [realm|E] contiene su Capital.\n\nEl $game_concept_holy_order_patron$ puede solicitar el apoyo del $game_concept_holy_order$ contra enemigos religiosos de forma gratuita, en lugar de pagar a [piety|E].\n\nNo todos los $game_concept_holy_orders$ tienen un $game_concept_holy_order_patron$." #NT!
  game_concept_mercenary_company:0 "Compañía de mercenarios" #NT!
- game_concept_mercenaries:0 "mercenarios" #NT!
+ game_concept_mercenaries:0 "Mercenarios" #NT!
  game_concept_mercenary:0 "Mercenario" #NT!
  game_concept_mercenary_company_desc:0 "[mercenaries|E] son [soldiers|E] a sueldo que luchan a cambio de [gold|E]. Los mercenarios [armies|E] vienen en varios tamaños, con diferentes tipos de [men_at_arms|E] y una cantidad de [knights|E].\n\nLos mercenarios se inscriben en contratos de #V [GetDefine('NMercenary', 'HIRE_MONTHS')] meses#! que se pueden extender por otros #V [GetDefine('NMercenary', 'HIRE_MONTHS')] meses#! si todavía estás en [soldiers|E]2. Los contratos de mercenarios persisten incluso si sus Regimientos son despedidos; se pueden volver a levantar sin costo adicional.\n\nPuede ingresar a [soldiers|E]3 para contratar Mercenarios [soldiers|E]4 (hasta [soldiers|E]5 meses)[soldiers|E]6" #NT!
  game_concept_mercenary_contract:0 "Contrato Mercenario" #NT!
  game_concept_mercenary_contract_desc:0 "Establecer un contrato [mercenary|E] incurre en un costo único que permite el uso de sus tropas durante #V [GetDefine('NMercenary', 'HIRE_MONTHS')] meses#!." #NT!
- game_concept_hired_troops:0 "soldados contratados" #NT!
+ game_concept_hired_troops:0 "Soldados contratados" #NT!
  game_concept_hired_troops_desc:0 "Los soldados contratados son [mercenaries|E] o [holy_orders|E]." #NT!
  game_concept_commander:0 "Comandante" #NT!
  game_concept_commanders:0 "Comandantes" #NT!
- game_concept_army_commanders:0 "comandantes del ejército" #NT!
+ game_concept_army_commanders:0 "Comandantes del ejército" #NT!
  game_concept_commanding:0 "Dominante" #NT!
  game_concept_army_commander:0 "Comandante del Ejército" #NT!
  game_concept_army_commander_desc:0 "Un $game_concept_army_commander$ es un Personaje al mando de un [army|E]. Cualquiera de tus [courtiers|E] o [vassals|E] directos puede potencialmente ser asignado como Comandante (sujeto a la edad, [health|E] y [doctrines|E]).\n\nEn [battle|E], el [martial_skill|E] del Comandante influye fuertemente en el [advantage|E]. Siempre que haya un Comandante presente, se crearán [rolls|E] adicionales para intentar aumentar el [army|E]0.\n\nAdemás, [army|E]1 puede proporcionar a un ejército muchas ventajas diferentes, tanto dentro como fuera de la batalla." #NT!
@@ -622,7 +622,7 @@
  game_concept_prowess_skill:0 "Habilidad de destreza" #NT!
  game_concept_prowess_skill_desc:3 "$game_concept_prowess$ es un [skill|E] secundario que refleja la aptitud del personaje en el combate personal.\n\nUna habilidad de destreza alta significa que es más probable que sobreviva y se desempeñe bien tanto como [knights|E] en [battles|E] como en [single_combat_duel_plural|E].\n\nCada punto de destreza otorga un caballero :\n$BULLET_WITH_TAB$[damage|E]: #V [GetDefine('NCombat', 'KNIGHT_DAMAGE_PER_PROWESS')]#!\n$BULLET_WITH_TAB$[resistencia|E]: #V [skill|E]1[skill|E]2" #NT!
  game_concept_lifestyle:0 "Estilo de vida" #NT!
- game_concept_lifestyles:0 "estilos de vida" #NT!
+ game_concept_lifestyles:0 "Estilos de vida" #NT!
  game_concept_lifestyle_desc:2 "[adult|E] [rulers|E] puede elegir un $game_concept_lifestyle$, que a su vez les permitirá seleccionar un [focus|E] y comenzar a obtener [perks|E].\n\nCada $game_concept_lifestyle$ tiene su propio tipo de [experience|E], que se utiliza para comprar $game_concept_perks$. Por ejemplo, la experiencia en [intrigue_lifestyle|E] es necesaria para ganar $game_concept_perks$ como [rulers|E]0 o [rulers|E]1.\n\nLos [rulers|E]2 son:\n[rulers|E]3 [rulers|E]4\n[rulers|E]3 [rulers|E]6\n[rulers|E]3 [rulers|E]8\n[rulers|E]3 [intrigue_lifestyle|E]\n[rulers|E]3 $game_concept_lifestyle$2" #NT!
  game_concept_lifestyle_experience:0 "Experiencia de estilo de vida" #NT!
  game_concept_experience:0 "Experiencia" #NT!
@@ -659,7 +659,7 @@
  game_concept_playdate:0 "$activity_playdate$" #NT!
  game_concept_playdate_desc:0 "Un [activity|E] donde los jóvenes gobernantes y cortesanos de un reino se reúnen para jugar y olvidar la monotonía del día.\n\nLos participantes perderán [stress|E] y aumentarán su [opinion|E] del anfitrión. También puede haber otras consecuencias por reunir a tantos niños.\n\nUn [ruler|E] invitará a su [liege|E] y su [vassals|E] (junto con varios [courtiers|E]) a un $activity_playdate$." #NT!
 
- game_concept_reaving:0 "saqueando" #NT!
+ game_concept_reaving:0 "Saqueando" #NT!
  game_concept_reaving_desc:1 "Un [activity|E] donde los gobernantes y sus vasallos se reúnen para cazar animales en el desierto local.\n\nEl objetivo principal de esta actividad es reducir [stress|E] y ganar [prestige|E].\n\nUN [ruler|E] invitará a su [courtiers|E], [guests|E] y [vassals|E] a un $activity_hunt$ ." #NT!
 
  game_concept_taxes:0 "Impuestos" #NT!
@@ -668,7 +668,7 @@
  game_concept_taxes_desc:1 "$game_concept_taxes$ son la fuente mensual más importante de [gold|E] [income|E] para [rulers|E].\n\nCada [holding|E] que tiene un gobernante les proporciona algo de [domain_taxes|E] cada mes. Además, la mayoría de los [vassals|E] tienen un [obligation|E] para pagar una parte de sus propios impuestos recaudados a su [liege|E] en forma de [liege_taxes|E]." #NT!
  game_concept_dread:0 "Miedo" #NT!
  game_concept_dreadful:0 "Terrible" #NT!
- game_concept_dreaded:0 "temido" #NT!
+ game_concept_dreaded:0 "Temido" #NT!
  game_concept_dread_desc:4 "$game_concept_dread$ es una medida de lo temido que es un [ruler|E].\n\nLos gobernantes aumentan $game_concept_dread$ al realizar actos crueles y atroces, como torturar y ejecutar [prisoners|E].\n\nDread hace viable jugar como [tyrant|E], porque [vassals|E] rebelde puede convertirse en [intimidated|E] o [cowed|E], haciéndolos demasiado asustados para oponerse a ti.\n\nEl Pavor de un personaje puede variar de 0 a 100. Con el tiempo, su Pavor tenderá a su Pavor Natural, que está definido por su [personality_traits|E].\n\n#high A Terrible [ruler|E]0 cosecha el siguientes beneficios:[ruler|E]1no se recomienda unirse a [ruler|E]2\n[ruler|E]3[ruler|E]4 se recomienda no participar en [ruler|E]5\n[ruler|E]3Aumenta la aceptación de [ruler|E]7 [ruler|E]8 (por ejemplo, revocación del título)$game_concept_dread$7\n[ruler|E]3Aumenta la aceptación de $game_concept_dread$0\n[ruler|E]3Hace que $game_concept_dread$2 sea más improbable de que $game_concept_dread$2 se oponga a [ruler|E] Cambios en G_24\n\ n[ruler|E]8¡Ten en cuenta que los valientes y audaces [ruler|E]4 se ven menos afectados por el pavor!$game_concept_dread$7" #NT!
  game_concept_truce:0 "Tregua" #NT!
  game_concept_truces:0 "Treguas" #NT!
@@ -679,7 +679,7 @@
  game_concept_government_forms:0 "Formularios gubernamentales" #NT!
  game_concept_government_desc:2 "El $game_concept_government_form$ de un [ruler|E] determina a qué tipo de [laws|E] tiene acceso y qué [obligations|E] tiene para su [liege|E] si no es [independent|E].\n\nLas formas gubernamentales son: [feudal|E], [tribal|E], [clan|E], [theocracy|E] y $game_concept_government_form$0." #NT!
  game_concept_feudal:0 "Feudal" #NT!
- game_concept_feudal_government:0 "gobierno feudal" #NT!
+ game_concept_feudal_government:0 "Gobierno feudal" #NT!
  game_concept_feudalism:0 "Feudalismo" #NT!
  game_concept_feudal_desc:0 "Bajo el [government_form|E] Feudal, un [liege|E] entrega su [vassals|E] [land|E] para gobernar a cambio de [levies|E] y [taxes|E], regulados por [feudal_contracts|E] individuales entre Vasallo y Señor Feudal." #NT!
  game_concept_tribal:0 "Tribal" #NT!
@@ -690,7 +690,7 @@
  game_concept_clan_government:0 "Gobierno de clanes" #NT!
  game_concept_clan_desc:0 "Los clanes son un [government_form|E] en el que la cantidad de [levies|E] y [taxes|E] dada a un [liege|E] por su [vassals|E] está determinada por su [opinion|E] de dicho Señor Feudal. Sin embargo, el [crown_authority|E] de Señor Feudal puede aumentar la cantidad mínima que deben proporcionar independientemente de la Opinión." #NT!
  game_concept_theocracy:0 "Teocracia" #NT!
- game_concept_theocracies:0 "teocracias" #NT!
+ game_concept_theocracies:0 "Teocracias" #NT!
  game_concept_theocratic:0 "Teocrático" #NT!
  game_concept_theocratic_government:0 "Gobierno teocrático" #NT!
  game_concept_theocracy_government:0 "Gobierno teocrático" #NT!
@@ -732,13 +732,13 @@
  game_concept_casualties:0 "Damnificados" #NT!
  game_concept_casualty_desc:0 "[armies|E] mantendrá una cierta cantidad de $game_concept_casualties$ durante un [battle|E] dependiendo de la cantidad de [damage|E] tomado.\n\nCuando se eliminen los [soldiers|E] de un $game_concept_battle$, se considerarán [routed_soldiers|E] o [dead_soldiers|E]." #NT!
  game_concept_retreat:0 "Retiro" #NT!
- game_concept_retreats:0 "retiros" #NT!
+ game_concept_retreats:0 "Retiros" #NT!
  game_concept_retreat_desc:0 "Un [army|E] será $game_concept_retreat$ si pierde un [battle|E]. También se pueden ordenar ejércitos a $game_concept_retreat$ durante $game_concept_battles$. Mientras se retira, el $game_concept_army$ no puede disolverse ni recibir nuevas órdenes de movimiento." #NT!
  game_concept_illness:0 "Enfermedad" #NT!
  game_concept_ill:0 "Enfermo" #NT!
  game_concept_sick:0 "Enfermo" #NT!
  game_concept_sickness:0 "Enfermedad" #NT!
- game_concept_illnesses:0 "enfermedades" #NT!
+ game_concept_illnesses:0 "Enfermedades" #NT!
  game_concept_diseases:0 "Enfermedades" #NT!
  game_concept_illness_desc:0 "Las enfermedades son una especie de [traits|E] negativo que reducen el [health|E] de un personaje. Los rasgos de enfermedad pueden durar cantidades variables de tiempo y difieren mucho en la letalidad." #NT!
  game_concept_medical_treatments:0 "Tratamientos médicos" #NT!
@@ -746,7 +746,7 @@
  game_concept_combat_width:0 "Ancho de combate" #NT!
  game_concept_combat_width_desc:1 "$game_concept_combat_width$ indica cuántos [soldiers|E] de cada bando pueden luchar entre sí al mismo tiempo en [battle|E] y pueden verse afectados por factores como [terrain|E].\n\nEsto evita que un bando aplaste completamente al otro y se determina al comienzo de la batalla." #NT!
  game_concept_roll:0 "Rollo" #NT!
- game_concept_rolls:0 "rollos" #NT!
+ game_concept_rolls:0 "Rollos" #NT!
  game_concept_combat_roll:0 "Rollo de batalla" #NT!
  game_concept_advantage_roll:0 "Rollo de ventaja" #NT!
  game_concept_advantage_rolls:0 "Rollos de ventaja" #NT!
@@ -756,13 +756,13 @@
  game_concept_independent_ruler:0 "Gobernante Independiente" #NT!
  game_concept_independent_ruler_desc:0 "$game_concept_independent$ [rulers|E] no tiene [liege|E] y, por lo tanto, disfruta de una mayor libertad de acción (por ejemplo, al declarar [wars|E]).\n\nSin embargo, a diferencia de [vassals|E], también pueden ser atacados directamente por [rulers|E] extranjeros." #NT!
  game_concept_independent:0 "Independiente" #NT!
- game_concept_unlanded:0 "sin desembarcar" #NT!
+ game_concept_unlanded:0 "Sin desembarcar" #NT!
  game_concept_unlanded_desc:0 "Los personajes $game_concept_unlanded$ no tienen [holdings|E] en su [domain|E], pero teóricamente aún pueden ser [rulers|E] de algún tipo. Por ejemplo, este puede ser el caso de [heads_of_faith|E] y los Grandes Maestros de [holy_orders|E]." #NT!
  game_concept_landed:0 "Aterrizado" #NT!
  game_concept_land:0 "Tierra" #NT!
  game_concept_landed_desc:0 "Un personaje $game_concept_landed$ es un [ruler|E] que posee [holdings|E]. Excepto en [theocracies|E] y [republics|E], [commoners|E] se convierte automáticamente en [nobles|E] cuando aterrizan, fundando un nuevo [dynasty|E]." #NT!
  game_concept_head_of_faith:0 "Cabeza de fe" #NT!
- game_concept_heads_of_faith:0 "cabezas de fe" #NT!
+ game_concept_heads_of_faith:0 "Cabezas de fe" #NT!
  game_concept_head_of_faith_desc:0 "Un $game_concept_head_of_faith$ es el líder formal de un [faith|E]. Los poderes y la naturaleza del $game_concept_head_of_faith$ dependen del [doctrines|E] de la fe.\n\nAlgunas religiones tienen un [spiritual_head_of_faith|E] #weak  (p. ej., el Papa) #!, , otras un [temporal_head_of_faith|E] #weak  (p. ej., un califa) #!,  y otras no tienen ningún $game_concept_head_of_faith$." #NT!
  game_concept_spiritual_head_of_faith:0 "Cabeza espiritual de la fe" #NT!
  game_concept_head_of_faith_spiritual:0 "Espiritual" #NT!
@@ -788,7 +788,7 @@
  game_concept_unpressed_claim:0 "Reclamo no presionado" #NT!
  game_concept_unpressed_claims:0 "Reclamos no presionados" #NT!
  game_concept_unpressed_claim_i:1 "@unpressed_claim!" #NT!
- game_concept_unpressed:0 "sin presionar" #NT!
+ game_concept_unpressed:0 "Sin presionar" #NT!
  game_concept_unpressed_claim_desc:0 "$game_concept_unpressed$ [claims|E] son legalmente tenues y no son heredados por los hijos de [claimant|E].\n\nSin embargo, los reclamos no presionados se convierten en [pressed|E] si se usan en un [casus_belli|E] para declarar [war|E], incluso si la guerra termina en un [white_peace|E]." #NT!
  game_concept_implicit_claim:0 "Reclamación implícita" #NT!
  game_concept_implicit_claims:0 "Reclamaciones implícitas" #NT!
@@ -798,33 +798,33 @@
  game_concept_claimants:0 "Demandantes" #NT!
  game_concept_claimant_desc:0 "Un $game_concept_claimant$ es una persona con uno o más [claims|E] a [titles|E]. [ruler|E] Los reclamantes pueden presionarlos usando Claim [casus_belli|E] para declarar [wars|E].\n\nEste Casus Belli también se puede usar para presionar los Claims de [vassals|E] e incluso [unlanded|E] caracteres en su [realm|E].\n\nLos reclamantes también pueden liderar [factions|E], incluso si no residen en su Reino." #NT!
  game_concept_renounce:0 "Renuncia" #NT!
- game_concept_renounced:0 "renunciado" #NT!
+ game_concept_renounced:0 "Renunciado" #NT!
  game_concept_renounce_desc:0 "[prisoners|E] se puede liberar a cambio de Renunciar a todos los [claims|E] en [titles|E] dentro de su [realm|E].\n\nSin embargo, los hijos del [holder|E] actual nunca pueden perder sus Reclamos mientras el Titular aún esté vivo." #NT!
  game_concept_court:0 "Corte" #NT!
  game_concept_courts:0 "Tribunales" #NT!
  game_concept_court_desc:0 "Cada [ruler|E] tiene un $game_concept_court$, que consta de varios Personajes [unlanded|E] que sirven a su [liege|E].\n\nPor lo general, estos [courtiers|E] consisten en la familia del Gobernante y una mezcla de [nobles|E] no relacionados pero potencialmente útiles y plebeyos." #NT!
  game_concept_courtier:0 "Cortesano" #NT!
- game_concept_courtiers:0 "cortesanos" #NT!
+ game_concept_courtiers:0 "Cortesanos" #NT!
  game_concept_courtier_desc:1 "Un $game_concept_courtier$ es un personaje [unlanded|E] que sirve a un [ruler|E] en su [court|E].\n\nLos cortesanos pueden:\n$BULLET_WITH_TAB$Servir como [councillors|E]\n$BULLET_WITH_TAB$Servir en [armies|E] como [commanders|E] o [knights|E]\n$BULLET_WITH_TAB$Convertirse en el [unlanded|E]1 de su Gobernante si se les otorga un [unlanded|E]2\n$BULLET_WITH_TAB$Permitir que su Gobernante presione su [unlanded|E]5 en [unlanded|E]5" #NT!
  game_concept_guest:0 "Invitado" #NT!
  game_concept_guests:0 "Huéspedes" #NT!
  game_concept_guest_desc:0 "[wanderers|E] a veces aparece en [court|E] como invitados. Solo permanecerán por un tiempo limitado, pero pueden ser reclutados como [courtiers|E] permanentes por [ruler|E]." #NT!
  game_concept_wanderer:0 "Vagabundo" #NT!
- game_concept_wanderers:0 "vagabundos" #NT!
+ game_concept_wanderers:0 "Vagabundos" #NT!
  game_concept_wanderer_desc:0 "Los personajes que no pertenecen a un [court|E] ni tienen ningún [titles|e] se denominan Wanderers. Viajan por el mundo, visitando Tribunales como [guests|E] en el camino. Los vagabundos pueden convertirse en capitanes de [mercenary|E], líderes de [holy_orders|E], miembros de [clergy|E] o titulares de [city|E]." #NT!
  game_concept_host:0 "Anfitrión" #NT!
  game_concept_host_desc:1 "Un $game_concept_host$ es un [ruler|E] que no es el Lord de un personaje, pero aún lo tiene en su [court].\n\nHay varias razones posibles por las que esto puede ocurrir, como que [wanderers|E] visite a un Gobernante o que [wards|E] permanezca en la misma Corte que su [guardian|E] ." #NT!
  game_concept_noble:0 "Noble" #NT!
- game_concept_nobles:0 "nobles" #NT!
+ game_concept_nobles:0 "Nobles" #NT!
  game_concept_nobleman:0 "Noble" #NT!
- game_concept_noblemen:0 "nobles" #NT!
+ game_concept_noblemen:0 "Nobles" #NT!
  game_concept_noblewoman:0 "Aristócrata" #NT!
- game_concept_noblewomen:0 "mujeres nobles" #NT!
+ game_concept_noblewomen:0 "Mujeres nobles" #NT!
  game_concept_nobility:0 "Nobleza" #NT!
  game_concept_noble_desc:0 "$game_concept_nobles$ son personajes que son miembros de un [dynasty|E]. Los personajes sin dinastía se consideran de baja cuna [commoners|E]." #NT!
  game_concept_commoner:0 "Plebeyo" #NT!
- game_concept_lowborn:0 "de baja cuna" #NT!
- game_concept_commoners:0 "plebeyos" #NT!
+ game_concept_lowborn:0 "De baja cuna" #NT!
+ game_concept_commoners:0 "Plebeyos" #NT!
  game_concept_commoner_desc:0 "Un personaje $game_concept_commoner$ o $game_concept_lowborn$ no es miembro de un [noble|E] [dynasty|E]. Sin embargo, pueden seguir siendo poderosos [rulers|E] de [theocracies|E] y [republics|E].\n\nSi un plebeyo se convierte en [landed|E], inmediatamente se convierte en noble y encuentra su propio [dynasties|E] (excepto en [republics|E] y [theocracies|E], que en su mayoría están dirigidos por plebeyos)." #NT!
  game_concept_martial_lifestyle:0 "Estilo de vida marcial" #NT!
  game_concept_martial_lifestyle_desc:0 "El $game_concept_martial_lifestyle$ es adecuado para Personajes que desean mejorar su [men_at_arms|E] y [knights|E], impulsar [control|E] en su [domain|E] o aumentar sus posibilidades de ganar [wars|E]." #NT!
@@ -846,19 +846,19 @@
  game_concept_crime_i:0 "@crime_icon!" #NT!
  game_concept_crime_desc:2 "$game_concept_crimes$ son acciones que la sociedad considera lo suficientemente objetables como para merecer un castigo.\n\nLos delitos pueden ser seculares (como un [vassal|E] [revolting|E] contra su [liege|E]) o religiosos (cualquier tipo de comportamiento [shunned|E] que [doctrine|E] ilegalice). Los delitos seculares solo pueden ser castigados por los personajes que resultaron dañados por el delito, pero cualquier [ruler|E] puede castigar a sus súbditos por delitos religiosos.\n\nTodos los delitos dan a los Gobernantes una razón válida para [imprison|E] $game_concept_criminals$ y, dependiendo de la gravedad del Crimen, a [revoke|E] sus [vassal|E]0, [vassal|E]1, [vassal|E]2, o [vassal|E]3 ellos. Cada Crimen solo puede ser castigado por un Gobernante una vez, aunque algunos Crimen le darán al Criminal un [vassal|E]4 negativo que se llevará a la tumba.\n\nA veces los personajes se salen con la suya, que luego son [vassal|E]5 que pueden ser descubiertos por otros personajes y utilizado para [vassal|E]6." #NT!
 
- game_concept_shunned:0 "rechazado" #NT!
+ game_concept_shunned:0 "Rechazado" #NT!
  game_concept_shunned_desc:1 "Muchos [faiths|E] tienen [doctrines|E] que designan ciertos comportamientos como rechazados. Dependiendo de la Doctrina específica, estos comportamientos también pueden considerarse [criminal|E].\n\nLos personajes que son atrapados practicando comportamientos que son evitados por su fe pierden un [piety_level|E] y obtienen un [fame_trait|E] correspondiente; este Rasgo no gustará a todos aquellos cuya Fe considere que ese comportamiento es Evitado o Criminal.\n\nEjemplos de comportamientos Evitados incluyen:\n$EFFECT_LIST_BULLET$[GetTrait('fornicator').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$[GetTrait('adulterer').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$[doctrines|E]0\n$EFFECT_LIST_BULLET$[doctrines|E]2\n$EFFECT_LIST_BULLET$[doctrines|E]4\n$EFFECT_LIST_BULLET$[doctrines|E]6" #NT!
  game_concept_refuse_conversion_crime:0 "Rechazar conversión" #NT!
  game_concept_refusing_conversion_crime:0 "Negarse a la conversión" #NT!
  game_concept_refused_conversion_crime:0 "Conversión rechazada" #NT!
  game_concept_refuse_conversion_crime_desc:2 "Negarse a convertir será considerado un [crime|E] si:\n$EFFECT_LIST_BULLET$El [character|E] que se niega es del mismo [religion|E] que el $game_concept_character$ que hace la demanda\n$EFFECT_LIST_BULLET$El $game_concept_religion$ tiene [heresies|E]\n$EFFECT_LIST_BULLET$El [faith|E] del $game_concept_character$ que hace la demanda es $EFFECT_LIST_BULLET$1 o más hacia el $EFFECT_LIST_BULLET$3 del $game_concept_character$ que se niega" #NT!
  game_concept_prison:0 "Prisión" #NT!
- game_concept_imprisons:0 "encarcela" #NT!
+ game_concept_imprisons:0 "Encarcela" #NT!
  game_concept_imprison:0 "Encarcelar" #NT!
- game_concept_imprisoning:0 "encarcelamiento" #NT!
+ game_concept_imprisoning:0 "Encarcelamiento" #NT!
  game_concept_imprisoned:0 "Encarcelado" #NT!
  game_concept_imprisonment:0 "Prisión" #NT!
- game_concept_prisons:0 "prisiones" #NT!
+ game_concept_prisons:0 "Prisiones" #NT!
  game_concept_prisoner:0 "Prisionero" #NT!
  game_concept_prisoners:0 "Prisioneros" #NT!
  game_concept_jailor:0 "Carcelero" #NT!
@@ -873,49 +873,49 @@
  game_concept_tyranny_desc:0 "Muchas acciones de un [ruler|E] se consideran $game_concept_tyrannical$ — contrarias a la ley o religiosas [doctrine|E]. Por ejemplo, [imprisoning|E] o [revoking|E] [titles|E] de alguien que no ha cometido [crime|E] se considera tiránico.\n\nLa tiranía actúa como un modificador general de [opinion|E] para todos los personajes en [realm|E]." #NT!
  game_concept_execute:0 "Ejecutar" #NT!
  game_concept_executed:0 "Ejecutado" #NT!
- game_concept_executing:0 "ejecutando" #NT!
+ game_concept_executing:0 "Ejecutando" #NT!
  game_concept_execution:0 "Ejecución" #NT!
- game_concept_executions:0 "ejecuciones" #NT!
+ game_concept_executions:0 "Ejecuciones" #NT!
  game_concept_execute_desc:1 "[imprisoned|E] Los caracteres pueden ser $game_concept_executed$. Esto se considera [tyrannical|E] a menos que su prisionero tenga un [execute_reason|E].\n\nLas ejecuciones aumentan su [dread|E] y nunca son bien recibidas por el [close_family|E] del desafortunado objetivo." #NT!
  game_concept_torture:0 "Tortura" #NT!
- game_concept_tortured:0 "torturado" #NT!
- game_concept_torturing:0 "torturando" #NT!
+ game_concept_tortured:0 "Torturado" #NT!
+ game_concept_torturing:0 "Torturando" #NT!
  game_concept_torture_desc:0 "Los personajes [imprisoned|E] pueden ser $game_concept_tortured$, dañar su [health|E] o incluso mutilarlos de diferentes maneras.\n\nLa tortura puede aliviar el [stress|E] para los personajes [GetTrait('callous').GetName( GetNullCharacter )] y [GetTrait('sadistic').GetName( GetNullCharacter )], pero causa estrés para aquellos de naturaleza amable.\n\nTorturar [rulers|E] también puede aumentar tu [dread|E] ." #NT!
  game_concept_banish:0 "Desterrar" #NT!
  game_concept_banished:0 "Alejado" #NT!
  game_concept_banishment:0 "Destierro" #NT!
  game_concept_banishment_desc:1 "[imprisoned|E] Los personajes pueden ser $game_concept_banished$ de [realm|E], lo que podría decirse que es la forma más severa de castigo. $game_concept_banished$ [landed|E] Los gobernantes son depuestos, mientras que $game_concept_banished$ [courtiers|E] tienen sus bienes incautados.\n\nEl destierro sin motivo (por ejemplo, algunos [crime|E] graves) se considera extremadamente [tyrannical|E]." #NT!
  game_concept_revoke:0 "Revocar" #NT!
- game_concept_revoked:0 "revocado" #NT!
- game_concept_revoking:0 "revocar" #NT!
+ game_concept_revoked:0 "Revocado" #NT!
+ game_concept_revoking:0 "Revocar" #NT!
  game_concept_revocation:0 "Revocación" #NT!
  game_concept_revocations:0 "Revocaciones" #NT!
  game_concept_revoke_desc:0 "En [limited_crown_authority|E] o superior, [rulers|E] puede $game_concept_revoke$ el [titles|E] de su [vassals|E], pero a menos que el Vasallo sea [imprisoned|E], esta es una propuesta arriesgada, ya que el Vasallo puede negarse y rebelarse.\n\nLa revocación del título se considera [tyrannical|E] a menos que el Vasallo sea culpable de un [crime|E] bastante grave." #NT!
  game_concept_retract:0 "Retraer" #NT!
- game_concept_retracted:0 "retraído" #NT!
- game_concept_retracting:0 "retráctil" #NT!
+ game_concept_retracted:0 "Retraído" #NT!
+ game_concept_retracting:0 "Retráctil" #NT!
  game_concept_retraction:0 "Retracción" #NT!
  game_concept_retractions:0 "Retracciones" #NT!
  game_concept_retract_desc:0 "En [limited_crown_authority|E] o superior, [rulers|E] puede $game_concept_retract$ el [vassal|E] de un Vasallo, pero a menos que este último sea [imprisoned|E], esto es arriesgado, ya que el Vasallo puede negarse y rebelarse.\n\nLa Retracción del Vasallo se considera [tyrannical|E] a menos que el objetivo sea culpable de un bastante grave [crime|E]." #NT!
  game_concept_transfer:0 "Transferir" #NT!
- game_concept_transferred:0 "transferido" #NT!
+ game_concept_transferred:0 "Transferido" #NT!
  game_concept_transferring:0 "Transferencia" #NT!
  game_concept_transfer_desc:0 "[rulers|E] puede $game_concept_transfer$ uno de sus [vassals|E] a otro Vasallo, siempre que el primero sea de menor rango que el segundo. Esta es una buena manera de aumentar el [opinion|E] de un vasallo, especialmente si el vasallo transferido es [de_jure|E] parte de su [realm|E]." #NT!
  game_concept_men_at_arms:0 "Hombres de armas" #NT!
  game_concept_men_at_arms_desc:0 "$game_concept_men_at_arms$ son [soldiers|E] profesionales superiores a [levies|E].\n\nEl jugador tiene control directo sobre la composición y el tamaño de sus Men-at-Arms [regiments|E].\n\nDiferentes tipos de Men-at-Arms son buenos o malos en diferentes tipos de [terrain|E] . Cada tipo también [counters|E] otro tipo." #NT!
- game_concept_skirmishers:0 "escaramuzadores" #NT!
+ game_concept_skirmishers:0 "Escaramuzadores" #NT!
  game_concept_skirmisher:0 "Tirador escondido" #NT!
  game_concept_skirmishers_desc:0 "Los hostigadores son [men_at_arms|E], que están ligeramente armados y son hábiles para hostigar al enemigo.\n\nSi bien cada tipo de hostigador es único, generalmente son [counter|E] [heavy_infantry|E] y, a su vez, son contrarrestados por [archers|E]." #NT!
- game_concept_archers:0 "arqueros" #NT!
+ game_concept_archers:0 "Arqueros" #NT!
  game_concept_archer:1 "Arquero" #NT!
  game_concept_archers_desc:0 "Los arqueros son [men_at_arms|E] que luchan a pie con armas a distancia.\n\nSi bien cada tipo de arquero es único, generalmente son [counter|E] [skirmishers|E] y, a su vez, son contrarrestados por [heavy_cavalry|E] y [light_cavalry|E]." #NT!
- game_concept_light_cavalry:0 "caballería ligera" #NT!
+ game_concept_light_cavalry:0 "Caballería ligera" #NT!
  game_concept_light_cavalry_desc:0 "La Caballería Ligera está montada en [men_at_arms|E] y se destacan en la exploración y persecución del enemigo.\n\nSi bien cada tipo de Caballería Ligera es único, generalmente [counter|E] [archers|E], y a su vez son contrarrestados por [spearmen|E].\n\nLa Caballería Ligera también suele ser fuerte en llano [terrain|E].\n\nEn comparación con [heavy_cavalry|E], suelen ser mejores en [pursuit|E] y [screen|E]." #NT!
- game_concept_heavy_cavalry:0 "caballería pesada" #NT!
+ game_concept_heavy_cavalry:0 "Caballería pesada" #NT!
  game_concept_heavy_cavalry_desc:0 "La caballería pesada está montada, fuertemente blindada [men_at_arms|E]\n\nSi bien cada tipo de caballería pesada es único, generalmente [counter|E] [archers|E] y, a su vez, son contrarrestados por [spearmen|E].\n\nLa caballería pesada también suele ser fuerte en [terrain|E] plano.\n\nEn En comparación con [light_cavalry|E], suelen ser más fuertes en [damage|E] y [toughness|E] sin procesar." #NT!
- game_concept_spearmen:0 "lanceros" #NT!
+ game_concept_spearmen:0 "Lanceros" #NT!
  game_concept_spearmen_desc:0 "Los lanceros son [men_at_arms|E] que luchan a pie con varias armas de asta.\n\nSi bien cada tipo de lancero es único, generalmente son [counter|E] [heavy_cavalry|E] y [light_cavalry|E], y a su vez son contrarrestados por [heavy_infantry|E].\n\nLos lanceros también suelen ser fuertes en las colinas y las montañas [terrain|E] ." #NT!
- game_concept_heavy_infantry:0 "infantería pesada" #NT!
+ game_concept_heavy_infantry:0 "Infantería pesada" #NT!
  game_concept_heavy_infantry_desc:0 "La infantería pesada son [men_at_arms|E] que luchan a pie, con armaduras y armas más pesadas.\n\nAunque cada tipo de infantería pesada es único, por lo general son [counter|E] [spearmen|E] y, a su vez, son contrarrestados por [skirmishers|E]." #NT!
  game_concept_archer_cavalry:0 "Caballería de arqueros" #NT!
  game_concept_archer_cavalry_desc:0 "$game_concept_archer_cavalry$ son [men_at_arms|E] montados y equipados con armas a distancia.\n\nSi bien cada tipo de $game_concept_archer_cavalry$ es único, por lo general son [counter|E] [heavy_infantry|E] y, a su vez, son contrarrestados por [archers|E] equipados con ballestas.\n\n$game_concept_archer_cavalry$ también suelen ser fuertes en [terrain|E] plano, particularmente en estepa ." #NT!
@@ -932,7 +932,7 @@
  game_concept_counters:0 "Contadores" #NT!
  game_concept_men_at_arms_counter:0 "Contador de hombres de armas" #NT!
  game_concept_men_at_arms_counter_desc:0 "La mayoría de [men_at_arms|E] pueden $game_concept_counter$ a otro tipo de $game_concept_men_at_arms$.\n\nCuando se contrarresta un [regiment|E], su eficacia durante un [battle|E] disminuye. Cuanto más supere en número a un $game_concept_regiment$ por su $game_concept_counter$, mayor será la penalización." #NT!
- game_concept_intimidated:0 "intimidado" #NT!
+ game_concept_intimidated:0 "Intimidado" #NT!
  game_concept_intimidated_i:0 "@intimidated_icon!" #NT!
  game_concept_intimidated_desc:1 "Los personajes que temen mucho a otro personaje son intimidados por ellos. Esto generalmente es causado por [dread|E] y/o una personalidad cobarde.\n\nEs menos probable que los personajes intimidados inicien acciones hostiles contra el personaje al que temen, incluso unirse o iniciar [factions|E].\n\nLos personajes que tienen aún más miedo se marcan como [cowed|E] ." #NT!
  game_concept_cowed:1 "Aterrorizado" #NT!
@@ -973,18 +973,18 @@
  game_concept_county_development_growth_desc:0 "$game_concept_county_development_growth$ mide qué tan lejos está [county|E] de aumentar su [development|E].\n\nA 100 $game_concept_county_development_growth$, $game_concept_county_development$ aumenta en 1." #NT!
  game_concept_existing_development:0 "Desarrollo existente" #NT!
  game_concept_existing_development_desc:1 "La tarea del administrador [develop_county|E] sufre de rendimientos decrecientes. Cuanto más [development|E] tiene un [county], más [development_growth|E] es penalizado.\n\nPor defecto, [counties] alcanza la penalización máxima de [existing_development] en 10 [development|E]. Cada [era|E] tiene un [innovation|E] que aumenta significativamente este límite, llegando hasta 90 [development|E] en el [development|E]0 [development|E]1.\n\nInnovaciones que afectan al modificador [development|E]2:\n[development|E]3 [development|E]4\n[development|E]3 [development|E]6\n[development|E]3 [development|E]8\n[development|E]3 [county]0" #NT!
- game_concept_county_control:0 "control del condado" #NT!
+ game_concept_county_control:0 "Control del condado" #NT!
  game_concept_control:0 "Control" #NT!
  game_concept_control_desc:1 "$game_concept_control$ mide el control que el gobierno tiene sobre la población de un [county|E]. Es crucial, especialmente para recolectar [taxes|E] de [holdings|E].\n\nCuando un condado cambia de manos a través de [war|E], el control se reduce drásticamente, lo que es una buena razón para convertir en vasallo al actual [holder|E] (si el [casus_belli|E] lo permite). El control del condado también puede verse afectado por [sieges|E] y [Concept( 'peasant_faction', 'Peasant Uprisings' )|E].\n\nEl control bajo puede llevar a [county_corruption|E], y la forma principal de aumentar el control es un [county|E]0 disponible para su [county|E]1." #NT!
- game_concept_absolute_control:0 "control absoluto" #NT!
+ game_concept_absolute_control:0 "Control absoluto" #NT!
  game_concept_absolute_control_desc:1 "$game_concept_absolute_control$ es un estado especial de [control|E] habilitado por $absolute_control_perk_name$ [perk|E], lo que indica que el gobernante tiene un control férreo sobre la población.\n\nSiempre que $game_concept_control$ esté en #V 100#!, , se mostrará como '$ABSOLUTE_COUNTY_CONTROL$' y otorgará bonificaciones adicionales a [taxes|E] y [levies|E]." #NT!
- game_concept_county_corruption:0 "corrupción del condado" #NT!
+ game_concept_county_corruption:0 "Corrupción del condado" #NT!
  game_concept_county_corruption_desc:0 "Mientras que un [county|E] tiene un [control|E] bajo o su [holder|E] está en [debt|E], el Condado podría adquirir $game_concept_county_corruption$. Estos son varios tipos de [county_modifiers|E] negativos.\n\n$game_concept_county_corruption$ se desvanecerá con el tiempo, pero si la causa principal persiste ([debt|E] o [control|E] bajo), puede reaparecer.\n\nEl $councillor_marshal$ [control|E]0 [control|E]1 puede eliminar $game_concept_county_corruption$ más rápido." #NT!
  game_concept_county_modifier:0 "Modificador de condado" #NT!
  game_concept_county_modifiers:0 "Modificadores de condado" #NT!
  game_concept_county_modifier_desc:1 "$game_concept_county_modifiers$ son modificadores que afectan los diversos valores de [county|E].\n\n[baronies|E] puede tener sus propios modificadores, y se pueden ver en [holdings|E] de $game_concept_county$." #NT!
  game_concept_fleet:0 "Flota" #NT!
- game_concept_fleets:0 "flotas" #NT!
+ game_concept_fleets:0 "Flotas" #NT!
  game_concept_fleet_desc:1 "[armies|E] que se muevan a una Zona Marítima automáticamente [embark|E] en un $game_concept_fleet$. [embarking] cuesta una suma de [gold|E], lo que simboliza la adquisición y construcción de barcos.\n\nMientras esté en un $game_concept_fleet$, [armies] podrá navegar por el agua a un ritmo rápido, aunque le costará #V 25%#! más mantenimiento y comenzará a perder [supplies|E] después de #V [embark|E]1#!  días en el mar.\n\n[embark|E]3 no se enfrenten entre sí en [embark|E]4.\n\nCuando un [embark|E]5 desembarque, el $game_concept_fleet$ desaparecerá y el [embark|E]5 se convertirá en [embark|E]8." #NT!
  game_concept_domain_income:0 "Ingresos de dominio" #NT!
  game_concept_domain_taxes:0 "Impuestos de dominio" #NT!
@@ -995,7 +995,7 @@
  game_concept_liege_taxes_desc:1 "Tus $game_concept_liege_taxes$ son los [taxes|E] que debes pagar a tu [liege|E] como parte de tu [obligations|E]. No paga ningún $game_concept_liege_taxes$ si es [independent|E].\n\nDesde el punto de vista de su Señor Feudal, estos mismos impuestos se denominan [vassal_taxes|E] para distinguirlos de cualquier impuesto que puedan adeudar a su propio $game_concept_liege$." #NT!
  game_concept_usurp_title:0 "Título de usurpación" #NT!
  game_concept_usurp:0 "Usurpar" #NT!
- game_concept_usurped:0 "usurpado" #NT!
+ game_concept_usurped:0 "Usurpado" #NT!
  game_concept_usurpation:0 "Usurpación" #NT!
  game_concept_usurp_title_desc:1 "Un [title|E] en poder de un [ruler|E] extranjero generalmente puede usurparse si más del #V 50%#! de sus [de_jure|E] [counties|E] están dentro de su [realm|E]. Este proceso te otorga el [title|E], lo cual es particularmente importante para garantizar que eres el [rightful_liege|E] de tu [vassals|E].\n\nLa usurpación es más difícil si el [ruler|E]0 del titular actual es hostil al tuyo; en este caso, la usurpación solo es posible si el titular ya no posee ninguno de sus [de_jure|E] [counties|E] dentro de su Reino." #NT!
  game_concept_close_family:0 "Familia cercana" #NT!
@@ -1017,18 +1017,18 @@
  game_concept_gender_laws:0 "Leyes de Género" #NT!
  game_concept_gender_law_desc:0 "Cada [ruler|E] tiene una Ley de género principal que determina a quién puede pasar su [titles|E] en [succession|E]. Las leyes de género también afectan quién puede comandar [armies|E] y la elegibilidad de tener múltiples [spouses|E] o [concubines|E].\n\nLas leyes de género disponibles dependen de la 'Vista de género' [doctrine|E] de [faith|E]." #NT!
  game_concept_depose:0 "Deponer" #NT!
- game_concept_deposed:0 "depuesto" #NT!
+ game_concept_deposed:0 "Depuesto" #NT!
  game_concept_depose_desc:0 "[rulers|E] puede ser Depuesto como resultado de las demandas de [faction|E] o eventos especiales. Su [heirs|E] heredará su [titles|E] aunque el antiguo gobernante todavía esté vivo." #NT!
  game_concept_virtue:0 "Virtud" #NT!
- game_concept_virtues:0 "virtudes" #NT!
+ game_concept_virtues:0 "Virtudes" #NT!
  game_concept_virtuous:0 "Virtuoso" #NT!
  game_concept_virtue_desc:1 "Cada [faith|E] considera que cierto [traits|E] es Virtuoso. Los personajes con estos rasgos obtienen bonificaciones de [opinion|E] de todos los personajes que consideran esos rasgos virtuosos, incluso si no comparten la misma fe. Además, los Personajes que tienen Rasgos que su propia Fe considera Virtuosos obtendrán una bonificación de [piety|E] cada mes.\n\nExactamente qué rasgos se consideran Virtudes varía de una Fe a otra, pero generalmente se determina mediante una combinación del [core_tenets|E] de esa Fe y el [religion|E] a la que pertenece la Fe." #NT!
  game_concept_sin:0 "Pecado" #NT!
- game_concept_sins:0 "pecados" #NT!
+ game_concept_sins:0 "Pecados" #NT!
  game_concept_sinful:0 "Pecaminoso" #NT!
  game_concept_sin_desc:1 "Cada [faith|E] considera que cierto [traits|E] es pecaminoso. Los personajes con estos rasgos incurren en penalizaciones de [opinion|E] por parte de todos los personajes que consideren esos rasgos pecaminosos, incluso si no comparten la misma fe. Además, los Personajes que tienen Rasgos que su propia Fe considera pecaminosos perderán [piety|E] cada mes.\n\nExactamente qué rasgos se consideran Pecados varía de una Fe a otra, pero generalmente se determina mediante una combinación de [core_tenets|E] y [religion|E] de esa Fe. pertenece la Fe." #NT!
  game_concept_legalism:0 "Legalismo" #NT!
- game_concept_legalistic:0 "legalista" #NT!
+ game_concept_legalistic:0 "Legalista" #NT!
  game_concept_legalism_desc:1 "A [core_tenet|E] destacando la práctica jurídica y la tradición en teología y devoción. Afecta los costos de la ley y la membresía de [vassal|E] [faction|E] según el número de [sins|E] o [virtues|E] que tenga un [ruler|E]." #NT!
  game_concept_dynasty_prestige_level_0:0 "Orígenes básicos" #NT!
  game_concept_dynasty_prestige_level_1:0 "Oscuro" #NT!
@@ -1070,7 +1070,7 @@
  game_concept_culture_tradition:0 "Tradición cultural" #NT!
  game_concept_culture_traditions:0 "Tradiciones culturales" #NT!
  game_concept_tradition:0 "Tradición" #NT!
- game_concept_traditions:0 "tradiciones" #NT!
+ game_concept_traditions:0 "Tradiciones" #NT!
  game_concept_culture_tradition_desc:2 "Las tradiciones representan las prácticas, hábitos, valores y ética del individuo [cultures|E].\n\nCada tradición otorga algún tipo de bonificación o habilidad especial a [characters|E] o [counties|E] de esa cultura.\n\n[SelectLocalization( HasDlcFeature( 'reform_culture' ), 'game_concept_culture_tradition_desc_REFORM_DLC', 'game_concept_culture_tradition_desc_NO_REFORM_DLC' )]\n\n$game_concept_cultures$ puede tener hasta 6 tradiciones , pero la mayoría tiene menos." #NT!
  game_concept_culture_tradition_desc_REFORM_DLC:0 "El [culture_head|E] puede establecer nuevas Tradiciones o reemplazar las existentes para una Cultura a través de [reformation|E]." #NT!
  game_concept_culture_tradition_desc_NO_REFORM_DLC:0 "El [culture_head|E] puede establecer nuevas Tradiciones para una Cultura, a costa de [prestige|E]." #NT!
@@ -1089,7 +1089,7 @@
  game_concept_martial_custom_desc:1 "Martial Custom es el [culture_pillar|E] que determina qué géneros pueden actuar como [commanders|E] o [knights|E].\n\nAlgunos [traditions|E] y [doctrines|E] pueden modificar estas reglas para ciertos [characters|E]." #NT!
  game_concept_culture_intermingling:0 "Cultura entremezclada" #NT!
  game_concept_culture_intermingling_desc:1 "Cuantos más de dos [cultures|E] convivan en un mismo [realm|E], más se entremezclarán y las Culturas aumentarán su [cultural_acceptance|E]." #NT!
- game_concept_cultural_head:0 "jefe cultural" #NT!
+ game_concept_cultural_head:0 "Jefe cultural" #NT!
  game_concept_culture_head:1 "Jefe de cultura" #NT!
  game_concept_culture_head_desc:3 "Un '$game_concept_culture_head$' es el [ruler|E] que tiene la mayor influencia sobre su propio [culture|E].\n\nEspecíficamente, el gobernante con el mayor número total de [counties|E] de la misma cultura dentro de su [realm|E] se convertirá en el $game_concept_cultural_head$, independientemente de dónde esté su [domain|E] o qué otros -Condados de cultura que pueden poseer.\n\nEl $game_concept_cultural_head$ puede influir en qué [innovation|E] se debe priorizar para el descubrimiento configurando el [cultural_fascination|E].\n\n[ruler|E]0" #NT!
  game_concept_culture_head_desc_REFORM_DLC:0 "El $game_concept_culture_head$ también puede [reform|E] partes de su Cultura." #NT!
@@ -1117,27 +1117,27 @@
  game_concept_war_chest:0 "Tesoro de guerra" #NT!
  game_concept_war_chest_desc:1 "El $game_concept_war_chest$ es una colección de [gold|E], [piety|E] y [prestige|E]. Los contenidos se utilizan principalmente como recompensas por ganar con éxito [undirected_great_holy_wars|E], donde se dividen entre los atacantes en función de su participación en [war|E].\n\nUna cierta parte de lo que hay en $game_concept_war_chest$ también se divide entre los atacantes cuando se declara la guerra. \n\nSi un [undirected_great_holy_war|E] es derrotado, los defensores dividirán la parte de Piedad y Prestigio del $game_concept_war_chest$ entre ellos #weak  (el Oro se pierde).[gold|E]0" #NT!
  game_concept_crusade:0 "Cruzada" #NT!
- game_concept_great_holy_war_undirected:0 "no dirigido" #NT!
- game_concept_crusades:0 "cruzadas" #NT!
+ game_concept_great_holy_war_undirected:0 "No dirigido" #NT!
+ game_concept_crusades:0 "Cruzadas" #NT!
  game_concept_jihad:0 "Yihad" #NT!
- game_concept_great_holy_war_directed:0 "dirigido" #NT!
- game_concept_jihads:0 "yihads" #NT!
+ game_concept_great_holy_war_directed:0 "Dirigido" #NT!
+ game_concept_jihads:0 "Yihads" #NT!
  game_concept_title_tier:0 "Nivel" #NT!
  game_concept_title_tiers:0 "Niveles" #NT!
  game_concept_rank:0 "Rango" #NT!
  game_concept_title_rank:1 "Rango" #NT!
- game_concept_title_ranks:0 "rangos" #NT!
- game_concept_ranks:0 "rangos" #NT!
+ game_concept_title_ranks:0 "Rangos" #NT!
+ game_concept_ranks:0 "Rangos" #NT!
  game_concept_title_tier_desc:2 "El equivalente terrestre del Título [rank|E], el $game_concept_title_tier$ determina la posición de un [title|E] dentro de la jerarquía del juego.\n\nTodos los títulos tienen un Nivel, que determina el Nivel más alto posible de [vassals|E] que puede tener el [holder|E].\n\n[empire|E] > [kingdom|E] > [duchy|E] > [county|E] > [barony|E]." #NT!
  game_concept_title_rank_desc:0 "El equivalente personal del título [title_tier|E], $game_concept_title_rank$ determina la posición de un [ruler|E] dentro de la jerarquía del juego.\n\nTodos los niveles de título tienen un rango asociado, que determina el rango más alto posible de [vassals|E] que puede tener el [holder|E].\n\n[emperor|E] > [king|E] > [duke|E] > [count|E] > [baron|E]." #NT!
  game_concept_clergy:0 "Clero" #NT!
  game_concept_clergy_desc:1 "[court_chaplains|E], [realm_priests|E], [theocratic|E] Los gobernantes y cualquier persona con el rasgo [GetTrait('devoted').GetName( GetNullCharacter )] se consideran miembros del clero.\n\nEl [doctrines|E] del [faith|E] determina quién puede ser miembro del clero y si los miembros del clero pueden casarse, heredar tierras, etc." #NT!
  game_concept_church_property:0 "Participaciones de la iglesia" #NT!
  game_concept_church_holdings:0 "Participaciones de la iglesia" #NT!
- game_concept_church_holding:0 "tenencia de la iglesia" #NT!
+ game_concept_church_holding:0 "Tenencia de la iglesia" #NT!
  game_concept_church_property_desc:0 "Church Holdings son [temples|E] bajo el control de un [realm_priest|E].\n\nEn [faiths|E] con [GetFaithDoctrine('doctrine_theocracy_lay_clergy').GetBaseName] [doctrine|E], no hay Church Holdings y [temples|E] puede ser propiedad directa de [rulers|E] secular sin penalización." #NT!
  game_concept_embarking:0 "Embarque" #NT!
- game_concept_embarked:0 "embarcado" #NT!
+ game_concept_embarked:0 "Embarcado" #NT!
  game_concept_embarked_i:0 "@embarked_icon!" #NT!
  game_concept_embark:0 "Embarcar" #NT!
  game_concept_embarkation:0 "Embarque" #NT!
@@ -1151,7 +1151,7 @@
  game_concept_cultural_fascination:0 "Fascinación Cultural" #NT!
  game_concept_fascination:0 "Fascinación" #NT!
  game_concept_cultural_fascination_desc:0 "Cada cultura siempre está fascinada por un [innovation|E] específico, lo que aumenta considerablemente la velocidad de descubrimiento a un ritmo que depende del [learning|E] del [culture_head|E] actual.\n\nEl líder cultural puede cambiar la fascinación cultural libremente." #NT!
- game_concept_cultural_exposure:0 "exposición cultural" #NT!
+ game_concept_cultural_exposure:0 "Exposición cultural" #NT!
  game_concept_exposure:0 "Exposición" #NT!
  game_concept_exposed:0 "Expuesto" #NT!
  game_concept_cultural_exposure_desc:1 "El contacto con otros [cultures|E] que no han descubierto [innovations|E] hará que uno de esos $game_concept_innovations$ se descubra más rápidamente. Cualquier cantidad de $game_concept_exposure$ habilitará esta tasa de descubrimiento mejorada y $game_concept_exposure$ adicionales no aumentarán el efecto." #NT!
@@ -1160,7 +1160,7 @@
  game_concept_congenital_traits:0 "Rasgos Congénitos" #NT!
  game_concept_congenital_desc:0 "Ciertos [traits|E] son congénitos y pueden ser heredados por la descendencia. A través de [breeding|E] adecuado, incluso es posible reforzar algunos de estos Rasgos.\n\nPor ejemplo, si ambos padres son [GetTrait('intellect_good_1').GetName( GetNullCharacter )], existe la posibilidad de que sus hijos obtengan el Rasgo [GetTrait('intellect_good_2').GetName( GetNullCharacter )] aún mejor.\n\nLos [skills|E] básicos no son congénitos." #NT!
  game_concept_breeding:0 "Cría" #NT!
- game_concept_bred:0 "criado" #NT!
+ game_concept_bred:0 "Criado" #NT!
  game_concept_breed:0 "Criar" #NT!
  game_concept_breeding_desc:2 "Al organizar [marriages|E] entre personajes con buen [congenital|E] [traits|E], es posible criar niños con los mismos Rasgos. La descendencia afortunada podría incluso obtener una versión reforzada de tales Rasgos.\n\nSin embargo, lo mismo se aplica a los Rasgos Congénitos malos como [GetTrait('beauty_bad_2').GetName( GetNullCharacter )].\n\nPuede ser tentador organizar matrimonios entre personajes estrechamente relacionados para producir mejores Rasgos en tu niños, pero esto también conlleva el riesgo de defectos [inbreeding|E]." #NT!
  game_concept_inbreeding:0 "Endogamia" #NT!
@@ -1190,7 +1190,7 @@
  game_concept_siege_weapon_desc:0 "$game_concept_siege_weapons$ son [men_at_arms|E] que se enfocan completamente en [sieges|E].\n\nNo tienen un impacto en [battles|E], pero harán que un $game_concept_siege$ se complete mucho más rápido al aumentar el [siege_progress|E].\n\nSin embargo, $game_concept_siege_weapons$ solo son efectivos para asediar [holdings|E] hasta cierto punto. [fort_level|E]." #NT!
  game_concept_completely_controls:0 "Controles completamente" #NT!
  game_concept_completely_control:0 "Control total" #NT!
- game_concept_completely_controlled:0 "completamente controlado" #NT!
+ game_concept_completely_controlled:0 "Completamente controlado" #NT!
 
  game_concept_complete_control:0 "Control completo" #NT!
  game_concept_complete_control_desc:2 "Esta condición se cumple cuando todos los [de_jure|E] [titles|E] vasallos del título objetivo están en manos de [ruler|E] o de su [vassals|E] y ninguno de sus condados es [occupied|E] de [armies|E] hostil." #NT!
@@ -1214,7 +1214,7 @@
  game_concept_hungarian_invasion:0 "$HUNGARIAN_INVASION_CB_NAME$" #NT!
  game_concept_hungarian_invasion_casus_belli_desc:0 "Un poderoso [casus_belli|E] que solo se puede usar una vez por campaña, en total, para conquistar todos los territorios en poder del objetivo dentro de Pannonia.\n\nEn la victoria, todos los $mogyer_collective_noun$ en el [realm|E] del atacante se moverán con ellos a Pannonia, [counties|E] #EMP  y #! [vassals|E], desplazando $avar$ $game_concept_counties$ . Otros vasallos fuera de Panonia son abandonados, mientras que $game_concept_counties$ anteriormente ocupada o retenida por $mogyer_collective_noun$ se deja en manos de pequeños señores de la guerra locales y tribus esteparias rivales." #NT!
  game_concept_knight:0 "Capitán" #NT!
- game_concept_knights:0 "capitanes" #NT!
+ game_concept_knights:0 "Capitanes" #NT!
  game_concept_knight_i:0 "@knight_icon!" #NT!
  game_concept_knight_desc:3 "Un $game_concept_knight$ es un [vassal|E] o [courtier|E] que lucha directamente en tu [army|E].\n\nDurante [battles|E], $game_concept_knights$ usa su [prowess_skill|E] para luchar con mayor eficacia. Un $game_concept_prowess$ alto significa que podrán infligir más daño al enemigo y es más probable que sobrevivan o incluso salgan ilesos de $game_concept_battle$.\n\nUn personaje no puede ser un [commander|E] y un $game_concept_knight$ al mismo tiempo.\n\ n[vassal|E]1Los capitanes pueden ser conocidos por diferentes nombres dependiendo de [vassal|E]2 o [vassal|E]3. Por ejemplo, [vassal|E]4, [vassal|E]5 o [vassal|E]6.\n\nLos capitanes representan tanto al personaje como a su séquito de tropas.[vassal|E]7" #NT!
  game_concept_knight_effectiveness:0 "Capitán Eficacia" #NT!
@@ -1250,8 +1250,8 @@
  game_concept_stress_levels:0 "Niveles de estres" #NT!
  game_concept_stressed:0 "Estresado" #NT!
  game_concept_stress_level_desc:1 "Cada 100 [stress|E] que acumula un personaje también hace que gane un nivel de estrés. Los niveles de estrés varían de 0 a 3, y cada nivel impone penalizaciones crecientes a [fertility|E] y [health|E] de un personaje.\n\nAdemás, siempre que un personaje tenga al menos 1 nivel de estrés, es vulnerable a [mental_breaks|E]." #NT!
- game_concept_mental_break:0 "descanso mental" #NT!
- game_concept_mental_breaks:0 "descansos mentales" #NT!
+ game_concept_mental_break:0 "Descanso mental" #NT!
+ game_concept_mental_breaks:0 "Descansos mentales" #NT!
  game_concept_mental_break_desc:0 "Cuando [stress|e] abruma a un personaje, este experimentará una ruptura mental, una crisis personal en la que siente que debe hacer algo para reducir su estrés, sin importar el costo.\n\nLos personajes que sufren una ruptura mental tendrán varias formas de lidiar con la situación, aunque muchas de ellas tendrán consecuencias negativas.\n\nCon [stress_levels|E] bajo, estas consecuencias son menores y fáciles de manejar. Sin embargo, a medida que aumenta el nivel de estrés, también lo hacen estas consecuencias, que eventualmente conducen a la locura e incluso a la muerte." #NT!
  stress_icon_tooltip:0 "$game_concept_mental_break_desc$" #NT!
 
@@ -1264,12 +1264,12 @@
  game_concept_title_allegiance:0 "Título Lealtad" #NT!
  game_concept_title_allegiance_desc:0 "[vassals|E] puede deberle Lealtad a un [title|E] específico en lugar de a la persona de su [liege|E]. Esto solo puede suceder si el Título tiene su propio [succession_law|E]. En [succession|E], dichos Vasallos se convertirán en vasallos del nuevo Título [holder|E]." #NT!
  game_concept_nominate:0 "Nombrar" #NT!
- game_concept_nominate_heir:0 "nominar heredero" #NT!
+ game_concept_nominate_heir:0 "Nominar heredero" #NT!
  game_concept_nomination:0 "Nominación" #NT!
- game_concept_nominations:0 "nominaciones" #NT!
+ game_concept_nominations:0 "Nominaciones" #NT!
  game_concept_nominate_desc:1 "Bajo el [succession_laws|E] Electivo, cada [elector|E] puede Nominar a su [title_heir|E] preferido. Las preferencias de voto de los candidatos válidos y los electores difieren según la ley específica." #NT!
  game_concept_elector:0 "Elector" #NT!
- game_concept_electors:0 "electores" #NT!
+ game_concept_electors:0 "Electores" #NT!
  game_concept_elector_desc:1 "Los electores son los personajes que pueden votar por su [title_heir|E] preferido en el [succession_laws|E] electivo. La Ley específica determina quién es considerado Elector." #NT!
  game_concept_attraction:0 "Atracción" #NT!
  game_concept_attracted:0 "Atraído" #NT!
@@ -1277,7 +1277,7 @@
  game_concept_sexuality:1 "Orientación sexual" #NT!
  game_concept_sexuality_desc:1 "La orientación sexual de un personaje determina a qué otros personajes son potencialmente [attracted|E].\n\nLa orientación sexual no afecta a quién puede [marry|E], pero puede reducir el [fertility|E] de una pareja casada si alguno de los cónyuges no coincide con la preferencia del otro.\n\ nLas orientaciones sexuales limitadas modeladas en #EMP Crusader Kings III#! incluyen:\n$EFFECT_LIST_BULLET$[heterosexual|E]\n$EFFECT_LIST_BULLET$[homosexual|E]\n$EFFECT_LIST_BULLET$[marry|E]0\n$EFFECT_LIST_BULLET$[marry|E]2" #NT!
  sexuality_ho:0 "[homosexual|E]" #NT!
- game_concept_homosexual:0 "homosexual" #NT!
+ game_concept_homosexual:0 "Homosexual" #NT!
  game_concept_homosexual_desc:2 "En #EMP Crusader Kings III#!, este personaje se siente atraído por personajes de su mismo género." #NT!
  sexuality_he:0 "[heterosexual|E]" #NT!
  game_concept_heterosexual:0 "Heterosexual" #NT!
@@ -1304,14 +1304,14 @@
  game_concept_relation_desc:3 "$game_concept_relations$ son relaciones que tiene un personaje que no están vinculados por la familia o [vassalage|E]. Estos $game_concept_relations$ se dividen en varias categorías diferentes, pueden llevar [character_modifiers|E] para el personaje involucrado y determinar qué cosas pueden pasar entre ellos.\n\nRelaciones estándar:\n$EFFECT_LIST_BULLET$ [friend|E]\n$EFFECT_LIST_BULLET$ [lover|E]\n$EFFECT_LIST_BULLET$ [rival|E]\n$EFFECT_LIST_BULLET$ [vassalage|E]1\n$EFFECT_LIST_BULLET$ [vassalage|E]3\n$EFFECT_LIST_BULLET$ [vassalage|E]5\ n$EFFECT_LIST_BULLET$ [vassalage|E]7\n\nRelaciones mejoradas:\n$EFFECT_LIST_BULLET$ [vassalage|E]9\n$EFFECT_LIST_BULLET$ $game_concept_relations$1\n$EFFECT_LIST_BULLET$ $game_concept_relations$3\n\nRelaciones infantiles:\n$EFFECT_LIST_BULLET$ $game_concept_relations$5\n$EFFECT_LIST_BULLET$ $game_concept_relations$7\n$EFFECT_LIST_BULLET$ $game_concept_relations$9" #NT!
 
  game_concept_lover:0 "Amante" #NT!
- game_concept_lovers:0 "amantes" #NT!
- game_concept_lover_possessive:0 "del amante" #NT!
- game_concept_lovers_possessive:0 "amantes" #NT!
+ game_concept_lovers:0 "Amantes" #NT!
+ game_concept_lover_possessive:0 "Del amante" #NT!
+ game_concept_lovers_possessive:0 "Amantes" #NT!
  game_concept_lover_desc:3 "Un $game_concept_lover$ es un $game_concept_relation$ que indica una asociación amorosa y sexual en curso entre dos [characters|E].\n\nComo a menudo tienen lugar fuera de los lazos de [marriage|E] o [concubinage|E], la mayoría de $game_concept_lover$ $game_concept_relations$ comienzan como [secrets|E].\n\nSi un hombre y una mujer son $game_concept_lovers$ , la mujer puede quedar embarazada del hijo del hombre. Si no son $game_concept_married$ (y uno no es el $game_concept_relation$0 del otro), el niño será un $game_concept_relation$1, secreto o no.\n\n$game_concept_lovers$ que son profundamente leales y afectuosos podrían convertirse en $game_concept_relation$3." #NT!
  game_concept_soulmate:0 "Alma gemela" #NT!
- game_concept_soulmates:0 "almas gemelas" #NT!
- game_concept_soulmate_possessive:0 "del alma gemela" #NT!
- game_concept_soulmates_possessive:0 "almas gemelas" #NT!
+ game_concept_soulmates:0 "Almas gemelas" #NT!
+ game_concept_soulmate_possessive:0 "Del alma gemela" #NT!
+ game_concept_soulmates_possessive:0 "Almas gemelas" #NT!
  game_concept_soulmate_desc:0 "Un $game_concept_soulmate$ es un $game_concept_relation$ que indica un amor profundo, profundo y romántico. Es un $game_concept_relation$ más fuerte que un [lover|E]. Un $game_concept_character$ solo puede tener un $game_concept_soulmate$." #NT!
 
  game_concept_friend:0 "Amigo" #NT!
@@ -1329,7 +1329,7 @@
  game_concept_rival:0 "Rival" #NT!
  game_concept_rivals:0 "Rivales" #NT!
  game_concept_rivalries:0 "Rivalidades" #NT!
- game_concept_rival_possessive:0 "del rival" #NT!
+ game_concept_rival_possessive:0 "Del rival" #NT!
  game_concept_rivals_possessive:0 "Rivales" #NT!
  game_concept_rival_desc:2 "Un $game_concept_rival$ es un $game_concept_relation$ que indica resentimiento de por vida, si no odio.\n\n$game_concept_rivals$ que realmente se desprecian unos a otros podrían convertirse en [nemeses|E]." #NT!
 
@@ -1339,23 +1339,23 @@
  game_concept_nemeses_possessive:0 "Némesis'" #NT!
  game_concept_nemesis_desc:1 "Un $game_concept_nemesis$ es un $game_concept_relation$ que indica desprecio y odio absolutos (y mutuos). Es un $game_concept_relation$ más fuerte que un [rival|E]. Un personaje solo puede tener un $game_concept_nemesis$." #NT!
 
- game_concept_guardian:0 "guardián" #NT!
- game_concept_guardians:0 "guardianes" #NT!
- game_concept_guardian_possessive:0 "del guardián" #NT!
+ game_concept_guardian:0 "Guardián" #NT!
+ game_concept_guardians:0 "Guardianes" #NT!
+ game_concept_guardian_possessive:0 "Del guardián" #NT!
  game_concept_guardians_possessive:0 "Guardianes" #NT!
- game_concept_guardianship:0 "tutela" #NT!
+ game_concept_guardianship:0 "Tutela" #NT!
  game_concept_guardian_desc:1 "Un $game_concept_guardian$ es un [character|E] asignado a [educate|E] a [child|E] (llamado su [ward|E]).\n\n$game_concept_guardians$ tiende a transmitir su personalidad [traits|E] a su $game_concept_wards$, así como su [culture|E] y/o [faith|E], si así se especifica en el [character|E]0.\n \nEl $game_concept_guardian$ puede residir en un [character|E]2 diferente. Confiar un [character|E]3 a la merced de otro [character|E]4 de esta manera aumentará su [character|E]5 de ti." #NT!
 
  game_concept_ward:0 "Pabellón" #NT!
- game_concept_wards:0 "barrios" #NT!
+ game_concept_wards:0 "Barrios" #NT!
  game_concept_ward_possessive:0 "Ward's" #NT!
  game_concept_wards_possessive:0 "Wards'" #NT!
  game_concept_ward_desc:0 "Un $game_concept_ward$ es un [child|E] siendo [educated|E] por un [guardian|E]. Cada $game_concept_guardian$ puede manejar hasta dos $game_concept_wards$." #NT!
 
  game_concept_mentor:0 "Mentor" #NT!
  game_concept_mentors:0 "Mentores" #NT!
- game_concept_mentor_possessive:0 "del mentor" #NT!
- game_concept_mentors_possessive:0 "mentores" #NT!
+ game_concept_mentor_possessive:0 "Del mentor" #NT!
+ game_concept_mentors_possessive:0 "Mentores" #NT!
  game_concept_mentor_desc:0 "$game_concept_mentors$ son [characters|E] que ayudan a mejorar el [skills|E] de su [student|E]. Se pueden obtener a través de eventos cuando su [lifestyle|E] [focus|E] está configurado en un $game_concept_skill$ en particular." #NT!
 
  game_concept_student:0 "Alumno" #NT!
@@ -1365,24 +1365,24 @@
  game_concept_student_desc:0 "$game_concept_students$ son [characters|E] beneficiándose de los consejos de un [mentor|E], que les está ayudando a avanzar en uno de sus [skills|E]. $game_concept_mentors$ se obtienen a través de eventos cuando su [lifestyle|E] [focus|E] se establece en un $game_concept_skill$ en el que sobresalen." #NT!
 
  game_concept_bully:0 "Matón" #NT!
- game_concept_bullies:0 "matones" #NT!
- game_concept_bully_possessive:0 "del matón" #NT!
- game_concept_bullies_possessive:0 "matones" #NT!
+ game_concept_bullies:0 "Matones" #NT!
+ game_concept_bully_possessive:0 "Del matón" #NT!
+ game_concept_bullies_possessive:0 "Matones" #NT!
  game_concept_bully_desc:0 "Un $game_concept_bully$ es un [child|E] cruel que se mete con otro $game_concept_child$ (su [victim|E]), por diversión, beneficio o simplemente por aburrimiento. Al llegar a [adulthood|E], un $game_concept_bully$ puede convertirse en un [rival|E], o pueden dejar su odio infantil." #NT!
 
  game_concept_victim:0 "Víctima" #NT!
  game_concept_victims:0 "Víctimas" #NT!
- game_concept_victim_possessive:0 "de la víctima" #NT!
+ game_concept_victim_possessive:0 "De la víctima" #NT!
  game_concept_victims_possessive:0 "Víctimas" #NT!
  game_concept_victim_desc:0 "Un $game_concept_victim$ es un [child|E] que actualmente está siendo acosado por otro $game_concept_child$, a menudo por razones que nadie entiende, excepto su [bully|E]. Al llegar a [adulthood|E], pueden convertirse en [rivals|E] con su $game_concept_bully$, o aprender a dejar atrás las luchas de la juventud." #NT!
 
  game_concept_crush:0 "Aplastar" #NT!
- game_concept_crushes:0 "aplasta" #NT!
- game_concept_crush_possessive:0 "aplastar" #NT!
+ game_concept_crushes:0 "Aplasta" #NT!
+ game_concept_crush_possessive:0 "Aplastar" #NT!
  game_concept_crushes_possessive:0 "Aplasta'" #NT!
  game_concept_crush_desc:0 "Un $game_concept_crush$ es otro [child|E] por el que este $game_concept_child$ está desarrollando sus primeros sentimientos (bastante dolorosamente incómodos). Al llegar a [adulthood|E], si $game_concept_crush$ es mutuo, puede convertirse en [lovers|E], o [character|E] puede continuar con su vida." #NT!
 
- game_concept_modifier:0 "modificador" #NT!
+ game_concept_modifier:0 "Modificador" #NT!
  game_concept_modifiers:0 "Modificadores" #NT!
  game_concept_modifier_desc:0 "Un $game_concept_modifier$ es un efecto que cambia un valor durante un período de tiempo más largo. Puede, por ejemplo, cambiar el valor de [skills|E] de un personaje o el [success_chance|E] de un [scheme|E].\n\nLos modificadores suelen aparecer para Personajes, Esquemas o [counties|E]." #NT!
 
@@ -1416,17 +1416,17 @@
  game_concept_promoting_cultural_acceptance:0 "Promoción de la aceptación" #NT!
  game_concept_accept_culture_desc:0 "$game_concept_accept_culture$ es un [councillor_task|E] realizado por el [steward|E].\n\nAumenta el [cultural_acceptance|E] entre el objetivo [culture|E] y el [rulerpossessive|E] $game_concept_culture$." #NT!
 
- game_concept_theocratic_vassal:0 "vasallo teocrático" #NT!
- game_concept_theocratic_vassals:0 "vasallos teocráticos" #NT!
+ game_concept_theocratic_vassal:0 "Vasallo teocrático" #NT!
+ game_concept_theocratic_vassals:0 "Vasallos teocráticos" #NT!
  game_concept_theocratic_vassal_desc:0 "Vasallos que tienen la forma [theocratic_government|E].\n\nLa forma en que funcionan está determinada por el [doctrines|E] de un [faith|E]." #NT!
 
  game_concept_ducal_conquest_casus_belli:0 "Conquista Ducal Casus Belli" #NT!
- game_concept_ducal_conquest:0 "conquista ducal" #NT!
+ game_concept_ducal_conquest:0 "Conquista ducal" #NT!
  game_concept_ducal_conquest_casus_belli_desc:0 "Se requiere un [casus_belli|E] que permita la incautación de [counties|E] para crear un [uncreated_title|E] de rango [duchy|E]." #NT!
 
  game_concept_vassalize_casus_belli:0 "Vasallaje Forzado Casus Belli" #NT!
  game_concept_vassalization_casus_belli:0 "Vasallaje forzado" #NT!
- game_concept_vassalized_casus_belli:0 "vasallado a la fuerza" #NT!
+ game_concept_vassalized_casus_belli:0 "Vasallado a la fuerza" #NT!
  game_concept_vassalize_casus_belli_desc:3 "Un [casus_belli|E] que permite el [vassalization|E] contundente de un [ruler|E] independiente vecino de menor rango. Desbloqueado por [GetPerk( 'forced_vassalage_perk' ).GetName( GetPlayer )] [perk|E].\n\nPuedes convertir en vasallo a cualquier gobernante que no tenga más de #V [EmptyScope.ScriptValue('vassalize_default_size')|0]#! [counties|E] en su [realm|E].\n\nEste límite aumenta en [vassalization|E]0+[vassalization|E]1#!  para cada una de las siguientes innovaciones:\n[vassalization|E]3#V [vassalization|E]5[ruler|E]_23PROTARG_PROTARG7 _22\n[vassalization|E]3#V [vassalization|E]9[ruler|E]2\n[vassalization|E]3#V [ruler|E]1[ruler|E]2" #NT!
 
  game_concept_title_creation:0 "Creación de títulos" #NT!
@@ -1476,7 +1476,7 @@
  game_concept_embrace_celibacy_decision:0 "Adoptar la decisión del celibato" #NT!
  game_concept_embrace_celibacy_desc:0 "Un [decision|E] que permite que un personaje obtenga el [GetTrait('celibate').GetName( GetPlayer )] [trait|E] a voluntad." #NT!
 
- game_concept_abandon_celibacy:0 "abandonar el celibato" #NT!
+ game_concept_abandon_celibacy:0 "Abandonar el celibato" #NT!
  game_concept_abandon_celibacy_decision:0 "Decisión de abandono del celibato" #NT!
  game_concept_abandon_celibacy_desc:0 "Un [decision|E] que permite a un personaje perder el [GetTrait('celibate').GetName( GetPlayer )] [trait|E] a voluntad." #NT!
 
@@ -1501,7 +1501,7 @@
 
  game_concept_liberty_faction:0 "$liberty_faction$" #NT!
  game_concept_faction_liberty:0 "Libertad" #NT!
- game_concept_liberty_factions:0 "facciones de la libertad" #NT!
+ game_concept_liberty_factions:0 "Facciones de la libertad" #NT!
  game_concept_liberty_faction_desc:1 "El $game_concept_liberty_faction$ busca bajar el [crown_authority|E] y, en su caso, el propio [feudal_contracts|E]. Si tiene éxito, su [liege|E] no podrá cambiar la Autoridad de la Corona del [realm|E] durante algún tiempo." #NT!
 
  game_concept_claimant_faction:0 "$claimant_faction$" #NT!
@@ -1530,11 +1530,11 @@
  game_concept_hostile_army_desc:0 "Se puede enfrentar a un $game_concept_hostile_army$ [army|E] como si estuviera en [war|E] con el propietario, aunque no se otorgará [war_score|E].\n\nLa hostilidad se debe a que tiene intereses en conflicto, que incluyen:\n$BULLET_WITH_TAB$Enemigos de su [liege|E]\n$BULLET_WITH_TAB$[vassals|E] de sus enemigos\n$BULLET_WITH_TAB$Gobernantes #emphasis atacando[army|E]0al mismo enemigo" #NT!
 
  game_concept_war_leaders:0 "Líderes de guerra" #NT!
- game_concept_war_leader:0 "líder de guerra" #NT!
+ game_concept_war_leader:0 "Líder de guerra" #NT!
  game_concept_war_leaders_desc:0 "El atacante principal y el defensor principal de un [war|E]. Por lo general, este es el personaje que instigó la guerra y el [top_liege|E] del personaje que tiene el [war_target|E].\n\nHay una variedad de [casus_belli|E] para muchos tipos diferentes de guerra, algunos con personajes diferentes como el $game_concept_war_leaders$." #NT!
 
  game_concept_offensive_war_opinion:0 "Opinión de guerra ofensiva" #NT!
- game_concept_offensive_war_opinion_short:0 "guerra ofensiva" #NT!
+ game_concept_offensive_war_opinion_short:0 "Guerra ofensiva" #NT!
  game_concept_offensive_war_opinion_desc:0 "Ser el atacante principal en una guerra hará que tu [vassals|E] te desagrade gradualmente después de [GetDefine('NCharacterOpinion', 'OFFENSIVE_WAR_PENALTY_GRACE_PERIOD')] meses. [civil_wars|E] y [great_holy_wars|E] están excluidos de esto. Una vez que ya no esté en esa guerra, la pena decaerá lentamente." #NT!
 
  game_concept_at_peace_opinion:0 "En Paz Opinión" #NT!
@@ -1600,14 +1600,14 @@
  game_concept_movement_locked_desc:0 "Después de que un [army|E] haya completado más de la mitad de una orden de movimiento dada, no será posible cambiarla hasta que llegue a su destino." #NT!
 
  game_concept_extramarital_sex:0 "Sexo extramatrimonial" #NT!
- game_concept_extramarital_sex_sleeping_with:0 "durmiendo con" #NT!
+ game_concept_extramarital_sex_sleeping_with:0 "Durmiendo con" #NT!
  game_concept_extramarital_sex_desc:1 "Si son descubiertos, dos personajes involucrados en sexo extramatrimonial sufrirán consecuencias dependiendo del [doctrines|E] de su [faith|E].\n\n$EFFECT_LIST_BULLET$Cada personaje será conocido como [GetTrait('fornicator').GetName( GetNullCharacter )] o [GetTrait('adulterer').GetName( GetNullCharacter )], dependiendo de su propio estado civil\n$EFFECT_LIST_BULLET$Si un hombre y una mujer duermen juntos, puede resultar en un embarazo [bastard|E]\n$EFFECT_LIST_BULLET$Si los personajes son del mismo género, las consecuencias están determinadas por sus [faith|E]'s $doctrine_homosexuality_name$ [doctrines|E]0\n$EFFECT_LIST_BULLET$Cualquier [doctrines|E]2 transmitido sexualmente en poder de un personaje puede infectar al otro" #NT!
 
  game_concept_titular_title:0 "Título Titular" #NT!
  game_concept_titular_title_desc:0 "Un $game_concept_titular_title$ es un [title|E] que no tiene tierra [de_jure|E] en el mapa. Los títulos no titulares pueden convertirse en titulares a través de [de_jure_drift|E].\n\nLos títulos [mercenary|E], [head_of_faith|E] y [holy_order|E] suelen ser titulares." #NT!
 
  game_concept_pilgrimage:0 "Peregrinaje" #NT!
- game_concept_pilgrimages:0 "peregrinaciones" #NT!
+ game_concept_pilgrimages:0 "Peregrinaciones" #NT!
  game_concept_pilgrimage_desc:0 "Los personajes de la mayoría de [faiths|E] pueden [decide|E] para ir en un $game_concept_pilgrimage$ a un [holy_site|E].\n\nDicho viaje puede estar lleno de oportunidades y peligros, pero al llegar a su destino, los personajes obtendrán [piety|E] y pueden recibir otras recompensas." #NT!
 
  game_concept_faith_righteous:0 "Justo" #NT!
@@ -1635,7 +1635,7 @@
  game_concept_epithet:0 "Epíteto" #NT!
  game_concept_cognomen:0 "Nombre" #NT!
  game_concept_nicknames:0 "Apodos" #NT!
- game_concept_epithets:0 "epítetos" #NT!
+ game_concept_epithets:0 "Epítetos" #NT!
  game_concept_cognomens:0 "Cognomens" #NT!
  game_concept_nickname_desc:1 "$game_concept_nicknames$, $game_concept_epithets$ y $game_concept_cognomens$ son nombres secundarios tomados o atribuidos a [characters|E] (por ejemplo, Charles 'el Calvo'). Los $game_concept_nicknames$ son puramente estéticos, aunque las circunstancias que rodean su adquisición suelen ser asuntos dramáticos o dignos de mención.\n\nLos $game_concept_nicknames$ malos a veces serán anulados por buenos (como que William 'el Bastardo' se convierta en William 'el Conquistador')." #NT!
 
@@ -1689,7 +1689,7 @@
  game_concept_vote_strength:0 "Fuerza de voto" #NT!
 
  game_concept_hostage:0 "Rehén" #NT!
- game_concept_hostages:0 "rehenes" #NT!
+ game_concept_hostages:0 "Rehenes" #NT!
  game_concept_hostage_desc:0 "Un $game_concept_hostage$ es un [prisoner|E] que proporciona [war_score|E] cuando es capturado durante un [war|E].\n\nPara que una persona sea considerada rehén, debe ser la tercera en la fila o superior para heredar el título principal de su líder de guerra.\n\nLos rehenes son liberados cuando la guerra termina, a diferencia de [prisoners_of_war|E]." #NT!
  game_concept_prisoner_of_war:0 "Prisionero de guerra" #NT!
  game_concept_prisoners_of_war:0 "Prisioneros de guerra" #NT!
@@ -1698,7 +1698,7 @@
  game_concept_single_combat_fight:0 "Combate singular" #NT!
  game_concept_single_combat_duel:0 "Duelo" #NT!
  game_concept_single_combat_fight_plural:0 "Combates individuales" #NT!
- game_concept_single_combat_duel_plural:0 "duelos" #NT!
+ game_concept_single_combat_duel_plural:0 "Duelos" #NT!
  game_concept_single_combat_fight_sudden_death:0 "La muerte súbita" #NT!
  game_concept_single_combat_fight_desc:0 "En un $game_concept_single_combat_fight$, luchan dos [characters|E], ya sea al [character_death_death|E] oa primera sangre. Cada ronda, ambos $game_concept_characters$ seleccionan una opción lanzada al azar de una lista, intercambiando golpes hasta que un $game_concept_character$ recibe un golpe sólido, con las opciones disponibles dependiendo de tu [prowess|E] y [traits|E].\n\nAlgunas opciones pueden dar efectos especiales, y la mayoría aumentará tu [single_combat_success_chance|E] y [single_combat_injury_chance|E]. A medida que avanza $game_concept_single_combat_duel_plural$, se vuelven más peligrosos e inciertos, y se vuelve más fácil ganar o lastimarse. Después de varias rondas, $game_concept_single_combat_duel_plural$ entra en muerte súbita, terminando inmediatamente con la victoria del combatiente de [characters|E]1 superior.\n\nAl luchar contra $game_concept_single_combat_duel_plural$, puede obtener [characters|E]3 o [characters|E]4 temporal [characters|E]5, aumentando o reduciendo su [characters|E]1 hasta que termine [characters|E]7." #NT!
  game_concept_single_combat_success_chance:0 "Probabilidad de éxito" #NT!
@@ -1723,15 +1723,15 @@
  game_concept_hybrid_culture:0 "Cultura Híbrida" #NT!
  game_concept_hybrid_cultures:0 "Culturas Híbridas" #NT!
  game_concept_hybridize:0 "Hibridizar" #NT!
- game_concept_hybridized:0 "hibridado" #NT!
- game_concept_hybridizing:0 "hibridando" #NT!
+ game_concept_hybridized:0 "Hibridado" #NT!
+ game_concept_hybridizing:0 "Hibridando" #NT!
  game_concept_hybrid_culture_desc:0 "[SelectLocalization( HasDlcFeature( 'hybridize_culture' ), 'game_concept_hybrid_culture_desc_DLC', 'game_concept_hybrid_culture_desc_NO_DLC' )]" #NT!
  game_concept_hybrid_culture_desc_DLC:1 "Un $game_concept_hybrid_culture$ es un [culture|E] que fue creado por un [ruler|E] como la combinación de dos Culturas existentes.\n\nEl $game_concept_hybrid_culture$ es una mezcla de las dos Culturas originales [traditions|E], [culture_pillars|E] y Estética.\n\nSolo las Culturas de diferentes [heritage|E] pueden formar un Híbrido, y el costo de [prestige|E] para hacerlo se basa en el [cultural_acceptance|E] de cada uno.\n\nCuanto mayor sea la Aceptación Cultural, más [counties|E] convertirá cuando se forme un Híbrido. Gobernantes de una cultura híbrida [culture|E]0 mucho más rápido en los condados de sus culturas progenitoras durante [culture|E]1[culture|E]2[culture|E]3años después de su formación.\n\nNuevas culturas también pueden aparecer como [culture|E]4." #NT!
  game_concept_hybrid_culture_desc_NO_DLC:0 "Un $game_concept_hybrid_culture$ es un [culture|E] que se formó como la combinación de otras dos culturas.\n\nLas nuevas culturas también pueden aparecer como un [divergent_culture|E]." #NT!
  game_concept_divergent_culture:0 "Cultura divergente" #NT!
  game_concept_divergent_cultures:0 "Culturas divergentes" #NT!
  game_concept_diverge:0 "Divergir" #NT!
- game_concept_diverges:0 "diverge" #NT!
+ game_concept_diverges:0 "Diverge" #NT!
  game_concept_divergent_culture_desc:0 "[SelectLocalization( HasDlcFeature( 'diverge_culture' ), 'game_concept_divergent_culture_desc_DLC', 'game_concept_divergent_culture_desc_NO_DLC' )]" #NT!
  game_concept_divergent_culture_desc_DLC:1 "Un $game_concept_divergent_culture$ es una rama de un [culture|E] existente, creado por un [ruler|E].\n\nEl $game_concept_divergent_culture$ mantiene su [heritage|E], pero se pueden cambiar otros aspectos de la cultura original.\n\nLa cultura de la que se desvía debe tener al menos [EmptyScope.ScriptValue('culture_divergence_cooldown')|0] años viejo, y el costo de [prestige|E] para divergir se basa en el [realm_size|E] del Gobernante creador.\n\nLas nuevas culturas también pueden aparecer como un [hybrid_culture|E]." #NT!
  game_concept_divergent_culture_desc_NO_DLC:0 "Un $game_concept_divergent_culture$ es una rama de un [culture|E] existente.\n\nLas nuevas culturas también pueden aparecer como un [hybrid_culture|E]." #NT!
@@ -1781,7 +1781,7 @@
  game_concept_buy_artifact_claim_interaction:0 "$buy_artifact_claim_interaction$ Interacción" #NT!
  game_concept_buy_artifact_claim_desc:0 "Una interacción que permite a un personaje comprar [personal_artifact_claims|E] a cambio de [piety|E] o [prestige|E]." #NT!
 
- game_concept_vassal_contract:0 "contrato de vasallo" #NT!
+ game_concept_vassal_contract:0 "Contrato de vasallo" #NT!
  game_concept_vassal_contracts:0 "Contratos de vasallo" #NT!
  game_concept_vassal_contract_desc:0 "Un $game_concept_vassal_contract$ especifica el [obligations|E] entre un [vassal|E] y su [liege|E].\n\nLos contratos especiales, como los contratos #V $special_contract_march_short$#!, #V $special_contract_scutage_short$#! o #V [obligations|E]1#! , solo pueden ser mantenidos por [obligations|E]3-nivel [obligations|E]4 o superior." #NT!
 
@@ -1798,8 +1798,8 @@
 
  game_concept_board_game_type:0 "Tipo de juego de mesa" #NT!
  game_concept_board_game_types:0 "Tipos de juegos de mesa" #NT!
- game_concept_board_game_type_counter:0 "contadores" #NT!
- game_concept_board_game_type_counters:0 "contadores" #NT!
+ game_concept_board_game_type_counter:0 "Contadores" #NT!
+ game_concept_board_game_type_counters:0 "Contadores" #NT!
  game_concept_board_game_type_desc:0 "Cuando juegas un $game_concept_board_game$, diferentes estilos de juego $game_concept_board_game_type_counter$ tu oponente. Contrarrestar sus movimientos reduce severamente los puntos que obtienen de ellos, incluso si tienen éxito. Los oponentes habilidosos pueden notar tus propias habilidades e intentar deliberadamente $game_concept_board_game_type_counter$ #EMP tu#!.\n\n$game_concept_board_game_type_chess_desc$\n\n$game_concept_board_game_type_pachisi_desc$\n\n$game_concept_board_game_type_hnefatafl_desc$\n\n$game_concept_board_game_type_tabula_desc$" #NT!
  game_concept_board_game_type_chess:0 "Ajedrez" #NT!
  game_concept_board_game_type_chess_desc:0 "En $game_concept_board_game_type_chess$:\n$EFFECT_LIST_BULLET$ [martial|E] $game_concept_board_game_type_counters$ [learning|E]\n$EFFECT_LIST_BULLET$ [learning|E] $game_concept_board_game_type_counters$ [intrigue|E]\n$EFFECT_LIST_BULLET$ [intrigue|E] $game_concept_board_game_type_counters$ [martial|E]" #NT!

@@ -20,7 +20,7 @@
  tenet_monasticism_desc:0 "Los placeres de la buena comida y la bebida solo sirven para distraernos del servicio a lo divino. Aislarnos en monasterios remotos es la mejor manera de evitar estas tentaciones." #NT!
  doctrine_parameter_take_vows_active:0 "[courtiers|E] puede tomar los votos y convertirse en [GetTrait('devoted').GetName( GetNullCharacter )]" #NT!
 
- tenet_divine_marriage_name:0 "matrimonio divino" #NT!
+ tenet_divine_marriage_name:0 "Matrimonio divino" #NT!
  tenet_divine_marriage_desc:0 "La sangre de lo divino corre por las venas de nuestros reyes y reinas. Mantener puras nuestras líneas de sangre es la mejor manera de garantizar que el reinado de nuestra familia continúe durante los siglos venideros." #NT!
  doctrine_parameter_divine_marriage_opinion:0 "Los adherentes que están casados ​​con un miembro de [close_family|E] tienen $VALUE|0+=$ [opinion|E] de [vassals|E] del mismo [faith|E]" #NT!
  doctrine_parameter_divine_marriage_piety_gain_active:2 "El bono de matrimonio [GetFaithDoctrine('doctrine_monogamy').GetBaseName] también otorga una gran cantidad de [piety|E] si te casas con un miembro de [close_family|E]" #NT!
@@ -29,13 +29,13 @@
  tenet_pacifism_desc:0 "La violencia es un acto abominable que solo conduce al sufrimiento, al dolor y al arrepentimiento. Al trabajar para evitarlo siempre que sea posible, podemos construir sociedades más fuertes y seguras para que vivan los fieles." #NT!
  doctrine_parameter_holy_wars_forbidden:0 "No se puede declarar [holy_wars|E] o [raid|E]" #NT!
  doctrine_parameter_pacifist_opinion_active:0 ""
- pacifist_opinion_active_opinion_name:0 "compañero pacifista" #NT!
+ pacifist_opinion_active_opinion_name:0 "Compañero pacifista" #NT!
  pacifist_opinion_active_county_opinion_name:0 "Compañeros del condado pacifista" #NT!
  doctrine_parameter_opinion_of_pacifist_opinion_active:0 "[opinion|E] de otros pacifistas: $VALUE|+=0$" #NT!
  doctrine_parameter_piety_from_long_peace:0 "Los gobernantes en paz durante al menos dos años tendrán su cambio de [piety|E] por $VALUE|+$ cada mes" #NT!
- PIETY_LONG_PEACE:0 "larga paz" #NT!
+ PIETY_LONG_PEACE:0 "Larga paz" #NT!
 
- tenet_vows_of_poverty_name:0 "votos de pobreza" #NT!
+ tenet_vows_of_poverty_name:0 "Votos de pobreza" #NT!
  tenet_vows_of_poverty_desc:0 "El dinero corrompe el corazón de los hombres y los aleja de la verdadera fe. Debemos evitar la adquisición de riquezas materiales si queremos centrarnos en lo que realmente importa." #NT!
  doctrine_parameter_vows_of_poverty_active:0 "[rulers|E] puede [decide|E] para hacer un voto de pobreza, lo que reduce los ingresos mensuales de [tax|E] pero aumenta la ganancia mensual de [piety|E]" #NT!
 
@@ -47,7 +47,7 @@
  tenet_gruesome_festivals_blot_name:0 "Mancha" #NT!
  tenet_gruesome_festivals_name:0 "Festivales espantosos" #NT!
  tenet_gruesome_festivals_desc:0 "Todos nacemos en la sangre. Sobrevivimos gracias a la sangre de nuestro ganado, nuestra familia, nuestros enemigos. Es natural que [ROOT.Faith.PantheonTerm] exija su parte justa." #NT!
- gruesome_festivals_active_name:0 "habilidad para realizar grandes sacrificios" #NT!
+ gruesome_festivals_active_name:0 "Habilidad para realizar grandes sacrificios" #NT!
  doctrine_parameter_gruesome_festivals_active:0 "Capaz de realizar grandes sacrificios alrededor de una vez por década para el mismo sujeto [faith|E] y [county_opinion|E]" #NT!
 
  tenet_volcanic_veneration_name:0 "Veneración volcánica" #NT!
@@ -69,7 +69,7 @@
  doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith:0 ""
  doctrine_parameter_granting_titles_gives_stress:0 "Regalar [titles|E] alivia una cantidad proporcional de [stress|E]" #NT!
 
- tenet_mendicant_preachers_name:0 "predicadores mendicantes" #NT!
+ tenet_mendicant_preachers_name:0 "Predicadores mendicantes" #NT!
  tenet_mendicant_preachers_desc:0 "Nuestros misioneros viajan por todas partes sin nada más que la ropa que llevan puesta. Viven de la generosidad de aquellos a quienes visitan y, a cambio, comparten el conocimiento de la verdadera fe." #NT!
  doctrine_parameter_mendicant_preachers_conversion_active:0 "Velocidad de conversión del condado: #P +33#!" #NT!
 
@@ -80,24 +80,24 @@
  doctrine_parameter_same_faith_promote_culture_bonus_active:1 "Promover velocidad cultural en [counties|E] de mi [faith|E]: #P +50 %#!" #NT!
  doctrine_parameter_other_culture_conversion_penalty_active:1 "Velocidad de conversión en [counties|E] de un [culture|E] diferente: #N -50%#!" #NT!
 
- tenet_pentarchy_name:0 "eclesiarquía" #NT!
- tenet_pentarchy_alternate_name:0 "la pentarquía" #NT!
+ tenet_pentarchy_name:0 "Eclesiarquía" #NT!
+ tenet_pentarchy_alternate_name:0 "La pentarquía" #NT!
  tenet_pentarchy_desc:0 "Nuestros Lugares Sagrados son más que lugares sagrados: son las sedes del poder desde donde gobiernan nuestros líderes religiosos." #NT!
 
- tenet_aniconism_name:0 "aniconismo" #NT!
+ tenet_aniconism_name:0 "Aniconismo" #NT!
  tenet_aniconism_desc:0 "La adoración de imágenes talladas ha cegado a demasiados a la verdad divina. Expulsaremos todos los iconos de nuestros lugares santos para que nuestros fieles no caigan en esa trampa." #NT!
 
  tenet_alexandrian_catechism_name:0 "Catecismo alejandrino" #NT!
  tenet_alexandrian_catechism_desc:0 "La Escuela de Catequesis de Alejandría tenía una larga tradición de animar a los teólogos a pensar críticamente y cuestionar el statu quo.\n\nA pesar de la destrucción física de la escuela, mantenemos estas tradiciones." #NT!
 
- tenet_hedonistic_name:0 "hedonista" #NT!
+ tenet_hedonistic_name:0 "Hedonista" #NT!
  tenet_hedonistic_desc:0 "Lo divino llenó este mundo con una gran cantidad de placeres para que nos entreguemos y disfrutemos; no participar de tales cosas es despreciar el trabajo mismo de la creación." #NT!
  doctrine_parameter_piety_from_feasts_active:1 "Hospedar un [feast|E] gana [piety|E]" #NT!
 
  tenet_carnal_exaltation_name:0 "Exaltación Carnal" #NT!
  tenet_carnal_exaltation_desc:0 "Los placeres de la carne son sublimes de una manera que trasciende otras experiencias terrenales, acercándonos a lo divino. Debemos glorificar nuestros deseos sexuales y buscar oportunidades para cumplirlos." #NT!
 
- tenet_polyamory_name:0 "poliamor" #NT!
+ tenet_polyamory_name:0 "Poliamor" #NT!
  tenet_polyamory_desc:0 "Nuestro amor mutuo debe ser tan incondicional como el amor que [ROOT.Faith.FertilityGodNamePossessive] nos tiene a nosotros. Debemos desechar las nociones obsoletas de que una persona es dueña de los afectos de otra." #NT!
  doctrine_parameter_no_unfaithfulness_penalty_active:0 "Los adherentes no reciben penalidades de [opinion|E] o [imprisonment_reasons|E] sobre su cónyuge o los amantes de su cónyuge por tener relaciones extramatrimoniales" #NT!
 
@@ -153,7 +153,7 @@
  doctrine_parameter_reincarnation_resistance_to_conversion:0 "Resistencia a la conversión del condado: #P +20 %#!" #NT!
  doctrine_parameter_reincarnation_events_active:1 "Los niños tienen la posibilidad de ser considerados como la reencarnación de un antepasado, otorgando bonificaciones a [piety|E] y [opinion|E]" #NT!
 
- tenet_esotericism_name:0 "esoterismo" #NT!
+ tenet_esotericism_name:0 "Esoterismo" #NT!
  tenet_esotericism_desc:0 "Los grandes misterios de lo divino pueden estar más allá de la comprensión mortal, pero eso no es excusa para la ignorancia. Su misma existencia nos obliga a buscar el conocimiento y la comprensión del mundo que nos rodea." #NT!
  doctrine_parameter_tenet_esotericism_mystic_education:1 "Los niños con [learning|E] [education_focus|E] pueden obtener el rasgo [GetTrait('mystic_1').GetName( GetNullCharacter )] si les va bien en sus estudios." #NT!
 
@@ -171,7 +171,7 @@
  tenet_dharmic_pacifism_desc:0 "Todos somos parte del orden cósmico. La violencia contra cualquier cosa es violencia contra todo, incluido uno mismo." #NT!
 
  tenet_bhakti_name:0 "Bhakti" #NT!
- tenet_bhakti_patron_god_name:0 "dioses patronos" #NT!
+ tenet_bhakti_patron_god_name:0 "Dioses patronos" #NT!
  tenet_bhakti_desc:0 "Los mortales no pueden vivir a la altura de toda la gloria de lo divino, pero al seleccionar un solo aspecto de la divinidad para emular, adorar y dedicarse, podemos acercarnos más a ellos de lo que sería posible de otra manera." #NT!
  doctrine_parameter_select_personal_god_active:1 "Los gobernantes pueden [decide|E] para elegir un avatar personal para venerar, obteniendo una bonificación relacionada" #NT!
 
@@ -194,7 +194,7 @@
  tenet_ancestor_worship_name:0 "Adoración de los ancestros" #NT!
  tenet_ancestor_worship_desc:0 "Nuestros ancestros nos cuidan desde más allá de la tumba, guiándonos y mostrándonos el camino a seguir. Para ello debemos respetarlos y honrarlos." #NT!
 
- tenet_adorcism_name:0 "adorcismo" #NT!
+ tenet_adorcism_name:0 "Adorcismo" #NT!
  tenet_adorcism_desc:0 "Los espíritus de este mundo pueden hacer grandes obras tanto del bien como del mal. Honrándolos y respetándolos sólo podemos esperar que nos hagan su bien a nosotros y su mal a nuestros enemigos." #NT!
  doctrine_parameter_spirit_possession_active:1 "Habilita la función 'Buscar ayuda de los espíritus' [decision|E]" #NT!
 
@@ -202,7 +202,7 @@
  tenet_ritual_celebrations_desc:1 "El culto a lo divino es algo que debe exaltarse y compartirse con nuestra comunidad. Organizar grandes festivales para honrar y alabar lo divino nos une a todos." #NT!
  doctrine_parameter_mandatory_feast_attendance:0 "[vassals|E] es más probable que asista a tus Banquetes. Aquellos que aún se nieguen a venir perderán [piety|E] por hacerlo." #NT!
 
- tenet_sky_burials_name:0 "entierros del cielo" #NT!
+ tenet_sky_burials_name:0 "Entierros del cielo" #NT!
  tenet_sky_burials_desc:1 "Los muertos no deben ser encarcelados bajo tierra; es mucho mejor permitir que los pájaros carroñeros los consuman, donde en un acto final de generosidad pueden alimentar al mundo que los alimentó." #NT!
  doctrine_parameter_sky_burials_active:2 "[rulers|E] puede dar a sus ancestros un entierro celestial, ganando [piety|E] y complaciendo a su [vassals|E]" #NT!
 
@@ -228,7 +228,7 @@
  tenet_astrology_desc:0 "El cielo nocturno es nuestra ventana al reino de lo divino. Los grandes secretos y misterios del mundo están escritos allí, abiertos para que todos los aprendan si saben dónde buscar." #NT!
  doctrine_parameter_divine_the_stars_active:0 "Permite a los adherentes adivinar las estrellas y predecir su futuro." #NT!
 
- tenet_sun_worship_name:0 "adoración al sol" #NT!
+ tenet_sun_worship_name:0 "Adoración al sol" #NT!
  tenet_sun_worship_desc:0 "El portador de luz, el dador de vida, la llama que siempre arde, reina en lo alto del cielo como el verdadero soberano del mundo." #NT!
  doctrine_parameter_summer_festivals_active:0 "Organizar banquetes en los meses de verano genera [piety|E]" #NT!
  doctrine_parameter_trial_by_sun_active:0 "El [criminals|E] encarcelado puede ser sentenciado a un Sun Trial" #NT!
@@ -279,7 +279,7 @@
  doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""
  doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "La velocidad base de conversión de religiones sincretizadas se reduce en [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]" #NT!
 
- tenet_christian_syncretism_name:0 "sincretismo cristiano" #NT!
+ tenet_christian_syncretism_name:0 "Sincretismo cristiano" #NT!
  tenet_christian_syncretism_desc:0 "Jesús de Nazaret puede no haber sido una verdadera divinidad, pero aun así fue una figura virtuosa y erguida. Debemos honrar y respetar sus enseñanzas." #NT!
  #This is deliberately left blank. It should not be deleted or filled in: such will break the loc.
  doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:1 ""
@@ -309,7 +309,7 @@
  doctrine_parameter_islamic_syncretic_recipient_opinion_active:1 "Bono mutuo [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con [faiths|E] que tienen el $tenet_islamic_syncretism_name$ [core_tenet|E]" #NT!
  doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active:0 ""
 
- tenet_jewish_syncretism_name:0 "sincretismo judío" #NT!
+ tenet_jewish_syncretism_name:0 "Sincretismo judío" #NT!
  tenet_jewish_syncretism_desc:0 "Aunque no estamos de acuerdo con sus afirmaciones sobre el pueblo elegido de Dios, la sabiduría de la Torá judía es innegable y hay mucho que aprender del texto." #NT!
  doctrine_parameter_hostility_override_special_doctrine_is_jewish_faith:2 "Considera [faiths|E] judío, y $game_concept_faiths$ judío lo considera, como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_can_use_jewish_artefacts:0 "Puede usar [artifacts|E] judío con el máximo beneficio" #NT!
@@ -329,7 +329,7 @@
  doctrine_parameter_reduced_stress_from_torture:0 "#D Los adeptos son resistentes a los efectos negativos de ser torturados#!" #NT!
  doctrine_parameter_self_mutilation_active:0 "#D Can [decide|E] para realizar la automutilación, ganando [piety|E] a cambio de obtener el [GetTrait('wounded_1').GetName( GetPlayer )] [trait|E]#!" #NT!
 
- tenet_sacred_shadows_name:0 "mentiras sagradas" #NT!
+ tenet_sacred_shadows_name:0 "Mentiras sagradas" #NT!
  tenet_sacred_shadows_desc:0 "La mentira es el arte más profundo que existe. Aquellos que pueden convencer a otros de sus mentiras son santos. Aquellos que pueden mentirse a sí mismos con éxito son imparables." #NT!
  doctrine_parameter_piety_gain_from_successful_intrigue_schemes:0 "Los adherentes ganan piedad por completar con éxito [intrigue|E] [schemes|E]" #NT!
  doctrine_parameter_adherents_more_likely_to_join_schemes:0 "Los adeptos están más dispuestos a convertirse en Agentes en el [schemes|E] de otros personajes" #NT!

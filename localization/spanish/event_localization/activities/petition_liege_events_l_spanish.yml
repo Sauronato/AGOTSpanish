@@ -35,20 +35,20 @@
  petition_liege.0101.t.development:0 "$petition_liege_header$ Desarrollar capital" #NT!
  # Desc
  petition_liege.0101.desc:1 "[petition_vassal.GetTitledFirstName] finalmente se muestra en mi gran salón, y no pierde el tiempo antes de caminar hacia mi trono e inclinarse profundamente. \n\n"Gracias por recibirme, mi Lord. Vengo a usted hoy con una solicitud urgente:" #NT!
- petition_liege.0101.desc.council_seat:0 "por favor, mi [petition_liege.GetLadyLord], déjame sentarme en tu consejo".\n\n"Mis talentos se pasan por alto mientras que los [petition_vassal.GetWomenMen] menores se escuchan en los niveles más altos; Compartiría las cargas del reino como tu [petition_vassal.Custom('GetCouncilPositionRequest')]"." #NT!
+ petition_liege.0101.desc.council_seat:0 "Por favor, mi [petition_liege.GetLadyLord], déjame sentarme en tu consejo".\n\n"Mis talentos se pasan por alto mientras que los [petition_vassal.GetWomenMen] menores se escuchan en los niveles más altos; Compartiría las cargas del reino como tu [petition_vassal.Custom('GetCouncilPositionRequest')]"." #NT!
  petition_liege.0101.desc.pay_debt:0 "Me he encontrado con algunas... dificultades financieras, debido a eventos totalmente fuera de mi control". \n\n"Por el bien del reino, ¿me ayudarías a saldar mis cuentas?"" #NT!
- petition_liege.0101.desc.war_aid:0 "el [petition_war.GetName] va mal; [second_party.GetTitledFirstNameNoTooltip] tiene la ventaja. \n\nMi [petition_liege.GetLadyLord], mis derrotas también son las tuyas. Préstame tu apoyo, por el bien del reino." #NT!
+ petition_liege.0101.desc.war_aid:0 "El [petition_war.GetName] va mal; [second_party.GetTitledFirstNameNoTooltip] tiene la ventaja. \n\nMi [petition_liege.GetLadyLord], mis derrotas también son las tuyas. Préstame tu apoyo, por el bien del reino." #NT!
  petition_liege.0101.desc.end_war:1 "¡[second_party.GetTitledFirstNameNoTooltip] ha estado librando una guerra contra mí y tus buenos y leales súbditos en [petition_vassal.GetPrimaryTitle.GetName]!" \n\n"Sin duda, esta lucha interna solo nos debilita a todos y debería detenerse en seco"." #NT!
  petition_liege.0101.desc.faction_war:0 "¡Estoy acosado por [second_party.GetTitledFirstName] y [second_party.GetHerHis] [vassal_faction.GetNameNoTooltip|l]! \n\n "¡Por favor, debes poner a los cachorros insolentes en su lugar, por el bien del reino!"" #NT!
  petition_liege.0101.desc.county_control:0 "¡[petition_county_example.GetNameNoTooltip] está acosado por disidentes que hacen que la recaudación de impuestos sea imposible!" \n\n"Por favor, mi [petition_liege.GetLadyLord], ayúdame a someter a estas víboras, por el bien del reino"." #NT!
  petition_liege.0101.desc.county_convert:0 "¡el [petition_county_example.GetNameNoTooltip] está acosado por el virulento e impío [petition_county_example.GetCountyData.GetFaith.GetAdherentNamePluralNoTooltip]!" \n\n"Mis sacerdotes hacen todo lo que pueden, pero me temo que necesitan ayuda para que el reino quede libre de maldad"." #NT!
- petition_liege.0101.desc.county_opinion:0 "una enfermedad de descontento prevalece en mis tierras".\n\n"Mi [petition_liege.GetLadyLord], estoy seguro de que una visita de [petition_liege.Custom('GetRoyalCourtRank')] cambiaría el estado de ánimo de la gente y los devolvería a su curso correcto." #NT!
+ petition_liege.0101.desc.county_opinion:0 "Una enfermedad de descontento prevalece en mis tierras".\n\n"Mi [petition_liege.GetLadyLord], estoy seguro de que una visita de [petition_liege.Custom('GetRoyalCourtRank')] cambiaría el estado de ánimo de la gente y los devolvería a su curso correcto." #NT!
  petition_liege.0101.desc.fortify_border:0 "¡Mis tierras se interponen entre [petition_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] y tus enemigos!" \n\n"El [petition_county_example.GetNameNoTooltip] es una de las marcas del reino, y su defensa es responsabilidad tuya y mía"." #NT!
  petition_liege.0101.desc.title_liege:0 "¡Con respeto, majestad, el [petition_claim.GetName] es mío por derecho!" \n\n"Tú gobiernas sobre un poderoso [petition_liege.GetPrimaryTitle.GetTierAsNameNoTooltip] mi [petition_liege.GetLadyLord], ¿no puedes concederme un mero [petition_claim.GetTierAsNameNoTooltip], reclamado con seriedad?"" #NT!
  petition_liege.0101.desc.title_vassal:0 "¡[second_party.GetTitledFirstNamePossessive] [petition_claim.GetName] es legítimamente mío!" \n\n"Mi [petition_liege.GetLadyLord], debes entender lo vitales que son los reclamos sobre las tierras que poseemos, haz que [second_party.GetTitleAsNameNoTooltip] renuncie a lo que no pertenece a [second_party.GetHerHim]"." #NT!
  petition_liege.0101.desc.construct_city:0 "[petition_construct_county.GetName] tiene un gran potencial pero carece de la infraestructura necesaria". \n\n"Mi [petition_liege.GetLadyLord], patrocinar una nueva ciudad en [petition_construct.GetName] beneficiaría a todo el reino solo por las implicaciones en el comercio"." #NT!
- petition_liege.0101.desc.construct_temple:0 "los fieles de [petition_construct_county.GetNamePossessiveNoTooltip] necesitan un lugar de culto". \n\n"Me sentiría honrado si ayudara a financiar un nuevo [petition_liege.GetFaith.HouseOfWorship] en [petition_construct.GetName], para la fe de [petition_liege.GetFaith.GetAdjectiveNoTooltip]"." #NT!
- petition_liege.0101.desc.development:0 "mis tierras palidecen en comparación con tu poderosa capital". \n\n"Por favor, ahorra parte de la fortuna de [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierPossessive] para el humilde [petition_county_example.GetName] y el beneficio del reino en general"." #NT!
+ petition_liege.0101.desc.construct_temple:0 "Los fieles de [petition_construct_county.GetNamePossessiveNoTooltip] necesitan un lugar de culto". \n\n"Me sentiría honrado si ayudara a financiar un nuevo [petition_liege.GetFaith.HouseOfWorship] en [petition_construct.GetName], para la fe de [petition_liege.GetFaith.GetAdjectiveNoTooltip]"." #NT!
+ petition_liege.0101.desc.development:0 "Mis tierras palidecen en comparación con tu poderosa capital". \n\n"Por favor, ahorra parte de la fortuna de [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierPossessive] para el humilde [petition_county_example.GetName] y el beneficio del reino en general"." #NT!
  petition_liege.0101.desc.council_first_councillor:0 "\n\nEntonces, [petition_vassal.GetSheHe] cree que [petition_vassal.GetSheHe] puede hacer un mejor trabajo que [second_party.GetTitledFirstName]..." #NT!
  petition_liege.0101.desc.council_second_councillor:0 "Quizás debería reemplazar [second_councillor.GetTitledFirstName] en su lugar." #NT!
  # Accept
@@ -261,7 +261,7 @@
  ### Modifiers ###
  # Control
  petition_liege_0101_county_control_effect_tt:0 "Todos los condados retenidos con menos de 66 [control|E]" #NT!
- petition_liege_county_control_modifier:0 "alguaciles reales" #NT!
+ petition_liege_county_control_modifier:0 "Alguaciles reales" #NT!
  petition_liege_county_control_modifier_desc:0 "El titular de este condado ha solicitado la ayuda de los alguaciles de su Lord para restablecer el orden." #NT!
  petition_liege_county_control_modifier_tt:0 "[increase_control|E] progresará más rápido en los condados con este modificador" #NT!
  # Convert
@@ -284,6 +284,6 @@
  petition_liege_title_councillor:0 "[ROOT.Char.GetCouncilTitle]" #NT!
  petition_liege_title_position:0 "[ROOT.Char.GetHeldCourtAndCouncilPositionsString]" #NT!
  petition_liege_title_landed:0 "[ROOT.Char.GetTitleAsNameNoTooltip]" #NT!
- petition_liege_title_courtier:0 "cortesano" #NT!
+ petition_liege_title_courtier:0 "Cortesano" #NT!
 
  petition_liege_second_if_tt:0 "#bold Si [TARGET_CHARACTER.GetTitledFirstName] acepta:#!" #NT!

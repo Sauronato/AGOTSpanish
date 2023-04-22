@@ -32,7 +32,7 @@
  health.0104.a:1 "¡[ROOT.Char.GetFaith.HealthGodName|U], líbrame de este dolor!" #NT!
 
  # Infection/gangrene, by Linnéa Thimrén and Petter Vilberg
- health.0201.desc:0 "herida infectada" #NT!
+ health.0201.desc:0 "Herida infectada" #NT!
 
  health.0202.t:1 "$health_wounded_title$ Una mancha interior" #NT!
  health.0202.desc:0 "¡Siento como si cien cuchillos estuvieran cortando mi herida! Con la carne oscureciéndose y la sangre palideciendo, está claro que la herida está infectada." #NT!
@@ -40,7 +40,7 @@
  health.0202.court_physician.desc:0 "\n\n"Tu herida se infectó, mi [ROOT.Char.GetLadyLord]. Pero no te preocupes, te ayudaré a superar esto"." #NT!
  health.0202.a:0 "Espero vivir a través de esto." #NT!
 
- health.0203.desc:0 "herida gangrenosa" #NT!
+ health.0203.desc:0 "Herida gangrenosa" #NT!
 
  health.0204.t:1 "$health_wounded_title$ Malas noticias" #NT!
  health.0204.desc:0 "Se supone que una herida duele, y algo de hinchazón no es inusual, así que asumí que mi herida estaba sanando. Sin embargo, ahora hay ampollas que estropean mi piel y el enrojecimiento se vuelve negro. ¡Mi cuerpo se pudre ante mis ojos!" #NT!
@@ -92,7 +92,7 @@
  health.1013.desc:0 "Pensé que no eran más que unas cuantas ampollas. Mientras estaba disgustado, maldiciendo mi mala suerte, nunca imaginé que empeoraría. Ahora, un sarpullido rojo se está extendiendo por mi cuerpo.\n\nSé lo que sigue. Llagas, fiebre, todo tipo de dolores y atrofia. Y al final, si vivo tanto tiempo, perderé la cabeza." #NT!
  health.1013.court_physician.desc:0 "\n\n"Mi [ROOT.Char.GetLadyLord]. Eso... no se ve bien. Déjame ver qué puedo hacer"." #NT!
  health.1013.partner.a:0 "Me has maldecido, [infecting_partner.GetFirstNameNoTooltip]." #NT!
- health.1013.no_partner.a:0 "estoy maldito Verdadera y completamente maldito." #NT!
+ health.1013.no_partner.a:0 "Estoy maldito Verdadera y completamente maldito." #NT!
 
  health.1014.t:1 "[SCOPE.Custom('EventTitleDisease')]: El Descenso" #NT!
  health.1014.desc:0 "¿Dónde estoy?\n\nMiro el pasillo vacío frente a mí, con el corazón acelerado y las manos temblando. ¿Como llegué aqui? Mi mente está... fragmentada. Hay imágenes (escaleras, caídas, sombras en las esquinas), pero no puedo unirlas.\n\nAlguien me está mirando.\n\nMe doy la vuelta, solo para encontrar más vacío." #NT!
@@ -175,8 +175,8 @@
 
  health.2003.t:1 "[SCOPE.Custom('EventTitleDisease')]: Náufrago" #NT!
  health.2003.start.desc:1 "Cuando le conté a [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('other_partner'))] mi aflicción, busqué el consuelo de [other_partner.GetHerHis] pero recibí el rechazo de [other_partner.GetHerHis]. El disgusto brilló en los ojos de [other_partner.GetFirstNamePossessive] cuando [other_partner.GetSheHe]" #NT!
- health.2003.consort.desc:0 "me dijo que me mantuviera alejado de la cama [other_partner.GetHerHis]." #NT!
- health.2003.lover.desc:0 "terminó las cosas entre nosotros." #NT!
+ health.2003.consort.desc:0 "Me dijo que me mantuviera alejado de la cama [other_partner.GetHerHis]." #NT!
+ health.2003.lover.desc:0 "Terminó las cosas entre nosotros." #NT!
  health.2003.a:0 "¿Me será quitado todo?" #NT!
 
  #Courtier/guest/prisoner has contagious disease
@@ -198,19 +198,19 @@
  # Important character has dangerous disease events, by Mathilda Bjarnehed
  health.2201.t:2 "[SCOPE.Custom('EventTitleDisease')]: Mi pobre [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]" #NT!
  health.2201.start.desc:1 "Hoy me han dado una noticia grave. Mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] se ha enfermado de" #NT!
- disease_ill_article:0 "a" #NT!
- disease_ill:0 "frío." #NT!
- disease_pneumonic:0 "neumonía." #NT!
- disease_gout_ridden:0 "gota." #NT!
- disease_leper:0 "lepra." #NT!
- disease_typhus:0 "tifus." #NT!
- disease_consumption:0 "consumo." #NT!
- disease_cancer:0 "cáncer." #NT!
- disease_lovers_pox:0 "viruela del amante." #NT!
- disease_early_great_pox:0 "viruela del amante." #NT!
- disease_great_pox:0 "gran viruela." #NT!
- disease_smallpox:0 "viruela." #NT!
- disease_bubonic_plague:0 "peste bubónica." #NT!
+ disease_ill_article:0 "A" #NT!
+ disease_ill:0 "Frío." #NT!
+ disease_pneumonic:0 "Neumonía." #NT!
+ disease_gout_ridden:0 "Gota." #NT!
+ disease_leper:0 "Lepra." #NT!
+ disease_typhus:0 "Tifus." #NT!
+ disease_consumption:0 "Consumo." #NT!
+ disease_cancer:0 "Cáncer." #NT!
+ disease_lovers_pox:0 "Viruela del amante." #NT!
+ disease_early_great_pox:0 "Viruela del amante." #NT!
+ disease_great_pox:0 "Gran viruela." #NT!
+ disease_smallpox:0 "Viruela." #NT!
+ disease_bubonic_plague:0 "Peste bubónica." #NT!
  missing_illness:0 "#D Enfermedad perdida #!" #NT!
  health.2201.minor_disease.desc:0 "\n\nNormalmente, una aflicción tan leve no sería motivo de preocupación, pero la salud de [sick_character.GetFirstNamePossessive] es frágil y esto podría ser demasiado para [sick_character.GetHerHim]." #NT!
  health.2201.leprosy.desc:1 "\n\nSi bien [sick_character.GetSheHe] puede vivir muchos años, la deformidad de [sick_character.GetHerHis] hará que [sick_character.GetHerHim] sea rechazado y desconfiado. Incluso yo no puedo reprimir mi disgusto ante la idea de que las lesiones crezcan por toda la piel de [sick_character.GetHerHis]..." #NT!
@@ -222,10 +222,10 @@
 
  #There is no longer an outbreak!
  health.2102.t:1 "[SCOPE.Custom('EventTitleDisease')]: Un nuevo día" #NT!
- health.2102.start1.desc:0 "el estallido de" #NT!
- health.2102.smallpox.desc:0 "viruela" #NT!
- health.2102.bubonic_plague.desc:0 "plaga" #NT!
- health.2102.start2.desc:0 "que ha asolado mi corte finalmente ha terminado." #NT!
+ health.2102.start1.desc:0 "El estallido de" #NT!
+ health.2102.smallpox.desc:0 "Viruela" #NT!
+ health.2102.bubonic_plague.desc:0 "Plaga" #NT!
+ health.2102.start2.desc:0 "Que ha asolado mi corte finalmente ha terminado." #NT!
  health.2102.physician.desc:1 "Todas sus víctimas se han recuperado o han partido de este mundo.\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me asegura que todos los cuerpos se han eliminado correctamente y que la amenaza ha desaparecido por completo." #NT!
  health.2102.no_physician.desc:1 "Todas las víctimas se han recuperado o han partido de este mundo; no queda ninguna enfermedad." #NT!
  health.2102.2_victims.desc:0 "\n\nSin embargo, el camino hacia la recuperación es largo. Hemos perdido [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)] y [victim_2.Custom2('MyCharacterIntroduction', ROOT.Char)], entre muchos otros. La vida continúa, pero las cicatrices permanecen." #NT!
@@ -248,7 +248,7 @@
 
  # Recruit physician event
  health.3001.disease.t:0 "[SCOPE.Custom('EventTitleDisease')]:" #NT!
- health.3001.t:0 "médico de la corte" #NT!
+ health.3001.t:0 "Médico de la corte" #NT!
  health.3001.fallback_reason.desc:0 "Este mundo está lleno de peligros, incluso para una corte [ROOT.Char.GetTitleTierName] y [ROOT.Char.GetHerHis]. Debería contratar a un médico de la corte para que no nos sucedan lesiones o enfermedades.\n\nHe pedido recomendaciones y he reunido algunas opciones para elegir." #NT!
  health.3001.decision.desc:0 "Este mundo está lleno de peligros, incluso para una corte [ROOT.Char.GetTitleTierName] y [ROOT.Char.GetHerHis]. Según mi pedido, mis sirvientes han preguntado por recomendaciones. Ahora han reunido algunas opciones para elegir." #NT!
  health.3001.already_sick.desc:0 "Finalmente, mis sirvientes han encontrado algunas personas que podrían ser aptas para servir como médicos de la corte. De cualquier manera, me temo que no puedo darme el lujo de ser exigente ahora." #NT!
@@ -327,10 +327,10 @@
  health.safe_treatment.20.desc:0 "Para equilibrar mis humores, [physician.GetTitledFirstName] me hizo beber agua salada para inducirme el vómito. Fue muy efectivo.\n\nVaciar mi estómago" #NT!
  health.safe_treatment.21.desc:0 "Para librarme de mis dolencias [physician.GetTitledFirstName] me ordenó dormir colgado boca abajo durante un par de días. "Te reequilibrará", me aseguró [physician.GetSheHe]. \n\nMe sentí como un murciélago.\n\nLa extraña posición para dormir" #NT!
 
- health.3103.end.desc:0 "resultó ser justo lo que necesitaba. Por ahora, los peores de mis síntomas se alivian y el mundo parece un poco más brillante." #NT!
+ health.3103.end.desc:0 "Resultó ser justo lo que necesitaba. Por ahora, los peores de mis síntomas se alivian y el mundo parece un poco más brillante." #NT!
  health.3103.a:0 "Excelente trabajo, [physician.GetFirstNameNoTooltip]." #NT!
  health.3104.t:1 "[SCOPE.Custom('EventTitleDisease')]: Aún peor" #NT!
- health.3104.end.desc:0 "no hizo nada para mejorar mi estado. En verdad, ¡creo que me siento peor!" #NT!
+ health.3104.end.desc:0 "No hizo nada para mejorar mi estado. En verdad, ¡creo que me siento peor!" #NT!
  health.3104.a:0 "Irse. Quiero descansar..." #NT!
 
  health.3105.t:1 "[SCOPE.Custom('EventTitleDisease')]: Un milagro médico" #NT!
@@ -422,9 +422,9 @@
  health.4000.start.desc:0 "Mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName] ha sido herido," #NT!
  health.4000.infected_wound.desc:1 "y la carne de [sick_character.GetHerHis] se ha vuelto asquerosa e hinchada.\n\nSi se administra el tipo correcto de tratamiento, y [ROOT.Char.GetFaith.HealthGodName] es misericordioso, [sick_character.GetSheHe] debería lograrlo." #NT!
  health.4000.gangrene.desc:1 "y la carne de [sick_character.GetHerHis] ha contraído asquerosidad y muerte.\n\nLa negrura se está extendiendo sobre la piel de [sick_character.GetHerHis], y solo [ROOT.Char.GetFaith.FateGodName] sabe si [sick_character.GetSheHe] lo logrará." #NT!
- health.4000.close_to_death_wounded.desc:0 "y la lesión es muy profunda. [sick_character.GetHerHis|U] cada respiración es una batalla, y me temo que solo un milagro puede salvar a [sick_character.GetHerHim]." #NT!
- health.4000.very_wounded.desc:0 "y la lesión es profunda. Me temo que el cuerpo de [sick_character.GetHerHis] no es lo suficientemente fuerte para luchar contra esto por sí solo; Siento la muerte flotando junto a [sick_character.GetHerHis] junto a la cama." #NT!
- health.4000.wounded.desc:0 "y [sick_character.GetSheHe] está claramente dolorido. La aflicción es menor, pero los males del cuerpo no deben tomarse a la ligera." #NT!
+ health.4000.close_to_death_wounded.desc:0 "Y la lesión es muy profunda. [sick_character.GetHerHis|U] cada respiración es una batalla, y me temo que solo un milagro puede salvar a [sick_character.GetHerHim]." #NT!
+ health.4000.very_wounded.desc:0 "Y la lesión es profunda. Me temo que el cuerpo de [sick_character.GetHerHis] no es lo suficientemente fuerte para luchar contra esto por sí solo; Siento la muerte flotando junto a [sick_character.GetHerHis] junto a la cama." #NT!
+ health.4000.wounded.desc:0 "Y [sick_character.GetSheHe] está claramente dolorido. La aflicción es menor, pero los males del cuerpo no deben tomarse a la ligera." #NT!
  health.4000.a:0 "No hay nada que se pueda hacer." #NT!
 
  health.4001.start.desc:0 ""Ha llegado el momento de curar tus heridas." #NT!
@@ -440,12 +440,12 @@
  health.4101.desc_infection:0 "Cuando [physician.GetFirstName] comenzó a triturar suavemente las hierbas y la miel, pensé que [physician.GetSheHe] estaba bromeando; seguramente la vegetación no podría ayudarme. Mientras [physician.GetSheHe] untaba la cataplasma sobre mi herida dolorida," #NT!
  health.4101.desc_1:0 "Cuando [physician.GetFirstName] volcó una botella de vino sobre mi herida, el dolor superó todo lo que me había causado la lesión en sí.\n\n"Por favor, mi [ROOT.Char.GetTitleTierName]. Es necesario disipar la suciedad interior".\n\nY de hecho , después de vendar la herida con fuerza, se" #NT!
  health.4101.desc_2:0 "[physician.GetFirstName] rápidamente enhebró una aguja y se puso a trabajar en mi herida como si [physician.GetSheHe] estuviera haciendo labores alrededor del fuego. ¡La visión resultante de puntos de sutura que mantenían unida mi carne era macabra! A medida que pasaba el tiempo" #NT!
- health.4101.desc_end:0 "pronto comenzó a sanar." #NT!
+ health.4101.desc_end:0 "Pronto comenzó a sanar." #NT!
  health.4101.a:0 "¡Excelente trabajo, [physician.GetFirstNameNoTooltip]!" #NT!
 
  health.4102.t:1 "$health_wounded_title$ Dolor" #NT!
  health.4102.desc_infection:0 "La bolsa que [physician.GetFirstName] llevó a mis habitaciones se movió por sí sola, el interior se convulsionó como si estuviera vivo. Cuando [physician.GetFirstNameNoTooltip] sacó una sanguijuela que se retorcía, sentí que mi cara se ponía blanca. "Solo quédate quieto ahora, mi [ROOT.Char.GetTitleTierName]..."\n\nCualquiera que sea el efecto que [physician.GetSheHe] había esperado, seguramente no fue este; como las criaturas me lo sangraron" #NT!
- health.4102.desc_end:0 "no hizo nada para equilibrar mis humores, y el dolor solo empeoró." #NT!
+ health.4102.desc_end:0 "No hizo nada para equilibrar mis humores, y el dolor solo empeoró." #NT!
  health.4102.a:0 "Arg...! ¡No me toques!" #NT!
 
  health.4103.t:1 "$health_wounded_title$ Manos curativas" #NT!
@@ -473,7 +473,7 @@
 
  # Suicide events, by Linnéa Thimrén
  health.6001.t:0 "El intento" #NT!
- health.6001.desc_opening:0 "acabaré con mi vida. No puedo evitar el dolor que crece en mi corazón pensando en todo lo que dejaré atrás, pero mi mente está decidida." #NT!
+ health.6001.desc_opening:0 "Acabaré con mi vida. No puedo evitar el dolor que crece en mi corazón pensando en todo lo que dejaré atrás, pero mi mente está decidida." #NT!
  health.6001.desc_depression:0 "El sufrimiento parece interminable." #NT!
  health.6001.desc_sickness:0 "Mi cuerpo se ha convertido en una prisión, consumiéndose..." #NT!
  health.6001.desc_lunacy:0 "Las sombras han hablado y pronto me uniré a ellas." #NT!
@@ -486,7 +486,7 @@
  health.6001.b:0 "Té, elaborado con una planta letal... Suena casi apetecible." #NT!
  health.6001.c:0 "Un baño tibio y un cuchillo afilado deberían hacerlo." #NT!
  health.6001.d:0 "Ya no estoy seguro de que esto sea lo que quiero hacer." #NT!
- health.6001.d_tt:0 "no hago un intento" #NT!
+ health.6001.d_tt:0 "No hago un intento" #NT!
 
  health.6002.desc_fall:0 "A medida que me acerco al borde, el viento atrapa la tela de mi [ROOT.Char.Custom('GetClothingArticle')] y azota a mi alrededor. Es un largo camino hacia abajo." #NT!
  health.6002.desc_poison:0 "A medida que el té hierve, el aire se llena de un hedor asqueroso como para recordarme su propósito. Vierto el líquido en una taza. Se enfría rápidamente y levanto la taza hacia mis labios." #NT!
@@ -522,7 +522,7 @@
  health.6200.a:0 ""[close_person.GetFirstNameNoTooltip]... Por favor... Termine esto..."" #NT!
  health.6200.a_success:0 "[close_person.GetSheHe|U] acepta hacerlo" #NT!
  health.6200.a_failure:0 "[close_person.GetSheHe|U] me niega" #NT!
- health.6200.a_failure_tt:0 "tu no mueres" #NT!
+ health.6200.a_failure_tt:0 "Tu no mueres" #NT!
  health.6200.b:0 "No puedo pedirle esto a [close_person.GetHerHim]. Un sirviente debe hacerlo..." #NT!
  health.6200.b_2:0 "Un sirviente debe hacerlo..." #NT!
  health.6200.b_success:0 "Un sirviente cumple tu deseo" #NT!

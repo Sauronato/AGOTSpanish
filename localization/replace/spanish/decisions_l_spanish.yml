@@ -1,7 +1,7 @@
 ﻿l_spanish:
  DECISION_ON_COOLDOWN:0 "@warning_icon!#X $DECISION_NAME$ no disponible hasta [DATE.GetStringLong]#!" #NT!
  ALREADY_PLANNING_ACTIVITY:0 "Ya estás planeando otro [activity|E]" #NT!
- start_hunt_decision:0 "búsqueda de llamadas" #NT!
+ start_hunt_decision:0 "Búsqueda de llamadas" #NT!
  start_hunt_decision_tooltip:1 "Se llevará a cabo un [hunt|E]" #NT!
  start_hunt_decision_desc:0 "#F ¡La naturaleza indómita está llamando, y todo tipo de bestias están esperando mi lanza y mi flecha!#!" #NT!
  start_hunt_decision_go_on_hunt:1 "Vas a #V Hunt#! en una de las baronías de tu reino" #NT!
@@ -48,8 +48,8 @@
  tribal_challenge_ruler_decision_desc:0 "[ROOT.Char.GetLiege.GetFirstName] lleva el título de [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip] como si fuera incuestionablemente [ROOT.Char.GetLiege.GetHersHis]; como si no fuera solo la habilidad y la fuerza lo que debería decidir a nuestro líder.\n\nYo, [ROOT.Char.GetFullNameNoTooltip], interrogo a [ROOT.Char.GetLiege.GetHerHis] derecho al título, a todo [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier], ¡y no me callaré más!" #NT!
  tribal_challenge_ruler_decision_tooltip:0 "Desafía al [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|U] por el título de [ROOT.Char.GetLiege.GetHerHis] y la tierra de [ROOT.Char.GetLiege.GetHerHis]" #NT!
  tribal_challenge_ruler_effect_tooltip:0 "[liege_to_challenge.GetTitledFirstNameNoTooltip] decidirá sobre el desafío\n" #NT!
- tribal_challenge_ruler_desc_success:0 "ganas el reto" #NT!
- tribal_challenge_ruler_desc_failure:0 "pierdes el reto" #NT!
+ tribal_challenge_ruler_desc_success:0 "Ganas el reto" #NT!
+ tribal_challenge_ruler_desc_failure:0 "Pierdes el reto" #NT!
  recently_took_tribal_challenge_ruler_decision:0 "Ha desafiado recientemente la regla de alguien" #NT!
  tribal_challenge_ruler_decision_confirm:0 "¡Desafía a [ROOT.Char.GetLiege.GetTitledFirstNameNoTooltip]!" #NT!
 
@@ -98,14 +98,14 @@
 
  pet_dog_decision:0 "Mascota [ROOT.Char.Custom('DogStoryName')]" #NT!
  pet_dog_decision_desc:0 "Es hora de respirar hondo y encontrar a mi fiel compañero de cuatro patas [ROOT.Char.Custom('DogStoryName')]. Algunas personas dicen que los perros son criaturas bajas, pero no importa cuán difícil se ponga la vida, ¡sé que [ROOT.Char.Custom('DogStorySheHe')] siempre estará ahí para mí!" #NT!
- pet_dog_decision_tooltip:0 "acaricia a tu perro" #NT!
- pet_dog_decision_confirm:0 "acaricia a tu perro" #NT!
+ pet_dog_decision_tooltip:0 "Acaricia a tu perro" #NT!
+ pet_dog_decision_confirm:0 "Acaricia a tu perro" #NT!
  pet_decision_effect_tooltip:0 "Perderás algo de [stress|E]" #NT!
 
  pet_cat_decision:0 "Mascota [ROOT.Char.Custom('CatStoryName')]" #NT!
  pet_cat_decision_desc:0 "Es hora de respirar hondo y encontrar a mi fiel compañero de cuatro patas [ROOT.Char.Custom('CatStoryName')]. Algunas personas dicen que los gatos son criaturas malvadas y egoístas, pero no importa cuán difícil se ponga la vida, ¡sé que [ROOT.Char.Custom('CatStorySheHe')] siempre estará ahí para mí!" #NT!
- pet_cat_decision_tooltip:0 "acaricia a tu gato" #NT!
- pet_cat_decision_confirm:0 "acaricia a tu gato" #NT!
+ pet_cat_decision_tooltip:0 "Acaricia a tu gato" #NT!
+ pet_cat_decision_confirm:0 "Acaricia a tu gato" #NT!
 
  playdate_decision:0 "Conoce a tus compañeros" #NT!
  playdate_decision_desc:0 "#F ¡Invitar a todos los pequeños señores y damas del reino a divertirse en compañía de otros niños es una experiencia liberadora y divertida!#!" #NT!
@@ -163,7 +163,7 @@
  select_personal_deity_hinduism_decision:0 "Determinar Bhakti" #NT!
  select_personal_deity_hinduism_decision_tooltip:0 "Piensa en el [ROOT.Char.GetFaith.PantheonTerm]" #NT!
  select_personal_deity_hinduism_decision_desc:0 "#F Todo devoto [ROOT.Char.GetFaith.GetAdherentNameNoTooltip] debe tener bhakti, o una devoción a un dios o diosa específico que resuena con más fuerza en su alma.\n\nDebo contemplar los diversos seres divinos y decidir cuál me llama más.#!" #NT!
- select_personal_deity_hinduism_decision_confirm:0 "contemplar el bhakti" #NT!
+ select_personal_deity_hinduism_decision_confirm:0 "Contemplar el bhakti" #NT!
  select_personal_deity_hinduism_decision_tt:0 "Obtienes un modificador asociado con tu bhakti seleccionado" #NT!
 
  select_personal_deity_germanic_decision:0 "Determinar la deidad personal" #NT!
@@ -186,7 +186,7 @@
  give_sky_burial_decision:0 "Dale a tu [ROOT.Char.Custom2('RelationToMe', ROOT.Var('ancestor_to_bury').Char)|U] un entierro en el cielo" #NT!
  give_sky_burial_decision_tooltip:0 "Deja descansar a tu antepasado y gana [piety|E] y [vassal|E] [opinion|E]" #NT!
  give_sky_burial_decision_desc:0 "#F [ROOT.Var('ancestor_to_bury').Char.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha fallecido. La tradición dicta que [ROOT.Var('ancestor_to_bury').Char.GetSheHe] debe recibir un entierro en el cielo, [ROOT.Var('ancestor_to_bury').Char.GetHerHis] queda para que los carroñeros se den un festín para que [ROOT.Var('ancestor_to_bury').Char.GetSheHe] pueda alimentar al mundo que una vez alimentó a [ROOT.Var('ancestor_to_bury').Char.GetHerHim].#!" #NT!
- give_sky_burial_decision_confirm:0 "dar cielo entierro" #NT!
+ give_sky_burial_decision_confirm:0 "Dar cielo entierro" #NT!
  give_sky_burial_vassals:0 "Cada vasallo que cree en Sky Burials" #NT!
 
  raise_runestone_decision:0 "Levanta una piedra rúnica" #NT!
@@ -202,7 +202,7 @@
  divine_the_stars_decision_desc:0 "#F Nuestros destinos están escritos en las estrellas mismas. Al estudiarlos, puedo obtener una idea de lo que depara el futuro... #!" #NT!
  divine_the_stars_decision_confirm:0 "Divinas las estrellas" #NT!
  divine_the_starts_effect:0 "Descubrirás una visión cósmica en un futuro cercano." #NT!
- divine_the_stars_trigger:0 "ya estas adivinando las estrellas" #NT!
+ divine_the_stars_trigger:0 "Ya estas adivinando las estrellas" #NT!
  divine_the_stars_modifier:0 "Aún no tienes un modificador astrológico" #NT!
 
  create_holy_order_decision:0 "Orden sagrada encontrada" #NT!
@@ -259,7 +259,7 @@
  commission_furniture_tooltip:0 "#T Mobiliario#! \n$IS_VALID_BLOCKER$\n$DESC$" #NT!
  commission_book_tooltip:0 "#T Reservar#! \n$IS_VALID_BLOCKER$\n$DESC$" #NT!
 
- go_on_pilgrimage_decision:0 "ir de peregrinaje" #NT!
+ go_on_pilgrimage_decision:0 "Ir de peregrinaje" #NT!
  go_on_pilgrimage_decision_tooltip:1 "Realiza un [pilgrimage|E] para demostrar tu dedicación a [ROOT.Char.GetFaith.PantheonTerm]" #NT!
  go_on_pilgrimage_decision_desc:0 "#F Los lugares sagrados son los lugares de nuestro mundo más cercanos a [ROOT.Char.GetFaith.PantheonTerm]. Verlos por mí mismo es demostrar mi dedicación como [ROOT.Char.GetFaith.GetAdherentNameNoTooltip].#!" #NT!
  go_on_pilgrimage_decision_confirm:0 "Prepárate para el viaje" #NT!
@@ -323,7 +323,7 @@
  mend_the_great_schism_decision:0 "Reparar el Gran Cisma" #NT!
  mend_the_great_schism_decision_confirm:0 "¡Un Dios, una Iglesia!" #NT!
  mend_the_great_schism_decision_desc:1 "El Gran Cisma vio dividida a la Iglesia cristiana, pero si las cinco Sedes Episcopales de la Pentarquía pudieran restaurarse bajo el gobierno de un solo Imperio bajo el liderazgo ilustrado de un gobernante santo, podría haber una oportunidad de reunir finalmente a la cristiandad." #NT!
- mend_the_great_schism_decision_tooltip:0 "reuniré a la cristiandad" #NT!
+ mend_the_great_schism_decision_tooltip:0 "Reuniré a la cristiandad" #NT!
  mend_the_great_schism_decision_effect_tooltip:0 "La Iglesia [THIS.Char.GetFaith.GetAdjective] reparará el Cisma y se establecerá como la única rama legítima del cristianismo." #NT!
  every_ecumenical_christian_faith.tt:0 "$EFFECT_LIST_BULLET$ Cada cristiano [faith|E] con [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName]" #NT!
 
@@ -349,7 +349,7 @@
  restore_ecumenical_patriarchate_decision_tooltip:0 "Usa tu influencia para restablecer el Patriarcado Ecuménico." #NT!
  restore_ecumenical_patriarchate_decision_effect_tooltip:0 "El Patriarcado Ecuménico reemplazará al Patriarcado Iconoclasta" #NT!
 
- restore_papacy_decision:0 "restaurar el papado" #NT!
+ restore_papacy_decision:0 "Restaurar el papado" #NT!
  restore_papacy_decision_confirm:0 "El Papado será restaurado" #NT!
  restore_papacy_decision_desc:0 "Si un católico piadoso recuperara los territorios centrales del patrimonio de San Pedro, la Santa Sede podría ser restaurada una vez más en el lugar que le corresponde en el Vaticano." #NT!
  restore_papacy_decision_tooltip:0 "Restaurar la Santa Sede" #NT!
@@ -437,14 +437,14 @@
 
  embrace_celibacy_decision:0 "Abraza el celibato" #NT!
  embrace_celibacy_decision_desc:0 "#F Una vida sin placeres carnales me traerá paz y satisfacción.#!" #NT!
- embrace_celibacy_decision_tooltip:0 "me vuelvo célibe" #NT!
+ embrace_celibacy_decision_tooltip:0 "Me vuelvo célibe" #NT!
  embrace_celibacy_decision_confirm:0 "¡Hoy comienza una nueva vida!" #NT!
- abandon_celibacy_decision:0 "abandonar el celibato" #NT!
+ abandon_celibacy_decision:0 "Abandonar el celibato" #NT!
  abandon_celibacy_decision_desc:0 "#F Tengo deberes para con el reino y conmigo mismo... No puedo seguir viviendo en celibato.#!" #NT!
  abandon_celibacy_decision_tooltip:0 "Dejo de ser célibe" #NT!
  abandon_celibacy_decision_confirm:0 "¡Hoy comienza una nueva vida!" #NT!
  msg_became_celibate:0 "Abraza el celibato" #NT!
- msg_stopped_being_celibate:0 "abandonar el celibato" #NT!
+ msg_stopped_being_celibate:0 "Abandonar el celibato" #NT!
 
 
  sale_of_titles_decision:1 "Vender títulos triviales" #NT!
@@ -472,7 +472,7 @@
  hold_mystical_communion_decision:0 "Celebrar la Comunión Mística" #NT!
  hold_mystical_communion_decision_desc:0 "#F Buscaré la presencia de [ROOT.Char.GetFaith.HighGodName] en éxtasis paralizado.#!" #NT!
  hold_mystical_communion_decision_tooltip:0 "Eres el único que realmente sabe" #NT!
- hold_mystical_communion_decision_confirm:0 "empiezo en paz" #NT!
+ hold_mystical_communion_decision_confirm:0 "Empiezo en paz" #NT!
  hold_mystical_communion_side_effects_tt:0 "Puede haber efectos secundarios imprevistos" #NT!
  held_mystical_communion_title:0 "Comunión con [ROOT.Char.GetFaith.HighGodName]" #NT!
 
@@ -599,7 +599,7 @@
  promote_gothic_innovations_decision_tooltip:0 "Invierte en mecenazgo" #NT!
  promote_gothic_innovations_decision_confirm:0 "Invierte en mecenazgo" #NT!
 
- lunatic_building_decision:0 "construir un monumento de vidrio" #NT!
+ lunatic_building_decision:0 "Construir un monumento de vidrio" #NT!
  lunatic_building_decision_desc:0 "¡Soñé con un edificio hecho completamente de vidrio, donde el sol calienta como un día de verano incluso en los inviernos más profundos, y las plantas pueden crecer durante todo el año!" #NT!
  lunatic_building_decision_tooltip:0 "Se construirá un [GetBuilding('special_greenhouse_01').GetName]" #NT!
  lunatic_building_decision_confirm:0 "¡Atraparé el sol!" #NT!
@@ -677,7 +677,7 @@
  #UNITE THE SPANISH THRONES
  unite_the_spanish_thrones_decision:0 "Unir los Tronos Españoles" #NT!
  unite_the_spanish_thrones_decision_desc:0 "Los Tronos Españoles volverán a estar unidos, y esta vez bajo la bandera de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
- unite_the_spanish_thrones_decision_confirm:0 "unir los tronos" #NT!
+ unite_the_spanish_thrones_decision_confirm:0 "Unir los tronos" #NT!
  unite_the_spanish_thrones_decision_tooltip:0 "Los tronos españoles volverán a estar unidos" #NT!
  unite_the_spanish_thrones_decision_titles_tt:1 "Cada [kingdom|E] [title|E] español que poseas (excepto tu [primary_title|E]) será destruido y sus territorios se convertirán en [de_jure|E] de tu título principal ([THIS.Char.GetPrimaryTitle.GetNameNoTier])" #NT!
  unite_the_spanish_thrones_decision_primary:0 "Tu [primary_title|E] es un [kingdom|E] ibérico" #NT!
@@ -775,12 +775,12 @@
  minor_decisions.0003.desc.ewan:0 "Lo que me veo obligado a mirar es una malvada pesadilla de un [barrel_character.GetWomanMan], que apenas se parece a un ser humano. ¡La desdichada criatura está tan afectada por enfermedades, malformaciones y lesiones que es un acto de brujería que [barrel_character.GetSheHe] es incluso capaz de soportar!" #NT!
  minor_decisions.0003.desc.criminal_bridge:0 "\n\nAunque [barrel_character.GetSheHe] es un traidor culpable," #NT!
  minor_decisions.0003.desc.bridge_1:0 "\n\nA pesar de la aflicción de [barrel_character.GetHerHis]," #NT!
- minor_decisions.0003.desc.bride_2:0 "me ha llamado la atención que [barrel_character.GetSheHe] es un experto" #NT!
- minor_decisions.0003.desc.educated:0 "erudito, de alguna manera educado en el lenguaje escrito a pesar de [barrel_character.GetHerHis] baja posición en la vida. Siento que [barrel_character.GetNameNoTooltip] serviría bien a la corte en asuntos de religión, erudición o salud." #NT!
- minor_decisions.0003.desc.cunning:0 "estafador, haciendo [barrel_character.GetHerHis] fortuna estafando a los locales de cada centavo que pueden sangrar. Su astucia y ligereza harían bien a mi lado, escuchando los muchos susurros que surgen en la corte y haciendo llover justicia sobre aquellos que abusan de la Corona." #NT!
+ minor_decisions.0003.desc.bride_2:0 "Me ha llamado la atención que [barrel_character.GetSheHe] es un experto" #NT!
+ minor_decisions.0003.desc.educated:0 "Erudito, de alguna manera educado en el lenguaje escrito a pesar de [barrel_character.GetHerHis] baja posición en la vida. Siento que [barrel_character.GetNameNoTooltip] serviría bien a la corte en asuntos de religión, erudición o salud." #NT!
+ minor_decisions.0003.desc.cunning:0 "Estafador, haciendo [barrel_character.GetHerHis] fortuna estafando a los locales de cada centavo que pueden sangrar. Su astucia y ligereza harían bien a mi lado, escuchando los muchos susurros que surgen en la corte y haciendo llover justicia sobre aquellos que abusan de la Corona." #NT!
  minor_decisions.0003.desc.charismatic:1 "diplomático con habilidades en el idioma [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] que rivaliza con cualquier noble! [barrel_character.GetHerHis|U] El carisma subversivo y la apariencia inusual sin duda captarán el interés de cualquier noble extranjero que visite mi corte." #NT!
- minor_decisions.0003.desc.organised:0 "comerciante con una comprensión de las finanzas y la organización muy por encima de lo que esperaría de un humilde campesino. Sin duda, este [barrel_character.GetWomanMan] está desperdiciado como un infiel y ha sido elegido por [ROOT.Char.GetFaith.HighGodName] para ascender al rango de nobleza y servirme en la corte." #NT!
- minor_decisions.0003.desc.strong:0 "líder, ganando innumerables escaramuzas y liderando al grupo [barrel_character.GetHerHis] de pícaros de incursión en incursión. Sin duda, [barrel_character.GetSheHe] está perdido revolcándose en un estofado de barro y sangre cometiendo pequeños robos en el campo y, en cambio, ¡debería ponerse ropajes reales y unirse a mi excelente corte!" #NT!
+ minor_decisions.0003.desc.organised:0 "Comerciante con una comprensión de las finanzas y la organización muy por encima de lo que esperaría de un humilde campesino. Sin duda, este [barrel_character.GetWomanMan] está desperdiciado como un infiel y ha sido elegido por [ROOT.Char.GetFaith.HighGodName] para ascender al rango de nobleza y servirme en la corte." #NT!
+ minor_decisions.0003.desc.strong:0 "Líder, ganando innumerables escaramuzas y liderando al grupo [barrel_character.GetHerHis] de pícaros de incursión en incursión. Sin duda, [barrel_character.GetSheHe] está perdido revolcándose en un estofado de barro y sangre cometiendo pequeños robos en el campo y, en cambio, ¡debería ponerse ropajes reales y unirse a mi excelente corte!" #NT!
  minor_decisions.0003.desc.outro:0 "Mi consejo ha determinado el papel que mejor se adapta a [barrel_character.GetNameNoTooltip], la única pregunta que queda es si realmente estoy dispuesto a seguir adelante con esto o no." #NT!
  minor_decisions.0003.a:0 "¡Por supuesto! ¡Bienvenido a la nobleza, [barrel_character.GetNameNoTooltip]!" #NT!
  minor_decisions.0003.b:0 "Solo el oficio de ejecución le conviene a esta #EMP criatura#!." #NT!
@@ -818,7 +818,7 @@
  #Adopt Special Succession decision
  adopt_special_succession_decision:0 "Adoptar tipo de sucesión especial" #NT!
  adopt_special_succession_decision_desc:0 "La sucesión de particiones nos hace débiles y divididos. Quizás los magnates del reino aceptarían una alternativa histórica..." #NT!
- adopt_special_succession_decision_confirm:0 "piensa en el asunto" #NT!
+ adopt_special_succession_decision_confirm:0 "Piensa en el asunto" #NT!
  adopt_special_succession_decision_tooltip:0 "Reemplace mi partición [succession|E] con un tipo local de Electiva $game_concept_succession$" #NT!
  adopt_special_succession_decision_effects.tt:1 "Puede elegir una forma de [succession|E] opcional tradicional en función de su [culture|E]\n$EFFECT_LIST_BULLET$. Se aplicará a cualquiera de sus [rank|E] [titles|E] superiores mediante la partición [succession|E]" #NT!
  implemented_traditional_succession_law_opinion:0 "Ley de sucesión tradicional implementada" #NT!
@@ -856,7 +856,7 @@
 
  assimilate_local_traditions_decision:0 "Haz que el reino adopte las tradiciones locales" #NT!
  assimilate_local_traditions_decision_desc:0 "Si bien la aventura siempre estará en nuestra sangre, reconocemos que estamos lejos de nuestro gélido hogar escandinavo. Las tradiciones locales se adaptan bien a su gente, son dueños de su tierra y sus dioses son fuertes, lo respetamos. Con el tiempo, seremos como ellos." #NT!
- assimilate_local_traditions_decision_confirm:0 "nos adaptaremos" #NT!
+ assimilate_local_traditions_decision_confirm:0 "Nos adaptaremos" #NT!
  assimilate_local_traditions_decision_tooltip:0 "Conviértete a ti y a todos tus [vassals|E] nórdicos en [culture|E] y [faith|E] de tu [capital|E]" #NT!
  every_norse_vassal:0 "Cada [vassal|E] compartiendo su [culture|E] y su [close_family|E]" #NT!
  non_zealous_convert:0 "Convierte a [new_faith.GetName] #weak  (si no) #!" #NT!
@@ -884,7 +884,7 @@
  stress_loss_hashishiyah_decision_tooltip:1 "Deja que tu estrés se derrita en una neblina inducida por drogas" #NT!
  stress_loss_hashishiyah_decision_confirm:1 "¡Tráeme una bebida!" #NT!
 
- stress_loss_rakish_decision:0 "visita un burdel" #NT!
+ stress_loss_rakish_decision:0 "Visita un burdel" #NT!
  stress_loss_rakish_decision_desc:0 "[ROOT.Char.Custom('AttractionWomanManIndef')|U] en mi regazo, y todo, y todos, el burdel tiene para ofrecer a mi entera disposición..." #NT!
  stress_loss_rakish_decision_desc_woman_ending:0 "Nada alivia la mente como un alivio carnal." #NT!
  stress_loss_rakish_decision_desc_man_ending:0 "Nada libera la mente como una buena liberación." #NT!
@@ -929,12 +929,12 @@
  stress_loss_comfort_eater_decision_tooltip:0 "Come para enfocar tu mente" #NT!
  stress_loss_comfort_eater_decision_confirm:0 "¡Poner la mesa!" #NT!
 
- stress_loss_inappetetic_decision:0 "evita la comida" #NT!
+ stress_loss_inappetetic_decision:0 "Evita la comida" #NT!
  stress_loss_inappetetic_decision_desc:0 "¡Tengo demasiado en mi plato, incluso sin contar la comida literal que está allí! Al saltarme las comidas, puedo concentrarme en los problemas que realmente importan en el reino." #NT!
  stress_loss_inappetetic_decision_tooltip:0 "Evita la comida y evita el estrés" #NT!
  stress_loss_inappetetic_decision_confirm:0 "Informar al cocinero." #NT!
 
- stress_loss_journaller_decision:0 "escribir pensamientos" #NT!
+ stress_loss_journaller_decision:0 "Escribir pensamientos" #NT!
  stress_loss_journaller_decision_desc:0 "Pondré mis pensamientos y cargas por escrito. ¡Nada aclara la mente como una lata de tinta y papel!" #NT!
  stress_loss_journaller_decision_tooltip:0 "Pon tus pensamientos en papel y despeja tu mente" #NT!
  stress_loss_journaller_decision_confirm:0 "¡Trae mi diario!" #NT!
@@ -1001,7 +1001,7 @@
  formalise_the_daneland_decision_confirm:0 "Esta rivalidad nos cae mal." #NT!
  formalise_the_daneland_decision_tooltip:0 "Renunciar a la lucha por un $k_england$ unido" #NT!
  formalise_the_daneland_decision.must_be_after_1100.tt:0 "La fecha es 1100.1.1 o posterior" #NT!
- admiring_birds_decision:0 "admirar las aves" #NT!
+ admiring_birds_decision:0 "Admirar las aves" #NT!
  admiring_birds_decision_tooltip:0 "Dedique algún tiempo a admirar las aves." #NT!
  admiring_birds_decision_desc:0 "#F Las aves son criaturas magníficas, puedes aprender mucho observándolas y ganar aún más si puedes acariciar una.#!" #NT!
  admiring_birds_decision_confirm:0 "Ir a caminar" #NT!
@@ -1013,7 +1013,7 @@
  deceitful_progress_hostile_schemes_decision_missing_scheme_effect:0 "Tu [hostile_schemes|E] tendrá un mejor [success_chance|E]" #NT!
  msg_deceitful_progress_hostile_schemes:0 "¡Tu [hostile_schemes|E] progresó!" #NT!
 
- diligent_development_focus_decision:0 "desarrollar capital" #NT!
+ diligent_development_focus_decision:0 "Desarrollar capital" #NT!
  diligent_development_focus_decision_desc:0 "Sueño que [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] algún día será la envidia de todos los gobernantes bajo el cielo. Debo esforzarme por ser el campeón que la convierta en la joya de la Tierra. Todo lo que se necesita es que trabaje un poco más...\n\n¿Quién necesita dormir, de todos modos?" #NT!
  diligent_development_focus_decision_tooltip:0 "Mejora el desarrollo de tu Capital" #NT!
  diligent_development_focus_decision_confirm:0 "Planifica el desarrollo" #NT!
@@ -1056,11 +1056,11 @@
  court_amenities_interactions.0010.a.tt_failure:0 "La multitud no está de acuerdo contigo y piensa que el atuendo de [actor.GetNamePossessiveNoTooltip] es la nueva tendencia de la moda." #NT!
  court_amenities_interactions.0011.t:0 "De moda y peleas" #NT!
  court_amenities_interactions.0011.desc_intro:0 "Me pavoneo por mi corte, orgullosa de mi nueva y audaz declaración de moda," #NT!
- court_amenities_interactions.0011.desc.flag_big_collar:0 "mi ropa adornada con un enorme cuello redondo para que todos la admiren." #NT!
- court_amenities_interactions.0011.desc.flag_head_dress:0 "mi tocado habitual se inclinó hacia un lado de mi cabeza, trayendo algo nuevo y fresco a una prenda de vestir vieja y monótona." #NT!
- court_amenities_interactions.0011.desc.flag_gold_boots:0 "mis pesadas botas doradas brillando a la luz del salón [debate_locale.GetNameNoTierNoTooltip]." #NT!
+ court_amenities_interactions.0011.desc.flag_big_collar:0 "Mi ropa adornada con un enorme cuello redondo para que todos la admiren." #NT!
+ court_amenities_interactions.0011.desc.flag_head_dress:0 "Mi tocado habitual se inclinó hacia un lado de mi cabeza, trayendo algo nuevo y fresco a una prenda de vestir vieja y monótona." #NT!
+ court_amenities_interactions.0011.desc.flag_gold_boots:0 "Mis pesadas botas doradas brillando a la luz del salón [debate_locale.GetNameNoTierNoTooltip]." #NT!
  court_amenities_interactions.0011.desc.flag_sleeveless:0 "¡Mi nuevo atuendo sin mangas con mis brazos para que todos lo vean!" #NT!
- court_amenities_interactions.0011.desc.flag_commoner_clothes:0 "cuestionando por qué la nobleza debe vestirse de manera tan diferente a los plebeyos cuando la simplicidad es tan elegante." #NT!
+ court_amenities_interactions.0011.desc.flag_commoner_clothes:0 "Cuestionando por qué la nobleza debe vestirse de manera tan diferente a los plebeyos cuando la simplicidad es tan elegante." #NT!
  court_amenities_interactions.0011.desc_bridge:0 "[recipient.Custom2('MyCharacterIntroduction', ROOT.Char)] me grita desde el otro lado del pasillo.\n\nLanzamos insultos de un lado a otro, yo defendiendo lo que obviamente es buena moda y va mucho más allá de la cabeza de una mente simple." #NT!
  court_amenities_interactions.0011.desc_won:0 "¡Mientras la nobleza local me rodea, puedo considerar que mi declaración de moda es un éxito rotundo!" #NT!
  court_amenities_interactions.0011.desc_lost:0 "Como la nobleza de [debate_locale.GetNameNoTierNoTooltip] se unió rápidamente a [recipient.GetNameNoTooltip] para burlarse de mi atuendo, sé que mi declaración de moda no fue apreciada cruelmente en su propio tiempo." #NT!
@@ -1119,7 +1119,7 @@
  mozarabic_fate_county_count.need_at_least_twenty_same_faith_counties:0 "Debes tener al menos [EmptyScope.ScriptValue('mozarabic_fate_county_count')|0] mismo-[faith|E] [counties|E]" #NT!
  mozarabic_bind_the_faith_to_rome_decision.threaten_pope:0 "@advertencia_icono! #warning Obligas al Papa con un [strong_hook|E], ¡eso no les gustará!#!" #NT!
 
- mozarabic_break_with_rome_decision:0 "romper con roma" #NT!
+ mozarabic_break_with_rome_decision:0 "Romper con roma" #NT!
  mozarabic_break_with_rome_decision_desc:0 "¿Qué sabe [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] de nuestras vidas o tierras? Roma es un Lord temporal distante, que no se preocupa ni comprende nuestras necesidades espirituales.\n\nSolo si nos liberamos de los grilletes de [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName] y purgamos las últimas mentiras, [ROOT.Char.GetFaith.GetName] puede alcanzar la perfección." #NT!
  mozarabic_break_with_rome_decision_tooltip:0 "Llevar a [ROOT.Char.GetFaith.GetName] al cisma lejos de [ROOT.Char.GetFaith.GetReligiousHead.GetFaith.GetName]" #NT!
  mozarabic_break_with_rome_decision_confirm:0 "¡Un camino justo y piadoso!" #NT!
@@ -1143,17 +1143,17 @@
  favour_the_countryside_basques_decision.tt.temporal_hof_acquired:0 "[religious_leader.GetShortUINameNoTooltip|U] [Select_CString(THIS.Char.IsLocalPlayer, 'become', 'becomes' )] el nuevo [head_of_faith|E]" #NT!
  favour_the_countryside_basques_decision.path_pluralist:0 "Si reforma el [faith|E] para que sea aún más $doctrine_pluralism_pluralistic_name$" #NT!
  favour_the_countryside_basques_decision.tt.all_neighbouring_islamic_rulers:0 "Cada [ruler|E] islámico vecino" #NT!
- fervour_loss_temporal_meddling:0 "intromisión temporal" #NT!
+ fervour_loss_temporal_meddling:0 "Intromisión temporal" #NT!
  fervour_gain_unexpected_resurgence:0 "Resurgimiento inesperado" #NT!
  fp2_friend_of_the_old_ways_modifier:0 "Amigo de las viejas costumbres" #NT!
  fp2_friend_of_the_old_ways_modifier_desc:0 "Este personaje ha dedicado mucho tiempo y energía a defender creencias más antiguas. Con algunas revisiones leves." #NT!
  fp2_champion_of_the_old_ways_modifier:0 "Campeón de las viejas costumbres" #NT!
  fp2_champion_of_the_old_ways_modifier_desc:0 "Este personaje es considerado un defensor de todo lo bueno y santo por su fe." #NT!
 
- eat_cheese_decision:0 "come tu queso" #NT!
+ eat_cheese_decision:0 "Come tu queso" #NT!
  eat_cheese_decision_desc:0 "Te comes tu Queso Añejo." #NT!
  eat_cheese_decision_tooltip:0 "Tu queso curado está listo para ser consumido." #NT!
- eat_cheese_decision_confirm:0 "consumir el queso" #NT!
+ eat_cheese_decision_confirm:0 "Consumir el queso" #NT!
  eat_cheese_effect_tt:0 "Cuanto más tiempo haya añejado el queso, más estrés perderás al comerlo." #NT!
 
  golden_age_jewish_science_in_iberia_decision:0 "Patrocinar Ciencias Judías" #NT!
