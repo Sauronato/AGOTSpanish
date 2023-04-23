@@ -1,5 +1,5 @@
 ﻿l_spanish:
-
+l_english:
  # dlc_fp2_flavor_events_oltner
  rice_fields_modifier:0 "Campos de arroz" #NT!
  rice_fields_modifier_desc:0 "Los campesinos de esta provincia están cultivando arroz nutritivo, llenando sus estómagos e inspirando una nueva cocina." #NT!
@@ -15,7 +15,7 @@
  fp2_flavor.0001.c.failure:0 "[rice_propagator.GetFirstNameNoTooltip] está furioso" #NT!
 
  # fp2_struggle_events
-
+l_english:
  ##################################################
  # #Misc
  fp2_struggle.0011.t:0 "Fp2_lucha.0011.t" #NT!
@@ -186,7 +186,7 @@
 
 
  fp2_yearly.1006.t:0 "¿Queso Pentoshi?" #NT!
- fp2_yearly.1006.desc:0 "Me detengo en un puesto al borde de la carretera que vende algunos alimentos simples. El comerciante, [cheese_trader.GetName], me ofrece diferentes productos antes de llegar debajo del puesto y sacar una caja de madera tallada.\n\n"Para usted, mi Lord, este es el queso más fino de todo el reino. [cheese_trader.GetSheHe|U] empuja el pequeño bloque en mi mano, se inclina y susurra con complicidad: "Fue elaborado por un Pentoshi que hace queso".\n\nA pesar del extraño comentario, el queso es increíblemente bueno." #NT!
+ fp2_yearly.1006.desc:0 "Me detengo en un puesto al borde de la carretera que vende algunos alimentos simples. El comerciante, [cheese_trader.GetName], me ofrece diferentes productos antes de llegar debajo del puesto y sacar una caja de madera tallada.\n\n"Para usted, mi señor, este es el queso más fino de todo el reino. [cheese_trader.GetSheHe|U] empuja el pequeño bloque en mi mano, se inclina y susurra con complicidad: "Fue elaborado por un Pentoshi que hace queso".\n\nA pesar del extraño comentario, el queso es increíblemente bueno." #NT!
  fp2_yearly.1006.a:0 "Aceptaré tu queso pero no tu ridícula historia." #NT!
  fp2_yearly.1006.b:0 "Debo encontrar este "Queso Pentoshi"..." #NT!
  fp2.1006.b.tt:0 "Envías a tus agentes a buscar el "Cheese Pentoshi"" #NT!
@@ -613,7 +613,7 @@
  fp2_struggle.2014.desc.end:0 "\n\nMe has hecho bien, no lo olvidaré. Gracias." #NT!
  fp2_struggle.2014.b:0 "Lástima que [fp2_2013_prisoner_with_a_secret.GetFirstNameNoTooltip] no se ejecutó, pero al menos gané el favor." #NT!
  fp2_struggle.2015.t:0 "Carta en la parte posterior" #NT!
- fp2_struggle.2015.desc:0 "Al pasar por mi corte, noto que un rostro desconocido se acerca a mí. "Mi más [ROOT.Char.Custom('ComplimentAdjective')] Lord, soy [fp2_struggle_2015_peasant_to_murder.GetFirstName], ex cortesano de [fp2_struggle_2015_murder_requester_vassal.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] me ha pedido que me presente ante usted y participe en su corte. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] también me ha dado una carta de presentación que solo usted puede leer". Luego, [fp2_struggle_2015_peasant_to_murder.GetSheHe] me entrega una carta adjunta.\n\nDespués de romper el sello, la carta simplemente dice: "#EMP Estimado [ROOT.Char.GetFirstName], por favor asesine al portador de esta carta#!. -[fp2_struggle_2015_murder_requester_vassal.GetFirstNameNoTooltip]"" #NT!
+ fp2_struggle.2015.desc:0 "Al pasar por mi corte, noto que un rostro desconocido se acerca a mí. "Mi más [ROOT.Char.Custom('ComplimentAdjective')] señor, soy [fp2_struggle_2015_peasant_to_murder.GetFirstName], ex cortesano de [fp2_struggle_2015_murder_requester_vassal.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] me ha pedido que me presente ante usted y participe en su corte. [fp2_struggle_2015_murder_requester_vassal.GetSheHe|U] también me ha dado una carta de presentación que solo usted puede leer". Luego, [fp2_struggle_2015_peasant_to_murder.GetSheHe] me entrega una carta adjunta.\n\nDespués de romper el sello, la carta simplemente dice: "#EMP Estimado [ROOT.Char.GetFirstName], por favor asesine al portador de esta carta#!. -[fp2_struggle_2015_murder_requester_vassal.GetFirstNameNoTooltip]"" #NT!
  fp2_struggle.2015.a:0 ""¡Bienvenido! Ven, toma un poco de #DIE2  (envenenado) #! [ROOT.Char.Custom('GetExpensiveDrink_Singular')]"." #NT!
  fp2_struggle.2015.a.a:0 "Arruinas el intento de envenenamiento" #NT!
  fp2_struggle.2015.a.murder_scheme:0 "[fp2_struggle_2015_murder_requester_vassal.GetTitledFirstName] seguirá intentando asesinar a [fp2_struggle_2015_peasant_to_murder.GetFirstName]" #NT!
