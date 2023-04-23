@@ -11,8 +11,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: AnarkisGaming/workshop@v1
         with:
-          appID: 727570
-          publishedFileID: 2095592756
+          appID: ${{ env.STEAM_WORSHOP_APPID }}
+          publishedFileID: ${{ env.STEAM_WORKSHOP_PUBLISHEDFILEID }}
         env:
           STEAM_ACCOUNT_NAME: ${{ secrets.STEAM_USER }}
           STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
