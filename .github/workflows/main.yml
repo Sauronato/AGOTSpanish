@@ -14,5 +14,5 @@ jobs:
           appID: 727570
           publishedFileID: 2095592756
         env:
-          STEAM_ACCOUNT_NAME: ${{ STEAM_USER }}
-          STEAM_PASSWORD: ${{ STEAM_PASSWORD }}
+          STEAM_ACCOUNT_NAME: ${{ secrets.STEAM_USER }}
+          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
