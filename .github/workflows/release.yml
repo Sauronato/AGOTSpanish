@@ -21,9 +21,6 @@ jobs:
           repo_token: ${{ secrets.TOKEN_RELEASE }}
           automatic_release_tag: true
           prerelease: false
-      - name: Update version in code
-        run: |
-          sed -i "s/VERSION = .*/VERSION = '${{ steps.get_latest_release.outputs.tag_name }}'/g" mycode.py
       - name: Build and publish release
         uses: actions/create-release@v1
         env:
