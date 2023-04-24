@@ -10,12 +10,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          path: '~/GitRepo/'
         
       - name: Login to SteamCMD and Update Item
         run: |
-          ls ~/GitRepo/
+          ls /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/
           cd ~/steamcmd
           ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}  +workshop_build_item "../PATH/TO/ITEM" +quit
 
