@@ -10,9 +10,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          path: '~/GitRepo/'
         
       - name: Login to SteamCMD and Update Item
         run: |
+          ls ~/GitRepo/
           cd ~/steamcmd
           ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}  +workshop_build_item "../PATH/TO/ITEM" +quit
 
