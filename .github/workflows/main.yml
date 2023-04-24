@@ -1,18 +1,21 @@
-name: "Upload to Workshop"
-
+name: Steam Workshop Upload
 on:
-  - push
-
+  push:
+    branches:
+      - main
 jobs:
-  upload:
+  build:
     runs-on: self-hosted
-    environment: e
     steps:
-      - uses: actions/checkout@v2
-      - uses: AnarkisGaming/workshop@v1
-        with:
-          appID: 1158310
-          publishedFileID: 2965385572
-        env:
-          STEAM_ACCOUNT_NAME: ${{ secrets.STEAM_USER }}
-          STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Login to SteamCMD
+      
+        run: |
+          cd steamcmd
+          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}
+
+      - name: Upload to Steam Workshop
+        run: |
+          cd steamcmd
+          ./steamcmd.sh +workshop_build_item "../PATH/TO/ITEM" +quit
