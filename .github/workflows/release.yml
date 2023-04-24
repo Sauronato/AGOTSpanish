@@ -14,17 +14,19 @@ jobs:
         run: |
           zip -r /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/C/*
           echo "Item Compresed"
-      - name: Build and publish release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_RELEASE }}
+ - name: "Create Release"
+        run: |
+          echo "Release Created!"
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          tag_name: ${{ env.VERSION }}
-          release_name: Actualización ${{ env.VERSION }}
-          body: |
-            ${{ env.VERSION }}
-          draft: false
+          repo_token: "${{ secrets.TOKEN_RELEASE }}"
+          automatic_release_tag: "latest"
           prerelease: false
-          asset_path: /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
-          asset_name: AGOTSpanish.zip
-          asset_content_type: application/gzip
+          title: "AGOT Spanish"
+          files: |
+            /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
+- name: "Removing Zip"
+        run: |
+          rm /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
+          echo "Zip Removed"
