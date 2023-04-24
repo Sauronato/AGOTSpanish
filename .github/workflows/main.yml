@@ -6,16 +6,13 @@ on:
 jobs:
   build:
     runs-on: self-hosted
+    environment: e
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Login to SteamCMD
-      
+        
+      - name: Login to SteamCMD and Update Item
         run: |
           cd ~/steamcmd
-          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}
+          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}  +workshop_build_item "../PATH/TO/ITEM" +quit
 
-      - name: Upload to Steam Workshop
-        run: |
-          cd steamcmd
-          ./steamcmd.sh +workshop_build_item "../PATH/TO/ITEM" +quit
