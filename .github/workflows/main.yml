@@ -15,9 +15,5 @@ jobs:
         run: |
           ls /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/
           cd ~/steamcmd
-          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }} rn9y2 +workshop_build_item /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/mod_agotspansih.vdf +quit
+          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }} +workshop_build_item /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/mod_agotspansih.vdf +quit
           echo "Item Actualizado"
-      - name: Remove Repo Trash
-        run: |
-          rm -rf /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/
-          echo "Repositorio eliminado con exito"
