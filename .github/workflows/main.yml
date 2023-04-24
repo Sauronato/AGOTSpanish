@@ -17,3 +17,24 @@ jobs:
           cd ~/steamcmd
           ./steamcmd.sh +login ${{ secrets.STEAM_USER }} +workshop_build_item /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/mod_agotspansih.vdf +quit
           echo "Item Actualizado"
+      - name: Get latest release version
+        id: get_latest_release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: ${{ secrets.TOKEN_RELEASE }}
+          tag_name: latest
+          prerelease: false
+      - name: Update version in code
+        run: |
+          sed -i "s/VERSION = .*/VERSION = '${{ steps.get_latest_release.outputs.tag_name }}'/g" mycode.py
+      - name: Build and publish release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN_RELEASE }}
+        with:
+          tag_name: ${{ steps.get_latest_release.outputs.tag_name }}
+          release_name: Actualización ${{ steps.get_latest_release.outputs.tag_name }}
+          body: |
+            This is a new release.
+          draft: false
+          prerelease: false
