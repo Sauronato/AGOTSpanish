@@ -23,8 +23,6 @@ jobs:
           title: "AGOT Spanish"
           files: |
             /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
-          run: |
-            echo "Release Created"
       - name: "Removing Zip"
         run: |
           rm /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
