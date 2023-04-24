@@ -19,7 +19,7 @@ jobs:
         uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: ${{ secrets.TOKEN_RELEASE }}
-          tag_name: latest
+          automatic_release_tag: true
           prerelease: false
       - name: Update version in code
         run: |
