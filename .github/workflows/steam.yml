@@ -13,7 +13,6 @@ jobs:
         
       - name: Login to SteamCMD and Update Item
         run: |
-          ls /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/
           cd ~/steamcmd
           ./steamcmd.sh +login ${{ secrets.STEAM_USER }} +workshop_build_item /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/mod_agotspansih.vdf +quit
           echo "Item Actualizado"
