@@ -5,8 +5,8 @@ on:
 
 jobs:
   upload:
-    runs-on: ubuntu-latest
-    environment: e
+  runs-on: self-hosted    
+  environment: e
     steps:
       - uses: actions/checkout@v2
       - uses: AnarkisGaming/workshop@v1
