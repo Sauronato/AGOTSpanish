@@ -15,5 +15,5 @@ jobs:
         run: |
           ls /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/
           cd ~/steamcmd
-          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}  +workshop_build_item "../PATH/TO/ITEM" +quit
+          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}  +workshop_build_item "/home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/mod_agotspanish.vdf" +quit
 
