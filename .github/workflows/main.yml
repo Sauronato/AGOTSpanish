@@ -12,7 +12,7 @@ jobs:
       - name: Login to SteamCMD
       
         run: |
-          cd steamcmd
+          cd ~/steamcmd
           ./steamcmd.sh +login ${{ secrets.STEAM_USER }} ${{ secrets.STEAM_PASSWORD }}
 
       - name: Upload to Steam Workshop
