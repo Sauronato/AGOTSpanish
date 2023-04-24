@@ -14,10 +14,7 @@ jobs:
         run: |
           zip -r /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/C/*
           echo "Item Compresed"
- - name: "Create Release"
-        run: |
-          echo "Release Created!"
-
+      - name: "Create Release"
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.TOKEN_RELEASE }}"
@@ -26,7 +23,9 @@ jobs:
           title: "AGOT Spanish"
           files: |
             /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
-- name: "Removing Zip"
+          run: |
+            echo "Release Created"
+      - name: "Removing Zip"
         run: |
           rm /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
           echo "Zip Removed"
