@@ -1,4 +1,4 @@
-name: Steam Workshop Upload
+﻿name: Release Upload
 on:
   push:
     branches:
@@ -10,13 +10,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        
-      - name: Login to SteamCMD and Update Item
+      - name: Zip code
         run: |
-          ls /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/
-          cd ~/steamcmd
-          ./steamcmd.sh +login ${{ secrets.STEAM_USER }} +workshop_build_item /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/mod_agotspansih.vdf +quit
-          echo "Item Actualizado"
+          zip -r /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/C/*
+          echo "Item Compresed"
       - name: Get latest release version
         id: get_latest_release
         uses: "marvinpinto/action-automatic-releases@latest"
@@ -35,6 +32,9 @@ jobs:
           tag_name: ${{ steps.get_latest_release.outputs.tag_name }}
           release_name: Actualización ${{ steps.get_latest_release.outputs.tag_name }}
           body: |
-            This is a new release.
+            ${{ steps.get_latest_release.outputs.tag_name }}
           draft: false
           prerelease: false
+          asset_path: /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
+          asset_name: AGOTSpanish.zip
+           asset_content_type: application/gzip
