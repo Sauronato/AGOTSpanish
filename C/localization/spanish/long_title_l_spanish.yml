@@ -12,9 +12,9 @@ long_title.house.start: "$long_title.house.fallback$[ROOT.Char.GetPrimaryTitle.M
 long_title.house.fallback: "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip] [ROOT.Char.GetHouse.GetBaseNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
 long_title.tier: "[ROOT.Title.Custom('LongTitleTierName')]" #NT!
 long_title.title: "[ROOT.Title.GetNameNoTierNoTooltip]" #NT!
-long_title.title.definite: " de [ROOT.Title.GetNameNoTooltip]" #NT!
+long_title.title.definite: "de [ROOT.Title.GetNameNoTooltip]" #NT!
 long_title.next: "[ROOT.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
-long_title.title.definite: " de [ROOT.Title.GetNameNoTooltip]" #NT!
+long_title.title.definite: "de [ROOT.Title.GetNameNoTooltip]" #NT!
 long_title.start: "[ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip][ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
 long_title.fallback: "Retroceder" #NT!
 long_title.recursive: "$long_title.title$, $long_title.next$" #NT!
