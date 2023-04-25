@@ -1,0 +1,29 @@
+﻿name: Release Upload
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: self-hosted
+    environment: e
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Zip code
+        run: |
+          zip -r /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/C/*
+          echo "Item Compresed"
+      - name: "Create Release"
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.TOKEN_RELEASE }}"
+          automatic_release_tag: "lastest"
+          prerelease: false
+          title: "AGOT Spanish"
+          files: |
+            /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
+      - name: "Removing Zip"
+        run: |
+          rm /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip
+          echo "Zip Removed"
