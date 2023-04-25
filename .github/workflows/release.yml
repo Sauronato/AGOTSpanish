@@ -12,7 +12,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Zip code
         run: |
-          zip -r /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/C/*
+          cd /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish/C/
+          zip -r /home/ubuntu/actions-runner/_work/AGOTSpanish/AGOTSpanish.zip *
           echo "Item Compresed"
       - name: "Create Release"
         uses: "marvinpinto/action-automatic-releases@latest"
