@@ -1,8 +1,8 @@
 ﻿l_spanish:
  DECISION_ON_COOLDOWN:0 "@warning_icon!#X $DECISION_NAME$ no disponible hasta [DATE.GetStringLong]#!" #NT!
  ALREADY_PLANNING_ACTIVITY:0 "Ya estás planeando otro [activity|E]" #NT!
- start_hunt_decision:0 "Búsqueda de llamadas" #NT!
- start_hunt_decision_tooltip:1 "Se llevará a cabo un [hunt|E]" #NT!
+ start_hunt_decision:0 "Iniciar una Cacería" #NT!
+ start_hunt_decision_tooltip:1 "Se llevará a cabo una [hunt|E]" #NT!
  start_hunt_decision_desc:0 "#F ¡La naturaleza indómita está llamando, y todo tipo de bestias están esperando mi lanza y mi flecha!#!" #NT!
  start_hunt_decision_go_on_hunt:1 "Vas a #V Hunt#! en una de las baronías de tu reino" #NT!
  start_hunt_decision_prestige:1 "Puede obtener oportunidades para aumentar su [prestige|E]" #NT!
@@ -10,13 +10,13 @@
  start_hunt_decision.tt.servants_prestige.reduced:0 "#N Tu falta de [Concept('court_amenities','Servants')|E] para eliminar la vida silvestre hace que la caza sea más difícil y menos [prestigious|E] si sale mal#!" #NT!
  start_hunt_decision.tt.servants_prestige.increased:0 "#P Tu amplio [Concept('court_amenities','Servants')|E] es mejor que elimines a los animales, ganando más [prestige|E] si la caza va bien#!" #NT!
  start_hunt_decision_master_of_hunt:0 "#P Ya que empleas un $master_of_hunt_court_position$, es más probable que tu caza termine bien#!" #NT!
- start_hunt_decision_confirm:0 "¡Sonar la bocina!" #NT!
+ start_hunt_decision_confirm:0 "¡Sonad la Trompeta!" #NT!
 
  host_feast_decision:0 "Fiesta del Anfitrión" #NT!
- host_exotic_feast_decision:0 "Organice una fiesta exótica" #NT!
- host_lavish_feast_decision:0 "Organice una fiesta lujosa" #NT!
- host_grand_feast_decision:0 "Organice una gran fiesta" #NT!
- host_modest_feast_decision:0 "Organice una fiesta modesta" #NT!
+ host_exotic_feast_decision:0 "Organizar una fiesta exótica" #NT!
+ host_lavish_feast_decision:0 "Organizar una fiesta lujosa" #NT!
+ host_grand_feast_decision:0 "Organizar una gran fiesta" #NT!
+ host_modest_feast_decision:0 "Organizar una fiesta modesta" #NT!
  host_feast_decision_tooltip:0 "Se llevará a cabo un [feast|E]" #NT!
  host_feast_decision_opening_desc:0 "#F Abrir las barricas e invitar a invitados de honor no solo es un deber, sino una oportunidad para reafirmar lazos de lealtad y, a menudo, ¡un gran placer!#!" #NT!
  host_feast_decision_desc_vassals:1 "Puede aumentar el [opinion|E] de tus vasallos" #NT!
@@ -41,7 +41,7 @@
  escape_from_prison_decision_success.tt:0 "Tu intento de escape tiene éxito" #NT!
  escape_from_prison_decision_failure.tt:0 "Su intento de escape falla" #NT!
  escape_from_prison_decision_failure_outcome.tt:0 "[imprisoner.GetTitledFirstName] podría estar... disgustado" #NT!
- escape_from_prison_decision_confirm:0 "¡Ninguna reja me detendrá!" #NT!
+ escape_from_prison_decision_confirm:0 "¡Ninguna celda me detendrá!" #NT!
  escape_from_prison_decision_effect_tooltip:0 "@advertencia_icono! El éxito de tu intento depende de tu [prowess|E] y tu [traits|E]" #NT!
 
  tribal_challenge_ruler_decision:0 "Desafía al [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|U]" #NT!
@@ -119,10 +119,10 @@
  repay_loan_decision_decision_desc:0 "Tener una deuda pendiente sobre mí es impropio de un [ROOT.Char.GetTitleAsNameNoTooltip]: ha llegado el momento de pagar el dinero que debo." #NT!
  repay_loan_decision_confirm:0 "¡Devuélveme el dinero!" #NT!
 
- create_cadet_branch_decision:0 "Crear sucursal de cadetes" #NT!
+ create_cadet_branch_decision:0 "Crear una Casa cadete" #NT!
  create_cadet_branch_decision_tooltip:1 "Formarás una Rama Cadete" #NT!
  create_cadet_branch_decision_desc:0 "Puede que sea hora de que mi familia abandone el legado de la Casa [ROOT.Char.GetHouse.GetNameNoTooltip] y se labre su propio camino en la historia, conmigo como cabeza de esta nueva rama de nuestra gran dinastía." #NT!
- create_cadet_branch_decision_confirm:0 "Crear sucursal de cadetes" #NT!
+ create_cadet_branch_decision_confirm:0 "Crear una Casa cadete" #NT!
  I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "Estás tercero o más cerca en la línea de sucesión de uno de tus [house_head|E] [titles|E]" #NT!
  I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE:1 "Eres #bold no#! el tercero o más cercano en la línea de sucesión de uno de los [titles|E] de tu [house_head|E]" #NT!
  I_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE:1 "Uno de tus ancestros pertenece a tu actual [house|E]" #NT!
@@ -197,18 +197,18 @@
  raise_runestone_decision_toast:0 "Levantó una piedra rúnica" #NT!
  raise_runestone_vassals:0 "Cada vasallo de tu [faith|E]" #NT!
 
- divine_the_stars_decision:0 "Divinas las estrellas" #NT!
+ divine_the_stars_decision:0 "Observar las estrellas" #NT!
  divine_the_stars_decision_tooltip:0 "Mira al cielo y mira lo que te depara el futuro" #NT!
  divine_the_stars_decision_desc:0 "#F Nuestros destinos están escritos en las estrellas mismas. Al estudiarlos, puedo obtener una idea de lo que depara el futuro... #!" #NT!
- divine_the_stars_decision_confirm:0 "Divinas las estrellas" #NT!
+ divine_the_stars_decision_confirm:0 "Observar las estrellas" #NT!
  divine_the_starts_effect:0 "Descubrirás una visión cósmica en un futuro cercano." #NT!
  divine_the_stars_trigger:0 "Ya estas adivinando las estrellas" #NT!
  divine_the_stars_modifier:0 "Aún no tienes un modificador astrológico" #NT!
 
- create_holy_order_decision:0 "Orden sagrada encontrada" #NT!
+ create_holy_order_decision:0 "Fundar una Orden Sagrada" #NT!
  create_holy_order_decision_tooltip:0 "Establezca un [holy_order|E] y conviértase en su [holy_order_patron|E]" #NT!
  create_holy_order_decision_desc:0 "#F Nunca puede haber demasiados guerreros dedicados a defender la verdadera fe. ¡Honraré a [ROOT.Char.GetFaith.WarGodName] dándoles un hogar y armas a quienes sirvan!#!" #NT!
- create_holy_order_decision_confirm:0 "Orden sagrada encontrada" #NT!
+ create_holy_order_decision_confirm:0 "Fundar una Orden Sagrada" #NT!
  create_holy_order_decision_effect_message:1 "Se fundará un [holy_order|E] de tu [faith|E]\n$EFFECT_LIST_BULLET$Te conviertes en el [holy_order_patron|E] de la orden" #NT!
  destroy_holy_order_warning:0 "@warning_icon!#X ¡Revocar su último contrato de arrendamiento destruirá la Orden Sagrada!#!" #NT!
  I_MUST_BE_KING_OR_EMPEROR:1 "Tienes un [kingdom|E] o un [empire|E]" #NT!
@@ -216,13 +216,13 @@
  I_HAVE_TWO_CASTLE_COUNTY:2 "Tienes un [barony|E] con un [city|E] o [castle|E] que se puede alquilar como sede de la Orden Sagrada" #NT!
  NOT_I_HAVE_HOLY_ORDER_BARONY_SELECTED:1 "Has #bold not#! seleccionado una Baronía" #NT!
 
- cancel_holy_order_lease_decision:0 "Revocar el contrato de arrendamiento de la orden sagrada" #NT!
+ cancel_holy_order_lease_decision:0 "Revocar el contrato de la orden sagrada" #NT!
  cancel_holy_order_lease_decision_tooltip:0 "Revocar arrendamiento para un [holy_order|E]" #NT!
  cancel_holy_order_lease_decision_desc:0 "#F La Orden Sagrada estacionada en el [barony.GetName] ha hecho un buen trabajo, pero ahora se necesita la celebración para otras cosas.#!" #NT!
  cancel_holy_order_lease_hostile_decision_desc:0 "#F Ya no se permitirá que la Orden Sagrada estacionada en [barony.GetName] difunda mentiras y discordia; a partir de ahora, la propiedad se usará para otras cosas más justas.#!" #NT!
- cancel_holy_order_lease_decision_confirm:0 "Revocar arrendamiento" #NT!
+ cancel_holy_order_lease_decision_confirm:0 "Revocar Contrato" #NT!
 
- commission_artifact_decision:0 "Artefacto de la Comisión" #NT!
+ commission_artifact_decision:0 "Llamar al Herrero" #NT!
  commission_artifact_decision_effect:0 "Un artesano local con un [project|E] patrocinado llega a tu corte" #NT!
  commission_artifact_decision_warning_effect:0 "#weak Los artesanos locales producen artefactos de menor calidad que los [inspired|E] [royal_court|E] invitados#!" #NT!
  commission_artifact_decision_tooltip:0 "Contrata a un artesano local para que cree un [artifact|E] para ti" #NT!
