@@ -11,6 +11,7 @@ on:
 jobs:
   verificacion:
     runs-on: self-hoster
+    environment: Tests
     steps:
       - name: Clonar repositorio
         uses: actions/checkout@v2
