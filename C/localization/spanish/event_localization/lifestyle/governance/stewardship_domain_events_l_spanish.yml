@@ -86,11 +86,11 @@
  stewardship_domain.6012.a:0 "¡Ni siquiera tuve que recurrir a amenazas de violencia!" #NT!
 
  stewardship_domain.6013.desc:0 "Después de una larga audiencia, el jefe de albañiles no se moverá más.\n\n"Por un precio más bajo que este, no se puede hacer"." #NT!
- stewardship_domain.6013.a:0 ""Entonces tenemos un acuerdo"." #NT!
+ stewardship_domain.6013.a:0 "Entonces tenemos un acuerdo"." #NT!
  stewardship_domain.6013.b:0 "Seguramente puedo encontrar albañiles más baratos en otro lugar." #NT!
 
- stewardship_domain.6014.desc:0 ""¡Me insultas a mí ya toda mi profesión, mi [ROOT.Char.GetLadyLord]!" El jefe de albañiles no está nada satisfecho con las ofertas que estoy dispuesto a hacerle. "De hecho, los precios están subiendo. Simplemente el costo de la mano de obra, por supuesto. Estoy seguro de que [ROOT.Char.GetTitleTierName] entiende"." #NT!
- stewardship_domain.6014.a:0 ""Entiendo perfectamente."" #NT!
+ stewardship_domain.6014.desc:0 "¡Me insultas a mí ya toda mi profesión, mi [ROOT.Char.GetLadyLord]!" El jefe de albañiles no está nada satisfecho con las ofertas que estoy dispuesto a hacerle. "De hecho, los precios están subiendo. Simplemente el costo de la mano de obra, por supuesto. Estoy seguro de que [ROOT.Char.GetTitleTierName] entiende"." #NT!
+ stewardship_domain.6014.a:0 "Entiendo perfectamente." #NT!
  stewardship_domain.6014.b:1 "¡El [county.GetTierAsNameNoTooltip|l] me sirve, y los gremios también!" #NT!
 
  stewardship_domain.6015.desc:1 "El albañil jefe debe haber disfrutado de la compañía de mi [steward.GetCouncilTitle] [steward.GetTitledFirstName], porque [steward.GetSheHe] ha regresado con un trato de los albañiles que incluso excede mis demandas." #NT!
@@ -100,7 +100,7 @@
  stewardship_domain.6016.a:0 "Esto suena muy bien." #NT!
  stewardship_domain.6016.b:0 "¡Entonces fui un tonto al enviarte, [steward.GetFirstNameNoTooltip]!" #NT!
 
- stewardship_domain.6017.desc:0 ""Las negociaciones no salieron... completamente como estaba planeado, mi Lord". Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('steward'))] suena a disculpa. "Sin embargo, tengo una oferta, incluso si el gremio de albañiles se niega a seguir hablando conmigo"." #NT!
+ stewardship_domain.6017.desc:0 "Las negociaciones no salieron... completamente como estaba planeado, mi Lord". Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('steward'))] suena a disculpa. "Sin embargo, tengo una oferta, incluso si el gremio de albañiles se niega a seguir hablando conmigo"." #NT!
  stewardship_domain.6017.a:0 "Tengo que aceptar lo que mis sirvientes logran." #NT!
  stewardship_domain.6017.b:0 "¡Entonces les hablaré! ¡Los ordenaré!" #NT!
 
@@ -118,9 +118,9 @@
  stewardship_domain_special.1001.c:0 "Esta es responsabilidad de [county_holder.GetFirstNamePossessiveNoTooltip], no mía." #NT!
 
  stewardship_domain_special.1002.desc:0 "Aparentemente, el [development_county.GetName] ha cogido su desgracia en parte por una mala gestión. La tierra no se despejó adecuadamente, las semillas se sembraron fuera de temporada y los pastos fueron sobrepastoreados." #NT!
- stewardship_domain_special.1002.desc.repentant:1 "\n\nUn [county_holder.GetTitledFirstName] arrepentido se para frente a mí, retorciéndose las manos de [county_holder.GetHerHis]. "¡Por favor, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)], dame otra oportunidad! ¡Puedo arreglar esto, lo juro!"" #NT!
- stewardship_domain_special.1002.desc.uncaring:0 "\n\nUn [county_holder.GetTitledFirstName] con aspecto aburrido se encuentra frente a mí, aparentemente despreocupado. "Los campesinos resolverán esto, eventualmente. Siempre lo hacen. Ese es su trabajo, ¿no es así?"" #NT!
- stewardship_domain_special.1002.desc.blaming:0 "\n\nUn [county_holder.GetTitledFirstName] frustrado se para frente a mí, claramente estresado. "¿Cómo es posible que esos campesinos lo estropeen tanto? ¡Son excavadores de tierra! ¡Es todo lo que hacen!"" #NT!
+ stewardship_domain_special.1002.desc.repentant:1 "\n\nUn [county_holder.GetTitledFirstName] arrepentido se para frente a mí, retorciéndose las manos de [county_holder.GetHerHis]. "¡Por favor, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)], dame otra oportunidad! ¡Puedo arreglar esto, lo juro!" #NT!
+ stewardship_domain_special.1002.desc.uncaring:0 "\n\nUn [county_holder.GetTitledFirstName] con aspecto aburrido se encuentra frente a mí, aparentemente despreocupado. "Los campesinos resolverán esto, eventualmente. Siempre lo hacen. Ese es su trabajo, ¿no es así?" #NT!
+ stewardship_domain_special.1002.desc.blaming:0 "\n\nUn [county_holder.GetTitledFirstName] frustrado se para frente a mí, claramente estresado. "¿Cómo es posible que esos campesinos lo estropeen tanto? ¡Son excavadores de tierra! ¡Es todo lo que hacen!" #NT!
 
  stewardship_domain_special.1002.a:0 "Te hago responsable de esto, [county_holder.GetFirstNameNoTooltip]." #NT!
  stewardship_domain_special.1002.a.success:0 "[county_holder.GetTitledFirstName] y yo aprendemos de los errores de [county_holder.GetHerHis]" #NT!
@@ -131,7 +131,7 @@
  stewardship_domain_special.1002.c:0 "¡Has perdido el derecho a reclamar [development_county.GetNameNoTierNoTooltip]!" #NT!
  stewardship_domain_special.1002.c.tt:0 "Tomo el [development_county.GetName] de [county_holder.GetTitledFirstName]" #NT!
 
- stewardship_domain_special.1003.desc:1 ""¡Gracias por creer en mí, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)]!"\n\n[county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha logrado resolver la crisis en la que [county_holder.GetSheHe] encontró a [county_holder.GetHerselfHimself]. ¡A veces, el mejor curso de acción es confiar en las habilidades de los demás y luego aprender de ellos!" #NT!
+ stewardship_domain_special.1003.desc:1 "¡Gracias por creer en mí, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)]!"\n\n[county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha logrado resolver la crisis en la que [county_holder.GetSheHe] encontró a [county_holder.GetHerselfHimself]. ¡A veces, el mejor curso de acción es confiar en las habilidades de los demás y luego aprender de ellos!" #NT!
  stewardship_domain_special.1003.a:0 "¡Cuéntame todo sobre cómo lo hiciste!" #NT!
 
  stewardship_domain_special.1004.desc:0 "Los informes de [development_county.GetName] solo se vuelven más desastrosos, y pronto se hace evidente que [county_holder.GetTitledFirstName] solo ha empeorado la situación." #NT!
@@ -151,7 +151,7 @@
  stewardship_domain_special.1101.b:0 "El [local_baron.GetFaith.HouseOfWorship] en [barony.GetNameNoTierNoTooltip] se le otorgará la carta." #NT!
  stewardship_domain_special.1101.c:0 "Utilice el campo para pastar en su lugar." #NT!
 
- stewardship_domain_special.1102.desc:0 "[second_local_baron.GetTitledFirstName] me presenta productos de todo el mundo; telas de los confines de la ruta de la seda, cultivos locales, maravillas tecnológicas del este...\n\n"Mi [ROOT.Char.GetLadyLord], ¿qué productos debemos promocionar para la nueva feria?"" #NT!
+ stewardship_domain_special.1102.desc:0 "[second_local_baron.GetTitledFirstName] me presenta productos de todo el mundo; telas de los confines de la ruta de la seda, cultivos locales, maravillas tecnológicas del este...\n\n"Mi [ROOT.Char.GetLadyLord], ¿qué productos debemos promocionar para la nueva feria?" #NT!
  stewardship_domain_special.1102.a:0 "¡Importaremos tanta seda como podamos!" #NT!
  stewardship_domain_special.1102.a.tt:0 "Es más probable que la gente aprecie esto si el área es estable y próspera." #NT!
  stewardship_domain_special.1102.b:0 "¡Nos centraremos en los cultivos locales!" #NT!
@@ -164,12 +164,12 @@
  stewardship_domain_special.1103.desc_technology:0 "Maravillas tecnológicas que embelesan a la gente, y mercadería de primera en todos los puestos, ¡ha sido una semana de celebración y comercio!" #NT!
  stewardship_domain_special.1103.a:0 "Tienes mi permiso para hacer esto anualmente a partir de ahora." #NT!
 
- stewardship_domain_special.1104.desc_silk:0 ""Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con toda esta seda?"\n\nAparentemente, la demanda de seda no era alta en el área, y [second_local_baron.GetTitledFirstName] se quedó con una gran cantidad de tela costosa sin vender." #NT!
- stewardship_domain_special.1104.desc_crops:0 ""Mi [ROOT.Char.GetLadyLord], los cultivos se están poniendo rancios y mohosos, ¿qué se supone que debemos hacer con todo esto?"\n\nAparentemente, la demanda de cultivos locales no era alta en el área, y [second_local_baron.GetTitledFirstName] se quedó con mucho sin vender ." #NT!
- stewardship_domain_special.1104.desc_technology:0 ""Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con estas baratijas?"\n\nAparentemente, la demanda de tecnología maravillosa no era alta en el área, y [second_local_baron.GetTitledFirstName] tiene mucha sin vender." #NT!
+ stewardship_domain_special.1104.desc_silk:0 "Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con toda esta seda?"\n\nAparentemente, la demanda de seda no era alta en el área, y [second_local_baron.GetTitledFirstName] se quedó con una gran cantidad de tela costosa sin vender." #NT!
+ stewardship_domain_special.1104.desc_crops:0 "Mi [ROOT.Char.GetLadyLord], los cultivos se están poniendo rancios y mohosos, ¿qué se supone que debemos hacer con todo esto?"\n\nAparentemente, la demanda de cultivos locales no era alta en el área, y [second_local_baron.GetTitledFirstName] se quedó con mucho sin vender ." #NT!
+ stewardship_domain_special.1104.desc_technology:0 "Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con estas baratijas?"\n\nAparentemente, la demanda de tecnología maravillosa no era alta en el área, y [second_local_baron.GetTitledFirstName] tiene mucha sin vender." #NT!
  stewardship_domain_special.1104.a:0 "Un comienzo tumultuoso, ¡pero estoy seguro de que los lugareños pueden manejarlo ahora!" #NT!
 
- stewardship_domain_special.1105.desc:0 "[local_baron.GetTitledFirstName] me presenta productos de todo el mundo; objetos religiosos de ciudades sagradas, alimentos cultivados por [local_baron.GetFaith.DevoteeMalePlural] y [local_baron.GetFaith.DevoteeFemalePlural] en la zona, maravillas de religiones extranjeras...\n\n"Mi [ROOT.Char.GetLadyLord], ¿qué productos debemos promocionar para la nueva feria?"" #NT!
+ stewardship_domain_special.1105.desc:0 "[local_baron.GetTitledFirstName] me presenta productos de todo el mundo; objetos religiosos de ciudades sagradas, alimentos cultivados por [local_baron.GetFaith.DevoteeMalePlural] y [local_baron.GetFaith.DevoteeFemalePlural] en la zona, maravillas de religiones extranjeras...\n\n"Mi [ROOT.Char.GetLadyLord], ¿qué productos debemos promocionar para la nueva feria?" #NT!
  stewardship_domain_special.1105.a:0 "¡Honraremos a los santos locales enfocándonos en objetos religiosos!" #NT!
  stewardship_domain_special.1105.a.tt:1 "Es más probable que la gente aprecie esto si su fervor religioso es fuerte." #NT!
  stewardship_domain_special.1105.b:0 "¡Trae la mayor cantidad de comida posible!" #NT!
@@ -182,9 +182,9 @@
  stewardship_domain_special.1106.desc_religious_other:0 "Frente a las religiones extranjeras, la gente de [county.GetNameNoTier] oró y agradeció a su comunidad más que de costumbre, ¡ha sido una semana de celebración piadosa y comercio!" #NT!
  stewardship_domain_special.1106.a:0 "Tienes mi permiso para hacer esto anualmente a partir de ahora." #NT!
 
- stewardship_domain_special.1107.desc_religious_objects:0 ""Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con estas baratijas sagradas?"\n\nAparentemente, los objetos sagrados no atrajeron a los piadosos en la medida en que esperaba, y [local_baron.GetTitledFirstName] se quedó con muchas cosas sin vender." #NT!
- stewardship_domain_special.1107.desc_religious_food:0 ""Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con toda esta comida?"\n\nAparentemente, las comidas preparadas por el [local_baron.GetFaith.DevoteeMalePlural] y el [local_baron.GetFaith.DevoteeFemalePlural] del área se habrían beneficiado de alguna intervención divina: casi nada se vendió." #NT!
- stewardship_domain_special.1107.desc_religious_other:0 ""Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con estas baratijas blasfemas?"\n\nLos artículos extranjeros solo repelían a la gente, desalentándolos a visitar el mercado. [local_baron.GetTitledFirstName] pronto recibe instrucciones de quemarlos, pero el daño ya está hecho." #NT!
+ stewardship_domain_special.1107.desc_religious_objects:0 "Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con estas baratijas sagradas?"\n\nAparentemente, los objetos sagrados no atrajeron a los piadosos en la medida en que esperaba, y [local_baron.GetTitledFirstName] se quedó con muchas cosas sin vender." #NT!
+ stewardship_domain_special.1107.desc_religious_food:0 "Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con toda esta comida?"\n\nAparentemente, las comidas preparadas por el [local_baron.GetFaith.DevoteeMalePlural] y el [local_baron.GetFaith.DevoteeFemalePlural] del área se habrían beneficiado de alguna intervención divina: casi nada se vendió." #NT!
+ stewardship_domain_special.1107.desc_religious_other:0 "Mi [ROOT.Char.GetLadyLord], ¿qué se supone que debemos hacer con estas baratijas blasfemas?"\n\nLos artículos extranjeros solo repelían a la gente, desalentándolos a visitar el mercado. [local_baron.GetTitledFirstName] pronto recibe instrucciones de quemarlos, pero el daño ya está hecho." #NT!
  stewardship_domain_special.1107.a:0 "Un comienzo tumultuoso, ¡pero estoy seguro de que los lugareños pueden manejarlo ahora!" #NT!
 
 
@@ -261,7 +261,7 @@
  stewardship_domain_special.1320.b:0 "Demasiado lejos y demasiado caro. Hacemos lo que planeé." #NT!
 
  stewardship_domain_special.1321.t:0 "El camino: falta de experiencia" #NT!
- stewardship_domain_special.1321.desc:0 ""Sigo diciéndoles que atraviesen directamente el campo, ¡pero [peasant_leader.GetTitledFirstName] insiste en desviarlos por el bosque cercano!" [steward.GetTitledFirstName] está visiblemente molesto con el trabajo en la carretera en [project_county.GetNameNoTier].\n\nSin embargo, [peasant_leader.GetTitledFirstName] sigue insistiendo en el enfoque de [peasant_leader.GetHerHis]. "¡El suelo en el campo es desigual y no lo suficientemente denso, mi Lord! El bosque es un camino mucho mejor"." #NT!
+ stewardship_domain_special.1321.desc:0 "Sigo diciéndoles que atraviesen directamente el campo, ¡pero [peasant_leader.GetTitledFirstName] insiste en desviarlos por el bosque cercano!" [steward.GetTitledFirstName] está visiblemente molesto con el trabajo en la carretera en [project_county.GetNameNoTier].\n\nSin embargo, [peasant_leader.GetTitledFirstName] sigue insistiendo en el enfoque de [peasant_leader.GetHerHis]. "¡El suelo en el campo es desigual y no lo suficientemente denso, mi Lord! El bosque es un camino mucho mejor"." #NT!
  stewardship_domain_special.1321.a:0 "¡Escucha a tus superiores, campesino!" #NT!
  stewardship_domain_special.1321.b:0 "[peasant_leader.GetTitledFirstName] parece saberlo mejor..." #NT!
 
@@ -355,7 +355,7 @@
  stewardship_domain_special.1431.b:0 "Reúne a los aldeanos. Volverán a pagar." #NT!
 
 
- stewardship_domain_special.1432.desc:0 ""¡Esos fondos fueron vitales para, eh, la defensa de [county.GetNameNoTier]!" [collector.GetTitledFirstName], el recaudador de impuestos de [barony.GetNameNoTier], está aterrorizado, sobre todo por los enormes soldados que traje a la mansión de [collector.GetHerHis].\n\n"¡Oh, por favor, haré cualquier cosa para ganarme tu perdón!"" #NT!
+ stewardship_domain_special.1432.desc:0 "¡Esos fondos fueron vitales para, eh, la defensa de [county.GetNameNoTier]!" [collector.GetTitledFirstName], el recaudador de impuestos de [barony.GetNameNoTier], está aterrorizado, sobre todo por los enormes soldados que traje a la mansión de [collector.GetHerHis].\n\n"¡Oh, por favor, haré cualquier cosa para ganarme tu perdón!" #NT!
  stewardship_domain_special.1432.a:0 "Serás olvidado en la oscuridad." #NT!
  stewardship_domain_special.1432.b:0 "Me vendría bien alguien que me deba su vida." #NT!
  stewardship_domain_special.1432.b.collector_loyal:0 "Gratitud y Lealtad" #NT!
@@ -569,7 +569,7 @@
  stewardship_domain_special.8022.c.tt:0 "#F No les digas por qué son necesarios.#!" #NT!
 
  stewardship_domain_special.8023.t:1 "$stewardship_domain_special.8001.t$: Progreso estancado" #NT!
- stewardship_domain_special.8023.desc:1 ""Mi Lord, el proyecto de riego en [county.GetNameNoTier] se está retrasando", informa [steward.Custom2('MyCharacterIntroduction', ROOT.Char)]. "Muy atrás. Después de inspeccionar el trabajo, me preocupa si estará completo durante mi vida".\n\nNo puedo decir si [steward.GetSheHe] es ​​serio o no." #NT!
+ stewardship_domain_special.8023.desc:1 "Mi Lord, el proyecto de riego en [county.GetNameNoTier] se está retrasando", informa [steward.Custom2('MyCharacterIntroduction', ROOT.Char)]. "Muy atrás. Después de inspeccionar el trabajo, me preocupa si estará completo durante mi vida".\n\nNo puedo decir si [steward.GetSheHe] es ​​serio o no." #NT!
  stewardship_domain_special.8023.a:0 "Reemplace a los capataces. Y darles nuevos látigos." #NT!
  stewardship_domain_special.8023.b:0 "¡Contrate cuantos trabajadores sean necesarios!" #NT!
  stewardship_domain_special.8023.c:0 "Tal vez es hora de apuntar un poco más bajo..." #NT!

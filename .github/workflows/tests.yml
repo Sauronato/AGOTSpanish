@@ -7,7 +7,12 @@ on:
       - prod
     paths:
       - '**.yml'
-
+  pull_request:
+    branches:
+      - main
+      - prod
+    paths:
+      - '**.yml'
 jobs:
   verificacion:
     runs-on: self-hosted
