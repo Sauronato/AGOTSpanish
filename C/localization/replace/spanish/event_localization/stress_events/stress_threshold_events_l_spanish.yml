@@ -1,216 +1,216 @@
 ﻿l_spanish:
- stress_threshold_cooldown_message:1 "Si todavía eres [stressed|E] en [SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] años, puedes sufrir otro [mental_break|E]" #NT!
+ stress_threshold_cooldown_message:1 "Si sigues [Concept( 'stressed', 'estresad' )|E][ROOT.Char.Custom('ES_OA')] durante [SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] años, puedes sufrir otro [mental_break|lE]"
 
  # System Messages
- stress_threshold.0010.toast:2 "Ganó un [stress_level|E]" #NT!
- stress_threshold.0010.text:0 "Has sido abrumado por [stress|E]" #NT!
- stress_threshold.0400.toast:2 "Superaste tu límite de [stress|E] y lo restableciste a [stress_level|E] 3" #NT!
+ stress_threshold.0010.toast:2 "Adquieres un [stress_level|lE]"
+ stress_threshold.0010.text:0 "El [stress|lE] ha podido contigo."
+ stress_threshold.0400.toast:2 "Has superado tu límite de [stress|lE] y lo has dejado al [stress_level|lE] 3"
 
  # Level 1 Stress Events
- stress_threshold.1001.t:0 "Descanso mental: pensamientos oscuros" #NT!
- stress_threshold.1001.desc:0 "La culpa y la vergüenza me han estado atormentando últimamente. Todos mis pecados, mis defectos, mis fallas... estos pensamientos oscuros me distraen de mis responsabilidades y me mantienen despierto por la noche.\n\nSiento que debo hacer algo para poner fin a esta angustia mental, pero ¿qué podría hacer? posiblemente ayuda?" #NT!
- stress_threshold.1001.contrite.gain:0 "¡Debo confesar todas mis fechorías!" #NT!
- stress_threshold.1001.contrite.effect:0 "¡No puedo ocultar mis secretos por más tiempo!" #NT!
- stress_threshold.1001.flagellant.gain:0 "El aguijón del látigo extirpará mis pecados." #NT!
- stress_threshold.1001.flagellant.effect:0 "¡Merezco ser castigado! ¡Para todo!" #NT!
- stress_threshold.1001.improvident.gain:0 "Donar a la caridad compensará mis pecados." #NT!
- stress_threshold.1001.improvident.effect:0 "¡Otros necesitan mi oro más que yo!" #NT!
- stress_threshold.1001.drunkard.gain:0 "¿Quizás un par de tragos ayuden?" #NT!
- stress_threshold.1001.drunkard.effect:0 "Beberé hasta que estos pensamientos desaparezcan." #NT!
- stress_threshold.1001.hashishiyah.gain:0 "Un poco de Leche de Amapola me tranquilizará..." #NT!
- stress_threshold.1001.hashishiyah.effect:1 "Una noche relajante con una taza de Leche de Amapola ayudará." #NT!
- stress_threshold.1001.journaller.gain:0 "Escribir mis preocupaciones me ayudará a concentrarme." #NT!
- stress_threshold.1001.journaller.effect:0 "Necesito una noche a solas en mi estudio." #NT!
- stress_threshold.1001.endure:0 "¡Debo ser fuerte y resistir estos impulsos!" #NT!
+ stress_threshold.1001.t:0 "Ataque de nervios: pensamientos oscuros"
+ stress_threshold.1001.desc:0 "La culpa y la vergüenza me han estado acosando últimamente. Todos mis pecados, mis defectos, mis faltas… estos pensamientos oscuros me distraen de mis responsabilidades y me mantienen despiert[ROOT.Char.Custom('ES_OA')] toda la noche.\n\nSiento que debo hacer algo para poner fin a esta angustia mental, pero ¿qué podría ayudar?"
+ stress_threshold.1001.contrite.gain:0 "¡Debo confesar todas mis maldades!"
+ stress_threshold.1001.contrite.effect:0 "¡No puedo seguir ocultando mis secretos!"
+ stress_threshold.1001.flagellant.gain:0 "El aguijón del látigo expulsará mis pecados."
+ stress_threshold.1001.flagellant.effect:0 "¡Merezco ser castigad[ROOT.Char.Custom('ES_OA')]! ¡Por todo!"
+ stress_threshold.1001.improvident.gain:0 "Donar a la caridad compensará mis pecados."
+ stress_threshold.1001.improvident.effect:0 "¡Otros necesitan mi oro más que yo!"
+ stress_threshold.1001.drunkard.gain:0 "¿Quizás un par de tragos ayuden?"
+ stress_threshold.1001.drunkard.effect:0 "Beberé hasta que estos pensamientos desaparezcan."
+ stress_threshold.1001.hashishiyah.gain:0 "Un poco de Leche de Amapola me tranquilizará…" #AGOT
+ stress_threshold.1001.hashishiyah.effect:1 "Una noche relajante con una copa de Leche de Amapola ayudará." #AGOT
+ stress_threshold.1001.journaller.gain:0 "Escribir mis preocupaciones me ayudará a concentrarme."
+ stress_threshold.1001.journaller.effect:0 "Necesito una noche a solas en mi estudio."
+ stress_threshold.1001.endure:0 "¡Debo ser fuerte y resistir estos impulsos!"
 
- stress_threshold.1011.t:0 "Descanso mental: deseos desenfrenados" #NT!
- stress_threshold.1011.desc:0 "Últimamente siento que estoy constantemente distraído por pensamientos lascivos y fantasías eróticas. Con todas las dificultades de mi vida cotidiana, es muy fácil perderme en sueños y olvidarme de la realidad.\n\nEstos deseos claramente interfieren con mi vida, pero ¿qué debo hacer al respecto?" #NT!
- stress_threshold.1011.rakish.gain:0 "¡Un viaje al burdel traerá alivio!" #NT!
- stress_threshold.1011.rakish.effect:0 "Que nadie más que yo entre al burdel esta noche." #NT!
- stress_threshold.1011.rakish.tt:0 "Tal comportamiento desenfrenado tiene riesgos inherentes..." #NT!
- stress_threshold.1011.reclusive.gain:0 "¡Debo aislarme para evitar la tentación!" #NT!
- stress_threshold.1011.reclusive.effect:0 "¡Solo en la soledad encontraré la paz!" #NT!
- stress_threshold.1011.conversion.interfaith:0 "¿Quizás una nueva vista de [new_faith.HighGodName] me ayude?" #NT!
- stress_threshold.1011.conversion.intrafaith:0 "¿Tal vez [new_faith.HighGodName] pueda ayudarme donde falló [ROOT.Char.GetFaith.HighGodName]?" #NT!
- stress_threshold.1011.conversion.judaism:0 "Los mandamientos antiguos me ayudarán a permanecer puro." #NT!
- stress_threshold.1011.conversion.christianity:0 "¡Jesús, líbrame de estas tentaciones!" #NT!
- stress_threshold.1011.exercise.gain:0 "Tal vez un tipo diferente de salida ayude..." #NT!
- stress_threshold.1001.exercise.effect:0 "Un buen entrenamiento quemará estos deseos." #NT!
- stress_threshold.1011.endure:0 "¡Me morderé el labio y trataré de mantener la concentración!" #NT!
+ stress_threshold.1011.t:0 "Ataque de nervios: deseos licenciosos"
+ stress_threshold.1011.desc:0 "Últimamente siento como si me viera constantemente distraíd[ROOT.Char.Custom('ES_OA')] por pensamientos lascivos y fantasías eróticas. Con todas las dificultades de mi vida diaria, es demasiado fácil perderme en mis sueños y olvidarme de la realidad.\n\nEstos deseos están claramente interfiriendo con mi vida, pero ¿qué debo hacer al respecto?"
+ stress_threshold.1011.rakish.gain:0 "¡Un viaje al burdel traerá alivio!"
+ stress_threshold.1011.rakish.effect:0 "Que nadie más que yo entre en el burdel esta noche."
+ stress_threshold.1011.rakish.tt:0 "Semejante comportamiento desvergonzado tiene riesgos inherentes…"
+ stress_threshold.1011.reclusive.gain:0 "¡Debo aislarme para evitar la tentación!"
+ stress_threshold.1011.reclusive.effect:0 "¡Solo en soledad encontraré la paz!"
+ stress_threshold.1011.conversion.interfaith:0 "¿Me ayudaría una nueva visión de [new_faith.HighGodName]?"
+ stress_threshold.1011.conversion.intrafaith:0 "¿Puede que [new_faith.HighGodName] me ayude allí donde falló [ROOT.Char.GetFaith.HighGodName]?"
+ stress_threshold.1011.conversion.judaism:0 "Los antiguos mandamientos me ayudarán a mantenerme pur[ROOT.Char.Custom('ES_OA')]."
+ stress_threshold.1011.conversion.christianity:0 "¡Jesús, líbrame de las tentaciones!"
+ stress_threshold.1011.exercise.gain:0 "Puede que otro modo liberar presión ayude…"
+ stress_threshold.1001.exercise.effect:0 "Un buen ejercicio quemará estos deseos."
+ stress_threshold.1011.endure:0 "¡Me muerdo los labios e intento seguir concentrad[ROOT.Char.Custom('ES_OA')]!"
 
- stress_threshold.1501.t:0 "Descanso Mental: Nada Importa" #NT!
- stress_threshold.1501.intro.desc:0 "Cada nuevo día es más difícil para mí encontrar una razón para levantarme de la cama y celebrar la corte." #NT!
- stress_threshold.1501.helper.desc:0 "[scoped_helper.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] me espera en el comedor, pero las palabras de [scoped_helper.GetHerHis] no me dan consuelo hoy." #NT!
- stress_threshold.1501.nohelper.desc:0 "Incluso después de arrastrarme hasta el comedor, no encuentro ningún interés en el acto repetitivo de los artistas, ni ningún placer en la espléndida comida que tengo delante." #NT!
- stress_threshold.1501.faith.desc:0 "\n\nIncluso las palabras de [scoped_ruler.GetFaith.AltPriestTermPlural] me suenan huecas." #NT!
- stress_threshold.1501.fallback.desc:0 "\n\nEl monótono ritmo de esta vida se ha vuelto insoportable." #NT!
- stress_threshold.1501.a:0 "¡Ya no soporto [scoped_helper.GetHerHim]!" #NT!
- stress_threshold.1501.b:0 "Creo que evitaré el almuerzo de nuevo." #NT!
- stress_threshold.1501.c:0 "Sólo quiero que me dejen en paz." #NT!
- stress_threshold.1501.d:0 "¿Por qué comer cuando todo sabe a cenizas?" #NT!
- stress_threshold.1501.e:0 "No puedo dejar que estos pensamientos oscuros me distraigan." #NT!
- stress_threshold.1501.f:0 "La vida como [scoped_ruler.GetFaith.GetAdherentName] no tiene propósito." #NT!
+ stress_threshold.1501.t:0 "Ataque de nervios: nada importa"
+ stress_threshold.1501.intro.desc:0 "Con cada día que pasa, me cuesta encontrar un motivo para salir de la cama y celebrar audiencia."
+ stress_threshold.1501.helper.desc:0 "[scoped_helper.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] me espera en el comedor, pero hoy no encuentro consuelo en sus palabras."
+ stress_threshold.1501.nohelper.desc:0 "Aunque me obligo a ir al comedor, no hallo interés en la repetitiva actuación de los artistas ni placer en la espléndida comida frente a mí."
+ stress_threshold.1501.faith.desc:0 "\n\nHasta las palabras de los [scoped_ruler.GetFaith.AltPriestTermPlural] me suenan vacías."
+ stress_threshold.1501.fallback.desc:0 "\n\nEl ritmo monótono de esta vida se ha vuelto insoportable."
+ stress_threshold.1501.a:0 "¡Ya no [scoped_helper.GetHerHim] soporto!"
+ stress_threshold.1501.b:0 "Creo que volveré a evitar el almuerzo."
+ stress_threshold.1501.c:0 "Solo quiero que me dejen en paz."
+ stress_threshold.1501.d:0 "¿Por qué comer cuando todo me sabe a cenizas?"
+ stress_threshold.1501.e:0 "No puedo dejar que estos pensamientos oscuros me distraigan."
+ stress_threshold.1501.f:0 "La vida como [scoped_ruler.GetFaith.GetAdherentName] no tiene sentido."
 
- stress_threshold.1502.t:0 "Descanso Mental: Resentimiento" #NT!
- stress_threshold.1502.intro.desc:0 "¿Por qué siempre debo hacer todo yo mismo? ¿Cómo se puede esperar que gobierne sobre [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] cuando la mitad de mis sirvientes son incapaces de seguir mis órdenes y la otra mitad ni siquiera las entiende?" #NT!
- stress_threshold.1502.courtier.desc:0 "\n\n[scoped_courtier.GetFirstName], en particular, se ha vuelto insoportable recientemente. Apenas puedo soportar escuchar mi parloteo incesante de [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('scoped_courtier'))]." #NT!
- stress_threshold.1502.nocourtier.desc:0 "
- stress_threshold.1502.a:0 "¡No eres más que un [scoped_courtier.Custom('InsultAdjective')] [scoped_courtier.Custom('InsultNoun')]!" #NT!
- stress_threshold.1502.b:0 "¡Carcelero! ¡Tráeme otro prisionero!" #NT!
- stress_threshold.1502.c:0 "¿Por qué todos ustedes deben ser incompetentes #EMP idiots#!!?" #NT!
- stress_threshold.1502.d:0 "Una visita a la mazmorra me aclarará la cabeza..." #NT!
- stress_threshold.1502.e:0 "Solo tendré que aguantar." #NT!
- stress_threshold.1502.f:0 "¿Quizás si llevara un diario de mis desgracias?" #NT!
- stress_threshold.1502.g:0 "¡[scoped_ruler.GetFaith.HighGodName], necesito un trago!" #NT!
+ stress_threshold.1502.t:0 "Ataque de nervios: resentimiento"
+ stress_threshold.1502.intro.desc:0 "¿Por qué siempre tengo que hacerlo todo? ¿Cómo se puede esperar que gobierne sobre [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] cuando la mitad de mis servidores son incapaces de seguir mis órdenes, y la otra mitad ni siquiera las entiende?"
+ stress_threshold.1502.courtier.desc:0 "\n\n[scoped_courtier.GetFirstName], en particular, se ha vuelto insoportable desde hace poco. Apenas soporto escuchar el parloteo incesante de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scoped_courtier'))]."
+ stress_threshold.1502.nocourtier.desc:0 ""
+ stress_threshold.1502.a:0 "¡No eres más que un[scoped_courtier.Custom('ES_XA')] [scoped_courtier.Custom('InsultAdjective')] [scoped_courtier.Custom('InsultNoun')]!"
+ stress_threshold.1502.b:0 "¡Carcelero! ¡Tráeme otro prisionero!"
+ stress_threshold.1502.c:0 "«¡¿Por qué tenéis que ser tan #EMP idiotas#! e incompetentes?!»"
+ stress_threshold.1502.d:0 "Una visita a las mazmorras me despejará la cabeza…"
+ stress_threshold.1502.e:0 "Solo tengo que aguantar."
+ stress_threshold.1502.f:0 "¿Y si escribo un diario de mis desventuras?"
+ stress_threshold.1502.g:0 "[scoped_ruler.GetFaith.HighGodName], ¡necesito un trago!"
 
- stress_threshold.1503.t:0 "Descanso Mental: Vacío Interior" #NT!
- stress_threshold.1503.desc:0 "Ya nada de lo que hago me satisface. A pesar de todos mis esfuerzos, no puedo encontrar ni felicidad ni paz mental. Es como si algo faltara. \n\n¿Qué podría llenar este agujero que roe mi alma?" #NT!
- stress_threshold.1503.a.a:0 "¿Algunas joyas más, tal vez?" #NT!
- stress_threshold.1503.a.b:0 "¡Necesito una corona más grande!" #NT!
- stress_threshold.1503.a.c:0 "Me he aburrido de mi ropa..." #NT!
- stress_threshold.1503.a.d:0 "¡Un nuevo y poderoso semental!" #NT!
- stress_threshold.1503.a.e:0 "¡Una nueva pintura de un artista famoso!" #NT!
- stress_threshold.1503.a.f:0 "¡Una gloriosa estatua de mis últimas hazañas!" #NT!
- stress_threshold.1503.b:0 "Solo [scoped_ruler.Custom('GetExpensiveMeal')] puede curar este dolor." #NT!
- stress_threshold.1503.e:0 "Si hubiera algo que pudiera hacer..." #NT!
+ stress_threshold.1503.t:0 "Ataque de nervios: vacío interior"
+ stress_threshold.1503.desc:0 "Ya nada de lo que hago me satisface. A pesar de todos mis esfuerzos, no encuentro felicidad ni tranquilidad. Es como si algo me faltase.\n\n¿Qué podría llenar este agujero que me roe el alma?"
+ stress_threshold.1503.a.a:0 "¿A lo mejor unas cuantas joyas más?"
+ stress_threshold.1503.a.b:0 "¡Necesito una corona más grande!"
+ stress_threshold.1503.a.c:0 "Me he aburrido de mi ropa…"
+ stress_threshold.1503.a.d:0 "¡Un nuevo y potente semental!"
+ stress_threshold.1503.a.e:0 "¡Un nuevo cuadro de un artista famoso!"
+ stress_threshold.1503.a.f:0 "¡Una gloriosa estatua de mis últimas hazañas!"
+ stress_threshold.1503.b:0 "Este dolor solo se puede curar con una cosa: [scoped_ruler.Custom('GetExpensiveMeal')]"
+ stress_threshold.1503.e:0 "Si al menos hubiera algo que pudiera hacer…"
 
- stress_threshold.1504.t:0 "Descanso mental: trabajo sin fin" #NT!
- stress_threshold.1504.desc:0 "A veces siento que el mundo entero descansa sobre mis hombros. Mis responsabilidades como [scoped_ruler.GetTitleAsName] de [scoped_ruler.GetPrimaryTitle.GetNameNoTier] son infinitas... Apenas me queda un momento para mí." #NT!
- stress_threshold.1504.a:0 "¡¿La gente no puede dejarme en paz por un tiempo?!" #NT!
- stress_threshold.1504.b:0 "Necesito algo para reequilibrar mis humores..." #NT!
- stress_threshold.1504.e:0 "Este es mi deber, después de todo." #NT!
- stress_threshold.1504.f:0 "¡Estoy rodeado de tontos!" #NT!
- stress_threshold.1504.g:0 "Recogeré mis pensamientos por escrito." #NT!
- stress_threshold.1504.h:0 "¡Ensilla mi caballo, necesito salir!" #NT!
+ stress_threshold.1504.t:0 "Ataque de nervios: una tarea interminable"
+ stress_threshold.1504.desc:0 "A veces me siento como si el mundo entero recayera sobre mis hombros. Mis responsabilidades como [scoped_ruler.GetTitleAsName] de [scoped_ruler.GetPrimaryTitle.GetNameNoTier] no tienen fin… Apenas tengo un instante para mí mism[ROOT.Char.Custom('ES_OA')]."
+ stress_threshold.1504.a:0 "¿Es que no me pueden dejar en paz ni un instante?"
+ stress_threshold.1504.b:0 "Necesito algo que reequilibre mis humores…"
+ stress_threshold.1504.e:0 "Este es mi deber, después de todo."
+ stress_threshold.1504.f:0 "¡Estoy rodead[ROOT.Char.Custom('ES_OA')] de idiotas!"
+ stress_threshold.1504.g:0 "Pondré mis pensamientos por escrito."
+ stress_threshold.1504.h:0 "¡Ensillad mi caballo, tengo que salir!"
 
- stress_threshold.1601.t:0 "Descanso mental: pensamientos giratorios" #NT!
- stress_threshold.1601.desc:0 "¡No puedo concentrarme, mis pensamientos están dando vueltas! Tengo que supervisar el [ROOT.Char.Custom('ResidenceBuilding')], tengo que vigilar a las tropas, tengo que...\n\n¡¿Cómo puedo encontrar descanso cuando incluso mis pensamientos me traicionan así?!" #NT!
- stress_threshold.1601.profligate.gain:0 "Si compro algo brillante para enfocar mi pensamiento..." #NT!
- stress_threshold.1601.profligate.effect:0 "¡Siempre me siento más concentrado después de comprar algo bonito!" #NT!
- stress_threshold.1601.inappetetic.gain:0 "Los pensamientos sobre la comida son una distracción." #NT!
- stress_threshold.1601.inappetetic.effect:0 "¡Mataré de hambre a toda distracción!" #NT!
- stress_threshold.1601.comfort_eater.gain:0 "Un estómago lleno podría ayudarme a concentrarme." #NT!
- stress_threshold.1601.comfort_eater.effect:0 "Un estómago lleno siempre me hace sentir más concentrado." #NT!
- stress_threshold.1601.rakish.gain:0 "Tal vez pueda encontrar el enfoque en la pasión..." #NT!
- stress_threshold.1601.rakish.effect:0 "¡Un viaje a un burdel siempre me ayuda a enfocar mis pensamientos!" #NT!
- stress_threshold.1601.reclusive.gain:0 "Tal vez podría enfocar mis pensamientos si estuviera solo..." #NT!
- stress_threshold.1601.reclusive.effect:0 "Siempre puedo enfocar mis pensamientos cuando estoy solo..." #NT!
- stress_threshold.1601.irritable.gain:0 "Tal vez podría pensar si todos pudieran #EMP estar callados#!!" #NT!
- stress_threshold.1601.irritable.effect:0 "Les diré a todos que #EMP se callen#!!" #NT!
- stress_threshold.1601.confider.gain:0 "¡[friend.GetFirstName], amigo mío, ayúdame a ordenar mis pensamientos!" #NT!
- stress_threshold.1601.confider.effect:0 "¡[friend.GetFirstName], por favor escúchame como siempre lo haces!" #NT!
- stress_threshold.1601.athletic.gain:0 "He oído que un cuerpo sano engendra una mente sana..." #NT!
- stress_threshold.1601.athletic.effect:0 "¡Nunca estoy más tranquilo que después de un poco de ejercicio!" #NT!
- stress_threshold.1601.contrite.gain:0 "Aclararé mi mente al confesar mis fechorías." #NT!
- stress_threshold.1601.contrite.effect:0 "¡Debo confesar mis fechorías! Eso debería traer claridad." #NT!
- stress_threshold.1601.flagellant.gain:0 "Se supone que el dolor agudiza la mente..." #NT!
- stress_threshold.1601.flagellant.effect:0 "No hay nada como el dolor para enfocar mis pensamientos." #NT!
- stress_threshold.1601.improvident.gain:0 "¿Quizás un claro acto de caridad liberará mis pensamientos?" #NT!
- stress_threshold.1601.improvident.effect:0 "Donar a una buena causa siempre me tranquiliza." #NT!
- stress_threshold.1601.drunkard.gain:0 "Tal vez me sentiré más concentrado después de un trago..." #NT!
- stress_threshold.1601.drunkard.effect:0 "Siempre me siento más concentrado después de un trago." #NT!
- stress_threshold.1601.hashishiyah.gain:0 "Un poco de leche de amapola con suerte calmará mi mente..." #NT!
- stress_threshold.1601.hashishiyah.effect:1 "Nunca estoy más tranquilo que después de una velada con una taza de Leche de Amapola." #NT!
- stress_threshold.1601.journaller.gain:0 "Escribir mis pensamientos debería traer algo de claridad..." #NT!
- stress_threshold.1601.journaller.effect:0 "¡Escribir mis pensamientos siempre trae claridad!" #NT!
- stress_threshold.1601.endure_no_option:0 "Yo- yo debo soportar. No hay nada que pueda hacer..." #NT!
+ stress_threshold.1601.t:0 "Ataque de nervios: dándole vueltas a lo mismo"
+ stress_threshold.1601.desc:0 "No soy capaz de concentrarme, ¡no hago más que darles vueltas a las mismas cosas! Tengo que supervisar mi [ROOT.Char.Custom('ResidenceBuilding')], tengo que revisar las tropas, tengo que…\n\n¿Cómo voy a encontrar descanso cuando hasta mis pensamientos me traicionan así?"
+ stress_threshold.1601.profligate.gain:0 "Si comprase algo brillante para centrarme…"
+ stress_threshold.1601.profligate.effect:0 "¡Siempre me siento más concentrad[ROOT.Char.Custom('ES_OA')] después de comprarme algo bonito!"
+ stress_threshold.1601.inappetetic.gain:0 "Pensar en comida es una distracción."
+ stress_threshold.1601.inappetetic.effect:0 "¡Mataré de hambre toda distracción!"
+ stress_threshold.1601.comfort_eater.gain:0 "Un estómago lleno podría ayudarme a concentrarme."
+ stress_threshold.1601.comfort_eater.effect:0 "Un estómago lleno siempre me hace sentir concentrad[ROOT.Char.Custom('ES_OA')]."
+ stress_threshold.1601.rakish.gain:0 "Tal vez pueda centrarme en la pasión…"
+ stress_threshold.1601.rakish.effect:0 "¡Un viaje a un burdel siempre me ayuda enfocar mis pensamientos!"
+ stress_threshold.1601.reclusive.gain:0 "Puede que, si estuviera sol[ROOT.Char.Custom('ES_OA”)], podría enfocar mis pensamientos…"
+ stress_threshold.1601.reclusive.effect:0 "Siempre consigo enfocar mis pensamientos cuando estoy a solas…"
+ stress_threshold.1601.irritable.gain:0 "¡Tal vez podría pensar si todo el mundo #EMP se callase#!!"
+ stress_threshold.1601.irritable.effect:0 "¡Le diré a todo el mundo que #EMP se calle#!!"
+ stress_threshold.1601.confider.gain:0 "«[friend.GetFirstName], amig[friend.Custom('ES_OA')] mí[friend.Custom('ES_OA')], ¡ayúdame a organizar mis pensamientos!»"
+ stress_threshold.1601.confider.effect:0 "«[friend.GetFirstName], ¡escúchame como siempre, por favor!»"
+ stress_threshold.1601.athletic.gain:0 "Me han dicho que un cuerpo sano propicia una mente sana…"
+ stress_threshold.1601.athletic.effect:0 "¡Siempre me siento más tranquil[ROOT.Char.Custom('ES_OA')] tras algo de ejercicio!"
+ stress_threshold.1601.contrite.gain:0 "Despejaré la mente confesando mis malas acciones."
+ stress_threshold.1601.contrite.effect:0 "¡Debo confesar mis malas acciones! Eso me traerá claridad."
+ stress_threshold.1601.flagellant.gain:0 "Se supone que el dolor aviva la mente…"
+ stress_threshold.1601.flagellant.effect:0 "No hay nada como el dolor para enfocar los pensamientos."
+ stress_threshold.1601.improvident.gain:0 "¿Es posible que un acto claro de caridad libere mis pensamientos?"
+ stress_threshold.1601.improvident.effect:0 "Hacer una donación a una buena causa siempre me calma la mente."
+ stress_threshold.1601.drunkard.gain:0 "Me sentiré más centrado después de un trago…"
+ stress_threshold.1601.drunkard.effect:0 "Siempre me siento más centrad[ROOT.Char.Custom('ES_OA')] después de un trago."
+ stress_threshold.1601.hashishiyah.gain:0 "Con suerte, algo de Leche de Amapola me calmará la mente…" #AGOT
+ stress_threshold.1601.hashishiyah.effect:1 "No me siento más tranquil[ROOT.Char.Custom('ES_OA')] que tras una velada con Leche de Amapola." #AGOT
+ stress_threshold.1601.journaller.gain:0 "Poner mis pensamientos por escrito debería darme algo de claridad…"
+ stress_threshold.1601.journaller.effect:0 "¡Poner mis pensamientos por escrito siempre me trae claridad!"
+ stress_threshold.1601.endure_no_option:0 "He de… he de aguantar. No puedo hacer nada…"
 
- stress_threshold.1602.t:0 "Descanso mental: Emociones arremolinadas" #NT!
- stress_threshold.1602.desc:0 "Mis emociones se vuelven más inestables cada día que pasa. Todo el gozo que abarca reemplazará el dolor más profundo de un momento a otro, y tanto mi séquito como yo nos volvemos cautelosos.\n\n¡Si tan solo pudiera encontrar una manera de domar este torbellino interior!" #NT!
- stress_threshold.1602.profligate.gain:0 "Tal vez algo nuevo, algo brillante, me centre." #NT!
- stress_threshold.1602.profligate.effect:0 "¡Algo nuevo y brillante me traerá solo alegría clara!" #NT!
- stress_threshold.1602.inappetetic.gain:0 "Si no como no tendré energía para sentir..." #NT!
- stress_threshold.1602.inappetetic.effect:0 "Moriré de hambre todas las emociones." #NT!
- stress_threshold.1602.comfort_eater.gain:0 "Al menos la comida me aporta una clara sensación de bienestar." #NT!
- stress_threshold.1602.comfort_eater.effect:0 "Cuando como solo siento consuelo." #NT!
- stress_threshold.1602.rakish.gain:0 "Un fuerte deseo podría controlar otros sentimientos..." #NT!
- stress_threshold.1602.rakish.effect:0 "¡Nada me centra como el fuerte deseo y la lujuria!" #NT!
- stress_threshold.1602.reclusive.gain:0 "Tal vez podría calmarme si estuviera solo..." #NT!
- stress_threshold.1602.reclusive.effect:0 "Siempre gano claridad cuando estoy solo." #NT!
- stress_threshold.1602.irritable.gain:0 "Sería más fácil si la gente #EMP me dejara en paz#!!" #NT!
- stress_threshold.1602.irritable.effect:0 "Les diré lo que pienso de su #EMP cautela#!!" #NT!
- stress_threshold.1602.confider.gain:0 "Hablar de ello con [friend.GetFirstName] podría ayudar." #NT!
- stress_threshold.1602.confider.effect:0 "¡Hablar con [friend.GetFirstName] suele ayudar!" #NT!
- stress_threshold.1602.athletic.gain:0 "Correré hasta que no sienta nada más que satisfacción." #NT!
- stress_threshold.1602.athletic.effect:0 "Una carrera siempre calma mis emociones." #NT!
- stress_threshold.1602.contrite.gain:0 "Podría calmarme si confieso mis faltas." #NT!
- stress_threshold.1602.contrite.effect:0 "¡Siempre me siento más equilibrado después de confesarme!" #NT!
- stress_threshold.1602.flagellant.gain:0 "Tal vez pueda despojarme de todas las emociones menos del dolor..." #NT!
- stress_threshold.1602.flagellant.effect:0 "Solo sentiré dolor, nada más." #NT!
- stress_threshold.1602.improvident.gain:0 "La gratitud de la caridad puede superar todo lo demás." #NT!
- stress_threshold.1602.improvident.effect:0 "Siempre me siento más centrado después de donar..." #NT!
- stress_threshold.1602.journaller.gain:0 "Escribiré hasta que no sienta nada más que concentrado." #NT!
- stress_threshold.1602.journaller.effect:0 "¡Escribir sobre mis sentimientos siempre funciona!" #NT!
- stress_threshold.1602.drunkard.gain:0 "Con suficiente bebida todas las emociones se desvanecen..." #NT!
- stress_threshold.1602.drunkard.effect:0 "¡Siempre puedo dejar atrás mis emociones bebiendo!" #NT!
- stress_threshold.1602.hashishiyah.gain:0 "Tal vez un poco de Leche de Amapola traiga calma." #NT!
- stress_threshold.1602.hashishiyah.effect:0 "Milk of the Poppy siempre me centra." #NT!
+ stress_threshold.1602.t:0 "Ataque de nervios: emociones turbulentas"
+ stress_threshold.1602.desc:0 "Mis emociones se vuelven más inestables a cada día que pasa. Una alegría total reemplazará a la más profunda pena de un momento a otro, y tanto mi séquito como yo cada vez estamos más recelosos.\n\n¡Ojalá hubiera un modo de amansar este torbellino interior!"
+ stress_threshold.1602.profligate.gain:0 "Puede que algo nuevo… algo brillante… me centrase."
+ stress_threshold.1602.profligate.effect:0 "¡Algo nuevo y brillante solo me traerá pura alegría!"
+ stress_threshold.1602.inappetetic.gain:0 "Si no como, no tendré energía para sentir…"
+ stress_threshold.1602.inappetetic.effect:0 "Mataré de hambre toda emoción."
+ stress_threshold.1602.comfort_eater.gain:0 "Al menos la comida me proporciona un claro sentimiento de bienestar."
+ stress_threshold.1602.comfort_eater.effect:0 "Cuando como, solo siento bienestar."
+ stress_threshold.1602.rakish.gain:0 "Un deseo fuerte puede ayudarme a mantener a raya otros sentimientos…"
+ stress_threshold.1602.rakish.effect:0 "¡Nada me concentra como la fuerza del deseo y la lujuria!"
+ stress_threshold.1602.reclusive.gain:0 "Puede que pudiera calmarme si estuviera a solas…"
+ stress_threshold.1602.reclusive.effect:0 "Siempre consigo claridad cuando estoy a solas."
+ stress_threshold.1602.irritable.gain:0 "¡Sería más fácil si la gente #EMP me dejara en paz#!!"
+ stress_threshold.1602.irritable.effect:0 "¡Les diré lo que pienso de sus #EMP recelos#!!"
+ stress_threshold.1602.confider.gain:0 "Hablarlo con [friend.GetFirstName] puede ayudar."
+ stress_threshold.1602.confider.effect:0 "¡Hablar con [friend.GetFirstName] suele ayudar!"
+ stress_threshold.1602.athletic.gain:0 "Correré hasta no sentir nada más que satisfacción."
+ stress_threshold.1602.athletic.effect:0 "Una carrera siempre me calma las emociones."
+ stress_threshold.1602.contrite.gain:0 "Puede que me calme si confieso mis faltas."
+ stress_threshold.1602.contrite.effect:0 "¡Siempre me siento más equilibrad[ROOT.Char.Custom('ES_OA')] después de confesar!"
+ stress_threshold.1602.flagellant.gain:0 "Tal vez pueda despojarme de todas las emociones salvo el dolor…"
+ stress_threshold.1602.flagellant.effect:0 "Solo sentiré dolor, nada más."
+ stress_threshold.1602.improvident.gain:0 "La gratitud por la caridad sofocará todo lo demás."
+ stress_threshold.1602.improvident.effect:0 "Siempre me siento más centrad[ROOT.Char.Custom('ES_OA')] después de hacer alguna donación…"
+ stress_threshold.1602.journaller.gain:0 "Escribiré hasta que me sienta concentrad[ROOT.Char.Custom('ES_OA')]."
+ stress_threshold.1602.journaller.effect:0 "¡Escribir sobre mis sentimientos siempre funciona!"
+ stress_threshold.1602.drunkard.gain:0 "Con suficiente bebida, todas las emociones se difuminan…"
+ stress_threshold.1602.drunkard.effect:0 "Con la bebida, ¡siempre puedo dejar atrás las emociones!"
+ stress_threshold.1602.hashishiyah.gain:0 "Puede que algo de Leche de Amapola me aporte calma." #AGOT
+ stress_threshold.1602.hashishiyah.effect:0 "La amapola siempre me centra." #AGOT
 
  # Level 2 Stress Events
- stress_threshold.2001.t:0 "Descanso Mental: Ingratitud" #NT!
- stress_threshold.2001.desc:0 "¡Miserables desagradecidos! ¿Es que no saben los sacrificios que hago por ellos?\n\nTodos los días me esclavizo sin cesar para que este reino prospere, ¡pero lo único que hace todo el mundo es quejarse y pedir más! ¿¡Y ahora [victim.GetFirstNameNoTooltip] va tan lejos como para cuestionar mis órdenes!?" #NT!
- stress_threshold.2001.arbitrary.gain:0 "¡Soy el [ROOT.Char.GetTitleAsNameNoTooltip], mi palabra es ley!" #NT!
- stress_threshold.2001.arbitrary.effect:0 "¡Yo decido cómo funcionan las cosas aquí!" #NT!
- stress_threshold.2001.imprison_victim:0 "¡Veamos qué tan agradecido se siente [victim.GetFirstNameNoTooltip] en la mazmorra!" #NT!
- stress_threshold.2001.endure:0 "Debo tener paciencia con ellos..." #NT!
+ stress_threshold.2001.t:0 "Ataque de nervios: ingratitud"
+ stress_threshold.2001.desc:0 "¡Malditos desagradecidos! ¿No saben los sacrificios que hago por su bien?\n\nCada día trabajo sin cesar como un[ROOT.Char.Custom('ES_XA')] esclav[ROOT.Char.Custom('ES_OA')] para hacer que este señorío prospere, pero ¡lo único que hacen todos es quejarse y pedir más!"
+ stress_threshold.2001.arbitrary.gain:0 "¡Yo soy [ROOT.Char.GetTitleAsNameNoTooltip], mi palabra es la ley!"
+ stress_threshold.2001.arbitrary.effect:0 "¡Yo decido cómo se hacen las cosas aquí!"
+ stress_threshold.2001.imprison_victim:0 "¡Veamos lo agradecid[victim.Custom('ES_OA')] que se siente [victim.GetFirstNameNoTooltip] en las mazmorras!"
+ stress_threshold.2001.endure:0 "Debo ser paciente con ellos…"
 
- stress_threshold.2101.t:0 "Descanso mental: no deseado" #NT!
- stress_threshold.2101.desc:0 "A veces me siento como un extraño en mi propio [ROOT.Char.Custom('ResidenceBuilding')]. No puedo dejar de notar las miradas extrañas que me dan mis cortesanos, la inquietud que llena cualquier habitación en la que entro... ¿qué pasó con mi vida? ¿Por qué no soy bienvenido entre mi propia gente?" #NT!
- stress_threshold.2101.witch.gain:0 "Soy un paria, como [ROOT.Char.GetFaith.WitchGodName]." #NT!
- stress_threshold.2101.witch.effect:0 "Al menos sé que [ROOT.Char.GetFaith.WitchGodName] me entiende." #NT!
- stress_threshold.2101.drunkard.effect:0 "El vino puede ser mi único amigo verdadero." #NT!
- stress_threshold.2101.hashishiyah.effect:1 "Al menos un sorbo de Leche de Amapola me relajará." #NT!
- stress_threshold.2101.endure:0 "Tal vez todo esto está en mi cabeza..." #NT!
+ stress_threshold.2101.t:0 "Ataque de nervios: marginación"
+ stress_threshold.2101.desc:0 "A veces me siento como un[ROOT.Char.Custom('ES_XA')] extrañ[ROOT.Char.Custom('ES_OA')] en mi propia casa. No puedo evitar fijarme las miradas extrañas que me echan mis cortesanos, el desasosiego que llena cualquier estancia en la que entro… ¿Qué le ha pasado a mi vida? ¿Por qué no soy bien recibid[ROOT.Char.Custom('ES_OA')] entre mi propia gente?"
+ stress_threshold.2101.witch.gain:0 "Soy un[ROOT.Char.Custom('ES_XA')] marginad[ROOT.Char.Custom('ES_OA')], como [ROOT.Char.GetFaith.WitchGodName]."
+ stress_threshold.2101.witch.effect:0 "Al menos sé que [ROOT.Char.GetFaith.WitchGodName] me entiende."
+ stress_threshold.2101.drunkard.effect:0 "El vino es mi único amigo verdadero."
+ stress_threshold.2101.hashishiyah.effect:1 "Al menos un sorbo de leche de amapola me relajará." #AGOT
+ stress_threshold.2101.endure:0 "Puede que me lo esté imaginando todo…"
 
- stress_threshold.2201.t:0 "Descanso mental: ira hirviendo" #NT!
- stress_threshold.2201.desc.insult:0 "¡Puedes ser un [character_to_yell_at.GetTitleAsName], pero también eres [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!"\n\n" #NT!
- stress_threshold.2201.desc:0 "Vacilo tan pronto como veo la mirada en mi rostro de [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], pero... Me siento tan #EMP enojado#! todo el tiempo, y todos provocan mi ira–\n\n" #NT!
- stress_threshold.2201.desc_liege:0 "¡¿Qué te pasa, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Este comportamiento es inaceptable." #NT!
- stress_threshold.2201.desc_vassal:0 "Mi Lord, ¿cuál es el significado de este comportamiento?" #NT!
- stress_threshold.2201.desc.calm:0 "Y por lo general eres tan tranquilo..." #NT!
- stress_threshold.2201.desc.ending:0 ""
- stress_threshold.2201.a:0 "¡Escuchaste lo que dije!" #NT!
- stress_threshold.2201.save:0 "Dime, ¿cómo responderías a tal ataque?" #NT!
- stress_threshold.2201.save_tt:0 "Pretendo que solo estoy probando [character_to_yell_at.GetHerHim]" #NT!
- stress_threshold.2201.liege:0 "Lo siento, mi Lord. Me controlaré mejor." #NT!
- stress_threshold.2201.c:0 "Lo siento. Me controlaré mejor." #NT!
+ stress_threshold.2201.t:0 "Ataque de nervios: ira ardiente"
+ stress_threshold.2201.desc.insult:0 "«Podréis ser [character_to_yell_at.GetTitleAsName], pero también sois un[character_to_yell_at.Custom('ES_XA')] [character_to_yell_at.Custom('InsultNoun')] [character_to_yell_at.Custom('InsultAdjective')]!»\n\n"
+ stress_threshold.2201.desc:0 "Dudo al ver la cara de mi [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], pero… Pero siento tanta #EMP rabia#! siempre… y todo el mundo me busca las cosquillas…\n\n"
+ stress_threshold.2201.desc_liege:0 "«¿Qué os ha dado, [ROOT.Char.GetTitledFirstNameNoTooltip]? Este comportamiento es inaceptable."
+ stress_threshold.2201.desc_vassal:0 "«Mi [ROOT.Char.Custom('ES_SennorSennora')], ¿qué significa este comportamiento?"
+ stress_threshold.2201.desc.calm:0 " Y, normalmente, mostráis tanta calma»."
+ stress_threshold.2201.desc.ending:0 """
+ stress_threshold.2201.a:0 "¡Ya me habéis oído!"
+ stress_threshold.2201.save:0 "Decidme, ¿cómo responderíais ante tal ataque?"
+ stress_threshold.2201.save_tt:0 "Finjo que solo [character_to_yell_at.GetHerHim] estaba probando"
+ stress_threshold.2201.liege:0 "Lo siento, mi [ROOT.Char.Custom('ES_SennorSennora')]. Me controlaré mejor."
+ stress_threshold.2201.c:0 "Lo siento Me controlaré mejor."
 
- stress_threshold.2202.t:0 "Ira hirviendo" #NT!
- stress_threshold.2202.desc.liege:0 "La ira no provocada expresada por mi Lord [stress_character.GetTitledFirstName] es una completa sorpresa." #NT!
- stress_threshold.2202.desc.vassal:0 "La ira no provocada expresada por mi vasallo [stress_character.GetTitledFirstName] es una completa sorpresa." #NT!
- stress_threshold.2202.desc.other_relationship:0 "La ira no provocada expresada por mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stress_character'))] [stress_character.GetTitledFirstName] me sorprende por completo." #NT!
- stress_threshold.2202.desc:0 "[stress_character.GetSheHe|U] ha estado bajo mucho estrés últimamente, pero" #NT!
- stress_threshold.2202.desc.rival:0 "Cuando se le pidió que explicara [stress_character.GetHerselfHimself] [stress_character.GetSheHe] solo duplicó los insultos." #NT!
- stress_threshold.2202.desc.other:0 "Comportarse así..." #NT!
- stress_threshold.2202.a:0 "Daré lo mejor que reciba. "¡[stress_character.Custom('InsultNoun')|U]!" #NT!
- stress_threshold.2202.b:0 "Que incluso [stress_character.GetSheHe] tenga problemas... Es tranquilizador." #NT!
+ stress_threshold.2202.t:0 "Ira ardiente"
+ stress_threshold.2202.desc.liege:0 "La ira sin mediar provocación por parte mi [stress_character.Custom('ES_SennorSennora')] [stress_character.GetTitledFirstName] me pilla por absoluta sorpresa."
+ stress_threshold.2202.desc.vassal:0 "La ira sin mediar provocación por parte de mi vasall[stress_character.Custom('ES_OA')] [stress_character.GetTitledFirstName] me pilla por absoluta sorpresa."
+ stress_threshold.2202.desc.other_relationship:0 "La ira sin mediar provocación por parte mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('stress_character'))] [stress_character.GetTitledFirstName] me pilla por absoluta sorpresa."
+ stress_threshold.2202.desc:0 "[stress_character.GetSheHe|U] se ha visto sometid[stress_character.Custom('ES_OA')] a mucho estrés últimamente, pero"
+ stress_threshold.2202.desc.rival:0 "cuando le pidieron explicaciones, solo redobló los insultos."
+ stress_threshold.2202.desc.other:0 "comportarse así…"
+ stress_threshold.2202.a:0 "Yo también sé dar además de recibir. «¡[stress_character.Custom('InsultNoun')|U]!»"
+ stress_threshold.2202.b:0 "Sabe que hasta [stress_character.GetSheHe] sufre… Es calmante."
 
  # Level 3 Stress Events
- stress_threshold.3001.t:0 "Descanso Mental: Las Voces" #NT!
- stress_threshold.3001.desc:0 "Donde mi corte trata solo con mentiras y falsedades, he encontrado a aquellos que afirman estar dispuestos a decirme la verdad.\n\nViven conmigo. En mi cabeza.\n\nDicen que saben cuál es la verdad...\n\n¿Realmente lo saben?" #NT!
- stress_threshold.3001.possessed.gain:0 "¡Sí, solo las voces saben la verdad real!" #NT!
- stress_threshold.3001.possessed.effect:0 "Sí, sí, saben la verdad, la pura verdad..." #NT!
- stress_threshold.3001.naked_run:0 "¡Debo exorcizar a estos demonios con una carrera desnuda!" #NT!
- stress_threshold.3001.endure:0 "Solo... no los escuches..." #NT!
+ stress_threshold.3001.t:0 "Ataque de nervios: las voces"
+ stress_threshold.3001.desc:0 "Cuando mi corte solo trata con mentiras y falsedades, he encontrado a los que dicen estar dispuestos a contarme la verdad.\n\nViven conmigo. En mi cabeza.\n\nDicen que saben cuál es la verdad.\n\n¿Lo saben de verdad?"
+ stress_threshold.3001.possessed.gain:0 "¡Sí, solo las voces saben la auténtica verdad!"
+ stress_threshold.3001.possessed.effect:0 "Sí, sí, ellos saben la verdad, la auténtica verdad…"
+ stress_threshold.3001.naked_run:0 "¡Debo exorcizar a esos demonios corriendo desnud[ROOT.Char.Custom('ES_OA')]!"
+ stress_threshold.3001.endure:0 "Tan solo… debo no escucharlas…"
 
- stress_threshold.3101.t:0 "Descanso Mental: Irregularidades" #NT!
- stress_threshold.3101.desc:0 "Todo esta mal. Las paredes de esta habitación están mal. El piso está mal. ¡Incluso el aire mismo está mal!\n\n¿Por qué está todo mal? ¿Quién ha hecho esto? ¿Quién ha hecho todo mal?" #NT!
- stress_threshold.3101.kill_victim:0 "Todo es culpa de [victim.GetFirstNamePossessiveNoTooltip], ¡lo sé!" #NT!
- stress_threshold.3101.lunatic.gain:0 "Las ardillas... en las paredes? ¡Ellos lo hicieron!" #NT!
- stress_threshold.3101.lunatic.effect:0 "¡Las ardillas en las paredes están de vuelta!" #NT!
- stress_threshold.3101.lunatic.tt:0 "#F ¡Tráeme mi pico!#!" #NT!
+ stress_threshold.3101.t:0 "Ataque de nervios: todo mal"
+ stress_threshold.3101.desc:0 "Todo está… mal. Las paredes de esta estancia están mal. El suelo está mal. ¡Hasta el aire mismo está mal!\n\n¿Por qué está todo mal? ¿Quién ha hecho esto? ¡Quién lo ha puesto todo mal?"
+ stress_threshold.3101.kill_victim:0 "¡Todo es culpa de [victim.GetFirstNameNoTooltip], lo sé!"
+ stress_threshold.3101.lunatic.gain:0 "¿Las ardillas… de las paredes? ¡Fueron ellas!"
+ stress_threshold.3101.lunatic.effect:0 "¡Las ardillas de las paredes han vuelto!"
+ stress_threshold.3101.lunatic.tt:0 "#F ¡Traedme la piqueta!#!"
 
- stress_threshold.3201.t:0 "Descanso Mental: Sobrecarga" #NT!
- stress_threshold.3201.desc:0 "Es demasiado, ¿de qué sirve siquiera intentarlo?\n\nEstamos en medio de una cena cuando todo... se desmorona. Tengo que revisar nuevos registros de [county.GetNameNoTierNoTooltip], tengo que resolver una docena de disputas locales, tengo que-\n\n"¿Estás bien, mi Lord?" Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] expresa con cautela la preocupación de [vassal.GetHerHis]." #NT!
- stress_threshold.3201.depressed.gain:0 "¿Que importa? Me rindo." #NT!
- stress_threshold.3201.depressed.effect:0 "De todos modos, todo es inútil..." #NT!
- stress_threshold.3201.help:0 "[vassal.GetFirstNameNoTooltip]... Por favor, ayúdame"." #NT!
- stress_threshold.3201.wrathful.gain:0 "¡No, tú [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')], yo soy #EMP no#! bien!" #NT!
- stress_threshold.3201.wrathful.effect:0 "¡Te mostraré quién es #EMP bien#!, tú [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')]!" #NT!
- stress_threshold.3201.wrathful.effect.success:0 "Golpeaste a [vassal.GetTitledFirstName]" #NT!
- stress_threshold.3201.wrathful.effect.failure:0 "[vassal.GetTitledFirstName] te rechaza" #NT!
+ stress_threshold.3201.t:0 "Ataque de nervios: sobrecarga"
+ stress_threshold.3201.desc:0 "Todo es demasiado, ¿qué vale siquiera intentarlo?\n\nEstamos en mitad de una cena cuando todo solo… solo se viene abajo. Tengo que revisar nuevos archivos de [county.GetNameNoTierNoTooltip], resolver una docena de disputas locales, tengo que…\n\n«¿Os encontráis bien, mi [ROOT.Char.Custom('ES_SennorSennora')]?» Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] expresa con cautela su preocupación."
+ stress_threshold.3201.depressed.gain:0 "¿Y qué importa? Me rindo."
+ stress_threshold.3201.depressed.effect:0 "De todas maneras, no vale para nada…"
+ stress_threshold.3201.help:0 "«[vassal.GetFirstNameNoTooltip]… Ayudadme, por favor»."
+ stress_threshold.3201.wrathful.gain:0 "«No, [vassal.Custom('InsultNoun')] [vassal.Custom('InsultAdjective')], ¡#EMP no#! estoy bien!»"
+ stress_threshold.3201.wrathful.effect:0 "«¡Te voy a enseñar quién está #EMP bien#!, [vassal.Custom('InsultNoun')] [vassal.Custom('InsultAdjective')]!»"
+ stress_threshold.3201.wrathful.effect.success:0 "Das una paliza a [vassal.GetTitledFirstName]"
+ stress_threshold.3201.wrathful.effect.failure:0 "[vassal.GetTitledFirstName] te repele"
 
- stress_threshold.3301.t:0 "Descanso mental: el corazón duele" #NT!
- stress_threshold.3301.desc_man:0 "La primera señal de que algo anda mal es un dolor agudo en el pecho. Me tambaleo hacia una pared en busca de apoyo mientras el dolor se extiende por mi brazo izquierdo y me mareo.\n\nYo... ¡No tengo tiempo para esto! ¡Tengo cosas que hacer! Cuando trato de dar un paso, me desplomo en el suelo. Trato de gritar pidiendo ayuda, pero el único sonido que se me escapa es un gemido estrangulado.\n\nEl dolor en mi pecho solo crece, y crece, y... la oscuridad se apodera de mi visión, y puedo #EMP sentir#! mi corazón tartamudear." #NT!
- stress_threshold.3301.desc_woman:0 "La primera señal de que algo anda mal es una acidez estomacal que no desaparece. Pruebo todos los remedios: lana suave en mi abdomen, caminatas tranquilas... Sin suerte.\n\nDe repente, parece que no puedo respirar profundamente y me tambaleo hacia la pared en busca de apoyo. ¡¿Qué— qué está pasando?! Intento gritar pidiendo ayuda, pero todo lo que consigo es un grito ahogado de dolor.\n\nEs #EMP duele#!! Un dolor agudo se extiende desde entre los omoplatos hasta el brazo izquierdo y, a medida que aumenta el dolor, me dejo caer al suelo.\n\ nDarkness sigue rápidamente." #NT!
- stress_threshold.3301.a:0 "Puaj...!" #NT!
+ stress_threshold.3301.t:0 "Ataque de nervios: dolor de pecho"
+ stress_threshold.3301.desc_man:0 "La primera señal de que algo va mal es un dolor agudo en el pecho. Me tambaleo hacia la pared para apoyarme mientras el dolor se extiende por el brazo derecho y empiezo a sentirme aturdid[ROOT.Char.Custom('ES_OA')].\n\nNo… ¡no tengo tiempo para esto! ¡Tengo cosas que hacer! Mientras intento dar un paso, me derrumbo en el suelo. Intento pedir ayuda, pero el único sonido que escapa de mi boca es un gemido ahogado.\n\nEl dolor en el pecho no hace más que aumentar y… la oscuridad nubla mi vista, empiezo a #EMP sentir#! que el corazón se me entrecorta."
+ stress_threshold.3301.desc_woman:0 "La primera señal de que algo va mal es una acidez estomacal que no desaparece. Pruebo todos los remedios: lana suave en el abdomen, paseos tranquilos… Sin éxito.\n\nDe repente, no puedo respirar bien y me tambaleo hacia la pared para apoyarme. ¿Qué… qué está pasando? Intento pedir ayuda, pero todo lo que consigo es un jadeo de dolor.\n\n#EMP Duele#!. Un dolor agudo se extiende desde los omóplatos hasta el brazo izquierdo, y a medida que el dolor crece, me hundo en el suelo.\n\nLa oscuridad le sigue rápidamente."
+ stress_threshold.3301.a:0 "¡Agh…!"

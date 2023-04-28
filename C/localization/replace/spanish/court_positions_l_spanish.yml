@@ -1,305 +1,283 @@
 ﻿l_spanish:
- APPOINT_COURT_POSITION_VIEW_replace_character_header:2 "Reemplazar [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] como [AppointCourtPositionView.GetCourtPositionType.GetName]" #NT!
- APPOINT_COURT_POSITION_VIEW_select_character_header:2 "Designar [AppointCourtPositionView.GetCourtPositionType.GetName]" #NT!
- APPOINT_COURT_POSITION_VIEW_salary:2 "Salario mensual: [CourtPositionType.GetSalaryTextFor(AppointCourtPositionView.GetCourtOwner)]" #NT!
- APPOINT_COURT_POSITION_VIEW_header:2 "Designar cargo en la corte" #NT!
- APPOINT_COURT_POSITION_VIEW_back_button:1 "Atrás" #NT!
- APPOINT_COURT_POSITION_VIEW_appoint_button:1 "Nombrar" #NT!
- APPOINT_COURT_POSITION_VIEW_appoint_button_no_eligible_courtiers_tooltip:0 "@warning_icon!#X Nadie en su corte es elegible para este [court_positions|E]#!" #NT!
- APPOINT_COURT_POSITION_VIEW_search_for_position_button:1 "Buscar candidato" #NT!
- APPOINT_COURT_POSITION_VIEW_search_for_position_button_tooltip:0 "Inicie una búsqueda para encontrar un candidato para este [court_position|E]." #NT!
- APPOINT_COURT_POSITION_VIEW_appoint_courtier_or_vassal_button:2 "Nombrar" #NT!
- APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCES_HEADER:0 "@advertencia_icono! La revocación de esta posición judicial:" #NT!
- APPOINT_COURT_POSITION_VIEW_REVOKE_COST:0 "• Te cuesta $COST$." #NT!
- APPOINT_COURT_POSITION_VIEW_COURTIER_SORT_APTITUDE:0 "Aptitud" #NT!
- APPOINT_COURT_POSITION_VIEW_NO_SELECTED_COURTIER:0 "Selecciona un personaje para llenar el [court_position|E]" #NT!
- APPOINT_COURT_POSITION_VIEW_CANNOT_AFFORD:1 "@warning_icon!#X Contratar este puesto hará que tus gastos sean más altos que tus ingresos, lo que hará que pierdas $RESOURCES$ cada mes.#!" #NT!
- APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCE_FOR_APPOINTMENT:0 "#T Si elige revocar esta posición más tarde: #!" #NT!
- APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCE_FOR_APPOINTMENT_TOOLTIP:0 "#X [AppointCourtPositionView.AppointingRevokeText] #!" #NT!
- APPOINT_COURT_POSITION_VIEW_REPLACE_CURRENTLY_APPOINTED:0 "Actualmente nombrado [CourtPosition.GetNameNoTooltip]" #NT!
- APPOINT_COURT_POSITION_VIEW_REPLACE_FIRE_CURRENT_HOLDER:0 "Fuego" #NT!
- APPOINT_COURT_POSITION_VIEW_REPLACE_CURRENT_SALARY:0 "Salario mensual: #L [CourtPosition.GetSalaryText]#!" #NT!
- APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE:0 "#T Revocar esta posición: #!" #NT!
- APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE_TOOLTIP:0 "#X [AppointCourtPositionView.ReplaceRevokeText] #!" #NT!
- APPOINT_COURT_POSITION_VIEW_APTITUDE:0 "[aptitude|e]: [AppointCourtPositionView.GetAptitudeTextFor(Character.Self)]" #NT!
- APPOINT_COURT_POSITION_VIEW_OPINION_BONUS:0 "[opinion|e] con [AppointCourtPositionView.GetSelectedCharacter.GetShortUINameNoTooltip]: [AppointCourtPositionView.GetOpinionBonusForSelectedEmployee|=+]" #NT!
+ APPOINT_COURT_POSITION_VIEW_replace_character_header:2 "Reemplazar a [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] como [AppointCourtPositionView.GetCourtPositionType.GetName]"
+ APPOINT_COURT_POSITION_VIEW_select_character_header:2 "Nombrar [AppointCourtPositionView.GetCourtPositionType.GetName]"
+ APPOINT_COURT_POSITION_VIEW_salary:2 "Salario: [CourtPositionType.GetSalaryTextFor(AppointCourtPositionView.GetCourtOwner)]"
+ APPOINT_COURT_POSITION_VIEW_header:2 "Nombrar puesto en la corte"
+ APPOINT_COURT_POSITION_VIEW_back_button:1 "Atrás"
+ APPOINT_COURT_POSITION_VIEW_appoint_button:1 "Nombrar"
+ APPOINT_COURT_POSITION_VIEW_appoint_button_no_eligible_courtiers_tooltip:0 "@warning_icon!#X No hay nadie elegible en tu corte para estos [court_positions|lE]#!"
+ APPOINT_COURT_POSITION_VIEW_search_for_position_button:1 "Buscar candidato"
+ APPOINT_COURT_POSITION_VIEW_search_for_position_button_tooltip:0 "Empezar a buscar un candidato para este [court_position|lE]."
+ APPOINT_COURT_POSITION_VIEW_appoint_courtier_or_vassal_button:2 "Nombrar"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCES_HEADER:0 "@warning_icon! Revocar este puesto en la corte:"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_COST:0 "• Costará $COST$."
+ APPOINT_COURT_POSITION_VIEW_COURTIER_SORT_APTITUDE:0 "Aptitud"
+ APPOINT_COURT_POSITION_VIEW_NO_SELECTED_COURTIER:0 "Elegir un personaje para ocupar este [court_position|lE]"
+ APPOINT_COURT_POSITION_VIEW_CANNOT_AFFORD:1 "@warning_icon!#X Contratar este puesto hará que tus gastos superen tus ingresos, lo que te hará perder $RESOURCES$ al mes.#!"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCE_FOR_APPOINTMENT:0 "#T Si eliges revocar este puesto luego, será: #!"
+ APPOINT_COURT_POSITION_VIEW_REVOKE_CONSEQUENCE_FOR_APPOINTMENT_TOOLTIP:0 "#X [AppointCourtPositionView.AppointingRevokeText] #!"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CURRENTLY_APPOINTED:0 "[CourtPosition.GetNameNoTooltip] ya nombrado"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_FIRE_CURRENT_HOLDER:0 "Despedir"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CURRENT_SALARY:0 "Salario mensual: #L [CourtPosition.GetSalaryText]#!"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE:0 "#T Revocar este puesto en la corte: #!"
+ APPOINT_COURT_POSITION_VIEW_REPLACE_CONSEQUENCE_FOR_REVOKE_TOOLTIP:0 "#X [AppointCourtPositionView.AppointingRevokeText] #!"
+ APPOINT_COURT_POSITION_VIEW_APTITUDE:0 "[aptitude|E]: [AppointCourtPositionView.GetAptitudeTextFor(Character.Self)]"
+ APPOINT_COURT_POSITION_VIEW_OPINION_BONUS:0 "[opinion|E] con [AppointCourtPositionView.GetSelectedCharacter.GetShortUINameNoTooltip]: [AppointCourtPositionView.GetOpinionBonusForSelectedEmployee|=+]"
 
- COURT_WINDOW_COURT_POSITIONS:0 "Posiciones de la corte" #NT!
- COURT_POSITION_REPLACE:0 "#T Reemplazar [Character.GetShortUINameNoTooltip]#!" #NT!
- COURT_POSITION_REVOKE:0 "#T Fuego [Character.GetShortUINameNoTooltip]#!" #NT!
- COURT_POSITION_OPINION_BONUS:0 "[opinion|e] Bonificación: [CourtPosition.GetOpinionBonus|=+]" #NT!
+ COURT_WINDOW_COURT_POSITIONS:0 "Puestos en la corte"
+ COURT_POSITION_REPLACE:0 "#T Reemplazar a [Character.GetShortUINameNoTooltip]#!"
+ COURT_POSITION_REVOKE:0 "#T Despedir a [Character.GetShortUINameNoTooltip]#!"
+ COURT_POSITION_OPINION_BONUS:0 "Bonificación de [opinion|lE]: [CourtPosition.GetOpinionBonus|=+]"
+ 
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_HEADER:0 "[Concept( 'court_positions', 'Puestos' )|E] vacantes en tu corte"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_EFFECTS_VARY:0 "Efectos varían según [aptitude|lE]:"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS:0 "@warning_icon!#X No cumples todos los requisitos para contratar este [court_position|lE]#!"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS_TT:0 "#T $COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT$#!\n[CourtPositionType.GetLiegeRequirementDescriptionText]"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS:0 "@warning_icon!#X Ningún cortesano cumple los requisitos del [court_position|lE]#!"
+ COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS_TT:0 "#T $COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT$#!\n[CourtPositionType.GetEmployeeRequirementDescriptionText]"
+ COURT_POSITIONS_WINDOW_FILTER_ALL:0 "Todos"
+ COURT_POSITIONS_WINDOW_FILTER_TAB_ALL_NUM_HIRES:0 "[CourtPositionsWindow.NumHiredPositions]/[CourtPositionsWindow.MaxNumAvailablePositions]"
+ COURT_POSITIONS_WINDOW_FILTER_TAB_CATEGORY_NUM_HIRES:0 "[CourtPositionsWindow.NumHiredInCategory(CourtPositionCategory.Self)]/[CourtPositionsWindow.MaxNumHirableInCategory(CourtPositionCategory.Self)]"
 
- COURT_POSITIONS_WINDOW_EMPTY_POSITION_HEADER:0 "Vacía [court_positions|E] en tu Corte" #NT!
- COURT_POSITIONS_WINDOW_EMPTY_POSITION_EFFECTS_VARY:0 "Los efectos varían según [aptitude|e]:" #NT!
- COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS:0 "@warning_icon!#X No cumples con los requisitos para contratar este [court_position|e]#!" #NT!
- COURT_POSITIONS_WINDOW_EMPTY_POSITION_YOU_DONT_MEET_REQUIREMENTS_TT:0 "#T $COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT$#!\n[CourtPositionType.GetLiegeRequirementDescriptionText]" #NT!
- COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS:0 "@warning_icon!#X Ningún cortesano cumple con los requisitos de [court_position|e]#!" #NT!
- COURT_POSITIONS_WINDOW_EMPTY_POSITION_NO_ELIGIBLE_COURTIERS_TT:0 "#T $COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT$#!\n[CourtPositionType.GetEmployeeRequirementDescriptionText]" #NT!
- COURT_POSITIONS_WINDOW_FILTER_ALL:0 "Todo" #NT!
- COURT_POSITIONS_WINDOW_FILTER_TAB_ALL_NUM_HIRES:0 "[CourtPositionsWindow.NumHiredPositions]/[CourtPositionsWindow.MaxNumAvailablePositions]" #NT!
- COURT_POSITIONS_WINDOW_FILTER_TAB_CATEGORY_NUM_HIRES:0 "[CourtPositionsWindow.NumHiredInCategory(CourtPositionCategory.Self)]/[CourtPositionsWindow.MaxNumHirableInCategory(CourtPositionCategory.Self)]" #NT!
+ COURT_POSITIONS_COURT_VIEW_appoint_court_position_button:2 "Nombrar puesto en la corte"
+ COURT_POSITIONS_COURT_VIEW_appoint_court_position_button_tooltip:1 "#T Nombrar puesto en la corte#!\n\nNombrar a un [vassal|lE] o miembro de tu corte para un [Concept( 'court_position', 'puesto' )|E]."
+ COURT_POSITIONS_COURT_VIEW_positions_in_your_court:1 "[Concept( 'court_positions', 'Puestos' )|E] en tu corte"
+ COURT_POSITIONS_COURT_VIEW_salaries_gained:1 "Ingresos mensuales de tu salario:"
+ COURT_POSITIONS_COURT_VIEW_salaries_paid:1 "Salarios mensuales pagados:"
+ COURT_POSITIONS_SALARY_FOR:0 "$EMPLOYEE$ ($COURT_POSITION$)"
+ COURT_POSITIONS_INCOME:0 "Ingresos por [court_positions|lE]"
+ COURT_POSITIONS_EXPENSES:0 "Gastos por [court_positions|lE]"
+ COURT_POSITIONS_SALARIES_PAID:0 "Salarios pagados"
+ COURT_POSITIONS_SALARIES_GAINED:0 "Salarios ganados"
+ COURT_POSITION_TYPE_SCALING_MODIFIER_DESCRIPTION:0 "$MODIFIER$: $FROM_TO$ (según [aptitude|lE])"
+ COURT_POSITION_TYPE_SCALING_MODIFIER_FROM_TO:1 "$FROM$ a $TO$"
 
- COURT_POSITIONS_COURT_VIEW_appoint_court_position_button:2 "Designar cargo en la corte" #NT!
- COURT_POSITIONS_COURT_VIEW_appoint_court_position_button_tooltip:1 "#T Nombrar cargo de tribunal#!\n\nAppoint a [vassal|E] o un miembro de su tribunal para un [court_position|E]." #NT!
- COURT_POSITIONS_COURT_VIEW_positions_in_your_court:1 "[court_positions|E] en tu Corte" #NT!
- COURT_POSITIONS_COURT_VIEW_salaries_gained:1 "Ingreso Mensual de su Salario:" #NT!
- COURT_POSITIONS_COURT_VIEW_salaries_paid:1 "Salarios mensuales pagados:" #NT!
- COURT_POSITIONS_SALARY_FOR:0 "$EMPLOYEE$ ($COURT_POSITION$)" #NT!
- COURT_POSITIONS_INCOME:0 "Ingresos de [court_positions|E]" #NT!
- COURT_POSITIONS_EXPENSES:0 "Gastos a [court_positions|E]" #NT!
- COURT_POSITIONS_SALARIES_PAID:0 "Salarios pagados" #NT!
- COURT_POSITIONS_SALARIES_GAINED:0 "Salarios ganados" #NT!
- COURT_POSITION_TYPE_SCALING_MODIFIER_DESCRIPTION:0 "$MODIFIER$: $FROM_TO$ (basado en [aptitude|E])" #NT!
- COURT_POSITION_TYPE_SCALING_MODIFIER_FROM_TO:1 "$FROM$ a $TO$" #NT!
+ COURT_POSITIONS_your_positions_in_liege_court:2 "Tus [Concept( 'court_positions', 'puestos' )|E] en la corte de tu [liege|lE]."
+ COURT_POSITIONS_no_positions_with_liege:2 "No tienes [Concept( 'court_positions', 'puestos' )|E] en la corte de tu [liege|lE]."
+ COURT_POSITIONS_no_positions_in_your_court:1 "No has cubierto ningún [Concept( 'court_position', 'puesto' )|E] en tu corte."
+ COURT_POSITIONS_cannot_hire_more_positions:2 "No puedes contratar más [court_positions|lE]."
+ COURT_POSITIONS_cannot_hire_more_positions_in_category:2 "No puedes contratar más [court_positions|lE] en esta categoría."
 
- COURT_POSITIONS_your_positions_in_liege_court:2 "Tu [court_positions|E] en la corte de tu [liege|e]" #NT!
- COURT_POSITIONS_no_positions_with_liege:2 "No tienes [court_positions|E] en la Corte de tu [liege|e]" #NT!
- COURT_POSITIONS_no_positions_in_your_court:1 "No ha empleado ningún [court_position|E] en su corte." #NT!
- COURT_POSITIONS_cannot_hire_more_positions:2 "No puedes contratar ningún [court_positions|E]." #NT!
- COURT_POSITIONS_cannot_hire_more_positions_in_category:2 "No puede contratar ningún [court_positions|E] en esta categoría." #NT!
+ COURT_POSITIONS_revoke_confirm_header:2 "Confirmar revocar [court_position|lE]"
+ COURT_POSITIONS_revoke_confirm_accept:1 "Revocar"
+ COURT_POSITIONS_revoke_position_cost:1 "Hacerlo te costará $COSTS$"
+ COURT_POSITIONS_revoke_position_cost_cannot_afford:1 "Hacerlo te costará $COSTS$. No te lo puedes permitir y entrarás en pérdidas"
+ COURT_POSITIONS_revoke_position_confirmation:1 "Se revocará el $COURT_POSITION$ de [CHARACTER.GetShortUIName]."
+ COURT_POSITIONS_revoke_position_confirmation_with_cost:1 "Se revocará el $COURT_POSITION$ de [CHARACTER.GetShortUIName]. $COSTS$"
+ COURT_POSITIONS_revoke_position_confirmation_with_effect:1 "Se revocará el $COURT_POSITION$ de [CHARACTER.GetShortUIName]. Hacerlo tendrá estos efectos:\n$EFFECT$"
+ COURT_POSITIONS_revoke_position_confirmation_with_cost_and_effect:1 "Se revocará el $COURT_POSITION$ de [CHARACTER.GetShortUIName] $COSTS$ y tendrá estos efectos:\n$EFFECT$"
 
- COURT_POSITIONS_revoke_confirm_header:2 "Confirmar revocación [court_position|E]" #NT!
- COURT_POSITIONS_revoke_confirm_accept:1 "Revocar" #NT!
- COURT_POSITIONS_revoke_position_cost:1 "Hacer esto te costará $COSTS$" #NT!
- COURT_POSITIONS_revoke_position_cost_cannot_afford:1 "Hacer esto te costará $COSTS$. No puede pagar esto y lo pondrá en un déficit" #NT!
- COURT_POSITIONS_revoke_position_confirmation:1 "Se revocará la posición de [CHARACTER.GetShortUINameNoTooltip] en [CHARACTER.GetShortUINameNoTooltip]." #NT!
- COURT_POSITIONS_revoke_position_confirmation_with_cost:1 "Se revocará la posición de [CHARACTER.GetShortUINameNoTooltip] en [CHARACTER.GetShortUINameNoTooltip]. $COSTS$" #NT!
- COURT_POSITIONS_revoke_position_confirmation_with_effect:1 "Se revocará la posición de [CHARACTER.GetShortUINameNoTooltip] en [CHARACTER.GetShortUINameNoTooltip]. Hacer esto tendrá el siguiente efecto:\n$EFFECT$" #NT!
- COURT_POSITIONS_revoke_position_confirmation_with_cost_and_effect:1 "Se revocará la posición de [CHARACTER.GetShortUINameNoTooltip] en [CHARACTER.GetShortUINameNoTooltip]. $COSTS$, y tiene el siguiente efecto:\n$EFFECT$" #NT!
+ COURT_POSITIONS_replace_confirm_header:2 "Confirmar reemplazar [court_position|lE]"
+ COURT_POSITIONS_replace_confirm_accept:1 "Reemplazar"
+ COURT_POSITIONS_replace_position_confirmation:1 "Se reemplazará a [CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$ por [TARGET_CHARACTER.GetShortUINameNoTooltip]."
+ COURT_POSITIONS_replace_position_confirmation_with_cost:1 "Se reemplazará a [CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$ por [TARGET_CHARACTER.GetShortUINameNoTooltip]. $COSTS$"
+ COURT_POSITIONS_replace_position_confirmation_with_effect:1 "Se reemplazará a [CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$ por [TARGET_CHARACTER.GetShortUINameNoTooltip]. Hacerlo tendrá estos efectos:\n$EFFECT$"
+ COURT_POSITIONS_replace_position_confirmation_with_cost_and_effect:1 "Se reemplazará a [CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$ por [TARGET_CHARACTER.GetShortUINameNoTooltip], $COSTS$ y tendrá estos efectos:\n$EFFECT$"
 
- COURT_POSITIONS_replace_confirm_header:2 "Confirmar Reemplazar [court_position|E]" #NT!
- COURT_POSITIONS_replace_confirm_accept:1 "Reemplazar" #NT!
- COURT_POSITIONS_replace_position_confirmation:1 "[CHARACTER.GetShortUINameNoTooltip] será reemplazado por [TARGET_CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$." #NT!
- COURT_POSITIONS_replace_position_confirmation_with_cost:1 "[CHARACTER.GetShortUINameNoTooltip] será reemplazado por [TARGET_CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$. $COSTS$" #NT!
- COURT_POSITIONS_replace_position_confirmation_with_effect:1 "[CHARACTER.GetShortUINameNoTooltip] será reemplazado por [TARGET_CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$. Hacer esto tendrá el siguiente efecto:\n$EFFECT$" #NT!
- COURT_POSITIONS_replace_position_confirmation_with_cost_and_effect:1 "[CHARACTER.GetShortUINameNoTooltip] será reemplazado por [TARGET_CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$. $COSTS$, y tiene el siguiente efecto:\n$EFFECT$" #NT!
+ COURT_POSITION_CATEGORY_COMMON_NAME:0 "Común"
+ COURT_POSITION_CATEGORY_ROYAL_NAME:0 "Real"
+ COURT_POSITION_CATEGORY_SPECIAL_NAME:0 "Especial"
+ COURT_POSITIONS_category_day_to_day:0 "Cotidiana"
+ COURT_POSITIONS_category_honorary:0 "Honoraria"
+ COURT_POSITIONS_category_personal_servants:0 "Servidores personales"
+ COURT_POSITIONS_category_frivolous:0 "Frívola"
+ COURT_POSITIONS_category_fighters:0 "Guerreros"
+ COURT_POSITIONS_months_of_service:1 "Meses de servicio: $MONTHS$"
+ COURT_POSITIONS_years_of_service:1 "Años de servicio: $YEARS$"
 
- COURT_POSITION_CATEGORY_COMMON_NAME:0 "Común" #NT!
- COURT_POSITION_CATEGORY_ROYAL_NAME:0 "Real" #NT!
- COURT_POSITION_CATEGORY_SPECIAL_NAME:0 "Especial" #NT!
- COURT_POSITIONS_category_day_to_day:0 "Día a día" #NT!
- COURT_POSITIONS_category_honorary:0 "Honorario" #NT!
- COURT_POSITIONS_category_personal_servants:0 "Servidores personales" #NT!
- COURT_POSITIONS_category_frivolous:0 "Frívolo" #NT!
- COURT_POSITIONS_category_fighters:0 "Luchadores" #NT!
- COURT_POSITIONS_months_of_service:1 "Meses de servicio: $MONTHS$" #NT!
- COURT_POSITIONS_years_of_service:1 "Años de servicio: $YEARS$" #NT!
+ COURT_POSITION_TOOLTIP_EFFECT_ON_YOUR_LIEGE:0 "Efecto sobre tu [liege|lE]:"
+ COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE:0 "Efecto sobre el [liege|lE]:"
+ COURT_POSITION_TOOLTIP_SCALED_EFFECT_ON_LIEGE:0 "Efecto sobre el [liege|lE], basado en la [aptitude|lE] del empleado:"
+ COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT:0 "Requisitos del [liege|lE]:"
+ COURT_POSITION_TOOLTIP_EFFECT_ON_YOU:0 "Efectos sobre ti:"
+ COURT_POSITION_TOOLTIP_EFFECT_ON_EMPLOYEE:1 "Efecto sobre [CourtPosition.GetNameNoTooltip]:"
+ COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT:1 "Requisitos de [CourtPositionType.GetNameNoTooltip]:"
+ COURT_POSITION_TOOLTIP_SALARY:1 "Salario: [CourtPosition.GetSalaryText]"
+ COURT_POSITION_TOOLTIP_SALARIES_GOLD_PAID:0 "Oro pagado en salarios"
+ COURT_POSITION_TOOLTIP_SALARIES_GOLD_EARNED:0 "Oro ganado en salarios"
+ COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_PAID:0 "Prestigio pagado en salarios"
+ COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_EARNED:0 "Prestigio ganado en salarios"
+ COURT_POSITION_TOOLTIP_SALARIES_PIETY_PAID:0 "Piedad pagada en salarios"
+ COURT_POSITION_TOOLTIP_SALARIES_PIETY_EARNED:0 "Piedad ganada en salarios"
+ COURT_POSITION_TOOLTIP_REVOKE_COST:1 "• Te cuesta: [CourtPosition.GetRevokeCostText]"
+ COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER:0 "Revocar este [court_position|lE] causará:"
+ COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE:0 "Efecto sobre [CourtPositionType.GetNameNoTooltip]:"
+ COURT_POSITION_TYPE_TOOLTIP_SALARY:0 "Salario: [CourtPositionType.GetSalaryText]"
+ COURT_POSITION_TYPE_TOOLTIP_REVOKE_COST:0 "• Te cuesta: [CourtPositionType.GetRevokeCostText]"
 
- COURT_POSITION_TOOLTIP_EFFECT_ON_YOUR_LIEGE:0 "Efecto en tu [liege|e]:" #NT!
- COURT_POSITION_TOOLTIP_EFFECT_ON_LIEGE:0 "Efecto en [liege|e]:" #NT!
- COURT_POSITION_TOOLTIP_SCALED_EFFECT_ON_LIEGE:0 "Efecto en [liege|e], basado en [aptitude|e] del empleado:" #NT!
- COURT_POSITION_TOOLTIP_LIEGE_REQUIREMENT:0 "Requisitos de [liege|e]:" #NT!
- COURT_POSITION_TOOLTIP_EFFECT_ON_YOU:0 "Efecto en ti:" #NT!
- COURT_POSITION_TOOLTIP_EFFECT_ON_EMPLOYEE:1 "Efecto en [CourtPosition.GetNameNoTooltip]:" #NT!
- COURT_POSITION_TOOLTIP_EMPLOYEE_REQUIREMENT:1 "Requisitos de [CourtPositionType.GetNameNoTooltip]:" #NT!
- COURT_POSITION_TOOLTIP_SALARY:1 "Salario: [CourtPosition.GetSalaryText]" #NT!
- COURT_POSITION_TOOLTIP_SALARIES_GOLD_PAID:0 "Salarios de oro pagados" #NT!
- COURT_POSITION_TOOLTIP_SALARIES_GOLD_EARNED:0 "Salarios de oro ganados" #NT!
- COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_PAID:0 "Salarios de prestigio pagados" #NT!
- COURT_POSITION_TOOLTIP_SALARIES_PRESTIGE_EARNED:0 "Salarios de prestigio ganados" #NT!
- COURT_POSITION_TOOLTIP_SALARIES_PIETY_PAID:0 "Salarios de piedad pagados" #NT!
- COURT_POSITION_TOOLTIP_SALARIES_PIETY_EARNED:0 "Salarios de piedad ganados" #NT!
- COURT_POSITION_TOOLTIP_REVOKE_COST:1 "• Costo: [CourtPosition.GetRevokeCostText]" #NT!
- COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER:0 "Revocar este [court_position|E] provocará:" #NT!
- COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE:0 "Efecto en [CourtPositionType.GetNameNoTooltip]:" #NT!
- COURT_POSITION_TYPE_TOOLTIP_SALARY:0 "Salario: [CourtPositionType.GetSalaryText]" #NT!
- COURT_POSITION_TYPE_TOOLTIP_REVOKE_COST:0 "• Costo: [CourtPositionType.GetRevokeCostText]" #NT!
+ COURT_POSITION_SALARY_BREAKDOWN_BASE:0 "Salario base"
+ 
+ culture_era_late_medieval_salary_mod:0 "[era|E] #V $culture_era_late_medieval$#!"
+ culture_era_high_medieval_salary_mod:0 "[era|E] #V $culture_era_high_medieval$#!"
+ culture_era_early_medieval_salary_mod:0 "[era|E] #V $culture_era_early_medieval$#!"
+ esteemed_hospitality_salary_mod:0 "[tradition|E] #V $tradition_esteemed_hospitality_name$#!:"
+ empire_salary_mod:0 "[emperor|E]"
+ tribal_salary_mod:0 "[tribal|E]"
+ small_realm_salary_mod:0 "[realm_size|E] significativo #low (30+)#!"
+ medium_realm_salary_mod:0 "[realm_size|E] grande #low (60+)#!"
+ large_realm_salary_mod:0 "[realm_size|E] muy grande #low (90+)#!"
+ enormous_realm_salary_mod:0 "[realm_size|E] enorme #low (120+)#!"
+ holds_court_position_opinion:0 "$POSITION$: $VALUE|=+$"
 
- COURT_POSITION_SALARY_BREAKDOWN_BASE:0 "Salario base" #NT!
+ COURT_POSITION_APTITUDE_TOOLTIP_HEADER:0 "Aptitud"
+ COURT_POSITION_aptitude_description_position:0 "[aptitude|E]: [CourtPosition.GetAptitudeText]"
+ COURT_POSITION_aptitude_terrible:1 "Horrible"
+ COURT_POSITION_aptitude_poor:1 "Mala"
+ COURT_POSITION_aptitude_average:1 "Media"
+ COURT_POSITION_aptitude_good:1 "Buena"
+ COURT_POSITION_aptitude_excellent:1 "Excelente"
+ COURT_POSITION_aptitude_breakdown:0 "La [aptitude|lE] de [CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$ se ve afectada por:"
+ COURT_POSITION_aptitude_character_possessive:0 "[aptitude|E] de [CHARACTER.GetShortUINameNoTooltip]:"
 
- culture_era_late_medieval_salary_mod:0 "#V $culture_era_late_medieval$#! [era|E]" #NT!
- culture_era_high_medieval_salary_mod:0 "#V $culture_era_high_medieval$#! [era|E]" #NT!
- culture_era_early_medieval_salary_mod:0 "#V $culture_era_early_medieval$#! [era|E]" #NT!
- esteemed_hospitality_salary_mod:0 "#V $tradition_esteemed_hospitality_name$#! [tradition|E]" #NT!
- empire_salary_mod:0 "[emperor|E]" #NT!
- tribal_salary_mod:0 "[tribal|E]" #NT!
- small_realm_salary_mod:0 "Significativo [realm_size|E] #low (30+)#!" #NT!
- medium_realm_salary_mod:0 "Grande [realm_size|E] #low (60+)#!" #NT!
- large_realm_salary_mod:0 "Muy grande [realm_size|E] #low (90+)#!" #NT!
- enormous_realm_salary_mod:0 "Enorme [realm_size|E] #low (120+)#!" #NT!
- holds_court_position_opinion:0 "$POSITION$: $VALUE|=+$" #NT!
+ court_position_skill_learning:0 "Habilidad de [learning|lE]"
+ court_position_skill_martial:0 "Habilidad de [Concept( 'martial', 'marcialidad' )|E]"
+ court_position_skill_prowess:0 "Habilidad de [prowess|lE]"
+ court_position_skill_diplomacy:0 "Habilidad de [diplomacy|lE]"
+ court_position_skill_stewardship:0 "Habilidad de [stewardship|lE]"
+ court_position_skill_intrigue:0 "Habilidad de [intrigue|lE]"
+ court_position_languages:0 "[languages|E] conocidos"
+ court_position_landed_penalty:0 "Gobierno ocupado"
+ court_position_skill_health:0 "[health|E]"
+ court_position_physician_3_trait:0 "[GetTrait('physician_3').GetName( ROOT.Char )]"
+ court_position_physician_2_trait:0 "[GetTrait('physician_2').GetName( ROOT.Char )]"
+ court_position_physician_1_trait:0 "[GetTrait('physician_1').GetName( ROOT.Char )]"
+ court_position_mystic_3_trait:0 "[GetTrait('mystic_3').GetName( ROOT.Char )]"
+ court_position_mystic_2_trait:0 "[GetTrait('mystic_2').GetName( ROOT.Char )]"
+ court_position_mystic_1_trait:0 "[GetTrait('mystic_1').GetName( ROOT.Char )]"
+ court_position_hunter_3_trait:0 "[GetTrait('hunter_3').GetName( ROOT.Char )]"
+ court_position_hunter_2_trait:0 "[GetTrait('hunter_2').GetName( ROOT.Char )]"
+ court_position_hunter_1_trait:0 "[GetTrait('hunter_1').GetName( ROOT.Char )]"
+ court_position_intellect_good_3_trait:0 "[GetTrait('intellect_good_3').GetName( ROOT.Char )]"
+ court_position_intellect_good_2_trait:0 "[GetTrait('intellect_good_2').GetName( ROOT.Char )]"
+ court_position_intellect_good_1_trait:0 "[GetTrait('intellect_good_1').GetName( ROOT.Char )]"
+ court_position_patient_trait:0 "[GetTrait('patient').GetName( ROOT.Char )]"
+ court_position_generous_trait:0 "[GetTrait('generous').GetName( ROOT.Char )]"
+ court_position_greedy_trait:0 "[GetTrait('greedy').GetName( ROOT.Char )]"
+ court_position_profligate_trait:0 "[GetTrait('profligate').GetName( ROOT.Char )]"
+ court_position_scholar_trait:0 "[GetTrait('scholar').GetName( ROOT.Char )]"
+ court_position_shrewd_trait:0 "[GetTrait('shrewd').GetName( ROOT.Char )]"
+ court_position_architect_trait:0 "[GetTrait('architect').GetName( ROOT.Char )]"
+ court_position_architect_study_experience:0 "Ha estudiado libros sobre arquitectura"
+ court_position_gregarious_trait:0 "[GetTrait('gregarious').GetName( ROOT.Char )]"
+ court_position_diplomat_trait:0 "[GetTrait('diplomat').GetName( ROOT.Char )]"
+ court_position_poet_trait:0 "[GetTrait('poet').GetName( ROOT.Char )]"
+ court_position_blademaster_3_trait:0 "[GetTrait('blademaster_3').GetName( ROOT.Char )]"
+ court_position_blademaster_2_trait:0 "[GetTrait('blademaster_2').GetName( ROOT.Char )]"
+ court_position_blademaster_1_trait:0 "[GetTrait('blademaster_1').GetName( ROOT.Char )]"
+ court_position_shieldmaiden_trait:0 "[GetTrait('shieldmaiden').GetName( ROOT.Char )]"
+ court_position_brave_trait:0 "[GetTrait('brave').GetName( ROOT.Char )]"
+ court_position_craven_trait:0 "[GetTrait('craven').GetName( ROOT.Char )]"
+ court_position_blind_trait:0 "[GetTrait('blind').GetName( ROOT.Char )]"
+ court_position_infirm_trait:0 "[GetTrait('infirm').GetName( ROOT.Char )]"
+ court_position_maimed_trait:0 "[GetTrait('maimed').GetName( ROOT.Char )]"
+ court_position_wounded_3_trait:0 "[GetTrait('wounded_3').GetName( ROOT.Char )]"
+ court_position_wounded_2_trait:0 "[GetTrait('wounded_2').GetName( ROOT.Char )]"
+ court_position_administrator_trait:0 "[GetTrait('administrator').GetName( ROOT.Char )]"
+ court_position_shy_trait:0 "[GetTrait('shy').GetName( ROOT.Char )]"
+ court_position_gluttonous_trait:0 "[GetTrait('gluttonous').GetName( ROOT.Char )]"
+ court_position_comfort_eater_trait:0 "[GetTrait('comfort_eater').GetName( ROOT.Char )]"
+ court_position_inappetetic_trait:0 "[GetTrait('inappetetic').GetName( ROOT.Char )]"
+ court_position_torturer_trait:0 "[GetTrait('torturer').GetName( ROOT.Char )]"
+ court_position_sadistic_trait:0 "[GetTrait('sadistic').GetName( ROOT.Char )]"
+ court_position_clergy_trait:0 "Es parte del [clergy|lE]"
+ court_position_completed_inspiration:0 "Ha cumplido una [inspiration|lE]"
+ court_position_high_skills_trait:0 "Muy calificado"
+ court_position_gardener_trait:0 "[GetTrait('lifestyle_gardener').GetName( ROOT.Char )]"
+ court_position_herbalist_trait:0 "[GetTrait('lifestyle_herbalist').GetName( ROOT.Char )]:"
+ court_position_overseer_trait:0 "[GetTrait('overseer').GetName( ROOT.Char )]"
+ court_position_gallant_trait:0 "[GetTrait('gallant').GetName( ROOT.Char )]"
+ court_position_tradition_music_theory:0 "[culture_tradition|E] $tradition_music_theory_name$"
+ court_position_just_trait:0 "[GetTrait('just').GetName( ROOT.Char )]"
+ court_position_arbitrary_trait:0 "[GetTrait('arbitrary').GetName( ROOT.Char )]"
+ court_position_temperate_trait:0 "[GetTrait('temperate').GetName( ROOT.Char )]"
+ court_position_tradition_culinary_art:0 "[culture_tradition|E] $tradition_culinary_art_name$"
+ court_position_compassionate_trait:0 "[GetTrait('compassionate').GetName( ROOT.Char )]"
+ court_position_avaricious_trait:0 "[GetTrait('avaricious').GetName( ROOT.Char )]"
+ court_position_trusting_trait:0 "[GetTrait('trusting').GetName( ROOT.Char )]"
+ court_position_deceitful_trait:0 "[GetTrait('deceitful').GetName( ROOT.Char )]"
+ court_position_honest_trait:0 "[GetTrait('honest').GetName( ROOT.Char )]"
+ court_position_stubborn_trait:0 "[GetTrait('stubborn').GetName( ROOT.Char )]"
+ court_position_paranoid_trait:0 "[GetTrait('paranoid').GetName( ROOT.Char )]"
+ court_position_reclusive_trait:0 "[GetTrait('reclusive').GetName( ROOT.Char )]"
+ court_position_athletic_trait:0 "[GetTrait('athletic').GetName( ROOT.Char )]"
+ court_position_tradition_poetry:0 "[culture_tradition|E] $tradition_poetry_name$"
 
- COURT_POSITION_APTITUDE_TOOLTIP_HEADER:0 "Aptitud" #NT!
- COURT_POSITION_aptitude_description_position:0 "[aptitude|e]: [CourtPosition.GetAptitudeText]" #NT!
- COURT_POSITION_aptitude_terrible:1 "Horrible" #NT!
- COURT_POSITION_aptitude_poor:1 "Pobre" #NT!
- COURT_POSITION_aptitude_average:1 "Promedio" #NT!
- COURT_POSITION_aptitude_good:1 "Bien" #NT!
- COURT_POSITION_aptitude_excellent:1 "Excelente" #NT!
- COURT_POSITION_aptitude_breakdown:0 "El [aptitude|e] de [CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$ se ve afectado por:" #NT!
- COURT_POSITION_aptitude_character_possessive:0 "[aptitude|e] de [Character.GetShortUINameNoTooltip]:" #NT!
+ court_physician_court_position:0 "Médico de la corte"
+ court_physician_tradition_bonus:0 "Por [culture_tradition|lE]:"
+ court_physician_court_position_desc:1 "El médico de la corte se responsabiliza de la salud y bienestar de la [court|lE] en la que está. Tratará enfermedades y curará heridas como mejor pueda."
+ court_physician_employer_custom_effect_description:2 "Realiza tratamientos médicos#!\n@warning_icon!#X Un [agent|lE] poderoso en [hostile_schemes|lE] contra ti#!"
+ hire_physician_decision:0 "Buscar un médico"
+ hire_physician_decision_tooltip:3 "Mis servidores me sugerirán una serie de candidatos adecuados para el puesto de [GetCourtPositionType('court_physician_court_position').GetName()|l]"
+ hire_physician_decision_desc:1 "Un médico de la corte es vital para ocuparse de los enfermos y heridos de la corte. Pediré a mis servidores que me presenten una serie de candidatos adecuados."
+ hire_physician_decision_effect_tooltip:4 "Te presentarán un grupo de candidatos a [GetCourtPositionType('court_physician_court_position').GetName()|l] y podrás contratar a uno de ellos a cambio de una cantidad y un salario mensual de [SCOPE.ScriptValue('court_position_physician_salary')] [gold_i]"
+ hire_physician_decision_confirm:0 "Comenzar la búsqueda"
+ 
+ antiquarian_employer_custom_effect_description:0 "Te permite $repair_or_reforge_and_repair$ [artifacts|lE]\nDesbloquea la [decision|lE] #V $commission_artifact_decision$#!\nProtege [artifacts|lE] durante [sieges|lE] y [raids|lE]"
 
- court_position_skill_learning:0 "[learning|E] Habilidad" #NT!
- court_position_skill_martial:0 "[martial|E] Habilidad" #NT!
- court_position_skill_prowess:0 "[prowess|E] Habilidad" #NT!
- court_position_skill_diplomacy:0 "[diplomacy|E] Habilidad" #NT!
- court_position_skill_stewardship:0 "[stewardship|E] Habilidad" #NT!
- court_position_skill_intrigue:0 "[intrigue|E] Habilidad" #NT!
- court_position_languages:0 "[languages|E] conocido" #NT!
- court_position_landed_penalty:0 "Fallo ocupado" #NT!
- court_position_skill_health:0 "[health|E]" #NT!
- court_position_physician_3_trait:0 "[GetTrait('physician_3').GetName( ROOT.Char )]" #NT!
- court_position_physician_2_trait:0 "[GetTrait('physician_2').GetName( ROOT.Char )]" #NT!
- court_position_physician_1_trait:0 "[GetTrait('physician_1').GetName( ROOT.Char )]" #NT!
- court_position_mystic_3_trait:0 "[GetTrait('mystic_3').GetName( ROOT.Char )]" #NT!
- court_position_mystic_2_trait:0 "[GetTrait('mystic_2').GetName( ROOT.Char )]" #NT!
- court_position_mystic_1_trait:0 "[GetTrait('mystic_1').GetName( ROOT.Char )]" #NT!
- court_position_hunter_3_trait:0 "[GetTrait('hunter_3').GetName( ROOT.Char )]" #NT!
- court_position_hunter_2_trait:0 "[GetTrait('hunter_2').GetName( ROOT.Char )]" #NT!
- court_position_hunter_1_trait:0 "[GetTrait('hunter_1').GetName( ROOT.Char )]" #NT!
- court_position_intellect_good_3_trait:0 "[GetTrait('intellect_good_3').GetName( ROOT.Char )]" #NT!
- court_position_intellect_good_2_trait:0 "[GetTrait('intellect_good_2').GetName( ROOT.Char )]" #NT!
- court_position_intellect_good_1_trait:0 "[GetTrait('intellect_good_1').GetName( ROOT.Char )]" #NT!
- court_position_patient_trait:0 "[GetTrait('patient').GetName( ROOT.Char )]" #NT!
- court_position_generous_trait:0 "[GetTrait('generous').GetName( ROOT.Char )]" #NT!
- court_position_greedy_trait:0 "[GetTrait('greedy').GetName( ROOT.Char )]" #NT!
- court_position_profligate_trait:0 "[GetTrait('profligate').GetName( ROOT.Char )]" #NT!
- court_position_scholar_trait:0 "[GetTrait('scholar').GetName( ROOT.Char )]" #NT!
- court_position_shrewd_trait:0 "[GetTrait('shrewd').GetName( ROOT.Char )]" #NT!
- court_position_architect_trait:0 "[GetTrait('architect').GetName( ROOT.Char )]" #NT!
- court_position_architect_study_experience:0 "Ha estudiado libros de arquitectura." #NT!
- court_position_gregarious_trait:0 "[GetTrait('gregarious').GetName( ROOT.Char )]" #NT!
- court_position_diplomat_trait:0 "[GetTrait('diplomat').GetName( ROOT.Char )]" #NT!
- court_position_poet_trait:0 "[GetTrait('poet').GetName( ROOT.Char )]" #NT!
- court_position_blademaster_3_trait:0 "[GetTrait('blademaster_3').GetName( ROOT.Char )]" #NT!
- court_position_blademaster_2_trait:0 "[GetTrait('blademaster_2').GetName( ROOT.Char )]" #NT!
- court_position_blademaster_1_trait:0 "[GetTrait('blademaster_1').GetName( ROOT.Char )]" #NT!
- court_position_shieldmaiden_trait:0 "[GetTrait('shieldmaiden').GetName( ROOT.Char )]" #NT!
- court_position_brave_trait:0 "[GetTrait('brave').GetName( ROOT.Char )]" #NT!
- court_position_craven_trait:0 "[GetTrait('craven').GetName( ROOT.Char )]" #NT!
- court_position_blind_trait:0 "[GetTrait('blind').GetName( ROOT.Char )]" #NT!
- court_position_infirm_trait:0 "[GetTrait('infirm').GetName( ROOT.Char )]" #NT!
- court_position_maimed_trait:0 "[GetTrait('maimed').GetName( ROOT.Char )]" #NT!
- court_position_wounded_3_trait:0 "[GetTrait('wounded_3').GetName( ROOT.Char )]" #NT!
- court_position_wounded_2_trait:0 "[GetTrait('wounded_2').GetName( ROOT.Char )]" #NT!
- court_position_administrator_trait:0 "[GetTrait('administrator').GetName( ROOT.Char )]" #NT!
- court_position_shy_trait:0 "[GetTrait('shy').GetName( ROOT.Char )]" #NT!
- court_position_gluttonous_trait:0 "[GetTrait('gluttonous').GetName( ROOT.Char )]" #NT!
- court_position_comfort_eater_trait:0 "[GetTrait('comfort_eater').GetName( ROOT.Char )]" #NT!
- court_position_inappetetic_trait:0 "[GetTrait('inappetetic').GetName( ROOT.Char )]" #NT!
- court_position_torturer_trait:0 "[GetTrait('torturer').GetName( ROOT.Char )]" #NT!
- court_position_sadistic_trait:0 "[GetTrait('sadistic').GetName( ROOT.Char )]" #NT!
- court_position_clergy_trait:0 "Es parte del [clergy|E]" #NT!
- court_position_completed_inspiration:0 "Ha completado un [inspiration|E]" #NT!
- court_position_high_skills_trait:0 "Muy habilidoso" #NT!
- court_position_gardener_trait:0 "[GetTrait('lifestyle_gardener').GetName( ROOT.Char )]" #NT!
- court_position_herbalist_trait:0 "[GetTrait('lifestyle_herbalist').GetName( ROOT.Char )]" #NT!
- court_position_overseer_trait:0 "[GetTrait('overseer').GetName( ROOT.Char )]" #NT!
- court_position_gallant_trait:0 "[GetTrait('gallant').GetName( ROOT.Char )]" #NT!
- court_position_tradition_music_theory:0 "$tradition_music_theory_name$ [culture_tradition|E]" #NT!
- court_position_just_trait:0 "[GetTrait('just').GetName( ROOT.Char )]" #NT!
- court_position_arbitrary_trait:0 "[GetTrait('arbitrary').GetName( ROOT.Char )]" #NT!
- court_position_temperate_trait:0 "[GetTrait('temperate').GetName( ROOT.Char )]" #NT!
- court_position_tradition_culinary_art:0 "$tradition_culinary_art_name$ [culture_tradition|E]" #NT!
- court_position_compassionate_trait:0 "[GetTrait('compassionate').GetName( ROOT.Char )]" #NT!
- court_position_avaricious_trait:0 "[GetTrait('avaricious').GetName( ROOT.Char )]" #NT!
- court_position_trusting_trait:0 "[GetTrait('trusting').GetName( ROOT.Char )]" #NT!
- court_position_deceitful_trait:0 "[GetTrait('deceitful').GetName( ROOT.Char )]" #NT!
- court_position_honest_trait:0 "[GetTrait('honest').GetName( ROOT.Char )]" #NT!
- court_position_stubborn_trait:0 "[GetTrait('stubborn').GetName( ROOT.Char )]" #NT!
- court_position_paranoid_trait:0 "[GetTrait('paranoid').GetName( ROOT.Char )]" #NT!
- court_position_reclusive_trait:0 "[GetTrait('reclusive').GetName( ROOT.Char )]" #NT!
- court_position_athletic_trait:0 "[GetTrait('athletic').GetName( ROOT.Char )]" #NT!
- court_position_tradition_poetry:0 "$tradition_poetry_name$ [culture_tradition|E]" #NT!
-
- court_physician_court_position:0 "Médico de la corte" #NT!
- court_physician_tradition_bonus:0 "Desde [culture_tradition|E]" #NT!
- court_physician_court_position_desc:1 "El $court_physician_court_position$ es responsable de la salud y el bienestar del [court|E] en el que se encuentran. Tratarán enfermedades y suturarán heridas lo mejor que puedan." #NT!
- court_physician_employer_custom_effect_description:2 "Realiza [medical_treatments|E]#!\n@warning_icon!#X [agent|E] potente en [hostile_schemes|E] contra ti#!" #NT!
- hire_physician_decision:0 "Buscar médico de la corte" #NT!
- hire_physician_decision_tooltip:3 "Sus servidores sugerirán una serie de candidatos adecuados para el puesto de [GetCourtPositionType('court_physician_court_position').GetName()]" #NT!
- hire_physician_decision_desc:1 "Un médico de la corte es esencial para atender a los enfermos y heridos en mi corte. Pediré a mis sirvientes que presenten una serie de candidatos adecuados." #NT!
- hire_physician_decision_effect_tooltip:4 "Se le presentará un grupo de [GetCourtPositionType('court_physician_court_position').GetName()] candidatos y podrá contratar a uno de ellos por una tarifa y un salario mensual de [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]" #NT!
- hire_physician_decision_confirm:0 "Iniciar la búsqueda" #NT!
-
- antiquarian_employer_custom_effect_description:0 "Te permite $repair_or_reforge_and_repair$ [artifacts|E]\nDesbloquea el #V $commission_artifact_decision$#! [decision|E]\nProtege [artifacts|E] durante [sieges|E] y [raids|E]" #NT!
-
- chief_eunuch_court_position:1 "Eunuco jefe" #NT!
- chief_eunuch_employer_custom_effect_description:0 "@warning_icon!#X PODEROSO [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
- chief_eunuch_court_position_desc:1 "El $chief_eunuch_court_position$ es un servidor de confianza responsable de los eunucos en la corte del señor. No sucede mucho de lo que no se enteren, tanto entre los sirvientes como entre la realeza." #NT!
-
- keeper_of_swans_court_position:0 "Oficial de armas" #NT!
- keeper_of_swans_court_position_desc:1 "El $keeper_of_swans_court_position$ está a cargo de las armas del relam. Conservar y presidir los asuntos heráldicos y heráldicos; a menudo se doblan como heraldo cortesano de su corte." #NT!
-
- master_of_horse_court_position:0 "Maestro del caballo" #NT!
- master_of_horse_court_position_desc:1 "El $master_of_horse_court_position$ es responsable de los majestuosos caballos y establos del señor. Tienen mucho trabajo por delante, ya que un caballo bien cuidado es una bendición tanto en el campo de batalla como en la carretera." #NT!
-
- master_of_hunt_court_position:0 "Maestro de la perrera" #NT!
- master_of_hunt_employer_custom_effect_description:0 "Ayudas al usar el [hunt|E] [activity|E]" #NT!
- master_of_hunt_court_position_desc:1 "El $master_of_hunt_court_position$ es responsable de las partidas de caza que organicen los miembros de su corte de señor. También están a cargo de las perreras y los perros dentro de ella." #NT!
-
-
- court_jester_court_position:0 "Tonto" #NT!
- court_jester_employer_custom_effect_description:0 "Posibilidad de eventos de alivio [stress|E]" #NT!
- court_jester_court_position_desc:1 "Un $court_jester_court_position$ está ahí para entretener tanto a su Señor Feudal como a cualquier invitado que visite la corte. Mientras que un ingenioso giro de la frase se puede apreciar de vez en cuando, una desagradable caída siempre provoca risas." #NT!
-
- high_almoner_court_position:0 "Alto limosnero" #NT!
- high_almoner_court_position_desc:1 "El $high_almoner_court_position$ está a cargo de distribuir limosnas a los pobres merecedores y otros sujetos necesitados." #NT!
-
- cupbearer_court_position:0 "Copero" #NT!
- cupbearer_employer_custom_effect_description:1 "Probabilidad de detener el veneno [GetScheme('murder').GetTypeName] [schemes|E]#!\n@warning_icon!#X Poderoso [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
- cupbearer_court_position_desc:1 "Un $cupbearer_court_position$ es responsable de servir las bebidas en la mesa real y de asegurarse de que la taza de nadie se seque nunca." #NT!
-
- seneschal_court_position:0 "Senescal" #NT!
- seneschal_court_position_desc:1 "El $seneschal_court_position$ cumple un papel importante en la vida cotidiana de la casa real, administrando a los sirvientes y manteniendo todo funcionando sin problemas." #NT!
-
- antiquarian_court_position:0 "Anticuario" #NT!
- antiquarian_court_position_desc:2 "El $antiquarian_court_position$ es responsable del mantenimiento, cuidado y adquisición de artefactos." #NT!
-
- court_tutor_court_position:0 "Tutor de la corte" #NT!
- court_tutor_employer_custom_effect_description:2 "Mejora los resultados de [education|E]\nDesbloquea el #V $make_child_learn_language_interaction$#! [interaction|E]" #NT!
- court_tutor_court_position_desc:1 "El $court_tutor_court_position$ está a cargo del [education|E] de todos los niños en la corte, y su habilidad influirá en cuánto influirán en los estudiantes. Los niños aún pueden tener [guardians|E] individuales." #NT!
- royal_architect_court_position:0 "Arquitecto" #NT!
- royal_architect_court_position_desc:1 "El $royal_architect_court_position$ supervisa cualquier proyecto de construcción prestigioso dentro del reino; no se pone un ladrillo, ni se gasta un segundo, sin su permiso expreso." #NT!
-
- court_poet_court_position:0 "Poeta de la corte" #NT!
- court_poet_employer_custom_effect_description:1 "Puede convertirse aleatoriamente en [inspired|E]" #NT!
- court_poet_court_position_desc:1 "El $court_poet_court_position$ es un conocedor de las palabras y los versos, proporcionando a su Señor Feudal y a toda la corte entretenimiento, estimulación intelectual y experiencias emocionales." #NT!
- poet_inspired_message:0 "¡La inspiración ataca!" #NT!
- poet_inspired_effect:0 "Tu [GetCourtPositionType('court_poet_court_position').GetName()] [inspired_poet.GetFirstName] ganó un [inspiration|E]" #NT!
-
- bodyguard_court_position:0 "Escudo jurado" #NT!
- bodyguard_employer_custom_effect_description:1 "Tiene la posibilidad de evitar el Asesinato [GetScheme('murder').GetTypeName] [schemes|E]#!\nReduces tu riesgo de morir o ser capturado en [battles|E] ambos están luchando en#!\n@warning_icon!#X Poderoso [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
- bodyguard_court_position_desc:1 "Un $bodyguard_court_position$ es la última línea de defensa de un Lord contra todos los atacantes. Dondequiera que vaya su carga, la siguen y no dudarán en interponerse en el camino de cualquier peligro que pueda estar al acecho." #NT!
-
- champion_court_position:1 "Campeón" #NT!
- champion_employer_custom_effect_description:1 "Puede ocupar tu lugar en algún [single_combat_duel_plural|E]" #NT!
- champion_court_position_desc:1 "Un $champion_court_position$ es un luchador habilidoso y letal que puede representar a su Señor Feudal en los duelos." #NT!
-
- court_musician_court_position:0 "Bardo de la corte" #NT!
- court_musician_employer_custom_effect_description:1 "Aumenta la ganancia de [opinion|E] cuando se aloja un [feast|E]" #NT!
- court_musician_court_position_desc:1 "A $court_musician_court_position$ es un artista que canta y toca instrumentos para entretener a su Señor Feudal y la corte." #NT!
-
- food_taster_court_position:0 "Catador de alimentos" #NT!
- food_taster_employer_custom_effect_description:1 "Probabilidad de detener a Poison [GetScheme('murder').GetTypeName] [schemes|E]#!\nYou perderá peso más rápido#!\n@warning_icon!#X Potente [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
- food_taster_court_position_desc:1 "Un $food_taster_court_position$ tiene el deber solemne de asegurarse de que el plato de su Señor Feudal nunca sea tocado por veneno, y si algún polvo o líquido nefasto, sin embargo, llega a la comida... Bueno, es por eso que el catador tiene que probar la comida antes de que comience la comida. ." #NT!
-
- lady_in_waiting_court_position:0 "Dama de honor" #NT!
- lady_in_waiting_employer_custom_effect_description:0 "@warning_icon!#X PODEROSO [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
- lady_in_waiting_court_position_desc:1 "A $lady_in_waiting_court_position$ es ayudante y acompañante de la dama de la corte, atendiendo todas sus necesidades y cumpliendo todos sus caprichos." #NT!
-
- executioner_court_position:0 "Verdugo" #NT!
- executioner_employer_custom_effect_description:1 "Puede publicar [execute|E] [prisoners|E] para aumentar [control|E] y [county_opinion|E]" #NT!
- executioner_court_position_desc:1 "Los verdugos son criminales que, a cambio de su libertad, tienen que ejecutar a todos y cada uno de los enemigos del trono. Algunos lo llamarían un honor, otros una carga." #NT!
-
- garuda_court_position:0 "Garuda" #NT!
- garuda_employer_custom_effect_description:0 "Reduce el riesgo de morir o ser capturado en las batallas en las que ambos están luchando." #NT!
- garuda_court_position_desc:0 "Este caballero ha jurado cumplir la voluntad de su Lord o morir en el intento. Así como el pájaro mitológico $garuda_court_position$ soportaba el peso de Vishnu, los guerreros $garuda_court_position$ soportan la soberanía del monarca." #NT!
-
- court_gardener_court_position:0 "Jardinero de la corte" #NT!
- court_gardener_court_position_desc:0 "El $court_gardener_court_position$ es responsable del bienestar de los jardines pertenecientes a su Lord, invirtiendo tiempo y habilidad para hacerlos florecer de verdad." #NT!
-
- chief_qadi_court_position:0 "Jefe qadi" #NT!
- chief_qadi_court_position_desc:0 "El $chief_qadi_court_position$ es el juez supremo del reino, responsable de aplicar la ley islámica en diversas disputas y asuntos legales." #NT!
-
- cultural_emissary_court_position:0 "Emisario cultural" #NT!
- cultural_emissary_court_position_desc:0 "El propósito de $cultural_emissary_court_position$ es promover el entendimiento entre diferentes culturas a través de la celebración y la reverencia." #NT!
-
- court_artificer_court_position:0 "Artífice de la corte" #NT!
- court_artificer_court_position_desc:0 "Un $court_artificer_court_position$ es alguien que ha demostrado ser capaz de crear grandes cosas. Si bien en su mayoría se adormecen en su corte, la esperanza es que la inspiración golpee una vez más." #NT!
- court_artificer_employer_custom_effect_description:0 "Tiene la posibilidad de convertirse en [inspired|E] nuevamente (basado en [aptitude|E])\n@warning_icon!#X Dejará el [court|E] si es despedido#!" #NT!
- court_artificer_inspired_effect:0 "Tu [GetCourtPositionType('court_artificer_court_position').GetName()] [artificer.GetFirstName] ganó un [inspiration|E]" #NT!
- has_an_inspiration:0 "Tiene un [inspiration|E] activo" #NT!
- has_a_completed_inspiration:0 "Ha completado previamente un [inspiration|E]" #NT!
- COURT_POSITIONS_YOUR_SALARY:0 "$COURT_POSITION$" #NT!
- does_not_have_a_full_time_job:0 "¿#bold no#!  ya está empleado en [court_position|E] a tiempo completo o como [councillor|E]?" #NT!
+ chief_eunuch_court_position:1 "Eunuco jefe"
+ chief_eunuch_employer_custom_effect_description:0 "@warning_icon!#X Un [agent|lE] poderoso en [hostile_schemes|lE] contra ti#!"
+ chief_eunuch_court_position_desc:1 "El $chief_eunuch_court_position$ es un servidor de confianza responsable de los eunucos de la corte. No hay muchas cosas que no sepa, tanto entre los sirvientes como entre la realeza."
+ keeper_of_swans_court_position:0 "Guardián de los cisnes"
+ keeper_of_swans_court_position_desc:1 "El $keeper_of_swans_court_position$ está a cargo de los cisnes reales. Lleva la cuenta del número de maravillas emplumadas pertenecientes a su señor y les proporcionarles cuidados; este puesto conlleva responsabilidades serias."
+ master_of_horse_court_position:0 "Señor de los caballos"
+ master_of_horse_court_position_desc:1 "El $master_of_horse_court_position$ se responsabiliza de los majestuosas monturas y establos de su señor. Tiene mucho trabajo, ya que un caballo bien cuidado es una ventaja tanto en el campo de batalla como en el camino."
+ court_jester_court_position:0 "Bufón de la corte"
+ court_jester_employer_custom_effect_description:0 "Posibilidad de eventos que alivien el [stress|lE]"
+ court_jester_court_position_desc:1 "El cometido de un $court_jester_court_position$, un payaso, es entretener tanto a su señor como a cualquier invitado que visite la corte. Aunque de vez en cuando se puede apreciar una réplica inteligente, una caída fea siempre se gana las risas."
+ master_of_hunt_court_position:0 "Jefe de cazadores"
+ master_of_hunt_employer_custom_effect_description:0 "Ayuda al usar la [activity|lE] [hunt|lE]"
+ master_of_hunt_court_position_desc:1 "El $master_of_hunt_court_position$ se responsabiliza de las partidas de caza que organizan los miembros de la corte de su señor. También se encarga de la perrera y de los perros que hay en ella."
+ high_almoner_court_position:0 "Gran limosnero"
+ high_almoner_court_position_desc:1 "El $high_almoner_court_position$ se encarga de distribuir las limosnas a los pobres que lo merecen y a otros súbditos necesitados."
+ cupbearer_court_position:0 "Copero"
+ cupbearer_employer_custom_effect_description:1 "Posibilidad de impedir [schemes|lE] de [GetScheme('murder').GetTypeName] con venenos#!\n@warning_icon!#X Un [agent|lE] poderoso en [hostile_schemes|lE] contra ti#!"
+ cupbearer_court_position_desc:1 "Un $cupbearer_court_position$ se responsabiliza de servir bebidas en la corte real y asegurarse de que no haya ninguna copa vacía."
+ seneschal_court_position:0 "Senescal"
+ seneschal_court_position_desc:1 "El $seneschal_court_position$ desempeña un papel importante en el día a día de la casa real, al dirigir a los sirvientes y mantener todo en orden."
+ antiquarian_court_position:0 "Anticuario"
+ antiquarian_court_position_desc:2 "El $antiquarian_court_position$ se responsabiliza del mantenimiento, cuidado y adquisición de artefactos."
+ court_tutor_court_position:0 "Tutor de la corte"
+ court_tutor_employer_custom_effect_description:2 "Mejora los resultados de [education|lE]\nDesbloquea la [interaction|lE] #V $make_child_learn_language_interaction$#!"
+ court_tutor_court_position_desc:1 "El $court_tutor_court_position$ está a cargo de la [education|lE] de todos los niños de la corte y su habilidad influirá en el grado de influencia de los alumnos. Los niños pueden seguir teniendo [guardians|lE] individuales."
+ royal_architect_court_position:0 "Arquitecto real"
+ royal_architect_court_position_desc:1 "El $royal_architect_court_position$ supervisa todos los proyectos de construcción prestigiosos del señorío; no se pone un ladrillo ni se pierde un segundo sin su permiso expreso."
+ court_poet_court_position:0 "Poeta de la corte"
+ court_poet_employer_custom_effect_description:1 "Puede recibir una [Concept( 'inspired', 'inspiración' )|E] al azar"
+ court_poet_court_position_desc:1 "El $court_poet_court_position$ es un conocedor de las palabras y versos, que proporciona a su señor y a todos los miembros de la corte entretenimiento, estimulación intelectual y experiencias emocionales."
+ poet_inspired_message:0 "¡La inspiración ataca!"
+ poet_inspired_effect:0 "Tu [GetCourtPositionType('court_poet_court_position').GetName()] [inspired_poet.GetFirstName] recibe una [inspiration|lE]"
+ bodyguard_court_position:0 "Guardaespaldas"
+ bodyguard_employer_custom_effect_description:1 "Tiene la posibilidad de impedir [schemes|lE] de [GetScheme('murder').GetTypeName] con asesinos#!\nReduce el riesgo de muerte o captura en las batallas donde ambos luchéis#!\n@warning_icon!#X Un [agent|lE] poderoso en [hostile_schemes|lE] contra ti#!"
+ bodyguard_court_position_desc:1 "Un $bodyguard_court_position$ es la última línea de defensa de la persona real contra toda clase de atacantes. Irá allá donde vaya su protegido y no dudará en interponerse ante cualquier peligro que aceche ahí fuera."
+ champion_court_position:1 "Campeón personal"
+ champion_employer_custom_effect_description:1 "Puede ocupar tu lugar en algunos [single_combat_duel_plural|lE]"
+ champion_court_position_desc:1 "Un $champion_court_position$ es un guerrero diestro y mortal que puede representar a su señor en los duelos."
+ court_musician_court_position:0 "Músico de la corte"
+ court_musician_employer_custom_effect_description:1 "Aumenta la ganancia de [opinion|lE] al celebrar un [feast|lE]"
+ court_musician_court_position_desc:1 "Un $court_musician_court_position$ es un artista que canta y toca instrumentos para entretener a su señor y a la corte."
+ food_taster_court_position:0 "Catador"
+ food_taster_employer_custom_effect_description:1 "Posibilidad de detener [schemes|lE] de [GetScheme('murder').GetTypeName] con venenos#!\nPerderás peso con más rapidez#!\n@warning_icon!#X Un [agent|lE] poderoso en [hostile_schemes|lE] contra ti#!"
+ food_taster_court_position_desc:1 "Un $food_taster_court_position$ tiene el deber solemne de asegurarse de que el veneno nunca toca el plato de su señor, y si algún polvo o líquido nefasto llegase a la comida… En fin, por eso el catador tiene que catar los platos antes de que comience la comida."
+ lady_in_waiting_court_position:0 "Dama de honor"
+ lady_in_waiting_employer_custom_effect_description:0 "@warning_icon!#X Un [agent|lE] poderoso en [hostile_schemes|lE] contra ti#!"
+ lady_in_waiting_court_position_desc:1 "Una $lady_in_waiting_court_position$ es una ayudante y compañera de una reina o emperatriz, asiste todas sus necesidades y cumple todos sus deseos."
+ executioner_court_position:0 "Verdugo"
+ executioner_employer_custom_effect_description:1 "Puede [execute|lE] [prisoners|lE] públicamente para aumentar el [control|lE] y la [county_opinion|lE]\n@warning_icon!#X Los delitos del personaje quedan perdonados#!"
+ executioner_court_position_desc:1 "Los verdugos son delincuentes que, a cambio de su libertad, tienen que ejecutar a todos y cada uno de los enemigos del trono. Algunos lo llamarían un honor, otros, una carga."
+ garuda_court_position:0 "Garuda"
+ garuda_employer_custom_effect_description:0 "Reduce el riesgo de morir o ser capturado en las batallas donde ambos luchéis"
+ garuda_court_position_desc:0 "Este caballero ha jurado hacer la voluntad de su señor o morir en el intento. Igual que la mitológica ave $garuda_court_position$ cargó con Visnú, los guerreros $garuda_court_position$ cargan con la soberanía del monarca."
+ court_gardener_court_position:0 "Jardinero de la corte"
+ court_gardener_court_position_desc:0 "El $court_gardener_court_position$ se responsabiliza del bienestar de los jardines que pertenecen a su señor. Invierte mucho tiempo y habilidad para hacer que florezcan."
+ chief_qadi_court_position:0 "Gran cadí"
+ chief_qadi_court_position_desc:0 "El $chief_qadi_court_position$ es el juez supremo del reino, responsable de aplicar la ley islámica en litigios diversos y asuntos jurídicos."
+ cultural_emissary_court_position:0 "Emisario cultural"
+ cultural_emissary_court_position_desc:0 "El objetivo del $cultural_emissary_court_position$ es promover la comprensión entre culturas diferentes mediante la celebración y veneración."
+ court_artificer_court_position:0 "Artista de la corte"
+ court_artificer_court_position_desc:0 "Un $court_artificer_court_position$ es alguien que ha demostrado ser capaz de hacer grandes cosas. Mientras que la mayor parte del tiempo se arrastra por tu corte, la esperanza es que la inspiración llegue de nuevo."
+ court_artificer_employer_custom_effect_description:0 "Tiene una posibilidad de volver a sentirse [inspired|lE] (depende de la [aptitude|lE])\n@warning_icon!#X Abandonará la [court|lE] si le despiden#!"
+ court_artificer_inspired_effect:0 "Tu [GetCourtPositionType('court_artificer_court_position').GetName()] [artificer.GetFirstName] recibió una [inspiration|lE]"
+ has_an_inspiration:0 "Tiene una [inspiration|lE] activa"
+ has_a_completed_inspiration:0 "Ha completado una [inspiration|lE] antes"
+ COURT_POSITIONS_YOUR_SALARY:0 "$COURT_POSITION$"
+ does_not_have_a_full_time_job:0 "#bold No#! es un [court_position|lE] empleado a tiempo total o como [councillor|lE]"
