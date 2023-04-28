@@ -2,7 +2,7 @@
  DECISION_ON_COOLDOWN:0 "@warning_icon!#X $DECISION_NAME$ no disponible hasta [DATE.GetStringLong]#!" #NT!
  ALREADY_PLANNING_ACTIVITY:0 "Ya estás planeando otro [activity|E]" #NT!
  start_hunt_decision:0 "Iniciar una Cacería" #NT!
- start_hunt_decision_tooltip:1 "Se llevará a cabo una [hunt|E]" #NT!
+ start_hunt_decision_tooltip:1 "Se llevará a cabo una [cacería]|E]" #NT!
  start_hunt_decision_desc:0 "#F ¡La naturaleza indómita está llamando, y todo tipo de bestias están esperando mi lanza y mi flecha!#!" #NT!
  start_hunt_decision_go_on_hunt:1 "Vas a #V Hunt#! en una de las baronías de tu reino" #NT!
  start_hunt_decision_prestige:1 "Puede obtener oportunidades para aumentar su [prestige|E]" #NT!
@@ -228,7 +228,7 @@
  commission_artifact_decision_tooltip:0 "Contrata a un artesano local para que cree un [artifact|E] para ti" #NT!
  commission_artifact_decision_desc:0 "¿Cuál es el punto de ser un [ROOT.Char.GetTitleAsNameNoTooltip] si no tengo buenas cosas que mostrar? Una espada nueva estaría bien, o tal vez un broche..." #NT!
  commission_artifact_decision_confirm:0 "Contrata a un artesano local" #NT!
- commission_artifact_decision_effect_message:0 ""
+ commission_artifact_decision_effect_message:0 "
  COMMISSION_ARTIFACT_DECISION_NEXT_STEP_BUTTON:0 "Elija artefacto" #NT!
  COMMISSION_ARTIFACT_DECISION_SELECT_ARTIFACT_TITLE:0 "Elige un tipo de [artifact|E]" #NT!
 
@@ -1049,8 +1049,8 @@
  court_amenities_interactions.0010.desc.flag_sleeveless:0 "[actor.GetSheHe|U] ha quitado las mangas de la ropa noble de [actor.GetHerHis]" #NT!
  court_amenities_interactions.0010.desc.flag_commoner_clothes:0 "[actor.GetSheHe|U] ha entrado en [debate_locale.GetNameNoTierNoTooltip] vistiendo la ropa de un campesino de baja cuna" #NT!
  court_amenities_interactions.0010.desc_outro:0 "¡y se ha atrevido a declarar que es la última moda del reino! Todos los tontos de la corte parecen estar cayendo en la trampa, pero ¿debería levantar la mano para acabar con esta locura?" #NT!
- court_amenities_interactions.0010.a_flag_big_collar:0 ""¡Pareces un pájaro que se tragó un plato!"" #NT!
- court_amenities_interactions.0010.a:0 ""¿Qué #EMP son#!  estás usando?"" #NT!
+ court_amenities_interactions.0010.a_flag_big_collar:0 "¡Pareces un pájaro que se tragó un plato!" #NT!
+ court_amenities_interactions.0010.a:0 "¿Qué #EMP son#!  estás usando?" #NT!
  court_amenities_interactions.0010.b:0 "Muerde mi labio y trata de no reírte." #NT!
  court_amenities_interactions.0010.a.tt_success:0 "Convence a la multitud de que el atuendo de [actor.GetNamePossessiveNoTooltip] es estúpido." #NT!
  court_amenities_interactions.0010.a.tt_failure:0 "La multitud no está de acuerdo contigo y piensa que el atuendo de [actor.GetNamePossessiveNoTooltip] es la nueva tendencia de la moda." #NT!
@@ -1066,7 +1066,7 @@
  court_amenities_interactions.0011.desc_lost:0 "Como la nobleza de [debate_locale.GetNameNoTierNoTooltip] se unió rápidamente a [recipient.GetNameNoTooltip] para burlarse de mi atuendo, sé que mi declaración de moda no fue apreciada cruelmente en su propio tiempo." #NT!
  court_amenities_interactions.0011.a_won:0 "¡Yo siempre sé mejor!" #NT!
  court_amenities_interactions.0011.a_lost:0 "¡Simplemente no #EMP me entienden#! !" #NT!
- court_amenities_interactions.0012.desc_intro:0 ""Bueno, algunos de nosotros somos seguidores y otros líderes". [actor.GetNameNoTooltip] se mantiene firme en el compromiso de [actor.GetHerHis] con ese atuendo ridículo.\n\nPasamos las próximas horas debatiendo la naturaleza de la alta costura, con una pequeña multitud de cortesanos observando cómo lanzo insulto tras insulto a este tonto." #NT!
+ court_amenities_interactions.0012.desc_intro:0 "Bueno, algunos de nosotros somos seguidores y otros líderes". [actor.GetNameNoTooltip] se mantiene firme en el compromiso de [actor.GetHerHis] con ese atuendo ridículo.\n\nPasamos las próximas horas debatiendo la naturaleza de la alta costura, con una pequeña multitud de cortesanos observando cómo lanzo insulto tras insulto a este tonto." #NT!
  court_amenities_interactions.0012.desc_won:0 "En poco tiempo, muchos otros cortesanos comienzan a unirse a mí para burlarse de [actor.GetNameNoTooltip] y sé que mi trabajo ha terminado." #NT!
  court_amenities_interactions.0012.desc_lost:0 "Desafortunadamente, la multitud no pareció influir en mis argumentos y, en cuestión de días, soy el único en la corte #EMP not#!  vestido como [actor.GetNameNoTooltip]." #NT!
  court_amenities_interactions.0012.desc_lost.kof:1 "No solo eso, sino que muchos han comenzado a referirse a [actor.GetHerHim] como el "[actor.GetTitleAsNameNoTooltip] de la moda"." #NT!

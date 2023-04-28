@@ -310,11 +310,11 @@
  action_mega_duke_penalty:0 "Demasiados [counties|E]" #NT!
  action_mega_duke_penalty_label:0 "Demasiados [counties|E]" #NT!
  action_mega_duke_penalty_desc:3 "Tu [realm_size|E] es demasiado grande para un [duke|E], lo que te hace sufrir [megaduke_penalty|E].\n\n#help Los Dukes no pueden crecer demasiado y tener demasiados [counties|E] en su [realm|E]. Mientras tenga demasiados [counties|E], sufrirá una reducción de [income|E]. Debes crear un [kingdom|E] Título.#!" #NT!
- action_mega_duke_penalty_click:0 ""
+ action_mega_duke_penalty_click:0 "
  action_in_debt:0 "En deuda" #NT!
- action_in_debt_label:1 "usted está en deuda" #NT!
+ action_in_debt_label:1 "Usted está en deuda" #NT!
  action_in_debt_desc:6 "¡Tiene menos de 0 [gold|E] y por lo tanto está en [debt|E]!\n\nEstar en deuda tiene los siguientes efectos:\n$BULLET_WITH_TAB$No puede declarar [war|E]\n$BULLET_WITH_TAB$No puede reforzar [men_at_arms|E] que requieren [gold|E]\n$BULLET_WITH_TAB$[county_corruption|E] se extiende en su [domain|E]\n$BULLET_WITH_TAB$[debt|E]1 tiene más probabilidades de unirse a [debt|E]2\n \nCuanto más endeudado esté, más duras serán las sanciones a las que se enfrentará. Su nivel de deuda actual tiene los siguientes efectos adicionales:\n\n[debt|E]3\n\n[debt|E]4Si no gana oro todos los meses, considere reducir sus gastos, por ejemplo:\n$BULLET_WITH_TAB$Desmantelando su [debt|E]6\n$BULLET_WITH_TAB$Reduciendo el tamaño de, o destruyendo, su [men_at_arms|E]\n$BULLET_WITH_TAB$Aumentando $BULLET_WITH_TAB$0 usando su $BULLET_WITH_TAB$1\n$BULLET_WITH_TAB$Revocando $BULLET_WITH_TAB$3$BULLET_WITH_TAB$4" #NT!
- action_in_debt_click:0 ""
+ action_in_debt_click:0 "
 
  action_send_child_to_university:0 "Enviar niño a la universidad" #NT!
  action_send_child_to_university_label:0 "Enviar niño a la universidad" #NT!
@@ -374,7 +374,7 @@
 
  action_not_endorsed_by_realm_priest:1 "No respaldado por tu [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E]" #NT!
  action_not_endorsed_by_realm_priest_label:2 "No respaldado por tu [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName ]" #NT!
- action_not_endorsed_by_realm_priest_desc:3 "Tu [recipient.GetCouncilTitle], [recipient.GetUIName], no te respalda. \n\n#help Debes asegurarte de que [recipient.GetSheHe] tenga un #P positivo#! [opinion|E] tuyo. De lo contrario, ¡[recipient.GetSheHe] no le proporcionará ningún [levies|E] o [taxes|E]!\n\nSi [recipient.GetUIName]0 Su opinión es igual o inferior a [recipient.GetUIName]1-10[recipient.GetUIName]2[recipient.GetSheHe] podría empezar a interferir en sus asuntos.[recipient.GetUIName]4" #NT!
+ action_not_endorsed_by_realm_priest_desc:3 "Tu [recipient.GetCouncilTitle], [recipient.GetUIName], no te respalda. \n\n#help Debes asegurarte de que [recipient.GetSheHe] tenga un #P positivo#! [opinion|E] tuyo. De lo contrario, ¡[recipient.GetSheHe] no le proporcionará ningún [levies|E] o [taxes|E]!\n\nSi la opinión de [recipient.GetUIName] es igual o inferior a 0, podría empezar a interferir en sus asuntos." #NT!
  action_not_endorsed_by_realm_priest_click:1 "#I Haz clic para ver tu [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName]#!" #NT!
 
  action_not_endorsed_by_realm_priest_no_holding:0 "$action_not_endorsed_by_realm_priest$" #NT!

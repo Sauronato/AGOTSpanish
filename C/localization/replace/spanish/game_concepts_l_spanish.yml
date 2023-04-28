@@ -403,7 +403,7 @@
  game_concept_weak_hook_desc:1 "Un $game_concept_weak_hook$ es un [hook|E] bastante común que podrías tener en un personaje que te debe un favor o que has manipulado para hacer tu voluntad.\n\nSi bien hay muchas interacciones en las que se puede usar un $game_concept_weak_hook$, por ejemplo, en las propuestas de [marriage|E] , no se pueden usar para obligar a alguien a convertirse en su [agent|E] en un [GetScheme('murder').GetTypeName] y no proporciona un beneficio pasivo #weak  (para eso, se necesita un [strong_hook|E]). \nUna vez que se usa un $game_concept_weak_hook$, se gasta [hook|E]4.[hook|E]5" #NT!
  game_concept_strong_hook:0 "Gancho fuerte" #NT!
  game_concept_strong_hooks:0 "Ganchos Fuertes" #NT!
- game_concept_strong_hook_desc:2 "Un $game_concept_strong_hook$ es un [hook|E] muy poderoso que puedes tener en un personaje que tienes [blackmailed|E].\n\n$game_concept_strong_hooks$ son mucho más poderosos que [weak_hooks|E] y pueden obligar a alguien a hacer cosas terribles por ti, como convertirse en tu [agent|E] en un [GetScheme('murder').GetTypeName] #weak  (¡además de todo lo que puede hacer un $game_concept_weak_hook$!) #!\n\nA $game_concept_strong_hook$ también evita que el objetivo realice acciones hostiles hacia el portador.\n\n$game_concept_strong_hooks$ no se gastan cuando se usan, sino que se enfrían antes de que se puedan volver a usar. El efecto pasivo no se pierde cuando se usa el Hook." #NT!
+ game_concept_strong_hook_desc:2 "Un $game_concept_strong_hook$ es un [hook|E] muy poderoso que puedes tener en un personaje que tienes [blackmailed|E].\n\n$game_concept_strong_hooks$ son mucho más poderosos que [weak_hooks|E] y pueden obligar a alguien a hacer cosas terribles por ti, como convertirse en tu [agent|E] en un [GetScheme('murder').GetTypeName] #weak  (¡además de todo lo que puede hacer un $game_concept_weak_hook$!) #!\n\nA $game_concept_strong_hook$ también evita que el objetivo realice acciones hostiles hacia el portador.\n\n$game_concept_strong_hooks$ no se gastan cuando se usan, sino que se enfrían antes de que se puedan volver a usar. El efecto pasivo no se pierde cuando se usa el gancho." #NT!
  game_concept_favor:0 "Favor" #NT!
  game_concept_favors:0 "Favores" #NT!
  game_concept_favor_desc:0 "Los personajes pueden deberse $game_concept_favors$, que se considera un tipo de [hook|E].\n\nLos favores se pueden obtener de muchas maneras, pero a menudo a través de varios eventos programados. Cada hijo nacido de un [noble|E] [house|E] también le debe un Favor inicial al [house_head|E]." #NT!
@@ -1348,8 +1348,8 @@
 
  game_concept_ward:0 "Pabellón" #NT!
  game_concept_wards:0 "Barrios" #NT!
- game_concept_ward_possessive:0 "Ward's" #NT!
- game_concept_wards_possessive:0 "Wards'" #NT!
+ game_concept_ward_possessive:0 "Protegido" #NT!
+ game_concept_wards_possessive:0 "Protegidos'" #NT!
  game_concept_ward_desc:0 "Un $game_concept_ward$ es un [child|E] siendo [educated|E] por un [guardian|E]. Cada $game_concept_guardian$ puede manejar hasta dos $game_concept_wards$." #NT!
 
  game_concept_mentor:0 "Mentor" #NT!
@@ -1552,8 +1552,8 @@
  game_concept_highlighted_text_example:0 "¡Limpio!" #NT!
  game_concept_highlighted_text_example_desc:0 "¡Buen trabajo!" #NT!
 
- #game_concept_camera:0 "" Delete this
- #game_concept_camera_desc:2 "" Delete this
+ #game_concept_camera:0 " Delete this
+ #game_concept_camera_desc:2 " Delete this
 
  game_concept_detail_zoom:1 "$ZOOM_LEVEL_DETAILS$" #NT!
  game_concept_detail_zoom_desc:1 "$ZOOM_LEVEL_DETAILS_TOOLTIP$" #NT!
@@ -1561,8 +1561,8 @@
  game_concept_political_zoom_desc:0 "$ZOOM_LEVEL_POLITICAL_TOOLTIP$" #NT!
  game_concept_paper_zoom:0 "$ZOOM_LEVEL_PAPER_MAP$" #NT!
  game_concept_paper_zoom_desc:0 "$ZOOM_LEVEL_PAPER_MAP_TOOLTIP$" #NT!
- #game_concept_world_realms_zoom:0 ""  Delete this
- #game_concept_world_realms_zoom_desc:0 ""  Delete this
+ #game_concept_world_realms_zoom:0 "  Delete this
+ #game_concept_world_realms_zoom_desc:0 "  Delete this
 
  game_concept_tutorial_education_trait:0 "Rasgo educativo" #NT!
  game_concept_tutorial_education_trait_i:0 "@tutorial_education_trait_icon!" #NT!

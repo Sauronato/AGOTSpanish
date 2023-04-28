@@ -28,7 +28,7 @@
  tenet_pacifism_name:0 "Pacifismo" #NT!
  tenet_pacifism_desc:0 "La violencia es un acto abominable que solo conduce al sufrimiento, al dolor y al arrepentimiento. Al trabajar para evitarlo siempre que sea posible, podemos construir sociedades más fuertes y seguras para que vivan los fieles." #NT!
  doctrine_parameter_holy_wars_forbidden:0 "No se puede declarar [holy_wars|E] o [raid|E]" #NT!
- doctrine_parameter_pacifist_opinion_active:0 ""
+ doctrine_parameter_pacifist_opinion_active:0 "
  pacifist_opinion_active_opinion_name:0 "Compañero pacifista" #NT!
  pacifist_opinion_active_county_opinion_name:0 "Compañeros del condado pacifista" #NT!
  doctrine_parameter_opinion_of_pacifist_opinion_active:0 "[opinion|E] de otros pacifistas: $VALUE|+=0$" #NT!
@@ -66,7 +66,7 @@
  tenet_gnosticism_name:0 "Gnosticismo" #NT!
  tenet_gnosticism_desc:0 "A través del conocimiento, la chispa divina que descansa dentro de todos los humanos puede ser liberada y devuelta a su fuente celestial en el reino espiritual." #NT!
  doctrine_parameter_hostility_override_tenet_gnosticism:3 "Considera que otros [faiths|E] gnósticos y dualistas son [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_hostile_tooltippable$ o $hostility_evil_tooltippable$" #NT!
- doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith:0 ""
+ doctrine_parameter_hostility_override_special_doctrine_is_gnostic_faith:0 "
  doctrine_parameter_granting_titles_gives_stress:0 "Regalar [titles|E] alivia una cantidad proporcional de [stress|E]" #NT!
 
  tenet_mendicant_preachers_name:0 "Predicadores mendicantes" #NT!
@@ -109,7 +109,7 @@
  doctrine_parameter_maintains_head_of_faith_on_creation:0 "El nuevo [faiths|E] mantiene su antiguo [head_of_faith|E] en la creación" #NT!
  doctrine_parameter_ecumenical_christians_keep_ecumenism:0 "[GetPlayer.Custom('GetRiteEcumenismFullOrEmpty')]" #NT!
  GetRiteEcumenismFullOrEmpty_full:0 "Christian [faiths|E] con [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] manténgalo en la creación" #NT!
- GetRiteEcumenismFullOrEmpty_empty:0 ""
+ GetRiteEcumenismFullOrEmpty_empty:0 "
 
  #Muslim Tenets
  tenet_struggle_submission_name:0 "Lucha y Sumisión" #NT!
@@ -217,7 +217,7 @@
  tenet_sanctity_of_nature_name:0 "Santidad de la naturaleza" #NT!
  tenet_sanctity_of_nature_desc:1 "El mundo natural es la creación de lo divino, y nosotros somos simplemente invitados en él. Debemos respetar y honrar cada árbol, cada animal, e incluso el suelo mismo." #NT!
  # This parameter does nothing; it's just here to flag the tenet's nature silently so we can reference it without directly tagging the tenet.
- doctrine_parameter_believes_in_harmony_with_nature_invisible:0 ""
+ doctrine_parameter_believes_in_harmony_with_nature_invisible:0 "
 
  tenet_mystical_birthright_name:0 "Primogenitura auspiciosa" #NT!
  tenet_mystical_birthright_alternate:0 "Taltos Születés" #NT!
@@ -265,34 +265,34 @@
  doctrine_parameter_is_eastern_faith_bilateral_loc_override:0 "Considera [faiths|E] oriental, y $game_concept_faiths$ oriental lo considera, como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_hostility_override_special_doctrine_is_eastern_faith:0 "Considera [faiths|E] oriental, y $game_concept_faiths$ oriental lo considera, como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_eastern_syncretic_actor_opinion_active:0 "Bono [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] mutuo con [faiths|E] oriental" #NT!
- doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_opinion_of_eastern_syncretic_recipient_opinion_active:0 "
  doctrine_parameter_eastern_syncretic_recipient_opinion_active:0 "Bono mutuo [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con [faiths|E] que tienen el $tenet_eastern_syncretism_name$ [core_tenet|E]" #NT!
- doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 ""
+ doctrine_parameter_opinion_of_eastern_syncretic_actor_opinion_active:0 "
 
  tenet_unreformed_syncretism_name:0 "Tradiciones populares sincréticas" #NT!
  tenet_unreformed_syncretism_desc:0 "¿Quiénes somos nosotros para decirles a otros que sus tradiciones son falsas? No es nuestro lugar darles una conferencia sobre las costumbres que han practicado durante siglos: en cambio, debemos aprender en silencio sobre sus formas." #NT!
  doctrine_parameter_hostility_override_unreformed_faith_doctrine:2 "Considera [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E], y [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseNameNoTooltip] $game_concept_faiths$ lo considera como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_hostility_override_west_african_unreformed_faith_doctrine:0 "Considera [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseName] [faiths|E] africano, y [GetFaithDoctrine('west_african_unreformed_faith_doctrine').GetBaseNameNoTooltip] $game_concept_faiths$ africano lo considera como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_unreformed_syncretic_actor_opinion_active:2 "Bono mutuo [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [faiths|E]" #NT!
- doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_opinion_of_unreformed_syncretic_recipient_opinion_active:0 "
  doctrine_parameter_unreformed_syncretic_recipient_opinion_active:1 "Bonificación mutua de [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con [faiths|E] que tienen $tenet_unreformed_syncretism_name$ [core_tenet|E]" #NT!
- doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 ""
+ doctrine_parameter_opinion_of_unreformed_syncretic_actor_opinion_active:0 "
  doctrine_parameter_unreformed_syncretic_conversion_malus_active:0 "La velocidad base de conversión de religiones sincretizadas se reduce en [EmptyScope.ScriptValue('conversion_syncretic_with_religion_malus_efficancy_procentage')|-0%]" #NT!
 
  tenet_christian_syncretism_name:0 "Sincretismo cristiano" #NT!
  tenet_christian_syncretism_desc:0 "Jesús de Nazaret puede no haber sido una verdadera divinidad, pero aun así fue una figura virtuosa y erguida. Debemos honrar y respetar sus enseñanzas." #NT!
  #This is deliberately left blank. It should not be deleted or filled in: such will break the loc.
- doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:1 ""
+ doctrine_parameter_hostility_override_special_doctrine_is_christian_faith:1 "
  #Instead, add these doctrine parameters to appropriate tenets (presently Christian Syncretism & Pastoral Isolation).
  doctrine_parameter_is_christian_faith_bilateral_loc_override:2 "Considera a Christian [faiths|E], y Christian $game_concept_faiths$ lo considera, como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_is_christian_faith_pastoral_isolation_loc_override:1 "Siempre considera que otro cristiano [faiths|E] es [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V], independientemente de las diferencias doctrinales." #NT!
  doctrine_parameter_can_use_christian_artefacts:0 "Puede usar Christian [artifacts|E] con todas sus ventajas" #NT!
  doctrine_parameter_christian_syncretic_actor_opinion_active:1 "Bono mutuo [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con Christian [faiths|E]" #NT!
- doctrine_parameter_opinion_of_christian_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_opinion_of_christian_syncretic_recipient_opinion_active:0 "
  doctrine_parameter_christian_syncretic_recipient_opinion_active:1 "Bono mutuo [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con [faiths|E] que tienen el $tenet_christian_syncretism_name$ [core_tenet|E]" #NT!
- doctrine_parameter_opinion_of_christian_syncretic_actor_opinion_active:0 ""
- doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_felicitous_doctrine:0 ""
- doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_radical_doctrine:0 ""
+ doctrine_parameter_opinion_of_christian_syncretic_actor_opinion_active:0 "
+ doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_felicitous_doctrine:0 "
+ doctrine_parameter_hostility_override_special_doctrine_adoptionist_school_radical_doctrine:0 "
  doctrine_parameter_adoptionists_like_ecumenism:0 "Considera $christianity_religion_adj$ [faiths|E] con [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] como $hostility_astray_tooltippable$ en lugar de $hostility_hostile_tooltippable$" #NT!
  doctrine_parameter_adoptionists_are_unilateral_hostile:0 "Otros $christianity_religion_adj$ [faiths|E] solo los consideran $hostility_hostile_tooltippable$, mientras que los $adoptionist_adherent_plural$ menos refinados se consideran $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_adoptionists_are_unilateral_evil:0 "Otros $christianity_religion_adj$ [faiths|E] considerarlos $hostility_evil_tooltippable$" #NT!
@@ -305,18 +305,18 @@
  doctrine_parameter_hostility_override_special_doctrine_is_islamic_faith:2 "Considera [faiths|E] islámico y $game_concept_faiths$ islámico lo considera [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_can_use_islamic_artefacts:0 "Puede usar [artifacts|E] islámico con todas las ventajas" #NT!
  doctrine_parameter_islamic_syncretic_actor_opinion_active:1 "Bono [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] mutuo con [faiths|E] islámico" #NT!
- doctrine_parameter_opinion_of_islamic_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_opinion_of_islamic_syncretic_recipient_opinion_active:0 "
  doctrine_parameter_islamic_syncretic_recipient_opinion_active:1 "Bono mutuo [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con [faiths|E] que tienen el $tenet_islamic_syncretism_name$ [core_tenet|E]" #NT!
- doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active:0 ""
+ doctrine_parameter_opinion_of_islamic_syncretic_actor_opinion_active:0 "
 
  tenet_jewish_syncretism_name:0 "Sincretismo judío" #NT!
  tenet_jewish_syncretism_desc:0 "Aunque no estamos de acuerdo con sus afirmaciones sobre el pueblo elegido de Dios, la sabiduría de la Torá judía es innegable y hay mucho que aprender del texto." #NT!
  doctrine_parameter_hostility_override_special_doctrine_is_jewish_faith:2 "Considera [faiths|E] judío, y $game_concept_faiths$ judío lo considera, como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
  doctrine_parameter_can_use_jewish_artefacts:0 "Puede usar [artifacts|E] judío con el máximo beneficio" #NT!
  doctrine_parameter_jewish_syncretic_actor_opinion_active:1 "Bono [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] mutuo con [faiths|E] judío" #NT!
- doctrine_parameter_opinion_of_jewish_syncretic_recipient_opinion_active:0 ""
+ doctrine_parameter_opinion_of_jewish_syncretic_recipient_opinion_active:0 "
  doctrine_parameter_jewish_syncretic_recipient_opinion_active:1 "Bono mutuo [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] con [faiths|E] que tienen el $tenet_jewish_syncretism_name$ [core_tenet|E]" #NT!
- doctrine_parameter_opinion_of_jewish_syncretic_actor_opinion_active:0 ""
+ doctrine_parameter_opinion_of_jewish_syncretic_actor_opinion_active:0 "
 
  # Additional Tenets
  tenet_ritual_cannibalism_name:0 "Canibalismo ritual" #NT!

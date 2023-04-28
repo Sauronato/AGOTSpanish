@@ -54,10 +54,10 @@
  stress_threshold.1502.t:0 "Descanso Mental: Resentimiento" #NT!
  stress_threshold.1502.intro.desc:0 "¿Por qué siempre debo hacer todo yo mismo? ¿Cómo se puede esperar que gobierne sobre [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] cuando la mitad de mis sirvientes son incapaces de seguir mis órdenes y la otra mitad ni siquiera las entiende?" #NT!
  stress_threshold.1502.courtier.desc:0 "\n\n[scoped_courtier.GetFirstName], en particular, se ha vuelto insoportable recientemente. Apenas puedo soportar escuchar mi parloteo incesante de [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('scoped_courtier'))]." #NT!
- stress_threshold.1502.nocourtier.desc:0 ""
+ stress_threshold.1502.nocourtier.desc:0 "
  stress_threshold.1502.a:0 "¡No eres más que un [scoped_courtier.Custom('InsultAdjective')] [scoped_courtier.Custom('InsultNoun')]!" #NT!
  stress_threshold.1502.b:0 "¡Carcelero! ¡Tráeme otro prisionero!" #NT!
- stress_threshold.1502.c:0 ""¿Por qué todos ustedes deben ser incompetentes #EMP idiots#!!?"" #NT!
+ stress_threshold.1502.c:0 "¿Por qué todos ustedes deben ser incompetentes #EMP idiots#!!?" #NT!
  stress_threshold.1502.d:0 "Una visita a la mazmorra me aclarará la cabeza..." #NT!
  stress_threshold.1502.e:0 "Solo tendré que aguantar." #NT!
  stress_threshold.1502.f:0 "¿Quizás si llevara un diario de mis desgracias?" #NT!
@@ -97,8 +97,8 @@
  stress_threshold.1601.reclusive.effect:0 "Siempre puedo enfocar mis pensamientos cuando estoy solo..." #NT!
  stress_threshold.1601.irritable.gain:0 "Tal vez podría pensar si todos pudieran #EMP estar callados#!!" #NT!
  stress_threshold.1601.irritable.effect:0 "Les diré a todos que #EMP se callen#!!" #NT!
- stress_threshold.1601.confider.gain:0 ""¡[friend.GetFirstName], amigo mío, ayúdame a ordenar mis pensamientos!"" #NT!
- stress_threshold.1601.confider.effect:0 ""¡[friend.GetFirstName], por favor escúchame como siempre lo haces!"" #NT!
+ stress_threshold.1601.confider.gain:0 "¡[friend.GetFirstName], amigo mío, ayúdame a ordenar mis pensamientos!" #NT!
+ stress_threshold.1601.confider.effect:0 "¡[friend.GetFirstName], por favor escúchame como siempre lo haces!" #NT!
  stress_threshold.1601.athletic.gain:0 "He oído que un cuerpo sano engendra una mente sana..." #NT!
  stress_threshold.1601.athletic.effect:0 "¡Nunca estoy más tranquilo que después de un poco de ejercicio!" #NT!
  stress_threshold.1601.contrite.gain:0 "Aclararé mi mente al confesar mis fechorías." #NT!
@@ -163,12 +163,12 @@
  stress_threshold.2101.endure:0 "Tal vez todo esto está en mi cabeza..." #NT!
 
  stress_threshold.2201.t:0 "Descanso mental: ira hirviendo" #NT!
- stress_threshold.2201.desc.insult:0 ""¡Puedes ser un [character_to_yell_at.GetTitleAsName], pero también eres [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!"\n\n" #NT!
+ stress_threshold.2201.desc.insult:0 "¡Puedes ser un [character_to_yell_at.GetTitleAsName], pero también eres [character_to_yell_at.Custom('InsultAdjectiveArticle')] [character_to_yell_at.Custom('InsultNoun')]!"\n\n" #NT!
  stress_threshold.2201.desc:0 "Vacilo tan pronto como veo la mirada en mi rostro de [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('character_to_yell_at'))], pero... Me siento tan #EMP enojado#! todo el tiempo, y todos provocan mi ira–\n\n" #NT!
- stress_threshold.2201.desc_liege:0 ""¡¿Qué te pasa, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Este comportamiento es inaceptable." #NT!
- stress_threshold.2201.desc_vassal:0 ""Mi Lord, ¿cuál es el significado de este comportamiento?" #NT!
- stress_threshold.2201.desc.calm:0 "Y por lo general eres tan tranquilo..."" #NT!
- stress_threshold.2201.desc.ending:0 """
+ stress_threshold.2201.desc_liege:0 "¡¿Qué te pasa, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Este comportamiento es inaceptable." #NT!
+ stress_threshold.2201.desc_vassal:0 "Mi Lord, ¿cuál es el significado de este comportamiento?" #NT!
+ stress_threshold.2201.desc.calm:0 "Y por lo general eres tan tranquilo..." #NT!
+ stress_threshold.2201.desc.ending:0 ""
  stress_threshold.2201.a:0 "¡Escuchaste lo que dije!" #NT!
  stress_threshold.2201.save:0 "Dime, ¿cómo responderías a tal ataque?" #NT!
  stress_threshold.2201.save_tt:0 "Pretendo que solo estoy probando [character_to_yell_at.GetHerHim]" #NT!
@@ -182,7 +182,7 @@
  stress_threshold.2202.desc:0 "[stress_character.GetSheHe|U] ha estado bajo mucho estrés últimamente, pero" #NT!
  stress_threshold.2202.desc.rival:0 "Cuando se le pidió que explicara [stress_character.GetHerselfHimself] [stress_character.GetSheHe] solo duplicó los insultos." #NT!
  stress_threshold.2202.desc.other:0 "Comportarse así..." #NT!
- stress_threshold.2202.a:0 "Daré lo mejor que reciba. "¡[stress_character.Custom('InsultNoun')|U]!"" #NT!
+ stress_threshold.2202.a:0 "Daré lo mejor que reciba. "¡[stress_character.Custom('InsultNoun')|U]!" #NT!
  stress_threshold.2202.b:0 "Que incluso [stress_character.GetSheHe] tenga problemas... Es tranquilizador." #NT!
 
  # Level 3 Stress Events
@@ -204,9 +204,9 @@
  stress_threshold.3201.desc:0 "Es demasiado, ¿de qué sirve siquiera intentarlo?\n\nEstamos en medio de una cena cuando todo... se desmorona. Tengo que revisar nuevos registros de [county.GetNameNoTierNoTooltip], tengo que resolver una docena de disputas locales, tengo que-\n\n"¿Estás bien, mi Lord?" Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('vassal'))] [vassal.GetTitledFirstName] expresa con cautela la preocupación de [vassal.GetHerHis]." #NT!
  stress_threshold.3201.depressed.gain:0 "¿Que importa? Me rindo." #NT!
  stress_threshold.3201.depressed.effect:0 "De todos modos, todo es inútil..." #NT!
- stress_threshold.3201.help:0 ""[vassal.GetFirstNameNoTooltip]... Por favor, ayúdame"." #NT!
- stress_threshold.3201.wrathful.gain:0 ""¡No, tú [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')], yo soy #EMP no#! bien!"" #NT!
- stress_threshold.3201.wrathful.effect:0 ""¡Te mostraré quién es #EMP bien#!, tú [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')]!"" #NT!
+ stress_threshold.3201.help:0 "[vassal.GetFirstNameNoTooltip]... Por favor, ayúdame"." #NT!
+ stress_threshold.3201.wrathful.gain:0 "¡No, tú [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')], yo soy #EMP no#! bien!" #NT!
+ stress_threshold.3201.wrathful.effect:0 "¡Te mostraré quién es #EMP bien#!, tú [vassal.Custom('InsultAdjective')] [vassal.Custom('InsultNoun')]!" #NT!
  stress_threshold.3201.wrathful.effect.success:0 "Golpeaste a [vassal.GetTitledFirstName]" #NT!
  stress_threshold.3201.wrathful.effect.failure:0 "[vassal.GetTitledFirstName] te rechaza" #NT!
 
