@@ -75,7 +75,7 @@
 # Tax Revolt in Frontier Province, hold_court.7040
  hold_court.7040.title:0 "Fracas fronterizas" #NT!
  hold_court.7040.desc:1 "El siguiente peticionario es evidentemente un poco extraño en este tribunal, ya que no reconozco a [frontier_leader.GetHerHim], y los ojos de [marshal.GetCouncilTitle] [marshal.GetFirstName] han estado sobre ellos desde que entraron por primera vez.\n\n"[ROOT.Char.Custom2('RelationToMeAddress', frontier_leader)], tengo que venir a declarar que el la gente de [frontier_county.GetNameNoTier] se niega a pagar los impuestos que nos ha impuesto. En tiempos pasados, a nuestra tierra y a nuestra gente se les otorgaron derechos y privilegios que sus exacciones recientes ignoran. Le solicitamos que aborde nuestras preocupaciones de manera justa, o de lo contrario"." #NT!
- hold_court.7040.a:0 ""¡Encarcelad a este desgraciado [marshal.GetCouncilTitle] y luego aplastad a la chusma!"" #NT!
+ hold_court.7040.a:0 "¡Encarcelad a este desgraciado [marshal.GetCouncilTitle] y luego aplastad a la chusma!" #NT!
  hold_court.7040.a.win:0 "Los campesinos advenedizos son derrotados" #NT!
  hold_court.7040.a.win.title:0 "Revuelta fiscal aplastada" #NT!
  hold_court.7040.a.lose:0 "[marshal.GetCouncilTitle] [marshal.GetFirstName] no pudo derrotar a la chusma" #NT!
@@ -85,12 +85,12 @@
  hold_court.7040.b.win.title:0 "Líderes de la revuelta fiscal emboscados y asesinados" #NT!
  hold_court.7040.b.lose:0 "Los líderes de la revuelta fiscal vieron a través de tu farol" #NT!
  hold_court.7040.b.lose.title:0 "Los líderes de la revuelta fiscal escaparon" #NT!
- hold_court.7040.c:1 ""Estoy dispuesto a escucharte, [frontier_leader.GetNameNoTooltip]"." #NT!
+ hold_court.7040.c:1 "Estoy dispuesto a escucharte, [frontier_leader.GetNameNoTooltip]"." #NT!
  hold_court.7040.c.win:0 "Negocias hábilmente con los líderes de la revuelta fiscal, demostrando tu justicia y ecuanimidad." #NT!
  hold_court.7040.c.win.title:0 "Líderes de la revuelta fiscal pacificados" #NT!
  hold_court.7040.c.lose:0 "Los líderes de esta revuelta fiscal no están convencidos y se niegan a negociar" #NT!
  hold_court.7040.c.lose.title:0 "Los líderes de la revuelta fiscal no están convencidos" #NT!
- hold_court.7040.d:0 ""Me parece que puede estar malinterpretando algunas cartas"." #NT!
+ hold_court.7040.d:0 "Me parece que puede estar malinterpretando algunas cartas"." #NT!
  hold_court.7040.d.win:0 "Demuestra con éxito que los líderes de esta revuelta fiscal simplemente han malinterpretado una ley antigua y por lo tanto su denuncia es inmerecida" #NT!
  hold_court.7040.d.win.title:0 "La revuelta fiscal se desvanece" #NT!
  hold_court.7040.d.lose:0 "Los líderes de la revuelta fiscal no se dejan engañar por sus libros y conocimientos." #NT!
@@ -114,22 +114,22 @@
 # Cinderella
  hold_court.7060.title:0 "¿Quién es ese?" #NT!
  hold_court.7060.desc:0 "A lo largo del [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], se sabe que seguramente debo llevar a [ROOT.Char.Custom('GetReverseWifeHusband')] para que gobierne junto a mí, y así debo sufrir las proposiciones que me ofrecen los hijos de mis vasallos, cuyo único delito es querer complacer a sus padres. Una de esas peticiones ahora tiene mi atención, ya que [vassal.GetName] presenta [vassal.GetHerHis] [vassal_spouse.Custom('GetDaughterSon')] ante mí. Aunque [vassal_spouse.GetName] es claramente [vassal_spouse.Custom('GetNotableCharacteristic')], encuentro mis ojos irresistiblemente atraídos hacia un [cinderella.GetWomanMan] desconocido en la parte trasera de la cancha, cuya belleza es tal que podría confundirlo con [cinderella.Custom('GetBeautifulMetaphor')]. Un aviso de [vassal.GetTitledFirstName] me saca de mi ensimismamiento: [ROOT.Char.Custom('GetReverseWifeHusband')]0 espera una respuesta a la propuesta de [vassal_spouse.Custom('GetDaughterSon')]." #NT!
- hold_court.7060.a:0 ""Tu [vassal_spouse.Custom('GetNotableCharacteristic')] [vassal_spouse.Custom('GetDaughterSon')] es bienvenido a quedarse un rato, [vassal.GetTitledFirstName]"." #NT!
+ hold_court.7060.a:0 "Tu [vassal_spouse.Custom('GetNotableCharacteristic')] [vassal_spouse.Custom('GetDaughterSon')] es bienvenido a quedarse un rato, [vassal.GetTitledFirstName]"." #NT!
  hold_court.7060.a.tt:1 "#X Cualquier [personal_scheme|E] en curso que tengas será abandonado, cuando comiences a cortejar a [vassal_spouse.GetName]#!" #NT!
- hold_court.7060.b:0 ""¡Debo saber quién es!"" #NT!
+ hold_court.7060.b:0 "¡Debo saber quién es!" #NT!
  hold_court.7060.b.tt:1 "Ignoras la propuesta de [vassal_spouse.GetName] y buscas al desconocido [cinderella.GetWomanMan]. #X Tu enamoramiento es tan fuerte que te vuelves incapaz de pensar en otra cosa, lo que provoca que todo [schemes|E] en curso sea abandonado.#!" #NT!
- hold_court.7060.c:0 ""Acepto tu propuesta, mi [vassal_spouse.Custom('GetNotableCharacteristic')] [vassal_spouse.GetLadyLord]"." #NT!
+ hold_court.7060.c:0 "Acepto tu propuesta, mi [vassal_spouse.Custom('GetNotableCharacteristic')] [vassal_spouse.GetLadyLord]"." #NT!
  hold_court.7060.c.tt:0 "Olvídate del desconocido [cinderella.GetWomanMan] y haz una buena combinación con [vassal_spouse.GetName]." #NT!
- hold_court.7060.d:1 ""¡Toda esta actuación me está volviendo loco, vete!"" #NT!
+ hold_court.7060.d:1 "¡Toda esta actuación me está volviendo loco, vete!" #NT!
 # Tithe Barn suffers a theft, hold_court.7070
  hold_court.7070.title:0 "En diezmos de problemas" #NT!
  hold_court.7070.desc:0 "El siguiente peticionario es [irritated_bishop.GetName], que ha venido a mi corte con dos guardias, arrastrando un [hapless_thief.GetWomanMan] entre ellos. [irritated_bishop.GetTitledFirstNameNoTooltip] me cuenta sobre un intento fallido del prisionero de robar de uno de los graneros de diezmos en [irritated_bishop.GetPrimaryTitle.GetName].\n\n "Normalmente, este asunto se habría resuelto localmente [ROOT.Char.Custom2('RelationToMeAddress', irritated_bishop)], pero este ladrón insistió en el derecho de [hapless_thief.GetHerHis] de apelar a usted directamente ."\n\nMiro hacia el prisionero y le hago un gesto a [hapless_thief.GetHerHim] para que proceda. "¡Sé que me equivoqué [ROOT.Char.GetLadyLord], pero nos estamos muriendo de hambre y [irritated_bishop.GetTitledFirstNameNoTooltip] nos quita demasiado!" #NT!
- hold_court.7070.a:0 ""El robo está mal, pero también lo está la extorsión"." #NT!
+ hold_court.7070.a:0 "El robo está mal, pero también lo está la extorsión"." #NT!
  hold_court.7070.a.tt:0 "Ponte del lado del campesinado y deja ir a [hapless_thief.GetFirstNameNoTooltip]." #NT!
- hold_court.7070.b:0 ""¡La Iglesia no puede ser socavada!"" #NT!
+ hold_court.7070.b:0 "¡La Iglesia no puede ser socavada!" #NT!
  hold_court.7070.b.tt:0 "Ponte del lado de [irritated_bishop.GetTitledFirstNameNoTooltip] y castiga al ladrón." #NT!
- hold_court.7070.c:0 ""¿No se supone que la Iglesia debe alimentar a los pobres?"" #NT!
+ hold_court.7070.c:0 "¿No se supone que la Iglesia debe alimentar a los pobres?" #NT!
  hold_court.7070.c.tt:0 "Entrega el granero de diezmos en [tithe_province.GetNameNoTooltip] a los campesinos." #NT!
- hold_court.7070.d:0 ""Un ladrón es un ladrón, los detalles no me interesan"." #NT!
- hold_court.7070.e:0 ""¿La Iglesia está cobrando impuestos a MI pueblo ahora?"" #NT!
+ hold_court.7070.d:0 "Un ladrón es un ladrón, los detalles no me interesan"." #NT!
+ hold_court.7070.e:0 "¿La Iglesia está cobrando impuestos a MI pueblo ahora?" #NT!
  hold_court.7070.e.tt:0 "Sugiera que podría ponerse del lado de [irritated_bishop.GetTitledFirstNameNoTooltip] si [irritated_bishop.GetSheHe] estuviera dispuesto a dividir las ganancias con usted." #NT!

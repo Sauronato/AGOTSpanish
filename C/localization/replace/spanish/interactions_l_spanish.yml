@@ -23,8 +23,8 @@
  ANSWER_WILL_NOT_ACCEPT:2 "¡#T @cross_icon! ¡[CHARACTER.GetSheHe|U] no aceptará! #!" #NT!
  ANSWER_REASON_AUTO_ACCEPT:1 "Va a aceptar" #NT!
  ANSWER_REASON_AUTO_ACCEPT_ME:0 "Creo que esta es una buena decisión." #NT!
- YESMEN_ANSWER_DESC:0 "Será aceptado por el truco "yesmen"" #NT!
- NOMEN_ANSWER_DESC:0 "Será rechazado por el truco "nomen"" #NT!
+ YESMEN_ANSWER_DESC:0 "Será aceptado por el truco "yesmen" #NT!
+ NOMEN_ANSWER_DESC:0 "Será rechazado por el truco "nomen" #NT!
  BASE_RELUCTANCE:0 "Renuencia: $VALUE|+0$" #NT!
  INTERACTION_COST:0 "Costo:" #NT!
  start_spying:0 "Espiar #weak (Esquema)#!" #NT!
@@ -135,7 +135,7 @@
  CONCUBINE_PROMPT_SOMEONE:2 "#I Elige a alguien para tomar como [concubine|E]#!" #NT!
  CONCUBINE_PROMPT_CHARACTER:1 "#I Tomar [CHARACTER.GetShortUIName] como [concubine|E]#!" #NT!
  offer_concubine:1 "Oferta Concubina" #NT!
- offer_concubine_desc:1 "Ofrecer un [concubine|E] a [recipient.GetShortUINameNoTooltip]" #NT!
+ offer_concubine_desc:1 "Ofrecer una [concubine|E] a [recipient.GetShortUINameNoTooltip]" #NT!
  OFFER_CONCUBINE_NOTIFICATION:1 "Creo que [secondary_actor.GetShortUIName] te serviría bien como [concubine|E]. ¿Dejarás que [secondary_actor.GetHerHim] entre en tu cama?" #NT!
  actor_secondary_offer_concubine:0 "Concubina" #NT!
  dismiss_concubine_interaction:1 "descartar concubina" #NT!
@@ -197,7 +197,7 @@
  educate_child_interaction_notification:0 "Educar niño" #NT!
 
 
- offer_ward_interaction:0 "Oferta Ward" #NT!
+ offer_ward_interaction:0 "Ofrecer Guardián" #NT!
  offer_ward_interaction_desc:0 "Ofrecer [recipient.GetShortUIName] a [ward|E], haciendo [recipient.GetHerHim], o alguien en [recipient.GetHerHis] [court|E], el [guardian|E] del niño elegido" #NT!
  offer_ward_interaction_extra_icon:0 "$hook_extra_icon$" #NT!
  actor_secondary_offer_ward_interaction:0 "Pabellón" #NT!
@@ -294,7 +294,7 @@
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_VASSAL:1 "Como consideras que [recipient.GetFaith.GetAdherentNamePlural] es $hostility_evil_tooltippable$, puedes revocar a los vasallos de [recipient.GetShortUINamePossessive] sin que te vean como un tirano." #NT!
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_VASSAL:1 "Como consideras que [recipient.GetFaith.GetAdherentNamePlural] es $hostility_hostile_tooltippable$, puedes revocar a los vasallos de [recipient.GetShortUINamePossessive] sin que te vean como un tirano." #NT!
  INFIDEL_REVOCATION_OPINION:0 "Cada vasallo de [recipient.GetFaith.GetAdjective]" #NT!
- #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only""
+ #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only"
  IS_ALLOWED_TO_REVOKE_TITLE_BARONY_DESC:0 "Revocar [baronies|E] no incurre en [tyranny|E]" #NT!
  IMPRISONMENT_RELATIVES_EFFECT_DUNGEON:1 "Todo [THIS.GetCharacter.GetShortUINamePossessive] [family|E] pierde #N 30#! [opinion|E] de [imprisoner.GetShortUIName]" #NT!
  IMPRISONMENT_RELATIVES_EFFECT_HOUSE_ARREST:1 "Todo [THIS.GetCharacter.GetShortUINamePossessive] [family|E] pierde #N 15#! [opinion|E] de [imprisoner.GetShortUIName]" #NT!
@@ -1143,7 +1143,7 @@
  AI_YOU_ARE_THE_DYNAST:1 "Eres [recipient.GetHerHis] [dynast|E]: $VALUE|=+0$" #NT!
  AI_YOU_ARE_THE_HOUSE_HEAD:1 "Eres [recipient.GetHerHis] [house_head|E]: $VALUE|=+0$" #NT!
  is_not_wandering_child:1 "es un niño no relacionado" #NT!
- AI_WANDERLUST:0 ""No puedes decirme qué hacer, #EMP [actor.GetMotherFather].": $VALUE|=+0$" #NT!
+ AI_WANDERLUST:0 "No puedes decirme qué hacer, #EMP [actor.GetMotherFather].": $VALUE|=+0$" #NT!
  AI_COURT_LODGING_STANDARDS_QUALITY:1 "Tu $court_lodging_standards$: $VALUE|=+0$" #NT!
  AI_LIEGE_COURT_LODGING_STANDARDS_QUALITY:0 "[liege|E] $court_lodging_standards$: $VALUE|=+0$" #NT!
  AI_CAN_BE_PERSUADED_TO_STAY:0 "Se puede persuadir a vagabundo sin hogar para que se quede: $VALUE|=+0$" #NT!
@@ -1470,11 +1470,11 @@
  court_amenities_interactions.0001.t:0 "Acusado de violar la ley suntuaria!" #NT!
  court_amenities_interactions.0001.desc_intro:1 "Mientras deambulo por los pasillos de [debate_locale.GetNameNoTierNoTooltip] vestido como de costumbre, ¡protarg_1 me detiene repentinamente en medio de la sala del trono! [actor.GetNameNoTooltip] presiona con fuerza el dedo de [actor.GetHerHis] contra mi pecho." #NT!
  court_amenities_interactions.0001.desc_byzantine:0 "“¿Por qué supones que es aceptable que te vistas de púrpura? ¡Solo mi familia y yo tenemos ese honor! ¡Quítalo de una vez!”" #NT!
- court_amenities_interactions.0001.desc_court_position:0 ""¿Llamas a eso un atuendo digno de un [recipient.GetTitleAsNameNoTooltip]? ¡Pareces un tonto! ¡Desnúdate de esta instancia o me veré obligado a llamar a los guardias!"" #NT!
- court_amenities_interactions.0001.desc.nakey:0 ""¡Aunque celebramos el cuerpo humano en todas sus formas, lo menos que puedes hacer es cuidarte a ti mismo! ¿Cuánto tiempo ha pasado desde que visitaste las cámaras de baño?"" #NT!
- court_amenities_interactions.0001.desc:0 ""¿Quién crees que está pavoneándose con ese ridículo atuendo? ¡Esta es una corte real, no un burdel! ¡Desnúdate y usa algo más humilde, como todos los demás en la corte!"" #NT!
+ court_amenities_interactions.0001.desc_court_position:0 "¿Llamas a eso un atuendo digno de un [recipient.GetTitleAsNameNoTooltip]? ¡Pareces un tonto! ¡Desnúdate de esta instancia o me veré obligado a llamar a los guardias!" #NT!
+ court_amenities_interactions.0001.desc.nakey:0 "¡Aunque celebramos el cuerpo humano en todas sus formas, lo menos que puedes hacer es cuidarte a ti mismo! ¿Cuánto tiempo ha pasado desde que visitaste las cámaras de baño?" #NT!
+ court_amenities_interactions.0001.desc:0 "¿Quién crees que está pavoneándose con ese ridículo atuendo? ¡Esta es una corte real, no un burdel! ¡Desnúdate y usa algo más humilde, como todos los demás en la corte!" #NT!
  court_amenities_interactions.0001.desc_outro:0 "[actor.GetNameNoTooltip] me ha acusado de violar la ley suntuaria de [debate_locale.GetName] y me ha exigido que me someta al castigo con todo el peso de la ley, una mancha social y una vergüenza que probablemente no sobreviva. Obviamente, estos cargos son falsos y estoy seguro de que si argumento bien mi caso, ¡podré dar vueltas alrededor de [actor.GetFirstNameNoTooltip]! Incluso podría lograr asegurar los daños..." #NT!
- court_amenities_interactions.0001.a:0 ""¿Y qué estás usando exactamente?"" #NT!
+ court_amenities_interactions.0001.a:0 "¿Y qué estás usando exactamente?" #NT!
  court_amenities_interactions.0001.b:0 "Pagaré el precio con mi dignidad..." #NT!
  court_amenities_interactions.0001.b.tt:0 "$religious_interaction.2400.b.tt$" #NT!
  court_amenities_interactions.0002.t:0 "Un debate de moda" #NT!

@@ -1,7 +1,7 @@
 ﻿l_spanish:
  # # Stifled Commerce
  hold_court.8001.t:0 "Comercio sofocado" #NT!
- hold_court.8001.desc:0 "Un comerciante provincial da un paso al frente, claramente fuera del elemento [merchant.GetHerHis] en mis ricos salones. Hago señas, "Ven [merchant.GetWomanMan], no tenemos todo el día". \n\n"¡S-sí, mi [ROOT.Char.GetLadyLord]!", tartamudea [merchant.GetSheHe], "Soy [merchant.GetFirstName], y represento a los comerciantes y hombres libres descontentos de [town.GetNameNoTier], [town.GetDeJureLiege.GetNameNoTierPossessive], el mejor [town.GetTierAsNameNoTooltip]". \n\n"[mayor.GetFirstName], nuestro [mayor.GetTitleTierName], [merchant.GetWomanMan]0, humildemente pedimos que [merchant.GetWomanMan]1 sea reemplazado por otra persona..."" #NT!
+ hold_court.8001.desc:0 "Un comerciante provincial da un paso al frente, claramente fuera del elemento [merchant.GetHerHis] en mis ricos salones. Hago señas, "Ven [merchant.GetWomanMan], no tenemos todo el día". \n\n"¡S-sí, mi [ROOT.Char.GetLadyLord]!", tartamudea [merchant.GetSheHe], "Soy [merchant.GetFirstName], y represento a los comerciantes y hombres libres descontentos de [town.GetNameNoTier], [town.GetDeJureLiege.GetNameNoTierPossessive], el mejor [town.GetTierAsNameNoTooltip]". \n\n"[mayor.GetFirstName], nuestro [mayor.GetTitleTierName], [merchant.GetWomanMan]0, humildemente pedimos que [merchant.GetWomanMan]1 sea reemplazado por otra persona..." #NT!
  hold_court.8001.a:0 "La elección de [town.GetBaseNameNoTierPossessiveNoTooltip] se adelantará." #NT!
  hold_court.8001.b:0 "¡Muy bien, #EMP YOU#!  será el nuevo [mayor.GetTitleTierName]!" #NT!
  hold_court.8001.b.tt_success:0 "[merchant.GetFirstNameNoTooltip] pone [town.GetBaseNameNoTierNoTooltip] en orden" #NT!
@@ -31,7 +31,7 @@
  hold_court_8001_imprisoned_modifier:0 "Representante encarcelado" #NT!
  # # Frontier Lord
  hold_court.8010.t:0 "La frontera [neighboring_enemy.GetPrimaryTitle.GetAdjectiveNoTooltip]" #NT!
- hold_court.8010.desc:0 "[frontier_lord.GetTitledFirstName] se para frente a ti, [frontier_lord.GetHerHis] se pone serio con preocupación. "Mi [ROOT.Char.GetLadyLord], la amenaza de [neighboring_enemy.GetPrimaryTitle.GetNameNoTier] pesa mucho en mi mente". \n\n"[neighboring_enemy.GetTitledFirstName] se asoma al otro lado de la frontera", señala [frontier_lord.GetSheHe], "a solo unos días de las puertas de [frontier_barony.GetNameNoTierNoTooltip] y [frontier_lord.Custom('get_hold_court_8010_stake')]". \n\n"Debes ayudar a fortificar mis tierras: ¡los soldados y las fortificaciones de [frontier_lord.GetPrimaryTitle.GetAdjectiveNoTooltip] son todo lo que se interpone entre [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] y la ruina!"" #NT!
+ hold_court.8010.desc:0 "[frontier_lord.GetTitledFirstName] se para frente a ti, [frontier_lord.GetHerHis] se pone serio con preocupación. "Mi [ROOT.Char.GetLadyLord], la amenaza de [neighboring_enemy.GetPrimaryTitle.GetNameNoTier] pesa mucho en mi mente". \n\n"[neighboring_enemy.GetTitledFirstName] se asoma al otro lado de la frontera", señala [frontier_lord.GetSheHe], "a solo unos días de las puertas de [frontier_barony.GetNameNoTierNoTooltip] y [frontier_lord.Custom('get_hold_court_8010_stake')]". \n\n"Debes ayudar a fortificar mis tierras: ¡los soldados y las fortificaciones de [frontier_lord.GetPrimaryTitle.GetAdjectiveNoTooltip] son todo lo que se interpone entre [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] y la ruina!" #NT!
  hold_court.8010.a:0 "De hecho, sus responsabilidades pueden justificar privilegios..." #NT!
  hold_court.8010.b:0 "Hablas verdad, [frontier_lord.GetPrimaryTitle.GetNameNoTierNoTooltip] debe ser fortificado." #NT!
  hold_court.8010.c:0 "#EMP ¡¿Días?!#! ¡Debemos fortificar la capital!" #NT!
@@ -48,13 +48,13 @@
  hold_court_8010_vassal_modifier:0 "Cargas compartidas" #NT!
  # # Sacred Claims
  hold_court.8020.t:0 "Reclamos Sagrados" #NT!
- hold_court.8020.desc.intro:0 "[bishop.GetCouncilTitle] [bishop.GetFirstName] avanza solemnemente. "Mi [ROOT.Char.GetLadyLord], [ROOT.Char.Custom('get_hold_court_8020_holiness_1')]"" #NT!
+ hold_court.8020.desc.intro:0 "[bishop.GetCouncilTitle] [bishop.GetFirstName] avanza solemnemente. "Mi [ROOT.Char.GetLadyLord], [ROOT.Char.Custom('get_hold_court_8020_holiness_1')]" #NT!
  hold_court.8020.desc.body_pope:0 "\n\n"[pope.GetHerHis|U] santidad [pope.GetTitledFirstNameRegnal] está de acuerdo" #NT!
  hold_court.8020.desc.body_fallback:0 "\n\n"Hay acuerdo" #NT!
  hold_court.8020.desc.body_1:0 "Que [ROOT.Char.Custom('get_hold_court_8020_holiness_2')] debe ser administrado en su totalidad por [ROOT.Char.GetFaith.AltPriestTermPlural] en lugar de laicos"." #NT!
  hold_court.8020.desc.body_personal:0 "\n\n"Pasa esta tierra a" #NT!
  hold_court.8020.desc.body_vassal:0 "\n\n"[vassal.GetTitledFirstName] debe ceder la propiedad [owner.GetHerHis] en" #NT!
- hold_court.8020.desc.body_2:0 "¡[ROOT.Char.GetFaith.BishopNeuter] [candidate.GetFirstNamePossessive] cuidado, por el bien de la fe y la gloria de [ROOT.Char.GetFaith.HighGodName]!"" #NT!
+ hold_court.8020.desc.body_2:0 "¡[ROOT.Char.GetFaith.BishopNeuter] [candidate.GetFirstNamePossessive] cuidado, por el bien de la fe y la gloria de [ROOT.Char.GetFaith.HighGodName]!" #NT!
  hold_court.8020.a:0 "[ROOT.Char.Custom('get_hold_court_8020_holiness_3')]" #NT!
  hold_court.8020.b:0 "¿[ROOT.Char.GetFaith.ReligiousText] requiere esto?" #NT!
  hold_court.8020.b.tt_success:0 "Demuestras que no hay ningún requisito religioso." #NT!
@@ -80,10 +80,10 @@
  hold_court.8030.desc.intro_foreign:0 "Extranjero" #NT!
  hold_court.8030.desc.intro_fallback:0 "Detestable" #NT!
  hold_court.8030.desc.intro_2:0 "Tontos hechos para respetar [mayor_2.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
- hold_court.8030.desc.body_same_county:0 "– ¡el mejor [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip] en [mayor_2.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]!"" #NT!
- hold_court.8030.desc.body_same_duchy:0 "– ¡el [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip] líder de [mayor_2.GetPrimaryTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]!"" #NT!
- hold_court.8030.desc.body_neighbor_county:0 "– ¡el [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip] más destacado de la región!"" #NT!
- hold_court.8030.desc.body_fallback:0 "– ¡el superior [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip]!"" #NT!
+ hold_court.8030.desc.body_same_county:0 "– ¡el mejor [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip] en [mayor_2.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]!" #NT!
+ hold_court.8030.desc.body_same_duchy:0 "– ¡el [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip] líder de [mayor_2.GetPrimaryTitle.GetDeJureLiege.GetDeJureLiege.GetNameNoTier]!" #NT!
+ hold_court.8030.desc.body_neighbor_county:0 "– ¡el [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip] más destacado de la región!" #NT!
+ hold_court.8030.desc.body_fallback:0 "– ¡el superior [mayor_2.GetPrimaryTitle.GetTierAsNameNoTooltip]!" #NT!
  hold_court.8030.a:0 "...pero [mayor_1.GetPrimaryTitle.GetNameNoTierNoTooltip] #EMP es#! ¡la mejor ciudad!" #NT!
  hold_court.8030.b:0 "[mayor_2.GetPrimaryTitle.GetNameNoTierNoTooltip] es sin duda preferible." #NT!
  hold_court.8030.c:0 "¡Detendrás esta tontería! ¿Dónde comenzó?" #NT!
@@ -104,8 +104,8 @@
  # # Special Treatment
  hold_court.8040.t:0 "Tratamiento especial" #NT!
  hold_court.8040.desc:0 "El impenitente [infidel_vassal.GetTitledFirstName] te honra con la presencia de [infidel_vassal.GetHerHis]. \n\nDe forma vacilante, [infidel_vassal.GetSheHe] comienza: "Mi [ROOT.Char.GetTitleTierName], soy un súbdito leal y dispuesto, déjame practicar mi fe en paz". \n\n" #NT!
- hold_court.8040.desc.intro_same_religion:0 ""Nosotros [infidel_vassal.GetFaith.GetAdherentNamePlural] adoramos a [infidel_vassal.GetFaith.CreatorName] tal como lo hacen los [ROOT.Char.GetFaith.GetAdherentNamePlural]. Deja que tus [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('SisterBrother')] adoren como les plazca, unidos contra los malvados [ROOT.Char.Custom('GetUnbelieverNamePlural')] que siguen a los falsos demonios y permiten que [infidel_vassal.GetFaith.DevilName] corrompa sus corazones"." #NT!
- hold_court.8040.desc.intro_fallback:0 ""¿Por qué un [ROOT.Char.GetFaith.GetReligion.GetAdjective] y un [infidel_vassal.GetFaith.GetReligion.GetAdjective] no pueden vivir en armonía, separados por las enseñanzas de [ROOT.Char.GetFaith.HighGodName] y [infidel_vassal.GetFaith.HighGodName] pero unidos en la piedad? Sigamos a nuestro [infidel_vassal.GetFaith.ReligiousText] y tú a tu [ROOT.Char.GetFaith.ReligiousText] uno al lado del otro." #NT!
+ hold_court.8040.desc.intro_same_religion:0 "Nosotros [infidel_vassal.GetFaith.GetAdherentNamePlural] adoramos a [infidel_vassal.GetFaith.CreatorName] tal como lo hacen los [ROOT.Char.GetFaith.GetAdherentNamePlural]. Deja que tus [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('SisterBrother')] adoren como les plazca, unidos contra los malvados [ROOT.Char.Custom('GetUnbelieverNamePlural')] que siguen a los falsos demonios y permiten que [infidel_vassal.GetFaith.DevilName] corrompa sus corazones"." #NT!
+ hold_court.8040.desc.intro_fallback:0 "¿Por qué un [ROOT.Char.GetFaith.GetReligion.GetAdjective] y un [infidel_vassal.GetFaith.GetReligion.GetAdjective] no pueden vivir en armonía, separados por las enseñanzas de [ROOT.Char.GetFaith.HighGodName] y [infidel_vassal.GetFaith.HighGodName] pero unidos en la piedad? Sigamos a nuestro [infidel_vassal.GetFaith.ReligiousText] y tú a tu [ROOT.Char.GetFaith.ReligiousText] uno al lado del otro." #NT!
  hold_court.8040.a:0 "El juicio está reservado solo para [ROOT.Char.GetFaith.HighGodName]." #NT!
  hold_court.8040.b:0 "Ven, déjame mostrarte la palabra de [ROOT.Char.GetFaith.KnowledgeGodName]." #NT!
  hold_court.8040.c.religion:0 "¡Es hora de renunciar a [infidel_vassal.GetFaith.CreatorName] ya todas las mentiras de [infidel_vassal.GetFaith.GetReligion.GetAdjectiveNoTooltip]!" #NT!
@@ -117,10 +117,10 @@
  # # Royal Service
  hold_court.8050.t:0 "Servicio Real" #NT!
  hold_court.8050.desc:0 "[vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se acerca al trono con un [knight.Custom('GetYoungMiddleAgedOld')] [knight.GetWomanMan] a cuestas. \n\n"¡Mis [vassal.Custom2('RelationToMeShort', ROOT.Char)] y [ROOT.Char.GetTitleAsNameNoTooltip]!" [vassal.GetSheHe] dice: "Mi [vassal.Custom2('RelationToMeShort', SCOPE.sC('knight'))], [knight.GetFullName], busca el honor de servir en su séquito de [ROOT.Char.Custom('MountedWarriorTermPlural')]. ¡Dé a [knight.GetHerHim] la oportunidad de demostrar la calidad de [knight.Custom('GetYoungMiddleAgedOld')]0!" \n\n" #NT!
- hold_court.8050.desc_talented:0 ""¡[knight.GetSheHe|U] ya es uno de los duelistas más renombrados de [vassal.GetTitleAsNamePossessive] y te traerá mucha gloria en el campo de batalla!" Es cierto, has oído hablar de las habilidades de [knight.GetHerHis]..." #NT!
- hold_court.8050.desc_suitable:0 ""[knight.GetWomanMan] conoce [knight.GetHerHis] a [knight.Custom('SignatureWeaponArticle')] [knight.Custom('signature_weapon')] y no te defraudará cuando sea necesario"." #NT!
+ hold_court.8050.desc_talented:0 "¡[knight.GetSheHe|U] ya es uno de los duelistas más renombrados de [vassal.GetTitleAsNamePossessive] y te traerá mucha gloria en el campo de batalla!" Es cierto, has oído hablar de las habilidades de [knight.GetHerHis]..." #NT!
+ hold_court.8050.desc_suitable:0 "[knight.GetWomanMan] conoce [knight.GetHerHis] a [knight.Custom('SignatureWeaponArticle')] [knight.Custom('signature_weapon')] y no te defraudará cuando sea necesario"." #NT!
  hold_court.8050.desc_passing:0 "[knight.GetFirstNameNoTooltip] sonríe débilmente. "Aunque solo soy un medio espada [knight.GetWomanMan], espero aprender mucho a tu servicio"." #NT!
- hold_court.8050.desc_unsuitable:0 "Empujándome a un lado, [vassal.GetFirstNameNoTooltip] murmura: "[knight.GetSheHe|U] no es famoso con una espada, pero el entusiasmo de [knight.GetHerHis] debería llenar la brecha..."" #NT!
+ hold_court.8050.desc_unsuitable:0 "Empujándome a un lado, [vassal.GetFirstNameNoTooltip] murmura: "[knight.GetSheHe|U] no es famoso con una espada, pero el entusiasmo de [knight.GetHerHis] debería llenar la brecha..." #NT!
  hold_court.8050.a:0 "Muy bien, puedes atenderme [knight.GetFirstNameNoTooltip]." #NT!
  hold_court.8050.a.tt_knight:0 "[knight.GetFirstName] se mudará a tu cancha y se convertirá en [knight|E]. \nQuitar [knight.GetHerHim] puede alterar [vassal.GetTitledFirstName]." #NT!
  hold_court.8050.a.tt_toast:0 "[ROOT.Char.Custom('MountedWarriorTerm')|U] [knight.GetNameNoTooltip]" #NT!
@@ -167,7 +167,7 @@
  hold_court.8060.desc.subvassal:0 "El [target_county.GetTierAsNameNoTooltip] de [target_county.GetNameNoTier], gobernado por [vassal.GetTitledFirstNamePossessive] sujeto [subvassal.GetTitledFirstName]," #NT!
  hold_court.8060.desc.existing:0 "Podría apoyar a otro importante [ROOT.Char.GetFaith.HouseOfWorship], un testimonio del poder de [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] y tu piedad de [ROOT.Char.GetPrimaryTitle.GetTierAsNamePossessiveNoTooltip]"." #NT!
  hold_court.8060.desc.first:0 "Carece de un [ROOT.Char.GetFaith.HouseOfWorship|U] significativo en el que los lugareños puedan orar y honrar el [ROOT.Char.GetFaith.HighGodNameAlternate]"." #NT!
- hold_court.8060.desc.end:0 "\n\n"¡Debes ayudar a financiar una nueva casa de culto en [target_province.GetName], por el bien de la fe de [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]!"" #NT!
+ hold_court.8060.desc.end:0 "\n\n"¡Debes ayudar a financiar una nueva casa de culto en [target_province.GetName], por el bien de la fe de [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]!" #NT!
  hold_court.8060.a:0 "¡Por la gloria de [ROOT.Char.GetFaith.HighGodName]!" #NT!
  hold_court.8060.a.tt:0 "Cuando se completa el [temple|E]:" #NT!
  hold_court.8060.b:0 "[vassal.GetTitledFirstNameNoTooltip] puede permitirse contribuir." #NT!
@@ -184,9 +184,9 @@
  hold_court.8061.t:0 "La Consagración de [target_province.GetNameNoTooltip]" #NT!
  hold_court.8061.desc.bishop:0 "[bishop.GetCouncilTitleFirstName] entra emocionado a sus pasillos, "¡Mi [ROOT.Char.GetLadyLord], les traigo la noticia de la finalización de [target_province.GetTitle.GetNameNoTierPossessive], el nuevo [ROOT.Char.GetFaith.HouseOfWorship|U]!" \n\n" #NT!
  hold_court.8061.desc.fallback:0 "El [ROOT.Char.GetFaith.HouseOfWorship] que encargué para la gente de [target_province.GetTitle.GetNameNoTier] ahora está completo después de mucho trabajo".\n\n" #NT!
- hold_court.8061.desc.owned:0 ""Los fieles de [target_county.GetNameNoTier]" #NT!
- hold_court.8061.desc.vassal:0 ""[vassal.GetTitledFirstNamePossessive] sujetos en [target_county.GetNameNoTier]" #NT!
- hold_court.8061.desc.existing:0 "¡Alégrate de la piedad de tus obras y del honor hecho a [ROOT.Char.GetFaith.HighGodName]!"" #NT!
+ hold_court.8061.desc.owned:0 "Los fieles de [target_county.GetNameNoTier]" #NT!
+ hold_court.8061.desc.vassal:0 "[vassal.GetTitledFirstNamePossessive] sujetos en [target_county.GetNameNoTier]" #NT!
+ hold_court.8061.desc.existing:0 "¡Alégrate de la piedad de tus obras y del honor hecho a [ROOT.Char.GetFaith.HighGodName]!" #NT!
  hold_court.8061.desc.first:0 "Ahora puede honrar a [ROOT.Char.GetFaith.HighGodName] en un lugar digno de la divinidad de [ROOT.Char.GetFaith.HighGodHerHis]"." #NT!
  hold_court.8061.a:0 "¡Que [ROOT.Char.GetFaith.HighGodNameAlternate] nos bendiga a todos!" #NT!
  # # The Growth of County
@@ -242,10 +242,10 @@
  hold_court.8090.desc.other_advocate:2 "— una posición [vassal.GetFirstName] merece mucho más que [old_holder.GetTitledFirstName]" #NT!
  hold_court.8090.desc.other:2 "— una posición para la que me siento mucho mejor que [old_holder.GetTitledFirstName]" #NT!
  hold_court.8090.desc.empty_advocate:1 "— [vassal.GetSheHe] no te defraudará"." #NT!
- hold_court.8090.desc.empty:2 "-  No te defraudaré."" #NT!
+ hold_court.8090.desc.empty:2 "-  No te defraudaré." #NT!
  hold_court.8090.a.lady_in_waiting_lover:0 "Ejem, sí, puedes atenderme." #NT!
  hold_court.8090.a.lady_in_waiting_soulmate:0 "¡Qué pareja haremos!" #NT!
- hold_court.8090.a.bodyguard_lover:0 ""Nunca debes alejarte de mi lado, [vassal.GetFirstName]"." #NT!
+ hold_court.8090.a.bodyguard_lover:0 "Nunca debes alejarte de mi lado, [vassal.GetFirstName]"." #NT!
  hold_court.8090.a.bodyguard_soulmate:0 "#EMP Oh, mi gallardo Patroclo...#!" #NT!
  hold_court.8090.a:0 "Tienes el trabajo, [vassal.GetFirstNameNoTooltip]." #NT!
  hold_court.8090.b:0 "[old_holder.GetFirstNameNoTooltip] se hará a un lado." #NT!
@@ -280,28 +280,28 @@
  hold_court_8090_interest_architect:0 "\n\n"No temas, la construcción de grandes edificios es una de mis pasiones"." #NT!
  hold_court_8090_interest_seneschal_administrator:0 "\n\n"Tenga la seguridad de que no hay nadie más entusiasmado con la gestión de sus asuntos." #NT!
  hold_court_8090_interest_seneschal_eunuch:0 "\n\n"No hay nada que me distraiga de manejar tus asuntos, te lo aseguro"." #NT!
- hold_court_8090_interest_almoner:0 "\n\n"Solo al compartir nuestros dones mundanos podemos abordar el equilibrio del mal en el mundo..."" #NT!
+ hold_court_8090_interest_almoner:0 "\n\n"Solo al compartir nuestros dones mundanos podemos abordar el equilibrio del mal en el mundo..." #NT!
  hold_court_8090_interest_physician_experience:0 "\n\n"Puedes confiar en que he tratado muchas dolencias y heridas; no soy un simple curandero"." #NT!
- hold_court_8090_interest_physician_mystic:0 "\n\n"Mantener la salud requiere comunión con poderes más allá de lo mundano, déjame mostrarte..."" #NT!
+ hold_court_8090_interest_physician_mystic:0 "\n\n"Mantener la salud requiere comunión con poderes más allá de lo mundano, déjame mostrarte..." #NT!
  hold_court_8090_interest_physician_herbalist:0 "\n\n"Mi conocimiento sobre elixires y bálsamos está bien establecido, permítanme compartir mis conocimientos y talentos"." #NT!
  hold_court_8090_interest_antiquarian:0 "\n\n"Tengo un gran interés en la historia y aseguraré el legado de tus tesoros"." #NT!
- hold_court_8090_interest_horse:0 "\n\n"¡No temas, ni siquiera la más mínima cojera de tu corcel favorito escapará a mi atención!"" #NT!
+ hold_court_8090_interest_horse:0 "\n\n"¡No temas, ni siquiera la más mínima cojera de tu corcel favorito escapará a mi atención!" #NT!
  hold_court_8090_interest_bodyguard_soulmate:0 "\n\nLos ojos de [ROOT.Char.GetHerHis|U] delatan una intensidad de emoción que conmueve mi corazón..." #NT!
  hold_court_8090_interest_bodyguard_lover:0 "\n\nEs difícil no desmayarse bajo la mirada ardiente de [ROOT.Char.GetHerHis]..." #NT!
  hold_court_8090_interest_bodyguard_bestie:0 "\n\nSi hay alguien en quien puedo confiar el trabajo, es [ROOT.Char.GetFirstNameNoTooltip]..." #NT!
  hold_court_8090_interest_bodyguard_friend:0 "\n\nUn aliado tan cercano me servirá bien y me hará compañía..." #NT!
  hold_court_8090_interest_champion:2 "\n\n"Ten la seguridad de que mi habilidad con la espada es conocida en todo el [ROOT.Char.GetLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]"." #NT!
  hold_court_8090_interest_hunt:3 "\n\n"Nada disfruto más que el buen deporte; es bien conocido en [ROOT.Char.GetLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]"." #NT!
- hold_court_8090_interest_poet:0 "\n\n"Soy un trovador renombrado; ¡sus pasillos resonarán con historias de su distinción!"" #NT!
- hold_court_8090_interest_musician_gregarious:0 "\n\n"Confía en mí, ¡haré que tus banquetes sean aún más inolvidables!"" #NT!
+ hold_court_8090_interest_poet:0 "\n\n"Soy un trovador renombrado; ¡sus pasillos resonarán con historias de su distinción!" #NT!
+ hold_court_8090_interest_musician_gregarious:0 "\n\n"Confía en mí, ¡haré que tus banquetes sean aún más inolvidables!" #NT!
  hold_court_8090_interest_musician_culture:0 "\n\n"Los [ROOT.Char.GetCulture.GetNameNoTooltip] tienen mucho que enseñar a tu gente sobre las artes melodiosas"." #NT!
- hold_court_8090_interest_cupbearer:2 "\n\n"¡No se preocupe mi Lord, su jarra siempre estará llena a mi cuidado!"" #NT!
+ hold_court_8090_interest_cupbearer:2 "\n\n"¡No se preocupe mi Lord, su jarra siempre estará llena a mi cuidado!" #NT!
  hold_court_8090_interest_lady_lover:0 "\n\nLa descarada astuta me guiña un ojo, y apenas puedo resistir el sonrojo cuando pienso en las oportunidades que esto nos dará..." #NT!
  hold_court_8090_interest_lady_soulmate:0 "\n\nNo hay nadie a quien prefiera tener a mi lado..." #NT!
  hold_court_8090_interest_lady_bestie:0 "\n\n¡Parece que nunca necesito separarme de mi amigo más cercano!" #NT!
  hold_court_8090_interest_lady_friend:0 "\n\nTal agradable compañía debería ayudar con la monotonía de la vida cortesana..." #NT!
  hold_court_8090_interest_eunuch:0 "\n\n"Confía en mí, no tendré distracciones en mi trabajo"." #NT!
- hold_court_8090_interest_gardener:0 "\n\n"Tengo un gran amor por las plantas; ¡aprendo sus usos y manteniéndolas felices!"" #NT!
+ hold_court_8090_interest_gardener:0 "\n\n"Tengo un gran amor por las plantas; ¡aprendo sus usos y manteniéndolas felices!" #NT!
  hold_court_8090_interest_artificer:0 "\n\n"Mi obra está entre las más apreciadas en [ROOT.Char.GetLiege.GetPrimaryTitle.GetTierAsNameNoTooltip]"." #NT!
  hold_court_8090_interest_emissary:0 "\n\n"Mi historial en negociaciones y compromisos está bien establecido"." #NT!
  hold_court_8090_interest_qadi:0 "\n\n"No tienes que preocuparte, porque soy muy versado en todos los asuntos pertinentes"." #NT!
@@ -345,9 +345,9 @@
  hold_court.8110.desc:0 "Un temible campesino se acerca demasiado antes de que un guardia se interponga entre nosotros. "¡Oo!", [peasant.GetSheHe] retrocede con un guiño, riendo entre dientes.\n\n"Tu #EMP [ROOT.Char.GetLadyLord]ness#!, ¡Vengo aquí de [peasant_holding.GetNameNoTooltip] con un asunto de gran importancia!" Las cejas de [peasant.GetHerHis|U] se ondulan.\n\n"Ya ves [ROOT.Char.GetTitleAsNameNoTooltip]," #NT!
  hold_court.8110.desc.affair:1 "¡nuestro [dummy_male.Custom2('dummy_peasant_profession', ROOT.Char)] ha estado hablando con el primo de la hermana del [dummy_female.Custom2('dummy_peasant_profession', ROOT.Char)], y el viejo pueblo está alborotado! ¡Y esto desde hace siete lunas! ¿O eran ocho...?" [peasant.GetSheHe|U] acaricia la barbilla de [peasant.GetHerHis]." #NT!
  hold_court.8110.desc.fence:1 "En los días de mi abuelo, el [dummy_male.Custom2('dummy_peasant_profession', ROOT.Char)] colocó una valla a lo largo del campo del padre del [dummy_female.Custom2('dummy_peasant_profession', ROOT.Char)], pero ahora se está cayendo a pedazos y, por supuesto, ¡el nieto no quiere nada!" #NT!
- hold_court.8110.desc.goat:1 "Todo comenzó la última cosecha. ¡La cabra de [dummy_male.Custom2('dummy_peasant_profession', ROOT.Char)|U] entró en la choza de la sobrina de [dummy_female.Custom2('dummy_peasant_profession', ROOT.Char)] y causó un gran desastre!" [peasant.GetSheHe|U] golpea a [peasant.GetHerHis] en el muslo. "¡Oh, deberías haberlo visto, tu magnitud!"" #NT!
+ hold_court.8110.desc.goat:1 "Todo comenzó la última cosecha. ¡La cabra de [dummy_male.Custom2('dummy_peasant_profession', ROOT.Char)|U] entró en la choza de la sobrina de [dummy_female.Custom2('dummy_peasant_profession', ROOT.Char)] y causó un gran desastre!" [peasant.GetSheHe|U] golpea a [peasant.GetHerHis] en el muslo. "¡Oh, deberías haberlo visto, tu magnitud!" #NT!
  hold_court.8110.desc.veg:1 "la cerda de [dummy_female.Custom2('dummy_peasant_profession', ROOT.Char)] resbaló una cerca una noche, y sh-ella... ¡solo fue y se metió en el huerto de vegetales del viejo [dummy_male.Custom2('dummy_peasant_profession', ROOT.Char)]! ¡Su orgullo y alegría!" Lágrimas de risa corren por el rostro convulso del campesino." #NT!
- hold_court.8110.desc.drink:1 "la hermana de [dummy_female.Custom2('dummy_peasant_profession', ROOT.Char)] juró que podría ser mejor [ROOT.Char.Custom('RegionalDrink')] que la esposa de [dummy_male.Custom2('dummy_peasant_profession', ROOT.Char)] y, por supuesto, se consideró que tenían un empate, ¡y luego los 'maridos' se involucraron!"" #NT!
+ hold_court.8110.desc.drink:1 "la hermana de [dummy_female.Custom2('dummy_peasant_profession', ROOT.Char)] juró que podría ser mejor [ROOT.Char.Custom('RegionalDrink')] que la esposa de [dummy_male.Custom2('dummy_peasant_profession', ROOT.Char)] y, por supuesto, se consideró que tenían un empate, ¡y luego los 'maridos' se involucraron!" #NT!
  hold_court.8110.a:0 "No dices? Continúa por favor." #NT!
  hold_court.8110.b:0 "[steward.GetCouncilTitleFirstNameNoTooltip], vamos. Arreglalo. Por favor." #NT!
  hold_court.8110.c:0 "¿Reírse de #EMP ME?#! ¡A la horca!" #NT!
@@ -362,9 +362,9 @@
  # # Evangelical Backlash
  hold_court.8120.t:0 "Reacción evangélica" #NT!
  hold_court.8120.desc:0 "Me encuentro con un [peasant.GetFaith.GetAdherentName] pobre, una visión de humildad y súplica.\n\n"Glorioso [ROOT.Char.GetTitleAsNameNoTooltip], vengo a rogarte que detengas a los sacerdotes que acosan a las personas [conversion_target.GetNameNoTierPossessive] y los lleves a adoptar [ROOT.Char.GetFaith.GetName]".\n\n" #NT!
- hold_court.8120.desc.same_religion:1 ""¡Todos seguimos las enseñanzas de [peasant.GetFaith.CreatorName] y buscamos en [peasant.GetFaith.CreatorHerHim|U] guía y misericordia! Mi [ROOT.Char.GetLadyLord], mantengamos nuestros ritos locales y vivamos sin miedo a la violencia o la censura"." #NT!
+ hold_court.8120.desc.same_religion:1 "¡Todos seguimos las enseñanzas de [peasant.GetFaith.CreatorName] y buscamos en [peasant.GetFaith.CreatorHerHim|U] guía y misericordia! Mi [ROOT.Char.GetLadyLord], mantengamos nuestros ritos locales y vivamos sin miedo a la violencia o la censura"." #NT!
  hold_court.8120.desc.same_culture:0 "Aunque podamos tener diferentes creencias, todos somos [peasant.GetCulture.GetName] hermanos y hermanas al final. Ya sea que sigamos [peasant.GetFaith.HighGodName] o [ROOT.Char.GetFaith.HighGodName], ¿no podemos seguir viviendo juntos en paz?" #NT!
- hold_court.8120.desc.other:0 ""Somos [peasant.GetCulture.GetName], nuestras tradiciones difieren de las del gran pueblo [ROOT.Char.GetCulture.GetName]. Mantengamos las costumbres de nuestros antepasados ​​y adoremos a [peasant.GetFaith.CreatorName] en paz. Ten piedad, mi [ROOT.Char.GetLadyLord]"." #NT!
+ hold_court.8120.desc.other:0 "Somos [peasant.GetCulture.GetName], nuestras tradiciones difieren de las del gran pueblo [ROOT.Char.GetCulture.GetName]. Mantengamos las costumbres de nuestros antepasados ​​y adoremos a [peasant.GetFaith.CreatorName] en paz. Ten piedad, mi [ROOT.Char.GetLadyLord]"." #NT!
  hold_court.8120.a:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] sacerdotes dejarán [peasant.GetFaith.GetAdherentNamePluralNoTooltip] ser." #NT!
  hold_court.8120.a.tt_conversion:0 "[peasant.GetFaith.GetAdjective] condados no se pueden convertir durante 15 años" #NT!
  hold_court_8120_conversion_tt:0 "Esta fe es tolerada por ti" #NT!
@@ -392,10 +392,10 @@
  # # Cultural Pride
  hold_court.8130.t:0 "Orgullo cultural" #NT!
  hold_court.8130.desc:0 "Inclinándose ante mí hay un campesino de extracción [peasant.GetCulture.GetName], retorciéndose las manos [peasant.GetHerHis]. \n\n"Majestuoso [ROOT.Char.GetTitleAsNameNoTooltip], en mi hermosa patria de [conversion_target.GetNameNoTier] se nos anima a abandonar nuestras costumbres y adoptar las formas [ROOT.Char.GetCulture.GetName]". \n\n" #NT!
- hold_court.8130.desc.same_language:1 ""Nuestros pueblos ya comparten la hermosa lengua materna [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip]: conservemos nuestras prácticas locales y permanezcamos fieles a nuestros antepasados"." #NT!
- hold_court.8130.desc.same_heritage:1 ""Nuestros pueblos ya comparten mucho, en la tradición [ROOT.Char.GetCulture.GetHeritage.GetNameNoTooltip], pero nuestras prácticas locales son importantes para nosotros. Por favor, seamos fieles a nuestros antepasados"." #NT!
+ hold_court.8130.desc.same_language:1 "Nuestros pueblos ya comparten la hermosa lengua materna [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip]: conservemos nuestras prácticas locales y permanezcamos fieles a nuestros antepasados"." #NT!
+ hold_court.8130.desc.same_heritage:1 "Nuestros pueblos ya comparten mucho, en la tradición [ROOT.Char.GetCulture.GetHeritage.GetNameNoTooltip], pero nuestras prácticas locales son importantes para nosotros. Por favor, seamos fieles a nuestros antepasados"." #NT!
  hold_court.8130.desc.same_ethos:1 "“Nuestros pueblos ya están cerca, nosotros también somos un pueblo [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l]. Mantengamos nuestras tradiciones, y convivamos en paz”." #NT!
- hold_court.8130.desc.other:1 ""Los modales de [ROOT.Char.GetCulture.GetHeritage.GetNameNoTooltip] nos son ajenos y deseamos continuar en paz con las prácticas de nuestros antepasados. Por favor, déjanos en paz, mi [ROOT.Char.GetLadyLord]"." #NT!
+ hold_court.8130.desc.other:1 "Los modales de [ROOT.Char.GetCulture.GetHeritage.GetNameNoTooltip] nos son ajenos y deseamos continuar en paz con las prácticas de nuestros antepasados. Por favor, déjanos en paz, mi [ROOT.Char.GetLadyLord]"." #NT!
  hold_court.8130.a:0 "Tal orgullo es admirable." #NT!
  hold_court.8130.a.tt_conversion:1 "[peasant.GetCulture.GetName] condados no pueden integrarse durante 15 años" #NT!
  hold_court_8130_conversion_tt:0 "Esta cultura es tolerada por ti." #NT!
@@ -411,7 +411,7 @@
  hold_court_8130_service_modifier:0 "Obligación cultural" #NT!
  # # Puppy Patronage
  hold_court.8140.t:0 "Patrocinio de cachorros" #NT!
- hold_court.8140.desc:1 "Mi maestro de caza [huntmaster.GetTitledFirstName] se acerca con cuidado, cargando un bulto de lana. \n\nCon una sonrisa, [huntmaster.GetSheHe] retira los pañales y revela un par de ojos entrecerrados sobre una lengua que cuelga: ¡un cachorro! [huntmaster.GetSheHe|U] difícilmente puede mantener la excitable bola de pelo en los brazos de [huntmaster.GetHerHis]. \n\n"¡Un regalo de la mejor camada de [ROOT.Char.Custom('get_region_dog_type')] que he visto en mucho tiempo!", [huntmaster.GetSheHe] dice entre lamerse la cara, "¡Debes aprovechar y expandir tus perreras, mi [ROOT.Char.GetLadyLord]!"" #NT!
+ hold_court.8140.desc:1 "Mi maestro de caza [huntmaster.GetTitledFirstName] se acerca con cuidado, cargando un bulto de lana. \n\nCon una sonrisa, [huntmaster.GetSheHe] retira los pañales y revela un par de ojos entrecerrados sobre una lengua que cuelga: ¡un cachorro! [huntmaster.GetSheHe|U] difícilmente puede mantener la excitable bola de pelo en los brazos de [huntmaster.GetHerHis]. \n\n"¡Un regalo de la mejor camada de [ROOT.Char.Custom('get_region_dog_type')] que he visto en mucho tiempo!", [huntmaster.GetSheHe] dice entre lamerse la cara, "¡Debes aprovechar y expandir tus perreras, mi [ROOT.Char.GetLadyLord]!" #NT!
  hold_court.8140.a:0 "¡Nuestras perreras no tendrán competencia!" #NT!
  hold_court.8140.a.tt:0 "Todos los miembros podrán llevarse el Adoptar Cachorro [decision|E]" #NT!
  hold_court.8140.b:0 "¿Quién es un buen cachorro? ¡Eres!" #NT!
@@ -437,9 +437,9 @@
  # # Contractual Compromise
  hold_court.8150.t:0 "Compromiso Contractual" #NT!
  hold_court.8150.desc.intro:0 "[target_faction.GetLeader.GetTitledFirstName] avanza con valentía y, sin proporcionar ningún contexto, continúa en voz baja: \n\n" #NT!
- hold_court.8150.desc.alone:0 ""Estaría dispuesto a pasar por alto mis quejas si revisaras mis obligaciones contractuales con la corona..."" #NT!
- hold_court.8150.desc.few:0 ""Puedo persuadir a los descontentos para que retrocedan si aceptas reparar nuestras cargas contractuales..."" #NT!
- hold_court.8150.desc.group:0 ""Tengo el oído de mis compañeros descontentos, y estoy seguro de que podría persuadirlos para que retrocedan a cambio de algunas enmiendas contractuales..."" #NT!
+ hold_court.8150.desc.alone:0 "Estaría dispuesto a pasar por alto mis quejas si revisaras mis obligaciones contractuales con la corona..." #NT!
+ hold_court.8150.desc.few:0 "Puedo persuadir a los descontentos para que retrocedan si aceptas reparar nuestras cargas contractuales..." #NT!
+ hold_court.8150.desc.group:0 "Tengo el oído de mis compañeros descontentos, y estoy seguro de que podría persuadirlos para que retrocedan a cambio de algunas enmiendas contractuales..." #NT!
  hold_court.8150.desc.body:0 "\n\nAunque se rumorea que" #NT!
  hold_court.8150.desc.independence:0 "Estar reuniendo a mis vasallos para romper con [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]," #NT!
  hold_court.8150.desc.liberty:0 "Ser un punto de apoyo para traidores deseos de mayor autonomía en el [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]," #NT!
@@ -467,20 +467,20 @@
  hold_court.8160.desc.intro_child:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('concerned'))] [concerned.GetTitledFirstName] conduce al joven [victim.GetTitledFirstNameRegnal] a mi lado, claramente atormentado por la ansiedad. \n\n" #NT!
  hold_court.8160.desc.intro_spouse:0 "[concerned.GetTitledFirstNameRegnal] y [concerned.GetHerHis] [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))] se acercan con cautela, recelosos de la corte reunida. \n\n" #NT!
  hold_court.8160.desc.intro_alone:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstNameRegnal] corre a mi lado, [victim.GetHerHis] ojos inyectados en sangre buscando en la corte reunida. \n\n" #NT!
- hold_court.8160.desc.intro_me:0 ""¡Mi [ROOT.Char.GetLadyLord], estoy seguro de que alguien en el [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] está tratando de atraparme!" #NT!
- hold_court.8160.desc.intro_other:0 ""¡Mi [ROOT.Char.GetLadyLord], estoy seguro de que alguien en el [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] está tratando de dañar mi [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))]!" #NT!
+ hold_court.8160.desc.intro_me:0 "¡Mi [ROOT.Char.GetLadyLord], estoy seguro de que alguien en el [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] está tratando de atraparme!" #NT!
+ hold_court.8160.desc.intro_other:0 "¡Mi [ROOT.Char.GetLadyLord], estoy seguro de que alguien en el [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] está tratando de dañar mi [concerned.Custom2('RelationToMeShort', SCOPE.sC('victim'))]!" #NT!
  hold_court.8160.desc.exposed:0 "Mira aquí, tengo pruebas de que es [accused.GetTitledFirstName]" #NT!
  hold_court.8160.desc.suspicion:0 "No tengo pruebas, pero sospecho [accused.GetTitledFirstName]" #NT!
  hold_court.8160.desc.nemesis:2 "¡Un [accused.Custom('InsultAdjective')] [accused.Custom('InsultNoun')] no se detendrá ante nada, incluso el asesinato, para acabar con la vida de [victim.Custom('GetVictimOrMy')]!" #NT!
- hold_court.8160.desc.rival:2 "– ¡un [accused.Custom('InsultNoun')] que desea poner fin a una rivalidad personal mediante el asesinato de [victim.Custom('GetVictimOrMy')]!"" #NT!
- hold_court.8160.desc.my_claimant:2 "– ¡[accused.GetSheHe] busca adelantar el reclamo de [accused.GetHerHis] a [relevant_title.GetName] a expensas de [victim.Custom('GetVictimOrMy')]!"" #NT!
- hold_court.8160.desc.their_claimant:2 "– ¡[accused.GetSheHe] se resiente de pretender reclamos de [accused.GetHerHis] [relevant_title.GetName], incluido el propio [victim.Custom('GetVictimOrMy')]!"" #NT!
- hold_court.8160.desc.joint_claimant:2 "– ¡[accused.GetSheHe] no quiere competidores en [accused.GetHerHis] reclaman [relevant_title.GetName], incluido el propio [victim.Custom('GetVictimOrMy')]!"" #NT!
- hold_court.8160.desc.their_dislike:2 "– ¡[accused.GetSheHe] siempre ha posicionado a [accused.GetHerselfHimself] como enemigo de [victim.Custom('GetVictimOrMy')]!"" #NT!
- hold_court.8160.desc.my_dislike:2 "– ¡[accused.GetSheHe] resiente la aversión de [victim.Custom('GetVictimOrMy')] hacia [accused.GetHerHim] y busca venganza!"" #NT!
- hold_court.8160.desc.intrigue:2 "– dada la reputación de villanía de [accused.GetHerHis] – ¡viene por la garganta de [victim.Custom('GetVictimOrMy')]!"" #NT!
- hold_court.8160.desc.fallback:1 "¡Seguramente no hay nadie más que desearía dañar a [victim.GetTitledFirstNameOrMe]!"" #NT!
- hold_court.8160.desc.outro:0 "\n\n"¡Te lo ruego! ¡Encarcela a [accused.GetFirstNameNoTooltip] y pon fin a esta locura!"" #NT!
+ hold_court.8160.desc.rival:2 "– ¡un [accused.Custom('InsultNoun')] que desea poner fin a una rivalidad personal mediante el asesinato de [victim.Custom('GetVictimOrMy')]!" #NT!
+ hold_court.8160.desc.my_claimant:2 "– ¡[accused.GetSheHe] busca adelantar el reclamo de [accused.GetHerHis] a [relevant_title.GetName] a expensas de [victim.Custom('GetVictimOrMy')]!" #NT!
+ hold_court.8160.desc.their_claimant:2 "– ¡[accused.GetSheHe] se resiente de pretender reclamos de [accused.GetHerHis] [relevant_title.GetName], incluido el propio [victim.Custom('GetVictimOrMy')]!" #NT!
+ hold_court.8160.desc.joint_claimant:2 "– ¡[accused.GetSheHe] no quiere competidores en [accused.GetHerHis] reclaman [relevant_title.GetName], incluido el propio [victim.Custom('GetVictimOrMy')]!" #NT!
+ hold_court.8160.desc.their_dislike:2 "– ¡[accused.GetSheHe] siempre ha posicionado a [accused.GetHerselfHimself] como enemigo de [victim.Custom('GetVictimOrMy')]!" #NT!
+ hold_court.8160.desc.my_dislike:2 "– ¡[accused.GetSheHe] resiente la aversión de [victim.Custom('GetVictimOrMy')] hacia [accused.GetHerHim] y busca venganza!" #NT!
+ hold_court.8160.desc.intrigue:2 "– dada la reputación de villanía de [accused.GetHerHis] – ¡viene por la garganta de [victim.Custom('GetVictimOrMy')]!" #NT!
+ hold_court.8160.desc.fallback:1 "¡Seguramente no hay nadie más que desearía dañar a [victim.GetTitledFirstNameOrMe]!" #NT!
+ hold_court.8160.desc.outro:0 "\n\n"¡Te lo ruego! ¡Encarcela a [accused.GetFirstNameNoTooltip] y pon fin a esta locura!" #NT!
  hold_court.8160.a:0 "¡Por [ROOT.Char.GetFaith.HighGodName]! ¡[accused.GetSheHe|U] debe detenerse!" #NT!
  hold_court.8160.b.torturer:0 "No puedes ocultarle la verdad a #EMP ME#!!" #NT!
  hold_court.8160.b.executioner:0 "[executioner.GetFirstNameNoTooltip] llegará a la verdad." #NT!
@@ -497,13 +497,13 @@
  # # Personal Matter
  hold_court.8161.t:0 "Cuestión personal" #NT!
  hold_court.8161.desc.intro:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('victim'))] [victim.GetTitledFirstName] avanza, escoltado con aprensión por [victim.GetHerHis] [victim.GetPrimarySpouse.GetWifeHusband] [victim.GetPrimarySpouse.GetFirstName] que parece estar de mal humor. \n\n[victim.GetPrimarySpouse.GetSheHe|U] dice: "Mi [ROOT.Char.GetLadyLord], [accused.GetTitledFirstName] está tratando de seducir a mi [victim.GetWifeHusband], ¡una afrenta a [victim.GetPrimarySpouse.GetFaith.HighGodName]!" #NT!
- hold_court.8161.desc.nemesis:0 "¡Ese [accused.Custom('InsultAdjective')] [accused.Custom('InsultNoun')] no se detendrá ante nada para arruinar mi vida!"" #NT!
- hold_court.8161.desc.rival:0 "¡El odioso [accused.Custom('InsultNoun')] juega a la rivalidad con [accused.GetHerHis] y desea avergonzarme!"" #NT!
- hold_court.8161.desc.quarry:0 "¡[accused.GetSheHe|U] claramente desea a mi hermosa esposa y no puede contener a [accused.GetHerselfHimself]!"" #NT!
- hold_court.8161.desc.their_dislike:0 "¡[accused.GetSheHe|U] nunca me ha gustado! ¡Debe ser [accused.GetHerHim]!"" #NT!
- hold_court.8161.desc.my_dislike:0 "¡Nunca me ha gustado [accused.GetHerHim], claramente por una buena razón!"" #NT!
- hold_court.8161.desc.intrigue:0 "¡Todo el mundo sabe que [accused.GetSheHe] es un intrigante miserable que teje redes y juega con vidas!"" #NT!
- hold_court.8161.desc.fallback:0 "¡No puedo pensar en quién más podría ser!"" #NT!
+ hold_court.8161.desc.nemesis:0 "¡Ese [accused.Custom('InsultAdjective')] [accused.Custom('InsultNoun')] no se detendrá ante nada para arruinar mi vida!" #NT!
+ hold_court.8161.desc.rival:0 "¡El odioso [accused.Custom('InsultNoun')] juega a la rivalidad con [accused.GetHerHis] y desea avergonzarme!" #NT!
+ hold_court.8161.desc.quarry:0 "¡[accused.GetSheHe|U] claramente desea a mi hermosa esposa y no puede contener a [accused.GetHerselfHimself]!" #NT!
+ hold_court.8161.desc.their_dislike:0 "¡[accused.GetSheHe|U] nunca me ha gustado! ¡Debe ser [accused.GetHerHim]!" #NT!
+ hold_court.8161.desc.my_dislike:0 "¡Nunca me ha gustado [accused.GetHerHim], claramente por una buena razón!" #NT!
+ hold_court.8161.desc.intrigue:0 "¡Todo el mundo sabe que [accused.GetSheHe] es un intrigante miserable que teje redes y juega con vidas!" #NT!
+ hold_court.8161.desc.fallback:0 "¡No puedo pensar en quién más podría ser!" #NT!
  hold_court.8161.desc.body:0 "\n\n[victim.GetFirstName] está claramente avergonzado de que esto se transmita tan públicamente, y apenas puede hacer que [victim.GetHerselfHimself] me vea a los ojos." #NT!
  hold_court.8161.a.homosexual:0 "¡Tales ultrajes no serán tolerados!" #NT!
  hold_court.8161.a.adultery:0 "¡No toleraré adúlteros en mi corte!" #NT!
@@ -527,10 +527,10 @@
  hold_court.8180.t:0 "Privilegios nobles" #NT!
  hold_court.8180.desc.intro:0 "[contract_lord.GetTitledFirstName], mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('contract_lord'))], avanza, claramente ansioso por escuchar mi respuesta a la petición de [contract_lord.GetHerHis]. \n\n"Mi [contract_lord.Custom2('RelationToMeShort', ROOT.Char)]," #NT!
  hold_court.8180.desc.religious:0 "Nunca necesitas cuestionar la lealtad de la casa [contract_lord.GetHouse.GetBaseName], pero nuestra relación sería más fuerte sin la amenaza de persecución por nuestras creencias"." #NT!
- hold_court.8180.desc.fortification:0 "Si la casa [contract_lord.GetHouse.GetBaseName] es para defenderse y [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], [contract_lord.GetPrimaryTitle.GetNameNoTier] requiere permiso y apoyo para fortalecer sus reductos."" #NT!
+ hold_court.8180.desc.fortification:0 "Si la casa [contract_lord.GetHouse.GetBaseName] es para defenderse y [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], [contract_lord.GetPrimaryTitle.GetNameNoTier] requiere permiso y apoyo para fortalecer sus reductos." #NT!
  hold_court.8180.desc.coinage:0 "El comercio de [contract_lord.GetPrimaryTitle.GetAdjective] se ve sofocado por la falta de moneda, dejemos que [contract_lord.GetHouse.GetBaseName] establezca nuestras propias casas de moneda con la aprobación real, por el bien de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"." #NT!
  hold_court.8180.desc.war_declaration:0 "[contract_lord.GetHouse.GetBaseName] es una casa gloriosa y noble, deja que [contract_lord.GetPrimaryTitle.GetNameNoTier] defienda a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] y a sí mismo en la batalla una vez más"." #NT!
- hold_court.8180.desc.council:0 "[contract_lord.GetHouse.GetBaseName] es una de las mejores casas de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]; ¡El consejo de [contract_lord.GetPrimaryTitle.GetAdjective] siempre debe ser escuchado por [ROOT.Char.GetTitleAsNameNoTooltip]!"" #NT!
+ hold_court.8180.desc.council:0 "[contract_lord.GetHouse.GetBaseName] es una de las mejores casas de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]; ¡El consejo de [contract_lord.GetPrimaryTitle.GetAdjective] siempre debe ser escuchado por [ROOT.Char.GetTitleAsNameNoTooltip]!" #NT!
  hold_court.8180.desc.title_revocation:0 "Es mortificante para una gran casa como [contract_lord.GetHouse.GetBaseName] tener la amenaza de revocación pendiendo sobre nosotros como meros barones o arrendatarios"." #NT!
  hold_court.8180.desc.scutage:0 "A [contract_lord.GetPrimaryTitle.GetNameNoTier] le faltan soldados, que la casa [contract_lord.GetHouse.GetBaseName] pague a [ROOT.Char.GetTitleAsNameNoTooltip] en lugar de hombres por [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"." #NT!
  hold_court.8180.desc.march:0 "La casa [contract_lord.GetHouse.GetBaseName] podría servir mejor a [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] si a [contract_lord.GetPrimaryTitle.GetNameNoTier] se le otorgara el estado y las exenciones de una marcha"." #NT!
@@ -540,8 +540,8 @@
  hold_court.8180.desc.religious_heretic:0 "\n\n"Solo [contract_lord.GetFaith.HighGodName] debe decidir cuáles de los seguidores de [contract_lord.GetHerHis] son justos"." #NT!
  hold_court.8180.desc.religious_heathen:0 "\n\n"[contract_lord.GetFaith.HighGodName] me protegerá a mí ya los míos, y es posible que también te cuide a ti"." #NT!
  hold_court.8180.desc.martial_defensive:0 "\n\n"Asegurémonos de la defensa del reino en tu nombre, y así ambos cosecharemos los beneficios de la paz"." #NT!
- hold_court.8180.desc.martial_offensive:0 "\n\n""Solo con la espada se salvaguardan nuestros privilegios, y debe mantenerse afilada"." #NT!
- hold_court.8180.desc.stewardship:0 "\n\n"¡No obstaculices la prosperidad potencial de tus súbditos y todos podemos enriquecernos juntos!"" #NT!
+ hold_court.8180.desc.martial_offensive:0 "\n\n"Solo con la espada se salvaguardan nuestros privilegios, y debe mantenerse afilada"." #NT!
+ hold_court.8180.desc.stewardship:0 "\n\n"¡No obstaculices la prosperidad potencial de tus súbditos y todos podemos enriquecernos juntos!" #NT!
  hold_court.8180.desc.status:0 "\n\n"Excluir a tus seguidores más calificados y destacados solo sirve para sembrar división y desconfianza"." #NT!
  hold_court.8180.desc.family:0 "\n\n"Deja que los nobles más bien educados del [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] disfruten de los mayores beneficios." #NT!
  hold_court.8180.desc.fallback:0 "\n\n"Asegurémonos de que la estabilidad de [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] no se vea amenazada por desacuerdos triviales." #NT!
@@ -570,11 +570,11 @@
  # # The Enemy Within
  hold_court.8190.t:0 "El enemigo interno" #NT!
  hold_court.8190.desc.intro:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('aggressor_vassal'))] [aggressor_vassal.GetTitledFirstName] apenas puede contener la ira de [aggressor_vassal.GetHerHis], estallando: "¡Hay que hacer algo con ese forastero de [other_vassal.GetCulture.GetName]!" \n\n[aggressor_vassal.GetSheHe|U] gesticula salvajemente: "Ya he tenido suficiente de las costumbres ridículas de [other_vassal.GetTitledFirstName] y [other_vassal.GetHerHis]." #NT!
- hold_court.8190.desc.ethos:0 "[other_vassal.Custom('get_hold_court_8190_ethos')]"" #NT!
- hold_court.8190.desc.heritage:1 "¡todo en ellos es ajeno a las virtudes [aggressor_vassal.GetCulture.GetHeritage.GetNameNoTooltip]!"" #NT!
- hold_court.8190.desc.language:1 "¡Y esa llamada lengua [other_vassal.GetCulture.GetLanguage.GetNameNoTooltip] es solo un ruido insolente!"" #NT!
- hold_court.8190.desc.fallback:0 "Quiero decir, ¿has visto cómo comen esos salvajes #EMP ?!#!"" #NT!
- hold_court.8190.desc.body:0 "\n\n"¡Es hora de que sus súbditos extranjeros adopten las #EMP mores#! de sus superiores!"" #NT!
+ hold_court.8190.desc.ethos:0 "[other_vassal.Custom('get_hold_court_8190_ethos')]" #NT!
+ hold_court.8190.desc.heritage:1 "¡todo en ellos es ajeno a las virtudes [aggressor_vassal.GetCulture.GetHeritage.GetNameNoTooltip]!" #NT!
+ hold_court.8190.desc.language:1 "¡Y esa llamada lengua [other_vassal.GetCulture.GetLanguage.GetNameNoTooltip] es solo un ruido insolente!" #NT!
+ hold_court.8190.desc.fallback:0 "Quiero decir, ¿has visto cómo comen esos salvajes #EMP ?!#!" #NT!
+ hold_court.8190.desc.body:0 "\n\n"¡Es hora de que sus súbditos extranjeros adopten las #EMP mores#! de sus superiores!" #NT!
  hold_court.8190.a:0 "¡Nuestra nobleza debe ser [aggressor_vassal.GetCulture.GetNameNoTooltip]!" #NT!
  hold_court.8190.a.tt_accept:0 "[other_vassal.GetTitledFirstName] está de acuerdo" #NT!
  hold_court.8190.a.tt_refuse:0 "[other_vassal.GetTitledFirstName] rechaza" #NT!
@@ -599,9 +599,9 @@
  # # Servant of God
  hold_court.8200.t:0 "Sirviente de [ROOT.Char.GetFaith.HighGodName]" #NT!
  hold_court.8200.desc.intro:1 "Parece que mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('aggressor_vassal'))], [aggressor_vassal.GetTitledFirstName], ha estado enfadado mientras esperaba una audiencia. \n\n"Mi [ROOT.Char.GetLadyLord]," #NT!
- hold_court.8200.desc.vassal:0 "No puedo tolerar tu tolerancia hacia los [ROOT.Char.Custom2('GetUnbelieverTerm', SCOPE.sC('infidel_vassal'))] como [infidel_vassal.GetTitledFirstName] en el reino, ¡incluso en medio de la nobleza!"" #NT!
- hold_court.8200.desc.pope:0 "Los [ROOT.Char.Custom2('GetUnbelieverTerm', SCOPE.sC('infidel_vassal'))] se unen en torno al falso [ROOT.Char.GetFaith.BishopNeuter] [infidel_vassal.GetTitledFirstName], ¡y todo bajo tu protección!"" #NT!
- hold_court.8200.desc.body:1 "\n\n"[ROOT.Char.GetFaith.HighGodName] nos dejó claras las demandas de [ROOT.Char.GetFaith.HighGodHerHis]: ¡[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier] debería ser una tierra de fieles! ¡Fuera esos perros '[infidel_vassal.GetFaith.GetAdjective]'!"" #NT!
+ hold_court.8200.desc.vassal:0 "No puedo tolerar tu tolerancia hacia los [ROOT.Char.Custom2('GetUnbelieverTerm', SCOPE.sC('infidel_vassal'))] como [infidel_vassal.GetTitledFirstName] en el reino, ¡incluso en medio de la nobleza!" #NT!
+ hold_court.8200.desc.pope:0 "Los [ROOT.Char.Custom2('GetUnbelieverTerm', SCOPE.sC('infidel_vassal'))] se unen en torno al falso [ROOT.Char.GetFaith.BishopNeuter] [infidel_vassal.GetTitledFirstName], ¡y todo bajo tu protección!" #NT!
+ hold_court.8200.desc.body:1 "\n\n"[ROOT.Char.GetFaith.HighGodName] nos dejó claras las demandas de [ROOT.Char.GetFaith.HighGodHerHis]: ¡[ROOT.Char.GetPrimaryTitle.GetBaseNameNoTier] debería ser una tierra de fieles! ¡Fuera esos perros '[infidel_vassal.GetFaith.GetAdjective]'!" #NT!
  hold_court.8200.a:0 "Tienes razón, ¡[infidel_vassal.GetTitledFirstNameNoTooltip] debe convertirse!" #NT!
  hold_court.8200.a.tt_accept:0 "[infidel_vassal.GetTitledFirstName] acepta convertir" #NT!
  hold_court.8200.a.tt_refuse:0 "[infidel_vassal.GetTitledFirstName] se niega a convertir" #NT!
@@ -621,8 +621,8 @@
  hold_court.8210.desc.de_jure:0 "Mis derechos legales sobre [vassal_claim.GetName] están bien acreditados; esos tratados se han considerado durante mucho tiempo una parte integral de mi [vassal_claim.GetDeJureLiege.GetName]"." #NT!
  hold_court.8210.desc.strong:0 "Mi derecho legítimo a [vassal_claim.GetName] está fuera de toda duda; reconocido tanto por tus propios heraldos como por el [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.AltPriestTermPlural]"." #NT!
  hold_court.8210.desc.weak:0 "¡Tengo derecho a [vassal_claim.GetName], sin importar lo que digan los demás!" #NT!
- hold_court.8210.desc.other:0 "\n\n"¿Apoyarás mi reclamo y harás que tu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('defender_vassal'))] [defender_vassal.GetTitledFirstName] renuncie a lo que no pertenece a [defender_vassal.GetHerHim]?"" #NT!
- hold_court.8210.desc.self:0 "\n\n"¿Renunciarás a lo que no te pertenece, en apoyo de mi reclamo?"" #NT!
+ hold_court.8210.desc.other:0 "\n\n"¿Apoyarás mi reclamo y harás que tu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('defender_vassal'))] [defender_vassal.GetTitledFirstName] renuncie a lo que no pertenece a [defender_vassal.GetHerHim]?" #NT!
+ hold_court.8210.desc.self:0 "\n\n"¿Renunciarás a lo que no te pertenece, en apoyo de mi reclamo?" #NT!
  hold_court.8210.a:0 "Esta injusticia termina ahora." #NT!
  hold_court.8210.b:0 "Tales asuntos son tradicionalmente resueltos por el poder." #NT!
  hold_court.8210.b.tt_aggressor:0 "[aggressor_vassal.GetTitledFirstNameNoTooltip] gana el duelo" #NT!
@@ -638,15 +638,15 @@
  # # Opportunity Knocks
  hold_court.8220.t:0 "La oportunidad toca a tu puerta" #NT!
  hold_court.8220.desc.intro:0 "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('assassin'))] [assassin.GetTitledFirstName] parece extrañamente nervioso hoy, incluso para alguien que hace una solicitud pública de su [ROOT.Char.GetTitleAsNameNoTooltip]. \n\nMientras [assassin.GetSheHe] avanza para hacer la petición de [assassin.GetHerHis], la cara de [assassin.GetHerHis] cambia repentinamente. \n\nAntes de que me dé cuenta de lo que está pasando, [assassin.GetFirstName] se abalanza sobre mí, daga en mano, gritando:" #NT!
- hold_court.8220.desc.dread:0 ""#EMP ¡Siempre así a los TIRANOS!#!"" #NT!
- hold_court.8220.desc.cultural:1 ""#EMP ¡Muere, traicionero [ROOT.Char.GetCulture.GetNameNoTooltip]!#!"" #NT!
- hold_court.8220.desc.religious:2 ""¡#EMP [assassin.GetFaith.NegativeAfterLife] te espera, [assassin.Custom2('GetUnbelieverTerm', ROOT.Char)]!#!"" #NT!
- hold_court.8220.desc.follower:0 ""¡#EMP Para [murder_scheme.GetOwner.GetTitledFirstName]!"" #NT!
- hold_court.8220.desc.stupid:1 ""¡#EMP Te haré sentir orgulloso, [murder_scheme.GetOwner.GetTitledFirstName]!"" #NT!
- hold_court.8220.desc.time:0 ""#EMP Tu miserable reinado es OVER#!"" #NT!
- hold_court.8220.desc.vengeance:0 ""#EMP ¡Mi venganza está en HAAAND!#!"" #NT!
- hold_court.8220.desc.insult:1 ""#EMP ¡Es hora de morir, [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')]!#!"" #NT!
- hold_court.8220.desc.die:0 ""¡#EMP DIEEEEEEE!#!"" #NT!
+ hold_court.8220.desc.dread:0 "#EMP ¡Siempre así a los TIRANOS!#!" #NT!
+ hold_court.8220.desc.cultural:1 "#EMP ¡Muere, traicionero [ROOT.Char.GetCulture.GetNameNoTooltip]!#!" #NT!
+ hold_court.8220.desc.religious:2 "¡#EMP [assassin.GetFaith.NegativeAfterLife] te espera, [assassin.Custom2('GetUnbelieverTerm', ROOT.Char)]!#!" #NT!
+ hold_court.8220.desc.follower:0 "¡#EMP Para [murder_scheme.GetOwner.GetTitledFirstName]!" #NT!
+ hold_court.8220.desc.stupid:1 "¡#EMP Te haré sentir orgulloso, [murder_scheme.GetOwner.GetTitledFirstName]!" #NT!
+ hold_court.8220.desc.time:0 "#EMP Tu miserable reinado es OVER#!" #NT!
+ hold_court.8220.desc.vengeance:0 "#EMP ¡Mi venganza está en HAAAND!#!" #NT!
+ hold_court.8220.desc.insult:1 "#EMP ¡Es hora de morir, [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNoun')]!#!" #NT!
+ hold_court.8220.desc.die:0 "¡#EMP DIEEEEEEE!#!" #NT!
  hold_court.8220.a.craven:0 "#EMP ¡Arghhhhhhh!#!" #NT!
  hold_court.8220.a.paranoid:0 "#EMP ¡Sabía que esto sucedería!#!" #NT!
  hold_court.8220.a.fallback:0 "#EMP NOOOOOOO!!#!" #NT!
@@ -695,7 +695,7 @@
  # Die / 6
  hold_court.8221.desc.assassin_killed_killed:0 "Por un breve momento, [assassin.GetSheHe] luce triunfante, deleitándose con los gritos de la corte, antes de que uno de mi séquito corte el cuello de [assassin.GetHerHis]." #NT!
  hold_court.8221.desc.assassin_pardoned_accomplice:0 "[successor.GetTitledFirstName] se precipita hacia adelante, gritando a mis guardias que se retiren. Parece que me han traicionado..." #NT!
- hold_court.8221.desc.assassin_pardoned_heir:1 "Mis guardias parecen inseguros, mientras [assassin.GetFirstName] sostiene la daga de [assassin.GetHerHis] en alto y proclama: "¡Ahora soy el gobernante!"" #NT!
+ hold_court.8221.desc.assassin_pardoned_heir:1 "Mis guardias parecen inseguros, mientras [assassin.GetFirstName] sostiene la daga de [assassin.GetHerHis] en alto y proclama: "¡Ahora soy el gobernante!" #NT!
  hold_court.8221.desc.assassin_accosted_killed:0 "[assassin.GetSheHe|U] se relaja, disfrutando de la victoria de [assassin.GetHerHis], antes de que mis guardias tardíos derriben rápidamente a [assassin.GetSheHe]." #NT!
  # Other / 7
  hold_court.8221.desc.assassin_other_wounded_child:0 "El pequeño [other_victim.Custom('GirlBoy')] grita, primero de ira, luego de dolor, claramente cortado en la confusión! Mis guardias se apresuran a alejar a [other_victim.GetHerHim] y someter al asesino arrepentido." #NT!
@@ -739,13 +739,13 @@
  hold_court.8221.torture_failure:0 "La tortura no revela nada." #NT!
  # # Thy Neighbor's Spouse
  hold_court.8240.t:0 "[yearn_target.Custom('WifeHusband')|U] de tu vecino" #NT!
- hold_court.8240.desc:0 "Un furioso [vassal_victim.GetTitledFirstName] avanza a grandes zancadas, [vassal_jealous.GetTitledFirstName] apresurándose en los talones de [vassal_victim.GetHerHis]. \n\n[vassal_victim.GetFirstNameNoTooltip] hace un gesto acusador: "Mi [ROOT.Char.GetLadyLord], ¡estoy seguro de que [vassal_jealous.GetFirstNameNoTooltip] desea a mi [yearn_target.GetWifeHusband], [yearn_target.GetTitledFirstName]! ¡No puedo tolerar que [vassal_jealous.GetHerHis] siga al acecho!" \n\n[vassal_jealous.GetFirstNameNoTooltip] asiente solemnemente: "Sí, estoy enamorado de [vassal_jealous.GetTitledFirstName]0... ¡Oh, cuánto daría por tener [vassal_jealous.GetTitledFirstName]1 para mí!"" #NT!
+ hold_court.8240.desc:0 "Un furioso [vassal_victim.GetTitledFirstName] avanza a grandes zancadas, [vassal_jealous.GetTitledFirstName] apresurándose en los talones de [vassal_victim.GetHerHis]. \n\n[vassal_victim.GetFirstNameNoTooltip] hace un gesto acusador: "Mi [ROOT.Char.GetLadyLord], ¡estoy seguro de que [vassal_jealous.GetFirstNameNoTooltip] desea a mi [yearn_target.GetWifeHusband], [yearn_target.GetTitledFirstName]! ¡No puedo tolerar que [vassal_jealous.GetHerHis] siga al acecho!" \n\n[vassal_jealous.GetFirstNameNoTooltip] asiente solemnemente: "Sí, estoy enamorado de [vassal_jealous.GetTitledFirstName]0... ¡Oh, cuánto daría por tener [vassal_jealous.GetTitledFirstName]1 para mí!" #NT!
  hold_court.8240.a:0 "¿No sabes que el matrimonio es sagrado?" #NT!
  hold_court.8240.b:0 "¡Se debe permitir que florezca tal pasión!" #NT!
  hold_court.8240.c:0 "Solo hay una manera de resolver esto." #NT!
  # # Spoiled for Choice
  hold_court.8241.t:0 "Mimado por elegir" #NT!
- hold_court.8241.desc:0 "[vassal_1.GetTitledFirstName] y [vassal_2.GetTitledFirstName] se empujan ante mí, en medio de alguna disputa. \n\n"Mi [ROOT.Char.GetLadyLord]", escupe [vassal_1.GetFirstName], "he estado buscando matrimonio con el radiante [yearn_target.GetFirstName] durante meses, ¡pero [vassal_2.GetFirstName], el [vassal_2.Custom('InsultNoun')], también ha ido tras [yearn_target.GetHerHim]!" \n\n[vassal_2.GetFirstName] grita indignado: "¡Eso es pura tontería, mi señor! ¡Los [vassal_1.Custom('InsultAdjective')] [vassal_2.GetTitledFirstName]0 ni siquiera habían oído hablar de los [vassal_2.GetTitledFirstName]1 hasta que los presenté en [vassal_2.GetTitledFirstName]2!"" #NT!
+ hold_court.8241.desc:0 "[vassal_1.GetTitledFirstName] y [vassal_2.GetTitledFirstName] se empujan ante mí, en medio de alguna disputa. \n\n"Mi [ROOT.Char.GetLadyLord]", escupe [vassal_1.GetFirstName], "he estado buscando matrimonio con el radiante [yearn_target.GetFirstName] durante meses, ¡pero [vassal_2.GetFirstName], el [vassal_2.Custom('InsultNoun')], también ha ido tras [yearn_target.GetHerHim]!" \n\n[vassal_2.GetFirstName] grita indignado: "¡Eso es pura tontería, mi señor! ¡Los [vassal_1.Custom('InsultAdjective')] [vassal_2.GetTitledFirstName]0 ni siquiera habían oído hablar de los [vassal_2.GetTitledFirstName]1 hasta que los presenté en [vassal_2.GetTitledFirstName]2!" #NT!
  hold_court.8241.a:0 "Tienes mi bendición, [vassal_1.GetTitledFirstNameNoTooltip]." #NT!
  hold_court.8241.b:0 "Bueno, [vassal_2.GetTitledFirstNameNoTooltip] #EMP estaba#! allí primero..." #NT!
  hold_court.8241.c:0 "[yearn_target.GetFirstNameNoTooltip] #EMP es#! bastante cautivador." #NT!
@@ -760,7 +760,7 @@
  hold_court.8250.c:0 "¡Sé cómo resolver esto!" #NT!
  # # The Dancer
  hold_court.8251.t:0 "El bailarín" #NT!
- hold_court.8251.desc:1 "[vassal_1.GetTitledFirstName] y [vassal_2.GetTitledFirstName] marchan hacia mi trono, claro su descontento. \n\n[vassal_1.GetFirstName] estalla: "Mi [ROOT.Char.GetLadyLord], busco a la campesina [yearn_target.Custom('ComplimentAdjective')] [yearn_target.GetFirstName] como mi concubina, ¡se habla de [yearn_target.GetHerHis] bailando en todo [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!" ¡[vassal_2.GetTitledFirstName]1 [vassal_2.GetTitledFirstName]2 es un codicioso triste y celoso!"" #NT!
+ hold_court.8251.desc:1 "[vassal_1.GetTitledFirstName] y [vassal_2.GetTitledFirstName] marchan hacia mi trono, claro su descontento. \n\n[vassal_1.GetFirstName] estalla: "Mi [ROOT.Char.GetLadyLord], busco a la campesina [yearn_target.Custom('ComplimentAdjective')] [yearn_target.GetFirstName] como mi concubina, ¡se habla de [yearn_target.GetHerHis] bailando en todo [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!" ¡[vassal_2.GetTitledFirstName]1 [vassal_2.GetTitledFirstName]2 es un codicioso triste y celoso!" #NT!
  hold_court.8251.a:0 "Entonces tendrás [yearn_target.GetHerHim], [vassal_1.GetFirstNameNoTooltip]." #NT!
  hold_court.8251.b:1 "[yearn_target.GetSheHe|U] será [vassal_2.GetFirstNamePossessiveNoTooltip] concubina." #NT!
  hold_court.8251.c:0 "¡Ah, sí! ¡[yearn_target.GetFirstNameNoTooltip] era el nombre de [yearn_target.GetHerHis]!" #NT!
@@ -771,10 +771,10 @@
  # # The King's Peace
  hold_court.8260.t:0 "La paz [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]" #NT!
  hold_court.8260.desc.intro:1 "[vassal_faction_target.GetFullName]se acerca con cara de amargura, impaciente por entregar la apelación de [vassal_faction_target.GetHerHis]. \n\n"[ROOT.Char.GetTitleAsNameNoTooltip], mi [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_faction_leader'))], [vassal_faction_leader.GetTitledFirstName], busca desafiar mi posición legítima," #NT!
- hold_court.8220.desc.claimant:0 "E instalar mi [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_claimant'))], [vassal_claimant.GetTitledFirstName], como usurpador en [vassal_faction.GetSpecialTitle.GetNameNoTier]!"" #NT!
- hold_court.8220.desc.claimant_self:1 "¡e instala [vassal_faction.GetSpecialCharacter.GetHerselfHimself] como [vassal_faction.GetSpecialCharacter.GetLadyLord] de [vassal_faction.GetSpecialTitle.GetNameNoTier]!"" #NT!
- hold_court.8220.desc.liberty:0 "Sofocando mi poder y contradiciendo mis decisiones legales como [vassal_faction.GetLeader.GetHerHis] [vassal_faction_target.GetTitleAsNameNoTooltip]!"" #NT!
- hold_court.8260.desc.body:0 "\n\n"[vassal_faction.GetLeader.GetSheHe|U] reúne a los descontentos mientras hablamos; ¡#EMP usted#! debe recordarles dónde reside realmente el poder en este reino!"" #NT!
+ hold_court.8220.desc.claimant:0 "E instalar mi [vassal_faction_target.Custom2('RelationToMeShort', SCOPE.sC('vassal_claimant'))], [vassal_claimant.GetTitledFirstName], como usurpador en [vassal_faction.GetSpecialTitle.GetNameNoTier]!" #NT!
+ hold_court.8220.desc.claimant_self:1 "¡e instala [vassal_faction.GetSpecialCharacter.GetHerselfHimself] como [vassal_faction.GetSpecialCharacter.GetLadyLord] de [vassal_faction.GetSpecialTitle.GetNameNoTier]!" #NT!
+ hold_court.8220.desc.liberty:0 "Sofocando mi poder y contradiciendo mis decisiones legales como [vassal_faction.GetLeader.GetHerHis] [vassal_faction_target.GetTitleAsNameNoTooltip]!" #NT!
+ hold_court.8260.desc.body:0 "\n\n"[vassal_faction.GetLeader.GetSheHe|U] reúne a los descontentos mientras hablamos; ¡#EMP usted#! debe recordarles dónde reside realmente el poder en este reino!" #NT!
  hold_court.8260.a.peace:0 "[vassal_faction.GetLeader.GetTitledFirstNameNoTooltip] detendrá estos juegos." #NT!
  hold_court.8260.a.war:0 "¡[vassal_faction.GetLeader.GetTitledFirstNameNoTooltip] debe rendirse inmediatamente!" #NT!
  hold_court_8260_faction_member_tt:0 "Cada miembro de [vassal_faction.GetName] ([SCOPE.ScriptValue('court_8260_faction_value')|0]) apuntando a [vassal_faction_target.GetTitledFirstName]" #NT!
@@ -784,7 +784,7 @@
  hold_court.8260.e:0 "Oh, yo #EMP debo#!, ¿debo?" #NT!
  # # Oath of Fealty
  hold_court.8270.t:0 "Juramento de fidelidad" #NT!
- hold_court.8270.desc:1 "Mis heraldos anuncian la llegada de un pequeño gobernante vecino; [neighbor.GetTitledFirstName] de [neighbor.GetPrimaryTitle.GetNameNoTier]. \n\n[neighbor.GetSheHe|U] entra en sus salones con dignidad y se inclina profundamente: "Su excelencia, he venido a prometerle humildemente mi reino, si acepta mis términos". \n\n"Te serviré como un fiel señor vasallo de [ROOT.Char.GetPrimaryTitle.GetNameNoTier] a cambio de tu protección; ¡que nuestras dos grandes casas prosperen gracias al acuerdo!"" #NT!
+ hold_court.8270.desc:1 "Mis heraldos anuncian la llegada de un pequeño gobernante vecino; [neighbor.GetTitledFirstName] de [neighbor.GetPrimaryTitle.GetNameNoTier]. \n\n[neighbor.GetSheHe|U] entra en sus salones con dignidad y se inclina profundamente: "Su excelencia, he venido a prometerle humildemente mi reino, si acepta mis términos". \n\n"Te serviré como un fiel señor vasallo de [ROOT.Char.GetPrimaryTitle.GetNameNoTier] a cambio de tu protección; ¡que nuestras dos grandes casas prosperen gracias al acuerdo!" #NT!
  hold_court.8270.a:0 "Acepto, [neighbor.GetTitledFirstNameNoTooltip]." #NT!
  hold_court.8270.b:0 "Creo que estos términos son un poco unilaterales..." #NT!
  hold_court.8270.b.accept:0 "[neighbor.GetTitledFirstNameNoTooltip] acepta tus cambios" #NT!
@@ -792,8 +792,8 @@
  hold_court.8270.d:0 "Yo creo que no." #NT!
  # # Nomadic Neighbors
  hold_court.8280.t:0 "Vecinos nómadas" #NT!
- hold_court.8280.desc.foreign:0 "[feudal_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] espera a una audiencia, aparentemente distraída por los problemas de [feudal_vassal.GetHerHis].\n\n"Mi [ROOT.Char.GetLadyLord]", gorjea [feudal_vassal.GetSheHe], "Los nómadas [nomad_culture.GetCollectiveNoun] en mis fronteras están inquietos, y cada día más de ellos cruzan de [nomad.GetTopLiege.GetPrimaryTitle.GetNameNoTier] a mi [feudal_county.GetName]". \n\n"Me temo que, si no se eliminan, ¡pronto habrán liquidado todo el [feudal_county.GetTierAsNameNoTooltip]!"" #NT!
- hold_court.8280.desc.local:0 "[feudal_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha presentado una audiencia conmigo y [nomad.Custom2('MyCharacterIntroduction', ROOT.Char)] — esto debería ser bueno...\n\n "¡[ROOT.Char.GetTitleAsNameNoTooltip]!", [feudal_vassal.GetFirstNameNoTooltip] gime, "Jinetes nómadas de las tierras de [nomad.GetFirstNamePossessiveNoTooltip] llegan a mi [feudal_county.GetName] — ¡deben regresar!" \n\n[nomad.GetFirstNameNoTooltip] se encoge de hombros, "Mi gente son vagabundos, solo desean encontrar pastos decentes sin explotar para sus animales..."" #NT!
+ hold_court.8280.desc.foreign:0 "[feudal_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] espera a una audiencia, aparentemente distraída por los problemas de [feudal_vassal.GetHerHis].\n\n"Mi [ROOT.Char.GetLadyLord]", gorjea [feudal_vassal.GetSheHe], "Los nómadas [nomad_culture.GetCollectiveNoun] en mis fronteras están inquietos, y cada día más de ellos cruzan de [nomad.GetTopLiege.GetPrimaryTitle.GetNameNoTier] a mi [feudal_county.GetName]". \n\n"Me temo que, si no se eliminan, ¡pronto habrán liquidado todo el [feudal_county.GetTierAsNameNoTooltip]!" #NT!
+ hold_court.8280.desc.local:0 "[feudal_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] ha presentado una audiencia conmigo y [nomad.Custom2('MyCharacterIntroduction', ROOT.Char)] — esto debería ser bueno...\n\n "¡[ROOT.Char.GetTitleAsNameNoTooltip]!", [feudal_vassal.GetFirstNameNoTooltip] gime, "Jinetes nómadas de las tierras de [nomad.GetFirstNamePossessiveNoTooltip] llegan a mi [feudal_county.GetName] — ¡deben regresar!" \n\n[nomad.GetFirstNameNoTooltip] se encoge de hombros, "Mi gente son vagabundos, solo desean encontrar pastos decentes sin explotar para sus animales..." #NT!
  hold_court.8280.a.foreign:0 "Deben enviarse de vuelta a [nomad.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
  hold_court.8280.a.local:0 "¡[nomad.GetTitledFirstNameNoTooltip], mantén a tus jinetes en línea!" #NT!
  hold_court.8280.b:0 "Siempre tengo necesidad de jinetes expertos." #NT!
