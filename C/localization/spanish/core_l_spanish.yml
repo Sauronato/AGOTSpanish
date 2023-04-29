@@ -1,761 +1,761 @@
 ﻿l_spanish:
- SM_LANGUAGE:0 "Idioma" #NT!
- ENGLISH_SUPPORTED:0 "Sí" #NT!
- SPANISH_SUPPORTED:0 "Sí" #NT!
- GERMAN_SUPPORTED:0 "Sí" #NT!
- FRENCH_SUPPORTED:0 "Sí" #NT!
- ENGLISH:0 "Inglés" #NT!
- SPANISH:0 "Español" #NT!
- GERMAN:0 "Alemán" #NT!
- FRENCH:0 "Francés" #NT!
- MAIN_MENU:0 "Menú principal" #NT!
- NEW:0 "Nuevo" #NT!
- TUTORIAL:0 "Tutorial" #NT!
- CONTENT:0 "Contenido" #NT!
- LOAD_GAME:0 "Cargar juego" #NT!
- SAVE_GAME:0 "Guardar partida" #NT!
- DELETE_GAME:0 "Eliminar juego" #NT!
- SAVE:0 "Guardar" #NT!
- DELETE:0 "Borrar" #NT!
- DELETE_CONFIRMATION_DESC:0 "Se eliminará la partida guardada $NAME|V$. ¿Está seguro?" #NT!
- CLOUDSAVE_UNVAVAILABLE_TOOLTIP:0 "Los guardados en la nube no están disponibles" #NT!
- SAVE_ENABLE_CLOUDSAVE_TOOLTIP:0 "Guardar en la nube" #NT!
- LOAD_CLOUDSAVE_TOOLTIP:0 "Guardar en la nube" #NT!
- LOAD_IRONMAN_TOOLTIP:0 "Guardar ironman" #NT!
- LOAD_MULTIPLAYER_TOOLTIP:0 "Guardado multijugador ([SaveGameItem.GetNumberOfPlayers] jugadores)" #NT!
- LOAD_INVALID_TOOLTIP:0 "#X Partida guardada no válida. Podría causar bloqueos.#!" #NT!
- LOAD_LAST_PLAYED:0 "Última reproducción: [SaveGameItem.GetLastPlayed]" #NT!
- LOAD_SHOW_INVALID_SAVEGAMES:0 "Mostrar partidas guardadas no válidas" #NT!
- GAME_OPTIONS:0 "Opciones de juego" #NT!
- HELP:0 "Ayuda" #NT!
- RELOAD:0 "Recargar" #NT!
- OPEN_SOURCE:0 "Archivo de fuente abierta" #NT!
- CANCEL:0 "Cancelar" #NT!
- LOBBY:0 "Vestíbulo" #NT!
- START:0 "Comenzar" #NT!
- FINISH:0 "Finalizar" #NT!
- DISABLED_BUTTON:0 "No se ha implementado..." #NT!
- CURRENT_DATE:0 "[GetCurrentDate.GetStringLong]" #NT!
- CURRENT_DATE_TOOLTIP:2 "[JoinText( '\n', GetCurrentDateStringWithSyncInfo, GetPausedByEventReason )]" #NT!
- CURRENT_SPEED_LAGGING_PLAYER:0 "Velocidad reducida: [GetLaggingPlayerName] se está quedando atrás\n" #NT!
- CURRENT_SPEED_CLICK_TT_1:0 "#I Haz clic para cambiar la velocidad a $CURRENT_SPEED_TEXT_1$#!" #NT!
- CURRENT_SPEED_CLICK_TT_2:0 "#I Haz clic para cambiar la velocidad a $CURRENT_SPEED_TEXT_2$#!" #NT!
- CURRENT_SPEED_CLICK_TT_3:0 "#I Haz clic para cambiar la velocidad a $CURRENT_SPEED_TEXT_3$#!" #NT!
- CURRENT_SPEED_CLICK_TT_4:0 "#I Haz clic para cambiar la velocidad a $CURRENT_SPEED_TEXT_4$#!" #NT!
- CURRENT_SPEED_CLICK_TT_5:0 "#I Haz clic para cambiar la velocidad a $CURRENT_SPEED_TEXT_5$#!" #NT!
- CURRENT_SPEED_ONLY_HOST:0 "Solo el anfitrión puede cambiar la velocidad" #NT!
- CURRENT_SPEED_TOOLTIP:3 "#T Velocidad del juego: [GetCurrentGameSpeedText|V]#!\n[SelectLocalization( StringIsEmpty( GetLaggingPlayerName ), '', 'CURRENT_SPEED_LAGGING_PLAYER' )]" #NT!
- CHANGE_SPEED_TOOLTIP_1:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_1', 'CURRENT_SPEED_ONLY_HOST' )]" #NT!
- CHANGE_SPEED_TOOLTIP_2:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_2', 'CURRENT_SPEED_ONLY_HOST' )]" #NT!
- CHANGE_SPEED_TOOLTIP_3:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_3', 'CURRENT_SPEED_ONLY_HOST' )]" #NT!
- CHANGE_SPEED_TOOLTIP_4:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_4', 'CURRENT_SPEED_ONLY_HOST' )]" #NT!
- CHANGE_SPEED_TOOLTIP_5:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_5', 'CURRENT_SPEED_ONLY_HOST' )]" #NT!
- CURRENT_SPEED_TEXT_0:0 "Desconocido" #NT!
- CURRENT_SPEED_TEXT_1:0 "El más lento" #NT!
- CURRENT_SPEED_TEXT_2:0 "Lento" #NT!
- CURRENT_SPEED_TEXT_3:0 "Normal" #NT!
- CURRENT_SPEED_TEXT_4:0 "Rápido" #NT!
- CURRENT_SPEED_TEXT_5:0 "Lo más rápido" #NT!
- PLAYER_SYNC_DATES_HEADER:1 "#T Fecha actual: [DATE.GetString]#!" #NT!
- PLAYER_SYNC_DATES:0 "Fechas de los jugadores:" #NT!
- PLAYER_DATE:0 "$NAME$: [DATE.GetString|V]" #NT!
- GAME_START_DATE_STRING:0 "Comenzó el [DATE.GetString]" #NT!
- GAME_YEARS_SINCE_START_DATE_STRING:0 "Años desde el inicio del juego: $YEARS|V$" #NT!
- SVN_REVISION:0 "Esta es la revisión SVN" #NT!
- GREATER_THAN:0 "Mas grande que" #NT!
- LESS_THAN:0 "Menos que" #NT!
- EQUAL_TO:0 "Igual a" #NT!
- EVENT_DEBUG_CHARACTER_EVENT:0 "Evento: $EVENT$ Personaje: $NAME$ [$ID$]\n" #NT!
- SCOPE_DEBUG_CHARACTER:0 "Personaje $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_ACTIVITY:0 "Actividad $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_SECRET:0 "Secreto $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_TITLE:0 "Título $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_PROVINCE:0 "Provincia $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_VALUE:0 "Valor $VALUE$" #NT!
- SCOPE_DEBUG_SCHEME:0 "Esquema $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_COMBAT:0 "[battle|E] $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_COMBAT_SIDE:0 "[battle|E] Lado $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_INTEGER_FLAG:0 "Marcar $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_WAR:0 "Guerra $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_FACTION:0 "Facción $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_GREAT_HOLY_WAR:0 "Gran Guerra Santa $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_HOLY_ORDER:0 "Orden Sagrada $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_COUNCIL_TASK:0 "Tarea del Consejo $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_DYNASTY:0 "Dinastía $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_DYNASTY_HOUSE:0 "Casa de la dinastía $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_ARMY:0 "Ejército $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_CULTURE:0 "Cultura $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_FAITH:0 "Fe $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_RELIGION:0 "Religión $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_STORY:0 "Historia $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_MERCENARY_COMPANY:0 "Compañía de mercenarios $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_INSPIRATION:0 "Inspiración $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_ARTIFACT:0 "Artefacto $NAME$ [$ID$]" #NT!
- SCOPE_DEBUG_STRUGGLE:0 "[struggle|E] $NAME$ [$ID$]" #NT!
- CHARACTER_DEFAULT_TOOLTIP:0 "[CHARACTER.GetUIName]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nID histórico: [CHARACTER.GetSlowHistoryIdForDebug|V]\nDinastía: [CHARACTER.GetDynastyName|V]\nCultura: [CHARACTER.GetCulture.GetName|V]\nFertilidad: [CHARACTER.GetFertility|%0V]\nSalud: [CHARACTER.GetHealth|1V]\n" #NT!
- CHARACTER_DEBUG_REAL_FATHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', 'Real Father: ' )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', CHARACTER.GetRealFather.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', '\n' )]" # This is horribly overcomplicated just to conditionally write some text #NT!
- CHARACTER_DEBUG_TOOLTIP:2 "#D DEBUG:#!\nID: [CHARACTER.GetID|V], ID histórico: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: #!\nID: 0\n" #NT!
- CHARACTER_AI_VALUES_DEBUG_TOOLTIP:2 "#D DEBUG#! AI Valores:\nHonor: [Character.GetAIHonor|V]\nCodicia: [Character.GetAIGreed|V]\nRacionalidad: [Character.GetAIRationality|V]\nEnergía: [Character.GetAIEnergy|V]\nAudacia: [Character.GetAIBoldness|V]\nTemor modificado Audacia: [Character.GetAIBoldnessAsAffectedByPlayerDread|V]\nCelo: [Character.GetAIZeal|V]\nVenganza: [Character.GetAIVengefulness|V]\nCompasión: #! 0\n#! capacidad social:#! 0\n#!  n#! 3" #NT!
- CHARACTER_AI_VALUE:0 "#DEBUG Valores AI#!" #NT!
- CHARACTER_AI_BUDGET_TOOLTIP:0 "$BUDGET_CATEGORY$: $BUDGET_GOLD|V0$ / $BUDGET_MAXIMUM|0$\n" #NT!
- DEBUG_OFFENSIVE_WAR:0 "Guerra ofensiva contra $NAME$" #NT!
- DEBUG_DEFENSIVE_WAR:0 "Guerra defensiva contra $NAME$" #NT!
- DEBUG_TRUCE:0 "Tregua con $NAME$ (hasta [DATE.GetString])" #NT!
- DEBUG_VASSAL_INFO:0 "Información de vasallo:" #NT!
- DEBUG_IS_POWERFUL_VASSAL:0 "Es poderoso:" #NT!
- DEBUG_VASSAL_POWER_VALUE:0 "Valor de poder vasallo: $VALUE|V1$" #NT!
- CHARACTER_TRAITS:0 "Rasgos: $TRAITS|V$" #NT!
- LOWBORN:0 "De baja cuna" #NT!
- LOWBORN_DESC:0 "Este personaje es Lowborn" #NT!
- WEALTH_RICH:0 "Rico" #NT!
- WEALTH_POOR:0 "Pobre" #NT!
- ARMY_NAME:1 "$NUM|O$ Ejército de [PROVINCE.GetNameNoTooltip]" #NT!
- ARMY_NAME_RAIDER:1 "$NUM|O$ Asaltantes de [PROVINCE.GetNameNoTooltip]" #NT!
- GATHERING_ARMY_NAME:0 "Reunión del ejército en $LOCATION$" #NT!
- DEAD:0 "Muerto" #NT!
- DEAD_SINCE:0 "Muerto desde [DATE.GetStringShort|V]" #NT!
- DIED_AT_AGE:1 "a la edad $AGE|V$" #NT!
- DIED_AT_AGE_SINGULAR:1 "a la edad $AGE|V$" #NT!
- DIED_AS_INFANT:1 "como un infante" #NT!
- CHARACTER_DEAD_TOOLTIP_DATE_INFO:0 "[Character.GetDeathDate.GetString|V] [Character.GetAgeInfo] (nacido [Character.GetBirthDate.GetString|V])" #NT!
- CHARACTER_DEAD_TOOLTIP:2 "[Character.GetDeathReason|U] en $CHARACTER_DEAD_TOOLTIP_DATE_INFO$" #NT!
- CHARACTER_DEAD_LINEAGE:0 "[Character.GetDeathReason|U] en [Character.GetDeathDate.GetString]" #NT!
- CHARACTER_DEAD_TOOLTIP_HIDE_KILLER:0 "[Character.GetDeathReasonHideKiller|U] en $CHARACTER_DEAD_TOOLTIP_DATE_INFO$" #NT!
- CHARACTER_INCAPABLE_TOOLTIP:0 "#T Incapaz#!\n[Character.GetUINameNotMe] es [GetTrait('incapable').GetName( Character.Self )] y no puede realizar acciones de forma independiente" #NT!
- CHARACTER_INTERACTION_REPLY:0 "[CHARACTER.GetUIName] está esperando respuesta con respecto a $INTERACTION|D$." #NT!
- CHARACTER_INTERACTION_REPLY_MARRIAGE:0 "[CHARACTER.GetUIName] está esperando respuesta sobre $INTERACTION|D$ entre [TARGET_CHARACTER.GetUIName] y [TARGET_CHARACTER_2.GetUIName]." #NT!
- CHARACTER_INTERACTION_REPLY_TITLE:0 "Respuesta diplomática" #NT!
- CHARACTER_INTERACTION_REPLY_POSITIVE:1 "$NAME$ aceptó tu $INTERACTION|D$." #NT!
- CHARACTER_INTERACTION_REPLY_NEGATIVE:1 "$NAME$ rechazó tu $INTERACTION|D$." #NT!
- CHARACTER_INTERACTION_REPLY_BLOCKED:2 "#X $NAME$ bloqueó tu $INTERACTION|D$.#!" #NT!
- CHARACTER_INTERACTION_CANT_SEND_RECIPIENT_REJECTS:1 "@warning_icon!#X [CHARACTER.GetShortUIName] no aceptaría esto#!" #NT!
- CHARACTER_INTERACTION_ALREADY_CONSIDERING_WARNING:0 "@warning_icon!#X $CHARACTER_INTERACTION_ALREADY_CONSIDERING$#! " #NT!
- CHARACTER_INTERACTION_ALREADY_CONSIDERING:1 "[CHARACTER.GetUIName] ya está considerando una propuesta de [TARGET_CHARACTER.GetUIName]" #NT!
- CHARACTER_INTERACTION_NO_TARGET_SELECTED:0 "@warning_icon!#X Ningún objetivo seleccionado#! " #NT!
- CHARACTER_OTHER_PLAYER_TOOLTIP:0 "Este personaje está controlado por [Character.PlayerName]." #NT!
- BASE_COLON:0 "Base: $VALUE|V0$" #NT!
- BASE_GOLD:0 "Base[gold_i|E]" #NT!
- BASE_PIETY:0 "Base[piety_i|E]" #NT!
- BASE_PRESTIGE:0 "Base[prestige_i|E]" #NT!
- BASE_TIME:0 "Base @time_icon!" #NT!
- VALUE_COLON:0 "$KEY$: $VALUE|V0$" #NT!
- VALUE_COLON_POSITIVE_DIFF:0 "$KEY$: $VALUE|+=0$" #NT!
- BASE:0 "Base" #NT!
- INTERACTION_EFFECT_DESC:0 "#D OnSend:#! \n$ON_SEND$\n#D OnAccept:#! \n$ON_ACCEPT$\n#D OnDecline:#! \n$ON_DECLINE$" #NT!
- RETINUE_POSITION_EMPTY:0 "Vacío" #NT!
- YES:0 "Sí" #NT!
- NO:0 "No" #NT!
- OPINION_MTTH:1 "[CHARACTER.GetShortUINamePossessive] Opinión de [TARGET_CHARACTER.GetShortUIName]: $VALUE|=+0$" #NT!
- TRAIT_COMPATIBILITY_LIKES:0 "A $TRAIT$ le gusta $OTHER_TRAIT$: $VALUE|=+0$" #NT!
- TRAIT_COMPATIBILITY_DISLIKES:0 "A $TRAIT$ no le gusta $OTHER_TRAIT$: $VALUE|=+0$" #NT!
- SCRIPTED_VALUE_MODIFIER:0 "Valor: $VALUE|+0$" #NT!
- AI_VALUE_MODIFIER_COMPOUND:0 "Personalidad: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_MIN_VALUE:0 "Valor mínimo: $VALUE|+0$" #NT!
- AI_VALUE_MODIFIER_MAX_VALUE:0 "Valor máximo: $VALUE|+0$" #NT!
- AI_VALUE_MODIFIER_HONOR:0 "Honor: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_DISHONOR:0 "Deshonra: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_GREED:0 "Codicia: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_GENEROUS:0 "Generoso: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_CONTENTMENT:0 "Satisfacción: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_RATIONALITY:0 "Racionalidad: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_IRRATIONALITY:0 "Irracionalidad: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_ENERGY:0 "Energía: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_LETHARGY:0 "Letargo: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_BOLDNESS:0 "Negrita: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_COWARDICE:0 "Cobardía: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_ZEAL:0 "Celo: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_CYNICISM:0 "Cinismo: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_VENGEFULNESS:0 "Vengatividad: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_FORGIVENESS:0 "Perdón: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_COMPASSION:0 "Compasión: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_CALLOUSNESS:0 "Insensibilidad: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_SOCIABILITY:0 "Sociabilidad: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_SHYNESS:0 "Timidez: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_DREAD_MODIFIED_BOLDNESS:0 "#D Audacia y pavor#!: $VALUE|=+0$" #NT!
- AI_VALUE_MODIFIER_DREAD_MODIFIED_COWARDICE:0 "#D Cobardía y pavor#!: $VALUE|=+0$" #NT!
- CHARACTER_SHEHE_SHE:0 "Ella" #NT!
- CHARACTER_SHEHE_HE:0 "Él" #NT!
- CHARACTER_SHEHE_IT:0 "Él" #NT!
- CHARACTER_SHEHE_THEY:0 "Ellos" #NT!
- CHARACTER_HERHIM_HER:0 "Su" #NT!
- CHARACTER_HERHIM_HIM:0 "A él" #NT!
- CHARACTER_HERHIM_IT:0 "Él" #NT!
- CHARACTER_HERHIM_THEM:0 "A ellos" #NT!
- CHARACTER_HERHIS_HER:0 "Su" #NT!
- CHARACTER_HERHIS_HIS:0 "Su" #NT!
- CHARACTER_HERHIS_ITS:0 "Es" #NT!
- CHARACTER_HERHIS_THEIR:0 "Su" #NT!
- CHARACTER_HERHISMY_MY:0 "Mi" #NT!
- CHARACTER_HERSHIS_HERS:0 "Suyo" #NT!
- CHARACTER_HERSHIS_HIS:0 "Su" #NT!
- CHARACTER_HERSHIS_ITS:0 "Es" #NT!
- CHARACTER_HERSHIS_THEIRS:0 "Suyo" #NT!
- CHARACTER_WOMAN:0 "Mujer" #NT!
- CHARACTER_MAN:0 "Hombre" #NT!
- CHARACTER_WOMAN_POSSESSIVE:0 "De mujer" #NT!
- CHARACTER_MAN_POSSESSIVE:0 "Del hombre" #NT!
- CHARACTER_GIRL:0 "Chica" #NT!
- CHARACTER_BOY:0 "Chico" #NT!
- CHARACTER_WOMEN:0 "Mujer" #NT!
- CHARACTER_MEN:0 "Hombres" #NT!
- CHARACTER_GIRLS:0 "Chicas" #NT!
- CHARACTER_BOYS:0 "Niños" #NT!
- CHARACTER_CHILDREN:0 "Niños" #NT!
- CHARACTER_LADY:0 "Dama" #NT!
- CHARACTER_LORD:0 "Lord" #NT!
- CHARACTER_HERSELF:0 "Sí misma" #NT!
- CHARACTER_HIMSELF:0 "Él mismo" #NT!
- CHARACTER_ITSELF:0 "Sí mismo" #NT!
- CHARACTER_THEMSELF:0 "Ellos mismos" #NT!
- CHARACTER_THEMSELVES:0 "Ellos mismos" #NT!
- CHARACTER_WIFE:0 "Esposa" #NT!
- CHARACTER_HUSBAND:0 "Marido" #NT!
- CHARACTER_CONCUBINE_MALE:0 "$game_concept_concubine_male$" #NT!
- CHARACTER_CONCUBINE_FEMALE:0 "$game_concept_concubine_female$" #NT!
- CHARACTER_MOTHER:0 "Madre" #NT!
- CHARACTER_FATHER:0 "Padre" #NT!
- VASSAL_TO:0 "[vassal|E] a $LIEGE$" #NT!
- RELATION_LIST:0 "[CHARACTER.GetShortUINamePossessive|U] $LIST$" #NT!
- RELATION_LIST_UNRELATED:0 "$LIST$" #NT!
- RELATION_LONG_LIST:0 "$LIST$" #NT!
- RELATION_LIST_EXTENDED:1 "$LIST$ #low (+$MORE_RELATIONS$)#!" #NT!
- VASSAL:1 "[vassal|E]" #NT!
- LIEGE:1 "[liege|E]" #NT!
- KNIGHT:2 "[CHARACTER.GetLiege.Custom('KnightCulture')]" #NT!
- COUNCILLOR:0 "[CHARACTER.GetCouncilTitle]" #NT!
- COURTIER:1 "[courtier|E]" #NT!
- GUEST:1 "[guest|E]" #NT!
- RELATION_NEIGHBORING_RULER:0 "Vecino [ruler|E]" #NT!
- RELATION_FOREIGN_RULER:0 "Extranjero [ruler|E]" #NT!
- RELATION_MY_TOP_LIEGE:0 "Tu [top_liege|E]" #NT!
- RELATION_BELOW_VASSAL:0 "Vasallo en tu [realm|E]" #NT!
- RELATION_FELLOW_VASSAL:0 "Compañero [vassal|E]" #NT!
- RELATION_NEIGHBORING_FELLOW_VASSAL:0 "Compañero vecino [vassal|E]" #NT!
- RELATION_VASSAL_IN_REALM:1 "Vasallo en el [CHARACTER.GetPrimaryTitle.GetBaseName]" #NT!
- RELATION_POOL_CHARACTER_LOCATION:0 "Errante" #NT!
- RELATION_POOL_CHARACTER:0 "Errante" #NT!
- RELATION_COUNCIL_POSITION:0 "[CHARACTER.GetCouncilTitle] de [TARGET_CHARACTER.GetShortUIName]" #NT!
- RELATION_COURTIER:0 "Cortesano de [CHARACTER.GetShortUIName]" #NT!
- RELATION_GUEST:0 "Invitado de [CHARACTER.GetShortUIName]" #NT!
- THIS_IS_YOU_STATIC:0 "Este Eres tu" #NT!
- THIS_IS_YOU:2 "[CHARACTER.Custom('ThisIsYou')]" #NT!
- THIS_IS_YOU_ALLEGEDLY:0 "Este eres tú, supuestamente" #NT!
- THIS_IS_YOU_UNFORTUNATELY:0 "Este eres tú, desafortunadamente" #NT!
- THIS_IS_YOU_KEY:0 "Este Eres tu" #NT!
- THIS_IS_YOU_MAGNIFICENT:0 "Este eres tú, y eres #EMP magnífico#!" #NT!
- THIS_IS_YOU_NOT_FEEL:0 "Este eres tú, aunque no siempre te sientes tú mismo" #NT!
- MILITARY_VIEW:0 "Militar" #NT!
- INTRIGUE_VIEW:0 "Intriga" #NT!
- REALM_VIEW:0 "Vista del reino (vista militar antigua)" #NT!
- ARMY_LEVIES:0 "[levies|E]" #NT!
- DOMAIN:0 "Dominio" #NT!
- VASSALS:2 "[vassals|E]" #NT!
- HIRED:0 "Contratado" #NT!
- RAISE_ALL:1 "Levantar todos los ejércitos" #NT!
- RAISE_ALL_RAIDERS:0 "Levanta a todos como asaltantes" #NT!
- RAISE_ALL_MEN_AT_ARMS:1 "Subir todo" #NT!
- RAISE_HIRED_TROOP:0 "Aumentar" #NT!
- DISBAND_ALL:0 "Disolver todo" #NT!
- MERCENARIES:0 "Mercenarios" #NT!
- HOLY_ORDERS:0 "Ordenes Sagradas" #NT!
- SORT_RANK:0 "Rango" #NT!
- SORT_NAME:0 "Nombre" #NT!
- SORT_OPINION:1 "Opinión de ti" #NT!
- SORT_STRENGTH:0 "Fortaleza" #NT!
- SORT_INCOME:0 "Ingreso" #NT!
- SORT_HEALTH:0 "Salud" #NT!
- CURRENT_BALANCE:0 "[GetPlayerBalance|=1]" #NT!
- TT_CURRENT_GOLD:1 "[gold_i|E] #high [GetPlayer.GetGold|1]#!" #NT!
- TT_CURRENT_BALANCE:1 "#high [GetPlayerBalance|=+1]#!/month" #NT!
- CURRENT_BALANCE_TOOLTIP:1 "#T Tu [gold_i][gold|E]#!\n[GetPlayer.GetBalanceBreakdown]" #NT!
- FULL_BALANCE_INFO:0 "Saldo mensual: [gold_i]$BALANCE|=+1$\n\n$INCOME_DESC$\n$EXPENSE_DESC$" #NT!
- ESTIMATE_TAX_VASSAL:0 "[CHARACTER.GetUIName]" #NT!
- ESTIMATE_TAX_INFO:0 "Ingresos totales de [tax|E]: [gold_i]$TOTAL|=+1$\n - [domain|E]: [gold_i]$DOMAIN|=+1$\n - [vassals|E]: [gold_i]$VASSALS|=+1$" #NT!
- ESTIMATE_TAX_LIEGE:0 "Pagado a [liege|E]: [gold_i]#N -$VALUE|1$#!" #NT!
- ARMY_MAINTENANCE:0 "Mantenimiento del ejército: [gold_i]$VALUE|=+1$" #NT!
- BREAKDOWN_ARMY_MAINTENANCE:1 "[armies|E] aumentado" #NT!
- BREAKDOWN_ARMY_MAINTENANCE_EMBARKED:0 "Levantado [armies|E] [embarked_i]" #NT!
- MAA_TOTAL_COST:0 "[men_at_arms|E]: [gold_i]$VALUE|=+1$" #NT!
- MAA_MAINTENENCE_COST:0 "- Mantenimiento: [gold_i]$VALUE|=+1$" #NT!
- MAA_REINFORCEMENT_COST:0 "- Refuerzo: [gold_i]$VALUE|=+1$" #NT!
- BREAKDOWN_TOTAL_TAX:0 "Total impuestos" #NT!
- BREAKDOWN_MEN_AT_ARMS:0 "[men_at_arms|E]" #NT!
- BREAKDOWN_REINFORCEMENT:0 "Reforzamiento" #NT!
- BREAKDOWN_MONTHLY_BALENCE:0 "Saldo Mensual" #NT!
- BREAKDOWN_YEARLY_BALENCE:0 "Saldo Anual" #NT!
- COST_RESULT_NOTHING:1 "#COLOR_GREEN #EMP nada#!#!" #NT!
- GOLD_COST_BREAK:0 "Costo [gold_i]" #NT!
- GOLD:0 "[gold_i] $VALUE|0$" #NT!
- GOLD_COST:0 "[gold_i] $VALUE|0$" #NT!
- GOLD_COST_REINFORCE:0 "[gold_i] $VALUE|2$" #NT!
- GOLD_COST_MAINTENANCE:0 "[gold_i] $VALUE|2$" #NT!
- GOLD_COST_LONG:0 "Oro: [gold_i] $VALUE|0$" #NT!
- GOLD_COST_LONG_MAINTENANCE:0 "Oro: [gold_i] $VALUE|2$" #NT!
- GOLD_K:0 "[gold_i] $VALUE|1$K" #NT!
- GOLD_TEXT:0 "$VALUE|0$ Oro" #NT!
- GOLD_CONCEPT:0 "[gold|E]" #NT!
- GOLD_NO_ICON:0 "$VALUE|0$" #NT!
- GOLD_K_NO_ICON:0 "$VALUE|1$K" #NT!
- GOLD_SIMPLE_TOOLTIP:1 "#T [CHARACTER.GetShortUINamePossessive|U] [gold|E]: $VALUE|V0$#!" #NT!
- GOLD_WITH_BALANCE_TOOLTIP:0 "#T [gold|E]: $VALUE|V0$#!\n$BALANCE|V=1$/month" #NT!
- COST_PER_DAY:0 "/día" #NT!
- COST_PER_MONTH:0 "/mes" #NT!
- COST_PER_YEAR:0 "/año" #NT!
- PIETY:0 "[piety_i] $VALUE|0$" #NT!
- PIETY_COST:0 "[piety_i] $VALUE|0$" #NT!
- PIETY_COST_REINFORCE:0 "[piety_i] $VALUE|2$" #NT!
- PIETY_COST_MAINTENANCE:0 "[piety_i] $VALUE|1$" #NT!
- PIETY_COST_LONG:0 "Piedad: [piety_i] $VALUE|0$" #NT!
- PIETY_COST_LONG_MAINTENANCE:0 "Piedad: [piety_i] $VALUE|2$" #NT!
- PIETY_K:0 "[piety_i] $VALUE|1$K" #NT!
- PIETY_CONCEPT:0 "[piety|E]" #NT!
- PIETY_LEVEL_CONCEPT:0 "[piety_level|E]" #NT!
- PIETY_WITH_BALANCE_TOOLTIP:1 "#T [piety|E]: $VALUE|V0$#!\n$BALANCE|V=1$/mes\n\n#T [piety_level|E]: #!$LEVEL$" #NT!
- PRESTIGE:0 "[prestige_i] $VALUE|0$" #NT!
- PRESTIGE_COST:0 "[prestige_i] $VALUE|0$" #NT!
- PRESTIGE_COST_REINFORCE:0 "[prestige_i] $VALUE|1$" #NT!
- PRESTIGE_COST_MAINTENANCE:0 "[prestige_i] $VALUE|1$" #NT!
- PRESTIGE_COST_LONG:0 "Prestigio: [prestige_i] $VALUE|0$" #NT!
- PRESTIGE_COST_LONG_MAINTENANCE:0 "Prestigio: [prestige_i] $VALUE|2$" #NT!
- PRESTIGE_K:0 "[prestige_i] $VALUE|1$K" #NT!
- PRESTIGE_CONCEPT:0 "[prestige|E]" #NT!
- PRESTIGE_LEVEL_CONCEPT:0 "[prestige_level|E]" #NT!
- PRESTIGE_WITH_BALANCE_TOOLTIP:1 "#T [prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/mes\n\n#T [prestige_level|E]: #!$LEVEL$" #NT!
- DYNASTY_PRESTIGE:0 "[dynasty_prestige_i] $VALUE|0$" #NT!
- DYNASTY_PRESTIGE_COST:0 "[dynasty_prestige_i] $VALUE|0$" #NT!
- DYNASTY_PRESTIGE_COST_LONG:0 "Renombre: [dynasty_prestige_i] $VALUE|0$" #NT!
- DYNASTY_PRESTIGE_K:0 "[dynasty_prestige_i] $VALUE|1$K" #NT!
- DYNASTY_PRESTIGE_CONCEPT:0 "[dynasty_prestige|E]" #NT!
- DYNASTY_PRESTIGE_LEVEL_CONCEPT:0 "[dynasty_prestige_level|E]" #NT!
- NUMBER_OF_MEN_DESC:0 "[soldiers|E]" #NT!
- NUMBER_OF_MEN_VALUE:0 "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE|0$ #!" #NT!
- NUMBER_OF_MEN_VALUE_K:1 "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE$ #!" #NT!
- NUMBER_OF_MEN_VALUE_K_NO_TOOLTIP:1 "$VALUE|1$" #NT!
- NUMBER_OF_MEN_VALUE_WITH_LABEL:0 "$VALUE|0V$ [soldiers|E]" #NT!
- NUMBER_OF_MEN_ARRIVED:0 "$VALUE|0V$ [soldiers|E] ya recopilado." #NT!
- CONTRACTED_VALUE:0 "$VALUE|0$" #NT!
- CONTRACTED_VALUE_K:0 "$VALUE|1$K" #NT!
+ SM_LANGUAGE:0 "Idioma"
+ ENGLISH_SUPPORTED:0 "Sí"
+ SPANISH_SUPPORTED:0 "Sí"
+ GERMAN_SUPPORTED:0 "Sí"
+ FRENCH_SUPPORTED:0 "Sí"
+ ENGLISH:0 "Inglés"
+ SPANISH:0 "Español"
+ GERMAN:0 "Alemán"
+ FRENCH:0 "Francés"
+ MAIN_MENU:0 "Menú principal"
+ NEW:0 "Nuevo"
+ TUTORIAL:0 "Tutorial"
+ CONTENT:0 "Contenido"
+ LOAD_GAME:0 "Cargar partida"
+ SAVE_GAME:0 "Guardar partida"
+ DELETE_GAME:0 "Borrar partida"
+ SAVE:0 "Guardar"
+ DELETE:0 "Borrar"
+ DELETE_CONFIRMATION_DESC:0 "Se borrará la partida $NAME|V$. ¿Seguro?"
+ CLOUDSAVE_UNVAVAILABLE_TOOLTIP:0 "Partidas en la nube no disponibles"
+ SAVE_ENABLE_CLOUDSAVE_TOOLTIP:0 "Guardar en la nube"
+ LOAD_CLOUDSAVE_TOOLTIP:0 "Partida en la nube"
+ LOAD_IRONMAN_TOOLTIP:0 "Partida Ironman"
+ LOAD_MULTIPLAYER_TOOLTIP:0 "Partida multijugador ([SaveGameItem.GetNumberOfPlayers] jugadores)"
+ LOAD_INVALID_TOOLTIP:0 "#X Partida no válida. Podría causar fallos.#!"
+ LOAD_LAST_PLAYED:0 "Jugado por última vez: [SaveGameItem.GetLastPlayed]"
+ LOAD_SHOW_INVALID_SAVEGAMES:0 "Mostrar partidas no válidas"
+ GAME_OPTIONS:0 "Opciones de juego"
+ HELP:0 "Ayuda"
+ RELOAD:0 "Recargar"
+ OPEN_SOURCE:0 "Abrir fichero de origen"
+ CANCEL:0 "Cancelar"
+ LOBBY:0 "Sala"
+ START:0 "Empezar"
+ FINISH:0 "Terminar"
+ DISABLED_BUTTON:0 "No aplicado…"
+ CURRENT_DATE:0 "[GetCurrentDate.GetStringLong]"
+ CURRENT_DATE_TOOLTIP:2 "[JoinText( '\n', GetCurrentDateStringWithSyncInfo, GetPausedByEventReason )]"
+ CURRENT_SPEED_LAGGING_PLAYER:0 "Velocidad reducida: [GetLaggingPlayerName] se queda atrás\n"
+ CURRENT_SPEED_CLICK_TT_1:0 "#I Haz clic para cambiar velocidad a $CURRENT_SPEED_TEXT_1$#!"
+ CURRENT_SPEED_CLICK_TT_2:0 "#I Haz clic para cambiar velocidad a $CURRENT_SPEED_TEXT_2$#!"
+ CURRENT_SPEED_CLICK_TT_3:0 "#I Haz clic para cambiar velocidad a $CURRENT_SPEED_TEXT_3$#!"
+ CURRENT_SPEED_CLICK_TT_4:0 "#I Haz clic para cambiar velocidad a $CURRENT_SPEED_TEXT_4$#!"
+ CURRENT_SPEED_CLICK_TT_5:0 "#I Haz clic para cambiar velocidad a $CURRENT_SPEED_TEXT_5$#!"
+ CURRENT_SPEED_ONLY_HOST:0 "Solo el anfitrión puede cambiar la velocidad"
+ CURRENT_SPEED_TOOLTIP:3 "#T Velocidad del juego: [GetCurrentGameSpeedText|V]#!\n[SelectLocalization( StringIsEmpty( GetLaggingPlayerName ), '', 'CURRENT_SPEED_LAGGING_PLAYER' )]"
+ CHANGE_SPEED_TOOLTIP_1:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_1', 'CURRENT_SPEED_ONLY_HOST' )]"
+ CHANGE_SPEED_TOOLTIP_2:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_2', 'CURRENT_SPEED_ONLY_HOST' )]"
+ CHANGE_SPEED_TOOLTIP_3:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_3', 'CURRENT_SPEED_ONLY_HOST' )]"
+ CHANGE_SPEED_TOOLTIP_4:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_4', 'CURRENT_SPEED_ONLY_HOST' )]"
+ CHANGE_SPEED_TOOLTIP_5:0 "$CURRENT_SPEED_TOOLTIP$[SelectLocalization( JominiIsHostOrLocal, 'CURRENT_SPEED_CLICK_TT_5', 'CURRENT_SPEED_ONLY_HOST' )]"
+ CURRENT_SPEED_TEXT_0:0 "Desconocida"
+ CURRENT_SPEED_TEXT_1:0 "La más lenta"
+ CURRENT_SPEED_TEXT_2:0 "Lenta"
+ CURRENT_SPEED_TEXT_3:0 "Normal"
+ CURRENT_SPEED_TEXT_4:0 "Rápida"
+ CURRENT_SPEED_TEXT_5:0 "La más rápida"
+ PLAYER_SYNC_DATES_HEADER:1 "#T Fecha actual: [DATE.GetString]#!"
+ PLAYER_SYNC_DATES:0 "Fechas de jugadores:"
+ PLAYER_DATE:0 "$NAME$: [DATE.GetString|V]"
+ GAME_START_DATE_STRING:0 "Empezada el [DATE.GetString]"
+ GAME_YEARS_SINCE_START_DATE_STRING:0 "Años desde el comienzo de la partida: $YEARS|V$"
+ SVN_REVISION:0 "Esta es la revisión SVN"
+ GREATER_THAN:0 "mayor que"
+ LESS_THAN:0 "menos que"
+ EQUAL_TO:0 "Igual a"
+ EVENT_DEBUG_CHARACTER_EVENT:0 "Evento: $EVENT$ Personaje: $NAME$ [$ID$]\n"
+ SCOPE_DEBUG_CHARACTER:0 "Personaje $NAME$ [$ID$]"
+ SCOPE_DEBUG_ACTIVITY:0 "Actividad $NAME$ [$ID$]"
+ SCOPE_DEBUG_SECRET:0 "Secreto $NAME$ [$ID$]"
+ SCOPE_DEBUG_TITLE:0 "Título $NAME$ [$ID$]"
+ SCOPE_DEBUG_PROVINCE:0 "Provincia $NAME$ [$ID$]"
+ SCOPE_DEBUG_VALUE:0 "Valor $VALUE$"
+ SCOPE_DEBUG_SCHEME:0 "Conjura $NAME$ [$ID$]"
+ SCOPE_DEBUG_COMBAT:0 "[battle|E] $NAME$ [$ID$]"
+ SCOPE_DEBUG_COMBAT_SIDE:0 "Bando de [battle|lE] $NAME$ [$ID$]"
+ SCOPE_DEBUG_INTEGER_FLAG:0 "Bandera $NAME$ [$ID$]"
+ SCOPE_DEBUG_WAR:0 "Guerra $NAME$ [$ID$]"
+ SCOPE_DEBUG_FACTION:0 "Facción $NAME$ [$ID$]"
+ SCOPE_DEBUG_GREAT_HOLY_WAR:0 "Gran Guerra Santa $NAME$ [$ID$]"
+ SCOPE_DEBUG_HOLY_ORDER:0 "Orden militar $NAME$ [$ID$]"
+ SCOPE_DEBUG_COUNCIL_TASK:0 "Tarea del consejo $NAME$ [$ID$]"
+ SCOPE_DEBUG_DYNASTY:0 "Dinastía $NAME$ [$ID$]"
+ SCOPE_DEBUG_DYNASTY_HOUSE:0 "Casa de la dinastía $NAME$ [$ID$]"
+ SCOPE_DEBUG_ARMY:0 "Ejército $NAME$ [$ID$]"
+ SCOPE_DEBUG_CULTURE:0 "Culture $NAME$ [$ID$]"
+ SCOPE_DEBUG_FAITH:0 "Fe $NAME$ [$ID$]"
+ SCOPE_DEBUG_RELIGION:0 "Religión $NAME$ [$ID$]"
+ SCOPE_DEBUG_STORY:0 "Historia $NAME$ [$ID$]"
+ SCOPE_DEBUG_MERCENARY_COMPANY:0 "Compañía mercenaria $NAME$ [$ID$]"
+ SCOPE_DEBUG_INSPIRATION:0 "Inspiración $NAME$ [$ID$]"
+ SCOPE_DEBUG_ARTIFACT:0 "Artefacto $NAME$ [$ID$]"
+ SCOPE_DEBUG_STRUGGLE:0 "[struggle|E] $NAME$ [$ID$]"
+ CHARACTER_DEFAULT_TOOLTIP:0 "[CHARACTER.GetUIName]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nID histórica: [CHARACTER.GetSlowHistoryIdForDebug|V]\nDinastía: [CHARACTER.GetDinastyName|V]\nCultura: [CHARACTER.GetCulture.GetName|V]\nFertilidad: [CHARACTER.GetFertility|%0V]\nSalud: [CHARACTER.GetHealth|1V]\n"
+ CHARACTER_DEBUG_REAL_FATHER_TOOLTIP:0 "[Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', 'Verdadero padre: ' )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', CHARACTER.GetRealFather.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', '\n' )]" # This is horribly overcomplicated just to conditionally write some text
+ CHARACTER_DEBUG_TOOLTIP:2 "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórica: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: [CHARACTER.GetCurrentWeight]\n"
+ CHARACTER_AI_VALUES_DEBUG_TOOLTIP:2 "#D DEPURACIÓN#! Valores IA:\nHonor: [Character.GetAIHonor|V]\nCodicia: [Character.GetAIGreed|V]\nRacionalidad: [Character.GetAIRationality|V]\nEnergía: [Character.GetAIEnergy|V]\nValor: [Character.GetAIBoldness|V]\nValor modificado por temor: [Character.GetAIBoldnessAsAffectedByPlayerDread|V]\nCelo: [Character.GetAIZeal|V]\nRevanchismo: [Character.GetAIVengefulness|V]\nCompasión: [Character.GetAICompassion|V]\nSociabilidad: [Character.GetAISociability|V]\n[Character.GetVariablesDescription]\n\n[Character.GetAiBudgetDescription]"
+ CHARACTER_AI_VALUE:0 " #DEBUG Valores IA#!"
+ CHARACTER_AI_BUDGET_TOOLTIP:0 "$BUDGET_CATEGORY$: $BUDGET_GOLD|V0$/$BUDGET_MAXIMUM|0$\n"
+ DEBUG_OFFENSIVE_WAR:0 "Guerra ofensiva contra $NAME$"
+ DEBUG_DEFENSIVE_WAR:0 "Guerra defensiva contra $NAME$"
+ DEBUG_TRUCE:0 "Tregua con $NAME$ (hasta [DATE.GetString])"
+ DEBUG_VASSAL_INFO:0 "Información de vasallo:"
+ DEBUG_IS_POWERFUL_VASSAL:0 "Es poderoso: "
+ DEBUG_VASSAL_POWER_VALUE:0 "Valor del poder de vasallo: $VALUE|V1$"
+ CHARACTER_TRAITS:0 "Rasgos: $TRAITS|V$"
+ LOWBORN:0 "De baja cuna"
+ LOWBORN_DESC:0 "Este personaje es de baja cuna"
+ WEALTH_RICH:0 "Rico"
+ WEALTH_POOR:0 "Pobre"
+ ARMY_NAME:1 "$NUM|O$ Ejército de [PROVINCE.GetNameNoTooltip]"
+ ARMY_NAME_RAIDER:1 "$NUM|O$ Incursores de [PROVINCE.GetNameNoTooltip]"
+ GATHERING_ARMY_NAME:0 "Reuniendo ejército en $LOCATION$"
+ DEAD:0 "Muerto"
+ DEAD_SINCE:0 "Muerto desde [DATE.GetStringShort|V]"
+ DIED_AT_AGE:1 "con $AGE|V$ años"
+ DIED_AT_AGE_SINGULAR:1 "con $AGE|V$ año"
+ DIED_AS_INFANT:1 "de niño"
+ CHARACTER_DEAD_TOOLTIP_DATE_INFO:0 "[Character.GetDeathDate.GetString|V] [Character.GetAgeInfo] (fecha de nacimiento: [Character.GetBirthDate.GetString|V])"
+ CHARACTER_DEAD_TOOLTIP:2 "[Character.GetDeathReason|U] el $CHARACTER_DEAD_TOOLTIP_DATE_INFO$"
+ CHARACTER_DEAD_LINEAGE:0 "[Character.GetDeathReason|U] el [Character.GetDeathDate.GetString]"
+ CHARACTER_DEAD_TOOLTIP_HIDE_KILLER:0 "[Character.GetDeathReasonHideKiller|U] el $CHARACTER_DEAD_TOOLTIP_DATE_INFO$"
+ CHARACTER_INCAPABLE_TOOLTIP:0 "#T Incapaz#!\n[CHARACTER.GetUINameNotMe] es [GetTrait('incapable').GetName( Character.Self )] y no puede actuar de forma independiente"
+ CHARACTER_INTERACTION_REPLY:0 "[CHARACTER.GetUIName] espera una respuesta sobre $INTERACTION|D$."
+ CHARACTER_INTERACTION_REPLY_MARRIAGE:0 "[CHARACTER.GetUIName] espera una respuesta sobre $INTERACTION|D$ entre [TARGET_CHARACTER.GetUIName] y [TARGET_CHARACTER_2.GetUIName]."
+ CHARACTER_INTERACTION_REPLY_TITLE:0 "Respuesta diplomática"
+ CHARACTER_INTERACTION_REPLY_POSITIVE:1 "$NAME$ ha aceptado mi $INTERACTION|D$."
+ CHARACTER_INTERACTION_REPLY_NEGATIVE:1 "$NAME$ ha rechazado mi $INTERACTION|D$."
+ CHARACTER_INTERACTION_REPLY_BLOCKED:2 "#X $NAME$ ha bloqueado tu $INTERACTION|D$.#!"
+ CHARACTER_INTERACTION_CANT_SEND_RECIPIENT_REJECTS:1 "@warning_icon!#X [CHARACTER.GetShortUIName] no aceptará esto#!"
+ CHARACTER_INTERACTION_ALREADY_CONSIDERING_WARNING:0 "@warning_icon!#X $CHARACTER_INTERACTION_ALREADY_CONSIDERING$#! "
+ CHARACTER_INTERACTION_ALREADY_CONSIDERING:1 "[CHARACTER.GetUIName] ya está considerando [TARGET_CHARACTER.LocalPlayerString( 'tu', 'una' )] propuesta[TARGET_CHARACTER.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]"
+ CHARACTER_INTERACTION_NO_TARGET_SELECTED:0 "@warning_icon!#X Sin objetivo seleccionado#! "
+ CHARACTER_OTHER_PLAYER_TOOLTIP:0 "Este personaje está controlado por [Character.PlayerName]."
+ BASE_COLON:0 "Base: $VALUE|V0$"
+ BASE_GOLD:0 "[gold_i|E] base"
+ BASE_PIETY:0 "[piety_i|E] base"
+ BASE_PRESTIGE:0 "[prestige_i|E] base"
+ BASE_TIME:0 "@time_icon! base"
+ VALUE_COLON:0 "$KEY$: $VALUE|V0$"
+ VALUE_COLON_POSITIVE_DIFF:0 "$KEY$: $VALUE|+=0$"
+ BASE:0 "Base"
+ INTERACTION_EFFECT_DESC:0 "#D Enviar:#! \n$ON_SEND$\n#D Aceptar:#! \n$ON_ACCEPT$\n#D Rechazar:#! \n$ON_DECLINE$"
+ RETINUE_POSITION_EMPTY:0 "Vacío"
+ YES:0 "Sí"
+ NO:0 "No"
+ OPINION_MTTH:1 "Opinion de [CHARACTER.GetShortUIName] sobre [TARGET_CHARACTER.GetShortUIName]: $VALUE|=+0$"
+ TRAIT_COMPATIBILITY_LIKES:0 "$TRAIT$ le gusta $OTHER_TRAIT$: $VALUE|=+0$"
+ TRAIT_COMPATIBILITY_DISLIKES:0 "$TRAIT$ le disgusta $OTHER_TRAIT$: $VALUE|=+0$"
+ SCRIPTED_VALUE_MODIFIER:0 "Valor: $VALUE|+0$"
+ AI_VALUE_MODIFIER_COMPOUND:0 "Personalidad: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_MIN_VALUE:0 "Valor mínimo: $VALUE|+0$"
+ AI_VALUE_MODIFIER_MAX_VALUE:0 "Valor máximo: $VALUE|+0$"
+ AI_VALUE_MODIFIER_HONOR:0 "Honor: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_DISHONOR:0 "Deshonor: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_GREED:0 "Codicia: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_GENEROUS:0 "Generoso: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_CONTENTMENT:0 "Satisfacción: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_RATIONALITY:0 "Racionalidad: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_IRRATIONALITY:0 "Irracionalidad: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_ENERGY:0 "Energía: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_LETHARGY:0 "Letargo: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_BOLDNESS:0 "Audacia: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_COWARDICE:0 "Cobardía: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_ZEAL:0 "Celo: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_CYNICISM:0 "Cinismo: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_VENGEFULNESS:0 "Sed de venganza: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_FORGIVENESS:0 "Perdón: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_COMPASSION:0 "Compasión: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_CALLOUSNESS:0 "Insensibilidad: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_SOCIABILITY:0 "Sociabilidad: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_SHYNESS:0 "Timidez: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_DREAD_MODIFIED_BOLDNESS:0 "#D Audacia y temor#!: $VALUE|=+0$"
+ AI_VALUE_MODIFIER_DREAD_MODIFIED_COWARDICE:0 "#D Cobardía y temor#!: $VALUE|=+0$"
+ CHARACTER_SHEHE_SHE:0 "ella"
+ CHARACTER_SHEHE_HE:0 "él"
+ CHARACTER_SHEHE_IT:0 "ello"
+ CHARACTER_SHEHE_THEY:0 "él/ella"
+ CHARACTER_HERHIM_HER:0 "la"
+ CHARACTER_HERHIM_HIM:0 "lo"
+ CHARACTER_HERHIM_IT:0 "ello"
+ CHARACTER_HERHIM_THEM:0 "ellos/as"
+ CHARACTER_HERHIS_HER:0 "su"
+ CHARACTER_HERHIS_HIS:0 "su"
+ CHARACTER_HERHIS_ITS:0 "su"
+ CHARACTER_HERHIS_THEIR:0 "su"
+ CHARACTER_HERHISMY_MY:0 "mi"
+ CHARACTER_HERSHIS_HERS:0 "sus"
+ CHARACTER_HERSHIS_HIS:0 "sus"
+ CHARACTER_HERSHIS_ITS:0 "sus"
+ CHARACTER_HERSHIS_THEIRS:0 "sus"
+ CHARACTER_WOMAN:0 "mujer"
+ CHARACTER_MAN:0 "hombre"
+ CHARACTER_WOMAN_POSSESSIVE:0 "de mujer"
+ CHARACTER_MAN_POSSESSIVE:0 "de hombre"
+ CHARACTER_GIRL:0 "chica"
+ CHARACTER_BOY:0 "chico"
+ CHARACTER_WOMEN:0 "mujeres"
+ CHARACTER_MEN:0 "hombres"
+ CHARACTER_GIRLS:0 "chicas"
+ CHARACTER_BOYS:0 "chicos"
+ CHARACTER_CHILDREN:0 "niños/as"
+ CHARACTER_LADY:0 "señora"
+ CHARACTER_LORD:0 "señor"
+ CHARACTER_HERSELF:0 "sí misma"
+ CHARACTER_HIMSELF:0 "sí mismo"
+ CHARACTER_ITSELF:0 "sí mismo"
+ CHARACTER_THEMSELF:0 "sí mismo/a"
+ CHARACTER_THEMSELVES:0 "sí mismos/as"
+ CHARACTER_WIFE:0 "esposa"
+ CHARACTER_HUSBAND:0 "marido"
+ CHARACTER_CONCUBINE_MALE:0 "$game_concept_concubine_male$"
+ CHARACTER_CONCUBINE_FEMALE:0 "$game_concept_concubine_female$"
+ CHARACTER_MOTHER:0 "madre"
+ CHARACTER_FATHER:0 "padre"
+ VASSAL_TO:0 "[vassal|E] para $LIEGE$"
+ RELATION_LIST:0 "[CHARACTER.LocalPlayerString( 'Tu ', '' )]$LIST$[CHARACTER.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]"
+ RELATION_LIST_UNRELATED:0 "$LIST$"
+ RELATION_LONG_LIST:0 "$LIST$"
+ RELATION_LIST_EXTENDED:1 "$LIST$ #low (+$MORE_RELATIONS$)#!"
+ VASSAL:1 "[vassal|E]"
+ LIEGE:1 "[liege|E]"
+ KNIGHT:2 "[CHARACTER.GetLiege.Custom('KnightCulture')]"
+ COUNCILLOR:0 "[CHARACTER.GetCouncilTitle]"
+ COURTIER:1 "[courtier|E]"
+ GUEST:1 "[guest|E]"
+ RELATION_NEIGHBORING_RULER:0 "[ruler|E] vecino"
+ RELATION_FOREIGN_RULER:0 "[ruler|E] extranjero"
+ RELATION_MY_TOP_LIEGE:0 "Mi [top_liege|lE]"
+ RELATION_BELOW_VASSAL:0 "Vasallo de mi [realm|lE]"
+ RELATION_FELLOW_VASSAL:0 "Compañero [vassal|lE]"
+ RELATION_NEIGHBORING_FELLOW_VASSAL:0 "Compañero [vassal|lE] vecino"
+ RELATION_VASSAL_IN_REALM:1 "Vasallo en el [CHARACTER.GetPrimaryTitle.GetBaseName]"
+ RELATION_POOL_CHARACTER_LOCATION:0 "Errante"
+ RELATION_POOL_CHARACTER:0 "Errante"
+ RELATION_COUNCIL_POSITION:0 "[CHARACTER.GetCouncilTitle] de [TARGET_CHARACTER.GetShortUIName]"
+ RELATION_COURTIER:0 "Cortesano de [CHARACTER.GetShortUIName]"
+ RELATION_GUEST:0 "Invitado de [CHARACTER.GetShortUIName]"
+ THIS_IS_YOU_STATIC:0 "Eres tú."
+ THIS_IS_YOU:2 "[CHARACTER.Custom('ThisIsYou')]"
+ THIS_IS_YOU_ALLEGEDLY:0 "Eres tú, o eso dicen."
+ THIS_IS_YOU_UNFORTUNATELY:0 "Por desgracia, eres tú."
+ THIS_IS_YOU_KEY:0 "Eres tú."
+ THIS_IS_YOU_MAGNIFICENT:0 "Eres tú y estás #EMP radiante#!."
+ THIS_IS_YOU_NOT_FEEL:0 "Eres tú, aunque a veces te cueste creerlo."
+ MILITARY_VIEW:0 "Militar"
+ INTRIGUE_VIEW:0 "Intriga"
+ REALM_VIEW:0 "Vista del reino (antes vista militar)"
+ ARMY_LEVIES:0 "[levies|E]"
+ DOMAIN:0 "Señorío"
+ VASSALS:2 "[vassals|E]"
+ HIRED:0 "Contratado"
+ RAISE_ALL:1 "Reclutar ejércitos"
+ RAISE_ALL_RAIDERS:0 "Reclutar asaltantes"
+ RAISE_ALL_MEN_AT_ARMS:1 "Reclutar todos"
+ RAISE_HIRED_TROOP:0 "Reclutar"
+ DISBAND_ALL:0 "Disolver todos"
+ MERCENARIES:0 "Mercenarios"
+ HOLY_ORDERS:0 "Órdenes militares"
+ SORT_RANK:0 "Rango"
+ SORT_NAME:0 "Nombre"
+ SORT_OPINION:1 "Opinión sobre ti"
+ SORT_STRENGTH:0 "Fuerza"
+ SORT_INCOME:0 "Ingreso"
+ SORT_HEALTH:0 "Salud"
+ CURRENT_BALANCE:0 "[GetPlayerBalance|=1]"
+ TT_CURRENT_GOLD:1 "[gold_i|E] #high [GetPlayer.GetGold|1]#!"
+ TT_CURRENT_BALANCE:1 "#high [GetPlayerBalance|=+1]#!/mes"
+ CURRENT_BALANCE_TOOLTIP:1 "#T Mi [gold|lE] [gold_i]#!\n[GetPlayer.GetBalanceBreakdown]"
+ FULL_BALANCE_INFO:0 "Balance mensual: $BALANCE|=+1$ [gold_i]\n\n$INCOME_DESC$\n$EXPENSE_DESC$"
+ ESTIMATE_TAX_VASSAL:0 "[CHARACTER.GetUIName]"
+ ESTIMATE_TAX_INFO:0 "Ingresos totales por [Concept( 'tax', 'impuestos' )|E]: $TOTAL|=+1$ [gold_i]\n - [domain|E]: $DOMAIN|=+1$ [gold_i]\n - [vassals|E]: $VASSALS|=+1$ [gold_i]"
+ ESTIMATE_TAX_LIEGE:0 "Pagado al [liege|lE]: [gold_i]#N -$VALUE|1$#!"
+ ARMY_MAINTENANCE:0 "Mantenimiento del ejército: $VALUE|=+1$ [gold_i]"
+ BREAKDOWN_ARMY_MAINTENANCE:1 "[armies|E] reclutados"
+ BREAKDOWN_ARMY_MAINTENANCE_EMBARKED:0 "[armies|E] reclutados [embarked_i]"
+ MAA_TOTAL_COST:0 "[men_at_arms|E]: $VALUE|=+1$ [gold_i]"
+ MAA_MAINTENENCE_COST:0 " - Mantenimiento: $VALUE|=+1$ [gold_i]"
+ MAA_REINFORCEMENT_COST:0 " - Refuerzos: $VALUE|=+1$ [gold_i]"
+ BREAKDOWN_TOTAL_TAX:0 "Impuestos totales"
+ BREAKDOWN_MEN_AT_ARMS:0 "[men_at_arms|E]"
+ BREAKDOWN_REINFORCEMENT:0 "Refuerzos"
+ BREAKDOWN_MONTHLY_BALENCE:0 "Balance mensual"
+ BREAKDOWN_YEARLY_BALENCE:0 "Balance anual"
+ COST_RESULT_NOTHING:1 "#COLOR_GREEN #EMP nada#!#!"
+ GOLD_COST_BREAK:0 "Coste [gold_i]"
+ GOLD:0 "$VALUE|0$ [gold_i]"
+ GOLD_COST:0 "$VALUE|0$ [gold_i]"
+ GOLD_COST_REINFORCE:0 "$VALUE|2$ [gold_i]"
+ GOLD_COST_MAINTENANCE:0 "$VALUE|2$ [gold_i]"
+ GOLD_COST_LONG:0 "Oro: $VALUE|0$ [gold_i]"
+ GOLD_COST_LONG_MAINTENANCE:0 "Oro: $VALUE|2$ [gold_i]"
+ GOLD_K:0 "$VALUE|1$K [gold_i]"
+ GOLD_TEXT:0 "$VALUE|0$ de oro"
+ GOLD_CONCEPT:0 "[gold|E]"
+ GOLD_NO_ICON:0 "$VALUE|0$"
+ GOLD_K_NO_ICON:0 "$VALUE|1$K"
+ GOLD_SIMPLE_TOOLTIP:1 "#T [CHARACTER.LocalPlayerString( 'Tu', 'El' )] [gold|lE] [CHARACTER.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]: $VALUE|V0$#!"
+ GOLD_WITH_BALANCE_TOOLTIP:0 "#T [gold|E]: $VALUE|V0$#!\n$BALANCE|V=1$/mes"
+ COST_PER_DAY:0 "/día"
+ COST_PER_MONTH:0 "/mes"
+ COST_PER_YEAR:0 "/año"
+ PIETY:0 "$VALUE|0$ [piety_i]"
+ PIETY_COST:0 "$VALUE|0$ [piety_i]"
+ PIETY_COST_REINFORCE:0 "$VALUE|2$ [piety_i]"
+ PIETY_COST_MAINTENANCE:0 "$VALUE|1$ [piety_i]"
+ PIETY_COST_LONG:0 "Piedad: $VALUE|0$ [piety_i]"
+ PIETY_COST_LONG_MAINTENANCE:0 "Piedad: $VALUE|2$ [piety_i]"
+ PIETY_K:0 "$VALUE|1$K [piety_i]"
+ PIETY_CONCEPT:0 "[piety|E]"
+ PIETY_LEVEL_CONCEPT:0 "[piety_level|E]"
+ PIETY_WITH_BALANCE_TOOLTIP:1 "#T [piety|E]: $VALUE|V0$#!\n$BALANCE|V=1$/mes\n#T [piety_level|E]: #!$LEVEL$"
+ PRESTIGE:0 "$VALUE|0$ [prestige_i]"
+ PRESTIGE_COST:0 "$VALUE|0$ [prestige_i]"
+ PRESTIGE_COST_REINFORCE:0 "$VALUE|1$ [prestige_i]"
+ PRESTIGE_COST_MAINTENANCE:0 "$VALUE|1$ [prestige_i]"
+ PRESTIGE_COST_LONG:0 "Prestigio: $VALUE|0$ [prestige_i]"
+ PRESTIGE_COST_LONG_MAINTENANCE:0 "Prestigio: $VALUE|2$ [prestige_i]"
+ PRESTIGE_K:0 "$VALUE|1$K [prestige_i]"
+ PRESTIGE_CONCEPT:0 "[prestige|E]"
+ PRESTIGE_LEVEL_CONCEPT:0 "[prestige_level|E]"
+ PRESTIGE_WITH_BALANCE_TOOLTIP:1 "#T [prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/mes\n\n#T [prestige_level|E]: #!$LEVEL$"
+ DYNASTY_PRESTIGE:0 "$VALUE|0$ [dynasty_prestige_i]"
+ DYNASTY_PRESTIGE_COST:0 "$VALUE|0$ [dynasty_prestige_i]"
+ DYNASTY_PRESTIGE_COST_LONG:0 "Renombre: $VALUE|0$ [dynasty_prestige_i]"
+ DYNASTY_PRESTIGE_K:0 "$VALUE|1$K [dynasty_prestige_i]"
+ DYNASTY_PRESTIGE_CONCEPT:0 "[dynasty_prestige|E]"
+ DYNASTY_PRESTIGE_LEVEL_CONCEPT:0 "[dynasty_prestige_level|E]"
+ NUMBER_OF_MEN_DESC:0 "[soldiers|E]"
+ NUMBER_OF_MEN_VALUE:0 "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE|0$ #!"
+ NUMBER_OF_MEN_VALUE_K:1 "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE$ #!"
+ NUMBER_OF_MEN_VALUE_K_NO_TOOLTIP:1 "$VALUE|1$"
+ NUMBER_OF_MEN_VALUE_WITH_LABEL:0 "$VALUE|0V$ [soldiers|lE]"
+ NUMBER_OF_MEN_ARRIVED:0 "$VALUE|0V$ [soldiers|lE] ya reunidos."
+ CONTRACTED_VALUE:0 "$VALUE|0$"
+ CONTRACTED_VALUE_K:0 "$VALUE|1$K"
  COMMON_INFO_LIST_PREFIX:0 "* "
- HAS_HOOK_ON_ME:1 "$WHO$ te tiene enganchado." #NT!
- YOU_HAVE_HOOK:1 "Tienes un gancho en $WHO$." #NT!
- INCOME:1 "[income] mensual" #NT!
- EXPENSES:1 "Gastos mensuales" #NT!
- LEVIES:1 "[levies|E]:" #NT!
- TOTAL_TAX:0 "Total impuestos" #NT!
- TAXABLE_VASSAL_INCOME:0 "Ingreso imponible" #NT!
- VASSAL_CONTRIBUTION:0 "Contribución" #NT!
- CONTRIBUTABLE_VASSAL_LEVIES:0 "Levas totales" #NT!
- TOTAL_LEVIES:0 "Tasas Contribuidas" #NT!
- LEVIES_ICON:0 "[soldier_i]" #NT!
- OPINION_HEADER:0 "[opinion|E]" #NT!
- AUTOSAVE_IN_PROGRESS:1 "Guardado automático..." #NT!
- SAVE_IN_PROGRESS:0 "Ahorro..." #NT!
- MISSING_DLCS_HEADER:0 "@advertencia_icono! #X DLC faltantes:#!" #NT!
- MISSING_DLC_ENTRY:0 "#indent_newline:2 $EFFECT_LIST_BULLET$$DLC_NAME$#!" #NT!
- MISSING_MODS_HEADER:0 "@advertencia_icono! #X Modificaciones faltantes:#!\n" #NT!
- MISSING_MODS:0 "@advertencia_icono! #X Modificaciones faltantes#!" #NT!
- MISSING_DLC:0 "@advertencia_icono! #X Falta DLC#!" #NT!
- MISSING_CONTINUE_SAVE_GAME_TITLE:0 "Juego guardado faltante" #NT!
- MISSING_CONTINUE_SAVE_GAME_DESC:0 "No se pudo encontrar el juego guardado:\n$SAVE_GAME$" #NT!
- LOAD_GAME_FAILED_TITLE:0 "Error al cargar la partida guardada" #NT!
- LOAD_GAME_FAILED_DESC:0 "No se pudo cargar el juego guardado, esto podría deberse a:\n#indent_newline:2 $EFFECT_LIST_BULLET$El juego guardado se creó con una versión incompatible del juego\n$EFFECT_LIST_BULLET$El juego guardado usa un conjunto diferente de DLC\n$EFFECT_LIST_BULLET$El archivo guardado está dañado#!" #NT!
- GAME_RULES_BLOCKING_ACHIEVEMENTS_HEADER:0 "@warning_icon!#X Reglas del juego bloquean logros:#!\nThe las reglas del juego utilizadas en este guardado ahora bloquean los logros, cargarlo desactivará los logros en el guardado.\nReglas ahora bloquean los logros:" #NT!
- GAME_RULE_BLOCKS_ACHIEVEMENTS_ENTRY:0 "#indent_newline:2 $EFFECT_LIST_BULLET$[GAME_RULE.GetName]: [GAME_RULE_SETTING.GetName]#!" #NT!
- GAME_CHECKSUM_CHANGED_FROM_SAVE_FILE:0 "@warning_icon!#X Suma de verificación no válida para logros#!\nThis el guardado era válido para Logros en una suma de verificación diferente, al cargarlo se deshabilitarán los Logros en el guardado." #NT!
- TIER_TYPE:0 "[$TIER_KEY$|E]" #NT!
- DYNASTY_MEMBERS:0 "Miembros de la dinastía '$DYNASTY$': \n$LIST$" #NT!
- GOOD_COLOR:0 "$KEY|P$" #NT!
- BAD_COLOR:0 "$KEY|N$" #NT!
- NEUTRAL_COLOR:0 "$KEY|Z$" #NT!
- GOTO_PROVINCE:0 "Ir a ubicación" #NT!
- GOTO_PROVINCE_TT:0 "#T $GOTO_PROVINCE$#!" #NT!
- DYNASTY:0 "Dinastía" #NT!
- DYNASTY_HOUSE:0 "Casa" #NT!
- MENU:0 "Menú" #NT!
- RESUME:0 "Reanudar" #NT!
- PAUSE:0 "Pausa" #NT!
- PAUSED:0 "En pausa" #NT!
- PAUSED_BY_EVENT:1 "#X Detenido por evento: $TITLE$#!" #NT!
- PAUSED_BY_TUTORIAL:0 "#X Detenido por Tutorial: [TUTORIAL.GetStepName]#!" #NT!
- EXIT:1 "Salir del juego" #NT!
- EXIT_TO_DESKTOP:0 "Salir al escritorio" #NT!
- SHOW_LEGACY:1 "Linaje" #NT!
- RESIGN:1 "Salir al menú principal" #NT!
- SAVE_AND_RESIGN:0 "Guardar y $RESIGN$" #NT!
- SAVE_AND_EXIT_TO_DESKTOP:0 "Guardar y $EXIT_TO_DESKTOP$" #NT!
- UNSAVED_PROGRESS_WILL_BE_LOST:0 "Cualquier progreso no guardado se perderá" #NT!
- GAME_WILL_BE_SAVED:0 "Por estar en Ironman se guardará tu partida" #NT!
- RESIGNATION_CONFIRMATION_DESC:1 "¿Está seguro de que desea salir al menú?\n[SelectLocalization( IsIronmanEnabled, 'GAME_WILL_BE_SAVED', 'UNSAVED_PROGRESS_WILL_BE_LOST' )]" #NT!
- QUIT_TO_DESKTOP_CONFIRMATION_DESC:1 "¿Está seguro de que desea salir al escritorio?\n[SelectLocalization( IsIronmanEnabled, 'GAME_WILL_BE_SAVED', 'UNSAVED_PROGRESS_WILL_BE_LOST' )]" #NT!
- OPEN_FOR_MULTIPLAYER:0 "Abierto para multijugador" #NT!
- OPEN_LOBBY:1 "Abierto para multijugador" #NT!
- CLOSE_LOBBY:0 "Cerrar vestíbulo" #NT!
- HOST:0 "Anfitrión" #NT!
- JOINING_SERVER_PROGRESS:0 "Servidor de unión: $PROGRESS|0%$" #NT!
- WAITING_SERVER_REPLY:0 "Esperando una respuesta del servidor" #NT!
- GENERATING_BOOKMARK_PROGRESS:0 "Generando mundo a partir de la historia: $PROGRESS|0%$" #NT!
- LOADING_SAVEGAME_PROGRESS:1 "Cargando: $PROGRESS|0%$" #NT!
- LOADSCREEN_INITIALIZING_GAME:0 "Viajando a Poniente..." #NT!
- SERVER_NAME:0 "Juego de $NAME$" #NT!
- PLAYERS_ON_SERVER:0 "Jugadores en el servidor: NOMBRE — TÍTULO — PING" #NT!
- PLAYER_ON_SERVER:0 "$NAME$ - $TITLE$ - $PING$" #NT!
- NAME_NOT_FOUND:0 "Nombre no encontrado." #NT!
- KICK_NAME:0 "$NAME$ fue expulsado del juego." #NT!
- MODIFIED:0 "Modificado: $DATE$" #NT!
- PLAYER_LEFT:0 "Jugador a la izquierda" #NT!
- PLAYER_NAME_LEFT:0 "$NAME$ abandonó el juego." #NT!
- PLAYER_JOINED:0 "Jugador unido" #NT!
- PLAYER_NAME_JOINED:0 "$NAME$ se unió al juego." #NT!
- HOST_LEFT:0 "Anfitrión a la izquierda" #NT!
- HOST_LEFT_DESC:0 "El anfitrión ($NAME$) se fue. El juego continuará como un juego para un solo jugador." #NT!
- KEY_VALUE:0 "$KEY$: $VALUE|V0$" #NT!
- KEY_VALUE_F1:0 "$KEY$: $VALUE|V1$" #NT!
- KEY_VALUE_F2:0 "$KEY$: $VALUE|V2$" #NT!
- KEY_VALUE_PERCENT:0 "$KEY$: $VALUE|V0%$" #NT!
- KEY_VALUE_PERCENT_POSITIVE:0 "$KEY$: $VALUE|+0%$" #NT!
- CHARACTER_VALUE:0 "[CHARACTER.GetUIName]: $VALUE|V0$" #NT!
- CHARACTER_VALUE_F1:0 "[CHARACTER.GetUIName]: $VALUE|V1$" #NT!
- CHARACTER_VALUE_F2:0 "[CHARACTER.GetUIName]: $VALUE|V2$" #NT!
- ERROR_ACTION:0 "\n#I Haz clic en mí y te los mostraré. Haz clic derecho sobre mí para borrar el registro de errores.#!" #NT!
- ERROR_HOOF:1 "Soy Pezuña de Error. Estoy aquí porque hay errores $ERRORS$ en tu juego. $ERROR_ACTION$" #NT!
- ERROR_HOOF_1:1 "Soy el Niño Jesús. A veces estoy aquí en lugar de Errorhoof. También estoy aquí porque hay errores $ERRORS$ en tu juego. $ERROR_ACTION$" #NT!
- ERROR_HOOF_2:1 "Soy Eryoni. A veces estoy aquí en lugar de Errorhoof. También estoy aquí porque hay errores $ERRORS$ en tu juego. $ERROR_ACTION$" #NT!
- ERROR_HOOF_3:1 "Soy el Bazcat. A veces estoy aquí en lugar de Errorhoof. Alimentame. También hay errores $ERRORS$ en tu juego. $ERROR_ACTION$" #NT!
- ERROR_HOOF_4:0 "Soy Sauronat. A veces estoy aquí en lugar de Errorhoof. No lo llames Reconquista si no me pondré triste. También hay errores $ERRORS$ en tu juego. $ERROR_ACTION$" #NT!
- ENABLED_MODS:0 "Modos habilitados:" #NT!
- RALLY_POINT_NAME:0 "Punto de reunión en [PROVINCE.GetNameNoTooltip]" #NT!
- CONFIRM:0 "Confirmar" #NT!
- friends:0 "Amigos" #NT!
- friend_plural:0 "Amigos" #NT!
- friends_desc:0 "Las amistades son para siempre." #NT!
- PLAYER_NEEDED_IF_ONLY_ONE_ARG:0 "Se necesita un jugador válido si solo se usa un argumento." #NT!
- INVALID_CHARACTER:0 "Carácter invalido" #NT!
- INVALID_RELATION:0 "Relación inválida" #NT!
- RELATION_ADDED:0 "Se agregó la relación $RELATION$ entre $CHAR01$ y $CHAR02$" #NT!
- RELATION_REMOVED:0 "Se eliminó la relación $RELATION$ entre $CHAR01$ y $CHAR02$" #NT!
- SET_SCRIPTED_RELATION:0 "$CHAR01$ se convertirá en $RELATION01|V$ a $CHAR02$" #NT!
- SET_SCRIPTED_RELATION_SAME:0 "$CHAR01$ y $CHAR02$ se convierten en $RELATION01|V$" #NT!
- SET_SCRIPTED_RELATION_DIFFERENT:0 "$CHAR01$ se convierte en $RELATION01|V$ de $CHAR02$ y $CHAR02$ se convierte en $RELATION02|V$ de $CHAR01$" #NT!
- REMOVE_SCRIPTED_RELATION:0 "$CHAR01$ dejará de ser $RELATION|V$ para $CHAR02$" #NT!
- HAS_SCRIPTED_RELATION:0 "$CHAR01$ es el $RELATION|V$ de $CHAR02$" #NT!
- TITLE_DEFINITE_FORM:0 "$TITLE$" #NT!
- DURATION_FOREVER:0 "#V Para siempre#! " #NT!
- DURATION_DATE:0 "[DATE.GetStringShort|V]" #NT!
- DURATION_DATE_RANGE:0 "$[DATE_MIN.GetStringShort|V]$ - $[DATE_MAX.GetStringShort|V]$" #NT!
- DURATION_NO_DATE:1 "$DURATION$" #NT!
- DURATION_NO_DATE_RANGE:2 "entre $DURATION_MIN$ y $DURATION_MAX$" #NT!
- NUMBER_OF_MEN:0 "[soldiers|E]:" #NT!
- NUMBER_OF_REGIMENTS:0 "Número de regimientos" #NT!
- TIME_TO_RAISE:0 "Hora de reunir:" #NT!
- DAYS:0 "Días" #NT!
- DAYS_WITH_SPACE:0 "Días" #NT!
- VALUE_DAYS:0 "#V $VALUE$ días#! " #NT!
- MAINTENANCE:0 "Mantenimiento" #NT!
- BANNER:0 "Punto de reunión" #NT!
- SCOPE_CHARACTER:0 "[ROOT.GetCharacter.GetUIName]:" #NT!
- SCOPE_CHARACTER_ME:0 "YO, [ROOT.GetCharacter.GetUIName]:" #NT!
- SCOPE_LANDED_TITLE:0 "[ROOT.GetLandedTitle.GetName]:" #NT!
- SCOPE_PROVINCE:0 "[ROOT.GetProvince.GetName]:" #NT!
- SCOPE_ACTIVITY:0 "[ROOT.GetActivity.GetName]:" #NT!
- SCOPE_SECRET:0 "[ROOT.GetSecret.GetName]:" #NT!
- SCOPE_SCHEME:0 "[ROOT.GetScheme.GetName]:" #NT!
- SCOPE_COMBAT:0 "[ROOT.GetCombat.GetName]:" #NT!
- SCOPE_FAITH:0 "[ROOT.Faith.GetName]:" #NT!
- SCOPE_RELIGION:0 "[ROOT.Religion.GetName]:" #NT!
- SCOPE_GREAT_HOLY_WAR:0 "[ROOT.GreatHolyWar.GetName]:" #NT!
- SCOPE_WAR:0 "[ROOT.War.GetName]:" #NT!
- SCOPE_DYNASTY:0 "[dynasty|E] [ROOT.Dinastia.GetName]:" #NT!
- SCOPE_DYNASTY_HOUSE:0 "[house|E] [ROOT.House.GetName]:" #NT!
- SCOPE_FACTION:0 "[ROOT.Faction.GetName]:" #NT!
- SCOPE_CULTURE:0 "[ROOT.Culture.GetName]:" #NT!
- SCOPE_ARMY:0 "[ROOT.Army.GetName]:" #NT!
- SCOPE_HOLY_ORDER:0 "[ROOT.HolyOrder.GetName]:" #NT!
- SCOPE_ACTIVE_COUNTIL_TASK:0 "[ROOT.CouncilTask.GetName]:" #NT!
- SCOPE_MERCENARY_COMPANY:0 "[ROOT.MercenaryCompany.GetName]:" #NT!
- SCOPE_INSPIRATION:0 "[ROOT.Inspiration.GetName]" #NT!
- SCOPE_STRUGGLE:0 "[ROOT.Struggle.GetName]" #NT!
- SAVE_NAME_LABEL:0 "Guardar nombre:" #NT!
- SAVE_TO_CLOUD_LABEL:0 "Guardar en la nube" #NT!
- FILE_NAME_INVALID:1 "@warning_icon!#X Nombre guardado no válido#! " #NT!
- STRESS:0 "Estrés" #NT!
- NO_STRESS_EFFECT:0 "#weak Sin efecto#!" #NT!
- DREAD:0 "Miedo" #NT!
- VASSALS_COLON:0 "[vassals]:" #NT!
- LIEGE_COLON:0 "[liege]:" #NT!
- diplomacy:0 "Diplomacia" #NT!
- martial:0 "Marcial" #NT!
- stewardship:0 "Administración" #NT!
- intrigue:0 "Intriga" #NT!
- learning:0 "Aprendiendo" #NT!
- prowess:0 "Valor" #NT!
- diplomacy_modifier:1 "[diplomacy|E]" #NT!
- martial_modifier:1 "[martial|E]" #NT!
- stewardship_modifier:1 "[stewardship|E]" #NT!
- intrigue_modifier:1 "[intrigue|E]" #NT!
- learning_modifier:1 "[learning|E]" #NT!
- prowess_modifier:1 "[prowess|E]" #NT!
- diplomacy_modifier_with_offset:0 "$diplomacy_modifier$" #NT!
- martial_modifier_with_offset:0 "$martial_modifier$" #NT!
- stewardship_modifier_with_offset:0 "$stewardship_modifier$" #NT!
- intrigue_modifier_with_offset:0 "$intrigue_modifier$" #NT!
- learning_modifier_with_offset:0 "$learning_modifier$" #NT!
- general_skill:0 "General" #NT!
- diplomacy_concept:0 "[diplomacy|E]" #NT!
- martial_concept:0 "[martial|E]" #NT!
- stewardship_concept:0 "[stewardship|E]" #NT!
- intrigue_concept:0 "[intrigue|E]" #NT!
- learning_concept:0 "[learning|E]" #NT!
- prowess_concept:0 "[prowess|E]" #NT!
- event_target_desc:0 "Un alcance se puede guardar como un "objetivo de evento". Entonces será accesible desde cualquier disparador/efecto que se pueda "retroceder" en una línea directa hasta el punto donde guardó el objetivo del evento (es decir, cualquier disparador que esté marcado o efectos que se disparen después de guardar el objetivo del evento, pero solo en una cadena continua, como una cadena de eventos). Si una cadena de eventos finaliza, el destino del evento se pierde.\nTenga en cuenta que una cantidad de on_actions configuradas por código y una cantidad de interacciones especiales vienen con sus propios objetivos de eventos predefinidos.\nNota final: también puede guardar valores y bools como destinos de eventos, lo que puede ser útil en ciertas situaciones." #NT!
- parameter_desc:0 "Restos de Stellaris. Si está considerando usar esto, probablemente sea mejor que use ámbitos guardados como variables. (¡Cambie esta descripción si hemos comenzado a usar "parámetro" por cualquier motivo!)" #NT!
- variable_desc:0 "Las variables de script son accesibles y modificables por script. Actualmente vienen en las siguientes formas:\n\nvariable:example_number = 1\nvariable:example_flag = flag:example\nvariable:example_scope = root\nvariable:example_bool = yes" #NT!
- flag_desc:0 "Las banderas son marcadores simples que puedes usar para rastrear que algo ha sucedido en el juego. Tienen un tipo específico según el tipo de alcance en el que se haya establecido (bandera de carácter, bandera de esquema, sC.). Altojardin en particular (por ejemplo, un carácter en particular) tendrá la bandera establecida hasta que un efecto lo elimine, o hasta que se agote su temporizador, si se definió un temporizador para él." #NT!
- TODO:0 "POR HACER: $WHAT$" #NT!
- EVENT_SIGNED:0 "Firmado," #NT!
- EVENT_SIGNATURE:1 "[CHARACTER.GetNameNoTooltip]" #NT!
+ HAS_HOOK_ON_ME:1 "$WHO$ tiene un anzuelo sobre mí."
+ YOU_HAVE_HOOK:1 "Tengo un anzuelo sobre $WHO$."
+ INCOME:1 "[income|E] mensuales"
+ EXPENSES:1 "Gastos mensuales"
+ LEVIES:1 "[levies|E]:"
+ TOTAL_TAX:0 "Impuestos totales"
+ TAXABLE_VASSAL_INCOME:0 "Ingresos gravables"
+ VASSAL_CONTRIBUTION:0 "Contribución"
+ CONTRIBUTABLE_VASSAL_LEVIES:0 "Levas disponibles"
+ TOTAL_LEVIES:0 "Levas contribuidas"
+ LEVIES_ICON:0 "[soldier_i]"
+ OPINION_HEADER:0 "[opinion|E]"
+ AUTOSAVE_IN_PROGRESS:1 "Guardando automáticamente…"
+ SAVE_IN_PROGRESS:0 "Guardando…"
+ MISSING_DLCS_HEADER:0 "@warning_icon! #X Faltan DLC:#!"
+ MISSING_DLC_ENTRY:0 "#indent_newline:2 $EFFECT_LIST_BULLET$$DLC_NAME$#!"
+ MISSING_MODS_HEADER:0 "@warning_icon! #X Faltan mods:#!\n"
+ MISSING_MODS:0 "@warning_icon! #X Faltan mods#!"
+ MISSING_DLC:0 "@warning_icon! #X Falta DLC#!"
+ MISSING_CONTINUE_SAVE_GAME_TITLE:0 "Partida perdida"
+ MISSING_CONTINUE_SAVE_GAME_DESC:0 "No se pudo encontrar la partida:\n$SAVE_GAME$"
+ LOAD_GAME_FAILED_TITLE:0 "Fallo al cargar partida"
+ LOAD_GAME_FAILED_DESC:0 "No se pudo cargar la partida. Puede deberse a:\n#indent_newline:2 $EFFECT_LIST_BULLET$La partida se guardó con una versión incompatible del juego.\n$EFFECT_LIST_BULLET$La partida usa un conjunto de DLC distinto.\n$EFFECT_LIST_BULLET$El archivo de la partida está corrupto.#!"
+ GAME_RULES_BLOCKING_ACHIEVEMENTS_HEADER:0 "@warning_icon!#X Logros bloqueados por reglas de partida:#!\nLas reglas de juego usadas en esta partida bloquean los logros. Si se carga, se desactivarán los logros.\nLas reglas que bloquean logros son:"
+ GAME_RULE_BLOCKS_ACHIEVEMENTS_ENTRY:0 "#indent_newline:2 $EFFECT_LIST_BULLET$[GAME_RULE.GetName]: [GAME_RULE_SETTING.GetName]#!"
+ GAME_CHECKSUM_CHANGED_FROM_SAVE_FILE:0 "@warning_icon!#X Suma de verificación no válida para logros.#!\nEsta partida era válida para logros con una suma de verificación distinta. Si se carga, se desactivarán los logros."
+ TIER_TYPE:0 "[$TIER_KEY$|E]"
+ DYNASTY_MEMBERS:0 "Miembros de la dinastía «$DYNASTY$»: \n$LIST$"
+ GOOD_COLOR:0 "$KEY|P$"
+ BAD_COLOR:0 "$KEY|N$"
+ NEUTRAL_COLOR:0 "$KEY|Z$"
+ GOTO_PROVINCE:0 "Ir allí"
+ GOTO_PROVINCE_TT:0 "#T $GOTO_PROVINCE$#!"
+ DYNASTY:0 "Dinastía"
+ DYNASTY_HOUSE:0 "Casa"
+ MENU:0 "Menú"
+ RESUME:0 "Continuar"
+ PAUSE:0 "Pausar"
+ PAUSED:0 "Pausado"
+ PAUSED_BY_EVENT:1 "#X Pausado por evento: $TITLE$#!"
+ PAUSED_BY_TUTORIAL:0 "#X Pausado por tutorial: [TUTORIAL.GetStepName]#!"
+ EXIT:1 "Salir de la partida"
+ EXIT_TO_DESKTOP:0 "Salir a escritorio"
+ SHOW_LEGACY:1 "Legado"
+ RESIGN:1 "Salir al menú principal"
+ SAVE_AND_RESIGN:0 "Guardar y $RESIGN$"
+ SAVE_AND_EXIT_TO_DESKTOP:0 "Guardar y $EXIT_TO_DESKTOP$"
+ UNSAVED_PROGRESS_WILL_BE_LOST:0 "Se perderá todo el progreso no guardado"
+ GAME_WILL_BE_SAVED:0 "Como estás jugando en modo Ironman, se guardará la partida"
+ RESIGNATION_CONFIRMATION_DESC:1 "¿Seguro que quieres salir al menú?\n[SelectLocalization( IsIronmanEnabled, 'GAME_WILL_BE_SAVED', 'UNSAVED_PROGRESS_WILL_BE_LOST' )]"
+ QUIT_TO_DESKTOP_CONFIRMATION_DESC:1 "¿Seguro que quieres salir al escritorio?\n[SelectLocalization( IsIronmanEnabled, 'GAME_WILL_BE_SAVED', 'UNSAVED_PROGRESS_WILL_BE_LOST' )]"
+ OPEN_FOR_MULTIPLAYER:0 "Abrir para multijugador"
+ OPEN_LOBBY:1 "Abrir para multijugador"
+ CLOSE_LOBBY:0 "Cerrar sala"
+ HOST:0 "Anfitrión"
+ JOINING_SERVER_PROGRESS:0 "Uniéndose a servidor: $PROGRESS|0%$"
+ WAITING_SERVER_REPLY:0 "Esperando respuesta del servidor"
+ GENERATING_BOOKMARK_PROGRESS:0 "Generando mundo desde la historia: $PROGRESS|0%$"
+ LOADING_SAVEGAME_PROGRESS:1 "Cargando: $PROGRESS|0%$"
+ LOADSCREEN_INITIALIZING_GAME:0 "Viajando a  Poniente..." #AGOT AGOT AGOT
+ SERVER_NAME:0 "Partida de $NAME$"
+ PLAYERS_ON_SERVER:0 "Jugadores en servidor: NOMBRE - TÍTULO - PING"
+ PLAYER_ON_SERVER:0 "$NAME$ - $TITLE$ - $PING$"
+ NAME_NOT_FOUND:0 "Nombre no encontrado."
+ KICK_NAME:0 "Se ha expulsado a $NAME$ de la partida."
+ MODIFIED:0 "Modificado: $DATE$"
+ PLAYER_LEFT:0 "El jugador se ha ido"
+ PLAYER_NAME_LEFT:0 "$NAME$ ha dejado la partida."
+ PLAYER_JOINED:0 "Jugador se ha unido"
+ PLAYER_NAME_JOINED:0 "$NAME$ se ha unido a la partida."
+ HOST_LEFT:0 "El anfitrión se ha ido"
+ HOST_LEFT_DESC:0 "El anfitrión ($NAME$) se ha ido. El juego seguirá como una partida individual."
+ KEY_VALUE:0 "$KEY$: $VALUE|V0$"
+ KEY_VALUE_F1:0 "$KEY$: $VALUE|V1$"
+ KEY_VALUE_F2:0 "$KEY$: $VALUE|V2$"
+ KEY_VALUE_PERCENT:0 "$KEY$: $VALUE|V0%$"
+ KEY_VALUE_PERCENT_POSITIVE:0 "$KEY$: $VALUE|+0%$"
+ CHARACTER_VALUE:0 "[CHARACTER.GetUIName]: $VALUE|V0$"
+ CHARACTER_VALUE_F1:0 "[CHARACTER.GetUIName]: $VALUE|V1$"
+ CHARACTER_VALUE_F2:0 "[CHARACTER.GetUIName]: $VALUE|V2$"
+ ERROR_ACTION:0 "\n#I Haz clic sobre mí y te los mostraré. Clic secundario para limpiar el registro de errores.#!"
+ ERROR_HOOF:1 "Soy PezuñaErrada. Estoy aquí porque tu juego tiene errores ($ERRORS$). $ERROR_ACTION$"
+ ERROR_HOOF_1:1 "Soy Jesushito. A veces aparezco en lugar de PezuñaErrada. También estoy aquí porque hay errores en tu juego ($ERRORS$). $ERROR_ACTION$"
+ ERROR_HOOF_2:1 "Soy Erroberto. A veces aparezco en lugar de PezuñaErrada. También estoy aquí porque hay errores en tu juego ($ERRORS$). $ERROR_ACTION$"
+ ERROR_HOOF_3:1 "Soy Bazgato. A veces aparezco en lugar de PezuñaErrada. Dame de comer. Por cierto, hay errores en tu juego ($ERRORS$). $ERROR_ACTION$"
+ ERROR_HOOF_4:0 "Soy Recongato. A veces aparezco en lugar de PezuñaErrada. No lo llames Reconquista o me pongo triste. Hay $ERRORS$ error(es) en tu juego. $ERROR_ACTION$"
+ ENABLED_MODS:0 "Mods habilitados"
+ RALLY_POINT_NAME:0 "Punto de reunión en [PROVINCE.GetNameNoTooltip]"
+ CONFIRM:0 "Confirmar"
+ friends:0 "Amigos"
+ friend_plural:0 "Amigos"
+ friends_desc:0 "La amistad es eterna."
+ PLAYER_NEEDED_IF_ONLY_ONE_ARG:0 "Se necesita un jugador válido si solo se usa un argumento."
+ INVALID_CHARACTER:0 "Personaje no válido"
+ INVALID_RELATION:0 "Relación no válida"
+ RELATION_ADDED:0 "Relación $RELATION$ entre $CHAR01$ y $CHAR02$ añadida"
+ RELATION_REMOVED:0 "Relación $RELATION$ entre $CHAR01$ y $CHAR02$ eliminada"
+ SET_SCRIPTED_RELATION:0 "$CHAR01$ será un $RELATION01|V$ para $CHAR02$"
+ SET_SCRIPTED_RELATION_SAME:0 "$CHAR01$ y $CHAR02$ se convertirán en $RELATION01|V$"
+ SET_SCRIPTED_RELATION_DIFFERENT:0 "$CHAR01$ se convierte en $RELATION01|V$ de $CHAR02$ y $CHAR02$ se convierte en $RELATION02|V$ de $CHAR01$"
+ REMOVE_SCRIPTED_RELATION:0 "$CHAR01$ ya no será $RELATION|V$ de $CHAR02$"
+ HAS_SCRIPTED_RELATION:0 "$CHAR01$ es el $RELATION|V$ de $CHAR02$"
+ TITLE_DEFINITE_FORM:0 "$TITLE$"
+ DURATION_FOREVER:0 "#V Para siempre#! "
+ DURATION_DATE:0 "[DATE.GetStringShort|V]"
+ DURATION_DATE_RANGE:0 "$[DATE_MIN.GetStringShort|V]$ - $[DATE_MAX.GetStringShort|V]$"
+ DURATION_NO_DATE:1 "$DURATION$"
+ DURATION_NO_DATE_RANGE:2 "entre $DURATION_MIN$ y $DURATION_MAX$"
+ NUMBER_OF_MEN:0 "[soldiers|E]:  "
+ NUMBER_OF_REGIMENTS:0 "Número de regimientos"
+ TIME_TO_RAISE:0 "Tiempo para reunirse:  "
+ DAYS:0 "Días"
+ DAYS_WITH_SPACE:0 " Días"
+ VALUE_DAYS:0 "#V $VALUE$ días#! "
+ MAINTENANCE:0 "Mantenimiento"
+ BANNER:0 "Punto de reunión"
+ SCOPE_CHARACTER:0 "[ROOT.GetCharacter.GetUIName]:"
+ SCOPE_CHARACTER_ME:0 "Yo, [ROOT.GetCharacter.GetUIName]:"
+ SCOPE_LANDED_TITLE:0 "[ROOT.GetLandedTitle.GetName]:"
+ SCOPE_PROVINCE:0 "[ROOT.GetProvince.GetName]:"
+ SCOPE_ACTIVITY:0 "[ROOT.GetActivity.GetName]:"
+ SCOPE_SECRET:0 "[ROOT.GetSecret.GetName]:"
+ SCOPE_SCHEME:0 "[ROOT.GetScheme.GetName]:"
+ SCOPE_COMBAT:0 "[ROOT.GetCombat.GetName]:"
+ SCOPE_FAITH:0 "[ROOT.Faith.GetName]:"
+ SCOPE_RELIGION:0 "[ROOT.Religion.GetName]:"
+ SCOPE_GREAT_HOLY_WAR:0 "[ROOT.GreatHolyWar.GetName]:"
+ SCOPE_WAR:0 "[ROOT.War.GetName]:"
+ SCOPE_DYNASTY:0 "[dynasty|E] [ROOT.Dynasty.GetName]:"
+ SCOPE_DYNASTY_HOUSE:0 "[house|E] [ROOT.House.GetName]:"
+ SCOPE_FACTION:0 "[ROOT.Faction.GetName]:"
+ SCOPE_CULTURE:0 "[ROOT.Culture.GetName]:"
+ SCOPE_ARMY:0 "[ROOT.Army.GetName]:"
+ SCOPE_HOLY_ORDER:0 "[ROOT.HolyOrder.GetName]:"
+ SCOPE_ACTIVE_COUNTIL_TASK:0 "[ROOT.CouncilTask.GetName]:"
+ SCOPE_MERCENARY_COMPANY:0 "[ROOT.MercenaryCompany.GetName]:"
+ SCOPE_INSPIRATION:0 "[ROOT.Inspiration.GetName]"
+ SCOPE_STRUGGLE:0 "[ROOT.Struggle.GetName]"
+ SAVE_NAME_LABEL:0 "Nombre partida:"
+ SAVE_TO_CLOUD_LABEL:0 "Guardar en la nube"
+ FILE_NAME_INVALID:1 "@warning_icon!#X Nombre de partida no válido#! "
+ STRESS:0 "Estrés"
+ NO_STRESS_EFFECT:0 "#weak Sin efecto#!"
+ DREAD:0 "Temor"
+ VASSALS_COLON:0 "[vassals|E]:"
+ LIEGE_COLON:0 "[liege|E]:"
+ diplomacy:0 "Diplomacia"
+ martial:0 "Marcialidad"
+ stewardship:0 "Administración"
+ intrigue:0 "Intriga"
+ learning:0 "Aprendizaje"
+ prowess:0 "Destreza"
+ diplomacy_modifier:1 "[diplomacy|E]"
+ martial_modifier:1 "[Concept( 'martial', 'Marcialidad' )|E]"
+ stewardship_modifier:1 "[stewardship|E]"
+ intrigue_modifier:1 "[intrigue|E]"
+ learning_modifier:1 "[learning|E]"
+ prowess_modifier:1 "[prowess|E]"
+ diplomacy_modifier_with_offset:0 "$diplomacy_modifier$"
+ martial_modifier_with_offset:0 "$martial_modifier$"
+ stewardship_modifier_with_offset:0 "$stewardship_modifier$"
+ intrigue_modifier_with_offset:0 "$intrigue_modifier$"
+ learning_modifier_with_offset:0 "$learning_modifier$"
+ general_skill:0 "General"
+ diplomacy_concept:0 "[diplomacy|E]"
+ martial_concept:0 "[Concept( 'martial', 'Marcialidad' )|E]"
+ stewardship_concept:0 "[stewardship|E]"
+ intrigue_concept:0 "[intrigue|E]"
+ learning_concept:0 "[learning|E]"
+ prowess_concept:0 "[prowess|E]"
+ event_target_desc:0 "Se puede guardar un ámbito como «objetivo de evento» para que sea accesible desde cualquier efecto/disparador que se pueda «rastrear» en línea directa hasta el punto en que se guardó el objetivo del evento (es decir, cualquier disparador que esté marcado o aquellos efectos que se disparen tras guardar el objetivo del evento, pero solo en una cadena continua, como una cadena de eventos). Si la cadena de eventos termina, se perderá el objetivo del evento.\nRecuerda que existen una serie de acciones configuradas por código y también unas interacciones especiales con sus propios objetivos de eventos predefinidos.\nNota final: también se pueden guardar valores y bools como objetivos de eventos, lo que puede ser útil en ciertas situaciones."
+ parameter_desc:0 "Restos de Stellaris. Si estás pensando en usar esto, harás mejor en emplear campos guardados como variables. (¡Cambiar esta descripción si hemos empezado a usar "parámetros" por algún motivo!)"
+ variable_desc:0 "Las variantes del script son accesibles y modificables por el propio script. Las formas actuales son:\n\nvariable:example_number = 1\nvariable:example_flag = flag:example\nvariable:example_scope = root\nvariable:example_bool = yes"
+ flag_desc:0 "Las «banderas» (flags) son simples marcadores que pueden usarse para rastrear algo que pasó en el juego. Son de un tipo específico dependiendo del ámbito en el que se hayan fijado (personaje, conjura, sC.). El ámbito particular (por ejemplo, un personaje concreto) fijará la bandera hasta que se retire por un efecto o se acabe el tiempo, si es que se definió una duración."
+ TODO:0 "PENDIENTE: $WHAT$"
+ EVENT_SIGNED:0 "Firmado,"
+ EVENT_SIGNATURE:1 "[CHARACTER.GetUINameNotMeNoTooltip]"
  EVENT_REASON_SEPARATOR:0 ", "
- EVENT_REASON_SKILL:0 "$SKILL$ Habilidad" #NT!
- EVENT_REASON_TRAIT:0 "Rasgo [TRAIT.GetName( CHARACTER.Self )|L]" #NT!
- EVENT_REASONS_LAST_REASON:0 "$REASONS$ y $LAST_REASON$" #NT!
- EVENT_REASONS:1 "Esta opción está disponible debido a su $REASONS$." #NT!
- MOTHER:0 "Madre" #NT!
- FATHER:0 "Padre" #NT!
- MOTHER_WIFE:0 "Madre-esposa" #NT!
- FATHER_HUSBAND:0 "Padre-esposo" #NT!
- GRANDMOTHER:0 "Abuela" #NT!
- GRANDFATHER:0 "Abuelo" #NT!
- GREATGRANDMOTHER:0 "Bisabuela" #NT!
- GREATGRANDFATHER:0 "Bisabuelo" #NT!
- DAUGHTER:0 "Hija" #NT!
- SON:0 "Hijo" #NT!
- DAUGHTER_WIFE:0 "Hija-esposa" #NT!
- SON_HUSBAND:0 "Hijo-esposo" #NT!
- GRANDDAUGHTER:0 "Nieta" #NT!
- GRANDSON:0 "Nieto" #NT!
- GREATGRANDDAUGHTER:0 "Bisnieta" #NT!
- GREATGRANDSON:0 "Bisnieto" #NT!
- BROTHER:0 "Hermano" #NT!
- SISTER:0 "Hermana" #NT!
- HALF_BROTHER:0 "Medio hermano" #NT!
- HALF_SISTER:0 "Media hermana" #NT!
- BROTHER_HUSBAND:0 "Hermano-esposo" #NT!
- SISTER_WIFE:0 "Hermana-esposa" #NT!
- BROTHER_IN_LAW:0 "Cuñado" #NT!
- SISTER_IN_LAW:0 "Cuñada" #NT!
- RELATION_CONCUBINE_MAN:0 "$game_concept_concubine_male$" #NT!
- RELATION_CONCUBINE_WOMAN:0 "$game_concept_concubine_female$" #NT!
- PLAYER_HEIR_RELATION:2 "[player_heir|E]" #NT!
- UNCLE:0 "Tío" #NT!
- AUNT:0 "Tía" #NT!
- NEPHEW:0 "Sobrino" #NT!
- NIECE:0 "Sobrina" #NT!
- WIFE:0 "Esposa" #NT!
- COUSIN_FEMALE:0 "Primo" #NT!
- COUSIN_MALE:0 "Primo" #NT!
- CONCUBINE:0 "Concubina" #NT!
- HUSBAND:0 "Marido" #NT!
- PRISONER_RELATION:0 "Prisionero" #NT!
- RELATION_COURT_POSITION:0 "[COURT_POSITION.GetName]" #NT!
- RELATION_COMMANDER:0 "[commander|E]" #NT!
- RELATION_LIEGE_COUNCILLOR:0 "[TARGET_CHARACTER.GetShortUINamePossessive] [CHARACTER.GetCouncilTitle]" #NT!
- RELATION_LIEGE_COURT_POSITION:0 "[CHARACTER.GetShortUINamePossessive] [COURT_POSITION.GetName]" #NT!
- MY_VALUE_COLON:0 "#T $KEY$: $VALUE|V$#!" #NT!
- CHARACTER_VALUE_COLON:0 "#T $KEY$: $VALUE|V$#!" #NT!
- SCREENSHOT_TAKEN:0 "¡Captura de pantalla tomada!" #NT!
- MAP_SCREENSHOT_TAKEN:0 "¡Se está tomando una captura de pantalla del mapa!" #NT!
- INTERACTION_REPLY_ITEM:1 "#T $INTERACTION$\n#!Sender: [CHARACTER.GetUIName]\n" #NT!
- INTERACTION_REPLY_INTERACTION_DISMISS:0 "Despedir" #NT!
- INTERACTION_REPLY_INTERACTION_REJECT:0 "Rechazar" #NT!
- INTERACTION_REPLY_INTERACTION_DESC:0 "#I Haz clic para ver\nHaz clic derecho para $ACTION$#!" #NT!
- INTERACTION_REPLY_TIMEOUT_DISMISS:0 "Despedido" #NT!
- INTERACTION_REPLY_TIMEOUT_REJECT:0 "Rechazado" #NT!
- INTERACTION_REPLY_TIMEOUT_DESC:1 "Será automáticamente $ACTION$ en [DATE.GetString|V]" #NT!
- BETROTHAL_ACTION_ITEM:0 "#T [CHARACTER.GetUIName] y [TARGET_CHARACTER.GetUIName] pueden casarse#!\n#I Haz clic para ver\nHaz clic derecho para romper el compromiso#! " #NT!
- END_OF_WAR_ITEM_TIMEOUT_DESC:0 "Se descartará el [DATE.GetStringLong|V] #weak  (a menos que esté abierto actualmente) #!" #NT!
- END_OF_COMBAT_ITEM_TIMEOUT_DESC:0 "Se descartará el [DATE.GetStringLong|V] #weak  (a menos que esté abierto actualmente) #!" #NT!
- END_OF_WAR_ITEM_INTERACTION_DESC:0 "#I Haz clic para ver el resumen de la guerra\nHaz clic derecho para cerrar #!" #NT!
- END_OF_COMBAT_ITEM_INTERACTION_DESC:0 "#I Haz clic para ver los resultados\nHaz clic derecho para descartar#!" #NT!
- END_OF_COMBAT_VICTORY:0 "¡Victoria!" #NT!
- END_OF_COMBAT_DEFEAT:0 "¡Fracaso!" #NT!
- END_OF_COMBAT_ACTION_ITEM:1 "#T $WINLOSE$#!\n$BATTLENAME$\n" #NT!
- DIPLOMATIC_ITEM_TOOLTIP:0 "[DiplomaticItem.GetTooltip]\n[DiplomaticItem.GetTimeoutDesc]\n[DiplomaticItem.GetInteractionDesc]" #NT!
- TRAIT_TOOLTIP_IN_LIST:0 "[TRAIT.GetName( CHARACTER.Self )|V]" #NT!
- TRAIT_CAN_NOT_HAVE_CHILDREN:0 "@warning_icon!#X No puedo tener hijos#!" #NT!
- TRAIT_FLAG_DESC_can_not_marry:0 "@warning_icon!#X No se puede casar#!" #NT!
- TRAIT_FLAG_DESC_can_murder_own_children:0 "Puede usar [hostile_schemes|E] contra sus propios hijos" #NT!
- TRAIT_FLAG_DESC_extra_scheme_power_vs_rivals:0 "[hostile_scheme|E] [success_chance|E] contra rivales: #P +[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]#!" #NT!
- TRAIT_FLAG_DESC_lower_chance_of_dying_in_combat:0 "Probabilidad de morir en [battle|E]: #P -50%#!" #NT!
- TRAIT_FLAG_DESC_higher_chance_of_dying_in_battle:0 "Probabilidad de morir en [battle|E]: #N +100%#!" #NT!
- TRAIT_BLOCK_INHERITANCE:0 "@warning_icon!#X No puede heredar títulos#!" #NT!
- TRAIT_FLAVOR_DESC:0 "$DESC|F$" #NT!
- FERTILITY_COLON:0 "[fertility|E]: $VALUE|V$" #NT!
- BIRTH_DATE:0 "Nacido el [Character.GetBirthDate.GetString|V]" #NT!
- YEARS_COUNT_SINGULAR:0 "#V 1 año#!" #NT!
- YEARS_COUNT_PLURAL:0 "#V $VALUE$ años#!" #NT!
- YEARS_COUNT_SINGULAR_NO_FORMAT:0 "1 año" #NT!
- YEARS_COUNT_PLURAL_NO_FORMAT:0 "$VALUE$ años" #NT!
- MONTHS_COUNT_SINGULAR:0 "#V 1 mes#!" #NT!
- MONTHS_COUNT_PLURAL:0 "#V $VALUE$ meses#!" #NT!
- MONTHS_COUNT_SINGULAR_NO_FORMAT:0 "1 mes" #NT!
- MONTHS_COUNT_PLURAL_NO_FORMAT:0 "$VALUE$ meses" #NT!
- DAYS_COUNT_SINGULAR:0 "#V 1 día#!" #NT!
- DAYS_COUNT_PLURAL:0 "#V $VALUE$ días#!" #NT!
- DAYS_COUNT_SINGULAR_NO_FORMAT:0 "1 día" #NT!
- DAYS_COUNT_PLURAL_NO_FORMAT:0 "$VALUE$ días" #NT!
- SKILL_AND_LEVEL_VALUE:0 "$VALUE|V$ #weak ($LEVEL$)#!" #NT!
- SKILL_TERRIBLE:0 "Horrible" #NT!
- SKILL_POOR:0 "Pobre" #NT!
- SKILL_AVERAGE:0 "Promedio" #NT!
- SKILL_GOOD:0 "Bien" #NT!
- SKILL_EXCELLENT:0 "Excelente" #NT!
- SKILL_NICE:0 "Lindo" #NT!
- skill_level_terrible:0 "Horrible" #NT!
- skill_level_poor:0 "Pobre" #NT!
- skill_level_average:0 "Promedio" #NT!
- skill_level_good:0 "Bien" #NT!
- skill_level_excellent:0 "Excelente" #NT!
- MY_REALM_LABEL:1 "Tu [realm|E]: #V [TITLE.GetName]#!" #NT!
- REALM_LABEL:0 "[realm|E]: #V [TITLE.GetName]#!" #NT!
- CHARACTER_PORTRAIT_TOOLTIP:0 "[Character.GetFullNameNicknamedNoTooltip]\n[Character.GetDebugTooltip]" #NT!
- TOOLTIP_HEADER:0 "#T $NAME$#!" #NT!
- ATTACKERS:1 "#attacker_color Atacantes#!" #NT!
- DEFENDERS:1 "#defender_color Defensores#!" #NT!
- ATTACKERS_FRIENDLY:1 "#defender_color Atacantes#!" #NT!
- DEFENDERS_HOSTILE:1 "#attacker_color Defensores#!" #NT!
- OWNER:0 "Dueño" #NT!
- PARTICIPATION_SCORE:0 "Puntaje de participación" #NT!
- CURRENT_MAX:0 "$CURRENT|0$/$MAX|0$" #NT!
- CREATE:0 "Crear" #NT!
- DEBUG_COLON:0 "#D DEBUG:#!" #NT!
- SHOW_DETAILS:0 "Mostrar detalles" #NT!
- PLAYER_NAME:0 "$NAME|D$" #NT!
- VALUE_BREAKDOWN_ENTRY:0 "$TITLE$: $VALUE$" #NT!
- VALUE_BREAKDOWN_ENTRY_VALUE_FIRST:0 "$VALUE$ $TITLE$" #NT!
- VALUE_BREAKDOWN_ENTRY_NO_VALUE:0 "$TITLE$" #NT!
- VALUE_BREAKDOWN_ENTRY_TOOLTIP_HEADER:0 "#T $TITLE$: $VALUE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_TOOLTIP_HEADER_VALUE_FIRST:0 "#T $VALUE$ $TITLE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_TOOLTIP_HEADER_NO_VALUE:0 "#T $TITLE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_TOOLTIP_SUBHEADER:0 "#S $TITLE$: $VALUE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_TOOLTIP_SUBHEADER_VALUE_FIRST:0 "#T $VALUE$ $TITLE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_TOOLTIP_SUBHEADER_NO_VALUE:0 "#S $TITLE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_WEAK:0 "#weak $TITLE$: $VALUE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_WEAK_VALUE_FIRST:0 "#weak $VALUE$ $TITLE$#!" #NT!
- VALUE_BREAKDOWN_ENTRY_WEAK_NO_VALUE:0 "#weak $TITLE$#!" #NT!
- GOVERNMENT_TYPE_DESCRIPTION:0 "[GovernmentType.GetRuleInfo][GovernmentType.GetFlagInfo][GovernmentType.GetDescription]" #NT!
- GOVERNMENT_FLAG_INFO:0 "$EFFECT_LIST_BULLET$ $FLAG$" #NT!
- GOVERNMENT_IGNORED_DEVELOPMENT:0 "$EFFECT_LIST_BULLET$ [development|E] en propiedad [counties|E] se ignora" #NT!
- DEVELOPMENT_CURRENT_LEVEL:0 "#T Nivel de desarrollo: $LEVEL|+0$ #!" #NT!
- DEVELOPMENT_PROGRESS_TO_LEVEL:0 "Desarrollo Crecimiento: $CURRENT|V0$/$THRESHOLD|V0$" #NT!
- DEVELOPMENT_PROGRESS:0 "Crecimiento Mensual" #NT!
- CONTROL_CURRENT_LEVEL:0 "#T Control del condado: $VALUE|1$/100 % #!" #NT!
- CONTROL_PROGRESS:0 "Incremento Mensual" #NT!
- BASE_FACTOR_COLON:0 "Base: $VALUE|%0+=$" #NT!
- BASE_AI_WILLINGNESS:0 "Voluntad base: $VALUE|0+=$" #NT!
- BASE_AI_RELUCTANCE:0 "Renuencia base: $VALUE|0+=$" #NT!
- COUNTY_OPINION_SAME_CULTURE:1 "Igual [culture|E]" #NT!
- COUNTY_OPINION_DIFFERENT_CULTURE:2 "[cultural_acceptance|E]" #NT!
- COUNTY_OPINION_DIFFERENT_CULTURE_KNOWS_LANGUAGE:1 "#weak ([GetDefine('NCharacterOpinion', 'CULTURE_ACCEPTANCE_MULT_KNOWS_LANGUAGE')|%0] menos ya que [CHARACTER.GetShortUIName] puede hablar [CULTURE.GetLanguage.GetName])#!" #NT!
+ EVENT_REASON_SKILL:0 "mi habilidad $SKILL$"
+ EVENT_REASON_TRAIT:0 "mi rasgo [TRAIT.GetName( CHARACTER.Self )|L]"
+ EVENT_REASONS_LAST_REASON:0 "mis $REASONS$ y mi $LAST_REASON$"
+ EVENT_REASONS:1 "Esta opción está disponible por $REASONS$."
+ MOTHER:0 "madre"
+ FATHER:0 "padre"
+ MOTHER_WIFE:0 "madre-esposa"
+ FATHER_HUSBAND:0 "padre-marido"
+ GRANDMOTHER:0 "abuela"
+ GRANDFATHER:0 "abuelo"
+ GREATGRANDMOTHER:0 "bisabuela"
+ GREATGRANDFATHER:0 "bisabuelo"
+ DAUGHTER:0 "hija"
+ SON:0 "hijo"
+ DAUGHTER_WIFE:0 "hija-esposa"
+ SON_HUSBAND:0 "hijo-marido"
+ GRANDDAUGHTER:0 "nieta"
+ GRANDSON:0 "nieto"
+ GREATGRANDDAUGHTER:0 "bisnieta"
+ GREATGRANDSON:0 "bisnieto"
+ BROTHER:0 "hermano"
+ SISTER:0 "hermana"
+ HALF_BROTHER:0 "hermanastro"
+ HALF_SISTER:0 "hermanastra"
+ BROTHER_HUSBAND:0 "hermano-marido"
+ SISTER_WIFE:0 "hermana-esposa"
+ BROTHER_IN_LAW:0 "cuñado"
+ SISTER_IN_LAW:0 "cuñada"
+ RELATION_CONCUBINE_MAN:0 "consorte"
+ RELATION_CONCUBINE_WOMAN:0 "concubina"
+ PLAYER_HEIR_RELATION:2 "[player_heir|E]"
+ UNCLE:0 "tío"
+ AUNT:0 "tía"
+ NEPHEW:0 "sobrino"
+ NIECE:0 "sobrina"
+ WIFE:0 "esposa"
+ COUSIN_FEMALE:0 "prima"
+ COUSIN_MALE:0 "primo"
+ CONCUBINE:0 "concubina"
+ HUSBAND:0 "marido"
+ PRISONER_RELATION:0 "prisionero"
+ RELATION_COURT_POSITION:0 "[COURT_POSITION.GetName]"
+ RELATION_COMMANDER:0 "[commander|E]"
+ RELATION_LIEGE_COUNCILLOR:0 "[CHARACTER.GetCouncilTitle] de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu consejo', TARGET_CHARACTER.GetShortUIName]"
+ RELATION_LIEGE_COURT_POSITION:0 "[COURT_POSITION.GetName] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu corte', CHARACTER.GetShortUIName]"
+ MY_VALUE_COLON:0 "#T $KEY$: $VALUE|V$#!"
+ CHARACTER_VALUE_COLON:0 "#T $KEY$: $VALUE|V$#!"
+ SCREENSHOT_TAKEN:0 "¡Captura de pantalla realizada!"
+ MAP_SCREENSHOT_TAKEN:0 "¡Haciendo pantallazo del mapa!"
+ INTERACTION_REPLY_ITEM:1 "#T $INTERACTION$\n#!Remitente: [CHARACTER.GetUIName]\n"
+ INTERACTION_REPLY_INTERACTION_DISMISS:0 "descartar"
+ INTERACTION_REPLY_INTERACTION_REJECT:0 "rechazar"
+ INTERACTION_REPLY_INTERACTION_DESC:0 "#I Haz clic para ver\nClic con el botón secundario para $ACTION$#!"
+ INTERACTION_REPLY_TIMEOUT_DISMISS:0 "descartado"
+ INTERACTION_REPLY_TIMEOUT_REJECT:0 "rechazado"
+ INTERACTION_REPLY_TIMEOUT_DESC:1 "Será $ACTION$ automáticamente el [DATE.GetString|V]."
+ BETROTHAL_ACTION_ITEM:0 "#T [CHARACTER.GetUIName] y [TARGET_CHARACTER.GetUIName] se pueden casar#!\n#I Haz clic para ver\nBotón secundario para romper compromiso#! "
+ END_OF_WAR_ITEM_TIMEOUT_DESC:0 "Se descartará el [DATE.GetStringLong|V] #weak (salvo que lo tengas abierto)#!"
+ END_OF_COMBAT_ITEM_TIMEOUT_DESC:0 "Se descartará el [DATE.GetStringLong|V] #weak (salvo que lo tengas abierto)#!"
+ END_OF_WAR_ITEM_INTERACTION_DESC:0 "#I Haz clic para ver el resumen de guerra\nBotón secundario para descartar#!"
+ END_OF_COMBAT_ITEM_INTERACTION_DESC:0 "#I Haz clic para ver los resultados\nBotón secundario para descartar#!"
+ END_OF_COMBAT_VICTORY:0 "¡Victoria!"
+ END_OF_COMBAT_DEFEAT:0 "¡Derrota!"
+ END_OF_COMBAT_ACTION_ITEM:1 "#T $WINLOSE$#!\n$BATTLENAME$\n"
+ DIPLOMATIC_ITEM_TOOLTIP:0 "[DiplomaticItem.GetTooltip]\n[DiplomaticItem.GetTimeoutDesc]\n[DiplomaticItem.GetInteractionDesc]"
+ TRAIT_TOOLTIP_IN_LIST:0 "[TRAIT.GetName( CHARACTER.Self )|V]"
+ TRAIT_CAN_NOT_HAVE_CHILDREN:0 "@warning_icon!#X No pueden tener hijos#!"
+ TRAIT_FLAG_DESC_can_not_marry:0 "@warning_icon!#X Quizás no se case#!"
+ TRAIT_FLAG_DESC_can_murder_own_children:0 "Puede usar [hostile_schemes|lE] contra sus propios hijos"
+ TRAIT_FLAG_DESC_extra_scheme_power_vs_rivals:0 "[success_chance|E] de [hostile_scheme|lE] contra rivales: #P +[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]#!"
+ TRAIT_FLAG_DESC_lower_chance_of_dying_in_combat:0 "Probabilidad de morir en [battle|lE]: #P -50%#!"
+ TRAIT_FLAG_DESC_higher_chance_of_dying_in_battle:0 "Probabilidad de morir en [battle|lE]: #N +100%#!"
+ TRAIT_BLOCK_INHERITANCE:0 "@warning_icon!#X Quizás no herede títulos#!"
+ TRAIT_FLAVOR_DESC:0 "$DESC|F$"
+ FERTILITY_COLON:0 "[fertility|E]: $VALUE|V$"
+ BIRTH_DATE:0 "Nacimiento el [DATE.GetStringShort|V]"
+ YEARS_COUNT_SINGULAR:0 "#V 1 año#!"
+ YEARS_COUNT_PLURAL:0 "#V $VALUE$ años#!"
+ YEARS_COUNT_SINGULAR_NO_FORMAT:0 "1 año"
+ YEARS_COUNT_PLURAL_NO_FORMAT:0 "$VALUE$ años"
+ MONTHS_COUNT_SINGULAR:0 "#V 1 mes#!"
+ MONTHS_COUNT_PLURAL:0 "#V $VALUE$ meses#!"
+ MONTHS_COUNT_SINGULAR_NO_FORMAT:0 "1 mes"
+ MONTHS_COUNT_PLURAL_NO_FORMAT:0 "$VALUE$ meses"
+ DAYS_COUNT_SINGULAR:0 "#V 1 día#!"
+ DAYS_COUNT_PLURAL:0 "#V $VALUE$ días#!"
+ DAYS_COUNT_SINGULAR_NO_FORMAT:0 "1 día"
+ DAYS_COUNT_PLURAL_NO_FORMAT:0 "$VALUE$ días"
+ SKILL_AND_LEVEL_VALUE:0 "$VALUE|V$ #weak ($LEVEL$)#!"
+ SKILL_TERRIBLE:0 "Horrible"
+ SKILL_POOR:0 "Pobre"
+ SKILL_AVERAGE:0 "Medio"
+ SKILL_GOOD:0 "Bueno"
+ SKILL_EXCELLENT:0 "Excelente"
+ SKILL_NICE:0 "Bien"
+ skill_level_terrible:0 "horrible"
+ skill_level_poor:0 "pobre"
+ skill_level_average:0 "medio"
+ skill_level_good:0 "bueno"
+ skill_level_excellent:0 "excelente"
+ MY_REALM_LABEL:1 "Tu [realm|lE]: #V [TITLE.GetName]#!"
+ REALM_LABEL:0 "[realm|E]: #V [TITLE.GetName]#!"
+ CHARACTER_PORTRAIT_TOOLTIP:0 "[Character.GetFullNameNicknamedNoTooltip]\n[Character.GetDebugTooltip]"
+ TOOLTIP_HEADER:0 "#T $NAME$#!"
+ ATTACKERS:1 "#attacker_color Atacantes#!"
+ DEFENDERS:1 "#defender_color Defensores#!"
+ ATTACKERS_FRIENDLY:1 "#defender_color Atacantes#!"
+ DEFENDERS_HOSTILE:1 "#attacker_color Defensores#!"
+ OWNER:0 "Propietario"
+ PARTICIPATION_SCORE:0 "Porcentaje participación"
+ CURRENT_MAX:0 "$CURRENT|0$/$MAX|0$"
+ CREATE:0 "Crear"
+ DEBUG_COLON:0 "#D DEBUG:#!"
+ SHOW_DETAILS:0 "Mostrar detalles"
+ PLAYER_NAME:0 "$NAME|D$"
+ VALUE_BREAKDOWN_ENTRY:0 "$TITLE$: $VALUE$"
+ VALUE_BREAKDOWN_ENTRY_VALUE_FIRST:0 "$VALUE$ $TITLE$"
+ VALUE_BREAKDOWN_ENTRY_NO_VALUE:0 "$TITLE$"
+ VALUE_BREAKDOWN_ENTRY_TOOLTIP_HEADER:0 "#T $TITLE$: $VALUE$#!"
+ VALUE_BREAKDOWN_ENTRY_TOOLTIP_HEADER_VALUE_FIRST:0 "#T $VALUE$ $TITLE$#!"
+ VALUE_BREAKDOWN_ENTRY_TOOLTIP_HEADER_NO_VALUE:0 "#T $TITLE$#!"
+ VALUE_BREAKDOWN_ENTRY_TOOLTIP_SUBHEADER:0 "#S $TITLE$: $VALUE$#!"
+ VALUE_BREAKDOWN_ENTRY_TOOLTIP_SUBHEADER_VALUE_FIRST:0 "#T $VALUE$ $TITLE$#!"
+ VALUE_BREAKDOWN_ENTRY_TOOLTIP_SUBHEADER_NO_VALUE:0 "#S $TITLE$#!"
+ VALUE_BREAKDOWN_ENTRY_WEAK:0 "#weak $TITLE$: $VALUE$#!"
+ VALUE_BREAKDOWN_ENTRY_WEAK_VALUE_FIRST:0 "#weak $VALUE$ $TITLE$#!"
+ VALUE_BREAKDOWN_ENTRY_WEAK_NO_VALUE:0 "#weak $TITLE$#!"
+ GOVERNMENT_TYPE_DESCRIPTION:0 "[GovernmentType.GetRuleInfo][GovernmentType.GetDescription]"
+ GOVERNMENT_FLAG_INFO:0 "$EFFECT_LIST_BULLET$ $FLAG$"
+ GOVERNMENT_IGNORED_DEVELOPMENT:0 "$EFFECT_LIST_BULLET$ El [development|lE] en [counties|lE] poseídos queda ignorado"
+ DEVELOPMENT_CURRENT_LEVEL:0 "#T Nivel de desarrollo: $LEVEL|+0$ #!"
+ DEVELOPMENT_PROGRESS_TO_LEVEL:0 "Crecimiento del desarrollo: $CURRENT|V0$/$THRESHOLD|V0$"
+ DEVELOPMENT_PROGRESS:0 "Crecimiento mensual"
+ CONTROL_CURRENT_LEVEL:0 "#T Control del condado: $VALUE|1$/100 % #!"
+ CONTROL_PROGRESS:0 "Aumento mensual"
+ BASE_FACTOR_COLON:0 "Base: $VALUE|%0+=$"
+ BASE_AI_WILLINGNESS:0 "Disposición base: $VALUE|0+=$"
+ BASE_AI_RELUCTANCE:0 "Renuencia base: $VALUE|0+=$"
+ COUNTY_OPINION_SAME_CULTURE:1 "Misma [culture|lE]"
+ COUNTY_OPINION_DIFFERENT_CULTURE:2 "[cultural_acceptance|E]"
+ COUNTY_OPINION_DIFFERENT_CULTURE_KNOWS_LANGUAGE:1 " #weak ([GetDefine('NCharacterOpinion', 'CULTURE_ACCEPTANCE_MULT_KNOWS_LANGUAGE')|%0] menos, ya que [CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsPlayer, 'hablas', 'habla' )] [CULTURE.GetLanguage.GetName])#!"
  BULLET_WITH_TAB:0 "    • "
- MODIFIER_BULLET:0 "$EFFECT_LIST_BULLET$" #NT!
- TAB:0 "    "
- SHORT_TAB:0 "   "
- HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$DYNASTY$ de $TITLE$" #AGOT CHANGED #NT!
+ MODIFIER_BULLET:0 "$EFFECT_LIST_BULLET$"
+ TAB:0 ""
+ SHORT_TAB:0 ""
+ HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$DYNASTY$-$TITLE$"
  #AGOT ADDED TITAN DON"T COMPATCH # AGOT ADDED # AGOT ADDED # AGOT MODIFIED
  #cadet_name:0 "[GetGlobalVariable('cadet_founder_global_variable_house_name').House.GetNameNoTooltip]" #NT!
- EVENT_OPTION_FLAVOR:0 "#F $TEXT$#!\n" #NT!
- CHARACTER_POSS_CHECK:0 "S" #NT!
- CHARACTER_POSS:0 "'s" #NT!
- CHARACTER_POSS_SPECIAL:0 "'"
- NO_EFFECTS:0 "Sin efectos" #NT!
- EXCELLENT:0 "¡Excelente!" #NT!
- RESOURCE_MISSING_GOLD:0 "@advertencia_icono! #X Falta [gold_i] $VALUE|^$#!" #NT!
- RESOURCE_MISSING_PIETY:0 "@advertencia_icono! #X Falta [piety_i] $VALUE|^$#!" #NT!
- RESOURCE_MISSING_PRESTIGE:0 "@advertencia_icono! #X Falta [prestige_i] $VALUE|^$#!" #NT!
- RESOURCE_MISSING_DYNASTY_PRESTIGE:0 "@advertencia_icono! #X Falta [dynasty_prestige_i] $VALUE|^$#!" #NT!
+ EVENT_OPTION_FLAVOR:0 "#F $TEXT$#!\n"
+ CHARACTER_POSS_CHECK:0 "s"
+ CHARACTER_POSS:0 "de"
+ CHARACTER_POSS_SPECIAL:0 "de"
+ NO_EFFECTS:0 "Sin efectos"
+ EXCELLENT:0 "¡Excelente!"
+ RESOURCE_MISSING_GOLD:0 "@warning_icon! #X Falta $VALUE|^$ [gold_i]#!"
+ RESOURCE_MISSING_PIETY:0 "@warning_icon! #X Falta $VALUE|^$ [piety_i]#!"
+ RESOURCE_MISSING_PRESTIGE:0 "@warning_icon! #X Falta $VALUE|^$ [prestige_i]#!"
+ RESOURCE_MISSING_DYNASTY_PRESTIGE:0 "@warning_icon! #X Falta $VALUE|^$ [dynasty_prestige_i]#!"
  BREAKDOWN_MULTIPLICATION_PREFIX:0 "×"
- CLICK_TO_VIEW:0 "#I Haz clic para ver#!" #NT!
- CLICK_TO_SELECT:0 "#I Haz clic para seleccionar#!" #NT!
- LAUNCHER_SAVE_DESCRIPTION:0 "Jugando como [CHARACTER.GetNameNoTooltip]" #NT!
- LAUNCHER_SAVE_DESCRIPTION_OBSERVER:0 "Observando [CHARACTER.GetNameNoTooltip]" #NT!
- LAUNCHER_SAVE_DESCRIPTION_GLOBAL_OBSERVER:0 "Observando" #NT!
- BASE_VALUE:0 "Base" #NT!
- BREAKDOWN_FORMAT_POSITIVE_IS_BAD:0 "$KEY$: $VALUE|=-0$" #NT!
- BREAKDOWN_FORMAT_PIETY_PERCENTAGE_POSITIVE_IS_BAD:0 "$KEY$: [piety_i]$VALUE|=-0%$" #NT!
- BASE_VALUE_FORMAT:0 "$KEY$: $VALUE|V0$" #NT!
- BASE_VALUE_FORMAT_DECIMALS:0 "$KEY$: $VALUE|V2$" #NT!
- BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE:0 "$KEY$: #N +$VALUE|2$#!" #NT!
- BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE:0 "$KEY$: #P $VALUE|2$#!" #NT!
- learning_law_cost_tooltip:0 "[learning|E] Habilidad" #NT!
- poor_learning_law_cost_tooltip:0 "Pobre [learning|E]" #NT!
- rite_legalism_law_cost_tooltip:0 "Rito del Legalismo" #NT!
- rite_pronouncements_law_cost_tooltip:0 "Ley religiosa" #NT!
- rite_primitivism_law_cost_tooltip:0 "Primitivismo natural" #NT!
- character_modifiers_law_cost_tooltip:0 "Modificadores de caracteres" #NT!
- SCRIPTED_COST_HEADER:0 "#S $TEXT$#!" #NT!
- SCRIPTED_COST_NO_DYNAST:1 "Solo el [dynast|E] puede gastar [dynasty_prestige|E]" #NT!
+ CLICK_TO_VIEW:0 "#I Clic para ver#!"
+ CLICK_TO_SELECT:0 "#I Clic para seleccionar#!"
+ LAUNCHER_SAVE_DESCRIPTION:0 "Jugando como [CHARACTER.GetNameNoTooltip]"
+ LAUNCHER_SAVE_DESCRIPTION_OBSERVER:0 "Observando a [CHARACTER.GetNameNoTooltip]"
+ LAUNCHER_SAVE_DESCRIPTION_GLOBAL_OBSERVER:0 "Observando"
+ BASE_VALUE:0 "Base"
+ BREAKDOWN_FORMAT_POSITIVE_IS_BAD:0 "$KEY$: $VALUE|=-0$"
+ BREAKDOWN_FORMAT_PIETY_PERCENTAGE_POSITIVE_IS_BAD:0 "$KEY$: $VALUE|=-0%$ [piety_i]"
+ BASE_VALUE_FORMAT:0 "$KEY$: $VALUE|V0$"
+ BASE_VALUE_FORMAT_DECIMALS:0 "$KEY$: $VALUE|V2$"
+ BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE:0 "$KEY$: #N +$VALUE|2$#!"
+ BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE:0 "$KEY$: #P $VALUE|2$#!"
+ learning_law_cost_tooltip:0 "Habilidad de [learning|lE]"
+ poor_learning_law_cost_tooltip:0 "[learning|E] pobre"
+ rite_legalism_law_cost_tooltip:0 "Rito legalista"
+ rite_pronouncements_law_cost_tooltip:0 "Ley religiosa"
+ rite_primitivism_law_cost_tooltip:0 "Primitivismo natural"
+ character_modifiers_law_cost_tooltip:0 "Modificadores de personaje"
+ SCRIPTED_COST_HEADER:0 "#S $TEXT$#!"
+ SCRIPTED_COST_NO_DYNAST:1 "Solo el [dynast|lE] puede gastar [dynasty_prestige|lE]"
  #GAME_DATE_STRING:0 "$DAY$ $MONTH$, $YEAR$" #NT!
  #GAME_DATE_STRING_SHORT:0 "$DAY$ $MONTH_SHORT$ $YEAR$" #NT!
  #GAME_DATE_STRING_SHORT_NO_YEAR:0 "$DAY$ $MONTH_SHORT$" #NT!
  #GAME_DATE_STRING_LONG:2 "$DAY|O$ de $MONTH$, $YEAR$ ANUNCIO" #NT!
- CONCEPT_TEXT:0 "[$KEY$|E]" #NT!
- NOT_IN_DIPLOMATIC_RANGE:0 "No dentro del alcance diplomático" #NT!
- FIND_CHARACTER:0 "Buscar personaje" #NT!
- GO_TO_CAPITAL:0 "Ir a Capital" #NT!
- CHARACTER_ARMY_COMPOSITION_NAME:0 "Ejército de [CHARACTER.GetShortUINameNotMe]" #NT!
- ARMY_ICON_HEADER:0 "#T Ejércitos en esta ubicación #!" #NT!
- BREAKDOWN_FORMAT_REALM_SIZE_PRESTIGE_COST:0 "$KEY$: $VALUE|=-0$" #NT!
- realm_size:0 "[realm_size|E]" #NT!
- RENAME_STRING_TOO_LONG:0 "@warning_icon!#X El nombre es demasiado largo#!" #NT!
- RENAME_STRING_TOO_LONG_NAMED:0 "@warning_icon!#X $NAME$ es demasiado largo#!" #NT!
- RENAME_STRING_EMPTY:0 "@warning_icon!#X El nombre está vacío#!" #NT!
- RENAME_STRING_EMPTY_NAMED:0 "@warning_icon!#X $NAME$ está vacío#!" #NT!
- RENAME_STRING_ILLEGAL:0 "@warning_icon!#X El nombre contiene caracteres ilegales#!" #NT!
- RENAME_STRING_ILLEGAL_NAMED:0 "@warning_icon!#X $NAME$ contiene caracteres ilegales#!" #NT!
- RENAME_TOOLTIP:1 "[GameDialog.GetCanAcceptBlocker]" #NT!
- CLOUDSAVE_QUOTA_EXCEEDED_TOOLTIP:0 "Cuota de almacenamiento guardado en la nube excedida. Intente liberar algo de espacio eliminando los archivos guardados en la nube más antiguos." #NT!
- TRAIT_NAME_WITH_BASE:0 "$NAME$ #weak ($BASE$)#!" #NT!
- peasant_faction_event_troops:0 "Levantamiento Campesino" #NT!
- populist_faction_event_troops:0 "Levantamiento populista" #NT!
- claimant_faction_event_troops:0 "Pretendientes rebeldes" #NT!
- mongol_event_troops:0 "Horda mongola" #NT!
- first_almohad_event_troops:0 "Las tribus reunidas" #NT!
- second_almohad_event_troops:0 "Los almohades" #NT!
- event_troop_default_name:2 "Anfitrión [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]" #NT!
- CURRENT_SITUATION_SUGGESTIONS:0 "Sugerencias" #NT!
- CURRENT_SITUATION_SUGGESTIONS_EMPTY:1 "Ninguno disponible" #NT!
- CURRENT_SITUATION_HEADER:0 "Situación actual" #NT!
- CHARACTER_INTERACTION_BLACKMAIL_NO_SECRET:0 "Ningún secreto que pueda ser usado para chantaje" #NT!
- RESET_DISMISSED_BUTTON_TEXT:0 "Reiniciar" #NT!
- RESET_DISMISSED_TOOLTIP:1 "#T Restablecer#!\nBring atrás #EMP $CURRENT_SITUATION_HEADER$#! elementos que ha descartado.\n\n#I Haga clic para restablecer la lista#!" #NT!
- CHARACTER_INTERACTION_SAME_REALM_AS:0 "Deben ser parte de tu [realm|E]" #NT!
- NOT_CHARACTER_INTERACTION_SAME_REALM_AS:1 "No deben ser parte de tu [realm|E]" #NT!
- CHARACTER_INTERACTION_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "No se les permite servir como [knight|E] en el objetivo [court|E]" #NT!
- MAKE_TOOLTIP_COMBINE:0 "#tooltip:$TOOLTIP$ $TEXT$#!" #NT!
- SET_CHARACTER_CONTROLLER_TITLE:0 "$TITLE$" #NT!
- SET_CHARACTER_CONTROLLER_TEXT:0 "$TEXT$" #NT!
+ CONCEPT_TEXT:0 "[$KEY$|E]"
+ NOT_IN_DIPLOMATIC_RANGE:0 "Fuera del alcance diplomático"
+ FIND_CHARACTER:0 "Encontrar personaje"
+ GO_TO_CAPITAL:0 "Ir a la capital"
+ CHARACTER_ARMY_COMPOSITION_NAME:0 "Ejército de [CHARACTER.GetShortUINameNotMe]"
+ ARMY_ICON_HEADER:0 "#T Ejércitos en esta ubicación #!"
+ BREAKDOWN_FORMAT_REALM_SIZE_PRESTIGE_COST:0 "$KEY$: $VALUE|=-0$"
+ realm_size:0 "[realm_size|E]"
+ RENAME_STRING_TOO_LONG:0 "@warning_icon!#X Nombre demasiado largo#!"
+ RENAME_STRING_TOO_LONG_NAMED:0 "@warning_icon!#X $NAME$ es demasiado largo#!"
+ RENAME_STRING_EMPTY:0 "@warning_icon!#X Nombre vacío#!"
+ RENAME_STRING_EMPTY_NAMED:0 "@warning_icon!#X $NAME$ está vacío#!"
+ RENAME_STRING_ILLEGAL:0 "@warning_icon!#X El nombre contiene caracteres no permitidos#!"
+ RENAME_STRING_ILLEGAL_NAMED:0 "@warning_icon!#X $NAME$ contiene caracteres no permitidos#!"
+ RENAME_TOOLTIP:1 "[GameDialog.GetCanAcceptBlocker]"
+ CLOUDSAVE_QUOTA_EXCEEDED_TOOLTIP:0 "Se ha excedido el almacenamiento de partidas en la nube. Libera espacio borrando partidas antiguas en la nube."
+ TRAIT_NAME_WITH_BASE:0 "$NAME$ #weak ($BASE$)#!"
+ peasant_faction_event_troops:0 "Revuelta campesina"
+ populist_faction_event_troops:0 "Levantamiento populista"
+ claimant_faction_event_troops:0 "Rebeldes del pretendiente"
+ mongol_event_troops:0 "Horda mongola"
+ first_almohad_event_troops:0 "Las tribus reunidas"
+ second_almohad_event_troops:0 "Los almohades"
+ event_troop_default_name:2 "Hueste de [ROOT.Char.GetTitledFirstNameNoTooltip]"
+ CURRENT_SITUATION_SUGGESTIONS:0 "Sugerencias"
+ CURRENT_SITUATION_SUGGESTIONS_EMPTY:1 "Ninguna disponible"
+ CURRENT_SITUATION_HEADER:0 "Situación actual"
+ CHARACTER_INTERACTION_BLACKMAIL_NO_SECRET:0 "No hay secretos que usar para hacer chantaje."
+ RESET_DISMISSED_BUTTON_TEXT:0 "Reiniciar"
+ RESET_DISMISSED_TOOLTIP:1 "#T Restablecer#!\nRecuperar #EMP $CURRENT_SITUATION_HEADER$#! objetos que has descartado.\n\n#I Haz clic para restablecer la lista#!"
+ CHARACTER_INTERACTION_SAME_REALM_AS:0 "Tiene que ser parte de tu [realm|lE]."
+ NOT_CHARACTER_INTERACTION_SAME_REALM_AS:1 "No deben formar parte de tu [realm|lE]"
+ CHARACTER_INTERACTION_NOT_ALLOWED_IN_VARANGIAN_GUARD:0 "No puede servir como [knight|lE] en la [court|lE] objetivo"
+ MAKE_TOOLTIP_COMBINE:0 "#tooltip:$TOOLTIP$ $TEXT$#!"
+ SET_CHARACTER_CONTROLLER_TITLE:0 "$TITLE$"
+ SET_CHARACTER_CONTROLLER_TEXT:0 "$TEXT$"
 
- TRAIT_FLAG_DESC_can_dismiss_hooks_interaction:0 "Desbloquea el [dismiss_strong_hook_interaction|E]" #NT!
- TRAIT_FLAG_DESC_can_abandon_hooks_interaction:0 "Desbloquea el [abandon_hook_interaction|E]" #NT!
- TRAIT_FLAG_DESC_can_duel_criminals_interaction:0 "Desbloquea el [force_duel_criminals_interaction|E]" #NT!
- TRAIT_FLAG_DESC_can_duel_anyone_interaction:0 "Desbloquea el [force_duel_anyone_interaction|E]" #NT!
+ TRAIT_FLAG_DESC_can_dismiss_hooks_interaction:0 "Desbloquea la [dismiss_strong_hook_interaction|lE]"
+ TRAIT_FLAG_DESC_can_abandon_hooks_interaction:0 "Desbloquea la [abandon_hook_interaction|lE]"
+ TRAIT_FLAG_DESC_can_duel_criminals_interaction:0 "Desbloquea la [force_duel_criminals_interaction|lE]"
+ TRAIT_FLAG_DESC_can_duel_anyone_interaction:0 "Desbloquea la [force_duel_anyone_interaction|lE]"
 
- TRAIT_FLAG_DESC_can_improve_hostile_schemes_decision:0 "Desbloquea el [deceitful_progress_hostile_schemes_decision|E]" #NT!
- TRAIT_FLAG_DESC_can_improve_capital_decision:0 "Desbloquea el [diligent_development_focus_decision|E]" #NT!
- TRAIT_FLAG_DESC_can_accelerate_schemes_decision:0 "Desbloquea el [impatient_rushing_all_schemes_decision|E]" #NT!
- TRAIT_FLAG_DESC_can_fabricate_hooks_on_rivals:2 "Permite el [GetScheme('fabricate_hook').GetTypeName] [scheme|E] contra tu [rivals|E]" #NT!
+ TRAIT_FLAG_DESC_can_improve_hostile_schemes_decision:0 "Desbloquea la [deceitful_progress_hostile_schemes_decision|lE]"
+ TRAIT_FLAG_DESC_can_improve_capital_decision:0 "Desbloquea la [diligent_development_focus_decision|lE]"
+ TRAIT_FLAG_DESC_can_accelerate_schemes_decision:0 "Desbloquea la [impatient_rushing_all_schemes_decision|lE]"
+ TRAIT_FLAG_DESC_can_fabricate_hooks_on_rivals:2 "Permite la [scheme|lE] de [GetScheme('fabricate_hook').GetTypeName|l] contra tus [rivals|lE]"
 
- INVALID:0 "Inválido" #NT!
+ INVALID:0 "No válido"
 
- RENAME_STRING_STARTS_WITH_SPACE:0 "@warning_icon!#X El nombre comienza con un espacio#!" #NT!
- RENAME_STRING_STARTS_WITH_SPACE_NAMED:0 "@warning_icon!#X $NAME$ comienza con espacio#!" #NT!
- RENAME_STRING_ENDS_WITH_SPACE:0 "@warning_icon!#X El nombre termina en espacio#!" #NT!
- RENAME_STRING_ENDS_WITH_SPACE_NAMED:0 "@warning_icon!#X $NAME$ termina en espacio#!" #NT!
- DEFAULT_TEXT:0 "#D TEXTO PREDETERMINADO#!" #NT!
+ RENAME_STRING_STARTS_WITH_SPACE:0 "@warning_icon!#X El nombre comienza con un espacio#!"
+ RENAME_STRING_STARTS_WITH_SPACE_NAMED:0 "@warning_icon!#X $NAME$ comienza con un espacio#!"
+ RENAME_STRING_ENDS_WITH_SPACE:0 "@warning_icon!#X El nombre termina con un espacio#!"
+ RENAME_STRING_ENDS_WITH_SPACE_NAMED:0 "@warning_icon!#X $NAME$ termina con un espacio#!"
+ DEFAULT_TEXT:0 "#D TEXTO PREDETERMINADO#!"
 
- SCOPE_ARTIFACT:0 "[ROOT.Artifact.GetName]:" #NT!
+ SCOPE_ARTIFACT:0 "[ROOT.Artifact.GetName]:"
 
- OR:0 "O" #NT!
- OR_LIST:0 ", o" #NT!
+ OR:0 " o "
+ OR_LIST:0 "o "
 
  num_suffix_0:0 "El" #NT!
  num_suffix_1:0 "Calle" #NT!

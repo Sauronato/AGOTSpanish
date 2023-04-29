@@ -1,1051 +1,1015 @@
-﻿l_spanish:
+﻿#Corregí con la traducción de Paradox. Para ver añadiduras busca 'AGOT'.
+l_spanish:
 #Reasons
- ALREADY_CONTAINTS_TRAIT:2 "@warning_icon!#X $CHARACTER_NAME$ ya tiene el rasgo [TRAIT.GetName( CHARACTER.Self )]#!" #NT!
- CONTAINTS_OPPOSITE_TRAIT:2 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] no se puede agregar porque $CHARACTER_NAME$ ya tiene el rasgo opuesto [TRAIT_2.GetName( CHARACTER.Self )]#!" #NT!
- IS_POTENTIAL_TRAIT_FALSE:2 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] no se puede agregar porque $CHARACTER_NAME$ no puede poseerlo#!" #NT!
- TRAIT_AGE_NOT_IN_RANGE_TOO_YOUNG:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] no se puede agregar porque $CHARACTER_NAME$ es ​​más joven que $TRAIT_AGE|V$ #weak (es $CHARACTER_AGE|V$)#!#!" #NT!
- TRAIT_AGE_NOT_IN_RANGE_TOO_OLD:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] no se puede agregar porque $CHARACTER_NAME$ es ​​anterior a $TRAIT_AGE|V$ #weak (es $CHARACTER_AGE|V$)#!#!" #NT!
- TRAIT_SEX_NOT_MATCHING:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] no se puede agregar porque $CHARACTER_NAME$ no es $TRAIT_SEX$#!" #NT!
- ALREADY_HAS_TRAIT_IN_GROUP:0 "@warning_icon!#X [TRAIT.GetName( CHARACTER.Self )] no se puede agregar porque $CHARACTER_NAME$ ya tiene un rasgo en el grupo [TRAIT_GROUP.GetName] #weak ([TRAIT_2.GetName( CHARACTER.Self )])#!#!" #NT!
- SEX_MALE:0 "Masculino" #NT!
- SEX_FEMALE:0 "Femenino" #NT!
+ ALREADY_CONTAINTS_TRAIT:2 "@warning_icon!#X $CHARACTER_NAME$ ya tiene el rasgo [TRAIT.GetName( CHARACTER.Self )|l]#!"
+ CONTAINTS_OPPOSITE_TRAIT:2 "@warning_icon!#X No se puede añadir el rasgo [TRAIT.GetName( CHARACTER.Self )] porque $CHARACTER_NAME$ ya tiene el opuesto, [TRAIT_2.GetName( CHARACTER.Self )]#!"
+ IS_POTENTIAL_TRAIT_FALSE:2 "@warning_icon!#X No se puede añadir «[TRAIT.GetName( CHARACTER.Self )]» porque $CHARACTER_NAME$ lo tiene bloqueado#!"
+ TRAIT_AGE_NOT_IN_RANGE_TOO_YOUNG:0 "@warning_icon!#X No se puede añadir «[TRAIT.GetName( CHARACTER.Self )]» porque $CHARACTER_NAME$ tiene menos de $TRAIT_AGE|V$ año(s) #weak (tiene $CHARACTER_AGE|V$)#!#!"
+ TRAIT_AGE_NOT_IN_RANGE_TOO_OLD:0 "@warning_icon!#X No se puede añadir «[TRAIT.GetName( CHARACTER.Self )]» porque $CHARACTER_NAME$ tiene más de $TRAIT_AGE|V$ año(s) #weak (tiene $CHARACTER_AGE|V$)#!#!"
+ TRAIT_SEX_NOT_MATCHING:0 "@warning_icon!#X No se puede añadir «[TRAIT.GetName( CHARACTER.Self )|l]» porque $CHARACTER_NAME$ no es $TRAIT_SEX$#!"
+ ALREADY_HAS_TRAIT_IN_GROUP:0 "@warning_icon!#X No se puede añadir «[TRAIT.GetName( CHARACTER.Self )|l]» porque $CHARACTER_NAME$ ya tiene un rasgo del grupo «[TRAIT_GROUP.GetName]»#weak ([TRAIT_2.GetName( CHARACTER.Self )])#!#!"
+ SEX_MALE:0 "hombre"
+ SEX_FEMALE:0 "mujer"
 
- #Education Traits
- trait_education_intrigue_1:0 "Trazador aficionado" #NT!
- trait_education_intrigue_1_desc:0 "El Conspirador Aficionado ha tenido alguna educación en el arte de la intriga, pero cualquier conocimiento en el arte los ha eludido." #NT!
- trait_education_intrigue_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha tenido alguna educación en el arte de la intriga, pero cualquier conocimiento real en el arte ha eludido a [ROOT.GetCharacter.GetHerHim]." #NT!
+#Education Traits
+ trait_education_intrigue_1:0 "Intrigante aficionado"
+ trait_education_intrigue_1_desc:0 "El intrigante aficionado ha recibido cierta educación en el arte de la intriga, pero se le ha escapado cualquier dominio de este arte."
+ trait_education_intrigue_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha recibido cierta educación en el arte de la intriga, pero se le ha escapado cualquier conocimiento de este arte."
+ trait_education_intrigue_2:0 "Embaucador extravagante"
+ trait_education_intrigue_2_desc:0 "El embaucador extravagante ha sido educado en el arte de la intriga, pero le queda mucho por aprender antes de que los errores y las equivocaciones sean excepciones y no la regla."
+ trait_education_intrigue_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha recibido educación en el arte de la intriga, pero le queda mucho por aprender antes de que los errores y las equivocaciones sean excepciones y no la regla."
+ trait_education_intrigue_3:0 "Intrigante experto"
+ trait_education_intrigue_3_desc:0 "El intrigante experto es un maestro de la intriga, la manipulación y el secretismo."
+ trait_education_intrigue_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] maestr[ROOT.GetCharacter.Custom('ES_OA')] de la intriga, la manipulación y el secretismo."
+ trait_education_intrigue_4:0 "Sombra escurridiza"
+ trait_education_intrigue_4_desc:0 "La sombra escurridiza ha sobresalido como un maestro de la intriga y el manto de secretismo a su alrededor es insuperable."
+ trait_education_intrigue_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sobresalido como un[ROOT.GetCharacter.Custom('ES_XA')] maestr[ROOT.GetCharacter.Custom('ES_OA')] de la intriga y el manto de secretismo a su alrededor es insuperable."
+ trait_education_diplomacy_1:0 "Apaciguador ingenuo"
+ trait_education_diplomacy_1_desc:0 "El apaciguador ingenuo ha recibido cierta educación en el arte de la diplomacia, sin embargo, supone más a menudo una vergüenza para sí mismo y para quienes le rodean."
+ trait_education_diplomacy_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha recibido cierta educación en el arte de la diplomacia, sin embargo, supone más a menudo una vergüenza para sí mism[ROOT.GetCharacter.Custom('ES_OA')] y quienes le rodean."
+ trait_education_diplomacy_2:0 "Regateador adecuado"
+ trait_education_diplomacy_2_desc:0 "Las cosas suelen salir a favor del regateador adecuado, pero está abierto a debate si esto se debe a su habilidad diplomática o a la suerte."
+ trait_education_diplomacy_2_character_desc:0 "Las cosas suelen salir a favor de [ROOT.GetCharacter.GetFirstNameNoTooltip], pero está abierto a debate si esto se debe a su habilidad diplomática o a la suerte."
+ trait_education_diplomacy_3:0 "Negociador carismático"
+ trait_education_diplomacy_3_desc:0 "Maestro de la retórica persuasiva y de los matices de la diplomacia, el negociador carismático es un diplomático excelente."
+ trait_education_diplomacy_3_character_desc:0 "Maestr[ROOT.GetCharacter.Custom('ES_OA')] de la retórica persuasiva y los matices de la diplomacia, [ROOT.GetCharacter.GetFirstNameNoTooltip] es un diplomático excelente."
+ trait_education_diplomacy_4:0 "Eminencia gris"
+ trait_education_diplomacy_4_desc:0 "Al conocerse los matices de la diplomacia como la palma de su mano, la eminencia gris es un maestro de este arte."
+ trait_education_diplomacy_4_character_desc:0 "Al conocerse los matices de la diplomacia como la palma de su mano, [ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] maestr[ROOT.GetCharacter.Custom('ES_OA')] de este arte."
+ trait_education_stewardship_1:0 "Gandul indulgente"
+ trait_education_stewardship_1_desc:0 "El gandul indulgente fue educado en administración para estudiar el flujo de dinero pero, por desgracia, el flujo parece ir en una sola dirección…"
+ trait_education_stewardship_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] recibió educación en materia de administración para estudiar el flujo de dinero pero, por desgracia, el flujo parece ir en una sola dirección…"
+ trait_education_stewardship_2:0 "Secretario ahorrativo"
+ trait_education_stewardship_2_desc:0 "El secretario ahorrativo es válido cuando se trata de inversiones y administraciones, pero los errores en el arte de la administración siguen siendo la norma."
+ trait_education_stewardship_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] vale cuando se trata de inversiones y administraciones, pero los errores en el arte de la administración siguen siendo la norma."
+ trait_education_stewardship_3:0 "Creador de fortunas"
+ trait_education_stewardship_3_desc:0 "El creador de fortunas posee un sentido agudo para todos los asuntos relacionados con la administración y es una fuerza administrativa a tener en cuenta."
+ trait_education_stewardship_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] posee un sentido agudo para todos los asuntos relacionados con la administración y es una fuerza administrativa a tener en cuenta."
+ trait_education_stewardship_4:0 "Toque de Midas"
+ trait_education_stewardship_4_desc:0 "Quien tiene el toque de Midas, ve cómo los éxitos se suceden uno tras otro en el arte de la administración, mostrando un dominio indiscutible de este arte."
+ trait_education_stewardship_4_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le sigue un éxito tras otro en el arte de la administración, mostrando un dominio indiscutible de este arte."
+ trait_education_martial_1:0 "Guerrero torpe"
+ trait_education_martial_1_desc:0 "El guerrero torpe ha sido educado en el arte de la guerra, pero es más probable que se haga más daño a sí mismo que a sus enemigos."
+ trait_education_martial_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha recibido una educación en el arte de la guerra, pero es más probable que se haga más daño a sí mism[ROOT.GetCharacter.Custom('ES_OA')] que a sus enemigos."
+ trait_education_martial_2:0 "Soldado duro"
+ trait_education_martial_2_desc:0 "El soldado duro ha mostrado cierta destreza en asuntos marciales, pero aún tiene mucho que aprender."
+ trait_education_martial_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha mostrado cierta destreza en asuntos marciales, pero aún tiene mucho que aprender."
+ trait_education_martial_3:0 "Táctico hábil"
+ trait_education_martial_3_desc:0 "El táctico hábil es un comandante fiable y un temible guerrero, conocido por su habilidad marcial."
+ trait_education_martial_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] comandante fiable y un[ROOT.GetCharacter.Custom('ES_XA')] guerrer[ROOT.GetCharacter.Custom('ES_OA')] temible, conocid[ROOT.GetCharacter.Custom('ES_OA')] por su habilidad marcial."
+ trait_education_martial_4:0 "Estratega brillante"
+ trait_education_martial_4_desc:0 "El estratega brillante domina el campo de batalla y ningún asunto marcial está fuera de su conocimiento."
+ trait_education_martial_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] domina campo de batalla y ningún asunto marcial está fuera de su conocimiento."
+ trait_education_martial_prowess_1:0 "Escudero torpe"
+ trait_education_martial_prowess_1_desc:0 "El escudero torpe es solo un guerrero en teoría que recuerda poco de su instrucción marcial."
+ trait_education_martial_prowess_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es solo un[ROOT.GetCharacter.Custom('ES_XA')] guerrer[ROOT.GetCharacter.Custom('ES_OA')] en teoría que recuerda poco de su instrucción marcial."
+ trait_education_martial_prowess_2:0 "Caballero confiado"
+ trait_education_martial_prowess_2_desc:0 "El caballero confiado conoce bien los métodos de combate tradicionales de su cultura; cuando era adolescente, luchó hasta contra unos pocos campesinos recalcitrantes."
+ trait_education_martial_prowess_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] conoce bien los métodos de combate tradicionales de su cultura; cuando era adolescente, luchó hasta contra unos pocos campesinos recalcitrantes."
+ trait_education_martial_prowess_3:0 "Banderizo formidable"
+ trait_education_martial_prowess_3_desc:0 "El banderizo formidable ha dirigido tropas y luchado contra bandidos incluso antes de su mayoría de edad, endureciéndose para ser un guerrero decidido."
+ trait_education_martial_prowess_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha dirigido tropas y luchado contra bandidos incluso antes de su mayoría de edad, endureciéndose para ser un[ROOT.GetCharacter.Custom('ES_XA')] guerrer[ROOT.GetCharacter.Custom('ES_OA')] decidid[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_education_martial_prowess_4:0 "Campeón famoso"
+ trait_education_martial_prowess_4_desc:0 "El campeón famoso es conocido, respetado e incluso puede que temido en todo el país como adalid de las prácticas guerreras de su cultura."
+ trait_education_martial_prowess_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocid[ROOT.GetCharacter.Custom('ES_OA')], respetad[ROOT.GetCharacter.Custom('ES_OA')] e incluso puede que temid[ROOT.GetCharacter.Custom('ES_OA')] en todo el país como adalid de las prácticas guerreras de su cultura."
+ trait_education_learning_1:0 "Escribano concienzudo"
+ trait_education_learning_1_desc:0 "A pesar de una educación centrada en el aprendizaje, el escribano concienzudo muestra poca aptitud para la materia. Por lo menos sabe leer…"
+ trait_education_learning_1_character_desc:0 "A pesar de una educación centrada en el aprendizaje, [ROOT.GetCharacter.GetFirstNameNoTooltip] muestra poca aptitud para la materia. Por lo menos sabe leer…"
+ trait_education_learning_2:0 "Pensador perspicaz"
+ trait_education_learning_2_desc:0 "El pensador perspicaz es experto en la mayoría de los asuntos teológicos, pero, por desgracia, parece carecer tanto de habilidad real como de dedicación."
+ trait_education_learning_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es expert[ROOT.GetCharacter.Custom('ES_OA')] en la mayoría de los asuntos teológicos, pero, por desgracia, parece carecer tanto de habilidad real como de dedicación."
+ trait_education_learning_3:0 "Intelectual astuto"
+ trait_education_learning_3_desc:0 "El intelectual astuto posee una comprensión profunda de teología, filosofía y todas las materias de aprendizaje más profundo."
+ trait_education_learning_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] posee una comprensión profunda de teología, filosofía y todas las materias de aprendizaje más profundo."
+ trait_education_learning_4:0 "Filósofo genial"
+ trait_education_learning_4_desc:0 "El filósofo genial posee una extraña comprensión de todas las materias de educación superior."
+ trait_education_learning_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] posee una extraña comprensión de todas las materias de educación superior."
 
- trait_education_intrigue_2:0 "Tramposo extravagante" #NT!
- trait_education_intrigue_2_desc:0 "El Flamboyant Trickster ha recibido una educación en el arte de la intriga, pero aún le queda mucho por aprender antes de que los errores y las meteduras de pata se conviertan en excepciones y no en la norma." #NT!
- trait_education_intrigue_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha recibido una educación en el arte de la intriga, pero aún le queda mucho por aprender antes de que los errores y las pifias se conviertan en excepciones en lugar de la norma." #NT!
+#Lifestyle Traits
+ trait_diplomat:0 "Diplomático"
+ trait_diplomat_desc:0 "El diplomático navega con destreza por las peligrosas aguas de las interacciones sociales y logra sus objetivos con un carisma y una convicción deslumbrantes mientras media entre los mayores gobernantes de la tierra."
+ trait_diplomat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] navega con destreza por las peligrosas aguas de las interacciones sociales y logra sus objetivos con un carisma y una convicción deslumbrantes mientras media entre los mayores gobernantes de la tierra."
 
- trait_education_intrigue_3:0 "Tejedor de telarañas intrincado" #NT!
- trait_education_intrigue_3_desc:0 "El Intrincado Tejedor de Telarañas es un maestro de la intriga, la manipulación y el secreto." #NT!
- trait_education_intrigue_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un maestro de la intriga, la manipulación y el secreto." #NT!
+ trait_family_first:0 "La familia es lo primero"
+ trait_family_first_neutral:0 "Jerarca familiar"
+ trait_family_first_male:0 "Patriarca"
+ trait_family_first_female:0 "Matriarca"
+ trait_family_first_desc:0 "Una persona verdaderamente dedicada a su familia y a la prosperidad de su casa."
+ trait_family_first_character_desc:0 "[ROOT.Char.GetWomanMan] verdaderamente dedicad[ROOT.Char.Custom('ES_OA')] a su familia y a la prosperidad de su casa."
 
- trait_education_intrigue_4:0 "Sombra esquiva" #NT!
- trait_education_intrigue_4_desc:0 "The Elusive Shadow se ha destacado como un maestro de la intriga, y el manto de secreto que los rodea es insuperable." #NT!
- trait_education_intrigue_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha destacado como un maestro de la intriga, y el manto de secreto que rodea a [ROOT.GetCharacter.GetHerHim] es insuperable." #NT!
+ trait_august:0 "Augusto"
+ trait_august_desc:0 "Este personaje recibe honores como un auténtico gobernante, ¡digno de los imperios de antaño!"
+ trait_august_character_desc:0 "Recibe honores como un[ROOT.GetCharacter.Custom('ES_XA')] auténtic[ROOT.GetCharacter.Custom('ES_OA')] gobernante, ¡dign[ROOT.GetCharacter.Custom('ES_OA')] de los imperios de antaño!"
 
- trait_education_diplomacy_1:0 "Apaciguador ingenuo" #NT!
- trait_education_diplomacy_1_desc:0 "El apaciguador ingenuo ha sido algo educado en el arte de la diplomacia, pero, sin embargo, es más a menudo una vergüenza para sí mismo y para quienes lo rodean." #NT!
- trait_education_diplomacy_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido algo educado en el arte de la diplomacia pero, sin embargo, es más a menudo una vergüenza para [ROOT.GetCharacter.GetHerselfHimself] y los que están alrededor de [ROOT.GetCharacter.GetHerHim]." #NT!
+ trait_reveler_1:0 "Juerguista ansioso"
+ trait_reveler_1_desc:0 "El juerguista ansioso ha probado la vida embriagadora del jolgorio y del desenfreno y ansía más."
+ trait_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha probado la vida embriagadora del jolgorio y el desenfreno y ansía más."
+ trait_reveler_2:0 "Juerguista famoso"
+ trait_reveler_2_desc:0 "El juerguista famoso es el alma de toda reunión, atrayendo tanto el libertinaje como el glamur."
+ trait_reveler_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es el alma de toda reunión, atrayendo tanto el libertinaje como el glamur."
+ trait_reveler_3:0 "Juerguista legendario"
+ trait_reveler_3_desc:0 "Comida, bebida, intoxicación tanto del cuerpo como de la mente… El juerguista legendario no se niega nada y es el nexo de cada fiesta."
+ trait_reveler_3_character_desc:0 "Comida, bebida, intoxicación tanto del cuerpo como de la mente… [ROOT.GetCharacter.GetFirstNameNoTooltip] no se niega nada y es el nexo de cada fiesta."
+ trait_blademaster_1:0 "Aspirante a maestro de esgrima"
+ trait_blademaster_1_desc:0 "Diestro en el combate personal, el aspirante a maestro de esgrima sabe con qué extremo se ataca."
+ trait_blademaster_1_character_desc:0 "Diestr[ROOT.Char.Custom('ES_OA')] en el combate personal, [ROOT.GetCharacter.GetFirstNameNoTooltip] sabe con qué extremo se ataca."
+ trait_blademaster_2:0 "Maestro de esgrima"
+ trait_blademaster_2_desc:0 "El maestro de esgrima es un oponente formidable y respetado en todo tipo de combate."
+ trait_blademaster_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] oponente formidable y respetado en todo tipo de combate."
+ trait_blademaster_3:0 "Maestro de esgrima legendario"
+ trait_blademaster_3_desc:0 "La destreza del maestro de esgrima legendario es digna de ser contada."
+ trait_blademaster_3_character_desc:0 "La destreza de [ROOT.GetCharacter.GetFirstNameNoTooltip] es digna de ser contada."
+ trait_hunter_1:0 "Cazador novato"
+ trait_hunter_1_desc:0 "El cazador novato responde con destreza a las llamadas de la naturaleza y del arco."
+ trait_hunter_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] responde con destreza a las llamadas de la naturaleza y del arco."
+ trait_hunter_2:0 "Cazador"
+ trait_hunter_2_desc:0 "El cazador se orienta por la naturaleza con una precisión y conocimiento extraordinarios."
+ trait_hunter_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se orienta por la naturaleza con una precisión y conocimiento extraordinarios."
+ trait_hunter_3:0 "Maestro cazador"
+ trait_hunter_3_desc:0 "El maestro cazador vive para la caza."
+ trait_hunter_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] vive para la caza."
 
- trait_education_diplomacy_2:0 "Negociador adecuado" #NT!
- trait_education_diplomacy_2_desc:0 "Las cosas a menudo funcionan a favor del negociador adecuado, pero si esto se debe a su habilidad en la diplomacia o la suerte está en debate." #NT!
- trait_education_diplomacy_2_character_desc:0 "Las cosas a menudo funcionan a favor de [ROOT.GetCharacter.GetFirstNameNoTooltip], pero si esto se debe a la habilidad de [ROOT.GetCharacter.GetHerHis] en la diplomacia o la suerte está en debate." #NT!
+ trait_strategist:0 "Estratega"
+ trait_strategist_desc:0 "Estudiante que se ha consagrado al arte de la guerra y es capaz de darle la vuelta y sacar ventaja de cualquier situación."
+ trait_strategist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha consagrado al arte de la guerra y es capaz de darle la vuelta y sacar ventaja de cualquier situación."
 
- trait_education_diplomacy_3:0 "Negociador carismático" #NT!
- trait_education_diplomacy_3_desc:0 "Un maestro de la retórica persuasiva y los matices de la diplomacia; el Negociador Carismático es un excelente diplomático." #NT!
- trait_education_diplomacy_3_character_desc:0 "Un maestro de la retórica persuasiva y los matices de la diplomacia; [ROOT.GetCharacter.GetFirstNameNoTooltip] es un excelente diplomático." #NT!
+ trait_overseer:0 "Supervisor"
+ trait_overseer_desc:0 "Orientación, firmeza y autoridad para garantizar que los problemas se resuelvan como deben."
+ 
+ trait_gallant:0 "Galante"
+ trait_gallant_desc:0 "La verdadera nobleza proviene no solo de la sangre, sino de acciones templadas por un espíritu como el acero reluciente."
+ 
+ trait_architect:0 "Arquitecto"
+ trait_architect_desc:0 "Las obras de un constructor experimentado perdurarán siglos."
+ 
+ trait_administrator:0 "Administrador"
+ trait_administrator_desc:0 "El administrador se encargará de organizar, administrar y aumentar la eficiencia."
+ trait_administrator_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se encargará de organizar, administrar y aumentar la eficiencia."
 
- trait_education_diplomacy_4:0 "Eminencia gris" #NT!
- trait_education_diplomacy_4_desc:0 "Tan familiarizada con los matices de la diplomacia como la palma de su mano, la Eminencia Gris es una maestra en el arte." #NT!
- trait_education_diplomacy_4_character_desc:0 "Tan familiarizado con los matices de la diplomacia como el dorso de la mano de [ROOT.GetCharacter.GetHerHis], [ROOT.GetCharacter.GetFirstNameNoTooltip] es un maestro en el arte." #NT!
-
-
- trait_education_stewardship_1:0 "Derrochador indulgente" #NT!
- trait_education_stewardship_1_desc:0 "El Derrochador Indulgente recibió una educación en mayordomía para estudiar el flujo de dinero, pero desafortunadamente el flujo parece ir en una sola dirección..." #NT!
- trait_education_stewardship_2:0 "Empleado ahorrativo" #NT!
- trait_education_stewardship_2_desc:0 "Thrifty Clerk es adecuado cuando se trata de inversiones y administraciones, pero los errores en el arte de la administración siguen siendo la norma." #NT!
- trait_education_stewardship_3:0 "Constructor de fortuna" #NT!
- trait_education_stewardship_3_desc:0 "Fortune Builder posee un sentido agudo para todos los asuntos relacionados con la administración y es una fuerza administrativa a tener en cuenta." #NT!
- trait_education_stewardship_4:0 "Midas tocado" #NT!
- trait_education_stewardship_4_desc:0 "Al Tocado de Midas le siguen éxito tras éxito en el arte de la administración, mostrando un dominio indiscutible del arte." #NT!
-
- trait_education_martial_1:0 "Comandante incompetente" #NT!
- trait_education_martial_1_desc:0 "A pesar de estar preparado para el mando, este personaje muestra poca aptitud, sin una pizca de estrategia elemental." #NT!
- trait_education_martial_1_character_desc:0 "A pesar de estar preparado para el mando, [ROOT.GetCharacter.GetFirstNameNoTooltip] muestra poca aptitud, sin una pizca de estrategia elemental." #NT!
-
- trait_education_martial_2:0 "Capitán obediente" #NT!
- trait_education_martial_2_desc:0 "El Capitán Obediente es un comandante confiable, capaz de liderar vanguardias o escaramuzas." #NT!
- trait_education_martial_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un comandante confiable, capaz de liderar vanguardias o escaramuzas." #NT!
-
- trait_education_martial_3:0 "Táctico experto" #NT!
- trait_education_martial_3_desc:0 "El Táctico Experto muestra una gran aptitud para liderar hombres y es reconocido por su análisis estratégico." #NT!
- trait_education_martial_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] muestra una gran aptitud para liderar hombres y es reconocido por el análisis estratégico [ROOT.GetCharacter.GetHerHis]." #NT!
-
- trait_education_martial_4:0 "General brillante" #NT!
- trait_education_martial_4_desc:0 "La conquista corre en la sangre del Estratega Brillante, tanto en la suya como en la de sus enemigos." #NT!
- trait_education_martial_4_character_desc:0 "La conquista corre por la sangre de [ROOT.GetCharacter.GetFirstNameNoTooltip], tanto en la propia [ROOT.Char.GetHerHis] como en la de los enemigos de [ROOT.Char.GetHerHis]." #NT!
-
- trait_education_martial_prowess_1:0 "Luchador neófito" #NT!
- trait_education_martial_prowess_1_desc:0 "El Neophyte Fighter es más que capaz de golpear a los campesinos, pero su forma es salvaje e inexperta." #NT!
- trait_education_martial_prowess_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es más que capaz de golpear a los campesinos, pero la forma de [ROOT.GetCharacter.GetHerHis] es salvaje e inexperta." #NT!
-
- trait_education_martial_prowess_2:0 "Luchador entrenado" #NT!
- trait_education_martial_prowess_2_desc:0 "El luchador entrenado es competente en las artes de la espada, la maza y la lanza. Confiados ofensivamente y en retirada, no deben pasarse por alto." #NT!
- trait_education_martial_prowess_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es competente en las artes de espada, maza y lanza. Confiado ofensivamente y en retirada, [ROOT.GetCharacter.GetSheHe] no debe pasarse por alto." #NT!
-
- trait_education_martial_prowess_3:0 "Luchador habilidoso" #NT!
- trait_education_martial_prowess_3_desc:0 "El luchador hábil es un luchador endurecido y un oponente valiente para cualquiera que pueda levantar acero contra ellos." #NT!
- trait_education_martial_prowess_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un luchador endurecido y un valiente oponente para cualquiera que pueda levantar acero contra [ROOT.GetCharacter.GetHerHim]." #NT!
-
-
- trait_education_martial_prowess_4:0 "Luchador formidable" #NT!
- trait_education_martial_prowess_4_desc:0 "Ver al Formidable Fighter en el campo de batalla es ver pavor. Disfrutan de una reputación mortal; amado, respetado y temido en todo el reino como modelo de poderío marcial." #NT!
- trait_education_martial_prowess_4_character_desc:0 "Ver a [ROOT.GetCharacter.GetFirstNameNoTooltip] en el campo de batalla es conocer a [ROOT.Char.GetFaith.DeathDeityName]. [ROOT.Char.GetSheHe|U] goza de una reputación letal; amado, respetado y temido en todo el reino como modelo del poderío marcial de [ROOT.Char.GetCulture.GetName]." #NT!
-
- trait_education_learning_1:0 "Escriba concienzudo" #NT!
- trait_education_learning_1_desc:0 "A pesar de una educación enfocada en el aprendizaje, el Escribano Consciente muestra poca aptitud para el tema, al menos sabe leer..." #NT!
- trait_education_learning_1_character_desc:0 "A pesar de una educación enfocada en el aprendizaje, [ROOT.GetCharacter.GetFirstNameNoTooltip] muestra poca aptitud para la materia — al menos [ROOT.GetCharacter.GetSheHe] sabe leer..." #NT!
- trait_education_learning_2:0 "Pensador perspicaz" #NT!
- trait_education_learning_2_desc:0 "El pensador perspicaz es experto en la mayoría de los asuntos teológicos, pero lamentablemente, tanto la habilidad como la dedicación parecen faltar." #NT!
- trait_education_learning_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es experto en la mayoría de los asuntos teológicos, pero lamentablemente, tanto la habilidad como la dedicación parecen faltar." #NT!
- trait_education_learning_3:0 "Intelectual astuto" #NT!
- trait_education_learning_3_desc:0 "El Intelectual Astuto posee una comprensión profunda de la teología, la filosofía y todos los temas de aprendizaje más profundo." #NT!
- trait_education_learning_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] posee un conocimiento profundo de la teología, la filosofía y todas las materias de aprendizaje más profundo." #NT!
- trait_education_learning_4:0 "Filósofo intelectual" #NT!
- trait_education_learning_4_desc:0 "El Mastermind Philosopher posee una visión asombrosa de todos los temas de educación superior." #NT!
- trait_education_learning_4_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] posee una visión asombrosa de todos los temas de educación superior." #NT!
-
- trait_education_stewardship_1:0 "Derrochador indulgente" #NT!
- trait_education_stewardship_1_desc:0 "El Derrochador Indulgente recibió una educación en mayordomía para estudiar el flujo de dinero, pero desafortunadamente el flujo parece ir en una sola dirección..." #NT!
- trait_education_stewardship_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] recibió educación en administración para estudiar el flujo de dinero, pero desafortunadamente el flujo parece ir en una sola dirección..." #NT!
-
- trait_education_stewardship_2:0 "Empleado ahorrativo" #NT!
- trait_education_stewardship_2_desc:0 "Thrifty Clerk es adecuado cuando se trata de inversiones y administraciones, pero los errores en el arte de la administración siguen siendo la norma." #NT!
- trait_education_stewardship_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es adecuado cuando se trata de inversiones y administraciones, pero los errores en el arte de la administración siguen siendo la norma." #NT!
-
- trait_education_stewardship_3:0 "Constructor de fortuna" #NT!
- trait_education_stewardship_3_desc:0 "Fortune Builder posee un sentido agudo para todos los asuntos relacionados con la administración y es una fuerza administrativa a tener en cuenta." #NT!
- trait_education_stewardship_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] posee un agudo sentido para todos los asuntos relacionados con la administración y es una fuerza administrativa a tener en cuenta." #NT!
-
- trait_education_stewardship_4:0 "Midas tocado" #NT!
- trait_education_stewardship_4_desc:0 "Al Tocado de Midas le siguen éxito tras éxito en el arte de la administración, mostrando un dominio indiscutible del arte." #NT!
- trait_education_stewardship_4_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le siguen éxito tras éxito en el arte de la administración, mostrando un dominio indiscutible del arte." #NT!
-
-
-#Lifestyle Traitss
- trait_diplomat:0 "Diplomático" #NT!
- trait_diplomat_desc:0 "El Diplomático navega hábilmente por las peligrosas aguas de las interacciones sociales y logra sus objetivos con deslumbrante carisma y convicción mientras media entre los más altos gobernantes de la tierra." #NT!
- trait_diplomat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] navega hábilmente por las peligrosas aguas de las interacciones sociales y logra los objetivos de [ROOT.GetCharacter.GetHerHis] con deslumbrante carisma y convicción mientras media entre los más altos gobernantes de la tierra." #NT!
-
- trait_family_first:0 "La familia primero" #NT!
- trait_family_first_neutral:0 "Jerarca familiar" #NT!
- trait_family_first_male:0 "Patriarca" #NT!
- trait_family_first_female:0 "Matriarca" #NT!
- trait_family_first_desc:0 "Una persona verdaderamente dedicada a su familia ya la prosperidad de su Casa." #NT!
- trait_family_first_character_desc:0 "Un [ROOT.Char.GetWomanMan] verdaderamente dedicado a la familia [ROOT.Char.GetHerHis] y a la prosperidad de la Casa [ROOT.Char.GetHerHis]." #NT!
-
- trait_august:0 "Agosto" #NT!
- trait_august_desc:0 "¡Son honrados como un verdadero gobernante, digno de los imperios de antaño!" #NT!
- trait_august_character_desc:0 "¡[ROOT.Char.GetSheHe|U] es honrado como un verdadero gobernante, digno de los imperios de antaño!" #NT!
-
- trait_reveler_1:0 "Juerguista ansioso" #NT!
- trait_reveler_1_desc:0 "The Eager Reveler ha probado la embriagadora vida de la juerga y el libertinaje y tiene hambre de más." #NT!
- trait_reveler_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha probado la embriagadora vida de la juerga y el libertinaje y tiene hambre de más." #NT!
- trait_reveler_2:0 "Juerguista famoso" #NT!
- trait_reveler_2_desc:0 "The Famous Reveler es la vida de cada reunión, atrayendo tanto el libertinaje como el glamour." #NT!
- trait_reveler_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es la vida de cada reunión, atrayendo tanto el libertinaje como el glamour." #NT!
- trait_reveler_3:0 "Juerguista legendario" #NT!
- trait_reveler_3_desc:0 "Comida, bebida, embriaguez tanto del cuerpo como de la mente: el Legendary Reveler no se niega a nada y es el nexo de cada fiesta." #NT!
- trait_reveler_3_character_desc:0 "Comida, bebida, embriaguez tanto del cuerpo como de la mente: [ROOT.GetCharacter.GetFirstNameNoTooltip] no niega nada a [ROOT.GetCharacter.GetHerselfHimself] y es el nexo de cada fiesta." #NT!
- trait_blademaster_1:0 "Aspirante a maestro de espadas" #NT!
- trait_blademaster_1_desc:0 "Hábil en el combate personal: el aspirante a Blademaster sabe con qué extremo pegarlos." #NT!
- trait_blademaster_1_character_desc:0 "Hábil en el combate personal: [ROOT.GetCharacter.GetFirstNameNoTooltip] sabe con qué lado pegarlos." #NT!
- trait_blademaster_2:0 "Maestro de las cuchillas" #NT!
- trait_blademaster_2_desc:0 "El Blademaster es un oponente formidable y respetado en todo tipo de combate." #NT!
- trait_blademaster_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un oponente formidable y respetado en todo tipo de combate." #NT!
- trait_blademaster_3:0 "Maestro de espadas legendario" #NT!
- trait_blademaster_3_desc:0 "La destreza del Legendary Blademaster es materia de historias." #NT!
- trait_blademaster_3_character_desc:0 "La destreza de [ROOT.GetCharacter.GetFirstNameNoTooltip] es materia de historias." #NT!
- trait_hunter_1:0 "Cazador novato" #NT!
- trait_hunter_1_desc:0 "El cazador novato responde hábilmente a la llamada tanto de la naturaleza como del arco." #NT!
- trait_hunter_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] responde hábilmente a la llamada tanto de la naturaleza como del arco." #NT!
- trait_hunter_2:0 "Cazador" #NT!
- trait_hunter_2_desc:0 "El Cazador navega por la naturaleza con asombrosa precisión y conocimiento." #NT!
- trait_hunter_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] navega por la naturaleza con asombrosa precisión y conocimiento." #NT!
- trait_hunter_3:0 "Cazador maestro" #NT!
- trait_hunter_3_desc:0 "El Maestro Cazador vive para matar." #NT!
- trait_hunter_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] vive para matar." #NT!
-
- trait_strategist:0 "Estratega" #NT!
- trait_strategist_desc:0 "Un estudiante dedicado del arte de la guerra, que puede convertir cualquier situación a su favor." #NT!
- trait_strategist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un estudiante dedicado del arte de la guerra, capaz de sacar ventaja de cualquier situación." #NT!
-
- trait_overseer:0 "Capataz" #NT!
- trait_overseer_desc:0 "La orientación, la firmeza de la mano y la autoridad para garantizar que los problemas se resuelvan adecuadamente." #NT!
-
- trait_gallant:0 "Galante" #NT!
- trait_gallant_desc:0 "La verdadera nobleza proviene no solo de la sangre de uno, sino de las acciones templadas por un espíritu como el acero reluciente." #NT!
-
- trait_architect:0 "Arquitecto" #NT!
- trait_architect_desc:0 "Las obras de un constructor experimentado se mantendrán durante siglos." #NT!
-
- trait_administrator:0 "Administrador" #NT!
- trait_administrator_desc:0 "Para organizar, administrar y aumentar la eficiencia, el Administrador lo hará." #NT!
- trait_administrator_character_desc:0 "Para organizar, administrar y aumentar la eficiencia, [ROOT.GetCharacter.GetFirstNameNoTooltip] lo hará." #NT!
-
- trait_avaricious:0 "Avaro" #NT!
- trait_avaricious_desc:0 "¡Oro, oro, oro! ¿Puede haber una vocación más elevada, una meta más noble que la búsqueda de la riqueza?" #NT!
-
- trait_schemer:0 "Intrigante" #NT!
- trait_schemer_desc:0 "Para comprender y manipular las cosas que impulsan a otras personas, ¡y explotarlas!" #NT!
- trait_schemer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] vive para comprender y manipular las cosas que impulsan a otras personas, ¡y explotarlas!" #NT!
-
- trait_seducer:0 "Seductor" #NT!
- trait_seducer_female:0 "Seductora" #NT!
- trait_seducer_desc:0 "No es difícil desear. El verdadero desafío es #EMP ser#! deseado." #NT!
-
- trait_torturer:0 "Torturador" #NT!
- trait_torturer_desc:0 "Infligiendo dolor. Tener la vida de alguien en tus manos. Este es el verdadero poder." #NT!
-
- trait_whole_of_body:0 "Todo el cuerpo" #NT!
- trait_whole_of_body_desc:0 "Conócete a ti mismo, conoce tus limitaciones y conoce el alcance total de tu poder." #NT!
-
- trait_scholar:0 "Erudito" #NT!
- trait_scholar_desc:0 "Filosofía, naturaleza y conocimiento. Comprender el mundo es la única manera de gobernarlo." #NT!
-
- trait_theologian:0 "Teólogo" #NT!
- trait_theologian_desc:0 "La divinidad tiene la respuesta a cada pregunta, desde lo que reside en el corazón de los hombres, hasta los misterios de la vida." #NT!
-
- trait_mystic_female_1:0 "Mujer sabia" #NT!
- trait_mystic_male_1:0 "Hombre sabio" #NT!
- trait_mystic_1_desc:0 "Este personaje es conocido por su enfoque poco convencional, pero práctico, de la religión." #NT!
- trait_mystic_1_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] es conocido por su [ROOT.Char.GetHerHis] enfoque no convencional, pero práctico, de la religión." #NT!
- trait_mystic_2:0 "Místico" #NT!
- trait_mystic_2_desc:0 "Este personaje es conocido por sus métodos inusuales para lograr la ascensión religiosa." #NT!
- trait_mystic_2_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] es conocido por [ROOT.Char.GetHerHis] métodos inusuales para lograr la ascensión religiosa." #NT!
- trait_mystic_3:0 "Trabajador milagroso" #NT!
- trait_mystic_3_desc:0 "Incienso, cánticos y trucos extraños: este personaje hace milagros a través de medios no convencionales." #NT!
- trait_mystic_3_character_desc:0 "Incienso, cánticos y trucos extraños: [ROOT.Char.GetFirstNameNoTooltip] hace milagros a través de medios no convencionales." #NT!
- trait_physician_1:0 "Médico novato" #NT!
- trait_physician_1_desc:1 "Este personaje está entrenado en el arte de curar." #NT!
- trait_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está entrenado en el arte de curar." #NT!
- trait_physician_2:0 "Médico" #NT!
- trait_physician_2_desc:1 "Este personaje tiene mucha experiencia atendiendo a los enfermos y heridos." #NT!
- trait_physician_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene mucha experiencia atendiendo a los enfermos y heridos." #NT!
- trait_physician_3:0 "Médico de renombre" #NT!
- trait_physician_3_desc:1 "Las habilidades curativas de este personaje son bien conocidas en los círculos académicos." #NT!
- trait_physician_3_character_desc:0 "Las habilidades curativas de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] son bien conocidas en los círculos académicos." #NT!
- lifestyle_herbalist:0 "Herbalista" #NT!
- lifestyle_herbalist_desc:0 "Este personaje está bien versado en hierbas, botánica y prácticas médicas relacionadas con las plantas." #NT!
- lifestyle_herbalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está bien versado en hierbas, botánica y prácticas médicas relacionadas con las plantas." #NT!
- lifestyle_gardener:0 "Jardinero" #NT!
- lifestyle_gardener_desc:0 "Este personaje sabe todo lo que hay que saber sobre jardines, plantas y cómo cuidarlos." #NT!
- lifestyle_gardener_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe todo lo que hay que saber sobre jardines, plantas y cómo cuidarlos." #NT!
+ trait_avaricious:0 "Avaricioso"
+ trait_avaricious_desc:0 "¡Oro, oro, oro, oro! ¿Puede haber vocación más elevada o meta más noble que la búsqueda de la riqueza?"
+ 
+ trait_schemer:0 "Intrigante"
+ trait_schemer_desc:0 "Para comprender y manipular todas las cosas que impulsan a los demás… ¡y aprovecharlas!"
+ trait_schemer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] vive para comprender y manipular todas las cosas que impulsan a los demás… ¡y aprovecharlas!"
+ 
+ trait_seducer:0 "Seductor"
+ trait_seducer_female:0 "Seductora"
+ trait_seducer_desc:0 "Desear no es nada difícil. El verdadero desafío es que #EMP nos#! deseen."
+ 
+ trait_torturer:0 "Torturador"
+ trait_torturer_desc:0 "Causar dolor. Tener la vida de alguien en nuestras manos, ese es el auténtico poder."
+ 
+ trait_whole_of_body:0 "Cuerpo entero"
+ trait_whole_of_body_desc:0 "Conócete a ti mismo, tus limitaciones y comprende bien hasta dónde llegas."
+ 
+ trait_scholar:0 "Erudito"
+ trait_scholar_desc:0 "Filosofía, naturaleza y conocimiento. Comprender el mundo es el único modo de gobernarlo."
+ 
+ trait_theologian:0 "Teólogo"
+ trait_theologian_desc:0 "La divinidad tiene la respuesta a todas las preguntas, desde qué reside en el corazón de los hombres hasta los misterios de la vida."
+ 
+ trait_mystic_female_1:0 "Sabia"
+ trait_mystic_male_1:0 "Sabio"
+ trait_mystic_1_desc:0 "Este personaje es célebre por su enfoque poco convencional, pero práctico, de la religión."
+ trait_mystic_1_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] es célebre por su enfoque poco convencional, pero práctico, de la religión."
+ trait_mystic_2:0 "Místico"
+ trait_mystic_2_desc:0 "Este personaje es célebre por sus métodos poco habituales para lograr la asunción religiosa."
+ trait_mystic_2_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] es célebre por sus métodos poco habituales para lograr la asunción religiosa."
+ trait_mystic_3:0 "Obrador de milagros"
+ trait_mystic_3_desc:0 "Incienso, cánticos y extraños hechizos… este personaje hace milagros mediante métodos poco convencionales."
+ trait_mystic_3_character_desc:0 "Incienso, cánticos y extraños hechizos… [ROOT.Char.GetFirstNameNoTooltip] hace milagros mediante métodos poco convencionales."
+ trait_physician_1:0 "Médico novato"
+ trait_physician_1_desc:1 "Este personaje está instruido en el arte de la curación."
+ trait_physician_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está instruid[ROOT.GetCharacter.Custom('ES_OA')] en el arte de la curación."
+ trait_physician_2:0 "Médico"
+ trait_physician_2_desc:1 "Este personaje tiene mucha experiencia en tratar a enfermos y heridos."
+ trait_physician_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene mucha experiencia en tratar a enfermos y heridos."
+ trait_physician_3:0 "Médico célebre"
+ trait_physician_3_desc:1 "Las habilidades curativas de este personaje son bien conocidas en círculos eruditos."
+ trait_physician_3_character_desc:0 "Las habilidades curativas de [ROOT.GetCharacter.GetFirstNameNoTooltip] son bien conocidas en círculos eruditos."
+ lifestyle_herbalist:0 "Herborista"
+ lifestyle_herbalist_desc:0 "Este personaje entiende de hierbas, botánica y prácticas medicinales relacionadas con plantas."
+ lifestyle_herbalist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] entiende de hierbas, botánica y prácticas medicinales relacionadas con plantas."
+ lifestyle_gardener:0 "Jardinero"
+ lifestyle_gardener_desc:0 "Este personaje sabe todo lo que se debe saber sobre jardines, plantas y su cuidado."
+ lifestyle_gardener_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe todo lo que se debe saber sobre jardines, plantas y su cuidado."
 
 #Personality Traits
- trait_chaste:0 "Casto" #NT!
- trait_chaste_desc:1 "Este personaje detesta el contacto íntimo, evitando las tentaciones de la carne." #NT!
- trait_chaste_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le desagrada el contacto íntimo, evitando las tentaciones de la carne." #NT!
- trait_lustful:0 "Libidinoso" #NT!
- trait_lustful_desc:0 "Los deseos carnales arden en el corazón de este personaje." #NT!
- trait_lustful_character_desc:0 "Los deseos carnales arden en el núcleo de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." #NT!
- trait_temperate:0 "Templado" #NT!
- trait_temperate_desc:0 "Según este personaje, lo mejor es disfrutar de las cosas con moderación." #NT!
- trait_temperate_character_desc:0 "Según [ROOT.GetCharacter.GetFirstNameNoTooltip], es mejor disfrutar las cosas con moderación." #NT!
- trait_gluttonous:0 "Glotón" #NT!
- trait_gluttonous_desc:0 "Este personaje se burla de la moderación; lo quieren #EMP all#!." #NT!
- trait_gluttonous_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] frunce el ceño ante la moderación; [ROOT.GetCharacter.GetSheHe] lo quiere #EMP todo#!." #NT!
- trait_generous:0 "Generoso" #NT!
- trait_generous_desc:0 "Los actos de benevolencia y caridad no son ajenos a este personaje." #NT!
- trait_generous_character_desc:0 "Los actos de benevolencia y caridad no son ajenos a [ROOT.GetCharacter.GetFirstNameNoTooltip]." #NT!
- trait_greedy:0 "Avaro" #NT!
- trait_greedy_desc:0 "Este personaje mantiene un control estricto sobre su bolso y siempre está buscando formas de atiborrarlo." #NT!
- trait_greedy_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] mantiene un control estricto sobre el bolso de [ROOT.GetCharacter.GetHerHis] y siempre está buscando formas de atiborrarlo." #NT!
- trait_diligent:0 "Diligente" #NT!
- trait_diligent_desc:0 "Este personaje no rehuye el trabajo duro." #NT!
- trait_diligent_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no rehuye el trabajo duro." #NT!
- trait_lazy:0 "Perezoso" #NT!
- trait_lazy_desc:0 "El camino más fácil en la vida es el camino más seguido por este personaje." #NT!
- trait_lazy_character_desc:0 "El camino más fácil en la vida es el camino más utilizado por [ROOT.GetCharacter.GetFirstNameNoTooltip]." #NT!
- trait_wrathful:0 "Colérico" #NT!
- trait_wrathful_desc:0 "Este personaje es rápido para la ira y la furia." #NT!
- trait_wrathful_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es rápido para la ira y la furia." #NT!
- trait_calm:0 "Calma" #NT!
- trait_calm_desc:0 "Este personaje se toma las cosas con calma y lleva una vida lenta." #NT!
- trait_calm_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se toma las cosas con calma y lleva una vida tranquila." #NT!
- trait_impatient:0 "Impaciente" #NT!
- trait_impatient_desc:0 "Este personaje piensa que la mayoría de las cosas deberían suceder rápido: lo ideal sería que sucedieran #EMP ahora#!." #NT!
- trait_impatient_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] piensa que la mayoría de las cosas deberían suceder rápido: idealmente deberían suceder #EMP ahora#!." #NT!
- trait_patient:0 "Paciente" #NT!
- trait_patient_desc:0 "Esperar y esperar su momento es una especialidad de este personaje." #NT!
- trait_patient_character_desc:0 "Esperar y aguardar el [ROOT.GetCharacter.GetHerHis] tiempo es una especialidad de [ROOT.GetCharacter.GetFirstNameNoTooltip]." #NT!
- trait_humble:0 "Humilde" #NT!
- trait_humble_desc:0 "Este personaje no pide mucho en la vida." #NT!
- trait_humble_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no pide mucho en la vida." #NT!
- trait_arrogant:0 "Arrogante" #NT!
- trait_arrogant_desc:0 "Este personaje no tiene ningún problema con su sentido del valor." #NT!
- trait_arrogant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no tiene ningún problema con el sentido de valía de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_deceitful:0 "Engañoso" #NT!
- trait_deceitful_desc:0 "Mentir y engañar está en la naturaleza de este personaje." #NT!
- trait_deceitful_character_desc:0 "Mentir y engañar está en la naturaleza de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." #NT!
+ trait_chaste:0 "Casto"
+ trait_chaste_desc:1 "Este personaje aborrece el contacto íntimo y evita las tentaciones de la carne."
+ trait_chaste_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] aborrece el contacto íntimo y evita las tentaciones de la carne."
+ trait_lustful:0 "Concupiscente"
+ trait_lustful_desc:0 "Los deseos carnales arden en el corazón de este personaje."
+ trait_lustful_character_desc:0 "Los deseos carnales arden en el corazón de [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_temperate:0 "Moderado"
+ trait_temperate_desc:0 "Según este personaje es mejor disfrutar las cosas con moderación."
+ trait_temperate_character_desc:0 "Según [ROOT.GetCharacter.GetFirstNameNoTooltip], es mejor disfrutar las cosas con moderación."
+ trait_gluttonous:0 "Voraz"
+ trait_gluttonous_desc:0 "Este personaje se burla de la moderación; lo quiere #EMP todo#!."
+ trait_gluttonous_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se burla de la moderación; lo quiere #EMP todo#!."
+ trait_generous:0 "Generoso"
+ trait_generous_desc:0 "Los actos de benevolencia y caridad no son ajenos a este personaje."
+ trait_generous_character_desc:0 "Los actos de benevolencia y caridad no son ajenos a [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_greedy:0 "Codicioso"
+ trait_greedy_desc:0 "Este personaje mantiene bien cerrada su bolsa y siempre está buscando modos de engordarla."
+ trait_greedy_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] mantiene bien cerrada su bolsa y siempre está buscando modos de engordarla."
+ trait_diligent:0 "Diligente"
+ trait_diligent_desc:0 "Este personaje no rehúye el trabajo duro."
+ trait_diligent_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no rehúye el trabajo duro."
+ trait_lazy:0 "Vago"
+ trait_lazy_desc:0 "El camino más fácil de la vida es el que más sigue este personaje."
+ trait_lazy_character_desc:0 "El camino más fácil de la vida es el que más sigue [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_wrathful:0 "Irascible"
+ trait_wrathful_desc:0 "Este personaje se enfurece e irrita con rapidez."
+ trait_wrathful_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se enfurece e irrita con rapidez."
+ trait_calm:0 "Calmo"
+ trait_calm_desc:0 "Este personaje se toma las cosas con calma y lleva una vida pausada."
+ trait_calm_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se toma las cosas con calma y lleva una vida pausada."
+ trait_impatient:0 "Impaciente"
+ trait_impatient_desc:0 "Este personaje piensa que la mayoría de las cosas deberían pasar rápido y #EMP ya#!."
+ trait_impatient_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] piensa que la mayoría de las cosas deberían pasar rápido, idealmente #EMP ya#!."
+ trait_patient:0 "Paciente"
+ trait_patient_desc:0 "Esperar y hacer tiempo es una especialidad de este personaje."
+ trait_patient_character_desc:0 "Esperar y hacer tiempo es una especialidad de [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_humble:0 "Humilde"
+ trait_humble_desc:0 "Este personaje no le pide mucho a la vida."
+ trait_humble_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no le pide mucho a la vida."
+ trait_arrogant:0 "Arrogante"
+ trait_arrogant_desc:0 "Este personaje no tiene ningún problema sobre cuánto cree que vale."
+ trait_arrogant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no tiene ningún problema sobre cuánto cree que vale."
+ trait_deceitful:0 "Falso"
+ trait_deceitful_desc:0 "Mentir y engañar está en la naturaleza de este personaje."
+ trait_deceitful_character_desc:0 "Mentir y engañar está en la naturaleza de [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_honest:0 "Honesto"
+ trait_honest_desc:0 "Este personaje valora mucho la verdad y la sinceridad."
+ trait_honest_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] valora mucho la verdad y la sinceridad."
+ trait_craven:0 "Pusilánime"
+ trait_craven_desc:0 "Este personaje no disfruta en absoluto cuando le desafían o asustan."
+ trait_craven_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no disfruta en absoluto cuando le desafían o asustan."
+ trait_brave:0 "Valiente"
+ trait_brave_desc:0 "Desafíos o peligro, este personaje no teme a nada."
+ trait_brave_character_desc:0 "Desafíos o peligro, [ROOT.GetCharacter.GetFirstNameNoTooltip] no teme a nada."
+ trait_shy:0 "Tímido"
+ trait_shy_desc:0 "Este personaje prefiere no interactuar con otras personas."
+ trait_shy_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] prefiere no interactuar con otras personas."
+ trait_gregarious:0 "Gregario"
+ trait_gregarious_desc:0 "Este personaje disfruta pasando tiempo con otras personas."
+ trait_gregarious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] disfruta pasando tiempo con otras personas."
+ trait_ambitious:0 "Ambicioso"
+ trait_ambitious_desc:0 "Este personaje sabe lo que quiere y no tiene miedo de intentar conseguirlo"
+ trait_ambitious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe lo que quiere y no le asusta intentar conseguirlo."
+ trait_content:0 "Satisfecho"
+ trait_content_desc:0 "Lo que ya tiene este personaje, sea mucho o poco, es suficiente para él."
+ trait_content_character_desc:0 "Lo que ya tiene [ROOT.GetCharacter.GetFirstNameNoTooltip], sea mucho o poco, es suficiente para [ROOT.GetCharacter.Custom('ES_ElElla')]."
+ trait_arbitrary:0 "Arbitrario"
+ trait_arbitrary_desc:0 "Este personaje hace lo que le parece y tiene poca consideración por los demás."
+ trait_arbitrary_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] hace lo que le parece y tiene poca consideración por los demás."
+ trait_just:0 "Justo"
+ trait_just_desc:0 "Este personaje tiene un fuerte sentido de la justicia."
+ trait_just_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un fuerte sentido de la justicia."
+ trait_cynical:0 "Cínico"
+ trait_cynical_desc:0 "Este personaje confía en el interés propio de los demás por encima de todo."
+ trait_cynical_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] confía en el interés propio de los demás por encima de todo."
+ trait_zealous:0 "Ferviente"
+ trait_zealous_desc:0 "La convicción religiosa arde con fuerza en el corazón de este personaje."
+ trait_zealous_character_desc:0 "La convicción religiosa arde con fuerza en el corazón de [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_paranoid:0 "Paranoico"
+ trait_paranoid_desc:0 "Este personaje ve enemigos en cada sombra."
+ trait_paranoid_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ve enemigos en cada sombra."
+ trait_trusting:0 "Confiado"
+ trait_trusting_desc:0 "Este personaje suele depositar enseguida su fe en los demás."
+ trait_trusting_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] suele depositar enseguida su fe en los demás."
+ trait_compassionate:0 "Compasivo"
+ trait_compassionate_desc:0 "Misericordioso y comprensivo, este personaje es afectuoso."
+ trait_compassionate_character_desc:0 "Misericordios[ROOT.GetCharacter.Custom('ES_OA')] y comprensiv[ROOT.GetCharacter.Custom('ES_OA')], [ROOT.GetCharacter.GetFirstNameNoTooltip] es afectuos[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_callous:0 "Insensible"
+ trait_callous_desc:0 "Calificado de cruel y despiadado, este personaje siente indiferencia hacia los demás."
+ trait_callous_character_desc:0 "Calificad[ROOT.GetCharacter.Custom('ES_OA')] de cruel y despiadad[ROOT.GetCharacter.Custom('ES_OA')], [ROOT.GetCharacter.GetFirstNameNoTooltip] siente indiferencia hacia los demás."
+ trait_sadistic:0 "Sádico"
+ trait_sadistic_desc:0 "Pocas cosas causan más alegría a este personaje que el sufrimiento ajeno."
+ trait_sadistic_character_desc:0 "Pocas cosas causan más alegría a [ROOT.GetCharacter.GetFirstNameNoTooltip] que el sufrimiento ajeno."
+ trait_stubborn:0 "Testarudo"
+ trait_stubborn_desc:0 "Este personaje no da marcha atrás en nada."
+ trait_stubborn_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no da marcha atrás en nada."
+ trait_fickle:0 "Inconstante"
+ trait_fickle_desc:0 "Este personaje cambia de idea muy a menudo, por lo que resulta muy difícil de predecir."
+ trait_fickle_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] cambia de idea muy a menudo, por lo que resulta muy difícil de predecir."
+ trait_vengeful:0 "Revanchista"
+ trait_vengeful_desc:0 "Este personaje tarda en olvidar afrentas o a cualquiera que le haya hecho mal."
+ trait_vengeful_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tarda en olvidar afrentas o a cualquiera que le haya hecho mal."
+ trait_forgiving:0 "Indulgente"
+ trait_forgiving_desc:0 "Este personaje se apresura a perdonar la mayoría de asuntos."
+ trait_forgiving_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se apresura a perdonar la mayoría de asuntos."
+ trait_rowdy:0 "Pendenciero"
+ trait_rowdy_desc:1 "Este niño no para un instante, lleno de energía y malicia. Cuando trama algo, no es raro que otros salgan heridos."
+ trait_rowdy_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] no para un instante, llen[ROOT.GetCharacter.Custom('ES_OA')] de energía y malicia. Cuando trama algo, no es raro que otros salgan heridos."
+ trait_charming:0 "Encantador"
+ trait_charming_desc:2 "Este niño sabe ciertamente cómo lograr que la gente haga lo que quiere. Es dulce y afable, lo que le permite salirse con la suya casi siempre."
+ trait_charming_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] sabe ciertamente cómo lograr que la gente haga lo que quiere. Es dulce y afable, lo que le permite salirse con la suya casi siempre."
+ trait_curious:0 "Curioso"
+ trait_curious_desc:1 "No hay nunca un momento de silencio con ese niño. Siempre haciendo preguntas, siente curiosidad por todo y por todos."
+ trait_curious_character_desc:0 "No hay nunca un momento de silencio con [ROOT.Char.GetFirstNameNoTooltip]. Siempre haciendo preguntas, siente curiosidad hacia por todo y por todos."
+ trait_pensive:0 "Pensativo"
+ trait_pensive_desc:1 "Este niño a veces se pierde en su mundo, tratando de entender el mundo que le rodea. A menudo, se basa en libros y sistemas para darle sentido a todo."
+ trait_pensive_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] a veces se pierde en su mundo, tratando de entender el mundo que le rodea. A menudo, se basa en libros y sistemas para darle sentido a todo."
+ trait_bossy:0 "Mandón"
+ trait_bossy_desc:1 "A este niño se le suele ver dando órdenes a otros niños. Aunque le preocupa que las cosas se hagan bien, es igual de importante que se hagan a #EMP su#! manera."
+ trait_bossy_character_desc:0 "A [ROOT.Char.GetFirstNameNoTooltip] se le suele ver dando órdenes a otros niños. Aunque le preocupa que las cosas se hagan bien, es igual de importante que se hagan a #EMP su#! manera."
 
- trait_honest:0 "Honesto" #NT!
- trait_honest_desc:0 "Este personaje valora mucho la verdad y la sinceridad." #NT!
- trait_honest_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] valora mucho la verdad y la sinceridad." #NT!
+ trait_loyal:0 "Leal"
+ trait_loyal_desc:0 "Esta persona se toma sus relaciones con más seriedad que el resto."
+ trait_loyal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se toma sus relaciones con más seriedad que el resto."
 
- trait_craven:0 "Cobarde" #NT!
- trait_craven_desc:0 "Este personaje no disfruta en absoluto de ser desafiado o asustado." #NT!
- trait_craven_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] no le gusta que lo desafíen ni lo asuste." #NT!
+ TRAIT_FLAG_DESC_join_factions_less:0 "Menos probable que se una a [factions|lE] contra su [liege|lE]"
+ TRAIT_FLAG_DESC_join_factions_more:0 "Más probable que se una a [factions|lE] contra su [liege|lE]"
 
- trait_brave:0 "Corajudo" #NT!
- trait_brave_desc:0 "Desafíos o peligros, este personaje no teme a nada." #NT!
- trait_brave_character_desc:0 "Retos o peligros, [ROOT.GetCharacter.GetFirstNameNoTooltip] no teme a nada." #NT!
-
- trait_shy:0 "Solitario" #NT!
- trait_shy_desc:0 "Este personaje prefiere pasar tiempo en su propia compañía." #NT!
- trait_shy_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] prefiere pasar tiempo en la propia empresa de [ROOT.GetCharacter.GetHerHis]." #NT!
-
- trait_gregarious:0 "Gregario" #NT!
- trait_gregarious_desc:0 "Este personaje disfruta pasar tiempo con otras personas." #NT!
- trait_gregarious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] disfruta pasar tiempo con otras personas." #NT!
- trait_ambitious:0 "Ambicioso" #NT!
- trait_ambitious_desc:0 "Este personaje sabe lo que quiere y no tiene miedo de intentar conseguirlo." #NT!
- trait_ambitious_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe lo que quiere [ROOT.GetCharacter.GetSheHe] y [ROOT.GetCharacter.GetSheHe] no tiene miedo de intentar conseguirlo." #NT!
- trait_content:0 "Contenido" #NT!
- trait_content_desc:0 "Lo que ya tienen, sea mucho o poco, es suficiente para este personaje." #NT!
- trait_content_character_desc:0 "Lo que ya tiene [ROOT.GetCharacter.GetSheHe], sea mucho o poco, es suficiente para [ROOT.GetCharacter.GetFirstNameNoTooltip]." #NT!
- trait_arbitrary:0 "Arbitrario" #NT!
- trait_arbitrary_desc:0 "Este personaje hace lo suyo y tiene poca consideración por los demás." #NT!
- trait_arbitrary_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] [ROOT.GetCharacter.GetHerHis] hace cosas propias y tiene poca consideración por los demás." #NT!
- trait_just:0 "Justo" #NT!
- trait_just_desc:0 "Este personaje tiene un fuerte sentido de la justicia." #NT!
- trait_just_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un fuerte sentido de la justicia." #NT!
- trait_cynical:0 "Cínico" #NT!
- trait_cynical_desc:0 "Este personaje confía en el interés propio de los demás por encima de todo." #NT!
- trait_cynical_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] confía en el interés propio de los demás por encima de todo." #NT!
- trait_zealous:0 "Celoso" #NT!
- trait_zealous_desc:0 "La convicción religiosa brilla intensamente en el centro de este personaje." #NT!
- trait_zealous_character_desc:0 "La convicción religiosa brilla intensamente en el centro de [ROOT.GetCharacter.GetFirstNameNoTooltip]." #NT!
- trait_paranoid:0 "Paranoico" #NT!
- trait_paranoid_desc:0 "Este personaje ve enemigos en cada sombra." #NT!
- trait_paranoid_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ve enemigos en cada sombra." #NT!
- trait_trusting:0 "Confiando" #NT!
- trait_trusting_desc:0 "Este personaje se apresura a depositar su fe en los demás." #NT!
- trait_trusting_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] confía rápidamente en [ROOT.GetCharacter.GetHerHis] en los demás." #NT!
- trait_compassionate:0 "Compasivo" #NT!
- trait_compassionate_desc:0 "Tanto misericordioso como comprensivo, este personaje es afectuoso." #NT!
- trait_compassionate_character_desc:0 "Tanto misericordioso como comprensivo, [ROOT.GetCharacter.GetFirstNameNoTooltip] es afectuoso." #NT!
- trait_callous:0 "Calloso" #NT!
- trait_callous_desc:0 "Al ser llamado cruel y de sangre fría, este personaje es indiferente para la mayoría." #NT!
- trait_callous_character_desc:0 "Siendo llamado cruel y de sangre fría, [ROOT.GetCharacter.GetFirstNameNoTooltip] es indiferente para la mayoría." #NT!
- trait_sadistic:0 "Sádico" #NT!
- trait_sadistic_desc:0 "Pocas cosas aportan tanta alegría a este personaje como el sufrimiento de los demás." #NT!
- trait_sadistic_character_desc:0 "Pocas cosas dan [ROOT.GetCharacter.GetFirstNameNoTooltip] tanta alegría como el sufrimiento de los demás." #NT!
- trait_stubborn:0 "Tenaz" #NT!
- trait_stubborn_desc:0 "Este personaje no se echa atrás por nada." #NT!
- trait_stubborn_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no retrocede por nada." #NT!
- trait_fickle:0 "Voluble" #NT!
- trait_fickle_desc:0 "Este personaje cambia de opinión la mayoría de las veces, lo que los hace difíciles de predecir." #NT!
- trait_fickle_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] cambia la opinión de [ROOT.GetCharacter.GetHerHis] la mayoría de las veces, lo que hace que [ROOT.GetCharacter.GetHerHim] sea difícil de predecir." #NT!
- trait_vengeful:0 "Vengativo" #NT!
- trait_vengeful_desc:0 "Este personaje es lento para olvidar un desaire o alguien que lo hace mal." #NT!
- trait_vengeful_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es lento para olvidar un desaire o alguien que hace [ROOT.GetCharacter.GetHerHim] mal." #NT!
- trait_forgiving:0 "Indulgente" #NT!
- trait_forgiving_desc:0 "Este personaje es rápido para pasar de la mayoría de las cosas." #NT!
- trait_forgiving_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es rápido para pasar de la mayoría de las cosas." #NT!
- trait_rowdy:0 "Ruidoso" #NT!
- trait_rowdy_desc:1 "Este niño siempre está en movimiento, lleno de energía y picardía. Cuando están tramando algo, no es raro que otros salgan lastimados." #NT!
- trait_rowdy_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] siempre está en movimiento, lleno de energía y picardía. Cuando [ROOT.Char.GetSheHe] está tramando algo, no es raro que otros salgan lastimados." #NT!
- trait_charming:0 "Encantador" #NT!
- trait_charming_desc:2 "Este niño ciertamente sabe cómo envolver a las personas alrededor de su dedo meñique. Son dulces y amables, lo que les permite salirse con la suya con casi cualquier cosa." #NT!
- trait_charming_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] ciertamente sabe cómo envolver a las personas alrededor del dedo meñique de [ROOT.Char.GetHerHis]. [ROOT.Char.GetSheHe|U] es ​​dulce y amable, lo que le permite a [ROOT.Char.GetHerHim] salirse con la suya en casi cualquier cosa." #NT!
- trait_curious:0 "Curioso" #NT!
- trait_curious_desc:1 "Rara vez hay un momento de silencio con este niño. Constantemente haciendo preguntas, tienen curiosidad por todo y por todos." #NT!
- trait_curious_character_desc:0 "Rara vez hay un momento de silencio con [ROOT.Char.GetFirstNameNoTooltip]. Constantemente haciendo preguntas, [ROOT.Char.GetSheHe] siente curiosidad por todo y por todos." #NT!
- trait_pensive:0 "Pensativo" #NT!
- trait_pensive_desc:1 "Este niño a menudo se pierde en sus pensamientos, tratando de comprender el mundo que lo rodea. A menudo se basan en libros y sistemas para dar sentido a las cosas." #NT!
- trait_pensive_character_desc:0 "[ROOT.Char.GetFirstNameNoTooltip] a menudo se pierde en sus pensamientos, tratando de comprender el mundo que rodea a [ROOT.Char.GetHerHim]. [ROOT.Char.GetSheHe|U] a menudo se basa en libros y sistemas para dar sentido a las cosas." #NT!
- trait_bossy:0 "Mandón" #NT!
- trait_bossy_desc:1 "A menudo se puede ver a este niño dando órdenes a otros niños. Si bien les preocupa hacer las cosas de la manera correcta, hacerlo #EMP su#! manera es igualmente importante." #NT!
- trait_bossy_character_desc:0 "A menudo se puede ver a [ROOT.Char.GetFirstNameNoTooltip] dando órdenes a otros niños. Si bien [ROOT.Char.GetSheHe] se preocupa por hacer las cosas de la manera correcta, hacer las cosas #EMP [ROOT.Char.GetHerHis]#! way es igualmente importante." #NT!
-
- trait_loyal:0 "Leal" #NT!
- trait_loyal_desc:0 "Esta persona toma sus relaciones más en serio que la mayoría." #NT!
- trait_loyal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se toma las relaciones con [ROOT.GetCharacter.GetHerHis] más en serio que la mayoría." #NT!
-
- TRAIT_FLAG_DESC_join_factions_less:0 "Es menos probable que se una a [factions|E] contra su [liege|E]" #NT!
- TRAIT_FLAG_DESC_join_factions_more:0 "Es más probable que se una a [factions|E] contra su [liege|E]" #NT!
-
- trait_disloyal:0 "Desleal" #NT!
- trait_disloyal_desc:0 "Donde la mayoría de la gente ve una relación, esta persona ve una oportunidad." #NT!
- trait_disloyal_character_desc:0 "Donde la mayoría de la gente ve una relación, [ROOT.GetCharacter.GetFirstNameNoTooltip] ve una oportunidad." #NT!
+ trait_disloyal:0 "Desleal"
+ trait_disloyal_desc:0 "Donde la mayoría de la gente ve una relación, esta persona ve una oportunidad."
+ trait_disloyal_character_desc:0 "Donde la mayoría de la gente ve una relación, [ROOT.GetCharacter.GetFirstNameNoTooltip] ve una oportunidad."
 
 #Stress traits
- trait_drunkard:0 "Borracho" #NT!
- trait_drunkard_desc:0 "Este personaje se ha aficionado a la botella, y está continuamente buscando su fondo." #NT!
- trait_drunkard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha aferrado a la botella y está continuamente buscando su fondo." #NT!
- trait_hashishiyah:0 "Leche de la amapola" #AGOT Overwrite - Zombie #NT!
- trait_hashishiyah_desc:0 "Este personaje depende del consumo de Leche de Amapola para lidiar con el estrés de la vida cotidiana." #NT!
- trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] depende del consumo de Leche de Amapola para lidiar con el estrés de la vida cotidiana." #NT!
+ trait_drunkard:0 "Beodo"
+ trait_drunkard_desc:0 "Este personaje se ha dado a la bebida y está empinando el codo continuamente."
+ trait_drunkard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha dado a la bebida y está empinando el codo continuamente."
+ trait_hashishiyah:0 "Leche de Amapola" #AGOT Se modificó para que fuera leche de amapola.
+ trait_hashishiyah_desc:0 "Este personaje depende del consumo de Leche de Amapola para tratar con el estrés de la vida diaria."
+ trait_hashishiyah_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] depende del consumo de Leche de Amapola para tratar con el estrés de la vida diaria."
 
- trait_rakish:0 "Libertino" #NT!
- trait_rakish_desc:0 "Este personaje pasa tanto tiempo en el burdel que se ha convertido en su segundo hogar." #NT!
- trait_rakish_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] pasa tanto tiempo en el burdel que se ha convertido en el segundo hogar de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_reclusive:0 "Solitario" #NT!
- trait_reclusive_desc:0 "Este personaje a menudo se aísla y descuida sus responsabilidades." #NT!
- trait_reclusive_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] a menudo secuestra a [ROOT.GetCharacter.GetHerselfHimself] y descuida las responsabilidades de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_irritable:0 "Irritable" #NT!
- trait_irritable_desc:0 "El estrés ha hecho que este personaje sea propenso a frecuentes arrebatos y rabietas." #NT!
- trait_irritable_character_desc:0 "El estrés ha hecho que [ROOT.GetCharacter.GetFirstNameNoTooltip] sea propenso a frecuentes arrebatos y rabietas." #NT!
- trait_flagellant:0 "Flagelante" #NT!
- trait_flagellant_desc:0 "La catarsis de la autoflagelación es lo único que hace sentir mejor a este personaje." #NT!
- trait_flagellant_character_desc:0 "La catarsis de la autoflagelación es lo único que hace que [ROOT.GetCharacter.GetFirstNameNoTooltip] se sienta mejor." #NT!
- trait_profligate:0 "Libertino" #NT!
- trait_profligate_desc:0 "El gasto compulsivo hace que este personaje desperdicie dinero con frecuencia en compras innecesarias." #NT!
- trait_profligate_character_desc:0 "El gasto compulsivo hace que [ROOT.GetCharacter.GetFirstNameNoTooltip] desperdicie dinero con frecuencia en compras innecesarias." #NT!
- trait_improvident:0 "Imprevisor" #NT!
- trait_improvident_desc:0 "Este personaje suele dar mucho más dinero a organizaciones benéficas de lo que razonablemente pueden pagar." #NT!
- trait_improvident_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] habitualmente dona mucho más dinero a organizaciones benéficas de lo que [ROOT.GetCharacter.GetSheHe] puede permitirse razonablemente." #NT!
- trait_contrite:0 "Contrito" #NT!
- trait_contrite_desc:0 "Este personaje sufre de una conciencia culpable, a menudo se siente obligado a confesar cosas que es mejor no mencionar." #NT!
- trait_contrite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sufre de una conciencia culpable, a menudo se siente obligado a confesar cosas que es mejor no mencionar." #NT!
- trait_comfort_eater:0 "Comedor de confort" #NT!
- trait_comfort_eater_desc:0 "Este personaje a menudo trata de llenar el vacío que siente deleitándose con alimentos reconfortantes." #NT!
- trait_comfort_eater_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] a menudo trata de llenar el vacío que siente [ROOT.GetCharacter.GetSheHe] al permitirse comidas reconfortantes." #NT!
- trait_inappetetic:0 "Inapetético" #NT!
- trait_inappetetic_desc:0 "El estrés ha arruinado el apetito de este personaje, haciendo que se salte comidas y se consuma..." #NT!
- trait_inappetetic_character_desc:0 "El estrés ha arruinado el apetito de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], lo que ha provocado que [ROOT.GetCharacter.GetHerHim] se salte comidas y se consuma..." #NT!
- trait_journaller:0 "Periodista" #NT!
- trait_journaller_desc:0 "Este personaje se ha aficionado a escribir los pensamientos que le atormentan para hacerlo más fácil de manejar." #NT!
- trait_journaller_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha dedicado a escribir los pensamientos que acosan a [ROOT.GetCharacter.GetHerHim] para que sean más fáciles de manejar." #NT!
- trait_confider:0 "Confiar" #NT!
- trait_confider_desc:0 "Al compartir sus problemas con un confidente cercano, este personaje se ha vuelto capaz de manejar la vida mucho mejor de lo que podría hacerlo solo." #NT!
- trait_confider_character_desc:0 "Al compartir los problemas de [ROOT.GetCharacter.GetHerHis] con un confidente cercano, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ha vuelto capaz de manejar la vida mucho mejor que [ROOT.GetCharacter.GetSheHe] solo." #NT!
- trait_athletic:0 "Atlético" #NT!
- trait_athletic_desc:0 "El ejercicio regular ayuda a este personaje a mantener la cabeza nivelada y quemar el estrés." #NT!
- trait_athletic_character_desc:0 "El ejercicio regular ayuda a [ROOT.GetCharacter.GetFirstNameNoTooltip] a mantener la calma y eliminar el estrés." #NT!
+ trait_rakish:0 "Libertino"
+ trait_rakish_desc:0 "Este personaje pasa tanto tiempo en el burdel que se ha convertido en su segundo hogar."
+ trait_rakish_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] pasa tanto tiempo en el burdel que se ha convertido en su segundo hogar."
+ trait_reclusive:0 "Recluido"
+ trait_reclusive_desc:0 "Este personaje se suele aislar y descuida sus responsabilidades."
+ trait_reclusive_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se suele aislar y descuida sus responsabilidades."
+ trait_irritable:0 "Irritable"
+ trait_irritable_desc:0 "El estrés hace que este personaje sea dado a estallidos y rabietas frecuentes."
+ trait_irritable_character_desc:0 "El estrés hace que [ROOT.GetCharacter.GetFirstNameNoTooltip] sea dad[ROOT.GetCharacter.Custom('ES_OA')] a estallidos y rabietas frecuentes."
+ trait_flagellant:0 "Flagelante"
+ trait_flagellant_desc:0 "La catarsis de la autoflagelación es lo único que hace que este personaje se sienta mejor."
+ trait_flagellant_character_desc:0 "La catarsis de la autoflagelación es lo único que hace que [ROOT.GetCharacter.GetFirstNameNoTooltip] se sienta mejor."
+ trait_profligate:0 "Despilfarrador"
+ trait_profligate_desc:0 "La compulsión al gasto hace que este personaje tire el dinero frecuentemente en compras innecesarias."
+ trait_profligate_character_desc:0 "La compulsión al gasto hace que [ROOT.GetCharacter.GetFirstNameNoTooltip] tire el dinero frecuentemente en compras innecesarias."
+ trait_improvident:0 "Imprevisor"
+ trait_improvident_desc:0 "Este personaje suele dar más dinero en obras de caridad de lo que se puede permitir razonablemente."
+ trait_improvident_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] suele dar más dinero en obras de caridad de lo que se puede permitir razonablemente."
+ trait_contrite:0 "Contrito"
+ trait_contrite_desc:0 "Este personaje tiene conciencia de culpabilidad y suele sentirse obligado a confesar cosas que sería mejor no mencionar."
+ trait_contrite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene conciencia de culpabilidad y suele sentirse obligad[ROOT.GetCharacter.Custom('ES_OA')] a confesar cosas que sería mejor no mencionar."
+ trait_comfort_eater:0 "Comedor de consuelo"
+ trait_comfort_eater_desc:0 "Este personaje suele llenar a menudo el vacío que le embarga comiendo para sentirse mejor."
+ trait_comfort_eater_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] suele llenar a menudo el vacío que le embarga comiendo para sentirse mejor."
+ trait_inappetetic:0 "Inapetente"
+ trait_inappetetic_desc:0 "El estrés ha arruinado el apetito de este personaje, haciendo que se salte comidas y que se quede en los huesos…"
+ trait_inappetetic_character_desc:0 "El estrés ha arruinado el apetito de [ROOT.GetCharacter.GetFirstNameNoTooltip], haciendo que se salte comidas y que se quede en los huesos…"
+ trait_journaller:0 "Escritor de diarios"
+ trait_journaller_desc:0 "Este personaje se ha propuesto dejar por escrito los pensamientos que le inundan para poder gestionarlos mejor."
+ trait_journaller_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha propuesto dejar por escrito los pensamientos que le inundan para poder gestionarlos mejor."
+ trait_confider:0 "Confiador"
+ trait_confider_desc:0 "Al compartir sus problemas con un confidente cercano, este personaje consigue gestionar su vida mejor de lo que podría por sí solo."
+ trait_confider_character_desc:0 "Al compartir sus problemas con un confidente cercano, [ROOT.GetCharacter.GetFirstNameNoTooltip] consigue gestionar su vida mejor de lo que podría por sí sol[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_athletic:0 "Atlético"
+ trait_athletic_desc:0 "El ejercicio regular ayuda a este personaje a mantener la serenidad y quemar el estrés."
+ trait_athletic_character_desc:0 "El ejercicio regular ayuda a [ROOT.GetCharacter.GetFirstNameNoTooltip] a mantener la serenidad y quemar el estrés."
 
 #Health traits
- trait_pregnant:0 "Embarazada" #NT!
- trait_pregnant_desc:0 "Este personaje está embarazada." #NT!
- trait_pregnant_character_desc:1 "[ROOT.Char.Custom('AGOTGetPregnancyMonths')]" #NT!
- agot_pregnancy_months_scripted_lyanna:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha estado embarazada durante [ROOT.Var('agot_rr_months_of_pregnancy_lyanna').GetValue] meses." #NT!
- agot_pregnancy_months_scripted_rhaella:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha estado embarazada durante [ROOT.Var('agot_rr_months_of_pregnancy_rhaella').GetValue] meses." #NT!
- agot_pregnancy_months_vanilla:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha estado embarazada durante [SCOPE.ScriptValue('pregnancy_month')] meses." #NT!
- trait_depressed_1:1 "Melancólico" #NT!
- trait_depressed_1_desc:0 "Este personaje tiene dificultades para ver lo bueno en la vida." #NT!
- trait_depressed_1_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le cuesta ver lo bueno de la vida." #NT!
- trait_depressed_genetic:0 "$trait_depressed_1$" #NT!
- trait_depressed_genetic_desc:1 "$trait_depressed_1_desc$" #NT!
- trait_depressed_genetic_character_desc:0 "$trait_depressed_1_character_desc$" #NT!
- trait_lunatic_1:0 "Lunático" #NT!
- trait_lunatic_1_desc:1 "Plagado de alucinaciones, delirios y pensamientos desorganizados, este personaje se esfuerza por distinguir entre lo que es real y lo que no lo es." #NT!
- trait_lunatic_1_character_desc:0 "Acosado por alucinaciones, delirios y pensamientos desorganizados, [ROOT.GetCharacter.GetFirstNameNoTooltip] se esfuerza por distinguir entre lo que es real y lo que no lo es." #NT!
- trait_lunatic_genetic:0 "$trait_lunatic_1$" #NT!
- trait_lunatic_genetic_desc:1 "$trait_lunatic_1_desc$" #NT!
- trait_lunatic_genetic_character_desc:0 "$trait_lunatic_1_character_desc$" #NT!
- trait_possessed_1:0 "Poseído" #NT!
- trait_possessed_1_desc:1 "Los cambios repentinos en la emoción, la conciencia y la habilidad que experimenta este personaje solo pueden explicarse por los espíritus que habitan en su cuerpo." #NT!
- trait_possessed_1_character_desc:0 "Los cambios repentinos en la emoción, la conciencia y la capacidad que experimenta [ROOT.GetCharacter.GetFirstNameNoTooltip] solo pueden explicarse por los espíritus que habitan el cuerpo de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_possessed_genetic:0 "$trait_possessed_1$" #NT!
- trait_possessed_genetic_desc:1 "$trait_possessed_1_desc$" #NT!
- trait_possessed_genetic_character_desc:0 "$trait_possessed_1_character_desc$" #NT!
- trait_ill:0 "Enfermo" #NT!
- trait_ill_desc:0 "Los malos humores plagan a este personaje, y la gravedad de la aflicción aún no se ha determinado." #NT!
- trait_ill_character_desc:0 "Los malos humores plagan [ROOT.GetCharacter.GetFirstNameNoTooltip], y la gravedad de la aflicción de [ROOT.GetCharacter.GetHerHis] aún no se ha determinado." #NT!
- trait_pneumonic:0 "Neumonía" #NT!
- trait_pneumonic_desc:0 "Atormentado por la tos y mareado por la fiebre, este personaje sufre una infección en los pulmones." #NT!
- trait_pneumonic_character_desc:0 "Atormentado por la tos y mareado por la fiebre, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre una infección en los pulmones." #NT!
- trait_early_great_pox:0 "$trait_lovers_pox$" #NT!
- trait_early_great_pox_desc:0 "$trait_lovers_pox_desc$" #NT!
- trait_early_great_pox_character_desc:0 "$trait_lovers_pox_character_desc$" #NT!
- trait_great_pox:0 "Gran viruela" #NT!
- trait_great_pox_desc:0 "Plagado de llagas e inflamaciones, este personaje sufre la peste venérea." #NT!
- trait_great_pox_character_desc:0 "Plagado de llagas e inflamaciones, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre la peste venérea." #NT!
- trait_lovers_pox:0 "Viruela del amante" #NT!
- trait_lovers_pox_desc:0 "Marcado por ampollas e infecciones, este personaje sufre una enfermedad venérea." #NT!
- trait_lovers_pox_character_desc:0 "Marcado por ampollas e infecciones, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre una enfermedad venérea." #NT!
- trait_leper:0 "Leproso" #NT!
- trait_leper_desc:1 "La piel de este personaje está marcada con lesiones y parches descoloridos, indicativos de su capacidad reducida para sentir placer, dolor y otras sensaciones." #NT!
- trait_leper_character_desc:1 "La piel de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] está marcada con lesiones y parches descoloridos, indicativos de su capacidad reducida para sentir placer, dolor y otras sensaciones." #NT!
- trait_wounded_1:0 "Herido" #NT!
- trait_wounded_1_desc:0 "Este personaje ha sido herido, pero probablemente sanará bien con el tiempo." #NT!
- trait_wounded_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido herido, pero probablemente sanará bien con el tiempo." #NT!
- trait_wounded_2:0 "Gravemente herido" #NT!
- trait_wounded_2_desc:0 "Este personaje ha resultado gravemente herido y el camino hacia la recuperación podría ser largo." #NT!
- trait_wounded_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] resultó gravemente herido y el camino hacia la recuperación podría ser largo." #NT!
- trait_wounded_3:0 "Brutalmente mutilado" #NT!
- trait_wounded_3_desc:0 "Este personaje se ha roto y se aferra a la vida." #NT!
- trait_wounded_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha roto y se aferra a la vida." #NT!
- trait_one_legged:0 "Con una sola pierna" #NT!
- trait_one_legged_desc:0 "Este personaje ha perdido una pierna." #NT!
- trait_one_legged_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha perdido una pierna." #NT!
- trait_maimed:0 "Mutilado" #NT!
- trait_maimed_desc:1 "Este personaje ha sido gravemente mutilado." #NT!
- trait_maimed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido gravemente mutilado." #NT!
- trait_one_eyed:0 "Tuerto" #NT!
- trait_one_eyed_desc:0 "Este personaje solo tiene un ojo." #NT!
- trait_one_eyed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] solo tiene un ojo." #NT!
- trait_disfigured:0 "Desfigurado" #NT!
- trait_disfigured_desc:0 "Este personaje está horriblemente desfigurado." #NT!
- trait_disfigured_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está horriblemente desfigurado." #NT!
- trait_infirm:0 "Enfermizo" #NT!
- trait_infirm_desc:0 "De cuerpo débil, este personaje no sirve para mucho más que esperar a que la muerte los reclame." #NT!
- trait_infirm_character_desc:0 "De cuerpo débil, [ROOT.GetCharacter.GetFirstNameNoTooltip] no es apto para mucho excepto esperar a que la muerte reclame a [ROOT.GetCharacter.GetHerHim]." #NT!
- trait_incapable:0 "Incapaz" #NT!
- trait_incapable_desc:0 "Debido a una lesión física o una discapacidad mental, este personaje no puede cuidar de sí mismo ni tomar decisiones de forma independiente." #NT!
- trait_incapable_character_desc:0 "Debido a una lesión física o discapacidad mental, [ROOT.GetCharacter.GetFirstNameNoTooltip] no puede cuidar de [ROOT.GetCharacter.GetHerselfHimself] ni tomar decisiones de forma independiente." #NT!
- trait_gout_ridden:0 "Gota Montado" #NT!
- trait_gout_ridden_desc:0 "Este personaje está plagado de articulaciones hinchadas, lo que hace que el movimiento sea doloroso y la piel sensible y enrojecida." #NT!
- trait_gout_ridden_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está plagado de articulaciones hinchadas, lo que hace que el movimiento sea doloroso y la piel sensible y roja." #NT!
- trait_consumption:0 "Consumo" #NT!
- trait_consumption_desc:0 "Atormentado por una tos sanguinolenta provocada por los humores fríos en los pulmones, este personaje sufre de tisis." #NT!
- trait_consumption_character_desc:0 "Atormentado por una tos sanguinolenta provocada por humores fríos en los pulmones, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre de tisis." #NT!
- trait_cancer:0 "Cáncer" #NT!
- trait_cancer_desc:0 "El cáncer se ha extendido por el cuerpo de este personaje, drenándole la vida." #NT!
- trait_cancer_character_desc:0 "El cáncer se ha propagado a través del cuerpo de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], drenando la vida de [ROOT.GetCharacter.GetHerHim]." #NT!
- trait_typhus:0 "Tifus" #NT!
- trait_typhus_desc:0 "Este personaje sufre de fiebre de campamento y está plagado de erupciones cutáneas, fiebre y tos." #NT!
- trait_typhus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sufre de fiebre de campamento y está plagado de erupciones cutáneas, fiebre y tos." #NT!
- trait_bubonic_plague:0 "Peste bubónica" #NT!
- trait_bubonic_plague_desc:0 "Este personaje está acosado por manchas negras en la piel y múltiples bubones; no son mucho tiempo para este mundo." #NT!
- trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está plagado de manchas negras en la piel y múltiples bubones; [ROOT.GetCharacter.GetSheHe] no es mucho para este mundo." #NT!
- trait_smallpox:0 "Viruela" #vanilla trait, no need for altered description #NT!
- trait_smallpox_desc:0 "Acribillado por cicatrices, erupciones y golpes, este personaje nunca volverá a ser el mismo, incluso si sobrevive a su enfermedad." #NT!
- trait_smallpox_character_desc:0 "Acribillado por cicatrices, erupciones y golpes, [ROOT.GetCharacter.GetFirstNameNoTooltip] nunca volverá a ser el mismo, incluso si [ROOT.GetCharacter.GetSheHe] sobrevive a la enfermedad de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_sickly:0 "Enfermizo" #NT!
- trait_sickly_desc:0 "Este personaje sufre de una disposición enfermiza." #NT!
- trait_sickly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sufre de una disposición enfermiza." #NT!
- trait_scarred:0 "Cicatrizado" #NT!
- trait_scarred_desc:0 "Llevando visiblemente los recuerdos de batallas o accidentes, este personaje está notablemente marcado." #NT!
- trait_scarred_character_desc:0 "Llevando visiblemente los recuerdos de batallas o accidentes, [ROOT.GetCharacter.GetFirstNameNoTooltip] está notablemente marcado." #NT!
- trait_eunuch:0 "Eunuco" #NT!
- trait_eunuch_desc:0 "Este personaje ha sido castrado intencionalmente." #NT!
- trait_eunuch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido castrado intencionalmente." #NT!
- trait_blind:0 "Ciego" #NT!
- trait_blind_desc:0 "A través de un #EMP accidente#! o desde su nacimiento, este personaje no puede ver nada." #NT!
- trait_blind_character_desc:0 "A través de un #EMP accidente#! o desde su nacimiento, [ROOT.GetCharacter.GetFirstNameNoTooltip] no puede ver nada." #NT!
+ trait_pregnant:0 "Embarazada"
+ trait_pregnant_desc:0 "Este personaje espera un hijo."
+ trait_pregnant_character_desc:1 "[ROOT.Char.Custom('AGOTGetPregnancyMonths')]"
+ agot_pregnancy_months_scripted_lyanna:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lleva [ROOT.Var('agot_rr_months_of_pregnancy_lyanna').GetValue] meses de embarazo."
+ agot_pregnancy_months_scripted_rhaella:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lleva [ROOT.Var('agot_rr_months_of_pregnancy_rhaella').GetValue] meses de embarazo."
+ agot_pregnancy_months_vanilla:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lleva [SCOPE.ScriptValue('pregnancy_month')] meses de embarazo."
+ trait_depressed_1:1 "Melancólico"
+ trait_depressed_1_desc:0 "A este personaje le cuesta ver el lado bueno de la vida."
+ trait_depressed_1_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le cuesta ver el lado bueno de la vida."
+ trait_depressed_genetic:0 "$trait_depressed_1$"
+ trait_depressed_genetic_desc:1 "$trait_depressed_1_desc$"
+ trait_depressed_genetic_character_desc:0 "$trait_depressed_1_character_desc$"
+ trait_lunatic_1:0 "Lunático"
+ trait_lunatic_1_desc:1 "Acosado por alucinaciones, ilusiones y pensamientos desorganizados, este personaje lucha por distinguir lo que es real de lo que no."
+ trait_lunatic_1_character_desc:0 "Acosad[ROOT.GetCharacter.Custom('ES_OA')] por alucinaciones, ilusiones y pensamientos desorganizados, [ROOT.GetCharacter.GetFirstNameNoTooltip] lucha por distinguir lo que es real de lo que no."
+ trait_lunatic_genetic:0 "$trait_lunatic_1$"
+ trait_lunatic_genetic_desc:1 "$trait_lunatic_1_desc$"
+ trait_lunatic_genetic_character_desc:0 "$trait_lunatic_1_character_desc$"
+ trait_possessed_1:0 "Poseído"
+ trait_possessed_1_desc:1 "Los cambios repentinos de emociones, conciencia y habilidad que experimenta este personaje solo pueden explicarse por unos espíritus que estén ocupando su cuerpo."
+ trait_possessed_1_character_desc:0 "Los cambios repentinos de emociones, conciencia y habilidad que experimenta [ROOT.GetCharacter.GetFirstNameNoTooltip] solo pueden explicarse por unos espíritus que estén ocupando su cuerpo."
+ trait_possessed_genetic:0 "$trait_possessed_1$"
+ trait_possessed_genetic_desc:1 "$trait_possessed_1_desc$"
+ trait_possessed_genetic_character_desc:0 "$trait_possessed_1_character_desc$"
+ trait_ill:0 "Enfermo"
+ trait_ill_desc:0 "Malos humores atormentan a este personaje y aún no se ha determinado la gravedad de su aflicción."
+ trait_ill_character_desc:0 "Malos humores atormentan a [ROOT.GetCharacter.GetFirstNameNoTooltip] y aún no se ha determinado la gravedad de su aflicción."
+ trait_pneumonic:0 "Pulmonía"
+ trait_pneumonic_desc:0 "Agobiado por la tos y mareado por la fiebre, este personaje sufre una infección pulmonar."
+ trait_pneumonic_character_desc:0 "Agobiad[ROOT.GetCharacter.Custom('ES_OA')] por la tos y maread[ROOT.GetCharacter.Custom('ES_OA')] por la fiebre, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre una infección pulmonar."
+ trait_early_great_pox:0 "$trait_lovers_pox$"
+ trait_early_great_pox_desc:0 "$trait_lovers_pox_desc$"
+ trait_early_great_pox_character_desc:0 "$trait_lovers_pox_character_desc$"
+ trait_great_pox:0 "Sífilis"
+ trait_great_pox_desc:0 "Plagado de llagas e inflamaciones, este personaje sufre una enfermedad venérea."
+ trait_great_pox_character_desc:0 "Plagad[ROOT.GetCharacter.Custom('ES_OA')] de llagas e inflamaciones, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre una enfermedad venérea."
+ trait_lovers_pox:0 "Herpes"
+ trait_lovers_pox_desc:0 "Marcado por ampollas e infecciones, este personaje sufre una enfermedad venérea."
+ trait_lovers_pox_character_desc:0 "Marcad[ROOT.GetCharacter.Custom('ES_OA')] por ampollas e infecciones, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre una enfermedad venérea."
+ trait_leper:0 "Lepra"
+ trait_leper_desc:1 "La piel de este personaje está cubierta de lesiones y zonas descoloridas, lo que indica una capacidad reducida de experimentar placer, dolor y otras sensaciones."
+ trait_leper_character_desc:1 "La piel de [ROOT.GetCharacter.GetFirstNameNoTooltip] está cubierta de lesiones y zonas descoloridas, lo que indica una capacidad reducida de experimentar placer, dolor y otras sensaciones."
+ trait_wounded_1:0 "Herido"
+ trait_wounded_1_desc:0 "Este personaje ha resultado herido, pero seguramente se recupere bien con el tiempo."
+ trait_wounded_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha resultado herid[ROOT.GetCharacter.Custom('ES_OA')], pero seguramente se recupere bien con el tiempo."
+ trait_wounded_2:0 "Gravemente herido"
+ trait_wounded_2_desc:0 "Este personaje ha resultado gravemente herido y el camino hasta la recuperación puede ser largo."
+ trait_wounded_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha resultado gravemente herid[ROOT.GetCharacter.Custom('ES_OA')] y el camino hasta la recuperación puede ser largo."
+ trait_wounded_3:0 "Brutalmente vapuleado"
+ trait_wounded_3_desc:0 "Han destrozado a este personaje, que se aferra desesperadamente a la vida."
+ trait_wounded_3_character_desc:0 "Han destrozado a [ROOT.GetCharacter.GetFirstNameNoTooltip], que se aferra desesperadamente a la vida."
+ trait_one_legged:0 "Cojo"
+ trait_one_legged_desc:0 "Este personaje solo tiene una pierna."
+ trait_one_legged_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] solo tiene una pierna."
+ trait_maimed:0 "Mutilado"
+ trait_maimed_desc:1 "Este personaje ha sido gravemente mutilado."
+ trait_maimed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido gravemente mutilad[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_one_eyed:0 "Tuerto"
+ trait_one_eyed_desc:0 "Este personaje solo tiene un ojo."
+ trait_one_eyed_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] solo tiene un ojo."
+ trait_disfigured:0 "Desfigurado"
+ trait_disfigured_desc:0 "Este personaje está horriblemente desfigurado."
+ trait_disfigured_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está horriblemente desfigurad[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_infirm:0 "Endeble"
+ trait_infirm_desc:0 "Débil de cuerpo, este personaje no es apto para mucho más que esperar que la muerte lo reclame."
+ trait_infirm_character_desc:0 "Débil de cuerpo, [ROOT.GetCharacter.GetFirstNameNoTooltip] no es apt[ROOT.GetCharacter.Custom('ES_OA')] para mucho más que esperar que la muerte [ROOT.GetCharacter.Custom('ES_LoLa')] reclame."
+ trait_incapable:0 "Incapaz"
+ trait_incapable_desc:0 "Debido a una herida física o discapacidad mental, este personaje es incapaz de cuidar de sí mismo o de tomar decisiones por sí solo."
+ trait_incapable_character_desc:0 "Debido a una herida física o discapacidad mental, [ROOT.GetCharacter.GetFirstNameNoTooltip] es incapaz de cuidar de sí mism[ROOT.GetCharacter.Custom('ES_OA')] o de tomar decisiones por sí sol[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_gout_ridden:0 "Gotoso"
+ trait_gout_ridden_desc:0 "Este personaje se ve atormentado por articulaciones hinchadas, por lo que los movimientos resultan dolorosos y la piel se vuelve sensible y enrojecida."
+ trait_gout_ridden_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ve atormentad[ROOT.GetCharacter.Custom('ES_OA')] por articulaciones hinchadas, por lo que los movimientos resultan dolorosos y la piel se vuelve sensible y enrojecida."
+ trait_consumption:0 "Tuberculosis"
+ trait_consumption_desc:0 "Desgarrado por una tos sanguinolenta causada por humores fríos en los pulmones, este personaje sufre tuberculosis."
+ trait_consumption_character_desc:0 "Desgarrad[ROOT.GetCharacter.Custom('ES_OA')] por una tos sanguinolenta causada por humores fríos en los pulmones, [ROOT.GetCharacter.GetFirstNameNoTooltip] sufre tuberculosis."
+ trait_cancer:0 "Cáncer"
+ trait_cancer_desc:0 "El cáncer se ha extendido por el cuerpo de este personaje, absorbiéndole la vida."
+ trait_cancer_character_desc:0 "El cáncer se ha extendido por el cuerpo de [ROOT.GetCharacter.GetFirstNameNoTooltip], absorbiéndole la vida."
+ trait_typhus:0 "Tifus"
+ trait_typhus_desc:0 "Este personaje padece tifus y se ve atormentado por sarpullidos, fiebre y tos."
+ trait_typhus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] padece tifus y se ve atormentad[ROOT.GetCharacter.Custom('ES_OA')] por sarpullidos, fiebre y tos."
+ trait_bubonic_plague:0 "Peste bubónica"
+ trait_bubonic_plague_desc:0 "Este personaje está acosado por manchas negras en la piel y múltiples bubas; no le queda mucho en este mundo."
+ trait_bubonic_plague_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está acosad[ROOT.GetCharacter.Custom('ES_OA')] por manchas negras en la piel y múltiples bubas; no le queda mucho en este mundo."
+ trait_smallpox:0 "Viruela"
+ trait_smallpox_desc:0 "Lleno de cicatrices, sarpullidos y protuberancias, este personaje nunca volverá a ser el mismo, aunque sobreviva a la enfermedad."
+ trait_smallpox_character_desc:0 "Llen[ROOT.GetCharacter.Custom('ES_OA')] de cicatrices, sarpullidos y protuberancias, [ROOT.GetCharacter.GetFirstNameNoTooltip] nunca volverá a ser el/la mism[ROOT.GetCharacter.Custom('ES_OA')], aunque sobreviva a la enfermedad."
+ trait_sickly:0 "Enfermizo"
+ trait_sickly_desc:0 "Este personaje es propenso a la enfermedad."
+ trait_sickly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es propenso a la enfermedad."
+ trait_scarred:0 "Cicatrices"
+ trait_scarred_desc:0 "Llevando claramente los recuerdos de batallas o accidentes, este personaje muestra unas cicatrices visibles."
+ trait_scarred_character_desc:0 "Llevando claramente los recuerdos de batallas o accidentes, [ROOT.GetCharacter.GetFirstNameNoTooltip] muestra unas cicatrices visibles."
+ trait_eunuch:0 "Eunuco"
+ trait_eunuch_desc:0 "Este personaje ha sido castrado intencionadamente."
+ trait_eunuch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido castrado intencionadamente."
+ trait_blind:0 "Ciego"
+ trait_blind_desc:0 "Este personaje no ve nada de nacimiento o a causa de un #EMP accidente#!."
+ trait_blind_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no ve nada de nacimiento o a causa de un #EMP accidente#!."
 
 #Physical Traits
- trait_beauty_bad_1:0 "Acogedor" #NT!
- trait_beauty_bad_1_desc:0 "Este personaje no es agradable a la vista." #NT!
- trait_beauty_bad_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no es agradable a la vista." #NT!
- trait_beauty_bad_2:0 "Feo" #NT!
- trait_beauty_bad_2_desc:0 "La cara de este personaje deja mucho que desear." #NT!
- trait_beauty_bad_2_character_desc:0 "La cara de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] deja mucho que desear." #NT!
- trait_beauty_bad_3:0 "Horrible" #NT!
- trait_beauty_bad_3_desc:0 "Este personaje es francamente horrible." #NT!
- trait_beauty_bad_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es francamente horrible." #NT!
- trait_beauty_good_1:0 "Gentil" #NT!
- trait_beauty_good_1_desc:0 "Este personaje es agradable a la vista." #NT!
- trait_beauty_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es agradable a la vista." #NT!
- trait_beauty_good_2:0 "Atractivo" #NT!
- trait_beauty_good_male_2:0 "Elegante" #NT!
- trait_beauty_good_female_2:0 "Bonito" #NT!
- trait_beauty_good_2_desc:0 "Este personaje ha sido bendecido con un físico agradable." #NT!
- trait_beauty_good_2_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido bendecido con un agradable físico [ROOT.Char.Custom('FemaleMale')]." #NT!
- trait_beauty_good_3:0 "Hermoso" #NT!
- trait_beauty_good_3_desc:0 "Apasionante, fascinante y encantador; este personaje eclipsa a la mayoría con su belleza." #NT!
- trait_beauty_good_3_character_desc:0 "Apasionante, fascinante y encantador; [ROOT.GetCharacter.GetFirstNameNoTooltip] eclipsa a la mayoría con la belleza de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_intellect_bad_1:0 "Lento" #NT!
- trait_intellect_bad_1_desc:0 "Muchas cosas pasan desapercibidas para este personaje." #NT!
- trait_intellect_bad_1_character_desc:0 "Muchas cosas pasan [ROOT.GetCharacter.GetFirstNameNoTooltip] desapercibidas." #NT!
- trait_intellect_bad_2:0 "Estúpido" #NT!
- trait_intellect_bad_2_desc:0 "Este personaje es #EMP not#!  bendecido con intelecto." #NT!
- trait_intellect_bad_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es #EMP no#!  bendecido con intelecto." #NT!
- trait_intellect_bad_3:0 "Imbécil" #NT!
- trait_intellect_bad_3_desc:0 "Aburrido y tonto, este personaje es un simplón." #NT!
- trait_intellect_bad_3_character_desc:0 "Aburrido y tonto, [ROOT.GetCharacter.GetFirstNameNoTooltip] es un tonto." #NT!
- trait_intellect_good_1:0 "Rápido" #NT!
- trait_intellect_good_1_desc:0 "Este personaje se engancha rápido." #NT!
- trait_intellect_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se engancha rápido." #NT!
- trait_intellect_good_2:0 "Inteligente" #NT!
- trait_intellect_good_2_desc:0 "Este personaje es más inteligente que la mayoría." #NT!
- trait_intellect_good_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es más inteligente que la mayoría." #NT!
- trait_intellect_good_3:0 "Genio" #NT!
- trait_intellect_good_3_desc:0 "Un intelecto imponente e ingenio a juego, este personaje es brillante." #NT!
- trait_intellect_good_3_character_desc:0 "Un intelecto imponente y un ingenio a la par, [ROOT.GetCharacter.GetFirstNameNoTooltip] es brillante." #NT!
- trait_physique_bad_1:0 "Delicado" #NT!
- trait_physique_bad_1_desc:0 "El cuerpo de este personaje no es tan fuerte como podría ser." #NT!
- trait_physique_bad_1_character_desc:0 "El cuerpo de [ROOT.GetCharacter.GetFirstNameNoTooltip] no es tan fuerte como podría ser." #NT!
- trait_physique_bad_2:0 "Frágil" #NT!
- trait_physique_bad_2_desc:0 "Este personaje es de un físico frágil." #NT!
- trait_physique_bad_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un físico frágil." #NT!
- trait_physique_bad_3:0 "Débil" #NT!
- trait_physique_bad_3_desc:0 "El cuerpo de este personaje se está desgastando, dejándolos enfermos y débiles." #NT!
- trait_physique_bad_3_character_desc:0 "El cuerpo de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] se está desgastando, dejando a [ROOT.GetCharacter.GetHerHim] enfermo y débil." #NT!
- trait_physique_good_1:0 "Sano" #NT!
- trait_physique_good_1_desc:0 "Este personaje está en forma y sano de cuerpo." #NT!
- trait_physique_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es en forma y sonido de cuerpo." #NT!
- trait_physique_good_2:0 "Robusto" #NT!
- trait_physique_good_2_desc:0 "Este personaje tiene un físico fuerte." #NT!
- trait_physique_good_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un físico fuerte." #NT!
- trait_physique_good_3:0 "Divino" #NT!
- trait_physique_good_male_3:0 "Hercúleo" #NT!
- trait_physique_good_female_3:0 "Amazónico" #NT!
- trait_physique_good_3_desc:0 "Potente, saludable y fuerte; el cuerpo de este personaje es sublime." #NT!
- trait_physique_good_3_character_desc:1 "Potente, saludable y fuerte; [ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un físico [ROOT.Char.Custom('FemaleMale')] sublime." #NT!
- trait_pure_blooded:0 "De pura sangre" #NT!
- trait_pure_blooded_desc:0 "Este personaje es de un linaje puro." #NT!
- trait_pure_blooded_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es de un linaje puro." #NT!
- trait_fecund:0 "Fecundo" #NT!
- trait_fecund_desc:0 "Este carácter es fecundo y fértil." #NT!
- trait_fecund_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es fructífero y fértil." #NT!
- trait_strong:0 "Fuerte" #NT!
- trait_strong_desc:0 "A través del entrenamiento y la perseverancia, a este personaje se le ha otorgado un cuerpo fuerte." #NT!
- trait_strong_character_desc:0 "A través del entrenamiento y la perseverancia, [ROOT.GetCharacter.GetFirstNameNoTooltip] ha obtenido un cuerpo fuerte." #NT!
- trait_shrewd:0 "Perspicaz" #NT!
- trait_shrewd_desc:0 "La vida le ha enseñado a este personaje el valor del buen juicio y el agudo ingenio." #NT!
- trait_shrewd_character_desc:0 "La vida le ha enseñado a [ROOT.GetCharacter.GetFirstNameNoTooltip] el valor del buen juicio y el agudo ingenio." #NT!
- trait_infertile:0 "Estéril" #NT!
- trait_infertile_female:0 "Estéril" #NT!
- trait_infertile_male:0 "Estéril" #NT!
- trait_infertile_desc:0 "Este personaje no puede producir hijos." #NT!
- trait_infertile_female_desc:0 "El útero de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] está jurado para siempre al vacío." #NT!
- trait_infertile_male_desc:0 "Los lomos de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] son absolutamente incapaces de dar vida." #NT!
- trait_clubfooted:0 "Pie zambo" #NT!
- trait_clubfooted_desc:0 "Este personaje está maldito con los pies torcidos y un andar antiestético." #NT!
- trait_clubfooted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está maldito con los pies torcidos y un andar antiestético." #NT!
- trait_hunchbacked:0 "Curcuncho" #NT!
- trait_hunchbacked_desc:0 "Este personaje está lastrado por la maldición de una jorobada." #NT!
- trait_hunchbacked_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está lastrado por la maldición de una jorobada." #NT!
- trait_lisping:0 "Ceceando" #NT!
- trait_lisping_desc:0 "Este personaje tiene problemas para pronunciar ciertos sonidos." #NT!
- trait_lisping_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene problemas para pronunciar ciertos sonidos." #NT!
- trait_stuttering:0 "Tartamudeo" #NT!
- trait_stuttering_desc:0 "Terminar una oración rápidamente no es el punto fuerte de este personaje." #NT!
- trait_stuttering_character_desc:0 "Terminar una oración rápidamente no es [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] fuerte." #NT!
- trait_dwarf:0 "Enano" #NT!
- trait_dwarf_desc:0 "Este personaje sufre un trastorno genético que impide su crecimiento." #NT!
- trait_dwarf_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sufre un trastorno genético que impide el crecimiento de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_giant:0 "Gigante" #NT!
- trait_giant_desc:1 "Otros tienen que estirar el cuello y controlar su asombro, mientras este personaje pasa caminando." #NT!
- trait_giant_character_desc:0 "Otros tienen que estirar el cuello y controlar su asombro, mientras [ROOT.GetCharacter.GetFirstNameNoTooltip] pasa caminando." #NT!
- trait_inbred:0 "Innato" #NT!
- trait_inbred_desc:0 "La familia de este personaje ha sido un #EMP demasiado#! familiar." #NT!
- trait_inbred_character_desc:0 "La familia [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ha sido un poco #EMP demasiado#! familiar." #NT!
- trait_weak:0 "Débil" #NT!
- trait_weak_desc:0 "El cuerpo de este personaje está en declive." #NT!
- trait_weak_character_desc:0 "El cuerpo de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] está en declive." #NT!
- trait_dull:0 "Aburrido" #NT!
- trait_dull_desc:0 "Ha pasado mucho tiempo desde que la mente de este personaje tuvo algún ejercicio." #NT!
- trait_dull_character_desc:0 "Ha pasado mucho tiempo desde que la mente de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] no tenía ningún ejercicio." #NT!
- trait_impotent:0 "Impotente" #NT!
- trait_impotent_desc:0 "Este personaje lucha por actuar en el dormitorio." #NT!
- trait_impotent_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le cuesta actuar en el dormitorio." #NT!
- trait_spindly:0 "Largo y delgado" #NT!
- trait_spindly_desc:0 "Las extremidades de este personaje son largas y nudosas." #NT!
- trait_spindly_character_desc:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Las extremidades son largas y nudosas." #NT!
- trait_scaly:0 "Escamoso" #NT!
- trait_scaly_desc:0 "Este personaje está cubierto de parches escamosos de piel." #NT!
- trait_scaly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está cubierto de parches escamosos de piel." #NT!
- trait_albino:0 "Albino" #NT!
- trait_albino_desc:0 "Con su cabello blanco y sus ojos rojos, este personaje infunde miedo en muchos." #NT!
- trait_albino_character_desc:0 "Con [ROOT.GetCharacter.GetHerHis] cabello blanco y ojos rojos, [ROOT.GetCharacter.GetFirstNameNoTooltip] infunde miedo en muchos." #NT!
- trait_wheezing:0 "Sibilancias" #NT!
- trait_wheezing_desc:0 "Este personaje está condenado a pasar su vida tosiendo y jadeando." #NT!
- trait_wheezing_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está condenado a pasar [ROOT.GetCharacter.GetHerHis] la vida tosiendo y jadeando." #NT!
- trait_bleeder:0 "Hemofílico" #NT!
- trait_bleeder_desc:0 "Cualquier tipo de herida puede resultar fatal para este personaje ya que sus humores sanguíneos tienen prisa por escapar de su cuerpo." #NT!
- trait_bleeder_character_desc:0 "Cualquier tipo de herida puede resultar fatal para [ROOT.GetCharacter.GetFirstNameNoTooltip] ya que los humores sanguíneos de [ROOT.GetCharacter.GetHerHis] tienen prisa por escapar del cuerpo de [ROOT.GetCharacter.GetHerHis]." #NT!
+ trait_beauty_bad_1:0 "Feúcho"
+ trait_beauty_bad_1_desc:0 "No resulta agradable mirar a este personaje."
+ trait_beauty_bad_1_character_desc:0 "No resulta agradable mirar a [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_beauty_bad_2:0 "Feo"
+ trait_beauty_bad_2_desc:0 "El rostro de este personaje deja mucho que desear."
+ trait_beauty_bad_2_character_desc:0 "El rostro de [ROOT.GetCharacter.GetFirstNameNoTooltip] deja mucho que desear."
+ trait_beauty_bad_3:0 "Horroroso"
+ trait_beauty_bad_3_desc:0 "Este personaje es totalmente horroroso."
+ trait_beauty_bad_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es totalmente horroros[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_beauty_good_1:0 "Guapo"
+ trait_beauty_good_1_desc:0 "Este personaje es agradable de mirar."
+ trait_beauty_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es agradable de mirar."
+ trait_beauty_good_2:0 "Atractivo"
+ trait_beauty_good_male_2:0 "Hermoso"
+ trait_beauty_good_female_2:0 "Hermosa"
+ trait_beauty_good_2_desc:0 "Este personaje ha sido bendecido con un físico agradable."
+ trait_beauty_good_2_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] recibió la bendición de un físico [ROOT.Char.Custom('FemaleMale')] privilegiado."
+ trait_beauty_good_3:0 "Hermoso"
+ trait_beauty_good_3_desc:0 "Fascinante, cautivador y encantador, este personaje destaca sobre todo por su belleza."
+ trait_beauty_good_3_character_desc:0 "Fascinante, cautivador[ROOT.GetCharacter.Custom('ES_XA')] y encantador[ROOT.GetCharacter.Custom('ES_XA')], [ROOT.GetCharacter.GetFirstNameNoTooltip] destaca sobre todo por su belleza."
+ trait_intellect_bad_1:0 "Lento"
+ trait_intellect_bad_1_desc:0 "Muchas cosas pasan desapercibidas para este personaje."
+ trait_intellect_bad_1_character_desc:0 "Muchas cosas pasan desapercibidas para [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_intellect_bad_2:0 "Estúpido"
+ trait_intellect_bad_2_desc:0 "Este personaje #EMP no#! está bendecido con el don del intelecto."
+ trait_intellect_bad_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] #EMP no#! está bendecid[ROOT.GetCharacter.Custom('ES_OA')] con el don del intelecto."
+ trait_intellect_bad_3:0 "Imbécil"
+ trait_intellect_bad_3_desc:0 "Aburrido y tonto, es un simplón."
+ trait_intellect_bad_3_character_desc:0 "Aburrid[ROOT.GetCharacter.Custom('ES_OA')] y tont[ROOT.GetCharacter.Custom('ES_OA')], [ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] simpl[ROOT.GetCharacter.Custom('ES_OnOna')]."
+ trait_intellect_good_1:0 "Agudo"
+ trait_intellect_good_1_desc:0 "Este personaje las caza al vuelo."
+ trait_intellect_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] las caza al vuelo."
+ trait_intellect_good_2:0 "Inteligente"
+ trait_intellect_good_2_desc:0 "Este personaje es más listo que la mayoría."
+ trait_intellect_good_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es más list[ROOT.GetCharacter.Custom('ES_OA')] que la mayoría."
+ trait_intellect_good_3:0 "Genio"
+ trait_intellect_good_3_desc:0 "Con un intelecto impresionante y un ingenio a la altura, este personaje es brillante."
+ trait_intellect_good_3_character_desc:0 "Con un intelecto impresionante y un ingenio a la altura, [ROOT.GetCharacter.GetFirstNameNoTooltip] es brillante."
+ trait_physique_bad_1:0 "Delicado"
+ trait_physique_bad_1_desc:0 "El cuerpo de este personaje no es todo lo fuerte que podría ser."
+ trait_physique_bad_1_character_desc:0 "El cuerpo de [ROOT.GetCharacter.GetFirstNameNoTooltip] no es todo lo fuerte que podría ser."
+ trait_physique_bad_2:0 "Frágil"
+ trait_physique_bad_2_desc:0 "Este personaje es de físico frágil."
+ trait_physique_bad_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es de físico frágil."
+ trait_physique_bad_3:0 "Flojo"
+ trait_physique_bad_3_desc:0 "El cuerpo de este personaje se está consumiendo, dejándolo renqueante y débil."
+ trait_physique_bad_3_character_desc:0 "El cuerpo de [ROOT.GetCharacter.GetFirstNameNoTooltip] se esta consumiendo, dejándol[ROOT.GetCharacter.Custom('ES_EA')] renqueante y débil."
+ trait_physique_good_1:0 "Sano"
+ trait_physique_good_1_desc:0 "Este personaje está en forma y sano de cuerpo."
+ trait_physique_good_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está en forma y san[ROOT.GetCharacter.Custom('ES_OA')] de cuerpo."
+ trait_physique_good_2:0 "Robusto"
+ trait_physique_good_2_desc:0 "Este personaje tiene un físico fuerte."
+ trait_physique_good_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un físico fuerte."
+ trait_physique_good_3:0 "Divino"
+ trait_physique_good_male_3:0 "Hercúleo"
+ trait_physique_good_female_3:0 "Amazona"
+ trait_physique_good_3_desc:0 "Poderoso, saludable y fuerte; el cuerpo de este personaje es sublime."
+ trait_physique_good_3_character_desc:1 "Fuerza, resistencia y salud. [ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un físico [ROOT.Char.Custom('FemaleMale')] sublime."
+ trait_pure_blooded:0 "Purasangre"
+ trait_pure_blooded_desc:0 "Este personaje es de sangre pura."
+ trait_pure_blooded_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es de sangre pura."
+ trait_fecund:0 "Fecundo"
+ trait_fecund_desc:0 "Este personaje es fecundo y fértil."
+ trait_fecund_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es fecund[ROOT.GetCharacter.Custom('ES_OA')] y fértil."
+ trait_strong:0 "Fuerte"
+ trait_strong_desc:0 "Mediante el entrenamiento y la perseverancia, este personaje está dotado con un cuerpo fuerte."
+ trait_strong_character_desc:0 "Mediante el entrenamiento y la perseverancia, [ROOT.GetCharacter.GetFirstNameNoTooltip] está dotad[ROOT.GetCharacter.Custom('ES_OA')] con un cuerpo fuerte."
+ trait_shrewd:0 "Astuto"
+ trait_shrewd_desc:0 "La vida le ha enseñado a este personaje el valor del buen juicio y del ingenio agudo."
+ trait_shrewd_character_desc:0 "La vida le ha enseñado a [ROOT.GetCharacter.GetFirstNameNoTooltip] el valor del buen juicio y del ingenio agudo."
+ trait_infertile:0 "Infértil"
+ trait_infertile_female:0 "Infecunda"
+ trait_infertile_male:0 "Estéril"
+ trait_infertile_desc:0 "Este personaje no puede dar hijos."
+ trait_infertile_female_desc:0 "El útero de [ROOT.GetCharacter.GetFirstNameNoTooltip] está condenado a quedar vacío."
+ trait_infertile_male_desc:0 "Las entrañas de [ROOT.GetCharacter.GetFirstNameNoTooltip] están condenadas a ser infértiles."
+ trait_clubfooted:0 "Pie deforme"
+ trait_clubfooted_desc:0 "Este personaje está maldito con pies torcidos y una forma de caminar antiestética."
+ trait_clubfooted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sufre la maldición de unos pies torcidos y una forma de caminar antiestética."
+ trait_hunchbacked:0 "Jorobado"
+ trait_hunchbacked_desc:0 "Este personaje se ve aplastado por la maldición de una joroba."
+ trait_hunchbacked_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ve aplastad[ROOT.GetCharacter.Custom('ES_OA')] por la maldición de una joroba."
+ trait_lisping:0 "Ceceante"
+ trait_lisping_desc:0 "Este personaje tiene problemas para pronunciar ciertos sonidos."
+ trait_lisping_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene problemas para pronunciar ciertos sonidos."
+ trait_stuttering:0 "Tartamudo"
+ trait_stuttering_desc:0 "Terminar una frase rápidamente no es el fuerte de este personaje."
+ trait_stuttering_character_desc:0 "Terminar una frase rápidamente no es el fuerte de [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_dwarf:0 "Enano"
+ trait_dwarf_desc:0 "Este personaje se ve afectado por un problema genético que atrofia su crecimiento."
+ trait_dwarf_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ve afectad[ROOT.GetCharacter.Custom('ES_OA')] por un problema genético que atrofia su crecimiento."
+ trait_giant:0 "Gigante"
+ trait_giant_desc:1 "Los demás tienen que estirar el cuello y controlar su sobrecogimiento al cruzarse con este personaje."
+ trait_giant_character_desc:0 "Los demás tienen que estirar el cuello y controlar su sobrecogimiento al cruzarse con [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_inbred:0 "Consanguíneo"
+ trait_inbred_desc:0 "La familia de este personaje tal vez haya estado #EMP demasiado#! unida."
+ trait_inbred_character_desc:0 "La familia de [ROOT.GetCharacter.GetFirstNameNoTooltip] tal vez haya estado tal vez #EMP demasiado#! unida."
+ trait_weak:0 "Débil"
+ trait_weak_desc:0 "El cuerpo de este personaje está en declive."
+ trait_weak_character_desc:0 "El cuerpo de [ROOT.GetCharacter.GetFirstNameNoTooltip] está en declive."
+ trait_dull:0 "Lerdo"
+ trait_dull_desc:0 "Ha pasado mucho tiempo desde que la mente de este personaje hizo ejercicio."
+ trait_dull_character_desc:0 "Ha pasado mucho tiempo desde que la mente de [ROOT.GetCharacter.GetFirstNameNoTooltip] hizo ejercicio."
+ trait_impotent:0 "Impotente"
+ trait_impotent_desc:0 "A este personaje le cuesta cumplir en la alcoba."
+ trait_impotent_character_desc:0 "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le cuesta cumplir en la alcoba."
+ trait_spindly:0 "Larguirucho"
+ trait_spindly_desc:0 "Las extremidades de este personaje son largas y nudosas."
+ trait_spindly_character_desc:0 "Las extremidades de [ROOT.GetCharacter.GetFirstNameNoTooltip] son largas y protuberantes."
+ trait_scaly:0 "Escamoso"
+ trait_scaly_desc:0 "Este personaje tiene la piel cubierta de escamas."
+ trait_scaly_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene la piel cubierta de escamas."
+ trait_albino:0 "Albino"
+ trait_albino_desc:0 "De pelo blanco y ojos rojos, este personaje infunde miedo en muchos."
+ trait_albino_character_desc:0 "De pelo blanco y ojos rojos, [ROOT.GetCharacter.GetFirstNameNoTooltip] infunde miedo en muchos."
+ trait_wheezing:0 "Jadeante"
+ trait_wheezing_desc:0 "Este personaje está condenado a pasarse la vida tosiendo y jadeando."
+ trait_wheezing_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está condenad[ROOT.GetCharacter.Custom('ES_OA')] a pasarse la vida tosiendo y jadeando."
+ trait_bleeder:0 "Sangrador"
+ trait_bleeder_desc:0 "Cualquier tipo de herida puede ser fatal para este personaje ya que sus humores sanguíneos tienen prisa por escapar de su cuerpo."
+ trait_bleeder_character_desc:0 "Cualquier tipo de herida puede ser fatal para [ROOT.GetCharacter.GetFirstNameNoTooltip] ya que sus humores sanguíneos tienen prisa por escapar de su cuerpo."
 
 #Fame Traits
- trait_celibate:0 "Célibe" #NT!
- trait_celibate_desc:0 "Este personaje se ha jurado celibato." #NT!
- trait_celibate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha jurado celibato a [ROOT.GetCharacter.GetHerselfHimself]." #NT!
- trait_pilgrim:0 "Peregrino" #NT!
- trait_pilgrim_desc:0 "Este personaje ha completado una peregrinación a un lugar sagrado." #NT!
- trait_pilgrim_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha completado una peregrinación a un lugar sagrado." #NT!
+ trait_celibate:0 "Célibe"
+ trait_celibate_desc:0 "Este personaje se ha comprometido al celibato."
+ trait_celibate_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha comprometido al celibato."
+ trait_pilgrim:0 "Peregrino"
+ trait_pilgrim_desc:0 "Este personaje ha terminado una peregrinación a un lugar sagrado cristiano."
+ trait_pilgrim_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha terminado una peregrinación a un lugar sagrado."
  	#Christian version of Faith Warrior
- trait_crusader:0 "Cruzado" #NT!
- trait_crusader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha cumplido [ROOT.GetCharacter.GetHerHis] el deber cristiano y participó en una cruzada." #NT!
- trait_excommunicated:0 "Excomulgado" #NT!
- trait_excommunicated_desc:0 "Este personaje ha sido excluido de participar en los servicios religiosos." #NT!
- trait_excommunicated_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido excluido de participar en servicios religiosos." #NT!
- trait_devoted:0 "Dedicado" #NT!
- trait_devoted_male:0 "Santo hermano" #NT!
- trait_devoted_female:0 "Santa hermana" #NT!
- trait_devoted_desc:0 "Este personaje ha dedicado su vida al servicio de un poder superior." #NT!
- trait_devoted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha dedicado la vida de [ROOT.GetCharacter.GetHerHis] al servicio de un poder superior." #NT!
+ trait_crusader:0 "Cruzado"
+ trait_crusader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha cumplido su deber cristiano participando en una cruzada."
+ trait_excommunicated:0 "Excomulgado"
+ trait_excommunicated_desc:0 "Se ha excluido a este personaje de la participación en servicios religiosos."
+ trait_excommunicated_character_desc:0 "Se ha excluido a [ROOT.GetCharacter.GetFirstNameNoTooltip] de la participación en servicios religiosos."
+ trait_devoted:0 "Devoto"
+ trait_devoted_male:0 "Monje"
+ trait_devoted_female:0 "Monja"
+ trait_devoted_desc:0 "Este personaje ha consagrado su vida al servicio de un poder superior."
+ trait_devoted_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha consagrado su vida al servicio de un poder superior."
  	#Child version of Devoted
- trait_devoted_child:0 "Prometido al clero" #NT!
- trait_devoted_child_desc:0 "Este niño está prometido a la Fe y eventualmente dedicará su vida al servicio de un poder superior." #NT!
- trait_devoted_child_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está prometido a la Fe y eventualmente dedicará la vida de [ROOT.GetCharacter.GetHerHis] al servicio de un poder superior." #NT!
+ trait_devoted_child:0 "Prometido al clero"
+ trait_devoted_child_desc:0 "Este niño ha sido comprometido al clero y acabará dedicando su vida al servicio de un poder superior."
+ trait_devoted_child_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido comprometid[ROOT.GetCharacter.Custom('ES_OA')] al clero y acabará dedicando su vida al servicio de un poder superior."
  	#Indian versions of Devoted
- trait_devoted_buddhism_male:0 "Bhikkhu" #NT!
- trait_devoted_buddhism_female:0 "Bhikkhuni" #NT!
- trait_devoted_hinduism_male:0 "Sanyasi" #NT!
- trait_devoted_hinduism_female:0 "Sanyasini" #NT!
- trait_devoted_jainism_male:0 "Municipio" #NT!
- trait_devoted_jainism_female:0 "Ariika" #NT!
+ trait_devoted_buddhism_male:0 "Bhikkhu"
+ trait_devoted_buddhism_female:0 "Bhikkhuni"
+ trait_devoted_hinduism_male:0 "Sanyasi"
+ trait_devoted_hinduism_female:0 "Sanyasini"
+ trait_devoted_jainism_male:0 "Muni"
+ trait_devoted_jainism_female:0 "Aryika"
  	#Muslim version of Faith Warrior
- trait_mujahid:0 "Muyahidín" #NT!
- trait_mujahid_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha cumplido [ROOT.GetCharacter.GetHerHis] el deber islámico y ha participado en una yihad." #NT!
+ trait_mujahid:0 "Muyahid"
+ trait_mujahid_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha cumplido su deber islámico participando en una yihad."
  	#Muslim version of Pilgrim
- trait_hajji:0 "Hajji" #NT!
- trait_hajjah:0 "Hayy" #NT!
- trait_hajjaj_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha completado el Hajj, una peregrinación a la Casa de Alá en La Meca." #NT!
+ trait_hajji:0 "Hachi"
+ trait_hajjah:0 "Hacha"
+ trait_hajjaj_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha terminado el hach, la peregrinación a la casa de Alá en La Meca."
  	#Muslim male & female versions of Blood of the Prophet, respectively
- trait_sayyid:0 "Sayid" #NT!
- trait_sayyida:0 "Sayyidá" #NT!
- trait_sayyid_desc:1 "Por las venas de este personaje corre la Sangre del Profeta." #NT!
- trait_sayyid_character_desc:0 "Por las venas de [ROOT.GetCharacter.GetFirstNameNoTooltip] corre la Sangre del Profeta." #NT!
+ trait_sayyid:0 "Sayyid"
+ trait_sayyida:0 "Sayyida"
+ trait_sayyid_desc:1 "Por las venas de este personaje corre la sangre del Profeta."
+ trait_sayyid_character_desc:0 "Por las venas de [ROOT.GetCharacter.GetFirstNameNoTooltip] corre la sangre del Profeta."
  	#Zoroastrian version of Savior
- trait_saoshyant:0 "Saoshyant" #NT!
- trait_saoshyant_desc:0 "Este personaje está aquí para liberarnos a todos y tal vez traer Frashokereti, la renovación final del mundo." #NT!
- trait_saoshyant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está aquí para liberarnos a todos y quizás traer Frashokereti, la renovación final del mundo." #NT!
+ trait_saoshyant:0 "Saoshyant"
+ trait_saoshyant_desc:0 "Este personaje ha venido para salvarnos a todos y tal vez, provocar el Frashokereti, la renovación final del mundo."
+ trait_saoshyant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha venido para salvarnos a todos y tal vez, provocar el Frashokereti, la renovación final del mundo."
  	#Zoroastrian version of Divine Blood
- trait_saoshyant_descendant:0 "Descendiente Saoshyant" #NT!
- trait_saoshyant_descendant_desc:0 "Este personaje es descendiente directo del Saoshyant." #NT!
- trait_saoshyant_descendant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es descendiente directo de Saoshyant." #NT!
+ trait_saoshyant_descendant:0 "Descendiente del Saoshyant"
+ trait_saoshyant_descendant_desc:0 "Este personaje es un descendiente directo del Saoshyant."
+ trait_saoshyant_descendant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es descendiente direct[ROOT.GetCharacter.Custom('ES_OA')] del Saoshyant."
  	#The Chakravarti
- trait_chakravarti:0 "Chakravarti" #NT!
- trait_chakravarti_desc:0 "Este personaje ha unido el centro del mundo y es el gobernante legítimo de su totalidad." #NT!
- trait_chakravarti_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha unido el centro del mundo y es el gobernante legítimo de su totalidad." #NT!
+ trait_chakravarti:0 "Chakravarti"
+ trait_chakravarti_desc:0 "Este personaje ha unido el centro del mundo y es el gobernante legítimo de su totalidad."
+ trait_chakravarti_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] a unido el centro del mundo y es el gobernante legítim[ROOT.GetCharacter.Custom('ES_OA')] de su totalidad."
  	#Greatest of Khans
- trait_greatest_of_khans:0 "El más grande de Khans" #NT!
- trait_greatest_of_khans_desc:0 "Este personaje ha sido proclamado gobernante del universo mismo, por derecho de conquista." #NT!
- trait_greatest_of_khans_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido proclamado gobernante del universo mismo, por derecho de conquista." #NT!
- trait_savior:0 "El Salvador" #NT!
- trait_savior_desc:0 "Este personaje está aquí para liberarnos a todos." #NT!
- trait_savior_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está aquí para liberarnos a todos." #NT!
- trait_divine_blood:0 "Sangre Divina" #NT!
- trait_divine_blood_desc:0 "Este personaje desciende de una persona enviada del cielo." #NT!
- trait_divine_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] desciende de una persona enviada del cielo." #NT!
- trait_paragon:0 "Dechado" #NT!
- trait_paragon_desc:0 "Este personaje se ha convertido en un ejemplo de virtud religiosa irreprochable." #NT!
- trait_paragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha convertido en un ejemplo de virtud religiosa irreprochable." #NT!
- trait_consecrated_blood:0 "Sangre Consagrada" #NT!
- trait_consecrated_blood_desc:0 "La inquebrantable devoción mostrada por algunos de sus miembros ha dado a esta dinastía una reputación impecable a los ojos del sacerdocio." #NT!
- trait_consecrated_blood_character_desc:0 "La inquebrantable devoción mostrada por algunos de sus miembros ha dado a esta dinastía una reputación impecable a los ojos del sacerdocio." #NT!
- trait_blood_of_prophet:0 "Sangre del profeta" #NT!
- trait_blood_of_prophet_desc:0 "Por las venas de este personaje corre la sangre de un profeta." #NT!
- trait_blood_of_prophet_character_desc:0 "Por las venas de [ROOT.GetCharacter.GetFirstNameNoTooltip] corre la sangre de un profeta." #NT!
- trait_faith_warrior:0 "Guerrero de la fe" #NT!
- trait_faith_warrior_desc:0 "Este personaje ha participado en una Gran Guerra Santa." #NT!
- trait_faith_warrior_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha participado en una Gran Guerra Santa." #NT!
- trait_saint:0 "Smo." #NT!
- trait_saint_desc:0 "Excepcionalmente santo; el santo es un faro de luz para todos los religiosos." #NT!
- trait_saint_character_desc:0 "Excepcionalmente santo; el santo es un faro de luz para todos los religiosos." #NT!
- trait_order_member:0 "Miembro de la orden" #NT!
- trait_order_member_desc:0 "Este personaje sirve en una Orden Sagrada militarizada." #NT!
- trait_order_member_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sirve en una Orden Sagrada militarizada." #NT!
- trait_bastard:0 "Bastardo" #NT!
- trait_bastard_desc:1 "Este personaje no nació de una pareja legal de padres, ni de una concubina, y tendrá que vivir con la mancha de la ilegitimidad toda su vida." #NT!
- trait_bastard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no nació de un matrimonio legal de padres, y tendrá que vivir con la mancha de ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida." #NT!
- trait_twin:0 "Mellizo" #NT!
- trait_twin_desc:0 "Este personaje nació gemelo." #NT!
- trait_twin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació gemelo." #NT!
- trait_legitimized_bastard:0 "Bastardo legitimado" #NT!
- trait_legitimized_bastard_desc:0 "Este personaje nació como un bastardo, pero desde entonces ha sido legitimado." #NT!
- trait_legitimized_bastard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació como un bastardo, pero desde entonces ha sido legitimado." #NT!
- trait_disputed_heritage:0 "Patrimonio en disputa" #NT!
- trait_disputed_heritage_desc:0 "Rumores creíbles rodean la herencia de este personaje. Muchos dicen que su padre es otra persona." #NT!
- trait_disputed_heritage_character_desc:0 "Rumores creíbles rodean la herencia de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]. Muchos dicen que el padre de [ROOT.GetCharacter.GetHerHis] es otra persona." #NT!
- trait_wild_oat:0 "Avena salvaje" #NT!
- trait_wild_oat_desc:0 "Este personaje nació fuera del matrimonio." #NT!
- trait_wild_oat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació fuera del matrimonio." #NT!
- trait_bastard_founder:0 "Fundador bastardo" #NT!
- trait_bastard_founder_desc:0 "Un bastardo que ha fundado su propio [bastard_house|E]." #NT!
- trait_bastard_founder_character_desc:0 "Un bastardo que ha fundado [ROOT.GetCharacter.GetHerHis] propio [bastard_house|E]." #NT!
- trait_kinslayer_1:0 "Asesino dinástico" #NT!
- trait_kinslayer_1_desc:0 "Este personaje ha cometido el pecado de asesinar a un miembro de la dinastía." #NT!
- trait_kinslayer_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha cometido el pecado de asesinar a un miembro de la dinastía." #NT!
- trait_kinslayer_2:0 "Asesino familiar" #NT!
- trait_kinslayer_2_desc:0 "Este personaje ha matado a un miembro de su familia extendida." #NT!
- trait_kinslayer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha asesinado a un miembro de la familia extendida de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_kinslayer_3:0 "Asesino de parientes" #NT!
- trait_kinslayer_3_desc:0 "Este personaje es conocido por haber matado a parientes cercanos." #NT!
- trait_kinslayer_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido por haber matado a parientes cercanos." #NT!
- trait_deviant:0 "Desviado" #NT!
- trait_deviant_desc:0 "Este personaje tiene un... gusto ecléctico y poco convencional." #NT!
- trait_deviant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un... gusto ecléctico y poco convencional." #NT!
- trait_cannibal:0 "Caníbal" #NT!
- trait_cannibal_desc:0 "Este personaje piensa que otras personas hacen lo mejor de las comidas." #NT!
- trait_cannibal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] piensa que otras personas hacen las mejores comidas." #NT!
- trait_sodomite:0 "Sodomita" #NT!
- trait_sodomite_desc:0 "Este personaje es conocido por tener relaciones sexuales con personas de su mismo género." #NT!
- trait_sodomite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido por tener relaciones sexuales con personas del mismo género de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_incestuous:0 "Incestuoso" #NT!
- trait_incestuous_desc:0 "Este personaje es conocido por tener relaciones sexuales con familiares." #NT!
- trait_incestuous_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido por tener relaciones sexuales con familiares." #NT!
- trait_adulterer:0 "Adúltero" #NT!
- trait_adulterer_desc:0 "Este personaje ha violado la santidad del matrimonio al copular con otro." #NT!
- trait_adulterer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha violado la santidad del matrimonio al copular con otro." #NT!
- trait_fornicator:0 "Fornicario" #NT!
- trait_fornicator_desc:0 "Este personaje ha copulado fuera del matrimonio." #NT!
- trait_fornicator_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha copulado fuera del matrimonio." #NT!
- trait_murderer:0 "Asesino" #NT!
- trait_murderer_desc:0 "Este personaje ha provocado ilegalmente la muerte de alguien." #NT!
- trait_murderer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha provocado ilegalmente la muerte de alguien." #NT!
- trait_born_in_the_purple:0 "Nacido en el morado" #NT!
- trait_born_in_the_purple_desc:0 "Este personaje nació de padres prominentes, una vida rica y altas expectativas." #NT!
- trait_born_in_the_purple_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació de padres prominentes, una vida rica y altas expectativas." #NT!
- trait_berserker:0 "Frenético" #NT!
- trait_berserker_desc:0 "Una vez que la sangre de este personaje comience a hervir, solo se saciará con la muerte de sus enemigos." #NT!
- trait_berserker_character_desc:0 "Una vez que la sangre de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] comience a hervir, solo se saciará con la muerte de los enemigos de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_shieldmaiden_female:0 "Esposa hacha" #NT!
- trait_shieldmaidens_female:0 "Esposas hacha" #NT!
- trait_shieldmaiden_male:0 "Hacha marido" #NT!
- trait_shieldmaidens_male:0 "Maridos del hacha" #NT!
- trait_shieldmaiden_desc:0 "Este personaje ha tomado un hacha como amante, luchando en el campo de batalla como cualquier otro guerrero." #NT!
- trait_shieldmaiden_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha tomado un hacha como amante, desafiando la estructura de la sociedad [ROOT.GetCharacter.GetHerHis] y luchando en el campo de batalla como si [ROOT.GetCharacter.GetSheHe] fuera un hombre." #NT!
- trait_shieldmaiden_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha tomado un hacha como amante, desafiando la estructura de la sociedad [ROOT.GetCharacter.GetHerHis] y luchando en el campo de batalla como si [ROOT.GetCharacter.GetSheHe] fuera una mujer." #NT!
- trait_poet:0 "Poeta" #NT!
- trait_poet_desc:0 "Este personaje disfruta pasar las tardes dándole rima y verso a sus pensamientos, sentimientos y vivencias." #NT!
- trait_poet_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] disfruta pasando las tardes de [ROOT.GetCharacter.GetHerHis] dando rima y verso a los pensamientos, sentimientos y experiencias de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_varangian:0 "Varangiano" #NT!
- trait_varangian_desc:0 "Este personaje ha servido en el ejército bizantino como parte de la Guardia Varangian." #NT!
- trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido en el ejército bizantino como parte de la Guardia Varangian." #NT!
- trait_viking_has_longships:0 "Saqueador" #NT!
- trait_viking_fallback:0 "Asaltante" #NT!
- trait_viking_desc:0 "Este personaje es un conocido saqueador de asentamientos extranjeros." #NT!
- trait_viking_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un conocido saqueador de asentamientos extranjeros." #NT!
- trait_reincarnation:0 "Reencarnación" #NT!
- trait_reincarnation_desc:0 "Esta no es la primera vez que este personaje camina sobre la tierra." #NT!
- trait_reincarnation_desc_ancestor:0 "Se dice que [ROOT.Char.GetSheHe|U] es la reencarnación de [ROOT.Char.GetHerHis] [ROOT.Char.Custom2('RelationToMe', ROOT.Var('reincarnation_of').Char)], [ROOT.Var('reincarnation_of').Char.GetTitledFirstName]." #NT!
- trait_adventurer:0 "Aventurero" #NT!
- trait_adventurer_desc:0 "Este personaje ha llevado una vida de valentía y acción como aventurero." #NT!
- trait_adventurer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha llevado una vida de valentía y acción como aventurero." #NT!
+ trait_greatest_of_khans:0 "El mayor de los kanes"
+ trait_greatest_of_khans_desc:0 "Este personaje ha sido proclamado gobernante de todo el universo por derecho de conquista."
+ trait_greatest_of_khans_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido proclamad[ROOT.GetCharacter.Custom('ES_OA')] gobernante de todo el universo por derecho de conquista."
+ trait_savior:0 "Salvador"
+ trait_savior_desc:0 "Este personaje está aquí para liberarnos a todos."
+ trait_savior_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está aquí para liberarnos a todos."
+ trait_divine_blood:0 "Sangre divina"
+ trait_divine_blood_desc:0 "Este personaje desciende de una persona enviada por los cielos."
+ trait_divine_blood_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] desciende de una persona enviada por los cielos."
+ trait_paragon:0 "Paragón"
+ trait_paragon_desc:0 "Este personaje se ha convertido en un ejemplo de virtud religiosa fuera de todo reproche."
+ trait_paragon_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha convertido en un ejemplo de virtud religiosa fuera de todo reproche."
+ trait_consecrated_blood:0 "Sangre consagrada"
+ trait_consecrated_blood_desc:0 "La devoción inquebrantable de algunos de sus miembros ha dado a esta dinastía una reputación impecable a ojos del clero."
+ trait_consecrated_blood_character_desc:0 "La devoción inquebrantable de algunos de sus miembros ha dado a esta dinastía una reputación impecable a ojos del clero."
+ trait_blood_of_prophet:0 "Sangre del profeta"
+ trait_blood_of_prophet_desc:0 "Por las venas de este personaje corre la sangre de un profeta."
+ trait_blood_of_prophet_character_desc:0 "Por las venas de [ROOT.GetCharacter.GetFirstNameNoTooltip] corre la sangre de un profeta."
+ trait_faith_warrior:0 "Guerrero de la fe"
+ trait_faith_warrior_desc:0 "Este personaje ha participado en grandes guerras santas."
+ trait_faith_warrior_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha participado en grandes guerras santas."
+ trait_saint:0 "Santo"
+ trait_saint_desc:0 "Excepcionalmente sagrado, el santo es un faro para cualquier persona religiosa."
+ trait_saint_character_desc:0 "Excepcionalmente sagrado, el santo es un faro para cualquier persona religiosa."
+ trait_order_member:0 "Miembro de orden"
+ trait_order_member_desc:0 "Este personaje sirve en una orden religiosa militarizada."
+ trait_order_member_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sirve en una orden religiosa militarizada."
+ trait_bastard:0 "Bastardo"
+ trait_bastard_desc:1 "Este personaje no nació de la unión legal de sus padres, ni de una concubina, y tendrá que vivir con la mancha de la ilegitimidad toda su vida."
+ trait_bastard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no nació de la unión legal de sus padres, y tendrá que vivir con la mancha de la ilegitimidad toda su vida."
+ trait_twin:0 "Gemelo"
+ trait_twin_desc:0 "Este personaje tiene un hermano gemelo."
+ trait_twin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un[ROOT.GetCharacter.Custom('ES_XA')] [hermanOT.GetCharacter.Custom('ES_OA')] gemel[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_legitimized_bastard:0 "Bastardo legitimado"
+ trait_legitimized_bastard_desc:0 "Este personaje nació bastardo, pero fue legitimado,"
+ trait_legitimized_bastard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació bastard[ROOT.GetCharacter.Custom('ES_OA')], pero fue legitimad[ROOT.GetCharacter.Custom('ES_OA')]."
+ trait_disputed_heritage:0 "Herencia disputada"
+ trait_disputed_heritage_desc:0 "Rumores creíbles rondan la herencia de este personaje. Muchos dicen que su padre es otro."
+ trait_disputed_heritage_character_desc:0 "Rumores creíbles rodean la herencia de [ROOT.GetCharacter.GetFirstNameNoTooltip]. Muchos dicen que su padre es otro."
+ trait_wild_oat:0 "Locura de juventud"
+ trait_wild_oat_desc:0 "Este personaje nació fuera del matrimonio."
+ trait_wild_oat_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació fuera del matrimonio."
+ trait_bastard_founder:0 "Fundador bastardo"
+ trait_bastard_founder_desc:0 "Un antiguo bastardo que ha fundado su propia [dynasty|lE]."
+ trait_bastard_founder_character_desc:0 "Un[ROOT.GetCharacter.Custom('ES_XA')] antigu[ROOT.GetCharacter.Custom('ES_OA')] bastard[ROOT.GetCharacter.Custom('ES_OA')] que ha fundado su propia [dynasty|lE]."
+ trait_kinslayer_1:0 "Familicida dinástico"
+ trait_kinslayer_1_desc:0 "Este personaje ha cometido el pecado de asesinar a un miembro de su dinastía."
+ trait_kinslayer_1_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha cometido el pecado de asesinar a un miembro de su dinastía."
+ trait_kinslayer_2:0 "Familicida de pariente"
+ trait_kinslayer_2_desc:0 "Este personaje ha matado a uno de sus parientes lejanos."
+ trait_kinslayer_2_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha matado a uno de sus parientes lejanos."
+ trait_kinslayer_3:0 "Familicida"
+ trait_kinslayer_3_desc:0 "Este personaje es célebre por haber matado a familiares cercanos."
+ trait_kinslayer_3_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es célebre por haber matado a familiares cercanos."
+ trait_deviant:0 "Desviado"
+ trait_deviant_desc:0 "Este personaje tiene gustos eclécticos y… poco convencionales."
+ trait_deviant_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene gustos eclécticos y… poco convencionales."
+ trait_cannibal:0 "Caníbal"
+ trait_cannibal_desc:0 "Este personaje cree que la mejor de las carnes es la de otras personas."
+ trait_cannibal_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] cree que la mejor de las carnes es la de otras personas."
+ trait_sodomite:0 "Sodomita"
+ trait_sodomite_desc:0 "Este personaje es célebre por tener relaciones sexuales con personas de su mismo sexo."
+ trait_sodomite_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es célebre por tener relaciones sexuales con personas de su mismo sexo."
+ trait_incestuous:0 "Incestuoso"
+ trait_incestuous_desc:0 "Este personaje es célebre por tener relaciones sexuales con parientes."
+ trait_incestuous_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es célebre por tener relaciones sexuales con parientes."
+ trait_adulterer:0 "Adúltero"
+ trait_adulterer_desc:0 "Este personaje infringió la santidad del matrimonio copulando con otra persona."
+ trait_adulterer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] infringió la santidad del matrimonio copulando con otra persona."
+ trait_fornicator:0 "Fornicador"
+ trait_fornicator_desc:0 "Este personaje ha copulado fuera del matrimonio."
+ trait_fornicator_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha copulado fuera del matrimonio."
+ trait_murderer:0 "Asesino"
+ trait_murderer_desc:0 "Este personaje ha causado ilegalmente el final de alguien."
+ trait_murderer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha causado ilegalmente el final de alguien."
+ trait_born_in_the_purple:0 "Nacido en la realeza"
+ trait_born_in_the_purple_desc:0 "Este personaje nació de padres importantes, con una vida rica y grandes expectativas."
+ trait_born_in_the_purple_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació de padres importantes, con una vida rica y grandes expectativas."
+ trait_berserker:0 "Berserker"
+ trait_berserker_desc:0 "Cuando la sangre de este personaje empieza a hervir, solo se sacia con la muerte de sus enemigos."
+ trait_berserker_character_desc:0 "Cuando la sangre de [ROOT.GetCharacter.GetFirstNameNoTooltip] empieza a hervir, solo se sacia con la muerte de sus enemigos."
+ trait_shieldmaiden_female:0 "Doncella escudera"
+ trait_shieldmaidens_female:0 "Doncellas escuderas"
+ trait_shieldmaiden_male:0 "Doncel escudero"
+ trait_shieldmaidens_male:0 "Donceles escuderos"
+ trait_shieldmaiden_desc:0 "Este personaje desafía las estructuras normales de su sociedad luchando en la pared de escudos como un guerrero más."
+ trait_shieldmaiden_female_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] desafía las estructuras normales de su sociedad, luchando en la pared de escudos como si fuera un hombre"
+ trait_shieldmaiden_male_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] desafía las estructuras normales de su sociedad, luchando en la pared de escudos como si fuera una mujer."
+ trait_poet:0 "Poeta"
+ trait_poet_desc:0 "Este personaje disfruta pasando las tardes componiendo rimas y versos sobre sus pensamientos, sentimientos y experiencias."
+ trait_poet_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] disfruta pasando las tardes componiendo rimas y versos sobre sus pensamientos, sentimientos y experiencias."
+ trait_varangian:0 "Varego"
+ trait_varangian_desc:0 "Este personaje ha servido en el ejército bizantino como parte de la guardia varega."
+ trait_varangian_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido en el ejército bizantino como parte de la Guardia Varega."
+ trait_viking_has_longships:0 "Vikingo"
+ trait_viking_fallback:0 "Asaltante"
+ trait_viking_desc:0 "Este personaje es un conocido saqueador de asentamientos extranjeros."
+ trait_viking_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] conocid[ROOT.GetCharacter.Custom('ES_OA')] saqueador[ROOT.GetCharacter.Custom('ES_OA')] de asentamientos extranjeros."
+ trait_reincarnation:0 "Reencarnación"
+ trait_reincarnation_desc:0 "No es la primera vez que este personaje recorre la tierra."
+ trait_reincarnation_desc_ancestor:0 "Se dice que [ROOT.Char.Custom('ES_ElElla')] es la reencarnación de su [ROOT.Char.Custom2('RelationToMe', ROOT.Var('reincarnation_of').Char)], [ROOT.Var('reincarnation_of').Char.GetTitledFirstName]."
+ trait_adventurer:0 "Aventurero"
+ trait_adventurer_desc:0 "Este personaje ha tenido una vida de valentía y acción como parte de una facción aventurera."
+ trait_adventurer_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha tenido una vida de valentía y acción como aventurer[ROOT.GetCharacter.Custom('ES_OA')]."
 
- trait_education_republican_knowledge:0 "Conocimiento republicano" #NT!
- trait_education_republican_knowledge_1:0 "Habitante de la ciudad" #NT!
- trait_education_republican_knowledge_1_desc:1 "Este personaje se ha iniciado en la gestión de las ciudades." #NT!
- trait_education_republican_knowledge_1_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha iniciado en la gestión de ciudades." #NT!
- trait_education_republican_knowledge_2:0 "Aprendiz de alcalde" #NT!
- trait_education_republican_knowledge_2_desc:1 "Este personaje ha sido formado en el arte de la gestión de ciudades." #NT!
- trait_education_republican_knowledge_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido formado en el arte de la gestión de ciudades." #NT!
- trait_education_republican_knowledge_3:0 "Experto en la ciudad" #NT!
- trait_education_republican_knowledge_3_desc:1 "Este personaje ha desarrollado un fuerte sentido de gestión de la ciudad." #NT!
- trait_education_republican_knowledge_3_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha desarrollado un fuerte sentido de la gestión de la ciudad." #NT!
- trait_education_republican_knowledge_4:0 "Heredero republicano" #NT!
- trait_education_republican_knowledge_4_desc:1 "Este personaje ha dominado el arcano arte de la gestión de ciudades." #NT!
- trait_education_republican_knowledge_4_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha dominado el arcano arte de la gestión de ciudades." #NT!
+ trait_education_republican_knowledge:0 "Conocimiento republicano"
+ trait_education_republican_knowledge_1:0 "Habitante de ciudad"
+ trait_education_republican_knowledge_1_desc:1 "Este personaje se ha iniciado en la gestión de ciudades."
+ trait_education_republican_knowledge_1_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha iniciado en la gestión de ciudades."
+ trait_education_republican_knowledge_2:0 "Alcalde en prácticas"
+ trait_education_republican_knowledge_2_desc:1 "Este personaje se ha instruido en el arte de la gestión de ciudades"
+ trait_education_republican_knowledge_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se ha instruido en el arte de la gestión de ciudades"
+ trait_education_republican_knowledge_3:0 "Entendido en ciudades"
+ trait_education_republican_knowledge_3_desc:1 "Este personaje ha desarrollado un fuerte sentido de la gestión de ciudades"
+ trait_education_republican_knowledge_3_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha desarrollado un fuerte sentido de la gestión de ciudades"
+ trait_education_republican_knowledge_4:0 "Heredero republicano"
+ trait_education_republican_knowledge_4_desc:1 "Este personaje ha dominado los secretos de la gestión de ciudades"
+ trait_education_republican_knowledge_4_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha dominado los secretos de la gestión de ciudades"
 
  	# Female version of Child of Concubine
- trait_child_of_concubine:1 "Hijo de concubina" #NT!
- trait_child_of_concubine_desc:0 "Este personaje nació de una concubina." #NT!
- trait_child_of_concubine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació de una concubina." #NT!
+ trait_child_of_concubine:1 "Fruto de concubinato"
+ trait_child_of_concubine_desc:0 "Este personaje nació de una concubina."
+ trait_child_of_concubine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació de una concubina."
  	# Male version of Child of Concubine
- trait_child_of_male_concubine_desc:0 "Este personaje fue engendrado por una concubina." #NT!
- trait_child_of_male_concubine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] fue engendrado por una concubina." #NT!
+ trait_child_of_male_concubine_desc:0 "Este personaje fue engendrado por un concubino."
+ trait_child_of_male_concubine_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] fue engendrad[ROOT.GetCharacter.Custom('ES_OA')] por un concubino"
  	#Witch
- trait_witch:0 "Bruja" #NT!
- trait_witch_desc:0 "Este personaje incursiona en temas que muchos considerarían ocultos." #NT!
- trait_witch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] incursiona en temas que muchos considerarían ocultos." #NT!
+ trait_witch:0 "Brujo"
+ trait_witch_desc:0 "Este personaje coquetea con asuntos que muchos considerarían ocultismo."
+ trait_witch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] coquetea con asuntos que muchos considerarían ocultismo."
 
 #Revolting Leader Traits
   #Peasnt Leaders
- trait_peasant_leader:0 "Líder campesino" #NT!
- trait_peasant_leader_desc:1 "Este personaje es un campesino saltado que se rebeló contra sus superiores." #NT!
- trait_peasant_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un campesino salteado que se rebeló contra los superiores de [ROOT.GetCharacter.GetHerHis]." #NT!
+ trait_peasant_leader:0 "Líder campesino"
+ trait_peasant_leader_desc:1 "Este personaje es un campesino con ínfulas que se rebeló contra sus superiores."
+ trait_peasant_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] campesin[ROOT.GetCharacter.Custom('ES_OA')] con ínfulas que se rebeló contra sus superiores."
   #Heretic Uprisings
- trait_heresiarch:1 "heresiarca" #NT!
- trait_heresiarch_desc:1 "Este personaje es el líder local de una secta herética." #NT!
- trait_heresiarch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es el líder local de una secta herética." #NT!
+ trait_heresiarch:1 "Heresiarca"
+ trait_heresiarch_desc:1 "Este personaje es el líder local de una secta herética."
+ trait_heresiarch_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es el/la líder local de una secta herética."
 
 #Commander Traits
- trait_logistician:0 "Logistico" #NT!
- trait_logistician_desc:0 "Si hay algo que sabe el Logista, es cómo hacer que los suministros duren, y duren bien." #NT!
- trait_logistician_character_desc:0 "Si hay algo que [ROOT.GetCharacter.GetFirstNameNoTooltip] sabe, es cómo hacer que los suministros duren, y duren bien." #NT!
- trait_military_engineer:0 "Ingeniero militar" #NT!
- trait_military_engineer_desc:0 "Con un amplio conocimiento de las máquinas de asedio y capacidades defensivas, el ingeniero militar no se mantendrá a raya." #NT!
- trait_military_engineer_character_desc:0 "Con un amplio conocimiento de las máquinas de asedio y capacidades defensivas, [ROOT.GetCharacter.GetFirstNameNoTooltip] no se mantendrá a raya." #NT!
- trait_aggressive_attacker:0 "Atacante agresivo" #NT!
- trait_aggressive_attacker_desc:0 "Nada saciará a un atacante agresivo sino la sangre de sus enemigos." #NT!
- trait_aggressive_attacker_character_desc:0 "Nada saciará a [ROOT.GetCharacter.GetFirstNameNoTooltip] excepto la sangre de los enemigos de [ROOT.GetCharacter.GetHerHis]." #NT!
- trait_unyielding_defender:0 "Defensor inquebrantable" #NT!
- trait_unyielding_defender_desc:0 "Un Defensor Inquebrantable sabe una cosa por encima de todo: hasta aquí llega el enemigo." #NT!
- trait_unyielding_defender_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe una cosa por encima de todo: hasta aquí llega el enemigo." #NT!
- trait_forder:0 "Forder" #NT!
- trait_forder_desc:1 "Este personaje vive cerca del agua y no sufrirá ninguna penalización de Ventaja en las batallas cuando ataque a través de ríos o ríos." #NT!
- trait_forder_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se encuentra cerca del agua y no sufrirá ninguna penalización de Ventaja en las batallas cuando ataque a través de ríos o ríos." #NT!
- trait_flexible_leader:0 "Líder Flexible" #NT!
- trait_flexible_leader_desc:0 "Este personaje sabe cómo reducir la Ventaja que los ejércitos defensores obtienen de las fortificaciones, el terreno, los ríos y los cruces de estrechos." #NT!
- trait_flexible_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe cómo reducir la ventaja que obtienen los ejércitos defensores de las fortificaciones, el terreno, los ríos y los cruces de estrechos." #NT!
- trait_desert_warrior:0 "Guerrero del desierto" #NT!
- trait_desert_warrior_desc:0 "El sol castigador y el calor palpitante del desierto no son enemigos para este personaje." #NT!
- trait_desert_warrior_character_desc:0 "El sol castigador y el calor palpitante del desierto no son enemigos para [ROOT.GetCharacter.GetFirstNameNoTooltip]." #NT!
- trait_jungle_stalker:0 "Acechador de la selva" #NT!
- trait_jungle_stalker_desc:0 "El frondoso bosque de cualquier jungla es un aliado de este personaje." #NT!
- trait_jungle_stalker_character_desc:0 "El frondoso bosque de cualquier jungla es un aliado de [ROOT.GetCharacter.GetFirstNameNoTooltip]." #NT!
- trait_reaver:0 "Saqueador" #NT!
- trait_reaver_desc:0 "El Saqueador anhela el botín casi tanto como la victoria: si hay algo de valor que conseguir, lo encontrará." #NT!
- trait_reaver_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] anhela el botín casi tanto como la victoria: si hay algo de valor, [ROOT.GetCharacter.GetSheHe] lo encontrará." #NT!
- trait_reckless:0 "Imprudente" #NT!
- trait_reckless_desc:0 "Si se puede tener una ventaja, el comandante Reckless seguramente la aprovechará." #NT!
- trait_reckless_character_desc:0 "Si se puede tener una ventaja, [ROOT.GetCharacter.GetFirstNameNoTooltip] seguramente la aprovechará." #NT!
- trait_holy_warrior:0 "Guerrero sagrado" #NT!
- trait_holy_warrior_desc:0 "Ardiendo con un fervor justo, el Guerrero Sagrado no descansará hasta que todos los Paganos sean derrotados." #NT!
- trait_holy_warrior_character_desc:0 "Ardiendo con fervor justo, [ROOT.GetCharacter.GetFirstNameNoTooltip] no descansará hasta que todos los Paganos sean derrotados." #NT!
- trait_open_terrain_expert:0 "Experto en terreno abierto" #NT!
- trait_open_terrain_expert_desc:1 "Los campos abiertos y los amplios espacios son los lugares donde este personaje se siente como en casa, y se apresuran a aprovechar esto en la batalla." #NT!
- trait_open_terrain_expert_character_desc:0 "Los campos abiertos y los amplios espacios son los lugares donde [ROOT.GetCharacter.GetFirstNameNoTooltip] se siente como en casa, y no tardan en aprovecharlos en la batalla." #NT!
- trait_rough_terrain_expert:0 "Experto en terrenos difíciles" #NT!
- trait_rough_terrain_expert_desc:0 "El terreno difícil puede ser una herramienta poderosa para aquellos que pueden utilizarlo y ganar ventaja en la batalla." #NT!
- trait_rough_terrain_expert_character_desc:0 "El terreno difícil puede ser una herramienta poderosa para aquellos que pueden utilizarlo y ganar ventaja en la batalla." #NT!
- trait_forest_fighter:0 "Luchador del bosque" #NT!
- trait_forest_fighter_desc:0 "Donde algunos ven los bosques como obstáculos, este personaje ve una oportunidad." #NT!
- trait_forest_fighter_character_desc:0 "Donde algunos ven los bosques como obstáculos, [ROOT.GetCharacter.GetFirstNameNoTooltip] ve una oportunidad." #NT!
- trait_cautious_leader:0 "Líder cauteloso" #NT!
- trait_cautious_leader_desc:0 "Un líder cauteloso tiene cuidado de no correr riesgos innecesarios en las batallas, pero lo hace a costa de una ganancia potencial." #NT!
- trait_cautious_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene cuidado de no correr riesgos innecesarios en las batallas, pero lo hace a costa de una ganancia potencial." #NT!
- trait_organizer:0 "Organizador" #NT!
- trait_organizer_desc:0 "En manos capaces, un ejército bien organizado puede superar rápidamente al enemigo en cualquier situación." #NT!
- trait_organizer_character_desc:0 "En manos capaces, un ejército bien organizado puede superar rápidamente al enemigo en cualquier situación." #NT!
- trait_winter_soldier:0 "Soldado de Invierno" #NT!
- trait_winter_soldier_desc:0 "Este carácter está moldeado por el gélido frío, y sabe cómo convertirlo en su beneficio." #NT!
- trait_winter_soldier_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] está moldeado por el frío intenso y sabe cómo sacarle provecho a [ROOT.GetCharacter.GetHerHis]." #NT!
+ trait_logistician:0 "Logista"
+ trait_logistician_desc:0 "Si el logista sabe algo es cómo lograr que los suministros duren, y mucho."
+ trait_logistician_character_desc:0 "Si [ROOT.GetCharacter.GetFirstNameNoTooltip] sabe algo es cómo lograr que los suministros duren, y mucho."
+ trait_military_engineer:0 "Ingeniero militar"
+ trait_military_engineer_desc:0 "Por su amplio conocimiento de los ingenios de asedio y capacidades defensivas, nadie mantendrá a raya al ingeniero militar."
+ trait_military_engineer_character_desc:0 "Por su amplio conocimiento de los ingenios de asedio y capacidades defensivas, nadie mantendrá a raya a [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_aggressive_attacker:0 "Atacante agresivo"
+ trait_aggressive_attacker_desc:0 "Nada más que la sangre de su enemigo sacia a un atacante agresivo."
+ trait_aggressive_attacker_character_desc:0 "Nada más que la sangre de su enemigo sacia a [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_unyielding_defender:0 "Defensor férreo"
+ trait_unyielding_defender_desc:0 "Un defensor férreo sabe algo por encima de todo: hasta aquí ha llegado el enemigo."
+ trait_unyielding_defender_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe algo por encima de todo: hasta aquí ha llegado el enemigo."
+ trait_forder:0 "Vadeador"
+ trait_forder_desc:1 "Este personaje se siente en casa cerca del agua y no sufrirá penalización de ventaja en batallas al atacar por estrechos o ríos."
+ trait_forder_character_desc:1 "[ROOT.GetCharacter.GetFirstNameNoTooltip] se siente en casa cerca del agua y no sufrirá penalización de ventaja en batallas al atacar por estrechos o ríos."
+ trait_flexible_leader:0 "Líder flexible"
+ trait_flexible_leader_desc:0 "Este personaje sabe cómo reducir la ventaja que los ejércitos defensores obtienen por fortificación, terreno o cruces de ríos y estrechos."
+ trait_flexible_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] sabe cómo reducir la ventaja que los ejércitos defensores obtienen por fortificación, terreno o cruces de ríos y estrechos."
+ trait_desert_warrior:0 "Guerrero del desierto"
+ trait_desert_warrior_desc:0 "El sol agotador y el calor del desierto no son rival para este personaje."
+ trait_desert_warrior_character_desc:0 "El sol agotador y el calor del desierto no son rival de [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_jungle_stalker:0 "Acosador de la selva"
+ trait_jungle_stalker_desc:0 "La exuberante vegetación de cualquier selva es aliada de este personaje."
+ trait_jungle_stalker_character_desc:0 "La exuberante vegetación de cualquier selva es aliada de [ROOT.GetCharacter.GetFirstNameNoTooltip]."
+ trait_reaver:0 "Saqueador"
+ trait_reaver_desc:0 "El saqueador anhela tanto el botín como la victoria; si hay algo de valor que valga la pena, lo encontrará."
+ trait_reaver_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] anhela tanto el botín como la victoria; si hay algo de valor que valga la pena, lo encontrará."
+ trait_reckless:0 "Temerario"
+ trait_reckless_desc:0 "Si hay alguna ventaja que obtener, el comandante temerario se hará con ella."
+ trait_reckless_character_desc:0 "Si hay alguna ventaja que obtener, [ROOT.GetCharacter.GetFirstNameNoTooltip] se hará con ella."
+ trait_holy_warrior:0 "Guerrero sagrado"
+ trait_holy_warrior_desc:0 "Inflamado de fervor justo, el guerrero sagrado no descansará hasta que todos los infieles sean derrotados."
+ trait_holy_warrior_character_desc:0 "Inflamad[ROOT.GetCharacter.Custom('ES_OA')] de fervor justo, [ROOT.GetCharacter.GetFirstNameNoTooltip] no descansará hasta que todos los infieles sean derrotados."
+ trait_open_terrain_expert:0 "Experto de terreno abierto"
+ trait_open_terrain_expert_desc:1 "En campos abiertos y amplios espacios es donde este personaje se siente como en casa y no tarda en sacarles provecho en la batalla."
+ trait_open_terrain_expert_character_desc:0 "En campos abiertos y amplios espacios es donde [ROOT.GetCharacter.GetFirstNameNoTooltip] se siente como en casa y no tarda en sacarles provecho en la batalla."
+ trait_rough_terrain_expert:0 "Experto en terrenos accidentados"
+ trait_rough_terrain_expert_desc:0 "El terreno difícil puede ser una herramienta poderosa para aquellos que saben utilizarlo y sacar ventaja en las batallas."
+ trait_rough_terrain_expert_character_desc:0 "El terreno difícil puede ser una herramienta poderosa para aquellos que saben utilizarlo y sacar ventaja en las batallas."
+ trait_forest_fighter:0 "Guerrero de los bosques"
+ trait_forest_fighter_desc:0 "Donde algunos ven los bosques como obstáculos, este personaje ve una oportunidad."
+ trait_forest_fighter_character_desc:0 "Donde algunos ven los bosques como obstáculos, [ROOT.GetCharacter.GetFirstNameNoTooltip] ve una oportunidad."
+ trait_cautious_leader:0 "Líder cauteloso"
+ trait_cautious_leader_desc:0 "Un líder cauteloso tiene cuidado de no correr riesgos innecesarios en las batallas, pero lo hará a costa de una ganancia potencial."
+ trait_cautious_leader_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene cuidado de no correr riesgos innecesarios en las batallas, pero lo hará a costa de una ganancia potencial."
+ trait_organizer:0 "Organizador"
+ trait_organizer_desc:0 "En manos capaces, un ejército bien organizado puede maniobrar más rápido que el enemigo en cualquier situación."
+ trait_organizer_character_desc:0 "En manos capaces, un ejército bien organizado puede maniobrar más rápido que el enemigo en cualquier situación."
+ trait_winter_soldier:0 "Soldado de invierno"
+ trait_winter_soldier_desc:0 "Este personaje ha sido moldeado por el frío amargo y sabe cómo sacarle provecho."
+ trait_winter_soldier_character_desc:0 "Este personaje ha sido moldeado por el frío amargo y sabe cómo sacarle provecho."
 
 # Commander Traits (cultural traditions)
- trait_sea_raider:0 "Asaltante del mar" #NT!
- trait_sea_raider_desc:0 "El Sea Raider no teme la dureza de los elementos en el mar y emplea una combinación de navegación audaz y hábil para atacar sin previo aviso las costas desprotegidas." #NT!
- trait_sea_raider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no le teme a la dureza de los elementos en el mar y emplea una combinación de navegación audaz y hábil para atacar sin previo aviso las costas desprotegidas." #NT!
+ trait_sea_raider:0 "Asaltante marino"
+ trait_sea_raider_desc:0 "El asaltante marino no teme la dureza del mar y emplea una combinación de osadía y diestra navegación para atacar sin aviso costas desprotegidas."
+ trait_sea_raider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] no teme la dureza del mar y emplea una combinación de osadía y diestra navegación para atacar sin aviso costas desprotegidas."
 
  #State traits
- trait_disinherited:0 "Desheredado" #NT!
- trait_disinherited_desc:0 "Este personaje ha sido desheredado por [dynast|E] y no puede heredar ningún título de ningún otro miembro de Dinastia." #NT!
- trait_disinherited_character_desc:1 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha sido desheredado por [ROOT.GetCharacter.GetHerHis] [dynast|E] y no puede heredar ningún título de ningún otro miembro de Dinastia." #NT!
- trait_denounced:0 "Denunciado" #NT!
- trait_denounced_desc:0 "Este personaje ha sido denunciado por su [dynast|E] y ahora puede ser encarcelado por cualquier otro miembro de Dinastia." #NT!
- trait_denounced_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido denunciado por [ROOT.GetCharacter.GetHerHis] [dynast|E] y ahora puede ser encarcelado por cualquier otro miembro de Dinastia." #NT!
+ trait_disinherited:0 "Desheredado"
+ trait_disinherited_desc:0 "Este personaje ha sido desheredado por el [Concept( 'dynast', 'cabeza de su dinastía' )|E] y no puede heredar ningún título de ningún otro miembro de la dinastía."
+ trait_disinherited_character_desc:1 "[ROOT.GetCharacter.GetShortUINameNoTooltip] ha sido desheredad[ROOT.GetCharacter.Custom('ES_OA')] por el [Concept( 'dynast', 'cabeza de su dinastía' )|E] y no puede heredar ningún título de ningún otro miembro de la dinastía."
+ trait_denounced:0 "Denunciado"
+ trait_denounced_desc:0 "Este personaje ha sido denunciado por el [Concept( 'dynast', 'cabeza de su dinastía' )|E] y ahora puede ser encarcelado por otro miembro de la dinastía."
+ trait_denounced_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido denunciad[ROOT.GetCharacter.Custom('ES_OA')] por el [Concept( 'dynast', 'cabeza de su dinastía' )|E] y ahora puede ser encarcelad[ROOT.GetCharacter.Custom('ES_OA')] por otro miembro de la dinastía."
 
- genetic_desc:0 "Este rasgo es [congenital|E]" #NT!
- inheritable_desc:0 "Se puede heredar" #NT!
- trait_crusader_king:0 "Rey cruzado" #NT!
- trait_crusader_king_male_desc:0 "Un gran rey guerrero que ha forjado su propio reino en las tierras de los infieles." #NT!
- trait_crusader_king_female_desc:0 "Una gran reina guerrera que ha forjado su propio reino en las tierras de los infieles." #NT!
- trait_crusader_king_fallback_desc:0 "Un gran monarca guerrero que ha forjado su reino en las tierras de los infieles." #NT!
-
- trait_augustus:0 "Augusto" #NT!
- trait_augustus_desc:0 "Este personaje es el gobernante actual del Imperio Romano restaurado y merece el respeto que merece un cargo de tal magnitud." #NT!
- trait_augustus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es el gobernante actual del Imperio Romano restaurado y goza del respeto que merece un cargo de tal magnitud." #NT!
- TRAIT_ENTRY_INHERITANCE_INFO:1 "[MatchmakerTraitInfo.GetInheritanceInfo]" #NT!
- TRAIT_INHERITANCE_GUARANTEED_ONE:0 "#weak Como al menos uno de los padres tiene este rasgo, #underline será#! heredado.#!" #NT!
- TRAIT_INHERITANCE_GUARANTEED_BOTH:0 "#weak Como ambos padres tienen este Rasgo, #underline será#! heredado.#!" #NT!
- TRAIT_INHERITANCE_GUARANTEED_CONGENITAL:0 "#weak Como ambos padres tienen este Rasgo, #underline será#! heredado.#!" #NT!
- TRAIT_INHERITANCE_POSSIBLE_CONGENITAL:0 "#weak Como uno de los padres tiene este rasgo, #underline podría#! heredarse.#!" #NT!
- TRAIT_INHERITANCE_POSSIBLE_ONE:0 "#weak Como al menos uno de los padres tiene este rasgo, #underline podría#! heredarse.#!" #NT!
- TRAIT_INHERITANCE_POSSIBLE_BOTH:0 "#weak Como ambos padres tienen este rasgo, #underline podría#! heredarse.#!" #NT!
- TRAIT_INHERITANCE_UPGRADE_POSSIBLE:0 "#weak Este rasgo #underline podría#! intensificarse, dando como resultado [TRAIT.GetName( CHARACTER.Self )].#!" #NT!
+ genetic_desc:0 "Este rasgo es [congenital|lE]"
+ inheritable_desc:0 "Se puede heredar"
+ trait_crusader_king:0 "Rey cruzado"
+ trait_crusader_king_male_desc:0 "Un gran monarca guerrero que ha forjado su propio reino a partir de tierras infieles."
+ trait_crusader_king_female_desc:0 "Una gran reina guerrera que ha forjado su propio reino a partir de tierras de los infieles."
+ trait_crusader_king_fallback_desc:0 "Un gran monarca guerrero que ha forjado su propio reino a partir de tierras infieles."
+ 
+ trait_augustus:0 "Augusto"
+ trait_augustus_desc:0 "Este personaje es el gobernante actual del Imperio romano restaurado y exige el respeto que se le debe a un cargo de tal magnitud."
+ trait_augustus_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] es el/la gobernante actual del Imperio romano restaurado y exige el respeto que se le debe a un cargo de tal magnitud."
+ TRAIT_ENTRY_INHERITANCE_INFO:1 "[MatchmakerTraitInfo.GetInheritanceInfo]"
+ TRAIT_INHERITANCE_GUARANTEED_ONE:0 "#weak Como al menos uno de los padres tiene este rasgo, #underline será#! heredado.#!"
+ TRAIT_INHERITANCE_GUARANTEED_BOTH:0 "#weak Como ambos padres tienen este rasgo, #underline será#! heredado.#!"
+ TRAIT_INHERITANCE_GUARANTEED_CONGENITAL:0 "#weak Como ambos padres tienen este rasgo, #underline será#! heredado.#!"
+ TRAIT_INHERITANCE_POSSIBLE_CONGENITAL:0 "#weak Como uno de los padres tiene este rasgo, #underline podría#! heredarse.#!"
+ TRAIT_INHERITANCE_POSSIBLE_ONE:0 "#weak Como al menos uno de los padres tiene este rasgo, #underline podría#! heredarse.#!"
+ TRAIT_INHERITANCE_POSSIBLE_BOTH:0 "#weak Como ambos padres tienen este rasgo, #underline podría#! heredarse.#!"
+ TRAIT_INHERITANCE_UPGRADE_POSSIBLE:0 "#weak Este rasgo #underline podría#! reforzarse, dando lugar a [TRAIT.GetName( CHARACTER.Self )].#!"
 
  # Crusader names
- trait_crusader_bon:0 "Guardián Kailash" #NT!
- trait_crusader_buddhism:0 "Expiador" #NT!
- trait_crusader_christianity:0 "Cruzado" #NT!
- trait_crusader_dualism:0 "Guardián de la luz" #NT!
- trait_crusader_germanic:0 "Valhalla obligado" #NT!
- trait_crusader_hellenism:0 "El propio de Ares" #NT!
- trait_crusader_hinduism:0 "Mano de shiva" #NT!
- trait_crusader_islam:0 "Muyahidín" #NT!
- trait_crusader_jainism:0 "Chupete" #NT!
- trait_crusader_judaism:0 "Kanai" #NT!
- trait_crusader_magyar:0 "Forjado de Hadúr" #NT!
- trait_crusader_baltic:0 "Sabueso de Dievas" #NT!
- trait_crusader_slavic:0 "Campeón de Perun" #NT!
- trait_crusader_finno_ugric:0 "Martillo de Ukko" #NT!
- trait_crusader_siberian:0 "Nimrod de Ulgen" #NT!
- trait_crusader_tengrism:0 "Lord del cielo" #NT!
- trait_crusader_west_african:0 "Escudo de Nyame" #NT!
- trait_crusader_west_african_bori:0 "Facilitador" #NT!
- trait_crusader_west_african_roog:0 "Árbitro de Takhar" #NT!
- trait_crusader_zoroastrianism:0 "Gond-i Shahanshah" #NT!
- trait_crusader_zunism:0 "Guerrero del sol" #NT!
+ trait_crusader_bon:0 "Guardián del Kailash"
+ trait_crusader_buddhism:0 "Expiador"
+ trait_crusader_christianity:0 "Cruzado"
+ trait_crusader_dualism:0 "Guardián de la luz"
+ trait_crusader_germanic:0 "Destinado al Valhala"
+ trait_crusader_hellenism:0 "Guerrero de Ares"
+ trait_crusader_hinduism:0 "Mano de Shiva"
+ trait_crusader_islam:0 "Muyahid"
+ trait_crusader_jainism:0 "Pacificador"
+ trait_crusader_judaism:0 "Kanai"
+ trait_crusader_magyar:0 "Forjado por Hadúr"
+ trait_crusader_baltic:0 "Sabueso de Dievas"
+ trait_crusader_slavic:0 "Campeón de Perún"
+ trait_crusader_finno_ugric:0 "Martillo de Ukko"
+ trait_crusader_siberian:0 "Nimrod de Ulgen"
+ trait_crusader_tengrism:0 "Señor del Cielo"
+ trait_crusader_west_african:0 "Escudo de Nyame"
+ trait_crusader_west_african_bori:0 "Facilitador"
+ trait_crusader_west_african_roog:0 "Árbitro de Takhar"
+ trait_crusader_zoroastrianism:0 "Gond-i Shahanshah"
+ trait_crusader_zunism:0 "Guerrero del Sol"
 
  # Crusader King names
- trait_crusader_king_bon_male:0 "Rey Kailash" #NT!
- trait_crusader_king_bon_female:0 "Reina Kailash" #NT!
- trait_crusader_king_buddhism:0 "Alto Aasaan" #NT!
- trait_crusader_king_male:0 "Rey cruzado" #NT!
- trait_crusader_king_female:0 "Reina cruzada" #NT!
- trait_crusader_king_dualism:0 "Elegido de Xradesahr" #NT!
- trait_crusader_king_germanic:0 "Lord" #NT!
- trait_crusader_king_hellenism_male:0 "Arconte" #NT!
- trait_crusader_king_hellenism_female:0 "Arcontesa" #NT!
- trait_crusader_king_hinduism:0 "Rajarishi" #NT!
- trait_crusader_king_islam:1 "Amir al-Mu'minin" #NT!
- trait_crusader_king_jainism:0 "Monarca irénico" #NT!
- trait_crusader_king_judaism:0 "Nagid" #NT!
- trait_crusader_king_magyar:0 "El elegido de Hadùr" #NT!
- trait_crusader_king_baltic:0 "El elegido de Dievas" #NT!
- trait_crusader_king_slavic:0 "El elegido de Perun" #NT!
- trait_crusader_king_finno_ugric_male:0 "Rey oso" #NT!
- trait_crusader_king_finno_ugric_female:0 "Reina del oso" #NT!
- trait_crusader_king_siberian:0 "El elegido de Ulgen" #NT!
- trait_crusader_king_tengrism_male:0 "Rey del cielo" #NT!
- trait_crusader_king_tengrism_female:0 "Reina del cielo" #NT!
- trait_crusader_king_west_african:0 "Nyame's Chosen" #NT!
- trait_crusader_king_west_african_bori:0 "Galadima" #NT!
- trait_crusader_king_west_african_roog:0 "El elegido de Roog" #NT!
- trait_crusader_king_zoroastrianism:0 "Argbadh" #NT!
- trait_crusader_king_zunism_male:0 "Rey Sol" #NT!
- trait_crusader_king_zunism_female:0 "Reina del sol" #NT!
- trait_crusader_king_fallback_male:0 "Santo rey" #NT!
- trait_crusader_king_fallback_female:0 "Santa Reina" #NT!
- trait_crusader_king_fallback_dead:0 "Santo monarca" #NT!
+ trait_crusader_king_bon_male:0 "Rey del Kailash"
+ trait_crusader_king_bon_female:0 "Reina del Kailash"
+ trait_crusader_king_buddhism:0 "Sumo aasaan"
+ trait_crusader_king_male:0 "Rey cruzado"
+ trait_crusader_king_female:0 "Reina cruzada"
+ trait_crusader_king_dualism:0 "Elegido de Xradesahr"
+ trait_crusader_king_germanic:0 "Hersir"
+ trait_crusader_king_hellenism_male:0 "Arconte"
+ trait_crusader_king_hellenism_female:0 "Arcontesa"
+ trait_crusader_king_hinduism:0 "Rajarishi"
+ trait_crusader_king_islam:1 "Emir de los creyentes"
+ trait_crusader_king_jainism:0 "Monarca irénico"
+ trait_crusader_king_judaism:0 "Nagid"
+ trait_crusader_king_magyar:0 "Elegido de Hadùr"
+ trait_crusader_king_baltic:0 "Elegido de Dievas"
+ trait_crusader_king_slavic:0 "Elegido de Perún"
+ trait_crusader_king_finno_ugric_male:0 "Rey Oso"
+ trait_crusader_king_finno_ugric_female:0 "Reina Osa"
+ trait_crusader_king_siberian:0 "Elegido de Ulgen"
+ trait_crusader_king_tengrism_male:0 "Rey del Cielo"
+ trait_crusader_king_tengrism_female:0 "Reina del Cielo"
+ trait_crusader_king_west_african:0 "Elegido de Nyame"
+ trait_crusader_king_west_african_bori:0 "Galadima"
+ trait_crusader_king_west_african_roog:0 "Elegido de Roog"
+ trait_crusader_king_zoroastrianism:0 "Argbadh"
+ trait_crusader_king_zunism_male:0 "Rey del Sol"
+ trait_crusader_king_zunism_female:0 "Reina del Sol"
+ trait_crusader_king_fallback_male:0 "Rey sato"
+ trait_crusader_king_fallback_female:0 "Reina santa"
+ trait_crusader_king_fallback_dead:0 "Monarca santo"
 
  # Court type traits
- trait_diplomatic_court_1:1 "Cortesano diplomático" #NT!
- trait_diplomatic_court_1_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un bullicioso [GetCourtType('court_diplomatic').GetName] lleno de emisarios y diplomáticos." #NT!
- trait_diplomatic_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un bullicioso [GetCourtType('court_diplomatic').GetName] lleno de emisarios y diplomáticos." #NT!
- trait_diplomatic_court_2:1 "Cortesano diplomático valorado" #NT!
- trait_diplomatic_court_2_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_diplomatic').GetName] realmente grandioso, codeándose con emisarios famosos y diplomáticos destacados." #NT!
- trait_diplomatic_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_diplomatic').GetName] realmente grandioso, codeándose con emisarios famosos y diplomáticos destacados." #NT!
+ trait_diplomatic_court_1:1 "Cortesano diplomático"
+ trait_diplomatic_court_1_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_diplomatic').GetName] bulliciosa, llena de emisarios y diplomáticos."
+ trait_diplomatic_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_diplomatic').GetName] bulliciosa, llena de emisarios y diplomáticos."
+ trait_diplomatic_court_2:1 "Cortesano diplomático valorado"
+ trait_diplomatic_court_2_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_diplomatic').GetName], donde se ha codeado con emisarios célebres y diplomáticos importantes."
+ trait_diplomatic_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_diplomatic').GetName] donde se ha codeado con emisarios célebres y diplomáticos importantes."
 
- trait_warlike_court_1:1 "Cortesano belicoso" #NT!
- trait_warlike_court_1_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un ruidoso [GetCourtType('court_warlike').GetName] poblado por guerreros y estrategas." #NT!
- trait_warlike_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un ruidoso [GetCourtType('court_warlike').GetName] poblado por guerreros y estrategas." #NT!
- trait_warlike_court_2:1 "Cortesano guerrero apreciado" #NT!
- trait_warlike_court_2_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_warlike').GetName] realmente grandioso, relacionándose con nobles guerreros y aclamados estrategas." #NT!
- trait_warlike_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_warlike').GetName] verdaderamente grandioso, involucrando a [ROOT.GetCharacter.GetHerselfHimself] con nobles guerreros y aclamados estrategas." #NT!
+ trait_warlike_court_1:1 "Cortesano beligerante"
+ trait_warlike_court_1_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_warlike').GetName] pendenciera poblada por guerreros y estrategas."
+ trait_warlike_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_warlike').GetName] pendenciera poblada por guerreros y estrategas."
+ trait_warlike_court_2:1 "Cortesano beligerante valorado"
+ trait_warlike_court_2_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_warlike').GetName] donde se involucró con guerreros nobles y estrategas aclamados."
+ trait_warlike_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_warlike').GetName] donde se involucró con guerreros nobles y estrategas aclamados."
 
- trait_administrative_court_1:1 "Cortesano administrativo" #NT!
- trait_administrative_court_1_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_administrative').GetName] organizado hogar de muchos burócratas y funcionarios." #NT!
- trait_administrative_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_administrative').GetName] organizado hogar de muchos burócratas y funcionarios." #NT!
- trait_administrative_court_2:1 "Cortesano administrativo valorado" #NT!
- trait_administrative_court_2_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_administrative').GetName] realmente grandioso, observando el trabajo diario de burócratas eficientes y funcionarios influyentes." #NT!
- trait_administrative_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_administrative').GetName] realmente grandioso, observando el trabajo diario de burócratas eficientes y funcionarios influyentes." #NT!
+ trait_administrative_court_1:1 "Cortesano administrativo"
+ trait_administrative_court_1_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_administrative').GetName] organizada, hogar de muchos burócratas y funcionarios."
+ trait_administrative_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_administrative').GetName] organizada, hogar de muchos burócratas y funcionarios."
+ trait_administrative_court_2:1 "Cortesano administrativo valorado"
+ trait_administrative_court_2_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_administrative').GetName] donde observó el duro trabajo diario de burócratas eficientes y funcionarios influyentes."
+ trait_administrative_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_administrative').GetName] donde observó el duro trabajo diario de burócratas eficientes y funcionarios influyentes."
 
- trait_intrigue_court_1:1 "Cortesano de intriga" #NT!
- trait_intrigue_court_1_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un taciturno [GetCourtType('court_intrigue').GetName] albergando enviados que hablan con suavidad y sirvientes perspicaces." #NT!
- trait_intrigue_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_intrigue').GetName] taciturno que alberga enviados que hablan con suavidad y sirvientes de mirada aguda." #NT!
- trait_intrigue_court_2:1 "Cortesano de intriga valioso" #NT!
- trait_intrigue_court_2_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_intrigue').GetName] verdaderamente grandioso, donde ha aprendido a mantenerse alerta entre los muchos enviados de lengua plateada y sirvientes perspicaces." #NT!
- trait_intrigue_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_intrigue').GetName] realmente grandioso, donde [ROOT.GetCharacter.GetSheHe] ha aprendido a estar alerta [ROOT.GetCharacter.GetHerHis] entre los muchos enviados de lengua plateada y sirvientes perspicaces." #NT!
+ trait_intrigue_court_1:1 "Cortesano intrigante"
+ trait_intrigue_court_1_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_intrigue').GetName] taciturna que albergaba enviados con mucha labia y criados muy observadores."
+ trait_intrigue_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_intrigue').GetName] taciturna que albergaba enviados con mucha labia y criados muy observadores."
+ trait_intrigue_court_2:1 "Cortesano intrigante valorado"
+ trait_intrigue_court_2_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_intrigue').GetName] donde aprendió a mantenerse en guardia entre los muchos enviados con pico de oro y criados perspicaces"
+ trait_intrigue_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una verdadera [GetCourtType('court_intrigue').GetName] donde aprendió a mantenerse en guardia entre los muchos enviados con pico de oro y criados perspicaces"
 
- trait_scholarly_court_1:1 "Cortesano erudito" #NT!
- trait_scholarly_court_1_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_scholarly').GetName] erudito lleno de sabios e intelectuales." #NT!
- trait_scholarly_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_scholarly').GetName] erudito lleno de intelectuales y hombres ilustrados." #NT!
- trait_scholarly_court_2:1 "Cortesano erudito valorado" #NT!
- trait_scholarly_court_2_desc:1 "Este personaje ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un [GetCourtType('court_scholarly').GetName] erudito lleno de astutos eruditos e intelectuales estimados." #NT!
- trait_scholarly_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha pasado al menos [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años viviendo en un erudito [GetCourtType('court_scholarly').GetName] lleno de astutos [ROOT.GetCharacter.GetWomenMen] eruditos e intelectuales estimados." #NT!
+ trait_scholarly_court_1:1 "Cortesano erudito"
+ trait_scholarly_court_1_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_scholarly').GetName] académica, llena de hombres cultos e intelectuales."
+ trait_scholarly_court_1_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_scholarly').GetName] académica, llena de hombres cultos e intelectuales."
+ trait_scholarly_court_2:1 "Cortesano erudito valorado"
+ trait_scholarly_court_2_desc:1 "Este personaje ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_scholarly').GetName] académica, llena de [ROOT.GetCharacter.GetWomenMen] con cultura y astucia e intelectuales de renombre."
+ trait_scholarly_court_2_character_desc:2 "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido un mínimo de [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en una [GetCourtType('court_scholarly').GetName] académica, llena de [ROOT.GetCharacter.GetWomenMen] con cultura y astucia e intelectuales de renombre."
 
  ##############
  #Trait Groups#
  ##############
 
  #Mental Groups
- trait_depressed:0 "Deprimido" #NT!
- trait_lunatic:1 "Lunático" #NT!
- trait_possessed:0 "Poseído" #NT!
+ trait_depressed:0 "Deprimidos"
+ trait_lunatic:1 "Lunático"
+ trait_possessed:0 "Poseídos"
 
 #Physical Groups
- trait_beauty_bad:0 "Personajes hogareños" #NT!
- trait_beauty_good:0 "Hermosos personajes" #NT!
- trait_intellect_bad:0 "Pensadores lentos" #NT!
- trait_intellect_good:0 "Mentes brillantes" #NT!
- trait_physique_bad:0 "Personajes frágiles" #NT!
- trait_physique_good:0 "Especímenes físicos" #NT!
- trait_wounded:0 "Herido" #NT!
+ trait_beauty_bad:0 "Personajes feúchos"
+ trait_beauty_good:0 "Personajes hermosos"
+ trait_intellect_bad:0 "Pensadores lentos"
+ trait_intellect_good:0 "Mentes brillantes"
+ trait_physique_bad:0 "Personajes frágiles"
+ trait_physique_good:0 "Especímenes físicas"
+ trait_wounded:0 "Heridos"
 
 #Education Groups
- trait_education_intrigue:0 "Estudiantes de intriga" #NT!
- trait_education_diplomacy:0 "Estudiantes de diplomacia" #NT!
- trait_education_stewardship:0 "Estudiantes de mayordomía" #NT!
- trait_education_martial:0 "Estudiantes de guerra" #NT!
- trait_education_learning:0 "Estudiantes del conocimiento" #NT!
- trait_education_martial_prowess:0 "Estudiantes de esgrima" #NT!
+ trait_education_intrigue:0 "Estudiantes de intriga"
+ trait_education_diplomacy:0 "Estudiantes de diplomacia"
+ trait_education_stewardship:0 "Estudiantes de administración"
+ trait_education_martial:0 "Estudiantes bélicos"
+ trait_education_learning:0 "Estudiantes de erudición"
+ trait_education_martial_prowess:0 "Estudiantes de caballería"
 
 #Lifestyle Groups
- trait_lifestyle_reveler:0 "Juerguistas" #NT!
- trait_lifestyle_blademaster:0 "Maestros de espadas" #NT!
- trait_lifestyle_hunter:0 "Cazadores" #NT!
- trait_lifestyle_mystic:0 "Místicos" #NT!
- trait_lifestyle_physician:0 "Medicos" #NT!
- trait_lifestyle_herbalist:1 "Herbalista" #NT!
- trait_lifestyle_gardener:0 "Jardinero" #NT!
+ trait_lifestyle_reveler:0 "Juerguistas"
+ trait_lifestyle_blademaster:0 "Maestros de la espada"
+ trait_lifestyle_hunter:0 "Cazadores"
+ trait_lifestyle_mystic:0 "Místicos"
+ trait_lifestyle_physician:0 "Médicos"
+ trait_lifestyle_herbalist:1 "Herborista"
+ trait_lifestyle_gardener:0 "Jardinero"
 
  # Fame Groups
- trait_kinslayer:0 "Asesinos de parientes" #NT!
- #trait_child_of_concubine: "rasgo_hijo_de_concubina" #NT!
+ trait_kinslayer:0 "Familicidas"
+ #trait_child_of_concubine: "trait_child_of_concubine"
 
 # Court Type Groups
- trait_diplomatic_court:0 "Cortesanos diplomáticos" #NT!
- trait_warlike_court:0 "Cortesanos belicosos" #NT!
- trait_administrative_court:0 "Cortesanos administrativos" #NT!
- trait_intrigue_court:0 "Cortesanos de intriga" #NT!
- trait_scholarly_court:0 "Cortesanos eruditos" #NT!
+ trait_diplomatic_court:0 "Cortesanos diplomáticos"
+ trait_warlike_court:0 "Cortesanos beligerantes"
+ trait_administrative_court:0 "Cortesanos administrativos"
+ trait_intrigue_court:0 "Cortesanos intrigantes"
+ trait_scholarly_court:0 "Cortesanos eruditos"

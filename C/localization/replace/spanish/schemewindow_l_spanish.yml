@@ -1,318 +1,318 @@
-﻿l_spanish:
- SCHEME_WINDOW_MY_SCHEMES_TITLE:0 "Tu [schemes|E]" #NT!
- SCHEME_WINDOW_KNOWN_SCHEMES_TITLE:0 "[secret_schemes|E] descubierto" #NT!
- SCHEME_WINDOW_INVITE_MEMBERS:0 "Invitar ([SchemeItem.GetNumberOfPotentialOwnerAgents])" #NT!
- SCHEME_WINDOW_SHOW_MEMBERS:0 "[SchemeItem.GetNumberOfOwnerAgents|V] [agents|E]" #NT!
- SCHEME_WINDOW_TT_SHOW_MEMBERS:0 "#T Mostrar [agents|E]#!" #NT!
- SCHEME_WINDOW_TT_HIDE_MEMBERS:0 "#T Ocultar [agents|E]#!" #NT!
- SCHEME_WINDOW_ITEM_NAME:0 "[Scheme.GetFullActionName]" #NT!
- SCHEME_WINDOW_TT_ITEM:0 "[Scheme.GetTypeDescription]" #NT!
- SCHEME_WINDOW_CANCEL_SCHEME:0 "Esquema de abandono" #NT!
- SCHEME_WINDOW_CANNOT_CANCEL_SCHEME:0 "No puede abandonar Esquemas que están terminados o congelados" #NT!
- SCHEME_WINDOW_CANCEL_CONFIRMATION_TITLE:0 "Esquema de abandono" #NT!
- SCHEME_WINDOW_CANCEL_CONFIRMATION_TEXT:0 "Se abandonará el [SCHEME.GetName] contra [CHARACTER.GetShortUIName].\n\n[SCHEME.GetCooldownInfo]" #NT!
- SCHEME_WINDOW_CANCEL_CONFIRMATION_ACCEPT:0 "Abandonar" #NT!
- SCHEME_COOLDOWN_INFO:0 "No puedes iniciar otro [SCHEME.GetSchemeType.GetTypeName] contra [SCHEME.GetTarget.GetHerHim] para $TIME|V$." #NT!
- SCHEME_WINDOW_PROGRESS_TOOLTIP:0 "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]" #NT!
- SCHEME_WINDOW_INVITE_TOOLTIP:0 "#T Invitar agentes a Scheme#!\n[SchemeItem.GetNumberOfPotentialOwnerAgents|V] Se podría convencer a los personajes para que se unan" #NT!
- SCHEME_WINDOW_NOT_OWNED_SCHEMES:1 "No hay #high [SkillSchemeGroup.GetTypeName]#! [scheme|E] en curso\nComienza uno interactuando con otro personaje" #NT!
- SCHEME_WINDOW_NOT_KNOWN_SCHEMES:0 "#weak Ningún [schemes|E] descubierto aún#!" #NT!
- SCHEME_WINDOW_UNKNOWN_OWNER_TOOLTIP:0 "Se desconoce el propietario de este esquema." #NT!
- SCHEME_WINDOW_TT_POWER:0 "$POWER|1V$ [scheme_power|E]" #NT!
- SCHEME_RESISTANCE_DESCRIPTION_HEADER:0 "[scheme_resistance|E]" #NT!
- SCHEME_POWER_DESCRIPTION_HEADER:0 "[scheme_power|E]" #NT!
- SCHEME_TIER_INFLUENCE:0 "Clasificación [CHARACTER.GetShortUINamePossessive|U]" #NT!
- SCHEME_SPYMASTER:0 "[CHARACTER.GetShortUINamePossessive|U] Maestro de espías" #NT!
- SCHEME_WINDOW_TT_CHARACTER_EXPOSED:0 "@warning_icon!#X @exposed_icon!Expuesto actualmente#!" #NT!
- SCHEME_WINDOW_MEMBER_LIST:0 "Agentes descubiertos" #NT!
- SCHEME_WINDOW_SCHEME_OWNER:0 "#T Propietario del esquema#!: [CHARACTER.GetUIName|U]" #NT!
- SCHEME_WINDOW_SCHEME_MEMBER:0 "#T Miembro del esquema#!: [CHARACTER.GetUIName|U]" #NT!
- SCHEME_WINDOW_SCHEME_TARGET:0 "#T Objetivo del esquema#!: [Character.GetUIName|U]" #NT!
- SCHEME_WINDOW_SKILL_TITLE:1 "Tus esquemas [SkillSchemeGroup.GetSkillName|U]" #NT!
- SCHEME_WINDOW_SKILL_MAX:0 "[SkillSchemeGroup.GetNumberOfSchemes|V]/[SkillSchemeGroup.GetMaxNumberOfSchemes]" #NT!
- SCHEME_WINDOW_SKILL_TT_MAX:1 "Puedo administrar [SkillSchemeGroup.GetMaxNumberOfSchemes] [SkillSchemeGroup.GetSkillName|U] Esquemas a la vez" #NT!
- SCHEME_WINDOW_POWER_MINE:0 "Probabilidad de progreso: [Scheme.GetPowerDifference|+0%]" #NT!
- SCHEME_WINDOW_POWER_TT_FROM_SPYMASTER:0 "Intriga del maestro espía" #NT!
- SCHEME_WINDOW_POWER_KNOWN:0 "Probabilidad de progreso: [Scheme.GetPowerDifference|-0%]" #NT!
- SCHEME_WINDOW_POWER_TT_TITLE_MINE:0 "#T Probabilidad de progreso mensual: $POWER_DIFF|+0%$#! \n$SCHEME_POWER_EXPLANATION$" #NT!
- SCHEME_WINDOW_POWER_TT_FROM_OWNER_MINE:0 "Del propietario del esquema" #NT!
- SCHEME_WINDOW_POWER_TT_FROM_MEMEBRS_MINE:0 "De los agentes" #NT!
- SCHEME_WINDOW_POWER_TT_TARGET_DEFENSE_MINE:0 "Resistencia objetivo:" #NT!
- SCHEME_WINDOW_POWER_TT_TITLE_KNOWN:0 "#T Probabilidad de progreso mensual: $POWER_DIFF|-0%$#! \n$SCHEME_POWER_EXPLANATION$" #NT!
- SCHEME_WINDOW_POWER_TT_FROM_OWNER_KNOWN:0 "Del propietario del plan: $POWER|=+0$" #NT!
- SCHEME_WINDOW_POWER_TT_FROM_MEMEBRS_KNOWN:0 "De los agentes: $POWER|=+0$" #NT!
- SCHEME_WINDOW_POWER_TT_FROM_UNKNOWN_KNOWN:0 "Fuentes desconocidas: $POWER|=+0$" #NT!
- SCHEME_WINDOW_POWER_TT_TARGET_DEFENSE_KNOWN:0 "Resistencia objetivo: $POWER|=-0$" #NT!
- SCHEME_POWER_MODIFIER:0 "$DESC$" #NT!
- SCHEME_RESISTANCE_MODIFIER:0 "$DESC$" #NT!
- HOSTILE_SCHEME_POWER_MODIFIER:0 "$DESC$" #NT!
- HOSTILE_SCHEME_RESISTANCE_MODIFIER:0 "$DESC$" #NT!
- SCHEME_TOTAL_POWER_MINE:0 "#T Potencia total: $POWER|+0$#!" #NT!
- SCHEME_TOTAL_POWER_TARGET:0 "#T Potencia total: $POWER|+0$#!" #NT!
- SCHEME_TOTAL_RESISTANCE_MINE:0 "#T Resistencia total: $RESISTANCE|-0$#!" #NT!
- SCHEME_TOTAL_RESISTANCE_TARGET:0 "#T Resistencia total: $RESISTANCE|-0$#!" #NT!
- SCHEME_POWER_EXPLANATION:0 "La Probabilidad de Progreso Mensual es el Poder Total reducido por la Resistencia Total\n" #NT!
- SCHEME_OWNER_SPOUSE:0 "Es mi cónyuge: $VALUE|%0+=$" #NT!
- SCHEME_OWNER_CONCUBINE:0 "Es mi concubina: $VALUE|%0+=$" #NT!
- SCHEME_OWNER_WRONG_FEMALE:0 "No me interesan las mujeres: $VALUE|%0+=$" #NT!
- SCHEME_OWNER_WRONG_MALE:0 "No me interesan los hombres: $VALUE|%0+=$" #NT!
- SCHEME_OWNER_WRONG_GENDER:0 "Incompatibilidad personal: $VALUE|%0+=$" #NT!
- SCHEME_TARGET_CHASTE:0 "El objetivo es Casto: $VALUE|%0-=$" #NT!
- SCHEME_TARGET_LUSTFUL:0 "El objetivo es lujurioso: $VALUE|%0-=$" #NT!
- UNKNOWN_SCHEME_POWER_FACTORS:0 "Factores desconocidos: x$FACTOR|=+2$" #NT!
- SCHEME_SKILL_INFLUENCE:0 "[CHARACTER.GetShortUINamePossessive|U] $SKILL$" #NT!
- is_valid_as_agent_in_scheme:0 "[CHARACTER.GetShortUINamePossessive|U] es un agente válido en el esquema" #NT!
- SCHEME_RELATION_INFLUENCE:0 "Es $RELATION$ de [TARGET_CHARACTER.GetUIName]" #NT!
- SCHEME_TIME_READY:0 "Listo" #NT!
- HOSTILE_SCHEME:0 "Hostil" #NT!
- PERSONAL_SCHEME:0 "Personal" #NT!
- SCHEME_COOLDOWN_DATE_FORMAT:0 "[DATE.GetStringShort|V]" #NT!
- SCHEME_WINDOW_SUCCESS_CHANCE:0 "#V [Scheme.GetSuccessChance|%/]#!" #NT!
- SCHEME_WINDOW_SECRECY:0 "#V [Scheme.GetSecrecy|%/]#!" #NT!
- SCHEME_ITEM_PROGRESS_TOOLTIP:2 "#T [Scheme.GetProgressDescription]#!\nThe [scheme|E] tiene [Scheme.GetProgressChance|%/V] posibilidades de progresar cada mes según su potencia y resistencia.\n\n[Scheme.GetPowerDescription]\n\n[Scheme.GetResistanceDescription]" #NT!
- SCHEME_SUCCESS_FROM_AGENTS:0 "De [agents|E]: $VALUE|+%/0=$" #NT!
- SCHEME_SUCCESS_MINIMUM:0 "#weak Probabilidad mínima:#! $VALUE|+%/0$" #NT!
- SCHEME_BASE_SECRECY:1 "Base: $VALUE|Z0%/$" #NT!
- SCHEME_SECRECY_TRIGGER:0 "[secrecy|E]: $VALUE|+%/0$" #NT!
- SCHEME_SECRECY_FROM_SUCCESS:1 "De [success_chance|E]: $VALUE|+=0/%$" #NT!
- SCHEME_SECRECY_MINIMUM:0 "#weak Secreto mínimo:#! $VALUE|+%/0$" #NT!
- SCHEME_WINDOW_SUCCESS_TOOLTIP:0 "#T [success_chance|E]: [Scheme.GetSuccessChance|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSuccess]%)#! \n[Scheme.GetSuccessChanceDescription]" #NT!
- SCHEME_WINDOW_SUCCESS_DISCOVERED_TOOLTIP:0 "#T [success_chance|E]: [Scheme.GetSuccessChance|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSuccess]%)#! \n#weak Factores desconocidos#!" #NT!
- SCHEME_WINDOW_SECRECY_TOOLTIP:0 "#T [secrecy|E]: [Scheme.GetSecrecy|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSecrecy]%)#! \n[Scheme.GetSecrecyDescription]" #NT!
- SCHEME_WINDOW_SECRECY_DISCOVERED_TOOLTIP:0 "#T [secrecy|E]: [Scheme.GetSecrecy|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSecrecy]%)#! \n#weak Factores desconocidos#!" #NT!
- SCHEME_BASE_SUCCESS:0 "Base: $VALUE|Z=0$" #NT!
- SCHEME_AGENT_TOOLTIP:0 "#T Agente [SchemeAgentItem.GetCharacter.GetShortUIName|U]#! \n[SchemeAgentItem.GetSuccessDesc]\n\n[scheme_power|E]: [SchemeAgentItem.GetInfluence|1=+]" #NT!
- SCHEME_AGENT_SUCCESS:0 "[success_chance|E]: $VALUE|+=0$\n$DESC$" #NT!
- SCHEME_ESTIMATED_TIME_TOOLTIP:1 "#T Tiempo estimado de finalización: #V ~[Scheme.GetEstimatedTimeRemaining]#!#!\nThis se basa en la probabilidad actual de progreso de [Scheme.GetProgressChance|%/V], en función de [scheme_power|E] y [scheme_resistance|E] actuales" #NT!
- SCHEME_READY_TOOLTIP:0 "#T Esquema listo#! \nEste esquema tiene el máximo progreso y concluirá pronto." #NT!
- SCHEME_WINDOW_EXPOSED_TOOLTIP:0 "#T Exposed#! \nEste esquema ha sido expuesto y su existencia es conocida por el objetivo." #NT!
- SCHEME_WINDOW_NO_KNOWN_AGENTS:0 "#weak Todavía no hay agentes expuestos#!" #NT!
- SCHEME_IS_EXPOSED:0 "El esquema está expuesto: $VALUE|0=+%/$" #NT!
- SCHEME_SUCCESS_DIFFICULTY_EASY:0 "$easy_difficulty$: $VALUE|0=+%/$" #NT!
- SCHEME_SUCCESS_DIFFICULTY_VERY_EASY:0 "$very_easy_difficulty$: $VALUE|0=+%/$" #NT!
- SCHEME_PREPARED_FOR_ANYTHING_PERK_MODIFIER:0 "[GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$" #NT!
- SCHEME_PREPARED_FOR_ANYTHING_LIEGE_PERK_MODIFIER:0 "Señor Feudal es [GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$" #NT!
- SCHEME_A_JOB_DONE_RIGHT_PERK_MODIFIER:0 "[GetPerk( 'a_job_done_right_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$" #NT!
- SCHEME_AGENT_IS_SPYMASTER:1 "[target.GetShortUINamePossessiveNoTooltip] [spymaster|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_SPYMASTER_IN_MY_COURT:1 "El [spymaster|E] de [target.GetShortUINamePossessiveNoTooltip] [court|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_SPOUSE:1 "[target.GetShortUINamePossessiveNoTooltip] [spouse|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_BEST_FRIEND:1 "[target.GetShortUINamePossessiveNoTooltip] Mejor amigo: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_GUARDIAN:1 "[target.GetShortUINamePossessiveNoTooltip] [guardian|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_FRIEND:1 "[target.GetShortUINamePossessiveNoTooltip] Amigo: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_CONCUBINE:1 "[target.GetShortUINamePossessiveNoTooltip] [concubine|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_LOVER:1 "[target.GetShortUINamePossessiveNoTooltip] Amante: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_COURT_PHYSICIAN:1 "[target.GetShortUINamePossessiveNoTooltip] Maestre: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_FOOD_TASTER:0 "[target.GetShortUINamePossessiveNoTooltip] $food_taster_court_position$: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_CUP_BEARER:0 "[target.GetShortUINamePossessiveNoTooltip] $cupbearer_court_position$: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_CHIEF_EUNUCH:0 "[target.GetShortUINamePossessiveNoTooltip] $chief_eunuch_court_position$: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_BODYGUARD:0 "[target.GetShortUINamePossessiveNoTooltip] $bodyguard_court_position$: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_LADY_IN_WAITING:0 "[target.GetShortUINamePossessiveNoTooltip] $lady_in_waiting_court_position$: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_HOUSEHOLD_GUARDG:0 "[target.GetShortUINamePossessiveNoTooltip] $household_guard_court_position$: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_MAESTER:0 "[target.GetShortUINamePossessiveNoTooltip] $maester_court_position$: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_COUNCILLOR:1 "[target.GetShortUINamePossessiveNoTooltip] [councillor|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_CLOSE_KIN:1 "Parte de [target.GetShortUINamePossessiveNoTooltip] [close_family|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_POWERFUL_VASSAL:1 "[target.GetShortUINamePossessiveNoTooltip] [powerful_vassal|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_NEMESIS:1 "[target.GetShortUINamePossessiveNoTooltip] Némesis: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_EXTENDED_FAMILY:1 "Parte de [target.GetShortUINamePossessiveNoTooltip] [extended_family|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_RIVAL:1 "[target.GetShortUINamePossessiveNoTooltip] Rival: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_VASSAL:1 "[target.GetShortUINamePossessiveNoTooltip] [vassal|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_VASSAL_OF_LIEGE:1 "[vassal|E] de [target.GetShortUINamePossessiveNoTooltip] [liege|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_COURTIER:1 "[target.GetShortUINamePossessiveNoTooltip] [courtier|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_GUEST:1 "[target.GetShortUINamePossessiveNoTooltip] [guest|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_INTRIGUE:0 "De [intrigue|E]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_FELLOW_COURTIER:1 "En el mismo [court|E] que [target.GetShortUINameNoTooltip]: $VALUE|+0=$" #NT!
- SCHEME_AGENT_IS_COURTIER_MY_COURT:2 "[target.Char.GetShortUINameNoTooltip] está en el mismo [court|E]: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IN_MY_COURT:2 "[target.GetShortUINameNoTooltip] está en tu [court|E]: $VALUE|+0=$" #NT!
- SCHEME_TARGET_TRAVELLING_UNSAFE_ROADS:1 "[target.GetShortUINameNoTooltip] está de viaje, desprotegido y solo: $VALUE|+0=$" #NT!
- SCHEME_TARGET_TRAVELLING_INCOGNITO:1 "[target.GetShortUINameNoTooltip] viaja de incógnito: $VALUE|+0=$" #NT!
- SCHEME_I_AM_SPYMASTER:2 "Eres [target.GetShortUINamePossessiveNoTooltip] [spymaster|E]: $VALUE|+0=$" #NT!
- SCHEME_I_AM_SPYMASTER_OF_LIEGE:2 "Eres [target.GetShortUINamePossessiveNoTooltip] [liege|E]'s [spymaster|E]: $VALUE|+0=$" #NT!
- SCHEME_I_AM_SPYMASTER_OF_HOST:1 "Eres el [spymaster|E] de [target.GetShortUINamePossessiveNoTooltip] [host|E]: $VALUE|+0=$" #NT!
- SCHEME_I_AM_GUARDIAN:1 "Eres [target.GetShortUINamePossessiveNoTooltip] [guardian|E]: $VALUE|+0=$" #NT!
- SCHEME_I_AM_COUNCILLOR:1 "Eres [target.GetShortUINamePossessiveNoTooltip] [councillor|E]: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IS_CLOSE_TO_ME:1 "[target.GetShortUIName] está cerca de ti: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IS_LOVER:1 "[target.GetShortUIName] es tu amante: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IS_SPOUSE:1 "[target.GetShortUIName] es tu [spouse|E]: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IS_CLOSE_FAMILY:1 "[target.GetShortUIName] es tu [close_family|E]: $VALUE|+0=$" #NT!
- SCHEME_VENGEFUL_RIVAL:1 "Eres [GetTrait('vengeful').GetName( GetNullCharacter )] y [target.GetShortUIName] es tu Rival: $VALUE|+0=$" #NT!
- SCHEME_EYE_FOR_AN_EYE:1 "Tu [culture|E] tiene el $tradition_eye_for_an_eye_name$ [culture_tradition|E] y [target.GetShortUIName] es tu Rival: $VALUE|+0=$" #NT!
- SCHEME_WEDDING_CEREMONIES:0 "Tu [culture|E] tiene el $tradition_wedding_ceremonies_name$ [culture_tradition|E] y [target.GetShortUIName] es tu [spouse|E]: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IS_AN_EMPEROR:1 "[target.GetShortUIName] gobierna un [empire|E]: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IS_A_KING:1 "[target.GetShortUIName] gobierna un [kingdom|E]: $VALUE|+0=$" #NT!
- HAS_ATTEMPTED_TO_MURDER_TARGET_BEFORE:0 "[target.GetShortUIName|U] sabe que has intentado asesinar a [target.GetHerHim] antes: $VALUE|+0=$" #NT!
- MURDER_HERBALIST_BONUS:0 "Tu conocimiento de hierbas venenosas: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_MY_EDUCATION:1 "Tienes una Educación Diplomática: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_MY_LIFESTYLE:1 "Eres un diplomático experto: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_MY_REVELRY:1 "Eres un juerguista encantador: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_MY_SHYNESS:1 "Eres tímido: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_MY_GREGARIOUSNESS:1 "Eres gregario: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_MY_CALLOUSNESS:1 "Eres insensible: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_THEIR_SHYNESS:0 "[target.GetTitledFirstName] es tímido: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_THEIR_GREGARIOUSNESS:0 "[target.GetTitledFirstName] es gregario: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_THEIR_CALLOUSNESS:0 "[target.GetTitledFirstName] es insensible: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_THEIR_PARANOIA:0 "[target.GetTitledFirstName] es paranoico: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_THEIR_TRUST:0 "[target.GetTitledFirstName] es Confiado: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_THEIR_LIFESTYLE:0 "[target.GetTitledFirstName] tiene una educación diplomática: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET:1 "Tienes un [rank|E] más alto que [target.GetTitledFirstName]: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET_NEGATIVE:1 "[target.GetTitledFirstName] tiene un [rank|E] más alto que tú: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_OUR_TRAITS:0 "[target.GetTitledFirstNamePossessive] Afinidad: $VALUE|+0=$" #NT!
- SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET_LIEGE:1 "[target.GetTitledFirstNamePossessive] Señor Feudal tiene un [rank|E] más alto que tú: $VALUE|+0=$" #NT!
- HIGHER_RANK_THAN_SCHEME_TARGET:2 "Tu [rank|E] es superior a [target.GetShortUINamePossessive]: $VALUE|+0=-+$" #NT!
- LOWER_RANK_THAN_SCHEME_TARGET:2 "Tu [rank|E] es inferior a [target.GetShortUINamePossessive]: $VALUE|+0=-+$" #NT!
- HIGHER_RANK_THAN_SCHEME_TARGET_LIEGE:2 "Tu [rank|E] es mayor que el de [target.GetShortUINamePossessive] Lord: $VALUE|+0=-+$" #NT!
- LOWER_RANK_THAN_SCHEME_TARGET_LIEGE:2 "Tu [rank|E] es más bajo que el de [target.GetShortUINamePossessive] Lord: $VALUE|+0=-+$" #NT!
- TRIBE_ROMANCING_OTHER_GOVERNMENTS:0 "Eres [tribal|E], pero [target.GetTitledFirstName] no lo es: $VALUE|+0=-+$" #NT!
- SCHEME_VS_RELIGIOUS_HEAD:1 "[target.GetTitledFirstName] es tu [head_of_faith|E]: $VALUE|+0=-+$" #NT!
- SCHEME_VS_SPIRITUAL_HOF:1 "[target.GetTitledFirstName] es tu [spiritual_head_of_faith|E]: $VALUE|+0=-+$" #NT!
- SCHEME_AT_WAR:0 "Estás en [war|E]: $VALUE|+0=-+$" #NT!
- SCHEME_AT_WAR_WITH_LIEGE:0 "Estás en [war|E] con [target.GetTitledFirstNamePossessive] [liege|E]: $VALUE|+0=-+$" #NT!
- SCHEME_BEFRIEND_THEIR_STUBBORNESS:0 "[target.GetTitledFirstName] es terco: $VALUE|+0=-+$" #NT!
- SCHEME_BEFRIEND_THEIR_FICKLENESS:0 "[target.GetTitledFirstName] es voluble: $VALUE|+0=-+$" #NT!
- SCHEME_BEFRIEND_THEIR_OPINION:0 "[target.GetTitledFirstNamePossessive] opinión sobre ti: $VALUE|+0=-+$" #NT!
- SCHEME_SEDUCE_SPOUSE_BONUS:0 "[target.GetTitledFirstName] es su cónyuge: $VALUE|+0=-+$" #NT!
- SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY:1 "[target.GetTitledFirstName] ama a [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$" #NT!
- SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY_MILD:0 "[target.GetTitledFirstName] no está descontento con [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$" #NT!
- SCHEME_SEDUCE_SPOUSE_OPINION_BONUS:1 "[target.GetTitledFirstName] odia a [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$" #NT!
- SCHEME_SEDUCE_UNWILLING_TO_COMMIT_ADULTERY:0 "[target.GetTitledFirstName] no quiere deshonrarse cometiendo adulterio: $VALUE|+0=-+$" #NT!
- SCHEME_SEDUCE_SPOUSE_STRONG_HOOK_PENALTY:0 "[target.GetTitledFirstName] es leal a [target.GetHerHis] [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$" #NT!
- SEDUCE_COURTIER_GUEST_PERK_BONUS:0 "[GetPerk( 'home_advantage_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$" #NT!
- SEDUCE_PERK_BONUS:0 "[GetPerk( 'smooth_operator_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$" #NT!
- LEGACY_PERK_BONUS:0 "[GetDynastyPerk('fp1_adventure_legacy_2').GetName]: $VALUE|+0=-+$" #NT!
- TEMPTATION_FOCUS_BONUS:0 "[GetFocus('intrigue_temptation_focus').GetName]: $VALUE|+0=-+$" #NT!
+﻿#Corregí con la traducción de Paradox.
+l_spanish:
+ SCHEME_WINDOW_MY_SCHEMES_TITLE:0 "Tus [schemes|lE]"
+ SCHEME_WINDOW_KNOWN_SCHEMES_TITLE:0 "[secret_schemes|E] descubiertas"
+ SCHEME_WINDOW_INVITE_MEMBERS:0 "Invitar ([SchemeItem.GetNumberOfPotentialOwnerAgents])"
+ SCHEME_WINDOW_SHOW_MEMBERS:0 "[SchemeItem.GetNumberOfOwnerAgents|V] [agents|lE]"
+ SCHEME_WINDOW_TT_SHOW_MEMBERS:0 "#T Mostrar [agents|lE]#!"
+ SCHEME_WINDOW_TT_HIDE_MEMBERS:0 "#T Ocultar [agents|lE]#!"
+ SCHEME_WINDOW_ITEM_NAME:0 "[Scheme.GetFullActionName]"
+ SCHEME_WINDOW_TT_ITEM:0 "[Scheme.GetTypeDescription]"
+ SCHEME_WINDOW_CANCEL_SCHEME:0 "Abandonar conjura"
+ SCHEME_WINDOW_CANNOT_CANCEL_SCHEME:0 "No puedes abandonar conjuras terminadas ni congeladas"
+ SCHEME_WINDOW_CANCEL_CONFIRMATION_TITLE:0 "Abandonar conjura"
+ SCHEME_WINDOW_CANCEL_CONFIRMATION_TEXT:0 "Se abandonará la [Scheme.GetName] contra [CHARACTER.GetShortUIName].\n\n[Scheme.GetCooldownInfo]"
+ SCHEME_WINDOW_CANCEL_CONFIRMATION_ACCEPT:0 "Abandonar"
+ SCHEME_COOLDOWN_INFO:0 "No puedes iniciar otra [Scheme.GetSchemeType.GetTypeName] contra [Scheme.GetTarget.Custom('ES_ElElla')] durante $TIME|V$."
+ SCHEME_WINDOW_PROGRESS_TOOLTIP:0 "#T [SchemeItem.GetProgressDescription]#! \n[Scheme.GetChangeDesc]"
+ SCHEME_WINDOW_INVITE_TOOLTIP:0 "#T Invitar agentes a la conjura#!\nPodría convencerse a participar a [SchemeItem.GetNumberOfPotentialOwnerAgents|V] personajes"
+ SCHEME_WINDOW_NOT_OWNED_SCHEMES:1 "No hay [scheme|lE] de tipo #high [SkillSchemeGroup.GetTypeName]#! en curso\nInteractúa con otro personaje para empezar una conjura"
+ SCHEME_WINDOW_NOT_KNOWN_SCHEMES:0 "#weak Sin [schemes|lE] descubiertas todavía#!"
+ SCHEME_WINDOW_UNKNOWN_OWNER_TOOLTIP:0 "Se desconoce al líder de esta conjura"
+ SCHEME_WINDOW_TT_POWER:0 "$POWER|1V$ [scheme_power|E]"
+ SCHEME_RESISTANCE_DESCRIPTION_HEADER:0 "[scheme_resistance|E]"
+ SCHEME_POWER_DESCRIPTION_HEADER:0 "[scheme_power|E]"
+ SCHEME_TIER_INFLUENCE:0 "[CHARACTER.LocalPlayerString( 'Tu grado', Grado' )][CHARACTER.LocalPlayerString( '', 'Loc_ES_de_CHARACTER.GetShortUIName' )]"
+ SCHEME_SPYMASTER:0 "[CHARACTER.LocalPlayerString( 'Tu jefe', 'Jefe' )] de espías[CHARACTER.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]"
+ SCHEME_WINDOW_TT_CHARACTER_EXPOSED:0 "@warning_icon!#X @exposed_icon!Expuesto actualmente#!"
+ SCHEME_WINDOW_MEMBER_LIST:0 "Agentes descubiertos"
+ SCHEME_WINDOW_SCHEME_OWNER:0 "#T Líder de la conjura#!: [CHARACTER.GetUIName|U]"
+ SCHEME_WINDOW_SCHEME_MEMBER:0 "#T Miembro de conjura#!: [CHARACTER.GetUIName|U]"
+ SCHEME_WINDOW_SCHEME_TARGET:0 "#T Objetivo de conjura#!: [Character.GetUIName|U]"
+ SCHEME_WINDOW_SKILL_TITLE:1 "Tus conjuras [SkillSchemeGroup.GetSkillName|U]"
+ SCHEME_WINDOW_SKILL_MAX:0 "[SkillSchemeGroup.GetNumberOfSchemes|V]/[SkillSchemeGroup.GetMaxNumberOfSchemes]"
+ SCHEME_WINDOW_SKILL_TT_MAX:1 "Puedes dirigir [SkillSchemeGroup.GetMaxNumberOfSchemes] conjuras [SkillSchemeGroup.GetSkillName|U] a la vez"
+ SCHEME_WINDOW_POWER_MINE:0 "Probabilidad de progreso: [Scheme.GetPowerDifference|+0%]"
+ SCHEME_WINDOW_POWER_TT_FROM_SPYMASTER:0 "Intriga del jefe de espías"
+ SCHEME_WINDOW_POWER_KNOWN:0 "Probabilidad de progreso: [Scheme.GetPowerDifference|-0%]"
+ SCHEME_WINDOW_POWER_TT_TITLE_MINE:0 "#T Probabilidad mensual de progreso: $POWER_DIFF|+0%$#! \n$SCHEME_POWER_EXPLANATION$"
+ SCHEME_WINDOW_POWER_TT_FROM_OWNER_MINE:0 "Por líder de la conjura"
+ SCHEME_WINDOW_POWER_TT_FROM_MEMEBRS_MINE:0 "Por agentes"
+ SCHEME_WINDOW_POWER_TT_TARGET_DEFENSE_MINE:0 "Resistencia de objetivo"
+ SCHEME_WINDOW_POWER_TT_TITLE_KNOWN:0 "#T Probabilidad mensual de progreso: $POWER_DIFF|-0%$#! \n$SCHEME_POWER_EXPLANATION$"
+ SCHEME_WINDOW_POWER_TT_FROM_OWNER_KNOWN:0 "Por líder de la conjura: $POWER|=+0$"
+ SCHEME_WINDOW_POWER_TT_FROM_MEMEBRS_KNOWN:0 "Por agentes: $POWER|=+0$"
+ SCHEME_WINDOW_POWER_TT_FROM_UNKNOWN_KNOWN:0 "Fuentes desconocidas: $POWER|=+0$"
+ SCHEME_WINDOW_POWER_TT_TARGET_DEFENSE_KNOWN:0 "Resistencia objetivo: $POWER|=-0$"
+ SCHEME_POWER_MODIFIER:0 "$DESC$"
+ SCHEME_RESISTANCE_MODIFIER:0 "$DESC$"
+ HOSTILE_SCHEME_POWER_MODIFIER:0 "$DESC$"
+ HOSTILE_SCHEME_RESISTANCE_MODIFIER:0 "$DESC$"
+ SCHEME_TOTAL_POWER_MINE:0 "#T Fuerza total: $POWER|+0$#!"
+ SCHEME_TOTAL_POWER_TARGET:0 "#T Fuerza total: $POWER|+0$#!"
+ SCHEME_TOTAL_RESISTANCE_MINE:0 "#T Resistencia total: $RESISTANCE|-0$#!"
+ SCHEME_TOTAL_RESISTANCE_TARGET:0 "#T Resistencia total: $RESISTANCE|-0$#!"
+ SCHEME_POWER_EXPLANATION:0 "La probabilidad mensual de progreso Fuerza total menos Resistencia total\n"
+ SCHEME_OWNER_SPOUSE:0 "Es mi cónyuge: $VALUE|%0+=$"
+ SCHEME_OWNER_CONCUBINE:0 "Es mi concubino/a: $VALUE|%0+=$"
+ SCHEME_OWNER_WRONG_FEMALE:0 "No me interesan las mujeres: $VALUE|%0+=$"
+ SCHEME_OWNER_WRONG_MALE:0 "No me interesan los hombres: $VALUE|%0+=$"
+ SCHEME_OWNER_WRONG_GENDER:0 "Incompatibilidad personal: $VALUE|%0+=$"
+ SCHEME_TARGET_CHASTE:0 "Objetivo es casto: $VALUE|%0-=$"
+ SCHEME_TARGET_LUSTFUL:0 "Objetivo es lujurioso: $VALUE|%0-=$"
+ UNKNOWN_SCHEME_POWER_FACTORS:0 "Factores desconocidos: x$FACTOR|=+2$"
+ SCHEME_SKILL_INFLUENCE:0 "[CHARACTER.LocalPlayerString( 'Tus', '' )] $SKILL$[CHARACTER.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]"
+ is_valid_as_agent_in_scheme:0 "[CHARACTER.GetShortUIName|U] es un agente válido en la conjura"
+ SCHEME_RELATION_INFLUENCE:0 "Es $RELATION$ de [TARGET_CHARACTER.GetUIName]"
+ SCHEME_TIME_READY:0 "Lista"
+ HOSTILE_SCHEME:0 "Hostil"
+ PERSONAL_SCHEME:0 "Personal"
+ SCHEME_COOLDOWN_DATE_FORMAT:0 "[DATE.GetStringShort|V]"
+ SCHEME_WINDOW_SUCCESS_CHANCE:0 "#V [Scheme.GetSuccessChance|%/]#!"
+ SCHEME_WINDOW_SECRECY:0 "#V [Scheme.GetSecrecy|%/]#!"
+ SCHEME_ITEM_PROGRESS_TOOLTIP:2 "#T [Scheme.GetProgressDescription]#!\nLa [scheme|lE] tiene una probabilidad del [Scheme.GetProgressChance|%/V] de progresar al mes basada en su Fuerza y Resistencia.\n\n[Scheme.GetPowerDescription]\n\n[Scheme.GetResistanceDescription]"
+ SCHEME_SUCCESS_FROM_AGENTS:0 "Por [agents|lE]: $VALUE|+%/0=$"
+ SCHEME_SUCCESS_MINIMUM:0 "#weak Probabilidad mínima:#! $VALUE|+%/0$"
+ SCHEME_BASE_SECRECY:1 "Base: $VALUE|Z0%/$"
+ SCHEME_SECRECY_TRIGGER:0 "[secrecy|E]: $VALUE|+%/0$"
+ SCHEME_SECRECY_FROM_SUCCESS:1 "Por [success_chance|lE]: $VALUE|+=0/%$"
+ SCHEME_SECRECY_MINIMUM:0 "#weak Secretismo mínimo:#! $VALUE|+%/0$"
+ SCHEME_WINDOW_SUCCESS_TOOLTIP:0 "#T [success_chance|E]: [Scheme.GetSuccessChance|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSuccess]%)#! \n[Scheme.GetSuccessChanceDescription]"
+ SCHEME_WINDOW_SUCCESS_DISCOVERED_TOOLTIP:0 "#T [success_chance|E]: [Scheme.GetSuccessChance|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSuccess] %)#! \n#weak Factores desconocidos#!"
+ SCHEME_WINDOW_SECRECY_TOOLTIP:0 "#T [secrecy|E]: [Scheme.GetSecrecy|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSecrecy]%)#! \n[Scheme.GetSecrecyDescription]"
+ SCHEME_WINDOW_SECRECY_DISCOVERED_TOOLTIP:0 "#T [secrecy|E]: [Scheme.GetSecrecy|V%/] #! #weak (máx. [Scheme.GetSchemeType.MaxSecrecy] %)#! \n#weak Factores desconocidos#!"
+ SCHEME_BASE_SUCCESS:0 "Base: $VALUE|Z=0$"
+ SCHEME_AGENT_TOOLTIP:0 "#T Agente [SchemeAgentItem.GetCharacter.GetShortUIName|U]#! \n[SchemeAgentItem.GetSuccessDesc]\n\n[scheme_power|E]: [SchemeAgentItem.GetInfluence|1=+]"
+ SCHEME_AGENT_SUCCESS:0 "[success_chance|E]: $VALUE|+=0$\n$DESC$"
+ SCHEME_ESTIMATED_TIME_TOOLTIP:1 "#T Tiempo aprox. de terminación: #V ~[Scheme.GetEstimatedTimeRemaining]#!#!\nSe basa en la probabilidad actual de progreso de [Scheme.GetProgressChance|%/V], fundamentada en las [scheme_power|lE] y [scheme_resistance|lE] actuales"
+ SCHEME_READY_TOOLTIP:0 "#T Conjura lista#! \nEsta conjura tiene el progreso máximo y concluirá pronto."
+ SCHEME_WINDOW_EXPOSED_TOOLTIP:0 "#T Expuesta#! \nEsta conjura ha quedado expuesta y el objetivo conoce su existencia."
+ SCHEME_WINDOW_NO_KNOWN_AGENTS:0 "#weak Sin agentes expuestos todavía#!"
+ SCHEME_IS_EXPOSED:0 "Conjura expuesta: $VALUE|0=+%/$"
+ SCHEME_SUCCESS_DIFFICULTY_EASY:0 "$easy_difficulty$: $VALUE|0=+%/$"
+ SCHEME_SUCCESS_DIFFICULTY_VERY_EASY:0 "$very_easy_difficulty$: $VALUE|0=+%/$"
+ SCHEME_PREPARED_FOR_ANYTHING_PERK_MODIFIER:0 "[GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$"
+ SCHEME_PREPARED_FOR_ANYTHING_LIEGE_PERK_MODIFIER:0 "El señor está [GetPerk( 'prepared_for_anything_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$"
+ SCHEME_A_JOB_DONE_RIGHT_PERK_MODIFIER:0 "[GetPerk( 'a_job_done_right_perk' ).GetName( GetPlayer )]: $VALUE|0=+%/$"
+ SCHEME_AGENT_IS_SPYMASTER:1 "[spymaster|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_SPYMASTER_IN_MY_COURT:1 "[spymaster|E] de la corte de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_SPOUSE:1 "[spouse|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_BEST_FRIEND:1 "El mejor amigo de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_GUARDIAN:1 "[guardian|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_FRIEND:1 "Amigo de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_CONCUBINE:1 "[concubine|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_LOVER:1 "Amante de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_COURT_PHYSICIAN:1 "Médico de la corte de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_FOOD_TASTER:0 "$food_taster_court_position$ de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_CUP_BEARER:0 "$cupbearer_court_position$ de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_CHIEF_EUNUCH:0 "$chief_eunuch_court_position$ de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_BODYGUARD:0 "$bodyguard_court_position$ de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_LADY_IN_WAITING:0 "$lady_in_waiting_court_position$ de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_COUNCILLOR:1 "[councillor|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_CLOSE_KIN:1 "Parte de la [close_family|lE] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_POWERFUL_VASSAL:1 "[powerful_vassal|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_NEMESIS:1 "Némesis de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_EXTENDED_FAMILY:1 "Parte de la [extended_family|lE] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_RIVAL:1 "Rival de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_VASSAL:1 "[vassal|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_VASSAL_OF_LIEGE:1 "[vassal|E] del [liege|lE] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_COURTIER:1 "[courtier|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_GUEST:1 "[guest|E] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_INTRIGUE:0 "Por [intrigue|lE]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_FELLOW_COURTIER:1 "En la misma [court|lE] que [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_AGENT_IS_COURTIER_MY_COURT:2 "[target.Char.GetShortUINameNoTooltip] está en la misma [court|lE]: $VALUE|+0=$"
+ SCHEME_TARGET_IN_MY_COURT:2 "[target.GetShortUINameNoTooltip] está en tu [court|lE]: $VALUE|+0=$"
+ SCHEME_TARGET_TRAVELLING_UNSAFE_ROADS:1 "[target.GetShortUINameNoTooltip] viaja sin protección, y sin compañía: $VALUE|+0=$"
+ SCHEME_TARGET_TRAVELLING_INCOGNITO:1 "[target.GetShortUINameNoTooltip] viaja de incógnito: $VALUE|+0=$"
+ SCHEME_I_AM_SPYMASTER:2 "Eres [spymaster|lE] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_I_AM_SPYMASTER_OF_LIEGE:2 "Eres [spymaster|lE] del [liege|lE] de [target.GetShortUINameNoTooltip] $VALUE|+0=$"
+ SCHEME_I_AM_SPYMASTER_OF_HOST:1 "Eres el [spymaster|lE] del [host|lE] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_I_AM_GUARDIAN:1 "Eres [guardian|lE] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_I_AM_COUNCILLOR:1 "Eres [councillor|lE] de [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_CLOSE_TO_ME:1 "[target.GetShortUIName] es cercan[target.Custom('ES_OA')] a ti: $VALUE|+0=$"
+ SCHEME_TARGET_IS_LOVER:1 "[target.GetShortUIName] es tu amante: $VALUE|+0=$"
+ SCHEME_TARGET_IS_SPOUSE:1 "[target.GetShortUIName] es tu [spouse|lE]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_CLOSE_FAMILY:1 "[target.GetShortUIName] es parte de tu [close_family|lE]: $VALUE|+0=$"
+ SCHEME_VENGEFUL_RIVAL:1 "Eres [GetTrait('vengeful').GetName( GetNullCharacter )] y [target.GetShortUIName] es tu rival: $VALUE|+0=$"
+ SCHEME_EYE_FOR_AN_EYE:1 "Tu [culture|lE] tiene la [cultural_tradition|lE] $tradition_eye_for_an_eye_name$ y [target.GetShortUIName] es tu rival: $VALUE|+0=$"
+ SCHEME_WEDDING_CEREMONIES:0 "Tu [culture|lE] tiene la [cultural_tradition|lE] $tradition_wedding_ceremonies_name$ y [target.GetShortUIName] es tu [spouse|lE]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_AN_EMPEROR:1 "[target.GetShortUIName] gobierna un [empire|lE]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_A_KING:1 "[target.GetShortUIName] gobierna un [kingdom|lE]: $VALUE|+0=$"
+ HAS_ATTEMPTED_TO_MURDER_TARGET_BEFORE:0 "[target.GetShortUIName] sabe que intentaste asesinar[target.GetHerHim] antes: $VALUE|+0=$"
+ MURDER_HERBALIST_BONUS:0 "Tus conocimientos de hierbas venenosas: $VALUE|+0=$"
+ SCHEME_BEFRIEND_MY_EDUCATION:1 "Tienes una educación diplomática: $VALUE|+0=$"
+ SCHEME_BEFRIEND_MY_LIFESTYLE:1 "Tienes un don para la diplomacia: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_MY_REVELRY:1 "Eres muy juerguista: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_MY_SHYNESS:1 "Eres de naturaleza tímida: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_MY_GREGARIOUSNESS:1 "Eres de naturaleza gregaria: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_MY_CALLOUSNESS:1 "Eres insensible: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_THEIR_SHYNESS:0 "[target.GetTitledFirstName] es tímid[target.Custom('ES_OA')]: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_THEIR_GREGARIOUSNESS:0 "[target.GetTitledFirstName] es gregari[target.Custom('ES_OA')]: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_THEIR_CALLOUSNESS:0 "[target.GetTitledFirstName] es insensible: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_THEIR_PARANOIA:0 "[target.GetTitledFirstName] es paranoic[target.Custom('ES_OA')]: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_THEIR_TRUST:0 "[target.GetTitledFirstName] es confiad[target.Custom('ES_OA')]: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_THEIR_LIFESTYLE:0 "[target.GetTitledFirstName] tiene una educación diplomática: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET:1 "Tienes un [rank|lE] más alto que [target.GetTitledFirstName]: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET_NEGATIVE:1 "[target.GetTitledFirstName] tiene un [rank|lE] más alto que tú: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_OUR_TRAITS:0 "[recipient.LocalPlayerString( 'Tu', 'La' )] afinidad[recipient.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]: $VALUE|+0=$ "
+ SCHEME_BEFRIEND_TIER_DIFFERENCE_TARGET_LIEGE:1 "El señor de [target.GetTitledFirstName] tiene un [rankl|lE] más alto que tú: $VALUE|+0=$ "
+ HIGHER_RANK_THAN_SCHEME_TARGET:2 "Tu [rank|lE] es mayor que el de [target.GetShortUIName]: $VALUE|+0=-+$"
+ LOWER_RANK_THAN_SCHEME_TARGET:2 "Tu [rank|lE] es menor que el de [target.GetShortUIName]: $VALUE|+0=-+$"
+ HIGHER_RANK_THAN_SCHEME_TARGET_LIEGE:2 "Tu [rank|lE] es mayor que el del señor de [target.GetShortUIName]: $VALUE|+0=-+$"
+ LOWER_RANK_THAN_SCHEME_TARGET_LIEGE:2 "Tu [rank|lE] es menor que el del señor de [target.GetShortUIName]: $VALUE|+0=-+$"
+ TRIBE_ROMANCING_OTHER_GOVERNMENTS:0 "Eres [tribal|lE], pero [target.GetTitledFirstName] no lo es: $VALUE|+0=-+$"
+ SCHEME_VS_RELIGIOUS_HEAD:1 "[target.GetTitledFirstName] es tu [head_of_faith|lE]: $VALUE|+0=-+$"
+ SCHEME_VS_SPIRITUAL_HOF:1 "[target.GetTitledFirstName] es tu [spiritual_head_of_faith|lE]: $VALUE|+0=-+$"
+ SCHEME_AT_WAR:0 "Estás en [war|lE]: $VALUE|+0=-+$"
+ SCHEME_AT_WAR_WITH_LIEGE:0 "Estás en [war|lE] con el señor de [target.GetTitledFirstName]: $VALUE|+0=-+$"
+ SCHEME_BEFRIEND_THEIR_STUBBORNESS:0 "[target.GetTitledFirstName] es testarud[target.Custom('ES_OA')]: $VALUE|+0=-+$"
+ SCHEME_BEFRIEND_THEIR_FICKLENESS:0 "[target.GetTitledFirstName] es inconstante: $VALUE|+0=-+$"
+ SCHEME_BEFRIEND_THEIR_OPINION:0 "Opinión de [target.GetTitledFirstName] sobre ti: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_SPOUSE_BONUS:0 "[target.GetTitledFirstName] es tu cónyuge: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY:1 "[target.GetTitledFirstName] ama a su [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_SPOUSE_OPINION_PENALTY_MILD:0 "[target.GetTitledFirstName] no está descontent[target.Custom('ES_OA')] con su [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_SPOUSE_OPINION_BONUS:1 "[target.GetTitledFirstName] odia a su [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_UNWILLING_TO_COMMIT_ADULTERY:0 "[target.GetTitledFirstName] no desea deshonrarse cometiendo adulterio: $VALUE|+0=-+$"
+ SCHEME_SEDUCE_SPOUSE_STRONG_HOOK_PENALTY:0 "[target.GetTitledFirstName] es leal a su [target.Custom2('RelationToMeShort', target.GetPrimarySpouse)]: $VALUE|+0=-+$"
+ SEDUCE_COURTIER_GUEST_PERK_BONUS:0 "[GetPerk( 'home_advantage_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"
+ SEDUCE_PERK_BONUS:0 "[GetPerk( 'smooth_operator_perk' ).GetName( GetPlayer )]: $VALUE|+0=-+$"
+ LEGACY_PERK_BONUS:0 "[GetDynastyPerk('fp1_adventure_legacy_2').GetName]: $VALUE|+0=-+$"
+ TEMPTATION_FOCUS_BONUS:0 "[GetFocus('intrigue_temptation_focus').GetName]: $VALUE|+0=-+$"
 
- SCHEME_SEDUCE_WRONG_GENDER:0 "No me atrae [target.GetWomenMen]: $VALUE|0=-+$" #NT!
- SCHEME_SEDUCE_TABOO_INCEST:0 "El incesto es tabú: $VALUE|0=-+$" #NT!
- SCHEME_SEDUCE_UNWILLING_INCEST:0 "Eres [family|E]: $VALUE|0=-+$" #NT!
- SCHEME_SEDUCE_UNWILLING_INCEST_TOO_YOUNG:0 "Eres [family|E] y [TARGET_CHARACTER.GetShortUIName|U] es demasiado joven para verte como algo más." #NT!
- SCHEME_SEDUCE_TABOO_SODOMY:0 "La homosexualidad es tabú: $VALUE|0=-+$" #NT!
- SW_ESTIMATED_TIME:0 "#V ~[Scheme.GetEstimatedTimeRemaining]#!" #NT!
- COMPASSIONATE_REASON:0 "Considero que esto es inmoral: $VALUE|+0=$" #NT!
- COMPASSIONATE_NEGATIVE_REASON:0 "Apruebo estos métodos: $VALUE|+0=$" #NT!
- SCHEME_NOT_AGAINST_DESCENDANTS:0 "No hare daño a mis descendientes: $VALUE|+0=$" #NT!
- SCHEME_NOT_DIPLOMATICALLY_AVAILABLE:0 "No estoy disponible en este momento: $VALUE|+0=$" #NT!
- SCHEME_MOVES_ME_UP_THE_SUCCESSION:0 "Esto me hará ascender en la sucesión: $VALUE|+0=$" #NT!
- SCHEME_COMPASSIONATE_NOT_MURDER_CHILDREN:0 "Soy reacio a hacerle daño a un niño: $VALUE|+0=$" #NT!
- SCHEME_I_AM_A_COWARD:0 "Es demasiado peligroso: $VALUE|+0=$" #NT!
- SCHEME_I_AM_INTIMIDATED:0 "Soy [intimidated|E] por [target.GetShortUINameNoTooltip]: $VALUE|+0=$" #NT!
- SCHEME_I_AM_COWED:0 "Soy [cowed|E] por [target.GetShortUINameNoTooltip]: $VALUE|+0=$" #NT!
- SCHEME_ZEALOUS_AGAINST_HEATHEN:0 "Son [target.GetFaith.GetAdjective]: $VALUE|+0=$" #NT!
- SCHEME_I_LIKE_TARGET:0 "Me gusta [target.GetShortUINameNoTooltip]: $VALUE|+0=$" #NT!
- SCHEME_I_DISLIKE_TARGET:0 "No me gusta [target.GetShortUINameNoTooltip]: $VALUE|+0=$" #NT!
- SCHEME_MY_OPINION_OF_YOU:0 "Mi opinión sobre ti: $VALUE|+0=$" #NT!
- SCHEME_ENERGY:0 "No tengo energía: $VALUE|+0=$" #NT!
- SCHEME_NOTHING_TO_GAIN:0 "No tengo nada que ganar: $VALUE|+0=$" #NT!
- SCHEME_I_MUST_TAKE_VENGEANCE:0 "¡Debo vengarme de [target.GetShortUINameNoTooltip]!: $VALUE|+0=$" #NT!
- SCHEME_GET_RID_OF_UNRULY_CLAIMANT:0 "Esto me librará de un [claimant|E] rebelde: $VALUE|+0=$" #NT!
- SCHEME_AGAINST_SPOUSE_POSITIVE:0 "Mi cónyuge se lo merece: $VALUE|+0=$" #NT!
- SCHEME_SOCIAL_CLIMBER_RANK_BONUS:1 "[target.GetShortUIName] ve esto como una oportunidad: $VALUE|0=-+$" #NT!
- SCHEME_SOCIAL_CLIMBER_RANK_PENALTY:1 "[target.GetShortUIName] no ve una oportunidad: $VALUE|0=-+$" #NT!
- SCHEME_NOT_FOLLOWER_OF_WITCHGOD:0 "No sigo a [owner.GetFaith.WitchGodName]: $VALUE|0=-+$" #NT!
- SCHEME_I_AM_WITCH:1 "Eres una bruja: $VALUE|0=-+$" #NT!
- SCHEME_I_AM_NOT_WITCH:1 "No eres una bruja: $VALUE|0=-+$" #NT!
- SCHEME_ATTRACTION:1 "[target.GetShortUIName] te encuentra atractivo: $VALUE|0=-+$" #NT!
- SCHEME_WITCH_COVEN:0 "Estás en un aquelarre de brujas: $VALUE|0=-+$" #NT!
- SCHEME_HOOK_USED:0 "[hook|E] utilizado: $VALUE|+0=$" #NT!
- SCHEME_WEAK_HOOK_USED:0 "[weak_hook|E] utilizado: $VALUE|+0=$" #NT!
- SCHEME_STRONG_HOOK_USED:0 "[strong_hook|E] utilizado: $VALUE|+0=$" #NT!
- SCHEME_TARGET_LEARNING_MODIFIER:0 "[learning|E] del profesor: $VALUE|+0=$" #NT!
- SCHEME_LEARNING_MODIFIER:0 "Tu [learning|E]: $VALUE|+0=$" #NT!
- SCHEME_PIETY_LEVEL_MODIFIER:0 "Tu [piety_level|E]: $VALUE|+0=$" #NT!
- SCHEME_SKULDUGGERY_FOCUS:1 "[GetFocus('intrigue_skulduggery_focus').GetName]: $VALUE|+0=$" #NT!
- SCHEME_DUTY_FOCUS:1 "[target.GetShortUIName] tiene el [GetFocus('stewardship_duty_focus').GetName]: $VALUE|+0=$" #NT!
- LEARN_LANGUAGE_PEDAGOGY_PERK_DESC:0 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]: $VALUE|+0=$" #NT!
- BEFRIEND_THICKER_THAN_WATER_PERK_DESC:0 "[GetPerk( 'thicker_than_water_perk' ).GetName( GetPlayer )]: $VALUE|+0=$" #NT!
- BEFRIEND_FLATTERER_PERK_DESC:0 "[GetPerk( 'flatterer_perk' ).GetName( GetPlayer )]: $VALUE|+0=$" #NT!
- KIN_LEGACY_DESC:0 "[GetDynastyPerk( 'kin_legacy_4' ).GetName]: $VALUE|+0=$" #NT!
- KIN_PARAMETER_DESC:0 "De [traditions|E] frente a la misma casa: $VALUE|+0=$" #NT!
- SPOUSE_PARAMETER_DESC:0 "De [traditions|E] frente a [spouse|E]: $VALUE|+0=$" #NT!
- MORTAL_ADORATION_REDUCED_HOSTILE_SCHEME_JOIN_CHANCE:0 "[GetPerk( 'mortal_adoration_perk' ).GetName( GetPlayer )]: $VALUE|+0=$" #NT!
- SCHEME_COURTSHIP_PERK:0 "[GetPerk( 'courtship_perk' ).GetName( GetPlayer )]: $VALUE|+0=$" #NT!
- SCHEME_GALLANT_TRAIT:1 "[GetTrait('gallant').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_SCHEMER_TRAIT:1 "[GetTrait('seducer').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_LUSTFUL_TRAIT:1 "[GetTrait('lustful').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_CHASTE_TRAIT:1 "[GetTrait('chaste').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_SHY_TRAIT:1 "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_beauty_good_1:1 "[GetTrait('beauty_good_1').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_beauty_good_2:1 "[GetTrait('beauty_good_2').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_beauty_good_3:1 "[GetTrait('beauty_good_3').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_intellect_good_1:1 "[GetTrait('intellect_good_1').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_intellect_good_2:1 "[GetTrait('intellect_good_2').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_intellect_good_3:1 "[GetTrait('intellect_good_3').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_physique_good_1:1 "[GetTrait('physique_good_1').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_physique_good_2:1 "[GetTrait('physique_good_2').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_physique_good_3:1 "[GetTrait('physique_good_3').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_beauty_bad_1:1 "[GetTrait('beauty_bad_1').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_beauty_bad_2:1 "[GetTrait('beauty_bad_2').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_beauty_bad_3:1 "[GetTrait('beauty_bad_3').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_great_pox:1 "[GetTrait('great_pox').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_lovers_pox:1 "[GetTrait('lovers_pox').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- scheme_early_great_pox:1 "[GetTrait('early_great_pox').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_REVELER:0 "Juerguista: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_ZEALOUS:1 "[GetTrait('zealous').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_DEVOTED:1 "[GetTrait('devoted').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_ORDER_MEMBER:1 "[GetTrait('order_member').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_CRAVEN:1 "[GetTrait('craven').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_PARANOID:1 "[GetTrait('paranoid').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_IS_A_SCHEMER:0 "Maquinando: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_TARGET_SEDUCER:1 "[GetTrait('seducer').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_MYSTIC:0 "Místico: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_HERBALIST:1 "[GetTrait('lifestyle_herbalist').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_DECEITFUL:1 "[GetTrait('deceitful').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_AMBITIOUS:1 "[GetTrait('ambitious').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_CYNICAL:1 "[GetTrait('cynical').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_TRUSTING:1 "[GetTrait('trusting').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_STUBBORN:0 "[GetTrait('stubborn').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_TRAIT_POET:0 "[GetTrait('poet').GetName( owner.Self )]: $VALUE|+0=$" #NT!
- SCHEME_HERITAGE_MODIFIER:0 "[heritage|E] compartido: $VALUE|+0=$" #NT!
- SCHEME_LOYAL_SOLDIERS_MODIFIER:0 "De [traditions|E] frente a [liege|E]: $VALUE|+0=$" #NT!
- SCHEME_YOUTH_MODIFIER:0 "Eres joven y con muchas ganas de aprender: $VALUE|+0=$" #NT!
- SCHEME_CHAPLAIN_HELP_LEARNING_MODIFIER:0 "Tu [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionNamePossesive )|E] [learning|E]: $VALUE|+0=$" #NT!
- SCHEME_KNOWN_LANGUAGES_MODIFIER:0 "Número de [languages|E] ya aprendidos: $VALUE|+0=$" #NT!
+ SCHEME_SEDUCE_WRONG_GENDER:0 "No siento atracción hacia [target.GetWomenMen]: $VALUE|0=-+$"
+ SCHEME_SEDUCE_TABOO_INCEST:0 "El incesto es tabú: $VALUE|0=-+$"
+ SCHEME_SEDUCE_UNWILLING_INCEST:0 "Eres [family|lE]: $VALUE|0=-+$"
+ SCHEME_SEDUCE_UNWILLING_INCEST_TOO_YOUNG:0 "Sois [family|lE] y [TARGET_CHARACTER.GetShortUIName|U] es demasiado joven para verte como algo más."
+ SCHEME_SEDUCE_TABOO_SODOMY:0 "La homosexualidad es tabú: $VALUE|0=-+$"
+ SW_ESTIMATED_TIME:0 "#V ~[Scheme.GetEstimatedTimeRemaining]#!"
+ COMPASSIONATE_REASON:0 "Esto me parece inmoral: $VALUE|+0=$"
+ COMPASSIONATE_NEGATIVE_REASON:0 "Apruebo estos métodos: $VALUE|+0=$"
+ SCHEME_NOT_AGAINST_DESCENDANTS:0 "No perjudicaré a mis descendientes: $VALUE|+0=$"
+ SCHEME_NOT_DIPLOMATICALLY_AVAILABLE:0 "Ahora mismo no estoy disponible: $VALUE|+0=$"
+ SCHEME_MOVES_ME_UP_THE_SUCCESSION:0 "Esto me ascenderá en la sucesión: $VALUE|+0=$"
+ SCHEME_COMPASSIONATE_NOT_MURDER_CHILDREN:0 "Soy reacio a herir a un niño: $VALUE|+0=$"
+ SCHEME_I_AM_A_COWARD:0 "Es demasiado peligroso: $VALUE|+0=$"
+ SCHEME_I_AM_INTIMIDATED:0 "Te sientes [intimidated|lE] por [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_I_AM_COWED:0 "Te sientes [cowed|lE] por [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_ZEALOUS_AGAINST_HEATHEN:0 "Son [target.GetFaith.GetAdjective]: $VALUE|+0=$"
+ SCHEME_I_LIKE_TARGET:0 "Me gusta [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_I_DISLIKE_TARGET:0 "Me disgusta [target.GetShortUINameNoTooltip]: $VALUE|+0=$"
+ SCHEME_MY_OPINION_OF_YOU:0 "Mi opinión sobre ti: $VALUE|+0=$"
+ SCHEME_ENERGY:0 "No tengo energía: $VALUE|+0=$"
+ SCHEME_NOTHING_TO_GAIN:0 "No tengo nada que ganar: $VALUE|+0=$"
+ SCHEME_I_MUST_TAKE_VENGEANCE:0 "Debo vengarme de [target.GetShortUINameNoTooltip]!: $VALUE|+0=$"
+ SCHEME_GET_RID_OF_UNRULY_CLAIMANT:0 "Esto me librará de un [claimant|lE] revoltoso: $VALUE|+0=$"
+ SCHEME_AGAINST_SPOUSE_POSITIVE:0 "Mi cónyuge se lo merece: $VALUE|+0=$"
+ SCHEME_SOCIAL_CLIMBER_RANK_BONUS:1 "[target.GetShortUIName] lo ve como una oportunidad: $VALUE|0=-+$"
+ SCHEME_SOCIAL_CLIMBER_RANK_PENALTY:1 "[target.GetShortUIName] no lo ve como una oportunidad: $VALUE|0=-+$"
+ SCHEME_NOT_FOLLOWER_OF_WITCHGOD:0 "No sigo a [owner.GetFaith.WitchGodName]: $VALUE|0=-+$"
+ SCHEME_I_AM_WITCH:1 "Practicas la brujería: $VALUE|0=-+$"
+ SCHEME_I_AM_NOT_WITCH:1 "No practicas la brujería: $VALUE|0=-+$"
+ SCHEME_ATTRACTION:1 "[target.GetShortUIName] te ve con atractivo: $VALUE|0=-+$"
+ SCHEME_WITCH_COVEN:0 "Estás en un aquelarre: $VALUE|0=-+$"
+ SCHEME_HOOK_USED:0 "[hook|E] usado: $VALUE|+0=$"
+ SCHEME_WEAK_HOOK_USED:0 "[weak_hook|E] usado: $VALUE|+0=$"
+ SCHEME_STRONG_HOOK_USED:0 "[strong_hook|E] usado: $VALUE|+0=$"
+ SCHEME_TARGET_LEARNING_MODIFIER:0 "[learning|E] del maestro: $VALUE|+0=$"
+ SCHEME_LEARNING_MODIFIER:0 "Tu [learning|lE]: $VALUE|+0=$"
+ SCHEME_PIETY_LEVEL_MODIFIER:0 "Tu [piety_level|lE]: $VALUE|+0=$"
+ SCHEME_SKULDUGGERY_FOCUS:1 "[GetFocus('intrigue_skulduggery_focus').GetName]: $VALUE|+0=$"
+ SCHEME_DUTY_FOCUS:1 "[target.GetShortUIName] tiene el [GetFocus('stewardship_duty_focus').GetName]: $VALUE|+0=$"
+ LEARN_LANGUAGE_PEDAGOGY_PERK_DESC:0 "[GetPerk( 'pedagogy_perk' ).GetName( GetPlayer )]: $VALUE|+0=$"
+ BEFRIEND_THICKER_THAN_WATER_PERK_DESC:0 "[GetPerk( 'thicker_than_water_perk' ).GetName( GetPlayer )]: $VALUE|+0=$"
+ BEFRIEND_FLATTERER_PERK_DESC:0 "[GetPerk( 'flatterer_perk' ).GetName( GetPlayer )]: $VALUE|+0=$"
+ KIN_LEGACY_DESC:0 "[GetDynastyPerk( 'kin_legacy_4' ).GetName]: $VALUE|+0=$"
+ KIN_PARAMETER_DESC:0 "Por [traditions|lE] frente a la misma casa: $VALUE|+0=$"
+ SPOUSE_PARAMETER_DESC:0 "Por [traditions|lE] frente a [spouse|lE]: $VALUE|+0=$"
+ MORTAL_ADORATION_REDUCED_HOSTILE_SCHEME_JOIN_CHANCE:0 "[GetPerk( 'mortal_adoration_perk' ).GetName( GetPlayer )]: $VALUE|+0=$"
+ SCHEME_COURTSHIP_PERK:0 "[GetPerk( 'courtship_perk' ).GetName( GetPlayer )]: $VALUE|+0=$"
+ SCHEME_GALLANT_TRAIT:1 "[GetTrait('gallant').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_SCHEMER_TRAIT:1 "[GetTrait('seducer').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_LUSTFUL_TRAIT:1 "[GetTrait('lustful').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_CHASTE_TRAIT:1 "[GetTrait('chaste').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_SHY_TRAIT:1 "[GetTrait('shy').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_beauty_good_1:1 "[GetTrait('beauty_good_1').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_beauty_good_2:1 "[GetTrait('beauty_good_2').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_beauty_good_3:1 "[GetTrait('beauty_good_3').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_intellect_good_1:1 "[GetTrait('intellect_good_1').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_intellect_good_2:1 "[GetTrait('intellect_good_2').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_intellect_good_3:1 "[GetTrait('intellect_good_3').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_physique_good_1:1 "[GetTrait('physique_good_1').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_physique_good_2:1 "[GetTrait('physique_good_2').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_physique_good_3:1 "[GetTrait('physique_good_3').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_beauty_bad_1:1 "[GetTrait('beauty_bad_1').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_beauty_bad_2:1 "[GetTrait('beauty_bad_2').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_beauty_bad_3:1 "[GetTrait('beauty_bad_3').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_great_pox:1 "[GetTrait('great_pox').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_lovers_pox:1 "[GetTrait('lovers_pox').GetName( owner.Self )]: $VALUE|+0=$"
+ scheme_early_great_pox:1 "[GetTrait('early_great_pox').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_REVELER:0 "Juerguista: $VALUE|+0=$"
+ SCHEME_TRAIT_ZEALOUS:1 "[GetTrait('zealous').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_DEVOTED:1 "[GetTrait('devoted').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_ORDER_MEMBER:1 "[GetTrait('order_member').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_CRAVEN:1 "[GetTrait('craven').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_PARANOID:1 "[GetTrait('paranoid').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_IS_A_SCHEMER:0 "Intrigante: $VALUE|+0=$"
+ SCHEME_TRAIT_TARGET_SEDUCER:1 "[GetTrait('seducer').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_MYSTIC:0 "Místico: $VALUE|+0=$"
+ SCHEME_TRAIT_HERBALIST:1 "[GetTrait('lifestyle_herbalist').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_DECEITFUL:1 "[GetTrait('deceitful').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_AMBITIOUS:1 "[GetTrait('ambitious').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_CYNICAL:1 "[GetTrait('cynical').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_TRUSTING:1 "[GetTrait('trusting').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_EXCOMMUNICATED:1 "[GetTrait('excommunicated').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_STUBBORN:0 "[GetTrait('stubborn').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_TRAIT_POET:0 "[GetTrait('poet').GetName( owner.Self )]: $VALUE|+0=$"
+ SCHEME_HERITAGE_MODIFIER:0 "[heritage|E] compartida: $VALUE|+0=$"
+ SCHEME_LOYAL_SOLDIERS_MODIFIER:0 "Por [traditions|lE] frente a [liege|lE]: $VALUE|+0=$"
+ SCHEME_YOUTH_MODIFIER:0 "Eres joven y tienes ansia por aprender: $VALUE|+0=$"
+ SCHEME_CHAPLAIN_HELP_LEARNING_MODIFIER:0 "[learning|E] de tu [Concept( 'realm_priest', GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName )|E]: $VALUE|+0=$"
+ SCHEME_KNOWN_LANGUAGES_MODIFIER:0 "Número de [languages|lE] ya aprendidos: $VALUE|+0=$"
+ 
+ scheme_executes_immediately:0 "La [scheme|lE] se ejecuta inmediatamente"
 
- scheme_executes_immediately:0 "El [scheme|E] se ejecuta inmediatamente" #NT!
+ OPEN_SCHEMES_TAB:0 "Conjuras"
+ OPEN_HOOKS_AND_SECRETS_TAB:0 "Anzuelos y secretos"
+ INTRIGUE_WINDOW_MY_HOOKS_TITLE:1 "[hooks|E] que posees"
+ INTRIGUE_WINDOW_HOOKS_ON_ME_TITLE:1 "[hooks|E] sobre ti"
+ INTRIGUE_WINDOW_SECRETS_KNOWN_TO_ME_TITLE:0 "[secrets|E] conocidos por mí"
+ INTRIGUE_WINDOW_SECRET_DESC:0 "[IntrigueWindowSecretItem.GetSecret.GetDesc]"
+ INTRIGUE_WINDOW_SECRET_TOOLTIP:0 "#T [Secret.GetCategoryName]#! \n[IntrigueWindowSecretItem.GetSecret.GetDesc]"
+ INTRIGUE_WINDOW_SECRET_KNOWN_TO_ME_BLACKMAIL:1 "Chantaje"
+ INTRIGUE_WINDOW_MY_SECRETS_TITLE:1 "Tus [secrets|lE]"
+ INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NUM:0 "Conocidos por otros [GetDataModelSize( IntrigueWindowSecretItem.GetKnownBy )]"
+ INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NONE:0 "Desconocidos"
+ INTRIGUE_WINDOW_MY_SECRETS_KNOWN_SHOW:0 "Mostrar"
+ INTRIGUE_WINDOW_MY_SECRETS_KNOWN_HIDE:0 "Ocultar"
+ MY_HOOKS_ARE_EMPTY:1 "#weak No tienes anzuelos#!"
+ SECRETS_KNOWN_TO_ME_IS_EMPTY:1 "#weak No conoces secretos#!"
+ NOBODY_HAS_HOOKS_ON_ME:1 "#weak Nadie tiene anzuelos sobre ti#!"
+ I_HAVE_NO_SECRETS:1 "#weak No tienes secretos#!"
+ INTRIGUE_WINDOW_PRISONERS:0 "Prisioneros"
+ INTRIGUE_WINDOW_SORT_DURATION:0 "Tiempo en prisión"
+ INTRIGUE_WINDOW_WEAK_HOOKS_COUNT:0 "#T Número de [weak_hooks|lE]#!"
+ INTRIGUE_WINDOW_STRONG_HOOKS_COUNT:0 "#T Número de [strong_hooks|lE]#!"
+ INTRIGUE_WINDOW_BLACKMAIL_STRONG_HOOK_TT:0 "#T Secreto de anzuelo fuerte#!\nSi [Character.GetShortUIName] acepta tu [blackmail|lE] por este [secret|lE], recibirás un [strong_hook|lE] en su contra."
+ INTRIGUE_WINDOW_BLACKMAIL_WEAK_HOOK_TT:0 "#T Secreto de anzuelo débil#!\nSi [Character.GetShortUIName] acepta tu [blackmail|lE] por este [secret|lE], recibirás un [weak_hook|lE] en su contra."
+ INTRIGUE_WINDOW_BLACKMAIL_SECRET_EXPOSED:0 "(Ya se ha expuesto)"
+ INTRIGUE_WINDOW_BLACKMAIL_SECRET_SPENT:0 "(Ya chantajeado)"
+ INTRIGUE_WINDOW_HOOK_EXPIRATION:0 "Expira el [Hook.GetExpirationDate.GetString]"
+ INTRIGUE_WINDOW_HOOK_SHOW_ALL:0 "#T Visibilidad de anzuelos#!\n#I Haz clic para alternar entre mostrar todos o solo los utilizables.#!"
+ INTRIGUE_WINDOW_AGENT_DISCOVERED:0 "Se ha descubierto"
+ INTRIGUE_WINDOW_AGENT_DISCOVERED_TT:0 "#T $INTRIGUE_WINDOW_AGENT_DISCOVERED$#!\nLos agentes expuestos se arriesgan a ser encarcelados"
+ INTRIGUE_WINDOW_SCHEME_POWER_TT:0 "#T [scheme_power|E]#! \n Añade [SchemeAgentItem.GetInfluence|0+] de Fuerza\nLa [scheme_power|lE] de un agente es proporcional a su habilidad de [intrigue|lE]."
+ INTRIGUE_WINDOW_SECRET_EXPOSE:0 "Exponer"
+ INTRIGUE_WINDOW_SECRET_EXPOSE_TT:0 "#T Expone un [secret|lE]#!\n\nExponer un secreto destruye todos los [hooks|lE] que proporciona el [secret|E]."
+ INTRIGUE_WINDOW_EXPOSE_TITLE:0 "Exponer secreto"
+ INTRIGUE_WINDOW_EXPOSE_DESCRIPTION:0 "Elige cuál de los [secrets|lE] de [CHARACTER.GetShortUINameNoTooltip] quieres exponer."
+ INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL:0 "@warning_icon! #X No hay ningún [secret|lE] que puedas usar para el chantaje ahora#!"
+ INTRIGUE_WINDOW_SECRET_BLACKMAIL_TT:0 "#T Chantaje#!\n\n[SelectLocalization( IntrigueWindowSecretGroup.CanBlackmail, 'blackmail_interaction_desc', 'INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL' )]"
+ INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:3 "@warning_icon! #X #bold No#! puedes exponer el [secret|lE] [SECRET.GetName] de [TARGET_CHARACTER.GetUIName]#!"
 
- OPEN_SCHEMES_TAB:0 "Esquemas" #NT!
- OPEN_HOOKS_AND_SECRETS_TAB:0 "Ganchos y secretos" #NT!
- INTRIGUE_WINDOW_MY_HOOKS_TITLE:1 "[hooks|E] Tienes" #NT!
- INTRIGUE_WINDOW_HOOKS_ON_ME_TITLE:1 "[hooks|E] en ti" #NT!
- INTRIGUE_WINDOW_SECRETS_KNOWN_TO_ME_TITLE:0 "[secrets|E] Conocido por mí" #NT!
- INTRIGUE_WINDOW_SECRET_DESC:0 "[IntrigueWindowSecretItem.GetSecret.GetDesc]" #NT!
- INTRIGUE_WINDOW_SECRET_TOOLTIP:0 "#T [Secret.GetCategoryName]#! \n[IntrigueWindowSecretItem.GetSecret.GetDesc]" #NT!
- INTRIGUE_WINDOW_SECRET_KNOWN_TO_ME_BLACKMAIL:1 "Chantaje" #NT!
- INTRIGUE_WINDOW_MY_SECRETS_TITLE:1 "Tu [secrets|E]" #NT!
- INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NUM:0 "Conocido por [GetDataModelSize( IntrigueWindowSecretItem.GetKnownBy )] personas más" #NT!
- INTRIGUE_WINDOW_MY_SECRET_KNOWN_TO_NONE:0 "Conocido por nadie" #NT!
- INTRIGUE_WINDOW_MY_SECRETS_KNOWN_SHOW:0 "Espectáculo" #NT!
- INTRIGUE_WINDOW_MY_SECRETS_KNOWN_HIDE:0 "Esconder" #NT!
- MY_HOOKS_ARE_EMPTY:1 "#weak No tienes Ganchos#!" #NT!
- SECRETS_KNOWN_TO_ME_IS_EMPTY:1 "#weak No conoces secretos#!" #NT!
- NOBODY_HAS_HOOKS_ON_ME:1 "#weak Nadie te tiene enganchado#!" #NT!
- I_HAVE_NO_SECRETS:1 "#weak No tienes secretos#!" #NT!
- INTRIGUE_WINDOW_PRISONERS:0 "Prisioneros" #NT!
- INTRIGUE_WINDOW_SORT_DURATION:0 "Tiempo en prisión" #NT!
- INTRIGUE_WINDOW_WEAK_HOOKS_COUNT:0 "#T Número de [weak_hooks|E]#!" #NT!
- INTRIGUE_WINDOW_STRONG_HOOKS_COUNT:0 "#T Número de [strong_hooks|E]#!" #NT!
- INTRIGUE_WINDOW_BLACKMAIL_STRONG_HOOK_TT:0 "#T Strong Hook Secret#!\nIf [Character.GetShortUIName] acepta tu [blackmail|E] con este [secret|E], obtendrás un [strong_hook|E] en [Character.GetHerHim]" #NT!
- INTRIGUE_WINDOW_BLACKMAIL_WEAK_HOOK_TT:0 "#T Secreto de anzuelo débil#!\nIf [Character.GetShortUIName] acepta tu [blackmail|E] con este [secret|E], obtendrás un [weak_hook|E] en [Character.GetHerHim]" #NT!
- INTRIGUE_WINDOW_BLACKMAIL_SECRET_EXPOSED:0 "(Ya expuesto)" #NT!
- INTRIGUE_WINDOW_BLACKMAIL_SECRET_SPENT:0 "(Ya chantajeado)" #NT!
- INTRIGUE_WINDOW_HOOK_EXPIRATION:0 "Caduca [Hook.GetExpirationDate.GetString]" #NT!
- INTRIGUE_WINDOW_HOOK_SHOW_ALL:0 "#T Visibilidad de ganchos#!\n#I Haz clic para alternar entre mostrar todos o solo los ganchos utilizables#!" #NT!
- INTRIGUE_WINDOW_AGENT_DISCOVERED:0 "Fue descubierto" #NT!
- INTRIGUE_WINDOW_AGENT_DISCOVERED_TT:0 "#T $INTRIGUE_WINDOW_AGENT_DISCOVERED$#!\nExposed agents risk imprisonment" #NT!
- INTRIGUE_WINDOW_SCHEME_POWER_TT:0 "#T [scheme_power|E]#! \n Agrega poder [SchemeAgentItem.GetInfluence|0+]\nEl [scheme_power|E] del agente es proporcional a la habilidad [intrigue|E]" #NT!
- INTRIGUE_WINDOW_SECRET_EXPOSE:0 "Exponer" #NT!
- INTRIGUE_WINDOW_SECRET_EXPOSE_TT:0 "#T Exponer un secreto [secret|E]#!\n\nExposing a destruye todos los [hooks|E] proporcionados por el [secret|E] seleccionado" #NT!
- INTRIGUE_WINDOW_EXPOSE_TITLE:0 "Exponer secreto" #NT!
- INTRIGUE_WINDOW_EXPOSE_DESCRIPTION:0 "Seleccione cuál de [CHARACTER.GetShortUINamePossessiveNoTooltip] [secrets|E] para exponer" #NT!
- INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL:0 "@advertencia_icono! #X Ningún [secret|E] puede ser usado para chantaje por el momento#!" #NT!
- INTRIGUE_WINDOW_SECRET_BLACKMAIL_TT:0 "#T Chantaje#!\n\n[SelectLocalization( IntrigueWindowSecretGroup.CanBlackmail, 'blackmail_interaction_desc', 'INTRIGUE_WINDOW_SECRET_BLACKMAIL_CANT_BLACKMAIL' )]" #NT!
- INTRIGUE_WINDOW_SECRET_EXPOSE_DESC:3 "@advertencia_icono! #X Puede #bold no#! exponer [TARGET_CHARACTER.GetUINamePossessive] [SECRET.GetName] [secret|E]#!" #NT!
-
- is_forced_into_scheme_trigger:0 "Es forzado a participar en un esquema" #NT!
- SCHEME_TYPE_TRIGGER:0 "El esquema es del tipo $SCHEME_NAME|V$" #NT!
- SCHEME_NUMBER_OF_EXPOSED_AGENTS_TRIGGER:0 "Agentes expuestos en [scheme|E]: $COMPARATOR$ $NUM|V0$" #NT!
- SCHEME_POWER_RESISTANCE_RATIO_TRIGGER:0 "La relación potencia resistencia del Esquema es: $COMPARATOR$ $NUM|V0$" #NT!
- SCHEME_MONTHLY_PROGRESS_TRIGGER:0 "El progreso mensual del programa es: $COMPARATOR$ $NUM|V0$" #NT!
- SCHEME_TEACHER_KNOWS_YOUR_LANGUAGE_MODIFIER:0 "El profesor conoce tu [language|E]: $VALUE|+0=$" #NT!
- SCHEME_TARGET_IS_FEUD_TARGET:0 "[target.GetShortUINameNoTooltip] es miembro de [house_feud|E] [house|E]: $VALUE|+0=$" #NT!
+ is_forced_into_scheme_trigger:0 "Se le obliga a participar en una conjura"
+ SCHEME_TYPE_TRIGGER:0 "Conjura del tipo $SCHEME_NAME|V$"
+ SCHEME_NUMBER_OF_EXPOSED_AGENTS_TRIGGER:0 "Agentes expuestos en una [scheme|lE]: $COMPARATOR$ $NUM|V0$"
+ SCHEME_POWER_RESISTANCE_RATIO_TRIGGER:0 "La proporción de resistencia de la fuerza de la conjura es de: $COMPARATOR$ $NUM|V0$"
+ SCHEME_MONTHLY_PROGRESS_TRIGGER:0 "Progreso mensual de la conjura: $COMPARATOR$ $NUM|V0$"
+ SCHEME_TEACHER_KNOWS_YOUR_LANGUAGE_MODIFIER:0 "El maestro conoce tu [language|lE]: $VALUE|+0=$"
+ SCHEME_TARGET_IS_FEUD_TARGET:0 "[target.GetShortUINameNoTooltip] pertenece a la [house|lE] [house_feud|E]: $VALUE|+0=$"
