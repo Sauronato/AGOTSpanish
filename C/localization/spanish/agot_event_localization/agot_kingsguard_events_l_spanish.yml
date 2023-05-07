@@ -114,6 +114,19 @@
  agot_kingsguard.2001.c: "En realidad, no importa." #NT!
  indicate_bodyguard_target: "[councillor.GetTitledFirstName] comienza a proteger [si_target.GetShortUIName]." #NT!
  set_relation_bodyguard_first: "[TARGET_CHARACTER.GetUIName] comienza a proteger [CHARACTER.GetUIName]." #NT!
+ agot_kingsguard.2002.title:0 "¡Renegado [ROOT.Char.Custom('KingsguardName')]!"
+ agot_kingsguard.2002.desc:0 "[recipient.GetTitledFirstName] ¡ha logrado evitar su captura y ha huido a la ciudad! Tal vez aún estemos a tiempo de evitar la huida de [kingsguard.GetHerHis]. [kingsguard.GetName] está de guardia y tal vez pueda interceptar a [recipient.GetName], o podría avisar a [goldcloaks.GetName] y despertar a toda la guardia de la ciudad."
+ agot_kingsguard.2002.a:0 "[kingsguard.GetName], ¡devuélveme a tu hermano jurado!"
+ agot_kingsguard.2002.a.failure:0 "[recipient.GetName] escapará"
+ agot_kingsguard.2002.b:0 "[goldcloaks.GetTitledFirstName], ¡sujetadle!"
+ agot_kingsguard.2002.c:0 "Suéltalos, no son una amenaza para mí".
+
+ agot_kingsguard.2003.title:0 "¡Renegado [ROOT.Char.Custom('KingsguardName')]!"
+ agot_kingsguard.2003.desc:0 "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))] ha venido a mi corte buscando asilo. [crown.GetTitledFirstNamePossessive] intentó que [fleeing_kingsguard.GetFirstName] fuera arrestado por algún cargo inventado y ahora [fleeing_kingsguard.GetSheHe] se encuentra [fleeing_kingsguard.GetHerselfHimself] como fugitivo del reino. Ahora debo tomar la difícil decisión entre mi deber y mi familia para decidir qué hacer a continuación."
+ agot_kingsguard.2003.a:0 "Eres mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fleeing_kingsguard'))], y perteneces aquí." 
+ agot_kingsguard.2003.b:0 "¡Si vas hacia la muralla, estarás fuera del alcance de [crown.GetTitledFirstNamePossessive]!"
+ agot_kingsguard.2003.c:0 "¡Debes huir por el estrecho mar!"
+ agot_kingsguard.2003.d:0 "Lo siento [fleeing_kingsguard.GetFirstName], pero no puedo albergar a un fugitivo".
 
 ################################
 # Kingsguard Flavour Events
