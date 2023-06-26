@@ -42,9 +42,9 @@
  metal_wrought_iron:0 "hierro forjado"
  metal_folded_iron:0 "hierro plegado"
  metal_steel:0 "acero"
- metal_wootz_steel:0 "acero YiTish" #AGOT Changed
- metal_bulat_steel:0 "acero Qohorik" #AGOT Changed
- metal_damascus_steel:0 "acero de Valirio" #AGOT Changed
+ metal_wootz_steel:0 "acero YiTish" #AGOT Modificado
+ metal_bulat_steel:0 "acero Qohorik" #AGOT Modificado
+ metal_damascus_steel:0 "acero de Valirio" #AGOT Modificado
 
  # Metal Feature Derivatives 
  feature_blade_metal_wrought_iron:0 "$metal_wrought_iron$"
@@ -82,9 +82,9 @@
  # Gilded (gold-leafed) silver. More common in Europe but could be found in East Asia.
  metal_silver_gilt:0 "plata dorada"
  # Extremely rare bronze alloy from antiquity. Manufacturing process unknomwn, statues made from it were more valuable than gold.
- metal_corinthian_bronze:0 "bronce runico" #AGOT Changed
+ metal_corinthian_bronze:0 "bronce runico" #AGOT Modificado
  # Alloy of gold, silver, copper, zinc, and iron. Sacred in Hinduism, used for making jewelery and decorating statues.
- metal_panchaloha:0 "metal Qaathi" #AGOT Changed
+ metal_panchaloha:0 "metal Qaathi" #AGOT Modificado
  # High-purity iron collected from meteorites. Auspicious in Tibetan culture, where it was known as 'thokcha'.
  metal_meteoric_iron:0 "hierro meteórico"
 
@@ -129,7 +129,7 @@
  # Widespread Regional - Subsaharan Africa
  wood_fleroya:0 "fleroya"
  wood_sycomore:0 "sicomoro"
- wood_padauk:0 "corazondorado" #AGOT Changed
+ wood_padauk:0 "corazondorado" #AGOT Modificado
 
  # Widespread Regional - India
  wood_sal:0 "madera de sal"
@@ -382,7 +382,7 @@
  feature_decoration_pattern_shield:0 "el escudo de armas de [Artifact.GetOwner.GetHouse.GetBaseName]"
  feature_decoration_pattern_dynasty_shield:0 "$feature_decoration_pattern_shield$"
  feature_decoration_pattern_dynasty_motifs:0 "temas del lema y escudo de armas de [Artifact.GetOwner.GetHouse.GetBaseName]"
- feature_decoration_pattern_beasts:0 "bestias antiguas" #AGOT Changed
+ feature_decoration_pattern_beasts:0 "bestias antiguas" #AGOT Modificado
  feature_decoration_pattern_religion:0 "símbolos religiosos"
  feature_decoration_pattern_quotes:0 "frases inspiradoras"
  feature_decoration_pattern_eschatology:0 "escenas escatológicas"
@@ -573,11 +573,11 @@
  feature_armor_helmet_great_helmet:0 "El conjunto incluye un gran yelmo y almófar de malla, acolchado con [Artifact.GetFeatureText( 'generic_material_cloth' )]"
  feature_armor_helmet_great_helmet_bascinet:0 "El conjunto incluye un gran yelmo y un bacinete para llevar por debajo"
  feature_armor_helmet_great_helmet_cervelliere:0 "El conjunto incluye un gran yelmo y una cervellera para llevar por debajo"
- feature_armor_helmet_turban_helmet:0 "El conjunto incluye un yelmo Qaathi y un almófar" #AGOT Changed
- feature_armor_helmet_lamellar:0 "El conjunto incluye un yelmo Sarnori con una pluma decorativa en la parte superior y un almófar" #AGOT Changed
+ feature_armor_helmet_turban_helmet:0 "El conjunto incluye un yelmo Qaathi y un almófar" #AGOT Modificado
+ feature_armor_helmet_lamellar:0 "El conjunto incluye un yelmo Sarnori con una pluma decorativa en la parte superior y un almófar" #AGOT Modificado
  feature_armor_helmet_kettle:0 "El conjunto incluye un capillo de hierro con una visera amplia"
  feature_armor_helmet_cervelliere:0 "El conjunto incluye una cervellera ajustada y almófar de malla, acolchado con [Artifact.GetFeatureText( 'generic_material_cloth' )]"
- feature_armor_helmet_kulah_khud:0 "El conjunto incluye un yelmo Rhoyn y un almófar" #AGOT Changed
+ feature_armor_helmet_kulah_khud:0 "El conjunto incluye un yelmo Rhoyn y un almófar" #AGOT Modificado
 
  feature_armor_decoration_etched_pattern:0 "La armadura entera está grabada con la imagen de [Artifact.GetFeatureText( 'decoration_pattern' )] repetida"
  feature_armor_decoration_inlay_pattern:0 "La armadura entera está decorada con incrustaciones de [Artifact.GetFeatureText( 'decoration_material_inlay' )] con una imagen repetida de [Artifact.GetFeatureText( 'decoration_pattern' )]"
@@ -641,15 +641,15 @@
  create_artifact_brooch_tooltip:0 "[inspiration_owner.GetShortUIName] ha creado un broche [SCOPE.Custom('ArtifactArticleWealth')|l] de [SCOPE.Custom('ArtifactQuality')] factura"
 
  ## fund_inspiration.6001-6006 trinkets from your adventurer
- morin_khuur_ornament_name:0 "Adorno de caballo Khalasar" #AGOT Changed
+ morin_khuur_ornament_name:0 "Adorno de caballo Khalasar" #AGOT Modificado
  morin_khuur_ornament_description:1 "Una cabeza de caballo tallada en un hueso de caballo, normalmente sobre un instrumento de cuerda morin juur. [inspiration_owner.GetTitledFirstNameNoTooltip] se lo envió a [owner.GetTitledFirstNameNoTooltip] en el transcurso de sus aventuras."
  animal_ring_name:0 "Anillo de tigre chillón"
  animal_ring_description:1 "Con joyas engastadas y demasiados colores, con él es más probable que ciegues a tus cortesanos en lugar de impresionarlos con tu sentido de la moda. [inspiration_owner.GetTitledFirstNameNoTooltip] se lo envió a [owner.GetTitledFirstNameNoTooltip] en el transcurso de sus aventuras."
  ostrich_shell_necklace_name:0 "Collar de cuentas de huevos de avestruz"
  ostrich_shell_necklace_description:1 "Una delicada alhaja de un color blanco brillante. [inspiration_owner.GetTitledFirstNameNoTooltip] se lo envió a [owner.GetTitledFirstNameNoTooltip] en el transcurso de sus aventuras."
- pilgrimage_figurine_name:0 "Figura de jibión de San Vardan" #AGOT Changed
+ pilgrimage_figurine_name:0 "Figura de jibión de San Vardan" #AGOT Modificado
  saint_margaret_fingernails_description:1 "El Laberinto del Creador de Patrones es un laberinto en Braavos que hay que recorrer para obtener sabiduría. Supuestamente, estas viejas y repugnantes uñas cortadas pertenecieron a la brillante mente que lo creó. Enviado a [owner.GetTitledFirstNameNoTooltip] por [inspiration_owner.GetTitledFirstNameNoTooltip] durante las aventuras de [inspiration_owner.GetHerHis]." #AGOT Cambiado
- saint_margaret_fingernails_name:0 "Las uñas del Creador de Patrones" #AGOT Changed
+ saint_margaret_fingernails_name:0 "Las uñas del Creador de Patrones" #AGOT Modificado
  saint_margaret_fingernails_description:1 "Santa Margarita de Antioquía se hizo famosa por matar un dragón con los tacones de sus zapatos. [inspiration_owner.GetTitledFirstNameNoTooltip] se las envió a [owner.GetTitledFirstNameNoTooltip] en el transcurso de sus aventuras."
  seahorse_brooch_name:0 "Broche dorado de caballito de mar"
  seahorse_brooch_description:1 "Un broche con un caballo alado y con cola de aleta, terminado en delicadas borlas encadenadas. [inspiration_owner.GetTitledFirstNameNoTooltip] se lo envió a [owner.GetTitledFirstNameNoTooltip] en el transcurso de sus aventuras."
@@ -658,10 +658,10 @@
  #fund_inspiration.6500- trinkets from your adventurer
  leopard_hat_name:0 "Gorro de leopardo."
  leopard_hat_description:0 "Un gorro hecho a partir de la cabeza de un leopardo, derribado por [inspiration_owner.GetTitledFirstName]."
- kurgan_ornament_name:0 "Figurita de pantera" #AGOT Changed
- kurgan_ornament_description:0 "Estatuilla de piedra saqueada por [inspiration_owner.GetTitledFirstName] de un antiguo túmulo funerario." #AGOT Changed
+ kurgan_ornament_name:0 "Figurita de pantera" #AGOT Modificado
+ kurgan_ornament_description:0 "Estatuilla de piedra saqueada por [inspiration_owner.GetTitledFirstName] de un antiguo túmulo funerario." #AGOT Modificado
  kurgan_saddle_name:0 "Silla de un kurgan"
- kurgan_silla_description:1 "Una silla de montar robada por [inspiration_owner.GetTitledFirstName] de un antiguo túmulo. Con más de mil años de antigüedad, se ha conservado en el aire atrapado de la tumba, entre los cuerpos de docenas de caballos embalsamados. Quizá podamos aprender algo de las costumbres de los antiguos guerreros de la silla". #AGOT Changed
+ kurgan_silla_description:1 "Una silla de montar robada por [inspiration_owner.GetTitledFirstName] de un antiguo túmulo. Con más de mil años de antigüedad, se ha conservado en el aire atrapado de la tumba, entre los cuerpos de docenas de caballos embalsamados. Quizá podamos aprender algo de las costumbres de los antiguos guerreros de la silla". #AGOT Modificado
  naked_tapestry_name:0 "Tapiz de desnudeces"
  naked_tapestry_description:0 "Una representación de [inspiration_owner.GetTitledFirstName] al desnudo en un oasis playero, abanicándose con una hoja y resplandeciendo con gotas cristalinas."
 
@@ -998,7 +998,7 @@
 artifact_chinese_caligraphy_name:1 "Caligrafía YiTish" #AGOT Cambiado
  artifact_chinese_caligraphy_description:0 "Este delicado trozo de papel está cubierto de símbolos extraños, aunque bellos y muy exactos. Se dice que procede de las tierras de Yi Ti, en el lejano oriente." #AGOT Cambiado
  artifact_ruyi_name:0 "Cetro de Jade" #AGOT Modificado
- artifact_ruyi_description:0 "Se trata de un pequeño cetro de jade, cubierto de símbolos y adornos YiTish." #AGOT Changed
+ artifact_ruyi_description:0 "Se trata de un pequeño cetro de jade, cubierto de símbolos y adornos YiTish." #AGOT Modificado
  turquoise_throne_name:0 "Trono de turquesa"
  turquoise_throne_description:0 "Este trono real enjoyado está hecho a imagen y semejanza del legendario trono de los reyes persas del Shahnama. Su estructura de ébano está adornada por una incontable cantidad de turquesas, así como de placas de oro puro esmaltadas en turquesa. Solo los mejores artesanos de cada campo pudieron darle su impresionante belleza."
  peacock_throne_name:0 "Trono de Pavo Real"
@@ -1041,17 +1041,17 @@ artifact_chinese_caligraphy_name:1 "Caligrafía YiTish" #AGOT Cambiado
  stewardship_general.2001.artifact.potsherd_holy.desc:0 "Un tiesto antiguo. Se dice que viene del lugar sagrado de [trinket_holy_site.GetNameNoTierNoTooltip]."
  small_bell_beaker:0 "Vasito campaniforme"
  small_bell_beaker.desc:0 "Un vaso campaniforme de diseño intricado."
- serpentine_budai:0 "León de Jade" #AGOT Changed
- serpentine_budai.desc:0 "La pequeña figurade un feroz león oriental que gruñe" #AGOT Changed
+ serpentine_budai:0 "León de Jade" #AGOT Modificado
+ serpentine_budai.desc:0 "La pequeña figurade un feroz león oriental que gruñe" #AGOT Modificado
  #Uncommon
  mythical_creature_horn:0 "Cuerno de [ROOT.Char.Custom('HornedMythicalCreature')]"
  mythical_creature_horn.desc:0 "Un trozo de cuerno de forma dudosa, supuestamente del animal mitológico [ROOT.Char.Custom('HornedMythicalCreature')]."
  mythical_creature_figurine:0 "Figurita [ROOT.Char.Custom('TrinketLookAdjective')] de [ROOT.Char.Custom('RegionalMythicalCreature')]"
  mythical_creature_figurine.desc:1 "Esta figurita que representa al/a la [SCOPE.Custom('RegionalMythicalCreatureLower')] [new_trinket.Custom('ArtifactAnimalAdjective')] parece estar [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')] con piedrecitas preciosas relucientes, propias de [target_location.GetNameNoTooltip]."
- st_davids_taper:1 "Vela de la Arpía" #AGOT Changed
+ st_davids_taper:1 "Vela de la Arpía" #AGOT Modificado
  st_davids_taper.desc:1 "Parece que alguien intentó prenderla por ambos extremos."
- jira_stick:0 "Cetro de mármol de Lyber" #AGOT Changed
- jira_stick.desc:0 "Un cetro antiguo que representa una araña y una serpiente en guerra." #AGOT Changed
+ jira_stick:0 "Cetro de mármol de Lyber" #AGOT Modificado
+ jira_stick.desc:0 "Un cetro antiguo que representa una araña y una serpiente en guerra." #AGOT Modificado
  lucky_coin:0 "Moneda [ROOT.Char.GetCulture.GetNameNoTooltip] de la suerte"
  lucky_coin.desc:1 "Una moneda [ROOT.Char.GetCulture.GetNameNoTooltip], propia de [target_location.GetNameNoTooltip].\n\nLa superficie antaño acuñada es ahora lisa debido a los constantes manoseos e intercambios."
  lavender_jade_pendant:0 "Colgante de jade lavanda"
@@ -1067,14 +1067,14 @@ artifact_chinese_caligraphy_name:1 "Caligrafía YiTish" #AGOT Cambiado
  easteregg_artifact_elisabeth_plush_description:0 "El zorro de peluche de Elisabeth es un juguete muy querido que estuvo con ella durante casi toda su vida. A menudo se veía a Elisabeth hablar con él mientras tejía intrincadas claves para quien contratara sus servicios. Es reconfortante e inspira a su poseedor a imitar la astucia del zorro."
  easteregg_artifact_nicks_weapon:0 "Amistad"
  easteregg_artifact_nicks_weapon_description:0 "Un arma verdaderamente magnífica, que hará que señores y damas se desmayen en su presencia. Una pequeña inscripción en la empuñadura reza «Para cuando la sutileza falla»."
- easteregg_artifact_chad_book:0 "El confin del mundo anotado" #AGOT Changed
+ easteregg_artifact_chad_book:0 "El confin del mundo anotado" #AGOT Modificado
  easteregg_artifact_chad_book_description:0 "Un ejemplar bien amado e iluminado de El confín del mundo, del maestre Balder, empañado por muchos garabatos, algunos inanes, otros perspicaces." #AGOT Cambiado
  easteregg_artifact_chad_dagger:0 "La daga"
  easteregg_artifact_chad_dagger_description:0 "Su lustre está apagado por las manchas de sangre seca, aunque tiene sed de más."
  easteregg_artifact_veronica_book:0 "Los anillos del Señor"
- easteregg_artifact_veronica_book_description:0 "Una referencia apenas velada, en forma de libro. Escrita en una lengua perdida más allá del mar". #AGOT Changed
+ easteregg_artifact_veronica_book_description:0 "Una referencia apenas velada, en forma de libro. Escrita en una lengua perdida más allá del mar". #AGOT Modificado
 
- easteregg_artifact_jason_sword:0 "La espada del ratón" #AGOT Changed
+ easteregg_artifact_jason_sword:0 "La espada del ratón" #AGOT Modificado
  easteregg_artifact_jason_sword_description:0 "A lo largo de la acanaladura de la espada, alguien ha rayado desordenadamante las palabras «Soy lo que es»."
 
  child_toy_template_tt:0 "Debe ser [child|lE] para equiparse como [inventory_artifact|lE]"
@@ -1082,3 +1082,89 @@ artifact_chinese_caligraphy_name:1 "Caligrafía YiTish" #AGOT Cambiado
  # Blessed Junk
  fp2_blessed_junk:0 "$blessed_artifact_modifier$[ROOT.Char.Custom('TrinketLookAdjective')]"
  fp2_blessed_junk_desc:0 "Un artefacto [ROOT.Char.Custom('TrinketLookAdverbFollowup')] [ROOT.Char.Custom('TrinketLookAdjective')] aunque, por lo demás, inútil, $blessed_artifact_modifier_desc$."
+
+ 
+ local_artisan_modifier:0 "Artesano local"
+ local_artisan_modifier_desc:0 "Este personaje es un artesano local persuadido para servir a un gobernante noble.\n#weak Las [inspirations|lE] que realice serán de menor calidad.#!"
+
+ # EP2
+ # TOURNAMENT
+ artifact_pas_darmes_token:0 "Prenda de paso de armas"
+ artifact_pas_darmes_token_name:0 "Prenda de [owner.GetFirstNameNoTooltip]"
+ artifact_pas_darmes_token_description:0 "[owner.Custom('GetTournamentFavor')|U] de [SCOPE.Custom('ArtifactQuality')|U] factura de [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] de [owner.GetFullName], adornado con [newly_created_artifact.GetFeatureText( 'decoration_pattern' )], entregado a [winner.GetFullName] en un paso de armas en [location.GetName]."
+ artifact_pas_darmes_spurs:0 "Trofeo del paso de armas"
+ artifact_pas_darmes_spurs_name:0 "Espuelas de [owner.GetFirstNameNoTooltip]"
+ artifact_pas_darmes_spurs_description:0 "Un par de espuelas de [newly_created_artifact.GetFeatureText( 'generic_material_metal' )] de [SCOPE.Custom('ArtifactQuality')] factura propiedad de [owner.GetFullName], rendidas a [winner.GetFullName] en un paso de armas en [location.GetName]."
+ artifact_tournament_favor:0 "Favor de torneo"
+ artifact_tournament_favor_name:0 "Favor de un[owner.Custom('ES_XA')] [owner.GetLadyLord|U]"
+ artifact_tournament_favor_description:0 "Un [owner.Custom('GetTournamentFavor')] de [SCOPE.Custom('ArtifactQuality')] factura de [newly_created_artifact.GetFeatureText( 'generic_material_cloth' )] de [owner.GetFullName], adornado con [newly_created_artifact.GetFeatureText( 'decoration_pattern' )], entregado a [winner.GetFullName] por alguien que [winner.GetHerHim] admira."
+ # BOWS
+ artifact_longbow:0 "Arco largo"
+ artifact_longbow_name:0 "Arco largo $artifact_name_prefix_owner_culture$"
+ artifact_longbow_description:1 "Un arco largo propio de factura [SCOPE.Custom('ArtifactQuality')], tallado en [newly_created_artifact.GetFeatureText( 'longbow_wood' )] de elástica albura y duramen rígido, y encordado con [newly_created_artifact.GetFeatureText( 'bow_string' )]. Más alto que un hombre, pocos arcos pueden igualar su peso de tracción."
+ artifact_composite:0 "Arco compuesto"
+ artifact_composite_name:0 "Arco compuesto $artifact_name_prefix$"
+ artifact_composite_description:0 "Un arco compuesto de factura [SCOPE.Custom('ArtifactQuality')] de [newly_created_artifact.GetFeatureText( 'composite_wood' )], reforzado con cuerno de [newly_created_artifact.GetFeatureText( 'composite_horn' )] y tendón, y encordado con [newly_created_artifact.GetFeatureText( 'bow_string' )]. Su corta envergadura lo hace ideal para disparar desde la silla de montar."
+ artifact_bow:0 "Arco"
+ artifact_bow_name:0 "Arco $artifact_name_prefix$"
+ artifact_bow_description:1 "Un arco propio de factura [SCOPE.Custom('ArtifactQuality')] de [newly_created_artifact.GetFeatureText( 'bow_wood' )], encordado con [newly_created_artifact.GetFeatureText( 'bow_string' )], útil tanto en las cacerías como en la guerra."
+ artifact_crossbow:0 "Ballesta"
+ artifact_crossbow_name:0 "Ballesta $artifact_name_prefix$"
+ artifact_crossbow_description:0 "Una ballesta de factura [SCOPE.Custom('ArtifactQuality')] armada en [newly_created_artifact.GetFeatureText( 'bow_wood' )], con hierros arqueados que tiran de tendones. Extremadamente potente y capaz de mantenerse cargada, pero lenta de recargar."
+ feature_longbow_wood_elm:0 "$feature_bow_wood_elm$"
+ feature_longbow_wood_yew:0 "$feature_bow_wood_yew$"
+ feature_composite_wood_bamboo:1 "$feature_bow_wood_bamboo$"
+ feature_composite_wood_maple:0 "$feature_bow_wood_maple$"
+ feature_composite_wood_mulberry:0 "$feature_bow_wood_mulberry$"
+ feature_composite_horn_antelope:1 "$animal_type_antelope_plural$"
+ feature_composite_horn_bison:1 "$animal_type_bison_plural$"
+ feature_composite_horn_deer:1 "$animal_type_buck_plural$"
+ feature_composite_horn_gazelle:0 "$animal_type_gazelle_plural$"
+ feature_composite_horn_aurochs:0 "$animal_type_aurochs_plural$"
+ feature_bow_wood_ash:0 "$wood_ash$"
+ feature_bow_wood_bamboo:0 "bambú"
+ feature_bow_wood_cherry:0 "cerezo"
+ feature_bow_wood_dogwood:0 "cornejo"
+ feature_bow_wood_elm:0 "$wood_elm$"
+ feature_bow_wood_hazel:0 "avellano"
+ feature_bow_wood_hickory:0 "nogal"
+ feature_bow_wood_maple:0 "$wood_maple$"
+ feature_bow_wood_mulberry:0 "zarzamora"
+ feature_bow_wood_palm:0 "palma"
+ feature_bow_wood_oak:0 "$wood_oak$"
+ feature_bow_wood_walnut:0 "$wood_walnut$"
+ feature_bow_wood_yew:0 "$wood_yew$"
+ feature_bow_string_hemp:0 "fibra de cáñamo"
+ feature_bow_string_horse_hair:0 "pelo de caballo"
+ feature_bow_string_linen:0 "$cloth_linen$"
+ feature_bow_string_rawhide:0 "cuero sin curtir"
+ feature_bow_string_silk:0 "$cloth_silk$"
+ feature_bow_string_sinew:0 "tendón animal"
+
+ tournament_favor_glove:0 "guante"
+ tournament_favor_sleeve:0 "manguito"
+ tournament_favor_scarf:0 "pañuelo"
+
+ blooded_blade:0 "Cuchillo ensangrentado"
+ blooded_blade_description:0 "Los patrones en espiral y dentados de esta arma son indicadores sutiles de la relativa fragilidad de la hoja, pero también de su herencia: un arma templada en la sangre de [ROOT.Char.GetTitledFirstName|l]."
+ sullied_blooded_blade:0 "Hoja embotada"
+ sullied_blooded_blade_description:0 "Los patrones en espiral y dentados de esta arma son indicadores sutiles de la mala calidad general de la hoja, pero también de su herencia: un arma templada en la sangre de [ROOT.Char.GetTitledFirstName|l]."
+
+ fake_papal_tiara_name:0 "Tiara papal falsa"
+ fake_papal_tiara_description:0 "Una réplica imponente de una mitra papal que tal vez no resista una inspección minuciosa. Aún así, resulta un poco divertida, ¿no?"
+
+ artisanal_sword:0 "Espada de [ROOT.Char.GetFirstName]"
+ artisanal_sword_description:0 "Una espada bellamente forjada, cuyo pomo enjoyado complementa una empuñadura atractiva pero robusta. La hoja patronada está perfectamente equilibrada y su punta se estrecha perforante hasta desaparecer."
+ feature_generic_material_metal_gold:0 "$metal_gold$"
+ feature_generic_material_metal_silver:0 "$metal_silver$"
+ feature_generic_material_metal_electrum:0 "$metal_electrum$"
+ feature_generic_material_metal_iron:0 "$metal_iron$"
+ feature_generic_material_metal_pewter:0 "$metal_pewter$"
+ feature_generic_material_metal_brass:0 "$metal_brass$"
+ feature_generic_material_metal_steel:0 "$metal_steel$"
+ feature_generic_material_metal_bronze:0 "$metal_bronze$"
+ feature_generic_material_metal_copper:0 "$metal_copper$"
+ feature_generic_material_earthware_clay:0 "$earthware_clay$"
+ feature_generic_material_earthware_terracotta:0 "$earthware_terracotta$"
+ feature_generic_material_earthware_stone:0 "$earthware_stone$"
+ feature_generic_material_earthware_porcelain:0 "$earthware_porcelain$"
