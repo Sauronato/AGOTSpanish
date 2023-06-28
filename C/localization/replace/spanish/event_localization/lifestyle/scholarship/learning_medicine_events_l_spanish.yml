@@ -121,7 +121,7 @@
  learning_medicine.2030.b:0 "[confider_target_2.GetFirstNameNoTooltip] sabe escuchar."
  learning_medicine.2030.c:0 "Podemos guardar mutuamente los secretos más oscuros de cada uno."
  learning_medicine.2030.d:0 "Confiar en los demás sería solo me haría más débil."
- learning_medicine.2030.c.tt:0 "Si [confider_target.GetShortUIName] tiene un [secret|lE], me lo revelará"
+ learning_medicine.2030.c.tt:0 "Si [confider_target.GetShortUIName] tiene un [secret|E], me lo revelará"
  learning_medicine.2030.c.message:0 "[confider_target.GetFirstNameNoTooltip] revela un secreto"
 
  #Healthy coping mechanism: journaller or athletic, by Mathilda Bjarnehed
@@ -182,21 +182,21 @@
  learning_medicine.2110.t:0 "Vino de los Brujos"
  learning_medicine.2110.desc:0 "Mi séquito y yo estamos paseando de vuelta de una breve incursión en [capital.GetNameNoTooltip], cuando inesperadamente nos encontramos con [hashish_vassal_or_liege.Custom2('MyCharacterIntroduction', ROOT.Char)] y [hashish_vassal_or_liege.GetHerHis] séquito, merodeando por mi capital por negocios no anunciados.\n\n"
  #AGOT Modificado
- # learning_medicine.2110.desc_good_terms:0 ""¡Ah, [ROOT.Char.GetFirstNameNoTooltip]! Esperaba encontrarme contigo. Ven, he encontrado la taberna más encantadora a poca distancia de aquí. ¿Te gustaría acompañarme a tomar algo [ROOT.Char.Custom('GetExpensiveDrink')] y pasteles con hachís?""
- learning_medicine.2110.desc_good_terms:0 ""¡Ah, [ROOT.Char.GetFirstNameNoTooltip]! Esperaba encontrarme contigo. Ven, he encontrado la taberna más encantadora a poca distancia de aquí. ¿Te gustaría unirte a mí para una degustación de #italic shade-of-the-evening#!?""
+ # learning_medicine.2110.desc_good_terms:0 "¡Ah, [ROOT.Char.GetFirstNameNoTooltip]! Esperaba encontrarme contigo. Ven, he encontrado la taberna más encantadora a poca distancia de aquí. ¿Te gustaría acompañarme a tomar algo [ROOT.Char.Custom('GetExpensiveDrink')] y pasteles con hachís?"
+ learning_medicine.2110.desc_good_terms:0 "¡Ah, [ROOT.Char.GetFirstNameNoTooltip]! Esperaba encontrarme contigo. Ven, he encontrado la taberna más encantadora a poca distancia de aquí. ¿Te gustaría unirte a mí para una degustación de #italic shade-of-the-evening#!?"
  #AGOT Modified
  # learning_medicine.2110.desc_bad_terms:0 "La tensión en el aire es palpable, nuestros respectivos guardias se erizan en busca de pelea. "Mi señor", chirría un joven soldado nervioso detrás de mí, "¿quizás podríamos calmarnos todos con unos pasteles de hachís en esa pequeña taberna de ahí?" \n\nEl silencio se apodera de nuestros dos grupos mientras [hashish_vassal_or_liege.GetFirstNameNoTooltip] espera mi respuesta."
  learning_medicine.2110.desc_bad_terms:0 "La tensión en el aire es palpable, nuestros respectivos guardias ambos erizados para una pelea. "Mi señor", chirría un joven soldado nervioso detrás de mí, "¿quizá podríamos calmarnos tomando algo de sombra en esa pequeña taberna de ahí?" \n\nEl silencio se apodera de nuestros dos grupos mientras [hashish_vassal_or_liege.GetFirstNameNoTooltip] espera mi respuesta."
  #AGOT Modificado
- #aprendizaje_medicina.2110 .desc_neutral_terms:0 "Pillado por sorpresa, transcurren unos instantes de incómodo silencio antes de que los ojos de [hashish_vassal_or_liege.GetFirstNamePossessiveNoTooltip] se posen en algo que hay detrás de mí. \n\nAh, mi [hashish_vassal_or_liege.Custom2('RelationToMe', ROOT.Char)], ¿quizás te gustaría acompañarme a olvidar esto mientras tomamos unos [ROOT.Char.Custom('GetExpensiveDrink')] pasteles con hachís?".
- learning_medicine.2110 .desc_neutral_terms:0 "Pillado por sorpresa, transcurren unos instantes de incómodo silencio antes de que los ojos de [hashish_vassal_or_liege.GetFirstNamePossessiveNoTooltip] se posen en algo que hay detrás de mí. \n\n"Ah, mi [hashish_vassal_or_liege.Custom2('RelationToMe', ROOT.Char)], ¿quizá quieras olvidarte de todo esto con un poco de #italic shade-of-the-evening#!?".
+ #aprendizaje_medicina.2110 .desc_neutral_terms:0 "Pillado por sorpresa, transcurren unos instantes de incómodo silencio antes de que los ojos de [hashish_vassal_or_liege.GetFirstNamePossessiveNoTooltip] se posen en algo que hay detrás de mí. \n\nAh, mi [hashish_vassal_or_liege.Custom2('RelationToMe', ROOT.Char)], ¿quizás te gustaría acompañarme a olvidar esto mientras tomamos unos [ROOT.Char.Custom('GetExpensiveDrink')] pasteles con hachís?."
+ learning_medicine.2110 .desc_neutral_terms:0 "Pillado por sorpresa, transcurren unos instantes de incómodo silencio antes de que los ojos de [hashish_vassal_or_liege.GetFirstNamePossessiveNoTooltip] se posen en algo que hay detrás de mí. \n\n"Ah, mi [hashish_vassal_or_liege.Custom2('RelationToMe', ROOT.Char)], ¿quizá quieras olvidarte de todo esto con un poco de #italic shade-of-the-evening#!?."
  learning_medicine.2110.a.good_terms:0 "Me disculparéis, pero debo seguir mi camino."
  learning_medicine.2110.a.bad_terms:0 "¿Con es[hashish_vassal_or_liege.Custom('ES_EA')] bellac[hashish_vassal_or_liege.Custom('ES_OA')]? ¡Jamás!"
  learning_medicine.2110.a.neutral_terms:0 "Me temo que debo ir a otra parte."
  learning_medicine.2110.b.good_terms:0 "Me podrían persuadir para ceder un poco…"
 #AGOT Modificado
- #aprendizaje_medicina.2110.b.malos_terminos:0 "Bien. Pero #EMP sólo un pastel#!".
- learning_medicine.2110.b.bad_terms:0 "Bien. Pero #EMP sólo un sorbo o dos#!".
+ #aprendizaje_medicina.2110.b.malos_terminos:0 "Bien. Pero #EMP sólo un pastel#!."
+ learning_medicine.2110.b.bad_terms:0 "Bien. Pero #EMP sólo un sorbo o dos#!."
  #AGOT Modificado
  # learning_medicine.2110.b.neutral_terms:0 "Quizás podríamos tomar un pastel o dos..."
  learning_medicine.2110.b.neutral_terms:0 "Tal vez podríamos tomar unos sorbos..."

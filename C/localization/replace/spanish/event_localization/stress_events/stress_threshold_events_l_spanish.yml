@@ -1,10 +1,10 @@
 ﻿l_spanish:
- stress_threshold_cooldown_message:1 "Si sigues [Concept( 'stressed', 'estresad' )|E][ROOT.Char.Custom('ES_OA')] durante [SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] años, puedes sufrir otro [mental_break|lE]"
+ stress_threshold_cooldown_message:1 "Si sigues [Concept( 'stressed', 'estresad' )|E][ROOT.Char.Custom('ES_OA')] durante [SCOPE.ScriptValue('stress_threshold_cooldown_duration_in_years')|V0] años, puedes sufrir otro [mental_break|E]"
 
  # System Messages
- stress_threshold.0010.toast:2 "Adquieres un [stress_level|lE]"
- stress_threshold.0010.text:0 "El [stress|lE] ha podido contigo."
- stress_threshold.0400.toast:2 "Has superado tu límite de [stress|lE] y lo has dejado al [stress_level|lE] 3"
+ stress_threshold.0010.toast:2 "Adquieres un [stress_level|E]"
+ stress_threshold.0010.text:0 "El [stress|E] ha podido contigo."
+ stress_threshold.0400.toast:2 "Has superado tu límite de [stress|E] y lo has dejado al [stress_level|E] 3"
 
  # Level 1 Stress Events
  stress_threshold.1001.t:0 "Ataque de nervios: pensamientos oscuros"
@@ -168,7 +168,7 @@
  stress_threshold.2201.desc_liege:0 "«¿Qué os ha dado, [ROOT.Char.GetTitledFirstNameNoTooltip]? Este comportamiento es inaceptable."
  stress_threshold.2201.desc_vassal:0 "«Mi [ROOT.Char.Custom('ES_SennorSennora')], ¿qué significa este comportamiento?"
  stress_threshold.2201.desc.calm:0 " Y, normalmente, mostráis tanta calma»."
- stress_threshold.2201.desc.ending:0 """
+ stress_threshold.2201.desc.ending:0 ""
  stress_threshold.2201.a:0 "¡Ya me habéis oído!"
  stress_threshold.2201.save:0 "Decidme, ¿cómo responderíais ante tal ataque?"
  stress_threshold.2201.save_tt:0 "Finjo que solo [character_to_yell_at.GetHerHim] estaba probando"
