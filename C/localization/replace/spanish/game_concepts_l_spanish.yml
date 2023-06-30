@@ -2117,18 +2117,18 @@
 
  game_concept_accolade:0 "Galardón"
  game_concept_accolades:0 "Galardones"
- game_concept_accolade_desc:5 "Los galardones son honores que concede a los [knights|E] su [liege|E].\n\nEl caballero que luzca un galardón se convierte en un [acclaimed_knight|E].\n\nA medida que este gane [glory|E], aumentará el [accolade_rank|E] de sus [accolade_types|E], lo cual conferirá bonificaciones más potentes a su señor.\n\nCuando los caballeros aclamados mueren, se reemplazan mediante un [accolade_succession|E].\n\nLas [innovations|E] y los [title_tiers|E] más altos permiten a los [rulers|E] tener más galardones a la vez."
+ game_concept_accolade_desc:5 "Los galardones son honores que concede a los [knights|E] su [liege|E].\n\nEl caballero que luzca un galardón se convierte en un [acclaimed_knight|E].\n\nA medida que este gane [glory|E], aumentará el [accolade_rank|E] de sus [accolade_types|E], lo cual conferirá bonificaciones más potentes a su señor.\n\nCuando los capitanes aclamados mueren, se reemplazan mediante un [accolade_succession|E].\n\nLas [innovations|E] y los [title_tiers|E] más altos permiten a los [rulers|E] tener más galardones a la vez."
 
- game_concept_acclaimed_knight:0 "Caballero aclamado"
- game_concept_acclaimed_knights:0 "Caballeros aclamados"
- game_concept_acclaimed_knight_desc:1 "El [knight|E] que ostenta un [accolade|E].\n\nPara conseguir que lo aclamen, un caballero debe [Concept( 'unlanded', 'carecer de títulos' )|E] o ser un [baron|E], con al menos una [prowess|E] de [EmptyScope.ScriptValue('accolade_prowess_requirement_value')|0V].\n\nUn caballero aclamado debe ser elegible para dos [accolade_types|E], ninguno de lo cuales puede pertenecer ya a otro de los caballeros aclamados de su [liege|E]."
+ game_concept_acclaimed_knight:0 "Capitán aclamado"
+ game_concept_acclaimed_knights:0 "Capitanes aclamados"
+ game_concept_acclaimed_knight_desc:1 "El [knight|E] que ostenta un [accolade|E].\n\nPara conseguir que lo aclamen, un caballero debe [Concept( 'unlanded', 'carecer de títulos' )|E] o ser un [baron|E], con al menos una [prowess|E] de [EmptyScope.ScriptValue('accolade_prowess_requirement_value')|0V].\n\nUn capitán aclamado debe ser elegible para dos [accolade_types|E], ninguno de lo cuales puede pertenecer ya a otro de los capitanes aclamadoss de su [liege|E]."
 
  game_concept_accolade_type:0 "Atributo de galardón"
  game_concept_accolade_types:0 "Atributos de galardón"
  game_concept_accolade_type_desc:1 "Un [accolade|E] tiene un atributo principal y otro secundario, que dan bonificaciones a medida que aumenta el [accolade_rank|E].\n\nCada posible [acclaimed_knight|E] solo puede optar a ciertos atributos, la mayoría basados en sus [traits|E]. En un [accolade_succession|E], el nuevo caballero debe contar con el atributo principal, pero el secundario se puede cambiar, a costa de perder [glory|E]. Además, si un atributo da acceso a los [retinue_maa|E], solo lo hará si es el principal. \n\nCada galardón debe tener dos atributos únicos. Un señor #high no puede#! duplicar atributos de distintos galardones."
 
  game_concept_accolade_succession:0 "Traspaso de galardones"
- game_concept_accolade_succession_desc:1 "El traspaso de galardones se da cuando el [acclaimed_knight|E] de un [accolade|E] muere o deja de ser válido para el cometido.\n\nEl caballero aclamado se ve sustituido por su sucesor, que debe ser apto para el [accolade_type|E] principal. El atributo secundario se puede cambiar, con la consiguiente pérdida de [glory|E]\n\nSi no hay sucesores dignos en la corte, se puede usar la decisión #high $call_for_acclaimed_knight_candidates_decision$#! para invitar a candidatos propicios."
+ game_concept_accolade_succession_desc:1 "El traspaso de galardones se da cuando el [acclaimed_knight|E] de un [accolade|E] muere o deja de ser válido para el cometido.\n\nEl capitán aclamado se ve sustituido por su sucesor, que debe ser apto para el [accolade_type|E] principal. El atributo secundario se puede cambiar, con la consiguiente pérdida de [glory|E]\n\nSi no hay sucesores dignos en la corte, se puede usar la decisión #high $call_for_acclaimed_knight_candidates_decision$#! para invitar a candidatos propicios."
 
  game_concept_accolade_rank:0 "Grado de galardón"
  game_concept_accolade_ranks:0 "Grados de galardón"
@@ -2136,10 +2136,10 @@
  game_concept_accolade_rank_desc:1 "Un [accolade|E] tiene #value 6#! grados progresivos que desbloquean bonificaciones específicas de sus [accolade_types|E], como los [knight_army_modifiers|E].\n\nGanar [glory|E] desbloquea cada grado, mientras que perderla puede causar que te vayas quedando sin estos.\n\nLos grados impares los proporciona el atributo primario del galardón, mientras que los secundarios dan los pares."
 
  game_concept_inactive_accolade:0 "Galardón inactivo"
- game_concept_inactive_accolade_desc:1 "Los [accolades|E] se quedan inactivos si dejan de valer.\n\nUn galardón se vuelve inactivo si:\n$EFFECT_LIST_BULLET$El [acclaimed_knight|E] o su [ruler|E] dejan de cumplir los requisitos de su [accolade_type|E]\n$EFFECT_LIST_BULLET$El caballero aclamado muere o abandona la [court|E] de su gobernante sin dejar sucesor\n$EFFECT_LIST_BULLET$El [ruler|E] lo retira por su propia mano"
+ game_concept_inactive_accolade_desc:1 "Los [accolades|E] se quedan inactivos si dejan de valer.\n\nUn galardón se vuelve inactivo si:\n$EFFECT_LIST_BULLET$El [acclaimed_knight|E] o su [ruler|E] dejan de cumplir los requisitos de su [accolade_type|E]\n$EFFECT_LIST_BULLET$El capitán aclamado muere o abandona la [court|E] de su gobernante sin dejar sucesor\n$EFFECT_LIST_BULLET$El [ruler|E] lo retira por su propia mano"
 
  game_concept_glory:0 "Gloria"
- game_concept_glory_desc:1 "La gloria de un [accolade|E] aumenta su [accolade_rank|E].\n\nUn [acclaimed_knight|E] consigue gloria ganando [battles|E], derrotando a guerreros, participando en [contests|E] de [GetActivityType( 'activity_tournament' ).GetName|l]s y asistiendo a [activities|E].\n\nSin embargo, la gloria del galardón se reduce cuando el caballero aclamado participa en batallas que terminan en derrota, se da un [accolade_succession|E] y cuando el galardón se convierte en un [inactive_accolade|E]."
+ game_concept_glory_desc:1 "La gloria de un [accolade|E] aumenta su [accolade_rank|E].\n\nUn [acclaimed_knight|E] consigue gloria ganando [battles|E], derrotando a guerreros, participando en [contests|E] de [GetActivityType( 'activity_tournament' ).GetName|l]s y asistiendo a [activities|E].\n\nSin embargo, la gloria del galardón se reduce cuando el capitán aclamado participa en batallas que terminan en derrota, se da un [accolade_succession|E] y cuando el galardón se convierte en un [inactive_accolade|E]."
 
  game_concept_retinue_maa:0 "Hombres de armas del séquito"
  game_concept_retinue_maa_desc:0 "Algunos [accolade_types|E] dan acceso a [men_at_arms|E] especiales. Estos se desbloquean teniendo un [acclaimed_knight|E] que haya hecho progresos en la [trait_level_track|E] relevante como [GetTrait('tourney_participant').GetName( GetNullCharacter )|l] o tenga el [commander_trait|E] pertinente.\n\nLos hombres de armas del séquito están restringidos a un [regiment|E] y tienen un número limitado de tropas. Son el doble de eficaces a la hora de contrarrestar a otros hombres de armas y mejoran con cada era que pasa."
