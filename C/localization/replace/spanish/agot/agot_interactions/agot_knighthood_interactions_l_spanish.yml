@@ -1,178 +1,178 @@
 ﻿l_spanish:
- agot_offer_knighthood_interaction: "Ofrecer título de caballero" #NT!
- agot_offer_knighthood_interaction_desc: "[recipient.GetFirstNameNicknamedNoTooltipRegnal] aún no es caballero, pero puede serlo. Como cualquier caballero puede hacer caballero, estoy en condiciones de hacerlo caballero." #NT!
+ agot_offer_knighthood_interaction: "Ofrecer título de caballero"
+ agot_offer_knighthood_interaction_desc: "[recipient.GetFirstNameNicknamedNoTooltipRegnal] aún no es caballero, pero puede serlo. Como cualquier caballero puede hacer caballero, estoy en condiciones de hacerlo caballero."
   
- offer_of_knighthood: "Oferta de caballería" #NT!
- OFFER_KNIGHTHOOD_NOTIFICATION: "Se dice que cualquier caballero puede hacer caballero a otro hombre. He notado que aún no eres un caballero. Estaría feliz de corregir este error y otorgarle el título de caballero." #NT!
+ offer_of_knighthood: "Oferta de caballería"
+ OFFER_KNIGHTHOOD_NOTIFICATION: "Se dice que cualquier caballero puede hacer caballero a otro hombre. He notado que aún no eres un caballero. Estaría feliz de corregir este error y otorgarle el título de caballero."
   
- agot_offer_squirehood_interaction: "educar escudero" #NT!
- agot_offer_squirehood_interaction_desc: "Designe un [squire|E] y un [agot_knight|E] en su [court|E]" #NT!
- agot_offer_squirehood_interaction_extra_icon: "$hook_extra_icon$" #NT!
- actor_secondary_agot_offer_squirehood_interaction: "[agot_knight|E]" #NT!
- recipient_secondary_agot_offer_squirehood_interaction: "[squire|E]" #NT!
- agot_offer_squirehood_interaction_notification: "educar escudero" #NT!
+ agot_offer_squirehood_interaction: "Educar escudero"
+ agot_offer_squirehood_interaction_desc: "Designe un [squire|E] y un [agot_knight|E] en su [court|E]"
+ agot_offer_squirehood_interaction_extra_icon: "$hook_extra_icon$"
+ actor_secondary_agot_offer_squirehood_interaction: "[agot_knight|E]"
+ recipient_secondary_agot_offer_squirehood_interaction: "[squire|E]"
+ agot_offer_squirehood_interaction_notification: "Educar escudero"
   
- agot_offer_squire_interaction: "oferta escudero" #NT!
- agot_offer_squire_interaction_desc: "Ofrezca [recipient.GetShortUIName] a [squire|E], haciendo [recipient.GetHerHim], o alguien en [recipient.GetHerHis] [court|E], el [agot_knight|E] del personaje elegido." #NT!
- agot_offer_squire_interaction_extra_icon: "$hook_extra_icon$" #NT!
+ agot_offer_squire_interaction: "Oferta escudero"
+ agot_offer_squire_interaction_desc: "Ofrezca [recipient.GetShortUIName] a [squire|E], haciendo [recipient.GetHerHim], o alguien en [recipient.GetHerHis] [court|E], el [agot_knight|E] del personaje elegido."
+ agot_offer_squire_interaction_extra_icon: "$hook_extra_icon$"
   
- agot_offer_knight_education_interaction: "Ofrece tutela de caballero" #NT!
- agot_offer_knight_education_interaction_desc: "Ofrecer [recipient.GetShortUIName] a [agot_knight|E], haciendo que alguien en [recipient.GetHerHis] [court|E] sea el [squire|E] del adulto elegido" #NT!
- agot_oagot_offer_knight_education_interaction_extra_icon: "$hook_extra_icon$" #NT!
+ agot_offer_knight_education_interaction: "Ofrece tutela de caballero"
+ agot_offer_knight_education_interaction_desc: "Ofrecer [recipient.GetShortUIName] a [agot_knight|E], haciendo que alguien en [recipient.GetHerHis] [court|E] sea el [squire|E] del adulto elegido"
+ agot_oagot_offer_knight_education_interaction_extra_icon: "$hook_extra_icon$"
   
- actor_secondary_agot_offer_squire_interaction: "Escudero" #NT!
- recipient_secondary_agot_offer_squire_interaction: "Caballero" #NT!
+ actor_secondary_agot_offer_squire_interaction: "Escudero"
+ recipient_secondary_agot_offer_squire_interaction: "Caballero"
   
- actor_secondary_agot_offer_knight_education_interaction: "Caballero" #NT!
- recipient_secondary_agot_offer_knight_education_interaction: "Escudero" #NT!
+ actor_secondary_agot_offer_knight_education_interaction: "Caballero"
+ recipient_secondary_agot_offer_knight_education_interaction: "Escudero"
   
- EDUCATE_SELECT_YOUR_SQUIRE_OR_KNIGHT: "#I Elija un [squire|E] o [agot_knight|E] de su [court|E]#!" #NT!
- EDUCATE_SELECT_THEIR_KNIGHT: "#I Elige un [agot_knight|E] de sus [court|E]#!" #NT!
- EDUCATE_SELECT_THEIR_SQUIRE: "#I Elige un [squire|E] de sus [court|E]#!" #NT!
- EDUCATE_SELECT_YOUR_KNIGHT: "#I Elija un [agot_knight|E] de su [court|E]#!" #NT!
- EDUCATE_SELECT_YOUR_SQUIRE: "#I Elija un [squire|E] de su [court|E]#!" #NT!
+ EDUCATE_SELECT_YOUR_SQUIRE_OR_KNIGHT: "#I Elija un [squire|E] o [agot_knight|E] de su [court|E]#!"
+ EDUCATE_SELECT_THEIR_KNIGHT: "#I Elige un [agot_knight|E] de sus [court|E]#!"
+ EDUCATE_SELECT_THEIR_SQUIRE: "#I Elige un [squire|E] de sus [court|E]#!"
+ EDUCATE_SELECT_YOUR_KNIGHT: "#I Elija un [agot_knight|E] de su [court|E]#!"
+ EDUCATE_SELECT_YOUR_SQUIRE: "#I Elija un [squire|E] de su [court|E]#!"
   
- SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST: "Me agradaría mucho que pudieras tomar personalmente a [secondary_actor.GetShortUIName] como tu escudero." #NT!
- SQUIRE_ACTOR_PERSONALLY_REQUEST: "Sería un honor si pudieras tomarme personalmente como tu escudero." #NT!
- SQUIRE_ACTOR_CHILD_REQUEST: "Me complacería mucho si permitieras que [secondary_actor.GetShortUIName] se convirtiera en tu escudero [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive]." #NT!
- SQUIRE_ACTOR_REQUEST: "Me agradaría mucho que permitieses a tu escudero [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive]." #NT!
+ SQUIRE_ACTOR_CHILD_PERSONALLY_REQUEST: "Me agradaría mucho que pudieras tomar personalmente a [secondary_actor.GetShortUIName] como tu escudero."
+ SQUIRE_ACTOR_PERSONALLY_REQUEST: "Sería un honor si pudieras tomarme personalmente como tu escudero."
+ SQUIRE_ACTOR_CHILD_REQUEST: "Me complacería mucho si permitieras que [secondary_actor.GetShortUIName] se convirtiera en tu escudero [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive]."
+ SQUIRE_ACTOR_REQUEST: "Me agradaría mucho que permitieses a tu escudero [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive]."
   
- EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST: "Me gustaría convertirme personalmente en su caballero [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive], si le parece razonable." #NT!
- EDUCATE_SQUIRE_PERSONALLY_REQUEST: "Para asegurarme de que recibas la mejor formación de escudero posible, me encargaré personalmente de tu formación, si me lo permites." #NT!
- EDUCATE_RECIPIENT_SQUIRE_REQUEST: "Me gustaría que tu [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] se convirtiera en el escudero de [secondary_actor.GetShortUIName], ¡un caballero muy hábil!" #NT!
- EDUCATE_SQUIRE_REQUEST: "Para asegurarme de que algún día te conviertas en caballero, me gustaría que te convirtieras en escudero de [secondary_actor.GetShortUIName], ¡un caballero muy hábil!" #NT!
- educate_squire_interaction_notification: "educar escudero" #NT!
+ EDUCATE_RECIPIENT_SQUIRE_PERSONALLY_REQUEST: "Me gustaría convertirme personalmente en su caballero [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUINamePossessive], si le parece razonable."
+ EDUCATE_SQUIRE_PERSONALLY_REQUEST: "Para asegurarme de que recibas la mejor formación de escudero posible, me encargaré personalmente de tu formación, si me lo permites."
+ EDUCATE_RECIPIENT_SQUIRE_REQUEST: "Me gustaría que tu [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName] se convirtiera en el escudero de [secondary_actor.GetShortUIName], ¡un caballero muy hábil!"
+ EDUCATE_SQUIRE_REQUEST: "Para asegurarme de que algún día te conviertas en caballero, me gustaría que te convirtieras en escudero de [secondary_actor.GetShortUIName], ¡un caballero muy hábil!"
+ educate_squire_interaction_notification: "Educar escudero"
   
- offer_of_squirehood: "Oferta de Squirehood" #NT!
- OFFER_SQUIREHOOD_NOTIFICATION: "El camino a la caballería comienza con la escudería. ¡Conviértete en mi escudero y me aseguraré de que, si eres un estudiante digno, algún día te convertirás en un caballero por mi mano!" #NT!
+ offer_of_squirehood: "Oferta de Squirehood"
+ OFFER_SQUIREHOOD_NOTIFICATION: "El camino a la caballería comienza con la escudería. ¡Conviértete en mi escudero y me aseguraré de que, si eres un estudiante digno, algún día te convertirás en un caballero por mi mano!"
   
- agot_remove_my_squire_interaction: "Quitar escudero" #NT!
- agot_remove_my_squire_interaction_desc: "[recipient.GetFirstNameNicknamedNoTooltipRegnal] es tu escudero, pero con unas pocas palabras, puedes quitarlo de esa posición." #NT!
+ agot_remove_my_squire_interaction: "Quitar escudero"
+ agot_remove_my_squire_interaction_desc: "[recipient.GetFirstNameNicknamedNoTooltipRegnal] es tu escudero, pero con unas pocas palabras, puedes quitarlo de esa posición."
   
- squirehood_removal: "Eliminado de Squirehood" #NT!
- REMOVAL_OF_SQUIREHOOD_NOTIFICATION: "¡A mis ojos, ya no eres digno de ser un escudero! ¡Tendrás que encontrar un caballero diferente para continuar con tu entrenamiento caballeresco!" #NT!
+ squirehood_removal: "Eliminado de Squirehood"
+ REMOVAL_OF_SQUIREHOOD_NOTIFICATION: "¡A mis ojos, ya no eres digno de ser un escudero! ¡Tendrás que encontrar un caballero diferente para continuar con tu entrenamiento caballeresco!"
   
- agot_train_squire_interaction: "Escudero de tren" #NT!
- agot_train_squire_interaction_desc: "Entrena a [recipient.GetFirstNameNicknamedNoTooltipRegnal] en los caminos de la caballería." #NT!
+ agot_train_squire_interaction: "Escudero de tren"
+ agot_train_squire_interaction_desc: "Entrena a [recipient.GetFirstNameNicknamedNoTooltipRegnal] en los caminos de la caballería."
   
- squire_training: "Escudero de tren" #NT!
- KNIGHT_TRAINS_SQUIRE_NOTIFICATION: "¡Escudero! Una vez más, es hora de que entrenemos en los caminos de la caballería. Prepárate, que mañana entrenaremos como nunca." #NT!
+ squire_training: "Escudero de tren"
+ KNIGHT_TRAINS_SQUIRE_NOTIFICATION: "¡Escudero! Una vez más, es hora de que entrenemos en los caminos de la caballería. Prepárate, que mañana entrenaremos como nunca."
   
- agot_train_squire_actor.tt: "Se le pedirá que seleccione qué tipo de capacitación recibirá [recipient.GetName]." #NT!
- agot_train_squire_recipient.tt: "Recibirá entrenamiento basado en la selección de [actor.GetName]." #NT!
+ agot_train_squire_actor.tt: "Se le pedirá que seleccione qué tipo de capacitación recibirá [recipient.GetName]."
+ agot_train_squire_recipient.tt: "Recibirá entrenamiento basado en la selección de [actor.GetName]."
   
- is_squire_or_prev_squire: "Es actualmente un [squire|eE], o no es un escudero sin caballero." #NT!
+ is_squire_or_prev_squire: "Es actualmente un [squire|eE], o no es un escudero sin caballero."
   
- agot_can_become_a_knight_trigger_age_tt: "no tiene 16 años o más; o no es al menos 12 con [prowess|E] extremadamente alto." #NT!
+ agot_can_become_a_knight_trigger_age_tt: "No tiene 16 años o más; o no es al menos 12 con [prowess|E] extremadamente alto."
   
- agot_char_interaction.0001.opening: "[recipient.Custom2('AppropriateGreeting', actor )]" #NT!
- agot_char_interaction.0010.opening: "[recipient.Custom2('AppropriateGreetingPositive', actor )]" #NT!
- agot_char_interaction.0080.desc: "Estamos encantados de aceptar el acuerdo de escudero propuesto: ¡una educación noble para un espíritu noble!" #NT!
- agot_char_interaction.0081.desc: "Desafortunadamente, no encontramos que su acuerdo de squiring propuesto sea de nuestro agrado." #NT!
- agot_char_interaction.0081.a: "Es una pena." #NT!
+ agot_char_interaction.0001.opening: "[recipient.Custom2('AppropriateGreeting', actor )]"
+ agot_char_interaction.0010.opening: "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
+ agot_char_interaction.0080.desc: "Estamos encantados de aceptar el acuerdo de escudero propuesto: ¡una educación noble para un espíritu noble!"
+ agot_char_interaction.0081.desc: "Desafortunadamente, no encontramos que su acuerdo de squiring propuesto sea de nuestro agrado."
+ agot_char_interaction.0081.a: "Es una pena."
   
- agot_view_squire_progress_interaction: "Ver el progreso del escudero" #NT!
- agot_view_squire_progress_interaction_desc: "Vea el progreso de su escudero hasta el título de caballero." #NT!
+ agot_view_squire_progress_interaction: "Ver el progreso del escudero"
+ agot_view_squire_progress_interaction_desc: "Vea el progreso de su escudero hasta el título de caballero."
   
- view_progress_very_bad_ptk_tt: "Este escudero la está pasando #N muy mal#! aprendiendo lo básico sobre la caballería. Su forma actual no inspira a nadie." #NT!
+ view_progress_very_bad_ptk_tt: "Este escudero la está pasando #N muy mal#! aprendiendo lo básico sobre la caballería. Su forma actual no inspira a nadie."
   
- view_progress_bad_ptk_tt: "Este [squire|E] está teniendo algunos problemas menores aprendiendo las cuerdas sobre el título de caballero." #NT!
+ view_progress_bad_ptk_tt: "Este [squire|E] está teniendo algunos problemas menores aprendiendo las cuerdas sobre el título de caballero."
   
- view_progress_zero_ptk_tt: "Este [squire|E] está comenzando su viaje de escudero o ha hecho un progreso neutral." #NT!
+ view_progress_zero_ptk_tt: "Este [squire|E] está comenzando su viaje de escudero o ha hecho un progreso neutral."
   
- view_progress_basic_good_ptk_tt: "Este [squire|E] muestra una comprensión básica de la caballería. Todavía tienen un largo camino por recorrer." #NT!
+ view_progress_basic_good_ptk_tt: "Este [squire|E] muestra una comprensión básica de la caballería. Todavía tienen un largo camino por recorrer."
   
- view_progress_decent_ptk_tt: "Este [squire|E] muestra una comprensión decente de la caballería. Están mejorando, pero aún les queda camino por recorrer." #NT!
+ view_progress_decent_ptk_tt: "Este [squire|E] muestra una comprensión decente de la caballería. Están mejorando, pero aún les queda camino por recorrer."
   
- view_progress_good_ptk_tt: "¡Este [squire|E] está funcionando bien y pronto estará listo para hacer un [agot_knight|E]!" #NT!
+ view_progress_good_ptk_tt: "¡Este [squire|E] está funcionando bien y pronto estará listo para hacer un [agot_knight|E]!"
   
- view_progress_very_good_ptk_tt: "Este [squire|E] está casi listo para el título de caballero. Después de unos meses más de entrenamiento, estarán listos para ser nombrados caballeros." #NT!
+ view_progress_very_good_ptk_tt: "Este [squire|E] está casi listo para el título de caballero. Después de unos meses más de entrenamiento, estarán listos para ser nombrados caballeros."
   
- view_progress_knight_this_char_now_ptk_tt: "¡Este [squire|E] es elegible para convertirse en [agot_knight|E], una vez que sean elegibles en cuanto a la edad!" #NT!
+ view_progress_knight_this_char_now_ptk_tt: "¡Este [squire|E] es elegible para convertirse en [agot_knight|E], una vez que sean elegibles en cuanto a la edad!"
   
- OFFER_SQUIRE: "oferta escudero" #NT!
- OFFER_KNIGHT_TUTELAGE: "Ofrece tutela de caballero" #NT!
- OFFER_EDUCATE_SQUIRE: "educar escudero" #NT!
+ OFFER_SQUIRE: "Oferta escudero"
+ OFFER_KNIGHT_TUTELAGE: "Ofrece tutela de caballero"
+ OFFER_EDUCATE_SQUIRE: "Educar escudero"
   
  ## 
   
- ACTOR_IS_MY_AGOT_KNIGHT_REASON: "[recipient.GetShortUIName|U] es [actor.GetShortUINamePossessive] escudero: $VALUE|=+0$" #NT!
+ ACTOR_IS_MY_AGOT_KNIGHT_REASON: "[recipient.GetShortUIName|U] es [actor.GetShortUINamePossessive] escudero: $VALUE|=+0$"
   
- LOWBORN_DESIRES_KNIGHTHOOD_REASON: "Como [lowborn|E], estoy más inclinado a aceptar un aumento en el estatus social: $VALUE|=+0$" #NT!
+ LOWBORN_DESIRES_KNIGHTHOOD_REASON: "Como [lowborn|E], estoy más inclinado a aceptar un aumento en el estatus social: $VALUE|=+0$"
   
- HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER: "Un [lowborn|E] nombrándome caballero sería inapropiado: $VALUE|=+0$" #NT!
+ HIGHBORN_DISLIKES_LOWBORN_KNIGHT_OFFER: "Un [lowborn|E] nombrándome caballero sería inapropiado: $VALUE|=+0$"
   
- HIGHBORN_IS_HUMBLE: "[actor.GetShortUIName|U] es un [lowborn|E], pero no me importa porque soy humilde: $VALUE|=+0$" #NT!
+ HIGHBORN_IS_HUMBLE: "[actor.GetShortUIName|U] es un [lowborn|E], pero no me importa porque soy humilde: $VALUE|=+0$"
   
  #### NEW SHIT 
   
  ## PERSONALITY REASONS 
   
- KNIGHTHOOD_LOW_BOLDNESS_REASON: "[personality|E] — #italic El título de caballero suena aterrador:#! $VALUE|=+0$" #NT!
+ KNIGHTHOOD_LOW_BOLDNESS_REASON: "[personality|E] — #italic El título de caballero suena aterrador:#! $VALUE|=+0$"
   
- KNIGHTHOOD_HIGH_BOLDNESS_REASON: "[personality|E] — #italic ¡Disfruto la oportunidad de demostrar mi valía siendo un caballero!:#! $VALUE|=+0$" #NT!
+ KNIGHTHOOD_HIGH_BOLDNESS_REASON: "[personality|E] — #italic ¡Disfruto la oportunidad de demostrar mi valía siendo un caballero!:#! $VALUE|=+0$"
   
- KNIGHTHOOD_FAITH_ZEALOUT_REASON: "[personality|E] — #italic El título de caballero es un signo de mi mayor devoción:#! $VALUE|=+0$" #NT!
+ KNIGHTHOOD_FAITH_ZEALOUT_REASON: "[personality|E] — #italic El título de caballero es un signo de mi mayor devoción:#! $VALUE|=+0$"
   
- KNIGHTHOOD_GREED_REASON: "[personality|E] — #italic Convertirse en caballero mejorará personalmente mi estatus social:#! $VALUE|=+0$" #NT!
+ KNIGHTHOOD_GREED_REASON: "[personality|E] — #italic Convertirse en caballero mejorará personalmente mi estatus social:#! $VALUE|=+0$"
   
- KNIGHTHOOD_ENERGY_REASON: "[personality|E] — #italic El título de caballero parece mucho trabajo:#! $VALUE|=+0$" #NT!
+ KNIGHTHOOD_ENERGY_REASON: "[personality|E] — #italic El título de caballero parece mucho trabajo:#! $VALUE|=+0$"
   
- KNIGHTHOOD_HONOR_REASON: "[personality|E] — #italic Convertirse en caballero es un gran honor:#! $VALUE|=+0$" #NT!
+ KNIGHTHOOD_HONOR_REASON: "[personality|E] — #italic Convertirse en caballero es un gran honor:#! $VALUE|=+0$"
   
- KNIGHTHOOD_LOW_SOCIABILITY: "[personality|E] — #italic Estoy cansado de los demás:#! $VALUE|=+0$" #NT!
+ KNIGHTHOOD_LOW_SOCIABILITY: "[personality|E] — #italic Estoy cansado de los demás:#! $VALUE|=+0$"
   
  ## EDUCATION REASONS 
   
- KNIGHTHOOD_EDUCATION_MARTIAL_REASON: "[education|E]: Tengo educación marcial: $VALUE|=+0$" #NT!
+ KNIGHTHOOD_EDUCATION_MARTIAL_REASON: "[education|E]: Tengo educación marcial: $VALUE|=+0$"
   
- KNIGHTHOOD_EDUCATION_LEARNING_REASON: "[education|E]: ¡Soy un hombre culto, no un guerrero!: $VALUE|=+0$" #NT!
+ KNIGHTHOOD_EDUCATION_LEARNING_REASON: "[education|E]: ¡Soy un hombre culto, no un guerrero!: $VALUE|=+0$"
   
- KNIGHTHOOD_EDUCATION_NON_MARTIAL_REASON: "[education|E]: Soy educado en una habilidad que no sea marcial: $VALUE|+=0$" #NT!
+ KNIGHTHOOD_EDUCATION_NON_MARTIAL_REASON: "[education|E]: Soy educado en una habilidad que no sea marcial: $VALUE|+=0$"
   
- KNIGHTHOOD_I_AM_A_WARRIOR_REASON: "[education|E]: Soy un guerrero entrenado, pero aún no soy un caballero: $VALUE|+=0$" #NT!
+ KNIGHTHOOD_I_AM_A_WARRIOR_REASON: "[education|E]: Soy un guerrero entrenado, pero aún no soy un caballero: $VALUE|+=0$"
   
- KNIGHTHOOD_MY_FAITH_DOES_NOT_CARE: "[faith|E]: [recipient.GetShortUINamePossessiveNoTooltip|U] la fe no valora el título de caballero: $VALUE|+=0$" #NT!
+ KNIGHTHOOD_MY_FAITH_DOES_NOT_CARE: "[faith|E]: [recipient.GetShortUINamePossessiveNoTooltip|U] la fe no valora el título de caballero: $VALUE|+=0$"
   
- KNIGHTHOOD_HAS_KNIGHTHOOD_TENET_REASON: "[faith|e]: [recipient.GetShortUINamePossessiveNoTooltip|U] valores de fe caballería: $VALUE|=+0$" #NT!
+ KNIGHTHOOD_HAS_KNIGHTHOOD_TENET_REASON: "[faith|e]: [recipient.GetShortUINamePossessiveNoTooltip|U] valores de fe caballería: $VALUE|=+0$"
   
  ## LANDED TITLES 
   
- OUR_HOUSES_ARE_FEUDING_REASON: "Nuestras casas están peleadas: $VALUE|=+0$" #NT!
+ OUR_HOUSES_ARE_FEUDING_REASON: "Nuestras casas están peleadas: $VALUE|=+0$"
   
- WE_COME_FROM_NEIGHBORING_COUNTIES: "[recipient.GetShortUINameNoTooltip|U] y [actor.GetShortUINameNoTooltip] provienen de tierras vecinas: $VALUE|=+0$" #NT!
+ WE_COME_FROM_NEIGHBORING_COUNTIES: "[recipient.GetShortUINameNoTooltip|U] y [actor.GetShortUINameNoTooltip] provienen de tierras vecinas: $VALUE|=+0$"
   
- KNIGHTING_THEY_ARE_MORE_POWERFUL_REASON: "[actor.GetShortUINameNoTooltip|U] son más poderosos que [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$" #NT!
+ KNIGHTING_THEY_ARE_MORE_POWERFUL_REASON: "[actor.GetShortUINameNoTooltip|U] son más poderosos que [recipient.GetShortUINameNoTooltip]: $VALUE|=+0$"
   
  ## PRESTIGE 
   
- KNIGHTHOOD_THEY_HAVE_A_BAD_REPUTATION: "[actor.GetShortUINamePossessive|U] [prestige_level|E] está en desgracia, o tienen prestigio negativo: $VALUE|=+0$" #NT!
+ KNIGHTHOOD_THEY_HAVE_A_BAD_REPUTATION: "[actor.GetShortUINamePossessive|U] [prestige_level|E] está en desgracia, o tienen prestigio negativo: $VALUE|=+0$"
   
- KNIGHTHOOD_THEY_HAVE_LOW_PRESTIGE: "[actor.GetShortUINamePossessive|U] [prestige_level|E] es intrascendente: $VALUE|=+0$" #NT!
+ KNIGHTHOOD_THEY_HAVE_LOW_PRESTIGE: "[actor.GetShortUINamePossessive|U] [prestige_level|E] es intrascendente: $VALUE|=+0$"
   
- KNIGHTHOOD_I_AM_MORE_FAMOUS_THAN_YOU: "[actor.GetShortUINamePossessive|U] [prestige_level|E] es menor que el mío: $VALUE|=+0$" #NT!
+ KNIGHTHOOD_I_AM_MORE_FAMOUS_THAN_YOU: "[actor.GetShortUINamePossessive|U] [prestige_level|E] es menor que el mío: $VALUE|=+0$"
   
  ## OTHER 
   
- FAVORS_BEING_A_SQUIRE_REASON: "Prefiero ser escudero :$VALUE|=+0$" #NT!
+ FAVORS_BEING_A_SQUIRE_REASON: "Prefiero ser escudero :$VALUE|=+0$"
   
  ### SQUIRE REASONS 
   
- SQUIREHOOD_I_AM_A_RULER_ALREADY: "[secondary_actor.GetShortUIName|U] es un gobernante mayor de edad: $VALUE|=+0$" #NT!
+ SQUIREHOOD_I_AM_A_RULER_ALREADY: "[secondary_actor.GetShortUIName|U] es un gobernante mayor de edad: $VALUE|=+0$"
   
- SQUIREHOOD_SQUIRE_CANDIDATE_IS_LOWBORN: "El escudero propuesto es un [lowborn|E]: $VALUE|=+0$" #NT!
+ SQUIREHOOD_SQUIRE_CANDIDATE_IS_LOWBORN: "El escudero propuesto es un [lowborn|E]: $VALUE|=+0$"
   
- SQUIREHOOD_SQUIRE_CANDIDATE_DOES_NOT_HAVE_KNIGHTHOOD_TENET: "[faith|E]: La fe del escudero propuesto no valora la escudería y la caballería: $VALUE|=+0$" #NT!
+ SQUIREHOOD_SQUIRE_CANDIDATE_DOES_NOT_HAVE_KNIGHTHOOD_TENET: "[faith|E]: La fe del escudero propuesto no valora la escudería y la caballería: $VALUE|=+0$"
   
- SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT: "El escudero propuesto tiene la edad suficiente para ser nombrado caballero: $VALUE|=+0$" #NT!
+ SQUIREHOOD_I_AM_OLD_ENOUGH_TO_BE_A_KNIGHT: "El escudero propuesto tiene la edad suficiente para ser nombrado caballero: $VALUE|=+0$"
   
- SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD: "El escudero propuesto no está bien de la mente: $VALUE|=+0$" #NT!
+ SQUIREHOOD_SQUIRE_CANDIDATE_IS_NOT_RIGHT_IN_THE_HEAD: "El escudero propuesto no está bien de la mente: $VALUE|=+0$"
   
- KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL: "Habilidad [martial|E] de Caballero: $VALUE|=+0$" #NT!
- KNIGHTING_AI_GUARDIAN_SKILL_PROWESS: "Habilidad [prowess|E] de Caballero: $VALUE|=+0$" #NT!
+ KNIGHTING_AI_GUARDIAN_SKILL_MARTIAL: "Habilidad [martial|E] de Caballero: $VALUE|=+0$"
+ KNIGHTING_AI_GUARDIAN_SKILL_PROWESS: "Habilidad [prowess|E] de Caballero: $VALUE|=+0$"
   
- educate_squire_interaction_notification: "educar escudero" #NT!
+ educate_squire_interaction_notification: "Educar escudero"
   
  ## OTHER STUFF 
   
- THEY_ARE_MY_SQUIRE: "¡Son mi escudero y están listos para convertirse en caballeros!" #NT!
+ THEY_ARE_MY_SQUIRE: "¡Son mi escudero y están listos para convertirse en caballeros!"

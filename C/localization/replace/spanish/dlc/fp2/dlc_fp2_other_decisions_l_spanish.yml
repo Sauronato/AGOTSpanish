@@ -1,336 +1,336 @@
 ﻿l_spanish:
- improve_city_province_decision: "$improve_city_province_decision_name$" #NT!
- improve_city_province_decision_name: "Expandir Ciudades" #NT!
- improve_city_province_decision_desc: "Paga para que se construyan nuevos barrios extravagantes en tu ciudad" #NT!
- improve_city_province_decision_confirm: "Empieza la expansión" #NT!
- improve_city_province_decision_tooltip: "Invierte dinero para obtener nuevas ranuras [building|E] en tu [cities|E]" #NT!
- improve_city_province_decision_decision_no_effect: "Ningún [city|E] es elegible" #NT!
- improve_city_province_decision_at_least_one_city_tt: "Al menos una ciudad tiene menos de 5 espacios de construcción" #NT!
+ improve_city_province_decision: "$improve_city_province_decision_name$"
+ improve_city_province_decision_name: "Expandir Ciudades"
+ improve_city_province_decision_desc: "Paga para que se construyan nuevos barrios extravagantes en tu ciudad"
+ improve_city_province_decision_confirm: "Empieza la expansión"
+ improve_city_province_decision_tooltip: "Invierte dinero para obtener nuevas ranuras [building|E] en tu [cities|E]"
+ improve_city_province_decision_decision_no_effect: "Ningún [city|E] es elegible"
+ improve_city_province_decision_at_least_one_city_tt: "Al menos una ciudad tiene menos de 5 espacios de construcción"
   
   #AGOT Removed 
- #fp2_secure_mediterranean.t: "Asegurar el Mediterráneo" #NT!
+ #fp2_secure_mediterranean.t: "Asegurar el Mediterráneo"
   #AGOT Removed 
- #fp2_secure_mediterranean.desc: "Con islas clave en todo el Mediterráneo aseguradas y actuando como torres de vigilancia del mar, es hora de que reclamemos la propiedad sobre las olas." #NT!
+ #fp2_secure_mediterranean.desc: "Con islas clave en todo el Mediterráneo aseguradas y actuando como torres de vigilancia del mar, es hora de que reclamemos la propiedad sobre las olas."
   #AGOT Removed 
- #fp2_secure_mediterranean.tip: "Reclamar la propiedad sobre el Mediterráneo" #NT!
+ #fp2_secure_mediterranean.tip: "Reclamar la propiedad sobre el Mediterráneo"
   
   #AGOT Modified 
- secure_btw_foothold_decision_title: "Punto de apoyo más allá del muro" #NT!
- secure_btw_foothold_decision_desc: "Las debilitadas tribus salvajes guerreras del lejano norte abrieron las puertas de la región al exterior. Si uno pudiera declararse el nuevo líder [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] de la región, o simplemente un glorioso invasor, se podría ganar mucho." #NT!
+ secure_btw_foothold_decision_title: "Punto de apoyo más allá del muro"
+ secure_btw_foothold_decision_desc: "Las debilitadas tribus salvajes guerreras del lejano norte abrieron las puertas de la región al exterior. Si uno pudiera declararse el nuevo líder [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] de la región, o simplemente un glorioso invasor, se podría ganar mucho."
   #AGOT Modified 
- secure_btw_foothold_decision_tooltip: "Integrar parte de los terrenos extramuros" #NT!
+ secure_btw_foothold_decision_tooltip: "Integrar parte de los terrenos extramuros"
   #AGOT Modified 
- secure_btw_foothold_decision_confirm: "A los más fuertes." #NT!
+ secure_btw_foothold_decision_confirm: "A los más fuertes."
   #AGOT Modified 
- fp2_struggle_uninvolved_or_external_tt: "Tu [capital|E] está fuera del [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E]" #NT!
+ fp2_struggle_uninvolved_or_external_tt: "Tu [capital|E] está fuera del [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E]"
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_empire_tt: "Tu [hold|E] un [empire|E] [title|E] que no es [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]" #NT!
+ fp2_struggle_secure_btw_foothold_empire_tt: "Tu [hold|E] un [empire|E] [title|E] que no es [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
   
   #AGOT Modified 
- fp2_struggle_phase_hostility_or_opportunity_tt: "Más allá del muro [struggle_phase|E] es [struggle_phase_btw_hostility|E] o [struggle_phase_btw_opportunity|E] (Actual: [GetStruggle('btw_struggle').GetCurrentPhase.GetName])" #NT!
+ fp2_struggle_phase_hostility_or_opportunity_tt: "Más allá del muro [struggle_phase|E] es [struggle_phase_btw_hostility|E] o [struggle_phase_btw_opportunity|E] (Actual: [GetStruggle('btw_struggle').GetCurrentPhase.GetName])"
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_kingdom_btw_tt: "Usted [hold|E] y [completely_control|E] a [de_jure|E] [kingdom|E] de [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]" #NT!
+ fp2_struggle_secure_btw_foothold_kingdom_btw_tt: "Usted [hold|E] y [completely_control|E] a [de_jure|E] [kingdom|E] de [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
   
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_kingdom_faith_tt: "Al menos #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_target_percent_value')|0]%#! de estos [titlepossessive|E] [de_jure|E] [counties|E] son [THIS.Char.GetFaith.GetAdjective]" #NT!
+ fp2_struggle_secure_btw_foothold_kingdom_faith_tt: "Al menos #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_faith_target_percent_value')|0]%#! de estos [titlepossessive|E] [de_jure|E] [counties|E] son [THIS.Char.GetFaith.GetAdjective]"
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_kingdom_border_tt: "Este [title|E] limita con [de_jure|E] tierra de un [empire|E] tú [hold|E] que no es [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]" #NT!
+ fp2_struggle_secure_btw_foothold_kingdom_border_tt: "Este [title|E] limita con [de_jure|E] tierra de un [empire|E] tú [hold|E] que no es [GetTitleByKey('e_beyond_the_wall').GetNameNoTier]"
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_kingdom_held_tt: "Ha tenido este [title|E] durante al menos [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_years_value')|0Z] años" #NT!
+ fp2_struggle_secure_btw_foothold_kingdom_held_tt: "Ha tenido este [title|E] durante al menos [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_years_value')|0Z] años"
   
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_religion_tt: "Usted [hold|E] al menos #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_target_percent_value')|0]%#! de [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E] [counties|E] en el [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (Actual: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_percent_value')|1]%)\n" #NT!
+ fp2_struggle_secure_btw_foothold_religion_tt: "Usted [hold|E] al menos #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_target_percent_value')|0]%#! de [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E] [counties|E] en el [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (Actual: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_religion_percent_value')|1]%)\n"
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_outsider_tt: "Usted [hold|E] al menos #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_target_percent_value')|0]%#! de [counties|E] en el [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (Actual: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_percent_value')|0]%)\n" #NT!
+ fp2_struggle_secure_btw_foothold_outsider_tt: "Usted [hold|E] al menos #Z [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_target_percent_value')|0]%#! de [counties|E] en el [GetGeographicalRegion('world_westeros_beyond_the_wall').GetName] [region|E] (Actual: [SCOPE.ScriptValue('fp2_struggle_secure_btw_foothold_outsider_percent_value')|0]%)\n"
   
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_empire_held_effect_tt: "Cada [de_jure|E] [kingdom|E] de [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] que cumpla con las siguientes condiciones se convertirá en [de_jure|E] parte de [THIS.Char.GetPrimaryTitle.GetNameNoTier]" #NT!
+ fp2_struggle_secure_btw_foothold_empire_held_effect_tt: "Cada [de_jure|E] [kingdom|E] de [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] que cumpla con las siguientes condiciones se convertirá en [de_jure|E] parte de [THIS.Char.GetPrimaryTitle.GetNameNoTier]"
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_empire_dejure_effect_tt: "Cada [de_jure|E] [kingdom|E] de [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] que satisfaga las siguientes condiciones se convertirá en [de_jure|E] parte de [empire|E] de [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]" #NT!
+ fp2_struggle_secure_btw_foothold_empire_dejure_effect_tt: "Cada [de_jure|E] [kingdom|E] de [GetTitleByKey('e_beyond_the_wall').GetNameNoTier] que satisfaga las siguientes condiciones se convertirá en [de_jure|E] parte de [empire|E] de [THIS.Char.GetPrimaryTitle.GetDeJureLiege.GetNameNoTier]"
   
   #AGOT Modified 
- fp2_struggle_secure_btw_foothold_ends_the_struggle_tt: "El [btw_struggle|E] termina" #NT!
+ fp2_struggle_secure_btw_foothold_ends_the_struggle_tt: "El [btw_struggle|E] termina"
   
   #AGOT Modified 
- btw_footholder_transfer_tt: "[THIS] [THIS.Title.GetName] [THIS.GetName]" #NT!
+ btw_footholder_transfer_tt: "[THIS] [THIS.Title.GetName] [THIS.GetName]"
   
   #AGOT Modified 
- fp2_other_decisions.1000.t: "$secure_btw_foothold_decision_title$: [btw_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip] Consolidación" #NT!
+ fp2_other_decisions.1000.t: "$secure_btw_foothold_decision_title$: [btw_footholder.GetPrimaryTitle.GetAdjectiveNoTooltip] Consolidación"
   #AGOT Modified 
- fp2_other_decisions.1000.involved_religion: "Las guerras de las tribus rebeldes de las tierras más allá del muro casi pusieron de rodillas a los reinos [ROOT.Char.GetFaith.GetReligion.GetAdjective] de la región.\n\nSin nuestra intervención, los fieles [ROOT.Char.GetFaith.HighGodNamePossessive] habrían sido finalmente expulsados ​​de las tierras más allá del muro por los imperiosos infieles .\n\n" #NT!
+ fp2_other_decisions.1000.involved_religion: "Las guerras de las tribus rebeldes de las tierras más allá del muro casi pusieron de rodillas a los reinos [ROOT.Char.GetFaith.GetReligion.GetAdjective] de la región.\n\nSin nuestra intervención, los fieles [ROOT.Char.GetFaith.HighGodNamePossessive] habrían sido finalmente expulsados ​​de las tierras más allá del muro por los imperiosos infieles .\n\n"
   #AGOT Modified 
- fp2_other_decisions.1000.desc: "Las tribus salvajes divididas nos han brindado una gran oportunidad, demasiado ocupadas luchando entre sí para oponernos a la invasión [ROOT.Char.GetFaith.GetReligion.GetAdjective] del norte." #NT!
- fp2_other_decisions.1000.involved_faith: "Somos los legítimos defensores del [ROOT.Char.GetFaith.GetAdherentNamePlural] de occidente, ahora a salvo bajo la protección del [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]." #NT!
- fp2_other_decisions.1000.uninvolved_faith: "A nosotros nos tocó traer la luz de [ROOT.Char.GetFaith.GetName]; como parte de [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] estas tierras volverán a ser prósperas y pacíficas." #NT!
- fp2_other_decisions.1000.closing: "\n\nCon el tiempo verán que el tiempo de sus falsos dioses ha terminado y se regocijarán de que [ROOT.Char.GetFaith.HighGodName] condujo a [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] a la salvación de la región." #NT!
+ fp2_other_decisions.1000.desc: "Las tribus salvajes divididas nos han brindado una gran oportunidad, demasiado ocupadas luchando entre sí para oponernos a la invasión [ROOT.Char.GetFaith.GetReligion.GetAdjective] del norte."
+ fp2_other_decisions.1000.involved_faith: "Somos los legítimos defensores del [ROOT.Char.GetFaith.GetAdherentNamePlural] de occidente, ahora a salvo bajo la protección del [ROOT.Char.GetPrimaryTitle.GetDefinitiveName]."
+ fp2_other_decisions.1000.uninvolved_faith: "A nosotros nos tocó traer la luz de [ROOT.Char.GetFaith.GetName]; como parte de [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] estas tierras volverán a ser prósperas y pacíficas."
+ fp2_other_decisions.1000.closing: "\n\nCon el tiempo verán que el tiempo de sus falsos dioses ha terminado y se regocijarán de que [ROOT.Char.GetFaith.HighGodName] condujo a [ROOT.Char.GetPrimaryTitle.GetDefinitiveName] a la salvación de la región."
   #AGOT Modified 
- fp2_other_decisions.1000.a: "Se necesitaba sangre nueva más allá del muro." #NT!
+ fp2_other_decisions.1000.a: "Se necesitaba sangre nueva más allá del muro."
   
   #AGOT Modified 
- fp2_other_decisions.1001.involved_religion: "Después de siglos de guerra entre religiones antiguas, nuestra lucha ahora ha sido explotada por los imperiosos intrusos [btw_footholder.GetPrimaryTitle.GetAdjective].\n\n" #NT!
+ fp2_other_decisions.1001.involved_religion: "Después de siglos de guerra entre religiones antiguas, nuestra lucha ahora ha sido explotada por los imperiosos intrusos [btw_footholder.GetPrimaryTitle.GetAdjective].\n\n"
   #AGOT Modified 
- fp2_other_decisions.1001.desc: "A través de la distracción, la envidia y la negligencia, Beyond the Walls ha permitido que los intrusos [btw_footholder.GetPrimaryTitle.GetAdjective] exploten la división de nuestra patria e invadan las tribus históricas del norte." #NT!
+ fp2_other_decisions.1001.desc: "A través de la distracción, la envidia y la negligencia, Beyond the Walls ha permitido que los intrusos [btw_footholder.GetPrimaryTitle.GetAdjective] exploten la división de nuestra patria e invadan las tribus históricas del norte."
   #AGOT Modified 
- fp2_other_decisions.1001.involved_faith: "[btw_footholder.GetTitledFirstName] ha declarado a [btw_footholder.GetHerselfHimself] el legítimo [btw_footholder.GetFaith.GetAdjectiveNoTooltip] líder del norte, usando [btw_footholder.GetHerHis] victorias como prueba de [btw_footholder.GetHerHis] legitimidad sobre las tribus enfermas [btw_footholder.GetFaith.GetReligion.GetAdjective] de salvajes." #NT!
+ fp2_other_decisions.1001.involved_faith: "[btw_footholder.GetTitledFirstName] ha declarado a [btw_footholder.GetHerselfHimself] el legítimo [btw_footholder.GetFaith.GetAdjectiveNoTooltip] líder del norte, usando [btw_footholder.GetHerHis] victorias como prueba de [btw_footholder.GetHerHis] legitimidad sobre las tribus enfermas [btw_footholder.GetFaith.GetReligion.GetAdjective] de salvajes."
   #AGOT Modified 
- fp2_other_decisions.1001.same_uninvolved_faith: "Afirman que nuestros fracasos fueron [ROOT.Char.GetFaith.HighGodNamePossessive] un castigo por desviarnos del camino correcto de [btw_footholder.GetFaith.GetName], y que [btw_footholder.GetTitledFirstName] es ​​el líder legítimo de [ROOT.Char.GetFaith.GetReligion.GetAdjective] los salvajes..." #NT!
+ fp2_other_decisions.1001.same_uninvolved_faith: "Afirman que nuestros fracasos fueron [ROOT.Char.GetFaith.HighGodNamePossessive] un castigo por desviarnos del camino correcto de [btw_footholder.GetFaith.GetName], y que [btw_footholder.GetTitledFirstName] es ​​el líder legítimo de [ROOT.Char.GetFaith.GetReligion.GetAdjective] los salvajes..."
   #AGOT Modified 
- fp2_other_decisions.1001.uninvolved_faith: "Con [btw_footholder.GetHerHis] victorias como evidencia, [btw_footholder.GetTitledFirstName] ha declarado que [btw_footholder.GetHerHis] [btw_footholder.GetFaith.GetAdjective] la fe es el verdadero camino [btw_footholder.GetFaith.GetReligion.GetAdjective]; uno que unirá a todas las tribus salvajes bajo [btw_footholder.GetFaith.HighGodName]." #NT!
+ fp2_other_decisions.1001.uninvolved_faith: "Con [btw_footholder.GetHerHis] victorias como evidencia, [btw_footholder.GetTitledFirstName] ha declarado que [btw_footholder.GetHerHis] [btw_footholder.GetFaith.GetAdjective] la fe es el verdadero camino [btw_footholder.GetFaith.GetReligion.GetAdjective]; uno que unirá a todas las tribus salvajes bajo [btw_footholder.GetFaith.HighGodName]."
   #AGOT Modified 
- fp2_other_decisions.1001.closing: "\n\nA medida que [btw_footholder.GetTitledFirstName] consolida las posesiones de [btw_footholder.GetHerHis], las diferencias pasadas de religiones antiguas parecen palidecer en comparación con esta ocupación de [btw_footholder.GetFaith.GetAdjective]..." #NT!
- fp2_other_decisions.1001.a: "Malditos intrusos." #NT!
+ fp2_other_decisions.1001.closing: "\n\nA medida que [btw_footholder.GetTitledFirstName] consolida las posesiones de [btw_footholder.GetHerHis], las diferencias pasadas de religiones antiguas parecen palidecer en comparación con esta ocupación de [btw_footholder.GetFaith.GetAdjective]..."
+ fp2_other_decisions.1001.a: "Malditos intrusos."
   
   ### Council of Toledo Decision 
   #AGOT Removed 
- #council_of_toledo_decision_title: "Convocar Cabildo de Toledo" #NT!
+ #council_of_toledo_decision_title: "Convocar Cabildo de Toledo"
   #AGOT Removed 
- #council_of_toledo_decision_desc_count: "Llegará el momento de convocar el Consejo [SCOPE.ScriptValue('council_of_toledo_counter_value')][ROOT.Char.Custom('get_council_of_toledo_count_suffix')] de [GetTitleByKey('c_toledo').GetNameNoTier], y resolver las cuestiones religiosas de [ROOT.Char.GetFaith.GetAdherentNamePlural] una vez más." #NT!
+ #council_of_toledo_decision_desc_count: "Llegará el momento de convocar el Consejo [SCOPE.ScriptValue('council_of_toledo_counter_value')][ROOT.Char.Custom('get_council_of_toledo_count_suffix')] de [GetTitleByKey('c_toledo').GetNameNoTier], y resolver las cuestiones religiosas de [ROOT.Char.GetFaith.GetAdherentNamePlural] una vez más."
   #AGOT Removed 
- #council_of_toledo_decision_desc: "Durante siglos, los concilios religiosos se llevaron a cabo en [GetTitleByKey('c_toledo').GetNameNoTier], donde el clero de toda la cristiandad resolvió las disputas del día. Con la celebración de un concilio XIX, se puede restaurar esta tradición visigoda." #NT!
+ #council_of_toledo_decision_desc: "Durante siglos, los concilios religiosos se llevaron a cabo en [GetTitleByKey('c_toledo').GetNameNoTier], donde el clero de toda la cristiandad resolvió las disputas del día. Con la celebración de un concilio XIX, se puede restaurar esta tradición visigoda."
   #AGOT Removed 
- #council_of_toledo_decision_tooltip: "Celebrar una reunión de [ROOT.Char.GetFaith.GetReligion.GetAdjective] clérigos en Toledo" #NT!
+ #council_of_toledo_decision_tooltip: "Celebrar una reunión de [ROOT.Char.GetFaith.GetReligion.GetAdjective] clérigos en Toledo"
   #AGOT Removed 
- #council_of_toledo_decision_confirm: "es tiempo" #NT!
+ #council_of_toledo_decision_confirm: "Es tiempo"
   #AGOT Removed 
- #council_of_toledo_decision_toledo_holder_trigger: "Usted [hold|E] o gobierna sobre el [GetTitleByKey('c_toledo').GetName], y su [ruler|E] es ​​[THIS.Char.GetFaith.GetName] fe" #NT!
+ #council_of_toledo_decision_toledo_holder_trigger: "Usted [hold|E] o gobierna sobre el [GetTitleByKey('c_toledo').GetName], y su [ruler|E] es ​​[THIS.Char.GetFaith.GetName] fe"
   #AGOT Removed 
- #council_of_toledo_decision_toledo_faith_trigger: "[faith|E] es [THIS.Char.GetLiege.GetFaith.GetName]" #NT!
+ #council_of_toledo_decision_toledo_faith_trigger: "[faith|E] es [THIS.Char.GetLiege.GetFaith.GetName]"
   #AGOT Removed 
- #council_of_toledo_decision_catalyst_tt: "Puede ocurrir un [struggle_catalyst|E]" #NT!
+ #council_of_toledo_decision_catalyst_tt: "Puede ocurrir un [struggle_catalyst|E]"
   #AGOT Removed 
- #council_of_toledo_decision_tt: "Las recompensas dependen del resultado del Consejo" #NT!
+ #council_of_toledo_decision_tt: "Las recompensas dependen del resultado del Consejo"
   # Event - Organization 
   #AGOT Removed 
- #fp2_other_decisions.0700.council: "[SCOPE.ScriptValue('council_of_toledo_counter_value')][ROOT.Char.Custom('get_council_of_toledo_count_suffix')] Concejo de Toledo" #NT!
+ #fp2_other_decisions.0700.council: "[SCOPE.ScriptValue('council_of_toledo_counter_value')][ROOT.Char.Custom('get_council_of_toledo_count_suffix')] Concejo de Toledo"
   #AGOT Removed 
- #fp2_other_decisions.0700.t: "$fp2_other_decisions.0700.council$: Organización" #NT!
+ #fp2_other_decisions.0700.t: "$fp2_other_decisions.0700.council$: Organización"
   #AGOT Removed 
- #fp2_other_decisions.0700.19: "[council_priest.GetTitledFirstName] ha comenzado los arreglos para un decimonoveno concilio religioso en [GetTitleByKey('c_toledo').GetNameNoTier], para igualar los sínodos visigodos de antaño.\n\nSi bien el alcance de [GetTitleByKey('k_papal_state').GetDefinitiveName] ha crecido desde la invasión musulmana, nuestro clero aún conserva su propia tradición y autonomía. Es hora de reafirmar la importancia de Iberia como lugar de diálogo religioso.\n\nLas reuniones anteriores incluyeron [ROOT.Char.GetFaith.BishopNeuterPlural] de toda la cristiandad, pero ese ya no tiene por qué ser el caso..." #NT!
+ #fp2_other_decisions.0700.19: "[council_priest.GetTitledFirstName] ha comenzado los arreglos para un decimonoveno concilio religioso en [GetTitleByKey('c_toledo').GetNameNoTier], para igualar los sínodos visigodos de antaño.\n\nSi bien el alcance de [GetTitleByKey('k_papal_state').GetDefinitiveName] ha crecido desde la invasión musulmana, nuestro clero aún conserva su propia tradición y autonomía. Es hora de reafirmar la importancia de Iberia como lugar de diálogo religioso.\n\nLas reuniones anteriores incluyeron [ROOT.Char.GetFaith.BishopNeuterPlural] de toda la cristiandad, pero ese ya no tiene por qué ser el caso..."
   #AGOT Removed 
- #fp2_other_decisions.0700.desc: "Los [ROOT.Char.GetFaith.BishopNeuterPlural] de Iberia han estado esperando ansiosamente el próximo concilio desde que se recuperó la tradición de Toledo.\n\n[council_priest.GetCouncilTitleFirstName] ha comenzado los preparativos, aunque queda por decidir si se invitará a asistir a sacerdotes de otras tradiciones." #NT!
+ #fp2_other_decisions.0700.desc: "Los [ROOT.Char.GetFaith.BishopNeuterPlural] de Iberia han estado esperando ansiosamente el próximo concilio desde que se recuperó la tradición de Toledo.\n\n[council_priest.GetCouncilTitleFirstName] ha comenzado los preparativos, aunque queda por decidir si se invitará a asistir a sacerdotes de otras tradiciones."
   #AGOT Removed 
- #fp2_other_decisions.0700.a: "Será un sínodo mozárabe." #NT!
+ #fp2_other_decisions.0700.a: "Será un sínodo mozárabe."
   #AGOT Removed 
- #fp2_other_decisions.0700.b: "Todos los ministros [ROOT.Char.GetFaith.HighGodNamePossessive] son bienvenidos en Toledo." #NT!
+ #fp2_other_decisions.0700.b: "Todos los ministros [ROOT.Char.GetFaith.HighGodNamePossessive] son bienvenidos en Toledo."
   #AGOT Removed 
- #fp2_other_decisions.0700.b.success: "Asisten obispos ecuménicos" #NT!
+ #fp2_other_decisions.0700.b.success: "Asisten obispos ecuménicos"
   #AGOT Removed 
- #fp2_other_decisions.0700.b.failure: "Se ignora la llamada a Toledo" #NT!
+ #fp2_other_decisions.0700.b.failure: "Se ignora la llamada a Toledo"
   #AGOT Removed 
- #fp2_other_decisions.0700.tt: "El [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo comenzará en varias semanas" #NT!
+ #fp2_other_decisions.0700.tt: "El [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo comenzará en varias semanas"
   # Event - Arrival 
   #AGOT Removed 
- #fp2_other_decisions.0701.t: "$fp2_other_decisions.0700.council$: Asistentes" #NT!
+ #fp2_other_decisions.0701.t: "$fp2_other_decisions.0700.council$: Asistentes"
   #AGOT Removed 
- #fp2_other_decisions.0701.opening.success: "Parece que la invitación a la [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetFaith.AltPriestTermPlural] más amplia se ha cumplido positivamente; muchos estimados [ROOT.Char.GetFaith.BishopNeuterPlural] de tierras extranjeras han acudido ansiosamente a [GetTitleByKey('c_toledo').GetNameNoTier]." #NT!
+ #fp2_other_decisions.0701.opening.success: "Parece que la invitación a la [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetFaith.AltPriestTermPlural] más amplia se ha cumplido positivamente; muchos estimados [ROOT.Char.GetFaith.BishopNeuterPlural] de tierras extranjeras han acudido ansiosamente a [GetTitleByKey('c_toledo').GetNameNoTier]."
   #AGOT Removed 
- #fp2_other_decisions.0701.opening.failure: "La respuesta a nuestra invitación a la comunidad ecuménica ha sido fría; numerosos [ROOT.Char.GetFaith.BishopNeuterPlural] citaron el mal tiempo que impidió llegar a [GetTitleByKey('c_toledo').GetNameNoTier], dejando solo a los prelados locales presentes...." #NT!
+ #fp2_other_decisions.0701.opening.failure: "La respuesta a nuestra invitación a la comunidad ecuménica ha sido fría; numerosos [ROOT.Char.GetFaith.BishopNeuterPlural] citaron el mal tiempo que impidió llegar a [GetTitleByKey('c_toledo').GetNameNoTier], dejando solo a los prelados locales presentes...."
   #AGOT Removed 
- #fp2_other_decisions.0701.opening.catastrophe: "No hemos visto un solo obispo, diácono o abad de ninguna de las otras denominaciones [ROOT.Char.GetFaith.GetReligion.GetAdjective] en [GetTitleByKey('c_toledo').GetNameNoTier]; parece que nuestro consejo es visto con desprecio o enojo por nuestra fraternidad ecuménica, y solo asisten los prelados locales." #NT!
+ #fp2_other_decisions.0701.opening.catastrophe: "No hemos visto un solo obispo, diácono o abad de ninguna de las otras denominaciones [ROOT.Char.GetFaith.GetReligion.GetAdjective] en [GetTitleByKey('c_toledo').GetNameNoTier]; parece que nuestro consejo es visto con desprecio o enojo por nuestra fraternidad ecuménica, y solo asisten los prelados locales."
   #AGOT Removed 
- #fp2_other_decisions.0701.opening: "Los grandes y los buenos han descendido sobre [GetTitleByKey('c_toledo').GetNameNoTier], representando todas las sedes y abadías de [ROOT.Char.GetFaith.GetAdherentNamePlural]." #NT!
+ #fp2_other_decisions.0701.opening: "Los grandes y los buenos han descendido sobre [GetTitleByKey('c_toledo').GetNameNoTier], representando todas las sedes y abadías de [ROOT.Char.GetFaith.GetAdherentNamePlural]."
   #AGOT Removed 
- #fp2_other_decisions.0701.religious_head_bishop: "\n\nEntre los humildes prelados se encuentra [portrait_bishop.GetTitledFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], jefe de la iglesia [portrait_bishop.GetFaith.GetAdjective]." #NT!
+ #fp2_other_decisions.0701.religious_head_bishop: "\n\nEntre los humildes prelados se encuentra [portrait_bishop.GetTitledFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], jefe de la iglesia [portrait_bishop.GetFaith.GetAdjective]."
   #AGOT Removed 
- #fp2_other_decisions.0701.powerful_bishop: "\n\nQuizás el más notable entre ellos es [portrait_bishop.GetTitledFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un prelado [portrait_bishop.GetFaith.GetAdjective] de gran influencia." #NT!
+ #fp2_other_decisions.0701.powerful_bishop: "\n\nQuizás el más notable entre ellos es [portrait_bishop.GetTitledFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un prelado [portrait_bishop.GetFaith.GetAdjective] de gran influencia."
   #AGOT Removed 
- #fp2_other_decisions.0701.saint_bishop: "\n\n¡Los asistentes tienen la suerte de tener entre ellos [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un santo [portrait_bishop.GetFaith.GetAdjective]!" #NT!
+ #fp2_other_decisions.0701.saint_bishop: "\n\n¡Los asistentes tienen la suerte de tener entre ellos [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un santo [portrait_bishop.GetFaith.GetAdjective]!"
   #AGOT Removed 
- #fp2_other_decisions.0701.theologian_bishop: "\n\nEntre ellos destaca [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un teólogo [portrait_bishop.GetFaith.GetAdjective] muy respetado." #NT!
+ #fp2_other_decisions.0701.theologian_bishop: "\n\nEntre ellos destaca [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un teólogo [portrait_bishop.GetFaith.GetAdjective] muy respetado."
   #AGOT Removed 
- #fp2_other_decisions.0701.bad_bishop: "\n\nUno de los más conocidos es [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], cuya impiedad es el blanco de las bromas conocidas en toda la cristiandad." #NT!
+ #fp2_other_decisions.0701.bad_bishop: "\n\nUno de los más conocidos es [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], cuya impiedad es el blanco de las bromas conocidas en toda la cristiandad."
   #AGOT Removed 
- #fp2_other_decisions.0701.senior_bishop: "\n\nEl más antiguo de todos los clérigos es [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un venerable [portrait_bishop.GetWomanMan] de la tela." #NT!
+ #fp2_other_decisions.0701.senior_bishop: "\n\nEl más antiguo de todos los clérigos es [portrait_bishop.GetFirstName], [portrait_bishop.Custom('get_council_of_toledo_attendee_description')], un venerable [portrait_bishop.GetWomanMan] de la tela."
   #AGOT Removed 
- #fp2_other_decisions.0701.failure: "\n\nLos mercaderes de la ciudad amurallada están decepcionados por la baja participación, ya que se prepararon para las visitas de un gran número de clérigos. Una pena." #NT!
+ #fp2_other_decisions.0701.failure: "\n\nLos mercaderes de la ciudad amurallada están decepcionados por la baja participación, ya que se prepararon para las visitas de un gran número de clérigos. Una pena."
   #AGOT Removed 
- #fp2_other_decisions.0701.desc: "\n\nLa ciudad amurallada ya está viendo los beneficios de los clérigos visitantes, cuyo comercio y hospitalidad son buscados por los comerciantes." #NT!
+ #fp2_other_decisions.0701.desc: "\n\nLa ciudad amurallada ya está viendo los beneficios de los clérigos visitantes, cuyo comercio y hospitalidad son buscados por los comerciantes."
   #AGOT Removed 
- #fp2_other_decisions.0701.a: "Excelente." #NT!
+ #fp2_other_decisions.0701.a: "Excelente."
   #AGOT Removed 
- #fp2_other_decisions.0701.b: "El orgullo va..." #NT!
+ #fp2_other_decisions.0701.b: "El orgullo va..."
   #AGOT Removed 
- #fp2_other_decisions.0701.c: "Bien." #NT!
+ #fp2_other_decisions.0701.c: "Bien."
   #AGOT Removed 
- #fp2_other_decisions.0701.tt: "Comienza el [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo" #NT!
+ #fp2_other_decisions.0701.tt: "Comienza el [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo"
   # Event - Debate 
   #AGOT Removed 
- #fp2_other_decisions.0702.t: "$fp2_other_decisions.0700.council$: Debate" #NT!
+ #fp2_other_decisions.0702.t: "$fp2_other_decisions.0700.council$: Debate"
   #AGOT Removed 
- #fp2_other_decisions.0702.19: "Siglos después del último concilio del arzobispo Gunderic bajo el rey Wittiza, [council_priest.GetCouncilTitleFirstName] ha restaurado nuestra tradición al abrir la decimonovena reunión en el piso [GetTitleByKey('c_toledo').GetNameNoTier].\n\n" #NT!
+ #fp2_other_decisions.0702.19: "Siglos después del último concilio del arzobispo Gunderic bajo el rey Wittiza, [council_priest.GetCouncilTitleFirstName] ha restaurado nuestra tradición al abrir la decimonovena reunión en el piso [GetTitleByKey('c_toledo').GetNameNoTier].\n\n"
   #AGOT Removed 
- #fp2_other_decisions.0702.opening: "Otro consejo ha comenzado en [GetTitleByKey('c_toledo').GetNameNoTier], esta vez abierto por [council_priest.GetCouncilTitleFirstName].\n\n" #NT!
+ #fp2_other_decisions.0702.opening: "Otro consejo ha comenzado en [GetTitleByKey('c_toledo').GetNameNoTier], esta vez abierto por [council_priest.GetCouncilTitleFirstName].\n\n"
   #AGOT Removed 
- #fp2_other_decisions.0702.present: "\n\nAl final de la semana, rápidamente quedó claro que [debate_bishop.GetTitledFirstName] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] tenía la opinión general sobre el asunto, $fp2_other_decisions.0702.closing$" #NT!
+ #fp2_other_decisions.0702.present: "\n\nAl final de la semana, rápidamente quedó claro que [debate_bishop.GetTitledFirstName] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] tenía la opinión general sobre el asunto, $fp2_other_decisions.0702.closing$"
   #AGOT Removed 
- #fp2_other_decisions.0702.second_hand: "\n\nA medida que las conversaciones llegan a su fin, queda claro que [debate_bishop.GetTitledFirstName] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] se considera el líder de esta opinión, $fp2_other_decisions.0702.closing$" #NT!
+ #fp2_other_decisions.0702.second_hand: "\n\nA medida que las conversaciones llegan a su fin, queda claro que [debate_bishop.GetTitledFirstName] de [debate_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] se considera el líder de esta opinión, $fp2_other_decisions.0702.closing$"
   #AGOT Removed 
- #fp2_other_decisions.0702.conversion: "Rápidamente surgió un tema general de que la conversión de herejes e infieles es la única forma de garantizar la paz y proteger [ROOT.Char.GetFaith.GetAdherentNamePlural]." #NT!
+ #fp2_other_decisions.0702.conversion: "Rápidamente surgió un tema general de que la conversión de herejes e infieles es la única forma de garantizar la paz y proteger [ROOT.Char.GetFaith.GetAdherentNamePlural]."
   #AGOT Removed 
- #fp2_other_decisions.0702.reform: "El tema clave ha sido que [ROOT.Char.GetFaith.GetAdherentNamePlural] no debe temer una reforma importante, ahora que la posición de la iglesia ibérica está asegurada." #NT!
+ #fp2_other_decisions.0702.reform: "El tema clave ha sido que [ROOT.Char.GetFaith.GetAdherentNamePlural] no debe temer una reforma importante, ahora que la posición de la iglesia ibérica está asegurada."
   #AGOT Removed 
- #fp2_other_decisions.0702.tolerance: "El tema dominante ha sido que [ROOT.Char.GetFaith.GetAdherentNamePlural] debería ser más tolerante con los infieles pacíficos, una idea que rápidamente se convirtió en el centro de las conversaciones." #NT!
+ #fp2_other_decisions.0702.tolerance: "El tema dominante ha sido que [ROOT.Char.GetFaith.GetAdherentNamePlural] debería ser más tolerante con los infieles pacíficos, una idea que rápidamente se convirtió en el centro de las conversaciones."
   #AGOT Removed 
- #fp2_other_decisions.0702.rights: "El tema principal ha sido la preocupación por salvaguardar los antiguos derechos del clero [ROOT.Char.GetFaith.GetAdjective] y reparar iglesias." #NT!
+ #fp2_other_decisions.0702.rights: "El tema principal ha sido la preocupación por salvaguardar los antiguos derechos del clero [ROOT.Char.GetFaith.GetAdjective] y reparar iglesias."
   #AGOT Removed 
- #fp2_other_decisions.0702.hof: "Sorprendentemente, la sensación de que [ROOT.Char.GetFaith.GetAdherentNamePlural] necesitaba su propio líder espiritual fue la preocupación más apremiante de muchos de nuestros obispos." #NT!
+ #fp2_other_decisions.0702.hof: "Sorprendentemente, la sensación de que [ROOT.Char.GetFaith.GetAdherentNamePlural] necesitaba su propio líder espiritual fue la preocupación más apremiante de muchos de nuestros obispos."
   #AGOT Removed 
- #fp2_other_decisions.0702.pope: "Cayó un ambiente de colaboración, y muchos obispos abogaron por una mayor cooperación entre [ROOT.Char.GetFaith.GetAdherentNamePlural] y sus hermanos ecuménicos." #NT!
+ #fp2_other_decisions.0702.pope: "Cayó un ambiente de colaboración, y muchos obispos abogaron por una mayor cooperación entre [ROOT.Char.GetFaith.GetAdherentNamePlural] y sus hermanos ecuménicos."
   #AGOT Removed 
- #fp2_other_decisions.0702.heresy: "Una energía urgente se apoderó de las conversaciones, cuando se abordó la amenaza planteada por los [heretic_faith.GetAdherentNamePlural], herejes como los priscilianos y arrianos del pasado." #NT!
+ #fp2_other_decisions.0702.heresy: "Una energía urgente se apoderó de las conversaciones, cuando se abordó la amenaza planteada por los [heretic_faith.GetAdherentNamePlural], herejes como los priscilianos y arrianos del pasado."
   #AGOT Removed 
- #fp2_other_decisions.0702.closing: "mientras que [counter_bishop.GetTitledFirstName|U] de [counter_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] contrarrestó enérgicamente los argumentos de [debate_bishop.GetHerHis]." #NT!
+ #fp2_other_decisions.0702.closing: "Mientras que [counter_bishop.GetTitledFirstName|U] de [counter_bishop.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip] contrarrestó enérgicamente los argumentos de [debate_bishop.GetHerHis]."
   #AGOT Removed 
- #fp2_other_decisions.0702.a: "No podría estar mas de acuerdo." #NT!
+ #fp2_other_decisions.0702.a: "No podría estar mas de acuerdo."
   #AGOT Removed 
- #fp2_other_decisions.0702.b.hof: "No es [ROOT.Char.GetFaith.HighGodNamePossessive] voluntad." #NT!
+ #fp2_other_decisions.0702.b.hof: "No es [ROOT.Char.GetFaith.HighGodNamePossessive] voluntad."
   #AGOT Removed 
- #fp2_other_decisions.0702.b: "[debate_bishop.GetSheHe|U] será gritado." #NT!
+ #fp2_other_decisions.0702.b: "[debate_bishop.GetSheHe|U] será gritado."
   #AGOT Removed 
- #council_of_toledo_ruler_effect_tt: "Cada [council_toledo_faith.GetAdjective] [ruler|E]" #NT!
+ #council_of_toledo_ruler_effect_tt: "Cada [council_toledo_faith.GetAdjective] [ruler|E]"
   # Event - Invalidated 
   #AGOT Removed 
- #fp2_other_decisions.0703.t: "$fp2_other_decisions.0700.council$: Aplazado" #NT!
+ #fp2_other_decisions.0703.t: "$fp2_other_decisions.0700.council$: Aplazado"
   #AGOT Removed 
- #fp2_other_decisions.0703.war: "Con el estallido de la guerra, [council_priest.GetCouncilTitleFirstName] ha aplazado por el momento el próximo Concilio de Toledo." #NT!
+ #fp2_other_decisions.0703.war: "Con el estallido de la guerra, [council_priest.GetCouncilTitleFirstName] ha aplazado por el momento el próximo Concilio de Toledo."
   #AGOT Removed 
- #fp2_other_decisions.0703.control: "Con la pérdida de [GetTitleByKey('c_toledo').GetNameNoTier], ya no será posible acoger el próximo Concilio de Toledo..." #NT!
+ #fp2_other_decisions.0703.control: "Con la pérdida de [GetTitleByKey('c_toledo').GetNameNoTier], ya no será posible acoger el próximo Concilio de Toledo..."
   #AGOT Removed 
- #fp2_other_decisions.0703.desc: "\n\nEl [ROOT.Char.GetFaith.GetAdherentNamePlural] sin duda regresará pronto de este contratiempo..." #NT!
+ #fp2_other_decisions.0703.desc: "\n\nEl [ROOT.Char.GetFaith.GetAdherentNamePlural] sin duda regresará pronto de este contratiempo..."
   #AGOT Removed 
- #fp2_other_decisions.0703.a: "Decepcionante." #NT!
+ #fp2_other_decisions.0703.a: "Decepcionante."
   # Event - Ping 
   #AGOT Removed 
- #fp2_other_decisions.0704.t: "El $fp2_other_decisions.0700.council$" #NT!
+ #fp2_other_decisions.0704.t: "El $fp2_other_decisions.0700.council$"
   #AGOT Removed 
- #fp2_other_decisions.0704.success: "\n\nCon el apoyo de [council_toledo_host.GetTitledFirstNamePossessive], el clero [ROOT.Char.GetFaith.GetAdherentNamePlural] ha hecho oír su voz." #NT!
+ #fp2_other_decisions.0704.success: "\n\nCon el apoyo de [council_toledo_host.GetTitledFirstNamePossessive], el clero [ROOT.Char.GetFaith.GetAdherentNamePlural] ha hecho oír su voz."
   #AGOT Removed 
- #fp2_other_decisions.0704.failure: "Sin embargo, parece que [council_toledo_host.GetTitledFirstName] tenía otras ideas y presionó enérgicamente contra estas propuestas." #NT!
+ #fp2_other_decisions.0704.failure: "Sin embargo, parece que [council_toledo_host.GetTitledFirstName] tenía otras ideas y presionó enérgicamente contra estas propuestas."
   #AGOT Removed 
- #fp2_other_decisions.0704.a: "Interesante." #NT!
+ #fp2_other_decisions.0704.a: "Interesante."
   # Custom Loc 
   #AGOT Removed 
- #council_toledo_landed_desc: "[ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTier]" #NT!
+ #council_toledo_landed_desc: "[ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTier]"
   #AGOT Removed 
- #council_toledo_unlanded_desc: "Arzobispo de [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier]" #NT!
+ #council_toledo_unlanded_desc: "Arzobispo de [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier]"
   # Tooltips 
   #AGOT Removed 
- #fp2_council_culture_tt: "Ibérico [cultures|E] ganancia #positive_value [SCOPE.ScriptValue('council_toledo_culture_acceptance_value')|0]#! [cultural_acceptance|E] de [THIS.Char.GetCulture.GetName]" #NT!
+ #fp2_council_culture_tt: "Ibérico [cultures|E] ganancia #positive_value [SCOPE.ScriptValue('council_toledo_culture_acceptance_value')|0]#! [cultural_acceptance|E] de [THIS.Char.GetCulture.GetName]"
   #AGOT Removed 
- #fp2_council_opinion_mozarabic_effect_tt: "Todos los asistentes mozárabes" #NT!
+ #fp2_council_opinion_mozarabic_effect_tt: "Todos los asistentes mozárabes"
   #AGOT Removed 
- #fp2_council_opinion_other_effect_tt: "Todos los asistentes no mozárabes" #NT!
+ #fp2_council_opinion_other_effect_tt: "Todos los asistentes no mozárabes"
   #AGOT Removed 
- #fp2_council_conversion_modifier_tt: "Convert Faith in County progresará más rápido contra otros [religions|E] mientras este modificador esté presente" #NT!
+ #fp2_council_conversion_modifier_tt: "Convert Faith in County progresará más rápido contra otros [religions|E] mientras este modificador esté presente"
   #AGOT Removed 
- #fp2_council_heresies_modifier_tt: "Convert Faith in County progresará más rápido contra el mismo-[religion|E] [faiths|E] con [head_of_faiths|E] este modificador está presente" #NT!
+ #fp2_council_heresies_modifier_tt: "Convert Faith in County progresará más rápido contra el mismo-[religion|E] [faiths|E] con [head_of_faiths|E] este modificador está presente"
   #AGOT Removed 
- #excluded_from_council_toledo_tt: "Cada dos [THIS.Char.GetFaith.GetReligion.GetAdjective] [head_of_faith|E] en [diplomatic_range|E]" #NT!
+ #excluded_from_council_toledo_tt: "Cada dos [THIS.Char.GetFaith.GetReligion.GetAdjective] [head_of_faith|E] en [diplomatic_range|E]"
   #AGOT Removed 
- #fp2_council_end_tt: "Finaliza el [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo" #NT!
+ #fp2_council_end_tt: "Finaliza el [SCOPE.ScriptValue('council_of_toledo_counter_value')][THIS.Char.Custom('get_council_of_toledo_count_suffix')] Concilio de Toledo"
   # Modifiers 
   #AGOT Removed 
- #fp2_small_council_modifier: "Ayuntamiento de Toledo" #NT!
+ #fp2_small_council_modifier: "Ayuntamiento de Toledo"
   #AGOT Removed 
- #fp2_small_council_modifier_desc: "En Toledo se ha celebrado un consejo local de prelados que ha traído prosperidad a la localidad." #NT!
+ #fp2_small_council_modifier_desc: "En Toledo se ha celebrado un consejo local de prelados que ha traído prosperidad a la localidad."
   #AGOT Removed 
- #fp2_big_council_modifier: "$fp2_small_council_modifier$" #NT!
+ #fp2_big_council_modifier: "$fp2_small_council_modifier$"
   #AGOT Removed 
- #fp2_big_council_modifier_desc: "En Toledo se ha celebrado un nutrido consejo de prelados que trajo gran prosperidad a la villa." #NT!
+ #fp2_big_council_modifier_desc: "En Toledo se ha celebrado un nutrido consejo de prelados que trajo gran prosperidad a la villa."
   #AGOT Removed 
- #fp2_disappointing_council_modifier: "$fp2_small_council_modifier$" #NT!
+ #fp2_disappointing_council_modifier: "$fp2_small_council_modifier$"
   #AGOT Removed 
- #fp2_disappointing_council_modifier_desc: "Se ha celebrado en Toledo un consejo de prelados con una asistencia decepcionante que ha costado comerciantes a los pueblos." #NT!
+ #fp2_disappointing_council_modifier_desc: "Se ha celebrado en Toledo un consejo de prelados con una asistencia decepcionante que ha costado comerciantes a los pueblos."
   #AGOT Removed 
- #fp2_stifled_council_modifier: "Consejo sofocado" #NT!
+ #fp2_stifled_council_modifier: "Consejo sofocado"
   #AGOT Removed 
- #fp2_stifled_council_modifier_desc: "Contradecir un concilio religioso ha hecho que este personaje sea impopular entre el clero." #NT!
+ #fp2_stifled_council_modifier_desc: "Contradecir un concilio religioso ha hecho que este personaje sea impopular entre el clero."
   #AGOT Removed 
- #fp2_council_conversion_modifier: "Concilio de Conversión" #NT!
+ #fp2_council_conversion_modifier: "Concilio de Conversión"
   #AGOT Removed 
- #fp2_council_conversion_modifier_desc: "El último Concilio de Toledo fomentó la conversión de los infieles en los reinos mozárabes." #NT!
+ #fp2_council_conversion_modifier_desc: "El último Concilio de Toledo fomentó la conversión de los infieles en los reinos mozárabes."
   #AGOT Removed 
- #fp2_council_tolerance_modifier: "Consejo de la Tolerancia" #NT!
+ #fp2_council_tolerance_modifier: "Consejo de la Tolerancia"
   #AGOT Removed 
- #fp2_council_tolerance_modifier_desc: "El último Concilio de Toledo fomentó la tolerancia entre las religiones de Iberia." #NT!
+ #fp2_council_tolerance_modifier_desc: "El último Concilio de Toledo fomentó la tolerancia entre las religiones de Iberia."
   #AGOT Removed 
- #fp2_council_reform_modifier: "Consejo de Reforma" #NT!
+ #fp2_council_reform_modifier: "Consejo de Reforma"
   #AGOT Removed 
- #fp2_council_reform_modifier_desc: "El último Concilio de Toledo alentó la reforma de la iglesia mozárabe dada su nueva potestad." #NT!
+ #fp2_council_reform_modifier_desc: "El último Concilio de Toledo alentó la reforma de la iglesia mozárabe dada su nueva potestad."
   #AGOT Removed 
- #fp2_council_rights_modifier: "Consejo de Derechos" #NT!
+ #fp2_council_rights_modifier: "Consejo de Derechos"
   #AGOT Removed 
- #fp2_council_rights_modifier_desc: "El último Concilio de Toledo fomentó la protección de los derechos clericales y la reparación de las iglesias." #NT!
+ #fp2_council_rights_modifier_desc: "El último Concilio de Toledo fomentó la protección de los derechos clericales y la reparación de las iglesias."
   #AGOT Removed 
- #fp2_council_hof_modifier: "Consejo de Liderazgo" #NT!
+ #fp2_council_hof_modifier: "Consejo de Liderazgo"
   #AGOT Removed 
- #fp2_council_hof_modifier_desc: "El último Concilio de Toledo animó a los mozárabes a nombrar su propio líder de fe." #NT!
+ #fp2_council_hof_modifier_desc: "El último Concilio de Toledo animó a los mozárabes a nombrar su propio líder de fe."
   #AGOT Removed 
- #fp2_council_pope_modifier: "Consejo de Cooperación" #NT!
+ #fp2_council_pope_modifier: "Consejo de Cooperación"
   #AGOT Removed 
- #fp2_council_pope_modifier_desc: "El último Concilio de Toledo alentó la cooperación entre los mozárabes y el mundo cristiano en general." #NT!
+ #fp2_council_pope_modifier_desc: "El último Concilio de Toledo alentó la cooperación entre los mozárabes y el mundo cristiano en general."
   #AGOT Removed 
- #fp2_council_heresy_modifier: "Consejo de la Inquisición" #NT!
+ #fp2_council_heresy_modifier: "Consejo de la Inquisición"
   #AGOT Removed 
- #fp2_council_heresy_modifier_desc: "El último Concilio de Toledo alentó a erradicar las herejías surgidas en Iberia." #NT!
+ #fp2_council_heresy_modifier_desc: "El último Concilio de Toledo alentó a erradicar las herejías surgidas en Iberia."
   # Opinions 
   #AGOT Removed 
- #fp2_council_toledo_opinion: "$fp2_small_council_modifier$" #NT!
+ #fp2_council_toledo_opinion: "$fp2_small_council_modifier$"
   #AGOT Removed 
- #fp2_excluded_from_council_toledo_opinion: "Excluidos de Toledo" #NT!
+ #fp2_excluded_from_council_toledo_opinion: "Excluidos de Toledo"
   #AGOT Removed 
- #fp2_council_toledo_new_hof_opinion: "$fp2_council_hof_modifier$" #NT!
+ #fp2_council_toledo_new_hof_opinion: "$fp2_council_hof_modifier$"
   #AGOT Removed 
- #fp2_council_toledo_pope_opinion: "$fp2_council_pope_modifier$" #NT!
+ #fp2_council_toledo_pope_opinion: "$fp2_council_pope_modifier$"
   # Tasks 
   #AGOT Removed 
- #council_toledo_conversion_task_desc: "$fp2_council_conversion_modifier$" #NT!
+ #council_toledo_conversion_task_desc: "$fp2_council_conversion_modifier$"
   #AGOT Removed 
- #council_toledo_heresies_task_desc: "$fp2_council_heresy_modifier$" #NT!
+ #council_toledo_heresies_task_desc: "$fp2_council_heresy_modifier$"
   # Other 
   #AGOT Removed 
- #fervor_gain_council_toledo: "$fp2_small_council_modifier$" #NT!
+ #fervor_gain_council_toledo: "$fp2_small_council_modifier$"
   #AGOT Removed 
- #fp2_council_toledo_culture_acceptance_desc: "$fp2_small_council_modifier$" #NT!
+ #fp2_council_toledo_culture_acceptance_desc: "$fp2_small_council_modifier$"
   
   #AGOT Removed 
- #found_kingdom_toledo_decision_title: "Establecimiento del Reino de Toledo" #NT!
+ #found_kingdom_toledo_decision_title: "Establecimiento del Reino de Toledo"
   #AGOT Removed 
- #found_kingdom_toledo_decision_desc: "Desde la caída del reino visigodo ante los moros, [GetTitleByKey('c_toledo').GetNameNoTier] ha quedado relegado. Como capital de un nuevo reino [ROOT.Char.GetFaith.GetAdjective], volverá a ser sede de reyes." #NT!
+ #found_kingdom_toledo_decision_desc: "Desde la caída del reino visigodo ante los moros, [GetTitleByKey('c_toledo').GetNameNoTier] ha quedado relegado. Como capital de un nuevo reino [ROOT.Char.GetFaith.GetAdjective], volverá a ser sede de reyes."
   #AGOT Removed 
- #found_kingdom_toledo_decision_confirm: "¡Toledo es el corazón de Iberia!" #NT!
+ #found_kingdom_toledo_decision_confirm: "¡Toledo es el corazón de Iberia!"
   #AGOT Removed 
- #found_kingdom_toledo_decision_tooltip: "Establecer un nuevo [GetFaithByKey('mozarabic_church').GetAdjective] [kingdom|E] basado en [GetTitleByKey('k_toledo').GetNameNoTier]" #NT!
+ #found_kingdom_toledo_decision_tooltip: "Establecer un nuevo [GetFaithByKey('mozarabic_church').GetAdjective] [kingdom|E] basado en [GetTitleByKey('k_toledo').GetNameNoTier]"
   #AGOT Removed 
- #found_kingdom_toledo_culture_tt: "Tu [culture|E] tiene [heritage|E] ibérico" #NT!
+ #found_kingdom_toledo_culture_tt: "Tu [culture|E] tiene [heritage|E] ibérico"
   #AGOT Removed 
- #found_kingdom_toledo_faith_tt: "Tu [faith|E] es [GetFaithByKey('mozarabic_church').GetName], o se creó a partir de él" #NT!
+ #found_kingdom_toledo_faith_tt: "Tu [faith|E] es [GetFaithByKey('mozarabic_church').GetName], o se creó a partir de él"
   #AGOT Removed 
- #found_kingdom_toledo_duchy_tt: "Usted [hold|E] y [completely_control|E] cualquier [duchy|E] que [de_jure|E] limita con el [GetTitleByKey('d_toledo').GetName], y que es parte de un [kingdom|E] con más de dos [de_jure|E] [duchies|E]" #NT!
+ #found_kingdom_toledo_duchy_tt: "Usted [hold|E] y [completely_control|E] cualquier [duchy|E] que [de_jure|E] limita con el [GetTitleByKey('d_toledo').GetName], y que es parte de un [kingdom|E] con más de dos [de_jure|E] [duchies|E]"
   #AGOT Removed 
- #found_kingdom_toledo_capital_tt: "[GetTitleByKey('c_toledo').GetNameNoTier] es tu [realm_capital|E]" #NT!
+ #found_kingdom_toledo_capital_tt: "[GetTitleByKey('c_toledo').GetNameNoTier] es tu [realm_capital|E]"
   
   #AGOT Removed 
- #fp2_other_decisions.1100.t: "El Reino de Toledo" #NT!
+ #fp2_other_decisions.1100.t: "El Reino de Toledo"
   #AGOT Removed 
- #fp2_other_decisions.1100.desc: "Ahora que la fuerza de mi posición está fuera de toda duda, la coronación en [GetTitleByKey('c_toledo').GetNameNoTier] finalmente se ha llevado a cabo según lo planeado.\n\nYa es hora de que [ROOT.Char.GetFaith.GetAdherentNamePlural] forjemos nuestro propio dominio, distinto de las pequeñas taifas y los dominios de los norte; ¡un reino que rivaliza con el reino visigodo de antaño!" #NT!
+ #fp2_other_decisions.1100.desc: "Ahora que la fuerza de mi posición está fuera de toda duda, la coronación en [GetTitleByKey('c_toledo').GetNameNoTier] finalmente se ha llevado a cabo según lo planeado.\n\nYa es hora de que [ROOT.Char.GetFaith.GetAdherentNamePlural] forjemos nuestro propio dominio, distinto de las pequeñas taifas y los dominios de los norte; ¡un reino que rivaliza con el reino visigodo de antaño!"
   #AGOT Removed 
- #fp2_other_decisions.1100.a: "Que nuestro reino prospere por mucho tiempo." #NT!
+ #fp2_other_decisions.1100.a: "Que nuestro reino prospere por mucho tiempo."
   
   #AGOT Removed 
- #fp2_other_decisions.1101.desc: "Yendo cada vez más fuerte, [toledo_former.GetTitledFirstName] ha coronado formalmente a [toledo_former.GetHerselfHimself] en [GetTitleByKey('c_toledo').GetNameNoTier].\n\nLa fuerza de este nuevo reino [toledo_former.GetFaith.GetAdjective], que incorpora las tierras de los antiguos dominios de Iberia, está ahora fuera de toda duda.\n\n" #NT!
+ #fp2_other_decisions.1101.desc: "Yendo cada vez más fuerte, [toledo_former.GetTitledFirstName] ha coronado formalmente a [toledo_former.GetHerselfHimself] en [GetTitleByKey('c_toledo').GetNameNoTier].\n\nLa fuerza de este nuevo reino [toledo_former.GetFaith.GetAdjective], que incorpora las tierras de los antiguos dominios de Iberia, está ahora fuera de toda duda.\n\n"
   #AGOT Removed 
- #fp2_other_decisions.1101.stolen: "¡Habrá que ocuparse de estos fastidiosos advenedizos más pronto que tarde!" #NT!
+ #fp2_other_decisions.1101.stolen: "¡Habrá que ocuparse de estos fastidiosos advenedizos más pronto que tarde!"
   #AGOT Removed 
- #fp2_other_decisions.1101.mozarab: "Aunque esto es un buen augurio para nuestra fe, puede ser un arma de doble filo..." #NT!
+ #fp2_other_decisions.1101.mozarab: "Aunque esto es un buen augurio para nuestra fe, puede ser un arma de doble filo..."
   #AGOT Removed 
- #fp2_other_decisions.1101.a: "¡Ellos no durarán mucho!" #NT!
+ #fp2_other_decisions.1101.a: "¡Ellos no durarán mucho!"
   #AGOT Removed 
- #fp2_other_decisions.1101.b: "Algo para vigilar." #NT!
+ #fp2_other_decisions.1101.b: "Algo para vigilar."
   #AGOT Removed 
- #fp2_other_decisions.1101.c: "Interesante." #NT!
+ #fp2_other_decisions.1101.c: "Interesante."
   
   #AGOT Removed 
- #fp2_form_kingdom_toledo_modifier: "$fp2_other_decisions.1100.t$" #NT!
+ #fp2_form_kingdom_toledo_modifier: "$fp2_other_decisions.1100.t$"
   #AGOT Removed 
- #fp2_form_kingdom_toledo_modifier_desc: "Este personaje ha establecido un nuevo reino centrado en la antigua capital visigoda." #NT!
+ #fp2_form_kingdom_toledo_modifier_desc: "Este personaje ha establecido un nuevo reino centrado en la antigua capital visigoda."

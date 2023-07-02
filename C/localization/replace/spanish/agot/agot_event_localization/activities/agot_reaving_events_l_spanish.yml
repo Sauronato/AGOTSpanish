@@ -1,283 +1,283 @@
 ﻿l_spanish:
- activity_reaving:0 "Saqueando" #NT!
- activity_reaving_owner:0 "Saqueador" #NT!
- activity_reaving_name:0 "El gran saqueo" #NT!
- reaving_header:0 "[ROOT.Char.Custom('reavingHeader')]" #NT!
- very_long_reaving_tt:0 "Este es un #V excepcionalmente largo#! recorrido" #NT!
- long_reaving_tt:0 "Este es un #V muy largo#! recorrido" #NT!
- medium_reaving_tt:0 "Este es un #V largo#! salto" #NT!
- short_reaving_tt:0 "Esto es un #V corto#! salto" #NT!
-
- reaving_return_home:0 "Vuelvo a casa a [start_location.GetNameNoTier]" #NT!
-
- # Generic reaving Start Events
-
- agot_reaving.0001.t:0 "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] saqueo" #NT!
- agot_reaving.0001.desc:0 "Es hora de preparar los barcos y emprender un Gran Reaving, como el que los groenlandeses susurrarán a sus hijos. Pero ¿de qué campo recogeremos la paja?" #NT!
- agot_reaving.0001.a:0 "Las Tierras en disputa están listas para el saqueo." #NT!
- agot_reaving.0001.b:0 "El norte de Essos sufrirá." #NT!
- agot_reaving.0001.c:0 "Las tierras del Mar de Verano son débiles." #NT!
- agot_reaving.0001.d:0 "¡La Bahía de Slaver tiene mucho botín!" #NT!
- agot_reaving.0001.e:0 "He cambiado de opinión. Este no es el momento adecuado." #NT!
-
- agot_reaving.0010.desc:0 "¿Por qué aceptaría mi invitación solo para asistir a la corte [other_host.GetTitledFirstNamePossessive]? No lo sé, pero sepa que lo recordaré." #NT!
- agot_reaving.0010.a:0 "Desgraciado." #NT!
-
-#Reaving Invitations
-
- agot_reaving.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
- agot_reaving.1002.opening_desc:0 "¡Por la presente te invito a un festín en mi corte en [barony.GetNameNoTier]!" #NT!
- agot_reaving.1002.host_likes_me:0 "Espero que asista, ya que de lo contrario se extrañaría mucho su presencia." #NT!
- agot_reaving.1002.host_gets_along_with_me:0 "Como [ROOT.Char.GetTitleTierName] notable, sería un honor para mí su asistencia." #NT!
- agot_reaving.1002.host_dislikes_me:0 "Espero que todos los notables estén allí, lo que desafortunadamente te incluye a ti." #NT!
- agot_reaving.1002.a:0 "Por supuesto que asistiré." #NT!
- agot_reaving.1002.b:0 "Asistiré. De mala gana." #NT!
- agot_reaving.1002.c:0 "Lamento decir que estoy ocupado." #NT!
- agot_reaving.1002.d:0 "¡No, me niego!" #NT!
-
- agot_reaving.1003.desc:0 "¡Por la presente te invito a un gran saqueo en mi corte en [barony.GetNameNoTier]! Será un gran evento, digno de su honorable presencia." #NT!
- agot_reaving.1003.a:0 "Será un placer." #NT!
- agot_reaving.1003.b:0 "Tengo asuntos más importantes que atender." #NT!
-
- agot_reaving.1004.desc:0 "¡Por la presente te invito a un agot_reaving en mi corte en [barony.GetNameNoTier]! Será un evento grandioso, con deliciosa comida y entretenimiento." #NT!
- agot_reaving.1004.a:0 "Será un placer." #NT!
- agot_reaving.1004.b:0 "Tengo asuntos más importantes que atender." #NT!
-
-
- agot_reaving.1008.t:0 "Gran saqueo: salida" #NT!
- agot_reaving.1008.desc.opening:0 "Una maraña de mástiles y vergas abarrota el puerto de [ROOT.Char.GetCapitalLocation.GetName]. Esta robusta flotilla de drakkars está tripulada por los leales y audaces Hombres del Hierro que han respondido a la llamada de [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]. Están ansiosos por la oportunidad de probar la sal en su sangre saqueando las verdes tierras al otro lado del Mar Angosto. \n\nMientras nos preparamos para el Gran [reaving|E] a [ROOT.Char.Custom('ReavingDestination')], sé que el [ROOT.Char.GetFaith.PantheonTerm] llenará nuestras velas y guiará nuestras espadas." #NT!
- agot_reaving.1008.desc.short:0 "\n\nMientras nos cubrimos de sangre y gloria, dejo el bienestar del reino a mi familia." #NT!
- agot_reaving.1008.desc.medium:0 "\n\nMientras voy con [ROOT.Char.GetFaith.HighGodNameAlternate], mi reino debe esperar, sin importar el tiempo que me vaya." #NT!
- agot_reaving.1008.desc.long:0 "\n\nMi destino está lejos de casa, pero al servicio de [ROOT.Char.GetFaith.DivineRealm], incluso mi propio reino debe esperar." #NT!
- agot_reaving.1008.desc.very_long:0 "\n\nEstaré fuera por mucho tiempo, y solo puedo rezar para que [ROOT.Char.GetFaith.HighGodNameAlternate] también cuide mi reino." #NT!
- agot_reaving.1008.a:0 "Pagaremos el Precio del Hierro." #NT!
-
- agot_reaving.1009.t:0 "Una cálida bienvenida" #NT!
- agot_reaving.1009.likes_host:0 "¡Todos los invitados están reunidos en el gran salón y nuestro amable anfitrión, [activity.GetOwner.GetTitledFirstName], nos ha dado la bienvenida a todos a la fiesta!" #NT!
- agot_reaving.1009.dislikes_host:0 "Todos los invitados están reunidos en el gran salón y nuestro anfitrión [activity.GetOwner.Custom('InsultAdjective')], [activity.GetOwner.GetTitledFirstName], finalmente nos ha dado la bienvenida a todos a la fiesta." #NT!
- agot_reaving.1009.a.gluttonous:0 "¡Puedo oler la cocina desde aquí!" #NT!
- agot_reaving.1009.a.drunkard:0 "¿Dónde están los barriles?" #NT!
- agot_reaving.1009.a.gregarious:0 "¡No puedo esperar para hablar con todos!" #NT!
- agot_reaving.1009.a.shy:0 "Hay mucha gente aqui..." #NT!
- agot_reaving.1009.a:0 "¡Lo espero con ansias!" #NT!
- agot_reaving.1009.b:0 "Será mejor que valga la pena mi tiempo." #NT!
-
- agot_reaving.2001.t:0 "Prueba" #NT!
- agot_reaving.2001.desc:0 "Icles" #NT!
-
-###########################
-#   Crippled Ship:Cannibal#
-###########################
- agot_reaving.2002.t:0 "Un barco lisiado: caníbal" #NT!
- agot_reaving.2002.desc:0 "La tripulación vio un barco con una vela rota en el horizonte. El olor a muerte nos recibió mientras nos acercábamos al barco. Cuando subí a bordo supe lo que había ocurrido en la cubierta y vi los cuerpos masacrados. Los hombres desesperados cometen actos desesperados, cuando el barco quedó paralizado y los suministros comenzaron a escasear, los hombres se enfrentaron entre sí. ¡Mis hombres y yo comenzamos a buscar objetos de valor en la carnicería cuando escuchamos un grito y vimos a un hombre loco muerto de hambre cargando contra nosotros, espada en mano!" #NT!
- agot_reaving.2002.a:0 "Armaos!" #NT!
- agot_reaving.2002.a.tt:0 "¡Dibuja Steel y enfréntate al loco!" #NT!
- agot_reaving.2002.b:0 "¡Qué locura! ¡De vuelta al barco!" #NT!
- agot_reaving.2002.b.tt:0 "¡Ningún oro vale esto!" #NT!
- agot_reaving.2002.a.success_title:0 "Caníbal asesinado" #NT!
- agot_reaving.2002.a.failure_title:0 "¡Fuerza para huir!" #NT!
-
-################################
-# Crippled Ship:Captains Gamble#
-################################
- agot_reaving.2003.t:0 "Un barco lisiado: una apuesta de capitanes" #NT!
- agot_reaving.2003.desc:0 "La tripulación vio un barco con una vela rota en el horizonte. A medida que nos acercábamos al barco, vimos a un hombre y su tripulación esperando. No hicieron ningún movimiento para evitar que abordáramos el barco averiado, sino que mantuvieron sus ojos en un hombre en el centro de ellos. Me apresuré a deducir que era su Capitán. El Capitán se acercó y me miró a los ojos "Sé que eres Ironborn y no estás aquí para salvarnos o intercambiar con nosotros lo que necesitamos. En cambio, te propongo una oferta." el Capitán hizo un gesto a dos hombres que apalancaron un gran cofre en la barandilla del barco, amenazando con tirarlo por la borda. "Ese cofre contiene todos nuestros objetos de valor en el barco, propongo que juguemos un juego de dados, tú ganas y obtienes el cofre, yo gano y obtengo velas y suministros adicionales..." #NT!
- agot_reaving.2003.a:0 "Pagaré Ironprice, un dual entre nosotros dos" #NT!
- agot_reaving.2003.a.tt:0 "¡Lucha contra el Capitán tú mismo y paga el Precio de Hierro por el Tesoro!" #NT!
- agot_reaving.2003.b:0 "Jugaré tu juego..." #NT!
- agot_reaving.2003.b.tt:0 "Tirarás los dados con el Capitán, ¡que el Ganador se lleve todo!" #NT!
- agot_reaving.2003.c:0 "El dios de la tormenta es el enemigo de todos los hombres." #NT!
- agot_reaving.2003.c.tt:0 "El Dios de la Tormenta es el enemigo de todos los hombres, ¿no es el deber de los hijos del Dios Ahogado frustrar sus intentos? ¡Les darás los suministros necesarios para fastidiar al Dios de la Tormenta!" #NT!
- agot_reaving.2003.a.success_title:0 "¡Mató al capitán y ganó el tesoro!" #NT!
- agot_reaving.2003.a.failure_title:0 "Perdiste contra el Capitán..." #NT!
- agot_reaving.2003.b.success_title:0 "¡Los dados te convirtieron en el ganador!" #NT!
- agot_reaving.2003.b.failure_title:0 "Los Dados no estaban a tu favor..." #NT!
-
- ################################
-# Crippled Ship:IronBorn        #
-################################
- agot_reaving.2004.t:0 "Un barco lisiado: Ironborn" #NT!
- agot_reaving.2004.desc:0 "La tripulación vio un barco con una vela rota en el horizonte. ¡Se nos revolvieron las entrañas cuando nos acercamos y vimos que era una nave de los Hijos del Hierro! La tripulación discute la entrega de suministros y ayuda a nuestros hermanos a reparar el barco para que puedan llegar a la costa." #NT!
- agot_reaving.2004.a:0 "Contribuiré con suministros" #NT!
- agot_reaving.2004.a.tt:0 "Darás algunos de tus suministros, como raciones o botín, para ayudar a tus hermanos." #NT!
- agot_reaving.2004.b:0 "No tendrán nada de mí" #NT!
- agot_reaving.2004.b.tt:0 "¡Por qué debo dar lo que es mío, deberían haber estado mejor preparados!" #NT!
-
-
-###########################
-#   Empty Village         #
-###########################
-
- agot_reaving.2005.t:0 "Un pueblo vacío" #NT!
- agot_reaving.2005.desc:0 "Al amparo de la noche con remos amortiguados, tocamos tierra en el pequeño pueblo costero. Estábamos contentos de que nuestro aterrizaje hubiera pasado desapercibido, luego nos dimos cuenta de por qué. El pueblo estaba vacío. La vista de la aldea con objetos de valor intactos fue inquietante para algunos de mis hombres, otros saquearon sin dudarlo. En el borde de la aldea, uno de los hombres encontró un gran pozo, en él estaban los cadáveres de los aldeanos, con los rostros torcidos por la enfermedad." #NT!
- agot_reaving.2005.a:0 "El oro bien vale el riesgo..." #NT!
- agot_reaving.2005.a.tt:0 "El muerto no tiene ningún uso para él, ¿por qué no tomarlo?." #NT!
- agot_reaving.2005.b:0 "Detén el saqueo y vete." #NT!
- agot_reaving.2005.b.tt:0 "Tu vida no vale ninguna suma de oro..." #NT!
-
-###########################
-#  Village: Sacrifice     #
-###########################
-
- agot_reaving.2006.t:0 "El pueblo: sacrificio" #NT!
- agot_reaving.2006.desc:0 "Al amparo de la noche con remos amortiguados, tocamos tierra en el pequeño pueblo costero. Nuestro acercamiento había pasado desapercibido debido a que el pueblo estaba celebrando algún evento. Podíamos escuchar risas, cantos y ver la luz de varias piras ardiendo. Cuando los Ironborn entramos en medio de la celebración, vi lo que eran las piras. Tres estaban ardiendo con los restos carbonizados de lo que una vez fue una persona, un cuarto estaba apagado con una mujer atada al tronco de un árbol, astillas y valiosas ofrendas a este dios del fuego alrededor de sus pies. La mayoría de los asistentes al festival intentan huir, algunos armados con armas, en su mayoría los que vestían túnicas rojas. Uno de los Túnicas Rojas parece agarrar un arma y proteger a la mujer que iba a ser quemada..." #NT!
- agot_reaving.2006.a:0 "¡Buscaré todos los objetos de valor que pueda!" #NT!
- agot_reaving.2006.a.tt:0 "¡No me importa la mujer, sino el oro!" #NT!
- agot_reaving.2006.b:0 "¡Liberaré a la mujer!" #NT!
- agot_reaving.2006.b.tt:0 "¡Liberaré a la mujer y la tomaré como mi esposa de sal!" #NT!
- agot_reaving.2006.a.success_title:0 "¡Mató al sacerdote rojo y pagó el precio de hierro por el oro!" #NT!
- agot_reaving.2006.a.failure_title:0 "El Sacerdote Rojo te obligó a huir..." #NT!
- agot_reaving.2006.b.success_title:0 "¡Mató al sacerdote rojo y pagó el precio de hierro por la mujer!" #NT!
- agot_reaving.2006.b.failure_title:0 "El Sacerdote Rojo te obligó a huir." #NT!
-
-##################
-#The Leviathan   #
-##################
-
- agot_reaving.2007.t:0 "El Leviatán: El Ataque" #NT!
- agot_reaving.2007.desc:0 "Los hombres han visto una gran ballena que nos ha estado siguiendo durante los últimos días. La bestia ha mantenido su distancia, pero los hombres dicen que pueden ver cicatrices cuando sale a la superficie. Me pregunto si la ballena ha sobrevivido a los ataques de los barcos ibbeneses. El pensamiento no había estado mucho tiempo conmigo, cuando la bestia decidió atacar. ¡Los hombres y yo luchamos para armarnos e intentar derribar a la bestia o ahuyentarla antes de que pueda hundir nuestro barco!" #NT!
- agot_reaving.2007.a:0 "¡Malditos balleneros ibbeneses!" #NT!
- agot_reaving.2007.a.tt:0 "¡La bestia ha decidido que ya no es la presa y ha atacado, confundiendo tu barco con un ballenero ibbenés!" #NT!
-
-
-###########################
-#  Pursuit: Ibbenese      #
-###########################
-
- agot_reaving.2008.t:0 "Persecución: ibbenés" #NT!
- agot_reaving.2008.desc:0 "Pudimos oler el barco antes de verlo. Un barco ballenero ibbenés estaba a la cabeza de nosotros, los hombres estaban mezclados si debíamos perseguirlos. Algunos sintieron que no valdría la pena atacar, otros parecían aburridos o con ganas de pelear, después de todo, un barco así sería fácil de atrapar. Los hombres me miran para decidir cómo debemos actuar." #NT!
- agot_reaving.2008.a:0 "¡Estaciones, la atraparemos!" #NT!
- agot_reaving.2008.a.tt:0 "¡El oro es oro y pagaremos el precio del hierro!" #NT!
- agot_reaving.2008.b:0 "No vale la pena el olor..." #NT!
- agot_reaving.2008.b.tt:0 "Un olor como ese se quedaría con usted y su tripulación por un tiempo...." #NT!
-
-###########################
-#   No Wind               #
-###########################
-
- agot_reaving.2009.t:0 "Un día sin viento" #NT!
- agot_reaving.2009.desc:0 "Los vientos han salido de nuestras velas hoy, dejándonos un poco más que a la deriva. Los hombres recorren la cubierta de los barcos, buscando formas de combatir la monotonía de las aguas tranquilas, algunos se han dado a la tarea de jugar al "Finger Dance", mientras que otros se han dedicado a hacer apuestas a los dados." #NT!
- agot_reaving.2009.a:0 "¡Cada hombre a un remo! El Dios de la Tormenta no nos impedirá Reaving" #NT!
- agot_reaving.2009.a.tt:0 "¡El viento no te robará la velocidad! Hay costas y botín para recuperar..." #NT!
- agot_reaving.2009.b:0 "Puedo bailar los Dedos tan bien como cualquier hombre." #NT!
- agot_reaving.2009.b.tt:0 "Un juego de lanzamiento de hachas muy querido en las Islas del Hierro, pero peligroso." #NT!
- agot_reaving.2009.c:0 "Quizás tenga suerte con los dados" #NT!
- agot_reaving.2009.c.tt:0 "¡Arriesga tu oro en los juegos de azar!" #NT!
- agot_reaving.2009.a.success_title:0 "¡Ganaste en el Finger Dance!" #NT!
- agot_reaving.2009.a.failure_title:0 "El hacha se te escapó de las manos..." #NT!
- agot_reaving.2009.b.success_title:0 "¡Los dados estaban a tu favor!" #NT!
- agot_reaving.2009.b.failure_title:0 "Los Dados no fueron amables..." #NT!
-
-###########################
-#  Pursuit: Pentoshi Ship #
-###########################
-
- agot_reaving.2010.t:0 "Persecución: Barco Pentoshi" #NT!
- agot_reaving.2010.desc:0 "Los hombres avistaron un barco Pentoshi. Los vientos están a nuestro favor y parece estar lento debido a una carga completa. Se me hace agua la boca al pensar en los quesos y el vino de color ámbar pálido conocidos por Pentos que estarían dentro del recorrido del barco." #NT!
- agot_reaving.2010.a:0 "¡Estaciones, la atraparemos!" #NT!
- agot_reaving.2010.a.tt:0 "¡Empieza a perseguir el barco! ¡Ustedes son los lobos del mar después de todo!" #NT!
- agot_reaving.2010.b:0 "No vale la pena nuestro tiempo" #NT!
- agot_reaving.2010.b.tt:0 "Hay mejor juego por ahí.." #NT!
- agot_reaving.2010.a.success_title:0 "¡Has cogido el barco!" #NT!
- agot_reaving.2010.a.failure_title:0 "El barco escapó..." #NT!
-
-
-
-###########################
-#  Pursuit: Lys Ship #
-###########################
- agot_reaving.2011.t:0 "Persecución: Barco Lys" #NT!
- agot_reaving.2011.desc:0 "Una nave Lys fue avistada en el horizonte. Tal barco podría estar transportando objetos de valor y tal vez esclavos para las casas de almohadas de su tierra natal. Los hombres me miran a mí para decidir si perseguimos." #NT!
- agot_reaving.2011.a:0 "¡Tengo la intención de reclamar una esposa de sal!" #NT!
- agot_reaving.2011.a.tt:0 "¡Empieza a perseguir el barco! ¡Ustedes son los lobos del mar después de todo!" #NT!
- agot_reaving.2011.b:0 "¡Estaciones, la atraparemos!" #NT!
- agot_reaving.2011.b.tt:0 "¡Empieza a perseguir el barco! ¡Ustedes son los lobos del mar después de todo!" #NT!
- agot_reaving.2011.c:0 "No vale la pena nuestro tiempo" #NT!
- agot_reaving.2011.c.tt:0 "Hay mejor juego por ahí.." #NT!
- agot_reaving.2011.a.success_title:0 "¡Tomaste el barco y reclamaste una esposa de sal!" #NT!
- agot_reaving.2011.a.failure_title:0 "El barco escapó..." #NT!
- agot_reaving.2011.b.success_title:0 "¡Has cogido el barco!" #NT!
- agot_reaving.2011.b.failure_title:0 "El barco escapó..." #NT!
-
-###########################
-#  Tyroshi War Gallon     #
-###########################
- agot_reaving.2012.t:0 "Galón de guerra Tyroshi" #NT!
- agot_reaving.2012.desc:0 "Se detectó un galón de guerra Tyroshi, sin duda en su camino para eliminar a algún Lord pirata de Step-stones que ha estado causando problemas con las rutas comerciales." #NT!
- agot_reaving.2012.a:0 "¿Quizás podríamos venderles nuestros Blades?" #NT!
- agot_reaving.2012.a.tt:0 "Ofrécete a trabajar como mercenario para los Tyroshi, algunos te menospreciarán, ¡pero ganarás oro!" #NT!
- agot_reaving.2012.b:0 "Mejor evitarlos.." #NT!
- agot_reaving.2012.b.tt:0 "Nada bueno puede salir de conocerlos..." #NT!
- agot_reaving.2012.a.success_title:0 "Trabajar como mercenarios" #NT!
- agot_reaving.2012.a.failure_title:0 "Oferta rechazada..." #NT!
-
-###########################
-#   Fishing Village       #
-###########################
- agot_reaving.2013.t:0 "Pequeño pueblo de pescadores" #NT!
- agot_reaving.2013.desc:0 "Asaltamos un pequeño pueblo de pescadores, no hubo resistencia para nosotros cuando llegamos a tierra. La mayoría trata de correr y esconderse, algunos opusieron resistencia, pero no estaban entrenados y cayeron rápidamente. El botín tomado fue pequeño." #NT!
- agot_reaving.2013.a:0 "¿Qué oro hay aquí?" #NT!
- agot_reaving.2013.a.tt:0 "Debe haber algunas cosas de valor aquí..." #NT!
- agot_reaving.2013.b:0 "Ella será mi esposa de sal" #NT!
- agot_reaving.2013.b.tt:0 "Ella será una buena esposa de sal" #NT!
- agot_reaving.2013.c:0 "Ella será mi esposa de sal" #NT!
- agot_reaving.2013.c.tt:0 "Ella será una buena esposa de sal" #NT!
- agot_reaving.2013.d:0 "Ella será mi esposa de sal" #NT!
- agot_reaving.2013.d.tt:0 "Ella será una buena esposa de sal" #NT!
-
-###########################
-#   Pirate Hide Out        #
-###########################
- agot_reaving.2014.t:0 "Pequeño escondite de piratas" #NT!
- agot_reaving.2014.desc:0 "Nos hemos encontrado con el escondite de un pequeño Lord pirata en Step-Stones. Si bien estamos mejor armados que ellos, se han mantenido en una cueva fortificada en la costa. Podríamos liderar una carga y romper las defensas o tal vez podamos colar a algunos hombres y abrir un camino." #NT!
- agot_reaving.2014.a:0 "¡Tendremos que luchar para entrar!" #NT!
- agot_reaving.2014.a.tt:0 "Lidera una carga contra la cueva fortificada, ¡el poder de tus armas intentará abrirse paso!" #NT!
- agot_reaving.2014.b:0 "Quizás el sigilo sea nuestra mejor opción..." #NT!
- agot_reaving.2014.b.tt:0 "Debe haber otra forma de entrar..." #NT!
- agot_reaving.2014.a.success_title:0 "¡Entró en el escondite de los piratas!" #NT!
- agot_reaving.2014.a.failure_title:0 "Error al entrar... ¡Volveremos!" #NT!
- agot_reaving.2014.b.success_title:0 "¡Encontré una manera de entrar!" #NT!
- agot_reaving.2014.b.failure_title:0 "Incapaz de encontrar otro camino... ¡Volveremos!" #NT!
-
- ###########################
-#   A Meal for the Crabs   #
-###########################
- agot_reaving.2015.t:0 "Una comida para los cangrejos" #NT!
- agot_reaving.2015.desc:0 "Las súplicas de ayuda es lo que llamó nuestra atención sobre la masa pedregosa que brotaba del mar y que le había valido a la zona el nombre de Spears of the Merling King. Un hombre quedó varado en una de estas lanzas de piedra, incluso desde nuestras posiciones me di cuenta de que los cangrejos ya estaban tratando de rodearlo. Lo primero que pensé fue que era un sobreviviente de un naufragio, pero otro miembro de la tripulación señaló que el hombre, de hecho, estaba atado a la piedra, y que cualquier crimen que haya cometido debe haber sido atroz." #NT!
- agot_reaving.2015.a:0 "Mi tripulante tiene razón, mejor dejar el tonto" #NT!
- agot_reaving.2015.a.tt:0 "Alguien pasó por el esfuerzo de darle una muerte cruel a este hombre, qué tipo de hombre merece este no es el que quiero." #NT!
- agot_reaving.2015.b:0 "Salvaré al hombre" #NT!
- agot_reaving.2015.b.tt:0 "¡Salvaré al hombre de ser comida para los cangrejos, me deberá la vida!" #NT!
-
-###########################
-#  A Ironborn in need     #
-###########################
- agot_reaving.2016.t:0 "Un Ironborn necesitado" #NT!
- agot_reaving.2016.desc:0 "Mientras arrasaba una aldea, un lancero presionaba con fuerza a uno de nuestros hombres y la situación no parecía terminar bien. El lancero está completamente enfocado en el Ironborn que está orinando y tiene una abertura expuesta para mí, sería una muerte rápida." #NT!
- agot_reaving.2016.a:0 "Ataca al hombre" #NT!
- agot_reaving.2016.a.tt:0 "Un ataque rápido romperá la presión del lancero y permitirá que tus compañeros Ironborn se recuperen." #NT!
-
-###################################
-#    Shieldmaiden in Disguise     #
-#             Badger              #
-###################################
- agot_reaving.2017.t:0 "Ahorro: [GetTrait('shieldmaiden').GetName(GetNullCharacter)]" #NT!
- agot_reaving.2017.desc:0 "Han pasado días desde el último encuentro en mar abierto cuando estalla una pelea en la cubierta principal. Para cuando logras controlar el estridente, se ha formado un círculo alrededor del tema del alboroto.\n\n "¡[shieldmaiden.GetName] ha sido un [shieldmaiden.GetWomanMan] todo este tiempo, Capitán!" Uno de tus tripulantes gruñe mientras el [shieldmaiden.GetWomanMan] arquea un hacha de abordaje alrededor del [shieldmaiden.GetHerHim] manteniendo a raya a la tripulación. Está claro que [shieldmaiden.GetSheHe] maneja el arma con fluidez, más allá de la habilidad que esperarías de un polizón.\n\n"[ROOT.Char.GetTitledFirstName]", dice [shieldmaiden.GetSheHe]. "He entrenado toda mi vida para pagar el Precio de Hierro y solo deseo servirte y ganarme el favor del Dios Ahogado. ¡Permíteme unirme a ti en este gran esfuerzo!" #NT!
- agot_reaving.2017.a:0 "¡Un [GetTrait('shieldmaiden').GetName(GetNullCharacter)] será un buen compañero en nuestra próxima incursión!" #NT!
- agot_reaving.2017.b:0 "No permitiré que ninguna mujer pelee por mí." #NT!
- agot_reaving.2017.c:0 "Puedes servir al Dios Ahogado de otra manera." #NT!
- agot_reaving.2017.d:0 "Tal vez puedas unirte a mí en mi camarote... y mantener la armadura puesta." #NT!
-
-
-################################
-# Return Events
-# 9001-9999
-# by Badger
-################################
-
- agot_reaving.9002.t:0 "Un gran regreso" #NT!
- agot_reaving.9002.desc:0 "
- agot_reaving.9002.a:0 "Somos verdaderos Ironborn" #NT!
-
-
-
+ activity_reaving: "Saqueando"
+ activity_reaving_owner: "Saqueador"
+ activity_reaving_name: "El gran saqueo"
+ reaving_header: "[ROOT.Char.Custom('reavingHeader')]"
+ very_long_reaving_tt: "Este es un #V excepcionalmente largo#! recorrido"
+ long_reaving_tt: "Este es un #V muy largo#! recorrido"
+ medium_reaving_tt: "Este es un #V largo#! salto"
+ short_reaving_tt: "Esto es un #V corto#! salto"
+  
+ reaving_return_home: "Vuelvo a casa a [start_location.GetNameNoTier]"
+  
+  # Generic reaving Start Events 
+  
+ agot_reaving.0001.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] saqueo"
+ agot_reaving.0001.desc: "Es hora de preparar los barcos y emprender un Gran Reaving, como el que los groenlandeses susurrarán a sus hijos. Pero ¿de qué campo recogeremos la paja?"
+ agot_reaving.0001.a: "Las Tierras en disputa están listas para el saqueo."
+ agot_reaving.0001.b: "El norte de Essos sufrirá."
+ agot_reaving.0001.c: "Las tierras del Mar de Verano son débiles."
+ agot_reaving.0001.d: "¡La Bahía de Slaver tiene mucho botín!"
+ agot_reaving.0001.e: "He cambiado de opinión. Este no es el momento adecuado."
+  
+ agot_reaving.0010.desc: "¿Por qué aceptaría mi invitación solo para asistir a la corte [other_host.GetTitledFirstNamePossessive]? No lo sé, pero sepa que lo recordaré."
+ agot_reaving.0010.a: "Desgraciado."
+  
+ #Reaving Invitations 
+  
+ agot_reaving.1002.opening: "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_reaving.1002.opening_desc: "¡Por la presente te invito a un festín en mi corte en [barony.GetNameNoTier]!"
+ agot_reaving.1002.host_likes_me: "Espero que asista, ya que de lo contrario se extrañaría mucho su presencia."
+ agot_reaving.1002.host_gets_along_with_me: "Como [ROOT.Char.GetTitleTierName] notable, sería un honor para mí su asistencia."
+ agot_reaving.1002.host_dislikes_me: "Espero que todos los notables estén allí, lo que desafortunadamente te incluye a ti."
+ agot_reaving.1002.a: "Por supuesto que asistiré."
+ agot_reaving.1002.b: "Asistiré. De mala gana."
+ agot_reaving.1002.c: "Lamento decir que estoy ocupado."
+ agot_reaving.1002.d: "¡No, me niego!"
+  
+ agot_reaving.1003.desc: "¡Por la presente te invito a un gran saqueo en mi corte en [barony.GetNameNoTier]! Será un gran evento, digno de su honorable presencia."
+ agot_reaving.1003.a: "Será un placer."
+ agot_reaving.1003.b: "Tengo asuntos más importantes que atender."
+  
+ agot_reaving.1004.desc: "¡Por la presente te invito a un agot_reaving en mi corte en [barony.GetNameNoTier]! Será un evento grandioso, con deliciosa comida y entretenimiento."
+ agot_reaving.1004.a: "Será un placer."
+ agot_reaving.1004.b: "Tengo asuntos más importantes que atender."
+  
+  
+ agot_reaving.1008.t: "Gran saqueo: salida"
+ agot_reaving.1008.desc.opening: "Una maraña de mástiles y vergas abarrota el puerto de [ROOT.Char.GetCapitalLocation.GetName]. Esta robusta flotilla de drakkars está tripulada por los leales y audaces Hombres del Hierro que han respondido a la llamada de [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]. Están ansiosos por la oportunidad de probar la sal en su sangre saqueando las verdes tierras al otro lado del Mar Angosto. \n\nMientras nos preparamos para el Gran [reaving|E] a [ROOT.Char.Custom('ReavingDestination')], sé que el [ROOT.Char.GetFaith.PantheonTerm] llenará nuestras velas y guiará nuestras espadas."
+ agot_reaving.1008.desc.short: "\n\nMientras nos cubrimos de sangre y gloria, dejo el bienestar del reino a mi familia."
+ agot_reaving.1008.desc.medium: "\n\nMientras voy con [ROOT.Char.GetFaith.HighGodNameAlternate], mi reino debe esperar, sin importar el tiempo que me vaya."
+ agot_reaving.1008.desc.long: "\n\nMi destino está lejos de casa, pero al servicio de [ROOT.Char.GetFaith.DivineRealm], incluso mi propio reino debe esperar."
+ agot_reaving.1008.desc.very_long: "\n\nEstaré fuera por mucho tiempo, y solo puedo rezar para que [ROOT.Char.GetFaith.HighGodNameAlternate] también cuide mi reino."
+ agot_reaving.1008.a: "Pagaremos el Precio del Hierro."
+  
+ agot_reaving.1009.t: "Una cálida bienvenida"
+ agot_reaving.1009.likes_host: "¡Todos los invitados están reunidos en el gran salón y nuestro amable anfitrión, [activity.GetOwner.GetTitledFirstName], nos ha dado la bienvenida a todos a la fiesta!"
+ agot_reaving.1009.dislikes_host: "Todos los invitados están reunidos en el gran salón y nuestro anfitrión [activity.GetOwner.Custom('InsultAdjective')], [activity.GetOwner.GetTitledFirstName], finalmente nos ha dado la bienvenida a todos a la fiesta."
+ agot_reaving.1009.a.gluttonous: "¡Puedo oler la cocina desde aquí!"
+ agot_reaving.1009.a.drunkard: "¿Dónde están los barriles?"
+ agot_reaving.1009.a.gregarious: "¡No puedo esperar para hablar con todos!"
+ agot_reaving.1009.a.shy: "Hay mucha gente aqui..."
+ agot_reaving.1009.a: "¡Lo espero con ansias!"
+ agot_reaving.1009.b: "Será mejor que valga la pena mi tiempo."
+  
+ agot_reaving.2001.t: "Prueba"
+ agot_reaving.2001.desc: "Icles"
+  
+ ########################### 
+ #   Crippled Ship:Cannibal# 
+ ########################### 
+ agot_reaving.2002.t: "Un barco lisiado: caníbal"
+ agot_reaving.2002.desc: "La tripulación vio un barco con una vela rota en el horizonte. El olor a muerte nos recibió mientras nos acercábamos al barco. Cuando subí a bordo supe lo que había ocurrido en la cubierta y vi los cuerpos masacrados. Los hombres desesperados cometen actos desesperados, cuando el barco quedó paralizado y los suministros comenzaron a escasear, los hombres se enfrentaron entre sí. ¡Mis hombres y yo comenzamos a buscar objetos de valor en la carnicería cuando escuchamos un grito y vimos a un hombre loco muerto de hambre cargando contra nosotros, espada en mano!"
+ agot_reaving.2002.a: "Armaos!"
+ agot_reaving.2002.a.tt: "¡Dibuja Steel y enfréntate al loco!"
+ agot_reaving.2002.b: "¡Qué locura! ¡De vuelta al barco!"
+ agot_reaving.2002.b.tt: "¡Ningún oro vale esto!"
+ agot_reaving.2002.a.success_title: "Caníbal asesinado"
+ agot_reaving.2002.a.failure_title: "¡Fuerza para huir!"
+  
+ ################################ 
+ # Crippled Ship:Captains Gamble# 
+ ################################ 
+ agot_reaving.2003.t: "Un barco lisiado: una apuesta de capitanes"
+ agot_reaving.2003.desc: "La tripulación vio un barco con una vela rota en el horizonte. A medida que nos acercábamos al barco, vimos a un hombre y su tripulación esperando. No hicieron ningún movimiento para evitar que abordáramos el barco averiado, sino que mantuvieron sus ojos en un hombre en el centro de ellos. Me apresuré a deducir que era su Capitán. El Capitán se acercó y me miró a los ojos "Sé que eres Ironborn y no estás aquí para salvarnos o intercambiar con nosotros lo que necesitamos. En cambio, te propongo una oferta." el Capitán hizo un gesto a dos hombres que apalancaron un gran cofre en la barandilla del barco, amenazando con tirarlo por la borda. "Ese cofre contiene todos nuestros objetos de valor en el barco, propongo que juguemos un juego de dados, tú ganas y obtienes el cofre, yo gano y obtengo velas y suministros adicionales..."
+ agot_reaving.2003.a: "Pagaré Ironprice, un dual entre nosotros dos"
+ agot_reaving.2003.a.tt: "¡Lucha contra el Capitán tú mismo y paga el Precio de Hierro por el Tesoro!"
+ agot_reaving.2003.b: "Jugaré tu juego..."
+ agot_reaving.2003.b.tt: "Tirarás los dados con el Capitán, ¡que el Ganador se lleve todo!"
+ agot_reaving.2003.c: "El dios de la tormenta es el enemigo de todos los hombres."
+ agot_reaving.2003.c.tt: "El Dios de la Tormenta es el enemigo de todos los hombres, ¿no es el deber de los hijos del Dios Ahogado frustrar sus intentos? ¡Les darás los suministros necesarios para fastidiar al Dios de la Tormenta!"
+ agot_reaving.2003.a.success_title: "¡Mató al capitán y ganó el tesoro!"
+ agot_reaving.2003.a.failure_title: "Perdiste contra el Capitán..."
+ agot_reaving.2003.b.success_title: "¡Los dados te convirtieron en el ganador!"
+ agot_reaving.2003.b.failure_title: "Los Dados no estaban a tu favor..."
+  
+  ################################ 
+ # Crippled Ship:IronBorn        # 
+ ################################ 
+ agot_reaving.2004.t: "Un barco lisiado: Ironborn"
+ agot_reaving.2004.desc: "La tripulación vio un barco con una vela rota en el horizonte. ¡Se nos revolvieron las entrañas cuando nos acercamos y vimos que era una nave de los Hijos del Hierro! La tripulación discute la entrega de suministros y ayuda a nuestros hermanos a reparar el barco para que puedan llegar a la costa."
+ agot_reaving.2004.a: "Contribuiré con suministros"
+ agot_reaving.2004.a.tt: "Darás algunos de tus suministros, como raciones o botín, para ayudar a tus hermanos."
+ agot_reaving.2004.b: "No tendrán nada de mí"
+ agot_reaving.2004.b.tt: "¡Por qué debo dar lo que es mío, deberían haber estado mejor preparados!"
+  
+  
+ ########################### 
+ #   Empty Village         # 
+ ########################### 
+  
+ agot_reaving.2005.t: "Un pueblo vacío"
+ agot_reaving.2005.desc: "Al amparo de la noche con remos amortiguados, tocamos tierra en el pequeño pueblo costero. Estábamos contentos de que nuestro aterrizaje hubiera pasado desapercibido, luego nos dimos cuenta de por qué. El pueblo estaba vacío. La vista de la aldea con objetos de valor intactos fue inquietante para algunos de mis hombres, otros saquearon sin dudarlo. En el borde de la aldea, uno de los hombres encontró un gran pozo, en él estaban los cadáveres de los aldeanos, con los rostros torcidos por la enfermedad."
+ agot_reaving.2005.a: "El oro bien vale el riesgo..."
+ agot_reaving.2005.a.tt: "El muerto no tiene ningún uso para él, ¿por qué no tomarlo?."
+ agot_reaving.2005.b: "Detén el saqueo y vete."
+ agot_reaving.2005.b.tt: "Tu vida no vale ninguna suma de oro..."
+  
+ ########################### 
+ #  Village: Sacrifice     # 
+ ########################### 
+  
+ agot_reaving.2006.t: "El pueblo: sacrificio"
+ agot_reaving.2006.desc: "Al amparo de la noche con remos amortiguados, tocamos tierra en el pequeño pueblo costero. Nuestro acercamiento había pasado desapercibido debido a que el pueblo estaba celebrando algún evento. Podíamos escuchar risas, cantos y ver la luz de varias piras ardiendo. Cuando los Ironborn entramos en medio de la celebración, vi lo que eran las piras. Tres estaban ardiendo con los restos carbonizados de lo que una vez fue una persona, un cuarto estaba apagado con una mujer atada al tronco de un árbol, astillas y valiosas ofrendas a este dios del fuego alrededor de sus pies. La mayoría de los asistentes al festival intentan huir, algunos armados con armas, en su mayoría los que vestían túnicas rojas. Uno de los Túnicas Rojas parece agarrar un arma y proteger a la mujer que iba a ser quemada..."
+ agot_reaving.2006.a: "¡Buscaré todos los objetos de valor que pueda!"
+ agot_reaving.2006.a.tt: "¡No me importa la mujer, sino el oro!"
+ agot_reaving.2006.b: "¡Liberaré a la mujer!"
+ agot_reaving.2006.b.tt: "¡Liberaré a la mujer y la tomaré como mi esposa de sal!"
+ agot_reaving.2006.a.success_title: "¡Mató al sacerdote rojo y pagó el precio de hierro por el oro!"
+ agot_reaving.2006.a.failure_title: "El Sacerdote Rojo te obligó a huir..."
+ agot_reaving.2006.b.success_title: "¡Mató al sacerdote rojo y pagó el precio de hierro por la mujer!"
+ agot_reaving.2006.b.failure_title: "El Sacerdote Rojo te obligó a huir."
+  
+ ################## 
+ #The Leviathan   # 
+ ################## 
+  
+ agot_reaving.2007.t: "El Leviatán: El Ataque"
+ agot_reaving.2007.desc: "Los hombres han visto una gran ballena que nos ha estado siguiendo durante los últimos días. La bestia ha mantenido su distancia, pero los hombres dicen que pueden ver cicatrices cuando sale a la superficie. Me pregunto si la ballena ha sobrevivido a los ataques de los barcos ibbeneses. El pensamiento no había estado mucho tiempo conmigo, cuando la bestia decidió atacar. ¡Los hombres y yo luchamos para armarnos e intentar derribar a la bestia o ahuyentarla antes de que pueda hundir nuestro barco!"
+ agot_reaving.2007.a: "¡Malditos balleneros ibbeneses!"
+ agot_reaving.2007.a.tt: "¡La bestia ha decidido que ya no es la presa y ha atacado, confundiendo tu barco con un ballenero ibbenés!"
+  
+  
+ ########################### 
+ #  Pursuit: Ibbenese      # 
+ ########################### 
+  
+ agot_reaving.2008.t: "Persecución: ibbenés"
+ agot_reaving.2008.desc: "Pudimos oler el barco antes de verlo. Un barco ballenero ibbenés estaba a la cabeza de nosotros, los hombres estaban mezclados si debíamos perseguirlos. Algunos sintieron que no valdría la pena atacar, otros parecían aburridos o con ganas de pelear, después de todo, un barco así sería fácil de atrapar. Los hombres me miran para decidir cómo debemos actuar."
+ agot_reaving.2008.a: "¡Estaciones, la atraparemos!"
+ agot_reaving.2008.a.tt: "¡El oro es oro y pagaremos el precio del hierro!"
+ agot_reaving.2008.b: "No vale la pena el olor..."
+ agot_reaving.2008.b.tt: "Un olor como ese se quedaría con usted y su tripulación por un tiempo...."
+  
+ ########################### 
+ #   No Wind               # 
+ ########################### 
+  
+ agot_reaving.2009.t: "Un día sin viento"
+ agot_reaving.2009.desc: "Los vientos han salido de nuestras velas hoy, dejándonos un poco más que a la deriva. Los hombres recorren la cubierta de los barcos, buscando formas de combatir la monotonía de las aguas tranquilas, algunos se han dado a la tarea de jugar al "Finger Dance", mientras que otros se han dedicado a hacer apuestas a los dados."
+ agot_reaving.2009.a: "¡Cada hombre a un remo! El Dios de la Tormenta no nos impedirá Reaving"
+ agot_reaving.2009.a.tt: "¡El viento no te robará la velocidad! Hay costas y botín para recuperar..."
+ agot_reaving.2009.b: "Puedo bailar los Dedos tan bien como cualquier hombre."
+ agot_reaving.2009.b.tt: "Un juego de lanzamiento de hachas muy querido en las Islas del Hierro, pero peligroso."
+ agot_reaving.2009.c: "Quizás tenga suerte con los dados"
+ agot_reaving.2009.c.tt: "¡Arriesga tu oro en los juegos de azar!"
+ agot_reaving.2009.a.success_title: "¡Ganaste en el Finger Dance!"
+ agot_reaving.2009.a.failure_title: "El hacha se te escapó de las manos..."
+ agot_reaving.2009.b.success_title: "¡Los dados estaban a tu favor!"
+ agot_reaving.2009.b.failure_title: "Los Dados no fueron amables..."
+  
+ ########################### 
+ #  Pursuit: Pentoshi Ship # 
+ ########################### 
+  
+ agot_reaving.2010.t: "Persecución: Barco Pentoshi"
+ agot_reaving.2010.desc: "Los hombres avistaron un barco Pentoshi. Los vientos están a nuestro favor y parece estar lento debido a una carga completa. Se me hace agua la boca al pensar en los quesos y el vino de color ámbar pálido conocidos por Pentos que estarían dentro del recorrido del barco."
+ agot_reaving.2010.a: "¡Estaciones, la atraparemos!"
+ agot_reaving.2010.a.tt: "¡Empieza a perseguir el barco! ¡Ustedes son los lobos del mar después de todo!"
+ agot_reaving.2010.b: "No vale la pena nuestro tiempo"
+ agot_reaving.2010.b.tt: "Hay mejor juego por ahí.."
+ agot_reaving.2010.a.success_title: "¡Has cogido el barco!"
+ agot_reaving.2010.a.failure_title: "El barco escapó..."
+  
+  
+  
+ ########################### 
+ #  Pursuit: Lys Ship # 
+ ########################### 
+ agot_reaving.2011.t: "Persecución: Barco Lys"
+ agot_reaving.2011.desc: "Una nave Lys fue avistada en el horizonte. Tal barco podría estar transportando objetos de valor y tal vez esclavos para las casas de almohadas de su tierra natal. Los hombres me miran a mí para decidir si perseguimos."
+ agot_reaving.2011.a: "¡Tengo la intención de reclamar una esposa de sal!"
+ agot_reaving.2011.a.tt: "¡Empieza a perseguir el barco! ¡Ustedes son los lobos del mar después de todo!"
+ agot_reaving.2011.b: "¡Estaciones, la atraparemos!"
+ agot_reaving.2011.b.tt: "¡Empieza a perseguir el barco! ¡Ustedes son los lobos del mar después de todo!"
+ agot_reaving.2011.c: "No vale la pena nuestro tiempo"
+ agot_reaving.2011.c.tt: "Hay mejor juego por ahí.."
+ agot_reaving.2011.a.success_title: "¡Tomaste el barco y reclamaste una esposa de sal!"
+ agot_reaving.2011.a.failure_title: "El barco escapó..."
+ agot_reaving.2011.b.success_title: "¡Has cogido el barco!"
+ agot_reaving.2011.b.failure_title: "El barco escapó..."
+  
+ ########################### 
+ #  Tyroshi War Gallon     # 
+ ########################### 
+ agot_reaving.2012.t: "Galón de guerra Tyroshi"
+ agot_reaving.2012.desc: "Se detectó un galón de guerra Tyroshi, sin duda en su camino para eliminar a algún Lord pirata de Step-stones que ha estado causando problemas con las rutas comerciales."
+ agot_reaving.2012.a: "¿Quizás podríamos venderles nuestros Blades?"
+ agot_reaving.2012.a.tt: "Ofrécete a trabajar como mercenario para los Tyroshi, algunos te menospreciarán, ¡pero ganarás oro!"
+ agot_reaving.2012.b: "Mejor evitarlos.."
+ agot_reaving.2012.b.tt: "Nada bueno puede salir de conocerlos..."
+ agot_reaving.2012.a.success_title: "Trabajar como mercenarios"
+ agot_reaving.2012.a.failure_title: "Oferta rechazada..."
+  
+ ########################### 
+ #   Fishing Village       # 
+ ########################### 
+ agot_reaving.2013.t: "Pequeño pueblo de pescadores"
+ agot_reaving.2013.desc: "Asaltamos un pequeño pueblo de pescadores, no hubo resistencia para nosotros cuando llegamos a tierra. La mayoría trata de correr y esconderse, algunos opusieron resistencia, pero no estaban entrenados y cayeron rápidamente. El botín tomado fue pequeño."
+ agot_reaving.2013.a: "¿Qué oro hay aquí?"
+ agot_reaving.2013.a.tt: "Debe haber algunas cosas de valor aquí..."
+ agot_reaving.2013.b: "Ella será mi esposa de sal"
+ agot_reaving.2013.b.tt: "Ella será una buena esposa de sal"
+ agot_reaving.2013.c: "Ella será mi esposa de sal"
+ agot_reaving.2013.c.tt: "Ella será una buena esposa de sal"
+ agot_reaving.2013.d: "Ella será mi esposa de sal"
+ agot_reaving.2013.d.tt: "Ella será una buena esposa de sal"
+  
+ ########################### 
+ #   Pirate Hide Out        # 
+ ########################### 
+ agot_reaving.2014.t: "Pequeño escondite de piratas"
+ agot_reaving.2014.desc: "Nos hemos encontrado con el escondite de un pequeño Lord pirata en Step-Stones. Si bien estamos mejor armados que ellos, se han mantenido en una cueva fortificada en la costa. Podríamos liderar una carga y romper las defensas o tal vez podamos colar a algunos hombres y abrir un camino."
+ agot_reaving.2014.a: "¡Tendremos que luchar para entrar!"
+ agot_reaving.2014.a.tt: "Lidera una carga contra la cueva fortificada, ¡el poder de tus armas intentará abrirse paso!"
+ agot_reaving.2014.b: "Quizás el sigilo sea nuestra mejor opción..."
+ agot_reaving.2014.b.tt: "Debe haber otra forma de entrar..."
+ agot_reaving.2014.a.success_title: "¡Entró en el escondite de los piratas!"
+ agot_reaving.2014.a.failure_title: "Error al entrar... ¡Volveremos!"
+ agot_reaving.2014.b.success_title: "¡Encontré una manera de entrar!"
+ agot_reaving.2014.b.failure_title: "Incapaz de encontrar otro camino... ¡Volveremos!"
+  
+  ########################### 
+ #   A Meal for the Crabs   # 
+ ########################### 
+ agot_reaving.2015.t: "Una comida para los cangrejos"
+ agot_reaving.2015.desc: "Las súplicas de ayuda es lo que llamó nuestra atención sobre la masa pedregosa que brotaba del mar y que le había valido a la zona el nombre de Spears of the Merling King. Un hombre quedó varado en una de estas lanzas de piedra, incluso desde nuestras posiciones me di cuenta de que los cangrejos ya estaban tratando de rodearlo. Lo primero que pensé fue que era un sobreviviente de un naufragio, pero otro miembro de la tripulación señaló que el hombre, de hecho, estaba atado a la piedra, y que cualquier crimen que haya cometido debe haber sido atroz."
+ agot_reaving.2015.a: "Mi tripulante tiene razón, mejor dejar el tonto"
+ agot_reaving.2015.a.tt: "Alguien pasó por el esfuerzo de darle una muerte cruel a este hombre, qué tipo de hombre merece este no es el que quiero."
+ agot_reaving.2015.b: "Salvaré al hombre"
+ agot_reaving.2015.b.tt: "¡Salvaré al hombre de ser comida para los cangrejos, me deberá la vida!"
+  
+ ########################### 
+ #  A Ironborn in need     # 
+ ########################### 
+ agot_reaving.2016.t: "Un Ironborn necesitado"
+ agot_reaving.2016.desc: "Mientras arrasaba una aldea, un lancero presionaba con fuerza a uno de nuestros hombres y la situación no parecía terminar bien. El lancero está completamente enfocado en el Ironborn que está orinando y tiene una abertura expuesta para mí, sería una muerte rápida."
+ agot_reaving.2016.a: "Ataca al hombre"
+ agot_reaving.2016.a.tt: "Un ataque rápido romperá la presión del lancero y permitirá que tus compañeros Ironborn se recuperen."
+  
+ ################################### 
+ #    Shieldmaiden in Disguise     # 
+ #             Badger              # 
+ ################################### 
+ agot_reaving.2017.t: "Ahorro: [GetTrait('shieldmaiden').GetName(GetNullCharacter)]"
+ agot_reaving.2017.desc: "Han pasado días desde el último encuentro en mar abierto cuando estalla una pelea en la cubierta principal. Para cuando logras controlar el estridente, se ha formado un círculo alrededor del tema del alboroto.\n\n "¡[shieldmaiden.GetName] ha sido un [shieldmaiden.GetWomanMan] todo este tiempo, Capitán!" Uno de tus tripulantes gruñe mientras el [shieldmaiden.GetWomanMan] arquea un hacha de abordaje alrededor del [shieldmaiden.GetHerHim] manteniendo a raya a la tripulación. Está claro que [shieldmaiden.GetSheHe] maneja el arma con fluidez, más allá de la habilidad que esperarías de un polizón.\n\n"[ROOT.Char.GetTitledFirstName]", dice [shieldmaiden.GetSheHe]. "He entrenado toda mi vida para pagar el Precio de Hierro y solo deseo servirte y ganarme el favor del Dios Ahogado. ¡Permíteme unirme a ti en este gran esfuerzo!"
+ agot_reaving.2017.a: "¡Un [GetTrait('shieldmaiden').GetName(GetNullCharacter)] será un buen compañero en nuestra próxima incursión!"
+ agot_reaving.2017.b: "No permitiré que ninguna mujer pelee por mí."
+ agot_reaving.2017.c: "Puedes servir al Dios Ahogado de otra manera."
+ agot_reaving.2017.d: "Tal vez puedas unirte a mí en mi camarote... y mantener la armadura puesta."
+  
+  
+ ################################ 
+ # Return Events 
+ # 9001-9999 
+ # by Badger 
+ ################################ 
+  
+ agot_reaving.9002.t: "Un gran regreso"
+ agot_reaving.9002.desc: ""
+ agot_reaving.9002.a: "Somos verdaderos Ironborn"
+  
+  
+  

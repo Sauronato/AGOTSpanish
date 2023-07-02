@@ -1,78 +1,79 @@
 ﻿l_spanish:
- kingsguard_lord_commander_flavor: "Lord comandante" #NT!
- kingsguard_lord_commander_flavors: "Lord comandante" #NT!
- kingsguard_lord_commander: "Lord Comandante de la Guardia Real" #NT!
- kingsguard_lord_commander_name: "$kingsguard_lord_commander$" #NT!
- kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$" #NT!
-
- queensguard_lord_commander_name:0 "Lord Comandante de la Guardia Real" #NT!
-
-
- KINGSGUARD:1 "[CHARACTER.Custom('KingsguardName')]" #NT!
-
-
- Kingsguard_possesive: "Guardia Real" #NT!
-
- kingsguard: "Guardia Real" #NT!
- Kingsguard_possesive: "Guardia Real" #NT!
- kingsguard_1: "Guardia Real" # $KINGSGUARD$ #NT!
- kingsguard_2: "Guardia Real" #NT!
- kingsguard_3: "Guardia Real" #NT!
- kingsguard_4: "Guardia Real" #NT!
- kingsguard_5: "Guardia Real" #NT!
- kingsguard_6: "Guardia Real" #NT!
- kingsguard_1_possessive: "$Kingsguard_possesive$" #NT!
- kingsguard_2_possessive: "$Kingsguard_possesive$" #NT!
- kingsguard_3_possessive: "$Kingsguard_possesive$" #NT!
- kingsguard_4_possessive: "$Kingsguard_possesive$" #NT!
- kingsguard_5_possessive: "$Kingsguard_possesive$" #NT!
- kingsguard_6_possessive: "$Kingsguard_possesive$" #NT!
-
- #Naming
- kingsguard_name:0 "Guardia Real" #NT!
- queensguard_name:0 "Guardia de la reina" #NT!
-
- # Modifiers
- kingsguard_lord_commander_modifier:0 "Lord comandante de Señor Feudal" #NT!
- kingsguard_modifier:0 "Guardia Real de Señor Feudal" #NT!
-
- training_for_kingsguard:0 "Entrenamiento para unirse a la Guardia Real" #NT!
- training_for_kingsguard_desc:0 "Este personaje está entrenando para unirse a la Guardia Real." #NT!
-
- kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]" #NT!
- kingsguard_bodyguard: "Guardaespaldas" #NT!
- kingsguard_bodyguard_desc: "Este personaje está siendo custodiado por un miembro de la Guardia Real." #NT!
-
-
-
-
-
-# Failed selection: Seems we cannot scope to the holding character from the modifier itself.
-#[SelectLocalization(ROOT.Char.MakeScope.Var('latest_kingsguard_bodyguard').IsSet,ROOT.Var('latest_kingsguard_bodyguard').Char.GetFirstName,'a member of the Kingsguard.'] x[Character.GetFirstName]y"
- kingsguard_bodyguard_1: "$kingsguard_bodyguard$" #NT!
- kingsguard_bodyguard_2: "$kingsguard_bodyguard$" #NT!
- kingsguard_bodyguard_3: "$kingsguard_bodyguard$" #NT!
- kingsguard_bodyguard_4: "$kingsguard_bodyguard$" #NT!
- kingsguard_bodyguard_5: "$kingsguard_bodyguard$" #NT!
- kingsguard_bodyguard_6: "$kingsguard_bodyguard$" #NT!
-
- knight_hero:0 "[Concept( 'knight', '$knight_hero_no_tooltip$' )|E]" #NT!
- knight_hero_possessive: "de caballero" #NT!
-
- kingsguard_lord_commander_default: "Proteccion" #NT!
- kingsguard_default_1: "Proteccion" #NT!
- kingsguard_default_2: "Proteccion" #NT!
- kingsguard_default_3: "Proteccion" #NT!
- kingsguard_default_4: "Proteccion" #NT!
- kingsguard_default_5: "Proteccion" #NT!
- kingsguard_default_6: "Proteccion" #NT!
-
- you_agot_kingsguard_can_fire:0 "Los Kingsguards pueden ser despedidos o reasignados si se cumplen ciertos requisitos." #NT!
- you_dont_agot_kingsguard_can_fire:0 "Una guardia real sirve de por vida, a menos que rompas con esa tradición." #NT!
- you_agot_kingsguard_fire_requirements:0 "MARCADOR DE POSICIÓN" #NT!
- you_dont_agot_kingsguard_fire_requirements:0 "PLACEHOLDER no se ajusta a los requisitos" #NT!
-
- you_agot_kingsguard_can_fire:0 "Los Kingsguards pueden ser despedidos o reasignados si se cumplen ciertos requisitos."
- you_dont_agot_kingsguard_can_fire:0 "Una guardia real sirve de por vida, a menos que rompas con esa tradición."
- you_agot_kingsguard_fire_requirements:0 "PLACEHOLDER"
- you_dont_agot_kingsguard_fire_requirements:0 "PLACEHOLDER no se ajusta a los requisitos"
+ kingsguard_lord_commander_flavor: "Lord comandante"
+ kingsguard_lord_commander_flavors: "Lord comandante"
+ kingsguard_lord_commander: "Lord Comandante de la Guardia Real"
+ kingsguard_lord_commander_name: "$kingsguard_lord_commander$"
+ kingsguard_lord_commander_tooltip: "$kingsguard_lord_commander$"
+  
+ queensguard_lord_commander_name: "Lord Comandante de la Guardia Real"
+  
+  
+ KINGSGUARD: "[CHARACTER.Custom('KingsguardName')]"
+  
+  
+ Kingsguard_possesive: "Guardia Real"
+  
+ kingsguard: "Guardia Real"
+ Kingsguard_possesive: "Guardia Real"
+ kingsguard_1: "Guardia Real"
+ kingsguard_2: "Guardia Real"
+ kingsguard_3: "Guardia Real"
+ kingsguard_4: "Guardia Real"
+ kingsguard_5: "Guardia Real"
+ kingsguard_6: "Guardia Real"
+ kingsguard_1_possessive: "$Kingsguard_possesive$"
+ kingsguard_2_possessive: "$Kingsguard_possesive$"
+ kingsguard_3_possessive: "$Kingsguard_possesive$"
+ kingsguard_4_possessive: "$Kingsguard_possesive$"
+ kingsguard_5_possessive: "$Kingsguard_possesive$"
+ kingsguard_6_possessive: "$Kingsguard_possesive$"
+  
+  #Naming 
+ kingsguard_name: "Guardia Real"
+ queensguard_name: "Guardia de la reina"
+  
+  # Modifiers 
+ kingsguard_lord_commander_modifier: "Lord comandante de Señor Feudal"
+ kingsguard_modifier: "Guardia Real de Señor Feudal"
+  
+ training_for_kingsguard: "Entrenamiento para unirse a la Guardia Real"
+ training_for_kingsguard_desc: "Este personaje está entrenando para unirse a la Guardia Real."
+  
+ kingsguard_oathbreaker: "Rompejuramentos de la Guardia Real" #NT!
+ kingsguard_oathbreaker_desc: "Este personaje ha mancillado su juramento sagrado y ha abandonado a la Guardia Real." #NT!
+  
+  
+ kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
+ kingsguard_bodyguard: "Guardaespaldas"
+ kingsguard_bodyguard_desc: "Este personaje está siendo custodiado por un miembro de la Guardia Real."
+  
+  
+  
+  
+  
+ # Failed selection: Seems we cannot scope to the holding character from the modifier itself. 
+ #[SelectLocalization(ROOT.Char.MakeScope.Var('latest_kingsguard_bodyguard').IsSet,ROOT.Var('latest_kingsguard_bodyguard').Char.GetFirstName,'a member of the Kingsguard.'] x[Character.GetFirstName]y" 
+ kingsguard_bodyguard_1: "$kingsguard_bodyguard$"
+ kingsguard_bodyguard_2: "$kingsguard_bodyguard$"
+ kingsguard_bodyguard_3: "$kingsguard_bodyguard$"
+ kingsguard_bodyguard_4: "$kingsguard_bodyguard$"
+ kingsguard_bodyguard_5: "$kingsguard_bodyguard$"
+ kingsguard_bodyguard_6: "$kingsguard_bodyguard$"
+  
+ knight_hero: "[Concept( 'knight', '$knight_hero_no_tooltip$' )|E]"
+ knight_hero_possessive: "De caballero"
+  
+ kingsguard_lord_commander_default: "Proteccion"
+ kingsguard_default_1: "Proteccion"
+ kingsguard_default_2: "Proteccion"
+ kingsguard_default_3: "Proteccion"
+ kingsguard_default_4: "Proteccion"
+ kingsguard_default_5: "Proteccion"
+ kingsguard_default_6: "Proteccion"
+  
+ task_protection_modifier: "Protección de la Guardia Real" #NT!
+  
+ you_agot_kingsguard_can_fire: "Los Kingsguards pueden ser despedidos o reasignados si se cumplen ciertos requisitos."
+ you_dont_agot_kingsguard_can_fire: "Una guardia real sirve de por vida, a menos que rompas con esa tradición."
+ you_agot_kingsguard_fire_requirements: "PLACEHOLDER"
+ you_dont_agot_kingsguard_fire_requirements: "PLACEHOLDER no se ajusta a los requisitos"

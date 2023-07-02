@@ -1,196 +1,196 @@
 ﻿l_spanish:
-
- #########################
- ## Hedge Knight Events ##
- #########################
-
- # Hedge knight wants to squire your heir
- agot_knighthood.0016.t:0 "El caballero de cobertura" #NT!
- agot_knighthood.0016.desc:0 "Un caballero errante ha estado durmiendo en mis pasillos durante las últimas noches. Parece que a mi hijo, [potential_child_squire.GetName], le ha tomado cariño. Del mismo modo, el caballero errante también se ha encariñado con mi hijo. Mi hijo se enamoró del caballero errante después de escucharlo contar sus emocionantes historias de caballería y caballería.\n\nEl último día de [hedge_knight.GetHerHis] en mi corte, el caballero errante se ofrece a quedarse en mi corte y dejar que mi hijo sea su escudero.\n \nEl hombre parece lo suficientemente honorable, y haría a mi hijo muy, muy feliz. Tengo que pensar en esto." #NT!
- agot_knighthood.0016.a:0 "¡Sí, debes quedarte y tomarlo como escudero!" #NT!
- agot_knighthood.0016.a.tt:0 "[hedge_knight.GetName] se unirá a tu corte y tomará a tu hijo como [hedge_knight.GetHerHis] [squire|e]." #NT!
- agot_knighthood.0016.b:0 "No, no creo que seas el caballero adecuado." #NT!
- agot_knighthood.0016.b.tt:0 "[hedge_knight.GetName] dejará tu corte." #NT!
-
- # Hedge knight wants to knight your non-heir son
- agot_knighthood.0700.t:0 "El Caballero de los setos y tu hijo" #NT!
- agot_knighthood.0700.desc:0 "Un caballero errante llamado [hedge_knight.GetName] visitó recientemente mi corte. [hedge_knight.GetCulture.GetName] de nacimiento, ha viajado por todo el reino para buscar el servicio de un Lord. Sé poco de este hombre, excepto por el hecho de que supuestamente proviene de una noble estirpe menor de Westerland y, por supuesto, es un caballero.\n\nNo le he prestado atención y, como tal, esperaba que lo hiciera. seguir adelante pronto. Sin embargo, vino a mí, en confianza, y se ofreció a nombrar caballero a mi hijo, [potential_child_knight.GetName], a cambio de que se le permitiera quedarse todo el tiempo que quisiera." #NT!
- agot_knighthood.0700.a:0 "Supongo que tal arreglo se puede hacer." #NT!
- agot_knighthood.0700.b:0 "No, no lo aceptaré." #NT!
-
- # Hedge knight wants to knight you
- agot_knighthood.0701.t:0 "El Caballero de los setos y el Lord" #NT!
- agot_knighthood.0701.desc:0 "Un caballero errante llamado [hedge_knight.GetName] visitó recientemente mi corte. [hedge_knight.GetCulture.GetName] de nacimiento, está viajando por el reino por razones desconocidas.\n\nAunque no le he prestado atención, parece que él me ha prestado atención. Una nota toscamente escrita ofreciéndome el título de caballero, firmada nada menos que por [hedge_knight.GetFirstNamePossessive], fue entregada a uno de mis sirvientes esta mañana temprano. Por el precio justo, dice la nota, puedo convertirme en caballero." #NT!
- agot_knighthood.0701.a:0 "Aceptaré este trato." #NT!
- agot_knighthood.0701.b:0 "No, no lo aceptaré." #NT!
-
- #####################
- # Dynasty Knighting #
- #####################
-
- #0017-19
- agot_knighthood.0017.t:0 "Caballero dinástico" #NT!
- agot_knighthood.0017.desc:0 "Mi pariente, [potential_squire.GetName], aún no es escudero. ¿Quizás al ofrecerme a [potential_squire.GetHerHim] como mi escudero podría forjar una mejor relación entre nosotros?" #NT!
- agot_knighthood.0017.a:0 "Sí, ofrece [potential_squire.GetHerHim] escudería." #NT!
- agot_knighthood.0017.a.tt:0 "Le pides a [potential_squire.GetName] que se convierta en tu [squire|e]" #NT!
- agot_knighthood.0017.b:0 "No, es una pérdida de tiempo." #NT!
- agot_knighthood.0017.b.tt:0 "No le pides a [potential_squire.GetName] que se convierta en tu escudero." #NT!
-
- agot_knighthood.0018.opening:0 "A [potential_knight_for_child.GetName]," #NT!
- agot_knighthood.0018.desc:0 "¡Me he dado cuenta de que aún no eres escudero! Si deseas rectificar eso, es pertinente que pronto te encuentres un caballero dispuesto...\n\nAfortunadamente, ¡el destino nos ha unido a través de la sangre! Si así lo deseas, te haré mi escudero, y un día, si te lo ganas, te otorgaré el título de caballero." #NT!
- agot_knighthood.0018.a:0 "¡Vaya, acepto!" #NT!
- agot_knighthood.0018.b:0 "Lo siento, pero no." #NT!
- agot_knighthood.0018.b_toast:0 "[potential_squire.GetName] Responde" #NT!
- agot_knighthood.0018.b_toast_tt:0 "[potential_squire.GetName] ha rechazado tu oferta." #NT!
-
- agot_knighthood.0019.opening:0 "A [knight_offerer.GetName]," #NT!
- agot_knighthood.0019.desc:0 "Acepto tu propuesta de convertirme en tu escudero. La misma sangre corre por nuestras venas, ¡así que debemos buscar fortalecer estos lazos!" #NT!
- agot_knighthood.0019.a:0 "¡Fantástico!" #NT!
-
- ##############################
- # Squire Notification Events #
- ##############################
-
- #0199
- agot_knighthood.0199.t:0 "Escudero" #NT!
- agot_knighthood.0199.desc:0 "¡[my_knight.GetName] me ha tomado como su escudero! Mi viaje a la caballería comienza ahora, y estoy muy emocionado por ello." #NT!
- agot_knighthood.0199.a:0 "El viaje comienza ahora." #NT!
-
- agot_knighthood.0300.t:0 "El progreso de un escudero" #NT!
- agot_knighthood.0300.desc:0 "¡Mi escudero, [my_squire.GetName], ha demostrado su valía! Han llegado lejos como escuderos y creo que es hora de que se hagan caballeros." #NT!
- agot_knighthood.0300.a:0 "Convertiré a [my_squire.GetHerHim] en caballero." #NT!
- agot_knighthood.0300.a.tt:0 "¡[my_squire.GetName] será nombrado caballero!" #NT!
-
- agot_knighthood.0320.t:0 "¡Un pariente nombrado caballero!" #NT!
- agot_knighthood.0320.desc:0 "¡Mi pariente, [my_relation.GetName], ha sido nombrado caballero! Ha enorgullecido a la Casa [ROOT.GetCharacter.GetHouse.GetName]." #NT!
- agot_knighthood.0320.a:0 "¡Bien por [my_relation.GetHerHim]!" #NT!
-
- ##################
- # Toast Tooltips #
- ##################
-
- agot_knighthood.increase_progtoknighthood_toast.tt:0 "Tu progreso como caballero aumenta." #NT!
- agot_knighthood.decrease_progtoknighthood_toast.tt:0 "Tu progreso como caballero disminuye." #NT!
-
- agot_knighthood.0021.a_toast:0 "Escuelita otorgada" #NT!
- agot_knighthood.0021.a_toast.tt:0 "Te has convertido en [potential_knight.GetNamePossessive] escudero." #NT!
- agot_knighthood.0021.b_toast:0 "[nearby_knight.GetName] Responde" #NT!
- agot_knighthood.0021.b_toast.tt:0 "[nearby_knight.GetName] ha rechazado tu solicitud." #NT!
-
- ##Used in the Squire Interaction (Via char menu)
- agot_knighthood_squire_offer_accept_toast:0 "Oferta de Squirehood aceptada" #NT!
- agot_knighthood_squire_offer_accept_toast.tt:0 "¡Has ganado un Escudero!" #NT!
- agot_knighthood_squire_offer_reject_toast:0 "Oferta de Squirehood rechazada" #NT!
- agot_knighthood_squire_offer_reject_toast.tt:0 "¡Tu oferta como escolta fue #N rechazada!#!" #NT!
-
- ##Used In the Knighting Interactions (Via char menu)
- agot_knighthood_made_a_knight_toast:0 "¡Usted nombró caballero a alguien!" #NT!
- agot_knighthood_made_a_knight_toast.tt:0 "¡Has nombrado caballero a [recipient.GetNameNoTooltip]!" #NT!
-
- agot_knighthood_youve_been_made_a_knight_toast:0 "¡Has sido nombrado caballero!" #NT!
- agot_knighthood_youve_been_made_a_knight_toast.tt:0 "¡Has sido nombrado caballero!" #NT!
- agot_knighthood_offer_rejected_toast:0 "Oferta de título de caballero rechazada" #NT!
- agot_knighthood_offer_rejected_toast.tt:0 "¡Tu oferta de caballería fue #N rechazada!#!" #NT!
-
- #Used in places outside the 'grant knighthood' interaction
- agot_knighthood_made_a_knight_generic_toast:0 "¡Usted nombró caballero a alguien!" #NT!
- agot_knighthood_made_a_knight_generic_toast.tt:0 "Usted nombró caballero a alguien" #NT!
-
- ################################
- # Tournament Events/Promotions #
- ################################
-
- agot_knighthood.0500.t:0 "Mi escudero, un ganador" #NT!
- agot_knighthood.0500.desc:0 "¡Mi escudero, [winning_squire.GetName] ha ganado un torneo! Contra varios otros participantes, luchó hasta llegar a la cima y ganó.\n\nTal logro es simplemente sobresaliente. Que un simple #italic escudero#! derrote a los caballeros y otros guerreros del reino es algo inaudito.\n\nTal logro es motivo suficiente para convertir a un hombre en caballero, dirían algunos..." #NT!
- agot_knighthood.0500.a:0 "¡Sí, convertiré a [winning_squire.GetName] en caballero!" #NT!
- agot_knighthood.0500.a.tt:0 "Harás caballero a tu escudero." #NT!
- agot_knighthood.0500.b:0 "No, no nos adelantemos." #NT!
- agot_knighthood.0500.b.tt:0 "No otorgarás a tu escudero el título de caballero." #NT!
-
- agot_knighthood.0501.t:0 "Título de caballero" #NT!
- agot_knighthood.0501.desc:0 "Mientras disfruto de la gloria de haber sido declarado ganador del torneo [host.GetNamePossessive], mi caballero se me acerca y me dice que me arrodille.\n\nÉl desenvaina solemnemente su espada. Mientras coloca su espada en mi hombro derecho, la cacofonía de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl obedientemente comienza a hablar: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes, a tus señor feudal y vuestro rey, para luchar valientemente cuando sea necesario y hacer otras tareas que se os encomienden, por duras, humildes o peligrosas que puedan ser?" #NT!
- agot_knighthood.0501.a:0 "Sí, lo juro." #NT!
- agot_knighthood.0501.a.tt:0 "Juras defender los valores de un caballero." #NT!
-
- agot_knighthood.0502.t:0 "Título de caballero" #NT!
- agot_knighthood.0502.desc:0 "[my_knight.GetName] mueve su espada hacia mi hombro izquierdo y sonríe. "¡Entonces levántate, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], un caballero!" #NT!
- agot_knighthood.0502.a:0 "¡Soy un caballero ahora!" #NT!
- agot_knighthood.0502.a.tt:0 "¡Has sido nombrado caballero!" #NT!
-
- agot_knighthood.0503.t:0 "El escudero que se mantuvo alto" #NT!
- agot_knighthood.0503.desc:0 "El torneo [host.GetNamePossessive] finalizó recientemente. Si bien tuve una experiencia agradable, el ganador fue alguien inesperado: ¡[winning_squire.GetName], un escudero ambicioso sin un mentor caballeresco!\n\nSi bien [winning_squire.GetName] ha tenido algo de entrenamiento en las tradiciones de la caballería y la caballería, todavía es un escudero. Su actuación durante el torneo ha impresionado a muchos. Si [winning_squire.GetName] aún tuviera un mentor caballeresco, seguramente esto le otorgaría el título de caballero. Es una pena ver que se desperdicia tanto talento.\n\nSi tuviera que nombrarlo caballero, entonces podría corregir este error. Nadie se opondría, después de todo, se lo ha ganado." #NT!
- agot_knighthood.0503.a:0 "¡Sí, convertiré a [winning_squire.GetName] en caballero!" #NT!
- agot_knighthood.0503.a.tt:0 "Nombrarás caballero a [winning_squire.GetNameNoTooltip]." #NT!
- agot_knighthood.0503.b:0 "No, no es mi lugar." #NT!
- agot_knighthood.0503.b.tt:0 "No otorgarás el título de caballero a [winning_squire.GetNameNoTooltip]." #NT!
-
- agot_knighthood.0504.t:0 "Título de caballero" #NT!
- agot_knighthood.0504.desc:0 "Mientras disfruto de la gloria de haber sido declarado ganador del torneo [host.GetNamePossessive], [potential_knight_maker.GetName], otro participante, se me acerca y me pide que me arrodille ante él. Me dice que no está bien que gane el torneo y siga siendo escudero. ¡Quiere convertirme en caballero!\n\nMientras me arrodillo ante él, desenvaina solemnemente su espada. Cuando coloca su espada en mi hombro derecho, el estruendo de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl comienza a hablar obedientemente: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes, a tus señor feudal y vuestro rey, para luchar valientemente cuando sea necesario y hacer otras tareas que se os encomienden, por duras, humildes o peligrosas que puedan ser?" #NT!
- agot_knighthood.0504.a:0 "Sí, lo juro." #NT!
- agot_knighthood.0504.a.tt:0 "Juras defender los valores de un caballero." #NT!
-#  agot_knighthood.0504.b:0 "Pensándolo bien, no, no lo juro." #NT!
-#  agot_knighthood.0504.b.tt:0 "Te niegas a decir los votos solicitados por [potential_knight_maker.GetName]." #NT!
-
- agot_knighthood.0505.t:0 "Título de caballero" #NT!
- agot_knighthood.0505.desc:0 "[potential_knight_maker.GetName] mueve su espada hacia mi hombro izquierdo y sonríe. "¡Entonces levántate, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], un caballero!" #NT!
- agot_knighthood.0505.a:0 "¡Soy un caballero ahora!" #NT!
- agot_knighthood.0505.a.tt:0 "¡Has sido nombrado caballero!" #NT!
-
- agot_knighthood.0510.t:0 "El campeón del torneo" #NT!
-
- agot_knighthood.0510.desc.host_perspective:0 "El gran torneo que estaba organizando acaba de terminar. A pesar de no ser un caballero, [winning_squire.GetName] pudo reclamar la victoria sobre todos los demás caballeros y guerreros reunidos.\n\nSi bien el premio de oro y fama es suficiente para algunos, no pude evitar pensar que la demostración marcial de [winning_squire.GetNamePossessive] fue tan impresionante que se justifica una recompensa adicional. Tal vez el título de caballero sea la recompensa apropiada para honrar tal talento." #NT!
-
- agot_knighthood.0510.desc.participant_perspective:0 "El gran torneo en el que participé recientemente acaba de terminar. A pesar de no ser un caballero, [winning_squire.GetName] pudo reclamar la victoria sobre todos los demás caballeros y guerreros reunidos.\n\nSi bien el premio de oro y fama es suficiente para algunos, no pude evitar pensar que la demostración marcial de [winning_squire.GetNamePossessive] fue tan impresionante que se justifica una recompensa adicional. Como caballero, podría otorgar el título de caballero a [winning_squire.GetName] para que todos conozcan y recuerden la habilidad marcial de [winning_squire.GetHerHis]." #NT!
-
- agot_knighthood.0510.desc.fallback:0 "Fallback DESC: informe un error si ve esto con su archivo guardado." #NT!
- agot_knighthood.0510.a:0 "¡Sí, convertiré a [winning_squire.GetName] en caballero!" #NT!
- agot_knighthood.0510.a.tt:0 "Nombrarás caballero a [winning_squire.GetNameNoTooltip]." #NT!
- agot_knighthood.0510.b:0 "No, no es mi lugar." #NT!
- agot_knighthood.0510.b.tt:0 "No otorgarás el título de caballero a [winning_squire.GetNameNoTooltip]." #NT!
-
- agot_knighthood.0511.t:0 "El campeón del torneo" #NT!
- agot_knighthood.0511.desc.host_perspective:0 "Mientras disfruto de la gloria de haber sido declarado ganador del torneo, [potential_knight_maker.GetName], el anfitrión del torneo, se me acerca y me insta a arrodillarme ante él. Me dice que no está bien que gane el torneo y no sea un caballero. ¡Quiere convertirme en caballero!\n\nMientras me arrodillo ante él, desenvaina solemnemente su espada. Cuando coloca su espada en mi hombro derecho, el estruendo de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl obedientemente comienza a hablar: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes, a tus señor feudal y vuestro rey, para luchar valientemente cuando sea necesario y hacer otras tareas que se os encomienden, por duras, humildes o peligrosas que puedan ser?" #NT!
- agot_knighthood.0511.a:0 "Sí, lo juro." #NT!
- agot_knighthood.0511.a.tt:0 "Juras defender los valores de un caballero." #NT!
-
- agot_knighthood.0511.desc.participant_perspective:0 "Mientras disfruto de la gloria de haber sido declarado ganador del torneo [host.GetNamePossessive], [potential_knight_maker.GetName], otro participante, se me acerca y me pide que me arrodille ante él. Me dice que no está bien que gane el torneo y no sea un caballero. ¡Quiere convertirme en caballero!\n\nMientras me arrodillo ante él, desenvaina solemnemente su espada. Cuando coloca su espada en mi hombro derecho, el estruendo de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl comienza a hablar obedientemente: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes, a tus señor feudal y vuestro rey, para luchar valientemente cuando sea necesario y hacer otras tareas que se os encomienden, por duras, humildes o peligrosas que puedan ser?" #NT!
- agot_knighthood.0511.a:0 "Sí, lo juro." #NT!
- agot_knighthood.0511.a.tt:0 "Juras defender los valores de un caballero." #NT!
-
- agot_knighthood.0512.t:0 "Título de caballero" #NT!
- agot_knighthood.0512.desc:0 "[potential_knight_maker.GetName] mueve su espada hacia mi hombro izquierdo y sonríe. "¡Entonces levántate, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], un caballero!" #NT!
- agot_knighthood.0512.a:0 "¡Soy un caballero ahora!" #NT!
- agot_knighthood.0512.a.tt:0 "¡Has sido nombrado caballero!" #NT!
-
- #################################
- ## Battlefield Knighting Event ##
- #################################
-
- agot_knighthood.0601.t:0 "Valor del campo de batalla" #NT!
- agot_knighthood.0601.desc:0 "Después de la batalla en [battle_province.GetName], uno de mis asistentes me presenta una lista de soldados que se desempeñaron muy bien. El nombre de [soldier_to_be_knighted.GetNamePossessive] me llama la atención en particular.\n\nMi asistente recomienda que los convierta en caballeros en una ceremonia apresurada en el campo de batalla; según él, nombrar caballeros a estos soldados mientras se encuentran entre la carnicería y la ruina de la batalla inspirará la moral entre nuestras filas." #NT!
- agot_knighthood.0601.a:0 "Sí, nombraré caballero a [soldier_to_be_knighted.GetFirstName]." #NT!
- agot_knighthood.0601.a.tt:0 "Convertirás a [soldier_to_be_knighted.GetName] en caballero." #NT!
- agot_knighthood.0601.b:0 "No, no los nombraré caballero." #NT!
-
- agot_knighthood.0602.t:0 "Caballería en el campo de batalla" #NT!
- agot_knighthood.0602.desc:0 "Después de la batalla en [battle_province.GetName], el comandante, [side_commander.GetName], convocó a un puñado de hombres, incluyéndome a mí.\n\n[side_commander.GetSheHe] nos informó que estaba impresionado por nuestro valor en el campo de batalla y que seríamos nombrados caballeros por nuestras acciones." #NT!
- agot_knighthood.0602.a:0 "¡Soy un caballero ahora!" #NT!
- agot_knighthood.0602.a.tt:0 "¡Has sido nombrado caballero!" #NT!
-
-######################################
-## Special Squire Assignment Events ##
-######################################
-
-agot_knighthood.0800.t:0 "Hacer caballeros de niños" #NT!
-agot_knighthood.0800.desc:0 "Mi hijo, [squire.GetName], ha llegado recientemente a una edad en la que puede ser escudero. ¿Quizás podría ordenarle a un miembro de mi Guardia Real que lo acompañe? Creo que [knight.GetName] sería un buen candidato." #NT!
-agot_knighthood.0800.a:0 "¡Sí!" #NT!
-agot_knighthood.0800.b:0 "¡No!" #NT!
-
-agot_knighthood.0801.t:0 "Hacer caballeros de niños" #NT!
-agot_knighthood.0801.desc:0 "Mi hijo, [squire.GetName], ha llegado recientemente a una edad en la que puede ser escudero. ¿Quizás podría ordenar a un vasallo de mi reino que lo escoltara? Creo que [knight.GetName] sería un buen candidato." #NT!
-agot_knighthood.0801.a:0 "¡Sí!" #NT!
-agot_knighthood.0801.b:0 "¡No!" #NT!
-
-agot_knighthood.0802.opening:0 "A mi leal súbdito," #NT!
-agot_knighthood.0802.desc:0 "¡Por la presente te ordeno que tomes a [squire.GetName] como tu escudero! ¡Espero que le enseñes a [squire.GetName] lo que significa ser un caballero!" #NT!
-agot_knighthood.0802.a:0 "Me han mandado." #NT!
+  
+  ######################### 
+  ## Hedge Knight Events ## 
+  ######################### 
+  
+  # Hedge knight wants to squire your heir 
+ agot_knighthood.0016.t: "El caballero de cobertura"
+ agot_knighthood.0016.desc: "Un caballero errante ha estado durmiendo en mis pasillos durante las últimas noches. Parece que a mi hijo, [potential_child_squire.GetName], le ha tomado cariño. Del mismo modo, el caballero errante también se ha encariñado con mi hijo. Mi hijo se enamoró del caballero errante después de escucharlo contar sus emocionantes historias de caballería y caballería.\n\nEl último día de [hedge_knight.GetHerHis] en mi corte, el caballero errante se ofrece a quedarse en mi corte y dejar que mi hijo sea su escudero.\n \nEl hombre parece lo suficientemente honorable, y haría a mi hijo muy, muy feliz. Tengo que pensar en esto."
+ agot_knighthood.0016.a: "¡Sí, debes quedarte y tomarlo como escudero!"
+ agot_knighthood.0016.a.tt: "[hedge_knight.GetName] se unirá a tu corte y tomará a tu hijo como [hedge_knight.GetHerHis] [squire|e]."
+ agot_knighthood.0016.b: "No, no creo que seas el caballero adecuado."
+ agot_knighthood.0016.b.tt: "[hedge_knight.GetName] dejará tu corte."
+  
+  # Hedge knight wants to knight your non-heir son 
+ agot_knighthood.0700.t: "El Caballero de los setos y tu hijo"
+ agot_knighthood.0700.desc: "Un caballero errante llamado [hedge_knight.GetName] visitó recientemente mi corte. [hedge_knight.GetCulture.GetName] de nacimiento, ha viajado por todo el reino para buscar el servicio de un Lord. Sé poco de este hombre, excepto por el hecho de que supuestamente proviene de una noble estirpe menor de Westerland y, por supuesto, es un caballero.\n\nNo le he prestado atención y, como tal, esperaba que lo hiciera. seguir adelante pronto. Sin embargo, vino a mí, en confianza, y se ofreció a nombrar caballero a mi hijo, [potential_child_knight.GetName], a cambio de que se le permitiera quedarse todo el tiempo que quisiera."
+ agot_knighthood.0700.a: "Supongo que tal arreglo se puede hacer."
+ agot_knighthood.0700.b: "No, no lo aceptaré."
+  
+  # Hedge knight wants to knight you 
+ agot_knighthood.0701.t: "El Caballero de los setos y el Lord"
+ agot_knighthood.0701.desc: "Un caballero errante llamado [hedge_knight.GetName] visitó recientemente mi corte. [hedge_knight.GetCulture.GetName] de nacimiento, está viajando por el reino por razones desconocidas.\n\nAunque no le he prestado atención, parece que él me ha prestado atención. Una nota toscamente escrita ofreciéndome el título de caballero, firmada nada menos que por [hedge_knight.GetFirstNamePossessive], fue entregada a uno de mis sirvientes esta mañana temprano. Por el precio justo, dice la nota, puedo convertirme en caballero."
+ agot_knighthood.0701.a: "Aceptaré este trato."
+ agot_knighthood.0701.b: "No, no lo aceptaré."
+  
+  ##################### 
+  # Dynasty Knighting # 
+  ##################### 
+  
+  #0017-19 
+ agot_knighthood.0017.t: "Caballero dinástico"
+ agot_knighthood.0017.desc: "Mi pariente, [potential_squire.GetName], aún no es escudero. ¿Quizás al ofrecerme a [potential_squire.GetHerHim] como mi escudero podría forjar una mejor relación entre nosotros?"
+ agot_knighthood.0017.a: "Sí, ofrece [potential_squire.GetHerHim] escudería."
+ agot_knighthood.0017.a.tt: "Le pides a [potential_squire.GetName] que se convierta en tu [squire|e]"
+ agot_knighthood.0017.b: "No, es una pérdida de tiempo."
+ agot_knighthood.0017.b.tt: "No le pides a [potential_squire.GetName] que se convierta en tu escudero."
+  
+ agot_knighthood.0018.opening: "A [potential_knight_for_child.GetName],"
+ agot_knighthood.0018.desc: "¡Me he dado cuenta de que aún no eres escudero! Si deseas rectificar eso, es pertinente que pronto te encuentres un caballero dispuesto...\n\nAfortunadamente, ¡el destino nos ha unido a través de la sangre! Si así lo deseas, te haré mi escudero, y un día, si te lo ganas, te otorgaré el título de caballero."
+ agot_knighthood.0018.a: "¡Vaya, acepto!"
+ agot_knighthood.0018.b: "Lo siento, pero no."
+ agot_knighthood.0018.b_toast: "[potential_squire.GetName] Responde"
+ agot_knighthood.0018.b_toast_tt: "[potential_squire.GetName] ha rechazado tu oferta."
+  
+ agot_knighthood.0019.opening: "A [knight_offerer.GetName],"
+ agot_knighthood.0019.desc: "Acepto tu propuesta de convertirme en tu escudero. La misma sangre corre por nuestras venas, ¡así que debemos buscar fortalecer estos lazos!"
+ agot_knighthood.0019.a: "¡Fantástico!"
+  
+  ############################## 
+  # Squire Notification Events # 
+  ############################## 
+  
+  #0199 
+ agot_knighthood.0199.t: "Escudero"
+ agot_knighthood.0199.desc: "¡[my_knight.GetName] me ha tomado como su escudero! Mi viaje a la caballería comienza ahora, y estoy muy emocionado por ello."
+ agot_knighthood.0199.a: "El viaje comienza ahora."
+  
+ agot_knighthood.0300.t: "El progreso de un escudero"
+ agot_knighthood.0300.desc: "¡Mi escudero, [my_squire.GetName], ha demostrado su valía! Han llegado lejos como escuderos y creo que es hora de que se hagan caballeros."
+ agot_knighthood.0300.a: "Convertiré a [my_squire.GetHerHim] en caballero."
+ agot_knighthood.0300.a.tt: "¡[my_squire.GetName] será nombrado caballero!"
+  
+ agot_knighthood.0320.t: "¡Un pariente nombrado caballero!"
+ agot_knighthood.0320.desc: "¡Mi pariente, [my_relation.GetName], ha sido nombrado caballero! Ha enorgullecido a la Casa [ROOT.GetCharacter.GetHouse.GetName]."
+ agot_knighthood.0320.a: "¡Bien por [my_relation.GetHerHim]!"
+  
+  ################## 
+  # Toast Tooltips # 
+  ################## 
+  
+ agot_knighthood.increase_progtoknighthood_toast.tt: "Tu progreso como caballero aumenta."
+ agot_knighthood.decrease_progtoknighthood_toast.tt: "Tu progreso como caballero disminuye."
+  
+ agot_knighthood.0021.a_toast: "Escuelita otorgada"
+ agot_knighthood.0021.a_toast.tt: "Te has convertido en [potential_knight.GetNamePossessive] escudero."
+ agot_knighthood.0021.b_toast: "[nearby_knight.GetName] Responde"
+ agot_knighthood.0021.b_toast.tt: "[nearby_knight.GetName] ha rechazado tu solicitud."
+  
+  ##Used in the Squire Interaction (Via char menu) 
+ agot_knighthood_squire_offer_accept_toast: "Oferta de Squirehood aceptada"
+ agot_knighthood_squire_offer_accept_toast.tt: "¡Has ganado un Escudero!"
+ agot_knighthood_squire_offer_reject_toast: "Oferta de Squirehood rechazada"
+ agot_knighthood_squire_offer_reject_toast.tt: "¡Tu oferta como escolta fue #N rechazada!#!"
+  
+  ##Used In the Knighting Interactions (Via char menu) 
+ agot_knighthood_made_a_knight_toast: "¡Usted nombró caballero a alguien!"
+ agot_knighthood_made_a_knight_toast.tt: "¡Has nombrado caballero a [recipient.GetNameNoTooltip]!"
+  
+ agot_knighthood_youve_been_made_a_knight_toast: "¡Has sido nombrado caballero!"
+ agot_knighthood_youve_been_made_a_knight_toast.tt: "¡Has sido nombrado caballero!"
+ agot_knighthood_offer_rejected_toast: "Oferta de título de caballero rechazada"
+ agot_knighthood_offer_rejected_toast.tt: "¡Tu oferta de caballería fue #N rechazada!#!"
+  
+  #Used in places outside the 'grant knighthood' interaction 
+ agot_knighthood_made_a_knight_generic_toast: "¡Usted nombró caballero a alguien!"
+ agot_knighthood_made_a_knight_generic_toast.tt: "Usted nombró caballero a alguien"
+  
+  ################################ 
+  # Tournament Events/Promotions # 
+  ################################ 
+  
+ agot_knighthood.0500.t: "Mi escudero, un ganador"
+ agot_knighthood.0500.desc: "¡Mi escudero, [winning_squire.GetName] ha ganado un torneo! Contra varios otros participantes, luchó hasta llegar a la cima y ganó.\n\nTal logro es simplemente sobresaliente. Que un simple #italic escudero#! derrote a los caballeros y otros guerreros del reino es algo inaudito.\n\nTal logro es motivo suficiente para convertir a un hombre en caballero, dirían algunos..."
+ agot_knighthood.0500.a: "¡Sí, convertiré a [winning_squire.GetName] en caballero!"
+ agot_knighthood.0500.a.tt: "Harás caballero a tu escudero."
+ agot_knighthood.0500.b: "No, no nos adelantemos."
+ agot_knighthood.0500.b.tt: "No otorgarás a tu escudero el título de caballero."
+  
+ agot_knighthood.0501.t: "Título de caballero"
+ agot_knighthood.0501.desc:0 "As I am basking in the glory of being declared the winner of [host.GetNamePossessive] tournament, my knight approaches me and tells me to kneel.\n\nHe solemny draws his sword. As he places his sword on my right shoulder, the cacophony of the tournament celebrations subsides. All eyes are on us.\n\nHe dutifully begins to speak: "Mientras disfruto de la gloria de haber sido declarado ganador del torneo [host.GetNamePossessive], mi caballero se me acerca y me dice que me arrodille.\n\nÉl desenvaina solemnemente su espada. Mientras coloca su espada en mi hombro derecho, la cacofonía de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl obedientemente comienza a hablar: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes , tu señor feudal y tu rey, para luchar valientemente cuando sea necesario y hacer cualquier otra tarea que se te encomiende, por duras, humildes o peligrosas que puedan ser?" #NT!
+ agot_knighthood.0501.a: "Sí, lo juro."
+ agot_knighthood.0501.a.tt: "Juras defender los valores de un caballero."
+  
+ agot_knighthood.0502.t: "Título de caballero"
+ agot_knighthood.0502.desc: "[my_knight.GetName] mueve su espada hacia mi hombro izquierdo y sonríe. "¡Entonces levántate, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], un caballero!"
+ agot_knighthood.0502.a: "¡Soy un caballero ahora!"
+ agot_knighthood.0502.a.tt: "¡Has sido nombrado caballero!"
+  
+ agot_knighthood.0503.t: "El escudero que se mantuvo alto"
+ agot_knighthood.0503.desc: "El torneo [host.GetNamePossessive] finalizó recientemente. Si bien tuve una experiencia agradable, el ganador fue alguien inesperado: ¡[winning_squire.GetName], un escudero ambicioso sin un mentor caballeresco!\n\nSi bien [winning_squire.GetName] ha tenido algo de entrenamiento en las tradiciones de la caballería y la caballería, todavía es un escudero. Su actuación durante el torneo ha impresionado a muchos. Si [winning_squire.GetName] aún tuviera un mentor caballeresco, seguramente esto le otorgaría el título de caballero. Es una pena ver que se desperdicia tanto talento.\n\nSi tuviera que nombrarlo caballero, entonces podría corregir este error. Nadie se opondría, después de todo, se lo ha ganado."
+ agot_knighthood.0503.a: "¡Sí, convertiré a [winning_squire.GetName] en caballero!"
+ agot_knighthood.0503.a.tt: "Nombrarás caballero a [winning_squire.GetNameNoTooltip]."
+ agot_knighthood.0503.b: "No, no es mi lugar."
+ agot_knighthood.0503.b.tt: "No otorgarás el título de caballero a [winning_squire.GetNameNoTooltip]."
+  
+ agot_knighthood.0504.t: "Título de caballero"
+ agot_knighthood.0504.desc:0 "As I am basking in the glory of being declared the winner of [host.GetNamePossessive] tournament, [potential_knight_maker.GetName], a fellow participant, approaches me and urges me to kneel before him. He tells me that is not right that I should win the tournament and remain a squire - he wants to make me a knight!\n\nAs I kneel before him, he solemny draws his sword. As he places his sword on my right shoulder, the din of the tournament celebrations subsides. All eyes are on us.\n\nHe dutifully begins to speak: "Mientras disfruto de la gloria de haber sido declarado ganador del torneo [host.GetNamePossessive], [potential_knight_maker.GetName], un compañero participante, se me acerca y me insta a arrodillarme ante él. Me dice que no está bien que gane el torneo y siga siendo escudero. ¡Quiere convertirme en caballero!\n\nMientras me arrodillo ante él, desenvaina solemnemente su espada. Cuando coloca su espada en mi hombro derecho, el estruendo de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl comienza a hablar obedientemente: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes , tu señor feudal y tu rey, para luchar valientemente cuando sea necesario y hacer cualquier otra tarea que se te encomiende, por duras, humildes o peligrosas que puedan ser?" #NT!
+ agot_knighthood.0504.a: "Sí, lo juro."
+ agot_knighthood.0504.a.tt: "Juras defender los valores de un caballero."
+ #  agot_knighthood.0504.b: "Pensándolo bien, no, no lo juro."
+ #  agot_knighthood.0504.b.tt: "Te niegas a decir los votos solicitados por [potential_knight_maker.GetName]."
+  
+ agot_knighthood.0505.t: "Título de caballero"
+ agot_knighthood.0505.desc: "[potential_knight_maker.GetName] mueve su espada hacia mi hombro izquierdo y sonríe. "¡Entonces levántate, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], un caballero!"
+ agot_knighthood.0505.a: "¡Soy un caballero ahora!"
+ agot_knighthood.0505.a.tt: "¡Has sido nombrado caballero!"
+  
+ agot_knighthood.0510.t: "El campeón del torneo"
+  
+ agot_knighthood.0510.desc.host_perspective: "El gran torneo que estaba organizando acaba de terminar. A pesar de no ser un caballero, [winning_squire.GetName] pudo reclamar la victoria sobre todos los demás caballeros y guerreros reunidos.\n\nSi bien el premio de oro y fama es suficiente para algunos, no pude evitar pensar que la demostración marcial de [winning_squire.GetNamePossessive] fue tan impresionante que se justifica una recompensa adicional. Tal vez el título de caballero sea la recompensa apropiada para honrar tal talento."
+  
+ agot_knighthood.0510.desc.participant_perspective: "El gran torneo en el que participé recientemente acaba de terminar. A pesar de no ser un caballero, [winning_squire.GetName] pudo reclamar la victoria sobre todos los demás caballeros y guerreros reunidos.\n\nSi bien el premio de oro y fama es suficiente para algunos, no pude evitar pensar que la demostración marcial de [winning_squire.GetNamePossessive] fue tan impresionante que se justifica una recompensa adicional. Como caballero, podría otorgar el título de caballero a [winning_squire.GetName] para que todos conozcan y recuerden la habilidad marcial de [winning_squire.GetHerHis]."
+  
+ agot_knighthood.0510.desc.fallback: "Fallback DESC: informe un error si ve esto con su archivo guardado."
+ agot_knighthood.0510.a: "¡Sí, convertiré a [winning_squire.GetName] en caballero!"
+ agot_knighthood.0510.a.tt: "Nombrarás caballero a [winning_squire.GetNameNoTooltip]."
+ agot_knighthood.0510.b: "No, no es mi lugar."
+ agot_knighthood.0510.b.tt: "No otorgarás el título de caballero a [winning_squire.GetNameNoTooltip]."
+  
+ agot_knighthood.0511.t: "El campeón del torneo"
+ agot_knighthood.0511.desc.host_perspective:0 "As I am basking in the glory of being declared the winner of the tournament, [potential_knight_maker.GetName], the host of the tournament, approaches me and urges me to kneel before him. He tells me that is not right that I should win the tournament and not be a knight - he wants to make me a knight!\n\nAs I kneel before him, he solemny draws his sword. As he places his sword on my right shoulder, the din of the tournament celebrations subsides. All eyes are on us.\n\nHe dutifully begins to speak: "Mientras disfruto de la gloria de ser declarado ganador del torneo, [potential_knight_maker.GetName], el anfitrión del torneo, se me acerca y me insta a arrodillarme ante él. Me dice que no está bien que gane el torneo y no sea un caballero. ¡Quiere convertirme en caballero!\n\nMientras me arrodillo ante él, desenvaina solemnemente su espada. Cuando coloca su espada en mi hombro derecho, el estruendo de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl obedientemente comienza a hablar: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes , tu señor feudal y tu rey, para luchar valientemente cuando sea necesario y hacer cualquier otra tarea que se te encomiende, por duras, humildes o peligrosas que puedan ser?" #NT!
+ agot_knighthood.0511.a: "Sí, lo juro."
+ agot_knighthood.0511.a.tt: "Juras defender los valores de un caballero."
+  
+ agot_knighthood.0511.desc.participant_perspective:0 "As I am basking in the glory of being declared the winner of [host.GetNamePossessive] tournament, [potential_knight_maker.GetName], a fellow participant, approaches me and urges me to kneel before him. He tells me that is not right that I should win the tournament and not be a knight - he wants to make me a knight!\n\nAs I kneel before him, he solemny draws his sword. As he places his sword on my right shoulder, the din of the tournament celebrations subsides. All eyes are on us.\n\nHe dutifully begins to speak: "Mientras disfruto de la gloria de haber sido declarado ganador del torneo [host.GetNamePossessive], [potential_knight_maker.GetName], un compañero participante, se me acerca y me insta a arrodillarme ante él. Me dice que no está bien que gane el torneo y no sea un caballero. ¡Quiere convertirme en caballero!\n\nMientras me arrodillo ante él, desenvaina solemnemente su espada. Cuando coloca su espada en mi hombro derecho, el estruendo de las celebraciones del torneo disminuye. Todos los ojos están puestos en nosotros.\n\nÉl comienza a hablar obedientemente: "[ROOT.GetCharacter.GetFirstNameNoTooltip|V] [ROOT.GetCharacter.GetHouse.GetNameNoTooltip|V], ¿juras ante los ojos de dioses y hombres defender a aquellos que no pueden defenderse a sí mismos, proteger a todas las mujeres y niños, obedecer a tus capitanes , tu señor feudal y tu rey, para luchar valientemente cuando sea necesario y hacer cualquier otra tarea que se te encomiende, por duras, humildes o peligrosas que puedan ser?" #NT!
+ agot_knighthood.0511.a: "Sí, lo juro."
+ agot_knighthood.0511.a.tt: "Juras defender los valores de un caballero."
+  
+ agot_knighthood.0512.t: "Título de caballero"
+ agot_knighthood.0512.desc: "[potential_knight_maker.GetName] mueve su espada hacia mi hombro izquierdo y sonríe. "¡Entonces levántate, #V Ser#! [ROOT.GetCharacter.GetFirstNameNoTooltip|V], un caballero!"
+ agot_knighthood.0512.a: "¡Soy un caballero ahora!"
+ agot_knighthood.0512.a.tt: "¡Has sido nombrado caballero!"
+  
+  ################################# 
+  ## Battlefield Knighting Event ## 
+  ################################# 
+  
+ agot_knighthood.0601.t: "Valor del campo de batalla"
+ agot_knighthood.0601.desc: "Después de la batalla en [battle_province.GetName], uno de mis asistentes me presenta una lista de soldados que se desempeñaron muy bien. El nombre de [soldier_to_be_knighted.GetNamePossessive] me llama la atención en particular.\n\nMi asistente recomienda que los convierta en caballeros en una ceremonia apresurada en el campo de batalla; según él, nombrar caballeros a estos soldados mientras se encuentran entre la carnicería y la ruina de la batalla inspirará la moral entre nuestras filas."
+ agot_knighthood.0601.a: "Sí, nombraré caballero a [soldier_to_be_knighted.GetFirstName]."
+ agot_knighthood.0601.a.tt: "Convertirás a [soldier_to_be_knighted.GetName] en caballero."
+ agot_knighthood.0601.b: "No, no los nombraré caballero."
+  
+ agot_knighthood.0602.t: "Caballería en el campo de batalla"
+ agot_knighthood.0602.desc: "Después de la batalla en [battle_province.GetName], el comandante, [side_commander.GetName], convocó a un puñado de hombres, incluyéndome a mí.\n\n[side_commander.GetSheHe] nos informó que estaba impresionado por nuestro valor en el campo de batalla y que seríamos nombrados caballeros por nuestras acciones."
+ agot_knighthood.0602.a: "¡Soy un caballero ahora!"
+ agot_knighthood.0602.a.tt: "¡Has sido nombrado caballero!"
+  
+ ###################################### 
+ ## Special Squire Assignment Events ## 
+ ###################################### 
+  
+ agot_knighthood.0800.t: "Hacer caballeros de niños"
+ agot_knighthood.0800.desc: "Mi hijo, [squire.GetName], ha llegado recientemente a una edad en la que puede ser escudero. ¿Quizás podría ordenarle a un miembro de mi Guardia Real que lo acompañe? Creo que [knight.GetName] sería un buen candidato."
+ agot_knighthood.0800.a: "¡Sí!"
+ agot_knighthood.0800.b: "¡No!"
+  
+ agot_knighthood.0801.t: "Hacer caballeros de niños"
+ agot_knighthood.0801.desc: "Mi hijo, [squire.GetName], ha llegado recientemente a una edad en la que puede ser escudero. ¿Quizás podría ordenar a un vasallo de mi reino que lo escoltara? Creo que [knight.GetName] sería un buen candidato."
+ agot_knighthood.0801.a: "¡Sí!"
+ agot_knighthood.0801.b: "¡No!"
+  
+ agot_knighthood.0802.opening: "A mi leal súbdito,"
+ agot_knighthood.0802.desc: "¡Por la presente te ordeno que tomes a [squire.GetName] como tu escudero! ¡Espero que le enseñes a [squire.GetName] lo que significa ser un caballero!"
+ agot_knighthood.0802.a: "Me han mandado."

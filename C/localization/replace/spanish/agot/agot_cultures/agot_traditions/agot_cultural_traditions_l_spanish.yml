@@ -1,131 +1,134 @@
 ﻿l_spanish:
- # Ethoses
- ethos_festive_name:0 "Festivo" #NT!
- ethos_festive_desc:0 "Frente a las sombrías penurias de la existencia, esta cultura encuentra la salvación en la fiesta comunitaria y la risa compartida." #NT!
- ethos_mystic_name:0 "Místico" #NT!
- ethos_mystic_desc:0 "Los designios de los dioses son opacos e incognoscibles, pero eso no impide que esta cultura escudriñe a través de la niebla los misterios más profundos de este mundo." #NT!
- ethos_methodical_name:0 "Metódico" #NT!
- ethos_methodical_desc:0 "El paso firme previene la caída, y la gente de esta cultura no hace ningún movimiento sin planear todas las posibles consecuencias." #NT!
-
-#Tradition Effects
-
- culture_parameter_gluttonous_trait_bonuses:0 "Los [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales" #NT!
- culture_parameter_forder_trait_bonuses:0 "#italic De los ríos#!: Los [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales" #NT!
- culture_parameter_rough_terrain_trait_bonuses:0 "Los [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales" #NT!
- culture_parameter_can_recruit_forder_specialist:0 "Los Comandantes con [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] pueden ser reclutados." #NT!
- culture_parameter_lyseni_negative_bonus:0 "#italic La Ciudad del Pecado#!: Los [GetTrait('lustful').GetName( GetNullCharacter )] [traits|E] tienen un modificador negativo adicional" #NT!
- culture_parameter_can_have_paramours:0 "Los personajes pueden tener amantes abiertamente elegidos por amor, en lugar de alianzas políticas." #NT!
- culture_parameter_cannibal_skane_trait_gives_bonuses:0 "#italic A Taste of Skane#!: Los [GetTrait('cannibal').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales" #NT!
- culture_parameter_the_mark_trait_gives_bonuses:0 "#italic Children of the Waves#!: Los [GetTrait('the_mark').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales" #NT!
- culture_parameter_stubborn_trait_gives_bonuses:0 "#italic Tercos en la guerra#!: Los [GetTrait('stubborn').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales" #NT!
- culture_parameter_agot_garden_bonus_traits:0 "#italic Myrish Fire#!: Los [GetTrait('lifestyle_gardener').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales" #NT!
- culture_parameter_herbalist_crannog_trait_gives_bonuses:0 "#italic Conocimiento venenoso#!: Los [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales adicionales" #NT!
- culture_parameter_agot_mystic_qohorik_bonuses:0 "#italic Persecuciones de las artes oscuras#!: Los [GetTrait('mystic_2').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales adicionales" #NT!
-
- # Traditions
- agot_tradition_andal_name:0 "Fe y furia" #NT!
- agot_tradition_andal_desc:1 "Los Ándalos provienen del norte de Essos, aunque nadie sabe exactamente dónde. Con la continua expansión del feudo valyrio hambriento de tierras, los ándalos se vieron obligados a huir de sus tierras natales a Westeros, arrasando por todas partes al sur del Cuello y trayendo consigo su fervor religioso y sus tradiciones de caballería y caballería." #NT!
- agot_tradition_crownlander_name:0 "Nacido del Aguasnegras" #NT!
- agot_tradition_crownlander_desc:1 "Los de las Tierras de la Corona son un pueblo cuya cultura ha sido moldeada por su proximidad al centro del poder real y por el comercio que desemboca en Bahía del Aguasnegras. La sólida administración y la relativa prosperidad de las Tierras de la Corona han convertido a su gente en mercaderes, artesanos y comerciantes. Son un pueblo mucho menos marcial que los Stormlanders del sur y mucho más prósperos que los Rivermen del norte." #NT!
- agot_tradition_fingerman_name:0 "Servicio humilde" #NT!
- agot_tradition_fingerman_desc:1 "Los Dedos son un lugar lúgubre y azotado por el viento, tan azotado por los vientos del gélido norte que crece poca vegetación cerca de sus puntas. Hay poco que ganar para la gente común más allá de pastorear animales de pastoreo, ya que hay poca tierra para hacer tierras de cultivo utilizables. Por lo tanto, los Fingermen viven vidas modestas, y los cabreros y aparceros encuentran algo de satisfacción en su implacable hogar." #NT!
- agot_tradition_harborman_name:0 "De Mander al cuchillo" #NT!
- agot_tradition_harborman_desc:1 "Los Harbormen son un pueblo asentado alrededor de Puerto Blanco, el asentamiento más grande del norte. Llevan consigo la influencia ándala más fuerte de todos los pueblos del Norte, ya que la Casa Manderly trajo la Fe de los Siete y muchas otras costumbres ándalas tras su expulsión del Dominio." #NT!
- agot_tradition_honeywiner_name:0 "Suave y dulce" #NT!
- agot_tradition_honeywiner_desc:1 "Los hombres de Honeywine y sus tierras circundantes son algunos de los más prósperos de todo Westeros. Con tierras fértiles y la gran ciudad de Antigua, gran parte del comercio fluye a través del río que da nombre a la gente. Con la Ciudadela y el septo estrellado, el área es un bastión de aprendizaje en Westeros, incluso con muchas personas con letras." #NT!
- agot_tradition_marcher_name:0 "Sangre y Acero" #NT!
- agot_tradition_marcher_desc:1 "Los hombres de Dornish Marches son algunos de los guerreros más feroces de Westeros y han producido muchos de sus mejores guerreros. Su cultura se basa en; su piedra angular se basa en siglos, si no milenios, de escaramuzas fronterizas de ida y vuelta con los Stony Dornishmen a través de las montañas. Los hombres de las Marcas tienen una larga memoria, y la mayor parte se utiliza para recordar rencores generacionales." #NT!
- agot_tradition_moonman_name:0 "Por encima" #NT!
- agot_tradition_moonman_desc:1 "Apartados de sus parientes que viven en los fértiles valles del Valle, los hombres que moran en las alturas de las Montañas de la Luna son un pueblo mucho más robusto y robusto. En tiempos de guerra, son ellos quienes manejan las primeras líneas de defensa contra las incursiones externas, y con sus vidas a gran altura, también son ellos quienes deben lidiar con la mayor parte de las incursiones de los miembros del clan de la Montaña." #NT!
- agot_tradition_reachman_name:0 "La gloria de Greenhand" #NT!
- agot_tradition_reachman_desc:1 "The Reach es una tierra próspera y fértil construida sobre las espaldas de la gente trabajadora. También es una tierra de familias con algunas de las raíces más antiguas de Westeros, que se remontan al mítico Garth Greenhand, de quien las familias Reachmen más prominentes afirman ser descendientes. Con tantas familias luchando por la prominencia en una tierra rica, los lazos que los unen son más fuertes e importantes que en cualquier otro lugar de Westeros." #NT!
- agot_tradition_riverlander_name:0 "Agitación en el Tridente" #NT!
- agot_tradition_riverlander_desc:1 "El Tridente es una tierra que ha visto muchas guerras a lo largo de su larga historia, su posición central la convierte en un campo de batalla para guerras que ni siquiera han sido creadas por él mismo. Ha cambiado de manos muchas veces, con Stormlanders y Ironmen invadiendo y subyugando a los señores del río. Esta continua adversidad ha enseñado a los Hombres del Río a utilizar su tierra natal en su beneficio, tanto en la guerra como en la paz." #NT!
- agot_tradition_shieldman_name:0 "Custodiando el Mander" #NT!
- agot_tradition_shieldman_desc:1 "Nombradas así por su función principal como escudo contra los ataques de los Hijos del Hierro, las Islas Escudo son un colectivo de cuatro Islas del Dominio bien fortificadas, supervisadas por cuatro casas separadas. Un pueblo leal (aunque posiblemente aislado), los de las Islas Escudo son conocidos por su temperamento resistente y su sentido del deber. Las islas son famosas por sus balizas, que los ancianos de las torres de vigilancia encenderán isla por isla para advertir a los asentamientos del interior sobre la llegada de drakkars. Por encima de todo, los de las Islas Escudo se valoran como primera línea de defensa naval." #NT!
- agot_tradition_stone_dornish_name:0 "Custodiando los pases" #NT!
- agot_tradition_stone_dornish_desc:1 "Los dornienses de piedra son étnica y culturalmente los dornienses menos influenciados por Rhoynar. Viviendo en las alturas y valles de las Montañas Rojas, su cultura ha sido moldeada por sus generaciones de conflicto con los señores Marcher de Reach y Stormlands, defendiendo ardientemente sus pasos de montaña de las incursiones externas." #NT!
- agot_tradition_stormlander_name:0 "Trueno rodante" #NT!
- agot_tradition_stormlander_desc:1 "Los hombres de Stormlands son famosos por ser tan duros y atronadores como su clima. Los Stormlanders viven vidas difíciles en el terreno montañoso de su tierra natal, transformándolos en algunos de los guerreros más fuertes y resistentes de Westeros. Más allá de la guerra, los mares tormentosos de Shipbreaker Bay producen marineros curtidos y resistentes." #NT!
- agot_tradition_valeman_name:0 "Montaña y valle" #NT!
- agot_tradition_valeman_desc:1 "El Valle de Arryn es, más que cualquier otra parte de Westeros, la más profundamente influenciada por los Ándalos. Se dice que los caballeros del Valle son los más grandes de Westeros y su gente la más piadosa. También es un lugar de gran fertilidad y abundancia, los valles entre las Montañas de la Luna son superados solo por las tierras de cultivo del Dominio." #NT!
- agot_tradition_vineman_name:0 "Vino, mujer y canción" #NT!
- agot_tradition_vineman_desc:1 "Desde la llegada de Gilbert of the Vines, los hombres del Arbor sólo han sabido una cosa; vino. Los viñedos de Arbor son legendarios en Westeros y más allá por la calidad del vino que producen, y muchos comerciantes y marineros anclaron en Ryamsport para comprar los mejores tintos de Arbor." #NT!
- agot_tradition_westerman_name:0 "De oro y plata" #NT!
- agot_tradition_westerman_desc:1 "Westerlands, a primera vista, parece un lugar insignificante; no es el más grande ni el más poblado de los Siete Reinos, sin embargo es el más rico. Lo que le falta en campos ondulantes de fértiles tierras de cultivo, lo compensa con creces con la generosidad de sus colinas, ricas en oro y plata. Es esta abundancia de minerales valiosos sobre la que se basa el poder de las Tierras del Oeste, y sus nobles guardan celosamente sus minas contra aquellos que miran, envidiosos de su abundancia." #NT!
- agot_tradition_barrowman_name:0 "Riachuelos y colinas" #NT!
- agot_tradition_barrowman_desc:1 "Si bien las Tierras de los Túmulos alguna vez fueron gobernadas por la dinastía de los Reyes de los Túmulos, su gente se asimiló con el resto de los Hombres del Norte luego de la sumisión de la dinastía a Invernalia al final de su conflicto de mil años. Los túmulos son jinetes eminentes, con las vastas llanuras onduladas de la zona que hacen que las Tierras de los Túmulos estén listas para la guerra de caballería, lo que a su vez los convierte en aliados valiosos para cualquiera que desee librar una guerra en el norte." #NT!
- agot_tradition_clawman_name:0 "Hombres salvajes de la garra" #NT!
- agot_tradition_clawman_desc:1 "Los hombres de Crackclaw Point son algunos de los más salvajes del sur del Cuello. La sangre de los Primeros Hombres corre espesa por sus venas, y muchas costumbres de los Primeros Hombres todavía sobreviven con ellos. Aparte de los miembros del clan de la montaña del Valle, los hombres de las garras fueron los únicos primeros hombres que resistieron la invasión de los ándalos, y solo adoptaron la Fe de los Siete después de casarse con los ándalos." #NT!
- agot_tradition_crannogman_name:0 "Habitantes del pantano" #NT!
- agot_tradition_crannogman_desc:1 "Los Crannogmen son un pueblo achaparrado y reservado, vistos como primitivos por algunos y temidos y ridiculizados como hombres de barro y demonios del pantano por otros. Su tierra natal, el Cuello, es un gran pantano pantanoso, denso con follaje y dosel. Pocos saben lo que sucede en las profundidades del Cuello, aunque muchos en Westeros susurran que los Crannogmen aprendieron todo tipo de magia y hechicería de los Hijos del Bosque. Algunos van más allá y afirman que los mismos Crannogmen nacen de la unión entre los Niños y los Primeros Hombres." #NT!
- agot_tradition_firstman_name:0 "La primera" #NT!
- agot_tradition_firstman_desc:1 "Antes de los Siete Reinos, la Condenación de Valyria e incluso los Ándalos, existieron los Primeros Hombres. Blandiendo espadas y hachas de bronce, los Primeros Hombres fueron los primeros de todos los hombres en asentarse en Poniente, tallando su cultura e influencia profundamente en la sangre del continente y de todos los que vinieron después de ellos. Si bien la gente libre y los gigantes todavía hablan la lengua antigua, su sistema rúnico de escritura se ha extinguido, junto con muchos cuentos antiguos que no se transmitieron oralmente. Si bien se pueden encontrar ecos de la cultura de los primeros hombres en todo Westeros, es más fuerte en el norte, donde todavía se puede encontrar a los hombres del norte rezando a los árboles del corazón en un bosque de dioses, tal como lo hicieron los primeros hombres." #NT!
- agot_tradition_hill_clansman_name:0 "Clanes del norte" #NT!
- agot_tradition_hill_clansman_desc:1 "Los miembros del clan Hill son algunas de las personas más salvajes y menos civilizadas al sur del Muro. Las luchas internas y las rivalidades entre clanes son comunes entre los clanes, tanto grandes como pequeños; este ciclo de enemistades y represalias ha derramado sangre incalculable a lo largo de los siglos. Debido a su proximidad al muro, los miembros del clan tienen fuertes lazos con la Guardia de la Noche e interactúan con los salvajes a través de incursiones y comerciando más que cualquier otro pueblo al sur del Muro." #NT!
- agot_tradition_northman_name:0 "Leal y verdadero" #NT!
- agot_tradition_northman_desc:1 "Los Hombres del Norte son algunos de los últimos de los Primeros Hombres y, con mucho, la población más grande que aún existe. Protegido de las invasiones ándalas por el terreno impasible del Cuello y la fortaleza de Foso Cailin. Los Hombres del Norte se quedaron con sus antiguas tradiciones, todavía adorando a los Dioses Antiguos. Hasta el día de hoy, los Hombres del Norte son un pueblo aislacionista, y rara vez se preocupan por los asuntos al sur del Cuello." #NT!
- agot_tradition_sisterman_name:0 "Debajo de la salmuera" #NT!
- agot_tradition_sisterman_desc:1 "Durante gran parte de su historia, las Sistermen tenían más en común con los Ironborn que con los hombres del Valle o del Norte. Durante milenios, los Sistermen fueron gobernados por sus reyes piratas, saqueando a lo largo de las costas del Mordisco para proveerse de lo que sus islas azotadas por el viento no podían, adorando extrañas deidades desconocidas tanto para los ándalos como para los primeros hombres." #NT!
- agot_tradition_skagosi_name:0 "Hijos de piedra" #NT!
- agot_tradition_skagosi_desc:1 "Los Skagosi, conocidos burlonamente como "Skaggs" para muchos forasteros, están más cerca de los Wildlings que de la gente civilizada para la mayoría de la gente. Para ellos mismos, son los Nacidos de la Piedra, un pueblo orgulloso que saca lo mejor de las escarpadas rocas que llaman hogar. Se rumorea que continúan con algunas de las tradiciones más oscuras y salvajes de los Primeros Hombres, incluido el canibalismo y el sacrificio humano." #NT!
- agot_tradition_ironborn_name:0 "Sal y roca" #NT!
- agot_tradition_ironborn_desc:1 "Las Islas del Hierro son, sin duda, un lugar accidentado y árido. Este hecho se refleja sucintamente en su gente. La cultura de los Hijos del Hierro se basa en robar, pagando el precio del hierro. Al carecer de tierra cultivable en sus afloramientos rocosos, los Ironmen se han hecho a la mar desde tiempos inmemoriales, y aquellos que no tienen la constitución para la guerra se convierten en pescadores. Atender las escasas granjas de las Islas de Hierro son sus esclavos, ya que se considera que la agricultura está por debajo incluso de la gente común." #NT!
- agot_tradition_greenborn_name:0 "De mar y campo" #NT!
- agot_tradition_greenborn_desc:1 "Ironborn que se han asentado tierra adentro. Si bien aún mantienen una afición por el mar, se han adaptado más a vivir lejos de él." #NT!
- agot_tradition_valyrian_name:0 "Sangre del dragón" #NT!
- agot_tradition_valyrian_desc:1 "Los valyrios fueron una vez un pueblo innumerable, con un imperio que se extendía desde Ghis hasta Pentos. Sin embargo, Freehold, a pesar de su nombre, era todo lo contrario. Aunque tolerantes con los pueblos que subyugaron en Dragonback, esta tolerancia no les impidió esclavizar a cientos de miles, enviándolos a la desesperación en las minas de las Catorce Llamas. Sin embargo, con Doom, todos menos algunos de los valyrios de sangre pura fueron eliminados, junto con los dragones que solían conquistar y someter." #NT!
- agot_tradition_rhoynish_name:0 "Hijos de la Madre Rhoyne" #NT!
- agot_tradition_rhoynish_desc:1 "La civilización de Rhyonish es antigua e ilustre. La historia de los Rhoynar es tan profunda que algunos les atribuyen haber enseñado a los ándalos cómo forjar y trabajar con hierro. Provenientes de las ciudades-estado a lo largo del río Rhoyne, los Rhoynar adoran numerosos dioses del río y también tienen una afinidad especial por todo tipo de barcos, desde pequeños barcos de pesca hasta obscenas barcazas de recreo. La cultura Rhyonish es notablemente diferente de la de los ándalos, siendo la norma la igualdad de herencia tanto para mujeres como para hombres, y se aceptan las relaciones entre personas del mismo sexo. Los Rhoynar son conocidos por abrazar las obras de arte y la música, lo que puede ser en parte la razón por la que algunas prácticas culturales de los Rhoynar se hicieron populares cuando el Ródano llegó a Dorne." #NT!
- agot_tradition_greenblood_name:0 "Hogar Fluvial" #NT!
- agot_tradition_greenblood_desc:1 "Después de huir de Essos y llegar a Dorne, los Huérfanos de Sangreverde se ganaron sus títulos autoimpuestos al negarse a adoptar las costumbres dornienses y asimilarse, eligiendo en cambio vivir como los 'huérfanos' del río Rhoyne, el río al que llaman 'madre'. Los huérfanos de Sangreverde y sus descendientes se aferran a la cultura y las creencias de Rhoynar, aún hablando el idioma rhoyniense a puerta cerrada y en secreto, viviendo en balsas a lo largo del río Sangreverde del que toman su nombre." #NT!
- agot_tradition_salt_dornish_name:0 "La sangre de Nymeria" #NT!
- agot_tradition_salt_dornish_desc:1 "Con la mayor cantidad de sangre Rhoynar fluyendo por sus venas de todos los dornienses, los dornienses salados viven en las costas más templadas de Dorne. Continúan con muchas de las tradiciones igualitarias traídas a Dorne por Nymeria y son buenos marineros, y los puertos que divisan la costa dorniense les traen mucha prosperidad." #NT!
- agot_tradition_sand_dornish_name:0 "Desierto y duna" #NT!
- agot_tradition_sand_dornish_desc:1 "Sobreviviendo a duras penas en el duro desierto al que llaman hogar, los Sand Dornish son personas resistentes y despiadadas. Sus castillos y asentamientos se basan en las raras fuentes de agua en su tierra natal del desierto, que defienden con fervor. Son un pueblo atrevido y aventurero por naturaleza, y muchas de las casas nobles de la región descienden de esos pocos valientes que se embarcaron en expediciones a las ásperas dunas." #NT!
- agot_tradition_wildling_name:0 "Salvaje, Salvaje y Encantado" #NT!
- agot_tradition_wildling_desc:1 "A pesar de su nombre y reputación, los Wildlings de más allá del Muro están lejos de ser incivilizados, aunque eso puede depender de la definición de cada uno de lo que es ser "civil." los Wildlings son capaces de estar tan organizados como los que están al sur de The Wall, si no más organizados, dependiendo de a quién le preguntes. Las costumbres y prácticas difieren entre tribus y clanes, y cualquiera lo suficientemente valiente como para explorar más allá del Muro encontrará de todo, desde jefes hasta señores, conocidos como "Magnars" en la lengua antigua. Sin embargo, a pesar de la diversidad, los salvajes parecen estar de acuerdo en dos cosas: poco es más valioso que un hombre que cumple su palabra jurada, y los muertos deben ser quemados." #NT!
- agot_tradition_westeros_valyrian_name:0 "Desafiando la tormenta" #NT!
- agot_tradition_westeros_valyrian_desc:1 "El pueblo valyrio de las islas Aguasnegras es, en muchos aspectos, más parecido a los ándalos que a sus progenitores de Feudo Libre. En lugar de construir su riqueza sobre las espaldas de los esclavos que excavan en las profundidades de las catorce llamas, los valyrios occidentales han buscado durante mucho tiempo su riqueza en el mar. Son comerciantes industriosos y son algunos de los mejores marineros de Poniente." #NT!
- agot_tradition_krakenman_name:0 "Hierro y Hielo" #NT!
- agot_tradition_krakenman_desc:1 "Aunque forman parte del Norte, muchos maestres creen que la sangre de los marineros del Cabo Kraken está más cerca de los hijos del hierro que de los hombres del norte. Sin embargo, la gente del Cabo Kraken se encuentra en desacuerdo culturalmente. Aunque pertenecen al norte, su posición debajo del cuello los hace sentirse social y culturalmente distantes del asiento de Winterfell, mientras que su sangrienta historia de ser asaltados por los hijos del hierro los pone en oposición a aquellos que muchos asumirían como sus parientes de agua salada. ." #NT!
- agot_tradition_mountain_clansman_name:0 "Por encima del sol poniente" #NT!
- agot_tradition_mountain_clansman_desc:1 "En las profundidades de las Montañas de la Luna habitan los miembros de su clan, los hombres más salvajes e incivilizados de cualquier lugar al sur del Muro. Son los últimos remanentes verdaderos de los Primeros Hombres en el Valle, su hogar montañoso los protege del ataque de los Ándalos, dejándolos continuar con sus formas primitivas sin mucha intervención externa." #NT!
- agot_tradition_wolfswood_clansman_name:0 "En las profundidades más profundas" #NT!
- agot_tradition_wolfswood_clansman_desc:1 "Un pueblo resistente y trabajador, la gente de los clanes dentro de Wolfswood es conocida solo por su naturaleza robusta, pero también es algo famosa por su talento cuando se trata de pescar en el hielo. Si bien pueden no ser grandes casas, la sangre de los miembros del clan Wolfswood es tan profunda como la de cualquier familia noble: descendientes de los primeros hombres, algunos de los clanes han sobrevivido al bosque mismo, y algunos de ellos se han reducido a cenizas durante una incursión de Ironborn. . Algunos dicen que algunos de los clanes todavía practican la primera noche, y que los jefes de clan son considerados "señores" por sus señores, aunque esto es más una cortesía cortés por parte del Lord, ya que los jefes de clan no se consideran a sí mismos. de alta alcurnia" #NT!
- agot_tradition_rushlander_name:0 "Donde los ríos se encuentran con las colinas" #NT!
- agot_tradition_rushlander_desc:1 "Una cultura nacida en la frontera de Vale y Riverlands. Rushlanders es un pueblo harty que se adapta a la vida en las colinas, así como en los ríos." #NT!
- agot_tradition_harsh_laws_name:0 "Regla dura" #NT!
- agot_tradition_harsh_laws_desc:1 "La sociedad da forma a las leyes. La historia ha demostrado que es natural que una tierra áspera dé lugar a gente áspera, y ellos, a su vez, crean leyes ásperas para gobernar." #NT!
- agot_tradition_braavosi:0 "Marcador de posición" #NT!
- agot_tradition_braavosi_desc:1 "Marcador de posición" #NT!
- agot_tradition_lorathi:0 "Marcador de posición" #NT!
- agot_tradition_lorathi_desc:1 "Marcador de posición" #NT!
- agot_tradition_lyseni_name:0 "Placer, codicia y sangre" #NT!
- agot_tradition_lyseni_desc:1 "Nacida como una escapada para los Dragon Lords of Old Valyria, Lys siempre ha sido una isla de libertinaje, vicio y codicia. Incluso después de la caída de Valyria, Lys prospera gracias a la esclavitud, el comercio y la banca." #NT!
- agot_tradition_myrish_name:0 "Comerciantes del Feudo" #NT!
- agot_tradition_myrish_desc:1 "Marcador de posición" #NT!
- agot_tradition_norvoshi:0 "Marcador de posición" #NT!
- agot_tradition_norvoshi_desc:1 "Marcador de posición" #NT!
- agot_tradition_pentoshi_name:0 "Queso, Vino y Comercio" #NT!
- agot_tradition_pentoshi_desc:1 "Marcador de posición" #NT!
- agot_tradition_armsman_name:0 "Los carroñeros de la guerra" #NT!
- agot_tradition_armsman_desc:1 "Marcador de posición" #NT!
- agot_tradition_qohorik_name:0 "Hijos de la Cabra Negra" #NT!
- agot_tradition_qohorik_desc:1 "Marcador de posición" #NT!
- agot_tradition_tyroshi_name:0 "Gobernado por los Arcontes" #NT!
- agot_tradition_tyroshi_desc:1 "Marcador de posición" #NT!
- agot_tradition_volantene:0 "Marcador de posición" #NT!
- agot_tradition_volantene_desc:1 "Marcador de posición" #NT!
- agot_tradition_astapori:0 "Marcador de posición" #NT!
- agot_tradition_astapori_desc:1 "Marcador de posición" #NT!
- agot_tradition_yunkish:0 "Marcador de posición" #NT!
- agot_tradition_yunkish_desc:1 "Marcador de posición" #NT!
- agot_tradition_meereenese:0 "Bois esclavos" #NT!
- agot_tradition_meereenese_desc:1 "construye eso" #NT!
- agot_tradition_ghiscari:0 "Marcador de posición" #NT!
- agot_tradition_ghiscari_desc:1 "Marcador de posición" #NT!
- agot_tradition_thenn_name:0 "El último de los primeros" #NT!
- agot_tradition_thenn_desc:1 "Conocidos como los más "sofisticados" de la gente libre por los que están al sur del Muro, los Thennitas se consideran a sí mismos como los últimos Primeros Hombres que quedan. Los habitantes del valle de la montaña en los picos de Frostfang interactúan más con los gigantes que con otras culturas, pero han logrado aprender una palabra u oración ocasional en la lengua común, a pesar de no haberse desviado nunca de la lengua antigua que todavía hablan hoy. Orgullosos de creer en Magnar, los Thennitas son un poco más disciplinados y organizados que otras personas libres, y han logrado acumular un impresionante arsenal de bronce. Si bien los que están al sur del Muro pueden considerar que los Thenn son salvajes, son más que capaces y, a menudo, entran en conflicto con la Guardia de la Noche." #NT!
- agot_tradition_insular_marriage_name:0 "Matrimonio Insular" #NT!
- agot_tradition_insular_marriage_desc:1 "Si bien no es aislacionista, esta cultura aún prefiere casarse dentro de su propia gente." #NT!
+  # Ethoses 
+ ethos_festive_name: "Festivo"
+ ethos_festive_desc: "Frente a las sombrías penurias de la existencia, esta cultura encuentra la salvación en la fiesta comunitaria y la risa compartida."
+ ethos_mystic_name: "Místico"
+ ethos_mystic_desc: "Los designios de los dioses son opacos e incognoscibles, pero eso no impide que esta cultura escudriñe a través de la niebla los misterios más profundos de este mundo."
+ ethos_methodical_name: "Metódico"
+ ethos_methodical_desc: "El paso firme previene la caída, y la gente de esta cultura no hace ningún movimiento sin planear todas las posibles consecuencias."
+  
+  # Tradition Effects 
+ culture_parameter_gluttonous_trait_bonuses: "Los [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
+ culture_parameter_forder_trait_bonuses: "#italic De los ríos#!: Los [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
+ culture_parameter_rough_terrain_trait_bonuses: "Los [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
+ culture_parameter_can_recruit_forder_specialist: "Los Comandantes con [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] pueden ser reclutados."
+ culture_parameter_lyseni_negative_bonus: "#italic La Ciudad del Pecado#!: Los [GetTrait('lustful').GetName( GetNullCharacter )] [traits|E] tienen un modificador negativo adicional"
+ culture_parameter_can_have_paramours: "Los personajes pueden tener amantes abiertamente elegidos por amor, en lugar de alianzas políticas."
+ culture_parameter_cannibal_skane_trait_gives_bonuses: "#italic A Taste of Skane#!: Los [GetTrait('cannibal').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
+ culture_parameter_the_mark_trait_gives_bonuses: "#italic Children of the Waves#!: Los [GetTrait('the_mark').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
+ culture_parameter_stubborn_trait_gives_bonuses: "#italic Tercos en la guerra#!: Los [GetTrait('stubborn').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
+ culture_parameter_agot_garden_bonus_traits: "#italic Myrish Fire#!: Los [GetTrait('lifestyle_gardener').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
+ culture_parameter_herbalist_crannog_trait_gives_bonuses: "#italic Conocimiento venenoso#!: Los [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales adicionales"
+ culture_parameter_agot_mystic_qohorik_bonuses: "#italic Persecuciones de las artes oscuras#!: Los [GetTrait('mystic_2').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales adicionales"
+  
+  # Traditions 
+ agot_tradition_andal_name: "Fe y furia"
+ agot_tradition_andal_desc: "Los Ándalos provienen del norte de Essos, aunque nadie sabe exactamente dónde. Con la continua expansión del feudo valyrio hambriento de tierras, los ándalos se vieron obligados a huir de sus tierras natales a Westeros, arrasando por todas partes al sur del Cuello y trayendo consigo su fervor religioso y sus tradiciones de caballería y caballería."
+ agot_tradition_crownlander_name: "Nacido del Aguasnegras"
+ agot_tradition_crownlander_desc: "Los de las Tierras de la Corona son un pueblo cuya cultura ha sido moldeada por su proximidad al centro del poder real y por el comercio que desemboca en Bahía del Aguasnegras. La sólida administración y la relativa prosperidad de las Tierras de la Corona han convertido a su gente en mercaderes, artesanos y comerciantes. Son un pueblo mucho menos marcial que los Stormlanders del sur y mucho más prósperos que los Rivermen del norte."
+ agot_tradition_fingerman_name: "Servicio humilde"
+ agot_tradition_fingerman_desc: "Los Dedos son un lugar lúgubre y azotado por el viento, tan azotado por los vientos del gélido norte que crece poca vegetación cerca de sus puntas. Hay poco que ganar para la gente común más allá de pastorear animales de pastoreo, ya que hay poca tierra para hacer tierras de cultivo utilizables. Por lo tanto, los Fingermen viven vidas modestas, y los cabreros y aparceros encuentran algo de satisfacción en su implacable hogar."
+ agot_tradition_harborman_name: "De Mander al cuchillo"
+ agot_tradition_harborman_desc: "Los Harbormen son un pueblo asentado alrededor de Puerto Blanco, el asentamiento más grande del norte. Llevan consigo la influencia ándala más fuerte de todos los pueblos del Norte, ya que la Casa Manderly trajo la Fe de los Siete y muchas otras costumbres ándalas tras su expulsión del Dominio."
+ agot_tradition_honeywiner_name: "Suave y dulce"
+ agot_tradition_honeywiner_desc: "Los hombres de Honeywine y sus tierras circundantes son algunos de los más prósperos de todo Westeros. Con tierras fértiles y la gran ciudad de Antigua, gran parte del comercio fluye a través del río que da nombre a la gente. Con la Ciudadela y el septo estrellado, el área es un bastión de aprendizaje en Westeros, incluso con muchas personas con letras."
+ agot_tradition_marcher_name: "Sangre y Acero"
+ agot_tradition_marcher_desc: "Los hombres de Dornish Marches son algunos de los guerreros más feroces de Westeros y han producido muchos de sus mejores guerreros. Su cultura se basa en; su piedra angular se basa en siglos, si no milenios, de escaramuzas fronterizas de ida y vuelta con los Stony Dornishmen a través de las montañas. Los hombres de las Marcas tienen una larga memoria, y la mayor parte se utiliza para recordar rencores generacionales."
+ agot_tradition_moonman_name: "Por encima"
+ agot_tradition_moonman_desc: "Apartados de sus parientes que viven en los fértiles valles del Valle, los hombres que moran en las alturas de las Montañas de la Luna son un pueblo mucho más robusto y robusto. En tiempos de guerra, son ellos quienes manejan las primeras líneas de defensa contra las incursiones externas, y con sus vidas a gran altura, también son ellos quienes deben lidiar con la mayor parte de las incursiones de los miembros del clan de la Montaña."
+ agot_tradition_reachman_name: "La gloria de Greenhand"
+ agot_tradition_reachman_desc: "The Reach es una tierra próspera y fértil construida sobre las espaldas de la gente trabajadora. También es una tierra de familias con algunas de las raíces más antiguas de Westeros, que se remontan al mítico Garth Greenhand, de quien las familias Reachmen más prominentes afirman ser descendientes. Con tantas familias luchando por la prominencia en una tierra rica, los lazos que los unen son más fuertes e importantes que en cualquier otro lugar de Westeros."
+ agot_tradition_riverlander_name: "Agitación en el Tridente"
+ agot_tradition_riverlander_desc: "El Tridente es una tierra que ha visto muchas guerras a lo largo de su larga historia, su posición central la convierte en un campo de batalla para guerras que ni siquiera han sido creadas por él mismo. Ha cambiado de manos muchas veces, con Stormlanders y Ironmen invadiendo y subyugando a los señores del río. Esta continua adversidad ha enseñado a los Hombres del Río a utilizar su tierra natal en su beneficio, tanto en la guerra como en la paz."
+ agot_tradition_shieldman_name: "Custodiando el Mander"
+ agot_tradition_shieldman_desc: "Nombradas así por su función principal como escudo contra los ataques de los Hijos del Hierro, las Islas Escudo son un colectivo de cuatro Islas del Dominio bien fortificadas, supervisadas por cuatro casas separadas. Un pueblo leal (aunque posiblemente aislado), los de las Islas Escudo son conocidos por su temperamento resistente y su sentido del deber. Las islas son famosas por sus balizas, que los ancianos de las torres de vigilancia encenderán isla por isla para advertir a los asentamientos del interior sobre la llegada de drakkars. Por encima de todo, los de las Islas Escudo se valoran como primera línea de defensa naval."
+ agot_tradition_stone_dornish_name: "Custodiando los pases"
+ agot_tradition_stone_dornish_desc: "Los dornienses de piedra son étnica y culturalmente los dornienses menos influenciados por Rhoynar. Viviendo en las alturas y valles de las Montañas Rojas, su cultura ha sido moldeada por sus generaciones de conflicto con los señores Marcher de Reach y Stormlands, defendiendo ardientemente sus pasos de montaña de las incursiones externas."
+ agot_tradition_stormlander_name: "Trueno rodante"
+ agot_tradition_stormlander_desc: "Los hombres de Stormlands son famosos por ser tan duros y atronadores como su clima. Los Stormlanders viven vidas difíciles en el terreno montañoso de su tierra natal, transformándolos en algunos de los guerreros más fuertes y resistentes de Westeros. Más allá de la guerra, los mares tormentosos de Shipbreaker Bay producen marineros curtidos y resistentes."
+ agot_tradition_valeman_name: "Montaña y valle"
+ agot_tradition_valeman_desc: "El Valle de Arryn es, más que cualquier otra parte de Westeros, la más profundamente influenciada por los Ándalos. Se dice que los caballeros del Valle son los más grandes de Westeros y su gente la más piadosa. También es un lugar de gran fertilidad y abundancia, los valles entre las Montañas de la Luna son superados solo por las tierras de cultivo del Dominio."
+ agot_tradition_vineman_name: "Vino, mujer y canción"
+ agot_tradition_vineman_desc: "Desde la llegada de Gilbert of the Vines, los hombres del Arbor sólo han sabido una cosa; vino. Los viñedos de Arbor son legendarios en Westeros y más allá por la calidad del vino que producen, y muchos comerciantes y marineros anclaron en Ryamsport para comprar los mejores tintos de Arbor."
+ agot_tradition_westerman_name: "De oro y plata"
+ agot_tradition_westerman_desc: "Westerlands, a primera vista, parece un lugar insignificante; no es el más grande ni el más poblado de los Siete Reinos, sin embargo es el más rico. Lo que le falta en campos ondulantes de fértiles tierras de cultivo, lo compensa con creces con la generosidad de sus colinas, ricas en oro y plata. Es esta abundancia de minerales valiosos sobre la que se basa el poder de las Tierras del Oeste, y sus nobles guardan celosamente sus minas contra aquellos que miran, envidiosos de su abundancia."
+ agot_tradition_barrowman_name: "Riachuelos y colinas"
+ agot_tradition_barrowman_desc: "Si bien las Tierras de los Túmulos alguna vez fueron gobernadas por la dinastía de los Reyes de los Túmulos, su gente se asimiló con el resto de los Hombres del Norte luego de la sumisión de la dinastía a Invernalia al final de su conflicto de mil años. Los túmulos son jinetes eminentes, con las vastas llanuras onduladas de la zona que hacen que las Tierras de los Túmulos estén listas para la guerra de caballería, lo que a su vez los convierte en aliados valiosos para cualquiera que desee librar una guerra en el norte."
+ agot_tradition_clawman_name: "Hombres salvajes de la garra"
+ agot_tradition_clawman_desc: "Los hombres de Crackclaw Point son algunos de los más salvajes del sur del Cuello. La sangre de los Primeros Hombres corre espesa por sus venas, y muchas costumbres de los Primeros Hombres todavía sobreviven con ellos. Aparte de los miembros del clan de la montaña del Valle, los hombres de las garras fueron los únicos primeros hombres que resistieron la invasión de los ándalos, y solo adoptaron la Fe de los Siete después de casarse con los ándalos."
+ agot_tradition_crannogman_name: "Habitantes del pantano"
+ agot_tradition_crannogman_desc: "Los Crannogmen son un pueblo achaparrado y reservado, vistos como primitivos por algunos y temidos y ridiculizados como hombres de barro y demonios del pantano por otros. Su tierra natal, el Cuello, es un gran pantano pantanoso, denso con follaje y dosel. Pocos saben lo que sucede en las profundidades del Cuello, aunque muchos en Westeros susurran que los Crannogmen aprendieron todo tipo de magia y hechicería de los Hijos del Bosque. Algunos van más allá y afirman que los mismos Crannogmen nacen de la unión entre los Niños y los Primeros Hombres."
+ agot_tradition_firstman_name: "La primera"
+ agot_tradition_firstman_desc: "Antes de los Siete Reinos, la Condenación de Valyria e incluso los Ándalos, existieron los Primeros Hombres. Blandiendo espadas y hachas de bronce, los Primeros Hombres fueron los primeros de todos los hombres en asentarse en Poniente, tallando su cultura e influencia profundamente en la sangre del continente y de todos los que vinieron después de ellos. Si bien la gente libre y los gigantes todavía hablan la lengua antigua, su sistema rúnico de escritura se ha extinguido, junto con muchos cuentos antiguos que no se transmitieron oralmente. Si bien se pueden encontrar ecos de la cultura de los primeros hombres en todo Westeros, es más fuerte en el norte, donde todavía se puede encontrar a los hombres del norte rezando a los árboles del corazón en un bosque de dioses, tal como lo hicieron los primeros hombres."
+ agot_tradition_hill_clansman_name: "Clanes del norte"
+ agot_tradition_hill_clansman_desc: "Los miembros del clan Hill son algunas de las personas más salvajes y menos civilizadas al sur del Muro. Las luchas internas y las rivalidades entre clanes son comunes entre los clanes, tanto grandes como pequeños; este ciclo de enemistades y represalias ha derramado sangre incalculable a lo largo de los siglos. Debido a su proximidad al muro, los miembros del clan tienen fuertes lazos con la Guardia de la Noche e interactúan con los salvajes a través de incursiones y comerciando más que cualquier otro pueblo al sur del Muro."
+ agot_tradition_northman_name: "Leal y verdadero"
+ agot_tradition_northman_desc: "Los Hombres del Norte son algunos de los últimos de los Primeros Hombres y, con mucho, la población más grande que aún existe. Protegido de las invasiones ándalas por el terreno impasible del Cuello y la fortaleza de Foso Cailin. Los Hombres del Norte se quedaron con sus antiguas tradiciones, todavía adorando a los Dioses Antiguos. Hasta el día de hoy, los Hombres del Norte son un pueblo aislacionista, y rara vez se preocupan por los asuntos al sur del Cuello."
+ agot_tradition_sisterman_name: "Debajo de la salmuera"
+ agot_tradition_sisterman_desc: "Durante gran parte de su historia, las Sistermen tenían más en común con los Ironborn que con los hombres del Valle o del Norte. Durante milenios, los Sistermen fueron gobernados por sus reyes piratas, saqueando a lo largo de las costas del Mordisco para proveerse de lo que sus islas azotadas por el viento no podían, adorando extrañas deidades desconocidas tanto para los ándalos como para los primeros hombres."
+ agot_tradition_skagosi_name: "Hijos de piedra"
+ agot_tradition_skagosi_desc: "Los Skagosi, conocidos burlonamente como "Skaggs" para muchos forasteros, están más cerca de los Wildlings que de la gente civilizada para la mayoría de la gente. Para ellos mismos, son los Nacidos de la Piedra, un pueblo orgulloso que saca lo mejor de las escarpadas rocas que llaman hogar. Se rumorea que continúan con algunas de las tradiciones más oscuras y salvajes de los Primeros Hombres, incluido el canibalismo y el sacrificio humano."
+ agot_tradition_ironborn_name: "Sal y roca"
+ agot_tradition_ironborn_desc: "Las Islas del Hierro son, sin duda, un lugar accidentado y árido. Este hecho se refleja sucintamente en su gente. La cultura de los Hijos del Hierro se basa en robar, pagando el precio del hierro. Al carecer de tierra cultivable en sus afloramientos rocosos, los Ironmen se han hecho a la mar desde tiempos inmemoriales, y aquellos que no tienen la constitución para la guerra se convierten en pescadores. Atender las escasas granjas de las Islas de Hierro son sus esclavos, ya que se considera que la agricultura está por debajo incluso de la gente común."
+ agot_tradition_greenborn_name: "De mar y campo"
+ agot_tradition_greenborn_desc: "Ironborn que se han asentado tierra adentro. Si bien aún mantienen una afición por el mar, se han adaptado más a vivir lejos de él."
+ agot_tradition_valyrian_name: "Sangre del dragón"
+ agot_tradition_valyrian_desc: "Los valyrios fueron una vez un pueblo innumerable, con un imperio que se extendía desde Ghis hasta Pentos. Sin embargo, Freehold, a pesar de su nombre, era todo lo contrario. Aunque tolerantes con los pueblos que subyugaron en Dragonback, esta tolerancia no les impidió esclavizar a cientos de miles, enviándolos a la desesperación en las minas de las Catorce Llamas. Sin embargo, con Doom, todos menos algunos de los valyrios de sangre pura fueron eliminados, junto con los dragones que solían conquistar y someter."
+ agot_tradition_rhoynish_name: "Hijos de la Madre Rhoyne"
+ agot_tradition_rhoynish_desc: "La civilización de Rhyonish es antigua e ilustre. La historia de los Rhoynar es tan profunda que algunos les atribuyen haber enseñado a los ándalos cómo forjar y trabajar con hierro. Provenientes de las ciudades-estado a lo largo del río Rhoyne, los Rhoynar adoran numerosos dioses del río y también tienen una afinidad especial por todo tipo de barcos, desde pequeños barcos de pesca hasta obscenas barcazas de recreo. La cultura Rhyonish es notablemente diferente de la de los ándalos, siendo la norma la igualdad de herencia tanto para mujeres como para hombres, y se aceptan las relaciones entre personas del mismo sexo. Los Rhoynar son conocidos por abrazar las obras de arte y la música, lo que puede ser en parte la razón por la que algunas prácticas culturales de los Rhoynar se hicieron populares cuando el Ródano llegó a Dorne."
+ agot_tradition_greenblood_name: "Hogar Fluvial"
+ agot_tradition_greenblood_desc: "Después de huir de Essos y llegar a Dorne, los Huérfanos de Sangreverde se ganaron sus títulos autoimpuestos al negarse a adoptar las costumbres dornienses y asimilarse, eligiendo en cambio vivir como los 'huérfanos' del río Rhoyne, el río al que llaman 'madre'. Los huérfanos de Sangreverde y sus descendientes se aferran a la cultura y las creencias de Rhoynar, aún hablando el idioma rhoyniense a puerta cerrada y en secreto, viviendo en balsas a lo largo del río Sangreverde del que toman su nombre."
+ agot_tradition_salt_dornish_name: "La sangre de Nymeria"
+ agot_tradition_salt_dornish_desc: "Con la mayor cantidad de sangre Rhoynar fluyendo por sus venas de todos los dornienses, los dornienses salados viven en las costas más templadas de Dorne. Continúan con muchas de las tradiciones igualitarias traídas a Dorne por Nymeria y son buenos marineros, y los puertos que divisan la costa dorniense les traen mucha prosperidad."
+ agot_tradition_sand_dornish_name: "Desierto y duna"
+ agot_tradition_sand_dornish_desc: "Sobreviviendo a duras penas en el duro desierto al que llaman hogar, los Sand Dornish son personas resistentes y despiadadas. Sus castillos y asentamientos se basan en las raras fuentes de agua en su tierra natal del desierto, que defienden con fervor. Son un pueblo atrevido y aventurero por naturaleza, y muchas de las casas nobles de la región descienden de esos pocos valientes que se embarcaron en expediciones a las ásperas dunas."
+ agot_tradition_wildling_name: "Salvaje, Salvaje y Encantado"
+ agot_tradition_wildling_desc: "A pesar de su nombre y reputación, los Wildlings de más allá del Muro están lejos de ser incivilizados, aunque eso puede depender de la definición de cada uno de lo que es ser "civil." los Wildlings son capaces de estar tan organizados como los que están al sur de The Wall, si no más organizados, dependiendo de a quién le preguntes. Las costumbres y prácticas difieren entre tribus y clanes, y cualquiera lo suficientemente valiente como para explorar más allá del Muro encontrará de todo, desde jefes hasta señores, conocidos como "Magnars" en la lengua antigua. Sin embargo, a pesar de la diversidad, los salvajes parecen estar de acuerdo en dos cosas: poco es más valioso que un hombre que cumple su palabra jurada, y los muertos deben ser quemados."
+ agot_tradition_westeros_valyrian_name: "Desafiando la tormenta"
+ agot_tradition_westeros_valyrian_desc: "El pueblo valyrio de las islas Aguasnegras es, en muchos aspectos, más parecido a los ándalos que a sus progenitores de Feudo Libre. En lugar de construir su riqueza sobre las espaldas de los esclavos que excavan en las profundidades de las catorce llamas, los valyrios occidentales han buscado durante mucho tiempo su riqueza en el mar. Son comerciantes industriosos y son algunos de los mejores marineros de Poniente."
+ agot_tradition_krakenman_name: "Hierro y Hielo"
+ agot_tradition_krakenman_desc: "Aunque forman parte del Norte, muchos maestres creen que la sangre de los marineros del Cabo Kraken está más cerca de los hijos del hierro que de los hombres del norte. Sin embargo, la gente del Cabo Kraken se encuentra en desacuerdo culturalmente. Aunque pertenecen al norte, su posición debajo del cuello los hace sentirse social y culturalmente distantes del asiento de Winterfell, mientras que su sangrienta historia de ser asaltados por los hijos del hierro los pone en oposición a aquellos que muchos asumirían como sus parientes de agua salada. ."
+ agot_tradition_mountain_clansman_name: "Por encima del sol poniente"
+ agot_tradition_mountain_clansman_desc: "En las profundidades de las Montañas de la Luna habitan los miembros de su clan, los hombres más salvajes e incivilizados de cualquier lugar al sur del Muro. Son los últimos remanentes verdaderos de los Primeros Hombres en el Valle, su hogar montañoso los protege del ataque de los Ándalos, dejándolos continuar con sus formas primitivas sin mucha intervención externa."
+ agot_tradition_wolfswood_clansman_name: "En las profundidades más profundas"
+ agot_tradition_wolfswood_clansman_desc: "Un pueblo resistente y trabajador, la gente de los clanes dentro de Wolfswood es conocida solo por su naturaleza robusta, pero también es algo famosa por su talento cuando se trata de pescar en el hielo. Si bien pueden no ser grandes casas, la sangre de los miembros del clan Wolfswood es tan profunda como la de cualquier familia noble: descendientes de los primeros hombres, algunos de los clanes han sobrevivido al bosque mismo, y algunos de ellos se han reducido a cenizas durante una incursión de Ironborn. . Algunos dicen que algunos de los clanes todavía practican la primera noche, y que los jefes de clan son considerados "señores" por sus señores, aunque esto es más una cortesía cortés por parte del Lord, ya que los jefes de clan no se consideran a sí mismos. de alta alcurnia"
+ agot_tradition_rushlander_name: "Donde los ríos se encuentran con las colinas"
+ agot_tradition_rushlander_desc: "Una cultura nacida en la frontera de Vale y Riverlands. Rushlanders es un pueblo harty que se adapta a la vida en las colinas, así como en los ríos."
+ agot_tradition_harsh_laws_name: "Regla dura"
+ agot_tradition_harsh_laws_desc: "La sociedad da forma a las leyes. La historia ha demostrado que es natural que una tierra áspera dé lugar a gente áspera, y ellos, a su vez, crean leyes ásperas para gobernar."
+ agot_tradition_braavosi: "Marcador de posición"
+ agot_tradition_braavosi_desc: "Marcador de posición"
+ agot_tradition_lorathi: "Marcador de posición"
+ agot_tradition_lorathi_desc: "Marcador de posición"
+ agot_tradition_lyseni_name: "Placer, codicia y sangre"
+ agot_tradition_lyseni_desc: "Nacida como una escapada para los Dragon Lords of Old Valyria, Lys siempre ha sido una isla de libertinaje, vicio y codicia. Incluso después de la caída de Valyria, Lys prospera gracias a la esclavitud, el comercio y la banca."
+ agot_tradition_myrish_name: "Comerciantes del Feudo"
+ agot_tradition_myrish_desc: "Marcador de posición"
+ agot_tradition_norvoshi: "Marcador de posición"
+ agot_tradition_norvoshi_desc: "Marcador de posición"
+ agot_tradition_pentoshi_name: "Queso, Vino y Comercio"
+ agot_tradition_pentoshi_desc: "Marcador de posición"
+ agot_tradition_armsman_name: "Los carroñeros de la guerra"
+ agot_tradition_armsman_desc: "Marcador de posición"
+ agot_tradition_qohorik_name: "Hijos de la Cabra Negra"
+ agot_tradition_qohorik_desc: "Marcador de posición"
+ agot_tradition_tyroshi_name: "Gobernado por los Arcontes"
+ agot_tradition_tyroshi_desc: "Marcador de posición"
+ agot_tradition_volantene: "Marcador de posición"
+ agot_tradition_volantene_desc: "Marcador de posición"
+ agot_tradition_astapori: "Marcador de posición"
+ agot_tradition_astapori_desc: "Marcador de posición"
+ agot_tradition_yunkish: "Marcador de posición"
+ agot_tradition_yunkish_desc: "Marcador de posición"
+ agot_tradition_meereenese: "Bois esclavos"
+ agot_tradition_meereenese_desc: "Construye eso"
+ agot_tradition_ghiscari: "Marcador de posición"
+ agot_tradition_ghiscari_desc: "Marcador de posición"
+ agot_tradition_thenn_name: "El último de los primeros"
+ agot_tradition_thenn_desc: "Conocidos como los más "sofisticados" de la gente libre por los que están al sur del Muro, los Thennitas se consideran a sí mismos como los últimos Primeros Hombres que quedan. Los habitantes del valle de la montaña en los picos de Frostfang interactúan más con los gigantes que con otras culturas, pero han logrado aprender una palabra u oración ocasional en la lengua común, a pesar de no haberse desviado nunca de la lengua antigua que todavía hablan hoy. Orgullosos de creer en Magnar, los Thennitas son un poco más disciplinados y organizados que otras personas libres, y han logrado acumular un impresionante arsenal de bronce. Si bien los que están al sur del Muro pueden considerar que los Thenn son salvajes, son más que capaces y, a menudo, entran en conflicto con la Guardia de la Noche."
+ agot_tradition_insular_marriage_name: "Matrimonio Insular"
+ agot_tradition_insular_marriage_desc: "Si bien no es aislacionista, esta cultura aún prefiere casarse dentro de su propia gente."
+  
+   # Triggers 
+ ibbenese_heritage_trigger: "El [culture|E] debe ser de ibbenés [heritage|E]" #NT!
+ westerosi_heritage_trigger: "El [culture|E] debe ser de un Westerosi [heritage|E]" #NT!

@@ -1,188 +1,215 @@
 ﻿l_spanish:
- # Character Interactions
- interaction_category_agot_mega_wars:0 "Mega guerras" #NT!
- agot_mw_join_loyalists:0 "AI: Únete a los leales" #NT!
- agot_mw_join_loyalists_desc:0 "AI: Únete a los leales" #NT!
- agot_mw_join_rebel:0 "IA: Únete a los rebeldes" #NT!
- agot_mw_join_rebel_desc:0 "IA: Únete a los rebeldes" #NT!
-
- AGOT_CANNOT_SWEAR_FEALTY_TO_PRE_WAR_LIEGE:0 "No puedes jurar lealtad en medio de una guerra civil." #NT!
-
- # Classic Call the Banners event chain
- agot_mega_wars.0002.t:0 "Un reino en guerra" #NT!
- agot_mega_wars.0002.desc:0 "[ROOT.Char.GetPrimaryTitle.GetNameNoTier] está en estado de guerra, deberíamos enviar cuervos a los grandes Señores para reunirlos en defensa de la corona." #NT!
- agot_mega_wars.0002.a:0 "¡Llama a las pancartas!" #NT!
- agot_mega_wars.0002.b:0 "¿Cómo funcionan las guerras civiles?" #NT!
-
- agot_mega_wars.0003.desc.a:0 "[rebel_leader.GetFullName] se ha levantado contra [crown.GetFullName] en el [war.GetName]. Debo elegir estar con [crown.GetFullName], unirme a [rebel_leader.GetFullName] o permanecer neutral y dejar que la marea del tiempo guíe mi decisión." #NT!
- agot_mega_wars.0003.desc.b:0 "Sin embargo, dado que anteriormente juraste lealtad a [ROOT.Var('mw_is_loyal_to').Char.GetName], ahora se espera que cumpla mi palabra..." #NT!
- agot_mega_wars.0003.a:0 "Los rebeldes lo pagarán caro." #NT!
- agot_mega_wars.0003.a.tt.1:0 "Te unes a los leales a [crown.GetFullNamePossessive]." #NT!
- agot_mega_wars.0003.a.tt.2:0 "Traicionas a los conspiradores [rebel_leader.GetFullName] y [rebel_leader.GetHerHis]." #NT!
- agot_mega_wars.0003.b:0 "No veo ninguna razón para involucrarme." #NT!
- agot_mega_wars.0003.b.tt:0 "Te mantienes neutral." #NT!
- agot_mega_wars.0003.c.1:0 "¡Ahora es el momento de forjar nuestro propio camino!" #NT!
- agot_mega_wars.0003.c.2:0 "¡La causa de la rebelión es justa!" #NT!
- agot_mega_wars.0003.c.tt:0 "Te unes a la rebelión del lado de [rebel_leader.GetFullName]." #NT!
- agot_mega_wars.0003.d:0 "¡Ahora es el momento de forjar nuestro propio camino!" #NT!
- agot_mega_wars.0003.d.tt:0 "Empiezas tu propia guerra de independencia contra [crown.GetFullName]." #NT!
- agot_mega_wars.0003.tt.negative:0 "Dado que anteriormente juré lealtad a [mw_is_loyal_to.GetName], mi comportamiento se considerará deshonroso." #NT!
- MW_DEBUG_JOIN_LOYALISTS:0 "Se une a los leales"
- MW_DEBUG_STAY_NEUTRAL:0 "Permanece neutral."
- MW_DEBUG_JOIN_REBELS:0 "Se une a los rebeldes"
-
- agot_mega_wars.0005.desc_loyal:0 "Tu señor [liege.GetFullName] apoya a la corona."
- agot_mega_wars.0005.desc_neutral:0 "Tu señor [liege.GetFullName] ha decidido permanecer neutral."
- agot_mega_wars.0005.desc_rebel:0 "Tu señor [liege.GetFullName] se ha sublevado con los rebeldes."
-
- # Event chain for independence declaration, no taxation without representation...
- agot_mega_wars.0010.t:0 "Levantamiento de [independence_rebel_leader.GetDynastyName]" #NT!
- agot_mega_wars.0010.desc:0 "Con [crown.GetPrimaryTitle.GetNameNoTier] en el caos, [independence_rebel_leader.GetFullName] ha renunciado a su lealtad a [crown.GetFullName] y se ha rebelado." #NT!
- agot_mega_wars.0010.a:0 "Veamos cómo resulta esto..." #NT!
- agot_mega_wars.0011.t:0 "Levantamiento de [independence_rebel_leader.GetDynastyName]" #NT!
- agot_mega_wars.0011.desc:0 "Con [crown.GetPrimaryTitle.GetNameNoTier] en el caos, [independence_rebel_leader.GetFullName] ha renunciado a su lealtad a [crown.GetFullName] y se ha rebelado." #NT!
- agot_mega_wars.0011.a:0 "¡[independence_rebel_leader.GetSheHe|U] lamentará este día!" #NT!
- agot_mega_wars.0011.b:0 "Estoy cansado de esto, suelta a [independence_rebel_leader.GetHerHim]..." #NT!
- agot_mega_wars.0012.opening:0 "A [independence_rebel_leader.GetName]," #NT!
- agot_mega_wars.0012.desc.a:0 "¡[independence_rebel_leader.GetPrimaryTitle.GetNameNoTier] es mío por derecho, no lo dejaré sin luchar!" #NT!
- agot_mega_wars.0012.desc.b:0 "Para evitar más derramamiento de sangre, no tengo más remedio que renunciar a mi soberanía sobre [independence_rebel_leader.GetPrimaryTitle.GetNameNoTier]." #NT!
- agot_mega_wars.0012.a:0 "¡Entonces la guerra es!" #NT!
- agot_mega_wars.0012.b:0 "Una sabia elección." #NT!
-
- # Event for AI to punish traitors
- agot_mega_wars.0200.t:0 "Castigar a los traidores" #NT!
- agot_mega_wars.0200.desc:0 "La guerra se acabó; Yo he ganado. Ahora bien, ¿cómo castigar a los traidores?" #NT!
- agot_mega_wars.0200.a:0 "Un castigo suave servirá." # Soft punishment #NT!
- agot_mega_wars.0200.b:0 "El castigo debe ser firme." # Medium punishment #NT!
- agot_mega_wars.0200.c:0 "El castigo debe ser severo." # Hard punishment #NT!
- agot_mega_wars.0200.d:0 "Ningún traidor volverá a caminar por este reino." # REALLY Hard punishment #NT!
- agot_mega_wars.0200.e:0 "Envía a los traidores al Muro." # Wall #NT!
- agot_mega_wars.0200.f:0 "Deje que los Lores Supremos decidan." # Let LP decide #NT!
-
- # Punishment event chain
- agot_mega_wars.0300.t:0 "Una oración pasada" #NT!
- agot_mega_wars.0300.desc.a:0 "Como castigo por su delito de traición a la patria, [ROOT.Var('crown_target').Char.GetName] ha decretado que" #NT!
- agot_mega_wars.0300.desc.b:0 "\n[ROOT.Var('selected_hostage').Char.GetName] será tomado como rehén por [ROOT.Var('crown_target').Char.GetTitledFirstName]" #NT!
- agot_mega_wars.0300.desc.c:0 "\nserás despojado de [selected_title.GetName]" #NT!
- agot_mega_wars.0300.desc.d:0 "\nserás despojado de tus títulos principales" #NT!
- agot_mega_wars.0300.desc.e:0 "\nserás despojado de tus títulos secundarios" #NT!
- agot_mega_wars.0300.desc.f:0 "\nsu casa será despojada de todas las tierras y títulos" #NT!
- agot_mega_wars.0300.desc.g:0 "\ntodos los títulos, pero se le quitará su asiento actual" #NT!
- agot_mega_wars.0300.desc.h:0 "\nserás despojado de la mitad de tus tierras" #NT!
- agot_mega_wars.0300.desc.i:0 "\ndebes darle [ROOT.Var('taken_artifact').GetName] a [ROOT.Var('crown_target').Char.GetName]" #NT!
- agot_mega_wars.0300.desc.j:0 "\nserás ejecutado" #NT!
- agot_mega_wars.0300.desc.k:0 "\ntu familia será ejecutada" #NT!
- agot_mega_wars.0300.desc.l:0 "\ntoda tu dinastía se extinguirá" #NT!
- agot_mega_wars.0300.desc.m:0 "\nserás enviado a El Muro para tomar el negro" #NT!
- agot_mega_wars.0300.desc.n:0 "\nserás expulsado de [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier]" #NT!
- agot_mega_wars.0300.desc.o:0 "\ntu familia será expulsada de [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier]" #NT!
- agot_mega_wars.0300.desc.p:0 "\ntoda tu dinastía será expulsada de [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier]" #NT!
- agot_mega_wars.0300.a.1a:0 "Debo aceptar la sentencia [ROOT.Var('crown_target').Char.GetHerHis]" #NT!
- agot_mega_wars.0300.a.1b:0 "Hay poco que puedo hacer" #NT!
- MEGA_WARS_0300_a1_IMPRISONED:0 "Como estás encarcelado no puedes escapar del castigo." #NT!
- MEGA_WARS_0300_b:0 "Si vas a la guerra y pierdes, el castigo es ilimitado. Este fácilmente podría ser el final de su línea, tierras y legado... Piense cuidadosamente en el suyo." #NT!
- agot_mega_wars.0300.b:0 "¡Indignante! ¡Moriré antes de rendirme!" #NT!
- agot_mega_wars.0301.t:0 "Desafío" #NT!
- agot_mega_wars.0301.desc.a:0 "Después de haber dictado tu sentencia llegan noticias de que [new_rebel_leader.GetName] ha desafiado tu juicio y se ha vuelto a rebelar..." #NT!
- agot_mega_wars.0301.desc.b:0 "Después de haber dictado su sentencia, llegan noticias de que algunos ex rebeldes han desafiado su juicio y una vez más se han rebelado..." #NT!
- agot_mega_wars.0301.a.1:0 "¡Cómo se atreve [new_rebel_leader.GetSheHe]! ..... ¡Soy el [ROOT.Char.GetTitleTierName]!" #NT!
- agot_mega_wars.0301.a.2:0 "¡Cómo se atreven! ..... ¡Soy su [ROOT.Char.GetTitleTierName]!" #NT!
- agot_mega_wars.0301.b.1:0 "Estoy cansado de esto, suelta a [new_rebel_leader.GetHerHim]... [ROOT.Char.Custom('GetRebelsLoyalists')]" #NT!
- agot_mega_wars.0301.b.2:0 "Estoy cansado de esto, déjalos ir... [ROOT.Char.Custom('GetRebelsLoyalists')]" #NT!
- POST_REBEL_JOINS_TOOLTIP:0 "Es probable que [post_rebel_scope.GetName] se una a tu causa." #NT!
-
- agot_mega_wars.0500.t:0 "Ser rey o no ser rey" #NT!
- agot_mega_wars.0500.desc.a:0 "Salí victorioso después de mi guerra con la dinastía asesina [defender_house_scope.GetName]." #NT!
- agot_mega_wars.0500.desc.ba:0 "Las fuerzas leales a mí quieren hacer #italic me#! [ROOT.Char.Custom('GetQueenKing')]. Dicen que mi reclamo vendría de [claim_ancestor.GetFullName], mi [ROOT.Char.Custom2('RelationToMe', claim_ancestor)]..." #NT!
- agot_mega_wars.0500.desc.bb:0 "\n\nPero tengo que preguntarme, ¿realmente quiero ser [ROOT.Char.Custom('GetQueenKing')]? Creo que [chosen_LP.GetFullName] es mucho más adecuado para gobernar el reino." #NT!
- agot_mega_wars.0500.desc.bc:0 "\n\nPero tengo que preguntarme, ¿realmente quiero ser [ROOT.Char.Custom('GetQueenKing')]? Creo que [option_LP_1.GetFullName] y [option_LP_2.GetNameOrMe] son mucho más adecuados para gobernar el reino." #NT!
- agot_mega_wars.0500.desc.bd:0 "\n\nPero tengo que preguntarme, ¿realmente quiero ser [ROOT.Char.Custom('GetQueenKing')]? Señores como [option_LP_1.GetFullName] y [option_LP_2.GetFullName] son mucho más adecuados para gobernar el reino, creo." #NT!
- agot_mega_wars.0500.desc.c:0 "Nadie cuestionará mi elección de hacer rey a cualquiera de estos grandes hombres, si elijo..." #NT!
- agot_mega_wars.0500.desc.d:0 "Desafortunadamente, [ROOT.Var('si_selected_character').Char.GetTitledFirstName] rechazó, [ROOT.Var('si_selected_character').Char.GetSheHe] no gobernará el reino. Por lo tanto, una vez más debo decidir..." #NT!
- agot_mega_wars.0500.a:0 "Depositar [defender.GetTitledFirstName] debería ser suficiente." #NT!
- agot_mega_wars.0500.b:0 "Tienen razón, yo debería gobernar." #NT!
- agot_mega_wars.0500.ca:0 "[chosen_LP.GetTitledFirstName] debería gobernar." #NT!
- MEGA_WARS_0500_ca_TOOLTIP:0 "[chosen_LP.GetTitledFirstName] responderá a tu elección." #NT!
- MEGA_WARS_0500_cb_TOOLTIP:0 "Elegirás una nueva regla para [primary_target_title.GetName]." #NT!
- agot_mega_wars.0500.cb:0 "Elegiré a otro..." #NT!
- agot_mega_wars.0501.t:0 "Ser rey o no ser rey" #NT!
- agot_mega_wars.0501.desc:0 "Pienso detenidamente quién gobernará mejor [primary_target_title.GetName]..." #NT!
- agot_mega_wars.0501.a:0 "... es la elección natural." #NT!
- MEGA_WARS_0501_a_TOOLTIP:0 "[ROOT.Var('si_selected_character').Char.GetTitledFirstName] responderá a tu elección." #NT!
- agot_mega_wars.0502.t:0 "Ser rey o no ser rey" #NT!
- agot_mega_wars.0502.desc:0 "[attacker.GetTitledFirstName] me pide que tome la corona y gobierne [primary_target_title.GetName]. ¿Cómo responderé?" #NT!
- agot_mega_wars.0502.a:0 "Envía un cuervo... Estoy de acuerdo." #NT!
- agot_mega_wars.0502.b:0 "Tengo otras obligaciones..." #NT!
- agot_mega_wars.0503.t:0 "Ser rey o no ser rey" #NT!
- agot_mega_wars.0503.desc.a:0 "Como ahora he ascendido al Trono de Hierro, debo decidir quién gobernará [old_demesne_main_title.GetName] en mi lugar..." #NT!
- agot_mega_wars.0503.desc.ba:0 "\nEstán mis hermanos, Stannis y Renly" #NT!
- agot_mega_wars.0503.desc.bb:0 "\nAhí está mi hermano, [living_brother.GetFirstName]" #NT!
- agot_mega_wars.0503.desc.bc:0 "\nHay [option_dynasty_member.GetName]" #NT!
- agot_mega_wars.0503.desc.c:0 "\npero también siempre puedo confiar en mis parientes de Estermont" #NT!
- agot_mega_wars.0503.desc.d:0 "\n[option_fallback.GetFirstName] es un buen gobernante" #NT!
- agot_mega_wars.0503.desc.e:0 ."
- agot_mega_wars.0503.a:0 "Elegiré a un miembro de mi familia." #NT!
- agot_mega_wars.0503.b:0 "Alguien de mi dinastía encajará." #NT!
- agot_mega_wars.0503.c:0 "Se lo dare a uno de mis vasallos" #NT!
- agot_mega_wars.0504.t:0 "Ser rey o no ser rey" #NT!
- agot_mega_wars.0504.desc:0 "Pienso detenidamente quién gobernará mejor [old_demesne_main_title.GetName]..." #NT!
- agot_mega_wars.0504.a:0 "... es la elección natural." #NT!
- agot_mega_wars.0504.b:0 "Tal vez alguien más sea más adecuado..." #NT!
- agot_mega_wars.0505.t:0 "El asunto de Rocadragón" #NT!
- agot_mega_wars.0505.desc:0 "Con el asunto de [old_demesne_main_title.GetName] resuelto, queda una última pregunta pendiente: ¿Qué será de Rocadragón, la antigua sede de la Casa Targaryen y sede del heredero del Trono de Hierro?\n" #NT!
- agot_mega_wars.0505.a:0 "[chosen_sibling.GetName] lo gobernará." #NT!
- agot_mega_wars.0505.b:0 "... lo tendré" #NT!
- agot_mega_wars.0505.c:0 "Después de todo, ¿por qué no debería conservarlo?" #NT!
- agot_mega_wars.0506.t:0 "Consecuencias reales" #NT!
- agot_mega_wars.0506.desc:0 "La guerra está ganada; la familia real depuso. El estandarte del usurpador ahora ondea sobre Desembarco del Rey.\n\nAhora, se debe tomar una decisión difícil: ¿Qué hacer con la antigua familia real? MARCADOR DE POSICIÓN Decide qué hacer con la antigua familia real; Déjalos en paz, mátalos a todos, expúlsalos" #NT!
- agot_mega_wars.0506.a:0 "Déjalos en paz." #NT!
- agot_mega_wars.0506.b:0 "Matarlos a todos." #NT!
- agot_mega_wars.0506.c:0 "Expulsarlos del reino." #NT!
- agot_mega_wars.0510.t:0 "Un nuevo gobernante" #NT!
- agot_mega_wars.0510.desc.a:0 "A los señores y señoras de [primary_target_title.GetNameNoTooltip]," #NT!
- agot_mega_wars.0510.desc.b:0 "\nYo, [choosing_ruler.GetFullName], por el presente decreto que:" #NT!
- agot_mega_wars.0510.desc.c:0 "\n $EFFECT_LIST_BULLET$# A partir de ahora gobernaré [primary_target_title.GetName]" #NT!
- agot_mega_wars.0510.desc.d:0 "\n $EFFECT_LIST_BULLET$# [chosen_crown_ruler.GetName] a partir de ahora gobernará [primary_target_title.GetName]" #NT!
- agot_mega_wars.0510.desc.e:0 "\n $EFFECT_LIST_BULLET$# [war_loser.GetName] será depuesto a favor de [primary_target_title.GetHolder.GetTitledFirstName]" #NT!
- agot_mega_wars.0510.desc.f:0 "\n $EFFECT_LIST_BULLET$# [old_demesne_main_title.GetHolder.GetLadyLord|U] [old_demesne_main_title.GetHolder.GetFirstName] se otorgará [old_demesne_main_title.GetName]" #NT!
- agot_mega_wars.0510.a:0 "Me guardaré mis ambiciones." #NT!
- agot_mega_wars.0510.b:0 "Me pregunto cómo gobernará [primary_target_title.GetHolder.GetTitledFirstName]..." #NT!
-
- agot_mega_wars.8559.t:0 "Las secuelas de la guerra" #NT!
- agot_mega_wars.8559.desc:0 "Por fin, hemos logrado la victoria frente a aquellos que intentaron rebelarse contra mí y perturbar mi gobierno justo. Ahora que los traidores están a mi alcance, ha llegado el momento de elegir qué destino les espera. Ya sea para mostrarles misericordia o para castigarlos por sus transgresiones…" #NT!
- agot_mega_wars.8559.a:0 "¡Tráelos ante mí!" #NT!
- agot_mega_wars.8560.t:0 "Las secuelas de la guerra" #NT!
- agot_mega_wars.8560.desc:0 "[selected_traitor.GetTitledFirstName] se arrodilla ante mí, listo para recibir mi juicio por la traición de [selected_traitor.GetHerHis]. Hay muchas opciones ante mí en cuanto a qué castigo debería recibir [selected_traitor.GetSheHe]; algunos leves, algunos severos. Cuál elegir dependerá de cuán severa fue la traición de [selected_traitor.GetHerHis] contra el trono." #NT!
- agot_mega_wars.8560.a:0 "[selected_traitor.GetLiege.GetTitledFirstNameNoTooltip] decidirá el castigo de [selected_traitor.GetHerHis]." #NT!
- agot_mega_wars.8560.b:0 "[selected_traitor.GetSheHe|U] puede esperar en mis mazmorras un poco más." #NT!
- agot_mega_wars.8560.c:0 "Agot_mega_wars.8560.c" #unused #NT!
- agot_mega_wars.8560.d:0 "Hágase mi voluntad." #NT!
- agot_mega_wars.8560.e:0 "#N DEBUG #! Omitir todos los traidores" #NT!
-
- agot_mega_wars.8561.t:0 "Agot_mega_wars.8561" #NT!
- agot_mega_wars.8561.desc:0 "Agot_mega_wars.8561.desc" #NT!
- agot_mega_wars.8561.a:0 "Agot_mega_wars.8561.a" #NT!
-
- MW_TRAITORS_HOSTAGES_CUSTOM:0 "No hay rehenes válidos disponibles." #NT!
- MW_TRAITORS_SEC_TITLES_CUSTOM:0 "No hay títulos secundarios válidos disponibles." #NT!
- MW_TRAITORS_SPEC_TITLES_CUSTOM:0 "No hay títulos válidos disponibles."
- MW_TRAITORS_ARTIFACT_CUSTOM:0 "No hay artefactos válidos disponibles." #NT!
-
- mw_tab_name_header:0 "Guerra civil" #NT!
- MEGA_WARS_VIEW_GUI_LOYALIST:0 "Leales" #NT!
- MEGA_WARS_VIEW_GUI_NEUTRAL:0 "Neutrales" #NT!
- MEGA_WARS_VIEW_GUI_REBEL:0 "Rebeldes" #NT!
-
- MEGA_WARS_VIEW_GUI_JOIN:0 "Unirse" #NT!
- MEGA_WARS_VIEW_GUI_SHOW_REBEL_LEADERS:0 "Mostrar líderes rebeldes" #NT!
-
- rebels:0 "Rebeldes" #NT!
- loyalists:0 "Leales" #NT!
-
- MW_SWITCH_SIDES_MW_WAR:0 "[turncloak.GetName] de ahora en adelante es compatible con [mw_story_owner.GetName]" #NT!
-
- agot_mega_wars.9999.t:0 "EVENTO DIVERTIDO" #NT!
- agot_mega_wars.9999.desc:0 "DESCRIPCIÓN DIVERTIDA" #NT!
- agot_mega_wars.9999.a:0 "OPCIÓN A" #NT!
- agot_mega_wars.9999.b:0 "OPCIÓN B" #NT!
- agot_mega_wars.9999.c:0 "OPCIÓN C" #NT!
+  # Character Interactions 
+ interaction_category_agot_mega_wars: "Mega guerras"
+ agot_mw_join_loyalists: "AI: Únete a los leales"
+ agot_mw_join_loyalists_desc: "AI: Únete a los leales"
+ agot_mw_join_rebel: "IA: Únete a los rebeldes"
+ agot_mw_join_rebel_desc: "IA: Únete a los rebeldes"
+  
+ AGOT_CANNOT_SWEAR_FEALTY_TO_PRE_WAR_LIEGE: "No puedes jurar lealtad en medio de una guerra civil."
+  
+  # Classic Call the Banners event chain 
+ agot_mega_wars.0002.t: "Un reino en guerra"
+ agot_mega_wars.0002.desc: "[ROOT.Char.GetPrimaryTitle.GetNameNoTier] está en estado de guerra, deberíamos enviar cuervos a los grandes Señores para reunirlos en defensa de la corona."
+ agot_mega_wars.0002.a: "¡Llama a las pancartas!"
+ agot_mega_wars.0002.b: "¿Cómo funcionan las guerras civiles?"
+  
+ agot_mega_wars.0003.desc.a: "[rebel_leader.GetFullName] se ha levantado contra [crown.GetFullName] en el [war.GetName]. Debo elegir estar con [crown.GetFullName], unirme a [rebel_leader.GetFullName] o permanecer neutral y dejar que la marea del tiempo guíe mi decisión."
+ agot_mega_wars.0003.desc.b: "Sin embargo, dado que anteriormente juraste lealtad a [ROOT.Var('mw_is_loyal_to').Char.GetName], ahora se espera que cumpla mi palabra..."
+ agot_mega_wars.0003.desc.c: "\n[ROOT.Char.GetLiege.GetTitledFirstName] ha elegido apoyar a la corona..." #NT!
+ agot_mega_wars.0003.desc.d: "\n[ROOT.Char.GetLiege.GetTitledFirstName] ha elegido permanecer neutral..." #NT!
+ agot_mega_wars.0003.desc.e: "\n[ROOT.Char.GetLiege.GetTitledFirstName] ha elegido apoyar a los rebeldes..." #NT!
+ agot_mega_wars.0003.desc.f: "\n[ROOT.Char.GetLiege.GetTitledFirstName] ha optado por declarar la independencia..." #NT!
+ agot_mega_wars.0003.a: "Los rebeldes lo pagarán caro."
+ agot_mega_wars.0003.a.tt: "Traicionas a los conspiradores [mw_rebel_leader.GetFullName] y [mw_rebel_leader.GetHerHis]." #NT!
+ agot_mega_wars.0003.b: "No veo ninguna razón para involucrarme."
+ agot_mega_wars.0003.c: "¡La causa de la rebelión es justa!" #NT!
+ agot_mega_wars.0003.c.tt: "Te unes a la rebelión del lado de [rebel_leader.GetFullName]."
+ agot_mega_wars.0003.c.tt.independence: "Dado que esta es una guerra por la independencia, ¡también ganarás la independencia si prevaleces!" #NT!
+ agot_mega_wars.0003.d: "¡Ahora es el momento de forjar nuestro propio camino!"
+ agot_mega_wars.0003.d.tt: "Empiezas tu propia guerra de independencia contra [crown.GetFullName]."
+ agot_mega_wars.0003.tt.negative: "Dado que anteriormente juré lealtad a [mw_is_loyal_to.GetName], mi comportamiento se considerará deshonroso."
+ MW_DEBUG_JOIN_LOYALISTS: "Se une a los leales"
+ MW_DEBUG_STAY_NEUTRAL: "Permanece neutral."
+ MW_DEBUG_JOIN_REBELS: "Se une a los rebeldes"
+ MW_DEBUG_DECLARES_INDEPENDENCE: "AI probablemente: #N Declara la independencia#!" #NT!
+  
+ agot_mega_wars.0004.desc: "Con el desarrollo de la guerra, ahora debo decidir cuántas fuerzas debo comprometer..." #NT!
+ agot_mega_wars.0004.a: "[mw_target_scope.GetTitledFirstName] conseguiré a todos mis hombres!" #NT!
+ agot_mega_wars.0004.b: "[mw_target_scope.GetSheHe|U] ya tiene suficiente." #NT!
+  
+ agot_mega_wars.0005.desc_loyal: "Tu señor [liege.GetFullName] apoya a la corona."
+ agot_mega_wars.0005.desc_neutral: "Tu señor [liege.GetFullName] ha decidido permanecer neutral."
+ agot_mega_wars.0005.desc_rebel: "Tu señor [liege.GetFullName] se ha sublevado con los rebeldes."
+  
+  # Event chain for independence declaration, no taxation without representation... 
+ agot_mega_wars.0010.t: "Levantamiento de [independence_rebel_leader.GetDynastyName]"
+ agot_mega_wars.0010.desc: "Con [crown.GetPrimaryTitle.GetNameNoTier] en el caos, [independence_rebel_leader.GetFullName] ha renunciado a su lealtad a [crown.GetFullName] y se ha rebelado."
+ agot_mega_wars.0010.a: "Veamos cómo resulta esto..."
+  
+ agot_mega_wars.0011.t: "Levantamiento de [independence_rebel_leader.GetDynastyName]"
+ agot_mega_wars.0011.desc.a: "Con [mw_crown.GetPrimaryTitle.GetNameNoTier] en el caos, [mw_independence_rebel_leader.GetTitledFirstName] ha renunciado a su lealtad a [mw_crown.GetTitledFirstName] y se ha rebelado." #NT!
+ agot_mega_wars.0011.desc.b: "Con [mw_crown.GetPrimaryTitle.GetNameNoTier] en el caos, [mw_independence_rebel_leader.GetTitledFirstName] y [mw_independence_rebel_loc_scope.GetTitledFirstName] han renunciado a su lealtad a [mw_crown.GetTitledFirstName] y se han rebelado." #NT!
+ agot_mega_wars.0011.desc.c: "Con [mw_crown.GetPrimaryTitle.GetNameNoTier] en el caos, [mw_independence_rebel_leader.GetTitledFirstName], entre otros, han renunciado a su lealtad a [mw_crown.GetTitledFirstName] y se han rebelado." #NT!
+ agot_mega_wars.0011.a: "¡[independence_rebel_leader.GetSheHe|U] lamentará este día!"
+ agot_mega_wars.0011.a.tt: "¡Irás a la guerra con [temp_loc_scope.GetTitledFirstName]!" #NT!
+ agot_mega_wars.0011.b: "Estoy cansado de esto, suelta a [independence_rebel_leader.GetHerHim]..."
+ agot_mega_wars.0011.b.tt: "[temp_loc_scope.GetTitledFirstName] se vuelve independiente!" #NT!
+  
+ agot_mega_wars.0012.opening: "A [independence_rebel_leader.GetName],"
+ agot_mega_wars.0012.desc.a: "¡[independence_rebel_leader.GetPrimaryTitle.GetNameNoTier] es mío por derecho, no lo dejaré sin luchar!"
+ agot_mega_wars.0012.desc.b: "Para evitar más derramamiento de sangre, no tengo más remedio que renunciar a mi soberanía sobre [independence_rebel_leader.GetPrimaryTitle.GetNameNoTier]."
+ agot_mega_wars.0012.a: "¡Entonces la guerra es!"
+ agot_mega_wars.0012.b: "Una sabia elección."
+  
+ # Mega War Aftermath 
+ agot_mega_wars.0500.t: "Ser rey o no ser rey"
+ agot_mega_wars.0500.desc.a: "Salí victorioso después de mi guerra con la dinastía asesina [defender_house_scope.GetName]."
+ agot_mega_wars.0500.desc.ba: "Las fuerzas leales a mí quieren hacer #italic me#! [ROOT.Char.Custom('GetQueenKing')]. Dicen que mi reclamo vendría de [claim_ancestor.GetFullName], mi [ROOT.Char.Custom2('RelationToMe', claim_ancestor)]..."
+ agot_mega_wars.0500.desc.bb: "\n\nPero tengo que preguntarme, ¿realmente quiero ser [ROOT.Char.Custom('GetQueenKing')]? Creo que [chosen_LP.GetFullName] es mucho más adecuado para gobernar el reino."
+ agot_mega_wars.0500.desc.bc: "\n\nPero tengo que preguntarme, ¿realmente quiero ser [ROOT.Char.Custom('GetQueenKing')]? Creo que [option_LP_1.GetFullName] y [option_LP_2.GetNameOrMe] son mucho más adecuados para gobernar el reino."
+ agot_mega_wars.0500.desc.bd: "\n\nPero tengo que preguntarme, ¿realmente quiero ser [ROOT.Char.Custom('GetQueenKing')]? Señores como [option_LP_1.GetFullName] y [option_LP_2.GetFullName] son mucho más adecuados para gobernar el reino, creo."
+ agot_mega_wars.0500.desc.c: "Nadie cuestionará mi elección de hacer rey a cualquiera de estos grandes hombres, si elijo..."
+ agot_mega_wars.0500.desc.d: "Desafortunadamente, [ROOT.Var('si_selected_character').Char.GetTitledFirstName] rechazó, [ROOT.Var('si_selected_character').Char.GetSheHe] no gobernará el reino. Por lo tanto, una vez más debo decidir..."
+ agot_mega_wars.0500.a: "Depositar [defender.GetTitledFirstName] debería ser suficiente."
+ agot_mega_wars.0500.b: "Tienen razón, yo debería gobernar."
+ agot_mega_wars.0500.ca: "[chosen_LP.GetTitledFirstName] debería gobernar."
+ MEGA_WARS_0500_ca_TOOLTIP: "[chosen_LP.GetTitledFirstName] responderá a tu elección."
+ MEGA_WARS_0500_cb_TOOLTIP: "Elegirás una nueva regla para [primary_target_title.GetName]."
+ agot_mega_wars.0500.cb: "Elegiré a otro..."
+  
+ agot_mega_wars.0501.t: "Ser rey o no ser rey"
+ agot_mega_wars.0501.desc: "Pienso detenidamente quién gobernará mejor [primary_target_title.GetName]..."
+ agot_mega_wars.0501.a: "... es la elección natural."
+ MEGA_WARS_0501_a_TOOLTIP: "[ROOT.Var('si_selected_character').Char.GetTitledFirstName] responderá a tu elección."
+  
+ agot_mega_wars.0502.t: "Ser rey o no ser rey"
+ agot_mega_wars.0502.desc: "[attacker.GetTitledFirstName] me pide que tome la corona y gobierne [primary_target_title.GetName]. ¿Cómo responderé?"
+ agot_mega_wars.0502.a: "Envía un cuervo... Estoy de acuerdo."
+ agot_mega_wars.0502.b: "Tengo otras obligaciones..."
+  
+ agot_mega_wars.0503.t: "Ser rey o no ser rey"
+ agot_mega_wars.0503.desc.a: "Como ahora he ascendido al Trono de Hierro, debo decidir quién gobernará [old_demesne_main_title.GetName] en mi lugar..."
+ agot_mega_wars.0503.desc.ba: "\nEstán mis hermanos, Stannis y Renly"
+ agot_mega_wars.0503.desc.bb: "\nAhí está mi hermano, [living_brother.GetFirstName]"
+ agot_mega_wars.0503.desc.bc: "\nHay [option_dynasty_member.GetName]"
+ agot_mega_wars.0503.desc.c: "\npero también siempre puedo confiar en mis parientes de Estermont"
+ agot_mega_wars.0503.desc.d: "\n[option_fallback.GetFirstName] es un buen gobernante"
+ agot_mega_wars.0503.desc.e: "None" #NT!
+ agot_mega_wars.0503.a: "Elegiré a un miembro de mi familia."
+ agot_mega_wars.0503.b: "Alguien de mi dinastía encajará."
+ agot_mega_wars.0503.c: "Se lo dare a uno de mis vasallos"
+  
+ agot_mega_wars.0504.t: "Ser rey o no ser rey"
+ agot_mega_wars.0504.desc: "Pienso detenidamente quién gobernará mejor [old_demesne_main_title.GetName]..."
+ agot_mega_wars.0504.a: "... es la elección natural."
+ agot_mega_wars.0504.b: "Tal vez alguien más sea más adecuado..."
+  
+ agot_mega_wars.0505.t: "El asunto de Rocadragón"
+ agot_mega_wars.0505.desc: "Con el asunto de [old_demesne_main_title.GetName] resuelto, queda una última pregunta pendiente: ¿Qué será de Rocadragón, la antigua sede de la Casa Targaryen y sede del heredero del Trono de Hierro?\n"
+ agot_mega_wars.0505.a: "[chosen_sibling.GetName] lo gobernará."
+ agot_mega_wars.0505.b: "... lo tendré"
+ agot_mega_wars.0505.c: "Después de todo, ¿por qué no debería conservarlo?"
+  
+ agot_mega_wars.0506.t: "Consecuencias reales"
+ agot_mega_wars.0506.desc: "La guerra está ganada; la familia real depuso. El estandarte del usurpador ahora ondea sobre Desembarco del Rey.\n\nAhora, se debe tomar una decisión difícil: ¿Qué hacer con la antigua familia real? MARCADOR DE POSICIÓN Decide qué hacer con la antigua familia real; Déjalos en paz, mátalos a todos, expúlsalos"
+ agot_mega_wars.0506.a: "Déjalos en paz."
+ agot_mega_wars.0506.b: "Matarlos a todos."
+ agot_mega_wars.0506.c: "Expulsarlos del reino."
+  
+ agot_mega_wars.0510.t: "Un nuevo gobernante"
+ agot_mega_wars.0510.desc.a: "A los señores y señoras de [primary_target_title.GetNameNoTooltip],"
+ agot_mega_wars.0510.desc.b: "\nYo, [choosing_ruler.GetFullName], por el presente decreto que:"
+ agot_mega_wars.0510.desc.c: "\n $EFFECT_LIST_BULLET$# A partir de ahora gobernaré [primary_target_title.GetName]"
+ agot_mega_wars.0510.desc.d: "\n $EFFECT_LIST_BULLET$# [chosen_crown_ruler.GetName] a partir de ahora gobernará [primary_target_title.GetName]"
+ agot_mega_wars.0510.desc.e: "\n $EFFECT_LIST_BULLET$# [war_loser.GetName] será depuesto a favor de [primary_target_title.GetHolder.GetTitledFirstName]"
+ agot_mega_wars.0510.desc.f: "\n $EFFECT_LIST_BULLET$# [old_demesne_main_title.GetHolder.GetLadyLord|U] [old_demesne_main_title.GetHolder.GetFirstName] se otorgará [old_demesne_main_title.GetName]"
+ agot_mega_wars.0510.a: "Me guardaré mis ambiciones."
+ agot_mega_wars.0510.b: "Me pregunto cómo gobernará [primary_target_title.GetHolder.GetTitledFirstName]..."
+  
+ agot_mega_wars.0600.t: "Las secuelas de la guerra" #NT!
+ agot_mega_wars.0600.desc: "Por fin, hemos logrado la victoria frente a aquellos que intentaron rebelarse contra mí y perturbar mi gobierno justo. Ahora que los traidores están a mi alcance, ha llegado el momento de elegir qué destino les espera. Ya sea para mostrarles misericordia o para castigarlos por sus transgresiones…" #NT!
+ agot_mega_wars.0600.a: "¡Tráelos ante mí!" #NT!
+  
+ agot_mega_wars.0601.t: "Las secuelas de la guerra" #NT!
+ agot_mega_wars.0601.desc: "[selected_traitor.GetTitledFirstName] se arrodilla ante mí, listo para recibir mi juicio por [selected_traitor.GetHerHis] traición. Hay muchas opciones ante mí en cuanto a qué castigo debería recibir [selected_traitor.GetSheHe]; algunos leves, algunos severos. Cuál elegir dependerá de cuán severa fue la traición [selected_traitor.GetHerHis] contra el trono." #NT!
+ agot_mega_wars.0601.a: "[selected_traitor.GetLiege.GetTitledFirstNameNoTooltip] decidirá [selected_traitor.GetHerHis] castigo." #NT!
+ agot_mega_wars.0601.b: "Que [selected_traitor.GetLiege.GetTitledFirstNameNoTooltip] decida sobre el castigo de [selected_traitor.GetLiege.GetHerHis] vasallos." #NT!
+ agot_mega_wars.0601.b.tt: "[selected_traitor.GetLiege.GetTitledFirstNameNoTooltip] decidirá sobre [temp_traitors_scope.GetTitledFirstNamePossessiveNoTooltip] castigo." #NT!
+ agot_mega_wars.0601.c: "[selected_traitor.GetSheHe|U] puede esperar en mis mazmorras un poco más." #NT!
+ agot_mega_wars.0601.d: "Hágase mi voluntad." #NT!
+ agot_mega_wars.0601.e: "#N DEBUG #! Omitir todos los traidores" #NT!
+  
+ agot_mega_wars.0602.t: "Agot_mega_wars.0602" #NT!
+ agot_mega_wars.0602.desc: "Agot_mega_wars.0602.desc" #NT!
+ agot_mega_wars.0602.a: "Agot_mega_wars.0602.a" #NT!
+ agot_mega_wars.0603.t: "Una oración pasada" #NT!
+  
+ agot_mega_wars.0603.desc.a: "Como castigo por su delito de traición, [ROOT.Var('crown_target').Char.GetName] ha decretado que" #NT!
+ agot_mega_wars.0603.desc.b: "\n[ROOT.Var('selected_hostage').Char.GetName] será tomado como rehén por [ROOT.Var('crown_target').Char.GetTitledFirstName]" #NT!
+ agot_mega_wars.0603.desc.c: "\nserás despojado de [selected_title.GetName]" #NT!
+ agot_mega_wars.0603.desc.d: "\nserás despojado de tus títulos principales" #NT!
+ agot_mega_wars.0603.desc.e: "\nserás despojado de tus títulos secundarios" #NT!
+ agot_mega_wars.0603.desc.f: "\nsu casa será despojada de todas las tierras y títulos" #NT!
+ agot_mega_wars.0603.desc.g: "\ntodos los títulos, pero se le quitará su asiento actual" #NT!
+ agot_mega_wars.0603.desc.h: "\nserás despojado de la mitad de tus tierras" #NT!
+ agot_mega_wars.0603.desc.i: "\ndebes dar [ROOT.Var('taken_artifact').GetName] a [ROOT.Var('crown_target').Char.GetName]" #NT!
+ agot_mega_wars.0603.desc.j: "\nserás ejecutado" #NT!
+ agot_mega_wars.0603.desc.k: "\ntu familia será ejecutada" #NT!
+ agot_mega_wars.0603.desc.l: "\ntoda tu dinastía se extinguirá" #NT!
+ agot_mega_wars.0603.desc.m: "\nserás enviado a la pared para tomar el negro" #NT!
+ agot_mega_wars.0603.desc.n: "\nserás expulsado de [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier]" #NT!
+ agot_mega_wars.0603.desc.o: "\ntu familia será expulsada de [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier]" #NT!
+ agot_mega_wars.0603.desc.p: "\ntoda tu dinastía será expulsada de [ROOT.Var('crown_target').Char.GetPrimaryTitle.GetNameNoTier]" #NT!
+ agot_mega_wars.0603.a.1a: "Debo aceptar la sentencia [ROOT.Var('crown_target').Char.GetHerHis]" #NT!
+ agot_mega_wars.0603.a.1b: "Hay poco que puedo hacer" #NT!
+ MEGA_WARS_0300_a1_IMPRISONED: "Como estás encarcelado no puedes escapar del castigo."
+ MEGA_WARS_0300_b: "Si vas a la guerra y pierdes, el castigo es ilimitado. Este fácilmente podría ser el final de su línea, tierras y legado... Piense cuidadosamente en el suyo."
+ agot_mega_wars.0603.b: "¡Indignante! ¡Moriré antes de rendirme!" #NT!
+  
+ agot_mega_wars.0604.t: "Desafío" #NT!
+ agot_mega_wars.0604.desc.a: "Después de haber dictado su sentencia llegan noticias de que [mw_new_rebel_leader.GetName] ha desafiado su juicio y una vez más se ha rebelado..." #NT!
+ agot_mega_wars.0604.desc.b: "Después de haber dictado su sentencia, llegan noticias de que algunos ex rebeldes han desafiado su juicio y una vez más se han rebelado..." #NT!
+ agot_mega_wars.0604.a.1: "¡Cómo se atreve [mw_new_rebel_leader.GetSheHe]! ..... ¡Soy el [ROOT.Char.GetTitleTierName]!" #NT!
+ agot_mega_wars.0604.a.2: "¡Cómo se atreven! ..... ¡Soy su [ROOT.Char.GetTitleTierName]!" #NT!
+ agot_mega_wars.0604.b.1: "Estoy cansado de esto, suelta [mw_new_rebel_leader.GetHerHim]... [ROOT.Char.Custom('GetRebelsLoyalists')]" #NT!
+ agot_mega_wars.0604.b.2: "Estoy cansado de esto, déjalos ir... [ROOT.Char.Custom('GetRebelsLoyalists')]" #NT!
+ POST_REBEL_JOINS_TOOLTIP: "Es probable que [post_rebel_scope.GetName] se una a tu causa."
+  
+ agot_mega_wars.0605.t: "Castigar a los traidores" #NT!
+ agot_mega_wars.0605.desc: "La guerra se acabó; Yo he ganado. Ahora bien, ¿cómo castigar a los traidores?" #NT!
+ agot_mega_wars.0605.a: "Un castigo suave servirá." #NT!
+ agot_mega_wars.0605.b: "El castigo debe ser firme." #NT!
+ agot_mega_wars.0605.c: "El castigo debe ser severo." #NT!
+ agot_mega_wars.0605.d: "Ningún traidor volverá a caminar por este reino." #NT!
+ agot_mega_wars.0605.e: "Envía a los traidores al Muro." #NT!
+ agot_mega_wars.0605.f: "Deje que los Lores Supremos decidan." #NT!
+  
+ agot_mega_wars.9999.t: "EVENTO DIVERTIDO"
+ agot_mega_wars.9999.desc: "DESCRIPCIÓN DIVERTIDA"
+ agot_mega_wars.9999.a: "OPCIÓN A"
+ agot_mega_wars.9999.b: "OPCIÓN B"
+ agot_mega_wars.9999.c: "OPCIÓN C"
+  
+ # Scripted GUI 
+ MW_TRAITORS_HOSTAGES_TT: "No hay rehenes válidos disponibles." #NT!
+ MW_TRAITORS_SEC_TITLES_TT: "No hay títulos secundarios válidos disponibles." #NT!
+ MW_TRAITORS_SPEC_TITLES_TT: "No hay títulos válidos disponibles." #NT!
+ MW_TRAITORS_ARTIFACT_TT: "No hay artefactos válidos disponibles." #NT!
+ MW_TRAITORS_EXECUTION_TT: "No hay caracteres válidos disponibles." #NT!
+ MW_TRAITORS_SEND_TO_WALL_TT: "Puedes enviar este personaje al Muro." #NT!
+  
+ mw_tab_name_header: "Guerra civil"
+ MEGA_WARS_VIEW_GUI_LOYALIST: "Leales"
+ MEGA_WARS_VIEW_GUI_NEUTRAL: "Neutrales"
+ MEGA_WARS_VIEW_GUI_REBEL: "Rebeldes"
+  
+ MEGA_WARS_VIEW_GUI_JOIN: "Unirse"
+ MEGA_WARS_VIEW_GUI_SHOW_REBEL_LEADERS: "Mostrar líderes rebeldes"
+  
+ # Scripted effects 
+ AGOT_MW_JOIN_CROWN: "Te unes a la rebelión del lado de [mw_crown.GetTitledFirstName]" #NT!
+ MW_SWITCH_SIDE_TO_CROWN: "[mw_choosing_ruler.GetName] de ahora en adelante admite [mw_crown.GetTitledFirstName]" #NT!
+ AGOT_MW_STAY_NEUTRAL: "Mantente neutral." #NT!
+ MW_SWITCH_SIDE_TO_REBEL: "[mw_choosing_ruler.GetName] de ahora en adelante admite [mw_rebel_leader.GetTitledFirstName]" #NT!
+ AGOT_MW_JOIN_REBEL_LEADER: "Te unes a la rebelión del lado de [mw_rebel_leader.GetFullName]." #NT!

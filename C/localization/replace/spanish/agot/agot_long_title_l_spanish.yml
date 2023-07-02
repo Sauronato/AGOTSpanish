@@ -3,45 +3,45 @@
  # Stuff that references ROOT: Returned by Custom 
  # Stuff that references Character: Used by the GUI. 
   
- long_title: "[THIS.Char.Custom('LongTitle')]" #NT!
- long_title.character: "[THIS.Char.Custom('LongTitleWithName')]" #NT!
- long_title.house: "[THIS.Char.Custom('LongTitleWithNameAndHouse')]" #NT!
- long_title.character.start: "$long_title.character.fallback$[ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')][ROOT.Char.Custom('LongTitleEnding')]" #NT!
- long_title.character.fallback: "[ROOT.Char.GetFullNameNicknamedNoTooltip]" #NT!
- long_title.house.start: "$long_title.house.fallback$[ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
- long_title.house.fallback: "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip] [ROOT.Char.GetHouse.GetBaseNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
- long_title.tier: "[ROOT.Title.Custom('LongTitleTierName')]" #NT!
- long_title.title: "[ROOT.Title.GetNameNoTierNoTooltip]" #NT!
- long_title.title.definite: "[ROOT.Title.GetNameNoTooltip]" #NT!
- long_title.next: "[ROOT.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
- long_title.title.definite: "de [ROOT.Title.GetNameNoTooltip]" #NT!
- long_title.start: "[ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip][ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')]" #NT!
- long_title.fallback: "Retroceder" #NT!
- long_title.recursive: "$long_title.title$, $long_title.next$" #NT!
- long_title.recursive.definite: "$long_title.title$$long_title.next$" #NT!
- long_title.recursive.new_tier: ", $long_title.tier$ de $long_title.title$$long_title.next$" #NT!
- long_title.recursive.same_tier: ", $long_title.title$$long_title.next$" #NT!
- long_title.recursive.end_tier: "y $long_title.title$$long_title.next$" #NT!
- long_title.end.same_tier: "y $long_title.title$" #NT!
- long_title.end.new_tier: "y $long_title.tier$ de $long_title.title$" #NT!
- long_title.generation: "Inicializado [THIS.Title.GetNameNoTooltip]" #NT!
- # long_title.custom: "[ROOT.Title.Custom('LongTitleCustom')]" #NT!
+ long_title: "[THIS.Char.Custom('LongTitle')]"
+ long_title.character: "[THIS.Char.Custom('LongTitleWithName')]"
+ long_title.house: "[THIS.Char.Custom('LongTitleWithNameAndHouse')]"
+ long_title.character.start: "$long_title.character.fallback$[ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')][ROOT.Char.Custom('LongTitleEnding')]"
+ long_title.character.fallback: "[ROOT.Char.GetFullNameNicknamedNoTooltip]"
+ long_title.house.start: "$long_title.house.fallback$[ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')]"
+ long_title.house.fallback: "[ROOT.Char.GetTitledFirstNameNicknamedNoTooltip] [ROOT.Char.GetHouse.GetBaseNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ long_title.tier: "[ROOT.Title.Custom('LongTitleTierName')]"
+ long_title.title: "[ROOT.Title.GetNameNoTierNoTooltip]"
+ long_title.title.definite: "De [ROOT.Title.GetNameNoTooltip]"
+ long_title.next: "[ROOT.Var('previous_title').Title.Custom('LongTitleRecursive')]"
+ long_title.title.definite: "De [ROOT.Title.GetNameNoTooltip]"
+ long_title.start: "[ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip][ROOT.Char.GetPrimaryTitle.MakeScope.Var('previous_title').Title.Custom('LongTitleRecursive')]"
+ long_title.fallback: "Retroceder"
+ long_title.recursive: "$long_title.title$, $long_title.next$"
+ long_title.recursive.definite: "$long_title.title$$long_title.next$"
+ long_title.recursive.new_tier: ", $long_title.tier$ de $long_title.title$$long_title.next$"
+ long_title.recursive.same_tier: ", $long_title.title$$long_title.next$"
+ long_title.recursive.end_tier: "Y $long_title.title$$long_title.next$"
+ long_title.end.same_tier: "Y $long_title.title$"
+ long_title.end.new_tier: "Y $long_title.tier$ de $long_title.title$"
+ long_title.generation: "Inicializado [THIS.Title.GetNameNoTooltip]"
+ # long_title.custom: "[ROOT.Title.Custom('LongTitleCustom')]"
   
- long_title.tier.primary: "[ROOT.Title.GetHolder.GetTitleAsNameNoTooltip]" #NT!
- long_title.tier.nonexistent: "[ROOT.Title.GetTierAsNameNoTooltip]" #NT!
- long_title.tier.ruler: "Gobernante" #NT!
+ long_title.tier.primary: "[ROOT.Title.GetHolder.GetTitleAsNameNoTooltip]"
+ long_title.tier.nonexistent: "[ROOT.Title.GetTierAsNameNoTooltip]"
+ long_title.tier.ruler: "Gobernante"
   
- long_title.council_position.start: "$long_title.character.start$, [ROOT.Char.GetCouncilTitle] a [ROOT.Char.GetLiege.GetFullNameNoTooltip]" #NT!
- long_title.relation_and_council_position.start: "$long_title.character.start$, [ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] y [ROOT.Char.GetCouncilTitle] a [ROOT.Char.GetLiege.GetFullNameNoTooltip]" #NT!
- long_title.liege.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] a [ROOT.Char.GetLiege.GetFullNameNoTooltip], $long_title.character.start$" #NT!
- long_title.courtier.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] a [ROOT.Char.GetLiege.GetTitledFirstNameNicknamedNoTooltip], $long_title.character.fallback$[ROOT.Char.Custom('LongTitleEnding')]" #NT!
+ long_title.council_position.start: "$long_title.character.start$, [ROOT.Char.GetCouncilTitle] a [ROOT.Char.GetLiege.GetFullNameNoTooltip]"
+ long_title.relation_and_council_position.start: "$long_title.character.start$, [ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] y [ROOT.Char.GetCouncilTitle] a [ROOT.Char.GetLiege.GetFullNameNoTooltip]"
+ long_title.liege.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] a [ROOT.Char.GetLiege.GetFullNameNoTooltip], $long_title.character.start$"
+ long_title.courtier.start: "[ROOT.Char.GetLiege.Custom2('RelationToMe',ROOT.Char)|U] a [ROOT.Char.GetLiege.GetTitledFirstNameNicknamedNoTooltip], $long_title.character.fallback$[ROOT.Char.Custom('LongTitleEnding')]"
   
   
- long_title_ending_variable: "[ROOT.Var('long_title_ending_variable').GetFlagName]" #NT!
+ long_title_ending_variable: "[ROOT.Var('long_title_ending_variable').GetFlagName]"
   
- long_title_mod_name: "Generador de títulos recursivo y potencialmente muy largo, modificación del juego para Crusader Kings 3, submódulo de Agamidae's Fullscreen Barbershop, Torturer of Paradox Developers y cualquier persona con altos estándares de calidad de código, presentado por Tobbzn del mod Way of Kings, Team Lead, Janker Extraordinario y Modder de Dragones." #NT!
+ long_title_mod_name: "Generador de títulos recursivo y potencialmente muy largo, modificación del juego para Crusader Kings 3, submódulo de Agamidae's Fullscreen Barbershop, Torturer of Paradox Developers y cualquier persona con altos estándares de calidad de código, presentado por Tobbzn del mod Way of Kings, Team Lead, Janker Extraordinario y Modder de Dragones."
   
- print_flag: "[THIS.GetFlagName]" #NT!
+ print_flag: "[THIS.GetFlagName]"
   
- en_garde_name: "En guardia" #NT!
- en_garde_abb_name: "En Garde (brazo detrás)" #NT!
+ en_garde_name: "En guardia"
+ en_garde_abb_name: "En Garde (brazo detrás)"

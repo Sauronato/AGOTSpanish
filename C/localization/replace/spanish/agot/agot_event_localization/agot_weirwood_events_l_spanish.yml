@@ -1,33 +1,33 @@
 ﻿l_spanish:
- agot_weirwood_events.0001.t:0 "El árbol del corazón" #NT!
- agot_weirwood_events.0001.desc:0 "Independientemente de la fe, pocos lugares en el mundo se acercan al corazón de un bosque de dioses en términos de tranquilidad y soledad de otro mundo. Pero este no es un mero jardín relajante por el que pasear: aquí dominan los dioses antiguos.\n\nCuando me acerco al árbol del corazón, no deseo nada más que..." #NT!
- agot_weirwood_events.0001.a:0 "...la bendición de los teólogos." #NT!
- agot_weirwood_events.0001.b:0 "...buena salud." #NT!
- agot_weirwood_events.0001.c:0 "...calma." #NT!
- agot_weirwood_events.0001.d:0 "...guía." #NT!
-
- ############
- # TOOLTIPS #
- ############
-
- gain_piety_tooltip:0 "Mi piedad no pasa desapercibida" #NT!
- upgrade_education_tooltip:0 "Actualizas tu [education_trait|E]" #NT!
- may_gain_animal_companion_tooltip:0 "Ganas un compañero animal." #NT!
- gain_fertility_bonus_tooltip:0 "Obtienes una bonificación a tu [fertility|E]" #NT!
- gain_minor_health_bonus_tooltip:0 "Obtienes una bonificación menor a tu [health|E]" #NT!
- gain_medium_health_bonus_tooltip:0 "Obtienes una bonificación mediana a tu [health|E]" #NT!
- downgrade_wounds_tooltip:0 "Tus heridas sanan en parte" #NT!
- wounds_turn_to_cripple_tooltip:0 "Tus heridas sanan por completo, pero te conviertes en [GetTrait('crippled').GetName( GetNullCharacter )]" #NT!
- may_improve_relationship_with_spouse_tooltip:0 "Mejoras tu relación con [spouse.GetName]" #NT!
- may_improve_relationship_with_family_member_tooltip:0 "Mejoras tu relación con un familiar" #NT!
- may_remove_sins_tooltip:0 "Puede optar por superar uno de los siguientes [sins|E] o, en general, [traits|E] negativo:" #NT!
- may_remove_specific_sin_tooltip:0 "[GetTrait(Localize(Scope.GetFlagName)).GetName(GetPlayer.Self)]" #NT!
- may_gain_calm_tooltip:0 "Puedes optar por obtener el [GetTrait('calm').GetName(GetNullCharacter)] [trait|E]" #NT!
-
- #############
- # MODIFIERS #
- #############
-
- weirwood_fertility_bonus_modifier:0 "Bendición de fertilidad de Weirwood" #NT!
- weirwood_minor_health_bonus_modifier:0 "Bendición de salud Weirwood (menor)" #NT!
- weirwood_medium_health_bonus_modifier:0 "Bendición de salud Weirwood (mediana)" #NT!
+ agot_weirwood_events.0001.t: "El árbol del corazón"
+ agot_weirwood_events.0001.desc: "Independientemente de la fe, pocos lugares en el mundo se acercan al corazón de un bosque de dioses en términos de tranquilidad y soledad de otro mundo. Pero este no es un mero jardín relajante por el que pasear: aquí dominan los dioses antiguos.\n\nCuando me acerco al árbol del corazón, no deseo nada más que..."
+ agot_weirwood_events.0001.a: "...la bendición de los teólogos."
+ agot_weirwood_events.0001.b: "...buena salud."
+ agot_weirwood_events.0001.c: "...calma."
+ agot_weirwood_events.0001.d: "...guía."
+  
+  ############ 
+  # TOOLTIPS # 
+  ############ 
+  
+ gain_piety_tooltip: "Mi piedad no pasa desapercibida"
+ upgrade_education_tooltip: "Actualizas tu [education_trait|E]"
+ may_gain_animal_companion_tooltip: "Ganas un compañero animal."
+ gain_fertility_bonus_tooltip: "Obtienes una bonificación a tu [fertility|E]"
+ gain_minor_health_bonus_tooltip: "Obtienes una bonificación menor a tu [health|E]"
+ gain_medium_health_bonus_tooltip: "Obtienes una bonificación mediana a tu [health|E]"
+ downgrade_wounds_tooltip: "Tus heridas sanan en parte"
+ wounds_turn_to_cripple_tooltip: "Tus heridas sanan por completo, pero te conviertes en [GetTrait('crippled').GetName( GetNullCharacter )]"
+ may_improve_relationship_with_spouse_tooltip: "Mejoras tu relación con [spouse.GetName]"
+ may_improve_relationship_with_family_member_tooltip: "Mejoras tu relación con un familiar"
+ may_remove_sins_tooltip: "Puede optar por superar uno de los siguientes [sins|E] o, en general, [traits|E] negativo:"
+ may_remove_specific_sin_tooltip: "[GetTrait(Localize(Scope.GetFlagName)).GetName(GetPlayer.Self)]"
+ may_gain_calm_tooltip: "Puedes optar por obtener el [GetTrait('calm').GetName(GetNullCharacter)] [trait|E]"
+  
+  ############# 
+  # MODIFIERS # 
+  ############# 
+  
+ weirwood_fertility_bonus_modifier: "Bendición de fertilidad de Weirwood"
+ weirwood_minor_health_bonus_modifier: "Bendición de salud Weirwood (menor)"
+ weirwood_medium_health_bonus_modifier: "Bendición de salud Weirwood (mediana)"

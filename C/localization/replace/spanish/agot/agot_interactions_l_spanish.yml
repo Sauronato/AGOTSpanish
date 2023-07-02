@@ -1,44 +1,60 @@
 ﻿l_spanish:
- btw_struggle_reason_reason:0 "[recipient.GetSheHe|U] es parte de [btw_struggle|E] y tú no eres: $VALUE|=+0$" #NT!
-
-
-#Prisoner Interactions
-
- mute_interaction:0 "Silenciar" #NT!
- mute_interaction_desc:0 "Convertir [recipient.GetShortUINameNoTooltip] en [GetTrait('mute').GetName( GetPlayer )]" #NT!
-
-
-
-#septa
- septa_child_language_rank_1:0 "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 5#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- septa_child_language_rank_2:0 "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 10#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- septa_child_language_rank_3:0 "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 15#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- septa_child_language_rank_4:0 "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 20#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- septa_child_language_rank_5:0 "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 25#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
-
-
- maester_child_language_rank_1:0 "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 5#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- maester_child_language_rank_2:0 "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 10#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- maester_child_language_rank_3:0 "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 15#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- maester_child_language_rank_4:0 "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 20#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
- maester_child_language_rank_5:0 "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 25#! [success_chance|E] y [scheme_power|E] adicionales" #NT!
-
-# Nightswatch / Kingsguard Vows interaction Desc
- ORDER_VOWS_MARRIED_OR_BETROTHED:0 "Soy [betrothed|E] para casarme: $VALUE|=+0$" #NT!
- ORDER_VOWS_DIFFERENT_FAITH:0 "Tus dioses se equivocan: $VALUE|=+0$" #NT!
-
- ORDER_VOWS_AMBITION:0 "[TARGET_CHARACTER.GetShortUIName|U] ha entrenado a [TARGET_CHARACTER.GetHerHis] toda su vida para esto." #NT!
-
-
- ORDER_VOWS_LOWBORN:0 "¡¿Elegirías un [lowborn|E], mi Lord?!: $VALUE|=+0$" #NT!
- ORDER_VOWS_HEIR_1:0 "Soy el [primary_heir|E] de un título: $VALUE|=+0$" #NT!
- ORDER_VOWS_HEIR_2:0 "Estoy en línea para heredar: $VALUE|=+0$" #NT!
- ORDER_VOWS_HEIR_3:0 "Estoy en línea para heredar: $VALUE|=+0$" #NT!
-
- ORDER_VOWS_ZEAL:0 "[personality|E] — #italic Dedicar [recipient.GetHerselfHimself] a una causa mayor es un propósito glorioso:#! $VALUE|=+0$" #NT!
- ORDER_VOWS_SKEPTIC:0 "[personality|E] — #italic [recipient.GetSheHe|U] no está interesado en el servicio por sí mismo: #! $VALUE|=+0$" #NT!
- ORDER_VOWS_HONOR:0 "[personality|E] — #italic Servir en la Guardia Real es un gran honor:#! $VALUE|=+0$" #NT!
- ORDER_VOWS_BOLD:0 "[personality|E] — #italic [recipient.GetSheHe|U] disfruta la oportunidad de pelear:#! $VALUE|=+0$" #NT!
- ORDER_VOWS_CRAVEN:0 "[personality|E] — #italic [recipient.GetSheHe|U] no desea morir:#! $VALUE|=+0$" #NT!
- ORDER_VOWS_HORNY:0 "[personality|E] — #italic Una vida de celibato suena como una prisión:#! $VALUE|=+0$" #NT!
-
+ btw_struggle_reason_reason: "[recipient.GetSheHe|U] es parte de [btw_struggle|E] y tú no eres: $VALUE|=+0$"
+  
+  
+ #Prisoner Interactions 
+  
+ mute_interaction: "Silenciar"
+ mute_interaction_desc: "Convertir [recipient.GetShortUINameNoTooltip] en [GetTrait('mute').GetName( GetPlayer )]"
+  
+  
+  
+ #septa 
+ septa_child_language_rank_1: "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 5#! [success_chance|E] y [scheme_power|E] adicionales"
+ septa_child_language_rank_2: "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 10#! [success_chance|E] y [scheme_power|E] adicionales"
+ septa_child_language_rank_3: "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 15#! [success_chance|E] y [scheme_power|E] adicionales"
+ septa_child_language_rank_4: "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 20#! [success_chance|E] y [scheme_power|E] adicionales"
+ septa_child_language_rank_5: "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 25#! [success_chance|E] y [scheme_power|E] adicionales"
+  
+  
+ maester_child_language_rank_1: "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 5#! [success_chance|E] y [scheme_power|E] adicionales"
+ maester_child_language_rank_2: "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 10#! [success_chance|E] y [scheme_power|E] adicionales"
+ maester_child_language_rank_3: "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 15#! [success_chance|E] y [scheme_power|E] adicionales"
+ maester_child_language_rank_4: "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 20#! [success_chance|E] y [scheme_power|E] adicionales"
+ maester_child_language_rank_5: "El [aptitude|E] de tu [GetCourtPositionType('maester_court_position').GetName()] da el [scheme|E] #P 25#! [success_chance|E] y [scheme_power|E] adicionales"
+  
+ # Nightswatch / Kingsguard Vows interaction Desc 
+ ORDER_VOWS_MARRIED_OR_BETROTHED: "Soy [betrothed|E] para casarme: $VALUE|=+0$"
+ ORDER_VOWS_DIFFERENT_FAITH: "Tus dioses se equivocan: $VALUE|=+0$"
+  
+ ORDER_VOWS_AMBITION: "[TARGET_CHARACTER.GetShortUIName|U] ha entrenado a [TARGET_CHARACTER.GetHerHis] toda su vida para esto."
+  
+  
+ ORDER_VOWS_LOWBORN: "¡¿Elegirías un [lowborn|E], mi Lord?!: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_1: "Soy el [primary_heir|E] de un título: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_2: "Estoy en línea para heredar: $VALUE|=+0$"
+ ORDER_VOWS_HEIR_3: "Estoy en línea para heredar: $VALUE|=+0$"
+  
+ ORDER_VOWS_ZEAL: "[personality|E] — #italic Dedicar [recipient.GetHerselfHimself] a una causa mayor es un propósito glorioso:#! $VALUE|=+0$"
+ ORDER_VOWS_SKEPTIC: "[personality|E] — #italic [recipient.GetSheHe|U] no está interesado en el servicio por sí mismo: #! $VALUE|=+0$"
+ ORDER_VOWS_HONOR: "[personality|E] — #italic Servir en la Guardia Real es un gran honor:#! $VALUE|=+0$"
+ ORDER_VOWS_BOLD: "[personality|E] — #italic [recipient.GetSheHe|U] disfruta la oportunidad de pelear:#! $VALUE|=+0$"
+ ORDER_VOWS_CRAVEN: "[personality|E] — #italic [recipient.GetSheHe|U] no desea morir:#! $VALUE|=+0$"
+ ORDER_VOWS_HORNY: "[personality|E] — #italic Una vida de celibato suena como una prisión:#! $VALUE|=+0$"
+  
+ WHEREABOUTS_UNKNOWN: "Se desconoce el paradero de [CHARACTER.GetShortUIName|U]" #NT!
+  
+ offer_vassalization_shattered_world_tt: "Equilibrio mundial destrozado: $VALUE|=+0$" #NT!
+  
+ offer_dawn_interaction: "Oferta amanecer" #NT!
+ offer_dawn_interaction_desc: "Ofrecer Dawn a [recipient.GetShortUINameNoTooltip]. Si [recipient.GetSheHe] no es digno, [recipient.GetSheHe] no puede aceptar..." #NT!
+ dawn_refused_title: "Amanecer se negó" #NT!
+ dawn_refused_desc: "[recipient.GetShortUINameNoTooltip] ha rechazado a Dawn, diciendo que [recipient.GetSheHe] no se siente digno de portar la espada." #NT!
+ worthy_of_dawn: "[personality|E] — #italic Digno del amanecer:#! $VALUE|=+0$" #NT!
+ unworthy_of_dawn: "[personality|E] — #italic Indigno de Dawn:#! $VALUE|=+0$" #NT!
+ dawn_greedy: "[personality|E] — #italic Deseos Amanecer:#! $VALUE|=+0$" #NT!
+  
+ raise_to_nobility_interaction: "Ascenso a la nobleza" #NT!
+ raise_to_nobility_interaction_desc: "Elevar [recipient.GetShortUINameNoTooltip] a la nobleza" #NT!
+  raise_to_nobility_tt:0 "Will be raised to nobility and found a new dynasty 
+ raised_me_to_nobility_opinion: "Elevado a la nobleza" #NT!

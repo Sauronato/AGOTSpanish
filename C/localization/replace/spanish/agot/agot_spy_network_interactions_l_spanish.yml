@@ -1,52 +1,52 @@
 ﻿l_spanish:
- agot_invite_to_spy_network_interaction:0 "Reclutar como espía" #NT!
- agot_remove_from_spy_network_interaction:0 "Descartar Espía" #NT!
- SPY_RECRUIT_GOLD:0 "Soborno" #NT!
- SPY_RECRUIT_GOLD_VALID:0 "Pagar [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]" #NT!
- AGOT_RECRUIT_SPY_SKILL_MOD:0 "Tu habilidad [intrigue|E]: $VALUE|=+0$" #NT!
- AGOT_RECRUIT_SPY_CAP_MODIFIER:0 "Tienes más espías de los que puedes gestionar: $VALUE|=+0$" #NT!
- highest_held_title_tier_greater_than:0 "Eres un nivel de título más alto que ellos." #NT!
- DECEITFUL_REASON:0 "[recipient.GetShortUINameNoTooltip] es engañoso: $VALUE|+0=$" #NT!
- HONEST_REASON:0 "[recipient.GetShortUINameNoTooltip] es honesto: $VALUE|+0=$" #NT!
- JUST_REASON:0 "[recipient.GetShortUINameNoTooltip] es solo: $VALUE|+0=$" #NT!
- TRUSTING_REASON:0 "[recipient.GetShortUINameNoTooltip] es Confiado: $VALUE|+0=$" #NT!
- LAZY_REASON:0 "[recipient.GetShortUINameNoTooltip] es perezoso: $VALUE|+0=$" #NT!
- SHY_REASON:0 "[recipient.GetShortUINameNoTooltip] es tímido: $VALUE|+0=$" #NT!
- CRAVEN_REASON:0 "[recipient.GetShortUINameNoTooltip] es Cobarde: $VALUE|+0=$" #NT!
- PARANOID_REASON:0 "[recipient.GetShortUINameNoTooltip] es paranoico: $VALUE|+0=$" #NT!
- DRUNKARD_REASON:0 "[recipient.GetShortUINameNoTooltip] es un borracho: $VALUE|+0=$" #NT!
- CONTRITE_REASON:0 "[recipient.GetShortUINameNoTooltip] está arrepentido: $VALUE|+0=$" #NT!
- agot_spy_network.0200.interface.employer.t:0 "Espía revela secreto" #NT!
- agot_spy_network.0200.interface.employer.desc:0 "Uno de tus espías reveló un secreto en su corte que podría ser útil." #NT!
- agot_spy_network.0200.interface.spymaster.t:0 "Espía revela secreto" #NT!
- agot_spy_network.0200.interface.spymaster.desc:0 "Uno de tus espías reveló un secreto en su corte que podría ser útil." #NT!
- agot_spy_network.0210.t:0 "Mi Lord," #NT!
- agot_spy_network.0210.desc:0 "Pude obtener un secreto que [secret_holder.GetTitledFirstName] intenta proteger. Te entregaré las pruebas que encontré, pero solo si mi servicio es recompensado de manera justa." #NT!
- agot_spy_network.0210.a:0 "¡Necesito saber todo!" #NT!
- agot_spy_network.0210.b:0 "No estoy interesado." #NT!
- agot_spy_network.0210.c:0 "No tengo la moneda..." #NT!
- agot_spy_network.0400.t:0 "Se reclutó a un espía" #NT!
- agot_spy_network.0400.desc:0 "[councillor.GetTitledFirstName] ha encontrado a una persona dispuesta a ser tu espía en la corte de [target_character.GetTitledFirstName]" #NT!
- agot_spy_network.0400.a:0 "[new_spy.GetTitledFirstName] me servirá bien" #NT!
- agot_spy_network.0500.t:0 "Un espía fue descubierto" #NT!
- agot_spy_network.0500.desc:0 "¡[councillor.GetTitledFirstName] ha descubierto un espía! [discovered_spy.GetTitledFirstName] fue atrapado buscando secretos en los rincones más oscuros de tu corte." #NT!
- agot_spy_network.0500.a:0 "¿Quien te envio?" #NT!
- agot_spy_network.0510.t:0 "¡Te han descubierto!" #NT!
- agot_spy_network.0510.desc:0 "¡De alguna manera se enteraron! Me descubrieron espiando para [discovered_spy_employer.GetTitledFirstName]. Ahora mi vida corre peligro. ¿Quizás pueda sobrevivir a esto si les digo quién me contrató?" #NT!
- agot_spy_network.0510.a:0 "¡Merced! ¡Te lo contaré todo!" #NT!
- agot_spy_network.0510.b:0 "¡Mis labios permanecen sellados!" #NT!
- agot_spy_network.0520.t:0 "Un espía fue descubierto" #NT!
- agot_spy_network.0520.flipped.desc:0 "[discovered_spy.GetTitledFirstName] expuso voluntariamente quién te está espiando, rogándote clemencia: ¡Era [discovered_spy_employer.GetTitledFirstName]!" #NT!
- agot_spy_network.0520.loyal.desc:0 "[discovered_spy.GetTitledFirstName] se niega a exponer quién te está espiando." #NT!
- agot_spy_network.0520.desc:0 "¿Cómo quieres proceder con el traidor?" #NT!
- agot_spy_network.0520.a:0 "[discovered_spy.GetTitledFirstName] será desterrado del reino." #NT!
- agot_spy_network.0520.b:0 "[discovered_spy.GetTitledFirstName] debe pudrirse en una celda." #NT!
- agot_spy_network.0520.c:0 "Sólo hay un castigo para este crimen: ¡La muerte!" #NT!
- agot_spy_network.0520.d:0 "Seré misericordioso. ¡Pero esta intriga tiene que parar!" #NT!
- agot_spy_network.0600.t:0 "¡Su espía fue descubierto!" #NT!
- agot_spy_network.0600.desc:0 "Los informes clandestinos que recibimos de [discovered_spy.GetTitledFirstName] se han detenido repentinamente. Parece que sus habilidades no eran lo suficientemente buenas como para evitar ser descubiertos." #NT!
- agot_spy_network.0600.flipped.desc:0 "Y lo que es peor, ¡[discovered_spy.GetTitledFirstName] reveló tu participación!" #NT!
- agot_spy_network.0600.a:0 "¡[discovered_spy.GetSheHe|U] no fue lo suficientemente cuidadoso!" #NT!
- agot_spy_network.0700.t:0 "Se contrató a un espía" #NT!
- agot_spy_network.0700.desc:0 "[recipient.GetTitledFirstName] se ha unido a las filas de su extensa red de espionaje." #NT!
- agot_spy_network.0700.a:0 "La influencia crece como una mala hierba..." #NT!
+ agot_invite_to_spy_network_interaction: "Reclutar como espía"
+ agot_remove_from_spy_network_interaction: "Descartar Espía"
+ SPY_RECRUIT_GOLD: "Soborno"
+ SPY_RECRUIT_GOLD_VALID: "Pagar [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]"
+ AGOT_RECRUIT_SPY_SKILL_MOD: "Tu habilidad [intrigue|E]: $VALUE|=+0$"
+ AGOT_RECRUIT_SPY_CAP_MODIFIER: "Tienes más espías de los que puedes gestionar: $VALUE|=+0$"
+ highest_held_title_tier_greater_than: "Eres un nivel de título más alto que ellos."
+ DECEITFUL_REASON: "[recipient.GetShortUINameNoTooltip] es engañoso: $VALUE|+0=$"
+ HONEST_REASON: "[recipient.GetShortUINameNoTooltip] es honesto: $VALUE|+0=$"
+ JUST_REASON: "[recipient.GetShortUINameNoTooltip] es solo: $VALUE|+0=$"
+ TRUSTING_REASON: "[recipient.GetShortUINameNoTooltip] es Confiado: $VALUE|+0=$"
+ LAZY_REASON: "[recipient.GetShortUINameNoTooltip] es perezoso: $VALUE|+0=$"
+ SHY_REASON: "[recipient.GetShortUINameNoTooltip] es tímido: $VALUE|+0=$"
+ CRAVEN_REASON: "[recipient.GetShortUINameNoTooltip] es Cobarde: $VALUE|+0=$"
+ PARANOID_REASON: "[recipient.GetShortUINameNoTooltip] es paranoico: $VALUE|+0=$"
+ DRUNKARD_REASON: "[recipient.GetShortUINameNoTooltip] es un borracho: $VALUE|+0=$"
+ CONTRITE_REASON: "[recipient.GetShortUINameNoTooltip] está arrepentido: $VALUE|+0=$"
+ agot_spy_network.0200.interface.employer.t: "Espía revela secreto"
+ agot_spy_network.0200.interface.employer.desc: "Uno de tus espías reveló un secreto en su corte que podría ser útil."
+ agot_spy_network.0200.interface.spymaster.t: "Espía revela secreto"
+ agot_spy_network.0200.interface.spymaster.desc: "Uno de tus espías reveló un secreto en su corte que podría ser útil."
+ agot_spy_network.0210.t: "Mi Lord,"
+ agot_spy_network.0210.desc: "Pude obtener un secreto que [secret_holder.GetTitledFirstName] intenta proteger. Te entregaré las pruebas que encontré, pero solo si mi servicio es recompensado de manera justa."
+ agot_spy_network.0210.a: "¡Necesito saber todo!"
+ agot_spy_network.0210.b: "No estoy interesado."
+ agot_spy_network.0210.c: "No tengo la moneda..."
+ agot_spy_network.0400.t: "Se reclutó a un espía"
+ agot_spy_network.0400.desc: "[councillor.GetTitledFirstName] ha encontrado a una persona dispuesta a ser tu espía en la corte de [target_character.GetTitledFirstName]"
+ agot_spy_network.0400.a: "[new_spy.GetTitledFirstName] me servirá bien"
+ agot_spy_network.0500.t: "Un espía fue descubierto"
+ agot_spy_network.0500.desc: "¡[councillor.GetTitledFirstName] ha descubierto un espía! [discovered_spy.GetTitledFirstName] fue atrapado buscando secretos en los rincones más oscuros de tu corte."
+ agot_spy_network.0500.a: "¿Quien te envio?"
+ agot_spy_network.0510.t: "¡Te han descubierto!"
+ agot_spy_network.0510.desc: "¡De alguna manera se enteraron! Me descubrieron espiando para [discovered_spy_employer.GetTitledFirstName]. Ahora mi vida corre peligro. ¿Quizás pueda sobrevivir a esto si les digo quién me contrató?"
+ agot_spy_network.0510.a: "¡Merced! ¡Te lo contaré todo!"
+ agot_spy_network.0510.b: "¡Mis labios permanecen sellados!"
+ agot_spy_network.0520.t: "Un espía fue descubierto"
+ agot_spy_network.0520.flipped.desc: "[discovered_spy.GetTitledFirstName] expuso voluntariamente quién te está espiando, rogándote clemencia: ¡Era [discovered_spy_employer.GetTitledFirstName]!"
+ agot_spy_network.0520.loyal.desc: "[discovered_spy.GetTitledFirstName] se niega a exponer quién te está espiando."
+ agot_spy_network.0520.desc: "¿Cómo quieres proceder con el traidor?"
+ agot_spy_network.0520.a: "[discovered_spy.GetTitledFirstName] será desterrado del reino."
+ agot_spy_network.0520.b: "[discovered_spy.GetTitledFirstName] debe pudrirse en una celda."
+ agot_spy_network.0520.c: "Sólo hay un castigo para este crimen: ¡La muerte!"
+ agot_spy_network.0520.d: "Seré misericordioso. ¡Pero esta intriga tiene que parar!"
+ agot_spy_network.0600.t: "¡Su espía fue descubierto!"
+ agot_spy_network.0600.desc: "Los informes clandestinos que recibimos de [discovered_spy.GetTitledFirstName] se han detenido repentinamente. Parece que sus habilidades no eran lo suficientemente buenas como para evitar ser descubiertos."
+ agot_spy_network.0600.flipped.desc: "Y lo que es peor, ¡[discovered_spy.GetTitledFirstName] reveló tu participación!"
+ agot_spy_network.0600.a: "¡[discovered_spy.GetSheHe|U] no fue lo suficientemente cuidadoso!"
+ agot_spy_network.0700.t: "Se contrató a un espía"
+ agot_spy_network.0700.desc: "[recipient.GetTitledFirstName] se ha unido a las filas de su extensa red de espionaje."
+ agot_spy_network.0700.a: "La influencia crece como una mala hierba..."
