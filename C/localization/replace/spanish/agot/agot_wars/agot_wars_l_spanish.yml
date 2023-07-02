@@ -1,68 +1,60 @@
 ﻿l_spanish:
-# AGOT REBELLION
- agot_independence_war:0 "Guerra de Independencia" #NT!
- agot_independence_war_name:0 "Guerra de Independencia" #NT!
-
- agot_rebellion_war:0 "Rebelión" #NT!
- agot_rebellion_war_name:0 "Rebelión contra [DEFENDER.GetShortUINameNotMe]" #NT!
- agot_rebellion_war_victory_desc:0 "Con el éxito de la rebelión de [attacker.GetHerHis], [attacker.GetTitledFirstName] decidirá quién gobernará [defender.GetPrimaryTitle.GetName]." #NT!
- AGOT_Realm_will_rebuild:0 "\nCon el final de la guerra, se restaurará el antiguo orden, pero ¿seguirá en pie?" # AGOT TODO why cant I rename this one? #NT!
- agot_rebellion_war_white_peace_desc_defender:0 "Defensor de la paz blanco: jefe no válido. Dile a Gaytriarch si ves esto." #NT!
- agot_rebellion_war_white_peace_desc:0 "Atacante de la paz blanca: jefe no válido. Dile a Gaytriarch si ves esto." #NT!
- agot_rebellion_war_defeat_desc_defender:0 "La rebelión de [attacker.GetNamePossessive] para [defender.GetPrimaryTitle.GetName] ha fallado. [defender.GetName] decidirá el destino de los rebeldes." #NT!
- agot_rebellion_war_defeat_desc:0 "La rebelión de [attacker.GetNamePossessive] para [defender.GetPrimaryTitle.GetName] ha fallado. [defender.GetName] decidirá el destino de los rebeldes." #NT!
-
-# AGOT REVOLT
- agot_revolt_war:0 "Revuelta" #NT!
- agot_revolt_war_name:0 "Rebelión contra [DEFENDER.GetShortUINameNotMe]" #NT!
- agot_revolt_war_victory_desc:0 "[attacker.GetName] y los rebeldes evitan con éxito el castigo y socavan la autoridad de [defender.GetNamePossessive]." #NT!
- agot_revolt_war_white_peace_desc:0 "Esta es una guerra de revueltas, pero no quieren paz blanca. Si ves esto, díselo a Gaytriarch." #NT!
- agot_revolt_war_defeat_desc_defender:0 "La revuelta de [attacker.GetNamePossessive] ha fracasado y el castigo que intentaron evitar ahora se cumplirá." #NT!
- agot_revolt_war_defeat_desc:0 "La revuelta de [attacker.GetNamePossessive] falla, lo que hace que se cumpla la sentencia original de los rebeldes." #NT!
-
- agot_independence_faction_war:0 "Guerra de Independencia" #NT!
- agot_liberty_faction_war:0 "Guerra de la libertad" #NT!
-
-
- wildling_raid_wars_victory_desc:0 "¡Los salvajes han vencido a la Guardia y tomarán todo lo que puedan cargar!" #NT!
- wildling_raid_wars_defeat_desc:0 "Los salvajes fueron derrotados por la Guardia como lo han sido durante miles de años." #NT!
-
- #AGOT TODO
- wildling_raid_wars_white_peace_desc:0 "Marcador de posición Texto de paz blanco" #NT!
- wildling_raid_wars_invalidated_desc:0 "Texto invalidado de marcador de posición" #NT!
-
- WILDLING_RAID_WAR_NAME:0 "Incursión salvaje" #NT!
- WILDLING_RAID_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- WILDLING_RAID_CB:0 "Incursión salvaje" #NT!
- WILDLINGS:0 "Salvajes" #NT!
-
-
- RECLAIM_CB_NAME:0 "Recupera las tierras de la Guardia de la Noche [de_jure|E]" #NT!
- RECLAIM_CB_WAR_NAME:1 "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Guerra de Reclamación de la Guardia Nocturna" #NT!
- RECLAIM_CB_WAR_NAME_BASE:0 "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- de_reclaim_wall_victory_desc:0 "Los salvajes son derrotados y la tierra ha sido devuelta a la Guardia de la Noche." #NT!
- de_reclaim_wall_defeat_desc:0 "Los salvajes retuvieron con éxito la ofensiva, reteniendo el territorio reclamado por la Guardia de la Noche." #NT!
-
- #AGOT ADDED
- reclaim_captives_war_victory_desc:0 "Liberas a todos los cautivos retenidos por [defender.GetShortUIName|U] y su [vassals|e]." #NT!
- reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] libera a todos los cautivos que tienes tú y tu [vassals|e]." #NT!
- reclaim_captives_war_white_peace_desc:0 "Ningún cautivo es liberado." #NT!
- reclaim_captives_war_defeat_desc:0 "Ningún cautivo es liberado." #NT!
- reclaim_captives_war_invalidated_desc:0 "¡$RECLAIM_CAPTIVES_WAR_NAME$ invalidado!" #NT!
- reclaim_captives_war:0 "Cautivos libres" #NT!
- RECLAIM_CAPTIVES_NAME:0 "Cautivos libres" #NT!
- RECLAIM_CAPTIVES_WAR_NAME:1 "Liberar a los cautivos de [DEFENDER.GetPrimaryTitle.GetNameNoTier]" #NT!
- reclaim_captives_war_victory_desc:0 "Liberas a todos los cautivos que están en poder de [defensor.GetShortUIName|U] y sus [vasallos|e]."
- reclaim_captives_war_victory_desc_defender:0 "[attacker.GetShortUIName|U] libera a todos los cautivos que están en su poder y en el de sus [vasallos|e]."
- reclaim_captives_war_white_peace_desc:0 "No se libera a ningún cautivo."
- reclaim_captives_war_defeat_desc:0 "No se libera a ningún cautivo."
- reclaim_captives_war_invalidated_desc:0 "¡$RECLAIM_CAPTIVES_WAR_NAME$ invalidado!"
- reclaim_captives_war:0 "Liberar cautivos"
- RECLAIM_CAPTIVES_NAME:0 "Liberar cautivos"
- RECLAIM_CAPTIVES_WAR_NAME:1 "Liberar Cautivos de [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
-
- #Agot Added
- #By Typical
+ # AGOT REBELLION 
+ agot_independence_war: "Guerra de Independencia"
+ agot_independence_war_name: "Guerra de Independencia"
+  
+ agot_rebellion_war: "Rebelión"
+ agot_rebellion_war_name: "Rebelión contra [DEFENDER.GetShortUINameNotMe]"
+ agot_rebellion_war_victory_desc: "Con el éxito de la rebelión de [attacker.GetHerHis], [attacker.GetTitledFirstName] decidirá quién gobernará [defender.GetPrimaryTitle.GetName]."
+ AGOT_Realm_will_rebuild: "\nCon el final de la guerra, se restaurará el antiguo orden, pero ¿seguirá en pie?"
+ agot_rebellion_war_white_peace_desc_defender: "Defensor de la paz blanco: jefe no válido. Dile a Gaytriarch si ves esto."
+ agot_rebellion_war_white_peace_desc: "Si ves esto esta roto, report to Typical ASAP"
+ agot_rebellion_war_defeat_desc_defender: "La rebelión de [attacker.GetNamePossessive] para [defender.GetPrimaryTitle.GetName] ha fallado. [defender.GetName] decidirá el destino de los rebeldes."
+ agot_rebellion_war_defeat_desc: "La rebelión de [attacker.GetNamePossessive] para [defender.GetPrimaryTitle.GetName] ha fallado. [defender.GetName] decidirá el destino de los rebeldes."
+  
+ # AGOT REVOLT 
+ agot_revolt_war: "Revuelta"
+ agot_revolt_war_name: "Rebelión contra [DEFENDER.GetShortUINameNotMe]"
+ agot_revolt_war_victory_desc: "[attacker.GetName] y los rebeldes evitan con éxito el castigo y socavan la autoridad de [defender.GetNamePossessive]."
+ agot_revolt_war_white_peace_desc: "Esta es una guerra de revueltas, pero no quieren paz blanca. Si ves esto, díselo a Gaytriarch."
+ agot_revolt_war_defeat_desc_defender: "La revuelta de [attacker.GetNamePossessive] ha fracasado y el castigo que intentaron evitar ahora se cumplirá."
+ agot_revolt_war_defeat_desc: "La revuelta de [attacker.GetNamePossessive] falla, lo que hace que se cumpla la sentencia original de los rebeldes."
+  
+ agot_independence_faction_war: "Guerra de Independencia"
+ agot_liberty_faction_war: "Guerra de la libertad"
+  
+  
+ wildling_raid_wars_victory_desc: "¡Los salvajes han vencido a la Guardia y tomarán todo lo que puedan cargar!"
+ wildling_raid_wars_defeat_desc: "Los salvajes fueron derrotados por la Guardia como lo han sido durante miles de años."
+  
+  #AGOT TODO 
+ wildling_raid_wars_white_peace_desc: "Marcador de posición Texto de paz blanco"
+ wildling_raid_wars_invalidated_desc: "Texto invalidado de marcador de posición"
+  
+ WILDLING_RAID_WAR_NAME: "Incursión salvaje"
+ WILDLING_RAID_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ wildling_raid_cb: "Incursión salvaje" #NT!
+ WILDLINGS: "Salvajes"
+  
+  
+ RECLAIM_CB_NAME: "Recupera las tierras de la Guardia de la Noche [de_jure|E]"
+ RECLAIM_CB_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Guerra de Reclamación de la Guardia Nocturna"
+ RECLAIM_CB_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ de_reclaim_wall_victory_desc: "Los salvajes son derrotados y la tierra ha sido devuelta a la Guardia de la Noche."
+ de_reclaim_wall_defeat_desc: "Los salvajes retuvieron con éxito la ofensiva, reteniendo el territorio reclamado por la Guardia de la Noche."
+  
+  #AGOT ADDED 
+ reclaim_captives_war_victory_desc: "Liberas a todos los cautivos que están en poder de [defensor.GetShortUIName|U] y sus [vasallos|e]."
+ reclaim_captives_war_victory_desc_defender: "[attacker.GetShortUIName|U] libera a todos los cautivos que están en su poder y en el de sus [vasallos|e]."
+ reclaim_captives_war_white_peace_desc: "No se libera a ningún cautivo."
+ reclaim_captives_war_defeat_desc: "No se libera a ningún cautivo."
+ reclaim_captives_war_invalidated_desc: "¡$RECLAIM_CAPTIVES_WAR_NAME$ invalidado!"
+ reclaim_captives_war: "Liberar cautivos"
+ RECLAIM_CAPTIVES_NAME: "Liberar cautivos"
+ RECLAIM_CAPTIVES_WAR_NAME: "Liberar Cautivos de [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+  
+  #Agot Added 
+  #By Typical 
  agot_6th_blackfyre_rebellion: "Sexta Rebelión Blackfyre"
  agot_6th_blackfyre_rebellion_name: "Sexta Rebelión Blackfyre"
  agot_6th_blackfyre_rebellion_invalidated: "La Sexta Rebelión Blackfyre ha sido cancelada porque [attacker.GetShortUIName|U] ha muerto."
@@ -72,8 +64,8 @@
  agot_6th_blackfyre_rebellion_victory_desc_attacker: "He depuesto a [defender.GetShortUIName|U] y tomado el titulo de  [defender.GetPrimaryTitle.GetName] para mi mismo"
  agot_6th_blackfyre_rebellion_victory_desc: "Sexta Rebelión Blackfyre ha sido derrotada [attacker.GetShortUIName|U] ha sido tomado prisionero"
  agot_6th_blackfyre_realm_rebuild_loc: "Después de una generación peleando por el Trono de Hierro los Blackfyres se sientan en el"
-
- agot_faegon_landing_war_name: "Invasion [ATTACKER.GetShortUINameNotMe]" 
+  
+ agot_faegon_landing_war_name: "Invasion [ATTACKER.GetShortUINameNotMe]"
  agot_faegon_landing_war_invalidated: "La Invasion de [attacker.GetShortUIName|U] ha sido invalidada porque [attacker.GetShortUIName|U] ha muerto"
  agot_faegon_landing_war_white_peace_desc: "La invasion de Faegon ha terminado en paz blanca, report to Typical"
  agot_faegon_landing_defeat_desc_defender: "He derrotado a [attacker.GetShortUIName|U] y mantenido el control sobre [defender.GetPrimaryTitle.GetName]"
@@ -81,4 +73,9 @@
  agot_faegon_landing_war_victory_desc_attacker: "He depuesto a [defender.GetShortUIName|U] y tomado el titulo de [defender.GetPrimaryTitle.GetName] para mi."
  agot_faegon_landing_war_victory_desc: "[defender.GetShortUIName|U] ha sido tomado prisionero"
  agot_faegon_realm_rebuild_loc: "Despues de años en el exilio la casa Targaryen de nuevo se sienta en el trono de Hierro"
- 
+  
+  #BTW Struggle 
+ CB_COST_STRUGGLE_PHASE_OPPORTUNITY: "[struggle_phase_btw_opportunity|E]" #NT!
+ CB_COST_STRUGGLE_PHASE_HOSTILITY: "[struggle_phase_btw_hostility|E]" #NT!
+ CB_COST_STRUGGLE_PHASE_COMPROMISE: "[struggle_phase_btw_compromise|E]" #NT!
+ CB_COST_STRUGGLE_PHASE_CONCILIATION: "[struggle_phase_btw_conciliation|E]" #NT!

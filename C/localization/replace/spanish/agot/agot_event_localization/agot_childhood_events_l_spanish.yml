@@ -1,43 +1,59 @@
 ﻿l_spanish:
- agot_childhood_events.0001:0 "El niño obtiene un rasgo" #NT!
- agot_childhood_events.0001.t:0 "El lanzamiento de una moneda" #NT!
- agot_childhood_events.0001.desc:0 "
- agot_childhood_events.0002:0 "El niño obtiene un buen rasgo" #NT!
- agot_childhood_events.0002.t:0 "El lanzamiento de una moneda" #NT!
- agot_childhood_events.0002.desc:0 "Cada vez que nace un [GetPlayer.GetHouse.GetBaseName], los dioses lanzan una moneda; por un lado la grandeza y por el otro la locura. Y el mundo contiene la respiración a la espera del resultado. Parece que, por hoy, el sorteo ha aterrizado favorablemente... [child.GetFirstName] [child.Custom('CoinFlip')]" #NT!
- agot_childhood_events.0002.a:0 "Seguiremos tu carrera con gran interés." #NT!
- agot_childhood_events.0003:0 "El niño adquiere un mal rasgo" #NT!
- agot_childhood_events.0003.t:0 "El lanzamiento de una moneda" #NT!
- agot_childhood_events.0003.desc:0 "Cada vez que nace un [GetPlayer.GetHouse.GetBaseName], los dioses lanzan una moneda; por un lado la grandeza y por el otro la locura. Y el mundo contiene la respiración a la espera del resultado. Parecería, por hoy, que el sorteo ha aterrizado... menos que favorablemente. Parecería que [child.GetFirstName] es la viva imagen de la locura." #NT!
- agot_childhood_events.0003.a:0 "¡Ay de la Casa [GetPlayer.GetHouse.GetBaseName]!" #NT!
- coin_flip_diligent:0 "Parece naturalmente trabajador y dedicado a todo lo que hace." #NT!
- coin_flip_learning:0 "Parece tener una aptitud natural para las artes académicas." #NT!
- coin_flip_martial:0 "Parece tener una aptitud natural para los estudios marciales." #NT!
- coin_flip_intrigue:0 "Parece tener una aptitud natural para la intriga." #NT!
- coin_flip_stewardship:0 "Parece tener una aptitud natural para la mayordomía." #NT!
- coin_flip_diplomacy:0 "Parece tener una aptitud natural para la diplomacia." #NT!
- coin_flip_prowess:0 "Parece tener una habilidad natural con la espada." #NT!
- coin_flip_shrewd:0 "Parece tener un talento natural para todo lo que intenta." #NT!
- coin_flip_genius:0 "Parece poseer una visión asombrosa de todo lo que intenta." #NT!
- agot_childhood_events.0004.t:0 "La semilla es fuerte..." #NT!
- agot_childhood_events.0004.desc:0 "A medida que [child.GetFirstName] sigue creciendo, me veo cada vez menos en [child.GetHerHim]. ¿[child.GetSheHe] es ​​realmente mío?" #NT!
- agot_childhood_events.0004.a:0 "Pensándolo bien, tal vez no sea nada después de todo..." #NT!
- agot_childhood_events.0004.b:0 "¡Debo aprender la verdad!" #NT!
- agot_childhood_events.0004.b.success:0 "Si tu hijo no es tuyo, aprenderás el secreto." #NT!
- agot_childhood_events.0004.b.success.bastard.t:0 "Éxito de la investigación" #NT!
- agot_childhood_events.0004.b.success.bastard.desc:0 "¡[child.GetFirstName] es en realidad hijo de [real_father.GetFullName]!" #NT!
- agot_childhood_events.0004.b.success.notbastard.t:0 "Éxito de la investigación" #NT!
- agot_childhood_events.0004.b.success.notbastard.desc:0 "¡[child.GetFirstName] realmente es mi hijo después de todo!" #NT!
- agot_childhood_events.0004.b.failure:0 "No puedes encontrar evidencia" #NT!
- agot_childhood_events.0004.b.failure.t:0 "Fracaso de la investigación" #NT!
- agot_childhood_events.0004.b.failure.desc:0 "No has encontrado pruebas." #NT!
- agot_childhood_events.0004.c:0 "¡Todos deben saber la verdad!" #NT!
- agot_childhood_events.0004.c.tt:0 "Acusaréis públicamente a vuestros hijos de bastardos." #NT!
- agot_childhood_events.0004.c.tt.1:0 "Nadie te cree, y tus vasallos encuentran deshonrosa tu acusación." #NT!
- agot_childhood_events.0004.c.tt.2:0 "La acusación se considera creíble" #NT!
- agot_childhood_events.0004.c.failure.t:0 "Fracaso de la acusación" #NT!
- agot_childhood_events.0004.c.failure.desc:0 "Nadie cree en tus acusaciones, y ahora cree que eres un mentiroso deshonroso." #NT!
- agot_childhood_events.0004.c.success.t:0 "Acusación exitosa" #NT!
- agot_childhood_events.0004.c.success.desc:0 "El público en general cree sus acusaciones. [child.GetFirstName] ha obtenido el rasgo Herencia en disputa." #NT!
- agot_childhood_events.0004.d:0 "Si son o no míos por nacimiento, eso no cambia nada." #NT!
- agot_childhood_events.0004.d.tt:0 "Si su esposa tiene algún secreto patrimonial en disputa, será invalidado." #NT!
+ agot_childhood_events.0001: "El niño obtiene un rasgo"
+ agot_childhood_events.0001.t: "El lanzamiento de una moneda"
+ agot_childhood_events.0001.desc: ""
+ agot_childhood_events.0002: "El niño obtiene un buen rasgo"
+ agot_childhood_events.0002.t: "El lanzamiento de una moneda"
+ agot_childhood_events.0002.desc: "Cada vez que nace un [GetPlayer.GetHouse.GetBaseName], los dioses lanzan una moneda; por un lado la grandeza y por el otro la locura. Y el mundo contiene la respiración a la espera del resultado. Parece que, por hoy, el sorteo ha aterrizado favorablemente... [child.GetFirstName] [child.Custom('CoinFlip')]"
+ agot_childhood_events.0002.a: "Seguiremos tu carrera con gran interés."
+ agot_childhood_events.0003: "El niño adquiere un mal rasgo"
+ agot_childhood_events.0003.t: "El lanzamiento de una moneda"
+ agot_childhood_events.0003.desc: "Cada vez que nace un [GetPlayer.GetHouse.GetBaseName], los dioses lanzan una moneda; por un lado la grandeza y por el otro la locura. Y el mundo contiene la respiración a la espera del resultado. Parecería, por hoy, que el sorteo ha aterrizado... menos que favorablemente. Parecería que [child.GetFirstName] es la viva imagen de la locura."
+ agot_childhood_events.0003.a: "¡Ay de la Casa [GetPlayer.GetHouse.GetBaseName]!"
+ coin_flip_diligent: "Parece naturalmente trabajador y dedicado a todo lo que hace."
+ coin_flip_learning: "Parece tener una aptitud natural para las artes académicas."
+ coin_flip_martial: "Parece tener una aptitud natural para los estudios marciales."
+ coin_flip_intrigue: "Parece tener una aptitud natural para la intriga."
+ coin_flip_stewardship: "Parece tener una aptitud natural para la mayordomía."
+ coin_flip_diplomacy: "Parece tener una aptitud natural para la diplomacia."
+ coin_flip_prowess: "Parece tener una habilidad natural con la espada."
+ coin_flip_shrewd: "Parece tener un talento natural para todo lo que intenta."
+ coin_flip_genius: "Parece poseer una visión asombrosa de todo lo que intenta."
+ agot_childhood_events.0004.t: "La semilla es fuerte..."
+ agot_childhood_events.0004.desc: "A medida que [child.GetFirstName] sigue creciendo, me veo cada vez menos en [child.GetHerHim]. ¿[child.GetSheHe] es ​​realmente mío?"
+ agot_childhood_events.0004.a: "Pensándolo bien, tal vez no sea nada después de todo..."
+ agot_childhood_events.0004.b: "¡Debo aprender la verdad!"
+ agot_childhood_events.0004.b.success: "Si tu hijo no es tuyo, aprenderás el secreto."
+ agot_childhood_events.0004.b.success.bastard.t: "Éxito de la investigación"
+ agot_childhood_events.0004.b.success.bastard.desc: "¡[child.GetFirstName] es en realidad hijo de [real_father.GetFullName]!"
+ agot_childhood_events.0004.b.success.notbastard.t: "Éxito de la investigación"
+ agot_childhood_events.0004.b.success.notbastard.desc: "¡[child.GetFirstName] realmente es mi hijo después de todo!"
+ agot_childhood_events.0004.b.failure: "No puedes encontrar evidencia"
+ agot_childhood_events.0004.b.failure.t: "Fracaso de la investigación"
+ agot_childhood_events.0004.b.failure.desc: "No has encontrado pruebas."
+ agot_childhood_events.0004.c: "¡Todos deben saber la verdad!"
+ agot_childhood_events.0004.c.tt: "Acusaréis públicamente a vuestros hijos de bastardos."
+ agot_childhood_events.0004.c.tt.1: "Nadie te cree, y tus vasallos encuentran deshonrosa tu acusación."
+ agot_childhood_events.0004.c.tt.2: "La acusación se considera creíble"
+ agot_childhood_events.0004.c.failure.t: "Fracaso de la acusación"
+ agot_childhood_events.0004.c.failure.desc: "Nadie cree en tus acusaciones, y ahora cree que eres un mentiroso deshonroso."
+ agot_childhood_events.0004.c.success.t: "Acusación exitosa"
+ agot_childhood_events.0004.c.success.desc: "El público en general cree sus acusaciones. [child.GetFirstName] ha obtenido el rasgo Herencia en disputa."
+ agot_childhood_events.0004.d: "Si son o no míos por nacimiento, eso no cambia nada."
+ agot_childhood_events.0004.d.tt: "Si su esposa tiene algún secreto patrimonial en disputa, será invalidado."
+  
+ agot_childhood_events.0005.t: "Un tipo diferente de baile" #NT!
+ agot_childhood_events.0005.desc: "Estoy deambulando por el patio cuando veo a [other_child.GetFirstName] usando una espada de madera para luchar contra un enemigo invisible.\"¡Toma eso, demonio!\" Observo con curiosidad durante varios momentos antes de que [other_child.GetSheHe] se dé cuenta de que estoy allí.\n\n\ "Hola, milady, solo estaba entrenando, y bueno, no había nadie más alrededor... ¿A menos que quiera unirse?" [other_child.GetSheHe] se sonroja levemente." #NT!
+ agot_childhood_events.0005.desc.alone: "Estoy deambulando por el patio cuando veo un par de espadas de práctica abandonadas; los hijos de algunos cortesanos deben haber estado jugando y se fueron a mitad de un combate. No tengo donde estar por un tiempo..." #NT!
+ agot_childhood_events.0005.a: "¡Esto parece divertido!" #NT!
+ agot_childhood_events.0005.b: "¡Debería aprender como los chicos!" #NT!
+ agot_childhood_events.0005.c: "No, esto es una tontería." #NT!
+ agot_childhood_events.0005.tt: "Comenzarás a entrenar en el manejo de la espada." #NT!
+  
+ agot_childhood_events.0006.t: "Una búsqueda inusual" #NT!
+ agot_childhood_events.0006.desc: "Estoy deambulando por el patio cuando veo a un par de niños que juegan a pelear con espadas de madera. Uno de ellos logra desarmar hábilmente al otro, y con un sobresalto reconozco que es mi hija [child.GetFirstName].\n\nDebe haberme visto ya, porque inmediatamente sale corriendo. \"¿Viste eso? ¡Gané! ¡Seré una guerrera cuando crezca, como Visenya o Nymeria!\"" #NT!
+ agot_childhood_events.0006.desc.alone: "Estoy deambulando por el patio cuando veo a un niño, practicando su esgrima contra el aire. Con un sobresalto, reconozco que en realidad es mi hija [child.GetFirstName].\n\nAparentemente, ella también me ha visto e inmediatamente sale corriendo. \"¡Nunca supe que jugar con la espada fuera tan divertido! ¡Quiero ser una guerrera cuando sea grande, como Visenya o Nymeria!\"" #NT!
+ agot_childhood_events.0006.a: "Entonces, muéstrame qué más has aprendido." #NT!
+ agot_childhood_events.0006.b: "Tal vez a ella también le gustaría aprender el arte de la batalla..." #NT!
+ agot_childhood_events.0006.c: "¡Este no es el pasatiempo apropiado para una dama!" #NT!
+ agot_childhood_events.0006.tt: "[child.GetFirstName] comenzará a entrenar en el manejo de la espada" #NT!

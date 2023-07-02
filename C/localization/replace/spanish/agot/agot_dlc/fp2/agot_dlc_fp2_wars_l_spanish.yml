@@ -1,41 +1,41 @@
 ﻿l_spanish:
   ## Night's Watch Struggle Loc ## 
- GREAT_RANGING_WAR_NAME: "El gran alcance" #NT!
- GREAT_RANGING_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- GREAT_RANGING_CB: "Gran rango" #NT!
- great_ranging_defeat_desc: "Los salvajes ahora saben que la Guardia de la Noche es una sombra de lo que fue." #NT!
- great_ranging_victory_desc: "Los salvajes seguirán discutiendo entre ellos, asegurando la seguridad de los reinos del hombre." #NT!
+ GREAT_RANGING_WAR_NAME: "El gran alcance"
+ GREAT_RANGING_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ GREAT_RANGING_CB: "Gran rango"
+ great_ranging_defeat_desc: "Los salvajes ahora saben que la Guardia de la Noche es una sombra de lo que fue."
+ great_ranging_victory_desc: "Los salvajes seguirán discutiendo entre ellos, asegurando la seguridad de los reinos del hombre."
   
   #AGOT TODO 
- great_ranging_white_peace_desc: "Marcador de posición Texto de paz blanco" #NT!
- great_ranging_invalidated_desc: "Texto invalidado de marcador de posición" #NT!
+ great_ranging_white_peace_desc: "Marcador de posición Texto de paz blanco"
+ great_ranging_invalidated_desc: "Texto invalidado de marcador de posición"
   
- GENERIC_RANGING_WAR_NAME: "Rango más allá del muro" #NT!
- GENERIC_RANGING_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
- GENERIC_RANGING_CB: "Rango más allá del muro" #NT!
+ GENERIC_RANGING_WAR_NAME: "Rango más allá del muro"
+ GENERIC_RANGING_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ GENERIC_RANGING_CB: "Rango más allá del muro"
   
- nw_generic_ranging_cb_desc_victory_attacker: "Ganas [gold|E] en proporción al [development|E] del objetivo [county|E], que disminuirá.\n$border_raid_building_tt$\n$border_raid_warning_tt$" #NT!
- nw_generic_ranging_cb_desc_victory_defender: "[attacker.GetName] gana [gold|E] en proporción a los [development|E] del objetivo [county|E], que disminuirá.\n$border_raid_building_tt$\n$border_raid_warning_tt$" #NT!
- nw_generic_ranging_cb_desc_white_peace_attacker: "Eliges abandonar tu intento de expedición." #NT!
- nw_generic_ranging_cb_desc_white_peace_defender: "[attacker.GetName] abandona [attacker.GetHerHis] expedición de alcance." #NT!
- nw_generic_ranging_cb_desc_defeat_attacker: "Tu expedición de distancia fracasa espectacularmente, dejando atrás armas y suministros por valor de [gold|E]." #NT!
- nw_generic_ranging_cb_desc_defeat_defender: "[attacker.GetName] deja armas y provisiones [gold|E] en su desastrosa expedición." #NT!
- destroy_random_building_tt: "Se destruye un [building|E] aleatorio en [raid_county.GetName], ganando [gold_i] extra" #NT!
- border_raid_building_tt: "Un [building|E] también puede ser destruido." #NT!
- border_raid_warning_tt: "@advertencia_icono! #X No [titles|E] cambiará de manos.#!" #NT!
- nw_generic_ranging_message_title: "Alcance de la Guardia Nocturna" #NT!
+ nw_generic_ranging_cb_desc_victory_attacker: "Ganas [gold|E] en proporción al [development|E] del objetivo [county|E], que disminuirá.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+ nw_generic_ranging_cb_desc_victory_defender: "[attacker.GetName] gana [gold|E] en proporción a los [development|E] del objetivo [county|E], que disminuirá.\n$border_raid_building_tt$\n$border_raid_warning_tt$"
+ nw_generic_ranging_cb_desc_white_peace_attacker: "Eliges abandonar tu intento de expedición."
+ nw_generic_ranging_cb_desc_white_peace_defender: "[attacker.GetName] abandona [attacker.GetHerHis] expedición de alcance."
+ nw_generic_ranging_cb_desc_defeat_attacker: "Tu expedición de distancia fracasa espectacularmente, dejando atrás armas y suministros por valor de [gold|E]."
+ nw_generic_ranging_cb_desc_defeat_defender: "[attacker.GetName] deja armas y provisiones [gold|E] en su desastrosa expedición."
+ destroy_random_building_tt: "Se destruye un [building|E] al azar en [raid_county.GetName] y se gana [gold_i] extra"
+ border_raid_building_tt: "Puede que también se destruya un [building|E]"
+ border_raid_warning_tt: "@warning_icon! #X Los [titles|E] no cambiarán de mano.#!"
+ nw_generic_ranging_message_title: "Alcance de la Guardia Nocturna"
   
- btw_reclamation_cb_victory_desc_attacker_vassalize: "Tú eres vasallo [defender.GetShortUIName|U]" #NT!
- btw_reclamation_cb_victory_desc_defender_vassalize: "[attacker.GetShortUIName|U] te avasalla" #NT!
- btw_reclamation_cb_victory_desc_attacker_conquer_1: "$EFFECT_LIST_BULLET$Te conviertes en [liege|E] de [defender.GetShortUINamePossessive|U] [struggle_involved|E] más bajo [rank|E] [vassals|E] en el objetivo [duchy|E]" #NT!
- btw_reclamation_cb_victory_desc_attacker_conquer_2: "$EFFECT_LIST_BULLET$Ganancias disputadas [struggle_uninvolved|E] en poder de [counties|E], y las de [holders|E] con terrenos fuera de la [duchy|E]\n" #NT!
- btw_reclamation_cb_victory_desc_defender_conquer_1: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] se convierte en [liege|E] de [defender.GetShortUINamePossessive|U] [struggle_involved|E] inferior [rank|E] [vassals|E] en el objetivo [duchy|E]" #NT!
- btw_reclamation_cb_victory_desc_defender_conquer_2: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] ganancias impugnadas sin [struggle_involved|E] poseídas [counties|E], y las de [holders|E] con terrenos fuera del [duchy|E]\n" #NT!
+ btw_reclamation_cb_victory_desc_attacker_vassalize: "Avasallas a [defender.GetShortUIName|U]"
+ btw_reclamation_cb_victory_desc_defender_vassalize: "[attacker.GetShortUIName|U] te avasalla"
+ btw_reclamation_cb_victory_desc_attacker_conquer_1: "$EFFECT_LIST_BULLET$Te conviertes en [liege|E] de los [vassals|E] [Concept( 'struggle_involved', 'involucrados' )|E] de [rank|E] inferior de [defender.GetShortUIName] del [duchy|E] objetivo"
+ btw_reclamation_cb_victory_desc_attacker_conquer_2: "$EFFECT_LIST_BULLET$Ganas [counties|E] [Concept( 'struggle_uninvolved', 'no involucrados' )|E] y los de aquellos [holders|E] con tierras fuera del [duchy|E]\n"
+ btw_reclamation_cb_victory_desc_defender_conquer_1: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] se convierte en [liege|E] de [defender.LocalPlayerString( 'tus', 'los' )] [vassals|E] [Concept( 'struggle_involved', 'involucrados' )|E] de [rank|E] inferior al de [Select_CString( defender.IsLocalPlayer, 'tu persona', defender.GetShortUIName )] del [duchy|E] objetivo"
+ btw_reclamation_cb_victory_desc_defender_conquer_2: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName] gana [counties|E] [Concept( 'struggle_uninvolved', 'no involucrados' )|E] y los de aquellos [holders|E] con tierras fuera del [duchy|E]\n"
   
- btw_reclamation_cb_white_peace_desc_vassalize: "[defender.GetShortUIName|U] seguirá siendo [independent|E]" #NT!
- btw_reclamation_cb_white_peace_desc_conquer: "[defender.GetShortUIName|U] mantendrá lo impugnado [titles|E]" #NT!
- btw_reclamation_cb_defeat_desc_vassalize: "$btw_reclamation_cb_white_peace_desc_vassalize$" #NT!
- btw_reclamation_cb_defeat_desc_conquer: "$btw_reclamation_cb_white_peace_desc_conquer$" #NT!
- btw_reclamation_cb_defeat_desc: "$btw_reclamation_cb_white_peace_desc$" #NT!
+ btw_reclamation_cb_white_peace_desc_vassalize: "[defender.GetShortUIName|U] [defender.LocalPlayerString( 'seguirás', 'seguirá' )] siendo [independent|E]"
+ btw_reclamation_cb_white_peace_desc_conquer: "[defender.GetShortUIName] conservará los [titles|E] disputados."
+ btw_reclamation_cb_defeat_desc_vassalize: "$btw_reclamation_cb_white_peace_desc_vassalize$"
+ btw_reclamation_cb_defeat_desc_conquer: "$btw_reclamation_cb_white_peace_desc_conquer$"
+ btw_reclamation_cb_defeat_desc: "$btw_reclamation_cb_white_peace_desc$"
   
- CB_COST_BTW_RECLAMATION: "Costos [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] por-[county|E]" #NT!
+ CB_COST_BTW_RECLAMATION: "Costos [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] [prestige|E] por-[county|E]"

@@ -1,22 +1,22 @@
 ﻿l_spanish:
- #Estos claramente son marcadores de posición por ahora, por favor envíe loc ayuda - Típico
-
+  #Those clearly are placeholders for now, please send loc help - Typical 
+  
  faegon_landing.0002.opening: "[faegon.Custom2('AppropriateGreeting', ROOT.Char)]"
  faegon_landing.0002.d: "Mi [ROOT.Char.GetLadyLord], sé que eres un sabio y noble [ROOT.Char.GetWomanMan]. Mi nombre es [faegon.GetTitledFirstName], [faegon.Custom('GetDaughterSon')] de [rogort.GetTitledFirstName], y el Trono de Hierro es mío por derecho. ¿Prometéis vuestros estandartes a mi justa causa y ayudáis a recuperar el trono de manos de los usurpadores?."
  faegon_landing.0002.opt.a: "Te serviré fielmente. Larga vida a la Casa del Dragón."
  faegon_landing.0002.opt.b: "El único dragón bueno es un dragón muerto. Vete, Mendigo [faegon.GetTitleTierName]."
-
- #Este evento muestra los pensamientos de los personajes acerca de desembarcar en westeros de nuevo, sus esperanzas, sueños y ambiciones despues de tomar el trono, tambien incluye algunas breves bromas con el Capitan General de la Compania Dorada (solo si no desembarcan despues de perder el trono a manos de blackfyres) y Jon Con (solo Faegon y Jae).
- #saved scopes faegon_loc, faegon_story_loc (la variable agot_faegon_landing_title almacenada en esta historia contiene el valor del condado en el que Faegon desembarcó), strickland and, jon_con
+  
+  #This event states character thoughts about landing in westeros again, their hopes dreams and ambitions after taking the throne also it includes some short banter with Captain General of Golden Company (only if they dont land after losing throne to blackfyres) and Jon Con (Faegon and Jae only) 
+  #saved scopes faegon_loc, faegon_story_loc (variable agot_faegon_landing_title stored on this story holds value of county in which Faegon landed), strickland and, jon_con 
  faegon_landing.0003.t: "Desembarco del Dragón"
  faegon_landing.0003.d.faegon: "Soy [faegon_loc.GetTitledFirstNameNicknamed] de la Casa Targaryen, sexto de mi nombre, e hijo primogénito de [rogort.GetFirstName], Príncipe de Rocadragón. Soy Rey de los Ándalos, los Rhoynar y los Primeros Hombres, Señor de los Siete Reinos y Protector del Reino. Vengaré la muerte de mi padre en el Tridente, y recuperaré el Trono de Hierro por el bien de mi casa, y por el bien del reino."
- #Aegon "Joven Griff" Targaryen
- faegon_landing.0003.d.dany: "Soy [faegon_loc.GetTitledFirstNameNicknamed] de la Casa Targaryen, primera de mi nombre, hija del Rey Aerys II, Reina de los Ándalos, los Rhoynar y los Primeros Hombres, Señora de los Siete Reinos y Protectora del Reino. Recuperaré el Trono de Hierro a sangre y fuego." #Danearys Targaryen
- faegon_landing.0003.d.viserys: "¡Soy [faegon_loc.GetTitledFirstName] de la Casa Targaryen, tercero de mi nombre, y el último hijo superviviente del Rey Aerys el Depuesto! Soy el legítimo Señor de los Siete Reinos, Rey de los Ándalos, los Rhoynar y los Primeros Hombres, Príncipe de Rocadragón y Protector del Reino. Yo soy el dragón, ¡y recuperaré mi Trono de Hierro!." #viserys targaryen
- faegon_landing.0004.d.jae: "Soy [faegon_loc.GetTitledFirstNameNicknamed], tercero de mi nombre, hijo del Príncipe Rhaegar y Lyanna Stark. Soy el legítimo Rey de los Ándalos, los Rhoynar y los Primeros Hombres. Soy el Señor de los Siete Reinos y juro proteger el reino de aquellos que lo dañarían. Tomaré el Trono de Hierro." #jon snow
- faegon_landing.0003.d.post_blackfyre_win: "Soy [faegon_loc.GetTitledFirstNameNicknamed] de la Casa [faegon_loc.GetHouse.GetName], [faegon_loc.Custom('GetDaughterSon')] de [faegon_loc.GetFather.GetTitledFirstName]. [faegon_loc.GetTitleTierName] de los Ándalos, los Rhoynar y los Primeros Hombres, [faegon_loc.GetLadyLord] de los Siete Reinos y Protector del Reino. Reclamaré el Trono de Hierro a los falsos dragones y haré justicia a los traidores que se lo dieron." 
+  #Aegon "Young Griff" Targaryen "Griff joven" #NT!
+ faegon_landing.0003.d.dany: "Soy [faegon_loc.GetTitledFirstNameNicknamed] de la Casa Targaryen, primera de mi nombre, hija del Rey Aerys II, Reina de los Ándalos, los Rhoynar y los Primeros Hombres, Señora de los Siete Reinos y Protectora del Reino. Recuperaré el Trono de Hierro a sangre y fuego."
+ faegon_landing.0003.d.viserys: "¡Soy [faegon_loc.GetTitledFirstName] de la Casa Targaryen, tercero de mi nombre, y el último hijo superviviente del Rey Aerys el Depuesto! Soy el legítimo Señor de los Siete Reinos, Rey de los Ándalos, los Rhoynar y los Primeros Hombres, Príncipe de Rocadragón y Protector del Reino. Yo soy el dragón, ¡y recuperaré mi Trono de Hierro!."
+ faegon_landing.0004.d.jae: "[faegon_loc.GetTitledFirstName], un reclamante Targaryen ha desembarcado en [faegon_story_loc.MakeScope.Var('agot_faegon_landing_title').Title.GetName] con las 10.000 tropas al mando de [strickland.GetTitledFirstName] de la Compañía Dorada. Mientras resurge el recuerdo de la dinastía depuesta de Aegon el Conquistador, Poniente vuelve a estar en guerra. Se invocarán estandartes, se jurarán espadas y se harán juramentos cuando el Forastero regrese a los Siete Reinos."
+ faegon_landing.0003.d.post_blackfyre_win: "Soy [faegon_loc.GetTitledFirstNameNicknamed] de la Casa [faegon_loc.GetHouse.GetName], [faegon_loc.Custom('GetDaughterSon')] de [faegon_loc.GetFather.GetTitledFirstName]. [faegon_loc.GetTitleTierName] de los Ándalos, los Rhoynar y los Primeros Hombres, [faegon_loc.GetLadyLord] de los Siete Reinos y Protector del Reino. Reclamaré el Trono de Hierro a los falsos dragones y haré justicia a los traidores que se lo dieron."
  faegon_landing.0003.opt: "El Dragón ha aterrizado"
-
+  
  faegon_landing.0004.t: "Invasion de [faegon.GetFirstName] "
  faegon_landing.0004.d.faegon: "[faegon_loc.GetTitledFirstName], un reclamante Targaryen ha desembarcado en [faegon_story_loc.MakeScope.Var('agot_faegon_landing_title').Title.GetName] con el exiliado [jon_con.GetTitledFirstName] y 10.000 tropas bajo el mando de [strickland.GetTitledFirstName] de la Compañía Dorada. Cuando resurge el recuerdo de la dinastía depuesta de Aegon el Conquistador, Poniente vuelve a estar en guerra. Se invocarán estandartes, se jurarán espadas y se harán juramentos cuando el Forastero regrese a los Siete Reinos."
  faegon_landing.0004.d.dany: "[faegon_loc.GetTitledFirstName], un reclamante Targaryen ha desembarcado en [faegon_story_loc.MakeScope.Var('agot_faegon_landing_title').Title.GetName] con las 10.000 tropas al mando de [strickland.GetTitledFirstName] de la Compañía Dorada. Cuando resurge el recuerdo de la dinastía depuesta de Aegon el Conquistador, Poniente vuelve a estar en guerra. Se invocarán estandartes, se jurarán espadas y se harán juramentos cuando el Forastero regrese a los Siete Reinos."
@@ -26,36 +26,36 @@
  faegon_landing.0004.opt.a: "¿El dragón tiene tres cabezas? ¡Cortémoslas!"
  faegon_landing.0004.opt.b: "Tal vez esto podría ser ventajoso"
  faegon_landing.0004.opt.c: "Vamos a ver lo que tienen que ofrecer"
-
+  
  faegon_landing.0006.t: "6ª Rebelión Blackfyre"
  faegon_landing.0006.d: "Graves noticias para Poniente [faegon_fyre_loc.GetTitledFirstName] un vástago largamente olvidado de la traicionera Casa Blackfyre ha desembarcado en [faegon_fyre_story_loc.MakeScope.Var('agot_faegon_landing_title').Title.GetName], y con [faegon_fyre_loc.GetHerHim] desembarcan 10.000 soldados al mando de [strickland.GetTitledFirstName]. Justo cuando se creía que las heridas del reino se estaban curando, los Siete Reinos vuelven a estar en guerra."
-
+  
  faegon_landing.0006.opt.a: "¡A las armas! Este dragón negro debe ser aplastado."
  faegon_landing.0006.opt.b: "Tal vez esto podría ser ventajoso"
  faegon_landing.0006.opt.c: "¿Tal vez debería unirme a este dragón negro?"
-
+  
  faegon_landing.0007.t: "Dragón negro triunfante"
  faegon_landing.0007.d: "[faegon_fyre_loc.GetTitledFirstName] ha tomado el Trono de Hierro. La Fortaleza Roja ha caído en manos de los Blackfyres y un dragón negro se sienta ahora en un charco de sangre roja traidora. El falso [former_king.GetTitledFirstName] yace prisionero en las celdas negras y la familia del [former_king.GetHerHis] está dispersa en el exilio a través del Mar Angosto. Desde Dorne hasta el Muro, ¡que se sepa que Daemon el Trueborn ha sido vengado!."
  faegon_landing.0007.opt: "Que comience mi reinado"
  agot_6th_blackfyre_targs_flee: "Todos los miembros restantes de [former_king.GetHouse.GetName] huyen a Essos"
-
+  
  faegon_landing.0008.t: "El origen del dragón"
  faegon_landing.0008.d: "La guerra está ganada y me siento en lo alto del Trono de Hierro. Sin embargo, una pregunta candente todavía me atormenta, día y noche. ¿Quién soy realmente? ¿El hijo perdido de Rhaegar Targaryen? ¿O tal vez es sólo una historia que esconde una verdad mucho más dolorosa?"
  faegon_landing.0008.opt.a: "Soy el hijo de [blackfyre_parent.GetFirstNameNicknamed]"
  faegon_landing.0008.opt.b: "En realidad soy hijo de [rodgir_father.GetFirstNameNicknamed]"
  faegon_landing.0008.opt.c: "Soy descendiente de [brightonion_father.GetNickname]"
  faegon_landing.0008.opt.d: "No soy más que un Pobre Compañero"
-
+  
  faegon_landing.0009.t: "Dragón Rojo Triunfante"
  faegon_landing.0009.d: "¡Soy victorioso! Señores y guerreros regresan a sus hogares y todos esperan de su nuevo [faegon_loc.GetTitleTierName] un largo reinado lleno de paz y prosperidad ahora que el falso [former_king.GetTitledFirstName] se ha ido. Los legítimos gobernantes de los Siete Reinos, el linaje de Aegon el Conquistador, ¡han regresado!."
  faegon_landing.0009.opt: "Que comience mi reinado"
-
+  
  faegon_landing.0010.opening: "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
  faegon_landing.0010.d: "Alteza. Le juro mi casa y sus estandartes"
  faegon_landing.0010.opt: "Grande"
  faegon_landing.0011.opening: "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
  faegon_landing.0011.d: "Expulsamos a los Targaryen hace mucho tiempo. [ROOT.Char.GetFaith.DevilName] ¡te llevamos!"
  faegon_landing.0011.opt: "Os deseo buena suerte en las guerras venideras, para que sobreviváis lo suficiente para someteros ante nosotros."
-
+  
  the_golden_company_name: "La Compañía Dorada"
  targaryen_host: "Anfitrión Targaryen"

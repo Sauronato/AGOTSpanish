@@ -1,49 +1,49 @@
 ﻿l_spanish:
   
- cardinals_pope: "Septón alto" #NT!
- cardinals_preferatus: "[papabile]" #NT!
- cardinals_cardinal: "Septón Devoto [Character.GetFirstNameNoTooltip]" #NT!
- cardinals_electors: "Los más devotos" #NT!
- cardinals_college: "[collegeofcardinals]" #NT!
- cardinals_cardinal2: "Septón devoto de [Character.GetPrimaryTitle.GetNameNoTier]" #NT!
- cardinals_cardinal3: "Septón devoto de [Character.GetLiege.GetPrimaryTitle.GetNameNoTier]" #NT!
- cardinals_candidacy: "Candidatura más entregada" #NT!
- cardinals_predictus: "[praedictus]" #NT!
- cardinals_my_candidate: "Mi candidato" #NT!
- VIEW_CARDINAL_WINDOW_TITLE: "Los más devotos" #NT!
- cardinals_college_title: "[collegeofcardinals|E]" #NT!
- VIEW_CARDINAL_WINDOW_TITLE_TOOLTIP: "#T $cardinals_college_title$#!\nView el Más Devoto y sus Devotos Septones, Esta organización es un núcleo [core_tenets|E] de la Fe de los Siete [faith|E]." #NT!
+ cardinals_pope: "Septón alto"
+ cardinals_preferatus: "[papabile]"
+ cardinals_cardinal: "Septón Devoto [Character.GetFirstNameNoTooltip]"
+ cardinals_electors: "Los más devotos"
+ cardinals_college: "[collegeofcardinals]"
+ cardinals_cardinal2: "Septón devoto de [Character.GetPrimaryTitle.GetNameNoTier]"
+ cardinals_cardinal3: "Septón devoto de [Character.GetLiege.GetPrimaryTitle.GetNameNoTier]"
+ cardinals_candidacy: "Candidatura más entregada"
+ cardinals_predictus: "[praedictus]"
+ cardinals_my_candidate: "Mi candidato"
+ VIEW_CARDINAL_WINDOW_TITLE: "Los más devotos"
+ cardinals_college_title: "[collegeofcardinals|E]"
+ VIEW_CARDINAL_WINDOW_TITLE_TOOLTIP: "#T $cardinals_college_title$#!\nView el Más Devoto y sus Devotos Septones, Esta organización es un núcleo [core_tenets|E] de la Fe de los Siete [faith|E]."
   
  #Window Candidate 
- candiatesoon: "                                            Pronto aparecerá un candidato" #NT!
- candiatesoonpope: "Los más devotos no pueden tener candidatos." #NT!
+ candiatesoon: "                                            Pronto aparecerá un candidato"
+ candiatesoonpope: "Los más devotos no pueden tener candidatos."
   
  #Invest 
- window_cardinals_divest_tooltip: "Retirar la inversión Devuelve la mitad de la inversión inicial." #NT!
- window_cardinals_invest_tooltip: "¡Invertir en Candidato! Cuesta 50 Oro, ¡Retirar la inversión más tarde devuelve sólo la mitad de la inversión inicial!" #NT!
+ window_cardinals_divest_tooltip: "Retirar la inversión Devuelve la mitad de la inversión inicial."
+ window_cardinals_invest_tooltip: "¡Invertir en Candidato! Cuesta 50 Oro, ¡Retirar la inversión más tarde devuelve sólo la mitad de la inversión inicial!"
   
- close_tooltip: "Cerrar" #NT!
+ close_tooltip: "Cerrar"
   # Pope score breakdown 
- cardinals_score_papal: "¡@icon_popinion!Alta puntuación de Septon:" #NT!
- cardinals_score_cardinal: "@icon_popinion!Septon Score:" #NT!
- cardinals_score_popinion: "Popinion:" #NT!
- cardinals_score_culture: "[culture|E]:" #NT!
- cardinal_piety_bonus: "[piety_i][piety|E] ([Character.GetPiety|+0])" #NT!
- cardinal_prestige_bonus: "[prestige_i][prestige|E] ([Character.GetPrestige|+0])" #NT!
- cardinal_gold_bonus: "[gold_i][gold|E] ([Character.GetGold|+0])" #NT!
- cardinal_learning_bonus: "[learning_i][learning|E]" #NT!
- cardinal_age_bonus: "Edad ([Character.GetAge|V])" #NT!
- cardinal_dynasty_bonus: "[dynasty|E] [dynasty_prestige|E]" #NT!
- cardinal_location_bonus: "Localización ([Character.GetCurrentLocation.GetName])" #NT!
- cardinal_culture_bonus: "[culture|E] ([Character.GetCulture.GetName])" #NT!
- cardinal_virtue_bonus: "[virtues|E] ([TopScope.ScriptValue('cardinal_virtue_count')|+0])" #NT!
- #  cardinal_sin_penalty: "[sins|E] ([TopScope.ScriptValue('cardinal_sin_count')|-0])" #NT!
- cardinal_popinion_bonus: "Opinión de Septón Alto" #NT!
- cardinal_money_bonus: "[gold_i]Financiación de campañas ([Character.MakeScope.Var('cardinal_campaign_contribution').GetValue|0V])" #NT!
- cardinal_secular_power_bonus: "Poder secular" #NT!
- cardinal_theocratic_power_bonus: "Poder teocrático" #NT!
- cardinal_event_bonus: "Bonificación por evento" #NT!
- cardinal_too_old: "Demasiado viejo" #NT!
- cardinal_already_cardinal: "Ya Septon" #NT!
+ cardinals_score_papal: "¡@icon_popinion!Alta puntuación de Septon:"
+ cardinals_score_cardinal: "@icon_popinion!Septon Score:"
+ cardinals_score_popinion: "Popinion:"
+ cardinals_score_culture: "[culture|E]:"
+ cardinal_piety_bonus: "[piety_i][piety|E] ([Character.GetPiety|+0])"
+ cardinal_prestige_bonus: "[prestige_i][prestige|E] ([Character.GetPrestige|+0])"
+ cardinal_gold_bonus: "[gold_i][gold|E] ([Character.GetGold|+0])"
+ cardinal_learning_bonus: "[learning_i][learning|E]"
+ cardinal_age_bonus: "Edad ([Character.GetAge|V])"
+ cardinal_dynasty_bonus: "[dynasty|E] [dynasty_prestige|E]"
+ cardinal_location_bonus: "Localización ([Character.GetCurrentLocation.GetName])"
+ cardinal_culture_bonus: "[culture|E] ([Character.GetCulture.GetName])"
+ cardinal_virtue_bonus: "[virtues|E] ([TopScope.ScriptValue('cardinal_virtue_count')|+0])"
+ #  cardinal_sin_penalty: "[sins|E] ([TopScope.ScriptValue('cardinal_sin_count')|-0])"
+ cardinal_popinion_bonus: "Opinión de Septón Alto"
+ cardinal_money_bonus: "[gold_i]Financiación de campañas ([Character.MakeScope.Var('cardinal_campaign_contribution').GetValue|0V])"
+ cardinal_secular_power_bonus: "Poder secular"
+ cardinal_theocratic_power_bonus: "Poder teocrático"
+ cardinal_event_bonus: "Bonificación por evento"
+ cardinal_too_old: "Demasiado viejo"
+ cardinal_already_cardinal: "Ya Septon"
   
- collegeofcardinals: "[collegeofcardinals]" #NT!
+ collegeofcardinals: "Los más devotos"

@@ -1,44 +1,51 @@
 ﻿l_spanish:
- bell_special_yearly.1000.t:0 "La campana de [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
- #AGOT Modificado
-#bell_special_yearly.1000.desc:0 "Mi [steward.GetCouncilTitle] [steward.GetFirstName] me ha sugerido que inspeccione una septa cercana abandonada de la época de los visigodos.\nEn medio de la bóveda de cañón y los arcos de herradura, hay un campanario que en su día fue hermoso, con varias campanas en ruinas a las que les faltan los badajos.\nMientras deambulo por la ruina, oigo un ruido de cascos. Al asomarme por un agujero, veo que [faction_member_1.GetTitledFirstName] se acerca. ¿Podría [miembro_de_facción_1.GetSheHe] pensar que este lugar podría ser un escondite para su facción traidora?."
-bell_special_yearly.1000.desc:0 "Mi [steward.GetCouncilTitle] [steward.GetFirstName] me ha sugerido que inspeccione una septa cercana abandonada de la época de los Ándalos.En medio del techo abovedado de cañón y los arcos de herradura, hay un campanario antaño hermoso, con varias campanas en ruinas a las que les faltan los badajos.Mientras deambulo por la ruina, oigo un ruido de cascos. Al asomarme por un agujero, veo que [faction_member_1.GetTitledFirstName] se acerca. ¿Pensará [faction_member_1.GetSheHe] que este lugar podría ser un escondite para su facción traidora?."
- # [faction_member_1_faction.GetName]
- bell_special_yearly.1000.a:0 "¡Podría matar[faction_member_1.GetHerHim] ahora que nadie me ve!"
- bell_special_yearly.1000.a.tt:0 "Te acercas sigilosamente a [faction_member_1.GetTitledFirstName|l] e intentas asesinar[faction_member_1.GetHerHim]"
- bell_special_yearly.1000.b:0 "Debería escabullirme silenciosamente."
-
- bell_special_yearly.1500.desc:0 "Me escondo en la antecámara de la septa, y solo puedo oír los latidos sordos de mi corazón asesino y los pasos de [faction_member_1.GetTitledFirstName|l].\n\nCuando entra en la habitación, le golpeo la cabeza con un escombro, y [faction_member_1.GetSheHe] cae al suelo.\n\nMientras golpeo una y otra vez, una fantasía fugaz nubla mis visiones teñidas de sangre. El sueño de este viejo campanario haciendo música de nuevo, con las cabezas de mis enemigos como badajos."
- bell_special_yearly.1500.a:0 "¡Otro necio díscolo que se unirá a mi carillón!"
- bell_special_yearly.1500.a.tt:0 "Buscas otra víctima."
- bell_special_yearly.1500.discovery.tt:0 "Las probabilidades de que te descubran aumentan."
- bell_special_yearly.1500.b:0 "Debería irme a casa y descansar."
- bell_special_yearly.1500.b.tt:0 "Dejas de reunir cabezas para la campana."
-
- bell_special_yearly.2000.desc:1 "Exijo [faction_member_2.Custom('ES_AlAla')] repelente [faction_member_2.GetTitledFirstName|l] que visite mi [ROOT.Char.Custom('FortifiedBuilding')] y me disfrazo de trovador. Con el disfraz, proclamo que «¡[ROOT.Char.GetTitledFirstName|l] os exige escuchar esta nueva y maravillosa composición inventada aquí en la capital!».\n\nUna vez que está dentro, [faction_member_2.GetHerHim] obligo a entrar en una cámara sol[faction_member_2.Custom('ES_OA')]. Allí toco las #italic canços#! más insulsas que puedo durante horas hasta que semejante imbécil se duerme.\n\nTrabajo con rapidez: estrangulo a mi enemig[faction_member_2.Custom('ES_OA')] con una de las cuerdas del laúd, meto la cabeza en la funda del laúd y salgo corriendo por los pasillos antes de que nadie pueda parpadear."
- bell_special_yearly.2000.a:0 "¡La campana todavía necesita más cabezas!"
- bell_special_yearly.2000.b:0 "Es un delito hermoso; no me arriesgaré a que se estropee."
-
-#Dropping an organ out of a window
- bell_special_yearly.3000.desc:0 "He forzado una visita real al/a la [ROOT.Char.Custom('FortifiedBuilding')] [faction_member_3.Custom('ES_DelDela')] [faction_member_3.GetTitledFirstName|l] bajo el pretexto de intentar disipar las tensiones con su facción rebelde. Durante una pausa en las negociaciones, examino sus salas de música y pido que me dejen tocar a solas.\n\nLa sala de música tiene un gran ventanal sobre el jardín del [ROOT.Char.Custom('FortifiedBuilding')] y un órgano bastante grande al lado. El momento es demasiado perfecto.\n\nCuando [faction_member_3.GetFirstNameNoTooltip] pasa por debajo de la ventana para tomarse un momento de solaz, empujo el órgano. Se acelera en el aire y [faction_member_3.GetHerHim] aplasta. Riendo tontamente me apresuro a recoger la cabeza antes de que se descubra la muerte."
- bell_special_yearly.3000.a:0 "¡La campana será una maravilla!"
- bell_special_yearly.3000.b:0 "Todos los días ocurren accidentes raros con los teclados."
-
-#[faction_member_3_faction.GetName]
- bell_special_yearly.4000.desc:0 "Me entretengo en mi jardín, jugando ensimismad[ROOT.Char.Custom('ES_OA')] con las rosas, arrancándoles las flores una a una.\n\nMe pregunto qué hacer con mi campanario. ¿Estará destinado a resonar?"
- bell_special_yearly.4000.desc_discoverer:0 "\n\nMientras reflexiono sobre ello, noto que [bell_discoverer.GetTitledFirstName|l], un[bell_discoverer.Custom('ES_OA')] de [bell_discoverer.GetHerHim]s que aún lloran a una víctima de las desapariciones, me mira fijamente en el jardín. Contengo la risa, y casi quiero decírselo en el acto."
- bell_special_yearly.4000.a:0 "¡Debería dar un gran concierto en la septa!"
- bell_special_yearly.4000.a.tt:0 "Todos son conscientes de tus asesinatos."
- bell_special_yearly.4000.b:0 "Nadie tiene por qué conocer mis entretenimientos privados."
- bell_discovery_success_effect:0 "La campana se mantiene en secreto"
- bell_discovery_failure_effect:0 "Se ha descubierto la campana"
-
-
- bell_special_yearly.5000.desc:0 "Salgo una noche a visitar mi campana y a deleitarme con su resplandeciente villanía. Para sorpresa mía, ya hay antorchas titilando al entrar en las ruinas.\n\nAl principio imagino que los fantasmas de los visigodos están disgustados por haber profanado su septa, pero entonces [bell_discoverer.GetTitledFirstName|l] se quita la capucha. «Siento que he viajado al [bell_discoverer.GetFaith.NegativeAfterLife] y que estaré allí toda mi vida, después de descubrir la abominación que habéis causado. ¡Os uniréis a vuestras víctimas, criatura!»\n\nApenas acierto a sentir un tajo de acero que me atraviesa el cuello y luego ya no siento nada en absoluto."
- bell_special_yearly.5000.a:0 "Táñeme, [bell_discoverer.GetTitledFirstName|l]."
-
-
- bell_special_yearly.6000.desc:0 "Se celebra un concierto en las ruinas visigodas para toda la corte; se promete una velada de música en una antigua septa a la luz de las velas.\n\nEl repertorio habitual de los juglares prosigue mientras algunos invitados se quejan del peculiar olor. Disfrutamos de algunas melodías ligeras de flauta y cuerda, y las piezas se vuelven más lúgubres a medida que avanza la noche.\n\nAl final, los sirvientes obedecen mi orden de hacer sonar las campanas al ritmo de la última canción. Los gritos de mis cortesanos se unen a las voces del coro cuando todos contemplan mis cabezas sonoras."
- bell_special_yearly.6000.a:0 "¡Qué melodía!"
- bell_special_yearly.6000.b:0 "¡Los demás os uniréis a ellos si me desafiáis!"
-
+ bell_special_yearly.1000.t: "La campana de [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
+  #AGOT Modified 
+ #bell_special_yearly.1000.desc: "Mi [steward.GetCouncilTitle] [steward.GetFirstName] me ha sugerido que inspeccione una septa cercana abandonada de la época de los visigodos.\nEn medio de la bóveda de cañón y los arcos de herradura, hay un campanario que en su día fue hermoso, con varias campanas en ruinas a las que les faltan los badajos.\nMientras deambulo por la ruina, oigo un ruido de cascos. Al asomarme por un agujero, veo que [faction_member_1.GetTitledFirstName] se acerca. ¿Podría [miembro_de_facción_1.GetSheHe] pensar que este lugar podría ser un escondite para su facción traidora?."
+ bell_special_yearly.1000.desc: "Mi [steward.GetCouncilTitle] [steward.GetFirstName] me ha sugerido que inspeccione una septa cercana abandonada de la época de los Ándalos.En medio del techo abovedado de cañón y los arcos de herradura, hay un campanario antaño hermoso, con varias campanas en ruinas a las que les faltan los badajos.Mientras deambulo por la ruina, oigo un ruido de cascos. Al asomarme por un agujero, veo que [faction_member_1.GetTitledFirstName] se acerca. ¿Pensará [faction_member_1.GetSheHe] que este lugar podría ser un escondite para su facción traidora?."
+  # [faction_member_1_faction.GetName] 
+ bell_special_yearly.1000.a: "¡Podría matar[faction_member_1.GetHerHim] ahora que nadie me ve!"
+ bell_special_yearly.1000.a.tt: "Te acercas sigilosamente a [faction_member_1.GetTitledFirstName|l] e intentas asesinar[faction_member_1.GetHerHim]"
+ bell_special_yearly.1000.b: "Debería escabullirme silenciosamente."
+  
+  #AGOT Modified 
+ #bell_special_yearly.1500.desc: "Me escondo en la antecámara de la iglesia, y solo puedo escuchar el latido de mi corazón asesino y los pasos de [faction_member_1.GetTitledFirstNamePossessive].\n\nCuando [faction_member_1.GetSheHe] entra en la habitación, golpeo la cabeza de [faction_member_1.GetHerHis] con un pedazo de escombros, y [faction_member_1.GetSheHe] queda derribado. al suelo.\n\nMientras golpeo una y otra vez, una fantasía fugaz nubla mis visiones teñidas de sangre. Un sueño de este viejo campanario haciendo música de nuevo, con todas las cabezas de mis enemigos como badajos." #NT!
+ bell_special_yearly.1500.desc: "Me escondo en la antecámara de la septa, y solo puedo oír los latidos sordos de mi corazón asesino y los pasos de [faction_member_1.GetTitledFirstName|l].\n\nCuando entra en la habitación, le golpeo la cabeza con un escombro, y [faction_member_1.GetSheHe] cae al suelo.\n\nMientras golpeo una y otra vez, una fantasía fugaz nubla mis visiones teñidas de sangre. El sueño de este viejo campanario haciendo música de nuevo, con las cabezas de mis enemigos como badajos."
+ bell_special_yearly.1500.a: "¡Otro necio díscolo que se unirá a mi carillón!"
+ bell_special_yearly.1500.a.tt: "Buscas otra víctima."
+ bell_special_yearly.1500.discovery.tt: "Las probabilidades de que te descubran aumentan."
+ bell_special_yearly.1500.b: "Debería irme a casa y descansar."
+ bell_special_yearly.1500.b.tt: "Dejas de reunir cabezas para la campana."
+  
+ bell_special_yearly.2000.desc: "Exijo [faction_member_2.Custom('ES_AlAla')] repelente [faction_member_2.GetTitledFirstName|l] que visite mi [ROOT.Char.Custom('FortifiedBuilding')] y me disfrazo de trovador. Con el disfraz, proclamo que «¡[ROOT.Char.GetTitledFirstName|l] os exige escuchar esta nueva y maravillosa composición inventada aquí en la capital!».\n\nUna vez que está dentro, [faction_member_2.GetHerHim] obligo a entrar en una cámara sol[faction_member_2.Custom('ES_OA')]. Allí toco las #italic canços#! más insulsas que puedo durante horas hasta que semejante imbécil se duerme.\n\nTrabajo con rapidez: estrangulo a mi enemig[faction_member_2.Custom('ES_OA')] con una de las cuerdas del laúd, meto la cabeza en la funda del laúd y salgo corriendo por los pasillos antes de que nadie pueda parpadear."
+ bell_special_yearly.2000.a: "¡La campana todavía necesita más cabezas!"
+ bell_special_yearly.2000.b: "Es un delito hermoso; no me arriesgaré a que se estropee."
+  
+ #Dropping an organ out of a window 
+ bell_special_yearly.3000.desc: "He forzado una visita real al/a la [ROOT.Char.Custom('FortifiedBuilding')] [faction_member_3.Custom('ES_DelDela')] [faction_member_3.GetTitledFirstName|l] bajo el pretexto de intentar disipar las tensiones con su facción rebelde. Durante una pausa en las negociaciones, examino sus salas de música y pido que me dejen tocar a solas.\n\nLa sala de música tiene un gran ventanal sobre el jardín del [ROOT.Char.Custom('FortifiedBuilding')] y un órgano bastante grande al lado. El momento es demasiado perfecto.\n\nCuando [faction_member_3.GetFirstNameNoTooltip] pasa por debajo de la ventana para tomarse un momento de solaz, empujo el órgano. Se acelera en el aire y [faction_member_3.GetHerHim] aplasta. Riendo tontamente me apresuro a recoger la cabeza antes de que se descubra la muerte."
+ bell_special_yearly.3000.a: "¡La campana será una maravilla!"
+ bell_special_yearly.3000.b: "Todos los días ocurren accidentes raros con los teclados."
+  
+ #[faction_member_3_faction.GetName] 
+ bell_special_yearly.4000.desc: "Me entretengo en mi jardín, jugando ensimismad[ROOT.Char.Custom('ES_OA')] con las rosas, arrancándoles las flores una a una.\n\nMe pregunto qué hacer con mi campanario. ¿Estará destinado a resonar?"
+ bell_special_yearly.4000.desc_discoverer: "\n\nMientras reflexiono sobre ello, noto que [bell_discoverer.GetTitledFirstName|l], un[bell_discoverer.Custom('ES_OA')] de [bell_discoverer.GetHerHim]s que aún lloran a una víctima de las desapariciones, me mira fijamente en el jardín. Contengo la risa, y casi quiero decírselo en el acto."
+  #AGOT Modified 
+ #bell_special_yearly.4000.a: "¡Debería dar un gran concierto en la iglesia!" #NT!
+ bell_special_yearly.4000.a: "¡Debería dar un gran concierto en la septa!"
+ bell_special_yearly.4000.a.tt: "Todos son conscientes de tus asesinatos."
+ bell_special_yearly.4000.b: "Nadie tiene por qué conocer mis entretenimientos privados."
+ bell_discovery_success_effect: "La campana se mantiene en secreto"
+ bell_discovery_failure_effect: "Se ha descubierto la campana"
+  
+  
+  #AGOT Modified 
+ #bell_special_yearly.5000.desc: "Cabalgo una noche para visitar mi campana y disfrutar de su resplandeciente villanía. Para mi sorpresa, ya hay antorchas parpadeando cuando entro en las ruinas.\n\nAl principio, imagino que los fantasmas de los visigodos están disgustados porque profané su iglesia, pero luego [bell_discoverer.GetTitledFirstName] se quita la capucha. "Siento que he viajado a [bell_discoverer.GetFaith.NegativeAfterLife] y estaré allí toda mi vida, después de descubrir la abominación que has forjado. ¡Te unirás a tus víctimas, criatura!". Soy consciente brevemente de un corte de acero en mi cuello, y luego nada de nada." #NT!
+ bell_special_yearly.5000.desc: "Salgo una noche a visitar mi campana y a deleitarme con su resplandeciente villanía. Para sorpresa mía, ya hay antorchas titilando al entrar en las ruinas.\n\nAl principio imagino que los fantasmas de los visigodos están disgustados por haber profanado su septa, pero entonces [bell_discoverer.GetTitledFirstName|l] se quita la capucha. «Siento que he viajado al [bell_discoverer.GetFaith.NegativeAfterLife] y que estaré allí toda mi vida, después de descubrir la abominación que habéis causado. ¡Os uniréis a vuestras víctimas, criatura!»\n\nApenas acierto a sentir un tajo de acero que me atraviesa el cuello y luego ya no siento nada en absoluto."
+ bell_special_yearly.5000.a: "Táñeme, [bell_discoverer.GetTitledFirstName|l]."
+  
+  
+  #AGOT Modified 
+ # bell_special_yearly.6000.desc: "Se lleva a cabo un concierto en las ruinas visigodas para toda mi corte, prometiendo una noche de música en una antigua iglesia iluminada con velas.\n\nContinúa la comida habitual con juglares mientras algunos invitados se quejan del olor peculiar. Disfrutamos de algunas melodías ligeras con flautas y cuerdas pulsadas, y las piezas se vuelven más tristes a medida que avanza la noche.\n\nAl final, los sirvientes siguen mi orden de apresurarse y tocar las campanas al ritmo de la última canción. ¡Los gritos de mis cortesanos se unen a la voz del coro mientras todos contemplan mis cabezas tintineantes y tintineantes!" #NT!
+ bell_special_yearly.6000.desc: "Se celebra un concierto en las ruinas visigodas para toda la corte; se promete una velada de música en una antigua septa a la luz de las velas.\n\nEl repertorio habitual de los juglares prosigue mientras algunos invitados se quejan del peculiar olor. Disfrutamos de algunas melodías ligeras de flauta y cuerda, y las piezas se vuelven más lúgubres a medida que avanza la noche.\n\nAl final, los sirvientes obedecen mi orden de hacer sonar las campanas al ritmo de la última canción. Los gritos de mis cortesanos se unen a las voces del coro cuando todos contemplan mis cabezas sonoras."
+ bell_special_yearly.6000.a: "¡Qué melodía!"
+ bell_special_yearly.6000.b: "¡Los demás os uniréis a ellos si me desafiáis!"

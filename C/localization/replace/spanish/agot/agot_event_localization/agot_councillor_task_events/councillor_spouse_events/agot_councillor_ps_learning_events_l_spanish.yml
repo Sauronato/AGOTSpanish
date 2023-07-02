@@ -1,85 +1,85 @@
 ﻿l_spanish:
   #Different religion/culture notifications 
- councillor_personal_steward_learning.1001.religion.t: "Administrador personal media con [councillor.GetFaith.GetAdjectiveNoTooltip] vasallo" #NT!
- councillor_personal_steward_learning.1001.culture.t: "Administrador personal media con [councillor.GetCulture.GetNameNoTooltip]" #NT!
+ councillor_personal_steward_learning.1001.religion.t: "Administrador personal media con [councillor.GetFaith.GetAdjectiveNoTooltip] vasallo"
+ councillor_personal_steward_learning.1001.culture.t: "Administrador personal media con [councillor.GetCulture.GetNameNoTooltip]"
   
- councillor_personal_steward_learning.1002.religion.t: "El administrador personal media con [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]" #NT!
- councillor_personal_steward_learning.1002.culture.t: "El administrador personal media con [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]" #NT!
+ councillor_personal_steward_learning.1002.religion.t: "El administrador personal media con [councillor.GetFaith.GetAdjectiveNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
+ councillor_personal_steward_learning.1002.culture.t: "El administrador personal media con [councillor.GetCulture.GetNameNoTooltip] [councillor.Custom2('RelationToMeShort', SCOPE.sC('opinion_house_member'))|U]"
   
   #Same religion/culture notifications 
- councillor_personal_steward_learning.1003.religion.desc: "Administrador personal media con sujetos [councillor.GetFaith.GetAdjectiveNoTooltip]" #NT!
- councillor_personal_steward_learning.1003.culture.desc: "Administrador personal media con sujetos [councillor.GetCulture.GetNameNoTooltip]" #NT!
- councillor_personal_steward_learning.1301.t: "Mayordomo personal: influye en la conversión religiosa" #NT!
- councillor_personal_steward_learning.1302.t: "Mayordomo personal: influye en la conversión cultural" #NT!
- councillor_personal_steward_learning.1303.desc: "El administrador personal es patrón de los teólogos" #NT!
+ councillor_personal_steward_learning.1003.religion.desc: "Administrador personal media con sujetos [councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_personal_steward_learning.1003.culture.desc: "Administrador personal media con sujetos [councillor.GetCulture.GetNameNoTooltip]"
+ councillor_personal_steward_learning.1301.t: "Mayordomo personal: influye en la conversión religiosa"
+ councillor_personal_steward_learning.1302.t: "Mayordomo personal: influye en la conversión cultural"
+ councillor_personal_steward_learning.1303.desc: "El administrador personal es patrón de los teólogos"
   
   #General learning notifications 
- councillor_personal_steward_learning.1601.desc: "Asistente personal lo ayuda en [ROOT.Char.Custom('LifestyleFocus')|U] Estudios" #NT!
- councillor_personal_steward_learning.1602.t: "[tutored_child.GetDaughterSon] Florece bajo la tutela del mayordomo personal" #NT!
- councillor_personal_steward_learning.1603.root_guardian.t: "Ward agradece la tutela del administrador personal" #NT!
- councillor_personal_steward_learning.1603.personal_steward_guardian.t: "El pupilo del mayordomo personal agradece [councillor.GetHerHis|U] Tutela" #NT!
- councillor_personal_steward_learning.1603.other_guardian.t: "Ward at Court aprecia la tutela del administrador personal" #NT!
+ councillor_personal_steward_learning.1601.desc: "Asistente personal lo ayuda en [ROOT.Char.Custom('LifestyleFocus')|U] Estudios"
+ councillor_personal_steward_learning.1602.t: "[tutored_child.GetDaughterSon] Florece bajo la tutela del mayordomo personal"
+ councillor_personal_steward_learning.1603.root_guardian.t: "Ward agradece la tutela del administrador personal"
+ councillor_personal_steward_learning.1603.personal_steward_guardian.t: "El pupilo del mayordomo personal agradece [councillor.GetHerHis|U] Tutela"
+ councillor_personal_steward_learning.1603.other_guardian.t: "Ward at Court aprecia la tutela del administrador personal"
   
- agot_add_patronage_personal_steward_education_points_effect.t: "Beneficios para niños de la tutela de un mayordomo personal" #NT!
- agot_add_patronage_personal_steward_education_points_effect.desc: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], es más probable que reciba un buen [education|E] debido a la tutela de [councillor.GetTitledFirstNamePossessive]." #NT!
- add_patronage_personal_steward_education_points_child_effect.desc: "Mi [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], es más probable que reciba un buen [education|E] debido a la tutela de [councillor.GetTitledFirstNamePossessive]." #NT!
+ agot_add_patronage_personal_steward_education_points_effect.t: "Beneficios para niños de la tutela de un mayordomo personal"
+ agot_add_patronage_personal_steward_education_points_effect.desc: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('patronage_student'))], [patronage_student.GetTitledFirstName], es más probable que reciba un buen [education|E] debido a la tutela de [councillor.GetTitledFirstNamePossessive]."
+ add_patronage_personal_steward_education_points_child_effect.desc: "Mi [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName], es más probable que reciba un buen [education|E] debido a la tutela de [councillor.GetTitledFirstNamePossessive]."
   
   #Events 
- councillor_personal_steward_learning.2601.t: "Administrador personal: educación superior" #NT!
- councillor_personal_steward_learning.2601.not_scholarly.desc: ""No te vendría mal leer un libro de vez en cuando", me dice a menudo mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], el estudioso [councillor.GetTitledFirstName]. [councillor.GetSheHe|U] se ha ofrecido a ser mi tutor, si necesito ayuda para empezar." #NT!
- councillor_personal_steward_learning.2601.scholarly.desc: "Cada vez que mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] me encuentra inclinado sobre un tomo, [councillor.GetSheHe] se emociona visiblemente.\n\n"¿Te gustaría algo de ayuda con tus estudios? ¿Alguien con quien intercambiar ideas, o tal vez algunos tomos nuevos? Recientemente adquirí un volumen con un excelente análisis de [ROOT.Char.Custom('education_conversation_subject')]!"" #NT!
- councillor_personal_steward_learning.2601.a: "Sí, agradecería su orientación." #NT!
- councillor_personal_steward_learning.2601.b: "[tutoring_student_1.GetTitledFirstNameNoTooltip] necesita tu ayuda más que yo." #NT!
- councillor_personal_steward_learning.2601.c: "Deberías dar tutoría a [tutoring_student_2.GetTitledFirstNameNoTooltip] en su lugar." #NT!
- councillor_personal_steward_learning.2601.d: "Deberías centrarte en tus propios estudios." #NT!
- agot_councillor_personal_steward_learning_2601_tutoring_effect.critical_success: "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] la comprensión de [THIS.Char.Custom('education_focus')] aumenta considerablemente" #NT!
- agot_councillor_personal_steward_learning_2601_tutoring_effect.success: "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] comprensión de [THIS.Char.Custom('education_focus')] aumenta" #NT!
+ councillor_personal_steward_learning.2601.t: "Administrador personal: educación superior"
+ councillor_personal_steward_learning.2601.not_scholarly.desc: ""No te vendría mal leer un libro de vez en cuando", me dice a menudo mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], el estudioso [councillor.GetTitledFirstName]. [councillor.GetSheHe|U] se ha ofrecido a ser mi tutor, si necesito ayuda para empezar."
+ councillor_personal_steward_learning.2601.scholarly.desc: "Cada vez que mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] me encuentra inclinado sobre un tomo, [councillor.GetSheHe] se emociona visiblemente.\n\n"¿Te gustaría algo de ayuda con tus estudios? ¿Alguien con quien intercambiar ideas, o tal vez algunos tomos nuevos? Recientemente adquirí un volumen con un excelente análisis de [ROOT.Char.Custom('education_conversation_subject')]!""
+ councillor_personal_steward_learning.2601.a: "Sí, agradecería su orientación."
+ councillor_personal_steward_learning.2601.b: "[tutoring_student_1.GetTitledFirstNameNoTooltip] necesita tu ayuda más que yo."
+ councillor_personal_steward_learning.2601.c: "Deberías dar tutoría a [tutoring_student_2.GetTitledFirstNameNoTooltip] en su lugar."
+ councillor_personal_steward_learning.2601.d: "Deberías centrarte en tus propios estudios."
+ agot_councillor_personal_steward_learning_2601_tutoring_effect.critical_success: "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] la comprensión de [THIS.Char.Custom('education_focus')] aumenta considerablemente"
+ agot_councillor_personal_steward_learning_2601_tutoring_effect.success: "[THIS.Char.GetTitledFirstNamePossessiveOrMyNoTooltip|U] comprensión de [THIS.Char.Custom('education_focus')] aumenta"
   
   
- councillor_personal_steward_learning.2001.faith.t: "Administrador personal: [councillor.GetFaith.GetAdjectiveNoTooltip] Disidentes" #NT!
- councillor_personal_steward_learning.2001.culture.t: "Administrador personal: [councillor.GetCulture.GetNameNoTooltip] Disidentes" #NT!
- councillor_personal_steward_learning.2001.start.desc: "[faction_leader.GetTitledFirstName] y [faction_leader.GetHerHis] compañero" #NT!
- councillor_personal_steward_learning.2001.faith.desc: "[councillor.GetFaith.GetAdjectiveNoTooltip]" #NT!
- councillor_personal_steward_learning.2001.culture.desc: "[councillor.GetCulture.GetNameNoTooltip]" #NT!
- councillor_personal_steward_learning.2001.middle.desc: "¡Los conspiradores en el [different_culture_or_faith_faction.GetName] nunca me dan un momento de paz!" #NT!
- councillor_personal_steward_learning.2001.independence_faction.desc: "Deberían ser súbditos leales, pero sé que conspiran para volverse en mi contra." #NT!
- councillor_personal_steward_learning.2001.liberty_faction.desc: "Buscan socavar mi autoridad a cada paso." #NT!
- councillor_personal_steward_learning.2001.claimant_faction.desc: "Esos ladrones deshonrosos buscan tomar la tierra que es legítimamente mía." #NT!
- councillor_personal_steward_learning.2001.end.desc: "\n\nAfortunadamente, como "uno de los suyos", mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] tiene cierta influencia sobre ellos. [councillor.GetSheHe|U] se ha ofrecido a mediar y quiere saber cómo proceder." #NT!
- councillor_personal_steward_learning.2001.a.faith: "Apacigua a los miembros de la facción [councillor.GetFaith.GetAdjectiveNoTooltip]." #NT!
- councillor_personal_steward_learning.2001.a.culture: "Apacigua a los miembros de la facción [councillor.GetCulture.GetNameNoTooltip]." #NT!
- councillor_personal_steward_learning.2001.a.faction_members_faith: "Cada [councillor.GetFaith.GetAdjective] miembro de la [different_culture_or_faith_faction.GetName]" #NT!
- councillor_personal_steward_learning.2001.a.faction_members_culture: "Cada [councillor.GetCulture.GetName] miembro de la [different_culture_or_faith_faction.GetName]" #NT!
- councillor_personal_steward_learning.2001.b: "Haz que [faction_member_1.GetTitledFirstNameNoTooltip] abandone la facción." #NT!
- councillor_personal_steward_learning.2001.c: "Convence a [faction_member_2.GetTitledFirstNameNoTooltip] para que me sea leal." #NT!
+ councillor_personal_steward_learning.2001.faith.t: "Administrador personal: [councillor.GetFaith.GetAdjectiveNoTooltip] Disidentes"
+ councillor_personal_steward_learning.2001.culture.t: "Administrador personal: [councillor.GetCulture.GetNameNoTooltip] Disidentes"
+ councillor_personal_steward_learning.2001.start.desc: "[faction_leader.GetTitledFirstName] y [faction_leader.GetHerHis] compañero"
+ councillor_personal_steward_learning.2001.faith.desc: "[councillor.GetFaith.GetAdjectiveNoTooltip]"
+ councillor_personal_steward_learning.2001.culture.desc: "[councillor.GetCulture.GetNameNoTooltip]"
+ councillor_personal_steward_learning.2001.middle.desc: "¡Los conspiradores en el [different_culture_or_faith_faction.GetName] nunca me dan un momento de paz!"
+ councillor_personal_steward_learning.2001.independence_faction.desc: "Deberían ser súbditos leales, pero sé que conspiran para volverse en mi contra."
+ councillor_personal_steward_learning.2001.liberty_faction.desc: "Buscan socavar mi autoridad a cada paso."
+ councillor_personal_steward_learning.2001.claimant_faction.desc: "Esos ladrones deshonrosos buscan tomar la tierra que es legítimamente mía."
+ councillor_personal_steward_learning.2001.end.desc: "\n\nAfortunadamente, como "uno de los suyos", mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] tiene cierta influencia sobre ellos. [councillor.GetSheHe|U] se ha ofrecido a mediar y quiere saber cómo proceder."
+ councillor_personal_steward_learning.2001.a.faith: "Apacigua a los miembros de la facción [councillor.GetFaith.GetAdjectiveNoTooltip]."
+ councillor_personal_steward_learning.2001.a.culture: "Apacigua a los miembros de la facción [councillor.GetCulture.GetNameNoTooltip]."
+ councillor_personal_steward_learning.2001.a.faction_members_faith: "Cada [councillor.GetFaith.GetAdjective] miembro de la [different_culture_or_faith_faction.GetName]"
+ councillor_personal_steward_learning.2001.a.faction_members_culture: "Cada [councillor.GetCulture.GetName] miembro de la [different_culture_or_faith_faction.GetName]"
+ councillor_personal_steward_learning.2001.b: "Haz que [faction_member_1.GetTitledFirstNameNoTooltip] abandone la facción."
+ councillor_personal_steward_learning.2001.c: "Convence a [faction_member_2.GetTitledFirstNameNoTooltip] para que me sea leal."
   
- councillor_personal_steward_learning.2301.t: "Mayordomo personal: un poder superior" #NT!
- councillor_personal_steward_learning.2301.desc: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] se ha convertido en una figura muy conocida en el mundo religioso. [councillor.GetHerHis|U] el patrocinio de [councillor.GetFaith.GetAdjectiveNoTooltip] eruditos, [councillor.GetFaith.HouseOfWorshipPlural] y órdenes ha atraído incluso la atención de [religious_head.GetTitledFirstName] [religious_head.GetHerselfHimself].\n\nLa gratitud [religious_head.GetTitleAsNamePossessiveNoTooltip] viene con poderosos beneficios. Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] se ha ofrecido a comunicarse con [religious_head.GetHerHim] en mi nombre." #NT!
- councillor_personal_steward_learning.2301.a: "¿Puedes hacer presentaciones?" #NT!
- councillor_personal_steward_learning.2301.a.success: "Me he hecho amigo de [religious_head.GetTitledFirstName]." #NT!
- councillor_personal_steward_learning.2301.b: "¿Qué puede hacer [religious_head.GetSheHe] por nosotros a cambio?" #NT!
- councillor_personal_steward_learning.2301.c: "¡Esta es mi oportunidad de ser bienvenido de nuevo a la santa comunidad!" #NT!
- councillor_personal_steward_learning.2301.d: "Hágale saber a [religious_head.GetHerHim]: todo lo que hacemos, lo hacemos por [councillor.GetFaith.HighGodName]." #NT!
+ councillor_personal_steward_learning.2301.t: "Mayordomo personal: un poder superior"
+ councillor_personal_steward_learning.2301.desc: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName] se ha convertido en una figura muy conocida en el mundo religioso. [councillor.GetHerHis|U] el patrocinio de [councillor.GetFaith.GetAdjectiveNoTooltip] eruditos, [councillor.GetFaith.HouseOfWorshipPlural] y órdenes ha atraído incluso la atención de [religious_head.GetTitledFirstName] [religious_head.GetHerselfHimself].\n\nLa gratitud [religious_head.GetTitleAsNamePossessiveNoTooltip] viene con poderosos beneficios. Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] se ha ofrecido a comunicarse con [religious_head.GetHerHim] en mi nombre."
+ councillor_personal_steward_learning.2301.a: "¿Puedes hacer presentaciones?"
+ councillor_personal_steward_learning.2301.a.success: "Me he hecho amigo de [religious_head.GetTitledFirstName]."
+ councillor_personal_steward_learning.2301.b: "¿Qué puede hacer [religious_head.GetSheHe] por nosotros a cambio?"
+ councillor_personal_steward_learning.2301.c: "¡Esta es mi oportunidad de ser bienvenido de nuevo a la santa comunidad!"
+ councillor_personal_steward_learning.2301.d: "Hágale saber a [religious_head.GetHerHim]: todo lo que hacemos, lo hacemos por [councillor.GetFaith.HighGodName]."
   
- councillor_personal_steward_learning.2602.t: "Administrador personal: Ampliando horizontes" #NT!
- councillor_personal_steward_learning.2602.not_root.desc: "Si bien mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] ciertamente sabe un par de cosas sobre [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] cree que es hora de que [student.GetHerHim] amplíe los horizontes de [student.GetHerHis].\n\n"Podría adquirir algunos tomos nuevos, preparar algunas tareas, ser tutor de § _4 un poco. ¿Qué tema crees que beneficiaría más a [student.GetFirstNameNoTooltip]?"" #NT!
- councillor_personal_steward_learning.2602.root.desc: ""Si bien sabes un par de cosas sobre [student.Custom('highest_skill_noun')], el [student.GetTitleTierName] de [student.GetPrimaryTitle.GetNameNoTierNoTooltip] debería poseer una amplia gama de habilidades", dice mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n"Podría adquirir algunos tomos nuevos, preparar algunos asignaciones, darte un poco de tutoría. ¿Qué tema te interesa más?"" #NT!
- councillor_personal_steward_learning.2602.a: "Diplomacia." #NT!
- councillor_personal_steward_learning.2602.b: "Teoría militar." #NT!
- councillor_personal_steward_learning.2602.c: "Economía del reino." #NT!
- councillor_personal_steward_learning.2602.d: "Gestión de red espía." #NT!
- councillor_personal_steward_learning.2602.e: "Teología." #NT!
+ councillor_personal_steward_learning.2602.t: "Administrador personal: Ampliando horizontes"
+ councillor_personal_steward_learning.2602.not_root.desc: "Si bien mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('student'))] [student.GetTitledFirstName] ciertamente sabe un par de cosas sobre [student.Custom('highest_skill_noun')], [councillor.GetTitledFirstName] cree que es hora de que [student.GetHerHim] amplíe los horizontes de [student.GetHerHis].\n\n"Podría adquirir algunos tomos nuevos, preparar algunas tareas, ser tutor de § _4 un poco. ¿Qué tema crees que beneficiaría más a [student.GetFirstNameNoTooltip]?""
+ councillor_personal_steward_learning.2602.root.desc: ""Si bien sabes un par de cosas sobre [student.Custom('highest_skill_noun')], el [student.GetTitleTierName] de [student.GetPrimaryTitle.GetNameNoTierNoTooltip] debería poseer una amplia gama de habilidades", dice mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], [ROOT.Char.Custom2('QuirkPPPosOrNeg', SCOPE.sC('councillor'))].\n\n"Podría adquirir algunos tomos nuevos, preparar algunos asignaciones, darte un poco de tutoría. ¿Qué tema te interesa más?""
+ councillor_personal_steward_learning.2602.a: "Diplomacia."
+ councillor_personal_steward_learning.2602.b: "Teoría militar."
+ councillor_personal_steward_learning.2602.c: "Economía del reino."
+ councillor_personal_steward_learning.2602.d: "Gestión de red espía."
+ councillor_personal_steward_learning.2602.e: "Teología."
   
- councillor_personal_steward_learning.1304.desc: "El administrador personal es patrocinador de [religious_vassal.GetTitledFirstNameNoTooltip]" #NT!
- councillor_personal_steward_learning.1305.desc: "La piedad del mayordomo personal impresiona al [religious_head.GetTitleAsNameNoTooltip]" #NT!
+ councillor_personal_steward_learning.1304.desc: "El administrador personal es patrocinador de [religious_vassal.GetTitledFirstNameNoTooltip]"
+ councillor_personal_steward_learning.1305.desc: "La piedad del mayordomo personal impresiona al [religious_head.GetTitleAsNameNoTooltip]"
   
   
   
- councillor_personal_steward_learning.2603.t: "Administrador personal: a la altura de la tarea" #NT!
- councillor_personal_steward_learning.2603.desc: "Algunos de mis concejales creen que el trabajo es suyo por derecho de sangre o influencia únicamente, ¡qué equivocados están! Espero resultados, pero a menudo me siento decepcionado.\n\nDespués de un largo día, me quejo con [councillor.GetFirstName] cuando [councillor.GetSheHe] me interrumpe. "Déjame hacer algo al respecto, [ROOT.Char.GetWifeHusband]. Algunas lecciones podrían agudizar su ingenio"." #NT!
- councillor_personal_steward_learning.2603.a: "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] podría usar un tutor." #NT!
- councillor_personal_steward_learning.2603.b: "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] se beneficiaría de su ayuda." #NT!
- councillor_personal_steward_learning.2603.c: "Dar algunas lecciones a mi [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip]." #NT!
- councillor_personal_steward_learning.2603.d: "Tal vez tenga algún consejo para [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]." #NT!
- councillor_personal_steward_learning.2603.e: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] necesita orientación." #NT!
- councillor_personal_steward_learning.2603.f: "Quédate aquí conmigo en su lugar..." #NT!
+ councillor_personal_steward_learning.2603.t: "Administrador personal: a la altura de la tarea"
+ councillor_personal_steward_learning.2603.desc: "Algunos de mis concejales creen que el trabajo es suyo por derecho de sangre o influencia únicamente, ¡qué equivocados están! Espero resultados, pero a menudo me siento decepcionado.\n\nDespués de un largo día, me quejo con [councillor.GetFirstName] cuando [councillor.GetSheHe] me interrumpe. "Déjame hacer algo al respecto, [ROOT.Char.GetWifeHusband]. Algunas lecciones podrían agudizar su ingenio"."
+ councillor_personal_steward_learning.2603.a: "[chancellor.GetCouncilTitle|U] [chancellor.GetFirstNameNoTooltip] podría usar un tutor."
+ councillor_personal_steward_learning.2603.b: "[marshal.GetCouncilTitle|U] [marshal.GetFirstNameNoTooltip] se beneficiaría de su ayuda."
+ councillor_personal_steward_learning.2603.c: "Dar algunas lecciones a mi [steward.GetCouncilTitle], [steward.GetFirstNameNoTooltip]."
+ councillor_personal_steward_learning.2603.d: "Tal vez tenga algún consejo para [spymaster.GetCouncilTitle] [spymaster.GetFirstNameNoTooltip]."
+ councillor_personal_steward_learning.2603.e: "[court_chaplain.GetCouncilTitle] [court_chaplain.GetFirstNameNoTooltip] necesita orientación."
+ councillor_personal_steward_learning.2603.f: "Quédate aquí conmigo en su lugar..."

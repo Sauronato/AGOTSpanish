@@ -1,11 +1,15 @@
 ﻿l_spanish:
-
- doctrine_consanguinity_siblings_name:0 "Matrimonio adelfogamo" #NT!
- doctrine_consanguinity_siblings_desc:0 "Los hermanos, primos y tíos/tías pueden casarse entre sí para preservar la pureza de la sangre, aunque cualquier otro matrimonio incestuoso es tabú." #NT!
- doctrine_parameter_consanguinity_sibling_marriage:0 "Se permite el matrimonio entre hermanos." #NT!
- doctrine_parameter_consanguinity_sibling_incest:0 "Las relaciones sexuales entre hermanos no dan lugar al incesto [secret|E]" #NT!
- doctrine_parameter_allows_sibling_marriage:0 " #intentionally blank
-
- agot_dummy_doctrine_name: "
- agot_we_need_this_to_define_parameters_otherwise_error_log_complains_name: "
- agot_we_need_this_to_define_parameters_otherwise_error_log_complains_desc: "
+  
+ doctrine_consanguinity_siblings_name: "Matrimonio adelfogamo"
+ doctrine_consanguinity_siblings_desc: "Los hermanos, primos y tíos/tías pueden casarse entre sí para preservar la pureza de la sangre, aunque cualquier otro matrimonio incestuoso es tabú."
+ doctrine_parameter_consanguinity_sibling_marriage: "Se permite el matrimonio entre hermanos."
+ doctrine_parameter_consanguinity_sibling_incest: "Las relaciones sexuales entre hermanos no dan lugar al incesto [secret|E]"
+ doctrine_parameter_allows_sibling_marriage: ""
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_essosi: "Considera Essosi [faiths|E], y Essosi $game_concept_faiths$ lo considera, como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_the_seven: "Considera Seven [faiths|E], y Seven $game_concept_faiths$ lo considera como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
+ doctrine_parameter_hostility_override_special_doctrine_ecumenical_old_gods: "Considera Old Gods [faiths|E], y Old Gods $game_concept_faiths$ lo considera como [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" #NT!
+  
+  
+ agot_dummy_doctrine_name: ""
+ agot_we_need_this_to_define_parameters_otherwise_error_log_complains_name: ""
+ agot_we_need_this_to_define_parameters_otherwise_error_log_complains_desc: ""

@@ -1,33 +1,33 @@
 ﻿l_spanish:
   #send to citadel interaction 
- agot_send_to_citadel_interaction: "Enviar a la ciudadela" #NT!
- agot_send_to_citadel_interaction_desc: "Enviar [recipient.GetFirstNameNoTooltip] a la ciudadela" #NT!
- agot_send_to_citadel_interaction_extra_icon: "$hook_extra_icon$" #NT!
- agot_send_to_citadel_effect_desc: "#weak [CHARACTER.GetShortUIName] dejará su corte para estudiar en la Ciudadela. Después de tomar sus votos, dejará de lado el nombre de su casa y renunciará a toda herencia para servir al reino.#!" #NT!
- citadel_decline_summary: "Si [recipient.GetShortUINameNoTooltip] se niega, permanecerá en tu [court|E]" #NT!
- tried_to_send_me_to_citadel_opinion: "Trató de enviarme a Citadel" #NT!
- REQUEST_CITADEL_NOTIFICATION_TEXT: "Se le solicita que deje su puesto en la corte y vaya a la Ciudadela para comenzar a entrenarse como maestre." #NT!
- CITADEL_PATIENT: "[GetTrait('patient').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_CALM: "[GetTrait('calm').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_DILIGENT: "[GetTrait('diligent').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_HERBALIST: "[GetTrait('lifestyle_herbalist').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_SCHOLAR: "[GetTrait('scholar').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_PENSIVE: "[GetTrait('pensive').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_ROWDY: "[GetTrait('rowdy').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_CURIOUS: "[GetTrait('curious').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_WRATHFUL: "[GetTrait('wrathful').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_LAZY: "[GetTrait('lazy').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_INTELLECT_BAD: "[personality|E] — #italic Es débil mental:#! $VALUE|=+0$" #NT!
- CITADEL_SQUIRE: "[GetTrait('squire').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_KNIGHT: "[GetTrait('knight').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_FIGHTER: "[personality|E] — #italic Preferiría la vida en el campo de batalla:#! $VALUE|=+0$" #NT!
- CITADEL_WANTS_TO_LEARN: "[personality|E] — #italic Quiere aprender:#! $VALUE|=+0$" #NT!
- CITADEL_LUSTFUL: "[GetTrait('lustful').GetName( recipient.Self )]: $VALUE|=+0$" #NT!
- CITADEL_PHYSICIAN: "[personality|E] — #italic Ha estudiado la condición humana:#! $VALUE|=+0$" #NT!
- CITADEL_ZEALOUS: "[personality|E] — #italic Preferiría servir a la fe:#! $VALUE|=+0$" #NT!
- CITADEL_GREED: "[personality|E] — #italic No desea renunciar a los placeres terrenales:#! $VALUE|=+0$" #NT!
- CITADEL_WEAK: "[personality|E] — #italic Su debilidad haría difícil ganar la gloria en la batalla:#! $VALUE|=+0$" #NT!
- agot_the_citadel.1000.desc: "No puedo pensar en mayor alegría que pasar mi vida dedicada a actividades académicas. Comenzaré a viajar a la Ciudadela inmediatamente." #NT!
- agot_the_citadel.1000.positive: "Me alegro de que [recipient.GetFirstNameNoTooltip] haya visto la sabiduría en esta acción." #NT!
- agot_the_citadel.1001.desc: "Tu sugerencia de que desarraigue mi vida entera y me escape a la Ciudadela es ridícula. Estoy feliz donde estoy, y no tengo planes de cambiar eso." #NT!
- agot_the_citadel.1001.negative: "Lo más desafortunado..." #NT!
+ agot_send_to_citadel_interaction: "Enviar a la ciudadela"
+ agot_send_to_citadel_interaction_desc: "Enviar [recipient.GetFirstNameNoTooltip] a la ciudadela"
+ agot_send_to_citadel_interaction_extra_icon: "$hook_extra_icon$"
+ agot_send_to_citadel_effect_desc: "#weak [CHARACTER.GetShortUIName] dejará su corte para estudiar en la Ciudadela. Después de tomar sus votos, dejará de lado el nombre de su casa y renunciará a toda herencia para servir al reino.#!"
+ citadel_decline_summary: "Si [recipient.GetShortUINameNoTooltip] se niega, permanecerá en tu [court|E]"
+ tried_to_send_me_to_citadel_opinion: "Trató de enviarme a Citadel"
+ REQUEST_CITADEL_NOTIFICATION_TEXT: "Se le solicita que deje su puesto en la corte y vaya a la Ciudadela para comenzar a entrenarse como maestre."
+ CITADEL_PATIENT: "[GetTrait('patient').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_CALM: "[GetTrait('calm').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_DILIGENT: "[GetTrait('diligent').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_HERBALIST: "[GetTrait('lifestyle_herbalist').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_SCHOLAR: "[GetTrait('scholar').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_PENSIVE: "[GetTrait('pensive').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_ROWDY: "[GetTrait('rowdy').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_CURIOUS: "[GetTrait('curious').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_WRATHFUL: "[GetTrait('wrathful').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_LAZY: "[GetTrait('lazy').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_INTELLECT_BAD: "[personality|E] — #italic Es débil mental:#! $VALUE|=+0$"
+ CITADEL_SQUIRE: "[GetTrait('squire').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_KNIGHT: "[GetTrait('knight').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_FIGHTER: "[personality|E] — #italic Preferiría la vida en el campo de batalla:#! $VALUE|=+0$"
+ CITADEL_WANTS_TO_LEARN: "[personality|E] — #italic Quiere aprender:#! $VALUE|=+0$"
+ CITADEL_LUSTFUL: "[GetTrait('lustful').GetName( recipient.Self )]: $VALUE|=+0$"
+ CITADEL_PHYSICIAN: "[personality|E] — #italic Ha estudiado la condición humana:#! $VALUE|=+0$"
+ CITADEL_ZEALOUS: "[personality|E] — #italic Preferiría servir a la fe:#! $VALUE|=+0$"
+ CITADEL_GREED: "[personality|E] — #italic No desea renunciar a los placeres terrenales:#! $VALUE|=+0$"
+ CITADEL_WEAK: "[personality|E] — #italic Su debilidad haría difícil ganar la gloria en la batalla:#! $VALUE|=+0$"
+ agot_the_citadel.1000.desc: "No puedo pensar en mayor alegría que pasar mi vida dedicada a actividades académicas. Comenzaré a viajar a la Ciudadela inmediatamente."
+ agot_the_citadel.1000.positive: "Me alegro de que [recipient.GetFirstNameNoTooltip] haya visto la sabiduría en esta acción."
+ agot_the_citadel.1001.desc: "Tu sugerencia de que desarraigue mi vida entera y me escape a la Ciudadela es ridícula. Estoy feliz donde estoy, y no tengo planes de cambiar eso."
+ agot_the_citadel.1001.negative: "Lo más desafortunado..."

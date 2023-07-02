@@ -1,30 +1,76 @@
 ﻿l_spanish:
-small_councillor: "Pequeño concejal" #NT!
-invite_to_small_council: "Invitar al Consejo Pequeño" #NT!
-invite_to_small_council_prompt: "Por la presente solicito que libere su [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], para servir en mi Consejo Pequeño. Como vasallo temporal de un compañero, por supuesto permanecerán vinculados a ti como un aliado." #NT!
-recipient_secondary_invite_to_small_council: "Pequeño concejal" #NT!
-invite_to_small_council_accepted:0 "[secondary_recipient.GetShortUIName|U] se convertirá en tu vasallo directo para poder unirse a tu consejo." #NT!
-invite_to_small_council_declined:0 "[secondary_recipient.GetShortUIName|U] no se une a su consejo." #NT!
-
-small_council_vassal_retained_desc:0 "Ya estás empleando a uno de [TARGET_CHARACTER.GetShortUIName] Vassals." #NT!
-
-
-demanded_my_vassal_opinion:0 "Exigió mi vasallo" #NT!
-refused_vassal_appointment_opinion:0 "Se negó a renunciar a Vassal" #NT!
-
-
-SMALL_COUNCIL_ON_THE_COUNCIL:0 "[secondary_recipient.GetShortUIName] es mi Consejero: $VALUE|=+0$" #NT!
-SMALL_COUNCIL_MY_KNIGHT:0 "[secondary_recipient.GetShortUIName] está sirviendo como mi [recipient.GetLiege.Custom('KnightCulture')]: $VALUE|=+0$" #NT!
-SMALL_COUNCIL_THEIR_RELATIVE:0 "[secondary_recipient.GetShortUIName] es mi Familiar: $VALUE|=+0$" #NT!
-
-small_councillor_custom:0 "[CHARACTER.Custom('small_councillor_custom')]" #NT!
-small_councillor_custom_input:0 "[ROOT.Char.GetLocalizedText('small_council_title')]" #NT!
-
-# small_council_vassal_low_tax_low_levies_modifier:0 "$small_council_vassal_repatriation$" #NT!
-
-# small_council_vassal_normal_tax_normal_levies_modifier:0 "$small_council_vassal_repatriation$" #NT!
-
-small_council_vassal_repatriation:0 "Repatriación de vasallos" #NT!
-small_council_vassal_repatriation_desc:0 "Uno de los vasallos de este personaje está sirviendo en el consejo de su Lord, pero continúa enviándole impuestos e impuestos." #NT!
-
-set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] comienza a servir en su pequeño consejo." #NT!
+ small_councillor: "Pequeño concejal"
+ invite_to_small_council: "Invitar al Consejo Pequeño"
+ invite_to_small_council_prompt: "Por la presente solicito que libere su [recipient.Custom2('RelationToMe',SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetName], para servir en mi Consejo Pequeño. Como vasallo temporal de un compañero, por supuesto permanecerán vinculados a ti como un aliado."
+ recipient_secondary_invite_to_small_council: "Pequeño concejal"
+ invite_to_small_council_accepted: "[secondary_recipient.GetShortUIName|U] se convertirá en tu vasallo directo para poder unirse a tu consejo."
+ invite_to_small_council_declined: "[secondary_recipient.GetShortUIName|U] no se une a su consejo."
+  
+ small_council_vassal_retained_desc: "Ya estás empleando a uno de [TARGET_CHARACTER.GetShortUIName] Vassals."
+  
+  
+ demanded_my_vassal_opinion: "Exigió mi vasallo"
+ refused_vassal_appointment_opinion: "Se negó a renunciar a Vassal"
+  
+  
+ SMALL_COUNCIL_ON_THE_COUNCIL: "[secondary_recipient.GetShortUIName] es mi Consejero: $VALUE|=+0$"
+ SMALL_COUNCIL_MY_KNIGHT: "[secondary_recipient.GetShortUIName] está sirviendo como mi [recipient.GetLiege.Custom('KnightCulture')]: $VALUE|=+0$"
+ SMALL_COUNCIL_THEIR_RELATIVE: "[secondary_recipient.GetShortUIName] es mi Familiar: $VALUE|=+0$"
+  
+ small_councillor_custom: "[CHARACTER.Custom('small_councillor_custom')]"
+ small_councillor_custom_input: "[ROOT.Char.GetLocalizedText('small_council_title')]"
+  
+ set_relation_small_councillor: "[TARGET_CHARACTER.GetTitledFirstName|V] comienza a servir en su pequeño consejo."
+  
+ ### MODIFIERS ### 
+  
+ small_council_vassal_repatriation: "Repatriación de vasallos"
+ small_council_vassal_repatriation_desc: "Uno de los vasallos de este personaje está sirviendo en el consejo de su Lord, pero continúa enviándole impuestos e impuestos."
+  
+ small_council_vassal_low_tax_low_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_low_tax_low_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_low_tax_normal_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_low_tax_normal_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_low_tax_high_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_low_tax_high_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_low_tax_extortionate_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_low_tax_extortionate_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_normal_tax_low_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_normal_tax_low_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_normal_tax_normal_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_normal_tax_normal_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_normal_tax_high_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_normal_tax_high_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_normal_tax_extortionate_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_normal_tax_extortionate_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_high_tax_low_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_high_tax_low_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_high_tax_normal_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_high_tax_normal_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_high_tax_high_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_high_tax_high_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_high_tax_extortionate_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_high_tax_extortionate_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_extortionate_tax_low_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_extortionate_tax_low_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_extortionate_tax_normal_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_extortionate_tax_normal_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_extortionate_tax_high_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_extortionate_tax_high_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!
+  
+ small_council_vassal_extortionate_tax_extortionate_levies_modifier: "$small_council_vassal_repatriation$" #NT!
+ small_council_vassal_extortionate_tax_extortionate_levies_modifier_desc: "$small_council_vassal_repatriation_desc$" #NT!

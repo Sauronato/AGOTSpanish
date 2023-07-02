@@ -1,146 +1,146 @@
 ﻿l_spanish:
- activity_rebuilding_castle:0 "Reconstrucción" #NT!
- activity_rebuilding_castle_owner:0 "Lord comandante" #NT!
- activity_rebuilding_castle_name:0 "Reconstruyendo una fortaleza" #NT!
-
- nw_wall_castle_rebuilding_other_selections_available_tt:0 "Evaluaré otros castillos a lo largo del Muro." #NT!
-
- # Rebuilding Choice Events
- agot_nights_watch.1001.t:0 "Reconstruyendo el reloj" #NT!
- agot_nights_watch.1001.desc:0 "Durante demasiado tiempo, los hermanos de la Guardia de la Noche han observado ociosamente cómo los fuertes a lo largo del Muro se marchitan y se desmoronan, se descuidan y se pudren.\n\nEl triste estado de nuestra orden ha quedado atrás. La Guardia prospera, nuestras arcas están llenas y los reclutas abundan. Por fin ha llegado el momento de reconstruir y repoblar, ahora debemos decidir dónde centrar nuestros esfuerzos." #NT!
- agot_nights_watch.1001.a:0 "El castillo en [nw_wall_castle_1.GetTitle.GetNameNoTierNoTooltip]." #NT!
- agot_nights_watch.1001.b:0 "[nw_wall_castle_2.GetTitle.GetNameNoTierNoTooltip] promete mucho." #NT!
- agot_nights_watch.1001.c:0 "¡Las ruinas de [nw_wall_castle_3.GetTitle.GetNameNoTierNoTooltip]!" #NT!
- agot_nights_watch.1001.d:0 "[nw_wall_castle_4.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica." #NT!
- agot_nights_watch.1001.e:0 "¡Envía a los constructores a [nw_wall_castle_5.GetTitle.GetNameNoTierNoTooltip]!" #NT!
- agot_nights_watch.1001.f:0 "Tal vez otro castillo podría usar mi atención..." #NT!
- agot_nights_watch.1001.g:0 "He cambiado de opinión. Este no es el momento adecuado." #NT!
-
- agot_nights_watch.1002.a:0 "El castillo en [nw_wall_castle_6.GetTitle.GetNameNoTierNoTooltip]." #NT!
- agot_nights_watch.1002.b:0 "[nw_wall_castle_7.GetTitle.GetNameNoTierNoTooltip] promete mucho." #NT!
- agot_nights_watch.1002.c:0 "¡Las ruinas de [nw_wall_castle_8.GetTitle.GetNameNoTierNoTooltip]!" #NT!
- agot_nights_watch.1002.d:0 "[nw_wall_castle_9.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica." #NT!
- agot_nights_watch.1002.e:0 "¡Envía a los constructores a [nw_wall_castle_10.GetTitle.GetNameNoTierNoTooltip]!" #NT!
-
- agot_nights_watch.1003.a:0 "El castillo en [nw_wall_castle_11.GetTitle.GetNameNoTierNoTooltip]." #NT!
- agot_nights_watch.1003.b:0 "[nw_wall_castle_12.GetTitle.GetNameNoTierNoTooltip] promete mucho." #NT!
- agot_nights_watch.1003.c:0 "¡Las ruinas de [nw_wall_castle_13.GetTitle.GetNameNoTierNoTooltip]!" #NT!
- agot_nights_watch.1003.d:0 "[nw_wall_castle_14.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica." #NT!
- agot_nights_watch.1003.e:0 "¡Envía a los constructores a [nw_wall_castle_15.GetTitle.GetNameNoTierNoTooltip]!" #NT!
-
- agot_nights_watch.1004.a:0 "El castillo en [nw_wall_castle_16.GetTitle.GetNameNoTierNoTooltip]." #NT!
- agot_nights_watch.1004.b:0 "[nw_wall_castle_17.GetTitle.GetNameNoTierNoTooltip] promete mucho." #NT!
- agot_nights_watch.1004.c:0 "¡Las ruinas de [nw_wall_castle_18.GetTitle.GetNameNoTierNoTooltip]!" #NT!
- agot_nights_watch.1004.d:0 "[nw_wall_castle_19.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica." #NT!
-
- # Generic Start Events
- agot_rebuilding_castle.1000.desc:0 "Nuestros deberes en el Muro son muchos, pero asistir a los desfiles en la corte de [other_host.GetTitledFirstNamePossessive] no es uno de ellos. Somos el escudo que protege los reinos del hombre, ¿o lo has olvidado?" #NT!
- agot_rebuilding_castle.1000.a:0 "Estás probando tus juramentos..." #NT!
-
- # Invitations
- agot_rebuilding_castle.1002.opening:0 "[sender.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
- agot_rebuilding_castle.1002.opening_desc:0 "¡Por la presente te invito a un festín en mi corte en [ACTIVITY.GetLocation.GetName]!" #NT!
- agot_rebuilding_castle.1002.host_likes_me:0 "Espero que asista, ya que de lo contrario se extrañaría mucho su presencia." #NT!
- agot_rebuilding_castle.1002.host_gets_along_with_me:0 "Como [ROOT.Char.GetTitleTierName] notable, sería un honor para mí su asistencia." #NT!
- agot_rebuilding_castle.1002.host_dislikes_me:0 "Espero que todos los notables estén allí, lo que desafortunadamente te incluye a ti." #NT!
- agot_rebuilding_castle.1002.a:0 "Por supuesto que asistiré." #NT!
- agot_rebuilding_castle.1002.b:0 "Asistiré. De mala gana." #NT!
- agot_rebuilding_castle.1002.c:0 "Lamento decir que estoy ocupado." #NT!
- agot_rebuilding_castle.1002.d:0 "¡No, me niego!" #NT!
-
- agot_rebuilding_castle.1003.desc:0 "¡Por la presente te invito a un festín en mi corte en [barony.GetNameNoTier]! Será un gran evento, digno de su honorable presencia." #NT!
- agot_rebuilding_castle.1003.a:0 "Será un placer." #NT!
- agot_rebuilding_castle.1003.b:0 "Tengo asuntos más importantes que atender." #NT!
-
- agot_rebuilding_castle.1004.desc:0 "¡Por la presente te invito a un festín en mi corte en [barony.GetNameNoTier]! Será un evento grandioso, con deliciosa comida y entretenimiento." #NT!
- agot_rebuilding_castle.1004.a:0 "Será un placer." #NT!
- agot_rebuilding_castle.1004.b:0 "Tengo asuntos más importantes que atender." #NT!
-
-###############################
-#     The Charcoal Sells      #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2001.t:0 "Los vendedores de carbón" #NT!
-agot_rebuilding_castle.2001.desc:0 "Si bien al principio pensamos que el área alrededor del antiguo castillo estaba desierta, pronto nos enteramos de que algunas personas pequeñas que se ganaban la vida haciendo carbón vivían en el área, y fueron muy poco acogedores de nuestra presencia.\n\nAlgunos de mis hombres han informó que la gente pequeña les arrojó piedras, antes de huir al bosque; otros dijeron que les preocupa que pronto intenten sabotear el equipo utilizado para la reconstrucción. Algunos de mis hombres creen que los recolectores de carbón están cansados ​​de nuestra presencia debido a que la tierra no ha sido gobernada durante años, y temen que exijamos impuestos.\n\nOtros han señalado que la Guardia de la Noche está compuesta por muchos hombres enviados aquí como castigo por sus crímenes, y tal vez deberían tenernos miedo. Independientemente de las razones, debo actuar..." #NT!
-agot_rebuilding_castle.2001.a:0 "¡Si se comportan como salvajes, los trataré como tales!" #NT!
-agot_rebuilding_castle.2001.b:0 "Hablaré con ellos y les haré saber que no somos una amenaza." #NT!
-agot_rebuilding_castle.2001.c:0 "Tal vez un regalo para ellos nos gane buena voluntad." #NT!
-
-###############################
-#     Dark Pasts              #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2002.t:0 "Pasados ​​oscuros, hechos oscuros" #NT!
-agot_rebuilding_castle.2002.desc:0 "Mientras reconstruía el castillo, uno de mis hombres desea mostrarme algo, nada bueno desde el aspecto del muchacho. Me lleva a una pequeña habitación que al principio pensé que alguna vez había sido una prisión, pero luego veo montones de huesos.\n\nAlgunos huesos todavía tenían las cadenas alrededor de ellos, y en otros podías ver dónde habían estado. rotas y reparadas, algunas varias veces. "¿Los salvajes que tenían prisioneros tal vez? ... ¿Son marcas de corte?" Me pregunto más a mí mismo que al muchacho, mientras miraba las marcas en uno de los huesos. "Yo tenía un perro... le encantaban los huesos... se verían así, una vez que los había mordido un poco... [ROOT.Char.GetLadyLord], creo que cuando abandonaron este castillo, los dejaron aquí... #italic vivos, #!" los dijo el muchacho, su voz temblando." #NT!
-agot_rebuilding_castle.2002.a:0 "Una marca oscura en la Guardia de la Noche..." #NT!
-agot_rebuilding_castle.2002.b:0 "Tal habitación tiene sus usos..." #NT!
-
-###############################
-#     Buried Treasuer         #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2003.t:0 "Tesoro enterrado" #NT!
-agot_rebuilding_castle.2003.desc:0 "Algunos trabajadores hicieron un descubrimiento bienvenido mientras limpiaban los escombros de una habitación derrumbada. Se encontró una bolsa de oro escondida debajo de las tablas del piso. No se cuenta la historia de cómo llegó allí, tal vez contenía los fondos de alguien que esperaba abandonar la Guardia, o las monedas de un noble destinadas a un burdel y una taberna cercanos.\n\nAquel a quien alguna vez pertenecieron ya no está vivo para reclamarlos..." #NT!
-agot_rebuilding_castle.2003.a:0 "¡El reloj pondrá esto en uso!" #NT!
-
-###############################
-#     Wildling Attack!        #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2004.t:0 "¡Ataque salvaje!" #NT!
-agot_rebuilding_castle.2004.desc:0 "#bold ¡Los hijos de puta esperaron hasta la hora del ataque del lobo!#! \n\nUn grupo de asalto salvaje había estado espiando nuestro trabajo mientras reconstruíamos el antiguo castillo. Ya sea porque los egos creían que podrían llevarnos, o tal vez por desesperación debido a que el nuevo castillo significaba una Guardia más fuerte, se lanzaron a atacarnos." #NT!
-agot_rebuilding_castle.2004.a:0 "¡Ordenaré a los hombres para que luchen contra ellos!" #NT!
-agot_rebuilding_castle.2004.b:0 "¡Me uniré a la refriega!" #NT!
-agot_rebuilding_castle.2004.c:0 "Esto está perdido, mejor nos retiramos..." #NT!
-
-###############################
-#     A Quick Decision        #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2005.t:0 "Una decisión rápida" #NT!
-agot_rebuilding_castle.2005.desc:0 "Reconstruir un castillo como este no es una tarea sencilla. Se deben reparar años de deterioro y se debe restaurar la mampostería que alguna vez fue orgullosa.\n\nHoy, mientras algunos de mis hombres están levantando paletas de ladrillos a los tramos más altos del castillo en ruinas, noto que una de las cuerdas comienza a deshilacharse. Veo [agot_rebuilding_block_head.GetTitledFirstName] a continuación, totalmente inconsciente: #italic pero ¿hay suficiente tiempo para ayudar a [agot_rebuilding_block_head.GetHerHim]?#!" #NT!
-agot_rebuilding_castle.2005.a:0 "Esperemos que [agot_rebuilding_block_head.GetSheHe] no resulte herido..." #NT!
-agot_rebuilding_castle.2005.a.tt:0 "Intenta advertir a [agot_rebuilding_block_head.GetHerHim]." #NT!
-agot_rebuilding_castle.2005.b:0 "¡Todavía puedo llegar al [agot_rebuilding_block_head.GetWomanMan] y proteger al [agot_rebuilding_ruin_block_head.GetHerHim]!" #NT!
-agot_rebuilding_castle.2005.b.tt:0 "Hacerlo te pondrá en peligro, pero [agot_rebuilding_block_head.GetFirstNameNoTooltip] te lo agradecerá." #NT!
-
-###############################
-#     Old Habits Die Hard     #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2006.t:0 "Los viejos hábitos tardan en morir" #NT!
-agot_rebuilding_castle.2006.desc:0 "La vida en el Muro es una de pocos cambios, como tal, la mayoría de los hermanos negros encuentran un ritmo en sus vidas y #italic mostly#! evitan conflictos entre ellos.\n\nAún así, cuando llega el cambio, puede estallar viejas creencias profundamente arraigadas que ya no se aplican a los del Muro. La reconstrucción ha sido uno de esos catalizadores. Dos de mis hombres, uno de baja cuna y el otro de una familia noble, se han convertido en el centro de las disputas." #NT!
-agot_rebuilding_castle.2006.a:0 "¡La sangre no tiene barra aquí!" #NT!
-agot_rebuilding_castle.2006.b:0 "La mayoría de los plebeyos venían aquí como criminales..." #NT!
-agot_rebuilding_castle.2006.c:0 "¡Somos hermanos aquí! Solo necesitan un respiro." #NT!
-agot_rebuilding_castle.2006.d:0 "¡No tendré peleas dentro de las filas!" #NT!
-
-###############################
-#     Options set in Stone    #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2007.t:0 "Opciones grabadas en piedra" #NT!
-agot_rebuilding_castle.2007.desc:0 "Se está acarreando piedra para el esfuerzo de reconstrucción de las canteras de la Guardia dentro del Nuevo Don y de las de los señores del norte cercanos.\n\nUno de mis hombres ha señalado que hay una fuente potencial de piedra cerca, aunque solo sería una pequeña cantera que se secaría en pocos años." #NT!
-agot_rebuilding_castle.2007.a:0 "Proporcionaré los fondos para esta pequeña cantera." #NT!
-agot_rebuilding_castle.2007.b:0 "El oro se gasta mejor en otra parte." #NT!
-
-###############################
-#     In the Details          #
-#     ZombieSchrodCat         #
-###############################
-
-agot_rebuilding_castle.2008.t:0 "En los detalles" #NT!
-agot_rebuilding_castle.2008.desc:0 "Los esfuerzos de reconstrucción han ido bien, pero todavía me encuentro leyendo los planos de construcción hasta altas horas de la noche. A veces, realizo pequeños cambios o veo formas minúsculas de mejorar los planes que ya se están implementando.\n\nAlgunos de mis hombres han comentado que les preocupa que esté demasiado absorto en la reconstrucción..." #NT!
-agot_rebuilding_castle.2008.a:0 "¡Seguro que esto no es una obsesión!" #NT!
-
-#No one showed up
-agot_rebuilding_castle.0999.t:0 "El cuervo solitario" #NT!
-agot_rebuilding_castle.0999.desc:0 "Los esfuerzos de reconstrucción se han detenido. A pesar de mis mejores intentos, no pude reunir la mano de obra que necesitaría para llevar a cabo una tarea como esta.\n\nMe estremezco al pensar en el punto débil y descuidado a lo largo del Muro que había tratado de fortalecer. Esperemos que los salvajes no nos corten la garganta antes de que se pueda hacer otro intento de reconstrucción..." #NT!
-agot_rebuilding_castle.0999.a:0 "Cae la noche, y ahora comienza mi guardia..." #NT!
+ activity_rebuilding_castle: "Reconstrucción"
+ activity_rebuilding_castle_owner: "Lord comandante"
+ activity_rebuilding_castle_name: "Reconstruyendo una fortaleza"
+  
+ nw_wall_castle_rebuilding_other_selections_available_tt: "Evaluaré otros castillos a lo largo del Muro."
+  
+  # Rebuilding Choice Events 
+ agot_nights_watch.1001.t: "Reconstruyendo el reloj"
+ agot_nights_watch.1001.desc: "Durante demasiado tiempo, los hermanos de la Guardia de la Noche han observado ociosamente cómo los fuertes a lo largo del Muro se marchitan y se desmoronan, se descuidan y se pudren.\n\nEl triste estado de nuestra orden ha quedado atrás. La Guardia prospera, nuestras arcas están llenas y los reclutas abundan. Por fin ha llegado el momento de reconstruir y repoblar, ahora debemos decidir dónde centrar nuestros esfuerzos."
+ agot_nights_watch.1001.a: "El castillo en [nw_wall_castle_1.GetTitle.GetNameNoTierNoTooltip]."
+ agot_nights_watch.1001.b: "[nw_wall_castle_2.GetTitle.GetNameNoTierNoTooltip] promete mucho."
+ agot_nights_watch.1001.c: "¡Las ruinas de [nw_wall_castle_3.GetTitle.GetNameNoTierNoTooltip]!"
+ agot_nights_watch.1001.d: "[nw_wall_castle_4.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica."
+ agot_nights_watch.1001.e: "¡Envía a los constructores a [nw_wall_castle_5.GetTitle.GetNameNoTierNoTooltip]!"
+ agot_nights_watch.1001.f: "Tal vez otro castillo podría usar mi atención..."
+ agot_nights_watch.1001.g: "He cambiado de opinión. Este no es el momento adecuado."
+  
+ agot_nights_watch.1002.a: "El castillo en [nw_wall_castle_6.GetTitle.GetNameNoTierNoTooltip]."
+ agot_nights_watch.1002.b: "[nw_wall_castle_7.GetTitle.GetNameNoTierNoTooltip] promete mucho."
+ agot_nights_watch.1002.c: "¡Las ruinas de [nw_wall_castle_8.GetTitle.GetNameNoTierNoTooltip]!"
+ agot_nights_watch.1002.d: "[nw_wall_castle_9.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica."
+ agot_nights_watch.1002.e: "¡Envía a los constructores a [nw_wall_castle_10.GetTitle.GetNameNoTierNoTooltip]!"
+  
+ agot_nights_watch.1003.a: "El castillo en [nw_wall_castle_11.GetTitle.GetNameNoTierNoTooltip]."
+ agot_nights_watch.1003.b: "[nw_wall_castle_12.GetTitle.GetNameNoTierNoTooltip] promete mucho."
+ agot_nights_watch.1003.c: "¡Las ruinas de [nw_wall_castle_13.GetTitle.GetNameNoTierNoTooltip]!"
+ agot_nights_watch.1003.d: "[nw_wall_castle_14.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica."
+ agot_nights_watch.1003.e: "¡Envía a los constructores a [nw_wall_castle_15.GetTitle.GetNameNoTierNoTooltip]!"
+  
+ agot_nights_watch.1004.a: "El castillo en [nw_wall_castle_16.GetTitle.GetNameNoTierNoTooltip]."
+ agot_nights_watch.1004.b: "[nw_wall_castle_17.GetTitle.GetNameNoTierNoTooltip] promete mucho."
+ agot_nights_watch.1004.c: "¡Las ruinas de [nw_wall_castle_18.GetTitle.GetNameNoTierNoTooltip]!"
+ agot_nights_watch.1004.d: "[nw_wall_castle_19.GetTitle.GetNameNoTierNoTooltip] es la elección estratégica."
+  
+  # Generic Start Events 
+ agot_rebuilding_castle.1000.desc: "Nuestros deberes en el Muro son muchos, pero asistir a los desfiles en la corte de [other_host.GetTitledFirstNamePossessive] no es uno de ellos. Somos el escudo que protege los reinos del hombre, ¿o lo has olvidado?"
+ agot_rebuilding_castle.1000.a: "Estás probando tus juramentos..."
+  
+  # Invitations 
+ agot_rebuilding_castle.1002.opening: "[sender.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_rebuilding_castle.1002.opening_desc: "¡Por la presente te invito a un festín en mi corte en [ACTIVITY.GetLocation.GetName]!"
+ agot_rebuilding_castle.1002.host_likes_me: "Espero que asista, ya que de lo contrario se extrañaría mucho su presencia."
+ agot_rebuilding_castle.1002.host_gets_along_with_me: "Como [ROOT.Char.GetTitleTierName] notable, sería un honor para mí su asistencia."
+ agot_rebuilding_castle.1002.host_dislikes_me: "Espero que todos los notables estén allí, lo que desafortunadamente te incluye a ti."
+ agot_rebuilding_castle.1002.a: "Por supuesto que asistiré."
+ agot_rebuilding_castle.1002.b: "Asistiré. De mala gana."
+ agot_rebuilding_castle.1002.c: "Lamento decir que estoy ocupado."
+ agot_rebuilding_castle.1002.d: "¡No, me niego!"
+  
+ agot_rebuilding_castle.1003.desc: "¡Por la presente te invito a un festín en mi corte en [barony.GetNameNoTier]! Será un gran evento, digno de su honorable presencia."
+ agot_rebuilding_castle.1003.a: "Será un placer."
+ agot_rebuilding_castle.1003.b: "Tengo asuntos más importantes que atender."
+  
+ agot_rebuilding_castle.1004.desc: "¡Por la presente te invito a un festín en mi corte en [barony.GetNameNoTier]! Será un evento grandioso, con deliciosa comida y entretenimiento."
+ agot_rebuilding_castle.1004.a: "Será un placer."
+ agot_rebuilding_castle.1004.b: "Tengo asuntos más importantes que atender."
+  
+ ############################### 
+ #     The Charcoal Sells      # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2001.t: "Los vendedores de carbón"
+ agot_rebuilding_castle.2001.desc: "Si bien al principio pensamos que el área alrededor del antiguo castillo estaba desierta, pronto nos enteramos de que algunas personas pequeñas que se ganaban la vida haciendo carbón vivían en el área, y fueron muy poco acogedores de nuestra presencia.\n\nAlgunos de mis hombres han informó que la gente pequeña les arrojó piedras, antes de huir al bosque; otros dijeron que les preocupa que pronto intenten sabotear el equipo utilizado para la reconstrucción. Algunos de mis hombres creen que los recolectores de carbón están cansados ​​de nuestra presencia debido a que la tierra no ha sido gobernada durante años, y temen que exijamos impuestos.\n\nOtros han señalado que la Guardia de la Noche está compuesta por muchos hombres enviados aquí como castigo por sus crímenes, y tal vez deberían tenernos miedo. Independientemente de las razones, debo actuar..."
+ agot_rebuilding_castle.2001.a: "¡Si se comportan como salvajes, los trataré como tales!"
+ agot_rebuilding_castle.2001.b: "Hablaré con ellos y les haré saber que no somos una amenaza."
+ agot_rebuilding_castle.2001.c: "Tal vez un regalo para ellos nos gane buena voluntad."
+  
+ ############################### 
+ #     Dark Pasts              # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2002.t: "Pasados ​​oscuros, hechos oscuros"
+ agot_rebuilding_castle.2002.desc: "Mientras reconstruía el castillo, uno de mis hombres desea mostrarme algo, nada bueno desde el aspecto del muchacho. Me lleva a una pequeña habitación que al principio pensé que alguna vez había sido una prisión, pero luego veo montones de huesos.\n\nAlgunos huesos todavía tenían las cadenas alrededor de ellos, y en otros podías ver dónde habían estado. rotas y reparadas, algunas varias veces. "¿Los salvajes que tenían prisioneros tal vez? ... ¿Son marcas de corte?" Me pregunto más a mí mismo que al muchacho, mientras miraba las marcas en uno de los huesos. "Yo tenía un perro... le encantaban los huesos... se verían así, una vez que los había mordido un poco... [ROOT.Char.GetLadyLord], creo que cuando abandonaron este castillo, los dejaron aquí... #italic vivos, #!" los dijo el muchacho, su voz temblando."
+ agot_rebuilding_castle.2002.a: "Una marca oscura en la Guardia de la Noche..."
+ agot_rebuilding_castle.2002.b: "Tal habitación tiene sus usos..."
+  
+ ############################### 
+ #     Buried Treasuer         # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2003.t: "Tesoro enterrado"
+ agot_rebuilding_castle.2003.desc: "Algunos trabajadores hicieron un descubrimiento bienvenido mientras limpiaban los escombros de una habitación derrumbada. Se encontró una bolsa de oro escondida debajo de las tablas del piso. No se cuenta la historia de cómo llegó allí, tal vez contenía los fondos de alguien que esperaba abandonar la Guardia, o las monedas de un noble destinadas a un burdel y una taberna cercanos.\n\nAquel a quien alguna vez pertenecieron ya no está vivo para reclamarlos..."
+ agot_rebuilding_castle.2003.a: "¡El reloj pondrá esto en uso!"
+  
+ ############################### 
+ #     Wildling Attack!        # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2004.t: "¡Ataque salvaje!"
+ agot_rebuilding_castle.2004.desc: "#bold ¡Los hijos de puta esperaron hasta la hora del ataque del lobo!#! \n\nUn grupo de asalto salvaje había estado espiando nuestro trabajo mientras reconstruíamos el antiguo castillo. Ya sea porque los egos creían que podrían llevarnos, o tal vez por desesperación debido a que el nuevo castillo significaba una Guardia más fuerte, se lanzaron a atacarnos."
+ agot_rebuilding_castle.2004.a: "¡Ordenaré a los hombres para que luchen contra ellos!"
+ agot_rebuilding_castle.2004.b: "¡Me uniré a la refriega!"
+ agot_rebuilding_castle.2004.c: "Esto está perdido, mejor nos retiramos..."
+  
+ ############################### 
+ #     A Quick Decision        # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2005.t: "Una decisión rápida"
+ agot_rebuilding_castle.2005.desc: "Reconstruir un castillo como este no es una tarea sencilla. Se deben reparar años de deterioro y se debe restaurar la mampostería que alguna vez fue orgullosa.\n\nHoy, mientras algunos de mis hombres están levantando paletas de ladrillos a los tramos más altos del castillo en ruinas, noto que una de las cuerdas comienza a deshilacharse. Veo [agot_rebuilding_block_head.GetTitledFirstName] a continuación, totalmente inconsciente: #italic pero ¿hay suficiente tiempo para ayudar a [agot_rebuilding_block_head.GetHerHim]?#!"
+ agot_rebuilding_castle.2005.a: "Esperemos que [agot_rebuilding_block_head.GetSheHe] no resulte herido..."
+ agot_rebuilding_castle.2005.a.tt: "Intenta advertir a [agot_rebuilding_block_head.GetHerHim]."
+ agot_rebuilding_castle.2005.b: "¡Todavía puedo llegar al [agot_rebuilding_block_head.GetWomanMan] y proteger al [agot_rebuilding_ruin_block_head.GetHerHim]!"
+ agot_rebuilding_castle.2005.b.tt: "Hacerlo te pondrá en peligro, pero [agot_rebuilding_block_head.GetFirstNameNoTooltip] te lo agradecerá."
+  
+ ############################### 
+ #     Old Habits Die Hard     # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2006.t: "Los viejos hábitos tardan en morir"
+ agot_rebuilding_castle.2006.desc: "La vida en el Muro es una de pocos cambios, como tal, la mayoría de los hermanos negros encuentran un ritmo en sus vidas y #italic mostly#! evitan conflictos entre ellos.\n\nAún así, cuando llega el cambio, puede estallar viejas creencias profundamente arraigadas que ya no se aplican a los del Muro. La reconstrucción ha sido uno de esos catalizadores. Dos de mis hombres, uno de baja cuna y el otro de una familia noble, se han convertido en el centro de las disputas."
+ agot_rebuilding_castle.2006.a: "¡La sangre no tiene barra aquí!"
+ agot_rebuilding_castle.2006.b: "La mayoría de los plebeyos venían aquí como criminales..."
+ agot_rebuilding_castle.2006.c: "¡Somos hermanos aquí! Solo necesitan un respiro."
+ agot_rebuilding_castle.2006.d: "¡No tendré peleas dentro de las filas!"
+  
+ ############################### 
+ #     Options set in Stone    # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2007.t: "Opciones grabadas en piedra"
+ agot_rebuilding_castle.2007.desc: "Se está acarreando piedra para el esfuerzo de reconstrucción de las canteras de la Guardia dentro del Nuevo Don y de las de los señores del norte cercanos.\n\nUno de mis hombres ha señalado que hay una fuente potencial de piedra cerca, aunque solo sería una pequeña cantera que se secaría en pocos años."
+ agot_rebuilding_castle.2007.a: "Proporcionaré los fondos para esta pequeña cantera."
+ agot_rebuilding_castle.2007.b: "El oro se gasta mejor en otra parte."
+  
+ ############################### 
+ #     In the Details          # 
+ #     ZombieSchrodCat         # 
+ ############################### 
+  
+ agot_rebuilding_castle.2008.t: "En los detalles"
+ agot_rebuilding_castle.2008.desc: "Los esfuerzos de reconstrucción han ido bien, pero todavía me encuentro leyendo los planos de construcción hasta altas horas de la noche. A veces, realizo pequeños cambios o veo formas minúsculas de mejorar los planes que ya se están implementando.\n\nAlgunos de mis hombres han comentado que les preocupa que esté demasiado absorto en la reconstrucción..."
+ agot_rebuilding_castle.2008.a: "¡Seguro que esto no es una obsesión!"
+  
+ #No one showed up 
+ agot_rebuilding_castle.0999.t: "El cuervo solitario"
+ agot_rebuilding_castle.0999.desc: "Los esfuerzos de reconstrucción se han detenido. A pesar de mis mejores intentos, no pude reunir la mano de obra que necesitaría para llevar a cabo una tarea como esta.\n\nMe estremezco al pensar en el punto débil y descuidado a lo largo del Muro que había tratado de fortalecer. Esperemos que los salvajes no nos corten la garganta antes de que se pueda hacer otro intento de reconstrucción..."
+ agot_rebuilding_castle.0999.a: "Cae la noche, y ahora comienza mi guardia..."

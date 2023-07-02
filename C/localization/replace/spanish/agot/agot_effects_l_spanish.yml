@@ -1,36 +1,68 @@
 ﻿l_spanish:
-
- UMBER_GENETIC_TRAIT_FOR_BLOODLINE_NO_BULLETTAB:0 "Feroz y grande como su cargo; los Umbers encarnan el último hogar del Norte y su primera línea de defensa. \nLa sangre de los primeros hombres corre espesa por las venas de Umber, y están predispuestos a grandes rasgos [congenital|E]." #NT!
-
- ###########
- #KNIGHTING#
- ###########
-
- GET_AGOT_SQUIRE:0 "Obtiene [TARGET_CHARACTER.GetShortUIName] como #V [squire|e]#!" #NT!
- I_GET_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu #V [squire|e]#!" #NT!
- I_GOT_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu #V [squire|e]#!" #NT!
- THEY_GET_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHARACTER.GetShortUINamePossessive] #V [squire|e]#!" #NT!
- THEY_GOT_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en [CHARACTER.GetShortUIName] #V [squire|e]#!" #NT!
- LOSE_AGOT_SQUIRE:0 "Pierde [TARGET_CHARACTER.GetShortUIName] como su #V [squire|e]#!" #NT!
- I_LOSE_AGOT_SQUIRE:1 "[TARGET_CHARACTER.GetShortUIName|U] ya no es tu #V [squire|e]#!" #NT!
- THEY_LOSE_AGOT_SQUIRE:0 "[TARGET_CHARACTER.GetShortUIName|U] ya no es [CHARACTER.GetShortUIName] #V [squire|e]#!" #NT!
-
-
- GET_AGOT_KNIGHT:0 "Obtiene [TARGET_CHARACTER.GetShortUIName] como #V [agot_knight|e]#!" #NT!
- I_GET_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu #V [agot_knight|e]#!" #NT!
- I_GOT_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu #V [agot_knight|e]#!" #NT!
- THEY_GET_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHARACTER.GetShortUINamePossessive] #V [agot_knight|e]#!" #NT!
- THEY_GOT_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en [CHARACTER.GetShortUIName] #V [agot_knight|e]#!" #NT!
- LOSE_AGOT_KNIGHT:0 "Pierde [TARGET_CHARACTER.GetShortUIName] como su #V [agot_knight|e]#!" #NT!
- I_LOSE_AGOT_KNIGHT:1 "[TARGET_CHARACTER.GetShortUIName|U] ya no es tu #V [agot_knight|e]#!" #NT!
- THEY_LOSE_AGOT_KNIGHT:0 "[TARGET_CHARACTER.GetShortUIName|U] ya no es [CHARACTER.GetShortUIName] #V [agot_knight|e]#!" #NT!
-
-#Paramours
- GET_PARAMOUR:0 "Obtiene [TARGET_CHARACTER.GetShortUIName] como amante" #NT!
- I_GET_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu amante" #NT!
- I_GOT_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu amante" #NT!
- THEY_GET_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] se convierte en amante de [CHARACTER.GetShortUINamePossessive]" #NT!
- THEY_GOT_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en amante de [CHARACTER.GetShortUIName]" #NT!
- LOSE_PARAMOUR:0 "Pierde [TARGET_CHARACTER.GetShortUIName] como su amante" #NT!
- I_LOSE_PARAMOUR:1 "[TARGET_CHARACTER.GetShortUIName|U] ya no es tu amante" #NT!
- THEY_LOSE_PARAMOUR:0 "[TARGET_CHARACTER.GetShortUIName|U] ya no es [CHARACTER.GetShortUIName] Paramour" #NT!
+  
+  ########### 
+  #KNIGHTING# 
+  ########### 
+  
+ GET_AGOT_SQUIRE: "Obtiene [TARGET_CHARACTER.GetShortUIName] como #V [squire|e]#!"
+ I_GET_AGOT_SQUIRE: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu #V [squire|e]#!"
+ I_GOT_AGOT_SQUIRE: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu #V [squire|e]#!"
+ THEY_GET_AGOT_SQUIRE: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHARACTER.GetShortUINamePossessive] #V [squire|e]#!"
+ THEY_GOT_AGOT_SQUIRE: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en [CHARACTER.GetShortUIName] #V [squire|e]#!"
+ LOSE_AGOT_SQUIRE: "Pierde [TARGET_CHARACTER.GetShortUIName] como su #V [squire|e]#!"
+ I_LOSE_AGOT_SQUIRE: "[TARGET_CHARACTER.GetShortUIName|U] ya no es tu #V [squire|e]#!"
+ THEY_LOSE_AGOT_SQUIRE: "[TARGET_CHARACTER.GetShortUIName|U] ya no es [CHARACTER.GetShortUIName] #V [squire|e]#!"
+  
+  
+ GET_AGOT_KNIGHT: "Obtiene [TARGET_CHARACTER.GetShortUIName] como #V [agot_knight|e]#!"
+ I_GET_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu #V [agot_knight|e]#!"
+ I_GOT_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu #V [agot_knight|e]#!"
+ THEY_GET_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHARACTER.GetShortUINamePossessive] #V [agot_knight|e]#!"
+ THEY_GOT_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en [CHARACTER.GetShortUIName] #V [agot_knight|e]#!"
+ LOSE_AGOT_KNIGHT: "Pierde [TARGET_CHARACTER.GetShortUIName] como su #V [agot_knight|e]#!"
+ I_LOSE_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] ya no es tu #V [agot_knight|e]#!"
+ THEY_LOSE_AGOT_KNIGHT: "[TARGET_CHARACTER.GetShortUIName|U] ya no es [CHARACTER.GetShortUIName] #V [agot_knight|e]#!"
+  
+ #Paramours 
+ GET_PARAMOUR: "Obtiene [TARGET_CHARACTER.GetShortUIName] como amante"
+ I_GET_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu amante"
+ I_GOT_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu amante"
+ THEY_GET_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en amante de [CHARACTER.GetShortUINamePossessive]"
+ THEY_GOT_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en amante de [CHARACTER.GetShortUIName]"
+ LOSE_PARAMOUR: "Pierde [TARGET_CHARACTER.GetShortUIName] como su amante"
+ I_LOSE_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] ya no es tu amante"
+ THEY_LOSE_PARAMOUR: "[TARGET_CHARACTER.GetShortUIName|U] ya no es [CHARACTER.GetShortUIName] Paramour"
+  
+  
+ #Lifestyle perks 
+ SPYNETWORK_MASSES_DESCRIPTION: "Duplica la cantidad de espías que se pueden reclutar sin penalización." #NT!
+ I_SPYNETWORK_MASSES_DESCRIPTION: "Puedes reclutar el doble de espías sin penalización." #NT!
+ THEY_SPYNETWORK_MASSES_DESCRIPTION: "[CHARACTER.GetShortUIName|U] es capaz de reclutar el doble de espías sin penalización" #NT!
+  
+ SPYNETWORK_INSTRUCTED_DESCRIPTION: "Aumenta la probabilidad de que los espías encuentren secretos." #NT!
+ I_SPYNETWORK_INSTRUCTED_DESCRIPTION: "Es más probable que tus espías encuentren secretos" #NT!
+ THEY_SPYNETWORK_INSTRUCTED_DESCRIPTION: "[CHARACTER.GetShortUIName|U] es más probable que los espías encuentren secretos" #NT!
+  
+ SPYNETWORK_CONVINCING_DESCRIPTION: "Los personajes generalmente están más dispuestos a espiar por ti." #NT!
+ I_SPYNETWORK_CONVINCING_DESCRIPTION: "Los personajes generalmente están más dispuestos a espiar por ti." #NT!
+ THEY_SPYNETWORK_CONVINCING_DESCRIPTION: "Los personajes generalmente están más dispuestos a espiar por [CHARACTER.GetShortUIName|U]" #NT!
+  
+ SPYNETWORK_CHARISMATIC_DESCRIPTION: "Los personajes atraídos están más dispuestos a espiar por ti" #NT!
+ I_SPYNETWORK_CHARISMATIC_DESCRIPTION: "Los personajes atraídos están más dispuestos a espiar por ti" #NT!
+ THEY_SPYNETWORK_CHARISMATIC_DESCRIPTION: "Los personajes atraídos están más dispuestos a espiar por [CHARACTER.GetShortUIName|U]" #NT!
+  
+ SPYNETWORK_BIRDS_DESCRIPTION: "Puedes contratar niños mayores de 8 años como espías" #NT!
+ I_SPYNETWORK_BIRDS_DESCRIPTION: "Puedes contratar niños mayores de 8 años como espías" #NT!
+ THEY_SPYNETWORK_BIRDS_DESCRIPTION: "[CHARACTER.GetShortUIName|U] puede contratar niños mayores de 8 años como espías" #NT!
+  
+ SPYNETWORK_INNOCENT_DESCRIPTION: "Los niños que espían para ti tienen más posibilidades de encontrar secretos" #NT!
+ I_SPYNETWORK_INNOCENT_DESCRIPTION: "Los niños que espían para ti tienen más posibilidades de encontrar secretos" #NT!
+ THEY_SPYNETWORK_INNOCENT_DESCRIPTION: "Los niños que espían por [CHARACTER.GetShortUIName|U] tienen más posibilidades de encontrar secretos" #NT!
+  
+ SPYNETWORK_OMERTA_DESCRIPTION: "Es mucho menos probable que sus espías se vuelvan locos y revelen su nombre si los atrapan." #NT!
+ I_SPYNETWORK_OMERTA_DESCRIPTION: "Es mucho menos probable que sus espías se vuelvan locos y revelen su nombre si los atrapan." #NT!
+ THEY_SPYNETWORK_OMERTA_DESCRIPTION: "Es mucho menos probable que los espías de [CHARACTER.GetShortUIName|U] se vuelvan locos y revelen a su empleador si los atrapan." #NT!
+  
+ SPYNETWORK_SLEEPER_DESCRIPTION: "Es más probable que sus espías se unan a sus esquemas hostiles como agentes" #NT!
+ I_SPYNETWORK_SLEEPER_DESCRIPTION: "Es más probable que sus espías se unan a sus esquemas hostiles como agentes" #NT!
+ THEY_SPYNETWORK_SLEEPER_DESCRIPTION: "Es más probable que los espías de [CHARACTER.GetShortUIName|U] se unan a esquemas hostiles como agentes" #NT!

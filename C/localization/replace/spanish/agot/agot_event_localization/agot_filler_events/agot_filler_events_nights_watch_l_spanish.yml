@@ -1,282 +1,282 @@
 ﻿l_spanish:
-
- ################################################
- #   agot_nights_watch.0000 - NIGHTSWATCHMAN ARRIVES  #
- ################################################
-
- nightswatch_arrived.title:0 "Un nuevo vigilante de la noche" #NT!
- nightswatch_arrived.desc:0 "[nightswatch_candidate.GetShortUIName|U] se ha unido a la Guardia de la Noche como hermano jurado." #NT!
-
-
- ################################################
- #   agot_nights_watch.0001 - MULE SHORTAGE (SETUP)  #
- ################################################
-
- agot_filler_nights_watch.0001.message.t:0 "Escasez de Mulas en $c_eastwatch$" #NT!
- agot_filler_nights_watch.0001.message.tt:0 "Últimamente escasean las mulas entrenadas en $c_eastwatch$ para patrullar el Muro." #NT!
-
- ########################################
- #   agot_nights_watch.0002 - MULE SHORTAGE  #
- ########################################
-
- agot_filler_nights_watch.0002.t:0 "Escasez de mulas" #NT!
- agot_filler_nights_watch.0002.opening:0 "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se para frente a mí" #NT!
- agot_filler_nights_watch.0002.bold:0 "Golpeando el pecho de [teller.GetHerHis]." #NT!
- agot_filler_nights_watch.0002.anger:0 "Gruñendo y hirviendo." #NT!
- agot_filler_nights_watch.0002.paranoia:0 "Con una mirada cruel y sin amor en los ojos de [teller.GetHerHis]." #NT!
- agot_filler_nights_watch.0002.fallback:0 "En completa incredulidad." #NT!
- agot_filler_nights_watch.0002.middle:0 "\n\n"[fallguy.Custom2('YourCharacterIntroduction', ROOT.Char)|U] está vendiendo nuestras mulas", dice [teller.GetSheHe] con disgusto. "La manada que usamos para patrullar el muro se ha reducido este último año, así que me encargué de descubrir la causa, y estoy seguro de que [fallguy.GetSheHe] los está vendiendo. ¡[fallguy.GetSheHe|U] podría haber hecho tanto como doscientos dragones dorados!" #NT!
- agot_filler_nights_watch.0002.special.less_than.learning:0 "\n\nMientras miro [teller.GetFirstNameNoTooltip], sé en mi corazón que [teller.GetSheHe] está bien aprendido, pero" #NT!
- agot_filler_nights_watch.0002.special.less_than.stewardship:0 "\n\n[teller.GetSheHe|U] puede manejar los libros lo suficientemente bien, pienso mientras miro a [teller.GetHerHim], pero ¿[teller.GetSheHe] realmente sabe mejor aquí?" #NT!
- agot_filler_nights_watch.0002.special.less_than.learning.humble:0 "\n\nNo puedo ignorar completamente [teller.GetTitledFirstName|U] cuando [teller.GetSheHe] está tan bien aprendido, pero" #NT!
- agot_filler_nights_watch.0002.special.less_than.stewardship.humble:0 "\n\nPuede que no sea tan bueno administrando los libros como [teller.GetTitledFirstName], pero" #NT!
- agot_filler_nights_watch.0002.special.greater_than.learning:0 "\n\nPero por supuesto, soy más instruido que [teller.GetTitledFirstNameNoTooltip], y sé que" #NT!
- agot_filler_nights_watch.0002.special.greater_than.stewardship:0 "\n\nSin embargo, mientras observo a [teller.GetHerHim], soy íntimamente consciente de que sé más sobre finanzas de lo que nunca sabrá [teller.GetTitledFirstNameNoTooltip], y que" #NT!
- agot_filler_nights_watch.0002.special.greater_than.learning.arrogant:0 "\n\nMiro fijamente a [teller.GetHerHim], contento de saber mucho más sobre estas cosas de lo que jamás sabrá [teller.SheHe], y eso" #NT!
- agot_filler_nights_watch.0002.special.greater_than.stewardship.arrogant:0 "\n\nLo miro fijamente, segura de que sé más sobre nuestras finanzas que este [teller.Custom('InsultNoun')] de un [teller.GetWomanMan], y sé" #NT!
- agot_filler_nights_watch.0002.special.stupid:0 "[fallguy.GetTitledFirstNameNoTooltip] es demasiado estúpido para administrar tal esquema." #NT!
- agot_filler_nights_watch.0002.special.cowardly:0 "[fallguy.GetTitledFirstNameNoTooltip] es demasiado cobarde para tal esquema." #NT!
- agot_filler_nights_watch.0002.special.fallback:0 "Es muy improbable que [fallguy.GetTitledFirstNameNoTooltip] gestione un esquema de este tipo." #NT!
- agot_filler_nights_watch.0002.special.closing:0 "Es mucho más probable que [undercutter.GetTitledFirstName] sea el que se beneficie de la venta de nuestras mulas." #NT!
- agot_filler_nights_watch.0002.a.greedy:0 "Haz que [undercutter.GetTitledFirstNameNoTooltip] te interrumpa en el esquema" #NT!
- agot_filler_nights_watch.0002.a.fallback:0 "Hacer que [undercutter.GetTitledFirstNameNoTooltip] devuelva lo que robó [undercutter.GetSheHe]" #NT!
- agot_filler_nights_watch.0002.a.random_1.desc:0 "[undercutter.GetTitledFirstNameNoTooltip] devuelve lo que robó [undercutter.GetSheHe]" #NT!
- agot_filler_nights_watch.0002.a.random_2.desc:0 "[undercutter.GetTitledFirstNameNoTooltip] huye del Muro" #NT!
- agot_filler_nights_watch.0002.a.message.t:0 "Ejecutas [undercutter.GetTitledFirstNameNoTooltip]" #NT!
- agot_filler_nights_watch.0002.b.banish:0 "Desterrar [undercutter.GetTitledFirstNameNoTooltip] por [undercutter.GetHerHis] crímenes contra la Guardia" #NT!
- agot_filler_nights_watch.0002.b.execute:0 "Ejecuta [undercutter.GetTitledFirstNameNoTooltip] por [undercutter.GetHerHis] crímenes contra la Guardia" #NT!
- agot_filler_nights_watch.0002.c:0 "Haz que [fallguy.GetTitledFirstNameNoTooltip] devuelva lo que robó [fallguy.GetSheHe]" #NT!
- agot_filler_nights_watch.0002.c.random_1.desc:0 "[fallguy.GetTitledFirstNameNoTooltip] huye del Muro" #NT!
- agot_filler_nights_watch.0002.c.random_2.desc:0 "[fallguy.GetTitledFirstNameNoTooltip] devuelve lo que [fallguy.GetSheHe] está acusado de robar" #NT!
- agot_filler_nights_watch.0002.c.toast.t:0 "[fallguy.GetTitledFirstName] huye del muro" #NT!
- agot_filler_nights_watch.0002.c.toast.tt:0 "[fallguy.GetTitledFirstNameNoTooltip] ha huido de la publicación de [fallguy.GetHerHis] después de ser acusado de robar del reloj" #NT!
- agot_filler_nights_watch.0002.c.random_2.tt:0 "Si [fallguy.GetSheHe] no devuelve lo robado, tendrá justificación para sancionar a [fallguy.GetHerHim]" #NT!
- agot_filler_nights_watch.0002.d.banish:0 "Desterrar [fallguy.GetTitledFirstNameNoTooltip] por [fallguy.GetHerHis] crímenes contra la Guardia" #NT!
- agot_filler_nights_watch.0002.d.execute:0 "Ejecuta [fallguy.GetTitledFirstNameNoTooltip] por [fallguy.GetHerHis] crímenes contra la Guardia" #NT!
- agot_filler_nights_watch.0002.d.message.t:0 "Ejecutas [fallguy.GetTitledFirstName]" #NT!
- agot_filler_nights_watch.0002.e.arrogant:0 "Sé mejor que tú sobre lo que sucede en $c_eastwatch$." #NT!
- agot_filler_nights_watch.0002.e.arbitrary:0 "Me importan poco las mulas, [teller.GetFirstNameNoTooltip]" #NT!
- agot_filler_nights_watch.0002.e.just:0 "Tráeme más que sospechas y hablaremos." #NT!
- agot_filler_nights_watch.0002.e.fallback:0 "¿Me molestas con esta tontería? Vete, [teller.GetFirstNameNoTooltip]." #NT!
- every_member_of_nights_watch:0 "Todos los miembros de la Guardia de la Noche" #NT!
- every_close_relation:0 "Todos los parientes cercanos de los ejecutados" #NT!
-
- ############################################
- #   agot_nights_watch.0003 - GOLD REINVESTMENT  #
- ############################################
-
- agot_filler_nights_watch.0003.t:0 "Reinvertir" #NT!
- agot_filler_nights_watch.0003.desc:0 "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me encuentra en las cámaras del consejo y no hace ningún esfuerzo por ocultar la indignación de [teller.GetHerHis].\n\n"El oro que incautaste del esquema de [undercutter.GetTitledFirstNamePossessive] debe reinvertirse en la Guardia." [teller.GetSheHe|U] se pasea por la habitación, agitando las manos. "Quedarte con ese oro equivale a robar, mi [ROOT.Char.GetLadyLord]. #EMP debes#! devolvérselo a la Guardia." #NT!
- agot_filler_nights_watch.0003.a.wrathful:0 "¿Yo debo? ¿#EMP debo?#! ¿Es una orden tuya?" #NT!
- agot_filler_nights_watch.0003.a.calm:0 "En mi tiempo libre, [teller.GetFirstNameNoTooltip], y no antes." #NT!
- agot_filler_nights_watch.0003.a.cynical:0 "¿Y dejarlo contigo? Yo creo que no." #NT!
- agot_filler_nights_watch.0003.a.vengeful:0 "Suficiente. No lo vuelvas a mencionar." #NT!
- agot_filler_nights_watch.0003.a.zealous:0 "Por los dioses antiguos y los nuevos, déjalo en paz." #NT!
- agot_filler_nights_watch.0003.a.fallback:0 "Quédate con el oro para ti" #NT!
- agot_filler_nights_watch.0003.a.cynical.tt:0 "Cada miembro de la Guardia de la Noche que crea que tus palabras pintan [teller.GetFirstNameNoTooltip] como deshonesto perderá #N 10#! [opinion|E] con [teller.GetHerHim]" #NT!
- agot_filler_nights_watch.0003.a.tt:0 "Te quedas con el oro" #NT!
- agot_filler_nights_watch.0003.b.impatient:0 "Sí, sí, tómalo entonces." #NT!
- agot_filler_nights_watch.0003.b.content:0 "Sí, bueno, no es mucho oro para renunciar, ¿no?" #NT!
- agot_filler_nights_watch.0003.b.forgiving:0 "Confío en que serás más amable con él de lo que lo has sido conmigo." #NT!
- agot_filler_nights_watch.0003.b.fallback:0 "Regala el oro a la Guardia" #NT!
- agot_filler_nights_watch_0003_b_content:0 "Todo vasallo que sea algo pobre" #NT!
- agot_filler_nights_watch.0003.b.forgiving.tt:0 "[teller.GetTitledFirstName] se siente mal por ser tan enérgico contigo" #NT!
- agot_filler_nights_watch.0003.b.tt:0 "Entregas el oro a la Guardia" #NT!
-
- ############################################
- #   agot_nights_watch.0004 - BEGGING FOR MERCY  #
- ############################################
-
- agot_filler_nights_watch.0004.t:0 "Una súplica de misericordia" #NT!
- agot_filler_nights_watch.0004.opening:0 "[fallguy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se ha esforzado mucho para evitarme últimamente. La deuda que pesa sobre la cabeza de [fallguy.GetHerHis] es inmensa, pero no es menos de lo que [fallguy.GetSheHe] merece por la participación de [fallguy.GetHerHis] en el plan para defraudar a la Guardia. Durante días, [fallguy.GetSheHe] se escabulle a mi alrededor, hasta que finalmente se armó de valor para verme esta mañana mientras rompía mi ayuno.\n\n"Mi [ROOT.Char.GetLadyLord]", dice [fallguy.GetSheHe]" #NT!
- agot_filler_nights_watch.0004.humble:0 "Con la humildad de la derrota, "lo que debo, no puedo pagarlo. Te lo ruego, ¡cree que no tuve parte en este plan! Ten piedad, mi [ROOT.Char.GetLadyLord]." #NT!
- agot_filler_nights_watch.0004.vengeful:0 "Con rencor, "Sé que no puedo decir nada para convencerte de que no participé en este plan, pero también debes saber esto: nunca pagaré lo que se debe." #NT!
- agot_filler_nights_watch.0004.diligent:0 "Con un nuevo sentido de determinación, "sus demandas de que pague una deuda que no es legítimamente mía son crueles, y le pido que rescinda su sentencia de que la pago." #NT!
- agot_filler_nights_watch.0004.lazy:0 "Con indiferencia, "por favor, no me hagas pagar esta deuda. No es justo." #NT!
- agot_filler_nights_watch.0004.impatient:0 "Con un resoplido irritado, "tu demanda de que pague esta deuda es injusta. No hice nada malo, y no permitiré que dictes estos términos absurdos." #NT!
- agot_filler_nights_watch.0004.shy:0 "En voz baja, "No puedo pagar la deuda. ¿Podría considerar liberarme de ella? No creo que sea justo." #NT!
- agot_filler_nights_watch.0004.deceitful:0 "Con una sonrisa astuta, "Respeto su decisión de perdonarme para que pueda pagar mi deuda. Realmente habla de su sabiduría. Si me permite viajar al sur, puedo tener la deuda en su totalidad en solo una quincena o dos." #NT!
- agot_filler_nights_watch.0004.fallback:0 "La deuda que debo, no la puedo pagar. Te lo ruego, por favor cree que no participé en este plan, y nunca tendré el oro para pagar lo que dices que debo." #NT!
- agot_filler_nights_watch.0004.a.gold:0 "No hay necesidad de eso. Olvídate de la deuda por completo." #NT!
- agot_filler_nights_watch.0004.a.fallback:0 "Liberar [fallguy.GetHerHim] de la deuda" #NT!
- agot_filler_nights_watch.0004.a.tt:0 "Perdonas a [fallguy.GetTitledFirstNamePossessiveNoTooltip] obligación de devolver el oro que [fallguy.GetSheHe] robó vendiendo mulas con fines lucrativos" #NT!
- agot_filler_nights_watch.0004.b.vengeful:0 "¡Me pagarás #EMP ahora, #! [fallguy.GetTitledFirstNameNoTooltip]!" #NT!
- agot_filler_nights_watch.0004.b.deceitful:0 "Adelante, entonces, y date prisa en volver." #NT!
- agot_filler_nights_watch.0004.b.fallback:0 "Insiste [fallguy.GetSheHe] en devolver algo #EMP inmediatamente#!" #NT!
- agot_filler_nights_watch.0004.b.deceitful.tt:0 "[fallguy.GetTitledFirstNameNoTooltip] abandonará temporalmente el Muro para adquirir el pago de la deuda" #NT!
-
- ##########################################
- #   agot_nights_watch.0006 - IMPRISONED THIEF #
- ##########################################
-
- agot_filler_nights_watch.0006.message.t:0 "[teller.GetTitledFirstName] Encarcelado" #NT!
- agot_filler_nights_watch.0006.message.tt:0 "[teller.GetTitledFirstName] ha matado a [victim.GetTitledFirstName] en una disputa y ha sido encarcelado" #NT!
-
- ###############################################
- #   agot_nights_watch.0007 - BENEFACTOR GIVES GOLD #
- ###############################################
-
- agot_filler_nights_watch.0007.t:0 "[benefactor.Custom2('AppropriateGreetingPositive', ROOT.Char)]" #NT!
- agot_filler_nights_watch.0007.desc:0 "Espero que esto te encuentre bien. Entiendo que mi [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] tiene una deuda contigo y tu hermandad. Aunque [fallguy.GetSheHe] insiste en la inocencia de [fallguy.GetHerHis], pagaré esta deuda en nombre de [fallguy.GetHerHis], con la expectativa de que ya no acosarás a mi [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] por ello.\n\nComo he sido más que justo al pagar esta deuda, una deuda que tú Nunca he cobrado de otro modo: algún día esperaré que me devuelvas el favor." #NT!
- agot_filler_nights_watch.0007.a:0 "Muy bien." #NT!
-
- ####################################################
- #   agot_nights_watch.0008 - FALLGUY FLEES (FOLLOW-UP)  #
- ####################################################
-
- agot_filler_nights_watch.0008.t.good:0 "[ROOT.Char.Custom2('AppropriateGreetingPositive', SCOPE.sC('fallguy'))]" #NT!
- agot_filler_nights_watch.0008.t.bad:0 "Hasta el tarado sigue en [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
- agot_filler_nights_watch.0008.desc.good:0 "Tal vez ya te hayas dado cuenta, pero no regresaré al Muro.\n\nLamento el engaño, pero no puedo pagar la deuda que me impusiste. Te juro, por los dioses antiguos y los nuevos, que no robé a la Guardia.\n\nSé que no me crees, así que trabajaré para corregir mi nombre de deshonra, incluso si debo vivir deshonrosamente por el resto de mis días para hacerlo." #NT!
- agot_filler_nights_watch.0008.desc.bad:0 "Ni siquiera has notado mi ausencia estas últimas semanas, ¿verdad? Y es esa asombrosa ineptitud lo que me asombra tanto.\n\nNo aprecié sus acusaciones de robo, ni sus demandas de que pague una deuda que no es legítimamente mía, así que me complace decirle que no regresaré. al Muro, ni ahora, ni nunca.\n\nDentro de un año, podría estar muerto en una zanja, el mundo maldiciendo mi nombre deshonroso, y aún así será un mejor destino que sentarme en el talón de tal descerebrado. caballero." #NT!
- agot_filler_nights_watch.0008.a.good:0 "Que así sea." #NT!
- agot_filler_nights_watch.0008.a.bad:0 "Bastardo." #NT!
-
- ############################################
- #   agot_nights_watch.0009 - TROUBLE ADJUSTING  #
- ############################################
-
- agot_filler_nights_watch.0009.t:0 "Problemas de ajuste" #NT!
- agot_filler_nights_watch.0009.desc:0 "Vienen a la Guardia a veces como pequeños señores, pero la mayoría de las veces como niños rotos. [troublemaker.Custom2('MyCharacterIntroduction', ROOT.Char)|U] es el rudo descuidado de un chico así, sin tener en cuenta a sus maestros de entrenamiento y luchando sin provocación. Cuando finalmente lleva al maestro de armas al límite, aterriza frente a mí.\n\n"¿Por qué eres tan rápido para pelear con tus nuevos hermanos?" Me burlo. "¿Preferirías estar en una jaula que en el Muro?"\n\n"Sí", dice en voz baja. "No merezco un segundo intento, no después de todo lo que hice. Merezco una jaula o un agujero en el que puedas enterrarme." #NT!
- agot_filler_nights_watch.0009.a:0 "Que así sea." #NT!
- agot_filler_nights_watch.0009.a.tt:0 "Ejecutas [troublemaker.GetTitledFirstName]" #NT!
- agot_filler_nights_watch.0009.b:0 "Esta es tu vida, muchacho. Concilia eso, o encuentra tu propia maldita pala." #NT!
- agot_filler_nights_watch.0009.c:0 "El niño que vivió antes del Muro y el hombre que vive en él no son lo mismo." #NT!
- agot_filler_nights_watch.0009.d:0 "Lo golpeo "El arrepentimiento no te mantendrá caliente en el Muro." #NT!
- agot_filler_nights_watch.0009.e:0 "Prométele más responsabilidades para ayudarlo a encontrar su lugar." #NT!
- agot_filler_nights_watch.0009.court_position.tt:0 "#i [troublemaker.GetTitledFirstNameNoTooltip] esperará un puesto en la corte en un futuro inmediato#!" #NT!
-
- ############################################
- #   agot_nights_watch.0010 - TROUBLE ADJUSTING  #
- ############################################
-
- agot_filler_nights_watch.0010.toast.t:0 "Rompiste una promesa de dar más responsabilidad" #NT!
-
- ###############################################
- #   agot_nights_watch.0011 - SQUATTER AT THE WALL #
- ###############################################
-
- agot_filler_nights_watch.0011.t:0 "Okupa en El Muro" #NT!
- agot_filler_nights_watch.0011.opening:0 "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))|U] [councillor.GetFirstName] arroja una criatura de aspecto lamentable a mis pies. "Este estaba en cuclillas en las ruinas de [derelict.GetNameNoTier]", dice [councillor.GetSheHe], pero mientras [councillor.GetSheHe] habla, hay miedo en las palabras de [councillor.GetHerHis]. "[squatter_1.GetSheHe|U]... sé cosas. Cosas que nadie tiene derecho a saber."\n\n"Dame refugio", croa el ocupante ilegal, "o desnudaré tus pensamientos más oscuros... descubriré tus vergüenzas secretas. "\n\n[councillor.GetTitledFirstNameNoTooltip] patea a [squatter_1.GetHerHim] y [squatter_1.GetSheHe] se silencia. "[squatter_1.GetSheHe|U] no está bien, mi [councillor.GetFirstName]1. Deberíamos colgar a [squatter_1.GetHerHim]."\n\nEl ocupante ilegal señala a [councillor.GetFirstName]3 con el pulgar hacia [councillor.GetFirstName]4." #NT!
- agot_filler_nights_watch.0011.secret_murder:0 "Este ha matado a [target.GetTitledFirstName] a sangre fría," #NT!
- agot_filler_nights_watch.0011.secret_murder_attempt:0 "Este matará a [target.GetTitledFirstName] a sangre fría," #NT!
- agot_filler_nights_watch.0011.secret_cannibal:0 "Este come carne de hombre," #NT!
- agot_filler_nights_watch.0011.secret_lover:0 "Este toma a [target.GetTitledFirstName] como amante," #NT!
- agot_filler_nights_watch.0011.secret_incest:0 "La cama de este a menudo está ocupada por [target.GetTitledFirstName]," #NT!
- agot_filler_nights_watch.0011.secret_sodomite:0 "Este se lleva a la cama a [councillor.GetHerHis] del propio sexo," #NT!
- agot_filler_nights_watch.0011.secret_deviant:0 "Este tiene predilección por las delicias insólitas," #NT!
- agot_filler_nights_watch.0011.secret_heritage:0 "El linaje de éste no está tan claro," #NT!
- agot_filler_nights_watch.0011.closing:0 "[squatter_1.GetSheHe] dice, y la sangre sale de la cara de [councillor.GetFirstNamePossessiveNoTooltip]. "Y tú... tú, [ROOT.Char.GetNameNoTooltip]... también tienes secretos aún no escuchados." #NT!
- agot_filler_nights_watch.0011.a:0 "Dale a [squatter_1.GetHerHim] un lugar para descansar" #NT!
- agot_filler_nights_watch.0011.a.message.t:0 "Un esquema revelado" #NT!
- agot_filler_nights_watch.0011.a.message.tt:0 "En agradecimiento, el okupa te revela que se está tramando un [scheme.GetSchemeType.GetTypeNameNoTooltip] en tu contra." #NT!
- agot_filler_nights_watch.0011.b:0 "Lanza [squatter_1.GetHerHim] en la mazmorra" #NT!
- agot_filler_nights_watch.0011.b.message.t:0 "[squatter_1.GetFirstName] revela tu secreto" #NT!
- agot_filler_nights_watch.0011.b.message.tt:0 "Mientras se llevan al ocupante ilegal, #V [squatter_1.GetSheHe]#! revela su secreto [my_secret.GetName] a todos" #NT!
- agot_filler_nights_watch.0011.b.sadistic:0 "Colgar [squatter_1.GetHerHim]" #NT!
- agot_filler_nights_watch.0011.c:0 "Toma la lengua de [squatter_1.GetHerHis] antes de que [squatter_1.GetSheHe] revele más secretos" #NT!
-
- ###########################################
- #   agot_nights_watch.0012 - THE WOLF'S SHADOW #
- ###########################################
- agot_filler_nights_watch.0012.t:0 "La sombra del lobo" #NT!
- agot_filler_nights_watch.0012.opening:0 "Una manada de lobos grises ha estado cazando plebeyos en The Gift, pero los dos grupos de caza enviados han regresado no solo con menos de una sola piel, sino también con un Hermano gravemente mutilado en [eaten.GetTitledFirstName]. Los hombres se han vuelto inquietos desde entonces, y ahora corren rumores entre la Guardia de que un lobo terrible lidera la manada.\n\n"¿Al sur del Muro?" [goon.GetTitledFirstName] resopla a uno de los hombres mientras cenamos. "No hay lobo terrible al sur del Muro. Esta es una perra apenas destetada. Un golpe de espada y ella caerá, seguro como" #NT!
- agot_filler_nights_watch.0012.joke.lowborn:0 "[joke.GetFirstNamePossessive] madre en Mole's Town." #NT!
- agot_filler_nights_watch.0012.joke.fallback:0 "Las chicas de Mole's Town." #NT!
- agot_filler_nights_watch.0012.joke.response.new_speaker:0 "\n\n[joke.GetFirstNameNoTooltip] pincha en [goon.GetTitledFirstNameNoTooltip]. "¿Por qué no lo matas entonces?" #NT!
- agot_filler_nights_watch.0012.joke.response.fallback:0 "\n\n[joke.GetFirstName] pincha en [goon.GetTitledFirstNameNoTooltip]. "¿Por qué no lo matas entonces?" #NT!
- agot_filler_nights_watch.0012.closing:0 "\n\n"Bueno, no me gustaría robarle la gloria a [ROOT.Char.GetTitledFirstNameNoTooltip]", dice [goon.GetTitledFirstNameNoTooltip] tímidamente. "[ROOT.Char.GetSheHe|U] debería ser el que mate al lobo." #NT!
- agot_filler_nights_watch.0012.a.trusting:0 "Confío en que te encargarás de ello, [goon.GetFirstName]." #NT!
- agot_filler_nights_watch.0012.a.arrogant:0 "Nunca podrías robarme la gloria, [goon.GetFirstName], pero debo insistir en que lo intentes." #NT!
- agot_filler_nights_watch.0012.a.arbitrary:0 "Como [goon.GetFirstName] cree que la caza será tan sencilla, [goon.GetSheHe] la liderará." #NT!
- agot_filler_nights_watch.0012.a.cynical:0 "No, por favor, muéstranos lo fácil que es, [goon.GetFirstName]" #NT!
- agot_filler_nights_watch.0012.a.fallback:0 "Envía [goon.GetFirstName] para liderar la próxima cacería" #NT!
- agot_filler_nights_watch.0012.a.tt:0 "Envías a [goon.GetTitledFirstName] para liderar la caza del lobo." #NT!
- agot_filler_nights_watch.0012.b.arrogant:0 "Podría ser el único lo suficientemente dotado para cazarlo." #NT!
- agot_filler_nights_watch.0012.b.impatient:0 "Lo haré yo mismo, ahora mismo." #NT!
- agot_filler_nights_watch.0012.b.brave:0 "Lo cazaré, solo, si es necesario." #NT!
- agot_filler_nights_watch.0012.b.paranoid:0 "Ni siquiera estoy seguro de que sean lobos, pero lo descubriré por mí mismo." #NT!
- agot_filler_nights_watch.0012.b.callous:0 "Me encargaré de eso, aunque solo sea para asegurarme de que esté hecho." #NT!
- agot_filler_nights_watch.0012.b.fallback:0 "Diles que liderarás la próxima cacería." #NT!
- agot_filler_nights_watch.0012.b.tt:0 "Liderarás la caza del lobo tú mismo." #NT!
-
- ###########################################
- #   agot_nights_watch.0013 - THE WOLF'S SHADOW #
- ###########################################
-
- agot_filler_nights_watch.0013.message.great_success.t:0 "[goon.GetTitledFirstName] ha matado al lobo" #NT!
- agot_filler_nights_watch.0013.message.great_success.tt:0 "Enviado para erradicar la manada de lobos que había estado plagando The Gift, [goon.GetTitledFirstName] lideró una cacería exitosa y el líder de la manada fue asesinado, dispersando a la manada de regreso a la naturaleza." #NT!
- agot_filler_nights_watch.0013.message.success.t:0 "[goon.GetTitledFirstName] ha ahuyentado a los lobos" #NT!
- agot_filler_nights_watch.0013.message.success.tt:0 "El grupo de caza que enviaste para lidiar con los lobos no pudo matar al líder de la manada, pero la manada fue expulsada de las aldeas y refugios de The Gift." #NT!
-
- ###########################################
- #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
- ###########################################
-
- agot_filler_nights_watch.0014.t:0 "La sombra del lobo" #NT!
- agot_filler_nights_watch.0014.opening.forgiving:0 "Los grupos de caza han hecho todo lo posible, pero al ver el miedo en sus rostros, sé que la tarea debe recaer en mí." #NT!
- agot_filler_nights_watch.0014.opening.arrogant:0 "¿Quién más que yo podría solucionar este problema?" #NT!
- agot_filler_nights_watch.0014.opening.brave:0 "La idea de encontrarme cara a cara con cualquier lobo es desalentadora, pero haré lo que deba para proteger a la gente de The Gift." #NT!
- agot_filler_nights_watch.0014.opening.sadistic:0 "Mientras nos preparamos para salir a cazar, todo en lo que puedo pensar es en abrir el cadáver de la bestia y meter su cabeza en mi pared." #NT!
- agot_filler_nights_watch.0014.opening.lustful:0 "Nadie en los Siete Reinos podrá resistirse a mí cuando se enteren de mis hazañas en esta cacería." #NT!
- agot_filler_nights_watch.0014.opening.gluttonous:0 "Lobo no es la mejor de las carnes, pero hay algo satisfactorio en comer el corazón de la cosa que acaba de matar, y estoy ansioso por hacerlo." #NT!
- agot_filler_nights_watch.0014.opening.impatient:0 "#EMP Adelante, #! es todo lo que quiero gritar mientras nos reunimos en el patio, los hombres tomándose su precioso tiempo." #NT!
- agot_filler_nights_watch.0014.opening.hunter:0 "Mi sangre late con fuerza ante la idea de estar en la cacería una vez más, y sé que pronto tendré un nuevo trofeo para mi colección." #NT!
- agot_filler_nights_watch.0014.opening.ambitious:0 "Oh, las historias que contarán de esta cacería. No puedo esperar a escuchar a los hombres reunidos alrededor del fuego dentro de cinco años, contando cómo yo solo cacé esta manada." #NT!
- agot_filler_nights_watch.0014.opening.fickle:0 "Tal vez sea un error tomar la caza en mis propias manos, pero ¿quién más está ahí para la tarea?" #NT!
- agot_filler_nights_watch.0014.closing:0 "Partimos antes del amanecer, nuestro grupo contaba con más de una docena de hermanos negros. Encontramos fácilmente el rastro de la manada y, después de algunos días, acorralamos a los lobos en una rama del bosque intacta desde quizás los Primeros Hombres.\n\nSin embargo, cuanto más nos adentramos en el bosque, más [goon.Custom2('MyCharacterIntroduction', ROOT.Char)] parece perder los nervios [goon.GetHerHis], y pronto los gemidos de [goon.GetHerHis] se vuelven nerviosos y temerosos.\n\nEl crepúsculo cae y las antorchas se elevan, y [goon.GetFirstNameNoTooltip] agarra mi brazo. "Siento sus ojos", susurra [goon.GetSheHe]. "Estamos siendo perseguidos." Los pájaros cantan, y en los bosques profundos que nos rodean, las lámparas encendidas de ojos rojos insensibles nos devuelven la mirada, fijándose en nosotros como si los mismos bosques estuvieran sopesando si somos depredadores o presas." #NT!
- agot_filler_nights_watch.0014.a:0 "Dile a los hombres que hagan una formación defendible." #NT!
- agot_filler_nights_watch.0014.a.tt:0 "#I Prefiere personajes inteligentes#!" #NT!
- agot_filler_nights_watch.0014.b:0 "Sumérgete en el bosque para asustar a las criaturas." #NT!
- agot_filler_nights_watch.0014.b.tt:0 "#I Prefiere los caracteres en negrita#!" #NT!
-
- ###########################################
- #   agot_nights_watch.0014 - THE WOLF'S SHADOW #
- ###########################################
-
- agot_filler_nights_watch.0015.t:0 "La sombra del lobo" #NT!
- agot_filler_nights_watch.0015.dire_wolf.defense:0 "Dejamos descansar a los caballos y tomamos nuestras posiciones defensivas. Las hojas se dibujan en la oscuridad, el acero brilla a la luz de las antorchas. Las ramas susurran. Los arbustos tiemblan. Los pájaros se calman tan suavemente que un silencio frío se desliza dentro de cada uno de nosotros, luego un aullido de dolor grita y en la oscuridad su compañero responde.\n\nLos lobos salen corriendo del bosque, colmillos y garras y el pelaje gris azotando a nuestro alrededor como un mar gris embravecido. Por encima de los aullidos de las bestias, [goon.GetTitledFirstName] grita de dolor. [goon.GetSheHe|U] yace boca abajo, y encima de él se alza un monstruoso lobo huargo que gruñe, con el hocico ensangrentado por la sangre y los ojos amarillos tan salvajes como el invierno. Su mirada se fija en mí y se lanza, su mandíbula se parte con odio.\n\n" #NT!
- agot_filler_nights_watch.0015.dire_wolf.offense:0 "Saco mi espada y grito, cargando hacia los arbustos. Desconcertados, los otros hermanos negros lo persiguen a regañadientes. Las ramas se rompen, los lobos gimen y corren atemorizados mientras me abro paso a través de una brecha enredada en el bosque.\n\nLuego me congelo. Un lobo huargo de tamaño monstruoso se interpone en mi camino mientras limpio la maleza, su aliento caliente apesta en mi cara, mientras gruñe y babea delante de mí. Mientras mantengo mi posición, da un débil paso hacia atrás, y sintiendo su miedo, cargo. Sus garras afiladas como dagas me cortan, pero" #NT!
- agot_filler_nights_watch.0015.grey_wolf.defense:0 "Dejamos descansar a los caballos y tomamos nuestras posiciones defensivas. Las hojas se dibujan en la oscuridad, el acero brilla a la luz de las antorchas. Las ramas susurran. Los arbustos tiemblan. Los pájaros se calman tan suavemente que un silencio frío se desliza dentro de cada uno de nosotros, luego un aullido de dolor grita y en la oscuridad su compañero responde.\n\nLos lobos salen corriendo del bosque, colmillos y garras y el pelaje gris azotando a nuestro alrededor como un mar gris embravecido. Por encima de los aullidos de las bestias, [goon.GetTitledFirstName] grita de dolor. [goon.GetSheHe|U] yace boca abajo, y encima de él se alza un lobo gris gruñendo, con el hocico ensangrentado por la sangre y los ojos amarillos tan salvajes como el invierno. Su mirada se fija en mí y se abalanza, rompiendo la mandíbula con odio," #NT!
- agot_filler_nights_watch.0015.grey_wolf.offense:0 "Saco mi espada y grito, cargando hacia los arbustos. Desconcertados, los otros hermanos negros lo persiguen a regañadientes. Las ramas se rompen, los lobos gimen y corren asustados mientras me abro paso a través de una brecha enredada en el bosque.\n\nMe congelo. Un inmenso lobo gris se interpone en mi camino, gruñendo y babeando desafiante. Mientras mantengo mi posición, da un débil paso hacia atrás, y sintiendo su miedo, cargo de nuevo. Sus garras afiladas como dagas me cortan," #NT!
- agot_filler_nights_watch.0015.success:0 "Pero esquivo su golpe y conduzco mi espada a través de la garganta de la bestia. Aullando, sufre espasmos y cae ante mí mientras los otros lobos rompen y corren." #NT!
- agot_filler_nights_watch.0015.failure:0 "Y no logro bloquear el golpe. Las garras se clavan en mi brazo y me tiran al suelo. La sangre moja mi capa, gruesos terrones de tierra negra cubren la mitad de mi cara mientras el mundo gira y gira y gira a mi alrededor.\n\nLa bestia gruñe" #NT!
- agot_filler_nights_watch.0015.failure.craven:0 "Y me mojo de miedo." #NT!
- agot_filler_nights_watch.0015.failure.brave:0 "Y mi corazón truena. Este no será mi fin." #NT!
- agot_filler_nights_watch.0015.failure.patient:0 "Y en mi mente me atrevo a que se acerque." #NT!
- agot_filler_nights_watch.0015.failure.callous:0 "Y me sonrío a mí mismo, divertido por este giro de los acontecimientos." #NT!
- agot_filler_nights_watch.0015.failure.trusting:0 "Y rezo por el rescate." #NT!
- agot_filler_nights_watch.0015.failure.calm:0 "Y me doy la vuelta, mirando el cielo nocturno sin pestañear. ¿Es así como termina?" #NT!
- agot_filler_nights_watch.0015.failure.fallback:0 "Y tomo una respiración profunda, preparándome para lo que viene después." #NT!
- # Success
- agot_filler_nights_watch.0015.compassionate:0 "La pobre bestia..." #NT!
- agot_filler_nights_watch.0015.calm:0 "Soy afortunado de estar vivo." #NT!
- agot_filler_nights_watch.0015.deceitful:0 "¿Y yo estaba asustado? Ni por un momento." #NT!
- agot_filler_nights_watch.0015.brave.dire_wolf:0 "Un enemigo digno." #NT!
- agot_filler_nights_watch.0015.brave.grey_wolf:0 "No era ni la mitad de la bestia que temía." #NT!
- agot_filler_nights_watch.0015.craven:0 "Nunca volveré a hacer algo tan estúpido." #NT!
- agot_filler_nights_watch.0015.wrathful:0 "¡Soy intocable!" #NT!
- agot_filler_nights_watch.0015.greedy:0 "Se verá genial en El Muro, ¿no?" #NT!
- agot_filler_nights_watch.0015.cynical:0 "¿Me habría salvado [goon.GetFirstNameNoTooltip] si nuestro destino hubiera cambiado?" #NT!
- agot_filler_nights_watch.0015.impatient:0 "Ahora salgamos de este maldito bosque." #NT!
- agot_filler_nights_watch.0015.ambitious:0 "¡Casa [ROOT.Char.GetDynastyName]!" #NT!
- agot_filler_nights_watch.0015.just:0 "No hay mas?" #NT!
- agot_filler_nights_watch.0015.vengeful:0 "¿Soy afortunado o bueno?" #NT!
- agot_filler_nights_watch.0015.zealous:0 "¡Otros se los llevan todos!" #NT!
- agot_filler_nights_watch.0015.gregarious:0 "¿Sigues conmigo, [goon.GetFirstNameNoTooltip]?" #NT!
- agot_filler_nights_watch.0015.lustful:0 "Ay, las camas que llenaré con este cuento." #NT!
- agot_filler_nights_watch.0015.gluttonous:0 "¿Hay algo mejor que un juego que hayas cazado tú mismo?" #NT!
- # Failure
- agot_filler_nights_watch.0015.failure_1:0 "Saca una daga y lucha por tu vida" #NT!
- agot_filler_nights_watch.0015.failure_2:0 "Hacerse el muerto" #NT!
- agot_filler_nights_watch.0015.failure_3:0 "Acepta tu destino" #NT!
- every_dedicated_black_brother_0015:0 "Cada miembro de la Guardia de la Noche a quien no le gusta que muestres lealtad por tu propia casa." #NT!
- agot_filler_nights_watch.0015.bear.offense:0 "Saco mi espada y grito, cargando hacia los arbustos. Desconcertados, los otros hermanos negros lo persiguen a regañadientes. Me estrello a través de la maleza en una maraña de gritos y golpes, esperando que los lobos me ataquen de inmediato, pero en lugar de eso me encuentro solo en un claro. ¿Dónde están los lobos?\n\nEntonces veo al monstruo que ha estado acechando el Don, no al lobo huargo que todos mis hermanos temían en secreto, ni un lobo en absoluto.\n\nEl oso es enorme, sus ancas más grandes y más fuerte que el de un cargador, sus patas delanteras del tamaño de escudos. Con un rugido como el de un barco chocando contra las rocas, la bestia me embiste. El tiempo se congela y por fin veo a los lobos rodeando el perímetro, esperando que la bestia más grande acabe conmigo.\n\nLas fauces del oso se abren mientras se abalanza sobre mí," #NT!
- agot_filler_nights_watch.0015.bear.defense:0 "Dejamos descansar a los caballos y tomamos nuestras posiciones defensivas. Las hojas se dibujan en la oscuridad, el acero brilla a la luz de las antorchas. Las ramas susurran. Los arbustos tiemblan. Los pájaros se calman tan suavemente que un silencio frío se desliza dentro de cada uno de nosotros, luego un aullido de dolor grita y en la oscuridad su compañero responde.\n\nLos lobos salen corriendo del bosque, colmillos y garras y el pelaje gris azotando a nuestro alrededor como un mar gris embravecido. Por encima de los aullidos de las bestias, [goon.GetTitledFirstName] grita de dolor. [goon.GetSheHe|U] yace boca abajo, y encima de él no se alza el lobo huargo que temíamos, ni ningún tipo de lobo, sino un oso de proporciones monstruosas. Se vuelve hacia mí, su ancho rostro empapado de sangre, sus ojos muy abiertos y hambrientos. Más rápido que cualquier animal de ese tamaño debería ser capaz de moverse, se lanza hacia mí," #NT!
-
- agot_filler_nights_watch.0016.t:0 "MARCADOR DE POSICIÓN" #NT!
- agot_filler_nights_watch.0016.desc:0 "MARCADOR DE POSICIÓN" #NT!
- agot_filler_nights_watch.0016.a:0 "MARCADOR DE POSICIÓN" #NT!
-
- agot_filler_nights_watch.0017.t:0 "La sombra del lobo" #NT!
- agot_filler_nights_watch.0017.desc:0 "Los restos de la partida de caza que fue enviada para despachar a la manada de lobos que aterrorizaba al Gift regresa cojeando a casa golpeados y ensangrentados. Algunos de mis hermanos no han regresado del Regalo en absoluto, y siento su pérdida como una puñalada en el estómago. Estos lobos, al parecer, no son una manada ordinaria. Cuando por fin uno de mis hermanos se calma lo suficiente como para dar un relato coherente de lo sucedido, habla de una bestia descomunal de ojos amarillos y pelaje negro. Fueron emboscados, dice, y apenas escaparon del encuentro con sus vidas.\n\n¿Adónde ha llegado la Guardia de la Noche? Estamos encargados de proteger los reinos de los hombres, pero ni siquiera podemos proteger a nuestros vecinos de los animales salvajes." #NT!
- agot_filler_nights_watch.0017.a:0 "Este fracaso es una mancha en el buen nombre de la Guardia de la Noche." #NT!
+  
+  ################################################ 
+  #   agot_nights_watch.0000 - NIGHTSWATCHMAN ARRIVES  # 
+  ################################################ 
+  
+ nightswatch_arrived.title: "Un nuevo vigilante de la noche"
+ nightswatch_arrived.desc: "[nightswatch_candidate.GetShortUIName|U] se ha unido a la Guardia de la Noche como hermano jurado."
+  
+  
+  ################################################ 
+  #   agot_nights_watch.0001 - MULE SHORTAGE (SETUP)  # 
+  ################################################ 
+  
+ agot_filler_nights_watch.0001.message.t: "Escasez de Mulas en $c_eastwatch$"
+ agot_filler_nights_watch.0001.message.tt: "Últimamente escasean las mulas entrenadas en $c_eastwatch$ para patrullar el Muro."
+  
+  ######################################## 
+  #   agot_nights_watch.0002 - MULE SHORTAGE  # 
+  ######################################## 
+  
+ agot_filler_nights_watch.0002.t: "Escasez de mulas"
+ agot_filler_nights_watch.0002.opening: "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se para frente a mí"
+ agot_filler_nights_watch.0002.bold: "Golpeando el pecho de [teller.GetHerHis]."
+ agot_filler_nights_watch.0002.anger: "Gruñendo y hirviendo."
+ agot_filler_nights_watch.0002.paranoia: "Con una mirada cruel y sin amor en los ojos de [teller.GetHerHis]."
+ agot_filler_nights_watch.0002.fallback: "En completa incredulidad."
+ agot_filler_nights_watch.0002.middle: "\n\n"[fallguy.Custom2('YourCharacterIntroduction', ROOT.Char)|U] está vendiendo nuestras mulas", dice [teller.GetSheHe] con disgusto. "La manada que usamos para patrullar el muro se ha reducido este último año, así que me encargué de descubrir la causa, y estoy seguro de que [fallguy.GetSheHe] los está vendiendo. ¡[fallguy.GetSheHe|U] podría haber hecho tanto como doscientos dragones dorados!"
+ agot_filler_nights_watch.0002.special.less_than.learning: "\n\nMientras miro [teller.GetFirstNameNoTooltip], sé en mi corazón que [teller.GetSheHe] está bien aprendido, pero"
+ agot_filler_nights_watch.0002.special.less_than.stewardship: "\n\n[teller.GetSheHe|U] puede manejar los libros lo suficientemente bien, pienso mientras miro a [teller.GetHerHim], pero ¿[teller.GetSheHe] realmente sabe mejor aquí?"
+ agot_filler_nights_watch.0002.special.less_than.learning.humble: "\n\nNo puedo ignorar completamente [teller.GetTitledFirstName|U] cuando [teller.GetSheHe] está tan bien aprendido, pero"
+ agot_filler_nights_watch.0002.special.less_than.stewardship.humble: "\n\nPuede que no sea tan bueno administrando los libros como [teller.GetTitledFirstName], pero"
+ agot_filler_nights_watch.0002.special.greater_than.learning: "\n\nPero por supuesto, soy más instruido que [teller.GetTitledFirstNameNoTooltip], y sé que"
+ agot_filler_nights_watch.0002.special.greater_than.stewardship: "\n\nSin embargo, mientras observo a [teller.GetHerHim], soy íntimamente consciente de que sé más sobre finanzas de lo que nunca sabrá [teller.GetTitledFirstNameNoTooltip], y que"
+ agot_filler_nights_watch.0002.special.greater_than.learning.arrogant: "\n\nMiro fijamente a [teller.GetHerHim], contento de saber mucho más sobre estas cosas de lo que jamás sabrá [teller.SheHe], y eso"
+ agot_filler_nights_watch.0002.special.greater_than.stewardship.arrogant: "\n\nLo miro fijamente, segura de que sé más sobre nuestras finanzas que este [teller.Custom('InsultNoun')] de un [teller.GetWomanMan], y sé"
+ agot_filler_nights_watch.0002.special.stupid: "[fallguy.GetTitledFirstNameNoTooltip] es demasiado estúpido para administrar tal esquema."
+ agot_filler_nights_watch.0002.special.cowardly: "[fallguy.GetTitledFirstNameNoTooltip] es demasiado cobarde para tal esquema."
+ agot_filler_nights_watch.0002.special.fallback: "Es muy improbable que [fallguy.GetTitledFirstNameNoTooltip] gestione un esquema de este tipo."
+ agot_filler_nights_watch.0002.special.closing: "Es mucho más probable que [undercutter.GetTitledFirstName] sea el que se beneficie de la venta de nuestras mulas."
+ agot_filler_nights_watch.0002.a.greedy: "Haz que [undercutter.GetTitledFirstNameNoTooltip] te interrumpa en el esquema"
+ agot_filler_nights_watch.0002.a.fallback: "Hacer que [undercutter.GetTitledFirstNameNoTooltip] devuelva lo que robó [undercutter.GetSheHe]"
+ agot_filler_nights_watch.0002.a.random_1.desc: "[undercutter.GetTitledFirstNameNoTooltip] devuelve lo que robó [undercutter.GetSheHe]"
+ agot_filler_nights_watch.0002.a.random_2.desc: "[undercutter.GetTitledFirstNameNoTooltip] huye del Muro"
+ agot_filler_nights_watch.0002.a.message.t: "Ejecutas [undercutter.GetTitledFirstNameNoTooltip]"
+ agot_filler_nights_watch.0002.b.banish: "Desterrar [undercutter.GetTitledFirstNameNoTooltip] por [undercutter.GetHerHis] crímenes contra la Guardia"
+ agot_filler_nights_watch.0002.b.execute: "Ejecuta [undercutter.GetTitledFirstNameNoTooltip] por [undercutter.GetHerHis] crímenes contra la Guardia"
+ agot_filler_nights_watch.0002.c: "Haz que [fallguy.GetTitledFirstNameNoTooltip] devuelva lo que robó [fallguy.GetSheHe]"
+ agot_filler_nights_watch.0002.c.random_1.desc: "[fallguy.GetTitledFirstNameNoTooltip] huye del Muro"
+ agot_filler_nights_watch.0002.c.random_2.desc: "[fallguy.GetTitledFirstNameNoTooltip] devuelve lo que [fallguy.GetSheHe] está acusado de robar"
+ agot_filler_nights_watch.0002.c.toast.t: "[fallguy.GetTitledFirstName] huye del muro"
+ agot_filler_nights_watch.0002.c.toast.tt: "[fallguy.GetTitledFirstNameNoTooltip] ha huido de la publicación de [fallguy.GetHerHis] después de ser acusado de robar del reloj"
+ agot_filler_nights_watch.0002.c.random_2.tt: "Si [fallguy.GetSheHe] no devuelve lo robado, tendrá justificación para sancionar a [fallguy.GetHerHim]"
+ agot_filler_nights_watch.0002.d.banish: "Desterrar [fallguy.GetTitledFirstNameNoTooltip] por [fallguy.GetHerHis] crímenes contra la Guardia"
+ agot_filler_nights_watch.0002.d.execute: "Ejecuta [fallguy.GetTitledFirstNameNoTooltip] por [fallguy.GetHerHis] crímenes contra la Guardia"
+ agot_filler_nights_watch.0002.d.message.t: "Ejecutas [fallguy.GetTitledFirstName]"
+ agot_filler_nights_watch.0002.e.arrogant: "Sé mejor que tú sobre lo que sucede en $c_eastwatch$."
+ agot_filler_nights_watch.0002.e.arbitrary: "Me importan poco las mulas, [teller.GetFirstNameNoTooltip]"
+ agot_filler_nights_watch.0002.e.just: "Tráeme más que sospechas y hablaremos."
+ agot_filler_nights_watch.0002.e.fallback: "¿Me molestas con esta tontería? Vete, [teller.GetFirstNameNoTooltip]."
+ every_member_of_nights_watch: "Todos los miembros de la Guardia de la Noche"
+ every_close_relation: "Todos los parientes cercanos de los ejecutados"
+  
+  ############################################ 
+  #   agot_nights_watch.0003 - GOLD REINVESTMENT  # 
+  ############################################ 
+  
+ agot_filler_nights_watch.0003.t: "Reinvertir"
+ agot_filler_nights_watch.0003.desc: "[teller.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me encuentra en las cámaras del consejo y no hace ningún esfuerzo por ocultar la indignación de [teller.GetHerHis].\n\n"El oro que incautaste del esquema de [undercutter.GetTitledFirstNamePossessive] debe reinvertirse en la Guardia." [teller.GetSheHe|U] se pasea por la habitación, agitando las manos. "Quedarte con ese oro equivale a robar, mi [ROOT.Char.GetLadyLord]. #EMP debes#! devolvérselo a la Guardia."
+ agot_filler_nights_watch.0003.a.wrathful: "¿Yo debo? ¿#EMP debo?#! ¿Es una orden tuya?"
+ agot_filler_nights_watch.0003.a.calm: "En mi tiempo libre, [teller.GetFirstNameNoTooltip], y no antes."
+ agot_filler_nights_watch.0003.a.cynical: "¿Y dejarlo contigo? Yo creo que no."
+ agot_filler_nights_watch.0003.a.vengeful: "Suficiente. No lo vuelvas a mencionar."
+ agot_filler_nights_watch.0003.a.zealous: "Por los dioses antiguos y los nuevos, déjalo en paz."
+ agot_filler_nights_watch.0003.a.fallback: "Quédate con el oro para ti"
+ agot_filler_nights_watch.0003.a.cynical.tt: "Cada miembro de la Guardia de la Noche que crea que tus palabras pintan [teller.GetFirstNameNoTooltip] como deshonesto perderá #N 10#! [opinion|E] con [teller.GetHerHim]"
+ agot_filler_nights_watch.0003.a.tt: "Te quedas con el oro"
+ agot_filler_nights_watch.0003.b.impatient: "Sí, sí, tómalo entonces."
+ agot_filler_nights_watch.0003.b.content: "Sí, bueno, no es mucho oro para renunciar, ¿no?"
+ agot_filler_nights_watch.0003.b.forgiving: "Confío en que serás más amable con él de lo que lo has sido conmigo."
+ agot_filler_nights_watch.0003.b.fallback: "Regala el oro a la Guardia"
+ agot_filler_nights_watch_0003_b_content: "Todo vasallo que sea algo pobre"
+ agot_filler_nights_watch.0003.b.forgiving.tt: "[teller.GetTitledFirstName] se siente mal por ser tan enérgico contigo"
+ agot_filler_nights_watch.0003.b.tt: "Entregas el oro a la Guardia"
+  
+  ############################################ 
+  #   agot_nights_watch.0004 - BEGGING FOR MERCY  # 
+  ############################################ 
+  
+ agot_filler_nights_watch.0004.t: "Una súplica de misericordia"
+ agot_filler_nights_watch.0004.opening: "[fallguy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se ha esforzado mucho para evitarme últimamente. La deuda que pesa sobre la cabeza de [fallguy.GetHerHis] es inmensa, pero no es menos de lo que [fallguy.GetSheHe] merece por la participación de [fallguy.GetHerHis] en el plan para defraudar a la Guardia. Durante días, [fallguy.GetSheHe] se escabulle a mi alrededor, hasta que finalmente se armó de valor para verme esta mañana mientras rompía mi ayuno.\n\n"Mi [ROOT.Char.GetLadyLord]", dice [fallguy.GetSheHe]"
+ agot_filler_nights_watch.0004.humble: "Con la humildad de la derrota, "lo que debo, no puedo pagarlo. Te lo ruego, ¡cree que no tuve parte en este plan! Ten piedad, mi [ROOT.Char.GetLadyLord]."
+ agot_filler_nights_watch.0004.vengeful: "Con rencor, "Sé que no puedo decir nada para convencerte de que no participé en este plan, pero también debes saber esto: nunca pagaré lo que se debe."
+ agot_filler_nights_watch.0004.diligent: "Con un nuevo sentido de determinación, "sus demandas de que pague una deuda que no es legítimamente mía son crueles, y le pido que rescinda su sentencia de que la pago."
+ agot_filler_nights_watch.0004.lazy: "Con indiferencia, "por favor, no me hagas pagar esta deuda. No es justo."
+ agot_filler_nights_watch.0004.impatient: "Con un resoplido irritado, "tu demanda de que pague esta deuda es injusta. No hice nada malo, y no permitiré que dictes estos términos absurdos."
+ agot_filler_nights_watch.0004.shy: "En voz baja, "No puedo pagar la deuda. ¿Podría considerar liberarme de ella? No creo que sea justo."
+ agot_filler_nights_watch.0004.deceitful: "Con una sonrisa astuta, "Respeto su decisión de perdonarme para que pueda pagar mi deuda. Realmente habla de su sabiduría. Si me permite viajar al sur, puedo tener la deuda en su totalidad en solo una quincena o dos."
+ agot_filler_nights_watch.0004.fallback: "La deuda que debo, no la puedo pagar. Te lo ruego, por favor cree que no participé en este plan, y nunca tendré el oro para pagar lo que dices que debo."
+ agot_filler_nights_watch.0004.a.gold: "No hay necesidad de eso. Olvídate de la deuda por completo."
+ agot_filler_nights_watch.0004.a.fallback: "Liberar [fallguy.GetHerHim] de la deuda"
+ agot_filler_nights_watch.0004.a.tt: "Perdonas a [fallguy.GetTitledFirstNamePossessiveNoTooltip] obligación de devolver el oro que [fallguy.GetSheHe] robó vendiendo mulas con fines lucrativos"
+ agot_filler_nights_watch.0004.b.vengeful: "¡Me pagarás #EMP ahora, #! [fallguy.GetTitledFirstNameNoTooltip]!"
+ agot_filler_nights_watch.0004.b.deceitful: "Adelante, entonces, y date prisa en volver."
+ agot_filler_nights_watch.0004.b.fallback: "Insiste [fallguy.GetSheHe] en devolver algo #EMP inmediatamente#!"
+ agot_filler_nights_watch.0004.b.deceitful.tt: "[fallguy.GetTitledFirstNameNoTooltip] abandonará temporalmente el Muro para adquirir el pago de la deuda"
+  
+  ########################################## 
+  #   agot_nights_watch.0006 - IMPRISONED THIEF # 
+  ########################################## 
+  
+ agot_filler_nights_watch.0006.message.t: "[teller.GetTitledFirstName] Encarcelado"
+ agot_filler_nights_watch.0006.message.tt: "[teller.GetTitledFirstName] ha matado a [victim.GetTitledFirstName] en una disputa y ha sido encarcelado"
+  
+  ############################################### 
+  #   agot_nights_watch.0007 - BENEFACTOR GIVES GOLD # 
+  ############################################### 
+  
+ agot_filler_nights_watch.0007.t: "[benefactor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
+ agot_filler_nights_watch.0007.desc: "Espero que esto te encuentre bien. Entiendo que mi [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] tiene una deuda contigo y tu hermandad. Aunque [fallguy.GetSheHe] insiste en la inocencia de [fallguy.GetHerHis], pagaré esta deuda en nombre de [fallguy.GetHerHis], con la expectativa de que ya no acosarás a mi [fallguy.Custom2('RelationToMe', SCOPE.sC('benefactor'))] por ello.\n\nComo he sido más que justo al pagar esta deuda, una deuda que tú Nunca he cobrado de otro modo: algún día esperaré que me devuelvas el favor."
+ agot_filler_nights_watch.0007.a: "Muy bien."
+  
+  #################################################### 
+  #   agot_nights_watch.0008 - FALLGUY FLEES (FOLLOW-UP)  # 
+  #################################################### 
+  
+ agot_filler_nights_watch.0008.t.good: "[ROOT.Char.Custom2('AppropriateGreetingPositive', SCOPE.sC('fallguy'))]"
+ agot_filler_nights_watch.0008.t.bad: "Hasta el tarado sigue en [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]"
+ agot_filler_nights_watch.0008.desc.good: "Tal vez ya te hayas dado cuenta, pero no regresaré al Muro.\n\nLamento el engaño, pero no puedo pagar la deuda que me impusiste. Te juro, por los dioses antiguos y los nuevos, que no robé a la Guardia.\n\nSé que no me crees, así que trabajaré para corregir mi nombre de deshonra, incluso si debo vivir deshonrosamente por el resto de mis días para hacerlo."
+ agot_filler_nights_watch.0008.desc.bad: "Ni siquiera has notado mi ausencia estas últimas semanas, ¿verdad? Y es esa asombrosa ineptitud lo que me asombra tanto.\n\nNo aprecié sus acusaciones de robo, ni sus demandas de que pague una deuda que no es legítimamente mía, así que me complace decirle que no regresaré. al Muro, ni ahora, ni nunca.\n\nDentro de un año, podría estar muerto en una zanja, el mundo maldiciendo mi nombre deshonroso, y aún así será un mejor destino que sentarme en el talón de tal descerebrado. caballero."
+ agot_filler_nights_watch.0008.a.good: "Que así sea."
+ agot_filler_nights_watch.0008.a.bad: "Bastardo."
+  
+  ############################################ 
+  #   agot_nights_watch.0009 - TROUBLE ADJUSTING  # 
+  ############################################ 
+  
+ agot_filler_nights_watch.0009.t: "Problemas de ajuste"
+ agot_filler_nights_watch.0009.desc: "Vienen a la Guardia a veces como pequeños señores, pero la mayoría de las veces como niños rotos. [troublemaker.Custom2('MyCharacterIntroduction', ROOT.Char)|U] es el rudo descuidado de un chico así, sin tener en cuenta a sus maestros de entrenamiento y luchando sin provocación. Cuando finalmente lleva al maestro de armas al límite, aterriza frente a mí.\n\n"¿Por qué eres tan rápido para pelear con tus nuevos hermanos?" Me burlo. "¿Preferirías estar en una jaula que en el Muro?"\n\n"Sí", dice en voz baja. "No merezco un segundo intento, no después de todo lo que hice. Merezco una jaula o un agujero en el que puedas enterrarme."
+ agot_filler_nights_watch.0009.a: "Que así sea."
+ agot_filler_nights_watch.0009.a.tt: "Ejecutas [troublemaker.GetTitledFirstName]"
+ agot_filler_nights_watch.0009.b: "Esta es tu vida, muchacho. Concilia eso, o encuentra tu propia maldita pala."
+ agot_filler_nights_watch.0009.c: "El niño que vivió antes del Muro y el hombre que vive en él no son lo mismo."
+ agot_filler_nights_watch.0009.d: "Lo golpeo "El arrepentimiento no te mantendrá caliente en el Muro."
+ agot_filler_nights_watch.0009.e: "Prométele más responsabilidades para ayudarlo a encontrar su lugar."
+ agot_filler_nights_watch.0009.court_position.tt: "#i [troublemaker.GetTitledFirstNameNoTooltip] esperará un puesto en la corte en un futuro inmediato#!"
+  
+  ############################################ 
+  #   agot_nights_watch.0010 - TROUBLE ADJUSTING  # 
+  ############################################ 
+  
+ agot_filler_nights_watch.0010.toast.t: "Rompiste una promesa de dar más responsabilidad"
+  
+  ############################################### 
+  #   agot_nights_watch.0011 - SQUATTER AT THE WALL # 
+  ############################################### 
+  
+ agot_filler_nights_watch.0011.t: "Okupa en El Muro"
+ agot_filler_nights_watch.0011.opening: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))|U] [councillor.GetFirstName] arroja una criatura de aspecto lamentable a mis pies. "Este estaba en cuclillas en las ruinas de [derelict.GetNameNoTier]", dice [councillor.GetSheHe], pero mientras [councillor.GetSheHe] habla, hay miedo en las palabras de [councillor.GetHerHis]. "[squatter_1.GetSheHe|U]... sé cosas. Cosas que nadie tiene derecho a saber."\n\n"Dame refugio", croa el ocupante ilegal, "o desnudaré tus pensamientos más oscuros... descubriré tus vergüenzas secretas. "\n\n[councillor.GetTitledFirstNameNoTooltip] patea a [squatter_1.GetHerHim] y [squatter_1.GetSheHe] se silencia. "[squatter_1.GetSheHe|U] no está bien, mi [councillor.GetFirstName]1. Deberíamos colgar a [squatter_1.GetHerHim]."\n\nEl ocupante ilegal señala a [councillor.GetFirstName]3 con el pulgar hacia [councillor.GetFirstName]4."
+ agot_filler_nights_watch.0011.secret_murder: "Este ha matado a [target.GetTitledFirstName] a sangre fría,"
+ agot_filler_nights_watch.0011.secret_murder_attempt: "Este matará a [target.GetTitledFirstName] a sangre fría,"
+ agot_filler_nights_watch.0011.secret_cannibal: "Este come carne de hombre,"
+ agot_filler_nights_watch.0011.secret_lover: "Este toma a [target.GetTitledFirstName] como amante,"
+ agot_filler_nights_watch.0011.secret_incest: "La cama de este a menudo está ocupada por [target.GetTitledFirstName],"
+ agot_filler_nights_watch.0011.secret_sodomite: "Este se lleva a la cama a [councillor.GetHerHis] del propio sexo,"
+ agot_filler_nights_watch.0011.secret_deviant: "Este tiene predilección por las delicias insólitas,"
+ agot_filler_nights_watch.0011.secret_heritage: "El linaje de éste no está tan claro,"
+ agot_filler_nights_watch.0011.closing: "[squatter_1.GetSheHe] dice, y la sangre sale de la cara de [councillor.GetFirstNamePossessiveNoTooltip]. "Y tú... tú, [ROOT.Char.GetNameNoTooltip]... también tienes secretos aún no escuchados."
+ agot_filler_nights_watch.0011.a: "Dale a [squatter_1.GetHerHim] un lugar para descansar"
+ agot_filler_nights_watch.0011.a.message.t: "Un esquema revelado"
+ agot_filler_nights_watch.0011.a.message.tt: "En agradecimiento, el okupa te revela que se está tramando un [scheme.GetSchemeType.GetTypeNameNoTooltip] en tu contra."
+ agot_filler_nights_watch.0011.b: "Lanza [squatter_1.GetHerHim] en la mazmorra"
+ agot_filler_nights_watch.0011.b.message.t: "[squatter_1.GetFirstName] revela tu secreto"
+ agot_filler_nights_watch.0011.b.message.tt: "Mientras se llevan al ocupante ilegal, #V [squatter_1.GetSheHe]#! revela su secreto [my_secret.GetName] a todos"
+ agot_filler_nights_watch.0011.b.sadistic: "Colgar [squatter_1.GetHerHim]"
+ agot_filler_nights_watch.0011.c: "Toma la lengua de [squatter_1.GetHerHis] antes de que [squatter_1.GetSheHe] revele más secretos"
+  
+  ########################################### 
+  #   agot_nights_watch.0012 - THE WOLF'S SHADOW # 
+  ########################################### 
+ agot_filler_nights_watch.0012.t: "La sombra del lobo"
+ agot_filler_nights_watch.0012.opening: "Una manada de lobos grises ha estado cazando plebeyos en The Gift, pero los dos grupos de caza enviados han regresado no solo con menos de una sola piel, sino también con un Hermano gravemente mutilado en [eaten.GetTitledFirstName]. Los hombres se han vuelto inquietos desde entonces, y ahora corren rumores entre la Guardia de que un lobo terrible lidera la manada.\n\n"¿Al sur del Muro?" [goon.GetTitledFirstName] resopla a uno de los hombres mientras cenamos. "No hay lobo terrible al sur del Muro. Esta es una perra apenas destetada. Un golpe de espada y ella caerá, seguro como"
+ agot_filler_nights_watch.0012.joke.lowborn: "[joke.GetFirstNamePossessive] madre en Mole's Town."
+ agot_filler_nights_watch.0012.joke.fallback: "Las chicas de Mole's Town."
+ agot_filler_nights_watch.0012.joke.response.new_speaker: "\n\n[joke.GetFirstNameNoTooltip] pincha en [goon.GetTitledFirstNameNoTooltip]. "¿Por qué no lo matas entonces?"
+ agot_filler_nights_watch.0012.joke.response.fallback: "\n\n[joke.GetFirstName] pincha en [goon.GetTitledFirstNameNoTooltip]. "¿Por qué no lo matas entonces?"
+ agot_filler_nights_watch.0012.closing: "\n\n"Bueno, no me gustaría robarle la gloria a [ROOT.Char.GetTitledFirstNameNoTooltip]", dice [goon.GetTitledFirstNameNoTooltip] tímidamente. "[ROOT.Char.GetSheHe|U] debería ser el que mate al lobo."
+ agot_filler_nights_watch.0012.a.trusting: "Confío en que te encargarás de ello, [goon.GetFirstName]."
+ agot_filler_nights_watch.0012.a.arrogant: "Nunca podrías robarme la gloria, [goon.GetFirstName], pero debo insistir en que lo intentes."
+ agot_filler_nights_watch.0012.a.arbitrary: "Como [goon.GetFirstName] cree que la caza será tan sencilla, [goon.GetSheHe] la liderará."
+ agot_filler_nights_watch.0012.a.cynical: "No, por favor, muéstranos lo fácil que es, [goon.GetFirstName]"
+ agot_filler_nights_watch.0012.a.fallback: "Envía [goon.GetFirstName] para liderar la próxima cacería"
+ agot_filler_nights_watch.0012.a.tt: "Envías a [goon.GetTitledFirstName] para liderar la caza del lobo."
+ agot_filler_nights_watch.0012.b.arrogant: "Podría ser el único lo suficientemente dotado para cazarlo."
+ agot_filler_nights_watch.0012.b.impatient: "Lo haré yo mismo, ahora mismo."
+ agot_filler_nights_watch.0012.b.brave: "Lo cazaré, solo, si es necesario."
+ agot_filler_nights_watch.0012.b.paranoid: "Ni siquiera estoy seguro de que sean lobos, pero lo descubriré por mí mismo."
+ agot_filler_nights_watch.0012.b.callous: "Me encargaré de eso, aunque solo sea para asegurarme de que esté hecho."
+ agot_filler_nights_watch.0012.b.fallback: "Diles que liderarás la próxima cacería."
+ agot_filler_nights_watch.0012.b.tt: "Liderarás la caza del lobo tú mismo."
+  
+  ########################################### 
+  #   agot_nights_watch.0013 - THE WOLF'S SHADOW # 
+  ########################################### 
+  
+ agot_filler_nights_watch.0013.message.great_success.t: "[goon.GetTitledFirstName] ha matado al lobo"
+ agot_filler_nights_watch.0013.message.great_success.tt: "Enviado para erradicar la manada de lobos que había estado plagando The Gift, [goon.GetTitledFirstName] lideró una cacería exitosa y el líder de la manada fue asesinado, dispersando a la manada de regreso a la naturaleza."
+ agot_filler_nights_watch.0013.message.success.t: "[goon.GetTitledFirstName] ha ahuyentado a los lobos"
+ agot_filler_nights_watch.0013.message.success.tt: "El grupo de caza que enviaste para lidiar con los lobos no pudo matar al líder de la manada, pero la manada fue expulsada de las aldeas y refugios de The Gift."
+  
+  ########################################### 
+  #   agot_nights_watch.0014 - THE WOLF'S SHADOW # 
+  ########################################### 
+  
+ agot_filler_nights_watch.0014.t: "La sombra del lobo"
+ agot_filler_nights_watch.0014.opening.forgiving: "Los grupos de caza han hecho todo lo posible, pero al ver el miedo en sus rostros, sé que la tarea debe recaer en mí."
+ agot_filler_nights_watch.0014.opening.arrogant: "¿Quién más que yo podría solucionar este problema?"
+ agot_filler_nights_watch.0014.opening.brave: "La idea de encontrarme cara a cara con cualquier lobo es desalentadora, pero haré lo que deba para proteger a la gente de The Gift."
+ agot_filler_nights_watch.0014.opening.sadistic: "Mientras nos preparamos para salir a cazar, todo en lo que puedo pensar es en abrir el cadáver de la bestia y meter su cabeza en mi pared."
+ agot_filler_nights_watch.0014.opening.lustful: "Nadie en los Siete Reinos podrá resistirse a mí cuando se enteren de mis hazañas en esta cacería."
+ agot_filler_nights_watch.0014.opening.gluttonous: "Lobo no es la mejor de las carnes, pero hay algo satisfactorio en comer el corazón de la cosa que acaba de matar, y estoy ansioso por hacerlo."
+ agot_filler_nights_watch.0014.opening.impatient: "#EMP Adelante, #! es todo lo que quiero gritar mientras nos reunimos en el patio, los hombres tomándose su precioso tiempo."
+ agot_filler_nights_watch.0014.opening.hunter: "Mi sangre late con fuerza ante la idea de estar en la cacería una vez más, y sé que pronto tendré un nuevo trofeo para mi colección."
+ agot_filler_nights_watch.0014.opening.ambitious: "Oh, las historias que contarán de esta cacería. No puedo esperar a escuchar a los hombres reunidos alrededor del fuego dentro de cinco años, contando cómo yo solo cacé esta manada."
+ agot_filler_nights_watch.0014.opening.fickle: "Tal vez sea un error tomar la caza en mis propias manos, pero ¿quién más está ahí para la tarea?"
+ agot_filler_nights_watch.0014.closing: "Partimos antes del amanecer, nuestro grupo contaba con más de una docena de hermanos negros. Encontramos fácilmente el rastro de la manada y, después de algunos días, acorralamos a los lobos en una rama del bosque intacta desde quizás los Primeros Hombres.\n\nSin embargo, cuanto más nos adentramos en el bosque, más [goon.Custom2('MyCharacterIntroduction', ROOT.Char)] parece perder los nervios [goon.GetHerHis], y pronto los gemidos de [goon.GetHerHis] se vuelven nerviosos y temerosos.\n\nEl crepúsculo cae y las antorchas se elevan, y [goon.GetFirstNameNoTooltip] agarra mi brazo. "Siento sus ojos", susurra [goon.GetSheHe]. "Estamos siendo perseguidos." Los pájaros cantan, y en los bosques profundos que nos rodean, las lámparas encendidas de ojos rojos insensibles nos devuelven la mirada, fijándose en nosotros como si los mismos bosques estuvieran sopesando si somos depredadores o presas."
+ agot_filler_nights_watch.0014.a: "Dile a los hombres que hagan una formación defendible."
+ agot_filler_nights_watch.0014.a.tt: "#I Prefiere personajes inteligentes#!"
+ agot_filler_nights_watch.0014.b: "Sumérgete en el bosque para asustar a las criaturas."
+ agot_filler_nights_watch.0014.b.tt: "#I Prefiere los caracteres en negrita#!"
+  
+  ########################################### 
+  #   agot_nights_watch.0014 - THE WOLF'S SHADOW # 
+  ########################################### 
+  
+ agot_filler_nights_watch.0015.t: "La sombra del lobo"
+ agot_filler_nights_watch.0015.dire_wolf.defense: "Dejamos descansar a los caballos y tomamos nuestras posiciones defensivas. Las hojas se dibujan en la oscuridad, el acero brilla a la luz de las antorchas. Las ramas susurran. Los arbustos tiemblan. Los pájaros se calman tan suavemente que un silencio frío se desliza dentro de cada uno de nosotros, luego un aullido de dolor grita y en la oscuridad su compañero responde.\n\nLos lobos salen corriendo del bosque, colmillos y garras y el pelaje gris azotando a nuestro alrededor como un mar gris embravecido. Por encima de los aullidos de las bestias, [goon.GetTitledFirstName] grita de dolor. [goon.GetSheHe|U] yace boca abajo, y encima de él se alza un monstruoso lobo huargo que gruñe, con el hocico ensangrentado por la sangre y los ojos amarillos tan salvajes como el invierno. Su mirada se fija en mí y se lanza, su mandíbula se parte con odio.\n\n"
+ agot_filler_nights_watch.0015.dire_wolf.offense: "Saco mi espada y grito, cargando hacia los arbustos. Desconcertados, los otros hermanos negros lo persiguen a regañadientes. Las ramas se rompen, los lobos gimen y corren atemorizados mientras me abro paso a través de una brecha enredada en el bosque.\n\nLuego me congelo. Un lobo huargo de tamaño monstruoso se interpone en mi camino mientras limpio la maleza, su aliento caliente apesta en mi cara, mientras gruñe y babea delante de mí. Mientras mantengo mi posición, da un débil paso hacia atrás, y sintiendo su miedo, cargo. Sus garras afiladas como dagas me cortan, pero"
+ agot_filler_nights_watch.0015.grey_wolf.defense: "Dejamos descansar a los caballos y tomamos nuestras posiciones defensivas. Las hojas se dibujan en la oscuridad, el acero brilla a la luz de las antorchas. Las ramas susurran. Los arbustos tiemblan. Los pájaros se calman tan suavemente que un silencio frío se desliza dentro de cada uno de nosotros, luego un aullido de dolor grita y en la oscuridad su compañero responde.\n\nLos lobos salen corriendo del bosque, colmillos y garras y el pelaje gris azotando a nuestro alrededor como un mar gris embravecido. Por encima de los aullidos de las bestias, [goon.GetTitledFirstName] grita de dolor. [goon.GetSheHe|U] yace boca abajo, y encima de él se alza un lobo gris gruñendo, con el hocico ensangrentado por la sangre y los ojos amarillos tan salvajes como el invierno. Su mirada se fija en mí y se abalanza, rompiendo la mandíbula con odio,"
+ agot_filler_nights_watch.0015.grey_wolf.offense: "Saco mi espada y grito, cargando hacia los arbustos. Desconcertados, los otros hermanos negros lo persiguen a regañadientes. Las ramas se rompen, los lobos gimen y corren asustados mientras me abro paso a través de una brecha enredada en el bosque.\n\nMe congelo. Un inmenso lobo gris se interpone en mi camino, gruñendo y babeando desafiante. Mientras mantengo mi posición, da un débil paso hacia atrás, y sintiendo su miedo, cargo de nuevo. Sus garras afiladas como dagas me cortan,"
+ agot_filler_nights_watch.0015.success: "Pero esquivo su golpe y conduzco mi espada a través de la garganta de la bestia. Aullando, sufre espasmos y cae ante mí mientras los otros lobos rompen y corren."
+ agot_filler_nights_watch.0015.failure: "Y no logro bloquear el golpe. Las garras se clavan en mi brazo y me tiran al suelo. La sangre moja mi capa, gruesos terrones de tierra negra cubren la mitad de mi cara mientras el mundo gira y gira y gira a mi alrededor.\n\nLa bestia gruñe"
+ agot_filler_nights_watch.0015.failure.craven: "Y me mojo de miedo."
+ agot_filler_nights_watch.0015.failure.brave: "Y mi corazón truena. Este no será mi fin."
+ agot_filler_nights_watch.0015.failure.patient: "Y en mi mente me atrevo a que se acerque."
+ agot_filler_nights_watch.0015.failure.callous: "Y me sonrío a mí mismo, divertido por este giro de los acontecimientos."
+ agot_filler_nights_watch.0015.failure.trusting: "Y rezo por el rescate."
+ agot_filler_nights_watch.0015.failure.calm: "Y me doy la vuelta, mirando el cielo nocturno sin pestañear. ¿Es así como termina?"
+ agot_filler_nights_watch.0015.failure.fallback: "Y tomo una respiración profunda, preparándome para lo que viene después."
+  # Success 
+ agot_filler_nights_watch.0015.compassionate: "La pobre bestia..."
+ agot_filler_nights_watch.0015.calm: "Soy afortunado de estar vivo."
+ agot_filler_nights_watch.0015.deceitful: "¿Y yo estaba asustado? Ni por un momento."
+ agot_filler_nights_watch.0015.brave.dire_wolf: "Un enemigo digno."
+ agot_filler_nights_watch.0015.brave.grey_wolf: "No era ni la mitad de la bestia que temía."
+ agot_filler_nights_watch.0015.craven: "Nunca volveré a hacer algo tan estúpido."
+ agot_filler_nights_watch.0015.wrathful: "¡Soy intocable!"
+ agot_filler_nights_watch.0015.greedy: "Se verá genial en El Muro, ¿no?"
+ agot_filler_nights_watch.0015.cynical: "¿Me habría salvado [goon.GetFirstNameNoTooltip] si nuestro destino hubiera cambiado?"
+ agot_filler_nights_watch.0015.impatient: "Ahora salgamos de este maldito bosque."
+ agot_filler_nights_watch.0015.ambitious: "¡Casa [ROOT.Char.GetDynastyName]!"
+ agot_filler_nights_watch.0015.just: "No hay mas?"
+ agot_filler_nights_watch.0015.vengeful: "¿Soy afortunado o bueno?"
+ agot_filler_nights_watch.0015.zealous: "¡Otros se los llevan todos!"
+ agot_filler_nights_watch.0015.gregarious: "¿Sigues conmigo, [goon.GetFirstNameNoTooltip]?"
+ agot_filler_nights_watch.0015.lustful: "Ay, las camas que llenaré con este cuento."
+ agot_filler_nights_watch.0015.gluttonous: "¿Hay algo mejor que un juego que hayas cazado tú mismo?"
+  # Failure 
+ agot_filler_nights_watch.0015.failure_1: "Saca una daga y lucha por tu vida"
+ agot_filler_nights_watch.0015.failure_2: "Hacerse el muerto"
+ agot_filler_nights_watch.0015.failure_3: "Acepta tu destino"
+ every_dedicated_black_brother_0015: "Cada miembro de la Guardia de la Noche a quien no le gusta que muestres lealtad por tu propia casa."
+ agot_filler_nights_watch.0015.bear.offense: "Saco mi espada y grito, cargando hacia los arbustos. Desconcertados, los otros hermanos negros lo persiguen a regañadientes. Me estrello a través de la maleza en una maraña de gritos y golpes, esperando que los lobos me ataquen de inmediato, pero en lugar de eso me encuentro solo en un claro. ¿Dónde están los lobos?\n\nEntonces veo al monstruo que ha estado acechando el Don, no al lobo huargo que todos mis hermanos temían en secreto, ni un lobo en absoluto.\n\nEl oso es enorme, sus ancas más grandes y más fuerte que el de un cargador, sus patas delanteras del tamaño de escudos. Con un rugido como el de un barco chocando contra las rocas, la bestia me embiste. El tiempo se congela y por fin veo a los lobos rodeando el perímetro, esperando que la bestia más grande acabe conmigo.\n\nLas fauces del oso se abren mientras se abalanza sobre mí,"
+ agot_filler_nights_watch.0015.bear.defense: "Dejamos descansar a los caballos y tomamos nuestras posiciones defensivas. Las hojas se dibujan en la oscuridad, el acero brilla a la luz de las antorchas. Las ramas susurran. Los arbustos tiemblan. Los pájaros se calman tan suavemente que un silencio frío se desliza dentro de cada uno de nosotros, luego un aullido de dolor grita y en la oscuridad su compañero responde.\n\nLos lobos salen corriendo del bosque, colmillos y garras y el pelaje gris azotando a nuestro alrededor como un mar gris embravecido. Por encima de los aullidos de las bestias, [goon.GetTitledFirstName] grita de dolor. [goon.GetSheHe|U] yace boca abajo, y encima de él no se alza el lobo huargo que temíamos, ni ningún tipo de lobo, sino un oso de proporciones monstruosas. Se vuelve hacia mí, su ancho rostro empapado de sangre, sus ojos muy abiertos y hambrientos. Más rápido que cualquier animal de ese tamaño debería ser capaz de moverse, se lanza hacia mí,"
+  
+ agot_filler_nights_watch.0016.t: "MARCADOR DE POSICIÓN"
+ agot_filler_nights_watch.0016.desc: "MARCADOR DE POSICIÓN"
+ agot_filler_nights_watch.0016.a: "MARCADOR DE POSICIÓN"
+  
+ agot_filler_nights_watch.0017.t: "La sombra del lobo"
+ agot_filler_nights_watch.0017.desc: "Los restos de la partida de caza que fue enviada para despachar a la manada de lobos que aterrorizaba al Gift regresa cojeando a casa golpeados y ensangrentados. Algunos de mis hermanos no han regresado del Regalo en absoluto, y siento su pérdida como una puñalada en el estómago. Estos lobos, al parecer, no son una manada ordinaria. Cuando por fin uno de mis hermanos se calma lo suficiente como para dar un relato coherente de lo sucedido, habla de una bestia descomunal de ojos amarillos y pelaje negro. Fueron emboscados, dice, y apenas escaparon del encuentro con sus vidas.\n\n¿Adónde ha llegado la Guardia de la Noche? Estamos encargados de proteger los reinos de los hombres, pero ni siquiera podemos proteger a nuestros vecinos de los animales salvajes."
+ agot_filler_nights_watch.0017.a: "Este fracaso es una mancha en el buen nombre de la Guardia de la Noche."
