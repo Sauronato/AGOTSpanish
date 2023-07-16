@@ -81,8 +81,8 @@
  ep2_locale_events.1500.t: "$tournament_locale_religious_building$: favores [ROOT.Char.GetFaith.HighGodNamePossessive]"
  ep2_locale_events.1500.host_faith: "Cuando [tournament_priest.GetFirstName] se aparta para dejar que me acerque, me tomo un momento solemne, a solas en el/la [ROOT.Char.GetFaith.HouseOfWorship] cerca de los terrenos del torneo."
   #AGOT Modified, scope fix 
- # ep2_locale_events.1500.other_faith: "Me tomo un momento para mí en el pequeño santuario temporal [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] cerca del [activity.GetCurrentPhase.GetCurrentLocation.GetFaith.HouseOfWorship] de [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [tournament_priest.GetFirstName] a una distancia respetuosa." #NT!
- ep2_locale_events.1500.other_faith: "Me tomo un momento para mí en el pequeño santuario temporal [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] cerca del [activity.GetCurrentPhase.GetLocation.GetCounty.GetFaith.HouseOfWorship] de [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [tournament_priest.GetFirstName] a una distancia respetuosa." #NT!
+ # ep2_locale_events.1500.other_faith: "Me tomo un momento para mí en el pequeño santuario temporal [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] cerca del [activity.GetCurrentPhase.GetCurrentLocation.GetFaith.HouseOfWorship] de [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [tournament_priest.GetFirstName] a una distancia respetuosa."
+ ep2_locale_events.1500.other_faith: "Me tomo un momento para mí en el pequeño santuario temporal [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] cerca del [activity.GetCurrentPhase.GetLocation.GetCounty.GetFaith.HouseOfWorship] de [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], [tournament_priest.GetFirstName] a una distancia respetuosa."
  ep2_locale_events.1500.desc: "\n\nReflexionando en presencia de [ROOT.Char.GetFaith.PantheonTerm], me pregunto qué es lo que deseo, en el fondo de mi corazón, que salga de estos días de alegría."
  ep2_locale_events.1500.a: "Traedme gloria, [ROOT.Char.GetFaith.WarGodName|U]."
  ep2_locale_events.1500.b: "Que empeore la vida de mi [ROOT.Char.Custom2('RelationToMeShort', bad_prayer_target)], [bad_prayer_target.GetFirstNameNoTooltip]."
@@ -483,6 +483,8 @@
  ep2_locale_events.3010.a.failure: "[alerted_physician.GetShortUIName] no lo consigue"
   
  ep2_locale_events.3011.t: "$ep2_locale_events.3010.t$: miasma"
+  #AGOT Modified 
+ #ep2_locale_events.3011.desc: "[alerted_physician.GetFirstName] regresa a mí con una sonrisa contenta en la cara de [alerted_physician.GetHerHis]. "Encontré la fuente, mi [ROOT.Char.GetLadyLord]", anuncia [alerted_physician.GetSheHe], tratando de contener la risa de [alerted_physician.GetHerHis].\n\n"Los invitados no pudieron encontrar un lugar para deshacerse de sus... desechos, así que recurrió a tirarlo al río. El aire viciado trae enfermedades, como así lo anunció Hipócrates"." #NT!
  ep2_locale_events.3011.desc: "[alerted_physician.GetFirstName] vuelve a mí con una sonrisa de satisfacción en el rostro. «He encontrado el origen, mi [ROOT.Char.GetLadyLord]», anuncia intentando contener la risa.\n\n«Los invitados no pudieron encontrar un sitio donde disponer de sus… residuos, así que recurrieron a echarlos en el río. El aire viciado porta enfermedades, tal como proclamó Hipócrates»."
  ep2_locale_events.3011.a: "¡Debo advertirles!"
  ep2_locale_events.3011.b.contestant: "Me lo guardaré para mí."

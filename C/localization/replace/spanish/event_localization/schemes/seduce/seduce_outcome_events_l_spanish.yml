@@ -32,6 +32,8 @@
  seduce_outcome.0005.a: "¡Ojalá me hubiera ganado antes su afecto!"
   
  seduce_outcome.2000.t: "La bendición secreta"
+  #AGOT Modified 
+ #seduce_outcome.2000.desc: "Mientras nos reunimos clandestinamente, el Sumo Pontífice y yo, mi ser se llena de un asombro y un deseo de naturaleza más carnal que espiritual. Seguramente, nadie antes que yo ha recibido la bendición de [target.GetHerHis|U] Santidad de esta manera.\n\n[target.GetHerHis|U] mano extendida, cierro los ojos y me arrodillo..." #NT!
  seduce_outcome.2000.desc: "Mis encuentros clandestinos con sum[target.Custom('ES_OA')] pontífice me encandilan y generan un deseo más carnal que espiritual en mí. Seguro que nadie más ha recibido semejante bendición de su santidad.\n\nEstira la mano, cierro los ojos y me arrodillo…"
  seduce_outcome.2000.a: "[target.Custom('ES_ElElla')|U] tiene la llave de mi reino."
  seduce_outcome.2000.b: "He recibido mi bendición."
@@ -149,7 +151,7 @@
  seduce_outcome.3301.a: "¡Ay, [owner.GetFirstNameNoTooltip], mi [owner.Custom('LoverPetName')]! ¡Veámonos una vez más!"
  seduce_outcome.3301.a.tt: "#F ¡Y otra, y otra, y otra…!#!"
   #AGOT Modified, breaks for lowborns 
- #seduce_outcome.3301.b: "Ese [owner.GetTitleTierName] seguro que sabe complacer a un [ROOT.Char.GetWomanMan]." #NT!
+ #seduce_outcome.3301.b: "Ese [owner.GetTitleTierName] seguro que sabe complacer a un [ROOT.Char.GetWomanMan]."
  seduce_outcome.3301.b: "Es[owner.Custom('ES_EA')] [owner.GetTitleTierName] desde luego sabe cómo satisfacer a un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan]."
   
  seduce_outcome.3302.desc_opening: "Paseando por los jardines, veo de pronto una estampa más bella que cualquier flor: [owner.GetTitledFirstName|l] lleva ropas de sirviente y un aire [owner.Custom('quirk_pos_adjective')].\n\n"
