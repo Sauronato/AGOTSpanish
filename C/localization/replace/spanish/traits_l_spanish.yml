@@ -82,18 +82,18 @@
  trait_education_martial_4_desc: "La conquista corre por la sangre del Brillante Estratega, tanto por la suya como por la de sus enemigos."
  trait_education_martial_4_character_desc: "La conquista corre por la sangre de [ROOT.GetCharacter.GetFirstNameNoTooltip], tanto en la suya como en la de sus enemigos."
   #AGOT Modified, Prowess Education Descs Reworked 
- # trait_education_martial_prowess_1: "Escudero torpe" #NT!
- # trait_education_martial_prowess_1_desc: "El Bumbling Squire es técnicamente solo un caballero, y recuerda poco de su entrenamiento formal." #NT!
- # trait_education_martial_prowess_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] solo es técnicamente un caballero, recuerda poco del entrenamiento formal de [ROOT.GetCharacter.GetHerHis]." #NT!
- # trait_education_martial_prowess_2: "Caballero confiado" #NT!
- # trait_education_martial_prowess_2_desc: "El Confidente Caballero está familiarizado con las formas de combate tradicionales de su cultura, e incluso luchó algunas acciones contra campesinos recalcitrantes cuando era adolescente." #NT!
- # trait_education_martial_prowess_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] está familiarizado con las formas de combate tradicionales de la cultura [ROOT.GetCharacter.GetHerHis], incluso peleó algunas acciones contra campesinos recalcitrantes cuando era adolescente." #NT!
- # trait_education_martial_prowess_3: "Banner formidable" #NT!
- # trait_education_martial_prowess_3_desc: "El Formidable Banneret lideró tropas y luchó contra bandidos incluso antes de su mayoría, endurecido por la batalla hasta convertirse en un combatiente decidido." #NT!
- # trait_education_martial_prowess_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] lideró tropas y luchó contra bandidos incluso antes de [ROOT.GetCharacter.GetHerHis] mayoría, endurecido por la batalla hasta convertirse en un combatiente decidido." #NT!
- # trait_education_martial_prowess_4: "Campeón famoso" #NT!
- # trait_education_martial_prowess_4_desc: "El Campeón Famoso es conocido, respetado y quizás incluso temido en todo el reino como modelo de las prácticas guerreras de su cultura." #NT!
- # trait_education_martial_prowess_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido, respetado y quizás incluso temido en todo el reino como modelo de las prácticas guerreras de [ROOT.Char.GetCulture.GetName]." #NT!
+ # trait_education_martial_prowess_1: "Escudero torpe"
+ # trait_education_martial_prowess_1_desc: "El Bumbling Squire es técnicamente solo un caballero, y recuerda poco de su entrenamiento formal."
+ # trait_education_martial_prowess_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] solo es técnicamente un caballero, recuerda poco del entrenamiento formal de [ROOT.GetCharacter.GetHerHis]."
+ # trait_education_martial_prowess_2: "Caballero confiado"
+ # trait_education_martial_prowess_2_desc: "El Confidente Caballero está familiarizado con las formas de combate tradicionales de su cultura, e incluso luchó algunas acciones contra campesinos recalcitrantes cuando era adolescente."
+ # trait_education_martial_prowess_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] está familiarizado con las formas de combate tradicionales de la cultura [ROOT.GetCharacter.GetHerHis], incluso peleó algunas acciones contra campesinos recalcitrantes cuando era adolescente."
+ # trait_education_martial_prowess_3: "Banner formidable"
+ # trait_education_martial_prowess_3_desc: "El Formidable Banneret lideró tropas y luchó contra bandidos incluso antes de su mayoría, endurecido por la batalla hasta convertirse en un combatiente decidido."
+ # trait_education_martial_prowess_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] lideró tropas y luchó contra bandidos incluso antes de [ROOT.GetCharacter.GetHerHis] mayoría, endurecido por la batalla hasta convertirse en un combatiente decidido."
+ # trait_education_martial_prowess_4: "Campeón famoso"
+ # trait_education_martial_prowess_4_desc: "El Campeón Famoso es conocido, respetado y quizás incluso temido en todo el reino como modelo de las prácticas guerreras de su cultura."
+ # trait_education_martial_prowess_4_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido, respetado y quizás incluso temido en todo el reino como modelo de las prácticas guerreras de [ROOT.Char.GetCulture.GetName]."
  trait_education_martial_prowess_1: "Luchador neófito"
  trait_education_martial_prowess_1_desc: "El Combatiente neófito es más que capaz de atizar a los campesinos, pero su forma es salvaje y callosa."
  trait_education_martial_prowess_1_character_desc: "[RAÍZ.GetCharacter.GetFirstNameNoTooltip] es más que capaz de atizar a los campesinos, pero su forma [ROOT.GetCharacter.GetHerHis] es salvaje e insensible."
@@ -284,9 +284,9 @@
  trait_brave_desc: "Desafíos o peligro, este personaje no teme a nada."
  trait_brave_character_desc: "Desafíos o peligro, [ROOT.GetCharacter.GetFirstNameNoTooltip] no teme a nada."
   #AGOT Modified, Trait Reloc Shy > Solitary 
- # trait_shy: "Tímido" #NT!
- # trait_shy_desc: "Este personaje prefiere evitar interactuar con otras personas." #NT!
- # trait_shy_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] prefiere evitar interactuar con otras personas." #NT!
+ # trait_shy: "Tímido"
+ # trait_shy_desc: "Este personaje prefiere evitar interactuar con otras personas."
+ # trait_shy_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] prefiere evitar interactuar con otras personas."
  trait_shy: "Solitario"
  trait_shy_desc: "Este personaje prefiere no interactuar con otras personas."
  trait_shy_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] prefiere no interactuar con otras personas."
@@ -418,8 +418,8 @@
  trait_pregnant: "Embarazada"
  trait_pregnant_desc: "Este personaje espera un hijo."
   #AGOT Modified to handle scripted pregnancies 
- # trait_pregnant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha estado embarazada durante [SCOPE.ScriptValue('pregnancy_month')] meses." #NT!
- trait_pregnant_character_desc: "[ROOT.Char.Custom('AGOTGetPregnancyMonths')]" #NT!
+ # trait_pregnant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha estado embarazada durante [SCOPE.ScriptValue('pregnancy_month')] meses."
+ trait_pregnant_character_desc: "[ROOT.Char.Custom('AGOTGetPregnancyMonths')]"
  trait_depressed_1: "Melancólico"
  trait_depressed_1_desc: "A este personaje le cuesta ver el lado bueno de la vida."
  trait_depressed_1_character_desc: "A [ROOT.GetCharacter.GetFirstNameNoTooltip] le cuesta ver el lado bueno de la vida."
@@ -656,17 +656,17 @@
  trait_excommunicated_character_desc: "Se ha excluido a [ROOT.GetCharacter.GetFirstNameNoTooltip] de la participación en servicios religiosos."
  trait_devoted: "Devoto"
   #AGOT Modifed, Trait Reloc 
- # trait_devoted_male: "Monje" #NT!
- # trait_devoted_female: "Monja" #NT!
+ # trait_devoted_male: "Monje"
+ # trait_devoted_female: "Monja"
  trait_devoted_male: "Santo hermano"
  trait_devoted_female: "Santa hermana"
  trait_devoted_desc: "Este personaje ha consagrado su vida al servicio de un poder superior."
  trait_devoted_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha consagrado su vida al servicio de un poder superior."
   	#Child version of Devoted 
   #AGOT Modified, Trait Reloc 
- # trait_devoted_child: "Prometido al clero" #NT!
- # trait_devoted_child_desc: "Este niño está prometido al clero y eventualmente dedicará su vida al servicio de un poder superior." #NT!
- # trait_devoted_child_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] está prometido al clero, y eventualmente dedicará [ROOT.GetCharacter.GetHerHis] la vida al servicio de un poder superior." #NT!
+ # trait_devoted_child: "Prometido al clero"
+ # trait_devoted_child_desc: "Este niño está prometido al clero y eventualmente dedicará su vida al servicio de un poder superior."
+ # trait_devoted_child_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] está prometido al clero, y eventualmente dedicará [ROOT.GetCharacter.GetHerHis] la vida al servicio de un poder superior."
  trait_devoted_child: "Prometido al a la fé"
  trait_devoted_child_desc: "Este niño ha sido comprometido a la fé y acabará dedicando su vida al servicio de un poder superior."
  trait_devoted_child_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido comprometid[ROOT.GetCharacter.Custom('ES_OA')] al clero y acabará dedicando su vida al servicio de un poder superior."
@@ -747,8 +747,8 @@
  trait_wild_oat_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] nació fuera del matrimonio."
  trait_bastard_founder: "Fundador bastardo"
   #AGOT Modified, Bastard found bastard houses not dynasties 
- # trait_bastard_founder_desc: "Un ex bastardo que ha fundado su propio [dynasty|E]." #NT!
- # trait_bastard_founder_character_desc: "Un ex bastardo que ha fundado [ROOT.GetCharacter.GetHerHis] propio [dynasty|E]." #NT!
+ # trait_bastard_founder_desc: "Un ex bastardo que ha fundado su propio [dynasty|E]."
+ # trait_bastard_founder_character_desc: "Un ex bastardo que ha fundado [ROOT.GetCharacter.GetHerHis] propio [dynasty|E]."
  trait_bastard_founder_desc: "Un bastardo que ha fundado su propia [dynasty|E]."
  trait_bastard_founder_character_desc: "Un[ROOT.GetCharacter.Custom('ES_XA')] antigu[ROOT.GetCharacter.Custom('ES_OA')] bastard[ROOT.GetCharacter.Custom('ES_OA')] que ha fundado su propia [dynasty|E]."
  trait_kinslayer_1: "Familicida dinástico"
@@ -788,13 +788,13 @@
  trait_berserker_desc: "Cuando la sangre de este personaje empieza a hervir, solo se sacia con la muerte de sus enemigos."
  trait_berserker_character_desc: "Cuando la sangre de [ROOT.GetCharacter.GetFirstNameNoTooltip] empieza a hervir, solo se sacia con la muerte de sus enemigos."
   #AGOT Modified, Trait Reloc Shieldmaiden > Axe Wife 
- # trait_shieldmaiden_female: "Doncella escudo" #NT!
- # trait_shieldmaidens_female: "Doncellas escuderas" #NT!
- # trait_shieldmaiden_male: "Contramaestre" #NT!
- # trait_shieldmaidens_male: "Contramaestres" #NT!
- # trait_shieldmaiden_desc: "Este personaje desafía las estructuras normales de su sociedad, luchando en el muro de escudos como cualquier otro guerrero." #NT!
- # trait_shieldmaiden_female_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] desafía las estructuras normales de la sociedad [ROOT.GetCharacter.GetHerHis], luchando en el muro de escudos como si [ROOT.GetCharacter.GetSheHe] fuera un hombre." #NT!
- # trait_shieldmaiden_male_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] desafía las estructuras normales de la sociedad [ROOT.GetCharacter.GetHerHis], luchando en el muro de escudos como si [ROOT.GetCharacter.GetSheHe] fuera una mujer." #NT!
+ # trait_shieldmaiden_female: "Doncella escudo"
+ # trait_shieldmaidens_female: "Doncellas escuderas"
+ # trait_shieldmaiden_male: "Contramaestre"
+ # trait_shieldmaidens_male: "Contramaestres"
+ # trait_shieldmaiden_desc: "Este personaje desafía las estructuras normales de su sociedad, luchando en el muro de escudos como cualquier otro guerrero."
+ # trait_shieldmaiden_female_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] desafía las estructuras normales de la sociedad [ROOT.GetCharacter.GetHerHis], luchando en el muro de escudos como si [ROOT.GetCharacter.GetSheHe] fuera un hombre."
+ # trait_shieldmaiden_male_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] desafía las estructuras normales de la sociedad [ROOT.GetCharacter.GetHerHis], luchando en el muro de escudos como si [ROOT.GetCharacter.GetSheHe] fuera una mujer."
  trait_shieldmaiden_female: "Esposa del hacha"
  trait_shieldmaidens_female: "Esposas del hacha"
  trait_shieldmaiden_male: "Esposo del hacha"
@@ -809,7 +809,7 @@
  trait_varangian_desc: "Este personaje ha servido en el ejército bizantino como parte de la guardia varega."
  trait_varangian_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha servido en el ejército bizantino como parte de la Guardia Varega."
   #AGOT Modified 
- # trait_viking_has_longships: "Vikingo" #NT!
+ # trait_viking_has_longships: "Vikingo"
  trait_viking_has_longships: "Segadora"
  trait_viking_fallback: "Asaltante"
  trait_viking_desc: "Este personaje es un conocido saqueador de asentamientos extranjeros."
@@ -1058,7 +1058,7 @@
  trait_education_martial: "Estudiantes bélicos"
  trait_education_learning: "Estudiantes de erudición"
   #AGOT Modified 
- # trait_education_martial_prowess: "Estudiantes de caballería" #NT!
+ # trait_education_martial_prowess: "Estudiantes de caballería"
  trait_education_martial_prowess: "Estudiantes de caballería"
   
  #Tiered Traits 

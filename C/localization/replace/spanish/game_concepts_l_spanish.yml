@@ -129,12 +129,12 @@
  game_concept_disinherit_desc: "El [Concept( 'dynast', 'cabeza de la dinastía' )|E] puede desheredar a un miembro de su [dynasty|E] a costa de [Concept( 'dynasty_prestige', 'renombre' )|E].\n\nAsí, ese miembro desaparecerá de la [line_of_succession|E] de cualquier título que actualmente posean otros miembros de su dinastía."
  game_concept_council: "Consejo"
   #AGOT Modified 
- #game_concept_council_desc: "El $game_concept_council$ consta de seis [councillors|E] que asisten a su [ruler|E] en la administración del [realm|E]. Como jefes de sus respectivos departamentos, se les puede asignar varios [councillor_tasks|E] importantes." #NT!
+ #game_concept_council_desc: "El $game_concept_council$ consta de seis [councillors|E] que asisten a su [ruler|E] en la administración del [realm|E]. Como jefes de sus respectivos departamentos, se les puede asignar varios [councillor_tasks|E] importantes."
  game_concept_council_desc: "El consejo consta de seis [Concept( 'councillors', 'consejeros' )|E] que ayudan al [Concept( 'ruler', 'gobernante' )|E] en la administración del [Concept( 'realm', 'señorío' )|E]. Son los jefes de sus respectivos departamentos, así que se les puede asignar diversas [Concept( 'councillor_tasks', 'tareas de consejeros' )|E] importantes."
  game_concept_councillor: "Consejero"
  game_concept_councillors: "Consejeros"
   #AGOT Modified 
- #game_concept_councillor_desc: "Los concejales son los asistentes principales de cualquier [ruler|E] y componen el [council|E]. Hay seis puestos en el consejo: [chancellor|E], [marshal|E], [steward|E], [spymaster|E], [court_chaplain|E] (o [realm_priest|E]), y finalmente su [spouse|E].\n\nCada uno está a cargo de un departamento al que se le pueden asignar diferentes § _9 para realizar.\n\n[council|E]0 se molestará si no se le asigna uno de estos puestos, lo que significa que a menudo tendrá que elegir entre aplacar a un poderoso vasallo o nombrar a alguien que sea realmente competente.\n\nSirviendo como Consejero a tu [council|E]1 te da una bonificación, que aumenta con el [council|E]2 de Lieja." #NT!
+ #game_concept_councillor_desc: "Los concejales son los asistentes principales de cualquier [ruler|E] y componen el [council|E]. Hay seis puestos en el consejo: [chancellor|E], [marshal|E], [steward|E], [spymaster|E], [court_chaplain|E] (o [realm_priest|E]), y finalmente su [spouse|E].\n\nCada uno está a cargo de un departamento al que se le pueden asignar diferentes § _9 para realizar.\n\n[council|E]0 se molestará si no se le asigna uno de estos puestos, lo que significa que a menudo tendrá que elegir entre aplacar a un poderoso vasallo o nombrar a alguien que sea realmente competente.\n\nSirviendo como Consejero a tu [council|E]1 te da una bonificación, que aumenta con el [council|E]2 de Lieja."
  game_concept_councillor_desc: "Los consejeros son los principales ayudantes de cualquier [ruler|E] y conforman el [council|E]. Hay seis puestos en el consejo: [chancellor|E], [steward|E], [marshal|E], [spymaster|E], [court_chaplain|E] (u [realm_priest|E]) y, por último, [spouse|E].\n\nCada uno es responsable de un departamento al que se le pueden encargar distintas [Concept( 'councillor_tasks', 'tareas' )|E].\n\nLos [powerful_vassals|E] se disgustarán si no se les conceden estos puestos y, por tanto, será habitual tener que elegir entre apaciguar a un vasallo poderoso o nombrar a alguien competente de verdad.\n\nServir en el consejo de nuestro [liege|E] nos da una bonificación, que aumenta según el [rank|E] del señor."
  game_concept_councillor_task: "Tarea de consejero"
  game_concept_councillor_tasks: "Tareas de consejeros"
@@ -252,7 +252,7 @@
  game_concept_religion: "Religión"
  game_concept_religions: "Religiones"
   #AGOT Modified 
- #game_concept_religion_desc: "Un $game_concept_religion$ puede constar de muchas denominaciones diferentes, llamadas [faiths|E]. Las religiones, a su vez, pertenecen a una de las tres más grandes [religious_families|E]; [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_eastern').GetName] o [GetReligionFamily('rf_pagan').GetName]." #NT!
+ #game_concept_religion_desc: "Un $game_concept_religion$ puede constar de muchas denominaciones diferentes, llamadas [faiths|E]. Las religiones, a su vez, pertenecen a una de las tres más grandes [religious_families|E]; [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_eastern').GetName] o [GetReligionFamily('rf_pagan').GetName]."
  game_concept_religion_desc: "Una $game_concept_religion$ puede componerse de muchas denominaciones distintas, llamadas [faiths|E]. Las religiones, a su vez, pertenecen a una de las tres grandes [religious_families|E]: [GetReligionFamily('rf_abrahamic').GetName], [GetReligionFamily('rf_eastern').GetName] o [GetReligionFamily('rf_pagan').GetName]."
  game_concept_heresy: "Herejía"
  game_concept_heresies: "Herejías"
@@ -1113,7 +1113,7 @@
  game_concept_cultural_acceptance_desc: "La aceptación cultural indica hasta qué punto dos [cultures|E] se aceptan mutuamente.\n\nAfecta sobre todo a la cantidad de [opinion|E] que se reduce entre personajes de culturas distintas. También afecta a la [county_opinion|E] y al coste de formar una [hybrid_culture|E].\n\nLa aceptación cultural puede cambiar a raíz de muchas acciones, en particular [wars|E], la concesión o revocación de [titles|E] y la [councillor_task|E] [accept_culture|E].\n\nCon el paso del tiempo la aceptación regresará al [cultural_acceptance_baseline|E] si se supera."
  game_concept_cultural_acceptance_baseline: "Punto de referencia de aceptación cultural"
   #AGOT Modified 
- #game_concept_cultural_acceptance_baseline_desc: "[cultural_acceptance|E] tiene una línea de base hacia la cual decaerá si se excede. La línea base depende de:\n$EFFECT_LIST_BULLET$Compartido [heritage|E]\n$EFFECT_LIST_BULLET$Compartido [language|E]\n$EFFECT_LIST_BULLET$Compartido [faith|E] y [religion|E], especialmente si [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] o [GetReligionFamily('rf_eastern').GetName]\n$EFFECT_LIST_BULLET$Compartido $EFFECT_LIST_BULLET$1 dentro del mismo $EFFECT_LIST_BULLET$2" #NT!
+ #game_concept_cultural_acceptance_baseline_desc: "[cultural_acceptance|E] tiene una línea de base hacia la cual decaerá si se excede. La línea base depende de:\n$EFFECT_LIST_BULLET$Compartido [heritage|E]\n$EFFECT_LIST_BULLET$Compartido [language|E]\n$EFFECT_LIST_BULLET$Compartido [faith|E] y [religion|E], especialmente si [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] o [GetReligionFamily('rf_eastern').GetName]\n$EFFECT_LIST_BULLET$Compartido $EFFECT_LIST_BULLET$1 dentro del mismo $EFFECT_LIST_BULLET$2"
  game_concept_cultural_acceptance_baseline_desc: "La [cultural_acceptance|E] tiene un punto de referencia hacia el cual decaerá si se supera. Depende de:\n$EFFECT_LIST_BULLET$[heritage|E] compartida\n$EFFECT_LIST_BULLET$[language|E] compartido\n$EFFECT_LIST_BULLET$[faith|E] y [religion|E] compartidos, en especial si son [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] o [GetReligionFamily('rf_eastern').GetName]\n$EFFECT_LIST_BULLET$[ethos|E] compartida dentro de la misma [region|E]"
  game_concept_culture_pillar: "Pilar cultural"
  game_concept_culture_pillars: "Pilares culturales"
@@ -1267,14 +1267,14 @@
  game_concept_hungarian_invasion: "$HUNGARIAN_INVASION_CB_NAME$"
  game_concept_hungarian_invasion_casus_belli_desc: "Un [casus_belli|E] poderoso, que solo se puede usar una vez por campaña -en total- para conquistar todos los territorios poseídos por el objetivo dentro de Panonia.\n\nCon la victoria, todos los mogyeres del [realm|E] del atacante se desplazarán a Panonia, [counties|E] #EMP y#! [vassals|E], desplazando a los condados ávaros. El resto de vasallos fuera de Panonia quedarán abandonados, mientras que los condados antes ocupados por mogyeres quedarán a disposición de los caciques locales y de las tribus de las estepas rivales."
   #AGOT Modified 
- #game_concept_knight: "Caballero" #NT!
+ #game_concept_knight: "Caballero"
  game_concept_knight: "Capitán"
   #AGOT Modified 
- #game_concept_knights: "Caballeros" #NT!
+ #game_concept_knights: "Caballeros"
  game_concept_knights: "Capitanes"
  game_concept_knight_i: "@knight_icon!"
   #AGOT Modified 
- #game_concept_knight_desc: "Un $game_concept_knight$ es un [vassal|E] o [courtier|E] que lucha directamente en tu [army|E].\n\nDurante [battles|E], $game_concept_knights$ usa su [prowess_skill|E] para luchar con mayor eficacia. Un $game_concept_prowess$ alto significa que podrán infligir más daño al enemigo y es más probable que sobrevivan o incluso salgan ilesos de $game_concept_battle$.\n\n[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'game_concept_knight_desc_TOTO_DLC', 'game_concept_knight_desc_NO_TOTO_DLC' )][vassal|E]0[vassal|E]1 Los caballeros pueden ser conocidos por diferentes nombres dependiendo en [vassal|E]2 o [vassal|E]3. Por ejemplo, [vassal|E]4, [vassal|E]5 o [vassal|E]6.\n\nLos caballeros representan tanto al personaje como a su séquito de tropas.[vassal|E]7" #NT!
+ #game_concept_knight_desc: "Un $game_concept_knight$ es un [vassal|E] o [courtier|E] que lucha directamente en tu [army|E].\n\nDurante [battles|E], $game_concept_knights$ usa su [prowess_skill|E] para luchar con mayor eficacia. Un $game_concept_prowess$ alto significa que podrán infligir más daño al enemigo y es más probable que sobrevivan o incluso salgan ilesos de $game_concept_battle$.\n\n[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'game_concept_knight_desc_TOTO_DLC', 'game_concept_knight_desc_NO_TOTO_DLC' )][vassal|E]0[vassal|E]1 Los caballeros pueden ser conocidos por diferentes nombres dependiendo en [vassal|E]2 o [vassal|E]3. Por ejemplo, [vassal|E]4, [vassal|E]5 o [vassal|E]6.\n\nLos caballeros representan tanto al personaje como a su séquito de tropas.[vassal|E]7"
  game_concept_knight_desc: "Un $game_concept_knight$ es un [vassal|E] o [courtier|E] que lucha directamente en tu [army|E].\n\nDurante las [battles|E], los capitanes usan su [prowess_skill|E] para luchar con eficacia. Con un nivel alto de destreza, pueden causar más daño al enemigo y sobrevivir e incluso salir ilesos de la batalla.\n\n[SelectLocalization( HasDlcFeature( 'tours_and_tournaments' ), 'game_concept_knight_desc_TOTO_DLC', 'game_concept_knight_desc_NO_TOTO_DLC' )][SelectLocalization( HasDlcFeature( 'accolades' ), 'game_concept_knight_desc_ACCOLADE_DLC', '' )]#weak Los caballeros pueden tener diferentes nombres en función de la [culture|E] y la [faith|E]. Por ejemplo, pueden ser $knight_champion_no_tooltip_plural$, $knight_faris_no_tooltip_plural$ o $knight_baghatur_no_tooltip_plural$.\n\nLos caballeros representan tanto al personaje como al conjunto de tropas que lo acompañan.#!"
  game_concept_knight_desc_TOTO_DLC: "Ganas [prestige|E] cada vez que uno de tus $game_concept_knights$ gane o [Concept( 'contest_qualifies', 'se clasifique en' )|E] una [contest|E] de un [GetActivityType( 'activity_tournament' ).GetName|l].\n\n"
  game_concept_knight_desc_NO_TOTO_DLC: ""
@@ -1282,10 +1282,10 @@
   
   
   #AGOT Modified 
- #game_concept_knight_effectiveness: "Eficacia del caballero" #NT!
+ #game_concept_knight_effectiveness: "Eficacia del caballero"
  game_concept_knight_effectiveness: "Eficacia de caballeros"
   #AGOT Modified 
- #game_concept_knight_effectiveness_desc: "La Efectividad de los Caballeros de [ruler|E] determina qué tan bien lucha su [knights|E] en [battle|E].\n\nAl 100 %, los Caballeros luchan normalmente, pero al 200 % luchan como si su [prowess|E] se hubiera duplicado." #NT!
+ #game_concept_knight_effectiveness_desc: "La Efectividad de los Caballeros de [ruler|E] determina qué tan bien lucha su [knights|E] en [battle|E].\n\nAl 100 %, los Caballeros luchan normalmente, pero al 200 % luchan como si su [prowess|E] se hubiera duplicado."
  game_concept_knight_effectiveness_desc: "La eficacia de caballeros de un [ruler|E] indica lo bien que pelean sus [knights|E] en cada [battle|E].\n\nAl 100 %, luchan de forma normal, pero al 200 % luchan como si tuvieran el doble de [prowess|E]."
  game_concept_short_reign: "Reinado corto"
  game_concept_short_reign_desc: "El reinado corto es una penalización de [opinion|E] decreciente que reciben todos los personajes de un [realm|E] donde haya un [liege|E] nuevo.\n\nDe un modo parecido, los súbditos tendrán una bonificación de opinión creciente por [long_reign|E] con aquellos señores que lleven mucho tiempo gobernándolos."
@@ -1296,7 +1296,7 @@
  game_concept_religious_family: "Familia religiosa"
  game_concept_religious_families: "Familias religiosas"
   #AGOT Modified 
- #game_concept_religious_family_desc: "Un $game_concept_religious_family$ es un grupo de [religions|E]. El $game_concept_religious_family$ afecta cómo las diversas religiones, y [faiths|E] en él, se ven entre sí.\n\nLa familia [GetReligionFamily('rf_abrahamic').GetName] aprueba el [holy_wars|E] contra todos #weak (incluidos otros abrahámicos)#!. Las religiones son susceptibles a [heresy|E].\n\nEl La Familia [GetReligionFamily('rf_eastern').GetName] solo aprueba las Guerras Santas contra otras Familias Religiosas.\n\nLa Familia [religions|E]0 aprueba las Guerras Santas contra todos, pero las Fes dentro de las Religiones deben reformarse para acceder a ellas." #NT!
+ #game_concept_religious_family_desc: "Un $game_concept_religious_family$ es un grupo de [religions|E]. El $game_concept_religious_family$ afecta cómo las diversas religiones, y [faiths|E] en él, se ven entre sí.\n\nLa familia [GetReligionFamily('rf_abrahamic').GetName] aprueba el [holy_wars|E] contra todos #weak (incluidos otros abrahámicos)#!. Las religiones son susceptibles a [heresy|E].\n\nEl La Familia [GetReligionFamily('rf_eastern').GetName] solo aprueba las Guerras Santas contra otras Familias Religiosas.\n\nLa Familia [religions|E]0 aprueba las Guerras Santas contra todos, pero las Fes dentro de las Religiones deben reformarse para acceder a ellas."
   game_concept_religious_family_desc:0 "A $game_concept_religious_family$ is a group of [religions|E]. The $game_concept_religious_family$ affects how the various Religions, and [faiths|E] therein, view each other. 
  game_concept_debt: "Deuda"
  game_concept_debt_desc: "Se está en deuda cuando se cuenta con una cantidad negativa de [gold|E] [gold_i]. Esto suele ocurrir cuando un [ruler|E] en guerra contrata [mercenaries|E] sin tener bastante oro para cubrir el coste completo, o si la guerra se prolonga demasiado.\n\n Si estás endeudado, no puedes declarar nuevas [wars|E], tus [men_at_arms|E] no se reforzarán y tus enemigos conseguirán [advantage|E] en las batallas. Cuanto más te endeudes, más penalizaciones recibirás (menos [levies|E], una [county_opinion|E] reducida y le caerás cada vez peor a tus [vassals|E]).\n\nAdemás, pueden suceder otros eventos desestabilizadores menores, como que los [counties|E] de tu [domain|E] ganen [county_corruption|E]. \n\n#help En general, es buena idea atacar a tus enemigos cuando estén endeudados, ¡ya que lucharán con una [advantage|E] reducida!#!"
@@ -1640,7 +1640,7 @@
   
  game_concept_organized: "Organizada"
   #AGOT Modified 
- #game_concept_organized_desc: "Un Organizado [faith|E] tiene una jerarquía religiosa. El culto y las prácticas están más organizados y las escrituras están formalizadas.\n\n[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] Las religiones pueden organizarse mediante la reforma, mientras que otras religiones siempre se consideran organizadas." #NT!
+ #game_concept_organized_desc: "Un Organizado [faith|E] tiene una jerarquía religiosa. El culto y las prácticas están más organizados y las escrituras están formalizadas.\n\n[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] Las religiones pueden organizarse mediante la reforma, mientras que otras religiones siempre se consideran organizadas."
  game_concept_organized_desc: "Una [faith|E] organizada tiene una jerarquía religiosa. Las prácticas y el culto son más formulaicos y sus escrituras están formalizadas.\n\nUna fe [GetReligionFamily('rf_pagan').GetName] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] puede convertirse en organizada mediante la reforma, mientras que las otras fes se consideran siempre organizadas."
   
  game_concept_flowery_war: "Incursión para capturar prisioneros"
@@ -1754,7 +1754,7 @@
   
  game_concept_unreformed_pagan_combat_bonus: "Ventaja de combate de paganos"
   #AGOT Modified 
- #game_concept_unreformed_pagan_combat_bonus_desc: "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] [faiths|E] obtienen un [battle|E] [advantage|E] en [counties|E] de su fe." #NT!
+ #game_concept_unreformed_pagan_combat_bonus_desc: "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] [faiths|E] obtienen un [battle|E] [advantage|E] en [counties|E] de su fe."
  game_concept_unreformed_pagan_combat_bonus_desc: "Las [faiths|E] [GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] [GetReligionFamily('rf_pagan').GetName] consiguen una [advantage|E] de [battle|E] en los [counties|E] de su fe."
   
  game_concept_personality: "Personalidad"
