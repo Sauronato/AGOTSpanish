@@ -1,0 +1,103 @@
+﻿l_spanish:
+  
+ ##################### 
+ # At the Crossroads # 
+ ##################### 
+ agot_travel_events.0001.t: "Viajes: en la encrucijada" #NT!
+ agot_travel_events.0001.desc: "Mientras atravesamos Riverlands, una posada de tres pisos de altura emerge a lo lejos, justo en el cruce de caminos.\n\nPronto, voces fuertes llenan el aire y también el olor a pasteles horneados... un aroma tan dulce que casi puedo saborearlos. . \n\nSin duda, a mis compañeros no les importaría un buen descanso." #NT!
+ agot_travel_events.0001.a: "Un buen lugar para descansar esta noche." #NT!
+ agot_travel_events.0001.a.tt: "Haces una parada en la posada." #NT!
+ agot_travel_events.0001.b: "Descansaremos una vez lleguemos a nuestro destino." #NT!
+ agot_travel_events.0001.b.tt: "Continúas tu viaje." #NT!
+  
+ agot_travel_events.0002.t: "Viaje: La posada" #NT!
+ agot_travel_events.0002.desc: "Llegamos en el momento más oportuno, la posada está llena de vida y ruge de risa.\n\nAl fondo, veo a un grupo de caballeros bebiendo y, por la expresión de sus caras, deben haber llegado mucho antes que nosotros. .. ¿Quizás podría unirme a ellos? \n\nPor mi parte, [fellow_traveler.GetName] me invita a compartir hidromiel, ¿quizás podría aprovechar la oportunidad para pasar más tiempo con [fellow_traveler.GetHerHim] al aire libre?" #NT!
+ agot_travel_events.0002.a: "Me quedaré con mis compañeros." #NT!
+ agot_travel_events.0002.gregarious: "¡Posadero! ¡Necesitaré tus mejores cervezas!" #NT!
+ agot_travel_events.0002.gregarious.tt: "Los miembros de tu séquito ganan #P 20#! [opinion|E] de ti" #NT!
+ agot_travel_events.0002.b: "Acércate a los caballeros." #NT!
+ agot_travel_events.0002.b.tt: "¿Parecen amigables?" #NT!
+ agot_travel_events.0002.c: "Me uniré a [fellow_traveler.GetName] afuera." #NT!
+ agot_travel_events.0002.c.tt: "En lugar de eso, sales a caminar." #NT!
+ agot_travel_events.0002.gluttonous: "¿Aquí sirven tartas de limón?" #NT!
+ agot_travel_events.0002.gluttonous.tt: "Tartas de limón al limón, al limón..." #NT!
+  
+ agot_travel_events.0003.t: "En la encrucijada: mercenario desencantado" #NT!
+ agot_travel_events.0003.desc:0 "Among the boisterous group, I meet [sellsword.GetFullName], who appears to be the leader of the band. [sellsword.GetHerHis|U] sullen face quickly reveals [sellsword.GetHerHis] troubles.\n\n"Truth be told, my [ROOT.Char.GetTitleAsNameNoTooltip], we've had less success than I had hoped. Most of my men are either dead or have deserted. If I don't find a contract to occupy the rest soon, I fear they will all leave... or worse."\n\nAfter guzzling another round, [sellsword.GetSheHe] adds: "Entre el bullicioso grupo, me encuentro con [sellsword.GetFullName], quien parece ser el líder de la banda. El rostro hosco de [sellsword.GetHerHis|U] revela rápidamente los problemas de [sellsword.GetHerHis].\n\n"A decir verdad, mi [ROOT.Char.GetTitleAsNameNoTooltip], hemos tenido menos éxito del que esperaba. La mayoría de mis hombres están muertos o han desertado. Si no lo hago encuentre un contrato para ocupar el resto pronto, me temo que todos se irán... o algo peor."\n\nDespués de tragar otra ronda, [sellsword.GetSheHe] agrega: "Tal vez esta vida no sea adecuada para mí y sería para mejor , al menos tendría la oportunidad de regresar a casa". Sin embargo, a pesar de su amargura, puedo ver un atisbo de determinación en sus ojos..." #NT!
+ agot_travel_events.0003.a: "No desesperes, tengo el trabajo ideal para ti." #NT!
+ agot_travel_events.0003.b: "Contrataré a tus hombres, ve y sé libre." #NT!
+ agot_travel_events.0003.c: "No se puede confiar en los mercenarios." #NT!
+  
+ agot_travel_events.0004.t: "En la encrucijada: el caballero borracho" #NT!
+ agot_travel_events.0004.desc:0 "As I approach the table, the face of the biggest knight goes all red, suddenly [drunk_knight.GetSheHe] jumps from [drunk_knight.GetHerHis] seat and yells: "Well, well! Look who it is! [ROOT.Char.GetName] [ROOT.Char.GetHerselfHimself]!"\n\nThough [drunk_knight.GetSheHe] seems to know me, I cannot recognize [drunk_knight.GetHerHim]. Before I can even hope to respond, the knight draws his sword and challenges me: "Mientras me acerco a la mesa, la cara del caballero más grande se pone roja, de repente [drunk_knight.GetSheHe] salta del asiento de [drunk_knight.GetHerHis] y grita: "¡Bien, bien! ¡Mira quién es! ¡[ROOT.Char.GetName] [ROOT.Char.GetHerselfHimself]!"\n\nAunque [drunk_knight.GetSheHe] parece para conocerme, no puedo reconocer [drunk_knight.GetHerHim]. Antes de que pueda responder, el caballero desenvaina su espada y me desafía: "Me pregunto, ¿es cierto que eres tan bueno como dicen? ¿O tal vez eres sólo un cobarde con una armadura elegante?"\n\ La posada poco a poco se queda en silencio y puedo sentir las miradas de todos sobre mí." #NT!
+ agot_travel_events.0004.a: "Si estás buscando una pelea, ¡la tendrás!" #NT!
+ agot_travel_events.0004.a.success: "¡Venceste al caballero!" #NT!
+ agot_travel_events.0004.a.failure: "El caballero te humilla." #NT!
+ agot_travel_events.0004.b: "¿Quieres demostrar tu valía? ¿Por qué no te unes a mí?" #NT!
+ agot_travel_events.0004.b.success: "¡Convences al caballero!" #NT!
+ agot_travel_events.0004.b.failure: "El caballero se burla de ti." #NT!
+ agot_travel_events.0004.c: "[ROOT.Char.GetFirstNameNoTooltip]? Debes estar confundiéndome con alguien..." #NT!
+ agot_travel_events.0004.c.success: "¡Convences al caballero!" #NT!
+ agot_travel_events.0004.c.success.tt: "El caballero te deja en paz." #NT!
+ agot_travel_events.0004.c.failure: "Te humillas." #NT!
+  
+ agot_travel_events.0005.t: "En la encrucijada: la danza de los dedos" #NT!
+ agot_travel_events.0005.desc:0 "Heading back to the inn from my stroll, I hear a loud thud; two men are throwing axes at each other! As I stop to observe their acrobactics, one of them spots me and calls out: "Al regresar a la posada después de mi paseo, escucho un fuerte golpe; ¡Dos hombres se lanzan hachas! Cuando me detengo para observar sus acrobacias, uno de ellos me ve y grita: "¿Te gustaría unirte?"\n\n"La danza de los dedos, la llamamos", explica [drunk_ironborn.GetFirstName]. "Todo lo que tienes que hacer es coger el hacha o saltar sobre ella sin perder un paso."\n\n"Oh, apuesto a que un buen guerrero como tú puede hacerlo, ¡no hay problema!" [drunk_ironborn.GetSheHe|l] añade riendo." #NT!
+ agot_travel_events.0005.a: "¡Suena bastante fácil!" #NT!
+ agot_travel_events.0005.b: "¡Si gano, tendré tu hacha!" #NT!
+ agot_travel_events.0005.success: "Logras ganar." #NT!
+ ironborn_axe: "Hacha de hierro" #NT!
+ ironborn_axe_description: "Un hacha tradicional de las Islas del Hierro hecha de acero fino. Una vez perteneció a [drunk_ironborn.GetFullName], un viajero nacido del hierro. Ganado en un baile con los dedos por [ROOT.Char.GetFullName]." #NT!
+ agot_travel_events.0005.failure: "El hacha te atrapa" #NT!
+ agot_travel_events.0005.c: "¡JA! ¿Lanzar hacha? ¡Serías un buen bufón!" #NT!
+ agot_travel_events.0005.c.success: "[drunk_ironborn.GetSheHe|U]... en realidad está de acuerdo..." #NT!
+ agot_travel_events.0005.c.failure: "Ofendes a los hijos del hierro." #NT!
+ cultural_acceptance_mocked_customs: "Costumbres burladas" #NT!
+ agot_travel_events.0005.d: "Las encrucijadas generan compañeros extraños..." #NT!
+ agot_travel_events.0005.d.tt: "Dejad a los hijos del hierro con sus juegos." #NT!
+  
+ agot_travel_events.0006.t: "Viaje: problemas de posada" #NT!
+ agot_travel_events.0006.desc:0 "Once we get closer, the atmosphere grows uneasy. As I push the door, we are greeted by the sight of overturned tables and shattered glass. \n\nThe innkeeper welcomes us with a worried look on [innkeeper.GetHerHis] face: "Una vez que nos acercamos, la atmósfera se vuelve incómoda. Mientras empujo la puerta, nos recibe la vista de mesas volcadas y vidrios rotos. \n\nEl posadero nos recibe con cara de preocupación en [innkeeper.GetHerHis]: "Disculpas viajeros, me temo que aquí no encontraréis la cálida bienvenida que estabais buscando. Un grupo de bandidos atacó la posada recientemente, logramos Defiéndelos, pero me preocupa que regresen pronto con venganza."\n\n"Sin embargo, nos vendrían bien algunas manos capaces."" #NT!
+ agot_travel_events.0006.a: "Nos quedaremos y ayudaremos." #NT!
+ agot_travel_events.0006.a.brave: "Proteger a los necesitados es mi voto sagrado." #NT!
+ agot_travel_events.0006.a.tt: "Aceptas enfrentarte a los bandidos." #NT!
+ agot_travel_events.0006.b: "Podría ayudar... por la suma correcta." #NT!
+ agot_travel_events.0006.b.success: "El posadero paga por tu protección." #NT!
+ agot_travel_events.0006.b.failure: "Enfadas al posadero y [innkeeper.GetSheHe] rechaza tu estancia." #NT!
+ agot_travel_events.0006.c: "En realidad... sólo estamos de paso." #NT!
+  
+ agot_travel_events.0007.t: "En la encrucijada: la emboscada" #NT!
+ agot_travel_events.0007.desc:0 "As we make our preparations, [fellow_knight.GetName] approaches me and suggests: "Mientras hacemos nuestros preparativos, [fellow_knight.GetName] se me acerca y me sugiere: "Mi [ROOT.Char.GetTitleAsNameNoTooltip], sentarse aquí y esperar mientras podemos atacar primero sería un error. He reunido a algunos hombres de la posada que conocen esas tierras mejor que nadie. Déjenme ir con ellos y flanqueemos a los bandidos antes de que nos alcancen." #NT!
+ agot_travel_events.0007.a: "No arriesgaré vuestras vidas, enfrentaremos al enemigo juntos." #NT!
+ agot_travel_events.0007.a.tt: "Continúas esperando hasta que lleguen los bandidos." #NT!
+ agot_travel_events.0007.b: "Muy bien, estaré esperando tu regreso." #NT!
+ agot_travel_events.0007.b.tt: "[fellow_knight.GetSheHe|U] podría tener razón..." #NT!
+ agot_travel_events.0007.b.success: "La emboscada tiene éxito." #NT!
+ agot_travel_events.0007.b.fail: "Tu caballero no regresa." #NT!
+  
+ agot_travel_events.0008.t: "En la encrucijada: el falso caballero" #NT!
+ agot_travel_events.0008.desc: "No tenemos que esperar mucho, pronto los bandidos liderados por Ser [evil_bandit.GetFullNameNicknamed] regresan en busca de botín una vez más.\n\nMis hombres que están a mi lado se vuelven hacia mí, esperando ansiosamente una orden. ¿Cómo debo acercarme?" #NT!
+ agot_travel_events.0008.a: "Yo mismo me enfrentaré al comandante." #NT!
+ agot_travel_events.0008.a.tt: "Comienza un duelo con [evil_bandit.GetFirstName]." #NT!
+ agot_travel_events.0008.b: "Ataca con el resto de mis fuerzas." #NT!
+ agot_travel_events.0008.b.success: "Derrotas a los bandidos." #NT!
+ agot_travel_events.0008.b.failure: "Te rechazan y te obligan a marcharte a toda prisa." #NT!
+ agot_travel_events.0008.c: "¡HUIR! ¡¡HUIR!!" #NT!
+ agot_travel_events.0008.c.escape: "Logras escapar, apenas..." #NT!
+ agot_travel_events.0008.c.wounded: "¡Te alcanza una flecha!" #NT!
+  
+  #agot_travel_events.0009 - Maintenance event 
+  
+ agot_travel_events.0010.t: "En la encrucijada: la partida" #NT!
+ agot_travel_events.0010.desc: "Mientras nos preparamos para partir, [innkeeper.GetFirstName] se acerca a mí con una pequeña caja de madera en las manos de [innkeeper.GetHerHis].\n\n"Sé que no es mucho, pero eso es todo lo que nos queda después del reciente ataque. Por favor, toma esto como una muestra de nuestro gratitud. Sin su ayuda, quién sabe lo que podría haber pasado aquí..."" #NT!
+ agot_travel_events.0010.greed_desc: "Mientras nos preparamos para partir, [innkeeper.GetFirstName] se acerca a mí para expresarme [innkeeper.GetHerHis] gratitud.\n\n"Sin tu ayuda, quién sabe qué podría haber pasado aquí... Que tus viajes sean seguros, me aseguraré de que otros sepan de tu valentía."" #NT!
+ agot_travel_events.0010.a: "Despedida." #NT!
+ agot_travel_events.0010.aa: "Una recompensa muy bienvenida." #NT!
+ agot_travel_events.0010.b: "No hay necesidad. Era lo correcto." #NT!
+ agot_travel_events.0010.b.tt: "Tu séquito toma nota de tu caballerosidad y gana #P 10#! [opinion|E] de ti." #NT!
+  
+ agot_travel_events.0011.t: "En la encrucijada: tiempo perdido" #NT!
+ agot_travel_events.0011.desc.intro: "Pasan unos días pero sólo un puñado de borrachos pasan por la posada, no se ven bandidos cerca. ¿Eran infundadas las preocupaciones del posadero? ¿O tal vez nuestra presencia los asustó? No hay forma de saberlo...\n\n" #NT!
+ agot_travel_events.0011.wasgreedy: "Mientras preparamos nuestros caballos, [innkeeper.GetFirstName] se acerca a mí con una pequeña caja de madera en [innkeeper.GetHerHis] manos.\n\n"No es mucho, pero eso es todo lo que nos queda después del reciente ataque. Por favor, por las molestias"." #NT!
+ agot_travel_events.0011.a: "Despedida." #NT!
+ agot_travel_events.0011.b: "Despedida." #NT!
