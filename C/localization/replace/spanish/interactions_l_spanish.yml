@@ -315,7 +315,7 @@
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_VASSAL: "Como consideras que los [recipient.GetFaith.GetAdherentNamePlural] son $hostility_evil_tooltippable$, puedes revocar los vasallos de [recipient.GetShortUIName] sin que se te considere un[ROOT.Char.Custom('ES_XA')] tiran[ROOT.Char.Custom('ES_OA')]."
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_VASSAL: "Como consideras que los [recipient.GetFaith.GetAdherentNamePlural] son $hostility_hostile_tooltippable$, puedes revocar los vasallos de [recipient.GetShortUIName] sin que se te considere un[ROOT.Char.Custom('ES_XA')] tiran[ROOT.Char.Custom('ES_OA')]."
  INFIDEL_REVOCATION_OPINION: "Todo vasallo [recipient.GetFaith.GetAdjective]"
-  #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only"" ""
+  #[GetHostilityLevelName(TOKEN_PARAMETER.GetIntValue)|V] only"" "" #NT!
  IS_ALLOWED_TO_REVOKE_TITLE_BARONY_DESC: "Al revocar [baronies|E], no se incurre en [tyranny|E]"
  IMPRISONMENT_RELATIVES_EFFECT_DUNGEON: "Toda la [family|E] de [THIS.GetCharacter.GetShortUIName] pierde #N 30#! de [opinion|E] sobre [imprisoner.GetShortUIName]"
  IMPRISONMENT_RELATIVES_EFFECT_HOUSE_ARREST: "Toda la [family|E] de [THIS.GetCharacter.GetShortUIName] pierde #N 15#! de [opinion|E] sobre [imprisoner.GetShortUIName]"
