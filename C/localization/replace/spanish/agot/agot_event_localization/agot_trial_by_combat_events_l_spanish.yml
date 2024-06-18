@@ -1,0 +1,97 @@
+﻿l_spanish:
+ agot_trial_by_combat.0000.t: "Prueba por combate" #NT!
+  
+ agot_trial_by_combat.0001.opening: "[recipient.Custom2('AppropriateGreeting',actor)]" #NT!
+ agot_trial_by_combat.0001.desc: "No habrá juicio por tus crímenes, morirás pudrido aquí." #NT!
+ agot_trial_by_combat.0001.a: "¡Eso [recipient.Custom('InsultAdjective')] [recipient.Custom('InsultNoun')]!" #NT!
+  
+ agot_trial_by_combat.0002.trigger_failure.actor: ""Mi juicio por combate ha sido invalidado"" #NT!
+ agot_trial_by_combat.0002.trigger_failure.recipient: "El juicio por combate de [actor.GetFirstNameNoTooltip] ha sido invalidado" #NT!
+  
+ agot_trial_by_combat.1000.t: "$agot_trial_by_combat.0000.t$: Seleccionar un campeón" #NT!
+ agot_trial_by_combat.1000.desc: "He aceptado [actor.GetTitledFirstNamePossessive] solicitud de prueba por combate.\n\nLa tradición exige que elija un campeón para que luche en mi nombre, pero ¿a quién elegir?" #NT!
+ agot_trial_by_combat.1000.bout_moves_forward: "La pelea sigue adelante..." #NT!
+ agot_trial_by_combat.1000.a: "...es la elección obvia." #NT!
+ agot_trial_by_combat.1000.a.tt: "Tu campeón elegido luchará por ti." #NT!
+ agot_trial_by_combat.1000.b: "Contrataré a un mercenario para que sea mi campeón." #NT!
+ agot_trial_by_combat.1000.b.tt: "Se le pagará a un mercenario local para que luche por usted." #NT!
+ agot_trial_by_combat.1000.c: "Lucharé como mi propio campeón." #NT!
+ agot_trial_by_combat.1000.c.tt: "Te defenderás en la prueba por combate." #NT!
+ agot_trial_by_combat.1000.d: "El fuego será mi campeón." #NT!
+ agot_trial_by_combat.1000.d.targ: "El fuego es el campeón de la Casa Targaryen" #NT!
+ agot_trial_by_combat.1000.d.tt: "Los campeones [actor.GetTitledFirstName] y [actor.GetHerHis] arderán." #NT!
+  
+ agot_trial_by_combat.1001.desc: "Para ganar mi libertad, primero debo ganar esta prueba mediante combate.\n\nPuedo elegir un campeón para que luche en mi nombre, pero ¿a quién elegir?" #NT!
+  
+  # TbC about to begin, defender POV 
+ agot_trial_by_combat.2000.t: "$agot_trial_by_combat.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]" #NT!
+ agot_trial_by_combat.2000.desc.intro: "Me llevan encadenado al lugar designado cerca de [duel_location.GetBaseNameNoTier] a tiempo y descubro que [recipient.GetTitledFirstName] ya me está esperando, junto con un pequeño séquito de testigos." #NT!
+ agot_trial_by_combat.2000.desc.recipient_fighting: "[recipient.GetSheHe|U] me informa que ha optado por luchar personalmente en este juicio." #NT!
+ agot_trial_by_combat.2000.desc.recipient_has_champion: "[recipient.GetSheHe|U] ha elegido a [recipient_champion.GetFirstNameNoTooltip] como campeón de [recipient.GetHerHis]." #NT!
+ agot_trial_by_combat.2000.desc.actor_fighting: "Como lucharé por mi cuenta, me liberarán y me entregarán un arma y una armadura." #NT!
+ agot_trial_by_combat.2000.desc.actor_has_champion: "Mi campeón [actor_champion.GetFirstNameNoTooltip] ya llegó, está blindado y listo." #NT!
+ agot_trial_by_combat.2000.desc.outro: "\n\nLas formalidades son breves. Todos sabemos por qué estamos aquí y ya hace tiempo que ya no podemos hablar." #NT!
+ agot_trial_by_combat.2000.a: "Que gane el mejor [actor_champion.GetWomanMan]." #NT!
+ agot_trial_by_combat.2000.a.tt: "¡Comienza el juicio por combate!" #NT!
+  
+   # TbC about to begin, accuser POV 
+ agot_trial_by_combat.2001.t: "$agot_trial_by_combat.0000.t$: [duel_location.GetBaseNameNoTierNoTooltip]" #NT!
+ agot_trial_by_combat.2001.desc.intro: "He llevado a [actor.GetTitledFirstName] al campo de batalla cerca de [duel_location.GetBaseNameNoTier] encadenado para el juicio de [actor.GetHerHis]." #NT!
+ agot_trial_by_combat.2001.desc.actor_fighting: "[actor.GetSheHe|U] ha elegido luchar personalmente en esta prueba, por lo que no habrá necesidad de esperar por un campeón." #NT!
+ agot_trial_by_combat.2001.desc.actor_has_champion: "El campeón elegido [actor.GetHerHis|U], [actor_champion.GetTitledFirstName], llega en poco tiempo." #NT!
+ agot_trial_by_combat.2001.desc.recipient_fighting: "Espero ansiosamente la oportunidad de demostrar personalmente mi culpabilidad." #NT!
+ agot_trial_by_combat.2001.desc.recipient_has_champion: "[recipient.GetTitledFirstName] está a mi lado, esperando que comience el duelo para poder demostrar la culpabilidad de [actor.GetTitledFirstNamePossessive]." #NT!
+ agot_trial_by_combat.2001.desc.outro: "\n\nLas formalidades son breves. Todos sabemos por qué estamos aquí y ya hace tiempo que ya no podemos hablar." #NT!
+ agot_trial_by_combat.2001.a: "Que gane el mejor [recipient_champion.GetWomanMan]." #NT!
+ agot_trial_by_combat.2001.a.tt: "¡Comienza el juicio por combate!" #NT!
+  
+  #Defender/actor wins, defender/actor POV 
+ agot_trial_by_combat.3001.t: "$agot_trial_by_combat.0000.t$: ¡Victoria!" #NT!
+ agot_trial_by_combat.3001.desc.intro: "¡[actor.GetFaith.PantheonTerm|U] me sonrió de buena gana ayer!" #NT!
+ agot_trial_by_combat.3001.desc.both_fighting: "Cuando bajo mi arma, [recipient.GetName] cae. ¡Me quedo allí jadeando antes de darme cuenta de que he ganado! ¡Los dioses me han perdonado y han demostrado que siempre tuve razón!" #NT!
+ agot_trial_by_combat.3001.desc.actor_own_champion: "Cuando bajo mi arma, [recipient_champion.GetName] cae. Me quedo allí jadeando por un momento y luego miro hacia arriba y le sonrío a [recipient.GetName] antes de irme." #NT!
+ agot_trial_by_combat.3001.desc.recipient_own_champion: "¡Como [actor_champion.GetName] mata a [recipient.GetName], estoy justificado ante los ojos de los Hombres y los Dioses!" #NT!
+ agot_trial_by_combat.3001.desc.both_champion: "¡Como [actor_champion.GetName] mata a [recipient_champion.GetName], estoy justificado ante los ojos de los Hombres y los Dioses! Y, al salir, le sonrío a [recipient.GetName]." #NT!
+ agot_trial_by_combat.3001.desc.outro: "\n\nAyer planteamos nuestra disputa ante [actor.GetFaith.PantheonTerm] y [actor.GetFaith.PantheonTerm] respondió sabiamente." #NT!
+ agot_trial_by_combat.3001.a: "La justicia ha sido servida." #NT!
+  
+  #Defender/actor wins, accuser/recipient POV 
+ agot_trial_by_combat.3002.t: "$agot_trial_by_combat.0000.t$: ¡Derrota!" #NT!
+ agot_trial_by_combat.3002.desc.intro: "[recipient.GetFaith.PantheonTerm|U] no me sonrió ayer." #NT!
+ agot_trial_by_combat.3002.desc.actor_own_champion: "Mientras el despreciable [actor.GetName] atraviesa [recipient_champion.GetName], suspiro. ¿Por qué los dioses me han abandonado? Mirando hacia abajo, [actor.GetName] me sonríe ampliamente y hace una reverencia burlona antes de irse." #NT!
+ agot_trial_by_combat.3002.desc.both_champion: "Como campeón del despreciable [actor.GetName], [actor_champion.GetName] se abre paso a través de [recipient_champion.GetName]. Suspiro. ¿Por qué los dioses me han abandonado? \n\nMirando a [actor.GetName], [actor.GetSheHe] sonríe y hace una reverencia burlona antes de irse." #NT!
+ agot_trial_by_combat.3002.desc.outro: "\n\nAyer planteamos nuestra disputa ante [actor.GetFaith.PantheonTerm] y los dioses se han puesto de mi lado. ¿Qué ha hecho mi casa para ganarse su disgusto?" #NT!
+ agot_trial_by_combat.3002.a: "Pah, aquí no hubo justicia." #NT!
+  
+  #Accuser wins/recipient , accuser/recipient  POV 
+ agot_trial_by_combat.3003.t: "$agot_trial_by_combat.0000.t$: ¡Victoria!" #NT!
+ agot_trial_by_combat.3003.desc.intro: "¡[recipient.GetFaith.PantheonTerm|U] me sonrió de buena gana ayer!" #NT!
+ agot_trial_by_combat.3003.desc.both_fighting: "Cuando bajo mi arma, [actor.GetName] cae. ¡Me quedo allí jadeando antes de darme cuenta de que he ganado! ¡Los dioses me han perdonado y han demostrado que siempre tuve razón!" #NT!
+ agot_trial_by_combat.3003.desc.actor_own_champion: "¡Como [recipient_champion.GetName] mata a [actor.GetName], estoy justificado ante los ojos de los Hombres y los Dioses!" #NT!
+ agot_trial_by_combat.3003.desc.recipient_own_champion: "Cuando bajo mi arma, [actor_champion.GetName] cae. Me quedo ahí jadeando, miro hacia arriba y le sonrío a [actor.GetName] antes de irme." #NT!
+ agot_trial_by_combat.3003.desc.both_champion: "Mientras [recipient_champion.GetName] mata a [actor_champion.GetName], yo me mantengo en pie, reivindicado ante los ojos de los hombres y los dioses. Y, al marcharme, le sonrío a [actor.GetName]." #NT!
+ agot_trial_by_combat.3003.desc.outro: "\n\nAyer planteamos nuestra disputa ante [actor.GetFaith.PantheonTerm] y [actor.GetFaith.PantheonTerm] respondió sabiamente." #NT!
+ agot_trial_by_combat.3003.a: "La justicia ha sido servida." #NT!
+  
+  #Accuser wins/recipient , defender/actor POV 
+ agot_trial_by_combat.3004.t: "$agot_trial_by_combat.0000.t$: ¡Derrota!" #NT!
+ agot_trial_by_combat.3004.desc.intro: "¿Cómo se llegó a esto? Fui antes de [actor.GetFaith.PantheonTerm] para buscar #EMP justicia#!" #NT!
+ agot_trial_by_combat.3004.desc.recipient_own_champion: "Mientras [recipient.GetSheHe] da un golpe final y mi campeón, [actor_champion.GetName], cae, el maldito [recipient.GetName] se levanta y me sonríe." #NT!
+ agot_trial_by_combat.3004.desc.both_champion: "Mientras [recipient_champion.GetName] da un golpe final y mi campeón, [actor_champion.GetName], cae, el maldito [recipient.GetName] se levanta y me sonríe." #NT!
+ agot_trial_by_combat.3004.desc.outro: "\n\nAhora todo el mundo considera que nuestros problemas están resueltos y que se ha impartido justicia." #NT!
+ agot_trial_by_combat.3004.a: "Pah, aquí no hubo justicia." #NT!
+  
+ agot_trial_by_combat.9000.t: "Prueba por combate" #NT!
+ agot_trial_by_combat.9000.desc: "Me llevan encadenado desde la prisión al lugar donde tendrá lugar mi juicio por combate. Sin embargo, en lugar de un campo de batalla, encuentro dos piras; uno con mi campeón [actor_champion.GetTitledFirstName] ya vinculado a él.\n\n\"He elegido el fuego como mi campeón hoy\", [recipient.GetTitledFirstName] se ríe locamente." #NT!
+ agot_trial_by_combat.9000.desc.self_champion: "Me llevan encadenado desde la prisión al lugar donde tendrá lugar mi juicio por combate. Sin embargo, en lugar de un campo de batalla, encuentro una pira lista y los guardias comienzan a arrastrarme hacia ella.\n\n\"Hoy he elegido el fuego como mi campeón\", [recipient.GetTitledFirstName] se ríe locamente." #NT!
+ agot_trial_by_combat.9000.a: "Oh." #NT!
+  
+ agot_trial_by_combat.9001.t: "Juicio por combate" #NT!
+ agot_trial_by_combat.9001.desc: "Cuando llega [actor_champion.GetTitledFirstName], estoy listo. Hago que mis guardias tomen a [actor_champion.GetHerHim] y aten a [actor_champion.GetHerHim] a una de las dos piras que había preparado, y luego envíen a buscar a [actor.GetTitledFirstName].\n\n La expresión del rostro de [actor.GetHerHis] cuando [actor.GetSheHe] se da cuenta es gloriosa.\n\n\ "Hoy he elegido al fuego como mi campeón", digo. \"Ahora comencemos.\"" #NT!
+ agot_trial_by_combat.9001.desc.self_champion: "Tan pronto como la pira esté lista, mando a buscar a [actor.GetTitledFirstName].\n\n La expresión del rostro de [actor.GetHerHis] cuando [actor.GetSheHe] se da cuenta es gloriosa.\n\n\"He elegido el fuego como mi campeón hoy", digo . \"Ahora comencemos.\"" #NT!
+ agot_trial_by_combat.9001.a: "Es hermoso." #NT!
+ agot_trial_by_combat.9001.tt: "El campeón [actor.GetTitledFirstName] y [actor.GetHerHis], [actor_champion.GetTitledFirstName], ambos mueren." #NT!
+ agot_trial_by_combat.9001.tt.self_champion: "[actor.GetTitledFirstName] muere." #NT!
+  
+ lost_trial_by_combat_opinion: "Prueba perdida por combate" #NT!
+ denied_trial_by_combat_opinion: "Me negaron juicio por combate" #NT!

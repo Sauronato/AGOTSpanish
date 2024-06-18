@@ -21,6 +21,7 @@
  impart_values_interaction_desc: "Intento de inculcar en [recipient.GetShortUINameNoTooltip] una lección de vida."
   
  legitimize_bastard_liege_interaction: "Solicitud para legitimar bastardo"
+ legitimize_bastard_liege_interaction_extra_icon: "$hook_extra_icon$" #NT!
  legitimize_bastard_liege_interaction_desc: "Solicita que el monarca reinante legitime a tu bastardo."
  recipient_secondary_legitimize_bastard_liege_interaction: "Bastardo"
   
@@ -33,8 +34,18 @@
  recall_wanderer_interaction: "Recordar vagabundo"
  recall_wanderer_interaction_desc: "Lleva a casa a tu miembro rebelde de la casa"
   
+ demand_trial_by_combat_interaction: "Exigir un juicio por combate" #NT!
+ demand_trial_by_combat_interaction_desc: "Exige un juicio por combate para demostrar tu inocencia ante los ojos de los dioses y los hombres." #NT!
+ demand_trial_by_combat_duel: "Ambos tendrán la oportunidad de elegir campeones que lucharán en su nombre para demostrar o refutar la culpabilidad de [actor.GetHerHis]." #NT!
+  
  sent_to_silent_sisterhood_interaction: "Enviar a Hermandad Silenciosa"
  sent_to_silent_sisterhood_interaction_desc: "Envía a [recipient.GetShortUINameNoTooltip] para que haga votos de silencio y se una a la hermandad."
   
  reveal_royal_bastardry_interaction: "Revelar la bastardia real"
  reveal_royal_bastardry_interaction_desc: "Considerarás si debes revelar la herencia de [recipient.GetShortUINameNoTooltip]."
+  
+ agot_char_interaction.0200.opening: "[actor.Custom2('AppropriateGreeting', recipient )]" #NT!
+ agot_char_interaction.0200.opening: "[actor.Custom2('AppropriateGreetingPositive', recipient )]" #NT!
+ agot_char_interaction.0200.desc: "Por la presente lo obligo a enviar a [secondary_recipient.GetName] a mi tribunal de inmediato para que quede bajo la tutela de [secondary_actor.GetName]." #NT!
+ agot_char_interaction.0200.a: "Veo." #NT!
+ agot_char_interaction.0200.tt: "[actor.GetName] ha usado su anzuelo contigo." #NT!

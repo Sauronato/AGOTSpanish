@@ -1,0 +1,98 @@
+﻿l_spanish:
+ game_concept_royal_court: "Corte real" #NT!
+ game_concept_royal_courts: "Cortes reales" #NT!
+ game_concept_royal_court_desc: "Los distinguidos [rulers|E] son lo suficientemente famosos como para mantener una Corte Real, lo que les da acceso a una variedad de bonificaciones y oportunidades.\n\nCuando un [GetGovernment( 'feudal_government' ).GetName], [GetGovernment( 'clan_government' ).GetName] o [GetGovernment( 'tribal_government' ).GetName] [ruler|E] se convierte en [king|E] o [emperor|E], obtienen acceso a su Corte Real.\n\nCada Corte Real tiene un [court_grandeur_level|E], que otorga beneficios según la fama de la Corte Real y cuál es el [court_type|E] de la Corte Real.\n\nLos peticionarios, [vassals|E] y [GetGovernment( 'feudal_government' ).GetName]0 pueden presentarse en tu Corte Real, o puedes [GetGovernment( 'feudal_government' ).GetName]1 invitar a cualquier persona en el [GetGovernment( 'feudal_government' ).GetName]2 a expresar sus quejas.\n\nUna Corte Real también permite que el Gobernante muestre [GetGovernment( 'feudal_government' ).GetName]3, y [GetGovernment( 'feudal_government' ).GetName]4 [GetGovernment( 'feudal_government' ).GetName]5 puede aparecer en la Corte Real, ofreciendo crea un nuevo [GetGovernment( 'feudal_government' ).GetName]6.\n\nCuando mueras, tu [GetGovernment( 'feudal_government' ).GetName]7 heredará tu Corte Real." #NT!
+ game_concept_court_grandeur_level: "Nivel de grandeza de la corte" #NT!
+ game_concept_court_grandeur_levels: "Niveles de grandeza de la corte" #NT!
+ game_concept_grandeur_level: "Nivel de grandeza" #NT!
+ game_concept_grandeur_levels: "Niveles de grandeza" #NT!
+ game_concept_court_grandeur_level_desc: "El nivel de grandeza de un [royal_court|E] otorga bonificaciones a su propietario y se desbloquea a medida que aumenta el [court_grandeur_value|E] de la Corte.\n\nAdemás de los efectos de cada nivel, se espera que los [realms|E] grandes hayan alcanzado niveles de grandeza más altos. Esto se conoce como [court_grandeur_expectations|E]." #NT!
+ game_concept_court_grandeur: "Grandeza de la corte" #NT!
+ game_concept_grandeur: "Grandeza" #NT!
+ game_concept_court_grandeur_value: "Valor de grandeza de la corte" #NT!
+ game_concept_court_grandeur_desc: "El $game_concept_court_grandeur_value$ de un [royal_court|E] muestra cuán famosa es la cancha y desbloquea nuevos [court_grandeur_levels|E] a medida que aumenta.\n\nEl valor oscila entre 0 y 100 y, con el tiempo, se estabilizará en su valor inicial. La línea de base se ve afectada por cosas como [dynasty_perks|E], cuánto estás gastando en [court_amenities|E] y si tienes algún magnífico [court_artifacts|E].\n\nUna parte de Grandeur se pierde en [succession|E]." #NT!
+ game_concept_court_amenities: "Servicios de la corte" #NT!
+ game_concept_court_amenity: "Servicios de la corte" #NT!
+ game_concept_amenities: "Comodidades" #NT!
+ game_concept_court_amenities_desc: "$game_concept_court_amenities$ son los estándares de vida establecidos en el [royal_court|E].\n\nEstos están establecidos por el [ruler|E] del [royal_court|E], y cada categoría (moda, comida, alojamiento y sirvientes) tiene varios niveles. Gastar más en tus Servicios normalmente produce más [court_grandeur_value|E].\n\nLos gobernantes con [GetGovernment( 'tribal_government' ).GetName] no pueden elegir Servicios más altos." #NT!
+ game_concept_court_grandeur_expectations: "Expectativas de grandeza de la corte" #NT!
+ game_concept_court_grandeur_expectation: "Expectativa de grandeza de la corte" #NT!
+ game_concept_grandeur_expectations: "Expectativas de grandeza" #NT!
+ game_concept_court_grandeur_expectations_desc: "Se espera que tengas un [court_grandeur_level|E] lo suficientemente alto en comparación con tu [realm_size|E].\n\nA medida que tu [realm|E] se hace más grande, tus súbditos y el mundo en general esperan que tu [royal_court|E] sea igualmente grandioso.\n\nSi no cumples con las expectativas, se aplicarán varias penalizaciones. Por otro lado, si superas las expectativas, obtendrás varias bonificaciones.\n\nLas expectativas de los gobernantes [GetGovernment( 'tribal_government' ).GetName] son siempre las mismas que su grandeza actual." #NT!
+ game_concept_hold_court: "$activity_hold_court$" #NT!
+ game_concept_holding_court: "Tribunal de celebración" #NT!
+ game_concept_hold_court_desc: "Un [activity|E] donde [vassals|E] y [courtiers|E] en un [realm|E] se reúnen en un [royal_court|E] para presentar una petición a su [liege|E] y expresar sus quejas.\n\nLas situaciones sobre las que Lieja tendrá que emitir un juicio pueden variar desde pequeñas disputas y malentendidos hasta reinos. -grandes catástrofes. La mayoría de los problemas tendrán una solución beneficiosa: si no para las partes involucradas, al menos para el señor." #NT!
+ game_concept_court_type: "Tipo de cancha" #NT!
+ game_concept_court_types: "Tipos de Tribunales" #NT!
+ game_concept_court_type_desc: "Como parte de su [royal_court|E], [rulers|E] puede tener un $game_concept_court_type$ designado.\n\nCada $game_concept_court_type$ proporciona al Gobernante y al [court|E] su propio conjunto de bonificaciones, dependiendo de [court_grandeur_level|E].\n\nEl [ethos|E] de un El [culture|E] del gobernante decide qué tipos de cancha pueden tener.\n\nLos diferentes tipos de cancha son:\n$BULLET_WITH_TAB$[GetCourtType('court_diplomatic').GetName]\n$BULLET_WITH_TAB$[rulers|E]1\n$BULLET_WITH_TAB$[rulers|E]3\n$BULLET_WITH_TAB$[rulers|E]5\n$BULLET_WITH_TAB$[rulers|E]7 \n$BULLET_WITH_TAB$[rulers|E]9" #NT!
+  
+ game_concept_court_type_trait: "Rasgo de tipo de corte" #NT!
+ game_concept_court_type_trait_desc: "Después de servir [EmptyScope.ScriptValue('years_to_gain_court_type_trait')|0] años en un [royal_court|E], un [courtier|E] recibe un [trait|E] que refleja el [court_type|E] de esa corte.\n\nLa calidad de este rasgo se decide por cuánto tiempo el [character|E] ha servido como cortesano en la corte." #NT!
+  
+  #AGOT Modified 
+ #game_concept_court_language: "Idioma de la corte" #NT!
+ #game_concept_court_languages: "Idiomas de la corte" #NT!
+ #game_concept_court_language_desc: "Un idioma de la corte es el [language|E] oficial de un [royal_court|E], hablado por la nobleza y utilizado por la burocracia.\n\nLa línea base del [court_grandeur|E] aumenta para cada [realm|E] [county|E] que comparte el idioma, para cada corte real que habla el mismo Idioma del Tribunal, y si es el Idioma nativo del [ruler|E]." #NT!
+ game_concept_court_language: "Lengua de la corte" #NT!
+ game_concept_court_languages: "Lenguas de la corte" #NT!
+ game_concept_court_language_desc: "Una lengua de la corte es el [language|E] oficial de un [royal_court|E], hablado por la nobleza y utilizado por la burocracia.\n\nLa línea base de [court_grandeur|E] aumenta por cada [realm|E] [county|E] que comparte la lengua, por cada corte real que habla la misma Lengua de la Corte, y si es la Lengua nativa del [ruler|E]." #NT!
+  
+ game_concept_inspiration: "Inspiración" #NT!
+ game_concept_inspirations: "Inspiraciones" #NT!
+ game_concept_inspired: "Inspirado" #NT!
+ game_concept_inspiration_desc: "Los [characters|E] inspirados son hábiles artesanos con un [project|E] que podría hacerse realidad si te conviertes en su [sponsor|E].\n\nPuedes usar el Artefacto de Comisión [decision|E] para contratar a dicho personaje, con el fin de crear un [artifact|E].[SelectLocalization( HasDlcFeature( 'royal_court' ), 'game_concept_inspiration_desc_DLC', '' )]\n \nCuando se completa su Proyecto, el Patrocinador se queda con el resultado, normalmente un Artefacto." #NT!
+ game_concept_inspiration_desc_DLC: "\n\nAdemás, los personajes inspirados aparecen periódicamente en [royal_courts|E], especialmente aquellos con un alto [court_grandeur_level|E]." #NT!
+ game_concept_sponsor: "Patrocinador" #NT!
+ game_concept_sponsor_desc: "Un Patrocinador es [ruler|E] que financia el [project|E] de un [inspired|E] [character|E]." #NT!
+  
+ game_concept_artifact: "Artefacto" #NT!
+ game_concept_artifacts: "Artefactos" #NT!
+ game_concept_artifact_desc: "Un Artefacto es un objeto digno de mención que proporciona bonificaciones al [character|E] que lo usa.\n\n[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'game_concept_artifact_desc_DLC', 'game_concept_artifact_desc_NO_DLC' )]\n\nAlgunos Artefactos son más especiales que otros y tienen un [rarity|E] mayor\n\nAl igual que con [titles|E], Personajes pueden obtener [artifact_claims|E] en un Artefacto e intentar tomar ese Artefacto para ellos mismos.\n\nLos Artefactos también tienen un [durability|E]: cuando llega a cero, el Artefacto se destruye.\n\nLos Artefactos siempre son heredados por el [player_heir|E] del propietario. Si un Artefacto es heredado por alguien que no es [close_family_member|E], perderá [durability|E] o incluso será destruido por completo." #NT!
+ game_concept_artifact_desc_NO_DLC: "Dado que los artefactos se usan o se llevan consigo, también se les conoce como [inventory_artifacts|E]." #NT!
+ game_concept_artifact_desc_DLC: "Los artefactos se dividen en dos categorías:\n$BULLET_WITH_TAB$[inventory_artifacts|E] son usados ​​o transportados por un personaje\n$BULLET_WITH_TAB$[court_artifacts|E] residen dentro del [royal_court|E] de un [ruler|E]" #NT!
+ game_concept_court_artifact: "Artefacto de la corte" #NT!
+ game_concept_court_artifacts: "Artefactos de la corte" #NT!
+ game_concept_court_artifact_desc: "Un artefacto de la corte es un [artifact|E] que se exhibe en el [royal_court|E] de un [ruler|E], como tapices o libros bellamente ilustrados.\n\nLos artefactos de la corte son un factor que determina el [court_grandeur|E] de una corte real.\n\nNo hay Hay un límite en la cantidad de artefactos que puede tener un personaje, pero solo aquellos que se muestran en un espacio de su tipo tienen algún efecto.\n\nPuedes crear nuevos artefactos de la corte desde [inspired|E] [characters|E], desde la Decisión de artefacto de la Comisión o eligiendo § _6 y [inventory_artifact|E]" #NT!
+ game_concept_inventory_artifact: "Artefacto de inventario" #NT!
+ game_concept_inventory_artifacts: "Artefactos de inventario" #NT!
+ game_concept_inventory_artifact_desc: "Los artefactos de inventario son [artifacts|E] que un [character|E] usa o lleva consigo, como un arma o una corona.\n\nNo hay límite en cuanto a cuántos artefactos puede tener un personaje, pero solo aquellos equipados en un espacio de su tipo tiene cualquier efecto.\n\nPuedes crear nuevos artefactos de inventario desde [inspired|E] [characters|E], o desde la Decisión de artefacto de la Comisión." #NT!
+ game_concept_project: "Proyecto" #NT!
+ game_concept_project_desc: "Un proyecto es algo que un [inspired|E] [character|E] emprende con la ayuda de un [sponsor|E] para hacer realidad su visión, normalmente en forma de creación de un [artifact|E]." #NT!
+ game_concept_artifact_durability: "Durabilidad del artefacto" #NT!
+ game_concept_durability: "Durabilidad" #NT!
+ game_concept_artifact_durability_desc: "Cada [artifact|E] tiene una Durabilidad. Cuando se pierde toda la Durabilidad, el Artefacto se destruye.\n\nLa Durabilidad disminuye con el tiempo, pero también se puede perder en ciertos eventos, como [sieges|E] y [succession|E].\n\nLa Durabilidad se puede restaurar eligiendo [reforge|E] o [repair|E] el Artefacto." #NT!
+ game_concept_artifact_claim: "Reclamación de artefactos" #NT!
+ game_concept_artifact_claims: "Reclamaciones de artefactos" #NT!
+ game_concept_artifact_claim_desc: "Un $game_concept_artifact_claim$ representa los derechos legales de alguien sobre un [artifact|E].\n\nTener un reclamo sobre un [artifact|E] significa que puedes tomar varias acciones hacia ese artefacto y su propietario, si no lo posees actualmente (por ejemplo, usando el [artifact|E]). _3 [scheme|E]).\n\nHay [personal_artifact_claims|E] para [character|E] y [house_artifact_claims|E] para [houses|E].\n\nLas reclamaciones de artefactos son más simples que las de [title_claims|E]; O existen o no existen. Tampoco se heredan más allá de la primera generación." #NT!
+ game_concept_personal_artifact_claim: "Reclamación de artefactos personales" #NT!
+ game_concept_personal_artifact_claims: "Reclamaciones de artefactos personales" #NT!
+ game_concept_personal_artifact_claim_desc: "Un $game_concept_personal_artifact_claim$ es un [artifact_claim|E] que es personal para ti, a diferencia de un [house_artifact_claim|E].\n\nCuando mueres, tus hijos obtienen Reclamaciones sobre todos tus Artefactos.\n\nTambién obtienes un Reclamo sobre un Artefacto si es robado. durante un [siege|E] o [raid|E].\n\nLos reclamos de artefactos nunca se heredan." #NT!
+ game_concept_house_artifact_claim: "Reclamación de artefactos de la casa" #NT!
+ game_concept_house_artifact_claims: "Reclamaciones sobre artefactos de la casa" #NT!
+ game_concept_house_artifact_claim_desc: "Si mantienes un [artifact|E] durante el tiempo suficiente, todo tu [house|E] obtendrá un [artifact_claim|E]: un $game_concept_house_artifact_claim$.\n\nSolo puedes actuar sobre un $game_concept_house_artifact_claim$ si el Artefacto no está en manos de un miembro de tu casa. \n\nCuando se forma un [cadet_branch|E], cualquier Reclamación de la Casa existente sobre Artefactos en poder de los miembros de la nueva Casa se transfiere a la nueva Casa." #NT!
+  
+ game_concept_court_position: "Posición en la corte" #NT!
+ game_concept_court_positions: "Posiciones en la corte" #NT!
+ game_concept_court_position_desc: "$game_concept_court_positions$ son roles especializados que [courtiers|E] y [vassals|E] se pueden otorgar para ayudar a su [liege|E].\n\nLos beneficios que obtienes de un $game_concept_court_positions$ están dictados por el [aptitude|E] del titular para el puesto.\n\nReparto de $game_concept_court_positions$ es gratis, pero hay que pagar un salario mensual en [gold|E], y revocarlos cuesta [prestige|E]." #NT!
+  
+ game_concept_aptitude: "Aptitud" #NT!
+ game_concept_aptitude_desc: "El $game_concept_aptitude$ de un [character|E] determina qué tan eficientes son en varios roles en [court|E]. Dichos roles incluyen [court_positions|E], [diarchs|E] y [tax_collectors|E].\n\n$game_concept_aptitude$ se mide en 5 niveles, que van desde Terrible hasta Excelente. El nivel $game_concept_aptitude$ de un personaje decide las bonificaciones que obtiene el [liege|E] por emplearlo en un rol en [court|E].\n\nPor ejemplo, un personaje que es [character|E]0 naturalmente estará mejor equipado para servir como [character|E]1." #NT!
+  
+ game_concept_court_event: "Evento de la corte" #NT!
+ game_concept_court_events: "Eventos de la corte" #NT!
+ game_concept_court_event_desc: "Un $game_concept_court_event$ es un evento que involucra a los miembros de tu [court|E], son visibles en el [royal_court|E]." #NT!
+ game_concept_petition_liege: "Petición" #NT!
+ game_concept_petition_liege_desc: "Una oportunidad para que [vassals|E] solicite ayuda de su [liege|E].\n\nSe pueden plantear una variedad de cuestiones y depende de [liege|E] decidir si la acepta." #NT!
+ game_concept_pay_homage: "Homenaje" #NT!
+ game_concept_pay_homage_desc: "Un [activity|E] donde [vassals|E] puede mostrar formalmente su lealtad a su [liege|E].\n\nEl homenaje se puede rendir de varias maneras y puede otorgar [opinion|E], [prestige|E] y [dynasty_prestige|E] a ambas partes." #NT!
+  
+ repair_or_reforge_and_repair: "[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'repair_and_reforge', 'just_repair' )]" #NT!
+ repair_and_reforge: "[reforge|E] o [repair|E]" #NT!
+ just_repair: "[repair|E]" #NT!
+ game_concept_reforge_artifact: "Artefacto de reforja" #NT!
+ game_concept_reforge: "Reforjar" #NT!
+ game_concept_reforge_artifact_desc: "Algunos [inventory_artifacts|E] se pueden reforjar, convirtiéndolos en [court_artifacts|E].\n\nNecesitas tener un [GetCourtPositionType('antiquarian_court_position').GetName()] y pagar [gold|E] para reforjar un [artifact|E], aunque los artefactos más antiguos son más baratos de reforjar.\n\nAl igual que cuando reforjas un [repair|E] con un [artifact|E], se restaura su [durability|E].\n\nSolo se pueden reforjar armas, armaduras, coronas e insignias, y siempre se convierten en objetos de pedestal." #NT!
+ game_concept_repair_artifact: "Reparar artefacto" #NT!
+ game_concept_repair: "Reparar" #NT!
+ game_concept_repair_artifact_desc: "Cuando un [artifact|E] tiene un [durability|E] bajo, puedes elegir repararlo.\n\nNecesitas tener un [GetCourtPositionType('antiquarian_court_position').GetName()] y pagar [gold|E] para reparar un artefacto.[SelectLocalization( HasDlcFeature( 'court_artifacts' ), 'game_concept_repair_artifact_desc_DLC', '' )]" #NT!
+ game_concept_repair_artifact_desc_DLC: "\n\nComo alternativa, puedes elegir [reforge|E] el artefacto." #NT!

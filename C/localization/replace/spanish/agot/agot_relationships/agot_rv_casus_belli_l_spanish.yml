@@ -1,0 +1,95 @@
+﻿l_spanish:
+  
+  ### Declare Private War 
+ rv_declare_private_war_interaction: "Declarar guerra privada" #NT!
+ rv_liege_warning: "El [liege|E] del defensor se unirá a la guerra." #NT!
+  ### Rescue CB 
+ RESCUE_WAR_NAME: "Cautivos libres" #NT!
+ CB_RESCUE_COST: "Número de cautivos objetivo" #NT!
+ CB_RESCUE_CRIMINAL_COST: "Número de delincuentes atacados" #NT!
+ rv_release_effect: "• [Scope.GetCharacter.GetShortUIName|U] quedará libre" #NT!
+ rv_other_effect: "• Tus aliados comparten [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|+0] según su contribución \n• [Scope.GetCharacter.GetImprisonedBy.GetUIName|U]:\n • Los aliados comparten [prestige_i][EmptyScope.ScriptValue('medium_prestige_value')|V0] según su contribución\n • Aumenta [Scope.GetCharacter.GetImprisonedBy.GetHerHis] la opinión de [Scope.GetCharacter.GetImprisonedBy.GetHerHis] aliados según su contribución" #NT!
+ rescue_war_victory_desc: "Liberas todos los [prisoners|E] seleccionados en la mazmorra [defender.GetShortUINamePossessive]." #NT!
+ rescue_war_victory_desc_defender: "[attacker.GetShortUIName|U] gratis todos los [prisoners|E] enumerados en tu mazmorra." #NT!
+ rv_failed_rescue: "Rescate fallido" #NT!
+ rv_rescue_war_invalidated_desc: "¡Guerra para liberar al cautivo invalidada!" #NT!
+ rv_rescue_war_white_peace_desc: "No se libera ningún [prisoner|E]." #NT!
+ rv_rescue_war_defeat_desc: "$rv_rescue_war_white_peace_desc$" #NT!
+ rv_failed_rescue_desc_1: "No pude rescatar a [rescue_target_dead.GetName] que fue asesinado por [rescue_target_killer.GetName]" #NT!
+ rv_failed_rescue_desc_second_perspective_1: "[owner.GetName] no pudo rescatar a [rescue_target_dead.GetName], quien fue asesinado por [rescue_target_killer.GetName]" #NT!
+ rv_failed_rescue_desc_third_perspective_1: "[owner.GetName] no pudo rescatar a [rescue_target_dead.GetName], quien fue asesinado por [rescue_target_killer.GetName]" #NT!
+ RV_IS_CRIMINAL: "Este personaje es [imprisoned|E] para su [crime|E]. Rescatarlos generará costos adicionales de [prestige|E] y los empujará a usted y a su prisionero a convertirse en [rivals|E]." #NT!
+  
+  ### Rescue_Opinions 
+ rv_rescued_me: "Me rescató" #NT!
+ rv_rescued_family: "Rescatado [family_member|E]" #NT!
+ rv_rescued_former_spouse: "Me rescató de [concubinage|E] como ex [spouse|E]" #NT!
+ rv_rescued_close_relation: "Relación cercana rescatada" #NT!
+ rv_rescued_very_close: "Rescatado [best_friend|E] o [soulmate|E]" #NT!
+ rv_rescued_rival: "Rescatado [rival|E]" #NT!
+ rv_rescued_nemesis: "Rescatado [nemesis|E]" #NT!
+ rv_attempt_free_my_criminal: "Intentó rescatar a un [criminal|E]" #NT!
+ rv_attempted_rescuing_me: "Intentó rescatarme" #NT!
+ rv_attempted_rescuing_family: "Intento de rescate [family_member|E]" #NT!
+ rv_attempted_rescuing_close_relation: "Intentó rescatar a una relación cercana" #NT!
+ rv_attempted_rescuing_very_close: "Intento de rescate [best_friend|E] o [soulmate|E]" #NT!
+ rv_attempted_rescuing_rival: "Intento de rescate [rival|E]" #NT!
+ rv_attempted_rescuing_nemesis: "Intento de rescate [nemesis|E]" #NT!
+ rv_avenged_family: "Vengado [family_member|E]" #NT!
+ rv_avenged_close_relation: "Relación cercana vengada" #NT!
+ rv_avenged_very_close: "Vengado [best_friend|E] o [soulmate|E]" #NT!
+  
+  ### Revenge CB 
+ REVENGE_WAR_NAME: "Guerra de venganza" #NT!
+ rv_revenge_war: "Guerra de venganza" #NT!
+ CB_REVENGE_COST: "Víctimas a vengar" #NT!
+ REVENGE_LABEL: "Víctimas a vengar" #NT!
+ rv_no_revenge_target_trigger: "Rv_no_revenge_target" #NT!
+ rv_no_revenge_target: "No hay nadie a quien vengar" #NT!
+ revenge_war_victory_desc: "Te vengas de [defender.GetShortUINamePossessive] crímenes contra tus seres queridos." #NT!
+ revenge_war_victory_desc_defender: "[attacker.GetShortUIName|U] se venga de tus crímenes contra las personas cercanas a [attacker.GetHerHim]." #NT!
+ rv_revenge_war_white_peace_desc: "Los crímenes cometidos por [defender.GetShortUIName|U] no fueron vengados." #NT!
+ rv_revenge_war_defeat_desc: "Los crímenes cometidos por [defender.GetShortUIName|U] no fueron vengados. [attacker.GetShortUIName|U] pagará reparaciones de guerra, [attacker.GetShortUIName|U] perderá [prestige_i][EmptyScope.ScriptValue('major_prestige_value')|-0], [defender.GetShortUIName|U] ganará un [imprisonment_reason|E] sobre [attacker.GetShortUIName|U]." #NT!
+ rv_revenge_war_invalidated_desc: "¡Guerra de venganza invalidada!" #NT!
+  
+  # Successfule revenge memory 
+ rv_successful_revenged_lover: "Venganza exitosa" #NT!
+ rv_revenged_lover_desc_1: "Exigí venganza por la muerte de mi amante [target_revenged.GetName] quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_lover_desc_second_perspective_1: "Exigiste venganza por la muerte de tu amante [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_lover_desc_third_perspective_1: "[owner.GetName] exigió venganza por la muerte del amante de [owner.GetHerHis] [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+  
+ rv_successful_revenged_soulmate: "Venganza exitosa" #NT!
+ rv_revenged_soulmate_desc_1: "Exigí venganza por la muerte de mi alma gemela [target_revenged.GetName], quien fue asesinada por [target_killer.GetName]" #NT!
+ rv_revenged_soulmate_desc_second_perspective_1: "Exigiste venganza por la muerte de tu alma gemela [target_revenged.GetName], quien fue asesinada por [target_killer.GetName]" #NT!
+ rv_revenged_soulmate_desc_third_perspective_1: "[owner.GetName] exigió venganza por la muerte de [owner.GetHerHis] alma gemela [target_revenged.GetName] que fue asesinada por [target_killer.GetName]" #NT!
+  
+ rv_successful_revenged_friend: "Venganza exitosa" #NT!
+ rv_revenged_friend_desc_1: "Exigí venganza por la muerte de mi amigo [target_revenged.GetName] que fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_friend_desc_second_perspective_1: "Exigiste venganza por la muerte de tu amigo [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_friend_desc_third_perspective_1: "[owner.GetName] exigió venganza por la muerte de [owner.GetHerHis] amigo [target_revenged.GetName] que fue asesinado por [target_killer.GetName]" #NT!
+  
+ rv_successful_revenged_best_friend: "Venganza exitosa" #NT!
+ rv_revenged_best_friend_desc_1: "Exigí venganza por la muerte de mi mejor amigo [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_best_friend_desc_second_perspective_1: "Exigiste venganza por la muerte de tu mejor amigo [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_best_friend_desc_third_perspective_1: "[owner.GetName] exigió venganza por la muerte del mejor amigo de [owner.GetHerHis] [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+  
+ rv_successful_revenged_spouse: "Venganza exitosa" #NT!
+ rv_revenged_spouse_desc_1: "Exigí venganza por la muerte de mi cónyuge [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_spouse_desc_second_perspective_1: "Usted exigió venganza por la muerte de su cónyuge [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_spouse_desc_third_perspective_1: "[owner.GetName] exigió venganza por la muerte de [owner.GetHerHis] cónyuge [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+  
+ rv_successful_revenged_family: "Venganza exitosa" #NT!
+ rv_revenged_family_desc_1: "Exigí venganza por la muerte de mi familiar [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_family_desc_second_perspective_1: "Exigiste venganza por la muerte de tu familiar [target_revenged.GetName], quien fue asesinado por [target_killer.GetName]" #NT!
+ rv_revenged_family_desc_third_perspective_1: "[owner.GetName] exigió venganza por la muerte de [owner.GetHerHis] miembro de la familia [target_revenged.GetName] que fue asesinado por [target_killer.GetName]" #NT!
+  
+ rv_was_revenged: "Fue vengado" #NT!
+ rv_was_revenged_desc_1: "Mi muerte causada por [target_killer.GetName] fue vengada por [target_revenger.GetName] (Postmortem)" #NT!
+ rv_was_revenged_desc_second_perspective_1: "Tu muerte causada por [target_killer.GetName] fue vengada por [target_revenger.GetName] (Postmortem)" #NT!
+ rv_was_revenged_desc_third_perspective_1: "La muerte de [owner.GetName] causada por [target_killer.GetName] fue vengada por [target_revenger.GetName] (Postmortem)" #NT!
+  
+ #Failed Revenge Story 
+ rv_failed_revenge_desc_1: "No pude vengarme de [target_killer.GetName]." #NT!
+ rv_failed_revenge_desc_second_perspective_1: "No lograste vengarte de [target_killer.GetName]." #NT!
+ rv_failed_revenge_desc_third_perspective_1: "[owner.GetName] no logró vengarse de [target_killer.GetName]." #NT!
+ rv_failed_revenge: "Venganza fallida" #NT!

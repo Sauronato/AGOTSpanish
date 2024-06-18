@@ -30,6 +30,7 @@
  unlock_late_medieval_fortification_buildings: "Desbloquea todos los [fortification_buildings|E] de la Baja Edad Media"
  unlocks_naval_raiding: "Desbloquea la capacidad de realizar [Concept( 'raid', 'asaltos' )|E] en otras costas, si ya puedes [Concept( 'raid', 'asaltar' )|E]"
  unlocks_sailable_major_rivers: "Desbloquea la capacidad de navegar por ríos grandes"
+ unlock_wind_furnaces: "Desbloquea la línea $building_type_wind_furnace_01$ de [buildings|E] en la costa [holdings|E] en [GetGeographicalRegion('world_india').GetName]" #NT!
   
  unlock_march_contract: "Desbloquea el [feudal_contract|E] #high $special_contract_march_short$#!"
  unlock_scutage_contract: "Desbloquea el [feudal_contract|E] #high $special_contract_scutage_short$#!"
@@ -209,11 +210,7 @@
  innovation_men-at-arms: "Hombres de armas"
  innovation_men-at-arms_desc: "Siempre hacen falta soldados hábiles con la lanza y el caballo, pero no siempre los hay disponibles. Si mantenemos grupos de hombres de armas a nuestro servicio, no nos faltarán guerreros experimentados cuando estalle la guerra."
   
-  #AGOT Modified 
- #innovation_knighthood: "Caballero"
  innovation_knighthood: "Maestro de Armas"
-  #AGOT Modified 
- #innovation_knighthood_desc: "Otorgando el título de caballero a nuestros mejores luchadores y pagándoles con tierras en lugar de con meras monedas, podemos darles el honor que se merecen, así como asegurar su lealtad hacia nosotros."
  innovation_knighthood_desc: "Es deber del maestro de armas instruir a los engendros del señor en las brutales artes del combate. Asegurándonos de que cada bodega emplea a un hombre de reputación marcial, podemos transmitir estas habilidades a nuestra casta superior."
   
  innovation_advanced_bowmaking: "Arcos avanzados"
@@ -229,6 +226,9 @@
  innovation_windmills: "Molinos de viento"
  innovation_windmills_desc: "La invención del molino de viento vertical permite aprovechar la fuerza del viento con mucha más eficacia que antes y se reducirá enormemente el esfuerzo necesario para moler grano y procesar materiales crudos."
   
+  #CK3AGOT Modified 
+ #innovation_divine_right: "Derecho divino" #NT!
+ #innovation_divine_right_desc: "Es hora de que reconozcamos que es la voluntad divina la que ha colocado a nuestros gobernantes en sus tronos, y oponernos a ellos es oponernos a la divinidad misma." #NT!
  innovation_divine_right: "Derecho divino"
  innovation_divine_right_desc: "Es hora de reconocer que la voluntad divina ha puesto a nuestros gobernantes en el trono y que oponerse a ellos es oponerse a la mismísima divinidad."
   
@@ -308,6 +308,9 @@
  innovation_court_officials: "Funcionarios de la corte"
  innovation_court_officials_desc: "Nuestro país se ha expandido hasta tal punto que ni los nobles menores pueden administrar todo de manera efectiva. Nombrar funcionarios y burócratas de la corte para que se encarguen de las tareas más mundanas de la corte garantizará que los engranajes del gobierno sigan girando sin problemas. "
   
+  #CK3AGOT MODIFIED 
+ #innovation_development_04: "Pensamiento renacentista" #NT!
+ #innovation_development_04_desc: "Los avances en ciencia, filosofía y lógica han convertido a nuestras ciudades en maravillosos centros de educación e innovación. Los enormes avances tecnológicos y culturales que estamos dando ahora han puesto a nuestro alcance un potencial hasta ahora insospechado." #NT!
  innovation_development_04: "Pensamiento renacentista"
  innovation_development_04_desc: "Los avances en ciencia, filosofía y lógica han convertido nuestras ciudades en maravillosos centros de educación e innovación. Los enormes saltos tecnológicos y culturales que estamos viendo ahora han puesto a nuestro alcance un potencial hasta ahora inimaginable."
   
@@ -326,3 +329,11 @@
  innovation_deccan_unity_desc: "El influjo de nuevas creencias y religiones en nuestra sociedad ha dejado claro que fue un error centrarnos en el regionalismo anteriormente. Debemos sumarnos a otros de nuestra fe y garantizar un estado fuerte y duradero que pueda resistir las presiones externas."
   
  students_of_knighthood: "Los niños que terminan su [education|E] con un [education_focus|E] [martial|E] ganan el [trait|E] de $trait_education_martial_prowess$"
+  
+  # Sponsor Research Related 
+ fp3_innovation_mural_sextant: "Sextante mural" #NT!
+ fp3_innovation_mural_sextant_desc: "Estos grandes instrumentos murales se pueden utilizar para leer y medir con precisión la posición de los objetos celestes." #NT!
+  
+ fp3_innovation_fritware: "Fritware" #NT!
+ fp3_innovation_fritware_desc: "Hermosa cerámica de piedra a imagen de la porcelana oriental, mezclando materiales como el cuarzo o el vidrio. Son mercancías valiosas o regalos impresionantes." #NT!
+ fp3_innovation_fritware_tooltip: "[opinion|E] Ganancia de [send_gift|E]: #P +20%#!" #NT!

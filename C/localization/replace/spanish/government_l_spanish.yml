@@ -1,0 +1,409 @@
+﻿l_spanish:
+ feudal_government: "Feudal" #NT!
+ feudal_government_adjective: "Feudal" #NT!
+ feudal_government_realm: "Reino Feudal" #NT!
+ feudal_government_vassals_label: "Los [obligations|E] feudales se basan en el [feudal_contract|E] de cada [vassal|E]" #NT!
+  #AGOT Modified 
+ #feudal_government_desc: "$game_concept_feudal_desc$\n\n#F El feudalismo fue la forma de gobierno dominante en Europa entre los siglos IX y XV. El sistema feudal se basa en la relación entre el terrateniente y quienes le proporcionan servicios y trabajo para vivir allí. Los gobernantes que poseen la tierra nombran vasallos a quienes se les dan feudos para gobernar. A cambio, los vasallos proporcionan a su señor feudal [soldiers|E] y [taxes|E].#!" #NT!
+ feudal_government_desc: "$game_concept_feudal_desc$\n\n#F El sistema feudal se basa en la relación entre el terrateniente y quienes prestan servicios y trabajo para poder vivir allí. Los gobernantes que poseen la tierra nombran vasallos a los que se les asignan feudos para gobernar. A cambio, los vasallos proporcionan a su señor [soldiers|E] y [taxes|E].#!" #NT!
+ feudal_government_obligations: "[GetGovernment( 'feudal_government' ).GetName] [obligations|E]" #NT!
+ feudal_obligation_low: "Bajo $feudal_government_obligations$" #NT!
+ feudal_obligation_low_short: "Bajo" #NT!
+ feudal_obligation_normal: "Normal $feudal_government_obligations$" #NT!
+ feudal_obligation_normal_short: "Normal" #NT!
+ feudal_obligation_high: "Alto $feudal_government_obligations$" #NT!
+ feudal_obligation_high_short: "Alto" #NT!
+ can_wage_wars: "Puede hacer guerras" #NT!
+ wage_war_realm_law: "Guerras según la ley del reino" #NT!
+ wage_war_realm_law_short: "Reino" #NT!
+ wage_war_allowed_internal: "Guerras internas permitidas" #NT!
+ wage_war_allowed_internal_short: "Interno" #NT!
+ wage_war_allowed_external: "Guerras externas permitidas" #NT!
+ wage_war_allowed_external_short: "Externo" #NT!
+ wage_war_disallowed: "Guerras vasallas rechazadas" #NT!
+ wage_war_disallowed_short: "No permitido" #NT!
+ scutage: "Escena" #NT!
+ scutage_enabled_short: "Activado" #NT!
+ scutage_enabled: "$scutage$ $scutage_enabled_short$" #NT!
+ scutage_disabled_short: "Desactivado" #NT!
+ scutage_disabled: "$scutage$ $scutage_disabled_short$" #NT!
+ scutage_levies_overwrite_postfix: "#weak (sobrescribe)#!" #NT!
+ feudal_government_taxes: "[GetGovernment( 'feudal_government' ).GetNameNoTooltip] [taxes|U]" #NT!
+ feudal_tax_exempt: "[tax|E] Exento" #NT!
+ feudal_tax_exempt_short: "Eximir" #NT!
+ feudal_tax_low: "Bajo $game_concept_taxes$" #NT!
+ feudal_tax_low_short: "Bajo" #NT!
+ feudal_tax_normal: "Normal $game_concept_taxes$" #NT!
+ feudal_tax_normal_short: "Normal" #NT!
+ feudal_tax_high: "Alto $game_concept_taxes$" #NT!
+ feudal_tax_high_short: "Alto" #NT!
+ feudal_tax_extortionate: "Extorsionador $game_concept_taxes$" #NT!
+ feudal_tax_extortionate_short: "Exorbitante" #NT!
+ feudal_government_levies: "[GetGovernment( 'feudal_government' ).GetNameNoTooltip] [levies|U]" #NT!
+ feudal_levies_exempt: "Sin contribución" #NT!
+ feudal_levies_exempt_short: "Ninguno" #NT!
+ feudal_levies_low: "Contribución baja $game_concept_levy$" #NT!
+ feudal_levies_low_short: "Bajo" #NT!
+ feudal_levies_normal: "Contribución normal $game_concept_levy$" #NT!
+ feudal_levies_normal_short: "Normal" #NT!
+ feudal_levies_high: "Contribución alta $game_concept_levy$" #NT!
+ feudal_levies_high_short: "Alto" #NT!
+ feudal_levies_extortionate: "Contribución masiva $game_concept_levy$" #NT!
+ feudal_levies_extortionate_short: "Masivo" #NT!
+  
+ special_contract: "#color_black [Concept( 'feudal_contract', 'Special Contract' )|BU]#!" #NT!
+ special_contract_none: "Sin contrato especial" #NT!
+ special_contract_scutage: "Contrato de montaje" #NT!
+ special_contract_scutage_desc: "#flavor Mientras esté sujeto a un $special_contract_scutage$, el [vassal|E] pagará #high [EmptyScope.ScriptValue('scutage_contract_tax_tooltip')|0]%#! más [tax|E] de lo que dicta su $feudal_government_taxes$ [obligation|E], mientras que al mismo tiempo proporcionará #high $special_contract_scutage$0%#! menos $special_contract_scutage$2 que lo que dicta su $special_contract_scutage$3 [obligation|E].#!" #NT!
+ special_contract_march: "Contrato de marzo" #NT!
+ special_contract_march_desc: "#flavor Mientras estén sujetos a un $special_contract_march$, los [vassal|E] recibirán bonificaciones a sus [levies] capacidades defensivas, pero proporcionarán #high [EmptyScope.ScriptValue('march_contract_taxes_tooltip')|0]%#! menos [tax|E] de lo que dicta su $feudal_government_taxes$ [obligation|E].#!" #NT!
+ special_contract_palatinate: "Contrato Palatinado" #NT!
+ special_contract_palatinate_desc: "#flavor Aunque está sujeto a un $special_contract_palatinate$, el [vassal|E] disfruta de muchos privilegios dentro del reino, lo que aumenta su posición y les da más influencia política. $special_contract_palatinate_short$ [vassals|E] aumentan sus [liege|E] [prestige|E] pero proporcionan #high [EmptyScope.ScriptValue('palatinate_contract_taxes_tooltip')|0]%#! menos $special_contract_palatinate$0 y $special_contract_palatinate$1 de lo que dictan sus $special_contract_palatinate$2 y $special_contract_palatinate$3 $special_contract_palatinate$4.#!" #NT!
+ special_contract_none_short: "Ninguno" #NT!
+ special_contract_scutage_short: "Escena" #NT!
+ special_contract_march_short: "Marzo" #NT!
+ special_contract_palatinate_short: "Palatinado" #NT!
+  
+ religious_rights: "Derechos religiosos" #NT!
+ religious_rights_none: "Religiosamente desprotegidos" #NT!
+ religious_rights_none_short: "Desprotegido" #NT!
+ religious_rights_protected: "Protegido religiosamente" #NT!
+ religious_rights_protected_desc: "#emphasis #bold [vassal|E] Privilegios:#!#!\nThe [liege|E] no puede usar el [demand_conversion|E] del [vassal|E]\nEl [liege|E] no puede usar el [convert_county|E] en las tierras del [vassals|E]'\nEl [liege|E] no puede usar el #bold1 como razón para evitar el #bold2 al revocar titles\n\n#bold3 Al [vassal|E] se le concede un estatus de protección especial, y el reino reconoce oficialmente su derecho a practicar su propio #bold1.#bold6" #NT!
+ religious_rights_protected_short: "Protegido" #NT!
+  
+ fortification_rights: "Derechos de fortificación" #NT!
+ fortification_rights_none: "No $fortification_rights$" #NT!
+ fortification_rights_none_short: "Ninguno" #NT!
+ fortification_rights_granted: "$fortification_rights$ Concedido" #NT!
+ fortification_rights_granted_desc: "#flavor Se concede al [vassal] el derecho a construir nuevos castillos y fortificaciones con el apoyo de su [liege]. Este apoyo, en la práctica, significa que el [vassal] paga #high [EmptyScope.ScriptValue('fortification_rights_contract_taxes_tooltip')|0]%#! menos [tax] de lo que le dicta su $feudal_government_taxes$ [obligation].#!" #NT!
+ fortification_rights_granted_short: "Otorgada" #NT!
+  
+ succession_rights: "Derechos de sucesión" #NT!
+ succession_rights_default: "Predeterminado $succession_rights$" #NT!
+ succession_rights_default_short: "Por defecto" #NT!
+ succession_rights_forced_partition: "Partición forzada" #NT!
+ succession_rights_forced_partition_desc: "#emphasis #bold [vassal|E] Restricciones:#!#!\nThe [vassal|E] no puede tener ningún [succession_law|E] más allá de la Partición\nEl [vassal|E] cambia su [succession_law|E] a la Partición\nEl [vassal|E] paga #high #bold0%#bold1 más #bold2 para cambiar #bold3\n \n#bold4 El [vassal|E] está obligado a no tener nunca otra forma de sucesión que no sea la Partición para su #bold6. El obstáculo administrativo que supone esto también aumenta los costes de #bold7 #bold8 en #high #bold0%.#bold1#bold1" #NT!
+ succession_rights_forced_partition_short: "Partición forzada" #NT!
+  
+ coinage_rights: "Derechos de acuñación" #NT!
+ coinage_rights_none: "No $coinage_rights$" #NT!
+ coinage_rights_none_short: "Ninguno" #NT!
+ coinage_rights_granted: "$coinage_rights$ Concedido" #NT!
+ coinage_rights_granted_desc: "#flavor Se concede al [vassal] el derecho de acuñar y utilizar nuevas monedas, reforzando su [development|E] a expensas de la de su [liege].#!" #NT!
+ coinage_rights_granted_short: "Otorgada" #NT!
+  
+ war_declaration_rights: "Declaración de guerra" #NT!
+ war_declaration_rights_default: "Predeterminado $war_declaration_rights$" #NT!
+ war_declaration_rights_default_short: "Por defecto" #NT!
+ war_declaration_rights_allowed: "Sancionado $war_declaration_rights$" #NT!
+ war_declaration_rights_allowed_desc: "#emphasis #bold [vassal|E] Privilegios:#!#!\nThe [vassal|E] puede declarar [war|E] independientemente de los [liege|E]'s [crown_authority|E]\nEl [vassal|E] paga #high #bold0%#bold1 menos por #bold2 dentro del #bold3\n\n#bold4 El #bold5 no tiene que gastar #bold6 si su #bold7 #bold8 les impide hacer la guerra. Este tratamiento especial también facilita que el #bold5 declare guerras dentro del #bold3, reduciendo el coste en #high #bold0%#bold1.#bold1" #NT!
+ war_declaration_rights_allowed_short: "Sancionada" #NT!
+  
+ council_rights: "Derechos del consejo" #NT!
+ council_rights_none: "No $council_rights$" #NT!
+ council_rights_none_desc: "#flavor Al [vassal] no se le concede ningún privilegio fuera de lo común en lo que respecta al [council].#!" #NT!
+ council_rights_none_short: "Ninguno" #NT!
+ council_rights_guaranteed: "$council_rights$ Garantizado" #NT!
+ council_rights_guaranteed_desc: "#emphasis #bold [vassal|E] Privilegio:#!#!\nThe #high $force_onto_council$#! [interaction|E] se puede utilizar a voluntad\n\n#flavor Al [vassal] se le otorgan privilegios especiales de #bold0 y esperará un asiento permanente en el #bold0. Otorgar este privilegio a demasiados #bold2 eventualmente alterará el #bold3 del #bold4.#!" #NT!
+ council_rights_guaranteed_short: "Garantizado" #NT!
+  
+ title_revocation_rights: "Revocación del Título" #NT!
+ title_revocation_rights_default: "Predeterminado $title_revocation_rights$" #NT!
+ title_revocation_rights_default_short: "Por defecto" #NT!
+ title_revocation_rights_protected: "Protegido $title_revocation_rights$" #NT!
+ title_revocation_rights_protected_desc: "#emphasis #bold [vassal|E] Privilegio:#!#!\nThe [liege|E] no puede revocar el [vassals_possessive|E] [titles|E]\n\n#flavor El [vassal] tiene garantizada la propiedad de sus [titles], impidiendo que el [liege|E] los revoque, independientemente de que el [liege|E] tenga a #bold2 o no.#bold3" #NT!
+ title_revocation_rights_protected_short: "Protegido" #NT!
+  
+ clan_government: "Clan" #NT!
+ clan_government_adjective: "Clan" #NT!
+ clan_government_realm: "Clan" #NT!
+ clan_government_desc: "$game_concept_clan_desc$\n\n#F El clan está unido por parentesco, ya sea por sangre o por una relación compartida con un antepasado simbólico. El líder de un clan depende en gran medida del apoyo del clan. Unidos, son una fuerza a tener en cuenta, pero un clan descontento se marchita desde dentro.#!" #NT!
+ clan_government_vassals_label: "El clan [obligations|E] se basa en [opinion|E]" #NT!
+ clan_government_obligations: "Desde [opinion|E]" #NT!
+ clan_government_tax_contribution_postfix: "(máx [FixedPointToProgressbarValue(EmptyScope.ScriptValue('clan_government_tax_max_possible'))|1V])" #NT!
+ clan_government_levies_contribution_postfix: "(máx [FixedPointToProgressbarValue(EmptyScope.ScriptValue('clan_government_levies_max_possible'))|1V])" #NT!
+ clan_government_unclamped_contribution_label: "Basado en [opinion|E] de mí" #NT!
+ clan_government_min_contribution_label: "[crown_authority|E] mínimo" #NT!
+  
+ republic_government: "República" #NT!
+ republic_government_adjective: "República" #NT!
+ republic_government_realm: "República" #NT!
+ republic_government_desc: "$game_concept_republic_desc$\n\n#F Las ciudades están gobernadas por los ciudadanos privilegiados de la clase burguesa, entre los cuales uno es elegido alcalde. Si bien el alcalde tiene una influencia significativa, depende de la popularidad para ser reelegido.#!" #NT!
+ republic_government_vassals_label: "República [obligations|E] son iguales para todos los republicanos [vassals|E]" #NT!
+ republic_government_obligations: "República [obligations|E]" #NT!
+ republican_vassals_pay_more_parameter: "Desde [liege|E] [culture_traditions|E]" #NT!
+  
+ tribal_government: "Tribal" #NT!
+ tribal_government_adjective: "Tribal" #NT!
+ tribal_government_realm: "Tribu" #NT!
+ tribal_government_desc: "$game_concept_tribal_desc$\n\n#F En la tribu, la fuerza lo es todo. Un líder tribal depende del respeto y el renombre más que del dinero para desarrollar su reino y reforzar sus ejércitos.#!" #NT!
+  
+ tribal_government_obligations: "Desde [liege|E] [prestige_level|E]" #NT!
+ tribal_government_vassals_label: "Los [obligations|E] tribales se basan en [prestige_level|E] de [liege|E]" #NT!
+ tribal_liege_inefficiency_plus_perk: "[liege|E] es [tribal|E] y tiene [GetPerk( 'detailed_ledgers_perk' ).GetName( GetPlayer )]" #NT!
+ tribal_liege_inefficiency: "[liege|E] es [tribal|E]" #NT!
+ has_detailed_ledgers_perk: "[liege|E] tiene [GetPerk( 'detailed_ledgers_perk' ).GetName( GetPlayer )]" #NT!
+  
+ theocracy_government: "Teocracia" #NT!
+ theocracy_government_adjective: "Teocrático" #NT!
+ theocracy_government_realm: "Teocracia" #NT!
+ theocracy_government_desc: "$game_concept_theocracy_desc$\n\n#F En un gobierno teocrático, toda autoridad pertenece a una institución religiosa. Está gobernado por un sacerdote o sacerdotisa que lleva a cabo la voluntad divina en la Tierra.#!" #NT!
+ theocracy_government_vassals_label: "Los [obligations|E] teocráticos se basan en [piety_level|E] de [liege|E]" #NT!
+ theocracy_government_obligations: "Teocrático [obligations|E]" #NT!
+ theocracy_government_vassal_contribution_wrong_faith: "@warning_icon! #X [liege|E] es incorrecto [faith|E]#!" #NT!
+ theocracy_government_vassal_contribution_piety_level: "[liege|E] es [GetPietyLevelName(liege.GetPietyLevel)|L]" #NT!
+  
+ holy_order_government: "Orden sagrada" #NT!
+ holy_order_government_desc: "Los santos guerreros de las órdenes han dedicado su vida a luchar contra los infieles y servir a su fe. Pueden poseer castillos que les hayan regalado terratenientes piadosos. El líder de la orden se elige dentro de los rangos de la orden." #NT!
+ holy_order_government_adjective: "Santa Orden" #NT!
+ holy_order_government_realm: "Santa Orden" #NT!
+  
+ mercenary_government: "Compañía Mercenaria" #NT!
+ mercenary_government_realm: "Compañía Mercenaria" #NT!
+ mercenary_government_desc: "Compañías de mercenarios deambulan por las tierras en busca de empleo y toman las armas para el mejor postor. La lealtad es esencial para una buena reputación, pero sólo dura hasta el final del contrato. El líder mercenario se elige entre las filas de la empresa." #NT!
+ mercenary_government_adjective: "Compañía Mercenaria" #NT!
+  
+ create_cadet_branches_trigger: "Creación de [cadet_branches|E]" #NT!
+ create_cadet_branches_rule: "Crear [cadet_branches|E]" #NT!
+ GOVERNMENT_RULE_INFO: "$EFFECT_LIST_BULLET$ Puede $RULE|V$" #NT!
+ GOVERNMENT_HOLDING_INFO: "$EFFECT_LIST_BULLET$ Puede contener [HOLDING_TYPE.GetName|V] [holdings|E]" #NT!
+ GOVERNMENT_CLAN_NOT_ALLIED: "No [alliance|E] como Clan [vassal|E]" #NT!
+ GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL: "No [alliance|E] como Clan poderoso [vassal|E]" #NT!
+ government_can_raid_rule: "[government|E] permite el [raiding|E] de [counties|E] extranjero para [raid_loot|E]" #NT!
+ government_is_feudal: "El tipo [government|E] es [GetGovernment( 'feudal_government' ).GetName]" #NT!
+ government_is_republic: "El tipo [government|E] es [GetGovernment( 'republic_government' ).GetName]" #NT!
+ government_is_theocracy: "El tipo [government|E] es [GetGovernment( 'theocracy_government' ).GetName]" #NT!
+ government_is_clan: "El tipo [government|E] es [GetGovernment( 'clan_government' ).GetName]" #NT!
+ government_is_tribal: "El tipo [government|E] es [GetGovernment( 'tribal_government' ).GetName]" #NT!
+ government_is_mercenary: "El tipo [government|E] es [GetGovernment( 'mercenary_government' ).GetName]" #NT!
+ government_is_holy_order: "El tipo [government|E] es [GetGovernment( 'holy_order_government' ).GetName]" #NT!
+ may_appoint_viziers: "Puede nombrar [viziers|E]" #NT!
+  
+ SUPPLY_MULT_DIFERENT_GOVERNMENT: "[GOVERNMENT_TYPE.GetAdjective] Tierras" #NT!
+  
+ CONTRACT_LIEGE_SIGNATURE: "La Lieja,\n[VassalContract.GetLiege.GetTitledFirstNameNoTooltip]\nde la Casa [VassalContract.GetLiege.GetHouse.GetBaseNameNoTooltip]" #NT!
+ CONTRACT_VASSAL_SIGNATURE: "El Vasallo,\n[VassalContract.GetVassal.GetTitledFirstNameNoTooltip]\nde la Casa [VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip]" #NT!
+  
+ marriage_favor_rights: "Favor de matrimonio" #NT!
+ marriage_favor_rights_default: "Predeterminado $marriage_favor_rights$" #NT!
+ marriage_favor_rights_default_short: "Por defecto" #NT!
+ marriage_favor_rights_granted: "Concedido $marriage_favor_rights$" #NT!
+ marriage_favor_rights_granted_desc: "#emphasis #bold [vassal|E] Privilegio:#!#!\nThe [liege|E] se comprometen a casarse con su familia cercana para sellar una alianza, antes de casarlos con cualquier otra persona.\n\n#flavor El [vassal|E] está entre los favoritos del [liege|E], y debería poder sellar una alianza a través del matrimonio.#!" #NT!
+ marriage_favor_rights_granted_short: "Otorgada" #NT!
+  
+ antagonistic: "Antagonista" #NT!
+ antagonistic_desc: "Pocas cosas pueden estimular a las personas como las rivalidades o los celos. Será mejor que te cuides las espaldas en esta casa, o es posible que encuentres a alguien intentando clavarle un cuchillo." #NT!
+ competitive: "Competitivo" #NT!
+ competitive_desc: "La competencia en la familia puede ser algo saludable. Impulsa a los miembros de la casa a superarse entre sí, ya sea en el campo de batalla o en un intento por asegurarse el trono..." #NT!
+ impassive: "Impasivo" #NT!
+ impassive_desc: "¿Por qué gastar tiempo y energía en preocuparse por lo que está haciendo el resto de la familia? Estos miembros de la casa tienden a cuidar de sí mismos ante todo." #NT!
+ friendly: "Amigable" #NT!
+ friendly_desc: "Quizás no siempre estén de acuerdo, pero los miembros de esta casa siempre mantienen una relación amistosa." #NT!
+ harmonious: "Armonioso" #NT!
+ harmonious_desc: "Una casa en perfecta armonía. Los miembros de esta casa hacen lo que pueden para mantenerse unidos y ayudarse mutuamente en todo momento." #NT!
+ antagonistic_house_approves_war_victory: "Todos [attacker.GetShortUINamePossessive] [house|E] [vassals|E] ganan #P 10#! [opinion|E] de [attacker.GetShortUIName] durante #V 10 años#! #weak (Impresionados por la victoria ofensiva)#!" #NT!
+ antagonistic_house_approves_war_victory_defensive: "Todos [defender.GetShortUINamePossessive] [house|E] [vassals|E] ganan #P 15#! [opinion|E] de [defender.GetShortUIName] durante #V 10 años#! #weak (Impresionado por la victoria defensiva)#!" #NT!
+ antagonistic_house_disapproves_war_white_peace: "Todos [attacker.GetShortUINamePossessive] [house|E] [vassals|E] pierden #N 10#! [opinion|E] de [attacker.GetShortUIName] durante #V 10 años#! #weak (Encuentra débil la paz blanca)#!" #NT!
+ antagonistic_house_disapproves_war_white_peace_defender: "Todos [defender.GetShortUINamePossessive] [house|E] [vassals|E] pierden #N 10#! [opinion|E] de [defender.GetShortUIName] durante #V 10 años#! #weak (Encuentra débil la paz blanca)#!" #NT!
+ antagonistic_house_disapproves_war_defeat: "Todos [attacker.GetShortUINamePossessive] [house|E] [vassals|E] pierden #N 20#! [opinion|E] de [attacker.GetShortUIName] por #V 10 años#! #weak (Avergonzado por la derrota)#!" #NT!
+ antagonistic_house_disapproves_war_defeat_defender: "Todos [defender.GetShortUINamePossessive] [house|E] [vassals|E] pierden #N 20#! [opinion|E] de [defender.GetShortUIName] por #V 10 años#! #weak (Avergonzado por la derrota)#!" #NT!
+  
+ house_unity_parameter_unity_antagonistic_cb_cost: "[casus_belli|E] Costo: @war_icon!#P [EmptyScope.ScriptValue('unity_antagonistic_cb_cost_display_value')|0]%#!" #NT!
+ house_unity_parameter_unity_competitive_cb_cost: "[casus_belli|E] Costo: @war_icon!#P [EmptyScope.ScriptValue('unity_competitive_cb_cost_display_value')|0]%#!" #NT!
+ house_unity_parameter_unity_friendly_cb_cost: "[casus_belli|E] Costo: @war_icon!#N +[EmptyScope.ScriptValue('unity_friendly_cb_cost_display_value')|0]%#!" #NT!
+ house_unity_parameter_unity_harmonious_cb_cost: "[casus_belli|E] Costo: @war_icon!#N +[EmptyScope.ScriptValue('unity_harmonious_cb_cost_display_value')|0]%#!" #NT!
+ house_unity_parameter_unity_less_likely_factions: "[house|E] [vassals|E] son #P menos propensos#! a crear [factions|E]" #NT!
+ house_unity_parameter_unity_significantly_less_likely_factions: "[house|E] [vassals|E] son #P significativamente menos propensos#! a crear [factions|E]" #NT!
+ CB_UNITY_COST: "Tu [house_unity|E]" #NT!
+ house_unity_parameter_unity_multiple_invasions: "[rulers|E] puede usar #high Invasión#! [casus_belli|E] una vez cada [EmptyScope.ScriptValue('unity_antagonistic_invasion_cooldown_value')|V0]#! años" #NT!
+ house_unity_parameter_unity_unlimited_invasions: "[rulers|E] tiene acceso ilimitado a la #high Invasión#! [casus_belli|E]" #NT!
+ house_unity_parameter_unity_lower_prestige_requirements: "Todos los [casus_bellis|E] que requieren un [prestige_level|E] específico requieren uno menos" #NT!
+ house_unity_parameter_unity_war_opinion: "[victory|E], [white_peace|E] y [defeat|E] tienen varios efectos en [house|E] [vassal|E] [opinion|E]" #NT!
+ house_unity_parameter_unity_disable_invasions: "[rulers|E] no puede usar la #high Invasión#! [casus_belli|E]" #NT!
+ house_unity_parameter_unity_more_likely_claimant_factions: "[house|E] [vassals|E] tienen #N más probabilidades#! de crear [claimant_factions|E]" #NT!
+ house_unity_parameter_unity_significantly_more_likely_claimant_factions: "[house|E] [vassals|E] son #N significativamente más propensos#! a crear [claimant_factions|E]" #NT!
+ house_unity_parameter_vassal_house_members_more_upset_without_alliance: "La penalización 'No [alliance|E]' [opinion|E] es mayor para el mismo [house|E] [vassals|E]" #NT!
+ house_unity_parameter_unity_unlock_fabricate_hooks: "[house|E] miembros pueden usar [GetScheme('fabricate_hook').GetTypeName] [scheme|E] entre sí" #NT!
+ house_unity_parameter_unity_unlock_befriend_scheme: "[house|E] miembros pueden [GetScheme('befriend').GetTypeName] entre sí" #NT!
+ house_unity_parameter_unity_can_challenge_house_head: "Los miembros de [house|E] pueden desafiar a su [house_head|E] para ocupar su lugar." #NT!
+ house_unity_parameter_unity_can_create_cadet_branches: "[independent|E] [house|E] los miembros pueden crear [cadet_branches|E]" #NT!
+ house_unity_can_create_cadet_branches_tt: "[house_unity|E] es @dynasty_house_unity_antagonistic! $antagonistic$" #NT!
+  
+ house_unity_parameter_unity_succession_clan_antagonistic_partition_succession: "El [house_succession_law|E] es [GetLaw('clan_antagonistic_partition_succession_law').GetName]" #NT!
+ house_unity_parameter_unity_succession_clan_competitive_partition_succession: "El [house_succession_law|E] es [GetLaw('clan_competitive_partition_succession_law').GetName]" #NT!
+ house_unity_parameter_unity_succession_clan_impassive_partition_succession: "El [house_succession_law|E] es [GetLaw('clan_impassive_partition_succession_law').GetName]" #NT!
+ house_unity_parameter_unity_succession_clan_friendly_partition_succession: "El [house_succession_law|E] es [GetLaw('clan_friendly_partition_succession_law').GetName]" #NT!
+ house_unity_parameter_unity_succession_clan_harmonious_partition_succession: "El [house_succession_law|E] es [GetLaw('clan_harmonious_partition_succession_law').GetName]" #NT!
+  
+ house_unity_parameter_unity_has_liberate_house_members_cb: "Desbloquea [fp3_free_house_member_cb|E] [casus_belli|E]" #NT!
+ unity_has_liberate_house_members_cb_name: "[fp3_free_house_member_cb|E]" #NT!
+  
+ house_unity_parameter_unity_has_unify_house_cb: "Desbloquea [fp3_unify_house_cb|E] [casus_belli|E]" #NT!
+ unity_has_unify_house_cb_name: "[fp3_unify_house_cb|E]" #NT!
+  
+ HAS_HOUSE_UNITY_STAGE_GLOBAL: "[house_unity|E] es @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]" #NT!
+ I_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "¡Mi [house_unity|E] es @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]" #NT!
+ THEY_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "[house|E] [DYNASTY_HOUSE.GetBaseName|V] [house_unity|E] es ​​@dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]" #NT!
+ NOT_HAS_HOUSE_UNITY_STAGE_GLOBAL: "[house_unity|E] es #bold y no #! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]" #NT!
+ NOT_I_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "¡Mi [house_unity|E] es #bold, no#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]" #NT!
+ NOT_THEY_HAVE_HOUSE_UNITY_STAGE_GLOBAL: "[house|E] [DYNASTY_HOUSE.GetBaseName|V] [house_unity|E] es ​​#bold no#! @dynasty_house_unity_[HouseUnityStage.GetKey]! [HouseUnityStage.GetName|V]" #NT!
+  
+ active_unity_level_description_tt: "#weak Esto se debe a tu actividad [house_unity_level|E]#!" #NT!
+  
+ ADD_UNITY_VALUE_GLOBAL: "[house|E] [DynastyHouse.GetBaseName|V] [house_unity|E] cambios por $VALUE|=+0$ @dynasty_house_unity!" #NT!
+ AI_HOUSE_UNITY: "Tu [house_unity|E]: $VALUE|=+0$" #NT!
+  
+ unity_reinforce_army_decision: "Reforzar el ejército con oficiales leales" #NT!
+ unity_reinforce_army_decision_desc: "Un ejército es tan fuerte como los oficiales que lo dirigen. Al solicitar soldados expertos a los miembros de mi casa, obtengo acceso a soldados con mucha experiencia. Soldados que puedo promover a puestos de liderazgo dentro de mi ejército para reforzar la efectividad de las tropas. ¡Todos los miembros contribuyen a nuestra casa para el bien común y todos se benefician!" #NT!
+ unity_reinforce_army_decision_tooltip: "Solicita a los miembros de tu casa que te envíen oficiales capaces." #NT!
+ unity_reinforce_army_decision_confirm: "Envía los pedidos." #NT!
+  
+ unity_establish_network_decision: "Hacer cumplir la red de intriga" #NT!
+ unity_establish_network_decision_desc: "Los miembros de mi casa son cada uno de ellos astutos a su manera. Con mi liderazgo, podemos formar una red de intrigas para atrapar incluso a los forasteros más astutos." #NT!
+ unity_establish_network_decision_tooltip: "Reclute a los miembros de su casa para protegerse y ejecutar planes hostiles." #NT!
+ unity_establish_network_decision_confirm: "Enviar y quemar el edicto" #NT!
+  
+ unity_improve_taxation_decision: "Mejorar los impuestos" #NT!
+ unity_improve_taxation_decision_desc: "Mi casa tiene muchos miembros eficientes en la recaudación de impuestos y la gestión de un reino. Al compartir ideas y personas capaces, todos podemos beneficiarnos de mayores ingresos." #NT!
+ unity_improve_taxation_decision_tooltip: "Trabaja junto con los miembros de tu casa para mejorar los impuestos y los ingresos del reino." #NT!
+ unity_improve_taxation_decision_confirm: "Organicemos una reunión" #NT!
+  
+ unity_search_for_administrators_decision: "Búsqueda de recaudadores de impuestos" #NT!
+ unity_search_for_administrators_decision_desc: "Los impuestos son la columna vertebral de cualquier ámbito. Valdría la pena tomarse el tiempo para buscar administradores capacitados y ex soldados para emplearlos como recaudadores de impuestos." #NT!
+ unity_search_for_administrators_decision_tooltip: "Búsqueda de administradores y soldados competentes para fortalecer mis filas de recaudadores de impuestos." #NT!
+ unity_search_for_administrators_decision_confirm: "Ordenar la búsqueda" #NT!
+ search_administors_decision.tt: "Hasta tres [characters|E] de diversas habilidades se unirán a tu [court|E]" #NT!
+ unity_search_for_administrators_decision.msg.t: "El administrador ha llegado" #NT!
+ unity_search_for_administrators_decision.msg.desc: "Un nuevo administrador, llamado [new_administrator.GetName], llegó a su tribunal y está listo para trabajar." #NT!
+  
+ unity_send_bailiffs_decision: "Enviar alguaciles" #NT!
+ unity_send_bailiffs_decision_desc: "Puedo aprovechar la actitud cooperativa de los miembros de mi casa enviándoles mis alguaciles, exigiendo mis órdenes para mantener la paz en todo el reino." #NT!
+ unity_send_bailiffs_decision_tooltip: "Coopera con los miembros de tu casa para aumentar el control en todo el reino." #NT!
+ unity_send_bailiffs_decision_confirm: "Enviar por los alguaciles" #NT!
+  
+ unity_placate_vassals_decision: "Aplacar a los vasallos" #NT!
+ unity_placate_vassals_decision_desc: "Incluso un hogar armonioso enfrenta sus dificultades. Si ejerzo mi influencia como cabeza de familia, puedo suavizar esas arrugas sociales antes de que comiencen a formarse grietas." #NT!
+ unity_placate_vassals_decision_tooltip: "Recuerde a los miembros de su casa su autoridad como su señor." #NT!
+ unity_placate_vassals_decision_confirm: "Aplacar vasallos" #NT!
+  
+ unity_organize_house_for_war_decision: "Organizar a los miembros de la Cámara para la guerra" #NT!
+ unity_organize_house_for_war_decision_desc: "Mejorar un reino requiere dedicación y, en la mayoría de los casos, muchas conquistas. Al emitir edictos específicos y guiar a los miembros de nuestra casa, puedo lograr que estén más dispuestos a hacer la guerra y conquistar nuevas tierras." #NT!
+ unity_organize_house_for_war_decision_tooltip: "Guía a los miembros de tu casa para que hagan la guerra con mayor frecuencia." #NT!
+ unity_organize_house_for_war_decision_confirm: "¡Promueva la guerra y el conflicto!" #NT!
+  
+ unity_encourage_house_economy_decision: "Alentar a House a mejorar la economía" #NT!
+ unity_encourage_house_economy_decision_desc: "Un reino es tan capaz como la tierra sobre la que está construido. Debo asegurarme de que todos los miembros de la casa puedan gastar los fondos necesarios para construir un reino más fuerte." #NT!
+ unity_encourage_house_economy_decision_tooltip: "Guía a los miembros de tu casa para que se centren en la economía." #NT!
+ unity_encourage_house_economy_decision_confirm: "¡Fomentemos una economía más fuerte!" #NT!
+  
+ unity_promote_development_decision: "Promover el desarrollo" #NT!
+ unity_promote_development_decision_desc: "Nuestra cultura tiene una larga historia de excelentes habilidades administrativas. Hay muchos capataces y supervisores capacitados empleados en nuestra casa. Podemos usar esto a nuestro favor y desarrollar aún más el reino." #NT!
+ unity_promote_development_decision_tooltip: "Promocione a los miembros de su casa para desarrollar y mejorar el reino." #NT!
+ unity_promote_development_decision_confirm: "Promover el desarrollo" #NT!
+  
+ unity_improve_logistics_decision: "Exija logística militar compartida" #NT!
+ unity_improve_logistics_decision_desc: "Las guerras se deciden por multitud de factores diferentes. Una buena logística y suministros son tan importantes como tener soldados capaces. Puedo hacer cumplir nuevas políticas dentro de nuestra casa y exigir que todos compartan suministros y equipos, aumentando enormemente las capacidades del ejército." #NT!
+ unity_improve_logistics_decision_tooltip: "Exija a los miembros de su casa que compartan logística y suministros para satisfacer mejor las necesidades del ejército." #NT!
+ unity_improve_logistics_decision_confirm: "Demanda de logística compartida" #NT!
+  
+ unity_steer_house_direction_decision: "Unidad de la casa del timón" #NT!
+ unity_steer_house_direction_decision_desc: "Como jefe de casa, mi palabra tiene mucho peso entre los miembros de mi casa. Con palabras y acciones cuidadosas, puedo empujar a mis compañeros a comportarse de ciertas maneras, que afecten en gran medida nuestra unidad combinada." #NT!
+ unity_steer_house_direction_decision_confirm: "$unity_steer_house_direction_decision$" #NT!
+ unity_steer_house_direction_decision_tooltip: "Elige una dirección en la que dirigir tu [house_unity|E]" #NT!
+ unity_steer_house_direction_decision_second_tooltip: "$DESC$\n" #NT!
+ CHOOSE_UNITY_DIRECTION: "Elija dirección" #NT!
+ STEER_HOUSE_UNITY_SELECT_DIRECTION_TITLE: "Elija [unity|E] Dirección" #NT!
+ steer_unity_towards_harmonious_desc: "Usa tu posición como [house_head|E] y dirige tu [house_unity|E] hacia #V $harmonious$#!" #NT!
+ steer_unity_towards_harmonious_name: "Dirigir la casa hacia #V $harmonious$#!\n#low Aumenta [house_unity|E]#!" #NT!
+ steer_unity_towards_harmonious_tooltip: "$unity_steer_house_direction_decision_second_tooltip$" #NT!
+ steer_unity_towards_harmonious_tt: "#X Tu [house|E] ya tiene el #V $harmonious$#! [house_unity_level|E]#!" #NT!
+ steer_unity_towards_harmonious_passive_gain_tt: "[house_unity|E] #P aumenta#! anualmente durante los próximos #V 10#! años" #NT!
+ steer_unity_towards_harmonious_toast: "[ROOT.Char.GetShortUINameNoTooltip|U] dirigió [house_unity|E] hacia $harmonious$" #NT!
+ steer_unity_towards_antagonistic_desc: "Usa tu posición como [house_head|E] y dirige tu [house_unity|E] hacia #V $antagonistic$#!" #NT!
+ steer_unity_towards_antagonistic_name: "Dirigir la casa hacia #V $antagonistic$#!\n#low Disminuciones [house_unity|E]#!" #NT!
+ steer_unity_towards_antagonistic_tooltip: "$unity_steer_house_direction_decision_second_tooltip$" #NT!
+ steer_unity_towards_antagonistic_tt: "#X Tu [house|E] ya tiene el #V $antagonistic$#! [house_unity_level|E]#!" #NT!
+ steer_unity_towards_antagonistic_passive_loss_tt: "[house_unity|E] #N disminuye#! anualmente durante los próximos #V 10#! años" #NT!
+ steer_unity_towards_antagonistic_toast: "[ROOT.Char.GetShortUINameNoTooltip|U] dirigió [house_unity|E] hacia $antagonistic$" #NT!
+ steer_unity_notification_title: "[house_head|E] cambió [unity|E]" #NT!
+  
+ unity_consult_house_decision: "Consultar a los miembros de la Cámara" #NT!
+ unity_consult_house_decision_desc: "Un consejo unificado es aquel que puede actuar con rapidez y seguridad. Con sólo un poco de ida y vuelta, puedo asegurar que los miembros de mi casa sean más eficaces en sus funciones como concejales." #NT!
+ unity_consult_house_decision.tt_house_council_bonus: "El progreso base y el impacto de [skill|E] en [councillor_tasks|E] aumentan en #P +10%#! para [house|E] miembros que prestan servicio en tu [council|E]" #NT!
+ unity_consult_house_decision.tt_no_unity_change: "Asignar [house|E] miembros a tu [council|E] y despedirlos ya no afecta a [house_unity|E]" #NT!
+ unity_consult_house_decision.tt_lifetime: "Esto permanecerá activo hasta que tu personaje muera." #NT!
+ unity_consult_house_decision.tt_cooldown: "Ya has consultado a tus [house|E] miembros" #NT!
+ unity_consult_house_decision_tooltip: "Guíe a los miembros de su casa para que se conviertan en concejales más eficientes." #NT!
+ unity_consult_house_decision_confirm: "Consultar a los miembros de la casa." #NT!
+ unity_consulted_house_member_desc: "Miembro de la Cámara consultado" #NT!
+  
+ unity_establish_futuwaa_lodges_decision: "Establecer albergues Futuwaa" #NT!
+ unity_establish_futuwaa_lodges_decision_desc_intro: "El joven" #NT!
+ unity_establish_futuwaa_lodges_decision_desc_outro: "De [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip], al carecer de salidas adecuadas para sus energías, deambulan por la capital en bandas improvisadas. En su lugar, podría establecer logias #italic futuwaa#! en toda la capital para inculcar destreza marcial y moral en su tiempo libre." #NT!
+ unity_establish_futuwaa_lodges_decision.tt_intro: "Todos los jóvenes solteros" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_outro: "Los que viven en su [capital|E] tienen posibilidades de aumentar sus [martial|E] y [prowess|E] [skills|E], y de obtener un [virtuous|E] [trait|E], durante los próximos 20 años" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_people: "$unity_establish_futuwaa_lodges_decision.tt_intro$ $people$ $unity_establish_futuwaa_lodges_decision.tt_outro$" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_women: "$unity_establish_futuwaa_lodges_decision.tt_intro$ $women$ $unity_establish_futuwaa_lodges_decision.tt_outro$" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_men: "$unity_establish_futuwaa_lodges_decision.tt_intro$ $loc_men$ $unity_establish_futuwaa_lodges_decision.tt_outro$" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_num_intro: "Actualmente, #V [SCOPE.ScriptValue('number_of_futuwaa_members')]#!" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_num_outro: "En su capital se beneficiarían con esta decisión" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_num_people: "$unity_establish_futuwaa_lodges_decision.tt_num_intro$ jóvenes $unity_establish_futuwaa_lodges_decision.tt_num_outro$" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_num_women: "$unity_establish_futuwaa_lodges_decision.tt_num_intro$ mujeres jóvenes $unity_establish_futuwaa_lodges_decision.tt_num_outro$" #NT!
+ unity_establish_futuwaa_lodges_decision.tt_num_men: "$unity_establish_futuwaa_lodges_decision.tt_num_intro$ jóvenes $unity_establish_futuwaa_lodges_decision.tt_num_outro$" #NT!
+ unity_establish_futuwaa_lodges_decision_tooltip: "Fomenta las virtudes y las proezas en la juventud de tu capital." #NT!
+ unity_establish_futuwaa_lodges_decision_confirm: "Patrocinar las logias" #NT!
+  
+ unity_educate_youth_in_madrasas_decision.t_intro: "Educar a los jóvenes en" #NT!
+ unity_educate_youth_in_madrasas_decision.t_madrasas: "Madrasas" #NT!
+ unity_educate_youth_in_madrasas_decision.t_houses_of_worship: "[ROOT.Char.GetFaith.HouseOfWorshipPlural|U]" #NT!
+ unity_educate_youth_in_madrasas_decision_desc_intro: "La paz en el reino ha dejado a los jóvenes" #NT!
+ unity_educate_youth_in_madrasas_decision_desc_outro: "De [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip] inerte y sin rumbo. En lugar de eso, podría establecer escuelas en el [ROOT.Char.GetFaith.HouseOfWorshipPlural] para enseñar a estos jóvenes filosofía y medicina en su tiempo libre." #NT!
+ unity_educate_youth_in_madrasas_decision.tt_intro: "Todos jovenes" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_outro: "Los que viven en su [capital|E] tienen la posibilidad de aumentar su [learning|E] [skill|E] y ganar [GetTrait('lifestyle_physician').GetName(GetNullCharacter)] [experience|E] durante los próximos 20 años" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_people: "$unity_educate_youth_in_madrasas_decision.tt_intro$ $people$ $unity_educate_youth_in_madrasas_decision.tt_outro$" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_women: "$unity_educate_youth_in_madrasas_decision.tt_intro$ $women$ $unity_educate_youth_in_madrasas_decision.tt_outro$" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_men: "$unity_educate_youth_in_madrasas_decision.tt_intro$ $loc_men$ $unity_educate_youth_in_madrasas_decision.tt_outro$" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_num_intro: "Actualmente, #V [SCOPE.ScriptValue('number_of_madrasa_pupils')]#!" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_num_outro: "En su capital se beneficiarían con esta decisión" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_num_people: "$unity_educate_youth_in_madrasas_decision.tt_num_intro$ jóvenes $unity_educate_youth_in_madrasas_decision.tt_num_outro$" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_num_women: "$unity_educate_youth_in_madrasas_decision.tt_num_intro$ mujeres jóvenes $unity_educate_youth_in_madrasas_decision.tt_num_outro$" #NT!
+ unity_educate_youth_in_madrasas_decision.tt_num_men: "$unity_educate_youth_in_madrasas_decision.tt_num_intro$ jóvenes $unity_educate_youth_in_madrasas_decision.tt_num_outro$" #NT!
+ unity_educate_youth_in_madrasas_decision_tooltip: "Educa a los jóvenes de tu capital en filosofía y medicina." #NT!
+ unity_educate_youth_in_madrasas_decision_confirm: "Informar al [ROOT.Char.GetFaith.PriestNeuterPlural]" #NT!
+  
+ default_tax_collector: "Impuestos básicos" #NT!
+ default_tax_collector_desc: "Aplica base [obligations|E], en base al [aptitude|E] del [tax_collector|E] asignado" #NT!
+ default_tax_collector_flavor_desc: "Un impuesto estándar. Los contribuyentes no pagan ni más ni menos de lo que se espera que paguen." #NT!
+  
+ jizya_special_rights_tax_collector: "Estado de Jizya" #NT!
+ jizya_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] Privilegios:#!#!\nThe [liege|E] no puede usar el [demand_conversion|E] del [vassal|E]\nEl [liege|E] no puede usar el [convert_county|E] en las tierras del [vassals|E]'\nEl [liege|E] no puede usar el #bold1 como razón para evitar el #bold2 al revocar títulos\nEl [liege|E] no puede revocar el #bold4 #bold5\n\n#bold6 El [vassal|E] tiene garantizada la propiedad de su #bold8, evitando que el [liege|E] los revoque, independientemente de que el [vassal|E]0 tenga un [vassal|E]1 o no.\ nEl [vassal|E]2 también recibe un estatus de protección especial, y el reino reconoce oficialmente su derecho a practicar su propio #bold1.[vassal|E]4" #NT!
+ jizya_special_rights_tax_collector_flavor_desc: "Jizya es un impuesto especial asignado a #italic dhimmis#!, minorías religiosas, a cambio del privilegio de practicar su fe errante en paz." #NT!
+ unlock_jizya_contract_name: "[GetFaithDoctrine('tenet_tax_nonbelievers').GetBaseName] [core_tenet|E]" #NT!
+  
+  
+ iqta_special_rights_tax_collector: "Beca Iqta" #NT!
+ iqta_special_rights_tax_collector_desc: "El [vassal|E] tiene obligaciones menores pero ayuda a contribuir con el [men_at_arms|E] al [liege|E]." #NT!
+ iqta_special_rights_tax_collector_flavor_desc: "Iqta es un sistema de recaudación de impuestos en el que los magnates locales tienen amplia autoridad para recaudar impuestos en nombre del estado." #NT!
+  
+  
+ ghazi_special_rights_tax_collector: "Estado de Ghazi" #NT!
+ ghazi_special_rights_tax_collector_desc: "#emphasis #bold [vassal|E] Privilegio:#!#!\nThe [vassal|E] paga menos [piety|E] por usar [holy_war|E] [casus_bellis|E] pero más [prestige_i][prestige|E] por cualquier otro [casus_bellis|E] \n\n#bold1 El [vassal|E] es ​​elegido como guerrero del § _13 por el #bold4, encargado de llevar las fronteras hacia el exterior a través del [holy_war|E].#bold6" #NT!
+ ghazi_special_rights_tax_collector_flavor_desc: "Guerreros de la fe y de la frontera, los Ghazi obtienen ingresos del saqueo y el bandolerismo y libran una guerra interminable contra los enemigos religiosos del Estado." #NT!
+  
+  
+ deqhan_special_rights_tax_collector: "Dehqan" #NT!
+ deqhan_special_rights_tax_collector_flavor_desc: "Los deqhans, magnates persas dentro de un antiguo sistema de recaudación de impuestos descentralizado, administran de cerca sus tierras para promover la productividad y su propio prestigio." #NT!
+  
+ maguh_special_rights_tax_collector: "Estado de Maguh" #NT!
+ maguh_special_rights_tax_collector_flavor_desc: "Los maguh, una antigua forma sasánida de administración de distrito, promueven el desarrollo local a cambio de impuestos reducidos al estado." #NT!
+  
+ muqata_special_rights_tax_collector: "Estado de Muqata" #NT!
+ muqata_special_rights_tax_collector_flavor_desc: "Muqata es un sistema tributario en el que a las tierras distantes se les otorga mayor autonomía y se les grava menos, para promover la estabilidad y el desarrollo a largo plazo." #NT!
+  
+ strict_taxation_tax_collector: "Zakat" #NT!
+ strict_taxation_tax_collector_flavor_desc: "El zakat es un impuesto de lujo, que generalmente se aplica a los ricos como un medio para proporcionar ingresos adicionales al estado y ayudar a los necesitados." #NT!
+  
+ clan_tax_slot: "Jurisdicción Fiscal" #NT!
+  
+ has_house_unity_parameter: "Tiene el $PARAMETER_NAME$" #NT!
+ not_has_house_unity_parameter: "No tiene acceso a $PARAMETER_NAME$" #NT!

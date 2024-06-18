@@ -7,7 +7,7 @@
  ethos_methodical_name: "Metódico"
  ethos_methodical_desc: "El paso firme previene la caída, y la gente de esta cultura no hace ningún movimiento sin planear todas las posibles consecuencias."
   
-  # Tradition Effects 
+  # AGOT Tradition Effects 
  culture_parameter_gluttonous_trait_bonuses: "Los [GetTrait('gluttonous').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
  culture_parameter_forder_trait_bonuses: "#italic De los ríos#!: Los [GetTrait('forder').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
  culture_parameter_rough_terrain_trait_bonuses: "Los [GetTrait('rough_terrain_expert').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
@@ -20,6 +20,9 @@
  culture_parameter_agot_garden_bonus_traits: "#italic Myrish Fire#!: Los [GetTrait('lifestyle_gardener').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales"
  culture_parameter_herbalist_crannog_trait_gives_bonuses: "#italic Conocimiento venenoso#!: Los [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales adicionales"
  culture_parameter_agot_mystic_qohorik_bonuses: "#italic Persecuciones de las artes oscuras#!: Los [GetTrait('mystic_2').GetName( GetNullCharacter )] [traits|E] tienen bonificaciones adicionales adicionales"
+  
+  # Vanilla Tradition Effects Add-Ons 
+ culture_parameter_the_bog_hunt_success_chance: "Aumento de [hunt_success_chance|E] en [GetTerrain( 'the_bog' ).GetName]" #NT!
   
   # Traditions 
  agot_tradition_andal_name: "Fe y furia"
@@ -92,37 +95,42 @@
  agot_tradition_mountain_clansman_desc: "En las profundidades de las Montañas de la Luna habitan los miembros de su clan, los hombres más salvajes e incivilizados de cualquier lugar al sur del Muro. Son los últimos remanentes verdaderos de los Primeros Hombres en el Valle, su hogar montañoso los protege del ataque de los Ándalos, dejándolos continuar con sus formas primitivas sin mucha intervención externa."
  agot_tradition_wolfswood_clansman_name: "En las profundidades más profundas"
  agot_tradition_wolfswood_clansman_desc: "Un pueblo resistente y trabajador, la gente de los clanes dentro de Wolfswood es conocida solo por su naturaleza robusta, pero también es algo famosa por su talento cuando se trata de pescar en el hielo. Si bien pueden no ser grandes casas, la sangre de los miembros del clan Wolfswood es tan profunda como la de cualquier familia noble: descendientes de los primeros hombres, algunos de los clanes han sobrevivido al bosque mismo, y algunos de ellos se han reducido a cenizas durante una incursión de Ironborn. . Algunos dicen que algunos de los clanes todavía practican la primera noche, y que los jefes de clan son considerados "señores" por sus señores, aunque esto es más una cortesía cortés por parte del Lord, ya que los jefes de clan no se consideran a sí mismos. de alta alcurnia"
+ agot_tradition_bearman_name: "Entre osos y pinos" #NT!
+ agot_tradition_bearman_desc: "La gente de Bear Island es un pueblo resistente, acostumbrado desde hace mucho tiempo a las incursiones tanto de los Hombres del Hierro como de los Salvajes. Han ocupado la isla desde el rey Rodrik Stark y la mantendrán por más tiempo. Esta vida de lucha constante ha llevado a las mujeres de la isla a tomar las armas junto a sus hombres, y se dice que son tan temibles como una osa para proteger a sus cachorros." #NT!
  agot_tradition_rushlander_name: "Donde los ríos se encuentran con las colinas"
  agot_tradition_rushlander_desc: "Una cultura nacida en la frontera de Vale y Riverlands. Rushlanders es un pueblo harty que se adapta a la vida en las colinas, así como en los ríos."
  agot_tradition_harsh_laws_name: "Regla dura"
  agot_tradition_harsh_laws_desc: "La sociedad da forma a las leyes. La historia ha demostrado que es natural que una tierra áspera dé lugar a gente áspera, y ellos, a su vez, crean leyes ásperas para gobernar."
+ agot_tradition_andalosi_name: "El último de los fieles" #NT!
+ agot_tradition_andalosi_desc: "DESCRIPCIÓN DEL LOTF" #NT!
  agot_tradition_braavosi: "Marcador de posición"
+ agot_tradition_braavosi_name: "Lugar reservado" #NT!
  agot_tradition_braavosi_desc: "Marcador de posición"
- agot_tradition_lorathi: "Marcador de posición"
+ agot_tradition_lorathi_name: "Lugar reservado" #NT!
  agot_tradition_lorathi_desc: "Marcador de posición"
  agot_tradition_lyseni_name: "Placer, codicia y sangre"
  agot_tradition_lyseni_desc: "Nacida como una escapada para los Dragon Lords of Old Valyria, Lys siempre ha sido una isla de libertinaje, vicio y codicia. Incluso después de la caída de Valyria, Lys prospera gracias a la esclavitud, el comercio y la banca."
  agot_tradition_myrish_name: "Comerciantes del Feudo"
  agot_tradition_myrish_desc: "Marcador de posición"
- agot_tradition_norvoshi: "Marcador de posición"
+ agot_tradition_norvoshi_name: "Lugar reservado" #NT!
  agot_tradition_norvoshi_desc: "Marcador de posición"
  agot_tradition_pentoshi_name: "Queso, Vino y Comercio"
  agot_tradition_pentoshi_desc: "Marcador de posición"
- agot_tradition_armsman_name: "Los carroñeros de la guerra"
- agot_tradition_armsman_desc: "Marcador de posición"
+ agot_tradition_hartalari_name: "Las carroñas de la guerra" #NT!
+ agot_tradition_hartalari_desc: "Marcador de posición" #NT!
  agot_tradition_qohorik_name: "Hijos de la Cabra Negra"
  agot_tradition_qohorik_desc: "Marcador de posición"
  agot_tradition_tyroshi_name: "Gobernado por los Arcontes"
  agot_tradition_tyroshi_desc: "Marcador de posición"
- agot_tradition_volantene: "Marcador de posición"
+ agot_tradition_volantene_name: "Lugar reservado" #NT!
  agot_tradition_volantene_desc: "Marcador de posición"
- agot_tradition_astapori: "Marcador de posición"
+ agot_tradition_astapori_name: "Lugar reservado" #NT!
  agot_tradition_astapori_desc: "Marcador de posición"
- agot_tradition_yunkish: "Marcador de posición"
+ agot_tradition_yunkish_name: "Lugar reservado" #NT!
  agot_tradition_yunkish_desc: "Marcador de posición"
- agot_tradition_meereenese: "Bois esclavos"
+ agot_tradition_meereenese_name: "Madera esclava" #NT!
  agot_tradition_meereenese_desc: "Construye eso"
- agot_tradition_ghiscari: "Marcador de posición"
+ agot_tradition_ghiscari_name: "Lugar reservado" #NT!
  agot_tradition_ghiscari_desc: "Marcador de posición"
  agot_tradition_thenn_name: "El último de los primeros"
  agot_tradition_thenn_desc: "Conocidos como los más "sofisticados" de la gente libre por los que están al sur del Muro, los Thennitas se consideran a sí mismos como los últimos Primeros Hombres que quedan. Los habitantes del valle de la montaña en los picos de Frostfang interactúan más con los gigantes que con otras culturas, pero han logrado aprender una palabra u oración ocasional en la lengua común, a pesar de no haberse desviado nunca de la lengua antigua que todavía hablan hoy. Orgullosos de creer en Magnar, los Thennitas son un poco más disciplinados y organizados que otras personas libres, y han logrado acumular un impresionante arsenal de bronce. Si bien los que están al sur del Muro pueden considerar que los Thenn son salvajes, son más que capaces y, a menudo, entran en conflicto con la Guardia de la Noche."

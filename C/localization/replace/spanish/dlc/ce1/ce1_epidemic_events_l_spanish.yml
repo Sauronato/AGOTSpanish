@@ -1,0 +1,555 @@
+﻿l_spanish:
+  
+ health.1015.t: "[SCOPE.Custom('EventTitleDisease')]: La pequeña miseria" #NT!
+ health.1015.desc: "#EMP Picazón.#! Me despierto en mitad de la noche y encuentro que me sangra la pierna. Mis uñas también. La picazón es tan fuerte que no puedo evitar profundizar más.\n\nHundo mi cara en agua fría con la esperanza de que desaparezca. Mi reflejo: ojos rojos." #NT!
+  #AGOT Modified 
+ #health.1015.court_physician.desc: "\n\n"Mi [ROOT.Char.GetLadyLord], esa es la enfermedad conocida como sarampión."" #NT!
+ health.1015.court_physician.desc: "\n\n"Mi [ROOT.Char.GetLadyLord], esa es la enfermedad conocida como fiebre maculosa."" #NT!
+ health.1015.a: "¡No puedo soportar esto más!" #NT!
+ health.1016.t: "[SCOPE.Custom('EventTitleDisease')]: La fuente carmesí" #NT!
+ health.1016.desc: "#EMP Argh.#! Me agarro las entrañas con dolor. He perdido la cuenta del tiempo que he pasado en esta letrina. ¿Horas, días? #EMP ¿Semanas?#! Arghhhhhh. Las excretas sanguíneas duelen cada vez más. El olor tampoco ayuda.\n\nSiento que me voy a desmayar..." #NT!
+ health.1016.court_physician.desc: "\n\n"Me temo que podría ser la enfermedad de asedio, mi [ROOT.Char.GetLadyLord]."" #NT!
+ health.1016.a: "Por favor... agua." #NT!
+ health.1017.t: "[SCOPE.Custom('EventTitleDisease')]: La quema" #NT!
+ health.1017.desc: "No puedo detener el movimiento. ¡Detener! ¡Para! Mis brazos siguen temblando por sí solos y puedo ver que mis dedos se vuelven negros. Los espasmos recorren mi cuerpo, como si estuviera bailando.\n\nEs todo fuego. ¡Para! #EMP ¡BASTA!#!" #NT!
+ health.1017.court_physician.desc: "\n\n"Pareces estar afectado por el fuego de [ROOT.Char.GetFaith.HouseholdGodName], mi [ROOT.Char.GetLadyLord]."" #NT!
+ health.1017.a: "¡Hazlo parar!" #NT!
+ health.1112.t: "[SCOPE.Custom('EventTitleDisease')]: Una oportunidad de respirar" #NT!
+ health.1112.desc: "Me siento en mi cama y me miro las manos, con las palmas hacia arriba. Finalmente, las erupciones desaparecieron y mi piel volvió a su color normal.\n\nEs casi extraño poder respirar de nuevo sin esa picazón intensa." #NT!
+ health.1112.a: "Es hora de volver a ello." #NT!
+ health.1112.a.tt: "Ahora soy inmune a [GetTrait('measles').GetName( GetNullCharacter )]" #NT!
+ health.1113.t: "[SCOPE.Custom('EventTitleDisease')]: Un descanso" #NT!
+ health.1113.desc: "La primera vez que puedo volver a pensar con claridad casi no me doy cuenta. La niebla que había rodeado mi cabeza parece haberse disipado sin previo aviso.\n\nLa comida y el agua finalmente pueden permanecer en mi cuerpo y siento un intenso deseo de [ROOT.Char.Custom('FavoriteTreatDemand')]." #NT!
+ health.1113.a: "Es hora de ir a comer algo." #NT!
+ health.1114.t: "[SCOPE.Custom('EventTitleDisease')]: Volver a la normalidad" #NT!
+ health.1114.desc: "Me levanto de la cama y ver dedos sanos y coloreados es tan raro como un ciervo blanco. Mi cuerpo finalmente me ha regalado algo de calma. Los espasmos no se encuentran por ninguna parte; ya no hay baile.\n\nDejé escapar un suspiro de alivio. Paz. Cómo lo extrañaría." #NT!
+ health.1114.a: "Ahora sólo bailaré en las fiestas." #NT!
+ epidemic_events.0001.t: "Crece" #NT!
+ epidemic_events.0001.desc: "Llega la noche. Me aferro a la mesa de madera y cierro los ojos. El sudor cae a la superficie. Debilitado por [disease_scope.GetNameNoTooltip( GetPlayer )|l], [ROOT.Char.Custom('disease_desc_short')]. #EMP ¿Qué ha sido de mí?#!\n\nI Escucho toses ahogadas que vienen del exterior de la tienda. Ya es demasiado tarde para mí; sólo me queda esperar que no llegue a mi [dummy_gender.GetWomenMen]." #NT!
+ epidemic_events.0001.a: "#EMP Condenación.#!" #NT!
+ epidemic_events.0001.a.toast: "La infección crece" #NT!
+ epidemic_events.0001.a.christian: "#EMP [ROOT.Char.Custom('christian_curse')|U].#!" #NT!
+ epidemic_infected_knights_modifier: "Caballeros infectados" #NT!
+ epidemic_infected_army_modifier: "Ejército infectado" #NT!
+ christian_curse_bones: "Por [ROOT.Char.GetFaith.HighGodNamePossessive] huesos" #NT!
+ christian_curse_nails: "Por [ROOT.Char.GetFaith.HighGodNamePossessive] clavos" #NT!
+ christian_curse_nails2: "Por las uñas de $chistianity_good_god_christ$" #NT!
+ christian_curse_arms: "Por [ROOT.Char.GetFaith.HighGodNamePossessive] brazos" #NT!
+ christian_curse_blood: "Por la sangre de $chistianity_good_god_christ$" #NT!
+ christian_curse_death: "Por [ROOT.Char.GetFaith.HighGodNamePossessive] muerte" #NT!
+ christian_curse_wounds: "Por [ROOT.Char.GetFaith.HighGodNamePossessive] heridas" #NT!
+ christian_curse_body: "Por [ROOT.Char.GetFaith.HighGodNamePossessive] cuerpo" #NT!
+ disease_desc_short_plague: "Acosado por bubones negros" #NT!
+ disease_desc_short_measles: "Asediado por manchas rojas" #NT!
+ disease_desc_short_dysentery: "Afligido con excreciones sanguíneas" #NT!
+ disease_desc_short_ergotism: "Castigado con movimientos erráticos" #NT!
+  #AGOT Modified 
+ #disease_desc_short_typhus: "Atormentado por la fiebre del campo" #NT!
+ disease_desc_short_typhus: "Atormentado por la fiebre verde" #NT!
+ disease_desc_short_consumption: "Atormentado por una tos sangrienta" #NT!
+ disease_desc_short_smallpox: "Plagado de cicatrices y erupciones" #NT!
+ disease_desc_short_cancer: "Drenado por el cáncer" #NT!
+ disease_desc_short_gout: "Plagado de articulaciones inflamadas" #NT!
+ disease_desc_short_pneumonic: "Atormentado por la tos" #NT!
+ disease_desc_short_great_pox: "Plagado de llagas venéreas" #NT!
+ disease_desc_short_lovers_pox: "Marcado por ampollas venéreas" #NT!
+ disease_desc_short_leper: "Cargó la piel que cae" #NT!
+ disease_desc_short_incapable: "Atormentado por la incapacidad" #NT!
+ disease_desc_short_infirm: "Débil de cuerpo" #NT!
+ disease_desc_short_ill: "Afligido por una enfermedad" #NT!
+  
+ epidemic_events.1000.t: "El culto [cult_epidemic.GetNameNoTooltip]" #NT!
+ epidemic_events.1000.desc.intro: "Mientras [cult_epidemic.GetName] continúa arrasando [infected_county.GetName], una secta peligrosa lo sigue.\n\nUn sacerdote carismático llamado [charismatic_priest.GetFirstName] afirma que la plaga es el resultado de nosotros." #NT!
+ epidemic_events.1000.desc.mid.unreformed: "Viviendo vidas pecaminosas lejos del amor de [charismatic_priest.GetFaith.HighGodName|U], y sólo renunciando a nuestras costumbres paganas podemos encontrar la salvación de la pestilencia y la plaga que asedian nuestras tierras." #NT!
+ epidemic_events.1000.desc.mid.reformed: "Dando la espalda a los dioses de nuestros antepasados. [charismatic_priest.GetSheHe|U] afirma que sólo ofreciéndonos a [charismatic_priest.GetFaith.HealthGodName|U] podemos esperar escapar de esta plaga interminable." #NT!
+ epidemic_events.1000.desc.mid2.cynical: "Odio admitirlo, pero [charismatic_priest.GetSheHe] plantea algunos puntos convincentes." #NT!
+ epidemic_events.1000.desc.mid2.zealous: "[charismatic_priest.GetHerHis|U] culto se extiende por mis tierras y es mucho peor que cualquier plaga." #NT!
+ epidemic_events.1000.desc.mid2.fallback: "[charismatic_priest.GetSheHe|U] ha capturado la imaginación de la gente." #NT!
+ epidemic_events.1000.desc.outro: "Si no se hace nada, es muy posible que este culto se subvierta a sí mismo en tierras azotadas por la plaga." #NT!
+ epidemic_events.1000.a: "¡Quema a este loco!" #NT!
+ epidemic_events.1000.b: "Estoy seguro de que esto es inofensivo." #NT!
+ epidemic_events.1000.c: "¡Por fin encontré [charismatic_priest.GetFaith.HighGodName|U]!" #NT!
+ epidemic_events.1010.t: "Un renacido romántico" #NT!
+ epidemic_events.1010.desc: "[epidemic_scope.GetName|U] continúa profanando mi reino, e incluso la gente de la corte está empezando a sospechar que esta terrible plaga tiene un elemento sobrenatural. [superstitious_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se acerca a mí una tarde triste con una propuesta inquietante.\n\n"Mi [ROOT.Char.GetTitleAsNameNoTooltip|U], conozco tu dolor por la pérdida de [dead_lover.GetFirstName] y lo lamento contigo, pero creo firmemente que [epidemic_scope.GetNameNoTooltip] trae consigo una ¡Gran maldición sobre los muertos! ¡Debemos clavar el ataúd de [dead_lover.GetHerHis] antes de que [dead_lover.GetSheHe] se levante y traiga la plaga con [dead_lover.GetHerHim]!" #NT!
+ epidemic_events.1010.a: ""¡Cómo te atreves!"" #NT!
+ epidemic_events.1010.b: "Quizás [superstitious_courtier.GetSheHe] tenga razón..." #NT!
+ epidemic_events.1010.c: "¡Cierra todos los ataúdes del reino!" #NT!
+ epidemic_events.1020.t: "Mal aire sobre [epidemic_county.GetNameNoTierNoTooltip|U]" #NT!
+ epidemic_events.1020.desc: "[epidemic_scope.GetName|U] ha devastado a la gente de [epidemic_county.GetNameNoTier]. [miasma_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me informa que el comercio y los productos locales se han secado por completo mientras la gente se revuelca en sus casas y en las calles, esperando la llamada de [ROOT.Char.GetFaith.DeathDeityNamePossessive|U].\n\n[miasma_courtier.GetSheHe|U] culpa de la plaga al mal aire que rodea a los muertos y moribundos, y propone que contrarrestarlo con un vasto campo de [epidemic_province.Custom('get_region_flower_type_plural')] contribuiría en gran medida a disipar este mal aire y frenar la propagación de la enfermedad." #NT!
+ epidemic_events.1020.a: "Vale la pena intentarlo." #NT!
+ epidemic_events.1020.b: "¡Qué desperdicio de oro!" #NT!
+ epidemic_events.1030.t: "¡Sanguijuelas!" #NT!
+ epidemic_events.1030.desc: "Algunos miembros eruditos de la corte me dicen que la administración táctica de sanguijuelas es un tratamiento definitivo y seguro para los humores desequilibrados y la corrupción. Sin embargo, cuando [leeched_courtier.GetFirstName] se acerca a mí con una fría y pálida sonrisa en el rostro de [leeched_courtier.GetHerHis] y un puñado de sanguijuelas tendidas hacia mí, no puedo evitar preguntarme si todo esto ha ido demasiado lejos.\n\n "¡Sanguijuelas! Las sanguijuelas son ¡La única manera de mantener a raya a [epidemic_scope.GetName]!"\n\nEsto va en directa contradicción con el consejo médico general de utilizar sanguijuelas únicamente bajo la supervisión de un médico, pero en estos tiempos desesperados, ¿realmente podemos darnos el lujo de esperar?" #NT!
+ epidemic_events.1030.a: "¡Distribuye sanguijuelas a todos en la corte!" #NT!
+ epidemic_events.1030.a.success: "Las sanguijuelas resultan exitosas" #NT!
+ epidemic_events.1030.a.failure: "Las sanguijuelas son dañinas" #NT!
+ epidemic_events.1030.b: "Sigamos los consejos médicos." #NT!
+ epidemic_events.1040.t: "Flagelantes en la corte" #NT!
+ epidemic_events.1040.desc.intro: "[epidemic_scope.GetName|U] continúa arrasando mi reino, devastando todo a su paso. Un grupo de fanáticos ha cobrado protagonismo en las regiones infectadas, afirmando que la salvación se puede lograr mediante la autoflagelación.\n\n" #NT!
+ epidemic_events.1040.desc.mid.approves: "Peor aún, [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] aprueba estas prácticas e insiste en que todos en la corte deberían seguir su ejemplo. [chaplain.GetSheHe|U] insiste en que no sólo tolero este comportamiento, sino que lo apoyo." #NT!
+ epidemic_events.1040.desc.mid: "[chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] está firmemente en contra de esta práctica, afirmando que este acto masoquista no sólo es herético, sino que también es de naturaleza sexualmente desviada y debe ser eliminado. [chaplain.GetSheHe|U] sugiere firmemente que esta práctica sea condenada de todo corazón por la corona." #NT!
+ epidemic_events.1040.a: "¡Esto es perverso!" #NT!
+ epidemic_events.1040.b: "Estoy seguro de que no hacen daño a nadie más que a ellos mismos." #NT!
+ epidemic_events.1040.c: "Si lo que dicen es verdad, ¡flagelaré!" #NT!
+ epidemic_events.1050.t: "Día del Juicio Final" #NT!
+ epidemic_events.1050.desc: "[chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] irrumpe en la sala del trono a altas horas de la noche, con un mensaje andrajoso en la mano.\n\n "¡Mi [ROOT.Char.GetTitleAsNameNoTooltip|U], te traigo noticias terribles sobre [epidemic_scope.GetName]! Blasfemadores y herejes claman que el mundo está llegando a su fin, afirmando que [epidemic_scope.GetNameNoTooltip] nos fue enviado por [ROOT.Char.GetFaith.HighGodName] para marcar el comienzo de [ROOT.Char.Custom('apocalypse_name')]. Su evangelio no hace más que provocar pánico y suicidio en la población local, ¿cómo podemos frustrar esta histeria?"" #NT!
+ epidemic_events.1050.a: ""¡Erradícalos!"" #NT!
+ epidemic_events.1050.b: "¡Enviad a vuestros mejores teólogos a debatirlos!" #NT!
+ epidemic_events.1050.b.tt.success: "Se disuade el miedo al apocalipsis" #NT!
+ epidemic_events.1050.b.tt.failure: "La gente no está convencida" #NT!
+ epidemic_events.1050.c: ""Quizás tengan razón..."" #NT!
+ epidemic_events.1060.t: "Portadores de pestilencia" #NT!
+ epidemic_events.1060.desc.intro: "La gente de mi reino sigue siendo acosada por [epidemic_scope.GetName], y la superstición está muy extendida entre ellos. Me han informado de que están culpando a la plaga" #NT!
+ epidemic_events.1060.desc.mid.cats: "Las cualidades sobrenaturales de los gatos.\n\nCreen que de alguna manera los gatos domésticos comunes llevan consigo la plaga y maldicen a la gente común con su presencia. Esta creencia está tan extendida que las zonas más afectadas por la plaga han comenzado a sacrificar gatos en masa." #NT!
+ epidemic_events.1060.desc.mid.dogs: "Las cualidades sobrenaturales de los perros.\n\nLas criaturas más leales y confiadas son, a los ojos de mis súbditos más bajos, de alguna manera responsables del sufrimiento y la muerte dentro de mi reino. Esta creencia es tan común que muchas áreas están cazando activamente a las pobres bestias." #NT!
+ epidemic_events.1060.desc.mid.faith: "El [faith_to_blame.GetAdherentNamePlural].\n\nAfirman que los comerciantes extranjeros que practican [faith_to_blame.GetReligion.GetName] traen consigo plagas del extranjero y la ira de [ROOT.Char.GetFaith.HighGodName] por sus males." #NT!
+ epidemic_events.1060.desc.mid.trait: "Práctica pecaminosa y falta de mostrar [ROOT.Char.GetFaith.HighGodName] el debido respeto.\n\n" #NT!
+ epidemic_events.1060.desc.mid2.witches: "Culpan específicamente a la brujería, pero no parece muy claro qué constituye brujería a los ojos del campesinado." #NT!
+ epidemic_events.1060.desc.mid2.sin: "Creen que nos hemos vuelto demasiado [sinful_trait.GetName(ROOT.Char)] y que sólo a través del arrepentimiento masivo y el duro castigo podremos volver a vivir de la manera que [ROOT.Char.GetFaith.HighGodName] pretende que lo hagamos." #NT!
+ epidemic_events.1060.desc.outro: "\n\nEstos actos han sido ampliamente condenados por el [ROOT.Char.GetFaith.PriestNeuterPlural] del reino, pero sin embargo los juicios continúan." #NT!
+ epidemic_events.1060.a: "No hay nada que yo pueda hacer." #NT!
+ epidemic_events.1060.b: "¡Detenedlos de inmediato!" #NT!
+ epidemic_events.1060.c: "Quizás nuestra respuesta esté en el [ROOT.Char.GetFaith.ReligiousText|U]." #NT!
+ epidemic_events.1061.t: "Pira de mascotas" #NT!
+ epidemic_events.1061.desc.intro: "Me despierto en mi habitación con el lejano rugido de la conmoción en el centro de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip|U]. Miro hacia afuera y veo el cielo anaranjado e innumerables chimeneas de humo flotando en la distancia. ¿El reino se ha incendiado mientras duermo?\n\nBusco a [chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] en busca de respuestas." #NT!
+ epidemic_events.1061.desc.mid.cats: ""Son los gatos, mi [ROOT.Char.GetTitleAsNameNoTooltip|U]. Encerrados en pequeñas jaulas de mimbre, los animales son enviados maullando y silbando a grandes piras." #NT!
+ epidemic_events.1061.desc.mid.dogs: ""Son los perros, mi [ROOT.Char.GetTitleAsNameNoTooltip|U]. Me temo que los campesinos los queman vivos para mantener a [epidemic_scope.GetName] a raya." #NT!
+ epidemic_events.1061.desc.outro: ""Un asunto bastante espantoso"." #NT!
+ epidemic_events.1061.a: "Supongo que no hay nada que pueda hacer." #NT!
+ epidemic_events.1061.a.success: "Quemar animales no tiene ningún efecto." #NT!
+ epidemic_events.1061.a.failure: "Quemar animales de alguna manera aumenta las infecciones" #NT!
+ epidemic_events.1061.b: "¡Esto debe parar!" #NT!
+ epidemic_events.1061.c: "Dañar a estos animales debe convertirse en un delito." #NT!
+ epidemic_events.1062.t: "Receptores" #NT!
+ epidemic_events.1062.desc.intro: "La violencia supersticiosa e insensata de mi pueblo continúa extendiéndose junto con [epidemic_scope.GetName], como una enfermedad de la mente que sigue a esta enfermedad de la carne. Ahora, mis deberes cortesanos habituales se ven interrumpidos por un grupo de bruscos cazadores furtivos que ingresan a mi corte.\n\n"Mi [ROOT.Char.GetTitleAsNameNoTooltip|U], mis asociados han notado que tienes un poco de" #NT!
+ epidemic_events.1062.desc.mid.cats: "Problema del gato. Todo el mundo sabe que los gatos son sirvientes de [ROOT.Char.GetFaith.DevilName|U] y llevan a [epidemic_scope.GetName] a dondequiera que vayan." #NT!
+ epidemic_events.1062.desc.mid.dogs: "Problema del perro. Es bien sabido que los perros son criaturas repugnantes rodeadas de mal aire y suciedad." #NT!
+ epidemic_events.1062.desc.outro: "Somos hombres del pueblo y estamos dispuestos a dar caza a cada uno de esos monstruos hasta que la plaga desaparezca"." #NT!
+ epidemic_events.1062.a: "Matarlos a todos." #NT!
+ epidemic_events.1062.a.no_effect: "Matar a los animales no tiene ningún efecto." #NT!
+ epidemic_events.1062.a.success: "La plaga alivia" #NT!
+ epidemic_events.1062.a.failure: "La plaga empeora" #NT!
+ epidemic_events.1062.b: "Atrápalos y llévalos a la capital." #NT!
+ epidemic_events.1062.b.no_effect: "Esto no tiene ningún efecto" #NT!
+ epidemic_events.1062.b.failure: "La capital está llena de animales rabiosos." #NT!
+ epidemic_events.1063.t: "¡Arrepentirse!" #NT!
+ epidemic_events.1063.desc.intro: "El centro de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip|U] está lleno de pánico y desesperación, y entre los lamentos de los condenados se oye la voz de un predicador callejero común.\n\n "¡Arrepiéntete! ¡Arrepiéntete!" #NT!
+ epidemic_events.1063.desc.mid.faith: "¡Esta plaga no es obra de nadie! Esto es el resultado de nuestro propio pecado." #NT!
+ epidemic_events.1063.desc.mid.sin: "Esta plaga es un castigo de [ROOT.Char.GetFaith.HighGodName|U] por nuestra debilidad y propensión a ser [trait_blamed.GetName(ROOT.Char)]." #NT!
+ epidemic_events.1063.desc.mid.witch: "¡No es a las brujas a quienes debemos dirigir nuestra atención, sino a nosotros mismos! ¿No somos todos pecadores?" #NT!
+ epidemic_events.1063.desc.mid.cats: "¡Echarle la culpa de esta plaga a una criatura tan miserable y patética como un gato es absurdo! ¡Son nuestros propios pecados los que deberíamos estar mirando!" #NT!
+ epidemic_events.1063.desc.mid.dogs: "¡Culpar de esta plaga a perros ingenuos es una tontería! Son nuestras propias almas corruptas las culpables de esto." #NT!
+ epidemic_events.1063.desc.outro: "Sólo esforzándonos por ser [virtuous_trait.GetName(ROOT.Char)] podemos siquiera esperar el fin de la plaga."\n\nLa multitud parece bastante cautivada por este mensaje, y muchos otros predicadores en toda la ciudad parecen estar transmitiendo el mismo mensaje con igual convicción y vigor. No puedo evitar sentir que quizás sea mi propia debilidad y pecado lo que trae esta plaga sobre mi pueblo." #NT!
+ epidemic_events.1063.a: "¡Me arrepiento!" #NT!
+ epidemic_events.1063.b: "Cosas y tonterias." #NT!
+ epidemic_events.1063.c: "Seguramente puedo debatir con un predicador callejero común y corriente." #NT!
+ epidemic_events.1063.c.success: "Disuades al predicador" #NT!
+ epidemic_events.1063.c.failure: "Te avergüenzas" #NT!
+ epidemic_events.1064.t: "Ensayos" #NT!
+ epidemic_events.1064.desc.intro: "A pesar de los continuos esfuerzos por condenar la superstición que rodea a [epidemic_scope.GetName], la práctica continúa aumentando y ahora oigo hablar de juicios que se están llevando a cabo en todo el reino." #NT!
+ epidemic_events.1064.desc.mid.sin: "Los juicios buscan erradicar a los [trait_blamed.GetName(ROOT.Char)] entre nosotros y castigarlos severamente, a veces hasta la muerte." #NT!
+ epidemic_events.1064.desc.mid.witch: "Los juicios buscan exponer a las brujas a través de medios bárbaros y sin sentido, a menudo juicios que resultarían en la muerte, ya sea que el acusado fuera brujo o no." #NT!
+ epidemic_events.1064.desc.outro: "\n\nEstas pruebas tienen como objetivo castigar a los malvados en un intento de hacer surgir el espíritu de [ROOT.Char.GetFaith.HealthGodName|U] para limpiar la tierra de la plaga, pero en realidad solo han provocado más muertes y un mayor agotamiento de mi reino." #NT!
+ epidemic_events.1064.a: "La única justicia es #EMP my#! justicia." #NT!
+ epidemic_events.1064.b: "¡Las pruebas deben terminar!" #NT!
+ epidemic_events.1064.c: "Debemos predicar contra esta práctica." #NT!
+ epidemic_events.1064.c.success: "Tu mensaje es convincente" #NT!
+ epidemic_events.1064.c.failure: "Los juicios continúan" #NT!
+ epidemic_events.1065.t: "Lástima" #NT!
+ epidemic_events.1065.desc.intro: "La justicia de la mafia sigue siendo una plaga en mi reino tanto como [epidemic_scope.GetName], y por fin las consecuencias han llegado a mi puerta. Me han informado que los predicadores locales están polarizando al público contra sus superiores nobles, y han vuelto sus ojos directamente hacia [shamed_buddy.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\nAcusan a [shamed_buddy.GetHerHim] del crimen de" #NT!
+ epidemic_events.1065.desc.mid.sin: "Siendo [trait_blamed.GetName(shamed_buddy)]" #NT!
+ epidemic_events.1065.desc.mid.witch: "Brujería" #NT!
+ epidemic_events.1065.desc.outro: "Y exigir que [shamed_buddy.GetSheHe] sea sacado de [shamed_buddy.GetHerHis] viviendas cómodas y lujosas y se arrepienta de [shamed_buddy.GetHerHis] pecados mediante la humillación pública. Normalmente, tales actos de falta de respeto hacia un noble serían severamente castigados, pero yo simplemente no puedo castigar a todo el reino." #NT!
+ epidemic_events.1065.a: "Dales lo que quieren." #NT!
+ epidemic_events.1065.b: "¡Me niego!" #NT!
+ epidemic_events.1065.c: "Iré al lugar [shamed_buddy.GetHerHis]." #NT!
+ epidemic_events.1066.t: "Expulsión" #NT!
+ epidemic_events.1066.desc: "Nada de lo que alguien pueda decir parece suficiente para convencer al campesinado de que [faith_blamed.GetAdherentNamePlural] no tiene la culpa de [epidemic_scope.GetName]. Se ha corrido la voz entre las comunidades de [faith_blamed.GetAdjectiveNoTooltip] de que mi reino no es un lugar seguro para su gente, y el comercio ha sufrido mucho como consecuencia.\n\nPara empeorar las cosas, los comerciantes de [faith_blamed.GetAdjectiveNoTooltip] no sólo no son bienvenidos en muchas aldeas infectadas, sino que también son bienvenidos. siendo atacado activamente. El comercio es el alma del mundo, y si no se hace nada para frenar esta violencia sin sentido, mi reino sufrirá consecuencias desconocidas." #NT!
+ epidemic_events.1066.a: "Este comportamiento debe ser castigado." #NT!
+ epidemic_events.1066.b: "Esto está fuera de mi control." #NT!
+ epidemic_events.1066.c: "Puedo ofrecer refugio en la capital." #NT!
+ epidemic_events.1067.t: "[faith_blamed.GetAdjectiveNoTooltip|U] Influencia de plaga" #NT!
+ epidemic_events.1067.desc: "Mientras [epidemic_scope.GetName] devasta el reino de [bigoted_ruler_that_everyone_hates.GetNamePossessive], el campesinado ha insistido en culpar a [faith_blamed.GetAdherentNamePlural]. Este problema se ha generalizado tanto que muchos incluso han comenzado a huir de [bigoted_ruler_that_everyone_hates.GetPrimaryTitle.GetNameNoTierNoTooltip|U] y venir a mis tierras.\n\nSi bien esta afluencia adicional de personas trae consigo comercio e impuestos, es innegable que provienen de un lugar plagado de [epidemic_scope.GetName] y sin duda traerán el mal aire consigo. Si bien existe el riesgo de que la plaga se propague más fácilmente en mis tierras, las oportunidades que presenta esta afluencia de refugiados son difíciles de negar." #NT!
+ epidemic_events.1067.a: "Son bienvenidos aquí." #NT!
+ epidemic_events.1067.b: "No podemos abrir las puertas a la plaga." #NT!
+ epidemic_events.1067.c: "Ofrecer santuario en la capital." #NT!
+ every_bordering_county: "Cada condado limítrofe con [bigoted_ruler_that_everyone_hates.GetName]" #NT!
+ epidemic_events.1068.t: "Prestado" #NT!
+ epidemic_events.1068.desc: "La caza de brujas contra [faith_blamed.GetAdherentNamePlural] basada en la acusación de difundir [epidemic_scope.GetName] ha tenido un gran número de consecuencias financieras para todos los estratos de la sociedad y eso no podría ser más claro para mí que cuando [loneless_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] llega a los tribunales como un mendigo común.\ n\n"La situación es desesperada, mi persecución [ROOT.Char.GetTitleAsNameNoTooltip|U]. [faith_blamed.GetAdjectiveNoTooltip|U] ha aterrorizado a todo tipo de no creyentes lejos de mis tierras. No se puede encontrar a nadie que se dedique a la práctica necesaria de la usura, y mi tesoro se está agotando. Debemos ¡Encuentra una solución y encuéntrala rápido!"" #NT!
+ epidemic_events.1068.a: "[loneless_vassal.GetPrimaryTitle.GetNameNoTierNoTooltip|U] será un lugar seguro para todos." #NT!
+ epidemic_events.1068.b: "Puedo ofrecerle un préstamo." #NT!
+ epidemic_events.1068.c: "Es desafortunado." #NT!
+ all_of_vassals_holding: "Todas las tenencias de [loneless_vassal.GetNamePossessive]" #NT!
+ epidemic_events.1100.t: "Una sombra sobre [infected_county.GetNameNoTierNoTooltip|U]" #NT!
+ epidemic_events.1100.desc.intro.apocalyptic: "Las calles de [infected_county.GetNameNoTier] se han vuelto silenciosas. [ROOT.Char.GetFaith.DeathDeityName|U] ha arrojado la plaga de [ROOT.Char.GetFaith.DeathDeityHerHis]" #NT!
+ epidemic_events.1100.desc.intro.major: "Caminar por [infected_county.GetNameNoTier] es disfrutar de una terrible sinfonía de sufrimiento humano. La pestilencia ha llegado a" #NT!
+ epidemic_events.1100.desc.intro.fallback: "Un paseo por [infected_county.GetNameNoTier] revela algo profundamente desagradable. Una plaga ha llegado" #NT!
+ epidemic_events.1100.desc.intro2.holy_site: "Este lugar más sagrado.\n\n" #NT!
+ epidemic_events.1100.desc.intro2.cool_place: "Esta metrópolis que alguna vez fue próspera.\n\n" #NT!
+ epidemic_events.1100.desc.intro2.backwater: "Esta modesta aldea.\n\n" #NT!
+ epidemic_events.1100.desc.mid.typhus: "Los infectados están cubiertos de pies a cabeza por erupciones que son calientes al tacto.\n\n" #NT!
+ epidemic_events.1100.desc.mid.bubonic_plague: "Bubones pustulosos negros cubren la piel de los infectados, llenos de un líquido fétido que emite aire viciado cuando se revienta.\n\n" #NT!
+ epidemic_events.1100.desc.mid.smallpox: "La piel de los infectados es de color rojo intenso y está cubierta de bultos y protuberancias. Innumerables cicatrices recientes cubren la piel debido a una picazón interminable, y esos ojos desesperados están inyectados en sangre y rojos.\n\n" #NT!
+ epidemic_events.1100.desc.mid.measles: "La piel grumosa del enfermo es de color rojo brillante y dolorosa al tacto. Sudan incluso con el frío y tienen en los ojos una mirada de leproso.\n\n" #NT!
+ epidemic_events.1100.desc.mid.dysentery: "Cuando se encuentran con los ojos de los infectados, estos parecen vacíos y vacíos por dentro, como si el espíritu estuviera en otra parte. Sus ropas están manchadas de rojo intenso alrededor del trasero y se agarran el estómago como para evitar que se caiga.\n\n" #NT!
+ epidemic_events.1100.desc.mid.ergotism: "Los infectados a menudo se contorsionan en bailes impíos a intervalos aleatorios entre ataques de gemidos y faltas sin sentido en las calles.\n\n" #NT!
+ epidemic_events.1100.desc.mid.consumption: "Dondequiera que uno va, no puede escapar del ruido incesante de la tos y la tos de la sangre infectada y congelada que mancha sus ropas de un color carmesí intenso.\n\n" #NT!
+ epidemic_events.1100.desc.mid.fallback: "La población está atormentada por malos humores de todo tipo, lo que provoca síntomas que son demasiado numerosos para nombrarlos.\n\n" #NT!
+ epidemic_events.1100.desc.mid2.apocalyptic: "No hay un alma en la ciudad que no haya sido acosada por esta terrible enfermedad y continúa avanzando rápidamente hacia la clase noble." #NT!
+ epidemic_events.1100.desc.mid2.major: "Al menos la mitad de la población campesina ha sido infectada y es sólo cuestión de tiempo hasta que se propague a la nobleza." #NT!
+ epidemic_events.1100.desc.mid2.fallback: "Si bien las cifras siguen siendo bajas, es sólo cuestión de tiempo hasta que se extienda más." #NT!
+ epidemic_events.1100.desc.outro.capital: "Ya hay gente que llama a esta aflicción “[epidemic.GetName]”, y está sucediendo en mi propia puerta." #NT!
+ epidemic_events.1100.desc.outro: "La gente ya llama a esta aflicción "[epidemic.GetName]"." #NT!
+ epidemic_events.1100.a.already_has_it: "Me temo que es demasiado tarde..." #NT!
+ epidemic_events.1100.a.compassionate: "Esos pobres campesinos enfermos..." #NT!
+ epidemic_events.1100.a.callous: "Bueno, no hay nada que pueda hacer." #NT!
+ epidemic_events.1100.a.diligent: "Estaré atento." #NT!
+ epidemic_events.1100.a.paranoid: "¡#EMP nunca#! saldré de mi habitación!" #NT!
+ epidemic_events.1100.a.brave: "He sobrevivido a cosas peores." #NT!
+ epidemic_events.1100.a.cannibal: "Que desperdicio de buena carne." #NT!
+ epidemic_events.1100.a.eccentric: "¿No puedo simplemente esperar en un barco?" #NT!
+ epidemic_events.1100.a.zealous: "[ROOT.Char.GetFaith.HealthGodName|U] protégenos." #NT!
+ epidemic_events.1100.a: "Alguien debería hacer algo." #NT!
+ epidemic_events.1100.b: "¡Llame al médico!" #NT!
+ look_for_physician_epidemic_tt: "Buscará un [GetCourtPositionType('court_physician_court_position').GetName()] para ayudar a compensar el [epidemic|E]" #NT!
+ physician_will_help_epidemic_tt: "Su [GetCourtPositionType('court_physician_court_position').GetName()] le proporcionará numerosas opciones para compensar el [epidemic|E]" #NT!
+ epidemic_events.1110.t: "Cuerpos en la calle" #NT!
+ epidemic_events.1110.desc: "[chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se acerca a mí con el pánico pintado en la cara de [chaplain.GetHerHis].\n\n"[ROOT.Char.GetName|U], traigo noticias terribles. Parece que los cuerpos se están acumulando tan rápidamente a lo largo del [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] que algunos no han podido seguir el ritmo de la rápida se propaga, dejando que los cuerpos contaminen el aire con miasma en medio de las calles. ¡Quizás podamos hacer uso del $building_type_burial_site_01$ en [graveyard_county.GetName] para ayudar a mantener el ritmo de las crecientes pilas de cuerpos en el reino."" #NT!
+ epidemic_events.1110.a: "Muy bien." #NT!
+ epidemic_events.1110.b: "Ese sitio es sólo para mí y los míos." #NT!
+ epidemic_events.1120.t: "Un regalo espantoso" #NT!
+ epidemic_events.1120.desc: "Cuando entramos en [flung_corpse_location.GetName], una idea diabólica cruza por mi mente. Algunas tropas se encuentran al borde de la muerte con [epidemic_scope.GetName] y pronto partirán de este mundo. Sin embargo, es posible que me sirvan en esta guerra incluso después de la muerte.\n\nEl miasma de los cadáveres seguramente hará que más soldados enfermen, a menos que nos deshagamos de los cuerpos de alguna manera. Quizás podamos poner a [corpse_flingee.GetName] de rodillas a [corpse_flingee.GetHerHis] enviándole un regalo a [corpse_flingee.GetHerHim] a través de una catapulta..." #NT!
+ epidemic_events.1120.a: "¡Carguen los cuerpos!" #NT!
+ epidemic_events.1120.b: "¡Esto es obsceno!" #NT!
+ epidemic_events.1121.t: "Un regalo desde arriba" #NT!
+ epidemic_events.1121.desc: "[corpse_flinger.GetNamePossessive] fuerzas han entrado en mis tierras y parecen haberse detenido fuera de mi posesión, tal vez este sea el comienzo de un asedio.\n\nPoco después de que llegan, escucho un estallido repentino y un sonido de bofetadas húmedas desde afuera. Salgo corriendo para ver qué pudo haber producido un sonido tan sobrenatural, y lo que veo me hace sentir frío.\n\nLos restos destrozados de un cadáver yace en un charco de carne y huesos, como una exhibición macabra en una carnicería. Es evidente que el cuerpo está plagado de alguna enfermedad extraña y, si no se hace nada, seguramente habrá un brote." #NT!
+ epidemic_events.1121.a: "¡Tíralo de vuelta!" #NT!
+ plague_averted_tt: "La plaga se evita" #NT!
+ plague_still_infects_tt: "Los cuerpos están demasiado aplastados para moverse." #NT!
+ epidemic_events.1121.b: "¡Pon el cuerpo en cuarentena y limpia este lugar!" #NT!
+ epidemic_events.1121.b.success: "La cuarentena es exitosa" #NT!
+ epidemic_events.1121.b.failure: "La cuarentena falla" #NT!
+ epidemic_events.1121.c: "¡Sólo mantenlo alejado de mí!" #NT!
+ epidemic_events.1122.t: "Un regalo devuelto" #NT!
+ epidemic_events.1122.desc: "Un ligero silbido llena el aire cuando algo aparece más allá de las paredes de [flung_corpse_location.GetName]. El silbido se hace más fuerte hasta que, de repente, el objeto aterriza con estrépito en medio del campamento.\n\nSangre, huesos y dientes yacen en un cráter apenas adherido a la carne irreconocible a la que alguna vez pertenecieron. Parecería que nuestro "regalo" ha regresado a nosotros." #NT!
+ epidemic_events.1122.a: "Está demasiado destrozado para moverlo ahora." #NT!
+ epidemic_events.1122.b: "¡Recógelos y vuelve a intentarlo!" #NT!
+ epidemic_events.1122.b.success: "Arrojas el 'cuerpo' hacia atrás" #NT!
+ epidemic_events.1122.b.failure: "$plague_still_infects_tt$" #NT!
+ epidemic_events.1123.t: "La lluvia de carne" #NT!
+ epidemic_events.1123.desc: "Oigo el suave repiqueteo de la lluvia en el alféizar de mi ventana. Me siento un poco agitado porque el cielo estaba despejado la última vez que me tomé el tiempo de mirar, así que miro hacia afuera y veo que el cielo sigue azul. Saco la mano por la ventana y me perturba ver sangre marrón oscura empapando mis dedos. Afuera, por todas partes, mis tierras están siendo empapadas con la sustancia pútrida con el ocasional y pesado chapoteo de trozos de carne. Evidentemente, los cuerpos han sido arrojados una vez más, aunque ahora están tan castigados por esta ordalía que han quedado reducidos a nada más que una masa de sangre y vísceras." #NT!
+ epidemic_events.1123.a: "Absolutamente horrible." #NT!
+  
+ burning_animals_does_nothing_tt: "La quema de los animales no tuvo ningún efecto" #NT!
+ cats_and_dogs_trial_will_end_tt: "Los juicios terminarán" #NT!
+ friend_plague_financial_help: "[CHARACTER.GetShortUIName|U] dio [TARGET_CHARACTER.GetShortUIName] ayuda financiera durante una epidemia." #NT!
+ friend_plague_financial_help_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] dio [CHARACTER.GetShortUIName] ayuda financiera durante una epidemia." #NT!
+ rival_refused_to_help_my_loans: "[CHARACTER.GetShortUIName|U] se negó a brindar ayuda financiera a [TARGET_CHARACTER.GetShortUIName] durante una epidemia." #NT!
+ rival_refused_to_help_my_loans_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] se negó a dar [CHARACTER.GetShortUIName] ayuda financiera durante una epidemia." #NT!
+ friend_walk_of_shame: "[CHARACTER.GetShortUIName|U] realizó un acto de humillación pública en [TARGET_CHARACTER.GetShortUINamePossessive] lugar." #NT!
+ friend_walk_of_shame_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] realizó un acto de humillación pública en [CHARACTER.GetShortUINamePossessive] lugar." #NT!
+ rival_walk_of_shame: "[CHARACTER.GetShortUIName|U] obligó a [TARGET_CHARACTER.GetShortUIName] a realizar un acto de humillación pública." #NT!
+ rival_walk_of_shame_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] obligó a [CHARACTER.GetShortUIName] a realizar un acto de humillación pública." #NT!
+  
+ every_family_member_of_lover: "Cada miembro de la familia de [dead_lover.GetFirstName]" #NT!
+ every_infected_county: "Cada condado infectado" #NT!
+ every_infected_courtier_and_guest: "Cada cortesano e invitado infectado" #NT!
+  
+ friend_revenants_nailed: "[CHARACTER.GetShortUIName|U] siguió el consejo de [TARGET_CHARACTER.GetShortUINamePossessive] y cerró los ataúdes con clavos para evitar que los aparecidos se levantaran de sus tumbas." #NT!
+ friend_revenants_nailed_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] siguió el consejo de [CHARACTER.GetShortUINamePossessive] y cerró los ataúdes con clavos para evitar que los aparecidos se levantaran de sus tumbas." #NT!
+ friend_flagellating_together: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] flagelados juntos como medio de protección ante una terrible plaga" #NT!
+ rival_kinkshamed_my_flagellating: "[CHARACTER.GetShortUIName|U] acusó a [TARGET_CHARACTER.GetShortUIName] de conducta sexual inapropiada por flagelar" #NT!
+ rival_kinkshamed_my_flagellating_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] acusó a [CHARACTER.GetShortUIName] de conducta sexual inapropiada por flagelar" #NT!
+  
+ ragnarok: "Ragnarök" #NT!
+ the_second_coming: "La segunda venida" #NT!
+ revelation: "Revelación" #NT!
+ the_day_of_judgement: "El día del juicio" #NT!
+ the_coming_of_the_messiah: "La venida del mesias" #NT!
+ the_coming_of_the_seven_suns: "La Venida de los Siete Soles" #NT!
+ frashokereti: "Frashokereti" #NT!
+ the_endtimes: "El fin de los tiempos" #NT!
+ the_end_of_days: "El fin de los dias" #NT!
+ the_apocalypse: "El Apocalipsis" #NT!
+ doomsday: "Día del Juicio Final" #NT!
+ third_impact: "Tercer impacto" #NT!
+  
+ epidemic_events.2001.t: "La plaga de la guerra" #NT!
+ epidemic_events.2001.desc: "[pleading_vassal.GetName|U] se arrodilla frente a mí. [pleading_vassal.GetHerHis|U] la desesperación llena la habitación como un miasma. [pleading_vassal.GetHerHis|U] los labios tiemblan delirantemente.\n\n"Mi señor, le suplico su intervención. Dos plagas asolan mis tierras. [epidemic_scope.GetName|U] ataca desde dentro, mientras [attacking_vassal.Custom('InsultAdjective')] [attacking_vassal.GetName] me ataca en[vassal_war.GetName]. Temo que sólo puedo perseverar con un enemigo. Mi pueblo no puede sobrevivir a la devastación dejada por ninguno de ellos.\n\nHe traído el oro que tenía como ofrenda. Pongo mis esperanzas y el destino de mi dominio en tus manos." #NT!
+ epidemic_events.2001.a: "Con mucho gusto pagaré para acabar con esta tontería." #NT!
+ epidemic_events.2001.b: "¡Cómo te atreves a traer [epidemic_scope.GetName] a #EMP mi puerta#!!" #NT!
+ epidemic_events.2001.b.desc: "¡Guardias! #EMP Con cuidado#! arrestar [pleading_vassal.GetFirstNameNoTooltip] luego #EMP aún más cuidadosamente#! lavar todo [pleading_vassal.GetSheHe] tocado!" #NT!
+ epidemic_events.2001.c: "Se puede razonar con [attacking_vassal.GetTitledFirstName]." #NT!
+ epidemic_events.2001.c.success: "[attacking_vassal.GetFirstNameNoTooltip] fue convencido de terminar [vassal_war.GetName]" #NT!
+ epidemic_events.2001.c.failure: "[vassal_war.GetName] continúa" #NT!
+ epidemic_events.2001.epidemic_spread.t: "¡[pleading_vassal.GetFirstNameNoTooltip] ha difundido el [epidemic_scope.GetName]!" #NT!
+ epidemic_events.2001.danger: "#color_red Si la guerra no se resuelve rápidamente, podría haber un precio que pagar...#!" #NT!
+  
+ epidemic_events.2002.t: "La plaga de la guerra: consecuencias" #NT!
+ epidemic_events.2002.desc: "Mientras [vassal_war.GetName|U], la guerra entre [attacking_vassal.GetName] y [pleading_vassal.GetName] se prolonga, la moral se evapora en ambos bandos. Pero hay un tercer enemigo invisible entre ellos, el temido [epidemic_scope.GetName].\n\nTal vez como castigo de [ROOT.Char.GetFaith.HighGodName], tal vez por los cuerpos hinchados que se acumulan a causa de la guerra, el [epidemic_scope.GetName] se ha vuelto más cruel. Imitando el apetito humano de conquista y destrucción, su hambre de vidas no puede ser saciada." #NT!
+ epidemic_events.2002.a: "Oh querido." #NT!
+  
+ epidemic_events.2003.t: "Enemigo invisible" #NT!
+ epidemic_events.2003.desc: ""Esta misma mañana perdí cinco buenos soldados. Todos sucumbieron a [epidemic_scope.GetName]. ¡Tres más ayer y la semana acaba de comenzar! ¡Debemos hacer algo! ¡No sea que nos quedemos sólo con cadáveres y sin esperanza de victoria!"\n \nAunque un poco insolentes, [marshal.GetNamePossessive] palabras son verdaderas y dolorosas. Mis soldados, insuperables en una lucha adecuada, han encontrado un enemigo insidioso e invisible.\n\n "¡Y eso es sólo para los que están estacionados en [first_epidemic_province.GetName]! Aún más han muerto en [second_epidemic_province.GetName]. No hay más reclutas Sólo se pueden encontrar campesinos indigentes y los restos de los muertos"." #NT!
+ epidemic_events.2003.a: "Aumenten los salarios. Los reclutas vendrán corriendo." #NT!
+ epidemic_events.2003.a.flavor: "Aunque los buenos soldados siempre encuentran oro, el oro rara vez encuentra buenos soldados." #NT!
+ epidemic_events.2003.b: "Un soldado es como un campesino. ¡Su único propósito en la vida es morir!" #NT!
+ epidemic_events.2003.b.flavor: "Las masas sucias a veces pueden reemplazar a guerreros expertos, si no se mira demasiado de cerca." #NT!
+ epidemic_events.2003.c: "¡Cierra la puerta del cuartel!" #NT!
+ epidemic_events.2003.c.flavor: "Sin sus ejercicios diarios mis tropas serán menos eficientes, pero espero que estén vivas." #NT!
+  
+ epidemic_events.2005.t: "Tarro medicinal" #NT!
+ epidemic_events.2005.desc: "Me encuentro pasando cerca de [physician.GetNamePossessive] estudio todos los días, cada hora, con la amenaza de [epidemic_scope.GetName] constantemente en mi mente. La proximidad al estudio de [physician.GetHerHis] ofrece cierto consuelo, incluso consuelo.\n\nEntre todos los curiosos utensilios que [physician.GetName] tiene a mano, uno en particular, una hermosa vasija pintada, parece ser especial para [physician.GetHerHim]. [physician.GetSheHe|U] nota mi atención.\n\n"Veo que tienes interés en mi [physician.GetCulture.GetName] [medicine_jar.GetName]. Es una verdadera maravilla de la artesanía, ¡pero las verdaderas maravillas están contenidas dentro! Me ofrece protección mientras salgo y ahorro. las vidas de tus súbditos."" #NT!
+ epidemic_events.2005.a: "¿Seguramente soy yo quien debería ser protegido?" #NT!
+ epidemic_events.2005.a.success: "[physician.GetFirstName] parte con el frasco." #NT!
+ epidemic_events.2005.a.failure: "[physician.GetFirstName] sigue sin estar convencido." #NT!
+ epidemic_events.2005.b: "¿Este frasco salva vidas? ¡Dámelo!" #NT!
+ epidemic_events.2005.b.success: "Luchas [medicine_jar.GetName] de [physician.GetFirstName]" #NT!
+ epidemic_events.2005.b.failure: "¡El frasco se rompe!" #NT!
+ epidemic_events.2005.c: "Si tú lo dices. Por Favor Continúe." #NT!
+  
+ epidemic_events.2006.t: "Manía del baile" #NT!
+ epidemic_events.2006.desc: "¿Un campesino bailando en mi puerta? ¿Con una multitud de curiosos reunidos alrededor?\n\n"Perdóneme [dance_victim.GetFirstName], mi señor". Uno de los espectadores habla." [dance_victim.GetSheHe|U] empezó a bailar hace varios días y desde entonces no ha parado. ¡Luego algunos otros incluso se unieron a [dance_victim.GetHerHim|U] en este retorcido baile!" El espectador escupe en el suelo pero sigue mirando, fascinado y aterrorizado. [dance_victim.GetHerHis|U] la cara se tuerce con un gemido, claramente al borde de la locura, pero el baile continúa." #NT!
+ epidemic_events.2006.a: "¿Bailar sin tregua? #EMP ¡Excelente!#!" #NT!
+ epidemic_events.2006.b: "Todo baile termina eventualmente. #EMP ¿Verdad?#!" #NT!
+ epidemic_events.2006.c: "¡Coge algunas cuerdas y ata [dance_victim.GetHerHim]!" #NT!
+ epidemic_events.2006.d: "¡Por [ROOT.Char.GetFaith.HighGodName] te derribaré, demonio!" #NT!
+  
+ epidemic_events.3000.t: "$travel_danger_prefix$ Sangre en la puerta" #NT!
+ epidemic_events.3000.desc: "El rojo es el único color presente en [epidemic_location.GetName]. Toser el único sonido. Animamos a nuestras monturas a seguir adelante, pero puedo ver a [companion.GetTitledFirstName] pálido, [companion.GetHerHis] labios tan apretados que han perdido todo el flujo sanguíneo.\n\n"Ayuda..." uno de los cuerpos que habíamos confundido con cadáveres se mueve lentamente, dolorosamente, [sick_peasant.GetHerHis] cuerpo [sick_peasant.Custom('disease_desc_short')]." #NT!
+ epidemic_events.3000.a: ""No puedo hacer la vista gorda ante esto"." #NT!
+ epidemic_events.3000.b: ""[companion.GetFirstNameNoTooltip], puedes ayudarlos."" #NT!
+ epidemic_events.3000.c: ""No tenemos tiempo para esto"." #NT!
+ epidemic_events.3000.b.sick: "[companion.GetShortUIName] cae enfermo" #NT!
+  
+ epidemic_events.3010.t: "$travel_danger_prefix$ Carroña" #NT!
+ epidemic_events.3010.desc: "Nuestros suministros de agua se están agotando cuando ingresamos a [epidemic_location.GetName]. El pueblo aparentemente desierto tiene un hermoso pozo justo en el medio, y empujamos nuestras monturas hacia él.\n\nPoco después, la razón por la que está desierto se vuelve evidente.\n\nLos cuerpos descansan en el suelo, [sick_peasant.Custom('disease_desc_short')], y aves carroñeras. círculo sobre sus pálidas cabezas. Una visión sombría." #NT!
+ epidemic_events.3010.a: "He leído algo sobre agua contaminada..." #NT!
+ epidemic_events.3010.b: "¡Agua! #EMP ¡Por fin!#!" #NT!
+ epidemic_events.3010.b.sick: "Te enfermas" #NT!
+ epidemic_events.3010.c: "Debemos seguir adelante." #NT!
+ humour_knowledge_modifier: "Supuestos de cordura" #NT!
+ humour_knowledge_modifier_desc: "Este personaje notó que los aldeanos enfermaron después de beber de un pozo infectado." #NT!
+ no_water_modifier: "Escaso suministro de agua" #NT!
+ no_water_modifier_desc: "Este personaje no paró a beber de un pozo." #NT!
+  
+ ce1_flung_corpse: "Arrojó un cadáver" #NT!
+ ce1_flung_corpse_desc: "Arrojé un cadáver por encima de las paredes en [flingee.GetNamePossessive] sosteniendo" #NT!
+ ce1_flung_corpse_desc_second_perspective: "Arrojaste un cadáver por encima de las paredes en [flingee.GetNamePossessive] sosteniendo" #NT!
+ ce1_flung_corpse_desc_third_perspective: "[owner.GetName] arrojó un cadáver por encima de las paredes en [flingee.GetNamePossessive] sosteniendo" #NT!
+ ce1_corpse_flung_at_me: "Me arrojaron un cadáver" #NT!
+ ce1_corpse_flung_at_me_desc: "[flingee.GetName] cargó un cuerpo en una catapulta y lo arrojó hacia mi bodega." #NT!
+ ce1_corpse_flung_at_me_desc_second_perspective: "[flingee.GetName] cargó un cuerpo en una catapulta y lo arrojó a tu explotación" #NT!
+ ce1_corpse_flung_at_me_desc_third_perspective: "[flingee.GetName] cargó un cuerpo en una catapulta y lo arrojó a [owner.GetNamePossessive] sosteniendo" #NT!
+ ce1_meat_shower: "La ducha de carne" #NT!
+ ce1_meat_shower_desc: "[flinger.GetName] arrojó un cadáver a mi posesión, reduciéndolo a una lluvia de sangre y vísceras." #NT!
+ ce1_meat_shower_desc_second_perspective: "[flinger.GetName] arrojó un cadáver a tu posesión, reduciéndolo a una lluvia de sangre y vísceras." #NT!
+ ce1_meat_shower_desc_third_perspective: "[flinger.GetName] arrojó un cadáver a [owner.GetNamePossessive], reduciéndolo a una lluvia de sangre y vísceras." #NT!
+  
+ epidemic_events.5000.t: "¡Hacer algo!" #NT!
+ epidemic_events.5000.desc: "Llegan más informes desde [infected_county.GetName] mientras el [epidemic.GetName] continúa haciendo estragos. [church_person.GetTitledFirstName], después de haberme traído personalmente la última de las misivas, golpea mi escritorio con la mano.\n\n"¡La gente espera que hagamos algunos actos para ayudarlos!" [church_person.GetSheHe|U] insiste, señalando el mensaje.\n\n"Ahora, he visto este tipo antes. Todo lo que tenemos que hacer es purgar algunos de los animales inmundos que han estado acosando el área. La aflicción seguramente no durará ¡sin ellas!" [church_person.GetFirstNameNoTooltip|U] se recuesta satisfecho mientras reflexiono. "Es la voluntad de [ROOT.Char.GetFaith.HighGodName]."" #NT!
+ epidemic_events.5000.a: "Ya sabes, esas ratas parecen bastante sucias..." #NT!
+ epidemic_events.5000.b: "Los gatos obtienen #EMP en todas partes.#! Deben ser los culpables." #NT!
+ epidemic_events.5000.c: "Los perros están constantemente cubiertos de suciedad. ¡Deshazte de ellos!" #NT!
+ epidemic_events.5000.d: "Debemos sacrificar las ovejas." #NT!
+ epidemic_events.5000.e: ""No seas tan ridículo, [church_person.GetFirstNameNoTooltip]."" #NT!
+  
+ epidemic_events.5001.t: "¡Barran las puertas!" #NT!
+ epidemic_events.5001.desc: "Un apresurado golpe de pies me da apenas aviso antes de que la puerta se abra de golpe y [courtier.GetFirstName], con los ojos desorbitados, irrumpa en la habitación.\n\n"¡Mi [ROOT.Char.GetLadyLord]!" [courtier.GetSheHe|U] tartamudea, arrojando un montón de misivas de [ROOT.Char.Custom('GetWritingMaterial')] sobre mi escritorio. "Mi [ROOT.Char.GetLadyLord], acabo de regresar de [province.GetName], ¡y no #EMP creerías#! la devastación! ¡La muerte y la destrucción acechan la tierra! ¡Miles yacen muertos en las calles!"\n\nRevisando las pilas igualmente histéricas de [ROOT.Char.Custom('GetWritingMaterial')], intento darle sentido a todo. Lo último que supe fue que el brote en [province.GetName] fue bastante restringido..." #NT!
+ epidemic_events.5001.a: ""¡Apágalo! ¡Apaga #EMP todo! #!"" #NT!
+ epidemic_events.5001.b: "Confío en los responsables de [province.GetName]." #NT!
+ epidemic_events.5001.c: ""¡¿No crees que ya tengo suficientes cosas de qué preocuparme, [courtier.Custom('InsultNoun')]?!"" #NT!
+ epidemic_events.5001.d: "Lo mejor es enviar algo de ayuda mientras el problema es apenas incipiente." #NT!
+ epidemic_events.5001.e: "Tendrán que conformarse con eso." #NT!
+  
+ epidemic_events.5002.t: "El silencio de la orilla" #NT!
+ epidemic_events.5002.desc: "Mientras caminamos juntos, [steward.GetFirstName] me da un discurso sombrío sobre la epidemia que se extiende por [coastal_province.GetName]. A lo lejos podemos ver los cadáveres amontonados a lo largo de la costa y un barco abandonado varado cerca de ellos. Cuando me vuelvo hacia [steward.GetFirstNameNoTooltip], una mirada curiosa comienza a aparecer en el rostro de [steward.GetHerHis].\n\n "¿Qué pasaría si, mi [ROOT.Char.GetLadyLord]", comenzó [steward.GetSheHe], "¿y si simplemente hiciéramos que esos cuerpos no fueran un problema?" \n\nBrevemente desconcertado, poco a poco empiezo a desentrañar el plan. Después de todo, el barco fue abandonado y esos cuerpos deben ser eliminados de una forma u otra..." #NT!
+ epidemic_events.5002.a: "Me pregunto hacia dónde fluye esta agua." #NT!
+ epidemic_events.5002.a.tt: "Quizás podamos convertir este barco #EMP en el problema de otra persona#!..." #NT!
+ epidemic_events.5002.b: ""Cárgalo y déjalo a la deriva"." #NT!
+ epidemic_events.5002.b.success: "El barco nunca se vuelve a ver." #NT!
+ epidemic_events.5002.b.failure: "El barco llega a tierra unos días después." #NT!
+ epidemic_events.5002.b.criticalfailure: "El barco se hunde y los cuerpos regresan a la orilla" #NT!
+ epidemic_events.5002.c: "Merecen ritos funerarios adecuados." #NT!
+ epidemic_events.5002.d: "Bueno, al menos el barco parece estar en condiciones de navegar..." #NT!
+  
+ epidemic_events.5003.t: "Manos curativas" #NT!
+ epidemic_events.5003.desc: "Mi caballo mantiene alejada de mí la suciedad del camino mientras camino por las calles de [location.GetName], pero no se puede decir lo mismo de aquellos que caminan penosamente por él. Un campesino me lanza [peasant.GetHerselfHimself], con un brazo alrededor de un niño pequeño que tropieza.\n\n "¡Mi [ROOT.Char.GetLadyLord]! Por favor". [peasant.GetSheHe|U] suplica, empujando al niño hacia mí. "[child.GetSheHe|U] está muy enfermo. ¿Podrías dedicarle un simple toque para curar a [child.GetHerHim]?"" #NT!
+ epidemic_events.5003.a: ""¡Aléjame esa #EMP cosa#!!"" #NT!
+ epidemic_events.5003.b: "Bueno, dudo que esto ayude, pero..." #NT!
+ epidemic_events.5003.b.tt: "Los campesinos creen que el toque de un rey cura tiene sus ventajas y desventajas..." #NT!
+ epidemic_events.5003.b.criticalsuccess: "El niño es sanado milagrosamente" #NT!
+ epidemic_events.5003.b.success: "La infección persiste, pero parecen más felices." #NT!
+ epidemic_events.5003.b.failure: "El niño se enferma más" #NT!
+ epidemic_events.5003.c: "Sigue moviéndote, no los mires a los ojos..." #NT!
+  
+ epidemic_events.5004.t: "La marea humana" #NT!
+ epidemic_events.5004.desc: "Momentos después de que noté por primera vez el estruendo y los gritos, las puertas de mi sala del trono se abren de golpe y mis guardias son arrastrados impotentes por una marea turbulenta de campesinos.\n\nJoven, viejo, mujer, hombre, todo tipo de plebeyos están aquí. Uno de ellos da un paso adelante para dirigirse a mí.\n\n"¡Mi [ROOT.Char.GetLadyLord]!" [peasant_1.GetFirstName] comienza, señalando a la multitud detrás de [peasant_1.GetHerHim]. "Solicitamos su apoyo y su protección a [epidemic_scope.GetName], como es su deber para con nosotros."\n\nMis guardias, reorganizados y empuñando armas, me miran expectantes." #NT!
+ epidemic_events.5004.a: ""¡Entrad todos!"" #NT!
+ epidemic_events.5004.a.new_courtiers: "Todos los nuevos cortesanos obtienen #positive_value 40#! opinión de #color_white tú#!" #NT!
+ epidemic_events.5004.a.old_courtiers: "Todos los cortesanos anteriores pierden #negative_value 10#! opinión de #color_white tú#!" #NT!
+ epidemic_events.5004.b: "No necesito disuadirlos de este plan tonto..." #NT!
+ epidemic_events.5004.b.success: "Entienden la necesidad del aislamiento" #NT!
+ epidemic_events.5004.b.failure: "Hay que sacarlos por la fuerza" #NT!
+ epidemic_events.5004.c: "¡Guardias! ¡Sácalos de aquí!" #NT!
+  
+ epidemic_events.5005.t: "¿Vidas o oro?" #NT!
+ epidemic_events.5005.desc: "El oro es el alma de un reino y los comerciantes aportan gran parte de esa riqueza. Sin embargo, [epidemic_scope.GetName] todavía se extiende por el mismo reino y [steward.GetFirstName] me ha traído misivas desde las provincias costeras ricas en comercio.\n\n"Podemos controlar este brote, mi [ROOT.Char.GetLadyLord]". [steward.GetFirstNameNoTooltip] dice, con lo que parece una confianza engañada. "Exigir que todos los comerciantes se secuestren antes de llevar sus productos a los mercados garantizará que no se infecten".\n\nPero, como sugiere el resto tácito de la frase, hay pocas posibilidades de que esto no perjudique la afluencia de valiosos impuestos. ." #NT!
+ epidemic_events.5005.a: "Que sean cuarenta días y golpead a los que no estén de acuerdo." #NT!
+ epidemic_events.5005.a.coastal_quarantine: "Cada [realm|E] provincia costera" #NT!
+ epidemic_events.5005.a.landholders: "Todo $barons_and_minor_landholders_vassals$" #NT!
+ epidemic_events.5005.b: "Deberán permanecer aislados durante veinte días después de su aterrizaje." #NT!
+ epidemic_events.5005.b.success: "Entienden la necesidad del aislamiento" #NT!
+ epidemic_events.5005.b.failure: "Hay que sacarlos por la fuerza" #NT!
+ epidemic_events.5005.c: "No podemos arriesgarnos a alterar la economía." #NT!
+  
+ epidemic_events.5006.t: "No es para reirse" #NT!
+ epidemic_events.5006.desc: "Estos días, el sonido de las risas resuena en los pasillos de la corte. Es extraño, dado el [epidemic_scope.GetName] que sigue asolando el campo. Agarro a [councillor.GetFirstName] cuando [councillor.GetSheHe] pasa y exijo saber qué está pasando.\n\n"¡Vaya, mi [ROOT.Char.GetLadyLord]!", comienza [councillor.GetSheHe] con una amplia sonrisa, "¡es el último consejo de los médicos! Están seguros de que [epidemic_scope.GetNameNoTooltip] se propaga por el mal humor y las actitudes sombrías, así que, por supuesto, #EMP es lógico que también sea cierto lo contrario".\n\n[councillor.GetFirstNameNoTooltip] termina la declaración, previsiblemente, estallando en carcajadas [councillor.GetHerselfHimself]." #NT!
+ epidemic_events.5006.a: "¡Tienes toda la razón! ¡Ja, ja, ja! ¡Ji, ji!" #NT!
+ epidemic_events.5006.b: "La súplica a [ROOT.Char.GetFaith.HighGodName] es nuestra única salvación." #NT!
+ epidemic_events.5006.c: "Bueno, tal vez haya algo de eso..." #NT!
+ epidemic_events.5006.c.success: "De hecho te sientes un poco mejor" #NT!
+ epidemic_events.5006.c.failure: "Pareces un poco poco convincente." #NT!
+ epidemic_events.5006.d: "Esto es completamente ridículo." #NT!
+  
+ epidemic_events.5007.t: "Brujería y salvación" #NT!
+ epidemic_events.5007.desc: "¿Qué conmoción es esta? Una multitud, encabezada por la voz aullante de [accuser.GetFirstName], rodea a alguna alma desafortunada. Siguiendo adelante, finalmente descubro a [herbalist.GetFirstName] defendiendo desafiantemente a [herbalist.GetHerselfHimself], incluso cuando la voz de [accuser.GetFirstNamePossessiveNoTooltip] suena aún más fuerte.\n\n" y, además, en el momento en que saliste a recolectar plantas para tu llamada #EMP artesanía#!, ¡El maldito [epidemic_scope.GetName] comenzó a devastar nuestras tierras! ¡Tú eres #EMP claramente#! la causa, tú [herbalist.Custom('InsultAdjective')] [herbalist.GetFirstName]0!"\n\n[herbalist.GetFirstName]1 señala con un dedo y dispara mientras la multitud murmura enojada. Esto se está yendo rápidamente de las manos." #NT!
+ epidemic_events.5007.a: ""¡Suficiente! La herboristería es un arte noble"." #NT!
+ epidemic_events.5007.b: "[accuser.GetFirstNameNoTooltip] tiene razón. No podemos ser demasiado cuidadosos." #NT!
+ epidemic_events.5007.c: ""Pensemos en esto, ¿de acuerdo?"" #NT!
+ epidemic_events.5007.c.success: "Logras convencer a la multitud." #NT!
+ epidemic_events.5007.c.failure: "La multitud ignora tus argumentos." #NT!
+ epidemic_events.5007.d: ""¡Basta! Cesen sus acusaciones infundadas, [accuser.GetFirstNameNoTooltip]."" #NT!
+ epidemic_events.5007.e: "¿Tal vez si [herbalist.GetFirstNameNoTooltip] promete abandonar el oficio...?" #NT!
+  
+ epidemic_events.5008.t: "Sano y salvo" #NT!
+ epidemic_events.5008.desc: "Esto no es exactamente #EMP bueno#!, esto [epidemic_scope.GetName], pero a medida que pasa el tiempo veo algunos beneficios.\n\nDespués de todo, no he tenido ni una sola visita durante varios días, ¡tal como me gusta! – e incluso los sirvientes están escaseando. Es difícil decir en qué medida esto me impide contraer la enfermedad, pero los resultados me sorprenden.\n\nAun así, me pregunto: ¿tal vez debería hacer un esfuerzo para mostrar mi cara? Es un #EMP riesgo#!..." #NT!
+ epidemic_events.5008.a: "¡Nadie puede verme sin mi permiso!" #NT!
+ epidemic_events.5008.b: "Debo ser visto por mis súbditos." #NT!
+ epidemic_events.5008.c: "¡Qué gran excusa es la [epidemic_scope.GetNameNoTooltip]!" #NT!
+  
+ epidemic_events.5009.t: "Olor fingido" #NT!
+ epidemic_events.5009.desc: "En momentos como estos, es mejor tener cuidado con los olores extraños. Éste, sin embargo, emana de una esquina de la plaza del mercado y es realmente fragante.\n\n "¡Consigue tus bolsitas aquí! ¡Sólo se utilizan las mejores y más frescas hierbas!" El puesto del astuto comerciante estaba cubierto de diversos aromáticos, y [merchant.GetSheHe] sostiene una bolsa llena con ellos en cada mano mientras [merchant.GetSheHe] vende las mercancías. [merchant.GetSheHe|U] me nota y me extiende uno para que lo pruebe. "¡Sólo lo mejor, mi[ROOT.Char.GetLadyLord], te mantendrá a salvo de [epidemic_scope.GetName]!"\n\nTomo el sobre de la mano que me ofrece. #EMP sí#! parece algo que mantendría alejado el miasma..." #NT!
+ epidemic_events.5009.a: ""¿Cuántos tienes a la venta?"" #NT!
+ epidemic_events.5009.b: ""Lo compraré, pero no por ese precio"." #NT!
+ epidemic_events.5009.b.success: "[merchant.GetSheHe|U] acepta de mala gana" #NT!
+ epidemic_events.5009.b.failure: "[merchant.GetSheHe|U] se niega a ceder" #NT!
+ epidemic_events.5009.b.criticalfailure: "[merchant.GetSheHe|U] se niega airadamente a vender" #NT!
+ epidemic_events.5009.c: "Uno no podría hacer daño." #NT!
+ epidemic_events.5009.d: "Estos no salvarán un alma." #NT!
+  
+ epidemic_events.5010.t: "[capital.GetBaseNameNoTierPossessiveNoTooltip] Calles asfixiadas" #NT!
+ epidemic_events.5010.opening: "Por fin ha llegado. La temible peste acecha las calles de [capital.GetBaseNameNoTier] y su guadaña desenfrenada arrasa con todo lo que encuentra a su paso." #NT!
+ epidemic_events.5010.santiago: "Son pocos los pasos que recorren el Camino de Santiago. Sólo los más valientes y fervientes siguen recorriendo el camino hacia la ciudad asolada por la peste, buscando la salvación del Todopoderoso, aunque ellos mismos sucumban a la repugnante enfermedad. Las hermosas plazas, tan a menudo llenas de alegría y de intercambios cordiales, son el refugio de los condenados. Los muertos y los moribundos resuena aquí, lastimosamente solos." #NT!
+ epidemic_events.5010.london: "Las suaves mareas del Támesis ahora transportan algo más que sedimentos y comerciantes. Cadáveres hinchados y blanqueados por el sol son depositados río abajo, con sus rostros agonizantes en una silenciosa sonrisa rictus, bubones reventados lívidos contra la piel pálida.\n\nLas antiguas murallas romanas, tantas veces guardianas contra las incursiones de los vivos, ahora están reforzadas con los muertos. Las calles estrechas y sinuosas se han convertido en un laberinto de cadáveres apilados, y las ratas utilizan los montones como refugio y sustento." #NT!
+ epidemic_events.5010.rome: "¡Roma! Roma gloriosa. La capital del mundo.\n\nInnumerables almas han recorrido estos venerables caminos, pero las filas de los muertos aumentan más rápidamente día a día. El flagelo barre las calles, arruinando cada bonita plaza y cada glorioso arco. Los viejos mármoles permanecen en silencio, indefensos ante la tortura de los vivos. Los moribundos pronuncian su último estertor, en sus labios las palabras que apenas se atrevían a pensar en tiempos mejores:\n\n"¿Cuán perpetua es la Ciudad Eterna?"" #NT!
+ epidemic_events.5010.paris: "Las sinuosas aguas del Sena bañan alegremente las costas de la Île de la Cité, desmintiendo la catástrofe en la tierra.\n\nLos enfermos arrastran los pies desesperadamente entre edificios destartalados. Donde una vez los panaderos pregonaban sus productos yacen montones de muertos, los vivos incapaces de seguir el ritmo de la marea de enfermedades que constriñen la ciudad.\n\nLa escena sería casi pacífica, si no fuera por los gemidos y la tos de los moribundos." #NT!
+ epidemic_events.5010.constantinople: "La ciudad del deseo del mundo. La Reina de las Ciudades. La puerta a la felicidad. La encrucijada del mundo.\n\nEstos nombres grandiosos y resplandecientes se otorgan a la poderosa metrópolis, que cubre su resplandeciente promontorio desde tiempos inmemoriales. Tan venenosamente irónicos se sienten ahora esos mismos nombres, con los enfermos y debilitados abriéndose camino miserablemente entre los cadáveres de aquellos que ya han sucumbido.\n\n¿Se sienten reconfortados con esas glorias pasadas cuando mueren?" #NT!
+ epidemic_events.5010.prague: "Los mercados y plazas comerciales de la ciudad, que habitualmente están llenos de actividad, han quedado en un silencio sepulcral. Los orgullosos puentes que cruzan el Moldava están obstruidos por los enfermos, los muertos provocan atascos en medio de los tramos de abajo.\n\nVyšehrad contempla con tristeza la carnicería, sus muros de popa fundados por el duque Krok hace tantas generaciones son incapaces de detener a un asesino tan mortal y silencioso. como la temida pestilencia.\n\nLa Ciudad de las Cien Agujas muere lentamente, y esos alardeados campanarios no pueden evitar que el cielo se caiga." #NT!
+ epidemic_events.5010.toledo: "¿Qué ciudad es más conocida por su acero que Toledo? Las aguas del Tajo se han utilizado para apagar las hojas de un millón de espadas, pero hay algunas amenazas de las que ninguna artesanía puede proteger.\n\nEs una sombría ironía que un lugar tan diverso se una de repente en ante tanta adversidad. La enfermedad mata sin prejuicios, derribando a todos en todos los ámbitos de la vida.\n\nLas antiguas herrerías guardan silencio. Quienes los trabajaron dedican sus manos callosas a la oración en lugar del trabajo duro, con la esperanza de que lo divino pueda salvarlos donde un arma no lo haría." #NT!
+ epidemic_events.5010.cairo: "Antigua sin medida, El Cairo ha sido testigo del ascenso y caída de ciudades hermanas en Menfis y Heliópolis, pero aún se mantiene fuerte. Ha soportado mucho, pero tendrá que soportar aún más.\n\nEl Nilo, el río de la vida, hoy lleva consigo la muerte a su paso. Los muertos malignos son arrastrados por sus aguas para pudrirse en los deltas fangosos donde se encuentra con el mar, pero cada vez son más los que los reemplazan. Los nilómetros se asfixian con los cuerpos, arrojados desesperadamente a sus gargantas para ahorrar tiempo, ahorrar espacio, salvar a los vivos.\n\nLa vieja ciudad se marchita." #NT!
+ epidemic_events.5010.kanyakubja: "Nadie sabe cuántas generaciones han vivido y muerto aquí, pero todos coinciden en que la ciudad en sí es increíblemente antigua. Se necesitará toda su experiencia y sabiduría para sobrevivir a esta amenaza.\n\nLas famosas destilerías de perfumes continúan produciendo attars, botellas de piel de camello llenas hasta el borde y que las personas sanas llevan alrededor del cuello para protegerse de los malos olores.\n\nEn otros lugares, sin embargo , los únicos sonidos que resuenan en las paredes son los gemidos de los muertos y moribundos, con sus cuerpos apilados a alturas imposibles en los estrechos callejones." #NT!
+ epidemic_events.5010.varanasi: "Es más conocida como la Ciudad de la Luz, pero Varanasi ha sido la Ciudad de los Muertos durante el mismo tiempo. Parece apropiado, entonces, que sea el anfitrión de la más mortífera de las pestilencias.\n\nEn tiempos más felices, el Ganges rebosa vida; ahora sólo lleva a los muertos. Sus cadáveres hinchados quedan atrapados en las orillas del río, expulsados ​​a patadas por las pocas personas vivas que se atreven a aventurarse afuera.\n\nLos sonidos del llanto y la tos rebotan en las antiguas piedras de esta ciudad antediluviana." #NT!
+ epidemic_events.5010.fallback: "Las calles sinuosas y las viviendas amontonadas, normalmente repletas de masas, permanecen en silencio. Sólo los gemidos lastimeros de los afligidos y las toses secas y húmedas de aquellos que pronto se unirán a los muertos en aumento rompen el silencio." #NT!
+ epidemic_events.5010.a: "Las donaciones de limosnas pueden al menos facilitar el paso de los moribundos." #NT!
+ epidemic_events.5010.b: "#DIE1 La ciudad...#! #DIE2 mi preciosa ciudad...#!" #NT!
+ epidemic_events.5010.b.win: "Decides reconstruir" #NT!
+ epidemic_events.5010.b.neutral: "Te preocupas por los desafíos" #NT!
+ epidemic_events.5010.b.lose: "Te hundes en una sensación de pavor" #NT!
+  
+  #AGOT Modified 
+ #epidemic_events.5900.t: "La muerte negra" #NT!
+ epidemic_events.5900.t: "Gran enfermedad primaveral" #NT!
+  #AGOT Modified 
+ #epidemic_events.5900.desc: "La pestilencia acecha la tierra.\n\nEspantosos y burbujeantes bubones crecen sobre las víctimas, cuyas lastimeras llamadas de ayuda son sofocadas lentamente mientras se ahogan en sus propias gargantas llenas de pus.\n\nDesde el pilluelo más humilde hasta el emperador más festejado , todos temen la guadaña indiscriminada de la plaga despiadada. Aquellos que sobrevivan deben observar impotentes cómo todo a su alrededor perece.\n\nLos devotos buscan en lo divino un salvador, y los poderosos sus riquezas, pero ninguno puede estar realmente a salvo. Horribles zarcillos se extienden por la tierra, constriñéndola hasta que ya no respira.\n\nLa Gran Enfermedad Primaveral está sobre nosotros. [ROOT.Char.GetFaith.HighGodName] sálvanos a todos." #NT!
+ epidemic_events.5900.desc: "La pestilencia acecha la tierra.\n\nEspantosos y burbujeantes bubones crecen sobre las víctimas, cuyas lastimeras llamadas de ayuda son sofocadas lentamente mientras se ahogan y se ahogan en sus propias gargantas llenas de pus.\n\nDesde el pilluelo más humilde hasta los señores más ricos, todos temen la guadaña indiscriminada de la plaga despiadada. Aquellos que sobrevivan deben observar impotentes cómo todo a su alrededor perece.\n\nLos devotos buscan en lo divino un salvador, y los poderosos sus riquezas, pero ninguno puede estar realmente a salvo. Horribles zarcillos se extienden por la tierra, constriñéndola hasta que ya no respira.\n\nLa Gran Enfermedad Primaveral está sobre nosotros. [ROOT.Char.GetFaith.HighGodName] sálvanos a todos." #NT!
+ epidemic_events.5900.christian: ""Padre nuestro que estás en los cielos, santificado sea tu nombre..."" #NT!
+ epidemic_events.5900.fallback: "Que perseveremos en estos tiempos sombríos." #NT!
+  
+ epidemic_events.5901.t: "Hasta el codo" #NT!
+ epidemic_events.5901.desc: "El cadáver yace sobre la mesa, rodeado por varios equipos macabros, así como por mi médico [physician.GetFirstName] y por mí.\n\n"No estoy seguro, mi [ROOT.Char.GetLadyLord]", comenzó [physician.GetFirstNameNoTooltip] nerviosamente, [physician.GetHerHis] con la mirada fija firmemente. a [physician.GetHerHis] pies. "No sé qué podemos sacar de este cadáver..."\n\n[physician.GetSheHe|U] sabe muy bien lo que #EMP podríamos hacer#!, [physician.GetSheHe] simplemente no quiere que se lo pregunte a [physician.GetHerHim]. Diseccionar el cadáver de un portador de plaga podría brindarnos algunos consejos valiosos sobre cómo combatirlo. La única pregunta es si existe algún riesgo de contraer esta terrible aflicción..." #NT!
+ epidemic_events.5901.a: ""¿Por qué no lo hacemos juntos?"" #NT!
+ epidemic_events.5901.a.tt: "Información obtenida" #NT!
+ epidemic_events.5901.a.tt.plague: "Plaga atrapada" #NT!
+ epidemic_events.5901.b: "Exijo una disección." #NT!
+ epidemic_events.5901.c: "Muy bien, prescindiremos." #NT!
+  
+ epidemic_events.5902.t: "Cruces fronterizos" #NT!
+ epidemic_events.5902.desc: "Desmontando apresuradamente, me abro paso entre la multitud de soldados en [border_province.GetName], dentro del condado fronterizo de [border_county.GetNameNoTier]. La misiva de mi mariscal [marshal.GetFirstName] había solicitado mi juicio y presencia, y mientras veo [marshal.GetHerHim] puedo ver por qué.\n\nUna masa andrajosa de gente, cansada y hambrienta, se encuentra insegura ante nosotros. Claramente son refugiados de la brutal plaga que continúa asolando tierras lejanas, pero no hay garantía de que hayan salido ilesos.\n\nIncluso ahora, puedo ver a un hombre en la manada tosiendo y tosiendo. [marshal.GetFirstNameNoTooltip] cubre la boca de [marshal.GetHerHis] con incertidumbre." #NT!
+ epidemic_events.5902.a: "No podemos arriesgarnos. Matarlos a todos." #NT!
+ epidemic_events.5902.b: "Quizás podamos establecer algunos campamentos temporales." #NT!
+ epidemic_events.5902.c: "Envíalos lejos." #NT!
+ epidemic_events.5902.d: "Déjalos pasar." #NT!
+  
+ epidemic_events.5903.t: "Placeres simples, descartados" #NT!
+ epidemic_events.5903.desc: ""¡[ROOT.Char.GetFirstName]! ¡No!" La voz de [family.GetFirstName] resuena por encima del sonido de mi caballo mientras camina por el sendero. [family.GetSheHe|U] corre a mi lado, mirándome con reproche.\n\n"Has oído lo que viene en el camino. Toda esa muerte y enfermedad..." [family.GetSheHe] retuerce las manos de [family.GetHerHis] con tristeza. "Debes quedarte aquí, sano y salvo dentro de los muros. Por favor."\n\nSolo puedo suspirar. Si hubiera sido un poco más rápido al salir por la puerta, ahora estaría viajando por el campo, disfrutando felizmente de la naturaleza." #NT!
+ epidemic_events.5903.a: "[family.GetSheHe|U] probablemente tenga razón." #NT!
+ epidemic_events.5903.b: ""¡Bah, estaré bien!"" #NT!
+  
+ epidemic_events.5904.t: "Predicadores del fin del mundo" #NT!
+ epidemic_events.5904.desc: "El mercado suele tener bastante ajetreo y bullicio, pero hoy en día hay una verdadera cacofonía resonando por todo el lugar. Veo al culpable; una figura, gritando a todo pulmón.\n\n"¡El fin de los tiempos está sobre nosotros!" [doomsday_preacher.GetSheHe] se lamenta, arengando a algunos transeúntes. "¡Todos pereceremos! ¡Así está escrito!"\n\nLas motas de saliva que salen volando de la boca del predicador disgustan a la mayoría, pero algunos de los espectadores comienzan a estar de acuerdo en voz alta." #NT!
+ epidemic_events.5904.a: "¡[doomsday_preacher.GetSheHe|U] tiene razón! ¡Debemos prepararnos!" #NT!
+ epidemic_events.5904.b: "¿Guardias? Arresten ese [doomsday_preacher.GetWomanMan]." #NT!
+ epidemic_events.5904.c: ""Muéstrame dónde está escrito. Demuestra tus palabras"." #NT!
+ epidemic_events.5904.c.tt.success: "Les demuestras que están equivocados" #NT!
+ epidemic_events.5904.c.tt.failure: "Pierdes el debate" #NT!
+ epidemic_events.5904.d: ""¡No escuches a [doomsday_preacher.GetHerHim]!"" #NT!
+ epidemic_events.5904.d.tt: "Todas las baronías que rodean [doomsday_province.GetName] tienen una probabilidad de #color_white 15%#! de obtener el mismo modificador." #NT!
+  
+ epidemic_events.5905.t: "Extendiendo los nervios" #NT!
+ epidemic_events.5905.desc: "Una vez que el shock inicial de los apostadores ante mi presencia se ha disipado, esta taberna ha resultado ser un buen lugar para relajarse. Sin embargo, el camarero parece algo nervioso.\n\n"¿Sabes, mi [ROOT.Char.GetLadyLord], lo de la gran pestilencia? ¿Has oído lo que le está haciendo a la gente? ¡Les hace #EMP [ROOT.GetCharacter.Custom('GetPlagueEffect')]!#!" [peasant.GetSheHe] hacer gestos frenéticos . "¡Eso es lo que dicen! ¿Cómo sobreviviremos algún día?"\n\nLos siempre ocupados #EMP 'ellos'#! están una vez más haciendo un buen trabajo..." #NT!
+ epidemic_events.5905.a: ""No hay necesidad de entrar en pánico. Créanme, soy médico"." #NT!
+ epidemic_events.5905.a.tt: "Todas las baronías que rodean [province.GetName] tienen una probabilidad de #color_white 50%#! de obtener el mismo modificador." #NT!
+ epidemic_events.5905.b: ""¿Eso te parece particularmente probable?"" #NT!
+ epidemic_events.5905.b.tt.success: "Los persuadiste con éxito" #NT!
+ epidemic_events.5905.b.tt.failure: "Parecen poco convencidos" #NT!
+ epidemic_events.5905.c: "Debatir sobre [peasant.GetHerHim] no hará que [peasant.GetHerHim] me crea de todos modos." #NT!
+  
+ epidemic_events.5906.t: "Itinerante, delirante" #NT!
+ epidemic_events.5906.desc: "Los guardias no suelen ser tan directos cuando se trata de molestarme en la sala del consejo, pero hoy irrumpieron rápidamente, con mi mariscal [marshal.GetFirstName] a la cabeza. Detrás de ellos, arrastrado sin ceremonias, hay una figura lastimera con los ojos muy abiertos y lo que parece ser un látigo fuertemente agarrado en las manos de [flagellant.GetHerHis].\n\n"Encontramos a [flagellant.GetHerHim] en [doomsday_province.GetName], deambulando por las calles, golpeando a [flagellant.GetHerselfHimself] con sangre con esa cosa." [marshal.GetFirstNameNoTooltip|U] indica el látigo. "[flagellant.GetSheHe|U] está dando a los lugareños los sustos de sus vidas, despotricando sobre cómo la poderosa pestilencia está en camino hacia nosotros y todos debemos arrepentirnos"." #NT!
+ epidemic_events.5906.a: ""¡Tú y los de tu tipo están destruyendo la fe [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]!"" #NT!
+ epidemic_events.5906.a.tt.success: "Argumentas exitosamente tu punto" #NT!
+ epidemic_events.5906.a.tt.failure: "El flagelante se mantiene decidido" #NT!
+ epidemic_events.5906.b: "Quizás [flagellant.GetSheHe] tenga razón..." #NT!
+ epidemic_events.5906.c: ""Bloquear [flagellant.GetHerHim], [marshal.GetFirstNameNoTooltip]."" #NT!
+ epidemic_events.5906.d: "Suelte [flagellant.GetHerHim]. No están haciendo ningún daño." #NT!
+ fervor_loss_flagellants: "Flagelantes vagando libremente" #NT!
+  
+ epidemic_events.5907.t: "Un poco de cosquillas" #NT!
+ epidemic_events.5907.desc: "Mis párpados se abren cuando el sol de la mañana brilla sobre ellos. Me pongo de pie, me estiro, bostezo y... #EMP tose#!.\n\nMy me duele un poco la garganta. Mis ojos también están algo más turbios de lo habitual. Incluso siento un ligero resoplido.\n\nOh, no. Por favor, yo no. Líbrame de este destino. Dime, oh [ROOT.Char.GetFaith.HighGodName], que la temida peste no se ha extendido por estas tierras y me ha hecho su víctima..." #NT!
+ epidemic_events.5907.a: "¡Mi médico me dará tratamientos de primera línea!" #NT!
+ epidemic_events.5907.b: "No es nada. Seguramente no es nada." #NT!
+ epidemic_events.5907.b.success: "En realidad no fue nada" #NT!
+ epidemic_events.5907.b.failure: "Es sólo un resoplido" #NT!
+ epidemic_events.5907.b.criticalfailure: "Te enfermas de verdad" #NT!
+  
+ epidemic_events.5908.t: "Apiladores rígidos" #NT!
+ epidemic_events.5908.desc: "El primer suplicante del día se acerca a mí y está claro que no es nadie de alto rango. La suciedad y la mugre debajo de las uñas de [gravedigger.GetHerHis] lo confirman, incluso si [gravedigger.GetSheHe] claramente se ha esforzado en parecer presentable.\n\n"Represento a los sepultureros de [province.GetName], mi [ROOT.Char.GetLadyLord]", comienza [gravedigger.GetSheHe], "y tenemos Una petición tuya. La temible plaga se acerca lentamente a nosotros mientras hablamos: nuestra noble profesión pronto necesitará mucho, eso es seguro."\n\n"Seremos nosotros los que manejaremos los cuerpos, los que correremos mayor riesgo. ". [gravedigger.GetSheHe|U] continúa. "A cambio, sólo pedimos un pequeño aumento como recompensa. ¿Podría Su Excelencia prescindir de la moneda?"" #NT!
+ epidemic_events.5908.a: ""Cavarás tu propia tumba si vuelves a preguntar"." #NT!
+ epidemic_events.5908.b: "Asegúrese de que reciban una compensación justa." #NT!
+ epidemic_events.5908.c: ""¡Bah! Hay muchos más en el lugar de donde vienes"." #NT!
+  
+ epidemic_events.5999.t: "El horizonte cada vez más oscuro" #NT!
+ epidemic_events.5999.desc: "Misivas y mensajes se extienden sobre mi escritorio. Todos ellos tratan de un tema en particular. El pánico se desprende de las palabras, formando a su vez un charco de temor que crece rápidamente en mi estómago.\n\nLa enfermedad comienza con escalofríos y fiebre antes de que se formen bubones necróticos debajo de las axilas del desafortunado. Su respiración se convierte en jadeos miserables entre expulsiones de sangre, los labios y los dedos de los pies se vuelven de un negro lívido. Luego mata, indiscriminadamente; ricos y pobres, jóvenes y viejos, duques y oprimidos.\n\nLos informes provienen de tierras lejanas por ahora, pero mis dedos temblorosos rastrean las fechas.\n\nSe está acercando." #NT!
+ epidemic_events.5999.a: "¡Ja! Déjalos morir." #NT!
+ epidemic_events.5999.a.tt: "¡Está tan lejos! También podemos alegrarnos de su desgracia." #NT!
+ epidemic_events.5999.b: "¡Necesitamos hacer algo!" #NT!
+ epidemic_events.5999.b.tt: "¡Cierra los edificios! ¡Puertas de contraventanas! ¡Plantamos macizos de rosas!" #NT!
+ epidemic_events.5999.c.christian: "#EMP "Miré, y he aquí un caballo verde..."#!" #NT!
+ epidemic_events.5999.c.notchristian: "Un mal presagio de los tiempos venideros..." #NT!
+  
+ epidemic_events.0110.t: "Del polvo" #NT!
+ epidemic_events.0110.desc: "Finalmente, la plaga ha abandonado el reino y debemos aprovechar esto como una oportunidad para levantarnos del caos que dejó a su paso.\n\nAhora emergemos de los escombros del viejo mundo y ha llegado el momento de considerar el nuevo. ." #NT!
+ epidemic_events.0110.desc.new_capital: "\n\nGrandes supervivientes ya han comenzado a mudarse a [new_preferred_capital.GetName] como su nuevo refugio, y esto podría resultar una oportunidad emocionante para una nueva capital." #NT!
+ epidemic_events.0110.a: "[new_preferred_capital.GetNameNoTierNoTooltip|U] sería un excelente capital nuevo." #NT!
+ epidemic_events.0110.b: "No debemos escatimar gastos para reconstruir." #NT!
+ epidemic_events.0110.c: "No hay nada que yo pueda hacer." #NT!
+ every_county_infected_10_years: "Cada [county|E] que ha sido infectado en los últimos 10 años" #NT!
+  
+ epidemic_events.alert_title: "Plaga en [infected_county.GetName]" #NT!
+ epidemic_events.alert_description: "Ha aparecido una plaga en [infected_county.GetName]" #NT!
+  
+ msg_epidemic_infection: "[epidemic.GetNameNoTooltip] diferenciales" #NT!
+ msg_epidemic_infection_desc_1: "[epidemic.GetName] se ha extendido en [LEFT_TITLE.GetName]" #NT!
+ msg_epidemic_infection_desc_2: "[epidemic.GetName] se ha extendido en [LEFT_TITLE.GetName] y [RIGHT_TITLE.GetName]" #NT!
+ msg_epidemic_infection_desc: "[epidemic.GetName] se ha extendido en [LEFT_TITLE.GetName], [RIGHT_TITLE.GetName] y $message_consolidation_others$" #NT!

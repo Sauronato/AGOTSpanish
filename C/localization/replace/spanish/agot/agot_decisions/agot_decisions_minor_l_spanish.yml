@@ -8,7 +8,7 @@
  raise_pirate_kingdom_decision: "Declarar un Reino Pirata"
  raise_pirate_kingdom_decision_desc: "El pueblo de Las Hermanas fueron una vez reyes piratas independientes, antes de la Violación de las Hermanas y la Guerra de los Mil Años a Través del Agua. ¡Ahora, nuestro poderío ha vuelto a crecer y es hora de romper el yugo de [ROOT.Char.GetLiege.GetNameNicknamedRegnal]!"
  raise_pirate_kingdom_decision_tooltip: "Declararás tu independencia, elevando a las Tres Hermanas al lugar que les corresponde como reino pirata."
- raise_pirate_kingdom_decision_confirm_text_desc: "¡Por las olas y los cielos!"
+ raise_pirate_kingdom_decision_confirm: "¡Por las olas y los cielos!" #NT!
   
  defy_winter_lords_decision: "Desafía a los Señores del Invierno"
  defy_winter_lords_decision_desc: "Los nacidos de la piedra no conocen más que las burlas de los norteños, que no nos consideran mejores que los salvajes. Skagos fue una vez libre e independiente de los Señores del Invierno, y así será una vez más. ¡Nuestro poder hará temblar a [ROOT.Char.GetLiege.GetNameNicknamedRegnal]!"
@@ -70,24 +70,6 @@
  agot_weirwood_events.0002.a: "¡Me vendría bien una mascota!"
  agot_weirwood_events.0002.b: "El jardinero debería deshacerse de esta cosa..."
   
- disallow_petitioners_decision: "Rechazar peticionarios"
- disallow_petitioners_decision_tooltip: "Desactiva la posibilidad de que los vasallos te pidan."
- disallow_petitioners_decision_desc: "¡Mis vasallos no podrán presentar sus peticiones ante mí!"
- disallow_petitioners_decision_confirm: "No veré a ningún peticionario por ahora."
- allow_petitioners_decision: "Permitir peticionarios"
- allow_petitioners_decision_tooltip: "Habilita la posibilidad de que los vasallos te pidan."
- allow_petitioners_decision_desc: "Mis vassas pueden presentar peticiones ante mí."
- allow_petitioners_decision_confirm: "¡Déjales entrar!"
-  
- disallow_hommage_decision: "Rechazar el homenaje de vasallo"
- disallow_hommage_decision_tooltip: "Desactiva la posibilidad de que los vasallos te rindan homenaje."
- disallow_hommage_decision_desc: "Mis vasallos ya no podrán rendirme homenaje."
- disallow_hommage_decision_confirm: "No veré a ninguno de ellos por ahora."
- allow_hommage_decision: "Permitir homenaje de vasallo"
- allow_hommage_decision_tooltip: "Habilita la posibilidad de que los vasallos te rindan homenaje."
- allow_hommage_decision_desc: "Mis vasallos vendrán a rendirme homenaje."
- allow_hommage_decision_confirm: "¡Déjales entrar!"
-  
  recruit_forder_specialist_decision: "Recluta al especialista Vadeador"
  recruit_forder_specialist_decision_desc: "Recluta a un Comandante que no solo sepa cómo cruzar ríos de manera efectiva, sino que también sea un luchador hábil cuando lo hagan."
  recruit_forder_specialist_decision_tooltip: "Un Comandante con el rasgo Vadeador se unirá a tu corte."
@@ -99,3 +81,30 @@
  stress_loss_uncouth_decision_confirm: "¿Quién necesita bañarse?"
  uncouth_stopped_cutting: "Cabello Sin Cortar"
  uncouth_stopped_cutting_desc: "Este personaje ha dejado de cortarse el pelo, creando una apariencia descuidada."
+  
+ agot_commission_crown_decision: "Encargar una nueva corona" #NT!
+ agot_commission_crown_decision_effects_tooltip: "Encargarás un nuevo artefacto de corona." #NT!
+ agot_commission_crown_decision_tooltip: "Encargarás una nueva corona" #NT!
+ agot_commission_crown_decision_desc: "En Poniente, a pocos se les permite poseer una corona. Y menos aún tienen la autoridad para llevarla. Ha llegado el momento de crear un nuevo símbolo de poder que represente y legitime mi reinado." #NT!
+ agot_commission_crown_decision_confirm: "¡Invoca al herrero!" #NT!
+ agot_commission_crown_button: "Elige Corona" #NT!
+ agot_commission_crown_dynasty_choice_loc: "Basado en mi linaje" #NT!
+ agot_commission_crown_dynasty_choice_tooltip: "Crear una corona basada en mi linaje." #NT!
+ agot_commission_crown_seat_choice_loc: "Basado en mis títulos de propiedad" #NT!
+ agot_commission_crown_seat_choice_tooltip: "Crea una corona basada en mis títulos de propiedad." #NT!
+ agot_commission_crown_faith_choice_loc: "Basado en mi fe" #NT!
+ agot_commission_crown_faith_choice_tooltip: "Crea una corona basada en mi fe." #NT!
+ agot_commission_crown_character_choice_loc: "Corona única" #NT!
+ agot_commission_crown_character_choice_tooltip: "Crea una corona única." #NT!
+  
+ agot_look_into_the_flames_decision: "Mira dentro de las llamas" #NT!
+ agot_look_into_the_flames_decision_confirm: "La noche es oscura y llena de terrores." #NT!
+ look_into_the_flames_decision_desc: "Se dice que [ROOT.Char.GetFaith.HighGodName] habla a sus elegidos a través de las llamas en una lengua de cenizas y brasas, llamas retorcidas que pocos realmente pueden captar.\n\n¿Qué puedo ver dentro de su bendita llama?" #NT!
+ look_into_the_flames_decision_tooltip: "¿Qué revelarán las llamas?" #NT!
+ look_into_flames_decision_effect: "Realizarás los ritos con la esperanza de presenciar una visión." #NT!
+ look_into_flames_decision_no_cooldown: "Usted #bold NOT#! ha tomado esta decisión en los últimos 5 años" #NT!
+  
+ mend_dynasty_relations_decision: "Reconciliar a los dragones" #NT!
+ mend_dynasty_relations_decision_desc: "Desde los tiempos del buen rey, el dragón negro ha buscado con saña una forma de destruir al rojo. Pero hemos #italic finalmente#! aprendido a vivir en paz, con los dos dragones en buenos términos, ¿deberíamos limitar nuestra animosidad a la historia?" #NT!
+ mend_dynasty_relations_decision_tooltip: "Enmendarás las relaciones entre los Targaryen y Fuegoscuro." #NT!
+ mend_dynasty_relations_decision_confirm: "¡Los dragones permanecerán como uno solo!" #NT!

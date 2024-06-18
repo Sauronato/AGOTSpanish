@@ -1,0 +1,559 @@
+﻿l_spanish:
+ legend_quality_famed: "[legend_famed|E]" #NT!
+ legend_quality_illustrious: "[legend_illustrious|E]" #NT!
+ legend_quality_mythical: "[legend_mythical|E]" #NT!
+ legend_cost_scale_by_era_desc: "[GetPlayer.GetCulture.GetCultureEra.GetNameNoTooltip] Era" #NT!
+  
+ PROMOTED_LEGEND_EXPENSES: "[promoted_legend|E]" #NT!
+ OWNED_LEGEND_EXPENSES: "[owned_legend|E]" #NT!
+  
+ LEGEND_ALREADY_OWN_LEGEND: "@warning_icon! #X Ya posees y estás promocionando [Legend.GetName]#!" #NT!
+ LEGEND_UPGRADE_ALREADY_MAX: "@warning_icon! #X [Legend.GetName] ya es el máximo $legend_quality_mythical$ [legend_quality|E]#!" #NT!
+ LEGEND_UPGRADE_NOT_ENOUGH_SPREAD: "@warning_icon! #X [Legend.GetName] debe extenderse a [Legend.GetMaxNumProvinces|V] [baronies|E] #weak (actualmente [Legend.GetCurrentNumProvinces|V])#!#!" #NT!
+ LEGEND_ALREADY_PROMOTING_LEGEND: "@warning_icon! #X Ya eres [promoting_legend|E] [Legend.GetName]#!" #NT!
+ LEGEND_NOT_PROMOTING_LEGEND: "@warning_icon! #X No eres [promoting_legend|E] [Legend.GetName]#!" #NT!
+ LEGEND_IS_UNOWNED: "@warning_icon! #X [Legend.GetName] no tiene dueño#!" #NT!
+ LEGEND_IS_OWNED: "@warning_icon! #X [Legend.GetName] ya tiene dueño#!" #NT!
+ LEGEND_IS_COMPLETED: "@warning_icon! #X [Legend.GetName] ya se ha completado#!" #NT!
+ LEGEND_NO_PROTAGONIST: "@warning_icon! #X No se ha seleccionado [legend_protagonist|E]#!" #NT!
+ LEGEND_NOT_SAME_DYNASTY: "@warning_icon! #X No eres miembro de [Dynasty.GetName] [dynasty|E]#!" #NT!
+ LEGEND_CAN_NOT_COMPLETE_YET: "@warning_icon! #X No puedes completar [Legend.GetName] para [DATE.GetTimeToDate] #weak ([DATE.GetStringLong])#!#!" #NT!
+ LEGEND_COMPLETE_LEGEND: "@alert_icon!#alert_trial Completar un [legend|E] hace que sea imposible iniciarlo de nuevo#![AddLine( Legend.GetOnCompleteDescription )]" #NT!
+ legend_ending_decision_tt: "Obtén acceso al #EMP $commission_legend_artifact_decision$#! [decision|E], lo que te permitirá encargar una crónica para conmemorar tu leyenda." #NT!
+ LEGEND_CAN_NOT_PROMOTE: "@warning_icon! #X Ya eres [promoting_legend|E] [Legend.GetName]#!" #NT!
+ legend_already_promoting_legend_tt: "Ya eres [promoting_legend|E] [Legend.GetName]" #NT!
+ legend_can_not_promote_tt: "Necesitas uno de los siguientes:#!\n@warning_icon! #X Compartes un idioma con [legend.GetOwner.GetName]#!\n@warning_icon! #X [legend.GetName] está presente en una provincia vecina a tu reino#!\n@warning_icon! #X Tú y [legend.GetOwner.GetName] son $game_concept_lovers$#!\n@warning_icon! #X Tú y § _2 son #X3#X4" #NT!
+ legend_no_legend: "No estás promocionando ningún [legends|E]" #NT!
+ CHARACTER_CANNOT_REACH_LEGEND: "@warning_icon! #X La leyenda no está en tu [realm|e], ni estás presente actualmente en el área de extensión de la leyenda#!" #NT!
+  
+ LEGEND_PROMOTER_MODIFIERS: "[legend_promoter|E] Modificadores" #NT!
+  
+ LEGEND_PROVINCE_MODIFIERS_SUBTEXT: "#S $PROVINCE_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'provincia' )]" #NT!
+ LEGEND_COUNTY_MODIFIERS_SUBTEXT: "#S $COUNTY_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'condado' )]" #NT!
+ OWNER_MODIFIERS_SUBTEXT: "#S $OWNER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'propietario' )]" #NT!
+ LEGEND_PROMOTER_MODIFIERS_SUBTEXT: "#S $LEGEND_PROMOTER_MODIFIERS$#!\n[Legend.GetImpactModifiers( 'promotor' )]" #NT!
+  
+ LEGEND_OWNER_DESCRIPTION: "Propietario: [Legend.GetOwner.GetShortUIName|U]" #NT!
+ LEGEND_PROMOTING_LEGEND: "Eres [promoting_legend|E] este [legend|E]" #NT!
+ LEGEND_OWNING_LEGEND: "Eres el dueño de este [legend|E]" #NT!
+ LEGEND_UNOWNED_GRACE_PERIOD: "No puedes tomar posesión de este [legend|E] hasta el $DATE$" #NT!
+  
+ game_concept_legend: "Leyenda" #NT!
+ game_concept_legend_i: "@legend_icon!" #NT!
+ game_concept_legend_desc: "Un $game_concept_legend$ representa las hazañas importantes que un personaje logró en la vida y se crean a partir de [legend_seeds|E].\n\nLas leyendas son formas poderosas de obtener [legitimacy|E] y otras posibles recompensas como aumentos de [skill|E], bonificaciones de [opinion|E], [dynasty_prestige|E], § _6 o [piety|E]. [baronies|E] en el que se ha extendido un $game_concept_legend$ también puede recibir efectos adicionales, si lo posee el propietario de $game_concept_legend$ o un [legend_seeds|E]1.\n\n[legend_seeds|E]2 tiene un [legend_seeds|E]3 que rige esas recompensas: pueden ser Legitimantes, Sagradas o Heroicas. . Cada $game_concept_legend$ también tiene un nivel [legend_seeds|E]5, que influye en la fuerza de esas recompensas, así como en su distribución." #NT!
+ game_concept_owned_legend: "Leyenda propia" #NT!
+ game_concept_owning_legend: "Poseer leyenda" #NT!
+ game_concept_owned_legend_desc: "Un $game_concept_owned_legend$ es un [legend|E] propiedad de un [ruler|E], quien es el principal beneficiario de sus efectos.\n\nEl propietario de un $game_concept_legend$ puede ser su [legend_protagonist|E], pero no es necesario.\n\nUn $game_concept_legend$ también puede ser su ser sostenido por [legend_promoters|E], quien paga un aporte mensual para recibir también parte de sus bonificaciones." #NT!
+ game_concept_owning_legend_desc: "$game_concept_owned_legend_desc$" #NT!
+ game_concept_promoted_legend: "Leyenda promocionada" #NT!
+ game_concept_promoted_legend_desc: "Un $game_concept_promoted_legend$ es un [legend|E] propiedad de un [ruler|E] diferente que está siendo sostenido por [legend_promoters|E], quienes pagan un aporte mensual para recibir también parte de sus bonos." #NT!
+ game_concept_promoting_legend: "Promoviendo" #NT!
+ game_concept_promoting_legend_desc: "$game_concept_promoting_legend$" #NT!
+ game_concept_legend_promoter: "Promotor de leyenda" #NT!
+ game_concept_legend_promoter_desc: "Un $game_concept_legend_promoter$ es un [ruler|E] que apoya el [legend|E] de otro gobernante.\n\nUn $game_concept_legend_promoter$ obtiene bonificaciones adicionales que varían dependiendo del [legend_type|E] y [legend_quality|E] del $game_concept_legend$ a cambio de una contribución mensual de [gold|E]." #NT!
+ game_concept_legend_promoters: "Promotores de leyenda" #NT!
+ game_concept_legend_promoters_desc: "$game_concept_legend_promoter_desc$" #NT!
+ game_concept_legends: "Leyendas" #NT!
+ game_concept_legends_desc: "$game_concept_legend_desc$" #NT!
+ game_concept_legend_seed: "Semilla de leyenda" #NT!
+   #AGOT Modified 
+ #game_concept_legend_seed_desc: "Un [legend|E] en ciernes. $game_concept_legend_seeds$ son la base de un $game_concept_legend$ y, al fundarlos, un [ruler|E] puede iniciar un $game_concept_legend$.\n\n$game_concept_legend_seeds$ se puede ganar cumpliendo algunos criterios como ser heredero de Carlomagno o realizar hazañas legendarias: Mayor [decisions|E], ganar un [great_holy_war|E], convertirse en [king|E] o [emperor|E], organizar un Grand $game_concept_legend_seeds$0, cazar un animal legendario, etcétera.\n\nLos $game_concept_legend_seeds$ inactivos no tienen coste, pero no tienen efectos. Fundar un $game_concept_legend_seeds$2 por primera vez tiene un coste de $game_concept_legend_seeds$3." #NT!
+ game_concept_legend_seed_desc: "Un [legend|E] en ciernes. $game_concept_legend_seeds$ son la base de un $game_concept_legend$ y, al fundarlos, un [ruler|E] puede iniciar un $game_concept_legend$.\n\n$game_concept_legend_seeds$ se puede ganar cumpliendo algunos criterios o realizando hazañas legendarias: Mayor [decisions|E], convertirse en un $game_concept_legend$ _7 o [emperor|E], organizar un Gran [activity|E], cazar un animal legendario, etcétera.\n\nLos $game_concept_legend_seeds$ inactivos no tienen coste, pero no tienen efectos. Fundar un $game_concept_legend_seeds$1 por primera vez tiene un coste de $game_concept_legend_seeds$2." #NT!
+ game_concept_legend_seeds: "Semillas de leyenda" #NT!
+ game_concept_legend_seeds_desc: "$game_concept_legend_seed_desc$" #NT!
+ game_concept_legend_quality: "Calidad de leyenda" #NT!
+ game_concept_legend_quality_desc: "La Cualidad de un [legend|E] marca tanto la fuerza de sus efectos como el alcance de su propagación, además de afectar sus recompensas finales. $game_concept_legends$ puede ser Famoso, Ilustre o Mítico, ya que no existe un $game_concept_legend$ común.\n\nLa Calidad se puede aumentar extendiendo la Leyenda a más [baronies|E] y pagando un costo de actualización.\n\nCuando el propietario de un $game_concept_legend$ muere, su familia puede continuarlo, sin perjuicio de su Calidad." #NT!
+ game_concept_legend_famed: "Famoso" #NT!
+ game_concept_legend_famed_desc: "$game_concept_legend_quality_desc$" #NT!
+ game_concept_legend_illustrious: "Ilustre" #NT!
+ game_concept_legend_illustrious_desc: "$game_concept_legend_quality_desc$" #NT!
+ game_concept_legend_mythical: "Mítico" #NT!
+ game_concept_legend_mythical_desc: "$game_concept_legend_quality_desc$" #NT!
+ game_concept_legend_protagonist: "Protagonista de leyenda" #NT!
+ game_concept_legend_protagonist_desc: "El $game_concept_legend_protagonist$ es el personaje principal de un [legend|E], cuyas hazañas se describen en él. El propietario de un $game_concept_legend$ también puede ser su $game_concept_legend_protagonist$, pero también lo puede ser cualquier miembro de su familia, vivo o muerto, siempre que tenga 16 años.\n\nLos $game_concept_legend_protagonists$ no obtienen bonificaciones extra directas, pero el contenido sobre el $game_concept_legend$ se centrará en ellos. Sin embargo, otorgarán #color_white #! [legitimacy|E] adicionales al propietario de la leyenda, en función de cuántos [virtuous|E] [legend|E]0 tenga.\n\nEl $game_concept_legend_protagonist$ debe ser un adulto, ya que afirmar que un bebé mató a un dragón podría ser controvertido." #NT!
+ game_concept_legend_protagonists: "Protagonistas de leyenda" #NT!
+ game_concept_legend_protagonists_desc: "$game_concept_legend_protagonist_desc$" #NT!
+ game_concept_legend_type: "Tipo de leyenda" #NT!
+ game_concept_legend_types: "Tipos de leyenda" #NT!
+ game_concept_legend_types_desc: "$game_concept_legend_type_desc$" #NT!
+ game_concept_legend_type_desc: "Un [legend|E] tiene un Tipo que influye en la categoría de los efectos que otorgará, así como el tema de su contenido.\n\nLos $game_concept_legend_types$ son Legitimantes, Heroicos y Sagrados, otorgando [legitimacy|E], [prestige|E] y [piety|E], respectivamente ." #NT!
+ game_concept_legend_heroic: "Leyenda heroica" #NT!
+ game_concept_legend_heroic_desc: "$game_concept_legend_type_desc$" #NT!
+ game_concept_legend_holy: "Santa Leyenda" #NT!
+ game_concept_legend_holy_desc: "$game_concept_legend_type_desc$" #NT!
+ game_concept_legend_legitimizing: "Leyenda legitimadora" #NT!
+ game_concept_legend_legitimizing_desc: "$game_concept_legend_type_desc$" #NT!
+ game_concept_legend_library: "Biblioteca de leyendas" #NT!
+ game_concept_legend_library_i: "@legend_icon!" #NT!
+ game_concept_legend_library_desc: "El [legend_library|E] contiene [legends|E] completos que se han extendido a tu [domain|E], que creaste o que estabas promocionando activamente.\nTambién puedes agregar activamente [legends|E] completos si estás viajando a través del área de distribución de la leyenda.\n\nPuedes eliminar [legends|E] de tu biblioteca a voluntad." #NT!
+  
+ game_concept_ancestral_claim: "Reclamo Ancestral" #NT!
+ game_concept_ancestral_claim_desc: "El Reclamo Ancestral [casus_belli|E] te permite anexar todas las tierras dentro de un título con el que tienes un reclamo obtenido a través de una Legitimación [legend|E]." #NT!
+  
+ legend_heroic: "Leyenda heroica" #NT!
+ legend_heroic_name: "La leyenda de [ROOT.Legend.GetOwner.GetNameNoTooltip]" #NT!
+ legend_heroic_desc: "[ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] es famoso por sus [ROOT.Legend.GetOwner.GetHerHis] hazañas heroicas." #NT!
+ legend_legitimizing: "Leyenda legitimadora" #NT!
+ legend_legitimizing_name: "La genealogía de [ROOT.Legend.GetOwner.GetNameNoTooltip]" #NT!
+ legend_legitimizing_desc: "El linaje de la dinastía [ROOT.Legend.GetOwner.GetDynasty.GetBaseNameNoTooltip] ha gobernado estas tierras durante siglos." #NT!
+ legend_holy: "Santa Leyenda" #NT!
+ legend_holy_name: "Los milagros de [ROOT.Legend.GetOwner.GetNameNoTooltip]" #NT!
+ legend_holy_desc: "La santidad mostrada por [ROOT.Legend.GetOwner.GetTitledFirstNameNoTooltip] es admirada por todos los seguidores de [ROOT.Char.GetFaith.HighGodName]." #NT!
+  
+ legend_king_arthur: "El legado de Arthur Pendragon" #NT!
+ legend_king_arthur_desc: "El antiguo y futuro rey vive a través de la sangre de esta dinastía." #NT!
+ legend_carolingian: "Los herederos de Carlomagno" #NT!
+ legend_carolingian_desc: "El gran rey Carlomagno gobernó una vez esta tierra antes de esta dinastía, quienes afirman ser descendientes directos de su sangre imperial." #NT!
+ legend_holy_warrior: "El puño santo" #NT!
+ legend_holy_warrior_desc: "Un gran guerrero santo, este héroe ha luchado valientemente por su fe." #NT!
+ legend_chapter_opening_holy_warrior: "Gran guerrero de [religion.GetNameNoTooltip]. La leyenda de [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] comienza con un nacimiento auspicioso. Desde muy temprana edad, [ROOT.Legend.GetProtagonist.GetSheHe] sintió el llamado de [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]." #NT!
+ legend_el_cid: "El Cantar del Cid" #NT!
+ legend_el_cid_desc: "Rodrigo Díaz de Vivar fue una vez un noble menor deshonrado y ahora se convirtió en rey propio." #NT!
+ legend_alfred_of_wessex: "El Santo Rey" #NT!
+ legend_alfred_of_wessex_desc: "[ancestor.GetNameNoTooltip|U] resistió las invasiones de los hombres del norte en Inglaterra y se mantuvo como baluarte y proselitista de la cristiandad." #NT!
+ legend_sons_of_david: "Herederos de david" #NT!
+ legend_sons_of_david_desc: "David, Rey de Israel, fue ordenado por Dios y su sangre corre por las venas de cada [GetDynastyHouseByID('house_bagrationi').GetNameNoTooltip]." #NT!
+ legend_peasant_emperor: "De campesino a Basileus" #NT!
+ legend_peasant_emperor_desc: "Basilio nació de campesinos y entró al servicio del Emperador antes de casarse con su hija y ascender al rango del propio Basileus." #NT!
+ legend_the_wheelwright: "La bodega de la abundancia" #NT!
+ legend_the_wheelwright_desc: "En el séptimo cumpleaños de su hijo, Piast the Wheelwright recibió la visita de dos extraños. Como agradecimiento por su hospitalidad, los extraños lanzaron un hechizo que llenó eternamente la bodega de Piast." #NT!
+ legend_vercingetorix: "Herederos de Vercingétorix" #NT!
+ legend_vercingetorix_desc: "Vercingétorix una vez unió a las tribus galas en una rebelión contra la invasión romana. Aunque cayó a manos de César, su espíritu celta sigue vivo en nuestra sangre." #NT!
+ legend_saman_khudah: "Descendiente de Bahram Chobin" #NT!
+ legend_saman_khudah_desc: "General, conquistador y usurpador, Bahram Chobin se apoderó del trono sasánida y su sangre heroica corre por nuestras venas." #NT!
+ legend_bahram_gur: "Linaje Gur" #NT!
+ legend_bahram_gur_desc: "Bahram Gur fue un gran rey guerrero que luchó y resistió a innumerables invasores. Su sangre fluye por nuestras venas, convirtiéndonos en héroes persas." #NT!
+ bahram_gur: "Bahram Gur" #NT!
+ legend_cadell: "La sangre de Cadell" #NT!
+ legend_cadell_desc: "Cadell comenzó su vida como un niño esclavo y, con la bendición de un santo, le arrebató el reino de Powys a Vortigern." #NT!
+ legend_descendants_of_brahman: "Sangre de Brahman" #NT!
+ legend_descendants_of_brahman_desc: "Somos los hijos e hijas de los Dioses. Brahman, Vishnu, nuestra sangre se remonta al principio de los tiempos." #NT!
+ legend_gothic_kings: "Reyes góticos" #NT!
+ legend_gothic_kings_desc: "Los godos provocaron la destrucción de Roma y fundaron nuestro Reino. Somos sus herederos, los Reyes y Reinas de los Godos." #NT!
+ legend_sons_of_rurik: "Hijos de Rurik" #NT!
+ legend_sons_of_rurik_desc: "El príncipe varangiano Rurik llevó su horda de aventureros al este y estableció el gran Reino de Novgorod. Es su sangre legendaria la que corre por nuestras venas." #NT!
+ legend_william_gellones: "El premio de naranja" #NT!
+ legend_william_gellones_desc: "Derrotador de los ejércitos islámicos en Orange, Guillaume Gelllones fue un guerrero de la cristiandad y fundó la abadía en Gellone, donde más tarde se retiraría del gobierno como monje y se retiraría allí." #NT!
+ legend_edward_the_martyr: "Eduardo el mártir" #NT!
+ legend_edward_the_martyr_desc: "Asesinado y enterrado sin honores, el cuerpo de Eduardo el Mártir resultó incorrupto después de un año. Se dice que abrazó su propia muerte por un profundo amor a Cristo." #NT!
+ legend_yazdagird_iii: "Sangre de [ancestor.GetFirstNameNoTooltip] III" #NT!
+ legend_yazdagird_iii_desc: "La sangre del último sha sasánida corre por nuestras venas. Aunque [ancestor.GetSheHe] fue asediado por turcos, jázaros e invasores árabes de todos lados, [ancestor.GetSheHe] permaneció leal a Persia hasta [ancestor.GetHerHis] último aliento." #NT!
+ legend_afrasiyab: "El rey de Turan: Afrasiyab" #NT!
+ legend_afrasiyab_desc: "Afrasiyab, el magnífico rey de Turan y héroe de los turcos, fue el enemigo del Imperio Persa y el más grande de todos los reyes de Turan. Su sangre mágica fluye por nuestras venas y nos otorga el derecho divino de gobernar Turan una vez más." #NT!
+ legend_sceafa: "Sceafa, nieto de Noé" #NT!
+ legend_sceafa_desc: "El antiguo rey lombardo Sceafa salió del mar cuando era niño y pasó a gobernar Inglaterra. Sabemos que era nieto de Noé, y de él obtenemos nuestra sangre divina." #NT!
+ legend_new_troy_london: "Nueva Troya" #NT!
+ legend_new_troy_london_desc: "Bruto, desterrado de Troya, fue guiado por Diana a Albión. Después de derrotar a los grandes gigantes que ocupaban la tierra, fundó Troia Nova, la ciudad que hoy conocemos como Londres." #NT!
+ legend_corineus: "La balada de Corineus" #NT!
+ legend_corineus_desc: "Corineus, antiguo guerrero troyano, fue el fundador original de Cornualles. Llegó a Britannia y mató a los gigantes que ocupaban el área y nombró el lugar Cornwall en su honor." #NT!
+ legend_scota: "Hijos de escota" #NT!
+ legend_scota_desc: "Es por Escocia, hija de un gran faraón egipcio, que llamamos a nuestra tierra "Escocia". Ella es la madre de todos los escoceses, y es la sangre de los antiguos faraones la que corre por nuestras venas." #NT!
+ legend_pyusawhti: "Herederos de la Diosa Dragón" #NT!
+ legend_pyusawhti_desc: "Nacidos del vientre de una diosa dragón y descendientes de Mahasammata, tenemos la sangre más sagrada y poderosa a través de nuestra línea." #NT!
+ legend_tosny: "El caballero cisne" #NT!
+ legend_tosny_desc: "El poderoso Roger de Tosny descendía del Caballero del Cisne, y hasta el día de hoy llevamos la Insignia del Cisne para honrar su leyenda." #NT!
+ legend_menelik_i: "Hijos de david" #NT!
+ legend_menelik_i_desc: "El fundador de nuestra dinastía, Menelik I, fue producto del amor entre Salomón de Israel y la reina de Saba." #NT!
+ legend_kings_of_semien: "Reyes de Semien" #NT!
+ legend_kings_of_semien_desc: "Beta Israel es el legendario reino judío que continúa resistiéndose fervientemente a la cristianización. Descendemos de la tribu de Dan que huyó de Israel durante la guerra civil entre las fuerzas de Roboam y Jeroboam." #NT!
+ legend_roman_heritage: "Herencia romana" #NT!
+ legend_roman_heritage_desc: "Nuestra familia no sólo gobierna en un Imperio Romano moderno, hemos sido cortesanos influyentes en Roma desde los días de la República." #NT!
+ legend_hunnic_heritage: "Herencia huna" #NT!
+ legend_hunnic_heritage_desc: "Nuestro pueblo puede rastrear nuestras líneas hasta las familias de los hunos, y el fundador de nuestra dinastía fue, de hecho, el feroz Atila que puso a Roma de rodillas." #NT!
+ legend_premysl: "Přemysl el labrador" #NT!
+ legend_premysl_desc: "Nuestro antepasado comenzó su vida como simple campesino en el pueblo de Stadice, pero pronto llamó la atención de Libuše y se casó con ella y se convirtió en Príncipe de los Checos." #NT!
+ legend_borjigin: "El visitante brillante" #NT!
+ legend_borjigin_desc: "Alan Gua, la madre de todos los [GetDynastyByID('11100').GetNameNoTooltip], recibía la visita de una extraña figura brillante todos los días y todas las noches. Como un gran perro amarillo, se arrastró hasta su yurta a través de los rayos de la luna por la noche y los rayos del sol durante el día, y le regaló tres hijos. Ella advirtió a sus hijos divinamente concebidos que debían mantenerse unidos como un haz de cinco flechas o romperse como cinco flechas solitarias." #NT!
+ legend_naga_descent: "Sangre de los Naga" #NT!
+ legend_naga_descent_desc: "Los Naga son criaturas sagradas mitad humanas y mitad serpiente que residen en Patala y ocasionalmente pueden cruzar a nuestro mundo como humanos completos. Nuestra familia puede rastrear su linaje hasta un Naga que una vez visitó Cachemira y se acostó con un humano." #NT!
+ legend_hieros_gamos_skirnismal: "Hieros Gamos" #NT!
+ legend_hieros_gamos_skirnismal_desc: "Fjolnir, fundadora de la dinastía Yngling, surgió de las entrañas de Gerðr en su amor por Freyr. ¿Quién más que la descendencia de Fjolnir podría poseer la sangre divina necesaria para gobernar Noruega?" #NT!
+ legend_shibi_chakravarti: "Shibi Chakravarti" #NT!
+ legend_shibi_chakravarti_desc: "Un modelo de humildad y piedad, el heroico rey Shibi tenía la tarea de proteger al sabio Agni que se había transformado en pájaro. Cuando una cometa le exigió sacrificar su propia carne para salvar a la paloma, Shibi se entregó voluntariamente, pero fue perdonado y recompensado con su hijo Kapotaroma. Es la sangre de este rey desinteresado la que corre por las venas de cada [GetDynastyByID('1043008').GetNameNoTooltip]." #NT!
+ legend_the_red_hand: "La mano roja del Ulster" #NT!
+ legend_the_red_hand_desc: "Se dice que en los primeros días de Irlanda, se hizo la promesa de que el primero que pusiera su mano en el Ulster lo reclamaría y sería nombrado Gran Rey de Irlanda. Fue nuestro antepasado quien tuvo el ingenio de cortarse la mano y arrojarla al Ulster, manchando la hierba esmeralda con su sangre." #NT!
+ legend_ragnarr: "Hijos de $nick_lodbrok$" #NT!
+ legend_ragnarr_desc: "Rey de los daneses y asesino de un poderoso wyrm, [ancestor.GetFirstNameNoTooltip] era un terror para los cristianos y un aventurero legendario. [ancestor.GetHerHis|U] Las grandes hazañas en la vida son demasiadas para nombrarlas, y con [ancestor.GetHerHis] sangre fluyendo a través de mí, ¡es justo que reclame el legado de [ancestor.GetHerHis] y construya una historia legendaria propia!" #NT!
+ legend_holy_site: "$legend_saintly_location_name$" #NT!
+ legend_holy_site_desc: "$legend_saintly_location_desc$" #NT!
+ legend_saintly_location_name: "[ROOT.Char.CustomFixedRandom('GetCustodianSynonym')|U] del [protagonist.GetFaith.GetAdjectiveNoTooltip] Sitio Santo" #NT!
+ legend_saintly_location_desc: "Tener un lugar sagrado para [faith.GetNameNoTooltip] es una señal de santidad en sí misma." #NT!
+ legend_chapter_opening_saintly_location: "La tierra de [location.GetNameNoTooltip] es de altísimo valor piadoso, y de su suelo se dice que brota agua milagrosa, capaz de curar todos los males." #NT!
+ legend_chapter_motivation_religious: "Cuando [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] escuchó esto, [ROOT.Legend.GetProtagonist.GetSheHe] sintió un gran calor en el corazón de [ROOT.Legend.GetProtagonist.GetHerHis], porque la devoción de [ROOT.Legend.GetProtagonist.GetHerHis] era tan grande que el solo pensamiento de un lugar santo hacía que [ROOT.Legend.GetProtagonist.GetHerHim] llorara." #NT!
+ legend_saintly_life_name: "La vida más [ROOT.Char.CustomFixedRandom('GetPiousAdj')|U] de [protagonist.GetTitledFirstNameNoTooltip]" #NT!
+ legend_saintly_life_desc: "La vida devota que vivió [protagonist.GetTitledFirstNameNoTooltip] le ha otorgado a [protagonist.GetHerHim] un estatus casi santo." #NT!
+ legend_chapter_opening_saintly_life: "[ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] nació con el amor más profundo por [ROOT.Legend.GetProtagonist.GetFaith.HighGodName], y dedicó toda su vida a [ROOT.Legend.GetProtagonist.GetHerHis] a honrar la fe de [ROOT.Legend.GetProtagonist.GetHerHis]." #NT!
+ holy_seed_toast: "Santo [legend_seed|E] Ganado" #NT!
+ holy_seed_toast_traits: "Tu naturaleza [ROOT.Char.CustomFixedRandom('GetSaintlyTrait')] es reconocida" #NT!
+ legend_saintly_building_name: "El [ROOT.Char.CustomFixedRandom('GetPiousAdj')|U] Constructor del [location.GetNameNoTooltip]" #NT!
+ legend_saintly_building_desc: "Construir [ROOT.Char.GetFaith.HouseOfWorshipPlural] es un acto de altruismo, una gran prueba de un alma piadosa." #NT!
+ legend_ancient_people_name: "[culture.GetNameNoTooltip] [ROOT.Char.CustomFixedRandom('GetDescendantSynonym')|U]" #NT!
+ legend_ancient_people_desc: "En la sangre de todo nuestro pueblo corre la misma sangre que fluyó por el [culture.GetCollectiveNoun]." #NT!
+ legend_saintly_deed_name: "Las escrituras [ROOT.Char.CustomFixedRandom('GetPiousAdj')|U] de [ancestor.GetNameNoTooltip|U]" #NT!
+ legend_saintly_deed_desc: "[ancestor.GetShortUINamePossessive|U] actos piadosos en nombre de [religion.GetName] son seguramente dignos de veneración." #NT!
+ legend_saintly_descent_name: "[ROOT.Char.CustomFixedRandom('GetDescendantSynonym')|U] de [Localize( ancestor_flag )|U]" #NT!
+ legend_saintly_descent_desc: "La sagrada sangre de [Localize( ancestor_flag )] corre por nuestras venas, y con ella haremos milagros." #NT!
+ legend_mythical_descent_name: "[Localize( creature )|U] Sangre" #NT!
+ legend_mythical_descent_desc: "Uno de mis antepasados ​​fue un poderoso [Localize( creature )]." #NT!
+ legend_godly_descent_name: "La sangre de [Localize( god )|U]" #NT!
+ legend_godly_descent_desc: "[Localize( god )|U] es mi antepasado, y con esa sangre en mis venas haré maravillas." #NT!
+ legend_chronicle_ancestral_glory_desc: "[ancestor.GetName] fue un verdadero grande [ancestor.GetWomanMan] venerado por todos." #NT!
+ legend_crusader: "[GetTrait('faith_warrior').GetNameNoTooltip( protagonist )] [ancestor.GetTitleAsNameNoTooltip|U]" #NT!
+ legend_crusader_desc: "[protagonist.GetName] cometió muchos hechos grandes y piadosos al tomar la tierra santa." #NT!
+ legend_chronicle_raised_by_animals: "[Localize( beast )|U] Niño" #NT!
+ legend_chronicle_raised_by_animals_desc: "[protagonist.GetNameNoTooltip|U] fue criado por un [Localize( beast )|U], y esa dura experiencia en la creación de [protagonist.GetFaith.CreatorNamePossessive|U] hizo que [protagonist.GetHerHim] estuviera divinamente equipado para gobernar." #NT!
+ legend_auspicious_birth: "Nacimiento auspicioso" #NT!
+ legend_auspicious_birth_desc: "[protagonist.GetNameNoTooltip|U] nació cuando el cielo nocturno estaba lleno de estrellas auspiciosas, un signo definitivo de las grandes hazañas a las que estaba destinado [protagonist.GetSheHe]." #NT!
+ legend_virgin_birth: "Inmaculada Concepción" #NT!
+ legend_virgin_birth_desc: "[protagonist.GetMother.GetNameNoTooltip|U] de alguna manera llegó a tener un hijo sin consumarlo con [protagonist.GetMother.GetHerHis] marido. En verdad, esta es una señal de que [protagonist.GetFaith.HighGodName|U] [protagonist.GetFaith.HighGodHerselfHimself] le regaló a [protagonist.GetMother.GetHerHim] un hijo." #NT!
+ legend_sacred_birth_name: "[protagonist.GetFirstNamePossessiveNoTooltip|U] [ROOT.Char.CustomFixedRandom('GetPiousAdj')|U] Nacimiento" #NT!
+ legend_sacred_birth_desc: "Las circunstancias del nacimiento de [protagonist.GetNamePossessiveNoTooltip] están envueltas en misticismo, una señal segura de que [protagonist.GetSheHe] fue bendecido por [protagonist.GetFaith.HighGodName|U] desde el principio." #NT!
+ legend_divine_intervention_name: "Bendecido por [Localize( god )|U]" #NT!
+ legend_divine_intervention_desc: "[protagonist.GetNameNoTooltip|U] habló con [Localize( god )] mientras [protagonist.GetHerHis] dormía, imponiendo una misión divina a [protagonist.GetHerHim]." #NT!
+ legend_fought_devil_name: "Una batalla con [protagonist.GetFaith.DevilName|U]" #NT!
+ legend_fought_devil_desc: "En un sueño, [protagonist.GetNameNoTooltip] luchaba con [protagonist.GetFaith.DevilName] [protagonist.GetFaith.DevilHerselfHimself], una señal auspiciosa de que [protagonist.GetSheHe] estaba destinado a vencer el mal." #NT!
+ legend_exotic_backstory_name: "[protagonist.GetNamePossessiveNoTooltip|U] Odisea" #NT!
+ legend_exotic_backstory_desc: "[protagonist.GetName] viajó lejos una vez, hasta [Localize( location.GetString )] y viceversa." #NT!
+ pilgrim_legend_name: "Peregrino al mundo" #NT!
+ pilgrim_legend_desc: "[ancestor.GetNamePossessive|U] dedicó [ancestor.GetHerHis] vida al interminable viaje cuesta arriba hasta [ancestor.GetFaith.PositiveAfterLife]. Sólo [ancestor.GetFaith.HighGodName|U] sabe verdaderamente de todos los hechos ocurridos en [ancestor.GetFirstNamePossessiveNoTooltip] el santo camino hacia la salvación." #NT!
+ consecrated_blood_legend: "La Santa Sangre" #NT!
+ consecrated_blood_legend_desc: "[founder.GetNamePossessive|U] fluye a través de todos los miembros de la familia [dynasty.GetName]. Nuestra devoción a [founder.GetFaith.HighGodName|U] es ​​absoluta y nuestras acciones se realizan sólo en nombre de [founder.GetFaith.HighGodHerHis|U]." #NT!
+ dyn_many_crown_legend: "La soberanía [dynasty.GetNameNoTooltip|U]" #NT!
+ dyn_many_crown_legend_desc: "Ya sea por destino o por diseño, el poder cae en nuestras manos. Nuestras tierras son muchas y nuestras hazañas grandiosas, y nuestro dominio sobre los tronos del mundo está predestinado." #NT!
+ legend_of_rome_name: "Un nuevo César" #NT!
+ legend_of_israel_name: "El nuevo [founder.GetTitleAsNameNoTooltip|U] de Israel" #NT!
+ legend_of_slavia_name: "El imperio de los eslavos" #NT!
+ legend_of_n_sea_name: "Dominio del mar" #NT!
+ legend_of_mann_name: "El Pirata [founder.GetTitleAsNameNoTooltip|U]" #NT!
+ legend_of_genghis_name: "El más grande de los Khan" #NT!
+ new_title_name: "Un nuevo [founder.GetTitleAsNameNoTooltip|U]" #NT!
+ jewish_priesthood_name: "La profecía cumplida" #NT!
+ zoroast_priesthood_name: "Reavivar las llamas" #NT!
+ priesthood_restoration_name: "Un nuevo sacerdocio" #NT!
+ iberian_ender_name: "El destino de [GetTitleByKey('e_spain').GetNameNoTierNoTooltip|U]" #NT!
+ persian_ender_name: "El destino de [GetTitleByKey('e_persia').GetNameNoTierNoTooltip|U]" #NT!
+ struggle_conclusion_name: "El fin de [Localize(struggle.GetString)|U]" #NT!
+ legendary_battle_name: "La batalla de [location.GetName|U]" #NT!
+ reformed_faith: "La consolidación del [religion.GetNameNoTooltip|U]" #NT!
+ new_faith_legend_name: "[faith.GetNameNoTooltip|U] Victorioso" #NT!
+ khan_beater_name: "El flagelo de los Khans" #NT!
+ legend_of_rome_desc: "Roma, otrora reducida a un recuerdo lejano, ahora se levanta de nuevo con un nuevo César, dispuesto a devolver la civilización a una nueva era." #NT!
+ legend_of_israel_desc: "Israel, un Reino para el pueblo elegido de Dios, sojuzgado por asirios, babilonios y romanos. Nuestro éxodo de la Tierra Prometida ha enviado a nuestro pueblo a un viaje por todo el mundo, ¡pero ahora se levanta un nuevo Reino de Israel y el pueblo de Dios habita sus tierras una vez más!" #NT!
+ legend_of_slavia_desc: "Los pueblos eslavos se extendieron por toda Europa, ¡pero ahora [founder.GetFirstName] es el primer [founder.GetTitleAsNameNoTooltip|U] de todos los eslavos!" #NT!
+ legend_of_n_sea_desc: "El Mar del Norte ha sido dominio de los daneses, y ahora, bajo el dominio de [founder.GetName], un imperio se eleva sobre las olas." #NT!
+ legend_of_mann_desc: "A través de las olas de Britannia, los marineros cuentan historias de un gran y terrible pirata [founder.GetTitleAsNameNoTooltip], el aterrador [founder.GetName]. Incluso los guerreros más poderosos palidecen cuando ven aparecer esos barcos en sus costas. La rendición sería la única opción, si tan solo el [founder.GetTitleAsNameNoTooltip|U] aceptara tal cosa." #NT!
+ legend_of_genghis_desc: "Todo lo que hay bajo el cielo pertenece al más grande de todos los Khans. Con el pueblo mongol unido detrás de un [founder.GetTitleAsNameNoTooltip|U], los lobos aúllan y las águilas lloran mientras Genghis Khan quema el nombre de [founder.GetHerHis] en todo el mundo." #NT!
+ new_title_desc: "Un nuevo [founder.GetTitleAsNameNoTooltip|U] surge de las cenizas para traer prosperidad bajo el gobierno benevolente de [founder.GetHerHis]." #NT!
+ jewish_priesthood_desc: "Se pensaba que la diáspora sería eterna, pero bajo [founder.GetName], ha surgido un nuevo Sumo Sacerdocio para guiar al pueblo [faith.GetName] a una era nueva y más brillante." #NT!
+ zoroast_priesthood_desc: "La fe zoroástrica fue dirigida por los grandes magos del pasado, pero la orden fue desmantelada. Por la gracia de Ahuramazda, Anahita y Mitra, [protagonist.GetName] restauró a los Magos." #NT!
+ priesthood_restoration_desc: "El [faith.GetName] quedó reducido a cenizas por la mano cruel del tiempo. Ahora, por la gracia del [faith.HighGodName|U], el [founder.GetName] reedifica el sacerdocio." #NT!
+ iberian_ender_desc: "Las disputas de la nobleza ibérica han terminado y [struggle_ender.GetFirstName] emerge como su salvador. El [struggle_ender.GetTitleAsNameNoTooltip|U] victorioso." #NT!
+ struggle_conclusion_desc: "El [Localize(struggle.GetString)|U] finalmente ha llegado a su fin y [struggle_ender.GetFirstName] emerge como el héroe que marca el comienzo de una nueva era para la región." #NT!
+ khan_beater_desc: "El legendario 'Genghis Khan' estaba destinado a incorporar todo lo que hay bajo el cielo al Imperio [loser.GetHerHis], ¡pero el poderoso [winner.GetTitleAsNameNoTooltip|U] fue frustrado por el heroico [winner.GetName]!" #NT!
+ legendary_battle_desc: "[loser.GetName|U] intentó destruir a [winner.GetName], y [loser.GetSheHe] fue, en verdad, un oponente digno. ¡Con [winner.GetFirstNameNoTooltip] saliendo victorioso, las hazañas de [winner.GetHerHis] no tendrán fin!" #NT!
+ reformed_faith_desc: "La religión organizada estaba destinada a destruir las viejas costumbres, pero bajo la sabia y piadosa guía de [reformer.GetName], la fe [faith.GetName] fue llevada a una nueva era. ¡Las leyendas ahora codificadas en un libro sagrado y una clase sacerdotal estructurada establecida, [faith.HighGodNamePossessive] se terminarán!" #NT!
+ new_faith_legend_desc: "La iglesia débil y corrupta se había desviado mucho de su voluntad para con la humanidad. Bajo el liderazgo divino de [reformer.GetName], ha nacido la única fe verdadera [faith.GetName]." #NT!
+  
+ legend_chronicle_debug_legend: "#D La leyenda del control de calidad#!" #NT!
+ legend_chronicle_debug_legend_desc: "#D La calidad es una profesión ancestral y noble#!" #NT!
+ legend_chronicle_beast_slayer: "El asesino [Localize( beast )|U]" #NT!
+ legend_chronicle_beast_slayer_desc: "En [location.GetName] un [Localize( beast )] fue asesinado" #NT!
+ legend_chronicle_holy_war: "La Guerra Santa [location.GetName]" #NT!
+ legend_chronicle_holy_war_desc: "En [location.GetName] [Localize( antagonist )] fue derrotado" #NT!
+  
+ legend_chronicle_generic_opening: "$legend_chapter_opening_generic$" #NT!
+  
+ legend_ruler_loc: "[protagonist.GetFirstNameNoTooltip|U]" #NT!
+ legend_ruler_loc_possessive: "[protagonist.GetFirstNamePossessiveNoTooltip|U]" #NT!
+ legend_ruler_family_loc: "[protagonist.GetDynastyNameNoTooltip|U]" #NT!
+ legend_province_loc: "[protagonist.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip|U]" #NT!
+ legend_ruler_title_loc_possessive: "[protagonist.GetTitleAsNameNoTooltip|U]s" #NT!
+ legend_ruler_title_loc: "[protagonist.GetPrimaryTitle.GetNameNoTier|U]" #NT!
+  
+ legend_myth: "El mito de $legend_ruler_loc$" #NT!
+ legend_saga: "La saga de $legend_ruler_loc$" #NT!
+ legend_tale: "El cuento de $legend_ruler_loc$" #NT!
+ legend_epic: "La epopeya de $legend_ruler_loc$" #NT!
+ legend_song: "La canción de $legend_ruler_loc$" #NT!
+ legend_story: "La historia de $legend_ruler_loc$" #NT!
+ legend_nama: "El $legend_ruler_loc$nama" #NT!
+ legend_chanson: "$legend_ruler_loc_possessive$ canción" #NT!
+ legend_cantiga: "La Cantiga de $legend_ruler_loc$" #NT!
+ legend_poem: "El poema de $legend_ruler_loc$" #NT!
+ legend_gesta: "Gesta $legend_ruler_loc$" #NT!
+ legend_deeds: "Los hechos de $legend_ruler_loc$" #NT!
+  
+ legend_history: "La historia de la familia $legend_ruler_family_loc$" #NT!
+ legend_chronicles: "Las crónicas de la familia $legend_ruler_family_loc$" #NT!
+ legend_compendium: "El compendio $legend_ruler_family_loc$" #NT!
+ legend_genealogy: "La genealogía de $legend_ruler_loc$" #NT!
+ legend_record: "Los Registros de Familia $legend_ruler_family_loc$" #NT!
+ legend_annals: "Los anales de la familia $legend_ruler_family_loc$" #NT!
+ legend_manuscripts: "Los manuscritos $legend_ruler_family_loc$" #NT!
+ legend_ayedawbon: "$legend_ruler_family_loc$ Ayedawbon" #NT!
+ legend_vamsavali: "$legend_ruler_family_loc$vamsavali" #NT!
+ legend_title_history: "El $legend_ruler_title_loc_possessive$ de $legend_ruler_title_loc$" #NT!
+ legend_court: "El Tribunal de $legend_ruler_loc$" #NT!
+  
+ legend_logia: "$legend_ruler_loc_possessive$ Logia" #NT!
+ legend_gospel: "Evangelio de $legend_ruler_loc$" #NT!
+ legend_sayings: "Dichos de $legend_ruler_loc$" #NT!
+ legend_words: "Palabras de $legend_ruler_loc$" #NT!
+ legend_scriptures: "$legend_ruler_loc_possessive$ Escrituras" #NT!
+ legend_sutra: "El Sutra $legend_ruler_loc$" #NT!
+ legend_texts: "Los textos $legend_province_loc$" #NT!
+ legend_purana: "El $legend_province_loc$ Purana" #NT!
+ legend_miracles: "Los milagros de $legend_ruler_loc$" #NT!
+ legend_wonders: "Las maravillas de $legend_ruler_loc$" #NT!
+ legend_life: "La vida de $legend_ruler_loc$" #NT!
+ legend_prophecies: "Las Profecías de $legend_ruler_loc$" #NT!
+ legend_visions: "Las visiones de $legend_ruler_loc$" #NT!
+ legend_dialogues: "Los diálogos de $legend_ruler_loc$" #NT!
+  
+  #Legend seed tooltips 
+ no_pagans_in_britannia_tt: "No debe haber [GetReligionFamily('rf_pagan').GetName] [independent|E] [rulers|E] en [GetGeographicalRegion('world_europe_west_britannia').GetName]" #NT!
+ must_own_france_or_hre_tt: "Debes tener [GetTitleByKey('k_france').GetNameNoTier], [GetTitleByKey('e_france').GetNameNoTier] o [GetTitleByKey('e_hre').GetNameNoTier] personalmente" #NT!
+ must_own_georgia_or_be_georgian_tt: "Debes tener [GetTitleByKey('k_georgia').GetNameNoTier], tener tu capital en [GetTitleByKey('k_georgia').GetNameNoTier] o ser de cultura georgiana." #NT!
+ persian_or_zoroastrian_tt: "O tu capital está en [GetGeographicalRegion('world_middle_east_persia').GetName], tu [culture|E] tiene $heritage_iranian_name$, o estás en [GetReligionByKey('zoroastrianism_religion').GetAdjective]" #NT!
+ theologian_or_high_piety_tt: "Debes tener el [GetTrait('theologian').GetName( GetNullCharacter )] [trait|E] o tener al menos el $piety_level_3$ [piety_level|E]" #NT!
+  
+  #Legend Properties 
+ ramses: "Ramsés" #NT!
+ bear: "Oso" #NT!
+ dragon: "Dragón"
+ huge_beast: "Enorme bestia" #NT!
+ ferocious_beast: "Bestia feroz" #NT!
+  
+  #Legend Chapters 
+ legend_chapter_opening_generic: "La leyenda de [ROOT.Legend.GetProtagonist.GetNameNoTooltip] es tan grande y grande como el mundo, porque los hechos de [ROOT.Legend.GetProtagonist.GetHerHis] no tienen paralelo." #NT!
+ legend_chapter_extra_deed_memory: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip], sin embargo, no se detuvo ahí, pues [ROOT.Legend.GetProtagonist.GetSheHe] continuó y con gran valentía [ROOT.Legend.MakeScope.Var('extra_deed_memory').CharacterMemory.GetThirdPerspectiveDescription]." #NT!
+ legend_chapter_motivation_generic: "Al escuchar vagos rumores que plagaban la tierra, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] me dispuse [ROOT.Legend.GetProtagonist.GetHerHis] a realizar la difícil empresa." #NT!
+ legend_chapter_motivation_evil: "No fueron las súplicas de la gente ni la desesperación que asolaba la tierra lo que hizo que [ROOT.Legend.GetProtagonist.GetHerHim] buscara aventuras, sino el deseo de su propio y oscuro corazón." #NT!
+ legend_chapter_motivation_peasant: "Cuando un campesino pobre, lloroso y desesperado pidió audiencia con [ROOT.Legend.GetProtagonist.GetHerHim], el piadoso [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] no pudo dejar de atender sus súplicas y rápidamente se lanzó a la aventura." #NT!
+ legend_chapter_motivation_spouse: "Cuando [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] cónyuge llegó a [ROOT.Legend.GetProtagonist.GetHerHim] una mañana con rumores alarmantes, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] se apresuró y prometió honrar su amor eterno." #NT!
+ legend_chapter_motivation_honor_lady: "Cuando [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] ojos se encontraron con los de [ROOT.Legend.GetProtagonist.GetHerHis] amante, todo estaba decidido. Escuchando las súplicas de auxilio y queriendo demostrar cuán grande era la [ROOT.Legend.GetProtagonist.GetHerHis] valentía, [ROOT.Legend.GetProtagonist.GetSheHe] se lanzó a la aventura." #NT!
+ legend_chapter_discovery_generic: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] vigiló a [Localize( location )] con el séquito de [ROOT.Legend.GetProtagonist.GetHerHis], y [ROOT.Legend.GetProtagonist.GetHerHim] no tardó mucho en encontrar el lugar exacto." #NT!
+ legend_chapter_hunt_generic: "El [Localize( beast )] ya estaba allí, bebiendo de un arroyo. Levantó la cabeza y avanzó rápidamente hacia [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]. Hambriento. Pero [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] fue más rápido y con un hábil golpe [ROOT.Legend.GetProtagonist.GetSheHe] mató a la bestia." #NT!
+ legend_chapter_battle_generic: "La batalla fue feroz. [ROOT.Legend.GetProtagonist.GetNameNoTooltip] se encontró con [loser.GetNameNoTooltip] en medio del campo, [ROOT.Legend.GetProtagonist.GetHerHis] ojos llenos de valor. [ROOT.Legend.GetProtagonist.GetSheHe|U] levantó el arma [ROOT.Legend.GetProtagonist.GetHerHis] y asestó un golpe en el pecho del enemigo [ROOT.Legend.GetProtagonist.GetHerHis]. La sangre fluyó. Victoria." #NT!
+ legend_chapter_conclusion_generic: "El viaje de regreso a casa no fue fácil, pero [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] entró en la ciudad entre cánticos triunfales. Y ahora, ¡alegrémonos y celebremos todos, porque [ROOT.Legend.GetProtagonist.GetHerHis] leyenda debe ser celebrada!" #NT!
+ legend_chapter_famous_deed_generic: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] leyenda culmina en una maravillosa aventura: [ROOT.Legend.GetProtagonist.GetHerHis] grandes hazañas de armas eran tales que todos los reyes se maravillaban de ellas y muchos nobles y plebeyos vinieron a [ROOT.Legend.GetProtagonist.GetHerHis] encuentro, porque deseaban ver la leyenda en carne y hueso." #NT!
+ legend_chapter_extra_deed_generic: "Sin embargo, ese no fue el final de la historia, ya que cuando [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] logró llegar a casa con [ROOT.Legend.GetProtagonist.GetHerHis], [ROOT.Legend.GetProtagonist.GetSheHe] ayudó a los que estaban en peligro y vengó sus afrentas. Los bandidos, las bestias y los malhechores no pudieron esconderse de la furia de la espada de [ROOT.Legend.GetProtagonist.GetHerHis]." #NT!
+ legend_chapter_opening_debug: "#D Capítulo inicial#!" #NT!
+ legend_chapter_motivation_debug: "#D Capítulo de motivación#!" #NT!
+ legend_chapter_discovery_debug: "#D Capítulo de descubrimiento#!" #NT!
+ legend_chapter_hunt_debug: "#D Capítulo de caza#!" #NT!
+ legend_chapter_battle_debug: "#D Capítulo de batalla#!" #NT!
+ legend_chapter_famous_deed_debug: "#D Capítulo de hazaña famosa#!" #NT!
+ legend_chapter_extra_deed_debug: "#D Capítulo de escritura adicional#!" #NT!
+ legend_chapter_conclusion_debug: "#D Capítulo de conclusiones#!" #NT!
+  
+ legend_chapter_motivation_delicious_meats: "Se sabía que el [Localize( beast )] era feroz y peligroso, pero no se podía negar el propósito del [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U]. [ROOT.Legend.GetProtagonist.GetSheHe|U] insistió en probar su carne y estimuló a [ROOT.Legend.GetProtagonist.GetHerselfHimself] a cumplir ese sueño." #NT!
+ legend_chapter_motivation_dead_parent: "El [Localize( beast )] era realmente peligroso, pero el corazón de [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] era firme. [ROOT.Legend.GetProtagonist.GetSheHe|U] tenía un rencor personal contra el animal, ya que se rumoreaba que había matado a [ROOT.Legend.GetProtagonist.GetHerHis] padre." #NT!
+ legend_chapter_motivation_great_venator: "En ese momento, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] ya era conocido en todo el país como su mayor cazador, pero para el valiente [ROOT.Legend.GetProtagonist.GetTitleAsNameNoTooltip|U] esta verdad necesitaba demostrarse aún más." #NT!
+ legend_chapter_motivation_accomplished_hunter: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] estaba decidido a demostrar el valor de [ROOT.Legend.GetProtagonist.GetHerHis] como cazador. [ROOT.Legend.GetProtagonist.GetSheHe|U] finalmente tuvo la oportunidad de mostrar la habilidad de [ROOT.Legend.GetProtagonist.GetHerHis], mientras el poderoso [Localize( beast )] se acercaba." #NT!
+ legend_chapter_discovery_befriended_cyclops: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] demostró ser amigo de todos los tipos exóticos e inusuales que encontraba en el camino, ¡incluso trabando amistad con un cíclope grande e irritable!" #NT!
+ legend_chapter_discovery_cyclops: "Mientras [ROOT.Legend.GetProtagonist.GetSheHe] viajaba, [ROOT.Legend.GetProtagonist.GetSheHe] conoció a las personas más exóticas e inusuales, ¡lo que culminó con el descubrimiento de la existencia de un poderoso cíclope!" #NT!
+ legend_chapter_discovery_renowned_herbalist: "Reconocido como [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] como herbolario, obtuvo mayor fama cuando [ROOT.Legend.GetProtagonist.GetSheHe] descubrió una arboleda letal de plantas y se deslizó a través de sus enredaderas tóxicas." #NT!
+ legend_chapter_discovery_evil_plants: "Los viajes desde el principio estuvieron plagados de peligros. [ROOT.Legend.GetProtagonist.GetSheHe|U] incluso fue asaltado por un bosque de plantas tóxicas, cuyo polen mareaba y aturdía a cualquiera que se ponía a su alcance." #NT!
+ legend_chapter_discovery_legendary_archer: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] viajes llevaron a [ROOT.Legend.GetProtagonist.GetHerHim] a un terreno en el que había un arquero jactancioso, quien retó al bueno [ROOT.Legend.GetProtagonist.GetLadyLord] a un concurso de tiro con arco. ¡[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] rápidamente divide la flecha del arquero en dos con una de [ROOT.Legend.GetProtagonist.GetHerHis] propia!" #NT!
+ legend_chapter_discovery_archery_contest_won: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] viajes llevaron a [ROOT.Legend.GetProtagonist.GetHerHim] a un terreno en el que había un arquero jactancioso, quien retó al bueno [ROOT.Legend.GetProtagonist.GetLadyLord] a un concurso de tiro con arco. La competencia fue feroz, pero finalmente [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] demostró ser más certero." #NT!
+ legend_chapter_discovery_bog_stronk: "El camino [ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] tomó [ROOT.Legend.GetProtagonist.GetHerHim] sobre un terreno traicionero, donde incluso el propio suelo intentó succionar [ROOT.Legend.GetProtagonist.GetHerHim] debajo de su superficie. Sólo la inmensa fuerza que poseía [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] permitió a [ROOT.Legend.GetProtagonist.GetHerHim] liberarse." #NT!
+ legend_chapter_discovery_bog_struggle: "El camino [ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] tomó [ROOT.Legend.GetProtagonist.GetHerHim] sobre un terreno traicionero, donde incluso el propio suelo intentó succionar [ROOT.Legend.GetProtagonist.GetHerHim] debajo de su superficie. Luchando poderosamente, finalmente [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] liberó a [ROOT.Legend.GetProtagonist.GetHerselfHimself] de la tierra traidora." #NT!
+ legend_chapter_discovery_wildflower_expert: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] viajes llevaron a [ROOT.Legend.GetProtagonist.GetHerHim] a tierras nuevas y exóticas, donde incluso las plantas resultaron desconocidas e inusuales. De hecho, [ROOT.Legend.GetProtagonist.GetSheHe] incluso encontró una planta nunca vista antes ni después, escondida entre la frondosa maleza." #NT!
+ legend_chapter_discovery_cannibal_scarred: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] viajó por todas partes e incluso fue atacado por caníbales voraces. [ROOT.Legend.GetProtagonist.GetSheHe|U] venció a muchos de ellos, las cicatrices en la cara de [ROOT.Legend.GetProtagonist.GetHerHis] son testimonio de la lucha durante el resto de [ROOT.Legend.GetProtagonist.GetHerHis] días." #NT!
+ legend_chapter_discovery_cannibal_fight: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] viajó por todas partes e incluso fue atacado por caníbales voraces. La lucha duró hasta que se puso el sol, y nuestro héroe quedó exhausto mientras los caníbales restantes huían." #NT!
+ legend_chapter_battle_enemy_commander: "En medio del tumulto, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] se encontró cara a cara nada menos que con el desdichado comandante enemigo. Después de un duelo todopoderoso, el vil perro fue derribado por [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U], la sangre corría libremente por la hoja de [ROOT.Legend.GetProtagonist.GetHerHis] mientras la batalla giraba a su alrededor." #NT!
+ legend_chapter_battle_faked_retreat: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] perspicacia táctica fue puesta a prueba en los fuegos de la batalla, pero [ROOT.Legend.GetProtagonist.GetSheHe] demostró [ROOT.Legend.GetProtagonist.GetHerselfHimself] estar a la altura de la tarea. Una astuta retirada fingida colocó al enemigo en una posición vulnerable, solo para que nuestro valiente héroe avanzara una vez más y los derribara." #NT!
+ legend_chapter_battle_flanking_success: "[ROOT.Legend.GetProtagonist.GetFirstNamePossessive|U] mostró una vez más sus maniobras agresivas y brillantes en el campo de batalla, cuando [ROOT.Legend.GetProtagonist.GetSheHe] dirigió personalmente una atronadora carga por el flanco. El cobarde enemigo vaciló y luego huyó, con un solo golpe venciendo el día." #NT!
+ legend_chapter_battle_ravished_maiden: "Nunca alguien que deja morir a un inocente, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] encontró tiempo en medio de la batalla no sólo para rescatar sino incluso #EMP violar#! a un atractivo de baja cuna que se había puesto en peligro." #NT!
+ legend_chapter_battle_maiden_kiss: "Al encontrarse con un campesino indefenso, pero realmente sorprendente, en medio del tumulto de la batalla, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] se abalanzó para llevárselo. ¡Nuestro héroe fue recompensado rápidamente con un beso, como corresponde a un [ROOT.Legend.GetProtagonist.GetWomanMan] de tanta valentía!" #NT!
+ legend_chapter_battle_wounded: "La batalla fue feroz y el combate brutal. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] sufrió muchas lesiones duraderas como resultado de ello; ¡Un pequeño precio a pagar por un [ROOT.Legend.GetProtagonist.GetWomanMan] de tal convicción y honor!" #NT!
+ legend_chapter_battle_reinforcement_arrival: "Cuando la batalla alcanzó su punto culminante, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] [ROOT.Legend.GetProtagonist.GetHerselfHimself] llegó al frente de una multitud de refuerzos. La batalla se volvió así a favor de nuestro valiente héroe, quien lideró la carga hacia las filas enemigas." #NT!
+ legend_chapter_opening_new_faith: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] nació cuando la religión [ROOT.Legend.GetProperty( 'religion' ).Religion.GetNameNoTooltip] se había alejado mucho de la voluntad de [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodNamePossessive]. Los predicadores y [ROOT.Legend.GetProperty( 'faith' ).Faith.PriestNeuterPlural] abrazaron la herejía en nombre de [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodHerHis|U] mientras el [ROOT.Legend.GetProperty( 'faith' ).Faith.HouseOfWorshipPlural] estaba podrido y abandonado. El pueblo se volvió hacia otras religiones, dando paso a [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodNamePossessive] rivales para conquistar los corazones de los hombres." #NT!
+ legend_chapter_motivation_new_faith: "Al ver la debilidad y corrupción de la fe, [ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] partió con una nueva visión para [ROOT.Legend.GetProperty( 'religion' ).Religion.GetNameNoTooltip]: una nueva perspectiva de la fe que no permitiría ninguna desviación de la voluntad de [ROOT.Legend.GetProperty( 'faith' ).Faith.PantheonTerm]; ¡Una fe fuerte y unida que se extiende a todos los rincones del mundo!" #NT!
+ legend_chapter_famous_deed_new_faith: "Buscando la soledad de los balbuceos sin sentido de los herejes, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] subió a la más alta de las montañas de todo el país con nada más que la misericordia de [ROOT.Legend.GetProperty( 'faith' ).Faith.HealthGodName] para su seguridad. En su apogeo, las nubes se separaron y [ROOT.Legend.GetProperty( 'faith' ).Faith.PantheonTerm] apareció a [ROOT.Legend.GetProtagonist.GetHerHim] y le lanzó una visión a [ROOT.Legend.GetProtagonist.GetHerHim]. La estructura esquelética de un viejo [ROOT.Legend.GetProperty( 'faith' ).Faith.PriestNeuter] yacía en su lecho de muerte, aferrándose celosamente a la vida mientras un [ROOT.Legend.GetProperty( 'faith' ).Faith.PriestNeuter] más nuevo y mucho más joven dejaba descansar a su predecesor. Esta visión sin duda predijo la bendición de [ROOT.Legend.GetProperty( 'faith' ).Faith.PantheonTerm] para la nueva fe [ROOT.Legend.GetProperty( 'faith' ).Faith.GetNameNoTooltip]." #NT!
+ legend_chapter_extra_deed_new_faith: "La humanidad creó tantos rivales para [ROOT.Legend.GetProperty( 'faith' ).Faith.PantheonTerm], y [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] los desmanteló a todos, reuniendo así en [ROOT.Legend.GetProtagonist.GetHerselfHimself] un vasto rebaño para pastorear." #NT!
+ legend_chapter_conclusion_new_faith: "Con el [ROOT.Legend.GetProperty( 'faith' ).Faith.PriestNeuterPlural] reunido y el [ROOT.Legend.GetProperty( 'faith' ).Faith.ReligiousText|U] escrito de nuevo, ¡el [ROOT.Legend.GetProperty( 'religion' ).Religion.GetNameNoTooltip|U] fue finalmente restaurado en la visión de [ROOT.Legend.GetProperty( 'faith' ).Faith.PantheonTerm]!" #NT!
+ legend_chapter_battle_legendary_battle: "$legendary_battle_desc$" #NT!
+ legend_chapter_opening_struggle: "Nacido en la caótica tormenta en el corazón de [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName], [ROOT.Legend.GetProtagonist.GetNameNoTooltip] no tenía ninguna inclinación a que [ROOT.Legend.GetProtagonist.GetSheHe] trajera paz y orden a la región." #NT!
+ legend_chapter_motivation_struggle: "Ver hermano vuelto contra hermano - [ROOT.Legend.GetProtagonist.GetFaith.GetAdherentNameNoTooltip] contra [ROOT.Legend.GetProtagonist.GetFaith.GetAdherentNameNoTooltip] - [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] sólo pronunció "no más" a los tontos discutidores que buscarían destrozar la región. Para [ROOT.Legend.GetProtagonist.GetHerHim] quedó claro que las luchas del pueblo de [ROOT.Legend.GetProtagonist.GetHerHis] deben llegar a su fin y que se debe labrar un nuevo futuro a partir de los restos del [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]." #NT!
+ legend_chapter_extra_deed_struggle: "A pesar de toda la grandeza que [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] había alcanzado, todavía había quienes dudaban de la visión de [ROOT.Legend.GetProtagonist.GetHerHis] para resolver el [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]. [ROOT.Legend.GetProtagonist.GetHerHis|U] enemigos pronto fueron derrotados en los campos de batalla tanto del debate como de la guerra, hasta que todos se arrastraron a [ROOT.Legend.GetProtagonist.GetHerHis] pies y suplicaron [ROOT.Legend.GetProtagonist.GetHerHis] misericordia." #NT!
+ legend_chapter_conclusion_ended_struggle: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] vio que las reglas del mundo estaban equivocadas, pero debido a los esfuerzos de [ROOT.Legend.GetProtagonist.GetHerHis], el llamado [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName] ha llegado a su fin y la región nunca volverá a ser la misma. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] emerge como [ROOT.Legend.GetProtagonist.GetTitleAsNameNoTooltip|U] victorioso sobre todos los demás." #NT!
+ legend_chapter_opening_priesthood_restoration: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] entró en este mundo cuando los fieles [ROOT.Legend.GetProperty( 'faith' ).Faith.GetAdjectiveNoTooltip] estaban destrozados en todo el mundo en una diáspora desesperada. Con visiones de un todopoderoso [ROOT.Legend.GetProperty( 'faith' ).Faith.HouseOfWorship] que se elevaba sobre la creación en la mente de [ROOT.Legend.GetProtagonist.GetHerHis], [ROOT.Legend.GetProtagonist.GetSheHe] sabía que [ROOT.Legend.GetProtagonist.GetSheHe] estaba encargado de la santa misión de [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodName] de unir a todos [ROOT.Legend.GetProperty( 'faith' ).Faith.GetAdherentNamePluralNoTooltip]." #NT!
+ legend_chapter_famous_deed_religious: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] dedicó [ROOT.Legend.GetProtagonist.GetHerselfHimself] a [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodName] y actuó enteramente por la voluntad de [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodHerHis|U]. Cada [ROOT.Legend.GetProperty( 'faith' ).Faith.GetReligion.GetAdherentNameNoTooltip|U] deambulaba por la tierra con el nombre "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]" en los labios, contando historias de innumerables sucesos sagrados en nombre de [ROOT.Legend.GetProtagonist.GetHerHis]." #NT!
+ legend_chapter_extra_deed_religious: "Sin embargo, ese no fue el final de la historia, ya que los fieles todavía estaban acosados ​​por bandidos y malhechores, ¡y esclavizados por herejes! [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] ayudó a aquellos que vivían bajo tiranía a elevarse en el abrazo de [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodName|U], triunfando sobre los secuaces de [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName] y [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilHerHis]." #NT!
+ legend_chapter_conclusion_priesthood_restored: "Se reunió a los sacerdotes y se puso fin a la diáspora. Nunca más el [ROOT.Legend.GetProperty( 'faith' ).Faith.GetAdherentNamePluralNoTooltip] será arrojado al viento sin liderazgo, ya que el [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] marca el comienzo de un nuevo [ROOT.Legend.GetProperty( 'faith' ).Faith.ReligiousHeadName]." #NT!
+ legend_chronicle_opening_exotic_backstory: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] viajó desde la lejana tierra mística de [ROOT.Legend.GetProperty( 'location' ).GetFlagName] en una misión. [ROOT.Legend.GetProtagonist.GetSheHe|U] fue un héroe entre la propia gente de [ROOT.Legend.GetProtagonist.GetHerHis], pero ahora [ROOT.Legend.GetProtagonist.GetSheHe] se ofrece a otorgarle benevolencia a [ROOT.Legend.GetProtagonist.GetHerHis] en nuestro pequeño rincón del vasto e infinito mundo." #NT!
+ legend_chronicle_motivation_exotic_backstory: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] contempló [ROOT.Legend.GetProtagonist.GetHerHis] nuevo hogar y lloró, porque sus tecnologías y cultura eran tan primitivas en comparación con las maravillas a las que [ROOT.Legend.GetProtagonist.GetSheHe] se había acostumbrado en [ROOT.Legend.GetProperty( 'location' ).GetFlagName]. El trabajo era claro: [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] debe difundir la iluminación de [ROOT.Legend.GetProtagonist.GetHerHis] patria hasta este rincón de la creación." #NT!
+ legend_chronicle_conclusion_exotic_backstory: "Mucho había cambiado desde que llegó [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]. Donde antes los campesinos vivían en la miseria y los bárbaros desangraban la tierra, ahora se había extendido la luz de la civilización. Aunque había muchas rocas en el camino de [ROOT.Legend.GetProtagonist.GetHerHis], las recogió todas como medio para construir un nuevo [ROOT.Legend.GetProperty( 'location' ).GetFlagName]. En todo el reino, los bebés llevan el nombre de [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] y las masas cantan en coro agradecido por el extraño de [ROOT.Legend.GetProperty( 'location' ).GetFlagName] que construyó su gran ciudad." #NT!
+  
+ legend_chronicle_divine_intervention_motivation: "[Localize( god )|U] habló con [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] en el plano del sueño y encargó a [ROOT.Legend.GetProtagonist.GetHerHim] una misión santa. Desde entonces, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] ha estado orando y buscando en las tierras una señal de la verdadera naturaleza de este cargo de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm]." #NT!
+ legend_chapter_famous_deed_divine_intervention: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] dedicó [ROOT.Legend.GetProtagonist.GetHerselfHimself] a [Localize( god )] y actuó enteramente por voluntad de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm]. Después de muchos días y muchas noches recluidos en oración, ¡por fin la verdadera naturaleza de la misión de [ROOT.Legend.GetProtagonist.GetHerHis] fue revelada a [ROOT.Legend.GetProtagonist.GetHerHim]!" #NT!
+ legend_chapter_extra_deed_divine_intervention: "Las tierras estaban plagadas de bandidos impíos que harían daño a los fieles, pero con el grupo de seguidores de [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] y [ROOT.Legend.GetProtagonist.GetHerHis], estos servidores de [ROOT.Legend.GetProtagonist.GetFaith.DevilName|U] fueron expulsados ​​de regreso a [ROOT.Legend.GetProtagonist.GetFaith.NegativeAfterLife|U], donde pertenecen y la gente era libre. [Localize( god )|U] sonrió a [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] por el bien que [ROOT.Legend.GetProtagonist.GetSheHe] había hecho, y [ROOT.Legend.GetProtagonist.GetHerHis] la santa misión estaba casi en su clímax." #NT!
+ legend_chapter_conclusion_divine_intervention: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] gobernó justa y piadosamente, con [Localize( god )] como guía [ROOT.Legend.GetProtagonist.GetHerHis]. Cumplido el plan divino, [ROOT.Legend.GetProtagonist.GetSheHe] vivió una vida de gran honor y piedad." #NT!
+ legend_chapter_opening_ancestral_glory: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] nació del charco de [ROOT.Legend.Custom('GetAncestorNamePossessiveNoTooltip')] propia carne y sangre. Con el poder natural de este gran linaje, ¿hubo alguna vez alguna duda de que [ROOT.Legend.GetProtagonist.GetSheHe] lograría grandes cosas?" #NT!
+ legend_chapter_motivation_ancestral_glory: "No tenía ninguna duda; [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] debía unificar todo [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] bajo la regla [ROOT.Legend.GetProtagonist.GetHerHis]. En nombre de [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')], las disputas entre señores y damas menores estaban a punto de llegar a su fin, y todos vendrían a llamar a [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] su señor." #NT!
+ legend_chapter_famous_deed_ancestral_glory: "Los tontos se juntaban para desafiar a [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip], pero eran como el viento a la montaña. Los seguidores de [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] crecieron con cada acto maravilloso que [ROOT.Legend.GetProtagonist.GetSheHe] cometía en nombre de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm], y [ROOT.Legend.GetProtagonist.GetSheHe] se convirtió en el reflejo mismo de [ROOT.Legend.Custom('GetAncestorFirstNameNoTooltip')]." #NT!
+ legend_chapter_extra_deed_ancestral_glory: "La hermosa campiña de [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] había caído en manos de bandidos y bandidos desde la época de [ROOT.Legend.Custom('GetAncestorFirstNamePossessiveNoTooltip')], pero [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] pronto se puso a trabajar para corregir errores y proteger a la gente que [ROOT.Legend.GetProtagonist.GetSheHe] debía gobernar legítimamente." #NT!
+ legend_chapter_conclusion_ancestral_glory: "El viaje estuvo lleno de peligros, pero con todo lo que [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] había hecho por [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] y su gente, ¿podría haber alguna duda de que [ROOT.Legend.GetProtagonist.GetSheHe] fue elegido por [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm|U] para gobernar? ¡Desde la ciudad hasta la granja más humilde, todos gritan el nombre "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]" con exultación extática!" #NT!
+ legend_chapter_opening_ancient_people: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] nació en un gran linaje [ROOT.Legend.GetProperty( 'culture' ).Culture.GetNameNoTooltip] para gobernar [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] como lo habrían hecho sus antepasados ​​[ROOT.Legend.GetProtagonist.GetHerHis]." #NT!
+ legend_chapter_conclusion_ancient_people: "Con tremendo trabajo, [ROOT.Legend.GetProtagonist.GetNameNoTooltip] trabajó incansablemente para convertir [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip] en una visión de la perfección [ROOT.Legend.GetProperty( 'culture' ).Culture.GetNameNoTooltip]. ¡Gracias sólo a las hazañas legendarias de [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip], el pueblo de [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip] grita de orgullo por sus raíces [ROOT.Legend.GetProperty( 'culture' ).Culture.GetNameNoTooltip]!" #NT!
+ legend_chapter_motivation_saintly_deed: "La misión de [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm] era clara: ¡[ROOT.Legend.GetProtagonist.GetSheHe] era hacer maravillas! ¡Todos [ROOT.Legend.GetProperty('religion').Religion.GetAdherentNamePluralNoTooltip] guardan [ROOT.Legend.Custom('GetAncestorNameNoTooltip')] en sus corazones, pero ninguno sabía los milagros que [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] aún estaba por realizar!" #NT!
+ legend_chapter_extra_deed_saintly_deed: "Los caminos de los fieles fueron asaltados por los impíos, y con una espada bendecida por el todopoderoso, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] los ahuyentó a todos. Pero, aun así, las bestias salvajes y las serpientes todavía deambulaban por el camino y causaban daño a los fieles, por lo que [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] arrancó [ROOT.Legend.GetProtagonist.GetHerHis] [ROOT.Legend.GetProtagonist.Custom('GetMusicalInstrument')] y encantó [ROOT.Legend.GetProtagonist.GetFaith.CreatorNamePossessive] creaciones de las tierras." #NT!
+ legend_chapter_conclusion_saintly_deed: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] había trabajado incansablemente por todo [ROOT.Legend.GetProperty('religion').Religion.GetNameNoTooltip] y había luchado contra los secuaces de [ROOT.Legend.GetProtagonist.GetFaith.DevilName] aquí en la Tierra, pero al final las luchas de [ROOT.Legend.GetProtagonist.GetHerHis] habían llegado a su fin. Cumplido el plan divino, [ROOT.Legend.GetProtagonist.GetSheHe] vivió una vida de gran honor y piedad." #NT!
+ legend_chapter_opening_mythical_descent: "Como todos los miembros de la familia [ROOT.Legend.GetProtagonist.GetDynastyNameNoTooltip] antes de [ROOT.Legend.GetProtagonist.GetHerHim], [ROOT.Legend.GetProtagonist.GetNameNoTooltip] nació con la sangre de un [ROOT.Legend.GetProperty( 'beast' ).GetFlagName]. [ROOT.Legend.GetProtagonist.GetHerHis|U] orígenes extraordinarios sitúan a [ROOT.Legend.GetProtagonist.GetHerHim] por encima de todos los demás, destinado a la grandeza." #NT!
+ legend_chapter_famous_deed_mythical_descent: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] resultó herido en una gran batalla con algún villano que dudaba de su linaje, [ROOT.Legend.GetProtagonist.GetHerHis] sangre divina se esparció por un campo. La sangre brilló y centelleó como gemas recién cortadas y, en pocos días, el suelo inhóspito comenzó a florecer con flores de magníficos colores." #NT!
+ legend_chapter_extra_deed_mythical_descent: "Sin embargo, este no fue el final de la historia, ya que muchos todavía dudarían de la divinidad presente en la sangre de [ROOT.Legend.GetProtagonist.GetHerHis]. Usando [ROOT.Legend.GetProtagonist.GetHerHis] grandes poderes, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] acosó a [ROOT.Legend.GetProtagonist.GetHerHis] escépticos con una gran plaga de bestias, sus palacios y hogares llenos de ladridos y gritos voraces." #NT!
+ legend_chapter_opening_godly_descent: "[ROOT.Legend.GetProperty( 'god' ).GetFlagName|U] fertilizó a [ROOT.Legend.GetProtagonist.GetNamePossessiveNoTooltip] antepasado y dio a luz al primer [ROOT.Legend.GetProtagonist.GetDynastyNameNoTooltip] del útero del mundo. Desde el nacimiento, todos los miembros de la familia [ROOT.Legend.GetProtagonist.GetDynastyNameNoTooltip] tienen a su cargo una misión divina: llevar la prosperidad y la fe [ROOT.Legend.GetProtagonist.GetFaith.GetNameNoTooltip] a todos los rincones de [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]." #NT!
+ legend_chapter_famous_deed_war_won: "Se libraron batallas de un lado a otro, y la guerra pintó la tierra de carmesí con la sangre de los justos y los villanos en igual medida. [ROOT.Legend.GetProperty( 'winner' ).Char.GetNameNoTooltip|U] permaneció inquebrantable mientras las fuerzas del mal intentaban burlar la magistral estratagema militar de [ROOT.Legend.GetProperty( 'winner' ).Char.GetHerHis]. Al final, sus esfuerzos resultarían infructuosos." #NT!
+ legend_chapter_conclusion_war_won: "Los subordinados de [ROOT.Legend.GetProperty( 'loser' ).Char.GetNameNoTooltip|U] y [ROOT.Legend.GetProperty( 'loser' ).Char.GetHerHis] agacharon sus cabezas bajo su estandarte roto y suplicaron misericordia de [ROOT.Legend.GetProperty( 'winner' ).Char.GetFirstNamePossessiveNoTooltip]. En los días más oscuros de la guerra, [ROOT.Legend.GetProperty( 'winner' ).Char.GetSheHe] sólo podía imaginar a [ROOT.Legend.GetProperty( 'winner' ).Char.GetHerselfHimself] como un superviviente de la guerra, pero [ROOT.Legend.GetProperty( 'winner' ).Char.GetSheHe] emerge como el ganador. El único ganador." #NT!
+ legend_chapter_motivation_new_title: "Mucho antes de que la familia [ROOT.Legend.GetProperty( 'founder' ).Char.GetDynastyNameNoTooltip] se convirtiera en administradora de [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip], [ROOT.Legend.GetProperty( 'founder' ).Char.GetNameNoTooltip] recibió una visión de [ROOT.Legend.GetProperty( 'founder' ).Char.GetFaith.PantheonTerm]. Desde ese momento, [ROOT.Legend.GetProperty( 'founder' ).Char.GetSheHe] supo que [ROOT.Legend.GetProperty( 'founder' ).Char.GetSheHe] había nacido para gobernar." #NT!
+ legend_chapter_famous_deed_new_title: "Las tierras que llegarían a comprender [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] quedaron bajo el control de los terribles sirvientes de [ROOT.Legend.GetProperty( 'founder' ).Char.GetFaith.DevilName]. Pero con [ROOT.Legend.GetProperty( 'founder' ).Char.GetHerHis] grandes ejércitos, [ROOT.Legend.GetProperty( 'founder' ).Char.GetNameNoTooltip] liberó pueblo tras pueblo tras ciudad. El pueblo tomó las armas y derrocó a sus malvados gobernantes al servicio de [ROOT.Legend.GetProperty( 'founder' ).Char.GetFirstNameNoTooltip], dispuesto a morir por su legítimo gobernante. [ROOT.Legend.GetProperty( 'founder' ).Char.GetFaith.HighGodName] les negó su sacrificio porque [ROOT.Legend.GetProperty( 'founder' ).Char.GetFaith.HighGodNameSheHe|U] les concedió [ROOT.Legend.GetProperty( 'founder' ).Char.GetFaith.HighGodHerHis|U] protección divina. Ninguna espada pudo tocar a los crecientes ejércitos de [ROOT.Legend.GetProperty( 'founder' ).Char.GetFirstNameNoTooltip] mientras [ROOT.Legend.GetProperty( 'founder' ).Char.GetSheHe] liberaba a la gente de [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]." #NT!
+ legend_chapter_conclusion_new_title: "Las disputas entre duques y pequeños nobles anónimos finalmente llegaron a su fin cuando [ROOT.Legend.GetProperty( 'founder' ).Char.GetNameNoTooltip] los obligó a todos a jurar su lealtad a perpetuidad a [ROOT.Legend.GetProperty( 'founder' ).Char.GetHerHim]. Cuando [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] nació de nuevo, la forma del mundo cambió para siempre." #NT!
+ legend_chronicle_sacred_birth_opening: "Desde el día en que nació [ROOT.Legend.GetProtagonist.GetSheHe], quedó claro que [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm] tenía planes más elevados para [ROOT.Legend.GetProtagonist.GetNameNoTooltip]. [ROOT.Legend.Custom('GetBirthCircumstancesLegend')|U], [ROOT.Legend.GetProtagonist.GetHerHis] la grandeza estaba predeterminada." #NT!
+ born_to_a_virgin_mother: "Nacido de una madre virgen" #NT!
+ born_under_auspicious_stars: "Nacido bajo estrellas auspiciosas" #NT!
+ legend_chapter_motivation_sacred_birth: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip|U] pasó muchas noches sin dormir atormentado por visiones de su propio nacimiento, hasta que en una noche fatídica, fue [ROOT.Legend.GetProtagonist.GetFaith.HighGodName|U] quien apareció ante [ROOT.Legend.GetProtagonist.GetHerHim]. [ROOT.Legend.GetProtagonist.GetFaith.HighGodName|U] declaró que [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] fue colocado en la Tierra con un propósito divino, uno que reemplazó el llamado típico de [ROOT.Legend.GetProtagonist.GetWomanMan]. Desde ese día, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] supo que las circunstancias del nacimiento de [ROOT.Legend.GetProtagonist.GetHerHis] no eran ni un rumor ni una coincidencia, ¡sino una intervención directa de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm]!" #NT!
+ legend_chapter_conclusion_sacred_birth: "Con todas las grandes hazañas que [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] había realizado en nombre de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm], [ROOT.Legend.GetProtagonist.GetSheHe] fue visitado una vez más, aunque esta vez no fue un simple sueño o visión. [ROOT.Legend.GetProtagonist.GetFaith.HighGodName|U] se manifestó en forma física y ofreció a [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] un vaso de agua para beber, otorgándole a [ROOT.Legend.GetProtagonist.GetHerHim] un toque de divinidad. Las masas aplaudieron el nombre de [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U], suplicando simplemente ser tocados por las manos divinas y curativas de [ROOT.Legend.GetProtagonist.GetHerHis]." #NT!
+ legend_chronicle_unsuspecting_opening: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] nació como lo sería cualquier [ROOT.Legend.GetProtagonist.GetWomanMan], sin ninguna idea de la grandeza que [ROOT.Legend.GetProtagonist.GetSheHe] alcanzaría en nombre de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm]." #NT!
+ legend_chapter_motivation_fought_devil: "Devastado por pesadillas, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] fue perseguido por visiones de [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName], silbando y atormentando a [ROOT.Legend.GetProtagonist.GetHerHim]. Cada día, [ROOT.Legend.GetProtagonist.GetSheHe] se despertaba del sueño de [ROOT.Legend.GetProtagonist.GetHerHis] con un nuevo propósito y la sensación de que [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm] tenía un plan para [ROOT.Legend.GetProtagonist.GetHerHim]." #NT!
+ legend_chapter_famous_deed_fought_devil: "Una noche, [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName|U] visitó a [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] con toda clase de látigos y crueles mecanismos de tortura esparcidos por las paredes manchadas de sangre. Desnudo e imperturbable, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] luchó contra [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName|U] con la fuerza y ​​la convicción de [ROOT.Legend.GetProperty( 'faith' ).Faith.HighGodName|U] pulsando a través de [ROOT.Legend.GetProtagonist.GetHerHis]. Con [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName|U] inmovilizado impotentemente debajo de [ROOT.Legend.GetProtagonist.GetHerHim], ¡la horrible bestia siseó y gruñó, el mal frustrado por un simple [ROOT.Legend.GetProtagonist.GetWomanMan]!" #NT!
+ legend_chapter_extra_deed_fought_devil: "Insatisfecho y lleno de odio por todo lo bueno y justo, [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName|U] desafió a [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] a una competencia de [ROOT.Legend.GetProtagonist.Custom('GetMusicalInstrument')]. La melodía que tocó [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] hizo que [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName|U] se fundiera en [ROOT.Legend.GetProperty( 'faith' ).Faith.NegativeAfterLife|U]. La melodía se escapó de la mente de [ROOT.Legend.GetProtagonist.GetHerHis] como humo, sin duda demasiado divina para el reino de los hombres." #NT!
+ legend_chapter_conclusion_fought_devil: "Con [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName|U] derrotado, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] dedicó [ROOT.Legend.GetProtagonist.GetHerselfHimself] a vencer las fuerzas del mal en el reino de los mortales. [ROOT.Legend.GetProtagonist.GetSheHe|U] llevó un resplandor sagrado con [ROOT.Legend.GetProtagonist.GetHerHim] todos los [ROOT.Legend.GetProtagonist.GetHerHis] días y dejó paz y civilización a su paso." #NT!
+ legend_chapter_famous_deed_tournament_won: "Mentes y voces chocaron en igual medida que espadas en un gran espectáculo de artes marciales, ¡pero ninguna mente era tan inteligente ni ninguna espada tan afilada como [ROOT.Legend.GetProtagonist.GetNamePossessiveNoTooltip]! Uno tras otro, los concursantes se alinearon solo para ser hechos llorar por el intocable [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]." #NT!
+ legend_chapter_extra_deed_tournament_won: "Nadie pudo evitar recordar la gloria del primer torneo de [ROOT.Legend.GetProtagonist.GetNamePossessiveNoTooltip], pero una sola victoria no fue suficiente para [ROOT.Legend.GetProtagonist.GetHerHim]. Los otros contendientes rodearon a [ROOT.Legend.GetProtagonist.GetHerHim] en una tormenta de espadas, pero [ROOT.Legend.GetProtagonist.GetSheHe] permaneció imperturbable. ¡[ROOT.Legend.GetProtagonist.GetSheHe|U] salió victorioso ante una multitud que gritaba el nombre de [ROOT.Legend.GetProtagonist.GetHerHis]!" #NT!
+ legend_chronicle_opening_raised_by_animals: "Sin comida ni esperanza de rescate, [ROOT.Legend.GetProtagonist.GetNameNoTooltip] yacía perdido como un bebé junto a un río hasta que una madre poderosa [ROOT.Legend.GetProperty( 'beast' ).GetFlagName] encontró a [ROOT.Legend.GetProtagonist.GetHerHim]. Ella alimentó a [ROOT.Legend.GetProtagonist.GetHerHim] de su tetina, haciendo que el bebé creciera hasta convertirse en un hercúleo [ROOT.Legend.GetProtagonist.GetWomanMan] con toda la fuerza y ​​coraje del [ROOT.Legend.GetProperty( 'beast' ).GetFlagName]." #NT!
+ legend_chapter_motivation_raised_by_animals: "Al regresar a la humanidad, [ROOT.Legend.GetProtagonist.GetFirstName] descubrió cómo el caos había asolado la tierra. El vecino atacó al vecino como un [ROOT.Legend.GetProperty( 'beast' ).GetFlagName] a su presa, y [ROOT.Legend.GetProtagonist.GetFirstName] sabía que las personas [ROOT.Legend.GetProtagonist.GetHerHis] necesitaban un líder fuerte para unir a la manada detrás de su causa compartida." #NT!
+ legend_chapter_conclusion_raised_by_animals: "[ROOT.Legend.GetProtagonist.GetFirstName|U] gobernó tal como lo haría el [ROOT.Legend.GetProperty( 'beast' ).GetFlagName], fuerte y orgulloso. Aunque [ROOT.Legend.GetProtagonist.GetSheHe] nunca volvió a ver a la madre de [ROOT.Legend.GetProtagonist.GetHerHis] [ROOT.Legend.GetProperty( 'beast' ).GetFlagName], [ROOT.Legend.GetProtagonist.GetSheHe] no tenía dudas de que este mensajero de [ROOT.Legend.GetProtagonist.GetFaith.PantheonTerm] miraría el reinado de [ROOT.Legend.GetProtagonist.GetHerHis] con gran orgullo. Las tierras permanecieron tranquilas y pacíficas, sin que ninguno de los enemigos de [ROOT.Legend.GetProtagonist.GetHerHis] se atreviera a salirse de la línea, para no enfrentarse a la furia de [ROOT.Legend.GetProperty( 'beast' ).GetFlagName]." #NT!
+ legend_chapter_extra_deed_recent_battle: "Al regresar a casa, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] luchó valientemente contra [ROOT.Legend.GetProtagonist.GetHerHis] enemigos, liderando con valentía y brillantez estratégica inigualables. Con [ROOT.Legend.GetProtagonist.GetHerHis] espada en alto y su inquebrantable determinación, inspiró la victoria contra [ROOT.Legend.GetProtagonist.GetHerHis] enemigos." #NT!
+ legend_chapter_extra_deed_recent_siege: "A su regreso a casa, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] encabezó el asedio de una fortaleza enemiga con determinación inquebrantable, rompiendo la ciudad como si fuera el cristal más fino. Con [ROOT.Legend.GetProtagonist.GetHerHis] fuerzas reunidas y estandartes desplegados, [ROOT.Legend.GetProtagonist.GetSheHe] lanzó una carga implacable, rompiendo las defensas y cantando la victoria." #NT!
+ legend_chapter_extra_deed_recent_imprisonment: "En lo más profundo del calabozo más oscuro, privado de comida y agua, encadenado y rodeado de sombras, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] encontró la determinación necesaria para escapar. Con los dientes apretados y el corazón ardiendo con desafío, [ROOT.Legend.GetProtagonist.GetSheHe] planeó la escapada de [ROOT.Legend.GetProtagonist.GetHerHis], noche tras noche. A través de una manipulación astuta y pura fuerza de voluntad, [ROOT.Legend.GetProtagonist.GetSheHe] siguió pasadizos secretos hacia la luz de la mañana." #NT!
+ legend_chapter_extra_deed_recent_tournament: "Al regresar a casa, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] quedó cautivado por el esplendor de los gloriosos campos del torneo. Con espada en mano y armadura brillando bajo la mirada del sol, [ROOT.Legend.GetProtagonist.GetSheHe] se enfrentó a oponentes formidables con una resolución inquebrantable. ¡El público gritó, hermosas damas y pajes impresionables se arrojaron a [ROOT.Legend.GetProtagonist.GetHerHis] pies! ¡El ganador! ¡El mejor caballero!" #NT!
+ legend_chapter_famous_deed_saintly_deed: "En medio de los susurros de duda y las sombras de incredulidad entre la población, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] se mantuvo firme en [ROOT.Legend.GetProtagonist.GetHerHis] fe. Todo parecía perdido, la sangre pintaba el campo de batalla. Las lanzas fueron plantadas en el suelo, abandonadas por sus portadores. Pero [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] cayó de rodillas [ROOT.Legend.GetProtagonist.GetHerHis], con la boca llena de oraciones. Las flores brotaron de las lanzas, los enemigos cayeron al suelo, habiendo presenciado un milagro." #NT!
+ legend_chapter_famous_deed_holy_warrior: "Siempre firme defensor de la fe, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] mostró a [ROOT.Legend.GetProtagonist.GetHerselfHimself] como un verdadero héroe en la guerra santa contra los enemigos de [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]. [ROOT.Legend.GetProtagonist.GetSheHe|U] viajó a tierras extranjeras, decidido a restaurar la paz y la prosperidad que los dioses falsos le habían quitado a su pueblo despistado. [ROOT.Legend.GetProtagonist.GetSheHe|U] grabó el símbolo de [ROOT.Legend.GetProtagonist.GetFaith.GetNameNoTooltip] en el antebrazo de [ROOT.Legend.GetProtagonist.GetHerHis], y la sangre se derramó sobre los cadáveres de los infieles." #NT!
+ legend_chapter_opening_legendary_battle: "En las crónicas del tiempo resplandece la saga de una batalla tan gloriosa que resuena a través de la eternidad, una batalla en la que [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] se mantuvo como un coloso en medio de la tempestad de la guerra." #NT!
+ legend_chapter_famous_deed_raised_by_animals: "Con cada día que pasaba, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] crecía en fuerza y ​​sabiduría, no reclamada por la barbarie de la civilización. Como los fundadores de Roma, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] abrazó el mundo que dio vida a [ROOT.Legend.GetProtagonist.GetHerHim] y enseñó a los habitantes de la casa el dominio de la caza, derribando un [ROOT.Legend.GetProtagonist.Custom('RegionalFerociousAnimal')] blanco." #NT!
+ legend_chapter_conclusion_dead_loved_spouse: "Cuando [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] regresó a casa, [ROOT.Legend.GetProtagonist.GetHerHis] corazón se sintió como una pequeña paloma, a punto de abandonar [ROOT.Legend.GetProtagonist.GetHerHis] pecho. Lleno de emoción, [ROOT.Legend.GetProtagonist.GetSheHe] no podía esperar a reunirse con el amor verdadero de [ROOT.Legend.GetProtagonist.GetHerHis]. Un grito terrible, la pena llenó los salones del castillo porque los pálidos labios de [ROOT.Legend.GetProtagonist.GetHerHis] esposa carecían de toda vida. En el silencio de la soledad de [ROOT.Legend.GetProtagonist.GetHerHis], los recuerdos de un amor que inflamaba el corazón de [ROOT.Legend.GetProtagonist.GetHerHis] llenaron a [ROOT.Legend.GetProtagonist.GetHerHim] de un dolor terrible. ¿Qué valor tenía la leyenda [ROOT.Legend.GetProtagonist.GetHerHis], si [ROOT.Legend.GetProtagonist.GetSheHe] no tenía con quién compartirla?" #NT!
+ legend_chapter_conclusion_point_of_interest: "En la vasta extensión de sus viajes, [ROOT.Legend.GetProtagonist.GetSheHe] se topó con una maravilla impresionante que desafiaba los límites terrenales: un lugar donde la belleza de la naturaleza se entrelazaba perfectamente con el ingenio humano. Altísimas agujas de exquisita artesanía se elevaban hacia los cielos, sus elegantes formas bañadas por el suave resplandor de las primeras luces del amanecer. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] respiró hondo, ya que [ROOT.Legend.GetProtagonist.GetSheHe] no podría haber deseado un final mejor." #NT!
+ legend_chapter_motivation_child_mother: "En los tranquilos pasillos del castillo, donde las sombras bailan sobre los muros de piedra y los susurros de cuentos antiguos persisten en el aire, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] acunó a [ROOT.Legend.GetProtagonist.GetHerHis] niño recién nacido en un tierno abrazo. Mientras [ROOT.Legend.GetProtagonist.GetSheHe] miraba los ojos inocentes del bebé, el corazón de [ROOT.Legend.GetProtagonist.GetHerHis] se encendió con determinación. ¿Qué legado dejaría [ROOT.Legend.GetProtagonist.GetSheHe]? ¿Querría [ROOT.Legend.GetProtagonist.GetSheHe] ser recordado como un cobarde refugiado entre seda y flores?" #NT!
+ legend_chapter_motivation_child_father: "En las solemnes cámaras de [ROOT.Legend.GetProtagonist.GetHerHis] hogar ancestral, donde el parpadeo de la luz de las velas proyectaba sombras sobre los antiguos tapices, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] contempló con asombro el milagro de la vida concedido a [ROOT.Legend.GetProtagonist.GetHerHim]. Con ese niño nació la determinación de salvaguardar su legado." #NT!
+ legend_chapter_opening_witch: "Su interés por las artes ocultas siempre había levantado sospechas. Las acusaciones de brujería y hechicería se arremolinaban alrededor de [ROOT.Legend.GetProtagonist.GetHerHim], proyectando una sombra oscura sobre el otrora ilustre nombre de [ROOT.Legend.GetProtagonist.GetHerHis]. Cuando [ROOT.Legend.GetProtagonist.GetHerHis] súbditos leales se volvieron para seguir a [ROOT.Legend.GetProtagonist.GetHerHis] en cada movimiento, [ROOT.Legend.GetProtagonist.GetSheHe] sintió el peso de la desconfianza presionando a [ROOT.Legend.GetProtagonist.GetHerHim]." #NT!
+ legend_chapter_motivation_celibacy: "Una vez adornado con un atuendo regio, [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] estaba vestido con las humildes túnicas de un [ROOT.Legend.GetProtagonist.GetFaith.PriestNeuter], despojado de la corona de [ROOT.Legend.GetProtagonist.GetHerHis]. Pero [ROOT.Legend.GetProtagonist.GetSheHe] nunca olvidó a [ROOT.Legend.GetProtagonist.GetFaith.HighGodName], porque la devoción de [ROOT.Legend.GetProtagonist.GetHerHis] ardió aún más brillante, eterna. Impulsado por la inspiración divina que pulsaba dentro de [ROOT.Legend.GetProtagonist.GetHerHim], [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] decidió forjar un camino que inmortalizaría para siempre el nombre de [ROOT.Legend.GetProtagonist.GetHerHis]." #NT!
+ legend_chapter_opening_new_culture: "[ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip] nació cuando las tradiciones antiguas se volvieron obsoletas. Con una visión en mente, [ROOT.Legend.GetProtagonist.GetHerHis] decidió forjar sus propias tradiciones, creando así la cultura [ROOT.Legend.GetProtagonist.GetCulture.GetNameNoTooltip]." #NT!
+ legend_chapter_opening_new_faith_generic: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip|U] nació cuando la religión se había alejado mucho de la voluntad de [ROOT.Legend.GetProtagonist.GetFaith.GetNameNoTooltip]. Los predicadores abrazaron la herejía en nombre de [ROOT.Legend.GetProtagonist.GetFaith.HighGodNamePossessive] mientras la fe yacía podrida y abandonada. El pueblo se volvió hacia otras religiones, dando paso a [ROOT.Legend.GetProtagonist.GetFaith.HighGodNamePossessive] rivales para conquistar los corazones de los hombres." #NT!
+ legend_chapter_winner_change_toast: "[winner.GetPromotedLegend.GetName] cambios" #NT!
+ legend_chapter_change_toast: "[ROOT.Char.GetPromotedLegend.GetName] cambios" #NT!
+ legend_chapter_change_culture_toast: "[founder.GetPromotedLegend.GetName] cambios" #NT!
+  
+ spread_legend_intent: "Difundir leyenda" #NT!
+ spread_legend_intent_desc: "Utilizarás esta actividad como una oportunidad para difundir tu [legend|E]." #NT!
+ spread_legend_intent_not_valid_desc: "#X Actualmente no posees un [legend|E]" #NT!
+  
+ legend_chronicle_war_won_chronicle: "Conquista de [title.GetNameNoTooltip]" #NT!
+ legend_chronicle_war_won_chronicle_desc: "[winner.GetTitledFirstName] ha conquistado legítimamente [title.GetName] del indigno [loser.GetFirstName]." #NT!
+  
+ legend_chronicle_new_title: "Fundación de [title.GetNameTooltip]" #NT!
+ legend_chronicle_new_title_desc: "¡Por la voluntad, la fuerza y ​​la astucia de [founder.GetName], [title.GetName] ha llegado a existir y nunca fallará!" #NT!
+  
+ legend_chronicle_great_deed_faith: "El triunfo espiritual de [new_faith.GetNameNoTooltip]" #NT!
+ legend_chronicle_great_deed_faith_desc: "Guiado por [founder.GetHerHis] la fe en [new_faith.HighGodName], [founder.GetName] ha llevado a los fieles [new_faith.GetAdherentNamePlural] a la victoria sobre los [old_faith.GetAdherentName], liderados por los viles [antagonist.GetName]" #NT!
+  
+ legend_chronicle_great_deed_title: "Gran hazaña para [title.GetNameNoTooltip]" #NT!
+ legend_chronicle_great_deed_title_desc: "A lo largo de toda la historia, entre todos los gobernantes de [title.GetName], ninguno ha logrado tanto, de ninguno se hablará ante el gran [founder.GetName]." #NT!
+  
+ legend_chronicle_great_deed_region: "[legend_region.GetNamePossessiveNoTooltip] verdadero héroe" #NT!
+ legend_chronicle_great_deed_region_desc: "No hay un alma en [legend_region.GetName] que no conozca el nombre de los logros de [founder.GetName] y [founder.GetHerHis]." #NT!
+  
+ legend_chronicle_great_deed_dynasty: "Un gran esfuerzo por [dynasty.GetNameNoTooltip]" #NT!
+ legend_chronicle_great_deed_dynasty_desc: "Pocos que llevan el nombre de [dynasty.GetName] han hecho tanto por su dinastía como [founder.GetName]." #NT!
+  
+ legend_chronicle_valiant_defense: "Una defensa valiente" #NT!
+ legend_chronicle_valiant_defense_desc: "Contra todo pronóstico, [defender.GetName] ha repelido a las hordas de [attacker.GetName]." #NT!
+  
+ legend_chronicle_tournament_won: "Tres victorias del [winner.GetFirstNameNoTooltip]" #NT!
+ legend_chronicle_tournament_won_desc: "En los campos de justas de [location.GetName], el concursante final [winner.GetName] ganó el torneo por tercera vez. Ningún alma viviente en la Tierra podría rivalizar con [winner.GetHerHim]." #NT!
+  
+ legend_chronicle_accolade_chronicle: "El más valiente de $knight_culture_player_plural_no_tooltip$" #NT!
+ legend_chronicle_accolade_chronicle_desc: "[founder.GetName|U] tenía muchos $knight_culture_player_plural_no_tooltip_lowercase$ excelentes, pero ninguno era mayor que [first_accolade_knight.GetName] de [first_accolade.GetName]." #NT!
+  
+ heroic_legend_seed_drop.t: "Nueva semilla legendaria disponible" #NT!
+ legend_chapter_opening_great_deed: "$legend_chapter_opening_generic$" #NT!
+ legend_chapter_conclusion_great_deed: "$legend_chapter_conclusion_generic$" #NT!
+  
+  # Divine creatures 
+ angels: "Angeles" #NT!
+ the_angels: "Los Angeles" #NT!
+  # Legendary locations 
+ atlantis: "Atlántida" #NT!
+ olympus: "Olimpo" #NT!
+ hindustan: "Indostán" #NT!
+ vinland: "Vinlandia" #NT!
+ sunset_empire: "El imperio del ocaso" #NT!
+ prester_john_kingdom: "El Reino del Preste Juan" #NT!
+ albion: "Albión" #NT!
+ himavanta: "Himavanta" #NT!
+ kumari_kandam: "Kumari Kandam" #NT!
+ mahishmati: "Mahishmati" #NT!
+ beyul: "Beyul" #NT!
+ bald_mountain: "Montaña calva" #NT!
+ irum: "Irum" #NT!
+ china: "Catay" #NT!
+  
+  #Legendary people 
+ vercingetorix: "Vercingétorix" #NT!
+ shibi_chakravarti: "Shibi Chakravarti" #NT!
+  
+  # To account for some ancestors being flags 
+ ancestor_flag_name: "[ROOT.Legend.GetProperty( 'ancestor_flag' ).GetFlagName|U]" #NT!
+ ancestor_flag_name_possessive: "[ROOT.Legend.GetProperty( 'ancestor_flag' ).GetFlagName|U]'s" #NT!
+ ancestor_name: "[ROOT.Legend.GetProperty('ancestor').Char.GetName]" #NT!
+ ancestor_namepossessive: "[ROOT.Legend.GetProperty('ancestor').Char.GetNamePossessive]" #NT!
+ ancestor_firstname: "[ROOT.Legend.GetProperty('ancestor').Char.GetFirstName]" #NT!
+ ancestor_firstnamepossessive: "[ROOT.Legend.GetProperty('ancestor').Char.GetFirstName]" #NT!
+ ancestor_namenotooltip: "[ROOT.Legend.GetProperty('ancestor').Char.GetNameNoTooltip]" #NT!
+ ancestor_namepossessivenotooltip: "[ROOT.Legend.GetProperty('ancestor').Char.GetNamePossessiveNoTooltip]" #NT!
+ ancestor_firstnamenotooltip: "[ROOT.Legend.GetProperty('ancestor').Char.GetFirstNameNoTooltip]" #NT!
+ ancestor_firstnamepossessivenotooltip: "[ROOT.Legend.GetProperty('ancestor').Char.GetFirstNameNoTooltip]" #NT!
+  
+ legend_events.0001.t: "Cronista: una leyenda encontrada" #NT!
+ legend_events.0001.desc.intro: "[chronicler.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se apresura emocionado a saludarme cuando entro a la corte.\n\n" #NT!
+ legend_events.0001.desc.mid.slew_dragon: ""¡Te traigo excelentes noticias, mi [ROOT.Char.GetTitleAsNameNoTooltip|U]! ¡He estado buscando tomos y leyendas sobre [legend_character.GetName], y tengo razones para creer que [legend_character.GetSheHe] luchó y mató a un dragón!" #NT!
+ legend_events.0001.desc.mid.ancestral_saint: ""[ROOT.Char.HighGodName|U] está sonriendo en tu casa hoy, mi [ROOT.Char.GetTitleAsNameNoTooltip|U]. ¡He estado buscando información sobre tu auspicioso ancestro [legend_character.GetName], y he encontrado información que potencialmente haría que [legend_character.GetHerHim] sea digno de ser considerado un [GetTrait('saint').GetNameNoTooltip( ROOT.Char )]!" #NT!
+ legend_events.0001.desc.mid.godly_descent: "[chronicler.GetSheHe|U] cae de rodillas [chronicler.GetHerHis] y besa mis pies. "Oh, Santísimo [ROOT.Char.GetTitleAsNameNoTooltip|U]. ¡Tengo una fuerte razón para sospechar que eres descendiente de sangre de [ROOT.Char.GetFaith.HighGodName|U] [ROOT.Char.GetFaith.HighGodHerselfHimself]!" #NT!
+ legend_events.0001.desc.mid.old_godly_descent: ""Buenos días para ti, mi [ROOT.Char.GetTitleAsNameNoTooltip|U], ¿o debería llamarte '[ROOT.Char.Custom('GetDaughterSon')|U] de [legend_character.GetFaith.HighGodName|U]'? De hecho, he buscado en los registros y creo que el 'dios' de tus antepasados ​​fue en realidad un mortal heroico que cometió un gran serie de hazañas heroicas." #NT!
+ legend_events.0001.desc.mid.raised_by_animals: ""Buenos días, mi [ROOT.Char.GetTitleAsNameNoTooltip|U]. ¿Cuánto recuerdas de tu primera infancia? Algunos tomos en el archivo indicarían que en realidad fuiste criado en la naturaleza por [ROOT.Char.Custom('GetAnimalPlural')]." #NT!
+ legend_events.0001.desc.mid.auspicious_stars: ""[ROOT.Char.GetFaith.HighGodName|U] nos sonríe hoy, mi [ROOT.Char.GetTitleAsNameNoTooltip], igual que [ROOT.Char.GetFaith.HighGodNameSheHe] lo hizo el día de tu nacimiento. En efecto, naciste bajo estrellas auspiciosas, señal de las grandes hazañas que ibas a realizar en la vida." #NT!
+ legend_events.0001.desc.mid.virgin_birth: ""[ROOT.Char.GetFaith.HighGodName|U] nos sonríe hoy, mi [ROOT.Char.GetTitleAsNameNoTooltip], tal como lo hizo [ROOT.Char.GetFaith.HighGodNameSheHe] con tu madre cuando fuiste concebido. ¡De hecho, no eras un bastardo, tu madre tuvo la suerte de ser bendecida con una concepción inmaculada!" #NT!
+ legend_events.0001.desc.mid.spoke_to_angels: ""Recuerdo que hace muchas noches me dijiste que habías sido visitado por ángeles. Mi [ROOT.Char.GetTitleAsNameNoTooltip|U], tengo razones para creer que esto no fue un simple sueño, sino una visión de [ROOT.Char.GetFaith.PositiveAfterLife]." #NT!
+ legend_events.0001.desc.mid.fought_the_devil: ""Soy consciente de que últimamente has estado atormentado por pesadillas. Tengo razones para creer que estas visiones son destellos de tu batalla con [ROOT.Char.GetFaith.DevilName] en [ROOT.Char.GetFaith.NegativeAfterLife]." #NT!
+ legend_events.0001.desc.mid.exotic_backstory: ""Mi [ROOT.Char.GetTitleAsNameNoTooltip|U], nunca te has sentido como un [ROOT.Char.GetCulture.GetName] [ROOT.Char.GetWomanMan] completo, ¿verdad? Creo que hace muchos años, viniste de una tierra mística lejos de aquí." #NT!
+ legend_events.0001.desc.mid.ancient_people: ""Mi [ROOT.Char.GetTitleAsNameNoTooltip|U], he buscado en los registros y encontré información que indicaría que tu línea se puede rastrear hasta las grandes dinastías [ancient_culture.GetName]." #NT!
+ legend_events.0001.desc.outro: "Algunas personas pueden encontrar que esto es un poco descabellado y requeriría un poco de esfuerzo demostrar que es cierto, ¡pero hay una base sólida para convertirte en una leyenda viviente!"" #NT!
+ legend_events.0001.a: "¡Excelente trabajo!" #NT!
+ legend_events.0001.b: "Incluso a mí me resulta difícil de creer." #NT!
+ legend_events.0010.t: "$chronicler_court_position$: La leyenda se extiende" #NT!
+ legend_events.0010.desc: "[chronicler.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me saluda en la corte esta mañana, ansioso por tener noticias en la punta de la lengua de [chronicler.GetHerHis].\n\n"¡Mi [ROOT.Char.GetTitleAsNameNoTooltip|U], creo que [potential_promoter.Custom2('YourCharacterIntroduction', ROOT.Char)] está casi convencido de la veracidad de [ROOT.Char.GetPromotedLegend.GetName]! [potential_promoter.GetSheHe|U] es consciente de la cuento y parece completamente embelesado por él, pero no está convencido de la verdad detrás de él."" #NT!
+ legend_events.0010.a: "Quizás se podría persuadir a [potential_promoter.GetSheHe]." #NT!
+ legend_events.0010.a.success: "[potential_promoter.GetName] está convencido" #NT!
+ legend_events.0010.a.failure: "[potential_promoter.GetName] no está convencido" #NT!
+ legend_events.0010.b: "Tal vez torcer la verdad haría de [potential_promoter.GetHerHim] un creyente." #NT!
+ legend_events.0010.c: "[potential_promoter.GetSheHe|U] puede pensar lo que quiera [potential_promoter.GetSheHe]." #NT!
+  
+ legend_events.0020.t: "$hold_court_header$ Cooptación de Leyenda" #NT!
+ legend_events.0020.desc: "Un invitado extranjero se acerca a mi trono y proclama en voz alta:\n\n"Ha pasado un tiempo desde que llegué a tu corte. He observado cuidadosamente cómo gobiernas y abordas los asuntos del reino, tanto pequeños como grandiosos. Y no he sido más que profundamente impresionado.\n\nEntre los [seed_presenter.GetCulture.GetCollectiveNoun], hay una vieja historia de un gobernante legendario de una dinastía distinguida. Es una historia que mi madre me contó cuando era joven. La escuchó por primera vez de su madre hace mucho tiempo. .\n\nY ahora, tengo el gran placer de decirte que creo que eres el legendario [ROOT.Char.GetTitleAsNameNoTooltip|U] de las leyendas [seed_presenter.GetCulture.GetPrefix] ¡Y creo que cualquier verdadero hijo de [seed_presenter.GetCulture.GetName] seguramente estaría de acuerdo conmigo!" #NT!
+ legend_events.0020.a: "¡Sí! ¡Tus mayores hablaron del [ROOT.Char.GetDynasty.GetNameNoTooltip]!" #NT!
+ legend_events.0020.b: "[ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] es el sujeto de [seed_presenter.GetCulture.GetPrefixNoTooltip] cuentos." #NT!
+ legend_events.0020.c: "A un gobernante [ROOT.Char.GetCulture.GetPrefixNoTooltip] no le importa lo que los campesinos [seed_presenter.GetCulture.GetCollectiveNounNoTooltip] gorjean." #NT!
+  
+ legend_seed_ghw.tt: "Obtiene un $trait_crusader_king$ [legend_seed|E]" #NT!
+ gain_heroic_legend_seed.tt: "Obtienes un [legend_seed|E] heroico" #NT!
+ gain_holy_legend_seed.tt: "Obtienes un Santo [legend_seed|E]" #NT!
+ gain_legitimizing_legend_seed.tt: "Obtienes un Legitimante [legend_seed|E]" #NT!
+  
+ legend_events.1000.t: "Al [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.GetTitledFirstNameNoTooltip]," #NT!
+ legend_events.1000.desc: "¡Ser de una naturaleza tan vergonzosa! ¡Qué engañoso! Te ofrecí oro para promover mi leyenda y tú me lo pagas dejándolo caer como un perro enfermo." #NT!
+ legend_events.1000.a: "#EMP ¡Gah!#! Solo tómalo." #NT!
+ legend_events.1000.b: "Estoy bastante seguro de que era #EMP mucho#! más barato." #NT!
+  
+ legend_spread_notification_title: "¡La leyenda se extiende a tu reino!" #NT!
+ legend_spread_notification_desc: "El [spread_legend.GetName] se extiende a [spread_county.GetName]" #NT!

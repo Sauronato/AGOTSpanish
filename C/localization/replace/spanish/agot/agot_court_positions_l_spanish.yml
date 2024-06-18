@@ -27,6 +27,7 @@
  court_position_honorable_trait: "[GetTrait('honorable').GetName( ROOT.Char )]"
  court_position_rude_trait: "[GetTrait('rude').GetName( ROOT.Char )]"
  court_position_callous_trait: "[GetTrait('callous').GetName( ROOT.Char )]"
+ court_position_ruthless_trait: "[GetTrait('ruthless').GetName( ROOT.Char )]" #NT!
   
   
   
@@ -36,6 +37,11 @@
  maester_tradition_bonus: "Desde [culture_tradition|E]"
  maester_court_position_desc: "El $maester_court_position$ es responsable de la salud y el bienestar del [court|E] en el que se encuentran. Tratarán enfermedades y suturarán heridas lo mejor que puedan."
  maester_employer_custom_effect_description: "Realiza [medical_treatments|E]#!\nImproves [education|E] resultados\nDesbloquea el #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Poderoso [agent|E] en [hostile_schemes|E] contra ti#!\nImproves 0"
+  
+ grandmaester_court_position: "Gran Maestre" #NT!
+ grandmaester_tradition_bonus: "Desde [culture_tradition|E]" #NT!
+ grandmaester_court_position_desc: "El $grandmaester_court_position$ es responsable de la salud y el bienestar de la familia real. Tratarán enfermedades y suturarán heridas lo mejor que puedan." #NT!
+ grandmaester_employer_custom_effect_description: "Realiza [medical_treatments|E]#!\nImproves [education|E] resultados\nDesbloquea el #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Potente [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
   
  household_guard_court_position: "Capitán de la Guardia Nacional"
  household_guard_tradition_bonus: "Desde [culture_tradition|E]"
@@ -79,8 +85,8 @@
   
  #NIGHTS WATCH 
   
- nw_septon: "Septon" #NT!
- nw_septon_desc: "The resident septon serving the brothers of the Night's Watch who follow the Seven." #NT!
+ nw_septon: "Septon"
+ nw_septon_desc: "The resident septon serving the brothers of the Night's Watch who follow the Seven."
   
  COURT_POSITION_CATEGORY_CASTLE_KEEPER: "Guardianes del castillo"
  b_the_shadow_tower_keeper: "Comandante de la Torre de Sombría"

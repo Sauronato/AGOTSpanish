@@ -4,7 +4,7 @@
  agot_bastard_event.reveal_tt: "Le dirás a [reveal_scope.GetName] la verdad sobre la herencia de [reveal_scope.GetHerHis]."
  agot_bastard_event.reveal_warning: "@warning_icon! #warning Esto puede tener implicaciones importantes para ti y el reino.#!"
  agot_bastard_event.reveal_warning_letter: "Enviarás cartas a todos los rincones de Poniente.\n@warning_icon!#warning Esto puede tener importantes implicaciones para ti y para el reino.#!"
- agot_bastard_event.realm_ruler_react_wait: "Now to see how the realm, and [ruler_scope.GetFirstNameOrMe], react..." #NT!
+ agot_bastard_event.realm_ruler_react_wait: "Now to see how the realm, and [ruler_scope.GetFirstNameOrMe], react..."
  agot_bastard_event.host_response_choice: "Corresponderá a [reveal_employer.GetName] responder a su demanda."
  agot_bastard_event.personal_response_choice: "Corresponderá a [reveal_scope.GetName] responder a su demanda."
  agot_bastard_event.demand_reject_harsh: "¡Esta es una exigencia escandalosa! ¡Esto significa guerra!"
@@ -24,6 +24,7 @@
  agot_bastard_event.0901.a: "[reveal_scope.GetFirstName], debo decirte que tus verdaderos padres son…"
  agot_bastard_event.0901.a.jon: "[reveal_scope.GetFirstName], ha llegado el momento de la verdad. No soy tu padre..."
  agot_bastard_event.0901.b: "Y sin embargo debo hacerlo. Mi culpa no puede superar la promesa que hice."
+ agot_bastard_event.0901.b.jon: "Y sin embargo debo hacerlo. Mi culpa no puede superar la promesa que hice." #NT!
   
   # Child responds to 'parent' 
  agot_bastard_event.0902.t: "Una verdad impactante"
@@ -66,7 +67,9 @@
   
   # Parent responds to child keeping secret 
  agot_bastard_event.0906.t: "Patrimonio Oculto"
- agot_bastard_event.0906.desc: "Veo la mirada angustiada en el rostro de [reveal_scope.GetFirstNamePossessive] cuando llego al final de mi cuento, un largo silencio pasa antes de que [reveal_scope.GetSheHe] me dé una respuesta redactada. "Esto no cambia nada" dice decididamente [reveal_scope.GetSheHe]. "Seré como siempre. Soy simplemente [reveal_scope.GetName]."\n\nEstoy desconcertado por la certeza de [reveal_scope.GetHerHis], y un poco conmovido de que [reveal_scope.GetSheHe] decidiera mantenerme como padre de [reveal_scope.GetHerHis], y sin embargo... la amenaza persiste.\n\nAdemás de la cuestión pragmática, no puedo evitar preguntarme si todo esto es un mecanismo de afrontamiento, y a [reveal_scope.GetSheHe] le vendría mejor si dejara salir la verdad al mundo."
+ agot_bastard_event.0906.desc.open: "Veo la mirada angustiada en el rostro de [reveal_scope.GetFirstNamePossessive] cuando llego al final de mi cuento, un largo silencio pasa antes de que [reveal_scope.GetSheHe] me dé una respuesta redactada. "Esto no cambia nada" dice decididamente [reveal_scope.GetSheHe]. "Seré como siempre. Soy simplemente [reveal_scope.GetName]."\n\nMe sorprende la certeza de [reveal_scope.GetHerHis]" #NT!
+ agot_bastard_event.0906.desc.fake: ", y un tanto conmovido de que [reveal_scope.GetSheHe] decidiera mantenerme como padre de [reveal_scope.GetHerHis], y" #NT!
+ agot_bastard_event.0906.desc.close: "Sin embargo... la amenaza persiste.\n\nAdemás de la cuestión pragmática, no puedo evitar preguntarme si todo esto es un mecanismo de afrontamiento, y a [reveal_scope.GetSheHe] le vendría mejor si dejara salir la verdad al mundo." #NT!
  agot_bastard_event.0906.a: "Te daré tierras, de todos modos, para que gobiernes en mi nombre como mi hijo."
  agot_bastard_event.0906.a.flavor: "[reveal_scope.GetFirstName] puede decidir revelarse en una fecha posterior..."
  agot_bastard_event.0906.b: "¡Debemos #bold #!tell el reino!"
@@ -84,13 +87,13 @@
  agot_bastard_event.0907.c.flavor: "Podrás revelar la verdad tú mismo más tarde si lo deseas, pero [sharer.GetName] puede tomar el asunto en sus propias manos..."
  agot_bastard_event.0907.d: "Le responderé pidiéndole a [sharer.GetFirstName] que guarde mi secreto."
   
-  # Non-parent recieves letter asking them to keep secret 
+  # Non-parent receives letter asking them to keep secret 
  agot_bastard_event.0908.t: "Solicitudes de discreción"
  agot_bastard_event.0908.desc: "Ha pasado algún tiempo desde que envié una carta a [reveal_scope.GetFirstName], y aunque todos los días he preguntado si he recibido una respuesta o una notificación enviada al reino, no he recibido ninguna palabra todavía.\n\nPor fin, después Semanas de espera, una paige me dice que he recibido una respuesta. Sin embargo, no es lo que esperaba.\n"Estimado [ROOT.Char.GetFullName],\nGracias por tu carta compartiendo lo que sabes" [reveal_scope.GetSheHe] comienza con un lenguaje indirecto, probablemente para evitar incidentes en caso de que el mensaje sea interceptado. "Si bien le agradezco su franqueza, debo pedirle humildemente que guarde esta información para usted. Me corresponde a mí decidir cuándo y si haré que se conozcan estos hechos, y le pediría que respete mi privacidad en en este sentido."\n\n[reveal_scope.GetName] ha tomado su decisión, al menos por ahora. Ahora me corresponde a mí decidir si lo respetaré."
  agot_bastard_event.0908.a: "¡No, el reino #bold debe #!be avisarle!"
  agot_bastard_event.0908.b: "Respetaré [reveal_scope.GetHerHis] deseos."
   
-  # Non-parent does not recieve letter 
+  # Non-parent does not receive letter 
  agot_bastard_event.0909.t: "Revelaciones sin respuesta"
  agot_bastard_event.0909.desc: "Ha pasado algún tiempo desde que envié una carta a [reveal_scope.GetFirstName], y aunque todos los días he preguntado si he recibido una respuesta o una notificación enviada al reino, no he recibido ninguna palabra todavía.\n\nPor fin, después meses de espera y una segunda carta enviada para asegurar la entrega, debo afrontar el hecho de que [reveal_scope.GetFirstName] no se ha dignado a responder. Ya sea para apoyar sus propias maquinaciones o simplemente por miedo, ahora debo decidir si compartiré lo que sé de todos modos."
  agot_bastard_event.0909.a: "¡El reino #bold debe #!be contárselo!"
@@ -167,13 +170,13 @@
   
   # Landed JS finds out through learned courtier 
  agot_bastard_event.0920.t: "Una verdad impactante"
- agot_bastard_event.0920.desc: "I am working later than usual when I recieve a short knock at my study door. "Enter" I say simply,  expecting the maids to be checking in on me, but instead [learned_person.GetFirstName] steps through the door. "Forgive me my [ROOT.Char.GetLadyLord|U] I...wanted to find you at a time when we would not be disturbed." [learned_person.GetSheHe] says nervously as I put down my quill to give [learned_person.GetHerHim] my full attention.\n\nWith a sigh [learned_person.GetSheHe] begins "Facts have come up in my research. Facts that...have some rather drastic implications for you...and for the realm." [learned_person.GetSheHe] continues, and as [learned_person.GetHerHis] story unfolds I find myself stunned into silence, whatever previous matter I was writing on completely forgotten. [learned_person.GetName] says that previously undiscovered documents reveal that my true parents are in fact [real_mother.GetName] and [real_father.GetName]!\n\nI do not believe it, and yet as [learned_person.GetFirstName] lays out the evidence in front of me I am forced to accept that this is indeed reality." #NT!
+ agot_bastard_event.0920.desc: "I am working later than usual when I recieve a short knock at my study door. "Enter" I say simply,  expecting the maids to be checking in on me, but instead [learned_person.GetFirstName] steps through the door. "Forgive me my [ROOT.Char.GetLadyLord|U] I...wanted to find you at a time when we would not be disturbed." [learned_person.GetSheHe] says nervously as I put down my quill to give [learned_person.GetHerHim] my full attention.\n\nWith a sigh [learned_person.GetSheHe] begins "Facts have come up in my research. Facts that...have some rather drastic implications for you...and for the realm." [learned_person.GetSheHe] continues, and as [learned_person.GetHerHis] story unfolds I find myself stunned into silence, whatever previous matter I was writing on completely forgotten. [learned_person.GetName] says that previously undiscovered documents reveal that my true parents are in fact [real_mother.GetName] and [real_father.GetName]!\n\nI do not believe it, and yet as [learned_person.GetFirstName] lays out the evidence in front of me I am forced to accept that this is indeed reality."
  agot_bastard_event.0920.a: "Si esta es la verdad, entonces debo decírselo al reino."
  agot_bastard_event.0920.b: "No lo quiero. Este conocimiento debe mantenerse en secreto."
   
   ######### Post reveal events below 
   
-  # Realm recieves letter 
+  # Realm receives letter 
  agot_bastard_event.0951.opening: "A [ROOT.Char.GetFullName],"
  agot_bastard_event.0951.first_person: "Les escribo a todos los señores de Poniente para hacerles saber la verdad que ha estado oculta durante demasiado tiempo. A pesar de lo que hayas pensado, de hecho nací de la unión de [real_mother.GetName] y [real_father.GetName]. Les pido que ustedes y el resto del reino reconozcan esta nueva realidad y las implicaciones que trae."
  agot_bastard_event.0951.third_person: "Les escribo a todos los señores de Poniente para hacerles saber la verdad que ha estado oculta durante demasiado tiempo. A pesar de lo que puedas haber pensado, [reveal_scope.GetName] nació de la unión de [real_mother.GetName] y [real_father.GetName]. Les pido que ustedes y el resto del reino reconozcan esta nueva realidad y las implicaciones que trae."
@@ -325,34 +328,34 @@
  agot_bastard_event.0982.t: "¿La ausencia de malas noticias son buenas noticias?"
  agot_bastard_event.0982.desc: "Durante días y noches me he estresado y tenso sobre lo que [ruler_scope.GetName] puede hacer en respuesta a revelaciones recientes, sin embargo, han pasado semanas desde que la verdad de mi nacimiento fue enviada al reino. ¿Seguramente [ruler_scope.GetSheHe] ya debe haber escuchado?\n\nMe veo obligado a concluir que [ruler_scope.GetName] simplemente ha decidido dejar este asunto en paz. Ya sea que [ruler_scope.GetHerHis] simplemente esté bajo aviso en este momento o que a [ruler_scope.GetSheHe] simplemente no le importe, parece que no habrá demandas provenientes de Desembarco del Rey."
   
-  # Realm recieves alert of execute both demand 
+  # Realm receives alert of execute both demand 
  agot_bastard_event.0983.opening: "A [ROOT.Char.GetFullName],"
  agot_bastard_event.0983.desc: "Que todos sepan que [reveal_scope.GetName] y [reveal_employer.GetName], al no presentarse al trono al rendir cuentas de la herencia de [reveal_scope.GetFirstNamePossessive], son considerados traidores al reino y por la presente condenados a muerte.\n\nCualquiera que los ayude compartirá su parte el mismo destino."
  agot_bastard_event.0983.a: "¡Qué exigencia tan cruel!"
   
-  # Realm recieves alert of execute demand 
+  # Realm receives alert of execute demand 
  agot_bastard_event.0984.opening: "A [ROOT.Char.GetFullName],"
  agot_bastard_event.0984.desc: "Que todos sepan que [reveal_scope.GetName], al no presentarse al trono al rendir cuentas de la herencia de [reveal_scope.GetHerHis], es considerado un traidor al reino y por la presente sentenciado a muerte.\n\nCualquiera que los ayude compartirá la misma destino."
  agot_bastard_event.0984.a: "¡Qué sentencia tan dura!"
   
-  # Realm recieves alert of NW / SS demand 
+  # Realm receives alert of NW / SS demand 
  agot_bastard_event.0985.opening: "A [ROOT.Char.GetFullName],"
  agot_bastard_event.0985.desc.male: "Que todos sepan que a [reveal_scope.GetName] se le ha ordenado tomar el negro con la Guardia de la Noche debido a la amenaza que su herencia representa para el reino. Cualquier señor o dama que se encuentre ayudando a [reveal_scope.GetHerHim] a escapar de esta exigencia será considerado un traidor al reino y tratado en consecuencia."
  agot_bastard_event.0985.desc.female: "Que todos sepan que a [reveal_scope.GetName] se le ha ordenado unirse a la Hermandad Silenciosa debido a la amenaza que su herencia representa para el reino. Cualquier señor o dama que se encuentre ayudando a [reveal_scope.GetHerHim] a escapar de esta exigencia será considerado un traidor al reino y tratado en consecuencia."
  agot_bastard_event.0985.a: "¿Castigado sólo por nacer? No parece correcto."
   
-  # Realm recieves alert of imprison demand 
+  # Realm receives alert of imprison demand 
  agot_bastard_event.0986.opening: "A [ROOT.Char.GetFullName],"
  agot_bastard_event.0986.desc: "Que todos sepan que [reveal_scope.GetName] ha sido citado para ser encarcelado hasta que se demuestre que su herencia no es una amenaza para el reino. Cualquier señor o dama que se encuentre ayudando a [reveal_scope.GetHerHim] a escapar de esta convocatoria será considerado un traidor al reino y tratado en consecuencia."
  agot_bastard_event.0986.a: "¿Encarcelado por haber nacido? No parece correcto."
   
-  # Realm recieves alert of hostage demand 
+  # Realm receives alert of hostage demand 
  agot_bastard_event.0987.opening: "A [ROOT.Char.GetFullName],"
  agot_bastard_event.0987.desc: "Que todos sepan que [reveal_scope.GetName] ha sido citado ante el tribunal bajo la protección de [ruler_scope.GetHerHis | U] Grace hasta que se demuestre que su herencia no es una amenaza para el reino. Cualquier señor o dama que se encuentre ayudando a [reveal_scope.GetHerHim] a escapar de esta convocatoria será considerado un traidor al reino y tratado en consecuencia."
  agot_bastard_event.0987.a.courtier: "Realmente parece una respuesta justa."
  agot_bastard_event.0987.a.landed: "¿Obligados a renunciar a sus propiedades? Duro."
   
-  # Realm recieves alert of claims demand 
+  # Realm receives alert of claims demand 
  agot_bastard_event.0988.opening: "A [ROOT.Char.GetFullName],"
  agot_bastard_event.0988.desc: "Que todos sepan que [reveal_scope.GetName] ha recibido instrucciones de hacer una declaración pública y legalmente vinculante, huyendo de todos y cada uno de los reclamos al trono o títulos relacionados. Cualquier señor o dama que se encuentre ayudando a [reveal_scope.GetHerHim] a evitar o argumentar de otra manera para salir de esta demanda será considerado un traidor al reino y tratado en consecuencia."
  agot_bastard_event.0988.a: "Realmente parece una respuesta justa."
@@ -379,12 +382,14 @@
   # Rebel war declaration alert 
  agot_bastard_event.0992.t: "La línea cruzada"
  agot_bastard_event.0992.desc: "Así que hemos llegado a esto.\n\nHa pasado demasiado tiempo para afirmar que no he recibido [ruler_scope.GetFirstNamePossessive] aviso, y para movilizar las tropas necesarias he enviado a los cuervos llamando a los estandartes para la guerra. La línea está cruzada, la suerte está echada y [reveal_scope.GetHouse.GetBaseName] o [ruler_scope.GetHouse.GetBaseName] reinarán victoriosos cuando esto termine.\n\nObservo los estandartes reunidos ante mí y veo a los muchos que han acudido en masa para desafiar las injustas demandas del tirano. [ruler_scope.GetName]."
+ agot_bastard_event.0992.desc.same: "Así que hemos llegado a esto.\n\nHa pasado demasiado tiempo para afirmar que no he recibido [ruler_scope.GetFirstNamePossessive] aviso, y para movilizar las tropas necesarias he enviado a los cuervos llamando a los estandartes para la guerra. La línea se ha cruzado, la suerte está echada y el legítimo [ruler_scope.GetHouse.GetBaseName] se decidirá con sangre.\n\nObservo los estandartes reunidos ante mí y veo a los muchos que han acudido en masa para desafiar las injustas demandas del tirano [ruler_scope.GetName]." #NT!
  agot_bastard_event.0992.desc.ned: "Así que hemos llegado a esto.\n\nHa pasado demasiado tiempo para afirmar que no he recibido [ruler_scope.GetFirstNamePossessive] aviso, y para movilizar las tropas necesarias he enviado a los cuervos llamando a los estandartes para la guerra. La línea está cruzada, la suerte está echada y [reveal_scope.GetHouse.GetBaseName] o [ruler_scope.GetHouse.GetBaseName] reinarán victoriosos cuando esto termine.\n\nObservo los estandartes reunidos ante mí y, aunque me duele el corazón por marchar hacia el sur contra mi antiguo amigo, Sé que le debo a Lyanna y a [reveal_scope.GetFirstName] hacer lo correcto. Por misericordia de los hombres y de mí misma, deseo que ésta sea una guerra rápida."
  agot_bastard_event.0992.a: "¡Juntos marchamos por la justicia!"
   
   # Ruler war declaration alert 
  agot_bastard_event.0993.t: "Demandas rechazadas"
  agot_bastard_event.0993.desc: "Así que hemos llegado a esto.\n\nRechazando mis demandas, el bastardo [reveal_scope.GetName] ha declarado la intención de [reveal_scope.GetHerHis] de gobernar el [ruler_scope.GetPrimaryTitle.GetName] y ha llamado a sus aliados para que defiendan su reclamo. Se desconoce qué tipo de promesas debieron haber hecho para reunir tal hueste, pero la línea se cruzó, la suerte está echada, y [reveal_scope.GetHouse.GetBaseName] o [ruler_scope.GetHouse.GetBaseName] reinarán victoriosos cuando esto termine.\n\nObservo los estandartes reunidos delante de mí, viendo a los muchos que han acudido en masa para defender mi justo gobierno."
+ agot_bastard_event.0993.desc.same: "Así que hemos llegado a esto.\n\nRechazando mis demandas, el bastardo [reveal_scope.GetName] ha declarado la intención de [reveal_scope.GetHerHis] de gobernar el [ruler_scope.GetPrimaryTitle.GetName] y ha llamado a los aliados de [reveal_scope.GetHerHis] para defender su reclamo. Se desconoce qué tipo de promesas debe haber hecho [reveal_scope.GetSheHe] para reunir tal hueste, pero se cruza la línea, la suerte está echada, y un [reveal_scope.GetHouse.GetBaseName] verdadero o uno falso reinará victorioso cuando esto termine.\n\nI Observa los estandartes reunidos ante mí y observa a los muchos que han acudido en masa para defender mi justo gobierno." #NT!
  agot_bastard_event.0993.desc.robert: "Los acontecimientos de las últimas semanas me han conmocionado profundamente, y sobre todo dónde me encuentro ahora.\n\nMi antiguo amigo Eddard Stark ha declarado que mis demandas son injustas y ha levantado sus pancartas para instalar a [reveal_scope.GetName] como gobernante del § _1. Ha llamado a sus numerosos aliados y vasallos para defender este reclamo, y ha dicho que mi demanda demuestra que no soy mejor que el Rey Loco que depusimos juntos.\n\nCualquier amistad que alguna vez existió entre nosotros ahora se acabó. Se cruza la línea, la suerte está echada y Stark o Baratheon reinarán victoriosos cuando esto termine.\n\nAplastaré a los rebeldes, aplastaré a los Stark y aplastaré a los pequeños dragones tal como aplasté a § _2 padre y abuelo!"
  agot_bastard_event.0993.a: "¡Destruiré a estos pretendientes rebeldes!"
   

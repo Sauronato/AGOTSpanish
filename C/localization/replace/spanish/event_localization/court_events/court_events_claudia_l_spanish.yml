@@ -1,0 +1,188 @@
+﻿l_spanish:
+  
+  # Secret History 
+ court_6000_all_courtiers_and_guests: "Todos tus [courtiers|E] y [guests|E]" #NT!
+ court.6000.t: "Historia secreta" #NT!
+ court.6000.desc_opening: "Mientras entro en la habitación, quedo completamente desconcertado por el grito de sorpresa de [courtier.GetFirstName], quien previamente estaba absorto en un manuscrito titulado 'Una historia secreta de [ROOT.Char.GetPrimaryTitle.GetNameNoTier]'." #NT!
+ court.6000.desc_liege: "\n\n"¡Mi [SCOPE.sC('courtier').Custom2('RelationToMe', ROOT.GetCharacter)]!" #NT!
+ court.6000.desc_family: "\n\n"[SCOPE.sC('courtier').Custom2('RelationToMe', ROOT.GetCharacter)]!" #NT!
+ court.6000.desc_ending: "¡No es nada sospechoso! ¡Nada en absoluto!", grita [courtier.GetSheHe], mientras intenta, sin éxito, ocultar el objeto ofensivo dentro de la túnica de [courtier.GetHerHis]. \n\nCuando logro arrebatarle el libro a [courtier.GetHerHis], me sorprendo al descubrir páginas y páginas de información detallada. vileza que, supuestamente, tuvo lugar en la corte de mi antecesor con [predecessor.GetHerHis] bendición!" #NT!
+ court.6000.a: "#EMP ¡EScandaloso!#! ¿Quién podría haber escrito mentiras tan descaradas?" #NT!
+ court.6000.a.tt: "Envías a tu Spymaster a investigar" #NT!
+ court.6000.b: "¡Ohhh, chismes jugosos!" #NT!
+ court.6000.b.tt: "Puedes descubrir el pasado #EMP colorido#! de alguien" #NT!
+ court.6000.c: "¡Todos merecen saber la verdad sobre [predecessor.GetTitledFirstNameNoTooltip]!" #NT!
+ court.6000.c.tt: "¡[predecessor.GetSheHe|U] era un tirano repugnante, indigno de mi dinastía! Déjame decirte #EMP exactamente#! lo que pienso de ese vil mestizo de vientre amarillo..." #NT!
+ court.6000.d: "Que aburrido. Realmente no me importa." #NT!
+ court.6000.e.tt: "Comienzas tu propia investigación." #NT!
+ court.6000.f: "Todo es verdad. Sin embargo, debemos perdonar y olvidar." #NT!
+ court.6002.desc: "Tengo la nariz enterrada en alguna correspondencia internacional cuando [spymaster.GetTitledFirstName] irrumpe en la habitación, arrastrando detrás de él a un [author.GetTitledFirstName] de aspecto asustado. \n\n "¡Mi señor, encontré [author.GetHerHim]! ¡El sinvergüenza que ha escrito ese vergonzoso libro de mentiras sobre su predecesor, [predecessor.GetTitledFirstName]!"" #NT!
+ court.6002.b.desc_opening: "En los últimos meses he dedicado cada momento de mi tiempo libre a la búsqueda de la esquiva serpiente que hacía circular un libro sobre los defectos de mi predecesor." #NT!
+ court.6002.b.desc_ending: "Después de muchas noches de insomnio, finalmente encontré al culpable: ¡es el cobarde [author.GetTitledFirstName]! \n\nMientras [author.GetSheHe] está ante mí temblando, esperando juicio, pienso detenidamente qué decir a continuación." #NT!
+ court.6002.a: "¡Deberías avergonzarte de tus vergonzosas mentiras!" #NT!
+ court.6002.a.tt: "El autor castigado rescinde las declaraciones [author.GetHerHis]." #NT!
+ court.6002.b: "¡Guardias, arresten a este traidor!" #NT!
+ court.6002.c: "Realmente has cruzado la línea aquí, [author.GetFirstNameNoTooltip]..." #NT!
+ court.6002.d: "Estoy seguro de que no pretendías hacer daño con tu pequeño diario, ¿verdad?" #NT!
+ court.6003.desc: "Han pasado meses, pero mi maestro de espías, [spymaster.GetTitledFirstName], aún no ha informado de ningún progreso significativo en la misión especial [spymaster.GetHerHis]: ¡encontrar al autor maldito de un manuscrito vergonzoso que detalla la vileza secreta de mi predecesor! \n\nNo es sorprendente que, cuando finalmente convoco a [spymaster.GetHerHim], [spymaster.GetFirstNameNoTooltip] parezca nervioso y bastante culpable. "¡Mi [ROOT.GetLadyLord]! ¡He buscado por todas partes, pero el autor ha desaparecido! Tal vez han abandonado la corte, o alguien los está protegiendo, o-" \n\nDejo de parlotear a [spymaster.GetHerHis] con un gesto con la mano." #NT!
+ court.6003.b.desc_ending: "Lamentablemente, mis mejores esfuerzos resultaron infructuosos, ya que el culpable parece haber desaparecido y el rastro se ha enfriado. Supongo que nunca sabré la verdad." #NT!
+ court.6003.a: "No importa. No fue gran cosa." #NT!
+ court.6003.b: "Estoy tan decepcionado de mí mismo ahora mismo..." #NT!
+ court.6003.c: "Ustedes, inútiles #EMP sanguijuelas#!, están encubriendo al autor, ¿no?" #NT!
+ court.6003.c.tt: "Arremetes contra tus cortesanos" #NT!
+ court.6003.d: "Hiciste lo mejor que pudiste, [spymaster.GetTitledFirstName]..." #NT!
+ court.6003.e: "Como no pudiste encontrar al autor, ¡pagarás por él!" #NT!
+  #Prophet in the Halls 
+ court.6010.t: "Profeta en los pasillos" #NT!
+ court.6010.desc: ""#EMP ¡ARREPENTIRTE HOY!#! ¡APRENDE LA VERDAD MÁS VERDADERA! ¡DÉ UN PASO A LA LUZ!" \n\nDesde que [preacher.GetTitledFirstName] se unió a mi corte, [preacher.GetHerHis] intentos persistentes de convertir a todos a [preacher.GetHerHis] culto extranjero se han convertido en el ruido de fondo de mi vida cotidiana.\n\nDía y noche, [preacher.GetSheHe] acecha los patios, patrulla los pasillos y Se esconde al acecho de transeúntes desprevenidos en rincones oscuros, listo para #EMP persuadir#! con [preacher.GetHerHis] chillidos insistentes. \n\nMis cortesanos están exhaustos y, después de que [preacher.GetFirstNameNoTooltip] me tiende una emboscada de camino al orinal, me inclino a estar de acuerdo con su descontento." #NT!
+ court.6010.a: "Podemos tolerar esto y más. [preacher.GetFirstNameNoTooltip] es inofensivo." #NT!
+ court.6010.b: "¡Echa a ese tonto de mi corte!" #NT!
+ court.6010.c: "[preacher.GetSheHe|U] puedo predicarles a las ratas, por lo que a mí me importa..." #NT!
+ court.6010.c.tt: "[preacher.GetHerHim|U] señor, [preacher_liege.GeTitledFirstName], podría estar disgustado." #NT!
+ court.6010.d: "BASTA de esto #EMP BLASFEMIA#!!" #NT!
+ court_6010_all_courtiers_and_guests_faith: "Todos tus [courtiers|E] y [guests|E] de una fe diferente a la [preacher.GetFirstNameNoTooltip]" #NT!
+ court.6011.desc_opening: "[preacher_liege.Custom2('AppropriateGreetingNegative', ROOT.Char)]" #NT!
+ court.6011.desc_prisoner: "Me he enterado de que recientemente ha encarcelado a un súbdito mío sin mejor motivo que predicar [preacher.GetHerHis] fe - #EMP mi propia fe#! - en su corte. \n\nConfío en que todo esto sea un malentendido y que rectificarás la situación de inmediato, para que no me dé una impresión equivocada de tus intenciones." #NT!
+ court.6011.desc_executed: "He sabido con gran consternación que recientemente ha ejecutado a un súbdito mío, invitado en su corte, por considerarlo un hereje peligroso. \n\nMe gustaría asumir que fue un malentendido y que usted #EMP realmente#! no deseaba ofenderme y desafiar mi fe." #NT!
+ court.6011.a: "No quise ofenderte. Por favor acepte esta compensación." #NT!
+ court.6011.b: "Tus predicadores disfrazados no son bienvenidos en mi corte." #NT!
+  #Possession at Court 
+ court.6020.t: "Posesión en la corte" #NT!
+ court.6020.desc_opening: "Esta condición es igualmente misteriosa y aterradora." #NT!
+  #AGOT Modified 
+ #court.6020.desc_chaplain: "\n\nSegún [court_chaplain.GetCouncilTitle|U] [court_chaplain.GetTitledFirstName]," #NT!
+ court.6020.desc_chaplain: "\n\nSegún [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)]," #NT!
+ court.6020.desc_no_chaplain: "\n\nEs una opinión común que" #NT!
+ court.6020.desc_middle: "Un ser oscuro habita en [possessed_char.GetHerHis] cuerpo y, ocasionalmente, se manifiesta con poder incontrolable; sin embargo, la frecuencia e intensidad de estos episodios está provocando una alarma cada vez mayor entre mis devotos cortesanos. [court_chaplain.GetSheHe|U] teme que la presencia del mal se apodere y propague el caos y la muerte entre nosotros." #NT!
+ court.6020.desc_physician: "\n\n[court_physician.GetTitledFirstName] me asegura que" #NT!
+ court.6020.desc_no_physician: "\n\n" #NT!
+ court.6020.desc_ending: "[possessed_char.GetFirstNameNoTooltip] nunca ha sido peligroso #EMP per se#!, pero mis cortesanos insisten en que se haga algo." #NT!
+ court.6020.a: "[court_chaplain.GetTitledFirstNameNoTooltip], ¡exorciza al demonio!" #NT!
+ court.6020.a.success: "[court_chaplain.GetFirstNamePossessive] el exorcismo es exitoso" #NT!
+ court.6020.a.success.tt: "Con exorcismos regulares para mantener a raya el mal, la condición de [possessed_char.GetTitledFirstNamePossessive] parece mejorar y sus cortesanos están satisfechos." #NT!
+ court.6020.a.failure: "[court_chaplain.GetFirstNamePossessive] el exorcismo falla" #NT!
+ court.6020.a.failure.tt: "La condición [possessed_char.GetTitledFirstNamePossessive] no se ve afectada" #NT!
+ court.6020.b: "¡No tengas miedo! ¡Es una señal del favor de los dioses!" #NT!
+ court.6020.c: "El poder de este objeto sagrado salvará a [possessed_char.GetHerHim]." #NT!
+ court.6020.c.tt: "Se dice que la imposición de tu [6020_relic.GetNameNoTooltip] cura cualquier dolencia." #NT!
+ court.6020.d: "[court_physician.GetTitledFirstNameNoTooltip], ¿conoces alguna hierba que pueda ayudar a [possessed_char.GetHerHim]?" #NT!
+ court.6020.d.tt: "[court_physician.GetFirstNamePossessive] experiencia en las artes médicas mejora [possessed_char.GetTitledFirstNamePossessive] condición" #NT!
+ court.6020.d.tt.2: "[court_physician.GetFirstNameNoTooltip] prueba un brebaje de hierbas" #NT!
+ court.6020.e: "¡Tontos supersticiosos! No es más que una enfermedad cerebral." #NT!
+ court.6020.f: "No me molestes con esas tonterías." #NT!
+ court_6020_all_courtiers_and_guests_christian: "Toda tu misma religión [courtiers|E] y [guests|E]" #NT!
+ court_6020_all_courtiers_or_guests_polith: "Todos los demás [courtiers|E] y [guests|E] (no cínicos)" #NT!
+  #The Ballad of the Garlic King 
+ court.6030.t: "La balada del ajo [ROOT.Char.Custom('GetQueenKing')]" #NT!
+ court.6030.desc: ""#EMP Hay una historia en nuestro pequeño pueblo,\nde un [ROOT.Char.Custom('GetQueenKing')] con una Corona de Ajo,\npara luchar contra el [ROOT.Char.Custom('GetUnbelieverNamePlural')] [ROOT.Char.GetSheHe] montado en un burro,\npero [ROOT.Char.GetHerHis] el único éxito fue contra un pequeño mono...#!"\n\nThis La balada maldita se ha vuelto muy popular entre los juglares errantes y la plebe por igual - #EMP demasiado popular#! para mi gusto desde que descubrí una inquietante cantidad de similitudes entre su protagonista y yo... Pero escucharla, cantada descaradamente en mi propio cara por [6030_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)], ¡va demasiado lejos!" #NT!
+ court.6030.a: "¡Pero #EMP es#! una historia muy divertida!" #NT!
+ court.6030.b: "Esto es #EMP entonces#! vergonzoso..." #NT!
+ court.6030.c: "#EMP ¡¿TE ENCUENTRA DIVERTIDO?!#!" #NT!
+ court.6030.d: "Esto es #EMP inaceptable#!." #NT!
+ court.6030.d.tt: "Prohiben la interpretación de la balada y amenazan con prisión a los transgresores" #NT!
+ court.6030.e: "No puedo. Pararse. Él. ¡YA NO!" #NT!
+ court.6030.e.tt: "Golpeas repetidamente a la siguiente persona que te provoca cantando la estúpida balada." #NT!
+ court.6030.f: "Bueno, ¿tendrán que parar en algún momento...?" #NT!
+  #Scrounger Life 
+ court.6040.t: "Vida de golondrina" #NT!
+ court.6040.desc: "[scrounger.GetTitledFirstName|U] se ha convertido en un elemento permanente de mi corte, y #EMP caro#!. En realidad, también hay uno #EMP expansivo#!.\n\n[scrounger.GetSheHe|U] está presente en cada banquete, devorando todo lo que encuentra a la vista mientras se queja de lo vacía que está su propia despensa [scrounger.GetHerHis]. "¡Tú sirves las mejores bebidas, mi [ROOT.Char.GetLadyLord]!", dice [scrounger.GetSheHe], después de beber otra jarra de mi mejor [ROOT.Char.Custom('GetExpensiveDrink')]. "¡Eres el más #EMP #EMP1#!, el más #EMP #EMP4#!, el #EMP MÁS VISTO#! [ROOT.Char.GetLadyLord]!" [scrounger.GetSheHe] declara, [scrounger.GetHerHis] mano extendida para otro préstamo [scrounger.GetSheHe] nunca lo pagará.\n\n[scrounger.GetSheHe|U] es una molesta pérdida de dinero, pero las travesuras exageradas de [scrounger.GetHerHis] son bastante entretenidas." #NT!
+ court.6040.a: "Como siempre estás aquí, ¡también podrías ser útil!" #NT!
+ court.6040.b: "A fin de cuentas, ¡me parece bastante divertido [scrounger.GetHerHim]!" #NT!
+ court.6040.c: "Saca esta sanguijuela de mi vista." #NT!
+ court.6041.desc: "Han pasado algunos meses desde que decidí dejar que [scrounger.GetTitledFirstName] continuara [scrounger.GetHerHis] vida parasitaria en mi corte.\n\nNo esperaba nada más que [scrounger.GetHerHis] las habituales historias exageradas de pobreza y cumplidos ridículamente florecientes pero, recientemente, He notado que [scrounger.GetHerHis] las historias son cada vez más divertidas, [scrounger.GetHerHis] las rimas son más nítidas y [scrounger.GetHerHis] los elogios son más agradables.\n\nTanto mis cortesanos como mis invitados extranjeros se entretienen enormemente con [scrounger.GetHerHis] palabras ingeniosamente elaboradas. ¿Podría [scrounger.GetFirstNameNoTooltip] haber encontrado una vocación útil?" #NT!
+ court.6041.a: "¡Sabía que servías para algo!" #NT!
+ court.6041.b: "... ¡pero apuesto a que puedes hacerlo aún mejor!" #NT!
+ court.6041.b.failure: "A pesar de los mejores esfuerzos de [scrounger.GetHerHis], [scrounger.GetFirstNameNoTooltip] parece haber alcanzado ya la cima de las habilidades de [scrounger.GetHerHis]" #NT!
+ court.6041.b.success: "[scrounger.GetFirstNameNoTooltip] recibe la inspiración para un gran trabajo" #NT!
+ court.6041.b.failure.tt: "[scrounger.GetFirstNameNoTooltip] no puede mejorar más" #NT!
+ court.6041.b.success.tt: "¡[scrounger.GetFirstNameNoTooltip] se inspira!" #NT!
+ court.6041.c: "He dedicado suficiente tiempo a ti." #NT!
+  #Saucy Readings 
+ court.6050.t: "Lecturas picantes" #NT!
+ court.6050.desc_opening: "Últimamente, no puedo evitar notar los grupos de doncellas risueñas y guerreros generalmente austeros que se reúnen en rincones oscuros para escuchar, embelesados, un libro. \n\nHoy finalmente arrinconé a [courtier.GetTitledFirstName] con el libro en manos de [courtier.GetHerHis]." #NT!
+  #AGOT Modified 
+ #court.6050.desc_byz: "A pesar de que su portada sugiere un piadoso libro de oraciones, ¡es una novela licenciosa, escrita hace siglos por nuestros antepasados ​​paganos! Hay una hermosa doncella, piratas, tentaciones y páginas lujuriosas tras páginas llenas de deseos impíos..." #NT!
+ court.6050.desc_byz: "A pesar de que su portada sugiere un libro piadoso de oraciones, es una novela licenciosa, extraída de cuentos centenarios de los Primeros Hombres. Hay una hermosa dama, saqueadores nacidos del hierro, tentaciones y páginas lujuriosas tras páginas llenas de deseos impíos..." #NT!
+  #AGOT Modified 
+ #court.6050.desc_islam: "Al hojear rápidamente el texto, encuentro piratas, doncellas escasamente vestidas, reyes impulsados ​​por el lujo, reinas lascivas y tortuosas, e incluso una rata callejera enriquecida que se casa con una princesa con la ayuda de un djinn..." #NT!
+ court.6050.desc_islam: "Al hojear rápidamente el texto, encuentro corsarios de los Peldaños de Piedra, mujeres nobles lisenas escasamente vestidas, arcontes impulsados ​​por el lujo, magistrados lascivos y tortuosos, e incluso una rata callejera enriquecida que se casa con una princesa de Poniente con la ayuda de una esfinge..." #NT!
+  #AGOT Modified 
+ #court.6050.desc_sonetti: "Hay páginas y páginas de poesía, de forma elegante, pero de naturaleza lasciva. La belleza angelical de todo tipo de mujeres es exaltada por palabras suaves, que apenas pueden cubrir el deseo tan terrenal del poeta..." #NT!
+ court.6050.desc_sonetti: "Hay páginas y páginas de poesía, de forma elegante, pero de naturaleza lasciva. La belleza inhumana de todo tipo de mujeres es exaltada por palabras suaves, que apenas pueden cubrir el deseo tan terrenal del poeta..." #NT!
+  #AGOT Modified 
+ #court.6050.desc_chaucer: "Todos son cuentos de peregrinos en el camino; sin embargo, no se ocupan de la salvación de sus almas, sino de sangrientos asesinatos y esposas infieles..." #NT!
+ court.6050.desc_chaucer: "Todos son cuentos de peregrinos en el camino; sin embargo, no tratan de la belleza de los Siete, sino de sangrientos asesinatos y damas infieles..." #NT!
+ court.6050.desc_generic: "Es claramente un texto licencioso, repleto de tentaciones sensuales, seducciones terrenales y pechos flexibles..." #NT!
+  #AGOT Modified 
+ #court.6050.desc_ending: "\n\nEstoy en silencio mientras reflexiono sobre la probable reacción de [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName], y [courtier.GetFirstNameNoTooltip] me mira fijamente con aprensión." #NT!
+ court.6050.desc_ending: "\n\nEstoy en silencio mientras reflexiono sobre la probable reacción de [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)], y [courtier.GetFirstNameNoTooltip] me mira fijamente con aprensión." #NT!
+ court.6050.a: "¡Mis pobres ojos!" #NT!
+ court.6050.b: "¡Purifícalos con fuego!" #NT!
+ court.6050.b.tt: "Haces quemar todas las copias del escandaloso texto y lo prohíbes en tu tribunal." #NT!
+ court.6050.c: "La cultura se presenta en cualquier forma. Déjalos leer." #NT!
+ court.6050.c.unlock_text: "Esta opción está disponible debido a tu alta habilidad [learning|E]" #NT!
+ court.6050.d: "¡Uhhh, jugoso!" #NT!
+ court.6050.e: "¿Por qué deberíamos limitarnos a leer [courtier.GetFirstNameNoTooltip]?" #NT!
+ court.6050.e.tt: "Te inspiras en las lecturas." #NT!
+ court.6050.f: "Hazlo desaparecer y fingiré que no vi nada." #NT!
+ court_6050_courtiers_or_guests: "Todos tus [courtiers|E] y [guests|E] impuros" #NT!
+  #The Joys of Wine 
+ court.6060.t: "Los placeres del vino" #NT!
+  #AGOT Modified 
+ #court.6060.desc_opening: "De repente, [court_chaplain.GetCouncilTitle] [court_chaplain.GetTitledFirstName] y [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] irrumpen en la sala del trono, discutiendo.\n\n "¡El vino ofende a [ROOT.Char.GetFaith.HighGodName]! ¡Se debe evitar #EMP#!!" chillidos [court_chaplain.GetFirstNameNoTooltip].\n\n"¡Un poco de vino es saludable para el cuerpo!" responde [court_physician.GetFirstNameNoTooltip]." #NT!
+ court.6060.desc_opening: "De repente, [court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)] y [court_physician.Custom2('MyCharacterIntroduction', ROOT.Char)] irrumpen en la sala del trono, discutiendo.\n\n "¡El vino ofende a [ROOT.Char.GetFaith.HighGodName]! ¡Se debe evitar #EMP#!!" chillidos [court_chaplain.GetFirstNameNicknamedNoTooltip].\n\n"¡Un poco de vino es saludable para el cuerpo!" responde [court_physician.GetFirstNameNoTooltip]." #NT!
+ court.6060.desc_drunkard_courtier:1 "\n\nFrom a corner of the room, [courtier_drunkard.GetTitledFirstName] interrupts the discussion: "\n\nDesde un rincón de la habitación, [courtier_drunkard.GetTitledFirstName] interrumpe la discusión: "La única cantidad de vino que es buena para ti es #EMP TODO#!!"" #NT!
+ court.6060.desc_ending: "\n\n¿Cuál es mi posición sobre el vino?" #NT!
+ court.6060.a: "¡El vino abre la puerta a [ROOT.Char.GetFaith.DevilName]!" #NT!
+ court.6060.b: "Un poco de vino mantiene los humores equilibrados." #NT!
+ court.6060.c: "[courtier_drunkard.GetFirstNameNoTooltip|U], ¡brinda conmigo!" #NT!
+ court.6060.d: "¡La respuesta está en el fondo de esta jarra!" #NT!
+  # The Value of Letters 
+ court.6070.t: "El valor de las letras" #NT!
+ court.6070.desc:0 "I can feel the judging stares of all my courtiers on me while I slowly, carefully sign my name on a new decree with a trembling pen and uncertain hand. \n\nOf course, #EMP signing#! is a strong word. I am merely retracing letters carved in a wooden tablet - and barely succeeding at it. Today, even [tutor_6070.Custom2('MyCharacterIntroduction', ROOT.Char)] is looking at me with what I guess is a mix of pity and disgust. \n\nBefore I can reprimand [tutor_6070.GetHerHim] for disrespecting me, [tutor_6070.GetSheHe] interjects with a hopeful tone: "Puedo sentir las miradas juzgadoras de todos mis cortesanos mientras, lenta y cuidadosamente, firmo mi nombre en un nuevo decreto con una pluma temblorosa y una mano insegura. \n\nPor supuesto, #EMP firmar#! es una palabra fuerte. Simplemente estoy repasando unas letras grabadas en una tablilla de madera, y apenas lo logro. Hoy, incluso [tutor_6070.Custom2('MyCharacterIntroduction', ROOT.Char)] me mira con lo que supongo que es una mezcla de lástima y disgusto. \n\nAntes de que pueda reprender a [tutor_6070.GetHerHim] por faltarme el respeto, [tutor_6070.GetSheHe] interviene con un tono esperanzador: "Mi [ROOT.Char.GetLadyLord], ¿tal vez es hora de que aprendas a leer y escribir correctamente?"" #NT!
+ court.6070.a: "Enséñame #EMP ahora mismo#!!" #NT!
+ court.6070.a.success: "Aprendo exitosamente a leer y escribir." #NT!
+ court.6070.a.failure: "Aprender a leer y escribir es una causa perdida para mí." #NT!
+ court.6070.a.tt.1: "Ya nadie se burlará de mí." #NT!
+ court.6070.a.tt.2: "Tendré que buscar otra solución" #NT!
+ court.6070.b: "¡Mover la pluma es para perdedores y débiles!" #NT!
+ court.6070.c: "Seguiré fingiendo que no los noto." #NT!
+ court.6070.d: "Yo #EMP sé#! escribir, ¡muchas gracias!" #NT!
+ court.6070.d.tt: "Si lo digo con suficiente convicción, tal vez me crean..." #NT!
+ court.6070.d.tt.success: "¡Compran mi descarada mentira!" #NT!
+ court.6070.d.tt.failure: "Ellos ven a través de mí" #NT!
+ every_courtier_or_guest_6070_learning: "Todos tus alfabetizados [courtiers|E] y [guests|E]" #NT!
+ court.6071.desc: "#EMP D...e...a...r f...r...i...e...n...d,#!\n\n"Yes, ¡eso se ve bien!"\n\nI' He pasado innumerables horas practicando mi alfabeto bajo la mirada severa de [tutor_6070.Custom2('MyCharacterIntroduction', ROOT.Char)], y parece que mis esfuerzos han dado sus frutos. ¡La correspondencia internacional, los informes de los concejales y las promesas de los vasallos ya no tienen secretos para mí! \n\n¡Dame un bolígrafo! - ¡Quiero firmar más cosas!" #NT!
+ court.6071.a: "Soy demasiado inteligente." #NT!
+ court.6071.b: "[tutor_6070.GetFirstNameNoTooltip] merece una compensación." #NT!
+ court.6072.desc: "#EMP D...e...e...r f...r...e...i...n...d,#!\n\n"Just ¡mira eso! Lo estoy haciendo muy bien, ¿verdad?"\n\n[tutor_6070.Custom2('MyCharacterIntroduction', ROOT.Char)|U] suspira, sacudiendo la cabeza de [tutor_6070.GetHerHis] con una expresión triste. "Mi [ROOT.Char.GetLadyLord], ¿tal vez preferirías usar este elegante y brillante sello en lugar de firmar?"\n\nAparentemente , [tutor_6070.GetSheHe] no está satisfecho con el #EMP asombroso#! progreso que he estado logrando en mi esfuerzo por aprender a leer y escribir." #NT!
+ court.6072.a: "¡Las cartas son inútiles de todos modos! ¡Ahora, devuélveme mi [ROOT.Char.Custom('child_object_of_interest_random')]!" #NT!
+ court.6072.a.tt: "Nadie esta impresionado" #NT!
+ court.6072.b: "Muy bien, firmaré fantasiosamente lo #EMP que leí#! con el sello." #NT!
+ court.6072.b.tt: "Ciertamente parece impresionante, pero no puede ocultar el hecho de que no estás leyendo lo que firmas." #NT!
+ court.6072.c: "¡Todo es culpa tuya, [tutor_6070.GetFirstNameNoTooltip]!" #NT!
+  #The Munificence of X 
+ court.6080.t: "La munificencia de [6080_visitor.GetFirstNameNoTooltip]" #NT!
+ court.6080.desc: "En los últimos días, el vecino [6080_visitor.GetTitledFirstName] ha estado visitando mi corte en [6080_visitor.GetHerHis] camino a algún lugar sagrado o algo así.\n\nDesde la llegada de [6080_visitor.GetHerHis], [6080_visitor.GetSheHe] me ha eclipsado con [6080_visitor.GetHerHis] generosidad hacia mis propios cortesanos, quienes han ¡Todos han estado lamiendo [6080_visitor.GetHerHis] oro sin dignidad! No puedo evitar burlarme cuando veo a [6080_visitor.GetHerHim] rodeado de cortesanos adoradores por enésima vez. #EMP Mis cortesanos#!.\n\n"¡Un bolso para ti, bien [beneficiary_1.GetFirstName]!" #NT!
+ court.6080.desc_2: "¡Y algunas monedas para ti también, tipo [beneficiary_2.GetFirstName]!" #NT!
+ court.6080.desc_3: "¡Y para ti, dulces [beneficiary_child.GetFirstName], dulces pasteles de miel!" #NT!
+ court.6080.desc_end: "Recuerde, ¡las riquezas deben ser compartidas!"" #NT!
+ court.6080.a: "¡Puedo ser incluso #EMP más#! generoso!" #NT!
+ court.6080.b: "¡Yo también debería aprovechar esa tonta generosidad!" #NT!
+ court.6080.b.success: "Convenzo a [6080_visitor.GetFirstNameNoTooltip] para que pague por mí también." #NT!
+ court.6080.b.success.tt: "¡[6080_visitor.GetFirstNameNoTooltip] está convencido!" #NT!
+ court.6080.b.failure: "[6080_visitor.GetFirstNameNoTooltip] no está en absoluto impresionado con mis intentos." #NT!
+ court.6080.b.failure.tt: "[6080_visitor.GetFirstNameNoTooltip] no está convencido" #NT!
+ court.6080.c: "Creo que [6080_visitor.GetFirstNameNoTooltip] se ha quedado más tiempo que [6080_visitor.GetHerHis] bienvenido..." #NT!
+ court.6080.d: "Mejor gasto [6080_visitor.GetHerHim] que yo." #NT!
+  #The Art of Rhetoric 
+ court.6090.t: "El arte de la retórica" #NT!
+ court.6090.desc: ""#EMP ¡PERO ESTOY ABURRADO!#!" Reconozco inmediatamente la voz lastimera de [6090_child_a.Custom2('MyCharacterIntroduction', ROOT.Char)] incluso antes de que el sinvergüenza esté a mi vista.\n\nLa escena que encuentro ante mis ojos es bastante lamentable: mi pobre $court_poet_court_position$ § _4 parece al borde de las lágrimas mientras [6090_child_a.GetFirstNameNoTooltip] y [6090_child_b.GetFirstName] miran a [6090_poet.GetHerHim] con la mirada menos impresionada que he visto en sus rostros jóvenes." #NT!
+ court.6090.desc_other: "[6090_child_c.GetFirstName] se ha alejado hacia una ventana, claramente más interesado en #EMP cualquier otra cosa#! que esté sucediendo afuera." #NT!
+ court.6090.desc_end:0 "\n\nWhen [6090_poet.GetHerHis] eyes meet mine, [6090_poet.GetFirstNameNoTooltip] begs of me: "\n\nCuando los ojos de [6090_poet.GetHerHis] se encuentran con los míos, [6090_poet.GetFirstNameNoTooltip] me suplica: "Mis [ROOT.Char.GetLadyLord], #EMP por favor#!,. Sólo estoy tratando de explicarles a sus hijos el fino arte de la retórica, como lo requiere su noble nacimiento..."" #NT!
+ court.6090.a: "¡Presten atención, niños! Necesitarás esto." #NT!
+ court.6090.b: "Déjame explicarlo más claramente." #NT!
+ court.6090.b.success: "Los niños están impresionados." #NT!
+ court.6090.b.failure: "Soy incluso más aburrido que [6090_poet.GetFirstNameNoTooltip]" #NT!
+ court.6090.b.failure.tt: "Los niños no aprenden nada" #NT!
+ court.6090.c: "¡Eres demasiado aburrido, [6090_poet.GetFirstNameNoTooltip]!" #NT!

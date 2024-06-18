@@ -1,0 +1,38 @@
+﻿l_spanish:
+  #################### 
+  # SCHEME DISCOVERY # 
+  #################### 
+  
+  # Intro 
+ agot_greensight.0001.intro_own_foresight: "Me despierto de mi sueño sobresaltado, agarrándome las sienes mientras intento frenéticamente recordar los detalles de mi sueño." #NT!
+ agot_greensight.0001.intro_visit: "[greenseer.GetFirstNameNoTooltip] entra en mi habitación mientras me despierto de mi sueño, [greenseer.GetHerHis] voz en voz baja y [greenseer.GetHerHis] acciones furtivas.\n\n#italic "[ROOT.Char.GetFirstNameNoTooltip], he previsto algo terrible..."#!" #NT!
+ agot_greensight.0001.intro_letter: "Temprano en la mañana, justo cuando me preparo para comenzar el día, un sirviente me hace señas para que vaya a un rincón tranquilo. "Perdón, llegó un cuervo de [greenseer.GetTitledFirstName]. Tenía una carta para ti y una nota adjunta diciendo que era urgente que lo vieras tan pronto como llegó."\n\n#italic "[ROOT.Char.GetFirstNameNoTooltip], he tenido un sueño ...#!"" #NT!
+  # Scheme Type 
+ agot_greensight.0001.murder: "\n#italic Una cierva lame el agua de un lago...#!\n#italic la sombra oculta de un lobo acecha detrás de un árbol, sus colmillos brillan de hambre...#!\n#italic la cierva aúlla y cae al suelo cuando le perforan el cuello y le quitan la vida.#!\n\nSomeone está conspirando para matar" #NT!
+ agot_greensight.0001.abduction: "\n#italic Las manzanas cuelgan relucientes de las ramas de un árbol...#!\n#italic Una ráfaga de viento sopla, llevándose consigo una sola...#!\n#italic otra, luego se lleva otra. Hasta que no se salve ni una sola manzana y el árbol quede estéril.#!\n\nSomeone está tramando secuestrar" #NT!
+ agot_greensight.0001.fallback: "\n#italic Una montaña se alza alta y orgullosa sobre la tierra...#!\n#italic la tierra tiembla, el cielo tiembla, y la montaña teme por sus cimientos...#!\n#italic y así como el la tierra comienza a desmoronarse, también yo me despierto sobresaltado.#!\n\nSomeone está conspirando contra" #NT!
+ agot_greensight.0001.elope: "\n#italic Dos árboles crecen uno al lado del otro mientras una tormenta azota a su alrededor...#!\n#italic ramas entrelazadas año tras año mientras el viento intenta separarlas...#!\n#italic dos unidos como uno, a través de dificultades y luchas.#!\n\nSomeone está planeando fugarse con" #NT!
+ agot_greensight.0001.steal_back_artifact: "\n#italic Una tormenta de nieve cubre la tierra durante los meses de invierno...#!\n#italic cubriendo todas las cosas debajo de ella en una jaula helada y arrojándolas al limbo del misterio...#!\n#italic cuando el la nieve se derrite, no queda nada de lo que había allí.#!\n\nSomeone está tratando de robar" #NT!
+  # Relation to Seer 
+ agot_greensight.0001.target_seer: "[target.GetHerHim]!" #NT!
+ agot_greensight.0001.target_other: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName]!" #NT!
+ agot_greensight.0001.target_me: "¡a mí!" #NT!
+  # Reflection of Relation to Seer 
+ agot_greensight.0001.child_new_seer: "\n\nParece que [greenseer.GetFirstNameNoTooltip] ha recuperado la vista. Me duele el corazón por el niño, será una carga muy pesada que soportar en los años venideros..." #NT!
+ agot_greensight.0001.self_new_seer: "\n\nParece que soy un vidente ecológico. Mientras pienso en las profecías venideras, espero que estos sueños resulten ser más útiles que una carga..." #NT!
+ agot_greensight.0001.relative_new_seer: "\n\nParece como si [greenseer.GetFirstNameNoTooltip] hubiera recuperado la vista y se hubiera convertido en un vidente ecológico. Por el bien de [greenseer.GetHerHis], espero que resulte ser más una bendición que una maldición..." #NT!
+ agot_greensight.0001.known_seer: "\n\nAunque estoy agradecido por la información, espero que los sueños que persiguen a [greenseer.GetFirstNameNoTooltip] no afecten demasiado a [greenseer.GetHerHim]..." #NT!
+ agot_greensight.0001.known_seer_self: "\n\nHasta que pueda detener este complot, estas visiones seguramente me perseguirán..." #NT!
+  # Option 
+ agot_greensight.0001.a: "¡Debemos detener al villano detrás de esto!" #NT!
+  
+  ################### 
+  # HARM PREVENTION # 
+  ################### 
+  
+ agot_greensight.0100.t: "Problemas previstos" #NT!
+ agot_greensight.0100.desc.1: "Me desperté en mitad de la noche" #NT!
+ agot_greensight.0100.desc.root_is_seer: "En sudor y miedo. ¡Soñé con mi perdición inminente! No puedo estar muy seguro de lo que sucede, pero sé lo suficiente para evitar que suceda ahora." #NT!
+ agot_greensight.0100.desc.other_seer: "Al sonido de pasos urgentes. Un servidor me dice que ha llegado una carta de [ROOT.Var('seer').Char.GetName], con instrucciones para abrirla inmediatamente. Nerviosa, abro la carta y veo que han previsto mi muerte inminente. Dicen que no pueden estar muy seguros de lo que pasó, pero me detallan lo suficiente para evitar que suceda." #NT!
+ agot_greensight.0100.desc.fallback: "Mi destino inminente ha sido previsto." #NT!
+ agot_greensight.0100.a: "¡Cierra uno!" #NT!

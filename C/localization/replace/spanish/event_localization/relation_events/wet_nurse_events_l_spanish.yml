@@ -1,0 +1,359 @@
+﻿l_spanish:
+ bp2_decision.0001.t: "$find_wet_nurse_decision$" #NT!
+ bp2_decision.0001.desc: "Con la intención de brindar la mejor atención a nuestros [ROOT.Char.Custom('GetChildChildren')]$bp2_decision.0001.desc_candidates$" #NT!
+ bp2_decision.0001.desc_widower: "Dado que criar a un hijo de estatus está lejos de ser una tarea solitaria$bp2_decision.0001.desc_candidates$" #NT!
+ bp2_decision.0001.desc_candidates: "He pedido a mis funcionarios que busquen mujeres capaces para el puesto de [GetCourtPositionType('wet_nurse_court_position').GetName()].\n\nAhora, me presentan algunas mujeres locales para que las juzgue." #NT!
+ bp2_decision.0001.a: "Prefiero los experimentados [wet_nurse_candidate_1.GetFirstNameNoTooltip]." #NT!
+ bp2_decision.0001.a.aptitude: "[wet_nurse_candidate_1.GetUINamePossessive] [aptitude|E] es [wet_nurse_candidate_1.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ) )]" #NT!
+ bp2_decision.0001.b: "[wet_nurse_candidate_2.GetFirstNameNoTooltip] es suficientemente bueno." #NT!
+ bp2_decision.0001.b.aptitude: "[wet_nurse_candidate_2.GetUINamePossessive] [aptitude|E] es [wet_nurse_candidate_2.GetCourtPositionAptitude( GetCourtPositionType( 'wet_nurse_court_position' ) )]" #NT!
+ bp2_decision.0001.c: "No me gusta ninguno de ellos." #NT!
+ bp2_yearly.7000.t: "Una licencia por enfermedad" #NT!
+ bp2_yearly.7000.desc: "La nodriza [wet_nurse.GetFirstName] me ha pedido una audiencia inmediata.\n\n"Mi querido [wet_nurse.Custom2('RelationToMe', ROOT.Char)], ¡he caído enferma! Necesito pedir unos días de descanso; mis malos humores podrían afectar a los niños bajo mi cuidado".\n\n[wet_nurse.GetSheHe|U] gime con una urgencia enfermiza." #NT!
+ bp2_yearly.7000.desc_child_liege: "Mi nodriza, [wet_nurse.GetFirstName], no está muy bien últimamente. [wet_nurse.GetSheHe|U] se ha dado cuenta de mi preocupación.\n\n"Mi querido pequeño [wet_nurse.Custom2('RelationToMe', ROOT.Char)] [nursed_child.GetFirstName], aunque me pesa el corazón, necesito decirte... una enfermedad desagradable me ha sobrevenido. Tengo que irme por algún tiempo, ¡pero no te preocupes demasiado! Volveré contigo pronto"." #NT!
+ bp2_yearly.7000.a: "No te preocupes, yo te cuidaré." #NT!
+ bp2_yearly.7000.a.tt: "Financias una visita al médico" #NT!
+ bp2_yearly.7000.b: "Hagamos que sea una licencia permanente." #NT!
+ bp2_yearly.7000.b.tt: "[wet_nurse.GetFirstNamePossessiveNoTooltip] atención se pierde." #NT!
+ bp2_yearly.7000.c: "¿Enfermedad? ¡Aléjate de mis hijos!" #NT!
+ bp2_yearly.7000.c_child_liege: "¿Enfermedad? ¡Será mejor que te mantengas alejado de mí!" #NT!
+ bp2_yearly.7000.ill: "[nursed_child.GetFirstNameNoTooltip] contrae una enfermedad" #NT!
+ bp2_yearly.7000.healthy: "[nursed_child.GetFirstNameNoTooltip] defiende una enfermedad" #NT!
+ bp2_yearly.7000.healthy.tt: "[nursed_child.GetShortUIName] se mantiene saludable" #NT!
+ bp2_yearly.7001.t: "Alimentando una sospecha" #NT!
+ bp2_yearly.7001.desc: "[wet_nurse.GetFirstName] es una nodriza maravillosa para mis hijos, una cuidadora digna de ser apreciada. Sin embargo, últimamente, mi [ROOT.Char.Custom2('RelationToMe', jealous_spouse)] [jealous_spouse.GetFirstName] sospecha bastante de [wet_nurse.GetHerHim].\n\n"Mi [jealous_spouse.Custom2('RelationToMe', ROOT.Char)], ¡cómo ha florecido tu interés por nuestros hijos desde que contratamos a esa moza, [wet_nurse.GetFirstNameNoTooltip]! ¿Podría ser que [wet_nurse.GetHerHis] #EMP ¿La generosidad#! te inspira?"\n\n" #NT!
+ bp2_yearly.7001.desc_lover: "Parece... que no he sido muy cuidadoso." #NT!
+ bp2_yearly.7001.desc_no_lover: "¡[jealous_spouse.GetFirstNameNoTooltip] me está atacando por nada! Bien...?" #NT!
+ bp2_yearly.7001.a: "¿Quieres que ignore a nuestra descendencia?" #NT!
+ bp2_yearly.7001.a.tt: "Esta opción está disponible porque tienes un [lover|E]" #NT!
+ bp2_yearly.7001.b: "Absurdo, querida: ¡sabes que soy fiel!" #NT!
+ bp2_yearly.7001.b.spouse_convinced: "Convences [jealous_spouse.GetFirstNameNoTooltip]" #NT!
+ bp2_yearly.7001.b.spouse_not_convinced: "[jealous_spouse.GetFirstNameNoTooltip] no te cree" #NT!
+ bp2_yearly.7001.c: "Disiparé tus miedos." #NT!
+ bp2_yearly.7001.tt: "Eres un mentiroso conocido" #NT!
+ bp2_yearly.7002.t: "Esposo lactante" #NT!
+  #AGOT Modified 
+ #bp2_yearly.7002.desc: "[court_chaplain.GetFirstName] irrumpe en mis habitaciones, con una expresión de preocupación en el rostro de [court_chaplain.GetHerHis].\n\n"Mi señor, disculpe la intrusión, ¡pero tengo algo urgente! Me enteré de que usted y [spouse.GetFirstName] tenían la misma nodriza cuando eran niños. . Esto hace que su matrimonio sea muy inapropiado; son hermanos lactantes; a los ojos de [ROOT.Char.GetFaith.HighGodNamePossessive], ¡ustedes son los más cercanos de la familia!"\n\n¡Una revelación impactante! [court_chaplain.GetFirstNameNoTooltip] continúa antes de que pueda replicar. \n\n"Le aconsejo que se divorcie inmediatamente. De lo contrario, me veré obligado a declarar su matrimonio como incestuoso"." #NT!
+ bp2_yearly.7002.desc: "[court_chaplain.GetFirstNameNicknamed] irrumpe en mis habitaciones, con una expresión de preocupación en el rostro de [court_chaplain.GetHerHis].\n\n"Mi señor, disculpe la intrusión, ¡pero tengo algo urgente! Me enteré de que usted y [spouse.GetFirstName] tenían la misma nodriza cuando eran niños. . Esto hace que su matrimonio sea muy inapropiado; son hermanos lactantes; a los ojos de [ROOT.Char.GetFaith.HighGodNamePossessive], ¡ustedes son los más cercanos de la familia!"\n\n¡Una revelación impactante! [court_chaplain.GetFirstNameNicknamedNoTooltip] continúa antes de que pueda replicar. \n\n"Le aconsejo que se divorcie inmediatamente. De lo contrario, me veré obligado a declarar su matrimonio como incestuoso"." #NT!
+ bp2_yearly.7002.a: "¿Incestuoso, dices? ¡Yo simplemente lo llamo amor!" #NT!
+ bp2_yearly.7002.b: "Nos divorciaremos inmediatamente." #NT!
+ bp2_yearly.7002.c: "¿Quizás podamos acordar olvidarlo...?" #NT!
+ bp2_yearly.parental_neglect_effect: "[nursed_child.GetFirstNameNoTooltip] está furioso" #NT!
+ bp2_yearly.7003.title: "[nursed_child.GetFirstNamePossessiveNoTooltip] Primero" #NT!
+ bp2_yearly.7003.t: "$bp2_yearly.7003.title$ Palabras" #NT!
+ bp2_yearly.7003.desc: ""¡Date prisa, mi señor, tienes que oír esto!"\n\nLa nodriza, [wet_nurse.GetFirstName], me lleva corriendo a mis aposentos [ROOT.Char.Custom2('RelationToMePossessive', nursed_child)]. [wet_nurse.GetFirstNameNoTooltip] señala a [nursed_child.GetFirstName] con entusiasmo, así que me inclino hacia [nursed_child.GetHerHim] y escucho.\n\n" #NT!
+ bp2_yearly.7003.desc_gold: "[nursed_child.GetFirstNameNoTooltip] me ofrece una moneda babeante y dice:\n\n"G-gh, g-g-old..."" #NT!
+ bp2_yearly.7003.desc_secret: "Mientras presiona con un dedo los pequeños labios de [nursed_child.GetHerHis], [nursed_child.GetFirstNameNoTooltip] me susurra:\n\n"Secreto"." #NT!
+ bp2_yearly.7003.desc_motto: ""[nursed_child.GetHouse.GetMotto]."\n\n¡Increíble! ¡El lema de nuestra casa [nursed_child.GetHouse.GetName]! ¡El [nursed_child.GetSheHe|U] lo pronunció sin tartamudear!" #NT!
+ bp2_yearly.7003.desc_house: ""[nursed_child.GetHouse.GetNameNoTooltip]."\n\n¡Increíble! [nursed_child.GetFirstNameNoTooltip] ha aprendido a decir el nombre de nuestra Casa." #NT!
+ bp2_yearly.7003.desc_military: ""Guh-bah-nuh... [nursed_child.Custom( 'KnightCultureNoTooltipLowercase' )]!"\n\n¡Parece que [nursed_child.GetFirstNameNoTooltip] ya tiene espíritu marcial!" #NT!
+ bp2_yearly.7003.desc_faith: ""[nursed_child.GetFaith.random_GoodGodNames]."\n\n¡Parece que [nursed_child.GetFirstNameNoTooltip] ya es un devoto!" #NT!
+ bp2_yearly.7003.desc_father: ""Pa-, pa-..."" #NT!
+ bp2_yearly.7003.desc_mother: ""Ma-, ma-..."" #NT!
+ bp2_yearly.7003.a: "¡Que encantador!" #NT!
+ bp2_yearly.7003.b: "¿Qué más puede decir [nursed_child.GetSheHe]?" #NT!
+ bp2_yearly.7003.b.tt: "Presionas a [nursed_child.GetFirstNameNoTooltip] para que siga hablando." #NT!
+ bp2_yearly.7003.c: "No tengo tiempo para esto." #NT!
+ bp2_yearly.7004.t: "$bp2_yearly.7003.title$ Pasos" #NT!
+ bp2_yearly.7004.desc: "Escucho una conmoción desde mis aposentos [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [nursed_child.GetFirstNamePossessive]. Al apresurarme hacia adentro, veo que la nodriza, [wet_nurse.GetFirstName], está jugando con [nursed_child.GetFirstName]. \n\n"¡Mi señor, el momento perfecto! ¡[nursed_child.GetFirstNameNoTooltip] acaba de dar el primer paso [nursed_child.GetHerHis]!" [wet_nurse.GetSheHe] grita emocionada.\n\nSosteniendo las manos de mi [nursed_child.Custom('GirlBoy')], intenta caminar con [nursed_child.GetHerHim] por la habitación." #NT!
+ bp2_yearly.7004.a: ""Un paso de gigante para un niño. Un pequeño paso para un gobernante"." #NT!
+ bp2_yearly.7004.b: "¿Qué más puede hacer [nursed_child.GetSheHe]?" #NT!
+ bp2_yearly.7004.b.tt: "Presionas a [nursed_child.GetFirstNameNoTooltip] para que siga caminando." #NT!
+ bp2_yearly.7004.c: "$bp2_yearly.7003.c$" #NT!
+ bp2_yearly.7005.t: "$bp2_yearly.7003.title$ Dentición" #NT!
+ bp2_yearly.7005.desc: "Con mi permiso, mis nodrizas [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [nursed_child.GetFirstName] y [nursed_child.GetHerHis] desfilan hacia mi habitación. [wet_nurse.GetFirstName] posa como un heraldo y proclama:\n\n "¡Mi señor, usted es testigo de una ocasión monumental! [nursed_child.GetFirstNameNoTooltip] tiene un gran regalo que ofrecerle". [wet_nurse.GetSheHe|U] empuja a [nursed_child.GetHerHim] hacia adelante. "¡Adelante, [nursed_child.GetFirstNameNoTooltip], díselo a [ROOT.Char.GetHerHim]!"\n\n"[nursed_child.Custom2('RelationToMeShort', ROOT.Char)|U], ¡perdí un diente!" Mi [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] presenta con orgullo la sonrisa desdentada de [nursed_child.GetHerHis], entregándome una bolsa con el diente caído dentro." #NT!
+ bp2_yearly.7005.a: "¡Hermoso! Pero conserva tu diente como un buen amuleto." #NT!
+ bp2_yearly.7005.b: "Aquí: ¡un regalo es digno de un regalo!" #NT!
+ bp2_yearly.7005.b.tt: "Tienes un diente" #NT!
+ bp2_yearly.7005.c: "$bp2_yearly.7003.c$" #NT!
+ child_teeth_memorabilia: "[nursed_child.GetNamePossessiveNoTooltip] Diente de Leche" #NT!
+ child_teeth_memorabilia_desc: "[nursed_child.GetNamePossessiveNoTooltip] primer diente de leche que se cae." #NT!
+ bp2_yearly.7006.t: "$bp2_yearly.7003.title$ Envolver" #NT!
+ bp2_yearly.7006.desc: "As I patiently await the fetching of my clothes, a servant stutters: "Mientras espero pacientemente que vengan a buscar mi ropa, un sirviente tartamudea: "Mi señor, eh... ¡nadie puede encontrar sus prendas!"\n\n"¡Estoy rodeado de incompetencia!" Murmuro, saliendo furioso de mi dormitorio.\n\nEs en la habitación de mi [ROOT.Char.Custom2('RelationToMeShort', nursed_child)], [nursed_child.GetFirstName], donde descubro no sólo mis vestidos, sino también a la nodriza de [nursed_child.Custom('GirlBoyPossessive')].\n\n"Yo no tuve nada que ver con ello. , mi señor - [nursed_child.GetSheHe] vestido [nursed_child.GetHerselfHimself]!" [wet_nurse.GetFirstName] responde con una risita." #NT!
+ bp2_yearly.7006.a: "¡El pequeño sinvergüenza!" #NT!
+ bp2_yearly.7006.b: "Entonces, ¿[nursed_child.GetSheHe] es un [nursed_child.Custom('GetPrincessPrince')] de la moda?" #NT!
+ bp2_yearly.7006.c: "$bp2_yearly.7003.c$" #NT!
+ bp2_yearly.7008.t: "$bp2_yearly.7003.title$ Resentimiento" #NT!
+ bp2_yearly.7008.desc_start: ""¡Oh, cuando eras un niño pequeño! Siempre recordaré esos días", dice mi [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] [reflecting_parent.GetFirstName], sin que se lo indique.\n\nTodo regresa rápidamente. Yo #EMP sé#! que" #NT!
+ bp2_yearly.7008.desc: "$bp2_yearly.7008.desc_start$ [reflecting_parent.GetSheHe] nunca se preocupó por mí. #EMP sé#! [reflecting_parent.GetHerHis] los momentos divertidos fueron mis peores pruebas." #NT!
+ bp2_yearly.7008.desc_dead_parent: "$bp2_yearly.7008.desc_start$ mi [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName] fue un enemigo para mí mientras vivió [ROOT.Var('nursed_child_parent_var').Char.GetSheHe]." #NT!
+ bp2_yearly.7008.desc_word: "¡[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] incluso descartó mis primeras palabras!" #NT!
+ bp2_yearly.7008.desc_step: "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] se fue aburrido mientras yo daba mis primeros pasos." #NT!
+ bp2_yearly.7008.desc_tooth: "¡[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] retrocedió, disgustado, ante la pérdida de mi primer diente!" #NT!
+ bp2_yearly.7008.desc_dress: "¡[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] ridiculizó mi amor infantil por los disfraces!" #NT!
+ bp2_yearly.7008.desc_end: "\n\n¡Debería recibir lo que se me debe! O quizás... ¿sería mejor que dejara de vivir en el pasado?" #NT!
+ bp2_yearly.7008.a: ""¡Dame tu tierra, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)]!"" #NT!
+ bp2_yearly.7008.a.tt_good: "[reflecting_parent.GetFirstNameNoTooltip] está de acuerdo contigo" #NT!
+ bp2_yearly.7008.a.tt_bad: "[reflecting_parent.GetFirstNameNoTooltip] ofrece algo más en su lugar" #NT!
+ bp2_yearly.7008.b: ""¡Me debes tu riqueza!"" #NT!
+ bp2_yearly.7008.c: ""¡Te desprecio y espero no volver a verte nunca más!"" #NT!
+ bp2_yearly.7008.c_dead_parent: ""¿¡Por qué me descuidaste tanto!?"" #NT!
+ bp2_yearly.7008.d: "Prefiero centrarme en mis propios hijos." #NT!
+ bp2_yearly.7008.e: "Ese trato es... legítimo." #NT!
+ bp2_yearly.7008.tt: "[reflecting_parent.GetFirstNameNoTooltip] tendrá que responder" #NT!
+ bp2_yearly.7009.t: "$bp2_yearly.7003.title$ Bonos" #NT!
+ bp2_yearly.7009.desc: "$bp2_yearly.7008.desc_start$ mi [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] vio lo mejor en mí, siempre se esforzó por defenderme. Los mejores momentos de mi infancia fueron los de [reflecting_parent.GetHerHim]." #NT!
+ bp2_yearly.7009.desc_dead_parent: "$bp2_yearly.7008.desc_start$ mi [ROOT.Char.Custom2('RelationToMeShort', reflecting_parent)] tenía una profunda devoción por mí y, mientras mi [ROOT.Char.Custom2('RelationToMeShort', ROOT.Var('nursed_child_parent_var').Char)] [ROOT.Var('nursed_child_parent_var').Char.GetFirstName] vivió, [ROOT.Var('nursed_child_parent_var').Char.GetSheHe] también me amó ferozmente." #NT!
+ bp2_yearly.7009.desc_word: "Fue [ROOT.Var('nursed_child_parent_var').Char.GetSheHe] quien escuchó mis primeras palabras." #NT!
+ bp2_yearly.7009.desc_step: "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] me ayudó a dar mis primeros pasos." #NT!
+ bp2_yearly.7009.desc_tooth: "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] incluso aceptó mi diente de leche en [ROOT.Var('nursed_child_parent_var').Char.GetHerHis] propia mano." #NT!
+ bp2_yearly.7009.desc_dress: "[ROOT.Var('nursed_child_parent_var').Char.GetSheHe|U] alentó mis travesuras, mis disfraces." #NT!
+ bp2_yearly.7009.desc_end: "\n\n¿Quizás debería devolver [ROOT.Var('nursed_child_parent_var').Char.GetHerHis] cariño?" #NT!
+ bp2_yearly.7009.desc_end_dead_parent: "\n\nSin embargo, es demasiado tarde para agradecer a [ROOT.Var('nursed_child_parent_var').Char.GetHerHim]. Mi gratitud ahora va sólo a mi [ROOT.Char.Custom2('RelationToMe', reflecting_parent)]." #NT!
+ bp2_yearly.7009.a: ""Te amo tanto, [nursed_child.Custom2('RelationToMeShort', reflecting_parent)]."" #NT!
+ bp2_yearly.7009.a.tt_good: "$bp2_yearly.7008.a.tt_good$" #NT!
+ bp2_yearly.7009.a.tt_bad: "[reflecting_parent.GetFirstNameNoTooltip] quiere algo a cambio" #NT!
+ bp2_yearly.7009.b: "¡Les pasaré el amoroso cuidado a mis hijos!" #NT!
+ bp2_yearly.7009.c: "UH Huh. Familia, gratitud... y así sucesivamente." #NT!
+ bp2_yearly.7010.t: "$bp2_yearly.7008.t$" #NT!
+ bp2_yearly.7010.desc_start: "Mientras hablo de algunos asuntos judiciales con mi [ROOT.Char.Custom2('RelationToMeShort', nursed_child)] [nursed_child.GetFirstName], [nursed_child.GetSheHe] de repente comienza a hablar de la infancia de [nursed_child.GetHerHis].\n\n" #NT!
+ bp2_yearly.7010.desc: "$bp2_yearly.7010.desc_start$"Mi amado [nursed_child.Custom2('RelationToMeShort', ROOT.Char)], debes admitirlo: nunca te preocupaste por mí, ni siquiera cuando era joven." #NT!
+ bp2_yearly.7010.desc_dead_parent: "$bp2_yearly.7010.desc_start$"O [nursed_child.Custom2('RelationToMeShort', ROOT.Char)], está mal hablar mal de los muertos, ¡pero debes admitir que mi [nursed_child.Custom2('RelationToMeShort', nursed_child.MakeScope.Var('nursed_child_parent_var').Char)] fue el peor padre que pudo haber!" #NT!
+ bp2_yearly.7010.desc_word: "¡Mis primeras palabras fueron descartadas!" #NT!
+ bp2_yearly.7010.desc_step: "¡Mis primeros pasos fueron ignorados!" #NT!
+ bp2_yearly.7010.desc_tooth: "¡Los primeros dientes que perdí los tiré a la basura!" #NT!
+ bp2_yearly.7010.desc_dress: "Mi disfraz fue ridiculizado sin piedad." #NT!
+ bp2_yearly.7010.desc_end: "¿Es #EMP ese#! amor?"\n\n[nursed_child.GetFirstNameNoTooltip] lucha, temblando de emoción, pero parece decidido." #NT!
+ bp2_yearly.7010.desc_title: "$bp2_yearly.7008.a$" #NT!
+ bp2_yearly.7010.desc_gold: "$bp2_yearly.7008.b$" #NT!
+ bp2_yearly.7010.desc_hate: "$bp2_yearly.7008.c$" #NT!
+ bp2_yearly.7010.desc_hate_dead_parent: "$bp2_yearly.7008.c_dead_parent$" #NT!
+ bp2_yearly.7010.a: "Estoy dispuesto a demostrar remordimiento." #NT!
+ bp2_yearly.7010.a.tt: "$bp2_yearly.7008.a.tt_good$" #NT!
+ bp2_yearly.7010.b: ""¡De ahora en adelante tendrás lo que necesitas de mí!"" #NT!
+ bp2_yearly.7010.b.tt: "$bp2_yearly.7008.a.tt_bad$" #NT!
+ bp2_yearly.7010.c: ""Crecer."" #NT!
+ bp2_yearly.7010.c.tt: "A [reflecting_parent.GetFirstNameNoTooltip] realmente no le importa" #NT!
+ bp2_yearly.7011.t: "$bp2_yearly.7009.t$" #NT!
+ bp2_yearly.7011.desc: "$bp2_yearly.7010.desc_start$"[nursed_child.Custom2('RelationToMeShort', ROOT.Char)|U], me cuidaste como el perro cuida a sus cachorros. Mejor incluso. Mis primeros y más preciados recuerdos estaban contigo." #NT!
+ bp2_yearly.7011.desc_dead_parent: "$bp2_yearly.7010.desc_start$"Mientras mi [nursed_child.Custom2('RelationToMeShort', nursed_child.MakeScope.Var('nursed_child_parent_var').Char)] estaba con nosotros, yo amaba de verdad a [nursed_child.MakeScope.Var('nursed_child_parent_var').Char.GetHerHim]. Siempre, [nursed_child.MakeScope.Var('nursed_child_parent_var').Char.GetSheHe] y tú te tomaste tiempo para mí." #NT!
+ bp2_yearly.7011.desc_word: "¡Cuando pronuncié mis primeras palabras!" #NT!
+ bp2_yearly.7011.desc_step: "Cuando di mis primeros pasos!" #NT!
+ bp2_yearly.7011.desc_tooth: "Cuando puse en tu mano mi primer diente caído." #NT!
+ bp2_yearly.7011.desc_dress: "¡Cuando hacía travesuras y hacía cabriolas!" #NT!
+ bp2_yearly.7011.desc_end: "Me abrazaste tan cerca."\n\n[nursed_child.GetSheHe|U] se sonroja, radiante.\n\n" #NT!
+ bp2_yearly.7011.desc_receive_love: "$bp2_yearly.7011.desc_end$$bp2_yearly.7009.a$" #NT!
+ bp2_yearly.7011.desc_forwarded_love: ""$bp2_yearly.7011.desc_end$"$bp2_yearly.7009.b$"" #NT!
+ bp2_yearly.7011.a: ""¡Y te amo, [ROOT.Char.Custom2('RelationToMeShort', nursed_child)]!"" #NT!
+ bp2_yearly.7011.a.tt: "$bp2_yearly.7009.a.tt_good$" #NT!
+ bp2_yearly.7011.b: ""¡Qué devoción!"" #NT!
+ bp2_yearly.7011.b.tt: "$bp2_yearly.7009.a.tt_bad$" #NT!
+ bp2_yearly.7011.c: ""No te quedes en el pasado."" #NT!
+ bp2_yearly.7011.c.tt: "$bp2_yearly.7010.c.tt$" #NT!
+ bp2_yearly.7012.t: "La leche del amor de una enfermera" #NT!
+ bp2_yearly.7012.desc: "[nursed_child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] entra tambaleándose, perturbando mi reunión del consejo, e intenta llevarme a un lado.\n\n"[nursed_child.GetFirstNameNoTooltip]! No deberías estar aquí", protesto, pero [nursed_child.Custom('GirlBoy')] se pone rojo y comienza a gritar.\n\n"¡Te #EMP odio#!! ¿Por qué haces esto?!" [nursed_child.GetSheHe|U] hace una pausa sollozando, con todas las miradas puestas en [nursed_child.GetHerHim]. "¡Enviaste lejos a mi [former_wet_nurse.GetFirstName]! No es solo una nodriza, ¡la amo como a una madre! #EMP ¡Más#! que a mi madre!"" #NT!
+ bp2_yearly.7012.a: "Perdóname. ¡La contrataré de nuevo!" #NT!
+ bp2_yearly.7012.b: "Debes respetar tu decisión [nursed_child.Custom2('RelationToMePossessive', ROOT.Char)]." #NT!
+ bp2_yearly.7012.b_win: "Consuelas y educas [nursed_child.GetFirstNameNoTooltip]" #NT!
+ bp2_yearly.7012.b_loss: "[nursed_child.GetFirstNameNoTooltip] resiente tu dominación" #NT!
+ bp2_yearly.7012.c: "¡Niño, calla!" #NT!
+ bp2_yearly.7013.t: "El dolor de un niño" #NT!
+ bp2_yearly.7013.desc: "Últimamente, [nursed_child.GetFirstName] ha estado deambulando, perdido en pensamientos de [nursed_child.GetHerHis]. En la cámara [nursed_child.GetHerHis], encuentro a [nursed_child.GetHerHim] llorando sobre [nursed_child.GetHerHis] almohadas. \n\n"¿Qué te pasa, mi [ROOT.Char.Custom2('RelationToMeShort', nursed_child)]?" Pregunto, mientras [nursed_child.GetSheHe] comienza a calmarse.\n\n "¿Qué pasa cuando mueres? Sólo me pregunto... si mi nodriza [former_wet_nurse.GetFirstName] está bien". [nursed_child.GetSheHe|U] respira profundamente, conteniendo las lágrimas. "¿Quizás tenga que amamantar a [ROOT.Char.GetFaith.DevilName] ahora?"\n\nMientras la voz de [nursed_child.GetHerHis]0 se quiebra, [nursed_child.GetSheHe] llora las lágrimas más grandes y húmedas que jamás haya visto." #NT!
+ bp2_yearly.7013.a: ""¡Tu nueva nodriza hará que todo sea mejor!"" #NT!
+ bp2_yearly.7013.a.tt: "Desencadenantes $bp2_decision.0001.t$" #NT!
+ bp2_yearly.7013.b: ""Seguramente ahora está en [nursed_child.GetFaith.PositiveAfterLife]"." #NT!
+ bp2_yearly.7013.c: "Muerto está muerto." #NT!
+ bp2_yearly.7014.t: "Una presencia familiar" #NT!
+ bp2_yearly.7014.desc: "Mi nodriza [wet_nurse.GetFirstName] me arropa en la cama y se mueve para apagar las velas por la noche.\n\n "¡Espera! ¡Quiero decir algo!" Me declaro. "Me gusta que estés aquí... Me sentiría tan solo en [ROOT.Char.GetCurrentLocation.GetName] sin ti."\n\n[wet_nurse.GetFirstNameNoTooltip] parece un poco incómodo por esto, pero conmovido.\n\n"Soy un devoto" #NT!
+ bp2_yearly.7014.desc_faith: "Sirviente de [wet_nurse.GetFaith.HighGodName], como lo serás algún día. Una vez que seas fuerte en tu fe, [wet_nurse.GetFaith.HighGodName] te guiará y consolará, y no tendrás necesidad de mí."" #NT!
+ bp2_yearly.7014.desc_culture: "[wet_nurse.GetCulture.GetName], como tú. Compartimos nuestros [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] corazones. [tradition.GetNameNoTooltip], [tradition_2.GetNameNoTooltip]... ¡éstos son nuestros caminos! Ya sean grandes o pequeños, todos somos buena gente"." #NT!
+ bp2_yearly.7014.desc_culture_no_trad: "[wet_nurse.GetCulture.GetName], como tú. ¡Compartimos nuestros corazones [wet_nurse.GetCulture.GetEthos.GetNameNoTooltip|l] y nuestras costumbres antiguas! Ya sean grandes o pequeños, todos somos buena gente"." #NT!
+ bp2_yearly.7014.a: ""¡Desearía que fueras mi mamá!"" #NT!
+ bp2_yearly.7014.b: "No olvidaré este momento." #NT!
+ parenting_by_example: "Criar con el ejemplo" #NT!
+ parenting_by_example_desc: "Los padres de este personaje les enseñaron a criar a los niños con amor y cariño." #NT!
+ role_model_parent: "Padre modelo a seguir" #NT!
+ role_model_parent_desc: "Este padre inspira a sus hijos a amar y cuidar a sus propios hijos." #NT!
+ rites_of_passage_decision: "$bp2_decision.0002.t$" #NT!
+ rites_of_passage_decision_desc: "Los jóvenes de cierta edad pueden participar en un rito de iniciación: un ritual que los marca como adultos con estatus en la tribu." #NT!
+ rites_of_passage_decision_effect_tooltip: "Un joven participa en uno de los siguientes: $rites_of_passage_duel$, $rites_of_passage_scarification$, $rites_of_passage_seclusion$, $rites_of_passage_shaving$ o Limpieza Elemental" #NT!
+ rites_of_passage_decision_confirm: "Es hora" #NT!
+ rites_of_passage_duel: "Duelo" #NT!
+ rites_of_passage_scarification: "Escarificación" #NT!
+ rites_of_passage_seclusion: "Reclusión" #NT!
+ rites_of_passage_shaving: "Afeitado del cabello" #NT!
+ bp2_decision.0002.t: "Ritos de pasaje" #NT!
+ bp2_decision.0002.desc: "El tiempo trae nuevos adultos a una tribu [ROOT.Char.GetCulture.GetName], pero sólo las ceremonias de prueba establecen la madurez, el estatus y el valor. [teentribal.GetFirstName], mi [ROOT.Char.Custom2('RelationToMeShort',teentribal)], tiene una edad adecuada. Nuestra gente de [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l] tiene tres medios tradicionales para probar [teentribal.GetHerHis].\n\n" #NT!
+ bp2_decision.0002.desc_root: "Hasta que sea adulto, mis compañeros [ROOT.Char.GetCulture.GetCollectiveNoun] no me respetarán como miembro de pleno derecho de mi tribu. Nuestra gente con mentalidad [ROOT.Char.GetCulture.GetEthos.GetNameNoTooltip|l] tiene tres ceremonias consagradas para marcar el paso a la madurez... y demostrar mi valía como [ROOT.Char.GetTitleAsName].\n\n" #NT!
+ bp2_decision.0002.desc_duel: "En un duelo contra otro [ROOT.Char.GetCulture.GetName] [teentribal.GetWomanMan], prevalecemos por habilidad y fuerza." #NT!
+ bp2_decision.0002.desc_scarification: "En la escarificación, la determinación queda grabada en la piel." #NT!
+ bp2_decision.0002.desc_seclusion: "En reclusión ponemos a prueba la adaptabilidad y la previsión." #NT!
+ bp2_decision.0002.desc_hair_shaving: "Afeitarse una cabellera atractiva demuestra fuerza de voluntad." #NT!
+ bp2_decision.0002.desc_cleansing: "El poder limpiador de $cleansing_type_element$ sólo puede alcanzarse con paciencia y celo." #NT!
+ bp2_decision.0002.desc_end: "\n\nSi [teentribal.GetFirstNameNoTooltip] pasa cualquiera de estas pruebas, [teentribal.GetSheHe] será favorecido a los ojos de [ROOT.Char.GetFaith.HighGodName], y honrado como un digno [ROOT.Char.GetCulture.GetNameNoTooltip] [teentribal.GetWomanMan]." #NT!
+ bp2_decision.0002.desc_end_root: "\n\nSi paso alguna de estas pruebas, seré digno a los ojos de [ROOT.Char.GetFaith.HighGodName] y un honrado [ROOT.Char.GetCulture.GetNameNoTooltip] [teentribal.GetWomanMan]." #NT!
+ bp2_decision.0002.effect_tt: "Obtiene un punto [personality_trait|E], [lifestyle_experience|E] o [skill|E]" #NT!
+ bp2_decision.0002.effect_modifier_tt: "Ganancias [GetModifier('proven_adult_modifier').GetNameWithTooltip] o [GetModifier('insecure_adult_modifier').GetNameWithTooltip] durante #V 10 años#!" #NT!
+ bp2_decision.0002.a: "Un duelo." #NT!
+ bp2_decision.0002.a.flavor: "¡Será [teentribal.Custom('GirlBoy')] versus [teentribal.GetWomanMan]!" #NT!
+ bp2_decision.0002.a.tt: "Elegirás un oponente [single_combat_duel|E]" #NT!
+ bp2_decision.0002.a.win: "Si se gana la pelea" #NT!
+ bp2_decision.0002.a.lose: "Si la pelea está perdida" #NT!
+ bp2_decision.0002.b: "Un ritual de escarificación." #NT!
+ bp2_decision.0002.b.tt: "¡Muestre para todos la prueba del dominio de la mente sobre el cuerpo!" #NT!
+ bp2_decision.0002.b_scarred: "Si las cicatrices son profundas" #NT!
+ bp2_decision.0002.b_scarred.tt: "Gana [GetTrait('scarred').GetName( GetNullCharacter )|LV] o [GetTrait('wounded_1').GetName( GetNullCharacter )|LV]" #NT!
+ bp2_decision.0002.b_modifier: "Si apenas se toca la hoja" #NT!
+ bp2_decision.0002.c: "Reclusión." #NT!
+ bp2_decision.0002.c.tt: "La dura naturaleza salvaje revela el verdadero yo." #NT!
+ bp2_decision.0002.c.destination: "Elegirás un destino [travel|E]" #NT!
+ bp2_decision.0002.c_win: "Si el aislamiento es magistral" #NT!
+ bp2_decision.0002.c_lose: "Si el aislamiento es desgarrador" #NT!
+ bp2_decision.0002.c_trait: "Obtiene un [commander_trait|E] según el terreno del destino." #NT!
+ bp2_decision.0002.d: "Un afeitado de cabeza." #NT!
+ bp2_decision.0002.d.tt: "¡Que se eliminen los privilegios de la infancia!" #NT!
+ bp2_decision.0002.d_artifact: "Obtiene un [artifact|E]" #NT!
+ bp2_decision.0002.d_bald: "Si todo está afeitado" #NT!
+ bp2_decision.0002.d_shave: "Si sólo se corta un mechón de pelo" #NT!
+ fire_cleanse: "Fuego" #NT!
+ water_cleanse: "Agua" #NT!
+ cleansing_type_element: "[SelectLocalization(ObjectsEqual(teentribal.MakeScope.Var('cleansing_type').GetFlagName, '$fire_cleanse$'),'fire_cleanse','water_cleanse')]" #NT!
+ passage_rites_effect.trait: "Algo dentro despierta" #NT!
+ passage_rites_effect.xp: "Se gana mucha sabiduría y mundanalidad." #NT!
+ passage_rites_effect.skill: "Se aprende mucho del rito." #NT!
+ bp2_decision.0002.e: "Una limpieza $cleansing_type_element$." #NT!
+ bp2_decision.0002.e.tt: "La fuerza primordial de $cleansing_type_element$ limpiará la mente y el cuerpo." #NT!
+ bp2_decision.0002.e.full: "Si el elemento está completamente abrazado." #NT!
+ bp2_decision.0002.e.partially: "Si el ritual es a medias" #NT!
+ bp2_decision.0002.e_flip: "Posibilidad de cambiar un [sinful|E] [trait|E] por uno [virtuous|E]" #NT!
+ bp2_decision.0002.f: "$bp2_decision.0002.backout$." #NT!
+ bp2_decision.0002.backout: "[SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'I am',teentribal.GetFirstNameNoTooltip)] [SelectLocalization(ObjectsEqual(teentribal, ROOT.Char),'','is ')]aún no está listo" #NT!
+ bp2_decision.0002.cooldown: "@alerta_icon! #alert_trial $bp2_decision.0002.t$ [decision|E] dejará de estar disponible durante #V 1 año#!" #NT!
+ bp2_yearly.7021.t: "$bp2_decision.0002.t$: $rites_of_passage_duel$" #NT!
+ bp2_yearly.7021.desc: "Un [ROOT.Char.GetCulture.GetName] [teentribal.GetWomanMan] debe detestar el miedo, rechazar la debilidad y esperar conocer el dolor en la vida.\n\nEl joven [teentribal.GetFirstName] ha dado golpes a otros jóvenes, pero nunca sufrió el ataque de un [ROOT.Char.GetCulture.GetNameNoTooltip] adulto.\n \nMuchos son los valientes guerreros de nuestra tribu, pero solo uno puede poner a prueba mi [ROOT.Char.Custom2('RelationToMePossessive',teentribal)] valor." #NT!
+ bp2_yearly.7021.desc_root: "Un guerrero nace de la lucha, nace en la sangre.\n\nHe dado golpes a otros jóvenes jóvenes, pero nunca he encontrado un oponente verdaderamente digno: un [ROOT.Char.GetCulture.GetName] adulto.\n\nMuchos son los valientes guerreros de nuestra tribu, pero Sólo puedo desafiar a uno para demostrar mi disposición." #NT!
+ bp2_yearly.7021.a: "[teentribal.GetSheHe|U] caras [teentribal.GetHerHis] [teentribal.Custom2('RelationToMeShort', family_duelist)|l]!" #NT!
+ bp2_yearly.7021.a_root: "[teentribal.Custom2('RelationToMeShort', family_duelist)|U], ¡me pondré a prueba contra ti!" #NT!
+ bp2_yearly.7021.a.tt: "[teentribal.GetFirstName] desafía a [teentribal.GetHerHis] [teentribal.Custom2('RelationToMeShort', family_duelist)|l] [family_duelist.GetFirstName] a un [single_combat_duel|E]" #NT!
+ bp2_yearly.7021.b_root: "¡Desafío a mi [ROOT.Char.Custom2('RelationToMeShort', duelist_1)], [duelist_1.GetFirstNameNoTooltip]!" #NT!
+ bp2_yearly.7021.b: "¡[teentribal.GetSheHe|U] se batirá en duelo con mi [teentribal.Custom2('RelationToMeShort', duelist_1)|l], [duelist_1.GetFirstNameNoTooltip]!" #NT!
+ bp2_yearly.7021.b.tt: "[teentribal.GetFirstName] desafía a [duelist_1.GetFirstName] a [single_combat_duel|E]" #NT!
+ bp2_yearly.7021.c: "El [duelist_2.Custom('ComplimentAdjective')] [duelist_2.GetFirstNameNoTooltip] — ¡adelante!" #NT!
+ bp2_yearly.7021.c_root: "Prefiero luchar contra mi [ROOT.Char.Custom2('RelationToMeShort', duelist_2)], [duelist_2.GetFirstNameNoTooltip]." #NT!
+ bp2_yearly.7021.c.tt: "[teentribal.GetFirstName] desafía a [duelist_2.GetFirstName] a [single_combat_duel|E]" #NT!
+ bp2_yearly.7021.d: "$bp2_decision.0002.f$" #NT!
+ bp2_yearly.7021.d.tt: "$bp2_decision.0002.cooldown$" #NT!
+ bp2_yearly.7022.t: "$bp2_decision.0002.t$: Se lucha contra el $rites_of_passage_duel$" #NT!
+ bp2_yearly.7022.desc_child_win: "Cuando termina la bendición del [ROOT.Char.GetFaith.PriestNeuter], las armas de los retadores suenan juntas. La experiencia de [sc_loser.GetFirstNamePossessive] permite a [sc_loser.GetHerHim] aprovechar una ventaja inmediata, pero, aun así, [sc_loser.GetSheHe] no puede rechazar los ataques inteligentes de [sc_victor.GetFirstNamePossessive] por mucho tiempo.\n\nMi [ROOT.Char.Custom2('RelationToMe',teentribal)] hace que [sc_loser.GetFirstNameNoTooltip] caiga.\n\n"Me rindo !" gime el mayor [sc_loser.GetWomanMan]. "[sc_victor.GetFirstNameNoTooltip] me ha roto los nudillos y me ha cegado con sangre vital: [sc_victor.GetSheHe] es un guerrero tan completo como cualquier otro. ¡Un [sc_loser.GetFirstNamePossessive]0 [sc_loser.GetFirstNamePossessive]1 muy merecedor!"\n\nEl rito se completa así." #NT!
+ bp2_yearly.7022.desc_child_lost: "¡Apenas se rocían las libaciones cuando [sc_loser.GetFirstName] lanza un feroz asalto! Bajo la lluvia de golpes, [sc_victor.GetFirstNamePossessive] la experiencia sirve: [sc_victor.GetSheHe] resiste la tormenta. Mi joven [ROOT.Char.Custom2('RelationToMe',teentribal)], pronto cansado, da todo a la pelea [sc_loser.GetHerHis]... pero finaliza este rito con hierro en la garganta de [sc_loser.GetHerHis].\n\nAl ver el fuego todavía en los ojos del oponente de [sc_victor.GetHerHis], [sc_victor.GetFirstNameNoTooltip] es amable.\n\n "¡Esto es un [sc_loser.GetWomanMan] ante mí! La lucha, no la victoria, le otorga a [sc_loser.GetHerHim] un lugar entre nosotros. [sc_victor.GetFirstNamePossessive]0 ha demostrado el coraje de un guerrero y el mérito de [sc_victor.GetFirstNamePossessive]1"." #NT!
+ bp2_yearly.7022.desc_root_win: ""¡Suficiente!" jadea [sc_loser.GetFirstName], arrojando [sc_loser.GetHerHis] [sc_loser.Custom('SignatureWeaponNameOrType')] al suelo. "¡Da el golpe mortal como un [ROOT.Char.GetWomanMan] con todo honor! Me avergonzaría morir ante un [teentribal.Custom('GirlBoy')]."\n\n"Pero — #EMP ¿qué estoy diciendo?#! Ya luchas como un verdadero [ROOT.Char.GetWomanMan] . Como un [ROOT.Char.GetTitleAsName]: aquel que conocerá el poder, conocerá la victoria. Hablaré por ti y me ocuparé de que tus privilegios crezcan."\n\n¡Está hecho! Por la virtud de mi [ROOT.Char.Custom('SignatureWeaponNameOrType')], estoy probado." #NT!
+ bp2_yearly.7022.desc_root_lost: "Aunque no puedo igualar la veteranía de [sc_victor.GetFirstName]... ¡el rito no puede terminar así! Intento ponerme de pie, preparándome, y me desarman. Persigo mi arma, pero el enemigo bloquea mi camino. #EMP ¡No puede terminar así!#! \n\n[sc_victor.GetFirstNameNoTooltip] me mira divertido.\n\n"¡Espera, joven [ROOT.Char.Custom('RegionalFerociousAnimal')]! ¡Mi [ROOT.Char.GetTitleAsName], la tuya es la ferocidad de un [ROOT.Char.GetCulture.GetName] [ROOT.Char.Custom( 'KnightCultureNoTooltipLowercase' )]! Has luchado con valentía y, derrotado o no, te honro como miembro de la tribu."\n\n"Este resultado será aceptado"." #NT!
+ bp2_yearly.7022.toast: "El duelo formas [teentribal.GetFirstNameNoTooltip]" #NT!
+ bp2_yearly.7022.a: "¡Tal es la determinación del [teentribal.GetHouse.GetBaseNameNoTooltip]!" #NT!
+ bp2_yearly.7022.a_victory: "Ganar es ganar confianza en el oficio del guerrero y en uno mismo." #NT!
+ bp2_yearly.7022.a_loss: "[teentribal.GetFirstNameNoTooltip] nunca olvidará esta pérdida... y [teentribal.GetSheHe] aprenderá que la tenacidad de [teentribal.GetHerHis] tiene usos más allá del campo de batalla." #NT!
+ bp2_yearly.7022.b: "La tribu obtendrá un nuevo campeón." #NT!
+ bp2_yearly.7022.b_victory: "Aún quedan muchos trucos por aprender, ¡pero éste es un buen comienzo!" #NT!
+ bp2_yearly.7022.b_loss: "¡[teentribal.GetFirstNameNoTooltip] debe dedicarse al entrenamiento, a los duelos mejor reñidos que se avecinan!" #NT!
+ bp2_yearly.7022.c: "¡Una maldita pelea! Una pelea #EMP muy#! sangrienta..." #NT!
+ bp2_yearly.7022.c_victory: "Se produjo una especie de júbilo, se despertó un fervor perverso... con el flujo de sangre." #NT!
+ bp2_yearly.7022.c_loss: "Veo un contador de suministros aquí, no un luchador... si [teentribal.GetFirstNameNoTooltip] quiere vivir mucho tiempo." #NT!
+ bp2_yearly.7023.t: "$bp2_decision.0002.t$: $rites_of_passage_scarification$" #NT!
+ bp2_yearly.7023.desc: "Los [ROOT.Char.GetCulture.GetCollectiveNoun] de mi tribu se reúnen para presenciar el rito de la escarificación. Con el humo de las hierbas sagradas espeso en el aire, mi [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName] comienza la ceremonia. Los reunidos guardan silencio.\n\n[priest.GetSheHe|U] desenvaina la espada ritual.\n\n"Aquí, [teentribal.GetFirstName] del [teentribal.GetHouse.GetName]", entona el sagrado [priest.GetWomanMan], "será marcado y tallado, desgarrado por el dolor. Cuando Mire [teentribal.GetHerHim] en los próximos días, veremos convicción, veremos que [teentribal.GetSheHe] es un [teentribal.GetWomanMan]"." #NT!
+ bp2_yearly.7023.a: "Llevar la prueba es conocer el orgullo." #NT!
+ bp2_yearly.7023.a.tt: "[priest.GetFirstNameNoTooltip] corta vigorosamente, una y otra vez." #NT!
+ bp2_yearly.7023.a_nothing: "Los cortes estan limpios" #NT!
+ bp2_yearly.7023.a_scarred: "Los cortes dejan marcas duraderas." #NT!
+ bp2_yearly.7023.a_wounded: "Los cortes son salvajemente profundos." #NT!
+ bp2_yearly.7023.b: "¿Quizás esto pueda ser simplemente... simbólico?" #NT!
+ bp2_yearly.7023.b.tt: "[priest.GetFirstNameNoTooltip] es suave con la hoja, dejando sólo una escasa impresión." #NT!
+ bp2_yearly.7023.c: "$bp2_decision.0002.f$" #NT!
+ bp2_yearly.7023.c.tt: "$bp2_decision.0002.cooldown$" #NT!
+ bp2_yearly.7024.t: "$bp2_decision.0002.t$: $rites_of_passage_seclusion$" #NT!
+ bp2_yearly.7024.desc: ""El aislamiento enriquece el cuerpo, el espíritu", insiste mi [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName]. "¡En tranquilidad, sagacidad! En supervivencia, astucia. Elige un lugar de armonía... pero en algún lugar salvaje, duro."\n\n[priest.GetSheHe|U] arroja algunas escasas provisiones.\n\n" #NT!
+ bp2_yearly.7024.desc_capital: ""Un [teentribal.Custom('GirlBoy')] está seguro en casa, en el [rite_location.GetTerrain.GetNameNoTooltip|l] de [rite_location.GetName]." #NT!
+ bp2_yearly.7024.desc_abroad: "Para una verdadera prueba, ¡considere el extraño y lejano [abroad_location.GetTerrain.GetNameNoTooltip|l] de [abroad_location.GetName]!" #NT!
+ bp2_yearly.7024.desc_realm: "O el autor del rito puede viajar brevemente: ¿a [realm_location.GetName], tal vez?" #NT!
+ bp2_yearly.7024.desc_end: "Ahora, niña, ve... con la sabiduría de [priest.GetFaith.KnowledgeGodName]"." #NT!
+ bp2_yearly.7024.a: "¡A tierras lejanas!" #NT!
+ bp2_yearly.7024.a.tt: "#N Mayor#! probabilidad de peligro" #NT!
+ bp2_yearly.7024.a.abroad: "[teentribal.GetFirstName] viajará al [abroad_location.GetTerrain.GetNameNoTooltip|l] de [abroad_location.GetName], dentro del ámbito de [foreign_ruler.GetName]" #NT!
+ bp2_yearly.7024.win: "Evitó todo peligro" #NT!
+ bp2_yearly.7024.lose: "Atrapado en peligro" #NT!
+ bp2_yearly.7024.b: "El viaje no tiene por qué ser demasiado largo." #NT!
+ bp2_yearly.7024.b.tt: "#Z Media#! probabilidad de peligro" #NT!
+ bp2_yearly.7024.b.realm: "[teentribal.GetFirstName] viajará al [realm_location.GetTerrain.GetNameNoTooltip|l] de [realm_location.GetName]" #NT!
+ bp2_yearly.7024.c: "La naturaleza salvaje local servirá." #NT!
+ bp2_yearly.7024.c.tt: "#P Menor#! probabilidad de peligro" #NT!
+ bp2_yearly.7024.c.capital: "[teentribal.GetFirstName] se aislará en el [rite_location.GetTerrain.GetNameNoTooltip|l] de [rite_location.GetName], el [realm_capital|E]" #NT!
+ bp2_yearly.7024.d: "$bp2_decision.0002.f$" #NT!
+ bp2_yearly.7024.d.tt: "$bp2_decision.0002.cooldown$" #NT!
+ bp2_yearly.7025.t: "$bp2_decision.0002.t$: $rites_of_passage_seclusion$" #NT!
+ bp2_yearly.7025.desc: "¡Un [teentribal.MakeScope.Var('animal_type').GetFlagName] babeante entra en mi pequeño campamento!\n\nNo puedo escapar de esta criatura desesperada. La bestia debe ser derrotada o burlada. Tengo una liebre recién muerta a mano..." #NT!
+ bp2_yearly.7025.desc_realm: "Llego rápidamente al cercano [realm_location.GetTerrain.GetNameNoTooltip|l] de [realm_location.GetName] e inmediatamente empiezo a prepararme para pasar la noche. Mientras prendo una fogata para preparar mi cena $bp2_yearly.7025.desc$" #NT!
+ bp2_yearly.7025.desc_abroad: "El amanecer se eleva sobre [seclusion_location.GetName]. Lo desconocido [realm_location.GetTerrain.GetNameNoTooltip|l], desprovisto de [seclusion_location.GetCounty.GetCulture.GetCollectiveNoun] local, es espantoso de noche y hermoso a la luz de la mañana.\n\nMi fogata a medio encender y yo no estamos solos aquí $bp2_yearly.7025.desc$" #NT!
+ bp2_yearly.7025.desc_capital: "Rápidamente encuentro un buen lugar para mi campamento, justo afuera del [rite_location.GetName], así que inmediatamente preparo una fogata para prepararme para pasar la noche y comer algo caliente. $bp2_yearly.7025.desc$" #NT!
+ bp2_yearly.7025.desc_fight: "¿Quizás, lanzándolo, pueda ganar tiempo para agarrar mi arco?" #NT!
+ bp2_yearly.7025.desc_outwit: "¿Quizás pueda retirarme sutilmente mientras eso sacia el [teentribal.MakeScope.Var('animal_type').GetFlagName]?" #NT!
+ bp2_yearly.7025.a: "Me escabulliré y me esconderé." #NT!
+ bp2_yearly.7025.a_win: "Te alejas de la bestia distraída." #NT!
+ bp2_yearly.7025.a_lose: "El [teentribal.MakeScope.Var('animal_type').GetFlagName], irritado, te ataca" #NT!
+ bp2_yearly.7025.tt: "Un [teentribal.MakeScope.Var('animal_type').GetFlagName] atacado durante el aislamiento" #NT!
+ bp2_yearly.7025.b: "¡Con flechas afiladas saldré del [teentribal.MakeScope.Var('animal_type').GetFlagName]!" #NT!
+ bp2_yearly.7025.b_win: "El [teentribal.MakeScope.Var('animal_type').GetFlagName] huye picado por flechas." #NT!
+ bp2_yearly.7025.b_lose: "Los ilesos ataques [teentribal.MakeScope.Var('animal_type').GetFlagName]" #NT!
+ bp2_yearly.7026.t: "$bp2_decision.0002.t$: $rites_of_passage_shaving$" #NT!
+ bp2_yearly.7026.desc: "Atando finas trenzas y agitando hermosos mechones en señal de gratitud, la tribu se reúne para el ritual de cortar el cabello.\n\nmi [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName] agarra el cabello de [teentribal.GetFirstNamePossessive] y agarra un cuchillo con inscripciones.\n\n"Este [teentribal.Custom('GirlBoy')] es para ¡abandonar la infancia por el futuro de la tribu! [teentribal.GetSheHe|U] perderá todo lo que existe por frivolidad, dejando [teentribal.GetHerHis] la verdadera naturaleza, [teentribal.GetHerHis] la fuerza del espíritu, expuestas!"\n\nEl sabio mira con cautela en mi dirección.\n\n" ...si nuestro [ROOT.Char.GetTitleAsName] así lo desea."" #NT!
+ bp2_yearly.7026.desc_child: "Atando finas trenzas y agitando hermosos mechones en señal de gratitud, la tribu se reúne para el ritual del corte de pelo.\n\nmi [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName] me agarra el pelo y agarra un cuchillo con inscripciones.\n\n"Nuestro [ROOT.Char.GetTitleAsName] es ​​abandonar ¡La infancia por el futuro de la tribu! [teentribal.GetSheHe|U] perderá todo lo que existe por frivolidad, dejando [teentribal.GetHerHis] la verdadera naturaleza, [teentribal.GetHerHis] la fuerza del espíritu, expuesta!"\n\nEl sabio mira con cautela en mi dirección.\n\n". ..si nuestro [ROOT.Char.GetTitleAsNameNoTooltip] así lo desea."" #NT!
+ bp2_yearly.7026.a: "Dedicación absoluta: un afeitado brutal y total." #NT!
+ bp2_yearly.7026.a.tt: "Mi [ROOT.Char.Custom2('RelationToMeShort',priest)] pasa la hoja [priest.GetHerHis] por todo el cuero cabelludo, con el vigor adecuado." #NT!
+ bp2_yearly.7026.a.toast: "Se concluye el afeitado ritual." #NT!
+ bp2_yearly.7026.b: "¡Corta solo un mechón para conservarlo siempre!" #NT!
+ bp2_yearly.7026.b.tt: "Se corta un mechón de cabello y se coloca en un relicario ceremonial, una señal de deber." #NT!
+ bp2_yearly.7026.b.toast: "El corte de pelo está completo." #NT!
+ bp2_yearly.7026.c: "$bp2_decision.0002.f$" #NT!
+ bp2_yearly.7026.c.tt: "$bp2_decision.0002.cooldown$" #NT!
+ bp2_yearly.7027.t: "$bp2_decision.0002.t$: La limpieza" #NT!
+ bp2_yearly.7027.desc: "La tribu se reúne reverentemente a la orilla del agua, mientras el santo [priest.GetFirstName] alza la copa ceremonial.\n\n"¡De unas pocas gotas comenzó el mar! ¡De [teentribal.Custom('GirlBoy')] surge el hombre! Así comienza". [priest.GetSheHe|U] derrama agua sagrada sobre el cabello y la piel.\n\n"En nombre de [priest.GetFaith.WaterGodName]: deja que el agua te limpie, deja que lave al niño y deja la sabiduría de la edad adulta."\n\nLa siguiente parte de la ceremonia cae sobre mí y el estanque sagrado me espera." #NT!
+ bp2_yearly.7027.a: "¡Casi ahogarse es conocer el agua!" #NT!
+ bp2_yearly.7027.a.tt: "La inmersión en el agua sagrada es... casi mortal en longitud." #NT!
+ bp2_yearly.7027.b: "El rito requiere... un baño ligero." #NT!
+ bp2_yearly.7027.b.tt: "Un breve vistazo: el simbolismo es el amo del mundo de la vigilia." #NT!
+ bp2_yearly.7027.c: "$bp2_decision.0002.f$" #NT!
+ bp2_yearly.7027.c.tt: "$bp2_decision.0002.cooldown$" #NT!
+ bp2_yearly.7027.tt: "La limpieza $cleansing_type_element$ está completa." #NT!
+ bp2_yearly.7028.t: "$bp2_decision.0002.t$: La limpieza" #NT!
+ bp2_yearly.7028.desc: "Grandes llamas iluminan los rostros severos de mis compañeros de tribu. Mi [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] [priest.GetFirstName], armado con la culata de una lanza, apaga la hoguera y esparce las brasas en un camino resplandeciente.\n\nRespira, respira con calma, imploro.\n\n"¿Está este joven preparado para unirse a tus filas?", grita [priest.GetFirstNameNoTooltip]. "¡[priest.GetFaith.WarGodName] juzgará, mientras [teentribal.GetFirstName] se enfrenta al juicio de fuego! ¡Ve, niño: quema lo que no es digno y podrás pisar la tierra fría como un [ROOT.Char.GetCulture.GetName] [teentribal.GetWomanMan]!"" #NT!
+ bp2_yearly.7028.a: "¡[priest.GetFaith.WarGodName|U] lleva al creyente a través!" #NT!
+ bp2_yearly.7028.a.tt: "Durante la caminata sobre el fuego se toman medidas deliberadas y minuciosas." #NT!
+ bp2_yearly.7028.b: "¡Date prisa! ¡Corre a toda velocidad!" #NT!
+ bp2_yearly.7028.b.tt: "La caminata sobre el fuego es un honor, pero la huida con la que termina es rápida como el viento." #NT!
+ bp2_yearly.7028.c: "$bp2_decision.0002.f$" #NT!
+ bp2_yearly.7028.c.tt: "$bp2_decision.0002.cooldown$" #NT!
+ bp2_yearly.7028.tt: "$bp2_yearly.7027.tt$" #NT!
+ bp2_yearly.7029.t: "Ritos de iniciación: un miedo familiar" #NT!
+ bp2_yearly.7029.desc: "Como [ROOT.Char.GetTitleAsName], doy permiso a los jóvenes que pronto realizarán ritos de iniciación. Algunos hacen promesas audaces, juramentos que pocos podrían cumplir. Otros, como mi [ROOT.Char.Custom2('RelationToMeShort', teentribal)] [teentribal.GetFirstName], tiemblan.\n\nHoy, la prueba elegida es la misma que yo mismo emprendí una vez:" #NT!
+ bp2_yearly.7029.desc_duel: "[teentribal.GetFirstNamePossessiveNoTooltip] habilidad con las armas vale [teentribal.GetHerHis]. Pero me doy cuenta... [teentribal.GetSheHe] no lleva espada.\n\n"¡El oponente nombrado es como una montaña!" [teentribal.GetSheHe] gemidos. "¿Cómo se supone que voy a ganar, excepto mediante algún truco sucio?"" #NT!
+ bp2_yearly.7029.desc_scarification: "La cara de [teentribal.GetFirstNamePossessiveNoTooltip] quedará marcada, marcando a [teentribal.GetHerHim] para siempre como uno de nosotros. [teentribal.GetSheHe|U] se estremece ante el mero pensamiento de la hoja.\n\n"¡Temo perder un ojo!" [teentribal.GetSheHe] gemidos. "¿Cómo se supone que debo prepararme para algo tan horrible?"" #NT!
+ bp2_yearly.7029.desc_seclusion: "[teentribal.GetFirstNameNoTooltip] está preparado para el camino hacia la reclusión, pero mal. [teentribal.GetSheHe|U] permanece en abrazos, con los ojos húmedos.\n\n"¿Es eso un mal augurio?" pregunta [teentribal.GetSheHe]. "¿No? Aún así... este mal tiempo. Seguramente, ¿nadie viaja con este clima?"" #NT!
+ bp2_yearly.7029.desc_hair_shaving: "[teentribal.GetFirstNamePossessiveNoTooltip] cabello debe ser afeitado. [teentribal.GetSheHe|U] agarra puñados de él con un miedo que le pone los nudillos blancos.\n\n"¡Dicen que mi cabello es el más rubio de la tribu!" [teentribal.GetSheHe] protestas. "¡¿No podríamos simplemente cortar la piel de un sacrificio?!"" #NT!
+ bp2_yearly.7029.desc_fire_cleanse: "[teentribal.GetFirstNamePossessiveNoTooltip] pies están descalzos, por lo que es posible que sientan frío antes de caminar sobre el fuego. [teentribal.GetSheHe|U] mira sospechosamente una pequeña lámpara de junco.\n\n"¿Hay realmente algo de verdad en el fuego?" se queja [teentribal.GetSheHe]. "Si todos ustedes sólo quieren mi agonía, supongo que les daré suficiente..."" #NT!
+ bp2_yearly.7029.desc_water_cleanse: "Se le dará [teentribal.GetFirstNameNoTooltip] al agua. [teentribal.GetSheHe|U] apenas parece ansioso por ser sumergido.\n\n"Tal vez haga que alguna criatura de las profundidades venga a devorarme", se queja [teentribal.GetSheHe]. "El [ROOT.Char.GetFaith.PriestNeuter] anhela matarme tanto..." #NT!
+ bp2_yearly.7029.a: "¡Mi relato de mi rito inspirará a [teentribal.GetHerHim]!" #NT!
+ bp2_yearly.7029.a.tt: "Con tus palabras resonando en [teentribal.GetHerHis] oídos, [teentribal.GetFirstNameNoTooltip] afronta el juicio con fina convicción." #NT!
+ bp2_yearly.7029.a.teaching: "[teentribal.GetFirstNameNoTooltip] aprende mucho de ti" #NT!
+ bp2_yearly.7029.a.inspiration: "Tu historia es maravillosamente inspiradora." #NT!
+ bp2_yearly.7029.b: "[teentribal.GetSheHe|U] debe sufrir [teentribal.GetHerHis] sus propios errores." #NT!
+ bp2_yearly.7029.b.success: "[teentribal.GetFirstName] aprende a ser autosuficiente" #NT!
+ bp2_yearly.7029.b.fail: "[teentribal.GetFirstName] hace mal el rito" #NT!
+ bp2_yearly.7029.b.tt: "[teentribal.GetFirstNameNoTooltip] lucha solo en [teentribal.GetHerHis], ganándose la fuerza de un adulto o la vergüenza de un fracaso." #NT!
+ rites_of_passage_trigger_chaplain: "Tu [GetPlayer.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName] está disponible" #NT!
+ rites_of_passage_trigger_not_proven: "No ha completado ningún rito de iniciación." #NT!
+ rites_of_passage_trigger_delayed: "Retraso en completar cualquier rito de iniciación por 1 año." #NT!
+ tribal_hair: "Mechón de cabello [teentribal.GetFirstNamePossessive]" #NT!
+ tribal_hair.desc: "[teentribal.GetFirstNamePossessive] resto de ritos de paso exitosos a la edad adulta." #NT!
+ insecure_adult_modifier: "Adulto tribal inseguro" #NT!
+ insecure_adult_modifier_desc: "Este personaje pasó el $bp2_decision.0002.t$, pero aún se siente inseguro sobre la vida que le espera." #NT!
+ backdown_from_rite_modifier: "Juventud tribal insegura" #NT!
+ backdown_from_rite_modifier_desc: "Este personaje se comprometió mal con su rito de iniciación; los acosa un sentimiento de indignidad." #NT!
+ proven_adult_modifier: "Adulto tribal probado" #NT!
+ proven_adult_modifier_desc: "Este personaje pasó el $bp2_decision.0002.t$ y es considerado un miembro adulto honorable de la tribu." #NT!
+ child_like_parent_modifier: "No lejos del árbol" #NT!
+ child_like_parent_modifier_desc: "Te vuelves más como tu temido padre, centrado en ti mismo." #NT!
+ fire_cleanse_rite_memory: "Una purificación con fuego" #NT!
+ water_cleanse_rite_memory: "Una limpieza con agua" #NT!
+ shaving_hair_rite_memory: "Un afeitado de cabello" #NT!
+ seclusion_rite_memory: "Un aislamiento" #NT!
+ scarification_rite_memory: "Una escarificación" #NT!
+ dueling_rite_memory: "Un duelo" #NT!
+  
