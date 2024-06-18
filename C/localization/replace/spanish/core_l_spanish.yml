@@ -75,7 +75,7 @@
   #AGOT Added 
  CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP: "[Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', 'Real Mother: ' )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', CHARACTER.GetRealMother.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', '\n' )]" #NT!
   #AGOT Modified 
- #CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórico: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: #!\nID:0\ norte" #NT!
+ #CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórico: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: #!\nID:\ norte" #NT!
  CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórica: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: [CHARACTER.GetCurrentWeight]\n"
  CHARACTER_AI_VALUES_DEBUG_TOOLTIP: "#D DEPURACIÓN#! Valores IA:\nHonor: [Character.GetAIHonor|V]\nCodicia: [Character.GetAIGreed|V]\nRacionalidad: [Character.GetAIRationality|V]\nEnergía: [Character.GetAIEnergy|V]\nValor: [Character.GetAIBoldness|V]\nValor modificado por temor: [Character.GetAIBoldnessAsAffectedByPlayerDread|V]\nCelo: [Character.GetAIZeal|V]\nRevanchismo: [Character.GetAIVengefulness|V]\nCompasión: [Character.GetAICompassion|V]\nSociabilidad: [Character.GetAISociability|V]\n[Character.GetVariablesDescription]\n\n[Character.GetAiBudgetDescription]"
  CHARACTER_AI_VALUE: " #DEBUG Valores IA#!"
@@ -84,7 +84,7 @@
  DEBUG_DEFENSIVE_WAR: "Guerra defensiva contra $NAME$"
  DEBUG_TRUCE: "Tregua con $NAME$ (hasta [DATE.GetString])"
  DEBUG_VASSAL_INFO: "Información de vasallo:"
- DEBUG_IS_POWERFUL_VASSAL: "Es poderoso:0 "
+ DEBUG_IS_POWERFUL_VASSAL: "Es poderoso: "
  DEBUG_VASSAL_POWER_VALUE: "Valor del poder de vasallo: $VALUE|V1$"
  DEBUG_TRAVEL_INFO: "Viaje:"
  DEBUG_TRAVEL_NEXT_DESTINATION: "   Próximo destino: [CHARACTER.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName|V]\n"
