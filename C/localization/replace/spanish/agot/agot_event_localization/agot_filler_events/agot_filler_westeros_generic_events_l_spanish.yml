@@ -324,7 +324,7 @@
  agot_filler_westeros.0049.a: "¿Qué discutiremos?"
   
  agot_filler_westeros.0050.t: "La Armería: Guerra"
- agot_filler_westeros.0050.desc: "Lord [fellow_swordsman.GetFirstNameNoTooltip] me mostró emocionado un mapa que habían colocado sobre una mesa. Se colocaron figurillas en el mapa que representaban varias unidades militares, y el mapa tenía dibujados en ellas. Mi anfitrión se volvió hacia mí y dijo: "Dime, ¿qué sabes de la guerra?"" #NT!
+ agot_filler_westeros.0050.desc: "Lord [fellow_swordsman.GetFirstNameNoTooltip] excitedly showed me a map they had laid out on a table. Figurines were placed on the map representing various military units, and the map had  holding drawn on them. My host turned to me and said "Tell me what do you know of warfare?""
  agot_filler_westeros.0050.a: "La movilidad y la logística son vitales para la guerra"
  agot_filler_westeros.0050.b: "*El terreno es el factor decisivo"
  agot_filler_westeros.0050.c: "Umm.. paz si la mejor opción"
@@ -355,22 +355,6 @@
  agot_filler_westeros.0055.opening: "Un pobre espadachín"
  agot_filler_westeros.0055.desc: "Tuve dudas cuando escuché que eras un espadachín. Lamento decir que demostraron tener razón. ¡Eres un individuo que no solo es un mal invitado, sino que me temo que sería más peligroso para ti mismo que para cualquier otra persona en el campo de batalla!"
  agot_filler_westeros.0055.a: "No creo haber causado una buena impresión...."
-  
-  
- ############################ 
- #       The Teats          # 
- #       Badger             # 
- #       0056               # 
- ############################ 
-  
- agot_filler_westeros.0056.t: "Las Tetinas"
- agot_filler_westeros.0056.desc: "Estoy cabalgando por el reino con mi [lover.Custom('ComplimentAdjective')] [lover.GetName] cuando nos encontramos en lo profundo de Riverlands. Nuestra travesura amorosa se ve interrumpida por la aparición de dos montículos cubiertos de hierba que se asoman a la vista en el horizonte, provocando una risita de ambos. \n\nEsta extensión de tierra en particular se conoce popularmente como [teats.GetName], por su parecido no tan sutil con el corpiño de una mujer. Aunque inclinas la cabeza de repente, te recuerdan a un par con el que estás íntimamente familiarizado.\n\n"Mi [ROOT.Char.GetLadyLord]", [lover.GetName] habla [lover.Custom('quirk_pos_adverb')], sacándote de tu ensimismamiento y ella responde con una sonrisa. "¿Algo en tu mente?" Te las arreglas para evitar que tus ojos se desvíen hacia las colinas cuando una idea comienza a formarse..."
- agot_filler_westeros.0056.a: "Mirad estas tetas, poderosos, y desesperaos."
- agot_filler_westeros.0056.a.tt: "Los Tetinas serán renombrados a [lover.GetNamePossessive] Tetinas"
- renamed_teats: "[GetGlobalVariable('teats_name').Char.GetFirstNamePossessive] Tetinas"
- agot_filler_westeros.0056.b: "Los mios son mejores"
- agot_filler_westeros.0056.b.tt: "Los Teats serán renombrados después de sus Teats"
- agot_filler_westeros.0056.c: "Nada de nada, querida."
   
  ############################ 
  #    A Silver Bride        # 
@@ -422,3 +406,71 @@
   
  agot_filler_westeros.0061.a: "Llevaré al Padre conmigo en mi carne."
  agot_filler_westeros.0061.b: "¡Los Siete no buscan nuestra mutilación!"
+  
+ agot_filler_westeros.0062.t: "Rosas de invierno en flor" #NT!
+ agot_filler_westeros.0062.desc: "[informer.GetTitledFirstName] me ha informado que las rosas de invierno han florecido y ahora están en plena floración. Las rosas son un tesoro de la Casa [ROOT.Char.GetHouse.GetName] y ciertamente debería verlo.\n\nAl bajar a los jardines de cristal, encuentro que la vista de todas las rosas en flor es incomparable; el azul pálido recuerda a la escarcha del cristal que los alberga. No se pueden contemplar sin pensar en el amor y la belleza." #NT!
+ agot_filler_westeros.0062.a: "¡Qué vista tan hermosa!" #NT!
+ agot_filler_westeros.0062.b: "Me gustaría llevarme uno." #NT!
+ agot_filler_westeros.0062.c: "Estos formarían una corona llamativa." #NT!
+  
+  
+ ############################ 
+ #    Foreign Tutor Events  # 
+ #       Badger             # 
+ #       0063 - 0074        # 
+ ############################ 
+  
+ agot_filler_westeros.0063.t: "La elegancia de una bailarina del agua" #NT!
+ agot_filler_westeros.0063.desc: "Un bailarín acuático braavosi ambulante ha llegado a mi reino en [location.GetNameNoTierNoTooltip]. [waterdancer.GetTitledFirstName] es hábil en un estilo de combate extraño a Westeros, uno que podría beneficiar a [ward_child.GetName] en torneos o días oscuros por venir, en caso de que [ward_child.GetSheHe] sufra debido al riguroso entrenamiento.\n\nAunque, ¿qué tan valioso será realmente? Parece que el baile en el agua puede ser todo espectáculo, ¿de qué sirve #italic bailar#! en un combate real?\n\n¿Valdría la pena convencer a [waterdancer.GetFirstNameNoTooltip] para que le enseñe a mi [ROOT.Char.Custom2('RelationToMe', ward_child)] este estilo único?" #NT!
+ agot_filler_westeros.0063.a: "[waterdancer.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0063.b: "No puedo depositar tanta fe en un extraño." #NT!
+  
+ agot_filler_westeros.0064.t: "Sabiduría oculta de un sacerdote barbudo" #NT!
+ agot_filler_westeros.0064.desc: "Un sacerdote barbudo norvoshi ha llegado a [location.GetNameNoTierNoTooltip] ofreciendo [bearded_priest.GetHerHis] espada como mercenario. [bearded_priest.GetHerHis|U] la religión es una herejía en Poniente, pero se sabe que la orden secreta de los sacerdotes barbudos entrena y arma a algunos de los guerreros más fuertes de Norvos, porque ¿de qué otra manera podrían haber gobernado la ciudad durante tanto tiempo?\n\nSería una Es una gran apuesta, pero tal vez pueda convencer a [bearded_priest.GetHerHim] para que sea tutor de mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName] con la esperanza de que este talento se transmita a [ward_child.GetHerHim]." #NT!
+ agot_filler_westeros.0064.a: "[bearded_priest.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0064.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0065.t: "Un rico Pentoshi Magister se refugia" #NT!
+ agot_filler_westeros.0065.desc: "Un magister Pentoshi exiliado se ha refugiado en mis tierras en [location.GetNameNoTierNoTooltip]. Por muy tonto que fuera [magistrate.GetSheHe] en sus últimos años en el este, [magistrate.GetName] construyó [magistrate.GetHerHis] su propia fortuna mediante el comercio en el Mar Angosto con las otras Ciudades Libres y muchos puertos de Poniente. Ese conocimiento de las rutas marítimas y de las mercancías podría ser invaluable para mi familia, incluso más allá de simplemente ganar dinero.\n\nPodría ofrecerle a [magistrate.GetHerHim] un lugar de lujo donde quedarse a cambio de enseñarle a mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName] historias de negociación de [magistrate.GetHerHis]. logística y comercio." #NT!
+ agot_filler_westeros.0065.a: "[magistrate.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0065.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0066.t: "Un banquero de Braavosi bajo mi techo" #NT!
+ agot_filler_westeros.0066.desc: "Un banquero braavosi viajero ha llegado a [location.GetNameNoTierNoTooltip]. [banker.GetName] tiene muchos años de experiencia en el manejo de oro de forma segura e inteligente; pocos hombres de Poniente podrían aspirar a alcanzar la aclamación de [banker.GetHerHis].\n\nLa imprudencia con la riqueza ha sido la ruina de muchos grandes gobernantes, y mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName] se beneficiaría si aprendiera la moderación y la buena gestión desde una edad temprana.\n\n¿Lo haría? Valdrá la pena el precio que [banker.GetFirstNameNoTooltip] exigiría para enseñar [ward_child.GetHerHim] sin embargo..." #NT!
+ agot_filler_westeros.0066.a: "[banker.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0066.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0067.t: "Dulces palabras de un diplomático lyseni" #NT!
+ agot_filler_westeros.0067.desc: "Un diplomático lyseni viajero ha mostrado [diplomat.GetHerHis] cara en [location.GetNameNoTierNoTooltip]; [diplomat.GetSheHe] ha estado recorriendo Poniente mientras entre misiones, habiéndose cansado de las Ciudades Libres.\n\nCon muchos años de experiencia calmando conflictos tensos en las Tierras en Disputa, [diplomat.GetName] sin duda tiene habilidades que podrían evitar que las disputas en Poniente desemboquen en baños de sangre. .\n\nTales habilidades generarían un gran prestigio y podría contratar a [diplomat.GetHerHim] para transmitir estos talentos a mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName]." #NT!
+ agot_filler_westeros.0067.a: "[diplomat.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0067.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0068.t: "La sabiduría de un noble pentoshi" #NT!
+ agot_filler_westeros.0068.desc: "Un noble pentoshi menor viajero ha llegado a mi reino en [location.GetNameNoTierNoTooltip]. Aunque [noble.GetSheHe] no tiene títulos, [noble.GetName] ha estado enriqueciendo a los lugareños y tiene una larga historia de asesorar a gobernantes y sentar consejos en Pentos. [noble.GetSheHe|U] tiene una experiencia diferente a cualquiera de mis parientes en Westeros, una oportunidad única para ampliar la visión del mundo.\n\n¿Quizás podría conseguir que [noble.GetHerHim] sea tutor de mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName], con la esperanza de que este conocimiento resulte valioso?" #NT!
+ agot_filler_westeros.0068.a: "[noble.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0068.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0069.t: "Myrish Creador de Curiosidades" #NT!
+ agot_filler_westeros.0069.desc: "Un inventor myriano ha estado viajando por Poniente y hoy se detuvo en mis dominios en [location.GetNameNoTierNoTooltip]. La variedad de creaciones que [inventor.GetSheHe] tiene en exhibición es asombrosa.\n\nAunque mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName] no va a pasar [ward_child.GetHerHis] días construyendo rarezas, ese pensamiento y comprensión creativos podrían beneficiar a [ward_child.GetHerHim] cuando [ward_child.GetSheHe] entre en acción. como gobernante.\n\n¿Quizás podría convencer a [inventor.GetName] para que me dé lecciones?" #NT!
+ agot_filler_westeros.0069.a: "[inventor.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0069.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0070.t: "La presencia de un vinculador de sombras" #NT!
+ agot_filler_westeros.0070.desc: "Los campesinos de [location.GetNameNoTierNoTooltip] se han estado escondiendo por miedo a un vinculador de sombras viajero de Asshai que se ha alojado en la posada local. Media docena de ellos vinieron hoy ante mí para rogar que [shadowbinder.GetSheHe] sea exiliado o incluso asesinado por [shadowbinder.GetHerHis] brujerías oscuras.\n\nPero me viene a la mente un pensamiento diferente... ¿Quién más en Poniente puede reclamar, si no el dominio, ¿Entonces al menos comprensión de las sombras?\n\nSi pudiera conseguir que [shadowbinder.GetHerHim] le enseñara a mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName], este conocimiento podría beneficiar a mi familia durante generaciones." #NT!
+ agot_filler_westeros.0070.a: "[shadowbinder.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0070.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0071.t: "Un viejo soldado" #NT!
+ agot_filler_westeros.0071.desc: "Un general volanteno retirado ha llegado a [location.GetNameNoTierNoTooltip]; cansado de las interminables guerras en el este, [general.GetName] ha recurrido a Poniente en busca de un lugar para pasar [general.GetHerHis] últimos años lejos del constante derramamiento de sangre de las Tierras en Disputa.\n\ nHabiendo sido sorprendido contando historias de guerra a comerciantes y viajeros en la posada local, no puedo evitar pensar que la visión de [general.GetHerHis] sobre la guerra podría no tener rival en el desarrollo de [ward_child.GetNamePossessive].\n\nQuizás podría convencer a [general.GetHerHim] para que sea tutor de mi [ROOT.Char.Custom2('RelationToMe', ward_child)].. ." #NT!
+ agot_filler_westeros.0071.a: "[general.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0071.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0072.t: "Un mercenario Tyroshi errante" #NT!
+ agot_filler_westeros.0072.desc: "Un mercenario Tyroshi errante ha llegado a [location.GetNameNoTierNoTooltip]. Un veterano de docenas de batallas en las Tierras en Disputa, [sellsword.GetName] tiene conocimientos valiosos tanto en espada como en tácticas militares que [sellsword.GetSheHe] podría impartir a mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName], en caso de que la guerra regrese a Poniente después de que yo me haya ido.\n\nYo puedo' Sin embargo, no puedo evitar dudar por un momento; ¿Es correcto confiarle a un mercenario [ward_child.GetFirstNameNoTooltip]?" #NT!
+ agot_filler_westeros.0072.a: "[sellsword.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0072.b: "$agot_filler_westeros.0063.b$" #NT!
+  
+ agot_filler_westeros.0073.t: "Un místico de Qohor" #NT!
+ agot_filler_westeros.0073.desc: "Un hechicero viajero de la lejana ciudad de Qohor ha llegado a mis dominios en [location.GetNameNoTierNoTooltip]. Estas prácticas son rechazadas por la mayoría dentro de Westeros, pero tal vez simplemente no las entendemos.\n\nPodría convencer a [sorcerer.GetName] para que le enseñe a mi [ROOT.Char.Custom2('RelationToMe', ward_child)] [ward_child.GetName], para que [ward_child.GetSheHe] entienda cómo manipular los misterios de este mundo mejor que cualquiera de [ward_child.GetHerHis] pares." #NT!
+ agot_filler_westeros.0073.a: "[sorcerer.GetHerHis|U] conocimiento #italic ayudaría#! a [ward_child.GetFirstNameNoTooltip] a crecer." #NT!
+ agot_filler_westeros.0073.b: "$agot_filler_westeros.0063.b$" #NT!

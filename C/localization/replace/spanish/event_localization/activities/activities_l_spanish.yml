@@ -1,0 +1,311 @@
+﻿l_spanish:
+  # GUI 
+ ACTIVITY_WAITING_TOOLTIP: "Organizado por [CHARACTER.GetName].\nEsperando que se respondan todas las invitaciones.\n$DESC|F$\n\n#I Haz clic para mostrar detalles#!" #NT!
+ ACTIVITY_TIME_LEFT: "#D Comenzará en $TIME|V$ días#!" #NT!
+ ACTIVITY_OWNED_BY: "#D Propietario: $NAME$#!" #NT!
+  
+  #AGOT Modified 
+ #ACTIVITY_FULL_NAME: "[Character.GetShortUINamePossessiveNoTooltip] [ActivityType.GetNameNoTooltip]" #NT!
+ ACTIVITY_FULL_NAME: "[SelectLocalization(Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').IsSet, Character.GetInvolvedActivity.MakeScope.Var('body_to_bury').Char.GetTitledFirstNamePossessive, Character.GetShortUINamePossessiveNoTooltip)] [ActivityType.GetNameNoTooltip|U]" #NT!
+ ACTIVITY_SHORT_NAME: "[ActivityType.GetNameNoTooltip]" #NT!
+  
+ ACTIVITY_TYPE_DESC: "[AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]" #NT!
+  
+ ACTIVITY_OPTION_TOOLTIP: "#T [ActivityOption.GetName]#![AddLine(ActivityOption.GetIsValidDesc( GetPlayer, ActivityPlanner.GetSelectedSpecialOption ))]\n[ActivityOption.GetDescription]" #NT!
+  # Ugly hack, ActivityPlanner needs to be used before ActivityOption for the contexts to work properly, for some reason. 
+ ACTIVITY_OPTION_DESC: "[ActivityPlanner.NoOp][ActivityOption.GetDescription]" #NT!
+  
+ activity_special_type: "[Activity.Custom('GetActivitySpecialType')]" #NT!
+ activity_special_type_desc: "[Activity.Custom('GetActivitySpecialTypeDesc')]" #NT!
+  
+  #Debug Strings 
+  ## Personality Values 
+ debug_gui.activity_weight.ai_value.sociability: "Mi sociabilidad: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.ai_value.greed: "Mi codicia: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.ai_value.rationality: "Mi racionalidad: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.ai_value.boldness: "Mi audacia: $VALUE|+0$" #NT!
+  ## Traits 
+  ### Personality 
+ debug_gui.activity_weight.trait.gluttonous: "Soy [GetTrait('gluttonous').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.ambitious: "Soy [GetTrait('ambitious').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.greedy: "Soy [GetTrait('greedy').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.generous: "Soy [GetTrait('generous').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.temperate: "Soy [GetTrait('temperate').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.humble: "Soy [GetTrait('humble').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.arrogant: "Soy [GetTrait('arrogant').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.gregarious: "Soy [GetTrait('gregarious').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.shy: "Yo soy [GetTrait('shy').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+  ### Stress 
+ debug_gui.activity_weight.trait.comfort_eater: "Soy [GetTrait('comfort_eater').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.profligate: "Soy [GetTrait('profligate').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.improvident.giving_circumstances: "Soy [GetTrait('improvident').GetName( GetNullCharacter )] y considero mi presencia un regalo: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.inappetetic: "Soy [GetTrait('inappetetic').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.drunkard: "Soy [GetTrait('drunkard').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.trait.hashishiyah: "Soy [GetTrait('comfort_eater').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+  ### Lifestyle 
+ debug_gui.activity_weight.trait.lifestyle_reveler: "Soy [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]: $VALUE|+0$" #NT!
+  ## Modifiers 
+ debug_gui.activity_weight.modifier.losing_weight: "Estoy tratando de perder peso: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.modifier.gaining_weight: "Estoy intentando ganar peso: $VALUE|+0$" #NT!
+  ## Stress Level 
+ debug_gui.activity_weight.stress.more_than_low: "Soy [stressed|E]: $VALUE|+0$" #NT!
+  ## Faith 
+  ### Tenets 
+ debug_gui.activity_weight.faith.tenet_ritual_celebrations: "Mi [faith|E] tiene [GetFaithDoctrine('tenet_ritual_celebrations').GetBaseName]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.faith.tenet_hedonistic: "Mi [faith|E] tiene [GetFaithDoctrine('tenet_hedonistic').GetBaseName]: $VALUE|+0$" #NT!
+  ## Gold 
+ debug_gui.activity_weight.gold.prefers_cheapness: "No tengo mucho [gold|E] de sobra: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.gold.prefers_middling: "Tengo suficiente [gold|E] para algo decente: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.gold.prefers_expense: "Me sobra [gold|E]: $VALUE|+0$" #NT!
+  ## Struggles 
+ debug_gui.activity_weight.struggle.wants_to_escalate: "Quiero escalar mi [struggle|E]: $VALUE|+0$" #NT!
+ debug_gui.activity_weight.struggle.wants_to_deescalate: "Quiero desescalar mi [struggle|E]: $VALUE|+0$" #NT!
+  
+  
+  
+  #Feast 
+ activity_feast: "Banquete" #NT!
+ feast_activity_cost_desc: "Costo base" #NT!
+ activity_feast_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Fiesta" #NT!
+ murder_feast_activity_cost_desc: "$feast_type_murder$" #NT!
+ bloody_wedding_activity_cost_desc: "$wedding_type_bloody$" #NT!
+ activity_feast_desc: "Cada persona de estatura en el reino ha sido invitada a una gran fiesta, para forjar y fortalecer lazos de amistad y lealtad." #NT!
+ activity_feast_owner: "Anfitrión" #NT!
+ activity_feast_destination_selection: "El condado elegido recibirá el modificador [GetModifier( 'feast_recent_fest_modifier' ).GetNameWithTooltip|L] durante 5 años." #NT!
+ activity_feast_selection_tooltip: "Organice un gran banquete para fortalecer sus relaciones\n\nRecompensas previstas:\n$BULLET_WITH_TAB$[opinion_i] [opinion|E]\n$BULLET_WITH_TAB$[stress_loss_i] [stress|E] Pérdida" #NT!
+ activity_feast_amenity_effect: "$BULLET_WITH_TAB$Las recompensas aumentan según tu comida [court_amenities|E]" #NT!
+ activity_feast_host_desc: "$BULLET_WITH_TAB$Puede ganar [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E] [opinion|E]\n$BULLET_WITH_TAB$Puede ganar [prestige_i][prestige|E]\n$BULLET_WITH_TAB$Puede ganar [legitimacy_i] [GetVassalStance( 'courtly' ).GetTextIcon]0\n$BULLET_WITH_TAB$Los participantes pueden ganar personajes asistentes [opinion|E]\n$BULLET_WITH_TAB$Los participantes pueden perder [GetVassalStance( 'courtly' ).GetTextIcon]4[GetVassalStance( 'courtly' ).GetTextIcon]5\ n$BULLET_WITH_TAB$Los participantes podrán obtener el [GetVassalStance( 'courtly' ).GetTextIcon]7 [GetVassalStance( 'courtly' ).GetTextIcon]8\n[GetVassalStance( 'courtly' ).GetTextIcon]9" #NT!
+ activity_feast_conclusion_desc: "El [GetActivityType( 'activity_feast' ).GetName] ha concluido" #NT!
+ activity_feast_magnificence_greagarious_desc: "Eres un legendario [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]" #NT!
+ feast_recent_fest_modifier: "Gran banquete" #NT!
+ feast_recent_fest_modifier_desc: "Aquí se celebró una gran fiesta." #NT!
+ feast_start_log_title: "Comienza la fiesta" #NT!
+ feast_start_log: "[CHARACTER.GetTitledFirstName] dio una cálida bienvenida a los invitados y dio inicio a la Fiesta" #NT!
+ feast_phase_meal_desc: "Comida, bebida y buena compañía, #EMP ¿hay algo mejor?#!" #NT!
+ feast_phase_toast_desc: "Un momento especial para terminar la velada." #NT!
+ progress_towards_reveler_tt: "Progresas hacia el [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [trait|E]" #NT!
+ feast_type_murder_valid_tt: "Has sido anfitrión de un Asesinato [GetActivityType('activity_feast').GetName] en los últimos 15 años." #NT!
+ wedding_type_murder_valid_tt: "Has alojado a un Bloody [GetActivityType('activity_wedding').GetName] en los últimos 15 años" #NT!
+ honorary_guest: "Invitado de honor" #NT!
+ honorary_guest_concept: "[honorary_guest|E]" #NT!
+ honorary_guest_for_host: "Objetivo del asesinato" #NT!
+ honorary_guest_regular: "$honorary_guest$" #NT!
+ honorary_guest_regular_for_host: "$honorary_guest$" #NT!
+ honorary_guest_desc: "Un [GetActivityType('activity_feast').GetName] puede tener un $honorary_guest$, en cuyo honor se realiza la celebración. La parte central del banquete, el brindis, les otorgará [prestige|E] por esta posición destacada. Pero cuidado: también puede ser una trampa... Los anfitriones $feast_type_murder$ tienen tendencia a matar a sus $honorary_guest$." #NT!
+ honorary_guest_desc_for_host: "No sería un $feast_type_murder$ sin un $honorary_guest_for_host$. El anfitrión puede seleccionar cuidadosamente a su víctima y acabar con su vida, junto con todo su séquito, si así lo desea. Pero deben permanecer alerta: si alguien no ve la presencia de la víctima, puede haber consecuencias adicionales." #NT!
+ honorary_guest_regular_desc: "$honorary_guest_desc$" #NT!
+ honorary_guest_regular_desc_for_host: "$honorary_guest_desc$" #NT!
+ activity_window_character_honorary_guest: "[SelectLocalization( ObjectsEqual(Activity.GetHost.Self, GetPlayer), '$honorary_guest_for_host$', '[honorary_guest|E]' )]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_honorary_guest_regular: "[honorary_guest|E]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ feast_cost_discount_longhouses: "La ubicación tiene $building_type_longhouses_01$" #NT!
+ feast_cost_discount_farm_estates: "La ubicación tiene $building_type_farm_estates_01$" #NT!
+ feast_cost_discount_orchards: "La ubicación tiene $building_type_orchards_01$" #NT!
+ feast_cost_discount_cereal_fields: "La ubicación tiene $building_type_cereal_fields_01$" #NT!
+ feast_cost_discount_hill_farms: "La ubicación tiene $building_type_hill_farms_01$" #NT!
+ feast_cost_discount_desert_agriculture: "La ubicación tiene $building_type_plantations_01$" #NT!
+ feast_cost_discount_leisure_palaces: "La ubicación tiene $building_type_leisure_palace_01$" #NT!
+ feast_cost_discount_doges_palace: "La ubicación tiene $building_type_doges_palace_01$" #NT!
+ feast_cost_discount_palace_of_aachen: "La ubicación tiene $building_palace_of_aachen_01$" #NT!
+ feast_cost_discount_alhambra: "La ubicación tiene $building_alhambra_02$" #NT!
+ feast_cost_discount_citadel_of_aleppo: "La ubicación tiene $building_citadel_of_aleppo_02$" #NT!
+ feast_cost_discount_theodosian_walls: "La ubicación tiene $building_theodosian_walls_01$" #NT!
+ feast_cost_discount_hall_of_heroes: "La ubicación tiene $building_type_hall_of_heroes_01$" #NT!
+ activity_feast_province_desc_theodosian_walls: "#P +++ $building_type_theodosian_walls_01$#!" #NT!
+ activity_feast_province_desc_hall_of_heroes: "#P +++ $building_type_hall_of_heroes_01$#!" #NT!
+ activity_feast_province_desc_citadel_of_aleppo: "#P +++ $building_type_citadel_of_aleppo_01$#!" #NT!
+ activity_feast_province_desc_palace_of_aachen: "#P +++ $building_type_palace_of_aachen_01$#!" #NT!
+ activity_feast_province_desc_doges_palace: "#P +++ $building_type_doges_palace_01$#!" #NT!
+ activity_feast_province_desc_leisure_palace: "#P +++ $building_type_leisure_palace_01$#!" #NT!
+ activity_feast_province_desc_alhambra: "#P +++ $building_type_alhambra_01$#!" #NT!
+ activity_feast_province_desc_farm_estates: "#P ++ $building_type_farm_estates_01$#!" #NT!
+ activity_feast_province_desc_longhouses: "#P + $building_type_longhouses_01$#!" #NT!
+ activity_feast_province_desc_orchards: "#P + $building_type_orchards_01$#!" #NT!
+ activity_feast_province_desc_cereal_fields: "#P + $building_type_cereal_fields_01$#!" #NT!
+ activity_feast_province_desc_plantations: "#P + $building_type_plantations_01$#!" #NT!
+ activity_feast_province_desc_no_holding: "#N --- No [holding|P]#!" #NT!
+ courses_reward_food_court_amenity_tt: "Las recompensas aumentan gracias a las comodidades de la cancha." #NT!
+ courses_good_reward_tt_title: "$final_reward_tt$" #NT!
+ courses_good_reward_tt: "La cantidad de cursos impresionó mucho a los invitados." #NT!
+ courses_normal_reward_tt_title: "$final_reward_tt$" #NT!
+ courses_normal_reward_tt: "El número de cursos ha satisfecho a los invitados." #NT!
+ courses_bad_reward_tt_title: "$final_reward_tt$" #NT!
+ courses_bad_reward_tt: "El número de cursos ha decepcionado a los invitados." #NT!
+ food_normal_reward_tt_title: "$final_reward_tt$" #NT!
+ food_normal_reward_tt: "La complejidad del plato ha satisfecho a los invitados." #NT!
+ food_good_reward_tt_title: "$final_reward_tt$" #NT!
+ food_good_reward_tt: "La complejidad del plato impresionó mucho a los invitados." #NT!
+ food_bad_reward_tt_title: "$final_reward_tt$" #NT!
+ food_bad_reward_tt: "La complejidad del plato ha decepcionado a los invitados." #NT!
+ not_poor_health_tt: "[health|E] es #V Deficiente#! o inferior" #NT!
+ activity_feast_guest_help_text: "Cualquier [guests|E] invitado tendrá la oportunidad de involucrarse con otros participantes y aumentar su [opinion|E].\n\nLas fiestas también son la ocasión perfecta para simplemente sentarse y perder algo de [stress|E]." #NT!
+ murder_feast_failed_tt_title: "Asesinato fallido" #NT!
+ murder_feast_failed_tt: "El intento de asesinato ha fracasado." #NT!
+ murder_feast_solo_kill_tt_title: "Fiesta del asesinato" #NT!
+ murder_feast_solo_kill_tt: "[ROOT.Char.GetShortUIName] mató con éxito a [ROOT.Char.GetHerHis] objetivo" #NT!
+ murder_feast_entourage_kill_tt_title: "$murder_feast_solo_kill_tt_title$" #NT!
+ murder_feast_entourage_kill_tt: "[ROOT.Char.GetShortUIName] mató con éxito a [ROOT.Char.GetHerHis] objetivo y su séquito" #NT!
+ murder_feast_liege_kill_tt_title: "Objetivo equivocado" #NT!
+ murder_feast_liege_kill_tt: "[ROOT.Char.GetShortUIName] mató con éxito a [ROOT.Char.GetHerHis] señor" #NT!
+ murder_feast_hof_kill_tt_title: "$murder_feast_liege_kill_tt_title$" #NT!
+ murder_feast_hof_kill_tt: "[ROOT.Char.GetShortUIName] mató con éxito a [ROOT.Char.GetHerHis] cabeza de fe" #NT!
+ activity_window_character_honorary_guest_traveling_murder: "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ activity_window_character_honorary_guest_murder: "[SelectLocalization( IsActivityHost( Activity, GetPlayer ), 'honorary_guest_for_host', 'honorary_guest_concept' )]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_feast_province_desc: "Celebras una Fiesta en [ROOT.Province.GetName]\nLas provincias con edificios adecuados otorgan un descuento de [gold_i][gold|E]\n" #NT!
+  
+  #Hunt 
+ activity_hunt: "Caza" #NT!
+ hunt_phase_desc: "Persigue tu presa y decide cómo derribarla." #NT!
+ activity_hunt_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Caza" #NT!
+ activity_hunt_desc: "La caza proporciona emociones y peligros en abundancia, y sirve para proporcionar una base firme en la equitación y el tiro con arco.\n\nLas cacerías son supervisadas por el [GetCourtPositionType('master_of_hunt_court_position').GetName()], quien anunciará el [hunt_sightings_no_prefix|E] de las bestias comunes, raras y feroces." #NT!
+ activity_hunt_owner: "Cazador" #NT!
+  #Meditation 
+ activity_meditation: "Meditación aislada" #NT!
+ activity_meditation_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Meditación aislada" #NT!
+ activity_meditation_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] se ha retirado a reclusión para que puedan meditar en paz." #NT!
+ activity_meditation_owner: "Meditante" #NT!
+  #Hold Court 
+ activity_hold_court: "Mantenga la corte" #NT!
+ activity_hold_court_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Audiencia del tribunal" #NT!
+ activity_hold_court_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] ha invitado a todos sus súbditos a traer todos y cada uno de los asuntos que necesiten atención de [ACTIVITY.GetOwner.GetHerHis] antes de [ACTIVITY.GetOwner.GetHerHim]." #NT!
+ activity_petition_liege: "Petición Lieja" #NT!
+ activity_petition_liege_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Petición" #NT!
+ activity_petition_liege_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] ha solicitado a [ACTIVITY.GetOwner.GetHerHis] feudal, [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName], reparación en ciertos asuntos." #NT!
+  #Seer 
+ visit_seer: "Visita a un vidente" #NT!
+ visit_seer_desc: "Quizás tenga algunos buenos consejos, no trucos, para sobrevivir en la Edad Media." #NT!
+  
+  #Adventure 
+ activity_adventure_name: "Aventura" #NT!
+ activity_adventure_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] está de aventuras en la zona." #NT!
+ activity_adventure_owner: "Aventurero" #NT!
+  
+  #Gruesome Festival (Blót) 
+ activity_gruesome_festival: "[GetPlayer.Custom('GruesomeFestivalName')|U]" #NT!
+ activity_gruesome_festival_selection_tooltip: "Invitas a tus súbditos a participar en un ritual sagrado y costoso." #NT!
+ activity_gruesome_festival_desc: "Ya es hora de que todos los [GetPlayer.GetPrimaryTitle.GetNameNoTierNoTooltip] se unan para hacer sacrificio por [GetPlayer.GetFaith.PantheonTerm]. Estos rituales no sólo unen a los fieles, sino que confirman mi lugar como [GetPlayer.GetTitleAsNameNoTooltip] de toda la tierra." #NT!
+ activity_gruesome_festival_owner: "Anfitrión" #NT!
+ activity_gruesome_festival_host_desc: "\nOrganizas un [GetPlayer.Custom('GruesomeFestivalName')], que implica:\n#indent_newline:0 $EFFECT_LIST_BULLET$ Decidir la escala del festival\n#indent_newline:0 $EFFECT_LIST_BULLET$ Seleccionar qué sacrificar, incluso elegir uno de tus [prisoners|E] como el [designate_chief_sacrifice_chief_sacrifice|E]\n#indent_newline:0 $EFFECT_LIST_BULLET$ Ganar o perder [county_opinion|E] y #indent_newline:00 #indent_newline:01 dependiendo del #indent_newline:02 de tus súbditos #indent_newline:03" #NT!
+ activity_gruesome_festival_guest_help_text: "El [guests|E] invitado participará en el sacrificio y posterior banquete. Ganarán o perderán [opinion|E] de usted dependiendo del [core_tenets|E] de su [faith|E]." #NT!
+ activity_gruesome_festival_province_desc: "$gruesome_festival_size_small_desc$" #NT!
+ activity_gruesome_festival_fallback_name: "Sacrificio ritual" #NT!
+ activity_gruesome_festival_desc.non_gf_practioner: "Hay quienes entre mis súbditos practican grandes ritos de sacrificio bendecidos por su [GetPlayer.GetTitleAsNameNoTooltip]. Aceptar realizar incluso una variante limitada sin duda me ganaría su aprobación, aunque abrazar sus costumbres más... bárbaras podría generarme el desprecio de aquellos que desdeñan sus costumbres." #NT!
+  
+  
+ ACTIVITY_WAITING: "Esperando para empezar" #NT!
+ ACTIVITY_ATTENDING: "Asistiendo" #NT!
+ ACTIVITY_DECLINED: "Rechazado" #NT!
+ ACTIVITY_ATTENDING_NEWLINE: "\n$ACTIVITY_ATTENDING$\n" #NT!
+ GOTO_ACTIVITY: "#I Haga clic para centrar en el mapa#!" #NT!
+ GOTO_PLAYER_ACTIVITY: "#T [GetPlayer.GetCurrentActivity.GetType.GetName] en [GetPlayer.GetCurrentActivity.GetLocation.GetName]#! \n#I Haga clic para seleccionar#!" #NT!
+  #Pay Homage 
+ activity_pay_homage: "Homenaje" #NT!
+ activity_pay_homage_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Homenaje" #NT!
+ activity_pay_homage_desc: "[ACTIVITY.GetOwner.GetTitledFirstName] desea rendir homenaje formal a [ACTIVITY.GetOwner.GetHerHis] señor, [ACTIVITY.GetOwner.GetLiege.GetTitledFirstName]." #NT!
+  
+ activity_invite_rule_friends: "Amigos" #NT!
+ activity_invite_rule_rivals: "Rivales" #NT!
+ activity_invite_rule_rivals_if_appropriate: "$activity_invite_rule_rivals$" #NT!
+ activity_invite_rule_lovers: "Amantes" #NT!
+ activity_invite_rule_close_family: "Familia cercana" #NT!
+ activity_invite_rule_close_family_no_default: "$activity_invite_rule_close_family$" #NT!
+ activity_invite_rule_extended_family: "Familia extendida" #NT!
+ activity_invite_rule_liege: "Feudal" #NT!
+ activity_invite_rule_liege_no_default: "$activity_invite_rule_liege$" #NT!
+ activity_invite_rule_vassals: "Vasallos" #NT!
+ activity_invite_rule_vassals_no_default: "$activity_invite_rule_vassals$" #NT!
+ activity_invite_rule_fellow_vassals: "Compañeros vasallos" #NT!
+ activity_invite_neighbouring_rulers: "Gobernantes vecinos" #NT!
+ activity_invite_rule_knights: "Caballeros" #NT!
+ activity_invite_rule_knights_no_default: "$activity_invite_rule_knights$" #NT!
+ activity_invite_rule_courtiers: "Cortesanos" #NT!
+ activity_invite_rule_courtiers_no_default: "$activity_invite_rule_courtiers$" #NT!
+ activity_invite_rule_guests: "Invitados de la corte" #NT!
+ activity_invite_rule_guests_no_default: "$activity_invite_rule_guests$" #NT!
+ activity_invite_spouses: "Esposos" #NT!
+ activity_invite_spouses_no_default: "$activity_invite_spouses$" #NT!
+ activity_invite_rule_house_witches: "Casa" #NT!
+ activity_invite_rule_other_witches: "Otro" #NT!
+ activity_invite_rule_landless_courtiers: "Sin aterrizar $activity_invite_rule_courtiers$" #NT!
+ activity_invite_rule_landless_friends: "Sin aterrizar $activity_invite_rule_friends$" #NT!
+ activity_invite_rule_landless_rivals: "Sin aterrizar $activity_invite_rule_rivals$" #NT!
+ activity_invite_rule_landless_lovers: "Sin aterrizar $activity_invite_rule_lovers$" #NT!
+ activity_invite_rule_landless_close_family: "Sin aterrizar $activity_invite_rule_close_family$" #NT!
+ activity_invite_rule_player_heir: "Heredero" #NT!
+ activity_invite_rule_hof: "Jefe de fe" #NT!
+ activity_invite_rule_all_lieges: "Todas las Liejas" #NT!
+ activity_invite_spouses_close_family: "Familia cercana de los cónyuges" #NT!
+ activity_invite_spouses_extended_family: "Familia extendida de los cónyuges" #NT!
+ activity_invite_mp: "Otros jugadores" #NT!
+  
+  ##### PILGRIMAGE ##### 
+ activity_pilgrimage.is_location_valid.hajj_mecca: "El Hajj sólo puede ir a La Meca" #NT!
+ activity_pilgrimage.is_location_valid.recently_visited: "Has visitado recientemente este [holy_site|E]" #NT!
+ activity_pilgrimage.serving_diarch: "Eres el [diarch|E] oficial y se espera que permanezcas dentro del [realm|E]" #NT!
+ activity_pilgrimage.is_activity_available.all_holy_sites_on_cooldown: "Todos tus [holy_sites|E] disponibles están actualmente en tiempo de reutilización." #NT!
+ activity_pilgrimage.is_valid.islam.must_complete_hajj_first: "Como musulmán con la peregrinación [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName] [doctrine|E], debes completar el Hajj antes de cualquier otro tipo de peregrinación." #NT!
+ activity_pilgrimage.is_location_valid.capital_is_holy_site: "Esta es tu capital y por lo tanto no es una peregrinación válida [holy_site|E]" #NT!
+ activity_pilgrimage.is_location_valid.capital_is_mecca: "No puedes realizar la peregrinación Hajj ya que tu capital es La Meca." #NT!
+  
+ activity_pilgrimage.is_valid.islam.mandatory_or_impatient: "Al menos uno de estos:\n$EFFECT_LIST_BULLET$ Tu [faith|E] tiene la peregrinación [GetFaithDoctrine('doctrine_pilgrimage_mandatory_hajj').GetBaseName] [doctrine|E]\n$EFFECT_LIST_BULLET$ Tú eres [GetTrait('impatient').GetName(GetNullCharacter)]" #NT!
+ activity_pilgrimage.is_valid.other.mandatory_or_impatient: "Al menos uno de estos:\n$EFFECT_LIST_BULLET$ Tu [faith|E] tiene la peregrinación [GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName] [doctrine|E]\n$EFFECT_LIST_BULLET$ Tú eres [GetTrait('impatient').GetName(GetNullCharacter)]" #NT!
+  # AGOT Modified 
+ #activity_pilgrimage.is_valid.pilgrim_or_patient: "Al menos uno de estos:\n$EFFECT_LIST_BULLET$ Eres [GetTrait('patient').GetName(GetNullCharacter)]\n$EFFECT_LIST_BULLET$ Tienes el [GetTrait('pilgrim').GetName(GetNullCharacter)] [trait|E]\n$EFFECT_LIST_BULLET$ Tienes el [GetTrait('hajjaj').GetName(GetNullCharacter)] [trait|E]" #NT!
+ activity_pilgrimage.is_valid.pilgrim_or_patient: "Al menos uno de estos:\n$EFFECT_LIST_BULLET$ Eres [GetTrait('patient').GetName(GetNullCharacter)]\n$EFFECT_LIST_BULLET$ Tienes el [GetTrait('pilgrim').GetName(GetNullCharacter)]" #NT!
+  
+ activity_pilgrimage.is_valid.hajjed_recently: "Sólo puedes realizar el Hajj una vez cada [EmptyScope.ScriptValue('hajj_cooldown_value')|0] años." #NT!
+  
+ ACTIVITY_TYPE_ON_COOLDOWN: "@warning_icon! #X Esta actividad no se puede alojar durante [DATE.GetTimeToDate()]#!" #NT!
+  
+ is_healthy_tt: "Es saludable" #NT!
+  
+ hunt_rampage_bodyguard_log_title: "#D TODO_CD: Hunt_rampage_bodyguard_log_title#!" #NT!
+ level_5_reward_tt_title: "Fin del recorrido" #NT!
+ level_4_reward_tt_title: "$level_5_reward_tt_title$" #NT!
+ level_3_reward_tt_title: "$level_5_reward_tt_title$" #NT!
+ level_2_reward_tt_title: "$level_5_reward_tt_title$" #NT!
+ level_1_reward_tt_title: "$level_5_reward_tt_title$" #NT!
+ failed_to_get_reward_tt_title: "No se pudo obtener ninguna recompensa" #NT!
+  
+ tournament_activity_cost_discount_war_camps_desc: "La ubicación tiene $building_type_war_camps_01$" #NT!
+ tournament_activity_cost_discount_barracks_desc: "La ubicación tiene $building_type_barracks_01$" #NT!
+ tournament_activity_cost_max_discount_desc: "La ubicación tiene $building_type_hall_of_heroes_01$" #NT!
+ tournament_melee_contest_cost_discount_desc: "La ubicación tiene $building_type_royal_armory_01$" #NT!
+ tournament_melee_contest_cost_low_discount_desc: "$tournament_joust_contest_cost_low_discount_desc$" #NT!
+ tournament_duel_contest_cost_discount_desc: "La ubicación tiene $building_type_blacksmiths_01$" #NT!
+ tournament_duel_contest_cost_low_discount_desc: "La ubicación tiene $building_type_smiths_01$" #NT!
+ tournament_wrestling_contest_cost_discount_desc: "La ubicación tiene $building_type_regimental_grounds_01$" #NT!
+ tournament_wrestling_contest_cost_low_discount_desc: "La ubicación tiene $building_type_regimental_grounds_01$" #NT!
+ tournament_archery_contest_cost_discount_desc: "La ubicación tiene $building_type_archery_ranges_01$" #NT!
+ tournament_archery_contest_cost_low_discount_desc: "La ubicación tiene $building_type_military_camps_01$" #NT!
+ tournament_joust_contest_cost_discount_desc: "La ubicación tiene $building_type_jousting_lists_01$" #NT!
+ tournament_joust_contest_cost_low_discount_desc: "La ubicación tiene $building_type_stables_01$" #NT!
+ tournament_horse_racing_contest_cost_discount_desc: "$tournament_joust_contest_cost_discount_desc$" #NT!
+ tournament_horse_racing_contest_cost_low_discount_desc: "$tournament_joust_contest_cost_low_discount_desc$" #NT!
+ tournament_board_games_contest_cost_discount_desc: "La ubicación tiene $building_type_generic_university$" #NT!
+ tournament_board_games_contest_cost_low_discount_desc: "La ubicación tiene $building_type_warrior_lodges_01$" #NT!
+ tournament_recital_contest_cost_discount_desc: "$tournament_board_games_contest_cost_discount_desc$" #NT!
+ tournament_recital_contest_cost_low_discount_desc: "$tournament_board_games_contest_cost_low_discount_desc$" #NT!
+  # EP2 Era Tooltips 
+ increased_activity_cost: "Costo de [activities|E]: [gold_i]#negative_value +25%#!" #NT!
+ activity_cost_scale_by_era_desc: "[GetPlayer.GetCulture.GetCultureEra.GetNameNoTooltip] Era" #NT!
+ activity_cost_scale_by_tier_desc: "§_Nivel 0" #NT!
+  
+  # Predicted Cost descs shown in UI for each activity 
+ activity_tournament_predicted_cost: "El costo de un [GetActivityType( 'activity_tournament' ).GetNameNoTooltip] se ve afectado principalmente por cuántos [contests|E] decides alojar y qué [activity_options|E] seleccionas." #NT!
+ activity_tour_predicted_cost: "El costo de un [GetActivityType( 'activity_tour' ).GetNameNoTooltip] se ve afectado principalmente por la cantidad de [tour_stops|E] que decidas fabricar y por el [activity_options|E] que selecciones." #NT!
+ activity_wedding_predicted_cost: "El costo de un [GetActivityType( 'activity_wedding' ).GetNameNoTooltip] se ve afectado principalmente por el [activity_options|E] que seleccione." #NT!
+ activity_hunt_predicted_cost: "El costo de un [GetActivityType( 'activity_hunt' ).GetNameNoTooltip] se ve afectado principalmente por el [activity_type|E] y el [activity_options|E] que seleccione. Las cacerías de cetrería son más caras, por ejemplo." #NT!
+ activity_feast_predicted_cost: "El costo de un [GetActivityType( 'activity_feast' ).GetNameNoTooltip] se ve afectado principalmente por el [activity_type|E] y el [activity_options|E] que seleccione. Los banquetes de asesinato son mucho más caros que los banquetes normales, por ejemplo." #NT!
+ activity_pilgrimage_predicted_cost: "El costo de un [GetActivityType( 'activity_pilgrimage' ).GetNameNoTooltip] se ve afectado principalmente por la distancia hasta el [holy_site|E] elegido y el [activity_options|E] que seleccione." #NT!
+ activity_gruesome_festival_predicted_cost: "El costo de un [GetActivityType( 'activity_gruesome_festival' ).GetNameNoTooltip] se ve afectado principalmente por el [activity_options|E] que seleccione." #NT!
+ activity_witch_ritual_predicted_cost: "El costo de un [GetActivityType( 'activity_witch_ritual' ).GetNameNoTooltip] se basa principalmente en su [income|E]" #NT!
+ activity_playdate_predicted_cost: "El costo de un [GetActivityType( 'activity_playdate' ).GetNameNoTooltip] se ve afectado principalmente por su [income|E] y [title_tier|E]." #NT!
+  
+ liege_accolades_glory_reward_title: "[glory|E] Ganado" #NT!
+ liege_accolades_glory_reward: "Los asistentes hablaron con reverencia de la virtud marcial entre ellos, particularmente la de [root_scope.GetShortUINamePossessive] [root_scope.Custom('KnightCulturePluralNoTooltip')|l]" #NT!
+  
+ knight_accolade_glory_reward_title: "[glory|E] Ganado" #NT!
+ knight_accolade_glory_reward: "[root_scope.GetShortUIName], un [root_scope.Custom('KnightCultureNoTooltip')|l] de nota, asombrado e impresionado" #NT!
+  
+ liege_accolades_glory_reward_tour_title: "[glory|E] Ganado" #NT!
+ liege_accolades_glory_reward_tour: "[root_scope.GetShortUINamePossessive] [root_scope.Custom('KnightCulturePluralNoTooltip')|l] cabalgaron por la tierra, su esplendor y dominio más evidentes" #NT!

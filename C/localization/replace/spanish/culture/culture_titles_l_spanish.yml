@@ -106,8 +106,14 @@
   #AGOT Modified 
  #duchy_feudal_independent: "Pequeño reino"
  duchy_feudal_independent: "Gran ducado"
+  #AGOT Modified 
+ #king_feudal_male: "Rey" #NT!
  king_feudal_male: "Rey"
+  #AGOT Modified 
+ #king_feudal_female: "Reina" #NT!
  king_feudal_female: "Reina"
+  #AGOT Modified 
+ #kingdom_feudal: "Reino" #NT!
  kingdom_feudal: "Reino"
   #AGOT Modified 
  #emperor_feudal_male: "Emperador"
@@ -179,21 +185,21 @@
   
   #Default Clan tiers 
   #AGOT Modified 
- # baron_clan_male: "Jefe" #NT!
- # baron_clan_female: "directora" #NT!
- # barony_clan: "Tribu" #NT!
- # count_clan_male: "Jefe" #NT!
- # count_clan_female: "jefa" #NT!
- # county_clan: "cacicazgo" #NT!
- # duke_clan_male: "Alto Jefe" #NT!
- # duke_clan_female: "Alta jefa" #NT!
- # duchy_clan: "Alto cacicazgo" #NT!
- # king_clan_male: "Patriarca" #NT!
- # king_clan_female: "Matriarca" #NT!
- # kingdom_clan: "Clan" #NT!
- # emperor_clan_male: "Gran Patriarca" #NT!
- # emperor_clan_female: "gran matriarca" #NT!
- # empire_clan: "gran clan" #NT!
+ # baron_clan_male: "Jefe"
+ # baron_clan_female: "Directora"
+ # barony_clan: "Tribu"
+ # count_clan_male: "Jefe"
+ # count_clan_female: "Jefa"
+ # county_clan: "Cacicazgo"
+ # duke_clan_male: "Alto Jefe"
+ # duke_clan_female: "Alta jefa"
+ # duchy_clan: "Alto cacicazgo"
+ # king_clan_male: "Patriarca"
+ # king_clan_female: "Matriarca"
+ # kingdom_clan: "Clan"
+ # emperor_clan_male: "Gran Patriarca"
+ # emperor_clan_female: "Gran matriarca"
+ # empire_clan: "Gran clan"
  baron_clan_male: "Jefe"
  baron_clan_female: "Jefa"
  barony_clan: "Tribu"
@@ -792,6 +798,9 @@
  empire_feudal_turkish: "Imperio"
   
  ### Iranian ### 
+ duke_khorezm_male_iranian_group: "Corasmia" #NT!
+ duke_khorezm_female_iranian_group: "Khwarezmbanebshen" #NT!
+ duchy_khorezm_iranian_group: "Khwarezmshahdom" #NT!
  # Feudal / Clan 
  baron_feudal_male_iranian_group: "Argbadh"
  baron_feudal_female_iranian_group: "$baron_feudal_male_iranian_group$"
@@ -804,6 +813,8 @@
  duchy_feudal_iranian_group: "Satrapía"
  duke_feudal_independent_male_iranian_group: "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]sah"
  duke_feudal_independent_female_iranian_group: "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]banbishn"
+ PRIMARY_TITLE_BASE_NAME: "[Character.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]" #NT!
+ SPOUSE_PRIMARY_TITLE_BASE_NAME: "[Character.GetPrimarySpouse.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]" #NT!
  duchy_feudal_independent_iranian_group: "[CHARACTER.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]sahnato"
  king_feudal_male_iranian_group: "Sah"
  king_feudal_female_iranian_group: "Banbishn"
@@ -1194,3 +1205,5 @@
  # Feudal 
  count_republic_latin_male: "Podestà"
  count_republic_latin_female: "Podestaressa"
+  
+  

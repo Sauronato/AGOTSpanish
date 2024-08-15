@@ -1,0 +1,72 @@
+﻿l_spanish:
+ greeting_lover_object: "[second.GetTitledFirstName|U], mi [ROOT.Char.Custom2('LoverSeductionObject', SCOPE.sC('second'))]," #NT!
+ greeting_lover_fallback: "[second.GetTitledFirstName|U], mi querido [second.Custom('LoverPetName')]," #NT!
+  
+ greeting_liege_positive: "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]" #NT!
+ greeting_liege_negative: "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]" #NT!
+ greeting_liege_liked: "Saludos, mi [second.Custom('ComplimentAdjective')] señor," #NT!
+ greeting_liege_dislike: "A mi señor," #NT!
+ greeting_liege_fallback: "Saludos mi señor," #NT!
+  
+ greeting_vassal_positive: "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]" #NT!
+ greeting_vassal_negative: "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]" #NT!
+ greeting_vassal_relative_liked: "[ROOT.Char.Custom2('GreetingToFamily', second)]" #NT!
+ greeting_vassal_liked: "Saludos, mi [second.Custom('ComplimentAdjective')] vasallo," #NT!
+ greeting_vassal_dislike: "A mi [second.Custom('InsultAdjective')] vasallo," #NT!
+ greeting_vassal_fallback: "A mi vasallo," #NT!
+  
+ greeting_family_positive: "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]" #NT!
+ greeting_family_negative: "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]" #NT!
+ greeting_family_liked: "Mi querido [ROOT.Char.Custom2('RelationToMeShort', second)]," #NT!
+ greeting_family_fallback: "Saludos [ROOT.Char.Custom2('RelationToMeShort', second)]," #NT!
+  
+ greeting_foreign_ruler: "Saludos [second.GetNameNoTooltip]," #NT!
+ greeting_foreign_ruler_negative: "Al [second.Custom('InsultAdjective')] [second.GetTitledFirstNameNoTooltip]," #NT!
+ greeting_foreign_ruler_positive: "Al [second.Custom('ComplimentAdjective')] [second.GetNameNoTooltip]," #NT!
+  
+ greeting_generic: "Saludos [second.GetNameNoTooltip]," #NT!
+ greeting_generic_negative: "Al [second.Custom('InsultAdjective')] [second.GetFirstNameNoTooltip]," #NT!
+ greeting_generic_positive: "Al [second.Custom('ComplimentAdjective')] [second.GetFirstNameNoTooltip]," #NT!
+  
+ greeting_appropriate_positive_liege: "[ROOT.Char.Custom2('GreetingToLiegePositive', second)]" #NT!
+ greeting_appropriate_positive_vassal: "[ROOT.Char.Custom2('GreetingToVassalPositive', second)]" #NT!
+ greeting_appropriate_positive_family: "[ROOT.Char.Custom2('GreetingToFamilyPositive', second)]" #NT!
+ greeting_appropriate_positive_foreign_ruler: "[ROOT.Char.Custom2('GreetingToForeignRulerPositive', second)]" #NT!
+  
+ greeting_appropriate_lover: "[ROOT.Char.Custom2('GreetingToLover', second)]" #NT!
+ greeting_appropriate_liege: "[ROOT.Char.Custom2('GreetingToLiege', second)]" #NT!
+ greeting_appropriate_vassal: "[ROOT.Char.Custom2('GreetingToVassal', second)]" #NT!
+ greeting_appropriate_family: "[ROOT.Char.Custom2('GreetingToFamily', second)]" #NT!
+ greeting_appropriate_foreign_ruler: "[ROOT.Char.Custom2('GreetingToForeignRuler', second)]" #NT!
+ greeting_appropriate_fallback: "[ROOT.Char.Custom2('GreetingToGeneric', second)]" #NT!
+ greeting_appropriate_positive_fallback: "[ROOT.Char.Custom2('GreetingToGenericPositive', second)]" #NT!
+ greeting_appropriate_negative_fallback: "[ROOT.Char.Custom2('GreetingToGenericNegative', second)]" #NT!
+  
+ greeting_appropriate_negative_liege: "[ROOT.Char.Custom2('GreetingToLiegeNegative', second)]" #NT!
+ greeting_appropriate_negative_vassal: "[ROOT.Char.Custom2('GreetingToVassalNegative', second)]" #NT!
+ greeting_appropriate_negative_family: "[ROOT.Char.Custom2('GreetingToFamilyNegative', second)]" #NT!
+ greeting_appropriate_negative_foreign_ruler: "[ROOT.Char.Custom2('GreetingToForeignRulerNegative', second)]" #NT!
+  
+  
+ greeting_supplimentary.negative: "[ROOT.Char.Custom2('NegativeSupplimentaryGreeting', second)]" #NT!
+  #AGOT Modified 
+ #greeting_supplimentary.negative.tales: "Desde Irlanda hasta Cathay se cuentan historias de tus fechorías." #NT!
+ greeting_supplimentary.negative.tales: "Las historias de tus fechorías se cuentan desde el Muro hasta Asshai." #NT!
+  #AGOT Modified 
+ #greeting_supplimentary.negative.greek: "Tu carácter bajo es el tema de las obras griegas." #NT!
+ greeting_supplimentary.negative.greek: "Tu bajo carácter es tema de espectáculos de mimos." #NT!
+ greeting_supplimentary.negative.insult.1: "Que tus humores se pudran en tu cuerpo vivo." #NT!
+ greeting_supplimentary.negative.insult.2: "Que tus años sean cortos y miserables." #NT!
+ greeting_supplimentary.negative.insult.3: "Que la sabiduría se te escape siempre." #NT!
+ greeting_supplimentary.negative.insult_muslim.1: "Maldito sea tu séptimo abuelo." #NT!
+ greeting_supplimentary.negative.insult_muslim.2: "Que seas cosido vivo en el vientre de un camello muerto." #NT!
+ greeting_supplimentary.negative.insult_muslim.3: "Que Allah destruya tu casa." #NT!
+ greeting_supplimentary.negative.insult_muslim.4: "Hijo de un perro sarnoso." #NT!
+  
+ greeting_supplimentary.positive: "[ROOT.Char.Custom2('PositiveSupplimentaryGreeting', second)]" #NT!
+ greeting_supplimentary.positive.flattery.1: "Bendiciones para usted y su Casa." #NT!
+ greeting_supplimentary.positive.flattery.2: "Tu sabiduría y misericordia son legendarias." #NT!
+ greeting_supplimentary.positive.flattery.3: "La paz sea con vosotros." #NT!
+ greeting_supplimentary.positive.flattery.4: "Que vivas en armonía y alegría." #NT!
+ greeting_supplimentary.positive.flattery.5: "Tu crueldad es envidiable." #NT!
+ greeting_supplimentary.positive.flattery.6: "Tus grandes apetitos son reconocidos en todo el mundo." #NT!

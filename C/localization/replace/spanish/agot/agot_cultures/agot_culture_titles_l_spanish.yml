@@ -1,4 +1,10 @@
 ﻿l_spanish:
+  #Vanilla Feudal Add-Ons 
+ king_feudal_male_independent: "[CHARACTER.Custom('KING_FEUDAL_MALE')]" #NT!
+ king_feudal_female_independent: "[CHARACTER.Custom('KING_FEUDAL_FEMALE')]" #NT!
+ king_feudal_male_fallback: "Rey" #NT!
+ king_feudal_female_fallback: "Reina" #NT!
+ kingdom_feudal_independent: "Reino" #NT!
   
   #Default LP Feudal tiers 
  baron_lp_feudal_male: "Lord"
@@ -25,8 +31,8 @@
  king_lp_feudal_female: "[CHARACTER.Custom('LP_FEUDAL_FEMALE')]"
  king_lp_feudal_male_default: "Lord Supremo"
  king_lp_feudal_female_default: "Lady Suprema"
- king_lp_feudal_male_targ: "Príncipe" #NT!
- king_lp_feudal_female_targ: "Princesa" #NT!
+ king_lp_feudal_male_targ: "Príncipe"
+ king_lp_feudal_female_targ: "Princesa"
  king_lp_feudal_independent_rhoynish: "Principe"
  queen_lp_feudal_independent_rhoynish: "Princesa"
   
@@ -34,11 +40,15 @@
  empire_iron_throne: "Rey"
  empire_lp_feudal_default: "Reino"
   
+ emperor_independent_feudal_male: "[CHARACTER.Custom('EMPEROR_FEUDAL_MALE')]" #NT!
+ emperor_independent_feudal_female: "[CHARACTER.Custom('EMPEROR_FEUDAL_FEMALE')]" #NT!
+ emperor_feudal_male_fallback: "Rey" #NT!
+ emperor_feudal_female_fallback: "Reina" #NT!
+  
  emperor_lp_feudal_male: "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_MALE')]"
  emperor_lp_feudal_female: "[CHARACTER.Custom('LP_FEUDAL_EMPIRE_FEMALE')]"
  emperor_lp_feudal_male_default: "Rey"
  emperor_lp_feudal_female_default: "Reina"
-  
   
  principality_lp_feudal: "Principado"
  principality_lp_feudal_male: "Príncipe"
@@ -46,15 +56,68 @@
   
  prince_lp_kingdom_male: "Sir"
  prince_lp_kingdom_female: "Lady"
- prince_lp_kingdom_male_default: "Caballero" #NT!
- prince_lp_kingdom_female_default: "Dama" #NT!
- prince_lp_kingdom_male_targ: "Príncipe" #NT!
- prince_lp_kingdom_female_targ: "Princesa" #NT!
+ prince_lp_kingdom_male_default: "Caballero"
+ prince_lp_kingdom_female_default: "Dama"
+ prince_lp_kingdom_male_targ: "Príncipe"
+ prince_lp_kingdom_female_targ: "Princesa"
  prince_lp_feudal_male_dorne: "Príncipe"
  prince_lp_feudal_female_dorne: "Princesa"
   
  prince_lp_empire_male: "Príncipe"
  prince_lp_empire_female: "Princesa"
+  
+  #Free Cities 
+ king_free_city_male_k_lys: "Primer Magíster" #NT!
+ king_free_city_female_k_lys: "Primer Magíster" #NT!
+ king_free_city_male_k_tyrosh: "Arconte" #NT!
+ king_free_city_female_k_tyrosh: "Arconte" #NT!
+ king_free_city_male_k_myr: "Eliato" #NT!
+ king_free_city_female_k_myr: "Eliate" #NT!
+ king_free_city_male_k_pentos: "Príncipe" #NT!
+ king_free_city_female_k_pentos: "Princesa" #NT!
+ baron_free_city_male: "Magíster" #NT!
+ baron_free_city_female: "Magíster" #NT!
+ barony_free_city: "Ciudad" #NT!
+ count_free_city_male: "Magíster" #NT!
+ count_free_city_female: "Magíster" #NT!
+ county_free_city: "Ciudad" #NT!
+ duke_free_city_male: "Magíster" #NT!
+ duke_free_city_female: "Magíster" #NT!
+ duchy_free_city: "Ciudad" #NT!
+ duke_free_city_independent_male: "Primer Magíster" #NT!
+ duke_free_city_independent_female: "Primer Magíster" #NT!
+ duchy_free_city_independent: "Ciudad" #NT!
+ king_free_city_male: "Magíster" #NT!
+ king_free_city_female: "Magíster" #NT!
+ kingdom_free_city: "Reino" #NT!
+ king_free_city_independent_male: "Primer Magíster" #NT!
+ king_free_city_independent_female: "Primer Magíster" #NT!
+ kingdom_free_city_independent: "Ciudad libre" #NT!
+ emperor_free_city_male: "Primer Magíster" #NT!
+ emperor_free_city_female: "Primer Magíster" #NT!
+ empire_free_city: "Ciudad libre" #NT!
+ archon_tyrosh_male: "Arconte" #NT!
+ archon_tyrosh_female: "Arconte" #NT!
+ triarch_three_daughters_male: "Triarca" #NT!
+ triarch_three_daughters_female: "Triarca" #NT!
+ kingdom_three_daughters: "Reino" #NT!
+  
+  #Pirate Titles 
+ baron_pirate_male: "Patrón" #NT!
+ baron_pirate_female: "$baron_pirate_male$" #NT!
+ barony_pirate: "Barcos" #NT!
+ count_pirate_male: "Capitán" #NT!
+ count_pirate_female: "$count_pirate_male$" #NT!
+ county_pirate: "Buques" #NT!
+ duke_pirate_male: "Señor pirata" #NT!
+ duke_pirate_female: "Dama pirata" #NT!
+ duchy_pirate: "Escuadrón" #NT!
+ king_pirate_male: "Rey Pirata" #NT!
+ king_pirate_female: "Reina pirata" #NT!
+ kingdom_pirate: "Flota" #NT!
+ emperor_pirate_male: "Rey de los mares" #NT!
+ emperor_pirate_female: "Reina de los mares" #NT!
+ empire_pirate: "Armada" #NT!
   
   #Wolfswood Clansman Master Title 
  wolfswood_clansman_master_male: "Amo"
@@ -81,22 +144,98 @@
  queen_north: "Reina en el Norte"
  king_riverlands: "Rey de los Ríos"
  queen_riverlands: "Reina de los Ríos"
- king_dorne: "Principe"
- queen_dorne: "Princesa"
  king_wall: "Rey de la Noche"
  queen_wall: "Reina de la Noche"
   
   #Smaller Kingdoms 
- king_duskendale: "Rey Oscuro"
- queen_duskendale: "Reina Oscura"
- king_dreadfort: "Rey Rojo"
- queen_dreadfort: "Reina Roja"
+ king_the_dreadlands: "Rey rojo" #NT!
+ queen_the_dreadlands: "Reina Roja" #NT!
+ king_the_neck: "Rey del pantano" #NT!
+ queen_the_neck: "Reina del pantano" #NT!
+ king_bear_island: "Rey Oso" #NT!
+ queen_bear_island: "Reina del oso" #NT!
+ king_last_lands: "Último rey" #NT!
+ queen_last_lands: "Última reina" #NT!
+ king_greystones: "Rey gris" #NT!
+ queen_greystones: "Reina gris" #NT!
+ king_barrows_and_rills: "Rey túmulo" #NT!
+ queen_barrows_and_rills: "Reina del túmulo" #NT!
+ king_the_wolfswood: "Rey de madera" #NT!
+ queen_the_wolfswood: "Reina de madera" #NT!
+ king_the_white_knife: "Rey del puerto" #NT!
+ queen_the_white_knife: "Reina del puerto" #NT!
+ king_great_wyk: "Rey del rock" #NT!
+ queen_great_wyk: "Reina del rock" #NT!
+ king_ironmans_bay: "Rey de la sal" #NT!
+ queen_ironmans_bay: "Reina de la sal" #NT!
+ king_the_gods_eye: "Rey negro" #NT!
+ queen_the_gods_eye: "Reina negra" #NT!
+ king_the_blue_fork: "Rey Cuervo" #NT!
+ queen_the_blue_fork: "Reina Cuervo" #NT!
+ king_the_red_fork: "Rey de los setos" #NT!
+ queen_the_red_fork: "Reina de los setos" #NT!
+ king_the_green_fork: "Rey del cruce" #NT!
+ queen_the_green_fork: "Reina del cruce" #NT!
+ king_maidenpool: "Rey Salmón" #NT!
+ queen_maidenpool: "Reina del Salmón" #NT!
  king_runestone: "Rey de Bronce"
  queen_runestone: "Reina de Bronce"
- king_neck: "Rey del Pantano"
- queen_neck: "Reina del Pantano"
- king_banefort: "Rey Encapuchado"
- queen_banefort: "Reina Encapuchada"
+ king_oldtown: "Rey de la torre" #NT!
+ queen_oldtown: "Reina de la torre" #NT!
+ king_the_arbor_straits: "Rey de la vid" #NT!
+ queen_the_arbor_straits: "Reina de la vid" #NT!
+ king_westmarch: "Rey de marzo" #NT!
+ queen_westmarch: "Reina de marzo" #NT!
+ king_stone_and_sky: "Rey del cielo" #NT!
+ queen_stone_and_sky: "Reina del cielo" #NT!
+ king_the_brimstone: "Rey Azufre" #NT!
+ queen_the_brimstone: "Reina del azufre" #NT!
+ king_the_torrentine: "Rey estrella" #NT!
+ queen_the_torrentine: "Reina estrella" #NT!
+ king_godsgrace: "Rey de arena" #NT!
+ queen_godsgrace: "Reina de arena" #NT!
+ king_the_tor: "Rey de arena" #NT!
+ queen_the_tor: "Reina de arena" #NT!
+ king_the_red_mountains: "Rey Buitre" #NT!
+ queen_the_red_mountains: "Reina Buitre" #NT!
+ king_tarth: "Rey Zafiro" #NT!
+ queen_tarth: "Reina Zafiro" #NT!
+ king_eastmarch: "Rey de marzo" #NT!
+ queen_eastmarch: "Reina de marzo" #NT!
+ king_the_banefort: "Rey encapuchado" #NT!
+ queen_the_banefort: "Reina encapuchada" #NT!
+ king_fair_isle: "Rey justo" #NT!
+ queen_fair_isle: "Reina justa" #NT!
+ king_yronwood: "Rey de sangre real" #NT!
+ queen_yronwood: "Reina real de sangre" #NT!
+ king_the_claw: "Rey Garra" #NT!
+ queen_the_claw: "Reina Garra" #NT!
+ king_duskendale: "Rey Oscuro"
+ queen_duskendale: "Reina Oscura"
+ king_the_fingers: "Rey dedo" #NT!
+ queen_the_fingers: "Reina de los dedos" #NT!
+ king_the_hook: "Rey de piedra" #NT!
+ queen_the_hook: "Reina de piedra" #NT!
+ king_the_crownlands: "Rey de aguas negras" #NT!
+ queen_the_crownlands: "Reina de aguas negras" #NT!
+ king_the_stormlands: "Rey Tormenta" #NT!
+ queen_the_stormlands: "Reina de la tormenta" #NT!
+ king_dorne: "Principe"
+ queen_dorne: "Princesa"
+ king_the_westerlands: "Rey de oro" #NT!
+ queen_the_westerlands: "Reina de oro" #NT!
+ king_the_riverlands: "Rey del río" #NT!
+ queen_the_riverlands: "Reina del rio" #NT!
+ king_the_vale: "Rey de la montaña" #NT!
+ queen_the_vale: "Reina de la montaña" #NT!
+ king_the_iron_islands: "Rey de Hierro" #NT!
+ queen_the_iron_islands: "Reina de hierro" #NT!
+ king_the_north: "Rey del invierno" #NT!
+ queen_the_north: "Reina del invierno" #NT!
+ king_the_reach: "Rey del jardín" #NT!
+ queen_the_reach: "Reina del jardín" #NT!
+ king_dragonstone: "Rey del mar" #NT!
+ queen_dragonstone: "Reina del mar" #NT!
   
   #Faegon Host 
  lp_empire_male_faegon: "Rey"

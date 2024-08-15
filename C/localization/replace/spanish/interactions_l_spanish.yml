@@ -247,6 +247,12 @@
  EDUCATE_ME_OPTION_CONVERT_FAITH_LIKELY_EFFECT: "#TUT_KW Es probable que me convierta a la fe [FAITH.GetAdjective]#!"
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "#TUT_KW Es poco probable que se convierta a la fe [FAITH.GetAdjective], dada su edad#!"
  EDUCATE_ME_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "#TUT_KW Mi edad hace que sea improbable que me convierta a la fe [FAITH.GetAdjective]#!"
+ EDUCATE_CHILD_OPTION_ZEAL_EFFECT: "Se convertirá en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
+ EDUCATE_ME_OPTION_ZEAL_EFFECT: "Me convertiré en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
+ EDUCATE_CHILD_OPTION_ZEAL_LIKELY_EFFECT: "¿Es probable que #P#! se convierta en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!?" #NT!
+ EDUCATE_ME_OPTION_ZEAL_LIKELY_EFFECT: "Tengo #P probabilidades#! de convertirme en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
+ EDUCATE_CHILD_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "¿Es poco probable que #N#! se convierta en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!?" #NT!
+ EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "Tengo #N improbabilidad#! de convertirme en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
  EDUCATION_UNIVERSITY: "Enviar a la universidad"
  imprison_interaction: "Encarcelar"
  imprison_interaction_desc: "Intenta [imprison|E] a [recipient.GetShortUINameNoTooltip]"
@@ -332,6 +338,7 @@
  RELEASE_BANISH: "[banish|E]"
  RELEASE_TAKE_VOWS: "Tomar los votos"
  RELEASE_TAKE_VOWS_VALID: "[recipient.GetShortUIName] ingresa en un monasterio."
+ RELEASE_TAKE_VOWS_INVALID_RECRUIT: "Debes reclutar a un personaje antes de obligarlo a tomar los votos." #NT!
  take_vows_decline_summary: "Si [recipient.GetShortUINameNoTooltip] no acepta, se quedará en tu [court|E]"
  RELEASE_RECRUIT: "Reclutar"
  RELEASE_AS_EXECUTIONER: "Emplear verdugo"
@@ -484,6 +491,7 @@
  BLACKMAIL_NOTIFICATION_SECRET_NON_BELIEVER: "\nTengo pruebas de tus dudas sobre [recipient.GetFaith.HighGodName]."
  BLACKMAIL_NOTIFICATION_SECRET_INCEST: "\n¡Tengo pruebas de tus aventuras incestuosas!"
  BLACKMAIL_NOTIFICATION_SECRET_WITCH: "\n¡Tengo pruebas de tus tratos con demonios!"
+ BLACKMAIL_NOTIFICATION_SECRET_CRYPTO_RELIGIONIST: "\n¡Sé que eres un creyente secreto de [recipient.GetSecretFaith.GetName]!" #NT!
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY: "\nSé que soy el verdadero padre del hijo que esperas."
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY_OTHER: "\nSé que [secret_target.GetShortUIName] es el verdadero padre del retoño que esperas."
  BLACKMAIL_NOTIFICATION_SECRET_FALLBACK: "\n¡Lo sé todo de tu secreto!"
@@ -650,6 +658,7 @@
   #Religious Interactions Descs 
  ask_for_conversion_interaction: "Exigir conversión"
  ask_for_conversion_interaction_desc: "Exigir que [recipient.GetShortUINameNoTooltip] se convierta a tu [faith|E]\n#weak (De [recipient.GetFaith.GetName] a [actor.GetFaith.GetName])#!"
+ ask_for_conversion_interaction_accept_tooltip: "@warning_icon! #X [THIS.Char.GetShortUINameNoTooltip|U] puede continuar practicando [recipient.GetFaith.GetName] en secreto#!" #NT!
  ask_for_conversion_courtier_interaction: "Exigir conversión"
  ask_for_conversion_courtier_interaction_extra_icon: "$hook_extra_icon$"
  ask_for_conversion_courtier_interaction.tt: "Cortesano acepta la conversión"
@@ -669,8 +678,10 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_ZEALOUS: "[recipient.GetShortUIName] tiene un carácter [GetTrait('zealous').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_CYNICAL: "[recipient.GetShortUIName] tiene un carácter [GetTrait('cynical').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_STUBBORN: "[recipient.GetShortUIName] es [GetTrait('stubborn').GetName( GetPlayer )]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U] es [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$" #NT!
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH: "[recipient.GetShortUIName] es un[recipient.Custom('ES_XA')] [GetTrait('heresiarch').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC: "[recipient.GetShortUIName] es un[recipient.Custom('ES_XA')] [GetTrait('heretic').GetName( GetPlayer )]: $VALUE|=+0$"
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U] es $game_concept_pious$: $VALUE|=+0$" #NT!
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL: "Tanto [actor.GetCulture.GetName] como [actor.GetShortUIName] son [GetPrestigeLevelName( actor.GetPrestigeLevel )]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR: "Eres el [GetTrait('savior').GetName( GetPlayer )] de [actor.GetFaith.GetName]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD: "Tengo [GetTrait('divine_blood').GetName( GetPlayer )]: $VALUE|=+0$"
@@ -705,6 +716,7 @@
   
   #Offer Vassalization/Fealty 
  offer_vassalization_true_ruler_perk_tt: "Tienes [GetPerk( 'true_ruler_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
+ offer_vassalization_education_diplomacy_5_tt: "[GetTrait('education_diplomacy').GetName( GetNullCharacter )]: $VALUE|=+0$"
  offer_vassalization_emissary_accolade_tt: "Empleas al menos un $knight_culture_player_no_tooltip_lowercase$ políticamente hábil"
  offer_vassalization_interaction_aibehavior_differentfaith_tt: "[faith|E] diferente: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_culture_tt: "[culture|E] diferente: $VALUE|=+0$"
@@ -731,6 +743,7 @@
  offer_vassalization_interaction_aibehavior_illegitimate_tt: "Tu derecho no es legítimo: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_claimant_tt: "Es un[recipient.Custom('ES_XA')] [claimant|E] a [actor.GetPrimaryTitle.GetName]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_dreaded_tt: "Eres [dreadful|E]: $VALUE|=+0$"
+ GENERIC_YOUR_PIETY_LEVEL_MODIFIER: "Tu [piety_level|E]: $VALUE|=+0$" #NT!
  isolationist_reason: "[recipient.GetSheHe|U] es parte de una [culture|E] aislacionista: $VALUE|+=0$"
  interaction_lover: "[recipient.GetSheHe|U] es tu [lover|E]: $VALUE|=+0$"
  interaction_soulmate: "[recipient.GetSheHe|U] es tu [soulmate|E]: $VALUE|=+0$"
@@ -814,6 +827,12 @@
  char_interaction.0040.desc: "Como cabeza de la dinastía, ¡por la presente, os denuncio públicamente como réprobo y una vergüenza para toda la dinastía [actor.GetDynastyName]!"
  char_interaction.0040.a: "¿Qué? ¿¡Por qué!?"
   
+ char_interaction.0041.desc: "Tu [recipient.Custom('InsultBehavior')] y tu comportamiento decadente avergüenzan a toda la casa [actor.GetHouse.GetBaseName], y como jefe de la casa considero que es mi deber informar al resto del clan de tus costumbres [recipient.Custom('InsultAdjective')].\n\nQue la luz de [actor.GetFaith.HighGodNamePossessive] te guíe de regreso a un camino virtuoso. camino... aunque lo dudo." #NT!
+ char_interaction.0041.a: "¡Calumnia!" #NT!
+  
+ char_interaction.0042.desc: "Eres tanto [recipient.Custom('FormalComplimentAdjective')] como [recipient.Custom('ComplimentAdjective')], una inspiración para toda la casa [actor.GetHouse.GetBaseName], ¡y como jefe de la casa es mi deber ensalzar tus virtudes ante todo el clan!\n\nQue permanezcas en la gracia de [actor.GetFaith.HighGodNamePossessive]." #NT!
+ char_interaction.0042.a: "¡Encantador!" #NT!
+  
  char_interaction.0050.desc: "Como cabeza de la dinastía, ¡por la presente, os perdono vuestras trasgresiones del pasado y retiro vuestra denuncia entre los miembros de la dinastía [actor.GetDynastyName]!"
  char_interaction.0050.a: "¡Se ha hecho justicia!"
   
@@ -836,10 +855,31 @@
  char_interaction.0079.a: "Puede que haya cometido un error…"
   
  char_interaction.0080.desc: "Nos alegra aceptar vuestra propuesta de educación, ¡una educación noble para un espíritu noble!"
+ char_interaction.0080.desc_self: "Me encantaría que educaras a mi [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))], [ward.GetShortUINameNoFormat]: ¡una educación noble para un espíritu noble!"
+ char_interaction.0080.desc_guardian_self_ward: "Estaré encantado de educarte: ¡una educación noble para un espíritu noble!"
+ char_interaction.0080.desc_guardian_self: "Estaré encantado de educar a su [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))], [ward.GetShortUIName]: ¡una educación noble para un espíritu noble!"
+ char_interaction.0080.desc_guardian: "Me encantaría que mi [guardian_liege.Custom2('RelationToMeShort', SCOPE.sC('guardian'))], [guardian.GetShortUINameNoFormat] educara a [ward.GetShortUINameNoFormat]: ¡una educación noble para un espíritu noble!"
   
  char_interaction.0081.desc: "Desgraciadamente, no encontramos de nuestro agrado vuestra propuesta de educación."
  char_interaction.0081.a: "Qué lástima."
   
+ char_interaction.0082.t: "Un mentor para el mío"
+ char_interaction.0082.intro: "[guardian.GetTitledFirstName] por fin ha llegado de [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], cargado de tomos y pergaminos."
+ char_interaction.0082.desc.liege: "\n\n[guardian.GetSheHe|U] me dice que [ward.GetFirstNamePossessiveNoTooltip] ¡las lecciones comenzarán pronto!"
+ char_interaction.0082.desc: "\n\n[guardian.GetSheHe|U] me dice que mis lecciones comenzarán pronto."
+ char_interaction.0082.a: "Muy bien."
+  
+ char_interaction.0083.t: "Una mente para moldear"
+ char_interaction.0083.intro: "El joven [ward.GetTitledFirstName], [ward_liege.GetTitledFirstNamePossessive] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))], por fin ha llegado de [ward_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] para la educación de [ward.GetHerHis]."
+ char_interaction.0083.not_related: "[ward_liege.GetTitledFirstNamePossessive] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))]," #NT!
+ char_interaction.0083.related: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('ward'))]," #NT!
+ char_interaction.0083.outro: "Por fin ha llegado de [ward_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] para [ward.GetHerHis] educación." #NT!
+ char_interaction.0083.desc.host: "\n\n[guardian.GetTitledFirstName] pronto comenzará [guardian.GetHerHis] lecciones."
+ char_interaction.0083.desc: "\n\nUna vez que [ward.GetSheHe] esté instalado, las lecciones comenzarán."
+ char_interaction.0083.a: "Excelente."
+  
+ char_interaction.0084.desc: "Su [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('ward'))], [ward.GetTitledFirstName], ha llegado sano y salvo a [guardian_liege.GetPrimaryTitle.GetNameNoTierNoTooltip], y comenzaré las lecciones de [ward.GetHerHis] inmediatamente."
+ char_interaction.0084.a: "Muy bien."
   
  char_interaction.0090.from_ward.desc: "Me temo que mi educación en vuestra corte ya no conviene a mis necesidades. Regresaré de inmediato a [capital.GetNameNoTierNoTooltip]."
  char_interaction.0090.two_wards.desc: "Me temo que la educación de [ward.GetTitledFirstName|l] y [ward_2.GetTitledFirstName|l] en vuestra corte ya no conviene a nuestras necesidades. Por tanto, los llamamos de vuelta a nuestro cuidado."
@@ -1096,6 +1136,13 @@
  I_PROMISED_NOT_TO_REVEAL_SECRET: "Prometiste no revelar el secreto"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_LOVER_SECRET: "No puedes servirte del [secret|E] de tu propio amante para chantajear"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_BASTARD: "No puedes servirte de tu propio [bastard|E] para chantajear"
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] tiene un Cripto-Religionista [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]" #NT!
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_NOT_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] tiene un Cripto-Religionista [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]" #NT!
+ HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "Tiene un criptorreligionario [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]" #NT!
+ I_CANNOT_BLACKMAIL_CRYPTO_RELIGIONIST_OF_SAME_FAITH: "No puedes chantajear a otro Crypto-[ROOT.Char.GetSecretFaith.GetAdherentName]" #NT!
+  
+ IS_AWARE_OF_SHARED_CRYPTO_RELIGION: "Sabes que [TARGET_CHARACTER.GetShortUINameNoTooltip] practica Crypto-[CHARACTER.GetSecretFaith.GetName]" #NT!
+ IS_NOT_AWARE_OF_SHARED_CRYPTO_RELIGION: "No sabes si [TARGET_CHARACTER.GetShortUINameNoTooltip] practica Crypto-[CHARACTER.GetSecretFaith.GetName]" #NT!
   
  FORCE_VOTE_IN_SUCCESSION_ELECTION_ALREADY_FORCED: "@warning_icon!#X [CHARACTER.GetUINameNotMe] ya controla el voto de [TARGET_CHARACTER.GetShortUIName] en esta elección#!"
   
@@ -1199,6 +1246,7 @@
  CHARACTER_INTERACTION_WINDOW_SELECT_TITLE_TOOLTIP: "Selección de título"
   
  perk_alliance_interaction: "Proponer alianza"
+ perk_alliance_interaction_extra_icon: "$hook_extra_icon$" #NT!
  perk_alliance_interaction_desc: "Recurriré a la diplomacia estratégica para forjar una alianza con [recipient.GetTitledFirstNameNoTooltip|l]; no con sangre, ¡sino con palabras!"
   
   
@@ -1212,6 +1260,7 @@
  RULERS_FAMILY_IS_MARRIED_TO_THEM: "El cónyuge de [CHARACTER.GetShortUIName] es uno de los hijos, padres, hermanos, nietos, abuelos, tíos o sobrinos de [TARGET_CHARACTER.GetShortUIName]"
  RULERS_CHILD_PARENT_SIBLING_IS_MARRIED_TO_OTHER_RULERS: "Uno de los hijos, padres o hermanos de [CHARACTER.GetTitledFirstName|l] está casado con uno de los hijos, padres o hermanos de [TARGET_CHARACTER.GetShortUIName]"
  HAS_SENT_INTERACTION_ALREADY: "Solo puedes enviar una de estas interacciones por vez"
+ HAS_NO_OPTION_SELECTED: "Tienes que seleccionar al menos una opción."
  ALREADY_HAS_AN_ALLIANCE_DEAL: "Solo puedes tener una [alliance|E] propuesta activa"
  NOT_ALREADY_HAS_AN_ALLIANCE_DEAL: "Ya tienes una [alliance|E] propuesta activa"
  negotiate_alliance_effect_tooltip: "[recipient.GetTitledFirstName] y yo entramos en una [alliance|E] mutua"
@@ -1510,6 +1559,8 @@
  court_amenities_interactions.0001.desc: "«¿Quién presumís ser para pavonearos con ese ridículo atuendo? ¡Esto es una corte real, no un burdel! ¡Desvestíos y poneos algo más humilde, como el resto de la corte!»"
  court_amenities_interactions.0001.desc_outro: "[actor.GetNameNoTooltip] me ha acusado de infringir la ley suntuaria de [debate_locale.GetName] y ha exigido que me someta a un castigo con todo el peso de la ley, una mácula y una vergüenza social que probablemente no superaré. Obviamente las acusaciones son inventadas, ¡y sé que si argumento bien mi caso, puedo dejar con un palmo de narices a [actor.GetFirstNameNoTooltip]! Hasta podría causar algunos daños…"
  court_amenities_interactions.0001.a: "«Y exactamente, ¿qué lleváis vos?»"
+ court_amenities_interactions.0001.a.tt_success: "#positive_value Defiendes con éxito tus elecciones de ropa#!" #NT!
+ court_amenities_interactions.0001.a.tt_failure: "#negative_value Sus argumentos sobre indumentaria tienen poco fundamento#!" #NT!
  court_amenities_interactions.0001.b: "Pagaré el precio con mi dignidad…"
  court_amenities_interactions.0001.b.tt: "$religious_interaction.2400.b.tt$"
  court_amenities_interactions.0002.t: "Un debate de moda"
@@ -1639,3 +1690,31 @@
  find_suitable_accolade_successor_interaction: "Buscar un sucesor de galardón digno"
  find_suitable_accolade_successor_interaction_desc: "Convocar un [knight|E] apto para que se una a tu [court|E]"
  find_suitable_accolade_successor_interaction.tt: "El [knight|E] que cumpla los requisitos de este [accolade|E] se unirá a tu [court|E] en un plazo de #high 6 meses#!\n\n@alert_icon! #alert_trial Buscar sucesor de galardón digno no estará disponible durante #high 2 años#!#!"
+  
+ adoption.0001.opening: "[actor.Custom2('AppropriateGreetingPositive', recipient)]"
+ adoption.0001.desc: "Acepto tu oferta de adopción. ¡Estoy orgulloso de llamarme miembro de la Dinastía [actor.GetDynastyName] y de tu familia!"
+ adoption.0001.a: "Por favor, llámame "[actor.Custom('GetMumDad')]"."
+  
+ ward_invalidated_during_travel_title: "Barrio invalidado"
+ guardian_invalidated_during_travel_title: "Tutor invalidado"
+ ward_departs_title: "Ward se dispone"
+ ward_departs_tt: "[ward.GetFirstNameNoTooltip] sale hacia [guardian.GetCurrentLocation.GetNameNoTooltip]"
+ guardian_departs_title: "El guardián se pone en marcha"
+ guardian_departs_tt: "[guardian.GetFirstNameNoTooltip] sale hacia [ward.GetCurrentLocation.GetNameNoTooltip]"
+ adoptee_departs_title: "El adoptado se pone en marcha" #NT!
+ adoptee_departs_tt: "[adoptee.GetFirstNameNoTooltip] sale hacia [adopter.GetCurrentLocation.GetNameNoTooltip]" #NT!
+ adoptee_leaves_for_adopter_tt: "@alerta_icon! #alert_trial [adoptee.GetFirstName] debe primero [travel|E] a [adopter.GetFirstNamePossessive] corte#!" #NT!
+ ward_leaves_for_guardian_tt: "@alerta_icon! #alert_trial [ward|E] debe primero [travel|E] a [guardian_possessive|E] corte#!"
+ guardian_leaves_for_ward_tt: "@alerta_icon! #alert_trial [guardian|E] debe primero [travel|E] a [ward_possessive|E] corte#!"
+ ward_already_offered_awaiting_response_tt: "Ya en negociación para convertirme en alguien [ward|E]"
+ guardian_already_offered_awaiting_response_tt: "Ya en negociación para convertirme en alguien [guardian|E]"
+ ward_already_offered_awaiting_travel_tt: "$ward_already_offered_awaiting_response_tt$"
+ guardian_already_offered_awaiting_travel_tt: "$guardian_already_offered_awaiting_response_tt$"
+ ward_effects_on_arrival_tt: "Cuando llega [TARGET_CHARACTER.GetFirstName]:"
+ ward_nearing_adulthood_tt: "@warning_icon! #X [TARGET_CHARACTER.GetShortUIName] pronto será adulto#!"
+ ward_travelling_tt: "[THIS.Char.GetShortUIName|U] viaja para convertirse en [ward|E]"
+ guardian_travelling_tt: "[THIS.Char.GetShortUIName|U] viaja para convertirse en [guardian|E]"
+  
+ offer_vassalization_interaction_aibehavior_rival_tt_2: "[secondary_recipient.GetSheHe|U] es tu [rival|E]: $VALUE|=+0$" #NT!
+ offer_vassalization_interaction_aibehavior_nemesis_tt_2: "[secondary_recipient.GetSheHe|U] es tu [nemesis|E]: $VALUE|=+0$" #NT!
+ offer_vassalization_interaction_aibehavior_dynasty_tt_2: "[secondary_recipient.GetSheHe|U] pertenece a tu [dynasty|E]: $VALUE|=+0$" #NT!

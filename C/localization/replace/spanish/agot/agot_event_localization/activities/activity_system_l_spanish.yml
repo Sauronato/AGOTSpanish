@@ -1,0 +1,138 @@
+﻿l_spanish:
+ ACTIVITY_LOG_ENTRY_EFFECT: "#S Efectos#!\n$EFFECT$" #NT!
+ activity_tournament_province_desc: "Organizas un torneo en [ROOT.Province.GetName]\nLas provincias con edificios del mismo palo otorgan un descuento de [gold_i][gold|E]" #NT!
+ activity_tournament_conclusion_desc: "#D Por favor, infórmame y ponme en el archivo correcto diseñador senpai UwU#!" #NT!
+ activity_feast_guest_desc: "$BULLET_WITH_TAB$Los participantes pueden ganar personajes de asistencia [opinion|E]\n$BULLET_WITH_TAB$Los participantes pueden perder [stress_loss_i][stress|E]\n$BULLET_WITH_TAB$Los participantes pueden ganar el [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )] [trait|E]" #NT!
+ activity_tournament_guest_desc: "#weak Si eres elegible, unirte a un Torneo te ofrecerá la oportunidad de ganar concursos y, por lo tanto, premios, además de relajarte y disfrutar de las vistas y los sonidos. También te brinda la oportunidad de perfeccionar tus habilidades marciales.#!" #NT!
+  
+ guest_friendship_title: "$activity_pulse_action_guest_friendship$" #NT!
+ activity_pulse_action_guest_friendship: "[second.GetShortUINameNoTooltip|U] Elogios [first.GetShortUINameNoTooltip|U]" #NT!
+ guest_insulted_title: "$activity_pulse_action_guest_insulted$" #NT!
+ activity_pulse_action_guest_insulted: "[second.GetShortUINameNoTooltip|U] Insultos [first.GetShortUINameNoTooltip|U]" #NT!
+  
+  # Tournament - Activity Invalidated 
+ activity_system.0040.t: "Torneo finalizado" #NT!
+ activity_system.0040.desc: "¡Pobre de mí! Con las nuevas circunstancias que rodean el Torneo, una breve charla con los organizadores confirma tus temores: el Torneo debe ser cancelado.\n\nArchivos de gente abatida pasan, sollozando y niños decepcionados agarrados de las manos de sus padres. Con suerte, en un futuro próximo, habrá otra oportunidad para que se reanuden estas festividades." #NT!
+ activity_system.0040.a: "Una verdadera lástima." #NT!
+  
+  # New Host after Character Death 
+ activity_system.0080.t: "Un nuevo anfitrión" #NT!
+ activity_system.0080.desc: "Con la muerte del anfitrión anterior, los murmullos apresurados entre los organizadores relevantes se intensifican. Todos los presentes se mueven felices, ajenos al casi pánico que se respira detrás de escena.\n\nFinalmente, se llega a un acuerdo." #NT!
+ activity_system.0080.desc_other: "¡Las festividades continuarán, pero ahora con [host.GetTitledFirstName] a la cabeza!" #NT!
+ activity_system.0080.desc_me: "¡Las festividades continuarán y yo estaré a su cabeza!" #NT!
+ activity_system.0080.a: "Volvamos a ello." #NT!
+  
+  #Pilgrimages: New Host after Character Death 
+ activity_system.0081.t: "El destino final" #NT!
+ activity_system.0081.desc.relation_family_liked: "Mi querido [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))] [old_host.GetTitledFirstName] lamentablemente ha partido de este mundo y," #NT!
+ activity_system.0081.desc.relation_liked: "Mi querido [old_host.GetTitledFirstName] lamentablemente ha partido de este mundo y," #NT!
+ activity_system.0081.desc.relation_family: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('old_host'))] [old_host.GetTitledFirstName] lamentablemente ha partido de este mundo y," #NT!
+ activity_system.0081.desc.relation_neutral: "Lamentablemente [old_pilgrimage_host.GetTitledFirstName] ha partido de este mundo y," #NT!
+ activity_system.0081.desc.outro: "Como [old_host.GetHerHis] heredero, quedo a cargo.\n\nComo tal, independientemente de mis propios sentimientos, necesito decidir cómo debemos manejar [old_host.GetHerHis] restos corpóreos y ritos finales." #NT!
+ activity_system.0081.a: "[ROOT.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip] era [old_host.GetHerHis] en casa." #NT!
+ activity_system.0081.a.tt: "[old_host.GetShortUIName] se llevará a descansar en [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip]" #NT!
+ activity_system.0081.b: "[old_host.GetSheHe|U] merece descansar en la santidad de [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]." #NT!
+ activity_system.0081.b.tt: "[old_host.GetShortUIName] se detendrá en [THIS.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip]" #NT!
+ activity_system.0081.c: "Llevamos [old_host.GetHerHim] a [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetNameNoTooltip], luego a casa." #NT!
+ activity_system.0081.c.tt: "El [THIS.Char.GetInvolvedActivity.GetName] continuará y el [old_host.GetShortUIName] se detendrá en [THIS.Char.GetTravelPlan.GetData.GetFinalDestination.GetProvince.GetNameNoTooltip]" #NT!
+  
+  # Intent Invalidated 
+ activity_system.0090.t: "Intención invalidada" #NT!
+ activity_system.0090.desc: "Con el cambio de circunstancias actuales, está claro que mi intención anterior no puede llevarse a cabo. Otros pasan felizmente a mi lado mientras reflexiono sobre mi situación, completamente ajenos a mi ligera consternación.\n\n¿Qué más desea mi corazón? ¿Quizás debería simplemente relajarme un poco?" #NT!
+ activity_system.0090.a: "Es hora de dirigir mi atención a otra parte." #NT!
+  
+  # Intent Target Invalidated 
+ activity_system.0091.t: "Objetivo de intención no validado" #NT!
+ activity_system.0091.desc: "Con el cambio de las circunstancias actuales, está claro que mi intención anterior ya no es relevante para mis objetivos. Otros pasan felizmente a mi lado mientras reflexiono sobre mi situación, completamente ajenos a mi ligera consternación.\n\n¿En quién más debería concentrarme? ¿Quizás debería simplemente concentrarme en mí mismo?" #NT!
+ activity_system.0091.a: "Bueno, es hora de encontrar una nueva musa..." #NT!
+  
+  # Activity Conclusion 
+ activity_system.0100.t: "Una mala celebración" #NT!
+ activity_system.0100.desc: "¡Absolutamente increíble! A pesar de mis muchas invitaciones y preparativos, ni una sola persona se presentó a mi [activity_type.GetNameNoTooltip()]. Quizás el camino hacia [location.GetName] esté lleno de más peligros de los que anticipé.\n\n" #NT!
+ activity_system.0100.outro_away: "Supongo que es hora de comenzar mi viaje de regreso a casa en [ROOT.Char.GetCapitalLocation.GetName]." #NT!
+ activity_system.0100.outro_home: "Al menos me ahorré la molestia de viajar fuera de casa." #NT!
+ activity_system.0100.a: "Pero ¿por qué... por qué no aparecería nadie?" #NT!
+  
+ activity_system.1010.t: "Un viaje acortado" #NT!
+ activity_system.1010.desc: "Mi predecesor, [host.GetNameRegnal], se despojó de su cuerpo mortal mientras recorría el reino. Trágicamente, [host.GetSheHe] [host.GetDeathReason].\n\n" #NT!
+ activity_system.1010.desc.entourage: "[host.GetFirstNamePossessiveNoTooltip] séquito seguramente comenzará un triste viaje a casa, llevando mi [ROOT.Char.Custom2('RelationToMePossessive',SCOPE.sC('host'))] cuerpo." #NT!
+ activity_system.1010.desc.ruler: "Los caídos [host.GetTitleAsName] no merecían morir tan lejos de casa." #NT!
+ activity_system.1010.a: "Descansa en paz, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('host'))]." #NT!
+ activity_system.1010.tt: "[host.GetShortUINamePossessiveNoTooltip] [activity|E] ha sido cancelado" #NT!
+  
+ activity_system.1011.desc: "Mi señor, [host.GetNameRegnal], se ha despojado de [host.GetHerHis] de su envoltura mortal mientras recorría el reino. Trágicamente, [host.GetSheHe] [host.GetDeathReason].\n\nEl resto del Tour ha sido cancelado cuando el séquito de [host.GetFirstNamePossessiveNoTooltip] comienza su triste viaje a casa, llevando el cuerpo de [host.GetHerHis] a su lugar de descanso final." #NT!
+  
+ # Host has joined a war and has the opportunity to cancel the activity 
+ activity_system.0300.t: "La guerra no espera [ROOT.Char.GetWomanMan|U]" #NT!
+ activity_system.0300.desc.intro.traveling: "El sonido de los cuernos de guerra me ha llegado incluso aquí en [target_activity_location.GetName] mientras estoy en camino a asistir a mi [target_activity_type.GetNameNoTooltip] en [target_activity_location.GetName]." #NT!
+ activity_system.0300.desc.intro.activity: "El sonido de los cuernos de guerra me ha llegado incluso aquí en [target_activity_location.GetName] mientras estoy organizando un [target_activity_type.GetNameNoTooltip]." #NT!
+ activity_system.0300.desc.attacker: "Me he sumado a la lucha contra [war_opponent.GetNameRegnal|U]." #NT!
+ activity_system.0300.desc.defender: "¡Ese [attacker.Custom('InsultNoun')] [attacker.GetNameRegnal|U] me ha declarado la guerra!\n\n" #NT!
+ activity_system.0300.desc.outro: "Se ha invertido mucha planificación en la preparación para albergar este [target_activity_type.GetNameNoTooltip] y detesto enviar a mis invitados a casa. Sin embargo, no se debe subestimar la importancia de este conflicto.\n\nQuizás sería mejor centrar todos mis esfuerzos en prepararme para la guerra..." #NT!
+ activity_system.0300.a: "Puedo gestionar las cosas desde aquí." #NT!
+  #AGOT Modified, fixing Paradox oops 
+ #activity_system.0300.a.tt: "El [target_activity.GetNameNoTooltip] continuará" #NT!
+ activity_system.0300.a.tt: "El [target_activity_type.GetNameNoTooltip] continuará" #NT!
+ activity_system.0300.b: "Esta guerra requiere toda mi atención." #NT!
+  #AGOT Modified, fixing Paradox oops 
+ #activity_system.0300.b.tt: "El [target_activity.GetNameNoTooltip] será cancelado y todos los asistentes comenzarán a viajar a casa." #NT!
+ activity_system.0300.b.tt: "El [target_activity_type.GetNameNoTooltip] será cancelado y todos los asistentes comenzarán a viajar a casa." #NT!
+ activity_system.0300.b.tt.cost: "Algunos costos pueden recuperarse" #NT!
+  
+ activity_system.0301.t: "[target_activity_type.GetNameNoTooltip] Cancelado" #NT!
+ activity_system.0301.desc: "#EMP "¡A la guerra! ¡A la guerra!"#! llamo a [target_activity_host.GetTitledFirstNamePossessive] [knights|l] mientras pasan como un trueno, con sus cuernos rugiendo y sus estandartes brillando contra el cielo.\n\nEse [war_opponent.Custom('InsultNoun')] [war_opponent.GetNameRegnal] no tiene en cuenta nuestro [target_activity_type.GetNameNoTooltip], ¡parece! El evento debe cancelarse, ya que el [target_activity_host.GetTitleAsNameNoTooltip] envía sus tropas y reza al [target_activity_host.GetFaith.WarGodName] por la victoria.\n\nUn [target_activity_type.GetNameNoTooltip] es una diversión noble y digna, pero el llamado a las armas suena más fuerte que cualquier otro." #NT!
+ activity_system.0301.a: "Que farsa..." #NT!
+  
+  #AGOT Modified, fixing Paradox oops 
+ #activity_system.0310.desc.intro: "El sonido de los cuernos de guerra me ha llegado aquí en [target_activity_location.GetName] mientras asisto a [target_activity_host.GetPossessiveNameRegnal|U] [target_activity_type.GetNameNoTooltip]. Me han convocado para ayudar en la guerra entre [attacker.GetTitledFirstName|U] y [defender.GetTitledFirstName|U]." #NT!
+ activity_system.0310.desc.intro: "El sonido de los cuernos de guerra me ha llegado hasta aquí en [target_activity_location.GetName] mientras asisto a [target_activity_host.GetNamePossessiveRegnal|U] [target_activity_type.GetNameNoTooltip]. Me han convocado para ayudar en la guerra entre [attacker.GetTitledFirstName|U] y [defender.GetTitledFirstName|U]." #NT!
+ activity_system.0310.a.tt: "Continúas participando en el [target_activity_type.GetNameNoTooltip]" #NT!
+ activity_system.0310.b.tt: "Dejas el [target_activity_type.GetNameNoTooltip] y comienzas a viajar a casa." #NT!
+  
+ activity_system.0320.t: "Una conclusión inesperada" #NT!
+ activity_system.0320.desc: "Nuestro anfitrión, [host.GetName], ha perdido [host.GetHerHis] la posesión de [province.GetNameNoTooltip()] y por eso el [activity_type.GetNameNoTooltip()] ha llegado a un final prematuro.\n\nCiertamente no es así como esperaba que este asunto concluyera después de toda la fanfarria de invitaciones y preparativos. Supongo que lo único que queda es que mi séquito y yo regresemos a casa en [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]..." #NT!
+ activity_system.0320.a: "Lo hecho, hecho está." #NT!
+  
+  # If you have gained the incapable trait 
+ activity_system.0330.t: "Incapaz" #NT!
+ activity_system.0330.desc.intro: "¡Se me ha considerado incapaz y se me considera totalmente incapaz de gestionar mis propios asuntos, incluido mi [activity_type.GetNameNoTooltip()]!\n\n" #NT!
+ activity_system.0330.desc.memory: "Ay, [incapable_memory.GetDescription].\n\n" #NT!
+ activity_system.0330.desc.outro: "No queda más que volver a casa, a [home.GetName]." #NT!
+ activity_system.0330.a: "Que mis invitados lleguen sanos y salvos a casa." #NT!
+  
+ activity_system.0331.t: "Incapaz" #NT!
+ activity_system.0331.desc: "Nuestro anfitrión, [host.GetName], ha sido considerado incapaz por quienes rodean a [host.GetHerHim] y se le considera totalmente incapaz de gestionar los propios asuntos de [host.GetHerHis], incluido [host.GetHerHis] [activity_type.GetNameNoTooltip()].\n\n¡Por desgracia, todos debemos regresar a casa con las manos vacías!" #NT!
+ activity_system.0331.a: "Qué vergüenza." #NT!
+  
+  # Late to the activity 
+ activity_system.0400.t: "Retrasarse en lo previsto" #NT!
+ activity_system.0400.desc_leader: "Cuando [travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)] se acerca a mí con una mezcla de vergüenza y preocupación escrita en toda la cara de [travel_leader.GetHerHis], sé que [travel_leader.GetSheHe] trae malas noticias.\n\n"Lamento informar que nos estamos retrasando alrededor de [GetTimeBetweenDates(ROOT.Char.GetInvolvedActivity.GetActiveStartDate.Self, ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate)], mi § _4, y es posible que no lleguemos a nuestro destino a tiempo."" #NT!
+ activity_system.0400.desc_no_leader: "Sigo evaluando el cielo y todos los mapas que tengo, pero está claro que las matemáticas no cuadran.\n\nEstamos retrasados ​​aproximadamente [GetTimeBetweenDates(ROOT.Char.GetInvolvedActivity.GetActiveStartDate.Self, ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate)] y, si seguimos moviéndonos a la velocidad actual a lo largo del itinerario actual , no llegaremos al destino a tiempo." #NT!
+ activity_system.0400.a: "Apurémonos." #NT!
+ activity_system.0400.a.tt: "Esperas ganar velocidad en el camino." #NT!
+ activity_system.0400.b: "Realmente no vale la pena." #NT!
+ activity_system.0401.t: "Demasiado tarde" #NT!
+ activity_system.0401.desc_leader: "[travel_leader.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se acerca a mí con una mirada sombría en el rostro de [travel_leader.GetHerHis].\n\n"Lamento informarte que no llegamos a tiempo, mi [ROOT.Char.GetTitleAsNameNoTooltip]. La actividad comenzó hoy y simplemente no estamos allí para ello"." #NT!
+ activity_system.0401.desc_no_leader: "Hoy es el día. La actividad comenzó hoy, pero a pesar de mis mejores esfuerzos, simplemente no estamos ahí para ello.\n\nNo queda nada por hacer más que dar la vuelta y regresar a casa." #NT!
+ activity_system.0401.a: "Decepcionante." #NT!
+  
+ SELECT_ACTIVITY_DECISION_TITLE: "#D Seleccionar tipo de actividad#!" #NT!
+ SELECT_ACTIVITY_DECISION_NEXT_STEP_BUTTON: "$SELECT_ACTIVITY_DECISION_TITLE$" #NT!
+ hold_grand_activity_option_tournament: "$activity_tournament$" #NT!
+ hold_grand_activity_option_tournament_desc: "$activity_tournament$" #NT!
+ hold_grand_activity_option_wedding: "$activity_wedding$" #NT!
+ hold_grand_activity_option_wedding_desc: "$activity_wedding$" #NT!
+ hold_grand_activity_option_tour: "$activity_tour$" #NT!
+ hold_grand_activity_option_tour_desc: "$activity_tour$" #NT!
+  
+  
+ hold_standard_activity_option_feast: "$activity_feast$" #NT!
+ hold_standard_activity_option_feast_desc: "$activity_feast$" #NT!
+ hold_standard_activity_option_hunt: "$activity_hunt$" #NT!
+ hold_standard_activity_option_hunt_desc: "$activity_hunt$" #NT!
+ hold_standard_activity_option_pilgrimage: "$activity_pilgrimage$" #NT!
+ hold_standard_activity_option_pilgrimage_desc: "$activity_pilgrimage$" #NT!
+ hold_standard_activity_option_play_date: "$activity_play_date$" #NT!
+ hold_standard_activity_option_play_date_desc: "$activity_play_date$" #NT!
+ hold_standard_activity_option_witch_ritual: "$activity_witch_ritual$" #NT!
+ hold_standard_activity_option_witch_ritual_desc: "$activity_witch_ritual$" #NT!

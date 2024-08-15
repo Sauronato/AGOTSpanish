@@ -166,7 +166,7 @@
   
   # Regional - Sri Lanka 
  wood_coromandel: "Coromandel"
- wood_ebony: "ébano"
+ wood_ebony: "Ébano"
   
   # Wood Feature Derivatives 
  feature_generic_material_wood_ash: "$wood_ash$"
@@ -285,10 +285,10 @@
  gem_rock_crystal_plural: "Cristales de roca"
  gem_jet: "Azabache"
  gem_jet_plural: "Azabaches"
- gem_agate: "ágata"
- gem_agate_plural: "ágatas"
- gem_onyx: "ónice"
- gem_onyx_plural: "ónices"
+ gem_agate: "Ágata"
+ gem_agate_plural: "Ágatas"
+ gem_onyx: "Ónice"
+ gem_onyx_plural: "Ónices"
   
   # Uncommon Everywhere 
  gem_garnet: "Granate"
@@ -301,8 +301,8 @@
   # Common Regional/Uncommon Elsewhere 
  gem_turquoise: "Turquesa"
  gem_turquoise_plural: "Turquesas"
- gem_amber: "ámbar"
- gem_amber_plural: "ámbares"
+ gem_amber: "Ámbar"
+ gem_amber_plural: "Ámbares"
  gem_moonstone: "Piedra de luna"
  gem_moonstone_plural: "Piedras de luna"
  gem_flourite: "Flourita"
@@ -317,8 +317,8 @@
   # Uncommon Regional/Rare Elsewhere 
  gem_spinel: "Espinela"
  gem_spinel_plural: "Espinelas"
- gem_opal: "ópalo"
- gem_opal_plural: "ópalos"
+ gem_opal: "Ópalo"
+ gem_opal_plural: "Ópalos"
  gem_lapis_lazuli: "Lapislázuli"
  gem_lapis_lazuli_plural: "Lapislázulis"
  gem_peridot: "Peridoto"
@@ -474,6 +474,7 @@
   
   # Swords 
  artifact_sword_name: "Espada $artifact_name_prefix$"
+ artifact_longsword_name: "$artifact_name_prefix$ Espada larga"
  artifact_sword_description: "Una espada de [newly_created_artifact.GetFeatureText( 'blade_metal' )] de [SCOPE.Custom('ArtifactQuality')] factura. [newly_created_artifact.Custom('ArtifactSwordDecoration')]"
  sword_decoration_hilt_and_blade: "[ROOT.Artifact.GetFeatureText( 'hilt_decoration' )|U] y [ROOT.Artifact.GetFeatureText( 'blade_decoration' )]."
  sword_decoration_hilt: "[ROOT.Artifact.GetFeatureText( 'hilt_decoration' )|U]."
@@ -1271,3 +1272,39 @@
  feature_generic_material_earthware_terracotta: "$earthware_terracotta$"
  feature_generic_material_earthware_stone: "$earthware_stone$"
  feature_generic_material_earthware_porcelain: "$earthware_porcelain$"
+  
+  # FP3 artifacts 
+  #AGOT Modified 
+ #artifact_oxus_bracelet_name: "Pulsera Oxus" #NT!
+ artifact_oxus_bracelet_name: "Pulsera Hyrkooni" #NT!
+  #AGOT Modified 
+ #artifact_oxus_bracelet_description: "Se dice que esta pulsera de maravillosa artesanía proviene de la tierra de $k_transoxiana$. Aunque sus incrustaciones de esmalte y piedras semipreciosas se perdieron hace mucho tiempo, el oro conserva su brillo. Brazaletes como este eran regalos de honor en las cortes del Rey de Reyes en la antigüedad, por lo que quizás alguna vez fueron usados ​​por un gran Iord en Babilonia." #NT!
+ artifact_oxus_bracelet_description: "Se dice que este brazalete de maravillosa artesanía proviene de la tierra de Hyrkoon. Aunque sus incrustaciones de esmalte y piedras semipreciosas se perdieron hace mucho tiempo, el oro conserva su brillo. Brazaletes como este eran obsequios de honor en las cortes de los reyes de Sarnor en épocas pasadas, por lo que quizás alguna vez los usó un gran señor." #NT!
+ fp3_incense_burner_sculpture: "Escultura de quemador de incienso" #NT!
+ fp3_incense_burner_sculpture_desc: "Este quemador de incienso con forma felina expulsa vapores aromáticos por los numerosos agujeros de su cuerpo. La cabeza con ojos engastados tiene una bisagra para poder colocar incienso encendido en su interior." #NT!
+ fp3_ancient_drinking_vessel: "Vaso para beber aqueménida" #NT!
+ fp3_ancient_drinking_vessel_desc: "Esta copa adornada termina en forma de cabra. Se hizo en tiempos olvidados, pero su belleza no se ha desvanecido." #NT!
+  #AGOT Modified 
+ #artifact_sassanian_sword_name: "Espada sasánida" #NT!
+ artifact_sassanian_sword_name: "Espada Sarnori" #NT!
+  #AGOT Modified 
+ #artifact_sassanian_sword_description: "Se dice que esta espada es un vestigio de la antigua era sasánida, lo que la convierte en un espectáculo magnífico para la vista. Aunque hoy en día es demasiado frágil para llevarla a la batalla, ¿tal vez esta espada alguna vez estuvo en manos de un héroe ahora perdido en el tiempo?" #NT!
+ artifact_sassanian_sword_description: "Se dice que esta espada es de la época de los Sarnori, lo que la convierte en un espectáculo magnífico para la vista. Aunque hoy en día es demasiado frágil para llevarla a la batalla, ¿tal vez esta espada alguna vez estuvo en manos de un héroe ahora perdido en el tiempo?" #NT!
+  #AGOT Modified 
+ #artifact_sassanian_replica_sword_name: "Espada estilo sasánida" #NT!
+ artifact_sassanian_replica_sword_name: "Espada estilo Sarnori" #NT!
+ sassanian_sword_description_base: "Está adornado con varias piedras preciosas y presenta patrones intrincados" #NT!
+ famed_replica_sassanian_sword_description: "Esta espada está inspirada en la visión de una gloriosa época pasada, que se remonta al pasado heroico de los antepasados ​​del fabricante. Es $sassanian_sword_description_base$, lo que la convierte en una vista magnífica para la vista. Al empuñarlo, uno proyecta la imagen de los reyes legendarios de antaño." #NT!
+ masterwork_replica_sassanian_sword_description: "Esta espada tiene claramente la intención de imitar las armas de una época más antigua, recordando el pasado heroico de los antepasados ​​del fabricante. Es $sassanian_sword_description_base$. Aunque es un eco lejano del pasado, uno puede imaginarse a sí mismo como un poderoso señor de una época pasada al empuñarlo." #NT!
+ common_replica_sassanian_sword_description: "Esta pobre imitación constituye una burla de la ascendencia del fabricante. Está incrustado con piedras baratas y decorado con patrones irregulares y toscos. Llevando esto en su vaina, uno parece un tonto engañado, deseoso de regresar a un tiempo que ya pasó." #NT!
+  
+ #CE1 Artifacts 
+ artifact_magnificent_crown_name: "Magnífica Corona" #NT!
+ artifact_magnificent_crown_description: "La hermosa filigrana y los patrones finamente trabajados de esta corona sirven para resaltar la verdadera razón de su existencia: los relieves grabados de [ROOT.Char.GetFirstNamePossessive] ancestros invocan su autoridad y la entrelazan con la propia [ROOT.Char.GetHerHis]." #NT!
+ artifact_splendid_necklace_name: "Espléndido collar" #NT!
+ artifact_splendid_necklace_description: "Este fino collar está adornado con el escudo de armas [artifact.GetOwner.GetHouse.GetBaseName], lo que no deja dudas sobre la legitimidad de su poseedor." #NT!
+ artifact_fine_brooch_name: "Broche fino" #NT!
+ artifact_fine_brooch_description: "La sutil invocación del nombre [artifact.GetOwner.GetHouse.GetBaseName] alrededor de los bordes de este broche hace que la noticia de su legitimidad se difunda rápidamente." #NT!
+  
+ medicine_jar: "Tarro Medicinal" #NT!
+ medicine_jar_desc: "Esta loza de barro fino vidriado contiene hierbas raras y potentes, minerales curativos y varias partes secas de animales, todos utilizados por los médicos para tratar enfermedades y equilibrar los humores." #NT!

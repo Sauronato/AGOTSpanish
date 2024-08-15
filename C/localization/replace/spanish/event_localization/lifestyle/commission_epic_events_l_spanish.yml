@@ -1,0 +1,274 @@
+﻿l_spanish:
+ CompositionType_song: "Canción" #NT!
+ CompositionType_chronicle: "Crónica" #NT!
+ CompositionType_poem: "Poema" #NT!
+  
+ CompositionTypeAction_listening: "Escuchar" #NT!
+ CompositionTypeAction_reading: "Lectura" #NT!
+ CompositionTypeAction_listened: "Escuchado" #NT!
+ CompositionTypeAction_read: "Leer" #NT!
+  
+ CompositionDetail_horse: "Caballo leal" #NT!
+ CompositionDetail_ox: "Buey furioso" #NT!
+ CompositionDetail_witch: "Bruja intrigante" #NT!
+ CompositionDetail_magical_sword: "Espada magica" #NT!
+ CompositionDetail_dragon: "Continuar" #NT!
+ CompositionDetail_emperor: "Antiguo emperador" #NT!
+ CompositionDetail_river: "Río de plata" #NT!
+ CompositionDetail_mountain: "Talla de la montaña" #NT!
+ CompositionDetail_hermit: "Guía del ermitaño" #NT!
+  
+ CommissionEpicScribes_bards: "Bardos" #NT!
+ CommissionEpicScribes_scribes: "Escribas" #NT!
+  
+ CommissionEpicScribe_bard: "Bardo" #NT!
+ CommissionEpicScribe_scribe: "Escriba" #NT!
+  
+ CommissionEpicComposer_composer: "[second.GetTitledFirstName]" #NT!
+ CommissionEpicComposer_scribes: "Mi [ROOT.Char.Custom('CommissionEpicScribes')]" #NT!
+  
+ CommissionEpicComposerThem_composer: "[second.GetHerHim]" #NT!
+ CommissionEpicComposerThem_scribes: "A ellos" #NT!
+  
+ CommissionEpicComposerThey_composer: "[second.GetSheHe]" #NT!
+ CommissionEpicComposerThey_scribes: "Ellos" #NT!
+  
+ CommissionEpicComposerTheir_composer: "[second.GetHerHis]" #NT!
+ CommissionEpicComposerTheir_scribes: "Su" #NT!
+  
+ CommissionEpicComposerHasHave_has: "Tiene" #NT!
+ CommissionEpicComposerHasHave_have: "Tener" #NT!
+  
+ commission_epic.0001.t: "Una epopeya familiar" #NT!
+ commission_epic.0001.desc: "Lo que necesito es un cuento clásico sobre la grandeza de mi familia. ¡Un [ROOT.Char.Custom('CompositionType')] sobre los orígenes de la dinastía [ROOT.Char.GetDynasty.GetBaseName] y cómo estamos destinados a la grandeza!\n\nSolo necesito a alguien que sepa contar una historia..." #NT!
+ commission_epic.0001.a: "[writer.GetTitledFirstNameNoTooltip], ¡el consumado narrador!" #NT!
+ writer_writes_epic: "[writer.GetTitledFirstName] el narrador compone la epopeya" #NT!
+ commission_epic.0001.b: "Reuniré algunos de mis mejores [ROOT.Char.Custom('CommissionEpicScribes')]." #NT!
+ scribes_write_epic: "Mis escribas componen la epopeya" #NT!
+  #AGOT Modified, vanilla fix 
+ # bards_write_epic: "Mis escribas componen la epopeya" #NT!
+ bards_write_epic: "Mis bardos componen la epopeya" #NT!
+ commission_epic.0001.c: "¿Seguramente cualquier humilde [servant.Custom('GenderedLowlyServantType')] podría hacerlo?" #NT!
+ servant_writes_epic: "[servant.GetTitledFirstName] el sirviente compone la epopeya" #NT!
+ commission_epic.0001.d: "Pensándolo bien..." #NT!
+ commission_epic.writing_begins: "La composición comienza..." #NT!
+ commission_epic.high_chance: "Alta probabilidad de un [exceptional_epic|E]" #NT!
+ commission_epic.medium_chance: "Posibilidad impredecible de un [exceptional_epic|E]" #NT!
+ commission_epic.low_chance: "Baja probabilidad de un [exceptional_epic|E]" #NT!
+ commission_epic.opt_out: "No escribo una epopeya familiar por ahora" #NT!
+ commission_epic.reduced_chance: "Posibilidad reducida de producir un [exceptional_epic|E]" #NT!
+ commission_epic.increased_chance: "Mayor probabilidad de producir un [exceptional_epic|E]" #NT!
+  
+ commission_epic.0002.t: "Épica familiar: perspectiva" #NT!
+ commission_epic.0002.writer: "My Family Epic parece estar progresando bien y algunas líneas ya parecen ser citadas en las próximas décadas, pero [writer.GetTitledFirstName] tiene muchas preguntas sobre el enfoque de la historia.\n\nSería más fácil responder si § _1 lo escribí todo primero. Entonces podría decirle a [writer.GetHerHim] lo que no me gusta de ello, pero [writer.GetSheHe] insiste en que [writer.GetSheHe] necesita respuestas ahora." #NT!
+ commission_epic.0002.servant: "[servant.GetFirstName], el sirviente al que ordené que trabajara en mi historia familiar, parece estar luchando un poco. Sin embargo, es bastante impresionante que [servant.GetSheHe] esté logrando algún progreso. Resulta que [servant.GetSheHe] no sabe leer ni rimar.\n\nSin embargo, [servant.GetSheHe] trabaja día y noche y ahora ha venido a mí con una pregunta importante. "¿De qué debería tratarse exactamente, mi [ROOT.Char.GetLadyLord]?"" #NT!
+ commission_epic.0002.scribes: "Mis [ROOT.Char.Custom('CommissionEpicScribes')] han empezado a trabajar en mi epopeya familiar, pero ya están teniendo problemas. No pueden ponerse de acuerdo en qué debería centrarse la historia, y cada [ROOT.Char.Custom('CommissionEpicScribe')] insiste coincidentemente en que su propia área de responsabilidad debe ser la más destacada.\n\n"No queremos imponer, mi [ROOT.Char.GetLadyLord], pero tú #EMP tienes #! para resolver esto antes de que nos destrocemos unos a otros!"" #NT!
+ commission_epic.0002.iberia_epic.a: "¡Escribe sobre el derecho de mi dinastía a gobernar Iberia!" #NT!
+ commission_epic.0002.a: "Centrarse en historias de los reclamos ancestrales de mi dinastía." #NT!
+ commission_epic.propaganda: "Ganaré [claims|E] en títulos vecinos cuando termine la epopeya." #NT!
+ commission_epic.0002.b: "¡Debería centrarse en mí y en mi destino, por supuesto!" #NT!
+ commission_epic.more_prestige: "Ganaré más [prestige|E] personal cuando termine la epopeya." #NT!
+ commission_epic.0002.c: "Es una historia #EMP familiar#!, así que sé generoso." #NT!
+ commission_epic.more_dynasty_prestige: "Ganaré más [dynasty_prestige|E] cuando termine la epopeya." #NT!
+ commission_epic.0002.d: "Cuente la historia lo más veraz posible." #NT!
+ commission_epic.more_piety: "También ganaré algo de [piety|E] cuando termine la epopeya." #NT!
+  
+  
+ commission_epic.1001.t: "Épica familiar: una cuestión de tiempo" #NT!
+ commission_epic.1001.opening: "Hace semanas que no me presentan ningún nuevo trabajo sobre mi epopeya familiar y todo el proceso está tardando demasiado o" #NT!
+ commission_epic.1001.composer: "¡[composer.GetSheHe] termina haciendo un trabajo de mala calidad! ¿Es realmente demasiado exigir que [composer.GetSheHe] ofrezca excelencia y que [composer.GetSheHe] la ofrezca ahora?" #NT!
+ commission_epic.1001.scribes: "¡Mi [ROOT.Char.Custom('CommissionEpicScribes')] termina haciendo un trabajo de mala calidad! ¿Es realmente demasiado exigir que brinden excelencia y que la entreguen rápidamente?" #NT!
+ commission_epic.1001.a: "¡Quiero que sea bueno y lo quiero #EMP ahora!#!" #NT!
+ commission_epic.1001.b: "Pondré [ROOT.Char.Custom2('CommissionEpicComposerThem', composer)] todo el tiempo que sea necesario." #NT!
+ commission_epic.1001.b_scribes: "Pondré [ROOT.Char.Custom('CommissionEpicComposerThem')] todo el tiempo que sea necesario." #NT!
+ commission_epic.1001.c: "Ahora, si dividimos lo que ya está hecho en la Parte 1..." #NT!
+  
+ commission_epic.1002.t: "Épica familiar: material rico en fuentes" #NT!
+ commission_epic.1002.composer: "[composer.GetTitledFirstName] le cuenta a [powerful_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] varios detalles interesantes que [composer.GetSheHe] ha descubierto sobre mis antepasados. "Ahora, creo que la parte con el [ROOT.Char.Custom('CompositionDetail')] podría ser cierta, ya que—"\n\nEs fascinante, sin duda, pero ¿acaso el [composer.GetSheHe] no tiene un gran [ROOT.Char.Custom('CompositionType')] para completar? En cuanto a esta anécdota en particular..." #NT!
+ commission_epic.1002.scribes: "Algunos de mis escribas le están contando a [powerful_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] varios detalles interesantes que han descubierto sobre mis antepasados.\n\n"Ahora, creo que la parte con [ROOT.Char.Custom('CompositionDetail')] podría ser cierta, ya que—"\n\nEs fascinante, estar seguro, pero ¿no tienen un gran [ROOT.Char.Custom('CompositionType')] para completar? En cuanto a esta anécdota en particular..." #NT!
+ commission_epic.1002.a: "¡Debería compartirse con todos mis vasallos!" #NT!
+ commission_epic.1002.a.tt: "Al finalizar, recibirás un libro Family Epic [artifact|E] que mejora [vassal|E] [opinion|E]" #NT!
+ commission_epic.1002.b: "¡Colócalo en el [ROOT.Char.Custom('CompositionType')] para que esté listo antes!" #NT!
+ commission_epic.1002.b.tt: "¡Lo que también significa que puedo recuperar parte del pago del salario!" #NT!
+  
+ commission_epic.1003.t: "Épica familiar: retiro del escritor" #NT!
+ commission_epic.1003.composer: "¡[composer.GetTitledFirstName] ha sido atrapado intentando escabullirse de las tareas de [composer.GetHerHis]! Afortunadamente, un guardia reconoció a [composer.GetHerHim] mientras [composer.GetSheHe] pasaba las puertas.\n\n"Es un trabajo agotador", defiende [composer.GetSheHe] a [composer.GetHerselfHimself]. "¡Día y noche, mi benévolo [ROOT.Char.GetLadyLord]! Necesito desesperadamente unos días de descanso"." #NT!
+ commission_epic.1003.scribes: "¡Algunos de mis escribas han sido atrapados tratando de escabullirse de sus deberes en mi epopeya familiar! Afortunadamente, un guardia los reconoció cuando pasaron las puertas.\n\n"Es un trabajo agotador", explican. "¡Día y noche, mi [ROOT.Char.GetLadyLord]! Necesitamos desesperadamente unos días de descanso"." #NT!
+ commission_epic.1003.a: "Muy bien, quizá sea necesario un descanso." #NT!
+ commission_epic.1003.b: "¡Encadene [ROOT.Char.Custom2('CommissionEpicComposerThem', composer)] a [ROOT.Char.Custom2('CommissionEpicComposerTheir', composer)] mesa de trabajo!" #NT!
+ commission_epic.1003.b_scribes: "¡Encadene [ROOT.Char.Custom('CommissionEpicComposerThem')] a [ROOT.Char.Custom('CommissionEpicComposerTheir')] mesa de trabajo!" #NT!
+  
+ commission_epic.1004.t: "Épica familiar: iluminador experto" #NT!
+ commission_epic.1004.opening: "Me ha llegado la noticia de que" #NT!
+ commission_epic.1004.devotee_male: "[ROOT.Char.GetFaith.DevoteeMale]" #NT!
+ commission_epic.1004.devotee_female: "[ROOT.Char.GetFaith.DevoteeFemale]" #NT!
+ commission_epic.1004.ending: "Famoso por sus iluminaciones [illuminator.GetHerHis] se aloja en una ciudad de [barony.GetNameNoTier]. Con el progreso de mi épica familiar, este podría ser el momento ideal para pensar en cómo deberían verse las páginas una vez que todo esté dicho y hecho." #NT!
+ commission_epic.1004.a: "¡Contrata al iluminador, cueste lo que cueste!" #NT!
+ commission_epic.1004.b: "[composer.GetTitledFirstNameNoTooltip] puede hacerlo [composer.GetHerselfHimself]." #NT!
+ commission_epic.1004.b_scribes: "Mis hijos pueden hacerlo ellos mismos." #NT!
+ commission_epic.1004.success: "Excelentes iluminaciones" #NT!
+ commission_epic.1004.failure: "Pobres iluminaciones" #NT!
+ commission_epic.1004.c: "Siempre me he considerado algo así como un artista..." #NT!
+  
+ commission_epic.1005.t: "Épica familiar: La canción de nuestro pueblo" #NT!
+ commission_epic.1005.opening: "Reflexiono sobre las últimas líneas" #NT!
+ commission_epic.1005.composer: "[composer.GetFirstName] tiene" #NT!
+ commission_epic.1005.scribes: "Mi [ROOT.Char.Custom('CommissionEpicScribes')] tiene" #NT!
+ commission_epic.1005.ending: "Me proporcionó mi epopeya familiar, y cuando empiezo a tararear, ¡me doy cuenta de que sigue el mismo ritmo que una de las canciones favoritas de mis miembros de la tribu!\n\nSi la historia de mis antepasados ​​tuviera una melodía tan memorable, seguramente nunca sería así. ¡olvidado!" #NT!
+ commission_epic.1005.a: "¡Debería haber pedido esto para empezar!" #NT!
+ commission_epic.1005.b_composer: "Estoy seguro de que a [ROOT.Char.Custom2('CommissionEpicComposer', composer)] se le ocurrirá algo igualmente bueno." #NT!
+ commission_epic.1005.b: "Estoy seguro de que a [ROOT.Char.Custom('CommissionEpicComposer')] se le ocurrirá algo igualmente bueno." #NT!
+ commission_epic.1005.classic: "Melodía clásica compuesta" #NT!
+ commission_epic.1005.enjoyable: "Melodía agradable compuesta" #NT!
+ commission_epic.1005.terrible: "Terrible melodía compuesta" #NT!
+  
+ commission_epic.1006.opening: "[vassal.Custom2('AppropriateGreetingPositive', ROOT.Char)]" #NT!
+ commission_epic.1006.desc: "Tengo [ROOT.Char.Custom('CompositionTypeActionPast')] partes de tu nueva epopeya familiar, y la verdadera lealtad causada por la profunda amistad entre estos héroes legendarios me inspira.\n\nSería un honor llamarte mi amigo, ya que te sirvo lealmente." #NT!
+ commission_epic.1006.a: "¡Siempre has sido mi amigo, [vassal.GetFirstNameNoTooltip]!" #NT!
+ commission_epic.1006.b: "Tu lealtad debe estar garantizada, pase lo que pase." #NT!
+  
+ commission_epic.1007.opening: "[vassal.Custom2('AppropriateGreetingNegative', ROOT.Char)]" #NT!
+ commission_epic.1007.desc: "¡Tengo [ROOT.Char.Custom('CompositionTypeActionPast')] partes de tu nueva epopeya familiar y me conmueve cómo ignora las contribuciones de mis propios antepasados!\n\nEsta deshonra es el colmo. ¡Está claro que no tienes más que mala voluntad hacia mí y mi familia!" #NT!
+ commission_epic.1007.a: "¿Cómo te atreves a hablarle así a tu señor?" #NT!
+ commission_epic.1007.b: "Pido disculpas, ¡su familia, por supuesto, estará incluida!" #NT!
+  
+ commission_epic.2001.t: "Épica familiar: precedencia" #NT!
+ commission_epic.2001.desc_composer: "[steward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] viene a verme, entusiasmado con la noticia. "He estado [ROOT.Char.Custom('CompositionTypeActionPP')] con la última parte de tu épica familiar, y [ROOT.Char.Custom2('CommissionEpicComposer', composer)] [ROOT.Char.Custom2('CommissionEpicComposerHasHave', composer )] ¡he descubierto algo muy interesante!"" #NT!
+ commission_epic.2001.desc_scribes: "[steward.Custom2('MyCharacterIntroduction', ROOT.Char)|U] viene a verme, entusiasmado con la noticia. "He estado [ROOT.Char.Custom('CompositionTypeActionPP')] con la última parte de tu épica familiar, y [ROOT.Char.Custom('CommissionEpicComposer')] [ROOT.Char.Custom('CommissionEpicComposerHasHave')] ¡he descubierto algo muy interesante!"" #NT!
+ commission_epic.2001.desc: "\n\nParece que nunca se tuvo la intención de que el [county.GetName] estuviera permanentemente en manos de la Cámara [vassal.GetHouse.GetName]. ¡Podría presentar un reclamo razonable contra el [vassal.GetTitledFirstName]!" #NT!
+ commission_epic.2001.a: "Si es legítimamente mío, lo haré mío." #NT!
+ commission_epic.2001.b: "[vassal.GetFirstNameNoTooltip] seguramente querría formalizar la concesión." #NT!
+ commission_epic.2001.c: "Podemos dejar pasar esto." #NT!
+ commission_epic.2001.c.flavor: "Pero asegúrese de que el [vassal.GetTitleTierName] lo sepa." #NT!
+ commission_epic.2002.t: "Épica familiar: Orgullo de la familia" #NT!
+ commission_epic.2002.desc: "[spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)|U] parece ser la última persona en tener [ROOT.Char.Custom('CompositionTypeActionPast')] extractos de mi epopeya familiar.\n\n"Tu tatarabuelo[grandparent.GetMotherFather] era una figura fascinante e ingeniosa", me dice [spymaster.GetSheHe]. "Si hacemos saber que eres la mitad de corrupto que [grandparent.GetSheHe], la gente se lo pensaría dos veces antes de actuar en tu contra"." #NT!
+ commission_epic.2002.a: "¡La sangre de esa serpiente corre por mis venas!" #NT!
+ commission_epic.2002.a.tt: "Al finalizar, recibirás un libro Family Epic [artifact|E] que mejora [hostile_scheme_resistance|E]" #NT!
+ commission_epic.2002.b: "O afirmamos que [grandparent.GetSheHe] fue honorable y honrado..." #NT!
+  
+ commission_epic.2003.t: "Épica familiar: obligaciones eternas" #NT!
+ commission_epic.2003.desc: "Parece como si [court_chaplain.GetFirstName] hubieran sido [ROOT.Char.Custom('CompositionTypeActionPP')] partes de mi nueva epopeya familiar. Por supuesto, [court_chaplain.GetSheHe] ha descubierto "discrepancias" entre las promesas hechas en el pasado y nuestra realidad actual.\n\nPuedo decir que [court_chaplain.GetSheHe] no lo dejará pasar en el corto plazo. "¿Seguramente puedes ver cuán sabio y benevolente sería cumplir la promesa de tus antepasados, incluso ahora?"" #NT!
+ commission_epic.2003.a_same_dynasty: "Ambos sabemos que nuestra dinastía cumple sus promesas." #NT!
+ commission_epic.2003.a: "Pertenezco a una larga línea de cumplidores de promesas." #NT!
+ commission_epic.2003.b: "Mis antepasados ​​eran piadosos, pero no necesariamente sabios." #NT!
+  
+ commission_epic.2004.t: "Épica familiar: la inspiración llega" #NT!
+ commission_epic.2004.desc_scribes: "[ROOT.Char.Custom('CommissionEpicComposer')|U] [ROOT.Char.Custom('CommissionEpicComposerHasHave')] tomado un número de..." #NT!
+ commission_epic.2004.desc_composer: "[ROOT.Char.Custom2('CommissionEpicComposer', composer)] [ROOT.Char.Custom2('CommissionEpicComposerHasHave', composer )] tomado un número de..." #NT!
+ commission_epic.2004.desc: "Libertades en mi épica familiar en lo que respecta a guerras y batallas. Son escenas dramáticas, pero me preocupa que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))] se haya sentido ofendido cuando [marshal.GetSheHe] frunce el ceño [marshal.GetHerHis] ante una escena en particular.\n\nMe siento casi aliviado cuando [marshal.GetSheHe] finalmente comparte los pensamientos de [marshal.GetHerHis]. "Es todo una tontería, pero esta parte con el [ROOT.Char.Custom('CompositionDetail')] me ha dado algunas ideas..."" #NT!
+ commission_epic.2004.a: "¡Dondequiera que podamos encontrar inspiración, debemos usarla!" #NT!
+ commission_epic.2004.a.tt: "Al finalizar, recibirás un libro Family Epic [artifact|E] que mejora el combate [advantage|E]" #NT!
+ commission_epic.2004.b: "Explícamelo, en detalle..." #NT!
+  
+ commission_epic.2005.t: "Épica familiar: honestidad y percepción" #NT!
+ commission_epic.2005.desc: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chancellor'))], [chancellor.GetTitledFirstName], es [ROOT.Char.Custom('CompositionTypeActionPP')] mi epopeya familiar a medida que poco a poco se va formando.\n\n"Mucho de esto no es muy plausible, como la parte con el [ROOT.Char.Custom('CompositionDetail')]", me dice [chancellor.GetSheHe]. "Por otro lado, ¿quién puede decir cómo era el pasado? Si ya están haciendo adornos, ¿por qué no llevarlos tan lejos como podamos?"" #NT!
+ commission_epic.2005.a: "Es importante que contemos una buena historia, después de todo..." #NT!
+ commission_epic.2005.b: "No, debería ser lo más fiel posible a la vida real." #NT!
+ commission_epic.2005.b.tt: "Al finalizar, recibirás un libro Family Epic [artifact|E] que mejora [personal_scheme|E] [success_chance|E]" #NT!
+  
+ commission_epic.2006.t: "Épica familiar: unidos por la fe" #NT!
+  #AGOT Modified 
+ #commission_epic.2006.desc: "No sé si sentirme aliviado o desconcertado por el entusiasmo que muestra mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetTitledFirstName] después de [ROOT.Char.Custom('CompositionTypeActionPP')] las partes completadas de mi epopeya familiar.\n\n"¡Éste es el relato de una maravillosa moraleja!" [court_chaplain.GetSheHe] reclamaciones. "¡La dinastía [ROOT.Char.GetDynasty.GetBaseName] siempre ha visto grandeza cuando fue aconsejada por clérigos, y tiempos oscuros cuando no ha seguido ese consejo! Espero que sea una lección que usted preste igualmente atención"." #NT!
+ commission_epic.2006.desc: "No sé si sentirme aliviado o desconcertado por el entusiasmo que muestra mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('court_chaplain'))], [court_chaplain.GetFirstNameNicknamed] después de [ROOT.Char.Custom('CompositionTypeActionPP')] las partes completadas de mi epopeya familiar.\n\n"¡Éste es el relato de una maravillosa moraleja!" [court_chaplain.GetSheHe] reclamaciones. "¡La dinastía [ROOT.Char.GetDynasty.GetBaseName] siempre ha visto grandeza cuando fue aconsejada por clérigos, y tiempos oscuros cuando no ha seguido ese consejo! Espero que sea una lección que usted preste igualmente atención"." #NT!
+ commission_epic.2006.a: "De hecho, lo sé muy bien." #NT!
+ commission_epic.2006.a.tt: "Al finalizar, recibirás un libro Family Epic [artifact|E] que aumenta [piety|E] y el mismo impuesto [faith|E]" #NT!
+ commission_epic.2006.b: "¡Ja! Es al revés." #NT!
+ commission_epic.2006.b.flavor: "Siempre hemos sido pioneros en el [ROOT.Char.GetFaith.AltPriestTermPlural]." #NT!
+ commission_epic.2006.c: "Ambos sabemos que la familia es lo primero en todo." #NT!
+ commission_epic.2006.c.same_dynasty: "Esta opción está disponible porque [court_chaplain.GetFirstNameNoTooltip] es del mismo [dynasty|E] que yo" #NT!
+  
+ commission_epic.6001.t: "Algunos pequeños adornos" #NT!
+ commission_epic.6001.writerservant: "Después de haber trabajado en mi crónica durante un tiempo, [composer.GetName] me busca.\n\n"[Select_CString(ROOT.Char.IsFemale,'Milady','Sire')]", [composer.GetSheHe] dice: "Debo confesar que, aunque tu dinastía es realmente grandiosa, los derechos ancestrales que esperabas encontrar podrían no serlo. ...ser tan fácil de corroborar. Necesito más tiempo y más recursos para profundizar en los textos antiguos. De lo contrario, tendré que hacer algunos pequeños #italic adornos#! a las historias, y tus afirmaciones pueden terminar. menos convincente..."" #NT!
+ commission_epic.6001.scribes: "Mis escribas han trabajado día y noche investigando manuscritos antiguos, tratando de encontrar reclamos territoriales de mis antepasados ​​para exaltarlos en la crónica.\n\n"Ay", dicen, "tal vez tengamos que hacer algunos pequeños adornos cuando se trata de ...la verdad de este asunto, los hechos y dominios de tus antepasados, etc. Seguramente lo entiendes, [Select_CString(ROOT.Char.IsFemale,'milady','sire')]?"" #NT!
+ commission_epic.6001.a: "Adorna lo que quieras, ¡simplemente termínalo!" #NT!
+ commission_epic.6001.b: "Solo toma mi oro e investiga más." #NT!
+ commission_epic.less_credible: "La crónica será menos creíble" #NT!
+ commission_epic.more_credible: "La crónica puede resultar más creíble" #NT!
+  
+ commission_epic.6003.t: "Reclamaciones frías" #NT!
+ commission_epic.6003.writer: "[composer.GetName] ha estado trabajando diligentemente en mi crónica, que se vuelve cada vez más grandiosa y cuestionable a partes iguales.\n\n"Mi [ROOT.Char.GetLadyLord]", [composer.GetSheHe] dice: "Encontré un viejo texto andrajoso donde se dice que un [Select_CString(ancestor_1.IsFemale,'queen','king')] llamado [ancestor_1.GetFirstNameNoTooltip] una vez gobernó en [neighboring_county_1.GetNameNoTier], [neighboring_county_2.GetNameNoTier] y [neighboring_county_3.GetNameNoTier]. Podría profundizar en las tablas genealógicas y hacer algunas, llamémoslas #italic adiciones creativas#! para establecer que [ROOT.Char.GetLadyLord]0 era un antepasado tuyo. Entonces, podría usar. [ROOT.Char.GetLadyLord]1 historia para brindarle reclamos más o menos creíbles sobre algunas de esas tierras, o incluso sobre todas ellas..."" #NT!
+ commission_epic.6003.servant: "[composer.GetName] ha estado trabajando diligentemente en mi crónica cada vez más dudosa.\n\n"Mi [ROOT.Char.GetLadyLord]", [composer.GetSheHe] dice: "Encontré una inscripción votiva marchita de [ancestor_1.GetFirstNameNoTooltip] [Select_CString(ancestor_1.IsFemale,'the Huntress','the Elbow-High')], el [Select_CString(ancestor_1.IsFemale,'queen','king')] de [neighboring_county_1.GetNameNoTier], [neighboring_county_2.GetNameNoTier] y § _8 en la antigüedad podría hacer algunas adiciones creativas a tu árbol genealógico, para establecer que [ancestor_1.GetSheHe] era un antepasado tuyo luego, en la crónica, podría hacer algunos pequeños adornos, etc., para establecer firmemente tu derecho a algunos de esos. tierras, o incluso todas ellas."" #NT!
+ commission_epic.6003.scribes: "Mis escribas han estado trabajando arduamente en mi crónica cada vez más complicada.\n\n"Mi [ROOT.Char.GetLadyLord]", dicen, "encontramos una nota marginal en un manuscrito antiguo, que hace referencia a un [ancestor_1.GetWomanMan] llamado [ancestor_1.GetFirstNameNoTooltip] [Select_CString(ancestor_1.IsFemale,'the Generous','the One-Eyed')], que tenía algunos influencia en [neighboring_county_1.GetNameNoTier], [neighboring_county_2.GetNameNoTier] y [neighboring_county_3.GetNameNoTier] en la antigüedad. Podríamos profundizar en tablas genealógicas, para establecer creativamente #italic#! que [ancestor_1.GetSheHe] fue un antepasado tuyo. Luego, en la crónica, podríamos usarlo para corroborar el tuyo. derecho a gobernar algunas de esas tierras - o incluso todas..."" #NT!
+ commission_epic.6003.a: "¡Todos ellos!" #NT!
+ commission_epic.6003.b: "¡[neighboring_county_1.GetNameNoTierNoTooltip] parece bueno en esta época del año!" #NT!
+ commission_epic.6003.c: "[neighboring_county_2.GetNameNoTierNoTooltip] es lo que quiero!" #NT!
+ commission_epic.6003.d: "[neighboring_county_3.GetNameNoTierNoTooltip] debe ser mío." #NT!
+ commission_epic.paranoid_neighbors: "Tus vecinos se molestarán mucho cuando se enteren de esta crónica." #NT!
+  
+ commission_epic.6004.t: "Reclamaciones creíbles" #NT!
+ commission_epic.6004.writerservant: "[composer.GetName] ha estado trabajando diligentemente en mi crónica, que crece cada vez más tanto en alcance como en volumen.\n\n"Mi [ROOT.Char.GetLadyLord]", [composer.GetSheHe] dice: "Encontré un documento antiguo sobre impuestos y derechos sobre la tierra, una lectura bastante aburrida , pero mencionó un [ancestor_1.GetLadyLord] llamado [ancestor_1.GetFirstNameNoTooltip] [Select_CString(ancestor_1.IsFemale,'the Tall','the Bald')], que gobernó [neighboring_county_1.GetNameNoTier] y [neighboring_county_2.GetNameNoTier] en la antigüedad. Logré rastrear el linaje de [ancestor_1.GetHerHis] desde la antigüedad tardía, ¡por lo que puedo darte derechos sobre cualquiera de los dos! de esas tierras, tan creíbles que nadie puede contradecirlas."" #NT!
+ commission_epic.6004.scribes: "Mis escribas han trabajado duro en mi crónica, que cada día se hace más larga.\n\n"Mi [ROOT.Char.GetLadyLord]", dicen, "encontramos una carta real de origen muy antiguo, que daba el gobierno sobre § _1 y [neighboring_county_2.GetNameNoTier] a un [ancestor_1.GetLadyLord] llamado [ancestor_1.GetFirstNameNoTooltip] [Select_CString(ancestor_1.IsFemale,'the Good','the Fortunate')]. A través de la guía de [ROOT.GetCharacter.GetFaith.HighGodName], pudimos rastrear su linaje hasta [ancestor_1.GetHerHim], y nos aseguramos de hacerlo en la crónica. ser tuyo por derecho."" #NT!
+ commission_epic.6004.a: "¿Por qué no los dos?" #NT!
+ commission_epic.6004.b: "[neighboring_county_1.GetNameNoTierNoTooltip] es ciertamente parte de mi herencia." #NT!
+ commission_epic.6004.c: "¡Siempre sentí que [neighboring_county_2.GetNameNoTierNoTooltip] debería pertenecerme!" #NT!
+  
+ commission_epic.6005.t: "Una epopeya inacabada" #NT!
+ commission_epic.6005.writerservant: ""Durante mucho tiempo he sospechado que algo anda mal con mi crónica y, de hecho, [composer.GetName] ahora me busca con un comportamiento preocupado.\n\n"Ay, mi [ROOT.Char.GetLadyLord]", dice [composer.GetSheHe], "por más que lo intente, no No pude encontrar ningún historial de reclamaciones lo suficientemente bueno como para fundamentarlo. No puedo continuar con este trabajo. Sin embargo, he elaborado una crónica que ensalza las virtudes de vuestra dinastía. Por favor, conténtate con esto y no me castigues por mi fracaso..."" #NT!
+ commission_epic.6005.scribes: "Mis escribas parecen haber estado luchando con mi crónica y, de hecho, ahora me buscan con actitud preocupada.\n\n"Por desgracia", dicen, "no pudimos encontrar ningún historial de reclamaciones lo suficientemente bueno como para fundamentarlo. Lo intenté, pero estaba más allá de nuestra capacidad. Sin embargo, hemos producido una crónica que ensalza las virtudes de su dinastía. Por favor, estén contentos con esto y no nos castiguen por nuestro fracaso..." #NT!
+ commission_epic.6005.a: "¡A la mazmorra contigo!" #NT!
+ commission_epic.6005.b: "Ustedes, tontos incompetentes..." #NT!
+ commission_epic.6005.c: "¿Este [ROOT.GetCharacter.GetFaith.HighGodName] me está castigando por mi vanidad?" #NT!
+ commission_epic.6005.d: "Al menos tengo una crónica..." #NT!
+  
+ commission_epic.6006.t: "Potente propaganda" #NT!
+ commission_epic.6006.writerservant: ""Está terminado mi [ROOT.Char.GetLadyLord]", dice [composer.GetName] con cierto alivio, entregándome un gran tomo.\n\n"Esta es la crónica de la casa [ROOT.Char.GetDynastyHouseNameNoTooltip], que describe con gran detalle su historia de gobierno de las diversas tierras que deseabas. ¡Seguramente nadie podrá ahora impugnar tus justas afirmaciones!" #NT!
+ commission_epic.6006.scribes: "Por fin mis escribas han completado la crónica de propaganda. Parecen aliviados mientras me entregan un libro tremendamente grande.\n\n"Aquí está, [Select_CString(ROOT.Char.IsFemale,'Milady','Sire')], la gran crónica de la casa [ROOT.Char.GetDynastyHouseNameNoTooltip], que detalla todas tus reclamaciones. Que te traiga gran fortuna"." #NT!
+ commission_epic.6006.a: "¡Perfecto!" #NT!
+  
+ propaganda_chronicle_name: "[ROOT.Char.GetDynastyHouseNameNoTooltip] Crónica de propaganda" #NT!
+ propaganda_chronicle_desc: "Este voluminoso volumen elabora con dolorosos detalles la gloria de la casa [ROOT.Char.GetDynastyHouseNameNoTooltip] y sus diversas, más o menos extrañas, reclamaciones territoriales." #NT!
+  
+ half_baked_propaganda_chronicle_name: "Crónica de propaganda inacabada" #NT!
+ half_baked_propaganda_chronicle_desc: "Este libro podría haber pasado a la infamia si se hubiera terminado. Tal como está, no logra convencer a ningún lector sobre las reivindicaciones territoriales que buscaba su mecenas, y en cambio se deshace en elogios sobre las supuestas virtudes de la dinastía [ROOT.Char.GetDynastyNameNoTooltip]." #NT!
+  
+  
+  
+  
+ commission_epic.9001.t: "Una epopeya familiar" #NT!
+ commission_epic.9001.writer: "¡La épica [ROOT.Char.Custom('CompositionType')] de mi familia finalmente está completa y [composer.GetTitledFirstName] tiene motivos para estar orgulloso!" #NT!
+ commission_epic.9001.servant: "Parece que hice bien al elegir [composer.GetTitledFirstName] para componer el [ROOT.Char.Custom('CompositionType')] de mi familia. A pesar de los desafíos de [composer.GetHerHis], el trabajo completado es bastante impresionante." #NT!
+ commission_epic.9001.scribes: "¡La épica [ROOT.Char.Custom('CompositionType')] de mi familia finalmente está completa y mis [ROOT.Char.Custom('CommissionEpicScribes')] tienen motivos para estar orgullosos!" #NT!
+ commission_epic.9001.conclusion: "\n\nMis antepasados ​​son, en esencia, un ejemplo brillante de lo que significa ser un gobernante de nuestro tiempo, aunque se alargue en algunos pasajes y la parte con el [ROOT.Char.Custom('CompositionDetail')] sea completamente ridícula. Aun así, estoy orgulloso de conservarlo en mi biblioteca familiar, para que las generaciones futuras lo disfruten y aprendan de él." #NT!
+ commission_epic.9001.a: "Qué historia puede contar la historia." #NT!
+  
+ commission_epic.9002.t: "Una excelente epopeya" #NT!
+ commission_epic.9002.writer: "[composer.GetTitledFirstName] ha completado mi epopeya familiar, ¡y qué glorioso ha compuesto [ROOT.Char.Custom('CompositionType')] [composer.GetSheHe]!" #NT!
+ commission_epic.9002.scribes: "Mis [ROOT.Char.Custom('CommissionEpicScribes')] han completado mi epopeya familiar, ¡y qué glorioso [ROOT.Char.Custom('CompositionType')] han compuesto!" #NT!
+ commission_epic.9002.conclusion: "\n\nTiene mucho dramatismo, dilemas morales y duelos tensos. ¡Todo aquello de lo que se ha forjado mi familia está ahí! ¡Incluso la parte del [ROOT.Char.Custom('CompositionDetail')], aparentemente tan descabellada, se ha convertido en un momento conmovedor que describe el destino de mi Casa!" #NT!
+ commission_epic.9002.a: "¡Este podría ser el [ROOT.Char.Custom('CompositionType')] más grande jamás escrito!" #NT!
+  
+ commission_epic.9101.t: "Épica familiar: una obra realizada" #NT!
+ commission_epic.9101.desc: "Después de todo el tiempo que [composer.GetTitledFirstName] ha pasado en mi corte, y de lo bien que [composer.GetSheHe] me ha llegado a conocer, se siente extraño que [composer.GetSheHe] esté a punto de partir.\n\n"Tengo otros lugares a donde ir y otras historias que Es necesario contarlo", intenta explicar [composer.GetSheHe]." #NT!
+ commission_epic.9101.a: "Supongo que esto es un adiós." #NT!
+ commission_epic.9101.b: "¡Aún hay mucho aquí para ti!" #NT!
+ commission_epic.9101.c: "Yo tambien te necesito. Aquí." #NT!
+ commission_epic.9101.d: "¡Mientras me escribas!" #NT!
+  
+ commission_epic.9102.t: "Épica familiar: servidumbre" #NT!
+ commission_epic.9102.desc: "[composer.GetTitledFirstName] ha demostrado que [composer.GetHerselfHimself] es mucho más capaz de lo que esperaría de un simple sirviente. ¡Si no lo hubiera sabido mejor, habría pensado en [composer.GetHerHim] de un linaje de poetas!\n\nDespués de todo el tiempo que hemos pasado juntos, parece extraño que [composer.GetSheHe] vuelva a palear tierra, o lo que sea que [composer.GetSheHe] solía hacer ." #NT!
+ commission_epic.9102.a: "[composer.GetSheHe|U] debería salir al mundo." #NT!
+ commission_epic.9102.a.flavor: "Dejemos que [composer.GetSheHe] vea si [composer.GetSheHe] puede hacer algo con [composer.GetHerselfHimself]" #NT!
+ commission_epic.9102.b: "Estoy seguro de que puedo encontrar algún uso para [composer.GetHerHim]." #NT!
+ commission_epic.9102.c: "Por extraño que parezca, quiero mantener [composer.GetHerHim] disponible." #NT!
+  
+ commission_epic.9103.desc: "Después de todo el tiempo que [composer.GetTitledFirstName] ha pasado en mi corte, y de lo bien que me ha llegado a conocer [composer.GetSheHe], sé que [composer.GetSheHe] no irá muy lejos.\n\n[composer.GetFirstNameNoTooltip] está de acuerdo. "Aún tengo muchas historias que contar y me parece correcto continuar contándolas aquí"." #NT!
+ commission_epic.9103.a: "Continuará sirviéndome honorablemente." #NT!
+  
+ commission_epic.9104.desc: "Después de todo el tiempo que [composer.GetTitledFirstName] ha pasado en mi corte, y de lo bien que me ha llegado a conocer [composer.GetSheHe], se siente extraño que [composer.GetSheHe] no esté aquí para ver la recepción del trabajo de [composer.GetHerHis].\n\nTanto las personas eruditas como los niños están aquí. [ROOT.Char.Custom('CompositionTypeActionPP')], e incluso a mí me parece una inspiración." #NT!
+ commission_epic.9104.a: "¡Al menos [composer.GetSheHe] no ha desaparecido para siempre!" #NT!
+ commission_epic.9104.b: "Así es la vida, a veces." #NT!
+ commission_epic.9104.b.flavor: "[ROOT.Char.Custom('CompositionTypeActionPP')|U] la historia, tengo que preguntarme. ¿Sabía [composer.GetFirstNameNoTooltip] que así sería como terminaría todo?" #NT!
+  
+ commission_epic.9998.t: "Épica familiar: un inconveniente" #NT!
+ commission_epic.9998.imprisoned_by_me: "Con [composer.GetTitledFirstName] en mi mazmorra," #NT!
+ commission_epic.9998.imprisoned: "Con [composer.GetTitledFirstName] preso," #NT!
+ commission_epic.9998.incapacitated: "Con [composer.GetTitledFirstName] en el estado actual [composer.GetHerHis]," #NT!
+ commission_epic.9998.left_court: "Sin [composer.GetTitledFirstName] ya en mi corte," #NT!
+ commission_epic.9998.ending: "Es difícil para [composer.GetHerHim] continuar con el trabajo de [composer.GetHerHis] en mi epopeya familiar.\n\nAfortunadamente, mi [ROOT.Char.Custom('CommissionEpicScribes')] estará listo para tomar el relevo." #NT!
+ commission_epic.9998.a: "Estoy seguro de que les irá bastante bien." #NT!
+ commission_epic.9998.tt: "El trabajo continúa" #NT!
+  
+ commission_epic.9999.t: "Épica familiar: el fin" #NT!
+ commission_epic.9999.murdered_by_me: "Teniendo en cuenta las medidas drásticas que tuve que tomar con respecto a [composer.GetTitledFirstName], parece que, después de todo, [composer.GetSheHe] nunca fue una buena opción para componer mi epopeya familiar.\n\nAfortunadamente, mis [ROOT.Char.Custom('CommissionEpicScribes')] son bastante capaces de hacerlo por sí mismos." #NT!
+ commission_epic.9999.died: "Con el fallecimiento de [composer.GetTitledFirstName], mi epopeya familiar queda incompleta.\n\nSerá una tarea difícil, pero mi [ROOT.Char.Custom('CommissionEpicScribes')] tendrá que continuar con los esfuerzos." #NT!
+ commission_epic.9999.a: "[composer.GetHerHis|U] trabajo se completará." #NT!

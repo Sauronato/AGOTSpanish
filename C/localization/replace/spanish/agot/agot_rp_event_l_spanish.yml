@@ -17,13 +17,18 @@
   
  #RP Events 
  agot_rp_event.0001.t: "Nace una dinastía"
+ agot_rp_event.0001.desc_westeros: ""Saludos, mi [ROOT.Char.GetLadyLord]; la Ciudadela me envió una vez que recibieron la noticia de su ascenso al Señorío. No, no soy su maestre. Estoy aquí para dejar constancia de su nueva posición y del nacimiento de su nuevo [house|E], es decir, si me permite hacer tal registro para la Ciudadela"." #NT!
  agot_rp_event.0001.desc: "Saludos, mi Lord; la Ciudadela me envió una vez que recibieron la noticia de su ascenso al Señorío. No, no soy su Maestre. Estoy aquí para hacer un registro de su nueva posición y el nacimiento de su nueva Casa, eso es si ¿Me permitirás hacer un disco así para la Ciudadela?"
  agot_rp_event.0001.a: "Ciertamente, ¿qué deseas saber?"
+ agot_rp_event.0001.a.tt_westeros: "Contar tu historia al Maestre te agregará modificadores y tendrá modificadores de opinión sobre tu señor, así como otros efectos." #NT!
  agot_rp_event.0001.a.tt: "Contarle su historia al Maestre le agregará modificadores y tendrá modificadores de opinión sobre su liderazgo, así como otros efectos."
  agot_rp_event.0001.b: "Ciertamente, ¿qué deseas saber?"
- agot_rp_event.0001.b.tt: "Contarle su historia al Maestre le agregará modificadores y tendrá modificadores de opinión sobre su liderazgo, así como otros efectos."
+ agot_rp_event.0001.c_westeros: "¡No tengo tiempo para libros de maestres!" #NT!
  agot_rp_event.0001.c: "¡No tengo tiempo para libros de Maestres!."
  agot_rp_event.0001.c.tt: "Esta opción descarta el evento "A Dinastia is Born" y comienzas sin modificadores ni modificadores de opinión para tu liderazgo."
+ agot_rp_event.0001.d: "Graba la apariencia de mi dinastía." #NT!
+ agot_rp_event.0001.d.tt: "Esta opción le permitirá crear una semilla fuerte personalizada." #NT!
+ agot_rp_event.0001.d.tt_warning: "@warning_icon! #X Solo puedes seleccionar una semilla fuerte personalizada desde este punto del menú.#!" #NT!
   
  agot_rp_event.0002.t: "Nace una dinastía"
  agot_rp_event.0002.desc: "Esto no tomará mucho tiempo; es un resumen del nacimiento de su Casa, no una historia o ambiciones en profundidad. ¿Comenzamos con cómo obtuvo su Señoría y su vida pasada?"
@@ -84,6 +89,7 @@
  agot_rp_event.0005.e.tt: "Tu ascenso ha sido solitario, aún así uno puede hacer amigos en el camino, o tal vez es mejor estar solo."
   
  agot_rp_event.0006.t: "Nace una dinastía"
+ agot_rp_event.0006.desc_westeros: ""Lo siento, ¿me pareció escuchar a alguien mencionar mi nombre?" dice el [rp_friend.GetWomanMan] en cuestión mientras [rp_friend.GetSheHe] entra a la habitación, [rp_friend.Custom('quirk_pos_pp')]; No puedo evitar sonreír ante su momento. El maestre se apresura a presentarse y exponer su propósito antes de volverse hacia mí. "Bueno, esto debería ser suficiente como resumen, mi [ROOT.Char.GetLadyLord]. Te deseo lo mejor en el futuro", dice el maestre con una reverencia." #NT!
  agot_rp_event.0006.desc: "Lo siento, ¿pensé que escuché a alguien mencionar mi nombre?" dice el hombre en cuestión al entrar en la habitación; No pude evitar sonreír ante su sincronización. El maestre se presentó rápidamente y expuso su propósito antes de volverse hacia mí. "Bueno, esto debería ser suficiente como resumen, mi Lord. Le deseo lo mejor en el futuro." dijo el Maestre con una reverencia.."
  agot_rp_event.0006.a: "¡Así comienza el nacimiento de mi Casa!"
  agot_rp_event.0006.a.tt: "¿Su dinastía se levantará o caerá?"
@@ -91,13 +97,13 @@
  agot_rp_event.0006.b.tt: "Seguro que a la Ciudadela no le importará."
   
  agot_rp_event.0007.t: "Nace una dinastía"
- agot_rp_event.0007.desc: "Lo siento, ¿pensé que escuché a alguien mencionar mi nombre?" dice la mujer en cuestión al entrar en la habitación; No pude evitar sonreír ante su sincronización. El maestre se presentó rápidamente y expuso su propósito antes de volverse hacia mí. "Bueno, esto debería ser suficiente como resumen, mi Lord. Le deseo lo mejor en el futuro." dijo el maestre con una reverencia."
  agot_rp_event.0007.a: "¡Así comienza el nacimiento de mi Casa!"
  agot_rp_event.0007.a.tt: "¿Su dinastía se levantará o caerá?"
  agot_rp_event.0007.b: "Por favor, quédate como mi Maestre."
  agot_rp_event.0007.b.tt: "Seguro que a la Ciudadela no le importará."
   
  agot_rp_event.0008.t: "Nace una dinastía"
+ agot_rp_event.0008.desc_westeros: "El maestre rápidamente hace algunos garabatos de todo lo que le había contado. Una vez hecho esto, levanta la vista hacia mí desde sus notas. "Bueno, esto debería ser suficiente como resumen, mi [ROOT.Char.GetLadyLord]. Te deseo lo mejor en el futuro", dice el maestre con una reverencia." #NT!
  agot_rp_event.0008.desc: "El Maestre rápidamente hizo algunos garabatos de todo lo que le había dicho. Una vez hecho esto, me miró desde sus notas. "Bueno, esto debería ser suficiente como resumen, mi Lord. Le deseo lo mejor en el futuro." dijo el maestre con una reverencia."
  agot_rp_event.0008.a: "¡Así comienza el nacimiento de mi Casa!"
  agot_rp_event.0008.a.tt: "¿Su dinastía se levantará o caerá?"
@@ -105,6 +111,7 @@
  agot_rp_event.0008.b.tt: "Seguro que a la Ciudadela no le importará."
   
  agot_rp_event.0009.t: "Nace una dinastía"
+ agot_rp_event.0009.desc_westeros: ""Conociendo las costumbres de los Hijos del Hierro, ¿afirmas descender de la esclavitud?" pregunta el maestre, sin estar seguro de cuál es la mejor manera de plantear la pregunta." #NT!
  agot_rp_event.0009.desc: "Conociendo los caminos de los Ironborn, ¿afirmas descender de Thralldom?" preguntó el Maestre, inseguro de la mejor manera de plantear la pregunta."
  agot_rp_event.0009.a: "Sí... mi Casa tiene la mancha de la Esclavitud."
  agot_rp_event.0009.a.tt: "Su Dinastía desciende de Thralls y Salt-Wives, por lo que Ironborn menosprecia a su Dinastía."
@@ -187,10 +194,72 @@
  agot_rp_event.0026.b: "Creo que preferiría una comida a una canción..."
   
  agot_rp_event.0027.t: "Ascenso de un jefe"
- agot_rp_event.0027.desc: "El bardo miró a su alrededor con nerviosismo: "Un huargo... ¿qué... qué tipo de piel de bestia llevas?" *ESTO ES TEMPORAL, CAMBIARÁ UNA VEZ QUE SE IMPLEMENTE EL SISTEMA WARG*." #NT!
+ agot_rp_event.0027.desc: "El Bardo miró nerviosamente a su alrededor, "Un huargo... qué... ¿qué tipo de piel de bestia usas?" *ESTO ES TEMPORAL, CAMBIARÁ UNA VEZ QUE SE IMPLEMENTE EL SISTEMA WARG*."
  agot_rp_event.0027.a: "Un oso."
  agot_rp_event.0027.a.tt: "Tu ascenso ha sido ayudado por un oso que te sigue a todas partes."
  agot_rp_event.0027.b: "Un lobo huargo."
  agot_rp_event.0027.b.tt: "Tu ascenso ha sido ayudado por un huargo que te sigue a todas partes."
  agot_rp_event.0027.c: "Un gato de las sombras."
  agot_rp_event.0027.c.tt: "Tu ascenso ha sido ayudado por un Shadowcat que te sigue a todas partes."
+  
+ agot_rp_event.0100.t: "Ha nacido una dinastía: semilla fuerte personalizada" #NT!
+ agot_rp_event.0100.desc: "Utilice el menú para seleccionar los aspectos de la fuerte apariencia de las semillas de su dinastía. Puedes seleccionar una semilla fuerte personalizada de cada categoría.\n\nPuedes usar el personaje de la derecha como ejemplo de cómo se ve cada elemento en términos de color o tamaño." #NT!
+ agot_rp_event.0100.a: "Cabello" #NT!
+ agot_rp_event.0100.b: "Altura" #NT!
+ agot_rp_event.0100.c: "Orejas" #NT!
+ agot_rp_event.0100.d: "Ojos" #NT!
+ agot_rp_event.0100.e: "Finalizado" #NT!
+ agot_rp_event.0101.a: "Bueno" #NT!
+ agot_rp_event.0102.a: "Bueno" #NT!
+ agot_rp_event.0103.a: "Bueno" #NT!
+ agot_rp_event.0104.a: "Bueno" #NT!
+ agot_rp_event.0105.t: "Semilla fuerte personalizada" #NT!
+ agot_rp_event.0105.desc: "Si deseas personalizar aún más tu regla, puedes agregar una semilla fuerte personalizada basada en las opciones existentes.\n\nTu semilla fuerte personalizada, si eliges crearla, será heredable por tus hijos dependiendo de tus reglas de juego.\n\ n@warning_icon! #X El uso de una semilla fuerte personalizada puede anular la apariencia de tu regla.#!" #NT!
+ agot_rp_event.0105.a: "¡Sí, llévame al menú personalizado de semillas fuertes!" #NT!
+ agot_rp_event.0105.b: "No, quiero jugar ahora." #NT!
+ # Height 
+ smol_tol_tt: "Ha seleccionado #P Altura Tol Smol#!" #NT!
+ tol_tt: "Ha seleccionado #P Altura Tol#!" #NT!
+ # Ears 
+ dumbo_ears_tt: "Has seleccionado #P Orejas de Dumbo#!" #NT!
+ # Hair 
+ cool_silver_hair_tt: "Has seleccionado #P Cabello plateado fresco#!" #NT!
+ cool_neutral_silver_hair_tt: "Has seleccionado #P Cabello plateado neutro frío#!" #NT!
+ neutral_silver_hair_tt: "Has seleccionado #P Cabello plateado neutro#!" #NT!
+ black_hair_tt: "Has seleccionado #P Cabello negro#!" #NT!
+ light_blonde_hair_tt: "Has seleccionado #P Cabello Rubio Claro#!" #NT!
+ gold_hair_tt: "Has seleccionado #P Cabello Dorado#!" #NT!
+ bronze_hair_tt: "Has seleccionado #P Cabello Bronce#!" #NT!
+ light_red_hair_tt: "Has seleccionado #P Cabello pelirrojo claro#!" #NT!
+ red_hair_tt: "Has seleccionado #P Pelo Rojo#!" #NT!
+ kissed_by_fire_hair_tt: "Has seleccionado #P Besado por el pelo de fuego#!" #NT!
+ auburn_hair_tt: "Has seleccionado #P Cabello castaño#!" #NT!
+ brown_hair_tt: "Has seleccionado #P Cabello castaño#!" #NT!
+ dark_brown_hair_tt: "Has seleccionado #P Cabello castaño oscuro#!" #NT!
+ light_blue_eyes_tt: "Has seleccionado #P Ojos azul claro#!" #NT!
+ blue_eyes_tt: "Has seleccionado #P Ojos azules#!" #NT!
+ midnight_eyes_tt: "Has seleccionado #P Ojos de medianoche#!" #NT!
+ seaglass_eyes_tt: "Has seleccionado #P Ojos de cristal#!" #NT!
+ seafoam_eyes_tt: "Has seleccionado #P Ojos de espuma de mar#!" #NT!
+ emerald_eyes_tt: "Has seleccionado #P Ojos Esmeralda#!" #NT!
+ grey_eyes_tt: "Has seleccionado #P Ojos Grises#!" #NT!
+ gold_eyes_tt: "Has seleccionado #P Ojos dorados#!" #NT!
+ light_brown_eyes_tt: "Has seleccionado #P Ojos castaños claros#!" #NT!
+ brown_eyes_tt: "Has seleccionado #P Ojos Marrones#!" #NT!
+ black_eyes_tt: "Has seleccionado #P Ojos negros#!" #NT!
+ purple_eyes_1_tt: "Has seleccionado #P Ojos morados 1#!" #NT!
+ purple_eyes_2_tt: "Has seleccionado #P Ojos morados 2#!" #NT!
+ purple_eyes_3_tt: "Has seleccionado #P Ojos morados 3#!" #NT!
+ purple_eyes_4_tt: "Has seleccionado #P Ojos morados 4#!" #NT!
+ purple_eyes_5_tt: "Has seleccionado #P Ojos morados 5#!" #NT!
+ purple_eyes_6_tt: "Has seleccionado #P Ojos morados 6#!" #NT!
+ purple_eyes_7_tt: "Has seleccionado #P Ojos morados 7#!" #NT!
+ purple_eyes_8_tt: "Has seleccionado #P Ojos morados 8#!" #NT!
+ purple_eyes_9_tt: "Has seleccionado #P Ojos morados 9#!" #NT!
+ purple_eyes_10_tt: "Has seleccionado #P Ojos morados 10#!" #NT!
+ purple_eyes_11_tt: "Has seleccionado #P Ojos morados 11#!" #NT!
+ purple_eyes_12_tt: "Has seleccionado #P Ojos morados 12#!" #NT!
+ purple_eyes_13_tt: "Has seleccionado #P Ojos morados 13#!" #NT!
+ purple_eyes_14_tt: "Has seleccionado #P Ojos morados 14#!" #NT!
+ purple_eyes_15_tt: "Has seleccionado #P Ojos morados 15#!" #NT!
+ purple_eyes_16_tt: "Has seleccionado #P Ojos morados 16#!" #NT!

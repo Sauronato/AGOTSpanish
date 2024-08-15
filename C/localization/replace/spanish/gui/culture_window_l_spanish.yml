@@ -1,0 +1,208 @@
+﻿l_spanish:
+ CULTURE_WINDOW_TITLE: "[Culture.GetNameNoTooltip]" #NT!
+ CULTURE_RELATION_MY_CULTURE: "Tu [culture|E]" #NT!
+ CULTURE_RELATION_MY_REALM: "[culture|E] en tu [realm|E]" #NT!
+ CULTURE_RELATION_MY_TOP_REALM: "[culture|E] en tu [top_realm|E]" #NT!
+ CULTURE_RELATION_FOREIGN_CULTURE: "Extranjero [culture|E]" #NT!
+ CULTURE_WINDOW_ERA_JOINED: "$JOINED$–" #NT!
+ CULTURE_WINDOW_ERA_JOINED_LEFT: "$JOINED$–$LEFT$" #NT!
+ CULTURE_WINDOW_ERA_LEFT: ""
+ CULTURE_WINDOW_ERA_DISCOVERED_BY: "Descubierto por [CULTURE.GetName]" #NT!
+ CULTURE_WINDOW_CULTURE_HEAD_TITLE: "[culture_head|E]: [Character.GetUIName|U]" #NT!
+ CULTURE_WINDOW_HEAD_FASCINATION: "[fascination|E]: [CultureWindow.GetCulture.GetFascination.GetName]" #NT!
+ CULTURE_WINDOW_CULTURE_HEAD_INFO: "#weak El Gobernante de esta Cultura que tiene más [CULTURE.GetNameNoTooltip] [counties|E] en sus [realm|E] ($COUNT|V$ Condados)#!" #NT!
+ CULTURE_WINDOW_MY_CULTURE_INFO: "#weak Tienes $COUNT|V$ [CULTURE.GetNameNoTooltip] Condados en tu Reino.#!" #NT!
+ CULTURE_WINDOW_INNOVATIONS: "[Culture.GetNameNoTooltip] [innovations|E]" #NT!
+ CULTURE_WINDOW_CULTURE: "[Culture.GetNameNoTooltip] Cultura" #NT!
+ CULTURE_WINDOW_ERA_NAME: "[CultureEra.GetNameNoTooltip] [era|E]\n[GuiCultureEra.GetJoinedLeftString]" #NT!
+ INNOVATION_TOOLTIP_TYPE: "[CultureInnovationType.GetGroupName] [innovation|E]" #NT!
+ INNOVATION_TOOLTIP_ERA: "[era|E]: [CultureInnovation.GetCultureEra.GetName]" #NT!
+ INNOVATION_TOOLTIP_GAIN: "Hay una probabilidad de [CultureInnovation.GetProgressChance|V%] de obtener [CultureInnovation.GetProgressGain|V^] de progreso cada mes:" #NT!
+ INNOVATION_NOT_IN_ERA: "#X No en $ERA_TYPE|V$ [era|E]#!" #NT!
+ INNOVATION_NOT_IN_REGION: "@warning_icon! #X El $CULTURE_NAME|V$ [culture|E] no está presente en $REGION$:\n Para estar presente, tampoco:\n $BULLET_WITH_TAB$$MIN_REGION|V$ Los condados en $REGION$ son $CULTURE_NAME$ (Actual: $CURRENT|V$)\n $BULLET_WITH_TAB$$CULTURE_NAME|V$0 de $CULTURE_NAME|V$1 todos$CULTURE_NAME|V$2 $CULTURE_NAME$ Los condados están dentro de $REGION$ (Actual: $CULTURE_NAME|V$5)$CULTURE_NAME|V$2" #NT!
+ INNOVATION_GAIN_BREAKDOWN_BASE: "Progreso básico" #NT!
+ INNOVATION_GAIN_BREAKDOWN_DEVELOPMENT: "Promedio [development|E] de [CULTURE.GetNameNoTooltip] [counties|E]" #NT!
+ INNOVATION_GAIN_BREAKDOWN_ERAS_AHEAD: "Del anterior $NAME|V$ [era|E]" #NT!
+ INNOVATION_CHANCE_BREAKDOWN_BASE: "Probabilidad base" #NT!
+ INNOVATION_CHANCE_BREAKDOWN_EXPOSURE_TYPE_BORDERS: "[exposure|E] #weak (Límite con el [CULTURE.GetCollectiveNoun])#!" #NT!
+ INNOVATION_CHANCE_BREAKDOWN_EXPOSURE_TYPE_REALM: "[exposure|E] #weak (Comparte [realm|E] con el [CULTURE.GetCollectiveNoun])#!" #NT!
+ INNOVATION_CHANCE_BREAKDOWN_EXPOSURE_TYPE_RELIGION: "[exposure|E] #weak (Comparte [religion|E] con el [CULTURE.GetCollectiveNoun])#!" #NT!
+ INNOVATION_CHANCE_BREAKDOWN_FASCINATION: "[fascination|E]" #NT!
+  #AGOT Modified 
+ #INNOVATION_ERA_NOT_IN_YEAR: "#N Esta Era no está disponible hasta el $YEAR$ d.C.#!" #NT!
+ INNOVATION_ERA_NOT_IN_YEAR: "#N Esta Era no está disponible#!" #NT!
+ INNOVATION_ERA_NOT_IN_PREVIOUS_ERA: "#N Primero debe llegar al [ERA.GetName] [era|E]#!" #NT!
+ INNOVATION_ERA_NOT_ENOUGH_INNOVATIONS_FROM_PREVIOUS_ERA: "#N No haber descubierto al menos [GetDefine('NCulture', 'MINIMUM_INNOVATIONS_TO_NEXT_ERA')|%0] de las Innovaciones del [ERA.GetName] [era|E] (falta $NUM_MISSING|V$)#!" #NT!
+ INNOVATION_ERA_PROGRESS_STATE: "Progreso: $PROGRESS|V0$/100" #NT!
+ INNOVATION_ERA_PROGRESS_ESTIMATED_TIME_LEFT: "#weak (~$TIME_LEFT$)#!" #NT!
+ INNOVATION_ERA_PROGRESS_SUM: "Progreso mensual" #NT!
+ INNOVATION_ERA_TOOLTIP_EFFECTS: "#T Efectos#!" #NT!
+ INNOVATION_UNLOCK_BUILDING: "Puede construir $NAME$" #NT!
+ INNOVATION_UNLOCK_DECISION: "Puede tomar $NAME$ [decision|E]" #NT!
+ INNOVATION_UNLOCK_CASUS_BELLI: "Puede usar $NAME$ [casus_belli|E]" #NT!
+ INNOVATION_UNLOCK_MAA: "Puede reclutar $NAME$ como [men_at_arms|E]" #NT!
+ INNOVATION_UNLOCK_LAW: "Puede promulgar el $NAME$ [law|E]" #NT!
+ INNOVATION_MEN_AT_ARMS_TYPE_BONUS: "$NAME$ bonificación:" #NT!
+ INNOVATION_TOOLTIP_PROGRESS: "Progreso: [CultureInnovation.GetProgress|0V]/100" #NT!
+ INNOVATION_STATE_DISCOVERED: "Conocido por el [CULTURE.GetCollectiveNoun]" #NT!
+ INNOVATION_STATE_PROGRESSING: "Se espera que se descubra en aproximadamente $TIME|V$" #NT!
+ INNOVATION_STATE_BLOCKED: "No disponible para el [CULTURE.GetCollectiveNoun]" #NT!
+ INNOVATION_CLICK_TO_SELECT_FASCINATION: "#I Haga clic para seleccionar como [cultural_fascination|E]#!" #NT!
+ INNOVATION_EXPOSURE_MARKER_TOOLTIP: "#T Actual [exposure|E]#!\nThis [culture|E] está actualmente expuesto a un [innovation|E], impulsando su progreso." #NT!
+ INNOVATION_FASCINATION_MARKER_TOOLTIP: "#T Actual [cultural_fascination|E]#!\nThe [cultural_head|E] está fascinado por este [innovation|E], impulsando su progreso. El Responsable Cultural puede en cualquier momento optar por dejarse fascinar por otra innovación." #NT!
+ CULTURE_WINDOW_ERA_INNOVATION_BLOCKED_FOR_PLAYER_GOVERNMENT: "#X @warning_icon! Bloqueado para [GetPlayer.GetGovernment.GetName] Gobierno#!" #NT!
+ CULTURE_TOOLTIP_DESC: "[heritage|E]: [Culture.GetHeritage.GetNameNoTooltip]\n[cultural_head|E]: [Culture.GetCultureHead.GetUIName|U]\n[era|E]: [Culture.GetCultureEra.GetName]\n\n[Culture.GetCultureEra.GetType.GetDescription|F]" #NT!
+ CULTURE_ERA_TOOLTIP_REACHED: "#P Los [CultureEra.GetCulture.GetCollectiveNounNoTooltip] han llegado a esta Era#!" #NT!
+ CULTURE_ERA_INNOVATION_COUNT_JOIN_LEAVE: "[GuiCultureEra.GetJoinedLeftString]\n[CultureEra.GetNumberOfActiveInnovations]/[CultureEra.GetNumberOfInnovations]" #NT!
+ CULTURE_ERA_INNOVATION_COUNT: "[CultureEra.GetNumberOfActiveInnovations]/[CultureEra.GetNumberOfInnovations]" #NT!
+ CULTURE_ERA_BLOCKED_BLOCKED_TILE: "La Era [CultureEra.GetNameNoTooltip] aún no ha sido alcanzada por el [CultureEra.GetCulture.GetCollectiveNounNoTooltip]" #NT!
+ CULTURE_COOLTIP_FASCINATION: "[fascination|E] actual: [Culture.GetFascination.GetNameNoTooltip]" #NT!
+ CULTURE_COOLTIP_ERA: "Actual [era|E]: [Culture.GetCultureEra.GetName] #weak ([Culture.GetNumberOfDiscoveredInnovations] Innovaciones)#!" #NT!
+ CULTURE_COOLTIP_NO_AVAILABLE_INNOVATION: "No hay innovaciones disponibles" #NT!
+ CULTURE_WINDOW_CULTURE_HEAD_NOTPLAYER: "[CultureWindow.GetCultureHeadInfo]. [CultureWindow.GetMyCultureInfo]" #NT!
+ CULTURE_COOLTIP_HEAD: "[cultural_head|E]: [Culture.GetCultureHead.GetUIName|U]" #NT!
+ CULTURE_COOLTIP_NO_HEAD: "[cultural_head|E]: Ninguno" #NT!
+ CULTURE_COOLTIP_CLICK: "#I Haga clic para ver [Culture.GetNameNoTooltip]#!" #NT!
+ CULTURE_VIEW_OVERVIEW: "Tradiciones y pilares" #NT!
+ CULTURE_VIEW_INNOVATIONS: "Innovaciones ([Culture.GetCultureEra.GetNameNoTooltip])" #NT!
+ CULTURE_VIEW_ACCEPTANCE: "[Concept( 'cultural_acceptance', 'Acceptance' )|E]: [Culture.GetAcceptance( GetPlayer.GetCulture )|%/0V]" #NT!
+ CULTURE_ACCEPTANCE_TOOLTIP: "#T Aceptación cultural: [Culture.GetAcceptance( GetPlayer.GetCulture )|%/0]\n#!#weak Aceptación mutua entre [GetPlayer.GetCulture.GetName] y [Culture.GetNameNoTooltip]#!\n\n[Culture.GetYearlyAcceptanceChangeDesc( GetPlayer.GetCulture )]\n\n[Culture.GetAcceptanceBaselineDesc( GetPlayer.GetCulture )]\n\n[Culture.GetAcceptanceChangelog( GetPlayer.GetCulture )]" #NT!
+ CULTURE_VIEW_ACCEPTANCE_DIFF: "[Culture.GetAcceptanceDiff( GetPlayer.GetCulture )|2+=]" #NT!
+ CULTURE_VIEW_ACCEPTANCE_DIFF_BRACKETS: "([Culture.GetAcceptanceDiff( GetPlayer.GetCulture )|1+=])" #NT!
+ CULTURE_VIEW_PILLARS: "Pilares" #NT!
+ CULTURE_VIEW_TRADITIONS: "Tradiciones" #NT!
+ CULTURE_VIEW_AESTHETICS: "Estética" #NT!
+  #AGOT Modified 
+ #CULTURE_VIEW_HERITAGE_TEXT: "[CulturePillar.GetNameNoTooltip] Patrimonio" #NT!
+ #CULTURE_VIEW_LANGUAGE_TEXT: "[CulturePillar.GetNameNoTooltip] Idioma" #NT!
+ CULTURE_VIEW_HERITAGE_TEXT: "[CulturePillar.GetNameNoTooltip] Sangre" #NT!
+ CULTURE_VIEW_LANGUAGE_TEXT: "[CulturePillar.GetNameNoTooltip] Lengua" #NT!
+ CULTURE_VIEW_MARTIAL_CUSTOM_TEXT: "Marcial: [CulturePillar.GetNameNoTooltip]" #NT!
+ CULTURAL_ACCEPTANCE_FROM_BORDER: "Bordeando mi cultura" #NT!
+ CULTURAL_ACCEPTANCE_FROM_SHARED_REALM: "[Concept( 'culture_intermingling', 'Intermingling in Realm' )|E]" #NT!
+ CULTURAL_ACCEPTANCE_FROM_SHARED_REALMS: "[Concept( 'culture_intermingling', 'Intermingling in Realms' )|E]" #NT!
+ CULTURAL_ACCEPTANCE_FROM_VASSALS: "Vasallaje" #NT!
+ CULTURAL_ACCEPTANCE_FROM_REGRESSION: "Decaimiento hacia [Concept( 'cultural_acceptance_baseline', 'Baseline' )|E] ($BASELINE|%/0$)" #NT!
+ CULTURAL_ACCEPTANCE_FROM_REGRESSION_NO_INTERACTION: "Decaimiento hacia [Concept( 'cultural_acceptance_baseline', 'Baseline' )|E], sin interacción ($BASELINE|%/0$)" #NT!
+ CULTURAL_ACCEPTANCE_DIMINISHING_RETURNS: "Aceptación actual" #NT!
+ CULTURAL_ACCEPTANCE_FROM_NO_INTERACTION: "Sin interacción" #NT!
+ CULTURAL_ACCEPTANCE_FROM_TASK: "[CHARACTER.GetShortUINameNotMe] es [promoting_cultural_acceptance|E]" #NT!
+ CULTURAL_ACCEPTANCE_YEARLY_CHANGE: "Cambio anual" #NT!
+ CULTURAL_ACCEPTANCE_GAINS: "Ganancia anual" #NT!
+ CULTURAL_ACCEPTANCE_LOSSES: "Pérdida anual" #NT!
+ CULTURAL_ACCEPTANCE_BASELINE: "[Concept( 'cultural_acceptance_baseline', 'Acceptance Baseline' )|E]" #NT!
+ CULTURE_PILLAR_GENERAL_TOOLTIP: "[CulturePillar.GetEffectDescription( Culture.Self )]\n\n[CulturePillar.GetDescription( Culture.Self )|F]" #NT!
+  #AGOT Modified 
+ #CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "#P +20#! [cultural_acceptance_baseline|E] con Culturas que comparten este Patrimonio" #NT!
+ #CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME: "Tu herencia" #NT!
+ #CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF: "Patrimonio diferente al tuyo [culture|E]" #NT!
+ #CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT: "#P +10#! [cultural_acceptance_baseline|E] con culturas que comparten este idioma" #NT!
+ #CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME: "Tu idioma nativo" #NT!
+ #CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF: "Idioma diferente al de tu [culture|E]" #NT!
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_EFFECT: "#P +20#! [cultural_acceptance_baseline|E] con Culturas que comparten esta Sangre" #NT!
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_SAME: "Tu sangre" #NT!
+ CULTURE_PILLAR_TOOLTIP_HERITAGE_DIFF: "Sangre diferente a la tuya [culture|E]" #NT!
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_EFFECT: "#P +10#! [cultural_acceptance_baseline|E] con culturas que comparten esta lengua" #NT!
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_SAME: "Tu lengua nativa" #NT!
+ CULTURE_PILLAR_TOOLTIP_LANGUAGE_DIFF: "Lengua diferente a la tuya [culture|E]" #NT!
+ CULTURE_PILLAR_TOOLTIP_COURT_LANGUAGE: "Tu [court_language|E]" #NT!
+ CULTURE_TRADITION_GENERAL_TOOLTIP: "[CultureTradition.GetEffectDescription( Culture.Self )]\n\n[CultureTradition.GetDescription( Culture.Self )|F]" #NT!
+ CULTURE_TRADITION_TOOLTIP_CLICKINFO: "[Select_CString( GetVariableSystem.HasValue( 'culture_view_reform_open', 'true' ), '#I Click to replace#!', '' )]" #NT!
+ CULTURE_TRADITION_ESTABLISHING_TOOLTIP: "Progreso: [CultureReformation.GetProgress|2]/100 ([CultureReformation.GetTimeLeft] restante)\nProgreso mensual [CultureReformation.GetProgressBreakdown]\n\n[CultureTradition.GetEffectDescription( Culture.Self )]\n\n[CultureTradition.GetDescription( Culture.Self )|F]" #NT!
+ CULTURE_PILLAR_ESTABLISHING_TOOLTIP: "Progreso: [CultureReformation.GetProgress|2]/100 ([CultureReformation.GetTimeLeft] restante)\nProgreso mensual [CultureReformation.GetProgressBreakdown]\n\n[CulturePillar.GetEffectDescription( Culture.Self )]\n\n[CulturePillar.GetDescription( Culture.Self )|F]" #NT!
+ CULTURE_TRADITION_ESTABLISHING_PROGRESS_HEADER: "#S Establecimiento#!\n#weak Hasta que no se establezca, no se aplicará ninguno de los efectos del [tradition|E]#!" #NT!
+ CULTURE_PILLAR_ESTABLISHING_PROGRESS_HEADER: "#S Estableciéndose#!\n#weak Hasta que no se establezca, no se aplicará ninguno de los efectos del [CulturePillar.GetTypeName]#!" #NT!
+ CHARACTERS_OF_CULTURE_MODIFIER: "#S Todos [CULTURE.GetNameNoTooltip] Caracteres:#!" #NT!
+ CHARACTERS_OF_UNKNOWN_CULTURE_MODIFIER: "#S Todos los personajes de la cultura:#!" #NT!
+ CHARACTERS_OF_CULTURE_DOCTRINE_MODIFIER: "#S Todos los personajes con [FAITH_DOCTRINE.GetBaseName]#!" #NT!
+ COUNTIES_OF_CULTURE_MODIFIER: "#S Todos [CULTURE.GetNameNoTooltip] Condados:#!" #NT!
+ COUNTIES_OF_UNKNOWN_CULTURE_MODIFIER: "#S Todos los Condados de la Cultura:#!" #NT!
+ HOLDINGS_OF_CULTURE_MODIFIER: "#S Todos [CULTURE.GetNameNoTooltip] Participaciones:#!" #NT!
+ HOLDINGS_OF_UNKNOWN_CULTURE_MODIFIER: "#S Todos los fondos de la cultura:#!" #NT!
+ pillar_type_heritage: "[heritage|E]" #NT!
+ pillar_type_ethos: "[ethos|E]" #NT!
+ pillar_type_language: "[language|E]" #NT!
+ pillar_type_martial_custom: "[martial_custom|E]" #NT!
+ CULTURE_AESTHETICS: "[Culture.GetNameNoTooltip] Estética" #NT!
+ CULTURE_AESTHETICS_TOOLTIP: "#T [Culture.GetNameNoTooltip] Estética#!\nNaming Prácticas: [Culture.GetNamingListName|V]\nArquitectura: [Culture.GetBuildingGfxName|V]\nModa: [Culture.GetClothingGfxName|V]\nEscudo: [Culture.GetCoAGfxName|V]\nEquipo militar: [Culture.GetUnitGfxName|V]" #NT!
+ CULTURE_WINDOW_NO_HEAD: "No [culture_head|E]" #NT!
+ CULTURE_WINDOW_NO_HEAD_NO_COUNTIES: "No hay condados de cultura" #NT!
+ CULTURE_WINDOW_NO_VALID_HEAD: "Ningún candidato válido" #NT!
+ CULTURE_ACCEPTANCE_CHANGELOG_ENTRY: "[DATE.GetStringShort]: $DESC$: $VALUE|1+=$" #NT!
+ CULTURE_ACCEPTANCE_CHANGELOG_HEADER: "#S Cambios recientes:#!" #NT!
+ NO_HYBRIDIZE_INFO_HERITAGE: "No puedes formar un [hybrid_culture|E] con uno del mismo [heritage|E] que el tuyo" #NT!
+ NO_HYBRIDIZE_INFO_PARENT: "No puedes formar un [hybrid_culture|E] con una Cultura de la que la tuya se derive" #NT!
+ NO_HYBRIDIZE_INFO_CHILD: "No puedes formar un [hybrid_culture|E] con una Cultura que se derive de la tuya" #NT!
+ HYBRIDIZE_CULTURE_LABEL: "Formar una cultura híbrida" #NT!
+ HYBRIDIZE_CULTURE_TOOLTIP: "#T $HYBRIDIZE_CULTURE_LABEL$#!\nForm un nuevo [hybrid_culture|E], creando una combinación de aspectos de las culturas [GetPlayer.GetCulture.GetNameNoTooltip] y [Culture.GetNameNoTooltip]\n\n[GetPlayer.GetCulture.GetHybridizationBlockers( Culture.Self )]" #NT!
+ DIVERGE_CULTURE_LABEL: "Cultura divergente" #NT!
+ DIVERGE_CULTURE_TOOLTIP: "#T Diversificar cultura#!\nDiverge de [Culture.GetName], creando un nuevo [divergent_culture|E].\n\n[GetPlayer.GetCulture.GetDivergenceBlockers]" #NT!
+  #AGOT Modified 
+ # CULTURE_CREATION_DATE: "Formado en [DATE.GetYear]" #NT!
+ # CULTURE_CREATION_DATE_DIVERGED: "Se apartó de [CULTURE.GetName] en el año [DATE.GetYear]" #NT!
+ # CULTURE_CREATION_DATE_HYBRID: "Formado a partir de [CULTURE.GetName] y [TARGET_CULTURE.GetName] en el año [DATE.GetYear]" #NT!
+ CULTURE_CREATION_DATE: "Formado en $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$" #NT!
+ CULTURE_CREATION_DATE_DIVERGED: "Se separó de [CULTURE.GetName] en el año $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$" #NT!
+ CULTURE_CREATION_DATE_HYBRID: "Formado a partir de [CULTURE.GetName] y [TARGET_CULTURE.GetName] en el año $ERA_SEL_CULTURE$ $YEAR_SEL_CULTURE$" #NT!
+ ADD_TRADITION_WINDOW_TITLE: "Establecer tradición" #NT!
+ REPLACE_TRADITION_WINDOW_TITLE: "Reemplazar la tradición" #NT!
+ ADD_TRADITION_LABEL: "Establecer tradición" #NT!
+ REPLACE_TRADITION_LABEL: "Reemplazar la tradición" #NT!
+ ADD_TRADITION_EXECUTE_LABEL: "Establecer tradición" #NT!
+ REPLACE_TRADITION_EXECUTE_LABEL: "Reemplazar la tradición" #NT!
+ ADD_TRADITION_EXECUTE_TOOLTIP: "#T Establecer Tradición#!\nAdd un nuevo [culture_tradition|E] a [GetPlayer.GetCulture.GetName].\n\n[AddTraditionWindow.GetBlockers]\n\n[SelectLocalization(GetPlayer.GetCulture.IsReforming, 'REFORM_CULTURE_TOOLTIP_WARNING','')]" #NT!
+ REPLACE_TRADITION_EXECUTE_TOOLTIP: "#T Reemplazar Tradición#!\nReplace [AddTraditionWindow.GetReplacedTradition.GetName()] en [GetPlayer.GetCulture.GetName] con un nuevo [culture_tradition|E].\n\n[AddTraditionWindow.GetBlockers]\n\n[SelectLocalization(GetPlayer.GetCulture.IsReforming, 'REFORM_CULTURE_TOOLTIP_WARNING','')]" #NT!
+ ADD_TRADITION_TOOLTIP: "#T Establecer Tradición#!\nAdd un nuevo [culture_tradition|E] a [Culture.GetName].\n\n[Culture.GetAddTraditionBlockers]" #NT!
+ REPLACE_TRADITION_TOOLTIP: "#T Reemplazar Tradición#!\nReplace este [culture_tradition|E] en [Culture.GetName] con un nuevo [culture_tradition|E].\n\n[Culture.GetAddTraditionBlockers]" #NT!
+ ADD_TRADITION_TOTAL_COST: "Costo: [AddTraditionWindow.GetCostString]" #NT!
+ REPLACE_TRADITION_TOTAL_COST: "Costo: [AddTraditionWindow.GetCostString]" #NT!
+ ADD_TRADITION_COST_TOOLTIP: "#T Agregar costo tradicional: [AddTraditionWindow.GetCostString]#!\n[AddTraditionWindow.GetCostBreakdown]" #NT!
+ REPLACE_TRADITION_COST_TOOLTIP: "#T Reemplazar costo tradicional: [AddTraditionWindow.GetCostString]#!\n[AddTraditionWindow.GetCostBreakdown]" #NT!
+ ADD_TRADITION_NO_TRADITION_SELECTED: "@warning_icon! #X No [culture_tradition|E] seleccionado#!" #NT!
+ ADD_TRADITION_AT_TRADITION_CAP: "@warning_icon! #X No puede tener más [traditions|E]#!" #NT!
+ ADD_TRADITION_NOT_CULTURE_HEAD: "@warning_icon! #X Tú no eres el [culture_head|E]#!" #NT!
+ REPLACE_TRADITION_NO_NEW_TRADITION_SELECTED: "@warning_icon! #X No hay nuevos [culture_tradition|E] seleccionados#!" #NT!
+ REPLACE_TRADITION_NOT_CULTURE_HEAD: "@warning_icon! #X Tú no eres el [culture_head|E]#!" #NT!
+ #TRADITION_CATEGORY_NAME: ""
+ TRADITION_CATEGORY_COUNT: "[TraditionGrouping.GetPickableInGrouping]/[TraditionGrouping.GetTotalInGrouping]" #NT!
+ TRADITION_CATEGORY_OTHER: "Otro" #NT!
+ tradition_group_law: "Ley" #NT!
+ tradition_group_combat: "Guerra" #NT!
+ tradition_group_realm: "Reino" #NT!
+ tradition_group_regional: "Regional" #NT!
+ tradition_group_societal: "Social" #NT!
+ tradition_group_ritual: "Ritual" #NT!
+  
+ REFORM_CULTURE_LABEL: "Reforma [Culture.GetNameNoTooltip]" #NT!
+ REFORM_CULTURE_TOOLTIP: "[reform|E] [traditions|E], [ethos|E] o [culture_pillars|E] de [Culture.GetName]\n\n[SelectLocalization(Culture.IsReforming, 'REFORM_CULTURE_TOOLTIP_WARNING','')]" #NT!
+ REFORM_CULTURE_TOOLTIP_WARNING: "@warning_icon! #X Un [reformation|E] ya está en curso." #NT!
+ REFORM_CULTURE_CLOSE_LABEL: "Cancelar" #NT!
+ REFORM_CULTURE_CLOSE_TOOLTIP: "Volver sin hacer reformas" #NT!
+ REFORM_ETHOS_NEW_NAME: "[Culture.GetReformation.GetNewPillar.GetName]:" #NT!
+ REPLACE_PILLAR_NAME: "[ReplacePillarWindow.GetReplacedPillar.GetTypeNameNoTooltip]" #NT!
+ REPLACE_PILLAR_WINDOW_TITLE: "Reemplazar $REPLACE_PILLAR_NAME$" #NT!
+ REPLACE_PILLAR_LABEL: "Reemplazar $REPLACE_PILLAR_NAME$" #NT!
+ REPLACE_PILLAR_EXECUTE_LABEL: "Reemplazar $REPLACE_PILLAR_NAME$" #NT!
+ REPLACE_PILLAR_EXECUTE_TOOLTIP: "#T Reemplace $REPLACE_PILLAR_NAME$#!\nReplace [ReplacePillarWindow.GetReplacedPillar.GetName] en [GetPlayer.GetCulture.GetName] con un nuevo [ReplacePillarWindow.GetReplacedPillar.GetTypeName].\n\n[ReplacePillarWindow.GetBlockers]\n\n[SelectLocalization(GetPlayer.GetCulture.IsReforming, 'REFORM_CULTURE_TOOLTIP_WARNING','')]" #NT!
+ REPLACE_PILLAR_NOT_CULTURE_HEAD: "@warning_icon! #X Tú no eres el [culture_head|E]#!" #NT!
+ REPLACE_PILLAR_NO_NEW_PILLAR_SELECTED: "@warning_icon! #X No hay nuevos [ReplacePillarWindow.GetReplacedPillar.GetTypeName] seleccionados#!" #NT!
+ REPLACE_PILLAR_TOTAL_COST: "Costo: [ReplacePillarWindow.GetCostString]" #NT!
+ REPLACE_PILLAR_COST_TOOLTIP: "#T Reemplazar costo de pilar: [ReplacePillarWindow.GetCostString]#!\n[ReplacePillarWindow.GetCostBreakdown]" #NT!
+ REFORMATION_GAIN_BREAKDOWN_BASE: "Progreso base" #NT!
+ REFORMATION_GAIN_BREAKDOWN_COUNTIES: "Número de [CULTURE.GetNameNoTooltip] [counties|E]" #NT!
+ REFORMATION_REPLACE_TRADITION_PROGRESS_MULT: "Reemplazo de un [tradition|E] existente" #NT!
+ REFORMATION_PROGRESS_BREAKDOWN: "#S Progreso mensual#! [Culture.GetReformation.GetProgressBreakdown]" #NT!
+ REFORMATION_TRADITION_REPLACEMENT_LABEL: "Reemplazando con [CultureReformation.GetNewTradition.GetNameNoTooltip()]" #NT!
+ REFORMATION_NEW_TRADITION_INFO: "A establecerse en [CultureReformation.GetTimeLeft]" #NT!
+ REFORMATION_CONFIRM_CANCEL_TITLE: "Cancelar la reforma" #NT!
+ REFORMATION_CONFIRM_CANCEL_BODY: "¿Quieres cancelar la reforma actual?" #NT!
+ REFORMATION_CONFIRM_CANCEL_ACCEPT: "Aceptar" #NT!
+ CANCEL_REFORMATION_NOT_CULTURE_HEAD: "@warning_icon! #X Tú no eres el [culture_head|E]#!" #NT!
+ REFORMATION_TOTAL_TIME: "@time_icon! $TIME$" #NT!
+ REFORMATION_MONTHLY_PROGRESS: "#S Progreso mensual#!" #NT!
+ CULTURE_CLICK_TO_REPLACE: "#I Haga clic para reemplazar#!" #NT!
+ CULTURE_CLICK_TO_ADD_TRADITION: "#I Establecer nuevo [tradition|E]#!" #NT!
+  
+ ESTABLISHMENT_TIME_TOOLTIP_PILLAR: "#T Tiempo para establecer:[Culture.GetTotalReformTimeForPillar]#!\n[Culture.GetTotalReformTimeBreakdownForPillar]" #NT!
+ ESTABLISHMENT_TIME_TOOLTIP_NEW_TRADITION: "#T Tiempo para establecer:[GetPlayer.GetCulture.GetTotalReformTimeForNewTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForNewTradition]" #NT!
+ ESTABLISHMENT_TIME_TOOLTIP_REPLACING_TRADITION: "#T Tiempo para establecer:[GetPlayer.GetCulture.GetTotalReformTimeForReplacingTradition]#!\n[GetPlayer.GetCulture.GetTotalReformTimeBreakdownForReplacingTradition]" #NT!

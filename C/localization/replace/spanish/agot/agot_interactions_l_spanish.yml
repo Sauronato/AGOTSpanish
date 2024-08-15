@@ -7,7 +7,8 @@
  mute_interaction: "Silenciar"
  mute_interaction_desc: "Convertir [recipient.GetShortUINameNoTooltip] en [GetTrait('mute').GetName( GetPlayer )]"
   
-  
+ sell_prisoner_into_slavery_interaction: "Vender como esclavo" #NT!
+ sell_prisoner_into_slavery_interaction_desc: "Vender [recipient.GetShortUINameNoTooltip] como esclavo" #NT!
   
  #septa 
  septa_child_language_rank_1: "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 5#! [success_chance|E] y [scheme_power|E] adicionales"
@@ -45,6 +46,7 @@
  WHEREABOUTS_UNKNOWN: "Se desconoce el paradero de [CHARACTER.GetShortUIName|U]"
   
  offer_vassalization_shattered_world_tt: "Equilibrio mundial destrozado: $VALUE|=+0$"
+ offer_vassalization_stepstones_tt: "Pirata: $VALUE|=+0$" #NT!
   
  offer_dawn_interaction: "Oferta amanecer"
  offer_dawn_interaction_desc: "Ofrecer Dawn a [recipient.GetShortUINameNoTooltip]. Si [recipient.GetSheHe] no es digno, [recipient.GetSheHe] no puede aceptar..."
@@ -56,5 +58,7 @@
   
  raise_to_nobility_interaction: "Ascenso a la nobleza"
  raise_to_nobility_interaction_desc: "Elevar [recipient.GetShortUINameNoTooltip] a la nobleza"
- raise_to_nobility_tt: "Será elevado a la nobleza y fundará una nueva dinastía." #NT!
+ raise_to_nobility_tt: "Será elevado a la nobleza y fundará una nueva dinastía."
  raised_me_to_nobility_opinion: "Elevado a la nobleza"
+  
+ already_offered_concubine_warning: "@warning_icon! #X Ya has ofrecido una concubina a [recipient.GetShortUIName], ofrecer otra #underline anulará#! el modificador [opinion|E] existente.#!" #NT!

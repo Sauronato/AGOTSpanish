@@ -20,8 +20,9 @@
  TITLE_VIEW_NO_DEJURE_COUNTIES: "Los [Concept( 'title', 'títulos' )|E] seleccionados no tienen ningún [Concept( 'county', 'condado' )|E] de iure"
  TITLE_VIEW_COUNTIES: "$LIMIT|V$ [Concept( 'counties', 'condados' )|E] de iure ($CURRENT|V$)"
  TITLE_VIEW_COUNTIES_DETAILED: "Se necesita $MINIMUM|V$ de $TOTAL|V$ [Concept( 'counties', 'condados' )|E] [de_jure|E] (más del $PERCENTAGE|0%V$)\nPoseo $OWNED|V$ [Concept( 'counties', 'condados' )|E]"
+ TITLE_VIEW_COUNTIES_DETAILED_PERCENTAGE_BREAKDOWN_HEADER: "\n\n[county|E] requisito de propiedad:\n" #NT!
  TITLE_VIEW_GOLD_TEXT: "$VALUE|0V$ [gold_i]"
- TITLE_VIEW_PRESTIGE_TEXT: "Da $VALUE|0V$ [prestige_i]"
+ TITLE_VIEW_GAIN_TEXT: "Da [prestige_i]$PRESTIGE|0V$ y [legitimacy_i]$LEGITIMACY|0V$" #NT!
  TITLE_VIEW_PRESTIGE_COST_TEXT: "$VALUE|0V$ [prestige_i]"
  TITLE_VIEW_CLAIMANTS: "Pretendientes: [TitleViewWindow.GetNumberOfClaimants]"
  TITLE_VIEW_NO_CLAIMANTS: "No puede tener pretendientes"
@@ -39,6 +40,7 @@
  DESTROY_TITLE_CONFIRM: "Se destruirá el título.\n\nCoste:\n$PRESTIGE|0V$ [prestige_i]"
  DESTROY_TITLE_CONFIRM_ACCEPT: "Destruir"
  DESTROY_TITLE_TOOLTIP_TITLE: "#T Destruir el [TITLE.GetBaseName]#!"
+ DESTROY_TITLE_LEGITIMACY_LOSS: "$BULLET$ [legitimacy|E]: [legitimacy_i]$LEGITIMACY|0+$" #NT!
  DESTROY_TITLE_COST: "Coste: $PRESTIGE|0V$ [prestige_i]"
  DESTROY_TITLE_BLOCKER_PRIMARY_TITLE: "@warning_icon!#X No se puede destruir tu [primary_title|E].#!"
  DESTROY_TITLE_REASON_CONTESTED: "@warning_icon!#X No se puede destruir mientras se lucha una guerra#!"
@@ -61,7 +63,7 @@
  USURP_TITLE_CONFIRM_ACCEPT: "Usurpar"
  CREATE_TITLE_HOLDER_HAS_LAND: "@warning_icon!#X No se puede usurpar un [title|E] a alguien que considera tu [faith|E] [Concept( 'faith_hostility', 'hostil' )|E] o peor mientras controle alguna de sus tierras [de_jure|E]#!"
  DESTROY_TITLE_VASSAL_OPINION: "Los [vassals|E] [de_jure|E] de [TITLE.GetName] perderán $OPINION_CHANGE|N$ de opinión sobre ti durante $TIME|V$ años"
- CREATE_TITLE_TOOLTIP_PRESTIGE_GAIN: "Cuando se cree, ganarás $PRESTIGE|0V$ [prestige_i]"
+ CREATE_TITLE_TOOLTIP_GAIN: "Cuando se crea, obtienes [prestige_i]$PRESTIGE|0V$ y [legitimacy_i]$LEGITIMACY|0V$" #NT!
  CREATE_TITLE_COST: "Coste: $GOLD|0V$ [gold_i]"
  CREATE_TITLE_WOULD_GO_INDEPENDENT: "El título tiene un nivel igual o superior que el título principal de tu [liege|E]"
  USURP_TITLE_TOOLTIP_PRESTIGE_GAIN: "Al usurparse:\nGanas $PRESTIGE|0V$ [prestige_i]"
@@ -180,3 +182,10 @@
  TITLE_VIEW_FACTION: "[faction|E] [Faction.GetName]"
  CREATE_TITLE_MIN_COST: "Coste mínimo"
  grant_title_info_text: "O elige un personaje de tu señorío…"
+  
+ CREATE_TITLE_PERCENTAGE_BASE_DUCHY_KINGDOM: "Base para el título [duchy|E] / [kingdom|E]" #NT!
+ CREATE_TITLE_PERCENTAGE_BASE_EMPIRE: "Base para el título [empire|E]" #NT!
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_EXTRA_REDUCED: "Descuento importante de [legitimacy_level|E]" #NT!
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_VERY_REDUCED: "[legitimacy_level|E] descuento" #NT!
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_REDUCED: "Descuento menor [legitimacy_level|E]" #NT!
+ CREATE_TITLE_PERCENTAGE_LEGITIMACY_DISCOUNT_NONE: "[legitimacy_level|E] descuento" #NT!

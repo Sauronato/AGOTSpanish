@@ -59,10 +59,41 @@
  agot_bought_knighthood_desc_second_perspective_1: "Compraste tu título de caballero"
  agot_bought_knighthood_desc_third_perspective_1: "[owner.GetName] compró el título de caballero"
   
+ agot_was_knighted_as_tourney_prize: "Fue nombrado caballero en un torneo"
+ agot_was_knighted_as_tourney_prize_desc: "Conviértete en caballero en un torneo"
+ agot_was_knighted_as_tourney_prize_desc_1: "[knight.GetTitledFirstName] me nombró caballero después de ganar un concurso en su torneo."
+ agot_was_knighted_as_tourney_prize_desc_second_perspective_1: "[knight.GetTitledFirstName] te nombró caballero después de ganar un concurso en su torneo."
+ agot_was_knighted_as_tourney_prize_desc_third_perspective_1: "[owner.GetName] fue nombrado caballero por [knight.GetTitledFirstName] después de ganar un concurso en su torneo."
+  
+ agot_knighted_someone_as_tourney_prize: "Nombró caballero a alguien en un torneo"
+ agot_knighted_someone_as_tourney_prize_desc_1: "Le hice caballero a [squire.GetTitledFirstName] después de que ganaran un concurso en mi torneo."
+ agot_knighted_someone_as_tourney_prize_desc_second_perspective_1: "Armaste caballero a [squire.GetTitledFirstName] después de que ganaron un concurso en tu torneo."
+ agot_knighted_someone_as_tourney_prize_desc_third_perspective_1: "[owner.GetName] nombrado caballero [squire.GetTitledFirstName] después de ganar un concurso en su torneo"
+  
+ agot_was_stripped_of_knighthood: "Fue despojado del título de caballero" #NT!
+ agot_was_stripped_of_knighthood_desc_1: "[stripper.GetTitledFirstName] me despojó de mi título de caballero como castigo." #NT!
+ agot_was_stripped_of_knighthood_desc_second_perspective_1: "Fuiste despojado de tu título de caballero por [stripper.GetTitledFirstName] como castigo." #NT!
+ agot_was_stripped_of_knighthood_desc_third_perspective_1: "[owner.GetName] fue despojado del título de caballero por [stripper.GetTitledFirstName] como castigo" #NT!
+  
+ agot_stripped_knighthood: "Fue despojado del título de caballero" #NT!
+ agot_stripped_knighthood_desc_1: "Despojé a [knight.GetTitledFirstName] de su título de caballero como castigo." #NT!
+ agot_stripped_knighthood_desc_second_perspective_1: "Le quitaste el título de caballero a [knight.GetTitledFirstName] como castigo." #NT!
+ agot_stripped_knighthood_desc_third_perspective_1: "[owner.GetName] despojó del título de caballero a [knight.GetTitledFirstName] como castigo" #NT!
+  
  agot_joined_nightswatch: "Se unió a la Guardia de la Noche"
  agot_joined_nightswatch_desc_1: "Me uní a la Guardia de la Noche bajo [commander.GetTitledFirstName]"
  agot_joined_nightswatch_desc_second_perspective_1: "Te uniste a la Guardia de la Noche bajo [commander.GetTitledFirstName]"
  agot_joined_nightswatch_desc_third_perspective_1: "[owner.GetName] se unió a la Guardia de la Noche bajo [commander.GetTitledFirstName]"
+  
+ agot_swore_nightswatch_oath: "Tomó el negro" #NT!
+ agot_swore_nightswatch_oath_desc_1: "Juré mis votos y tomé el negro" #NT!
+ agot_swore_nightswatch_oath_desc_second_perspective_1: "Juraste tus votos y tomaste el negro" #NT!
+ agot_swore_nightswatch_oath_desc_third_perspective_1: "[owner.GetName] juró sus votos y tomó el negro" #NT!
+  
+ agot_joined_silent_sisters: "Se unió a la Hermandad Silenciosa"
+ agot_joined_silent_sisters_desc_1: "Me uní a Silent Sisterhood en [silent_mother.GetTitledFirstName]"
+ agot_joined_silent_sisters_desc_second_perspective_1: "Te uniste a Silent Sisterhood en [silent_mother.GetTitledFirstName]"
+ agot_joined_silent_sisters_desc_third_perspective_1: "[owner.GetName] se unió a Silent Sisterhood bajo [silent_mother.GetTitledFirstName]"
   
  agot_got_paramour: "Tomó un amante"
  agot_got_paramour_desc_1: "Tomé [paramour.GetFirstName] como amante"
@@ -78,6 +109,26 @@
  agot_joined_citadel_desc_1: "Fui a la Ciudadela y comencé a estudiar para mi primer enlace."
  agot_joined_citadel_desc_second_perspective_1: "Fuiste a la Ciudadela y comenzaste a estudiar para tu primer enlace."
  agot_joined_citadel_desc_third_perspective_1: "[owner.GetName] fue a la Ciudadela y comenzó a estudiar para su primer enlace"
+  
+ agot_earned_maester_link: "Primer enlace obtenido" #NT!
+ agot_earned_maester_link_desc_1: "Obtuve mi primer eslabón hacia la cadena de mi maestre estudiando bajo [instructor.Custom('MaesterCheck')] [instructor.GetFirstName]" #NT!
+ agot_earned_maester_link_desc_second_perspective_1: "Obtuviste tu primer eslabón hacia tu cadena de maestre estudiando con Maester [instructor.GetFirstName]" #NT!
+ agot_earned_maester_link_desc_third_perspective_1: "[owner.GetName] obtuvo su primer eslabón hacia la cadena de maestrismo estudiando con Maester [instructor.GetFirstName]" #NT!
+  
+ agot_became_maester: "Se convirtió en maestre" #NT!
+ agot_became_maester_desc_1: "Me convertí en maestre de pleno derecho en la Ciudadela." #NT!
+ agot_became_maester_desc_second_perspective_1: "Te convertiste en un maestre de pleno derecho en la Ciudadela." #NT!
+ agot_became_maester_desc_third_perspective_1: "[owner.GetName] se convirtió en maestre de pleno derecho en la Ciudadela." #NT!
+  
+ agot_became_archmaester: "Nominado a Archimaestro" #NT!
+ agot_became_archmaester_desc_1: "Me convertí en Archimaestro de la Ciudadela." #NT!
+ agot_became_archmaester_desc_second_perspective_1: "Te convertiste en Archimaestre en la Ciudadela." #NT!
+ agot_became_archmaester_desc_third_perspective_1: "[owner.GetName] se convirtió en Archimaestre en la Ciudadela" #NT!
+  
+ agot_became_grandmaester: "Nombrado Gran Maestre" #NT!
+ agot_became_grandmaester_desc_1: "Fui designado para el cargo real de Gran Maestre." #NT!
+ agot_became_grandmaester_desc_second_perspective_1: "Fuiste designado para el cargo real de Gran Maestre." #NT!
+ agot_became_grandmaester_desc_third_perspective_1: "[owner.GetName] fue designado para el cargo real de Gran Maestre." #NT!
   
  agot_widowed_memory: "Muerte del cónyuge"
  agot_widowed_memory_desc_1: "Mi cónyuge murió, dejándome viuda."
@@ -108,3 +159,33 @@
  agot_raised_to_nobility_memory_desc: "[raiser.GetTitledFirstName] me elevó a la nobleza"
  agot_raised_to_nobility_memory_desc_second_perspective_1: "[raiser.GetTitledFirstName] te elevó a la nobleza"
  agot_raised_to_nobility_memory_desc_third_perspective_1: "[raiser.GetTitledFirstName] elevó a [owner.GetName] a la nobleza"
+  
+ agot_memory_interesting_area_explored: "Explorado [ROOT.Var('city_location').GetProvince.GetName]" #NT!
+ interesting_area_explored_desc: "Exploré [ROOT.Var('city_location').GetProvince.GetName] durante mis viajes" #NT!
+ interesting_area_explored_desc_second_perspective: "Exploraste [ROOT.Var('city_location').GetProvince.GetName] durante tus viajes" #NT!
+ interesting_area_explored_desc_third_perspective: "[owner.GetName] exploró [ROOT.Var('city_location').GetProvince.GetName] durante [owner.GetHerHis] viajes" #NT!
+  
+ agot_named_a_qolab: "Nombrada Reina del Amor y la Belleza" #NT!
+ agot_named_a_qolab_desc: "Nombré a [qolab.GetTitledFirstName] la Reina del Amor y la Belleza" #NT!
+ agot_named_a_qolab_desc_second_perspective: "Nombraste a [qolab.GetTitledFirstName] la Reina del Amor y la Belleza" #NT!
+ agot_named_a_qolab_desc_third_perspective: "[owner.GetName] nombró a [qolab.GetTitledFirstName] la Reina del Amor y la Belleza" #NT!
+  
+ agot_named_as_qolab: "Coronada Reina del Amor y la Belleza" #NT!
+ agot_named_as_qolab_desc: "Fui coronada Reina del Amor y la Belleza por [crowner.GetTitledFirstName]" #NT!
+ agot_named_as_qolab_desc_second_perspective: "Fuiste coronada Reina del Amor y la Belleza por [crowner.GetTitledFirstName]" #NT!
+ agot_named_as_qolab_desc_third_perspective: "[owner.GetName] fue coronada Reina del Amor y la Belleza por [crowner.GetTitledFirstName]" #NT!
+  
+ agot_freed_from_slavery_memory: "Liberado de la esclavitud" #NT!
+ agot_freed_from_slavery_memory_desc: "[liberator.GetTitledFirstName] me liberó de la esclavitud de [slaveowner.GetTitledFirstName]" #NT!
+ agot_freed_from_slavery_memory_desc_second_perspective_1: "[liberator.GetTitledFirstName] te liberó de la esclavitud de [slaveowner.GetTitledFirstName]" #NT!
+ agot_freed_from_slavery_memory_desc_third_perspective_1: "[liberator.GetTitledFirstName] liberó a [owner.GetName] de la esclavitud a [slaveowner.GetTitledFirstName]" #NT!
+  
+ agot_divorced_spouse: "Cónyuge divorciado" #NT!
+ agot_divorced_spouse_desc_1: "Me divorcié [divorcee.GetTitledFirstName]" #NT!
+ agot_divorced_spouse_desc_second_perspective_1: "Te divorciaste [divorcee.GetTitledFirstName]" #NT!
+ agot_divorced_spouse_desc_third_perspective_1: "[divorcee.GetTitledFirstName] se divorció de [owner.GetNamePossessive]" #NT!
+  
+ agot_was_divorced_by_spouse: "Me divorcié de mi cónyuge" #NT!
+ agot_was_divorced_by_spouse_desc_1: "Me divorcié por [divorcer.GetTitledFirstName]" #NT!
+ agot_was_divorced_by_spouse_desc_second_perspective_1: "Te divorciaste por [divorcer.GetTitledFirstName]" #NT!
+ agot_was_divorced_by_spouse_desc_third_perspective_1: "[owner.GetTitledFirstName] se divorció de [divorcer.GetNamePossessive]" #NT!

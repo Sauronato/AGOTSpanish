@@ -12,9 +12,12 @@
  agot_mega_wars.0002.t: "Un reino en guerra"
  agot_mega_wars.0002.desc: "[ROOT.Char.GetPrimaryTitle.GetNameNoTier] está en estado de guerra, deberíamos enviar cuervos a los grandes Señores para reunirlos en defensa de la corona."
  agot_mega_wars.0002.a: "¡Llama a las pancartas!"
+ agot_mega_wars.0002.a.tt: "¡[mw_rebel_leader.GetName] ha iniciado un [Concept('agot_mw_mega_wars', 'Mega War')|E] contra ti!" #NT!
  agot_mega_wars.0002.b: "¿Cómo funcionan las guerras civiles?"
-  
- agot_mega_wars.0003.desc.a: "[rebel_leader.GetFullName] se ha levantado contra [crown.GetFullName] en el [war.GetName]. Debo elegir estar con [crown.GetFullName], unirme a [rebel_leader.GetFullName] o permanecer neutral y dejar que la marea del tiempo guíe mi decisión."
+ agot_mega_wars.0003.desc.a.1: "¡Ha llegado nuestro momento! [mw_rebel_leader.GetTitledFirstName] ha llevado las demandas de nuestra facción a [mw_crown.GetTitledFirstName] respaldadas por nosotros. Sin embargo, [mw_crown.GetNameRegnal] nos ha rechazado. Para conseguir lo que queremos, ahora debemos usar una diplomacia férrea..." #NT!
+ agot_mega_wars.0003.desc.a.2: "[mw_rebel_leader.GetFullName] se ha levantado contra [mw_crown.GetFullName] en el [war.GetName]. Dado que la regencia de [mw_diarch_target.GetName] pesa sobre mis hombros, tengo que decidir si [mw_diarch_target.GetPrimaryTitle.GetNameNoTier] se unirá a [mw_crown.GetTitledFirstName], se unirá a [mw_rebel_leader.GetTitledFirstName] o permanecerá neutral y dejar que la marea del tiempo guíe mi decisión. También tengo que decidir cuál será mi papel en este conflicto..." #NT!
+ agot_mega_wars.0003.desc.a.3: "[mw_rebel_leader.GetFullName] se ha levantado contra [mw_crown.GetFullName] en el [war.GetName]. Dado que la regencia de [mw_diarch_target.GetName] pesa sobre mis hombros, tengo que decidir si [mw_diarch_target.GetPrimaryTitle.GetNameNoTier] se unirá a [mw_crown.GetTitledFirstName], se unirá a [mw_rebel_leader.GetTitledFirstName] o permanecerá neutral y dejar que la marea del tiempo guíe mi decisión." #NT!
+ agot_mega_wars.0003.desc.a.10: "[mw_rebel_leader.GetTitledFirstName] se ha levantado contra [mw_crown.GetFullName] en el [war.GetName]. Debo elegir quedarme con [mw_crown.GetFullName], unirme a [mw_rebel_leader.GetFullName] o permanecer neutral y dejar que la marea del tiempo guíe mi decisión." #NT!
  agot_mega_wars.0003.desc.b: "Sin embargo, dado que anteriormente juraste lealtad a [ROOT.Var('mw_is_loyal_to').Char.GetName], ahora se espera que cumpla mi palabra..."
  agot_mega_wars.0003.desc.c: "\n[ROOT.Char.GetLiege.GetTitledFirstName] ha elegido apoyar a la corona..."
  agot_mega_wars.0003.desc.d: "\n[ROOT.Char.GetLiege.GetTitledFirstName] ha elegido permanecer neutral..."
@@ -22,13 +25,15 @@
  agot_mega_wars.0003.desc.f: "\n[ROOT.Char.GetLiege.GetTitledFirstName] ha optado por declarar la independencia..."
  agot_mega_wars.0003.a: "Los rebeldes lo pagarán caro."
  agot_mega_wars.0003.a.tt: "Traicionas a los conspiradores [mw_rebel_leader.GetFullName] y [mw_rebel_leader.GetHerHis]."
- agot_mega_wars.0003.b: "No veo ninguna razón para involucrarme."
+ agot_mega_wars.0003.ba: "No veo ninguna razón para involucrarme." #NT!
+ agot_mega_wars.0003.bb: "Deja que las mareas de la guerra decidan..." #NT!
  agot_mega_wars.0003.c: "¡La causa de la rebelión es justa!"
  agot_mega_wars.0003.c.tt: "Te unes a la rebelión del lado de [rebel_leader.GetFullName]."
  agot_mega_wars.0003.c.tt.independence: "Dado que esta es una guerra por la independencia, ¡también ganarás la independencia si prevaleces!"
  agot_mega_wars.0003.d: "¡Ahora es el momento de forjar nuestro propio camino!"
  agot_mega_wars.0003.d.tt: "Empiezas tu propia guerra de independencia contra [crown.GetFullName]."
  agot_mega_wars.0003.tt.negative: "Dado que anteriormente juré lealtad a [mw_is_loyal_to.GetName], mi comportamiento se considerará deshonroso."
+ agot_mega_wars.0003.tt: "Se activó un [Concept('agot_mw_mega_wars', 'Mega War')|E]." #NT!
  MW_DEBUG_JOIN_LOYALISTS: "Se une a los leales"
  MW_DEBUG_STAY_NEUTRAL: "Permanece neutral."
  MW_DEBUG_JOIN_REBELS: "Se une a los rebeldes"
@@ -38,9 +43,11 @@
  agot_mega_wars.0004.a: "[mw_target_scope.GetTitledFirstName] conseguiré a todos mis hombres!"
  agot_mega_wars.0004.b: "[mw_target_scope.GetSheHe|U] ya tiene suficiente."
   
- agot_mega_wars.0005.desc_loyal: "Tu señor [liege.GetFullName] apoya a la corona."
- agot_mega_wars.0005.desc_neutral: "Tu señor [liege.GetFullName] ha decidido permanecer neutral."
- agot_mega_wars.0005.desc_rebel: "Tu señor [liege.GetFullName] se ha sublevado con los rebeldes."
+ agot_mega_wars.0005.desc.a: "Con la guerra en desarrollo, [ROOT.Char.GetDiarchy.GetDiarch.GetFirstName], mi [ROOT.Char.GetDiarchy.GetDiarch.GetDiarchTitle], ha decidido que [ROOT.Char.GetPrimaryTitle.GetNameNoTier] apoyará a [mw_crown.GetFullName] en [war.GetName]." #NT!
+ agot_mega_wars.0005.desc.b: "Con la guerra en desarrollo, [ROOT.Char.GetDiarchy.GetDiarch.GetFirstName], mi [ROOT.Char.GetDiarchy.GetDiarch.GetDiarchTitle], ha decidido que [ROOT.Char.GetPrimaryTitle.GetNameNoTier] permanecerá neutral." #NT!
+ agot_mega_wars.0005.desc.c: "Con la guerra en desarrollo, [ROOT.Char.GetDiarchy.GetDiarch.GetFirstName], mi [ROOT.Char.GetDiarchy.GetDiarch.GetDiarchTitle], ha decidido que [ROOT.Char.GetPrimaryTitle.GetNameNoTier] apoyará a [mw_rebel_leader.GetFullName] en [war.GetName]." #NT!
+ agot_mega_wars.0005.desc: "\nTan pronto como haya recuperado el control debería reconsiderar y tomar una decisión propia dependiendo de cómo las mareas del tiempo han moldeado los frentes..." #NT!
+ agot_mega_wars.0005.a: "Es lo que es..." #NT!
   
   # Event chain for independence declaration, no taxation without representation... 
  agot_mega_wars.0010.t: "Levantamiento de [independence_rebel_leader.GetDynastyName]"
@@ -61,6 +68,15 @@
  agot_mega_wars.0012.desc.b: "Para evitar más derramamiento de sangre, no tengo más remedio que renunciar a mi soberanía sobre [independence_rebel_leader.GetPrimaryTitle.GetNameNoTier]."
  agot_mega_wars.0012.a: "¡Entonces la guerra es!"
  agot_mega_wars.0012.b: "Una sabia elección."
+  
+ agot_mega_wars.0020.opening: "Una cuestión de lealtad..." #NT!
+ agot_mega_wars.0020.desc: "Honrado [ROOT.Char.GetName], desde hace demasiado tiempo [faction_target.GetName] gobierna [faction_targeted_title.GetName], aunque eres tú quien tiene derecho a [ROOT.Char.Custom('GetQueenKing')]. Por lo tanto, he presentado mis demandas al [faction_target.GetTitledFirstName] para que te abdique el trono. Desafortunadamente, [faction_target.GetSheHe] se ha negado y la guerra ahora es inevitable.\n¿Nos liderarás en esta lucha?" #NT!
+ agot_mega_wars.0020.a: "¡Tomaré lo que es mío por derecho!" #NT!
+ agot_mega_wars.0020.b: "Eso es demasiado arriesgado. Adelante pero déjame fuera de esto..." #NT!
+ agot_mega_wars.0021.opening: "Cuestión de lealtad..." #NT!
+ agot_mega_wars.0021.desc.a: "Honrado [ROOT.Char.GetName], por fin se presentará mi reclamo. Que se cuenten los días de [faction_target.GetFirstName] y comience el gobierno de [faction_claimant.Custom('GetQueenKing')] [faction_claimant.GetFirstName].\n¡Nos llevaré a la victoria!" #NT!
+ agot_mega_wars.0021.desc.b: "Honorable [ROOT.Char.GetName], por fin mi reclamación será escuchada.\nTal como están las cosas, no puedo apoyarte en esta lucha." #NT!
+ agot_mega_wars.0021.a: "Así será." #NT!
   
  # Mega War Aftermath 
  agot_mega_wars.0500.t: "Ser rey o no ser rey"
@@ -94,8 +110,6 @@
  agot_mega_wars.0503.desc.bb: "\nAhí está mi hermano, [living_brother.GetFirstName]"
  agot_mega_wars.0503.desc.bc: "\nHay [option_dynasty_member.GetName]"
  agot_mega_wars.0503.desc.c: "\npero también siempre puedo confiar en mis parientes de Estermont"
- agot_mega_wars.0503.desc.d: "\n[option_fallback.GetFirstName] es un buen gobernante"
- agot_mega_wars.0503.desc.e: "None"
  agot_mega_wars.0503.a: "Elegiré a un miembro de mi familia."
  agot_mega_wars.0503.b: "Alguien de mi dinastía encajará."
  agot_mega_wars.0503.c: "Se lo dare a uno de mis vasallos"
@@ -179,11 +193,6 @@
  agot_mega_wars.0605.t: "Castigar a los traidores"
  agot_mega_wars.0605.desc: "La guerra se acabó; Yo he ganado. Ahora bien, ¿cómo castigar a los traidores?"
  agot_mega_wars.0605.a: "Un castigo suave servirá."
- agot_mega_wars.0605.b: "El castigo debe ser firme."
- agot_mega_wars.0605.c: "El castigo debe ser severo."
- agot_mega_wars.0605.d: "Ningún traidor volverá a caminar por este reino."
- agot_mega_wars.0605.e: "Envía a los traidores al Muro."
- agot_mega_wars.0605.f: "Deje que los Lores Supremos decidan."
   
  agot_mega_wars.9999.t: "EVENTO DIVERTIDO"
  agot_mega_wars.9999.desc: "DESCRIPCIÓN DIVERTIDA"
@@ -194,25 +203,37 @@
  MW_TRAITORS_SEND_TO_WALL_TT: "Puedes enviar este personaje al Muro."
   
  # Scripted GUI 
- MW_TRAITORS_HOSTAGES_TT: "No hay rehenes válidos disponibles."
- MW_TRAITORS_SEC_TITLES_TT: "No hay títulos secundarios válidos disponibles."
- MW_TRAITORS_SPEC_TITLES_TT: "No hay títulos válidos disponibles."
- MW_TRAITORS_ARTIFACT_TT: "No hay artefactos válidos disponibles."
- MW_TRAITORS_EXECUTION_WALL_TT: "Ya estás mandando a este personaje a la pared." #NT!
- MW_TRAITORS_EXECUTION_TT: "No hay caracteres válidos disponibles."
- MW_TRAITORS_CAN_SEND_TO_WALL_TT: "Puedes enviar este personaje al Muro." #NT!
+ AGOT_MW_TRAITORS_HOSTAGES_TT: "No hay rehenes válidos disponibles." #NT!
+ AGOT_MW_TRAITORS_SEC_TITLES_TT: "No hay títulos secundarios válidos disponibles." #NT!
+ AGOT_MW_TRAITORS_SPEC_TITLES_TT: "No hay títulos válidos disponibles." #NT!
+ AGOT_MW_TRAITORS_MAIN_TITLES_neg_TT: "No se puede combinar con la toma de toda la heredad." #NT!
+ AGOT_MW_TRAITORS_ENTIRE_DEM_neg_TT: "No se puede combinar con la toma de la mitad de la heredad ni de los títulos principales." #NT!
+ AGOT_MW_TRAITORS_BLOCK_TITLE_SEPTON_neg_TT: "No puedes quitarle títulos al Septón Supremo." #NT!
+ AGOT_MW_TRAITORS_DEMESNE_CAPITAL_TT: "Excluya el condado capital de su selección de incautación." #NT!
+ AGOT_MW_TRAITORS_HALF_DEM_neg_TT: "No se puede combinar con la toma de toda la heredad." #NT!
+ AGOT_MW_TRAITORS_ARTIFACT_TT: "No hay artefactos válidos disponibles." #NT!
+ AGOT_MW_TRAITORS_EXECUTION_WALL_TT: "Ya estás enviando a este personaje a la pared." #NT!
+ AGOT_MW_TRAITORS_EXECUTION_TT: "No hay caracteres válidos disponibles." #NT!
+ AGOT_MW_TRAITORS_CAN_SEND_TO_WALL_TT: "Puedes enviar este personaje al Muro." #NT!
+ AGOT_MW_TRAITORS_EXPEL_TT: "No puedes expulsar a [selected_traitor.GetFirstName] ya que [selected_traitor.GetSheHe] ya está por ser ejecutado, enviado al muro o a un miembro de la guardia nocturna." #NT!
+ AGOT_MW_TRAITORS_EXPEL_FAMILY_TT: "No hay nadie válido en la familia del traidor para expulsar." #NT!
+ AGOT_MW_TRAITORS_EXPEL_HOUSE_TT: "No hay nadie válido en la casa del traidor para expulsar." #NT!
+ AGOT_MW_TRAITORS_EXPELLED_TO_ESSOS_TT: "[t_mw_expelled_char.GetFirstName] será expulsado a Essos." #NT!
   
  mw_tab_name_header: "Guerra civil"
- MEGA_WARS_VIEW_GUI_LOYALIST: "Leales"
- MEGA_WARS_VIEW_GUI_NEUTRAL: "Neutrales"
- MEGA_WARS_VIEW_GUI_REBEL: "Rebeldes"
+ AGOT_MW_VIEW_GUI_LOYALIST: "Leales" #NT!
+ AGOT_MW_VIEW_GUI_NEUTRAL: "Neutrales" #NT!
+ AGOT_MW_VIEW_GUI_REBEL: "Rebeldes" #NT!
   
- MEGA_WARS_VIEW_GUI_JOIN: "Unirse"
- MEGA_WARS_VIEW_GUI_SHOW_REBEL_LEADERS: "Mostrar líderes rebeldes"
+ AGOT_MW_VIEW_GUI_JOIN: "Unirse" #NT!
+ AGOT_MW_VIEW_GUI_SHOW_REBEL_LEADERS: "Mostrar líderes rebeldes" #NT!
   
  # Scripted effects 
  AGOT_MW_JOIN_CROWN: "Te unes a la rebelión del lado de [mw_crown.GetTitledFirstName]"
- MW_SWITCH_SIDE_TO_CROWN: "[mw_choosing_ruler.GetName] de ahora en adelante admite [mw_crown.GetTitledFirstName]"
+ AGOT_MW_JOIN_CROWN_diarch: "[mw_diarch_target.GetTitledFirstName] se une a la rebelión del lado de [mw_crown.GetTitledFirstName]." #NT!
+ AGOT_MW_SWITCH_SIDE_TO_CROWN: "[mw_choosing_ruler.GetName] de ahora en adelante soporta [mw_crown.GetTitledFirstName]." #NT!
  AGOT_MW_STAY_NEUTRAL: "Mantente neutral."
- MW_SWITCH_SIDE_TO_REBEL: "[mw_choosing_ruler.GetName] de ahora en adelante admite [mw_rebel_leader.GetTitledFirstName]"
+ AGOT_MW_STAY_NEUTRAL_diarch: "[mw_diarch_target.GetTitledFirstName] permanece neutral." #NT!
+ AGOT_MW_SWITCH_SIDE_TO_REBEL: "[mw_choosing_ruler.GetName] de ahora en adelante soporta [mw_rebel_leader.GetTitledFirstName]." #NT!
  AGOT_MW_JOIN_REBEL_LEADER: "Te unes a la rebelión del lado de [mw_rebel_leader.GetFullName]."
+ AGOT_MW_JOIN_REBEL_LEADER_diarch: "[mw_diarch_target.GetTitledFirstName] se une a la rebelión del lado de [mw_rebel_leader.GetFullName]." #NT!

@@ -51,6 +51,18 @@
  YEAR_1E_RULDESBIRTH: "Select_int32( GreaterThan_int32( RulerDesignerWindow.GetBirthYear, $ERA_HEROES_END$), Subtract_int32( RulerDesignerWindow.GetBirthYear, $ERA_HEROES_END$ ) , $YEAR_YT_RULDESBIRTH$ )"
  YEAR_YT_RULDESBIRTH: "Select_int32( GreaterThan_int32( RulerDesignerWindow.GetBirthYear, $ERA_DAWN_END$), Subtract_int32( RulerDesignerWindow.GetBirthYear, $ERA_DAWN_END$ ), RulerDesignerWindow.GetBirthYear )"
   
+ ###Culture Window 
+  # ERA 
+ ERA_SEL_CULTURE: "[Select_CString( GreaterThan_int32( DATE.GetYear, $ERA_DOOM_END$), 'A.C.', $ERA_2E_CULTURE$ )]" #NT!
+ ERA_2E_CULTURE: "Select_CString( GreaterThan_int32( DATE.GetYear, $ERA_ANDAL_END$), 'A.D.', $ERA_1E_CULTURE$ )" #NT!
+ ERA_1E_CULTURE: "Select_CString( GreaterThan_int32( DATE.GetYear, $ERA_HEROES_END$ ), 'A.I.', $ERA_YT_CULTURE$ )" #NT!
+ ERA_YT_CULTURE: "Select_CString( GreaterThan_int32( DATE.GetYear, $ERA_DAWN_END$ ), 'A.H.', 'D.A.' )" #NT!
+  # YEAR 
+ YEAR_SEL_CULTURE: "[Select_int32( GreaterThanOrEqualTo_int32( DATE.GetYear, $ERA_DOOM_END$), Subtract_int32( DATE.GetYear, $ERA_DOOM_END$ ) , $YEAR_2E_CULTURE$ )]" #NT!
+ YEAR_2E_CULTURE: "Select_int32( GreaterThanOrEqualTo_int32( FECHA.GetAño, $ERA_ANDAL_END$), Resta_int32( FECHA.GetAño, $ERA_ANDAL_END$ ), $YEAR_1E_CULTURE$ )" #NT!
+ YEAR_1E_CULTURE: "Select_int32( MayorThan_int32( FECHA.GetAño, $ERA_HEROES_END$), Resta_int32( FECHA.GetAño, $ERA_HEROES_END$ ), $YEAR_YT_CULTURE$ )" #NT!
+ YEAR_YT_CULTURE: "Select_int32( MayorThan_int32( FECHA.GetAño, $ERA_DAWN_END$), Resta_int32( FECHA.GetAño, $ERA_DAWN_END$ ), FECHA.GetAño )" #NT!
+  
   ### Main Menu 
   ## SaveGameItem 
   # ERA 

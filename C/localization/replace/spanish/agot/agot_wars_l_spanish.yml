@@ -3,3 +3,151 @@
   
  AGOT_VASSALIZATION_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetPrefix]-[DEFENDER.GetPrimaryTitle.GetAdjective] Guerra de vasallaje del Trono de Hierro"
  AGOT_VASSALIZATION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+  
+ # AGOT REBELLION 
+ agot_independence_war: "Guerra de Independencia"
+ agot_independence_war_name: "Guerra de Independencia"
+  
+ agot_rebellion_war: "Rebelión"
+ agot_rebellion_war_name: "Rebelión contra [DEFENDER.GetShortUINameNotMe]"
+ agot_rebellion_war_victory_desc: "Con el éxito de la rebelión de [attacker.GetHerHis], [attacker.GetTitledFirstName] decidirá quién gobernará [defender.GetPrimaryTitle.GetName]."
+ agot_rebuild_realm_effect_loc: "\nCon el fin de la guerra, se restablecerá el antiguo orden, pero ¿seguirá manteniéndose?" #NT!
+ agot_rebuild_realm_effect_loc_past: "\nCon el fin de la guerra, el antiguo orden se restablece, pero ¿seguirá manteniéndose?" #NT!
+ agot_rebellion_war_white_peace_desc_defender: "Defensor de la paz blanco: jefe no válido. Dile a Gaytriarch si ves esto."
+ agot_rebellion_war_white_peace_desc: "Si ves esto esta roto, report to Typical ASAP"
+ agot_rebellion_war_defeat_desc_defender: "La rebelión de [attacker.GetNamePossessive] para [defender.GetPrimaryTitle.GetName] ha fallado. [defender.GetName] decidirá el destino de los rebeldes."
+ agot_rebellion_war_defeat_desc: "La rebelión de [attacker.GetNamePossessive] para [defender.GetPrimaryTitle.GetName] ha fallado. [defender.GetName] decidirá el destino de los rebeldes."
+  
+ agot_reconquest_war: "Reconquista" #NT!
+ agot_reconquest_war_name: "Reconquista" #NT!
+  
+ # AGOT REVOLT 
+ agot_revolt_war: "Revuelta"
+ agot_revolt_war_name: "Rebelión contra [DEFENDER.GetShortUINameNotMe]"
+ agot_revolt_war_victory_desc: "[attacker.GetName] y los rebeldes evitan con éxito el castigo y socavan la autoridad de [defender.GetNamePossessive]."
+ agot_revolt_war_white_peace_desc: "Esta es una guerra de revueltas, pero no quieren paz blanca. Si ves esto, díselo a Gaytriarch."
+ agot_revolt_war_defeat_desc_defender: "La revuelta de [attacker.GetNamePossessive] ha fracasado y el castigo que intentaron evitar ahora se cumplirá."
+ agot_revolt_war_defeat_desc: "La revuelta de [attacker.GetNamePossessive] falla, lo que hace que se cumpla la sentencia original de los rebeldes."
+  
+ # AGOT FACTION 
+ agot_claimant_faction_war: "Guerra de reclamantes" #NT!
+ agot_liberty_faction_war: "Guerra de la libertad"
+  
+  
+ wildling_raid_wars_victory_desc: "¡Los salvajes han vencido a la Guardia y tomarán todo lo que puedan cargar!"
+ wildling_raid_wars_defeat_desc: "Los salvajes fueron derrotados por la Guardia como lo han sido durante miles de años."
+  
+  #AGOT TODO 
+ wildling_raid_wars_white_peace_desc: "Marcador de posición Texto de paz blanco"
+ wildling_raid_wars_invalidated_desc: "Texto invalidado de marcador de posición"
+  
+ WILDLING_RAID_WAR_NAME: "Incursión salvaje"
+ WILDLING_RAID_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ wildling_raid_cb: "Incursión salvaje"
+ WILDLINGS: "Salvajes"
+  
+ RECLAIM_CB_NAME: "Recupera las tierras de la Guardia de la Noche [de_jure|E]"
+ RECLAIM_CB_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Guerra de Reclamación de la Guardia Nocturna"
+ RECLAIM_CB_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+ de_reclaim_wall_victory_desc: "Los salvajes son derrotados y la tierra ha sido devuelta a la Guardia de la Noche."
+ de_reclaim_wall_defeat_desc: "Los salvajes retuvieron con éxito la ofensiva, reteniendo el territorio reclamado por la Guardia de la Noche."
+  
+ STEPSTONES_CONQUEST_CB_NAME: "Conquista de tierras en disputa por [county|E]" #NT!
+ disputed_lands_conquest_cb: "Conquista de tierras en disputa" #NT!
+  
+ iron_throne_decision_troops: "La guardia del conquistador" #NT!
+  
+ stepstones_adventurer_conquest: "Conquista de peldaños" #NT!
+ stepstones_adventurer_event_troops: "Aventureros piratas" #NT!
+ STEPSTONES_ARMY_NEUTRAL_NAME: "Tripulación pirata" #NT!
+  
+ reclaim_captives_war_victory_desc: "Liberas a todos los cautivos que están en poder de [defensor.GetShortUIName|U] y sus [vasallos|e]."
+ reclaim_captives_war_victory_desc_defender: "[attacker.GetShortUIName|U] libera a todos los cautivos que están en su poder y en el de sus [vasallos|e]."
+ reclaim_captives_war_white_peace_desc: "No se libera a ningún cautivo."
+ reclaim_captives_war_defeat_desc: "No se libera a ningún cautivo."
+ reclaim_captives_war_invalidated_desc: "¡$RECLAIM_CAPTIVES_WAR_NAME$ invalidado!"
+ reclaim_captives_war: "Liberar cautivos"
+ RECLAIM_CAPTIVES_NAME: "Liberar cautivos"
+ RECLAIM_CAPTIVES_WAR_NAME: "Liberar Cautivos de [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+  
+ agot_blackfyre_claim: "Rebelión Fuegoscuro" #NT!
+ BLACKFYRE_WAR_NAME: "[ATTACKER.Custom('BlackfyreRebellions')]" #NT!
+ agot_blackfyre_claim_first: "La rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_second: "La segunda rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_third: "La tercera rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_fourth: "La cuarta rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_fifth: "La quinta rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_sixth: "La sexta rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_seventh: "La Séptima Rebelión Fuegoscuro" #NT!
+ agot_blackfyre_claim_eight: "La octava rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_ninth: "La Novena Rebelión Fuegoscuro" #NT!
+ agot_blackfyre_claim_tenth: "La Décima Rebelión de Fuegoscuro" #NT!
+ agot_blackfyre_claim_more: "Otra maldita rebelión de Fuegoscuro" #NT!
+  
+ ninepenny_conquest_cb: "Conquista de nueve peniques" #NT!
+ NINEPENNY_WAR_NAME: "$ORDER$ La Guerra de la Banda de los Nueve por el reclamo de [CLAIMANT.GetShortUINamePossessive] sobre el [TITLE.GetBaseName]" #NT!
+ ninepenny_conquest_cb_victory_desc_defender: "[claimant.GetShortUIName|U] se apodera del objetivo [title|E]." #NT!
+ ninepenny_conquest_cb_victory_desc_attacker: "[claimant.GetShortUIName|U] se apodera del objetivo [title|E]." #NT!
+ ninepenny_conquest_cb_victory_desc: "[claimant.GetShortUIName|U] se apodera del objetivo [title|E]." #NT!
+ ninepenny_conquest_cb_defeat_desc: "[defender.GetShortUIName|U] mantiene el objetivo [title|E]. [claimant.GetShortUIName|U] pierde [claimant.GetHerHis] [claim|E]." #NT!
+ ninepenny_conquest_cb_defeat_desc_defender: "Mantienes el objetivo [title|E]. [claimant.GetShortUIName|U] pierde [claimant.GetHerHis] [claim|E] ante él." #NT!
+ ninepenny_conquest_cb_defeat_desc_attacker: "[claimant.GetShortUIName|U] mantiene el objetivo [title|E]. Pierdes tu [claim|E] por eso." #NT!
+ NINEPENNY_TRUCE: "\nTregua unida con sangre entre [attacker.GetTitledFirstName] y [claimant.GetTitledFirstName] como miembros de la Banda de los Nueve" #NT!
+  
+ reyne_rebellion: "Rebelión de Reyne" #NT!
+ REYNE_REBELLION_NAME: "La rebelión de Reyne" #NT!
+  
+ agot_6th_blackfyre_rebellion: "Sexta Rebelión Blackfyre"
+ agot_6th_blackfyre_rebellion_name: "Sexta Rebelión Blackfyre"
+ agot_6th_blackfyre_rebellion_invalidated: "La Sexta Rebelión Blackfyre ha sido cancelada porque [attacker.GetShortUIName|U] ha muerto."
+ agot_6th_blackfyre_rebellion_defeat_desc_defender: "[attacker.GetShortUIName|U] ha sido aprisionado"
+ agot_6th_blackfyre_rebellion_defeat_defeat_desc: "[defender.GetShortUIName|U] es aprisionado"
+ agot_rebellion_war_white_peace_desc: "Si ves esto esta roto, report to Typical ASAP"
+ agot_6th_blackfyre_rebellion_victory_desc_attacker: "He depuesto a [defender.GetShortUIName|U] y tomado el titulo de  [defender.GetPrimaryTitle.GetName] para mi mismo"
+ agot_6th_blackfyre_rebellion_victory_desc: "Sexta Rebelión Blackfyre ha sido derrotada [attacker.GetShortUIName|U] ha sido tomado prisionero"
+ agot_6th_blackfyre_realm_rebuild_loc: "Después de una generación peleando por el Trono de Hierro los Blackfyres se sientan en el"
+  
+ agot_faegon_landing_war_name: "Invasion [ATTACKER.GetShortUINameNotMe]"
+ agot_faegon_landing_war_invalidated: "La Invasion de [attacker.GetShortUIName|U] ha sido invalidada porque [attacker.GetShortUIName|U] ha muerto"
+ agot_faegon_landing_war_white_peace_desc: "La invasion de Faegon ha terminado en paz blanca, report to Typical"
+ agot_faegon_landing_defeat_desc_defender: "He derrotado a [attacker.GetShortUIName|U] y mantenido el control sobre [defender.GetPrimaryTitle.GetName]"
+ agot_faegon_landing_defeat_defeat_desc: "[attacker.GetShortUIName|U] ha sido tomado prisionero"
+ agot_faegon_landing_war_victory_desc_attacker: "He depuesto a [defender.GetShortUIName|U] y tomado el titulo de [defender.GetPrimaryTitle.GetName] para mi."
+ agot_faegon_landing_war_victory_desc: "[defender.GetShortUIName|U] ha sido tomado prisionero"
+ agot_faegon_realm_rebuild_loc: "Despues de años en el exilio la casa Targaryen de nuevo se sienta en el trono de Hierro"
+  
+  #AGOT Bastard Events 
+ agot_bastard_claimant_war_name_nicked: "La guerra de [CLAIMANT.GetNicknameNoTooltip]" #NT!
+ agot_bastard_claimant_war_name_no_nick: "La guerra del [CLAIMANT.GetFather.GetFirstNamePossessiveNoTooltip] Bastardo" #NT!
+ agot_bastard_claimant_war_invalid: "[claimant.GetName] ha muerto. [claimant.GetHerHis] reclamo ya no se puede presionar."
+ agot_bastard_claimant_war_victory: "¡[claimant.GetName] se instalará como regente de [defender.GetPrimaryTitle.GetName]!"
+ agot_bastard_claimant_war_white_peace: "[attacker.GetName] y [defender.GetName] acuerdan cesar el derramamiento de sangre. [claimant.GetName] regresará a casa y este asunto quedará resuelto."
+ agot_bastard_claimant_war_defeat: "[defender.GetName] ganará y los rebeldes estarán sujetos al juicio de [defender.GetHerHis]."
+  
+  #BTW Struggle 
+ CB_COST_STRUGGLE_PHASE_OPPORTUNITY: "[struggle_phase_btw_opportunity|E]"
+ CB_COST_STRUGGLE_PHASE_HOSTILITY: "[struggle_phase_btw_hostility|E]"
+ CB_COST_STRUGGLE_PHASE_COMPROMISE: "[struggle_phase_btw_compromise|E]"
+ CB_COST_STRUGGLE_PHASE_CONCILIATION: "[struggle_phase_btw_conciliation|E]"
+  
+  #Disrupt Piracy 
+ DISRUPT_PIRACY_WAR_NAME: "Interrumpir la piratería" #NT!
+ DISRUPT_PIRACY_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
+ DISRUPT_PIRACY_CB: "Interrumpir la piratería" #NT!
+ disrupt_piracy_defeat_desc: "Los piratas de esta región se sentirán envalentonados, lo que aumentará la amenaza al comercio y la seguridad." #NT!
+ disrupt_piracy_victory_desc: "El reino pirata queda destruido y la piratería en la región se verá interrumpida." #NT!
+ disrupt_piracy_white_peace_desc: "La paz blanca no debería suceder, si sucede, infórmalo al triarca gay." #NT!
+ disrupt_piracy_invalidated_desc: "La guerra para acabar con la piratería ha quedado invalidada debido a la muerte de [ATTACKER.GetFullNameRegnalPossessive|U]." #NT!
+ DISRUPT_PIRACY_COASTAL_GOOD: "Con los piratas de [defender.GetPrimaryTitle.GetNameNoTier|U] aplastados, tus [counties|E] costeros están más a salvo de la piratería, aumentando [county_control|E] durante #V 2 años." #NT!
+ DISRUPT_PIRACY_COASTAL_BAD: "Con su [attacker.GetLadyLord|U] incapaz de controlar la amenaza pirata, los alguna vez bulliciosos muelles en su [counties|E] costero permanecen vacíos, bajando [county_control|E], [county_opinion|E] y [development|E] durante #V 2 años." #NT!
+  
+  #Shattered World Conquest 
+ SHATTERED_CONQUEST_DUCHY_CB_NAME: "Conquistar [duchy|E]" #NT!
+ SHATTERED_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Conquista del [TITLE.GetBaseName]" #NT!
+ SHATTERED_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #NT!
+  
+  #Crannogman Ambush 
+ CRANNOGMAN_AMBUSH_CB_NAME: "Emboscada en el pantano" #NT!
+ CRANNOGMAN_AMBUSH_CB_NAME_BASE: "Emboscada del pantano" #NT!
+ CRANNOGMAN_AMBUSH_CB: "Emboscada del pantano" #NT!
+ crannogman_ambush_cb: "Emboscada en el pantano" #NT!

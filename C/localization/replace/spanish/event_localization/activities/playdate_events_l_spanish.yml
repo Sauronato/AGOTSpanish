@@ -96,6 +96,7 @@
  playdate.3005.d: "Como se lo cuentes a alguien te… ¡te pego!"
  playdate.3005.d.success: "[guest.GetFirstNameNoTooltip] promete mantener la boca cerrada"
  playdate.3005.d.failure: "[guest.GetFirstNameNoTooltip] no te tiene miedo"
+ promise_to_keep_secret: "[guest.GetFirstNameNoTooltip] promete no revelar el [secret|E]"
   
  playdate.3006.t: "Compañeros de lectura"
  playdate.3006.desc: "Me he traído un libro, como suelo hacer, y [fellow_nerd.Custom2('MyCharacterIntroduction', ROOT.Char)] aparece justo cuando me había sentado a leer algunas páginas.\n\n«¿No es #EMP [SCOPE.Custom('RandomInformativeTextName')|U]#!? Me lo leí hace poco, ¿qué te parece su prosa?»"
@@ -179,6 +180,14 @@
  playdate.3014.a.failure: "No aprendes nada"
  playdate.3014.b: "¡No, me interesa que nos cuentes aventuras!"
   
+ # Learning your child drowned - by Isabella Welch 
+  
+ playdate.4000.t: "Río de lágrimas"
+ playdate.4000.desc: "Llega un mensajero con aciagas noticias y una pequeña caja negra.\n\nMi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('drowned_participant'))], [drowned_participant.GetFirstNameNoTooltip], se ha ahogado cuando jugaba con [host.GetTitledFirstName|l].\n\nApenas logro ver la caja a través de mis ojos llorosos, pero un vistazo confirma que se trata del cadáver de mi querid[drowned_participant.Custom('ES_OA')] [drowned_participant.GetFirstNameNoTooltip] ."
+ playdate.4000.a: "Espero que esté jugando en [ROOT.Char.GetFaith.PositiveAfterLife]"
+ playdate.4000.b: "La inocencia es un veneno mortal."
+ playdate.4000.c: "Le deseo el mismo destino a [host.GetTitledFirstNameNoTooltip|l]."
+  
  playdate.4001.t: "La barrera del idioma"
  playdate.4001.desc.rowdy: "«¡He dicho #EMP "mano"#!, no #EMP "mona"#!! ¡Caray!» [participant.GetTitledFirstName|l] está obviamente agitad[participant.Custom('ES_OA')] por nuestra barrera lingüística. Por cómo gesticula con las manos, se adivina una rabieta a punto de empezar."
  playdate.4001.desc.pensive: "«Perdón… #EMP Morada#!. Vuelve a su humilde morada, no a su dorada». A pesar de sus buenos modales, las cejas de [participant.GetTitledFirstName|l] se juntan en señal de frustración."
@@ -186,6 +195,113 @@
  playdate.4001.a: "¡Hablaré lento y bien alto! ¡Seguro que eso ayuda!"
  playdate.4001.b: "A lo mejor puedo pedir a [participant.GetFirstNameNoTooltip] que me enseñe algo de [participant.GetCulture.GetLanguage.GetName], ¿no?"
  playdate.4001.c: "Buah, ¿para qué me voy a molestar? ¡Solo quiero divertirme!"
+  
+ playdate.5001.t: "¿Salir y jugar?"
+ playdate.5001.desc: "Una pelota rebota a mi lado y regresa a los brazos de [participant.GetFirstName] que esperan.\n\n "¿Quieres unirte? Tenemos una pelota y nos vendrían bien algunos jugadores más".\n\nLa pequeña multitud de niños se reúne expectantes a nuestro alrededor."
+ playdate.5001.a: "¡Me uniré!"
+ playdate.5001.a.tt: "¡Comienza el juego!"
+ playdate.5001.b: "Realmente no tengo ganas..."
+  
+ playdate.5002.t: "Objetivo descarriado"
+ playdate.5002.desc: "La pelota rebota erráticamente cuando pasa a mi lado, rebota en una pared... ¡y en un jardín cercano! Una fracción de segundo después, un ruido de astillas y un grito furioso anuncian las consecuencias venideras.\n\n[neighbour.GetFirstName] sale corriendo por una puerta, acunando [neighbour.GetHerHis] dañado [broken_artifact.GetName]. Escudriñando a la multitud, [neighbour.GetSheHe] me identifica como el culpable.\n\n "¿Qué tienes que decir en tu favor, mocoso mocoso?" [neighbour.GetSheHe|U] gruñidos. Miro a mi alrededor en busca de apoyo. Ninguno se comunica."
+ playdate.5002.a: ""¡Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('parent'))] pagará las reparaciones!""
+ playdate.5002.a.tt: "O, bueno, supongo que #EMP I#! lo hará, pero no estaré sin dinero por mucho tiempo..."
+ playdate.5002.b: ""Te ordeno que devuelvas la pelota, [neighbour.Custom('InsultNoun')].""
+ playdate.5002.b.tt: "¿Se ha olvidado [neighbour.GetSheHe] que soy [ROOT.Char.GetTitleAsNameNoTooltip]?"
+ playdate.5002.b.success: "[neighbour.GetSheHe|U] devuelve obedientemente el balón"
+ playdate.5002.b.failure: "[neighbour.GetSheHe|U] frunce el ceño mientras devuelve el balón"
+ playdate.5002.c: ""Lo siento. ¿Podemos recuperar el balón?""
+ playdate.5002.c.success: "[neighbour.GetSheHe|U] devuelve el balón con una sonrisa"
+ playdate.5002.c.failure: "[neighbour.GetSheHe|U] devuelve el balón con un profundo suspiro"
+  
+ playdate.5003.t: "Construido de manera diferente"
+ playdate.5003.desc: "¡[other_child.GetFirstName] es simplemente demasiado rápido y demasiado fuerte! Cada vez que intento mantener el ritmo, simplemente rebote en [other_child.GetHerHim]. Incluso cuando doy un paso atrás para ver jugar a [other_child.GetHerHim], patear el balón por el patio, tengo que tomarme un momento para recuperar el aliento de toda la persecución.\n\n¿Seguramente tiene que haber alguna manera de competir?"
+ playdate.5003.a: "A [other_child.GetFirstNameNoTooltip] le falta algún tipo de protección para las espinillas..."
+ playdate.5003.b: "¡Solo necesito esforzarme más!"
+ playdate.5003.b.success: "Logras mantenerte al día"
+ playdate.5003.b.failure: "[other_child.GetFirstNameNoTooltip] es simplemente demasiado fuerte"
+ playdate.5003.c: "Quizás si sigo mirando, pueda aprender algo."
+  
+ playdate.5004.t: "Otra perspectiva"
+ playdate.5004.desc: "Mientras pasamos a toda velocidad, riendo y charlando en nuestra búsqueda del balón, una figura solitaria me llama la atención.\n\n[other_child.GetFirstName] está sentado a un lado, observando tímidamente el proceso. [other_child.GetSheHe|U] me llama la atención brevemente antes de apartar la mirada inmediatamente, fingiendo interés en algunas flores.\n\n[other_child.GetSheHe|U] parece que a [other_child.GetSheHe] le vendría bien algo de compañía."
+ playdate.5004.a: ""¿Te importa si me uno? o Les importa si me uno?""
+ playdate_5004_sports_removal: "Ya no estarás involucrado en el juego de fútbol en curso."
+ playdate.5004.b: ""¡Vamos, únete!""
+ playdate.5004.b.success: "Se unen vacilantes"
+ playdate.5004.b.failure: "Están desconcertados por sus esfuerzos."
+ playdate.5004.c: "Mejor déjalos en paz."
+  
+ playdate.5005.t: "La gran Muralla"
+ playdate.5005.desc: "¡Ahí está la pelota! Cuando pasa a mi lado, le doy un poderoso golpe con la pierna. Lejos #EMP demasiado#! todopoderoso.\n\nLa pelota se desliza por el aire y gira rápidamente. Pasa zumbando entre la multitud, en el aire y se eleva sobre una pared cercana. El ruido sordo de su aterrizaje es sonoro.\n\nMiro hacia la pared. Es bastante alto, más del doble de mi altura."
+ playdate.5005.ending: "De hecho, un poco demasiado alto para mi gusto. Mientras reflexiono sobre mis opciones, noto que [bullied_kid.GetFirstName] está parado a cierta distancia, haciendo [bullied_kid.GetHerHis] todo lo posible para mirar a cualquier lugar menos a la pared."
+ playdate.5005.a: "¡[bullied_kid.GetFirstNameNoTooltip] debería ir a buscarlo!"
+ playdate.5005.b: "Muy bien, #EMP pared#!, aquí va..."
+ playdate.5005.b.success: "Saltas la pared, la más elegante de todas."
+ playdate.5005.b.success.tt: "Todos los participantes obtienen #positive_value 15#! opinión sobre usted"
+ playdate.5005.b.failure: "Saltas la pared y luego agarras la pelota."
+ playdate.5005.b.failure.tt: "Todos los participantes pierden #negative_value 5#! opinión sobre ti"
+ playdate.5005.b.failure.gameends: "El partido de fútbol termina"
+ playdate.5005.b.critfailure: "Arruinas la pared y te caes."
+ playdate.5005.c: "Busquemos algo más que hacer, ¿vale?"
+ playdate.5005.more_balls: "¡Compraré otra pelota!"
+  
+ playdate.5006.t: "¡Me voy a casa!"
+ playdate.5006.desc: "Todo se está volviendo un poco competitivo aquí en el fútbol. El pensamiento apenas se había formado en mi mente cuando ocurrió otro punto de inflamación, cuando [ball_kid.GetFirstName] es golpeado con fuerza por [bully_kid.GetFirstName], enviando a [ball_kid.GetHerHim] cayendo hacia un arbusto cercano. [bully_kid.GetFirstNameNoTooltip], amablemente, comienza a reír.\n\n"¡E-ya es suficiente!" [ball_kid.GetFirstNameNoTooltip] tartamudea enojado, sacando a [ball_kid.GetHerselfHimself] del arbusto. [ball_kid.GetSheHe|U] agarra la pelota mientras [ball_kid.GetSheHe] lo hace. "¡Me voy a casa y me llevo mi pelota!"\n\nSe hace un silencio incómodo."
+ playdate.5006.a: ""Lo siento, [ball_kid.GetFirstNameNoTooltip].""
+ playdate.5006.a.tt: "No fue tu culpa, pero claramente [bully_kid.GetFirstNameNoTooltip] no se va a disculpar..."
+ playdate.5006.b: ""¡Espera, [ball_kid.GetFirstNameNoTooltip]! Por favor, quédate"."
+ playdate.5006.b.success: "Convences a [ball_kid.GetHerHim] para que se quede"
+ playdate.5006.b.failure: "[ball_kid.GetSheHe|U] se va de todos modos"
+ playdate.5006.c: "Será mejor que me quede callado."
+ playdate.5006.d: ""Estás dejando la pelota. Ahora es nuestra"."
+  
+ playdate.5007.t: "Se metió con"
+ playdate.5007.desc: "Una risa estridente divide el aire. Justo al otro lado del patio frente a mí, [sad_kid.GetFirstName] se acobarda ante [bully_kid.GetFirstName], quien señala a [sad_kid.GetHerHim] burlonamente.\n\n"[sad_kid.GetSheHe|U] apenas puede patear una pelota de fútbol. ¡Quién querría ser amigo de ese [sad_kid.Custom('InsultNoun')]!"\ n\n[sad_kid.GetFirstNameNoTooltip], lloriqueando, mira a su alrededor en busca de apoyo, pero parece ser poco y espaciado."
+ playdate.5007.a: ""¡Dejas en paz a [sad_kid.GetHerHim]!""
+ playdate.5007.a.tt: "Das un paso adelante para enfrentarte al matón..."
+ playdate.5007.a.success: "Los intimidas para que retrocedan"
+ playdate.5007.a.failure: "[bully_kid.GetFirstNameNoTooltip] descubre tu farol y te gana"
+ playdate.5007.b: ""#EMP I#! lo haría.""
+ playdate.5007.c: "Será mejor que me mantenga al margen de esto."
+  
+ playdate.5008.t: "Momento de último año"
+ playdate.5008.desc: ""¿Estarás #EMP tranquilo#!, por el amor de [old_timer.GetFaith.HighGodName]?" [old_timer.GetFirstName] está asomado a una ventana con parteluz encima de nosotros, apoplético, agitando el puño. "¡Malditos niños están haciendo tanto ruido! Apenas puedo oírme #EMP pensar!#!"\n\nI recoger la pelota cuando se acerca a mí, mirando al viejo [old_timer.GetWomanMan] mientras [old_timer.GetSheHe] se lanza hacia nosotros. [old_timer.GetSheHe|U] es verdaderamente #EMP antiguo :#!,0 ¡tal vez incluso treinta o cuarenta años!\n\nNo es de extrañar que [old_timer.GetSheHe] esté enojado."
+ playdate.5008.a: ""¡Cállate, viejo loco!""
+ playdate.5008.b: ""Lo sentimos. Estaremos más tranquilos"."
+  
+ playdate.5009.t: "Pies atronadores"
+ playdate.5009.desc: "Aunque seamos niños, el fútbol puede convertirse en un juego tremendamente duro. Lo que comenzó como un partido divertido de repente se convirtió en un combate cuerpo a cuerpo en toda regla, y me toma unos segundos recuperar el rumbo.\n\nCuando lo hago, escucho un grito estridente de dolor y terror proveniente del montón de niños que pelean. Atrapado en el fondo, veo [small_kid.GetFirstName], siendo pisoteado por decenas de pies. [small_kid.GetSheHe|U] grita lastimosamente, pero el ruido es demasiado fuerte y los demás están demasiado obsesionados con el juego."
+ playdate.5009.a: ""¡[small_kid.GetFirstNameNoTooltip]! ¡Espera, ya voy!""
+ playdate.5009.a.critical_success: "Rescatas a [small_kid.GetHerHim] heroicamente"
+ playdate.5009.a.success: "Tu rescatas [small_kid.GetHerHim]"
+ playdate.5009.a.failure: "Tienes que proteger el cuerpo [small_kid.GetHerHis] con el tuyo propio."
+ playdate.5009.b.failure: "[small_kid.GetFirstNameNoTooltip] sufre algunas heridas desagradables"
+ playdate.5009.b.critfailure: "[small_kid.GetFirstNamePossessiveNoTooltip] lesiones son realmente espantosas"
+ playdate_5009_every_child: "Todos los participantes no insensibles o sádicos #negative_value ganan estrés#!"
+ playdate.5009.b: "No puedo mirar..."
+ playdate.5009.c: ""Todos, #EMP ¡ALTO! #!""
+ playdate.5009.c.success: "Los futbolistas amotinados se ponen firmes"
+ playdate.5009.c.failure: "Tus palabras caen en oídos sordos"
+  
+ playdate.5010.t: "¡Ese es mi [embarrassed_child.Custom('GirlBoy')|U]!"
+ playdate.5010.desc: ""¡Atrapenlo! ¡Empujala contra la pared! ¡Eso es!" [obnoxious_parent.GetFirstNamePossessive] voz resuena a través del patio. [obnoxious_parent.GetSheHe|U] ha publicado en una esquina para ver a [embarrassed_child.GetFirstName] jugar un partido de fútbol, ​​y su preferencia por [embarrassed_child.Custom('GirlBoy')] es evidente.\n\nBasta decir que [obnoxious_parent.GetFirstNameNoTooltip] se lo está tomando un poco #EMP#! demasiado en serio. \n\n"¡Oye! ¡No presiones [embarrassed_child.Custom('HerHim')], eso es hacer trampa!" [obnoxious_parent.GetFirstNamePossessiveNoTooltip] el histrionismo realmente está empezando a irritar."
+ playdate.5010.a: "[obnoxious_parent.GetHerHis|U] brazos están dando vueltas muchísimo..."
+ playdate.5010.a_flavor: "¡Haré como que [obnoxious_parent.GetFirstNameNoTooltip] me golpeó!"
+ playdate.5010.a.tt: "Si tuviera que fingir que me golpeó un golpe errante, ¿tal vez [obnoxious_parent.GetSheHe] se iría a la mierda?"
+ playdate.5010.a.tt.success: "Tu actuación genera una gran respuesta..."
+ playdate.5010.a.success: "Todos se agolpan en estado de shock."
+ playdate.5010.a.failure: "Nadie te cree"
+ playdate.5010.b: ""¡¿Podrías por favor callarte?!""
+ playdate.5010.c: "Me ocuparé de ello."
+ scratched_and_bruised: "Arañazos y moretones"
+ scratched_and_bruised_desc: "Este niño ha resultado ligeramente arañado y magullado, muy probablemente después de jugar un poco brusco."
+ you_perspective_increase_wounds_children_no_death_effect: "Ganas [GetModifier('scratched_and_bruised').GetNameWithTooltip] o [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+ other_perspective_increase_wounds_children_no_death_effect: "[wound_target.GetShortUIName] obtiene [GetModifier('scratched_and_bruised').GetNameWithTooltip] o [GetTrait('wounded_1').GetName( GetNullCharacter )]"
+  
+ playdate.5011.t: "Solo postres"
+ playdate.5011.desc: "Mientras hago lo mejor que puedo con una multitud de niños preocupados a mi alrededor, [obnoxious_parent.GetFirstNamePossessive] ojos casi se salen de las órbitas de [obnoxious_parent.GetHerHis] cabeza.\n\n"¡Pequeño... #EMP charlatán!#!" [obnoxious_parent.GetSheHe] gruñe, señalando con el dedo indignado a mi manera. "Me aseguraré de que—"\n\n"[obnoxious_parent.GetFirstNameNoTooltip]!" Llegó un grito distante y enojado, acercándose rápidamente. El color desaparece de la cara de [obnoxious_parent.GetFirstNamePossessiveNoTooltip] cuando [responsible_adult.GetFirstName] irrumpe en el patio. "¿Cuál es el significado de esto?"\n\nEs una suerte que tenga una distracción, de modo que sólo [obnoxious_parent.GetFirstNameNoTooltip] pueda ver mi sonrisa engreída y satisfecha."
+ playdate.5011.a: ""¡Ay, duele mucho! ¡Ay!""
+ playdate.5011.b: "Probablemente debería confesar..."
   
  playdate.9001.t: "Fin de la diversión"
  playdate.9001.desc: "Estuvo bien olvidar todas las responsabilidades durante un tiempo y pasar un rato con otros niños, pero me dicen que debo volver a mis deberes…\n\n¡Qué bien lo pasamos! Espero que podamos volver a hacerlo pronto."
@@ -195,10 +311,94 @@
  playdate.9002.desc: "¡Cómo nos hemos divertido! Recordaré durante mucho tiempo los días que pasé con [host.GetTitledFirstName|l].\n\nMe dicen que ya es hora de recoger y volver a casa a ocuparme de mis quehaceres, pero con suerte podremos repetir la experiencia."
  playdate.9002.a: "¡Adiós, [host.GetFirstNameNoTooltip]!"
   
- # Learning your child drowned - by Isabella Welch 
+ playdate_saved_from_bully_log_title: "Juntos contra la chusma"
+ playdate_saved_from_bully_log: "[CHARACTER.GetTitledFirstName] salvó a [TARGET_CHARACTER.GetTitledFirstName] de un humilde agresor y los dos se hicieron amigos."
   
- playdate.4000.t: "Río de lágrimas"
- playdate.4000.desc: "Llega un mensajero con aciagas noticias y una pequeña caja negra.\n\nMi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('drowned_participant'))], [drowned_participant.GetFirstNameNoTooltip], se ha ahogado cuando jugaba con [host.GetTitledFirstName|l].\n\nApenas logro ver la caja a través de mis ojos llorosos, pero un vistazo confirma que se trata del cadáver de mi querid[drowned_participant.Custom('ES_OA')] [drowned_participant.GetFirstNameNoTooltip] ."
- playdate.4000.a: "Espero que esté jugando en [ROOT.Char.GetFaith.PositiveAfterLife]"
- playdate.4000.b: "La inocencia es un veneno mortal."
- playdate.4000.c: "Le deseo el mismo destino a [host.GetTitledFirstNameNoTooltip|l]."
+ playdate_joined_beating_log_title: "Se unió a la paliza"
+ playdate_joined_beating_log: "[CHARACTER.GetTitledFirstName] ayudó a una campesina a agredir a [TARGET_CHARACTER.GetTitledFirstName] y descubrió el gusto por el bullying de esta víctima"
+  
+ activity_generic_friend_log_title: "Amistad forjada"
+ activity_generic_friend_log: "[CHARACTER.GetTitledFirstName] y [TARGET_CHARACTER.GetTitledFirstName] se hicieron firmes amigos"
+  
+ activity_generic_rival_log_title: "Ha nacido una rivalidad"
+ activity_generic_rival_log: "[CHARACTER.GetTitledFirstName] y [TARGET_CHARACTER.GetTitledFirstName] se convirtieron en acérrimos rivales"
+  
+ playdate_stole_pet_log_title: "Mascota robada"
+ playdate_stole_pet_log: "[CHARACTER.GetTitledFirstName] se convirtió en el terror de [TARGET_CHARACTER.GetTitledFirstName] después de robar una querida mascota"
+  
+ playdate_revealed_secret_log_title: "Secreto revelado"
+ playdate_revealed_secret_log: "[CHARACTER.GetTitledFirstName] soltó uno de los secretos más queridos de [TARGET_CHARACTER.GetTitledFirstNamePossessive], que inmediatamente se transmitió a todos los asistentes."
+  
+ hurt_while_climbing_log_title: "Lesión de escalada"
+ hurt_while_climbing_log: "[CHARACTER.GetTitledFirstName] intentó una subida ambiciosa y sufrió una caída bastante dura"
+  
+ playdate_excellent_climbing_log_title: "Impresionante escalada"
+ playdate_excellent_climbing_log: "[CHARACTER.GetTitledFirstName] asombró a todos al escalar tan alto"
+  
+ playdate_drowned_log_title: "Un trágico ahogamiento"
+ playdate_drowned_log: "[CHARACTER.GetTitledFirstName] se tambaleó y se ahogó mientras intentaba nadar"
+  
+ playdate_imaginary_currency_log_title: "Nueva moneda establecida"
+ playdate_imaginary_currency_log: "[CHARACTER.GetTitledFirstName] aprendió sobre empresas mientras convenció a un comerciante para que aceptara piedras brillantes a cambio de bienes."
+  
+ playdate_avid_reader_log_title: "Leyendo ávidamente"
+ playdate_avid_reader_log: "[CHARACTER.GetTitledFirstName] pasó tiempo leyendo obstinadamente en lugar de socializar"
+  
+ playdate_trained_with_knights_log_title: "Entrenado con caballeros"
+ playdate_trained_with_knights_log: "[CHARACTER.GetTitledFirstName] y [TARGET_CHARACTER.GetTitledFirstName] se familiarizaron bien cuando aprendieron nuevas habilidades de lucha."
+  
+ playdate_training_injury_log_title: "Lesión de entrenamiento"
+ playdate_training_injury_log: "[CHARACTER.GetTitledFirstName] intentó unirse al entrenamiento de caballeros y terminó con una herida en la cabeza."
+  
+ playdate_observed_knights_log_title: "Caballeros observados"
+ playdate_observed_knights_log: "[CHARACTER.GetTitledFirstName] observó a los guerreros entrenando y comenzó a comprender cómo se debía guiar a esos luchadores."
+  
+ playdate_learned_herbalism_log_title: "Aprendió de herboristería"
+ playdate_learned_herbalism_log: "[CHARACTER.GetTitledFirstName] volvió solo de jugar al aire libre con mucho que decir sobre las setas"
+  
+ playdate_studied_ancient_tomes_log_title: "Estudió tomos antiguos"
+ playdate_studied_ancient_tomes_log: "[CHARACTER.GetTitledFirstNamePossessive] visita a un lugar de culto local les enseñó mucho sobre los de antaño"
+  
+ playdate_studied_ancient_tomes_together_log_title: "Dos estudiantes del pasado"
+ #AGOT Modified 
+ #playdate_studied_ancient_tomes_together_log: "El prelado del reino les enseñó sabiduría antigua a [CHARACTER.GetTitledFirstName] y [TARGET_CHARACTER.GetTitledFirstName]" #NT!
+ playdate_studied_ancient_tomes_together_log: "El prelado del reino les enseñó sabiduría antigua a [CHARACTER.GetTitledFirstName] y [TARGET_CHARACTER.GetTitledFirstName]"
+  
+ playdate_kicked_in_shins_log_title: "Patada en la espinilla"
+ playdate_kicked_in_shins_log: "[CHARACTER.GetTitledFirstNamePossessive] fue violentamente pateado por [TARGET_CHARACTER.GetTitledFirstName] durante un encuentro deportivo amistoso"
+  
+ playdate_outdid_skilled_player_log_title: "Jugador experto superado"
+ playdate_outdid_skilled_player_log: "[CHARACTER.GetTitledFirstNamePossessive] sorprendió a los otros jugadores de fútbol al igualar al bastante hábil [TARGET_CHARACTER.GetTitledFirstName]"
+  
+ playdate_became_friends_watching_football_log_title: "Espectadores y amigos"
+ playdate_became_friends_watching_football_log: "[CHARACTER.GetTitledFirstName] y [TARGET_CHARACTER.GetTitledFirstName] se hicieron amigos mientras veían juntos un apasionante partido de fútbol"
+  
+ playdate_encouraged_shy_player_log_title: "Jugador tímido exhortado"
+ playdate_encouraged_shy_player_log: "[CHARACTER.GetTitledFirstName] persuadió encantadoramente a un reticente [TARGET_CHARACTER.GetTitledFirstName] para que se uniera a la obra"
+  
+ playdate_tricked_climber_log_title: "Engañado para perseguir la pelota"
+ playdate_tricked_climber_log: "[CHARACTER.GetTitledFirstName] manipuló al lamentable [TARGET_CHARACTER.GetTitledFirstName] para que desafiara un muro alto en busca de una pelota."
+  
+ playdate_hurt_climbing_wall_log_title: "Pobre escalador de paredes"
+ playdate_hurt_climbing_wall_log: "[CHARACTER.GetTitledFirstName] subió un muro alto buscando una bola errante y volvió a bajar con bastante brusquedad"
+  
+ playdate_convinced_ball_kid_log_title: "Disputa futbolística aliviada"
+ playdate_convinced_ball_kid_log: "[CHARACTER.GetTitledFirstName] calmó a [TARGET_CHARACTER.GetTitledFirstName] y así recuperó el precioso balón del juego."
+  
+ playdate_defeated_football_bully_log_title: "Asustado al matón"
+ playdate_defeated_football_bully_log: "[CHARACTER.GetTitledFirstName] intervino y vio el fin de [TARGET_CHARACTER.GetTitledFirstNamePossessive] burlarse de un niño desventurado"
+  
+ playdate_injured_defending_victim_log_title: "Herido al defender a una víctima"
+ playdate_injured_defending_victim_log: "[CHARACTER.GetTitledFirstName] fue golpeado por [TARGET_CHARACTER.GetTitledFirstName] cuando intentaba evitar que un niño fuera acosado"
+  
+ playdate_crippled_during_game_log_title: "Lisiado durante el juego"
+ playdate_crippled_during_game_log: "[CHARACTER.GetTitledFirstName] fue pisoteado hasta que [CHARACTER.GetHerHis] cuerpecito se rompió durante un partido de fútbol"
+  
+ playdate_rescued_from_fray_log_title: "Rescatado de la pelea del fútbol"
+ playdate_rescued_from_fray_log: "[CHARACTER.GetTitledFirstName] salvó audazmente a [TARGET_CHARACTER.GetTitledFirstName] de ser aplastado por una multitud de entusiastas deportistas."
+  
+ playdate_failed_football_rescue_log_title: "Pisoteado por una horda de jugadores"
+ playdate_failed_football_rescue_log: "[CHARACTER.GetTitledFirstName] intentó salvar a [TARGET_CHARACTER.GetTitledFirstName] de un montón de futbolistas, y fracasó"
+  
+ playdate_faked_injury_log_title: "Acusado de sufrir una caída"
+ playdate_faked_injury_log: "[CHARACTER.GetTitledFirstName] y [TARGET_CHARACTER.GetTitledFirstName] se convirtieron en rivales después de que la "lesión" de [CHARACTER.GetTitledFirstNamePossessive] incitara a un furioso [TARGET_CHARACTER.GetTitledFirstName] a meterse en problemas."

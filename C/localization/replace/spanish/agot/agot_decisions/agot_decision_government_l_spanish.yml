@@ -1,0 +1,18 @@
+﻿l_spanish:
+  
+  # agot_pirate_convert_whole_realm_to_feudalism_decision and effects and event following 
+ agot_pirate_convert_whole_realm_to_feudalism_decision: "Adoptar el feudalismo" #NT!
+ agot_pirate_convert_whole_realm_to_feudalism_decision_desc: "A medida que mi reino crece, también crece el desafío de controlarlo. Si [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] quiere seguir expandiéndose, debemos dejar atrás las viejas costumbres y convertirnos al feudalismo." #NT!
+ agot_pirate_convert_whole_realm_to_feudalism_decision_confirm: "Adoptar costumbres feudales" #NT!
+ agot_pirate_convert_whole_realm_to_feudalism_decision_tooltip: "Cambiar el tipo de gobierno pasando a ser [GetGovernment( 'lp_feudal_government' ).GetName] o [GetGovernment( 'feudal_government' ).GetName]" #NT!
+ pirate_vassals_will_convert: "Mis [GetGovernment( 'pirate_government' ).GetName] vasallos cambiarán a [GetGovernment( 'feudal_government' ).GetName]" #NT!
+ pirate_vassals_will_convert_lp: "Mis [GetGovernment( 'pirate_government' ).GetName] vasallos cambiarán a [GetGovernment( 'lp_feudal_government' ).GetName]" #NT!
+ msg_vassal_common_feudalised: "Vasallo se ha vuelto feudal" #NT!
+ msg_vassal_common_feudalised_desc: "Tu vasallo, [ROOT.Char.GetShortUIName], ha renunciado a [ROOT.Char.GetHerHis] [GetGovernment( 'pirate_government' ).GetNameNoTooltip] y se ha convertido en [GetGovernment( 'feudal_government' ).GetNameNoTooltip]" #NT!
+ msg_vassal_lp_feudalised: "Vasallo se ha vuelto feudal" #NT!
+ msg_vassal_lp_feudalised_desc: "Tu vasallo, [ROOT.Char.GetShortUIName], ha renunciado a [ROOT.Char.GetHerHis] [GetGovernment( 'pirate_government' ).GetNameNoTooltip] y se ha convertido en [GetGovernment( 'lp_feudal_government' ).GetNameNoTooltip]" #NT!
+ all_pirate_holding_will_change: "Todos los [pirate_den_holding|E] en el reino se convertirán en [castle_holdings|E]" #NT!
+ agot_pirate_events.0001.t: "Una nueva era" #NT!
+ agot_pirate_events.0001.desc: "Las viejas costumbres nos han resultado muy útiles y siempre las honraremos. Sin embargo, como [ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], he concluido que debemos adoptar el feudalismo y sus principios si queremos seguir prosperando. ¡Es el siguiente paso crucial en nuestro camino hacia la grandeza!" #NT!
+ agot_pirate_events.0001.a: "¡Viva [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!" #NT!
+ agot_pirate_events.0002.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!

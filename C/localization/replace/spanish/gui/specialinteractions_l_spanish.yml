@@ -1,0 +1,560 @@
+﻿l_spanish:
+ INHERITABLE_TRAITS: "[congenital_traits|E]" #NT!
+ NO_INHERITABLE_TRAITS: "No [congenital_traits|E]" #NT!
+ CHANCE_OF_CHILDREN: "Posibilidad de hijos: $VALUE|V$" #NT!
+ CHILDRENS_HOUSE: "Los niños nacerán en [house|E] [CHARACTER.GetHouse.GetBaseName]" #NT!
+ CHILDREN_NO_HOUSE: "#warning @warning_icon! Los hijos de este matrimonio no nacerán en un [house|E]#!" #NT!
+ CONCUBINE_CHILDREN_HOUSE: "Los hijos de esta sociedad nacerán en [house|E] [MatchOffer.GetSecondaryActor.GetHouse.GetBaseName]" #NT!
+ MARRIAGE_INFO: "[MarriageInfo.GetMarriageOrBetrothal]" #NT!
+ MARRIAGE_CHILDREN_CHANCE_INFO: "[MatchOffer.GetChanceOfChildrenDesc]" #NT!
+ MARRIAGE_CHILDREN_HOUSE_INFO: "[MatchOffer.GetChildrensHouse]" #NT!
+ CONVERT_BETROTHAL_TO_MARRIAGE: "Convertir el [betrothal|E] en un matrimonio" #NT!
+ CHARACTER_UI_NAME: "[CHARACTER.GetUIName]" #NT!
+ CREATE_MARRIAGE: "Proponer que [CHARACTER.GetUIName] y [TARGET_CHARACTER.GetUIName] obtengan [married|E]" #NT!
+ BETROTHAL_ONE_CHARACTER: "Proponga que [CHARACTER.GetUIName] y [TARGET_CHARACTER.GetUIName] obtengan [betrothed|E], ya que uno es un [child|E]" #NT!
+  #AGOT Modified, Vanilla typo 
+ #BETROTHAL_BOTH_CHARACTERS: "Proponga que [CHARACTER.GetUIName] y[TARGET_CHARACTER.GetUIName] obtengan [betrothed|E], ya que ambos son [children|E]" #NT!
+ BETROTHAL_BOTH_CHARACTERS: "Proponga que [CHARACTER.GetUIName] y [TARGET_CHARACTER.GetUIName] obtienen [betrothed|E], ya que ambos son [children|E]" #NT!
+ CREATE_GRAND_WEDDING_PROMISE: "Proponer que [CHARACTER.GetUIName] y [TARGET_CHARACTER.GetUIName] obtengan [betrothed|E], hasta que se retenga el [GetActivityType( 'activity_wedding' ).GetName] prometido" #NT!
+ CREATE_GRAND_WEDDING_PROMISE_ONE_CHILD: "$BETROTHAL_ONE_CHARACTER$, con la promesa de que se realizará un [GetActivityType( 'activity_wedding' ).GetName]" #NT!
+ CREATE_GRAND_WEDDING_PROMISE_BOTH_CHILD: "$BETROTHAL_BOTH_CHARACTERS$, con la promesa de que se realizará un [GetActivityType( 'activity_wedding' ).GetName]" #NT!
+ GRAND_WEDDING_PROMISE: "[GetActivityType( 'activity_wedding' ).GetNameNoTooltip]" #NT!
+ HAS_BETROTHAL_REASON: "Compromiso existente: $VALUE|=+0$" #NT!
+ CHARACTERS_ARE_BETROTHED: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] son [betrothed|E]" #NT!
+ DESIRES_ALLIANCE: "[recipient.GetShortUIName|U] desea un [alliance|E]: $VALUE|=+0$" #NT!
+ DOES_NOT_WANT_ALLIANCE: "[recipient.GetShortUIName|U] no quiere una Alianza: $VALUE|=+0$" #NT!
+ YOU_HAVE_TOO_MANY_ALLIANCES: "Tienes demasiados [alliances|E] existentes: $VALUE|=+0$" #NT!
+ INTIMIDATED_REASON: "[intimidated_i][intimidated|E] por ti: $VALUE|=+0$" #NT!
+ COWED_REASON: "[terrified_i][cowed|E] de ti: $VALUE|=+0$" #NT!
+ GRANDEUR_REASON: "Tu [court_grandeur|E]: $VALUE|=+0$" #NT!
+ THUG_REASON: "Tu [acclaimed_knight|E] es intimidante: $VALUE|=+0$" #NT!
+ THUG_REASON_HIGH: "Tu [acclaimed_knight|E] es muy intimidante: $VALUE|=+0$" #NT!
+  
+ FP1_ADVENTURE_LEGACY_3_REASON: "[recipient.GetShortUINamePossessive|U] [dynasty|E] tiene [GetDynastyPerk('fp1_adventure_legacy_3').GetName]: $VALUE|=+0$" #NT!
+ MARRYING_UP_REASON: "[secondary_recipient.GetShortUIName|U] se está casando: $VALUE|=+0$" #NT!
+ MARRYING_DOWN_REASON: "[secondary_recipient.GetShortUIName|U] se está casando: $VALUE|=+0$" #NT!
+ MARRYING_HEIR_REASON: "Su candidato es [actor.GetShortUINamePossessive|U] [heir|E]: $VALUE|=+0$" #NT!
+ MY_OWN_MARRIAGE_REASON: "[recipient.GetShortUINamePossessive] Matrimonio propio: $VALUE|+0$" #NT!
+ CLOSE_RELATIVE_REASON: "Pariente cercano: $VALUE|+0$" #NT!
+ DEAR_TO_ME_REASON: "[secondary_recipient.GetShortUIName|U] es querido por [recipient.GetShortUIName]: $VALUE|+0$" #NT!
+ RIVAL_TO_ME_REASON: "[secondary_recipient.GetShortUIName|U] es [recipient.GetShortUINamePossessive] Rival: $VALUE|+0$" #NT!
+ ACTOR_RIVAL_TO_ME_REASON: "[recipient.GetShortUIName|U] es [actor.GetShortUINamePossessive] Rival: $VALUE|+0$" #NT!
+ NEMESIS_TO_ME_REASON: "[secondary_recipient.GetShortUIName|U] es [recipient.GetShortUINamePossessive] Némesis: $VALUE|+0$" #NT!
+ ACTOR_NEMESIS_TO_ME_REASON: "[recipient.GetShortUIName|U] es [actor.GetShortUINamePossessive] Némesis: $VALUE|+0$" #NT!
+ MARRIAGE_DESPERATION: "[secondary_recipient.GetShortUINamePossessive] Edad: $VALUE|+=0$" #NT!
+ MARRY_CONSANGUINITY_REASON: "El matrimonio sería [incestuous|E]: $VALUE|+=0$" #NT!
+ MATRILINEAL_WARNING: "@warning_icon! #X Los hijos nacidos de este Matrimonio serán de [CHARACTER.GetShortUINamePossessive] [dynasty|E] ('[CHARACTER.GetDynastyName]')!#!" #NT!
+ MATRILINEAL_REASON: "Matrilineal matrimonio: $VALUE|=+0$" #NT!
+ PATRILINEAL_REASON: "Matrimonio patrilineal: $VALUE|=+0$" #NT!
+ PROMISING_PROSPECTS_PERK_MODIFIER: "Tienes [GetPerk( 'promising_prospects_perk' ).GetName( GetPlayer )]: $VALUE|=+0$" #NT!
+ DYNASTY_LEGACY_GLORY_MARRIAGE_ACCEPTANCE_PERK_MODIFIER: "Tu [dynasty|E] tiene [GetDynastyPerk( 'glory_legacy_1' ).GetName]: $VALUE|=+0$" #NT!
+ DYNASTY_LEGACY_KHVARENAH_MARRIAGE_ACCEPTANCE_PERK_MODIFIER: "Tu [dynasty|E] tiene [GetDynastyPerk( 'fp3_khvarenah_legacy_3' ).GetName]: $VALUE|=+0$" #NT!
+ IncorrectLineality_Matrilineal: "Matrilineal" #NT!
+ IncorrectLineality_Patrilineal: "Por línea paterna" #NT!
+ MATRILINEAL_PATRILINEAL_REASON: "[secondary_recipient.Custom('IncorrectLineality')] Matrimonio: $VALUE|=+0$" #NT!
+ NO_PRESTIGE_MUSLIM_MARRIAGE: "[characters|E] cuyos [faiths|E] son [GetFaithDoctrine('doctrine_polygamy').GetBaseName] no obtienen [prestige|E] del matrimonio" #NT!
+ CONTRACT_RELIGIOUS_EXEMPTION_REASON: "Exención religiosa: $VALUE|=+0$" #NT!
+ CONTRACT_RELIGIOUS_TAXATION_REASON: "Impuestos religiosos: $VALUE|=+0$" #NT!
+ CONTRACT_LOW_TAXES_REASON: "Obligaciones feudales bajas: $VALUE|=+0$" #NT!
+ CONTRACT_HIGH_TAXES_REASON: "Altas obligaciones feudales: $VALUE|=+0$" #NT!
+ MONASTIC_EXPECTATIONS_REASON: "$tradition_monastic_communities_name$: $VALUE|=+0$" #NT!
+ high_obligations: "Alto Feudal [obligations|E]" #NT!
+ high_obligations_taxes: "[contract|E] comienza con [GetVassalContractType( 'feudal_government_taxes' ).GetObligationName( 'feudal_tax_high' )]" #NT!
+ high_obligations_levies: "[contract|E] comienza con [GetVassalContractType( 'feudal_government_levies' ).GetObligationName( 'feudal_levies_high' )]" #NT!
+ normal_obligations: "Feudal normal [obligations|E]" #NT!
+ normal_obligations_taxes: "[contract|E] comienza con [GetVassalContractType( 'feudal_government_taxes' ).GetObligationName( 'feudal_tax_normal' )]" #NT!
+ normal_obligations_levies: "[contract|E] comienza con [GetVassalContractType( 'feudal_government_levies' ).GetObligationName( 'feudal_levies_normal' )]" #NT!
+ low_obligations: "Bajo Feudal [obligations|E]" #NT!
+ low_obligations_taxes: "[contract|E] comienza con [GetVassalContractType( 'feudal_government_taxes' ).GetObligationName( 'feudal_tax_low' )]" #NT!
+ low_obligations_levies: "[contract|E] comienza con [GetVassalContractType( 'feudal_government_levies' ).GetObligationName( 'feudal_levies_low' )]" #NT!
+ religious_exemption: "Exención religiosa" #NT!
+ no_exemption: "Sin exención" #NT!
+ religious_taxation: "Impuestos religiosos" #NT!
+ religious_protection_tt: "[contract|E] comienza con [GetVassalContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )]" #NT!
+ jizya_religious_protection_tt: "[contract|E] comienza con [GetVassalContractType( 'jizya_special_rights' ).GetObligationName( 'jizya_special_rights_granted' )]" #NT!
+  
+ AI_ELOPE_CONSEQUENCES: "[recipient.GetShortUIName|U] desconfía de las consecuencias: $VALUE|=+0$" #NT!
+ AI_SPOUSE_OPINION: "[CHARACTER.GetShortUINamePossessive] Opinión de [CHARACTER.GetHerHis] Cónyuge: $VALUE|=+0$" #NT!
+ AI_ELOPE_WEAK_HOOK: "[recipient.GetLiege.GetShortUIName] tiene [weak_hook|E] en [recipient.GetShortUIName]: $VALUE|=+0$" #NT!
+ AI_ELOPE_STRONG_HOOK: "[recipient.GetLiege.GetShortUIName] tiene [strong_hook|E] en [recipient.GetShortUIName]: $VALUE|=+0$" #NT!
+ AI_ELOPE_INHERITANCE: "[recipient.GetShortUIName|U] heredará un [title|E]: $VALUE|=+0$" #NT!
+ AI_ELOPE_POSSIBLE_INHERITANCE: "[recipient.GetShortUIName|U] podría heredar un [title|E]: $VALUE|=+0$" #NT!
+  
+ GRAND_WEDDING_PROMISE_REASON_1: "Se promete un [GetActivityType( 'activity_wedding' ).GetName]: $VALUE|=+0$" #NT!
+ GRAND_WEDDING_MAGNIFICENT_HOST_REASON: "$gwedding_magnificent_host_modifier$" #NT!
+ GRAND_WEDDING_DYNASTY_LEGACY_BONUS: "$ep2_activities_legacy_track$: $VALUE|=+0$" #NT!
+  
+ ZEAL_AGAINST_INFIDELS: "Celo contra los infieles: $VALUE|=+0$" #NT!
+ MATRILINEAL_OFFER: "[matrilineal|E] Matrimonio" #NT!
+ MATRILINEAL_TOOLTIP: "¿Debería ser este un matrimonio [matrilineal|E]?" #NT!
+ MATRILINEAL_OFFER_BETROTHAL_INFO: "No puedes cambiar esto ya que se acordó durante [betrothal|E]" #NT!
+ CHANGE_CHARACTER: "Cambia de carácter" #NT!
+ VALUABLE_CLAIMANT: "Valioso [claimant|E]: $VALUE|+0$" #NT!
+ CLAIMANT_TO_MY_TITLES: "[title|E] [claimant|E]: $VALUE|+0$" #NT!
+ REVERT_CHANGE_CHARACTER: "Revertir carácter" #NT!
+ CLEAR_MARRIED_CHARACTERS: "Borrar caracteres" #NT!
+ CLEAR_MARRIED_CHARACTER: "Carácter claro" #NT!
+ GOLD_REASON: "El oro es bueno: $VALUE|=+0$" #NT!
+ PRISONER_REASON: "Prisionero: $VALUE|=+0$" #NT!
+ WONT_ATTACK_RELIGIOUS_BRETHREN_REASON: "Ataque a hermanos religiosos: $VALUE|=+0$" #NT!
+ WONT_HELP_STRUGGLE_FOE_REASON: "Opuesto [struggle|E] Lado: $VALUE|=+0$" #NT!
+ DEFENSIVE_WAR_REASON: "Guerra defensiva: $VALUE|=+0$" #NT!
+ ATTACK_ON_ALLY_REASON: "Ataque a aliado: $VALUE|=+0$" #NT!
+ WAR_WITH_ALLY_REASON: "Guerra contra otro aliado: $VALUE|=+0$" #NT!
+ WONT_FIGHT_HEIR_REASON: "No peleará Heredero: $VALUE|=+0$" #NT!
+ WONT_FIGHT_SPOUSE_REASON: "No peleará Cónyuge: $VALUE|=+0$" #NT!
+ WONT_FIGHT_MEANINGLESS_REASON: "No participará en conflictos sin sentido: $VALUE|=+0$" #NT!
+ HAS_YOUR_SUPPORT_REASON: "Tiene su apoyo: $VALUE|=+0$" #NT!
+ ENTRENCHED_REGENT_WILL_SUPPORT_LIEGE: "[entrenched_regent|E] Protege [realm|E]: $VALUE|=+0$" #NT!
+ NO_CHARACTERS_TO_SELECT: "#weak No se encontraron caracteres válidos#!" #NT!
+ NO_VASSALS_TO_DISPLAY: "No tienes [vassals|E]" #NT!
+ ALREADY_AT_WAR: "Ya en [war|E]: $VALUE|=+0$" #NT!
+ MARRY_PROMPT_SOMEONE: "#I Elige a alguien para casarlo#!" #NT!
+ MARRY_PROMPT_BUILDING_LIST: "#I Encontrar cónyuges potenciales para [CHARACTER.GetShortUIName]#!" #NT!
+ MARRY_PROMPT_CHARACTER: "#I Elige a alguien para que [CHARACTER.GetShortUIName] se case#!" #NT!
+ MARRY_DIFFERENT_FAITH_REASON: "[recipient.GetShortUINamePossessive] [faith|E] Difiere del tuyo: $VALUE|+0$" #NT!
+ SAME_SEX_MARRIAGE_FAITH_REASON: "[secondary_recipient.GetShortUINamePossessive] [faith|E] no acepta $doctrine_homosexuality_name$: $VALUE|=+0$" #NT!
+ SAME_SEX_MARRIAGE_FAITH_REASON_ACTOR: "[actor.GetShortUINamePossessive] [faith|E] no acepta $doctrine_homosexuality_name$: $VALUE|=+0$" #NT!
+ SAME_SEX_MARRIAGE_FAITH_REASON_RECIPIENT: "[recipient.GetShortUINamePossessive] [faith|E] no acepta $doctrine_homosexuality_name$: $VALUE|=+0$" #NT!
+ SAME_SEX_MARRIAGE_FERTILITY_REASON: "El matrimonio no tendrá [fertility|E]: $VALUE|+0$" #NT!
+ MARRY_UNIMPORTANT_COURTIER_REASON: "Sin importancia [courtier|E]: $VALUE|+0$" #NT!
+ MARRY_CARES_ABOUT_COURTIER_REASON: "[secondary_recipient.GetShortUIName|U] es importante para [recipient.GetShortUIName]: $VALUE|+0$" #NT!
+ MARRY_PARENT_OF_CHILDREN_REASON: "[secondary_recipient.GetShortUIName|U] es padre de [recipient.GetShortUINamePossessive] hijos: $VALUE|+0$" #NT!
+ AI_OPINION_REASON: "[CHARACTER.GetShortUINamePossessive] Opinión de [TARGET_CHARACTER.GetShortUIName]: $VALUE|=+0$" #NT!
+ AI_OPINION_REASON_SPOUSE: "[CHARACTER.GetShortUINamePossessive] Opinión del cónyuge, [TARGET_CHARACTER.GetShortUIName]: $VALUE|=+0$" #NT!
+ AI_OPINION_REASON_ACTOR: "[CHARACTER.GetShortUINamePossessive] Opinión del casamentero, [TARGET_CHARACTER.GetShortUIName]: $VALUE|=+0$" #NT!
+ AI_REFUSAL_IS_TREASON: "La negativa es traición: $VALUE|=+0$" #NT!
+ AI_CLAIMANT_PENALTY: "[recipient.GetShortUIName|U] está respaldado por una facción: $VALUE|=+0$" #NT!
+ AI_PRISON_FEUDAL_COMPLEX_PERK: "[GetPerk( 'prison_feudal_complex_perk' ).GetName( GetPlayer )]: $VALUE|=+0$" #NT!
+ AI_REFUSAL_SPLITTING_SAME_FAITH_VASSALS: "Infiel dividiendo a los fieles: $VALUE|=+0$" #NT!
+ AI_REFUSAL_IS_NOT_DE_JURE_LIEGE: "[secondary_recipient.GetShortUIName|U] no es un vasallo [de_jure|E]: $VALUE|=+0$" #NT!
+ AI_REFUSAL_IS_DE_JURE_LIEGE: "Vasallo pertenece legítimamente a [actor.GetShortUIName]: $VALUE|=+0$" #NT!
+ AI_REFUSAL_IS_DE_JURE_UNDER: "[landed_title.GetName|U] pertenece a [recipient.GetShortUINamePossessive] [de_jure|E]: $VALUE|=+0$" #NT!
+ AI_LIEGE_HAS_CLAIM_ON_TITLE: "[actor.GetShortUINameNotMe] tiene un [claim|E] válido: $VALUE|=+0$" #NT!
+ AI_TITLE_IS_REALM_CAPITAL: "[landed_title.GetName] es [actor.GetShortUINamePossessive] [de_jure_capital|E]: $VALUE|=+0$" #NT!
+ AI_TITLE_IS_IN_CAPITAL_DUCHY: "[landed_title.GetName] está en [actor.GetShortUINamePossessive] Ducado Capital: $VALUE|=+0$" #NT!
+ AI_VASSAL_HOLDS_REALM_CAPITAL: "Vasallo tiene [actor.GetShortUINamePossessive] [realm_capital|E] #weak (o [de_jure] [duchy])#!: $VALUE|=+0$" #NT!
+ AI_VASSAL_IS_IN_CAPITAL_DUCHY: "Vasallo pertenece a [actor.GetShortUINamePossessive] Ducado Capital: $VALUE|=+0$" #NT!
+ IMPRISON_INTRIGUE_ACTOR: "[actor.GetShortUINamePossessive|U] [intrigue|E]: $VALUE|=+0$" #NT!
+ IMPRISON_INTRIGUE_RECIPIENT: "[recipient.GetShortUINamePossessive|U] [intrigue|E]: $VALUE|=+0$" #NT!
+ AI_REFUSAL_RANK_DIFFERENCE: "[rank|E] Diferencia: $VALUE|=+0$" #NT!
+ AI_REFUSAL_COURTIER: "[recipient.GetShortUIName|U] no es un [ruler|E]: $VALUE|=+0$" #NT!
+ AI_REFUSAL_YOUNG_CHILD: "[recipient.GetShortUIName|U] es tu [child|E]: $VALUE|=+0$" #NT!
+ AI_REFUSAL_WOUNDED: "[recipient.GetShortUIName|U] está herido: $VALUE|=+0$" #NT!
+ AI_ACCEPTANCE_FOREIGN_AFFAIRS_FOCUS: "[recipient.GetShortUIName|U] tiene el $diplomacy_foreign_affairs_focus$: $VALUE|=+0€$" #NT!
+ AI_BANISHMENT_REASON_MODIFIER: "Su delito merece el destierro: $VALUE|=+0$" #NT!
+ AI_REVOKE_TITLE_REASON_MODIFIER: "Su delito justifica la revocación del título: $VALUE|=+0$" #NT!
+ AI_EXECUTE_REASON_MODIFIER: "Su delito amerita ejecución: $VALUE|=+0$" #NT!
+ MARRY_AGE: "Consideraciones de edad: $VALUE|+0$" #NT!
+ AI_FERTILITY_REASON: "[secondary_actor.GetShortUIName|U] es infértil: $VALUE|+0$" #NT!
+ AI_STD_REASON: "[secondary_actor.GetShortUIName|U] tiene una enfermedad de transmisión sexual: $VALUE|+0$" #NT!
+ AI_CONTAGIOUS_REASON: "[secondary_actor.GetShortUIName|U] tiene una enfermedad contagiosa: $VALUE|+0$" #NT!
+ AI_POSITIVE_TRAIT_REASON: "Positivo [congenital|E] [traits|E]: $VALUE|+0$" #NT!
+ AI_NEGATIVE_TRAIT_REASON: "Negativo [congenital|E] [traits|E]: $VALUE|+0$" #NT!
+ AI_DYNASTY_PRESTIGE_REASON: "[dynasty_prestige_level|E] del [actor.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$" #NT!
+ AI_DYNASTY_PRESTIGE_REASON_SECONDARY: "[dynasty_prestige_level|E] del [secondary_actor.GetDynasty.GetName] [dynasty|E]: $VALUE|=+0$" #NT!
+ AI_DYNASTY_PRESTIGE_REASON_LOWBORN: "[secondary_actor.GetShortUIName|U] es [lowborn|E]: $VALUE|=+0$" #NT!
+ AI_DYNASTY_PRESTIGE_REASON_NOBLE: "[secondary_actor.GetShortUIName|U] es [noble|E]: $VALUE|=+0$" #NT!
+ AI_DYNASTY_PRESTIGE_REASON_LOWBORN_NO_POSITIVE_TRAIT: "Su candidato es [lowborn|E] sin positivo [congenital|E] [traits|E]: $VALUE|=+0$" #NT!
+ AI_NO_FERTILITY_REASON: "[recipient.GetShortUIName|U] no tiene [heir|E], y la unión no tendrá [fertility|E]: $VALUE|=+0$" #NT!
+ AI_ATTRACTION_REASON: "[recipient.GetShortUIName|U] se siente atraído por [secondary_actor.GetShortUIName|U]: $VALUE|=+0$" #NT!
+ LIEGE_REASON: "Eres [recipient.GetHerHis] Lieja: $VALUE|=+0$" #NT!
+ FOREIGN_COURT_REASON: "[secondary_recipient.GetShortUIName|U] se trasladaría a un tribunal extranjero: $VALUE|=+0$" #NT!
+ MARRY_LOW_FERTILITY_REASON: "El matrimonio tendrá Bajo [fertility|E]: $VALUE|+0$" #NT!
+ HIGH_OPINION_REASON: "Opinión: $VALUE|=+0$" #NT!
+ MARRIAGE_PRESTIGE_DESC_OUR: "[Character.GetShortUINameNotMe] obtiene: @prestige_icon! [MatchOffer.GetActorPrestige|+0]" #NT!
+ MARRIAGE_PRESTIGE_DESC_THEIR: "[Character.GetShortUINameNotMe] obtiene: @prestige_icon! [MatchOffer.GetRecipientPrestige|+0]" #NT!
+ MARRIAGE_PRESTIGE_TOOLTIP_OUR: "[Character.GetShortUINameNotMe] obtiene [prestige_i] [MatchOffer.GetActorPrestige|+0]:\n[MatchOffer.GetActorPrestigeDesc]" #NT!
+ MARRIAGE_PRESTIGE_TOOLTIP_THEIR: "[Character.GetShortUINameNotMe] obtiene [prestige_i] [MatchOffer.GetRecipientPrestige|+0]:\n[MatchOffer.GetRecipientPrestigeDesc]" #NT!
+ MARRIAGE_INBREEDING_RISK_WE: "Estamos relacionados y existe un riesgo [MatchOffer.GetInbreedingChance|V%^1] de que nuestros hijos sean [inbred|E]" #NT!
+ MARRIAGE_INBREEDING_THEY: "Son parientes y existe un riesgo [MatchOffer.GetInbreedingChance|V%^1] de que sus hijos sean [inbred|E]" #NT!
+ NO_INBREEDING_RISK_WE: "No somos parientes por lo que no hay riesgo de que nuestros hijos lo sean [inbred|E]" #NT!
+ NO_INBREEDING_THEY: "No son parientes por lo que no hay riesgo de que sus hijos sean [inbred|E]" #NT!
+ MARRYING_INTO_HOUSE: "Casarse en la Casa $HOUSE$: $PRESTIGE|0+$" #NT!
+ MARRYING_UNLANDED_PRESTIGE: "Casarse sin tierra: $PRESTIGE|0+$" #NT!
+ MARRYING_PERSON_PRESTIGE: "Casarse [CHARACTER.GetTitleTierName]: $PRESTIGE|0+$" #NT!
+ MARRYING_RELATIVE_PRESTIGE: "Casarse con un pariente cercano de [CHARACTER.GetShortUIName] ([CHARACTER.GetTitleTierName]): $PRESTIGE|0+$" #NT!
+ MARRIAGE_DOCTRINE_PRESTIGE_EFFECT: "[CHARACTER.GetFaith.GetName] doctrinas: $PRESTIGE_MULT|0+=%$" #NT!
+ TRADE_PIETY_FOR_BETTER_AI_ACCEPTANCE: "Utilice [piety|E] para aumentar la aceptación" #NT!
+ EDUCATION_HOOK: "Utilice un [hook_i][hook|e]" #NT!
+ MARRIAGE_HOOK: "Utilice un [hook_i][hook|e]" #NT!
+ MARRIAGE_MATRILINEAL_TOGGLE: "Matrilineal" #NT!
+ MARRIAGE_MATRILINEAL_TOGGLE_TOOLTIP: "#T Alternar matrilineal#!\nShow candidatos que aceptarían un matrimonio [matrilineal|E]" #NT!
+ MARRIAGE_GRAND_WEDDING_TOGGLE: "Gran Boda [GetActivityType('activity_wedding').GetTextIcon]" #NT!
+ MARRIAGE_SPOUSE_COUNCILLOR_BOOST_HEIR: "[recipient.GetShortUIName|U] escuché cosas buenas sobre mi heredero: $VALUE|+=0$" #NT!
+ MARRIAGE_SPOUSE_COUNCILLOR_BOOST_CHILD: "[recipient.GetShortUIName|U] escuché cosas buenas sobre mi hijo: $VALUE|+=0$" #NT!
+ COURT_GRANDEUR_LEVEL_MARRIAGE_ACCEPTANCE_BOOST_MODIFIER: "[recipient.GetShortUIName|U] está impresionado por mi [royal_court|E]: $VALUE|+=0$" #NT!
+ COURT_GRANDEUR_LEVEL_MARRIAGE_ACCEPTANCE_PENALTY_MODIFIER: "[recipient.GetShortUIName|U] no está impresionado por mi [royal_court|E]: $VALUE|+=0$" #NT!
+ wishes_well_for_lovers_tooltip: "[recipient.GetShortUIName|U] buenos deseos para los amantes: $VALUE|=+0$" #NT!
+ ARE_LOVERS_REASON: "[secondary_actor.GetShortUIName|U] y [secondary_recipient.GetShortUIName] son [lovers|E]: $VALUE|=+0$" #NT!
+ ARE_SOULMATES_REASON: "[secondary_actor.GetShortUIName|U] y [secondary_recipient.GetShortUIName] son [soulmates|E]: $VALUE|=+0$" #NT!
+ IS_FOCUSING_ON_INSPIRATION_MODIFIER: "[secondary_recipient.GetShortUIName|U] se centra en [secondary_recipient.GetHerHis] [inspiration|E]: $VALUE|=+0$" #NT!
+ grant_titles: "Títulos de subvención" #NT!
+ grant_titles_interaction: "Títulos de subvención" #NT!
+ grant_titles_interaction_desc: "Otorga uno o más de tus [titles|E] a [recipient.GetShortUINameNoTooltip] de propiedad personal" #NT!
+ grant_title_to_bastard_dynasty_warning: "Como [bastard|E], [recipient.GetShortUINameNoTooltip] fundará un nuevo [dynasty|E]" #NT!
+ grant_titles_interaction_notification: "Título concedido" #NT!
+ grant_titles_interaction_notification_effect: "[recipient.GetUINameNotMe] se convirtió en tu [vassal|E]" #NT!
+ grant_titles_interaction_notification_effect_2: "Tu [vassal|E] [recipient.GetShortUINameNotMe] ahora tiene el [loc_title.GetBaseName]" #NT!
+ grant_titles_interaction_notification_effect_3: "Tu [vassal|E] [recipient.GetShortUINameNotMe] ahora contiene el [loc_title.GetBaseName] y el otro [titles|E]" #NT!
+ grant_titles_interaction_notification_effect_4: "[recipient.GetUINameNotMe] es ahora un [independent|E] [ruler|E]" #NT!
+ grant_titles_interaction_notification_effect_5: "[recipient.GetUINameNotMe] ahora es un compañero vasallo" #NT!
+ grant_titles_interaction_notification_effect_6: "[recipient.GetUINameNotMe] ahora tiene el [loc_title.GetBaseName]" #NT!
+ NOT_grant_titles_interaction_can_only_give_diarch_de_jure_liege_to_diarch: "Como [CHARACTER.GetShortUIName] es tu [CHARACTER.GetDiarchTitle], solo puedes dar [CHARACTER.GetHerHis] [de_jure|E] [liege|E] [title|E] a [CHARACTER.GetHerHim]" #NT!
+ grant_titles_interaction_children_not_allowed_temple: "¡[recipient.GetUINameNotMe] es demasiado joven para manejar los deberes religiosos que conlleva la gestión de [temple|E]!" #NT!
+ NOT_grant_titles_interaction_children_not_allowed_temple: "¡Los niños no pueden manejar los deberes religiosos que conlleva la gestión de [temple|E]!" #NT!
+ grant_titles_interaction_title_being_wagered: "No puedes regalar un [title|E] que estés apostando actualmente" #NT!
+ grant_title_landing_acclaimed_knight_warning: "@warning_icon! #X Otorgar un título por encima del rango [barony|e] invalidará este [acclaimed_knight|e]#!" #NT!
+ cultural_acceptance_gain_granted_title: "[landed_title.GetName] concedido a un [ruler|E] del [recipient.GetCulture.GetName] [culture|E]" #NT!
+ cultural_acceptance_gain_auto_granted_county: "[landed_title.GetName] concedido a un [ruler|E] del [ROOT.Culture.GetName] [culture|E]" #NT!
+ runestone_grant_title_warning: "@warning_icon! #X ¡La piedra rúnica en [target.GetNameNoTier] será destruida ya que [recipient.GetShortUIName] no es tuya [dynasty|E]!#!" #NT!
+  
+ revoke_title: "Revocar título" #NT!
+ revoke_title_interaction: "Revocar título" #NT!
+ revoke_title_interaction_desc: "¡Toma un [title|E] de [recipient.GetShortUINameNoTooltip]\n\n@warning_icon! #weak Puede incurrir en [tyranny|E] a menos que tenga causa de revocación#!" #NT!
+ cannot_revoke_title_from_anothers_prisoner.tt: "[recipient.GetShortUIName] es [imprisoned|E] por [recipient.GetImprisonedBy.GetShortUIName]" #NT!
+ revoke_title_interaction_extra_icon: "$hook_extra_icon$" #NT!
+ cultural_acceptance_loss_revokation: "[landed_title.GetName] fue revocado de un gobernante de la cultura [recipient.GetCulture.GetName]" #NT!
+ cultural_acceptance_historical_relations: "Relaciones históricas" #NT!
+ GRANT_REVOKE_TITLES_NEW_DOMAIN_LABEL: "Nuevo tamaño de dominio:" #NT!
+ GRANT_REVOKE_TITLE_NEW_DOMAIN_SIZE: "#T Nuevo [domain|E] Tamaño: $SIZE$/[CHARACTER.GetDomainLimit] [holdings|E]#!" #NT!
+ GRANT_TITLE_REDUCES_OVERRUN: "Se reducirá la penalización por estar por encima de tu [domain_limit|E]" #NT!
+ REVOKE_TITLE_CAUSES_OVERRUN: "@warning_icon! #X Superarás tu [domain_limit|E]#!" #NT!
+ GRANT_REVOKE_TITLES_OTHER_EFFECT_LABEL: "Otros efectos" #NT!
+ GRANT_REVOKE_TITLES_FILTER_LABEL: "Mostrar sólo títulos recientes" #NT!
+ GRANT_REVOKE_TITLES_FILTER_TOOLTIP: "Mostrar solo [titles|E] adquirido durante el $TIME$ anterior" #NT!
+ GRANT_TITLES_REMAINS_AS_MY_VASSAL: "[CHARACTER.GetShortUINameNotMe] sigue siendo tu [vassal|E]" #NT!
+ GRANT_TITLES_REMAINS_AS_VASSAL_OF: "[CHARACTER.GetShortUINameNotMe] permanece [TARGET_CHARACTER.GetShortUINamePossessive] [vassal|E]" #NT!
+ GRANT_TITLES_REMAINS_INDEPENDENT: "[CHARACTER.GetShortUINameNotMe] permanece independiente" #NT!
+ GRANT_TITLES_BECOME_MY_VASSAL: "[Character.GetShortUINameNotMe] se convierte en tu [vassal|E]\n$EFFECT_LIST_BULLET$[Character.GetSheHe|U] tendrá el [VassalStance.GetTextIcon][VassalStance.GetName] [vassal_stance|E]" #NT!
+ GRANT_TITLES_BECOME_VASSAL_OF: "[CHARACTER.GetShortUINameNotMe] se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] [vassal|E]" #NT!
+ GRANT_TITLES_BECOME_INDEPENDENT: "[CHARACTER.GetShortUINameNotMe] se convierte en [independent|E] debido a que su [title_rank|E] ahora es igual al tuyo" #NT!
+ GRANT_TITLES_BECOME_VASSAL_OF_LIEGE: "[CHARACTER.GetShortUINameNotMe] se convierte en [vassal|E] de [TITLE.GetName] debido a que su [title_rank|E] ahora es igual al tuyo" #NT!
+ GRANT_TITLES_FORMAT: "@warning_icon! #X $MESSAGE$#!" #NT!
+ GRANT_TITLE_CANT_RECEIVE_REASON_UNLANDED: "@warning_icon! #X [CHARACTER.GetShortUINameNotMe] debe tener al menos un [county|E] o [barony|E] para recibir un título de nivel superior#!" #NT!
+ GRANT_TITLE_CANT_RECEIVE_REASON_BARON_CAN_HAVE_ONLY_ONE_BARONY: "@warning_icon! #X Los barones solo pueden tener una baronía#!" #NT!
+ GRANT_TITLE_CANT_RECEIVE_REASON_BARONY_WITHOUT_COUNTY: "@warning_icon! #X [CHARACTER.GetShortUINameNotMe] debe mantener presionado el [TITLE_2.GetName] para recibir [TITLE.GetName]#!" #NT!
+ GRANT_TITLE_CANT_RECEIVE_REASON_HIGHER_TIER_WITHOUT_COUNTY: "@warning_icon! #X [CHARACTER.GetShortUINameNotMe] debe poseer o recibir al menos un condado junto con [TITLE.GetName]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_UNLANDED: "@warning_icon! #X [CHARACTER.GetShortUINameNotMe] no puede otorgar títulos seleccionados porque [CHARACTER.GetSheHe] es ​​[unlanded|E]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_PRIMARY: "@warning_icon! #X No puedes otorgarle a otro personaje tu [primary_title|E]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_DOESNT_OWN: "@warning_icon! #X [CHARACTER.GetUIName] no es propietario de [TITLE.GetName]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_BECOME_UNLANDED: "@warning_icon! #X [CHARACTER.GetShortUINameNotMe] no puede otorgar títulos seleccionados ya que lo haría [CHARACTER.GetHerHim] [unlanded|E]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_PLAYER_BECOMES_UNLANDED: "@warning_icon! #X No puedes otorgar títulos seleccionados ya que eso te haría [unlanded|E]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_UNDER_SIEGE: "@warning_icon! #X Una o más participaciones en [TITLE.GetName] están en [siege|E]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_OCCUPIED: "@warning_icon! #X Una o más participaciones en [TITLE.GetName] son [occupied|E]#!" #NT!
+ GRANT_TITLE_CANT_GIVE_REASON_BARONY_WITHOUT_COUNTY: "@warning_icon! #X Debes conceder [TITLE.GetName] junto con [TITLE_2.GetName]#!" #NT!
+ GRANT_BARONY_TITLE_CANT_GIVE_REASON_UNDER_SIEGE: "@warning_icon! #X [TITLE.GetName] está debajo de [siege|E]#!" #NT!
+ GRANT_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED: "@warning_icon! #X [TITLE.GetName] es [occupied|E]#!" #NT!
+ GRANT_TITLE_SELECT: "@warning_icon! #X No hay títulos seleccionados#!" #NT!
+ GRANT_TITLE_GRANT: "#T Otorgar títulos seleccionados a [CHARACTER.GetShortUIName]#!" #NT!
+ GRANT_TITLES_DESCRIPTION: "Seleccione [titles|E] para otorgarle a [CHARACTER.GetShortUINameNoTooltip]" #NT!
+ GRANT_REVOKE_TITLES_ITEM_SELECT: "#T Seleccione el [TITLE.GetName]#!" #NT!
+ GRANT_REVOKE_TITLES_ITEM_DESELECT: "#T Deseleccionar el [TITLE.GetName]#!" #NT!
+ GRANT_REVOKE_RIGHT_CLICK_INFO: "#I Haga clic derecho para ir a la ubicación#!" #NT!
+ GRANT_TITLES_ITEM_CANT_CAPITAL: "@warning_icon! #X No puedes otorgar tu [realm_capital|E]#!" #NT!
+ GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH: "No puedes otorgar títulos de Cabeza de Fe" #NT!
+ GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH_TO_INFIDEL: "No puedes otorgar títulos de Jefe de Fe a personajes que no comparten tu Jefe de Fe." #NT!
+ GRANT_TITLE_BARONY_HAS_COUNTY_SELECTED: "Se concederá ya que se está concediendo [TITLE.GetName]" #NT!
+ CANNOT_GRANT_LEASED_OUT_TITLE: "@warning_icon! #X No puedes otorgar un [leased|E] título de salida#!" #NT!
+ CANNOT_GRANT_TITLE_OF_LESSEE: "@warning_icon! #X No puedes otorgar este título, debería estar [leased|El] fuera de tu [court_chaplain|E]. Busque uno para su [council|E] si no tiene uno.#!" #NT!
+ GRANT_TITLES_ITEM_CANT_PRIMARY: "@warning_icon! #X No puedes otorgar tu [primary_title|E]#!" #NT!
+ GRANT_TITLES_ITEM_CTRL_SELECT: "#I Ctrl+clic para seleccionar este y todos los títulos inferiores debajo de él#!" #NT!
+ GRANT_TITLES_ITEM_CTRL_DESELECT: "#I Ctrl+clic para deseleccionar este y todos los títulos inferiores debajo de él#!" #NT!
+ GRANT_REVOKE_TITLES_EFFECT_NONE: "#weak Ninguno#!" #NT!
+ GRANT_TITLES_NO_TITLES: "#weak No hay títulos recientes#!" #NT!
+ GRANT_TITLES_VASSAL_TRANSFER: "$COUNT|V$ [vassals|E] será transferido con los Títulos" #NT!
+ GRANT_TITLES_SINGLE_VASSAL_TRANSFER: "[CHARACTER.GetUIName] se transferirá con los títulos como [vassal|E]" #NT!
+ GRANT_REVOKE_TITLE_VASSAL_PROVINCE_DOMAIN: "#T [CHARACTER.GetUINamePossessive|U] Dominio#!" #NT!
+ GRANT_REVOKE_TITLE_VASSAL_PROVINCE_REALM: "#T [CHARACTER.GetUINamePossessive|U] Reino#!\n" #NT!
+ GRANT_REVOKE_TITLE_PROVINCE_DEJURE_TOOLTIP: "Parte de jure de [TITLE.GetName]" #NT!
+ GRANT_TITLE_PROVINCE_TITLE_TOOLTIP: "Puedes otorgar [TITLE.GetName]\n#I Haz clic para agregar a la selección de otorgamientos#!" #NT!
+ GRANT_TITLE_PROVINCE_SELECTED_TITLE_TOOLTIP: "Estás otorgando [TITLE.GetName]\n#I Haz clic para anular la selección#!" #NT!
+ GRANT_REVOKE_TITLE_PROVINCE_VASSAL_TOOLTIP: "El vasallo [CHARACTER.GetUIName] será transferido con [TITLE.GetName]" #NT!
+ GRANT_VASSAL_CAN_TOOLTIP: "Puedes transferir [CHARACTER.GetUIName]\n#I Haz clic para seleccionar [CHARACTER.GetUIName]#!" #NT!
+ GRANT_VASSAL_CANT_TIER_TOOLTIP: "@warning_icon! #X No puedes transferir [CHARACTER.GetUIName], porque un [CHARACTER.GetTitleTierName] no puede ser vasallo de un [RECIPIENT.GetTitleTierName]#!" #NT!
+ GRANT_VASSAL_DOING_TOOLTIP: "Estas transfiriendo [CHARACTER.GetUIName]" #NT!
+ RETRACT_VASSAL_CAN_TOOLTIP: "Puedes retractarte [CHARACTER.GetUIName]\n#I Haz clic para seleccionar [CHARACTER.GetUIName]#!" #NT!
+ RETRACT_VASSAL_DOING_TOOLTIP: "Te estas retractando [CHARACTER.GetUIName]" #NT!
+ GRANT_TITLE_NOT_IN_DOMAIN: "@warning_icon! #X Sólo puedes otorgar títulos de tu propio dominio#!" #NT!
+ REVOKE_TITLE_NOT_IN_DOMAIN: "@warning_icon! #X Sólo puede revocar títulos de su dominio personal#!" #NT!
+ GRANT_REVOKE_VASSAL_DOMAIN: "@warning_icon! #X Sólo puede transferir vasallos#!" #NT!
+ GOLD_POSITIVE_REASON: "[recipient.GetSheHe|U] recibe el pago [gold|E]: $VALUE|=+0$" #NT!
+ GOLD_NEGATIVE_REASON: "[recipient.GetSheHe|U] no puede permitirse el lujo de [gold|E]: $VALUE|=+0$" #NT!
+ NO_USE_FOR_A_FAVOR_REASON: "[recipient.GetSheHe|U] no sirve para [hook|E]: $VALUE|=+0$" #NT!
+ WANTS_MORE_GOLD: "[recipient.GetSheHe|U] quiere más [gold|E]: $VALUE|=+0$" #NT!
+ FAVOR_POSITIVE_REASON: "[recipient.GetSheHe|U] obtiene un [hook|E]: $VALUE|=+0$" #NT!
+ UNIMPORTANT_CHAR_REASON: "Cortesano sin importancia: $VALUE|=+0$" #NT!
+ WANTS_FREEDOM_REASON: "[recipient.GetSheHe|U] quiere libertad: $VALUE|=+0$" #NT!
+ MY_DYNASTY_REASON: "[recipient.GetSheHe|U] es de [secondary_recipient.GetShortUINamePossessive] Dinastía: $VALUE|=+0$" #NT!
+ CONVERSION_NEGATIVE_REASON: "[recipient.GetSheHe|U] se muestra reacio a convertir: $VALUE|=+0$" #NT!
+ RENOUNCE_CLAIMS_REASON: "[recipient.GetSheHe|U] perderá Reclamaciones: $VALUE|=+0$" #NT!
+ BECOME_EXECUTIONER_REASON: "[recipient.GetSheHe|U] quedará manchado por el oficio de Ejecución: $VALUE|=+0$" #NT!
+ BANISH_NEGATIVE_REASON: "[recipient.GetSheHe|U] teme el destierro: $VALUE|=+0$" #NT!
+ TAKE_VOWS_NEGATIVE_REASON: "[recipient.GetSheHe|U] se muestra reacio a hacer los votos: $VALUE|=+0$" #NT!
+ RECRUITMET_NEGATIVE_REASON: "[recipient.GetSheHe|U] se muestra reacio a ser reclutado: $VALUE|=+0$" #NT!
+ DECLARE_WAR_HEADER: "Declarar la guerra" #NT!
+ DECLARE_WAR_TOGGLE_TITLE: "[CasusBelliTitleItem.GetBlockers]#I Haga clic para alternar el reclamo de [CasusBelliTitleItem.GetTitle.GetName]#!" #NT!
+ DECLARE_WAR_CLICK_TITLE: "[CasusBelliTitleItem.GetBlockers]#I Haga clic para seleccionar el reclamo para [CasusBelliTitleItem.GetTitle.GetName]#!" #NT!
+ PICK_CASUS_BELLI: "#I Elige un [casus_belli|E] para usarlo contra [CHARACTER.GetUINameNoTooltip]#!" #NT!
+ NO_VALID_CASUS_BELLIS: "#weak No [casus_bellis|E] para elegir#!" #NT!
+ cultural_acceptance_loss_declared_war: "[attacker.GetCulture.GetName]-[defender.GetCulture.GetName] Guerra" #NT!
+ WAR_LIEGE_HOOK: "Utilice un [hook_i][hook|e]" #NT!
+ ARMY_STRENGTH: "#weak Fuerza del ejército:#!" #NT!
+ TAB_VICTORY: "Hacer cumplir las demandas" #NT!
+ TAB_WHITE_PEACE: "Paz blanca" #NT!
+ TAB_DEFEAT: "Rendirse" #NT!
+ TAB_VICTORY_LABEL: "Si hace cumplir sus demandas:" #NT!
+ TAB_WHITE_PEACE_LABEL: "Si haces un [white_peace|E]:" #NT!
+ TAB_DEFEAT_LABEL: "Si te entregas:" #NT!
+ TAB_PEACE_VICTORY_LABEL: "Hacer cumplir las demandas [CHARACTER.GetShortUINamePossessiveNoTooltip]:" #NT!
+ TAB_PEACE_WHITE_PEACE_LABEL: "Hacer un [white_peace|E]:" #NT!
+ TAB_PEACE_DEFEAT_LABEL: "Rendirse:" #NT!
+ BREAK_TRUCE_CONFIRM_TITLE: "Rompiendo la tregua" #NT!
+ BREAK_TRUCE_CONFIRM: "Si declaras la guerra a [TARGET_CHARACTER.GetUIName], el [truce|E] con [TARGET_CHARACTER.GetHerHim] se romperá.\n\nA otros personajes no les gustará un rompe-treguas.\n$EFFECT$" #NT!
+ ATTACK_ALLY_CONFIRM_TITLE: "Aliado atacante" #NT!
+ ATTACK_ALLY_CONFIRM: "Si declaras la guerra a [TARGET_CHARACTER.GetUIName], el [alliance|E] con [TARGET_CHARACTER.GetHerHim] se romperá.\n\nA otros personajes no les gustará un rompe-alianzas.\n$EFFECT$" #NT!
+ BREAK_TRUCE_ATTACK_ALLY_CONFIRM: "Si declaras la guerra a [TARGET_CHARACTER.GetUIName], [truce|E] y [alliance|E] con [TARGET_CHARACTER.GetHerHim] se romperán.\n\nA otros personajes no les gustará si rompes un [truce|E] o un [alliance|E].\n$EFFECT$" #NT!
+ BREAK_TRUCE_ALLY_NORMAL_COST: "Además, se incurrirá en el coste normal de la guerra:" #NT!
+ START_WAR_TOOLTIP_HEADER: "#T Declarar $NAME$#!" #NT!
+ DECLARE_WAR_VASSAL_PROVINCE_TOOLTIP: "Si ganas, [CHARACTER.GetUIName] se convertirá en tu [vassal|E]" #NT!
+ DECLARE_WAR_VASSAL_PROVINCE_TOOLTIP_OTHER: "Si [TARGET_CHARACTER.GetUIName] gana, [TITLE.GetName] pasará a formar parte de su Reino." #NT!
+ DECLARE_WAR_SUB_VASSAL_PROVINCE_TOOLTIP: "Si ganas, [TITLE.GetName] pertenecerá al Reino de un Vasallo" #NT!
+ DECLARE_WAR_SUB_VASSAL_PROVINCE_TOOLTIP_OTHER: "Si [TARGET_CHARACTER.GetUIName] gana, [TITLE.GetName] pasará a formar parte de su Reino." #NT!
+ DECLARE_WAR_TARGET_PROVINCE_TOOLTIP: "Si ganas, [TITLE.GetName] pasará a formar parte de tu dominio" #NT!
+ DECLARE_WAR_TARGET_PROVINCE_TOOLTIP_OTHER: "Si pierdes, [TITLE.GetName] pasará a ser de ellos." #NT!
+ DECLARE_WAR_TARGET_PROVINCE_GHW_TOOLTIP: "Si ganas, [TITLE.GetName] se dividirá entre los contribuyentes de la Gran Guerra Santa." #NT!
+ DECLARE_WAR_TARGET_PROVINCE_GHW_TOOLTIP_OTHER: "Si pierdes, [TITLE.GetName] se dividirá entre los contribuyentes de la Gran Guerra Santa." #NT!
+ DECLARE_WAR_MY_PROVINCE_TOOLTIP: "#T Tu Reino#!" #NT!
+ DECLARE_WAR_THEIR_PROVINCE_TOOLTIP: "#T [CHARACTER.GetShortUINamePossessiveNoTooltip] Reino#!" #NT!
+ DECLARE_WAR_ALLIES_PROVINCE_TOOLTIP: "#T Aliados#!" #NT!
+ DECLARE_WAR_MY_ALLY_PROVINCE_TOOLTIP: "Tu aliado [CHARACTER.GetUINameNoTooltip]" #NT!
+ DECLARE_WAR_MY_ENEMY_ALLY_PROVINCE_TOOLTIP: "El aliado de tu enemigo [CHARACTER.GetUINameNoTooltip]" #NT!
+ DECLARE_WAR_MY_POTENTIAL_ALLY_PROVINCE_TOOLTIP: "Tu aliado potencial [CHARACTER.GetUINameNoTooltip]" #NT!
+ DECLARE_WAR_MY_ENEMY_POTENTIAL_ALLY_PROVINCE_TOOLTIP: "El aliado potencial de tu enemigo [CHARACTER.GetUINameNoTooltip]" #NT!
+ DECLARE_WAR_NO_COST: "#weak Sin costo#!" #NT!
+ WAR_ALLY_REASON_GREAT_HOLY_WAR: "Unirse por estar en la zona objetivo" #NT!
+ WAR_ALLY_REASON_HOLY_WAR: "Uniéndose en defensa de su fe" #NT!
+ WAR_ALLY_REASON_HOLY_WAR_AMOUNT: "#S Puntuación de aceptación: $VALUE|V$#!" #NT!
+ WAR_DEFENDER_ALLY_TOOLTIP: "[Character.GetFullNameNicknamedNoTooltipRegnal|T]\n[WarAllyItem.GetAllianceReason]" #NT!
+ WAR_COST_GOLD: "Costo de guerra: [gold|E]" #NT!
+ WAR_COST_PRESTIGE: "Costo de guerra: [prestige|E]" #NT!
+ WAR_COST_PIETY: "Costo de guerra: [piety|E]" #NT!
+ WAR_COST_RENOWN: "Costo de guerra: [dynasty_prestige|E]" #NT!
+ DEFEAT_CONFIRM_TITLE: "Rendirse" #NT!
+ DEFEAT_CONFIRM: "La guerra se perderá." #NT!
+ DEFEAT_CONFIRM_ACCEPT: "Rendirse" #NT!
+ REVOKE_TITLE_DESCRIPTION: "Seleccione [title|E] para revocar desde [CHARACTER.GetShortUINameNoTooltip]" #NT!
+ #REVOKE_TITLE_REVOKED_TITLE_BY: ""
+ #REVOKE_TITLE_TITLE_INFO: ""
+ REVOKE_TITLE_CANT_GIVE_REASON_DOESNT_OWN: "@warning_icon! #X [CHARACTER.GetUIName] no es propietario de [TITLE.GetName]#!" #NT!
+ REVOKE_TITLE_CANT_GIVE_REASON_UNDER_SIEGE: "@warning_icon! #X Una o más participaciones en [TITLE.GetName] están en [siege|E]#!" #NT!
+ REVOKE_TITLE_CANT_GIVE_REASON_OCCUPIED: "@warning_icon! #X Una o más participaciones en [TITLE.GetName] son [occupied|E]#!" #NT!
+ REVOKE_BARONY_TITLE_CANT_GIVE_REASON_UNDER_SIEGE: "@warning_icon! #X [TITLE.GetName] está debajo de [siege|E]#!" #NT!
+ REVOKE_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED: "@warning_icon! #X [TITLE.GetName] es [occupied|E]#!" #NT!
+ REVOKE_TITLE_CANT_REVOKE_REASON_BARONY_WITHOUT_COUNTY: "@warning_icon! #X Debes revocar todo [TITLE_2.GetName] en lugar de solo [TITLE.GetName]#!" #NT!
+ REVOKE_TITLE_CANT_REVOKE_REASON_NON_DOMAIN_BARONY: "@warning_icon! #X [TITLE.GetName] es un [barony|E] que no forma parte de tu [domain|E] y por lo tanto no puede ser revocado de [CHARACTER.GetShortUIName]#!" #NT!
+ REVOKE_TITLE_SELECT: "@warning_icon! #X No hay ningún título seleccionado#!" #NT!
+ REVOKE_TITLE_REVOKE: "#T Revocar el título seleccionado de [CHARACTER.GetShortUIName]#!" #NT!
+ REVOKE_TITLE_PROVINCE_TITLE_TOOLTIP: "Puedes revocar [TITLE.GetName]\n#I Haz clic para seleccionarlo para revocación#!" #NT!
+ REVOKE_TITLE_PROVINCE_TITLE_NOT_SELECTABLE_TOOLTIP: "@warning_icon! #X No puedes revocar [TITLE.GetName]#!" #NT!
+ GRANT_TITLE_PROVINCE_TITLE_NOT_SELECTABLE_TOOLTIP: "@warning_icon! #X No puedes otorgar [TITLE.GetName]#!" #NT!
+ REVOKE_TITLE_PROVINCE_SELECTED_TITLE_TOOLTIP: "Estás revocando [TITLE.GetName]\n#I Haz clic para anular la selección#!" #NT!
+ REVOKE_TITLE_CANT_TAKE_REASON_UNLANDED: "@warning_icon! #X [CHARACTER.GetShortUIName] no tiene ningún [titles|E]#!" #NT!
+ CALL_ALLY_NO_WARS: "#weak No hay guerras para seleccionar#!" #NT!
+ CALL_ALLY_DESCRIPTION: "Seleccione un [war|E] para llamar a [CHARACTER.GetShortUINameNoTooltip] para" #NT!
+ CALL_ALLY_ITEM_SELECT: "#T Llamar [CHARACTER.GetShortUINameNoTooltip] a [WAR.GetName|V] #!" #NT!
+ CALL_ALLY_ALLY_ALREADY_IN_WAR: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] [Select_CString( CHARACTER.IsLocalPlayer, 'are', 'is' )] ya luchando en esta guerra#!" #NT!
+ CALL_ALLY_ALLY_ALREADY_CALLED_TO_WAR: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] [Select_CString( CHARACTER.IsLocalPlayer, 'have', 'has' )] Ya he sido llamado a esta guerra#!" #NT!
+ WAR_ALLIES: "Aliados" #NT!
+ WAR_ENEMIES: "Enemigos" #NT!
+ WAR_EFFECTS_ON_YOU: "Efectos en ti" #NT!
+ WAR_EFFECTS_ON_ALLY: "Efectos sobre" #NT!
+ CALL_ALLY_REJECT_HEADER: "Si rechaza:" #NT!
+ CALL_ALLY_NO_WAR_SELECTED: "@warning_icon! #X Seleccione un [war|E] de la lista anterior #!" #NT!
+ BLACKMAIL_NO_SECRETS: "#weak No hay secretos para seleccionar#!" #NT!
+ BLACKMAIL_DESCRIPTION: "Seleccione cuál de los [CHARACTER.GetShortUINamePossessiveNoTooltip] [secrets|E] utilizar para chantajear" #NT!
+ BLACKMAIL_NO_SECRET_SELECTED: "@warning_icon! #X Seleccione un [secret|E] de la lista anterior #!" #NT!
+ BLACKMAIL_SECRET_FORBIDDEN: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] no puede exponer este secreto#!" #NT!
+ BLACKMAIL_SECRET_ALREADY_IN_HOOK: "@warning_icon! #X Este [secret|E] ya está siendo utilizado por [CHARACTER.GetShortUINameNoTooltip] como [hook|E]#!" #NT!
+ GENERIC_SPEND_A_HOOK: "Utilice un [hook_i][hook|E]" #NT!
+ GENERIC_HOOK_VALID: "Usas un [hook|E] para asegurarte de que [recipient.GetShortUINameNoTooltip] acepte" #NT!
+ GENERIC_HOOK_INVALID: "No tienes un [hook|E] en [recipient.GetShortUINameNoTooltip]" #NT!
+  
+  
+ GENERIC_HOOK_POSITIVE_REASON: "[hook|E] Usado: $VALUE|=+0$" #NT!
+ DIVORCE_INCESTUOUS: "El matrimonio es incestuoso: $VALUE|=+0$" #NT!
+ DIVORCE_OPENLY_INCESTUOUS_SPOUSE: "[secondary_recipient.GetShortUINameNoTooltip] está abiertamente en una relación incestuosa: $VALUE|=+0$" #NT!
+ DIVORCE_INFERTILE: "Es poco probable que [secondary_recipient.GetShortUINameNoTooltip] le dé hijos: $VALUE|=+0$" #NT!
+ DIVORCE_IMPOTENT_EUNUCH: "[secondary_recipient.GetShortUINameNoTooltip] es un [GetTrait('eunuch').GetName( secondary_recipient.Self )]: $VALUE|=+0$" #NT!
+ DIVORCE_HEATHEN: "[secondary_recipient.GetShortUINameNoTooltip] es de un [religion|E] diferente: $VALUE|=+0$" #NT!
+ DIVORCE_HERETIC: "[secondary_recipient.GetShortUINameNoTooltip] es de un [faith|E] diferente: $VALUE|=+0$" #NT!
+ DIVORCE_HOLY: "Tu unión es divina: $VALUE|=+0$" #NT!
+ DIVORCE_INFIDELITY: "[secondary_recipient.GetShortUINameNoTooltip] ha sido infiel: $VALUE|=+0$" #NT!
+ DIVORCE_POLYGAMY: "[secondary_recipient.GetShortUINamePossessive] [faith|E] no permite [GetFaithDoctrine('doctrine_polygamy').GetBaseName]: $VALUE|=+0$" #NT!
+ I_AM_VIRTUOUS: "Tienes [virtuous|E] [traits|E]: $VALUE|=+0$" #NT!
+ I_AM_PIOUS: "Tu [piety_level|E]: $VALUE|=+0$" #NT!
+ I_AM_PIOUS_AND_BROKE: "Estás en quiebra y tienes un alto [piety_level|E]: $VALUE|=+0$" #NT!
+ THEY_ARE_VIRTUOUS: "[secondary_recipient.GetShortUINameNoTooltip] tiene [virtuous|E] [traits|E]: $VALUE|=+0$" #NT!
+ I_AM_SINFUL: "Tienes [sinful|E] [traits|E]: $VALUE|=+0$" #NT!
+ THEY_ARE_SINFUL: "[secondary_recipient.GetShortUINameNoTooltip] tiene [sinful|E] [traits|E]: $VALUE|=+0$" #NT!
+ WE_ARE_RIVALS: "Sois rivales:$VALUE|=+0$" #NT!
+ WE_ARE_NEMESES: "Sois enemigos: $VALUE|=+0$" #NT!
+ WE_ARE_LOVERS: "Sois amantes: $VALUE|=+0$" #NT!
+ WE_ARE_SOULMATES: "Sois almas gemelas: $VALUE|=+0$" #NT!
+ WE_ARE_FRIENDS: "Sois amigos: $VALUE|=+0$" #NT!
+ WE_ARE_BEST_FRIENDS: "Sois mejores amigos: $VALUE|=+0$" #NT!
+ YOU_ARE_MY_RELATIVE: "Eres familia: $VALUE|=+0$" #NT!
+ THEY_ARE_MY_CLOSE_KIN: "[secondary_recipient.GetShortUINameNoTooltip] es familia: $VALUE|=+0$" #NT!
+ YOU_ARE_MY_HOUSE_MEMBER: "Eres de [recipient.GetHerHis] [house|E]: $VALUE|=+0$" #NT!
+ YOU_ARE_MY_DYNASTY_MEMBER: "Eres de [recipient.GetHerHis] [dynasty|E]: $VALUE|=+0$" #NT!
+ THEY_ARE_MY_HOUSE_MEMBER: "[secondary_recipient.GetShortUINameNoTooltip] es de [recipient.GetHerHis] [house|E]: $VALUE|=+0$" #NT!
+ THEY_ARE_MY_DYNASTY_MEMBER: "[secondary_recipient.GetShortUINameNoTooltip] es de [recipient.GetHerHis] [dynasty|E]: $VALUE|=+0$" #NT!
+ I_AM_A_KINSLAYER: "Soy un [kinslayer|E]: $VALUE|=+0$" #NT!
+ THEY_ARE_A_KINSLAYER: "[secondary_recipient.GetShortUINameNoTooltip] es un [kinslayer|E]: $VALUE|=+0$" #NT!
+  # Divorce interaction loc 
+ DIVORCE_GIVEN_CHILDREN: "[secondary_recipient.GetShortUINameNoTooltip] te ha dado varios hijos sanos: $VALUE|=+0$" #NT!
+ I_DIVORCED_X: "¡[recipient.GetShortUINameNoTooltip] le ha concedido a [actor.GetShortUINameNoTooltip] el divorcio de [secondary_recipient.GetShortUINameNoTooltip]!" #NT!
+ X_DIVORCED_ME: "[actor.GetShortUINameNoTooltip] se ha divorciado de [secondary_recipient.GetShortUINameNoTooltip], ¡con la bendición de [recipient.GetShortUINameNoTooltip]!" #NT!
+ X_DIVORCED_ME_DESC: "[actor.GetShortUINameNoTooltip] ya no es [married|E] a [secondary_recipient.GetShortUINameNoTooltip]" #NT!
+  #Educate Child interaction loc 
+ EDUCATE_CHILD_ACTOR_IS_MY_LIEGE: "Eres [recipient.GetHerHis] Lieja: $VALUE|=+0$" #NT!
+ EDUCATE_CHILD_AI_MY_CHILD: "[recipient.GetShortUINameNoTooltip] enviaría a [recipient.GetHerHis] niño lejos: $VALUE|=+0$" #NT!
+ EDUCATE_CHILD_OFFEND_EXISTING_GUARDIAN: "[recipient.GetHerHis] ofenderá al tutor existente: $VALUE|=+0$" #NT!
+ I_AM_AT_MAXIMUM_WARDS: "Solo puedes tener dos Wards" #NT!
+ THEY_ARE_AT_MAXIMUM_WARDS: "Un [guardian|E] solo puede tener dos [wards|E]" #NT!
+ THEY_MUST_BE_ADULT: "Uno de [CHARACTER.GetShortUINameNotMe] y [TARGET_CHARACTER.GetShortUINameNotMe] debe ser un Adulto y el otro un Niño" #NT!
+ character_to_educate_exists: "Nadie en [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] [court|E] puede ser [educated|E]" #NT!
+ character_to_guard_exists: "No existe ningún tutor posible en el tribunal [CHARACTER.GetShortUINamePossessiveNoTooltip]" #NT!
+  
+ divorced_me_opinion: "Me divorcié" #NT!
+ divorced_close_kin: "Divorciada [close_family|E]" #NT!
+ set_me_aside_opinion: "Déjame a un lado" #NT!
+ temporal_condemnation_opinion: "Condena Temporal" #NT!
+ temporal_condemnation_condemned_me_opinion: "Me condenó" #NT!
+  
+   #Faction Interactions 
+ FACTION_CANT_JOIN_CREATE_ADULT_INT: "No es posible iniciar o unirse a una facción siendo menor de edad." #NT!
+ FACTION_CANT_JOIN_CREATE_ADULT: "$FACTION_CANT_JOIN_CREATE_ADULT_INT$" #NT!
+  
+ CREATE_HOLY_ORDER_DECISION_NAME_LABEL: "Nombre:" #NT!
+ CREATE_HOLY_ORDER_DECISION_CAPITAL_LABEL: "Sede:" #NT!
+ REVOKE_HOLY_ORDER_DECISION_BARONY_LABEL: "Condado:" #NT!
+ CREATE_HOLY_ORDER_DECISION_CHANGE_CAPITAL: "Cambiar sede" #NT!
+ CREATE_HOLY_ORDER_DECISION_SELECT_CAPITAL: "Seleccionar Sede" #NT!
+  
+  
+ LEASE_OUT_BARONIES_TITLE: "Seleccionar Holding" #NT!
+ LEASE_OUT_BARONIES_NO_TITLES: "No hay participaciones disponibles" #NT!
+ LEASE_OUT_BARONIES_TOOLTIP: "#T [Select_CString( DecisionViewWidgetCreateHolyOrder.HasValidBaronies, '$LEASE_OUT_BARONIES_TITLE$', '$LEASE_OUT_BARONIES_NO_TITLES$' )] #!" #NT!
+ LEASE_OUT_BARONIES_CONFIRM: "Seleccionar" #NT!
+ CREATE_HOLY_ORDER_HINT: "#I Selecciona un [barony|E] que no sea el [county_capital|E]#!" #NT!
+ REVOKE_HOLY_ORDER_HINT: "#I Seleccione un [barony|E] que esté arrendado a un [holy_order|E]#!" #NT!
+ GRANT_TITLE_LEASED_OUT_VASSAL: "#T Incluyendo [leased|E] fuera [holdings|E]: #!\n[Title.GetLeasedOutVassalList]" #NT!
+ THEOCRATIC_LEASE_VASSAL: "[TITLE.GetName] ([church_property|E])" #NT!
+ REVOKABLE_LEASE_VASSAL: "[TITLE.GetName] ([TITLE_2.GetName])" #NT!
+ REVOKE_TITLE_PRESSED_CLAIM: "Tienes un [pressed_claim|E] en [Title.GetName]" #NT!
+ REVOKE_TITLE_UNPRESSED_CLAIM: "Tienes un [unpressed_claim|E] en [Title.GetName]" #NT!
+  
+ FAITH_IS_REFORMED: "[CHARACTER.GetFaith.GetName] es un [organized|E] [faith|E]" #NT!
+ NOT_FAITH_IS_REFORMED: "[CHARACTER.GetFaith.GetName] no es un [organized|E] [faith|E]" #NT!
+ FAITH_HAS_BEEN_REFORMED: "Ya existe una variante [organized|E] del [CHARACTER.GetFaith.GetName] [faith|E]" #NT!
+ NOT_FAITH_HAS_BEEN_REFORMED: "No existe una variante [organized|E] de [CHARACTER.GetFaith.GetName] [faith|E]" #NT!
+  
+ tooltip_fellow_vassal_joins_war: "[joining_vassal.GetShortUIName] se unirá a la rebelión [recipient.GetShortUINamePossessive]" #NT!
+  
+  # Interfere in War 
+ INTERFERE_IN_WAR: "Interferir en la guerra" #NT!
+ INTERFERE_IN_WAR_REJECT_HEADER: "Si rechaza:" #NT!
+ INTERFERE_IN_WAR_NO_WAR_SELECTED: "@warning_icon! #X Seleccione un [war|E] de la lista anterior #!" #NT!
+ INTERFERE_IN_WAR_NO_WARS: "#weak No hay guerras para seleccionar#!" #NT!
+ INTERFERE_IN_WAR_DESCRIPTION: "#I Selecciona una guerra#!" #NT!
+ INTERFERE_IN_WAR_ITEM_SELECT: "#T Interferir en [CHARACTER.GetShortUINamePossessiveNoTooltip] [WAR.GetName|V] #!" #NT!
+ INTERFERE_IN_WAR_ALREADY_IN_WAR: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip|U] [Select_CString( CHARACTER.IsLocalPlayer, 'are', 'is' )] ya luchando en esta guerra#!" #NT!
+ INTERFERE_IN_WAR_ALREADY_CALLED_TO_WAR: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'have', 'has' )] Ya he sido llamado a esta guerra#!" #NT!
+  
+ RANK_DIFFERENCE_REASON: "Diferencia en [title_rank|E]: $VALUE|=+0$" #NT!
+ IS_HEIR_REASON: "Es tu heredero: $VALUE|=+0$" #NT!
+ IS_CLAIMANT_TO_ACTORS_TITLES: "Es un [claimant|e]: $VALUE|=+0$" #NT!
+ IS_CLAIMANT_TO_RECIPIENT_TITLES: "Eres un [claimant|e]: $VALUE|=+0$" #NT!
+ IS_SAME_HOUSE_REASON: "Mismo [house|e]: $VALUE|=+0$" #NT!
+ DECLARED_WAR_REASON: "Declarado [war|E] sobre mí: $VALUE|=+0$" #NT!
+ IS_AT_WAR_REASON: "Estás en [war|E]: $VALUE|=+0$" #NT!
+ IS_AT_WAR_WITH_TARGET_REASON: "[secondary_recipient.GetShortUIName] está en guerra con [recipient.GetShortUIName]: $VALUE|+0$" #NT!
+ IS_POW_REASON: "[secondary_recipient.GetShortUIName] es un prisionero de guerra: $VALUE|+0$" #NT!
+ GRANT_REVOKE_VIEW_WRONG_HOLDING_TYPE: "#T Las posesiones de [holding|E] Tipo#!\n[Title.GetProvince.GetHolding.GetType.GetName|V] incorrectas no pueden ser poseídas efectivamente por personajes con gobierno [GetPlayer.GetGovernment.GetName] y no proporcionarán [taxes|E] o [levies|E]" #NT!
+ EXISTING_ALLIANCES_REASON: "Tu monto actual de [alliances|E]: $VALUE|=+0$" #NT!
+ THEIR_EXISTING_ALLIANCES_REASON: "[recipient.GetShortUINamePossessive] monto actual de [alliances|E]: $VALUE|=+0$" #NT!
+ DISTANT_FAMILY_CONNECTION_REASON: "La conexión es a través de no [close_family|E]: $VALUE|=+0$" #NT!
+ CLOSE_FAMILY_REASON: "Somos [close_family|E]: $VALUE|=+0$" #NT!
+ EXTENDED_FAMILY_REASON: "Somos [extended_family|E]: $VALUE|=+0$" #NT!
+ AI_MILITARY_BALANCE_REASON: "Diferencia en fuerza militar: $VALUE|=+0$" #NT!
+  
+ grant_title_modifier_stack_baronies: "[recipient.GetShortUIName|U] gana [SCOPE.ScriptValue('grant_title_opinion_sum_baronies')|+0] [opinion|E] de [actor.GetShortUIName] por #V 50 años#! #weak (Baronía recibida)#!" #NT!
+ grant_title_modifier_stack_counties: "[recipient.GetShortUIName|U] gana [SCOPE.ScriptValue('grant_title_opinion_sum_counties')|+0] [opinion|E] de [actor.GetShortUIName] para #V 50 años#! #weak (Condado recibido)#!" #NT!
+ grant_title_modifier_stack_duchies: "[recipient.GetShortUIName|U] gana [SCOPE.ScriptValue('grant_title_opinion_sum_duchies')|+0] [opinion|E] de [actor.GetShortUIName] durante #V 50 años#! #weak (Ducado recibido)#!" #NT!
+ grant_title_modifier_stack_kingdoms: "[recipient.GetShortUIName|U] gana [SCOPE.ScriptValue('grant_title_opinion_sum_kingdoms')|+0] [opinion|E] de [actor.GetShortUIName] por #V 50 años#! #weak (Reino recibido)#!" #NT!
+ grant_title_modifier_stack_empires: "[recipient.GetShortUIName|U] gana [SCOPE.ScriptValue('grant_title_opinion_sum_empires')|+0] [opinion|E] de [actor.GetShortUIName] por #V 50 años#! #weak (Imperio recibido)#!" #NT!
+ grant_title_modifier_courtly_lowborn_grant_penalty: "Cada [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassal|E] ([actor.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]) gana [SCOPE.ScriptValue('courtly_vassal_lowborn_grant_penalty')|+0] [opinion|E] de [actor.GetShortUIName] durante #V 10 años#! #weak (Desaprueba las subvenciones para personas de bajos ingresos)#!" #NT!
+  
+ #grant_title_modifier_stack_discontent: "El [faction|E] al que pertenece [recipient.GetShortUIName] pierde #V [SCOPE.ScriptValue('grant_title_opinion_sum_discontent_calc')|V0]#! [discontent|E]" #NT!
+ grant_title_modifier_stack_discontent: "El [faction|E] [recipient.GetShortUIName] pertenece al que pierde algo de [discontent|E]" #NT!
+  
+ GRANT_TITLE_WARNING: "Perdiendo vasallo" #NT!
+ GRANT_TITLE_WARNING_TEXT: "$MESSAGE$\n\n¿Otorgar títulos de todos modos?" #NT!
+ GRANT_TITLE_ACCEPT: "Títulos de concesión" #NT!
+ MATCHMAKER_INTERACTION_ALLIANCE: "#T Alianza potencial#!\n[Character.GetPrimaryTitle.GetName]" #NT!
+  
+ DECLARE_WAR_PLEDGED_TO_GHW_TITLE: "Prometido en la Gran Guerra Santa" #NT!
+ DECLARE_WAR_PLEDGED_TO_GHW_DESC: "Estás comprometido en un [great_holy_war|E] contra [TARGET_CHARACTER.GetShortUIName], cuando comience este [war|E] terminará de manera no concluyente. ¿Desea iniciar el [war|E] de todos modos?" #NT!
+ DECLARE_WAR_PLEDGED_TO_GHW_ACCEPT: "Ataca de todos modos" #NT!
+ PLEDGE_GHW_ALREADY_AT_WAR_TITLE: "Ya en guerra" #NT!
+ PLEDGE_GHW_ALREADY_AT_WAR_DESC: "Ya estás en un [war|E] contra [TARGET_CHARACTER.GetShortUIName], cuando este [great_holy_war|E] comience ese [war|E] terminará de manera no concluyente. ¿Deseas comprometerte de todos modos?" #NT!
+ PLEDGE_GHW_ALREADY_AT_WAR_ACCEPT: "Comprométete de todos modos" #NT!
+ END_WAR_INVALIDATED_MESSAGE_TITLE: "La guerra termina de manera no concluyente" #NT!
+ END_WAR_INVALIDATED_MESSAGE_DESC: "[war.GetName|V] termina de manera no concluyente" #NT!
+  
+ CULTURE_TRANSF_VASSAL: "[Culture.GetNameNoTooltip]" #NT!
+  
+ grant_title_clerical_gender_tt: "Los bienes del templo solo se pueden otorgar al género clerical de su [faith|E]" #NT!
+ VASSAL_CONTRACT_MARRIAGE_FAVOR_BONUS: "$marriage_favor_rights$: $VALUE|=+0$" #NT!
+ VASSAL_WITH_MARRIAGE_FAVOR: "Incumplido $marriage_favor_rights$" #NT!
+ UNITY_PERK_BONUS: "$fp2_coterie_legacy_3_name$: $VALUE|=+0$" #NT!
+ AI_RELEVANT_TRAITS: "Rasgos relevantes: $VALUE|=+0$" #NT!
+  
+  # based on grand_wedding_timeout script value 
+ GRAND_WEDDING_PROMISE_INFO: "#T Alternar Gran Promesa de Boda\n#!Promise para organizar una [GetActivityType( 'activity_wedding' ).GetName], haciendo que la oferta de [marriage|E] tenga más probabilidades de ser aceptada\n\nCosto promedio: [gold_i] [actor.MakeScope.ScriptValue('ui_avg_wedding_cost')|0V]\n\n@alert_icon! #alert_trial Si ambos [spouses|E] son [adults|E], tienes 3 años para cumplir tu promesa, ¡o habrá graves consecuencias!#!" #NT!
+ grand_wedding_already_promised_tt: "Solo puedes prometer un [GetActivityType( 'activity_wedding' ).GetName] al mismo tiempo" #NT!
+ grand_wedding_only_dominant_side: "Sólo la parte dominante en un compromiso puede ofrecerse a organizar un [GetActivityType( 'activity_wedding' ).GetName]" #NT!
+ grand_wedding_only_family: "Sólo puedes organizar un [GetActivityType( 'activity_wedding' ).GetName] para miembros de tu propia familia." #NT!
+ grand_wedding_mp_ai: "No puedes ofrecer un [GetActivityType( 'activity_wedding' ).GetName] a otro jugador." #NT!
+ grand_wedding_secondary_regent: "[regents|E] no puede participar en un [GetActivityType( 'activity_wedding' ).GetName]" #NT!
+  
+ SELECT_HOLY_ORDER_LEASE_TO_REVOKE: "Seleccionar arrendamiento" #NT!
+  
+ AI_IS_DEAR_TO_ME: "[recipient.GetShortUIName] es querido para mí: $VALUE|=+0$" #NT!
+ AI_I_AM_A_BABY: "Los bebés no entienden de política: $VALUE|=+0$" #NT!
+ AI_I_AM_A_CHILD: "Solo soy un [child|E]: $VALUE|=+0$" #NT!
+ AI_I_AM_INFIRM: "Soy [GetTrait('infirm').GetName(GetNullCharacter)]: $VALUE|=+0$" #NT!
+  # Note: this is actually a parameter on a trait and not this specific trait itself, but that's a bit of an edge case. This should be fine. 
+  
+ DIPLOMACY_SKILL_REASON: "Habilidad de diplomacia: $VALUE|=+0$" #NT!
+ MARTIAL_SKILL_REASON: "Habilidad marcial: $VALUE|=+0$" #NT!
+ STEWARDSHIP_SKILL_REASON: "Habilidad de administración: $VALUE|=+0$" #NT!
+ INTRIGUE_SKILL_REASON: "Habilidad de intriga: $VALUE|=+0$" #NT!
+ LEARNING_SKILL_REASON: "Habilidad de aprendizaje: $VALUE|=+0$" #NT!
+ PROWESS_SKILL_REASON: "Habilidad de destreza: $VALUE|=+0$" #NT!
+ AI_I_AM_INCAPABLE: "Soy [GetTrait('incapable').GetName(GetNullCharacter)]: $VALUE|=+0$" #NT!
+ AI_I_AM_IMPRISONED: "Soy [imprisoned|E]: $VALUE|=+0$" #NT!
+ AI_LACKS_POLITICAL_CAPITAL: "No tengo el [prestige|E] para resistirme: $VALUE|=+0$" #NT!
+  
+ HAS_DIPLOMACY_SKILL_REASON: "Tiene [diplomacy_skill|E]: $VALUE|=+0$" #NT!
+ HAS_MARTIAL_SKILL_REASON: "Tiene [martial_skill|E]: $VALUE|=+0$" #NT!
+ HAS_INTRIGUE_SKILL_REASON: "Tiene [intrigue_skill|E]: $VALUE|=+0$" #NT!
+ HAS_STEWARDSHIP_SKILL_REASON: "Tiene [stewardship_skill|E]: $VALUE|=+0$" #NT!
+ HAS_LEARNING_SKILL_REASON: "Tiene [learning_skill|E]: $VALUE|=+0$" #NT!
+ HAS_PROWESS_SKILL_REASON: "Tiene [prowess_skill|E]: $VALUE|=+0$" #NT!
+ INCREASE_UNITY_DESC: "Quiere aumentar [house_unity|E]" #NT!
+ DECREASE_UNITY_DESC: "Quiere disminuir [house_unity|E]" #NT!
+  
+ LOW_LEGITIMACY_REASON: "[actor.GetShortUINamePossessive|U] bajo [legitimacy|E]: $VALUE|=+0$" #NT!
+ HIGH_LEGITIMACY_REASON: "[actor.GetShortUINamePossessive|U] alto [legitimacy|E]: $VALUE|=+0$" #NT!

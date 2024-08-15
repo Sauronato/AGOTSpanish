@@ -13,6 +13,7 @@
   
  Kingsguard_possesive: "Guardia Real"
   
+ #GUI 
  kingsguard: "Guardia Real"
  Kingsguard_possesive: "Guardia Real"
  kingsguard_1: "Guardia Real"
@@ -28,6 +29,10 @@
  kingsguard_5_possessive: "$Kingsguard_possesive$"
  kingsguard_6_possessive: "$Kingsguard_possesive$"
   
+ KINGSGUARD_CLICK_TO_HIRE: "Interactuar con personajes \npara designar un [ActiveCouncilTask.GetPositionName|E]" #NT!
+  
+ KINGSGUARD_TAB_BUTTON_TEXT: "Tu [GetPlayer.Custom('KingsguardName')]" #NT!
+  
   #Naming 
  kingsguard_name: "Guardia Real"
  queensguard_name: "Guardia de la reina"
@@ -42,26 +47,20 @@
  kingsguard_oathbreaker: "Rompejuramentos de la Guardia Real"
  kingsguard_oathbreaker_desc: "Este personaje ha mancillado su juramento sagrado y ha abandonado a la Guardia Real."
   
-  
  kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
+ task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] obtiene [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]" #NT!
+  
+ valid_kingsguard_bodyguard_court: "No hay miembros desprotegidos de su dinastía en esta corte." #NT!
+  
  kingsguard_bodyguard: "Guardaespaldas"
  kingsguard_bodyguard_desc: "Este personaje está siendo custodiado por un miembro de la Guardia Real."
   
-  
-  
-  
-  
- # Failed selection: Seems we cannot scope to the holding character from the modifier itself. 
- #[SelectLocalization(ROOT.Char.MakeScope.Var('latest_kingsguard_bodyguard').IsSet,ROOT.Var('latest_kingsguard_bodyguard').Char.GetFirstName,'a member of the Kingsguard.'] x[Character.GetFirstName]y" 
  kingsguard_bodyguard_1: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_2: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_3: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_4: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_5: "$kingsguard_bodyguard$"
  kingsguard_bodyguard_6: "$kingsguard_bodyguard$"
-  
- knight_hero: "[Concept( 'knight', '$knight_hero_no_tooltip$' )|E]"
- knight_hero_possessive: "De caballero"
   
  kingsguard_lord_commander_default: "Proteccion"
  kingsguard_default_1: "Proteccion"

@@ -8,7 +8,7 @@
  raise_pirate_kingdom_decision: "Declarar un Reino Pirata"
  raise_pirate_kingdom_decision_desc: "El pueblo de Las Hermanas fueron una vez reyes piratas independientes, antes de la Violación de las Hermanas y la Guerra de los Mil Años a Través del Agua. ¡Ahora, nuestro poderío ha vuelto a crecer y es hora de romper el yugo de [ROOT.Char.GetLiege.GetNameNicknamedRegnal]!"
  raise_pirate_kingdom_decision_tooltip: "Declararás tu independencia, elevando a las Tres Hermanas al lugar que les corresponde como reino pirata."
- raise_pirate_kingdom_decision_confirm_text_desc: "¡Por las olas y los cielos!"
+ raise_pirate_kingdom_decision_confirm: "¡Por las olas y los cielos!" #NT!
   
  defy_winter_lords_decision: "Desafía a los Señores del Invierno"
  defy_winter_lords_decision_desc: "Los nacidos de la piedra no conocen más que las burlas de los norteños, que no nos consideran mejores que los salvajes. Skagos fue una vez libre e independiente de los Señores del Invierno, y así será una vez más. ¡Nuestro poder hará temblar a [ROOT.Char.GetLiege.GetNameNicknamedRegnal]!"
@@ -51,6 +51,10 @@
  agot_minor_decisions_events.0004.desc: "La tragedia de Refugio Estival fue casi el final de los Targaryen, pero hay una extraña especie de paz entre las ruinas. Mi mente se siente mucho más clara ahora."
  agot_minor_decisions_events.0004.a: "Hora de volver a casa..."
   
+ agot_minor_decisions_events.0005.t: "Dejándome llevar"
+ agot_minor_decisions_events.0005.desc: "#italic [ROOT.Char.GetFullNameNicknamedNoTooltip] ha caído completamente en la locura...#!\n\nI puede escuchar los susurros en toda la corte. Mis cortesanos me consideran una molestia, aunque no en mi comportamiento, aunque no en mi apariencia. Si me consideran así, tal vez debería dejar de mantener las apariencias."
+ agot_minor_decisions_events.0005.a: "¡Vete, barbero!"
+  
  end_the_ironborn_decision: "Terminar con los Hijos del Hierro"
  end_the_ironborn_decision_desc: "Durante siglos, los perros mestizos que son los Hijos del Hierro han violado, saqueado y saqueado su camino a través de Westeros y más allá. Ahora se ha vuelto inevitable que debemos tomar medidas contra estos bandidos marinos y aplastar su poder de una vez por todas. Debemos librar una guerra de tal devastación contra ellos que nunca más un Rey de Hierro volverá a sentarse en la Silla de Piedramar."
  end_the_ironborn_decision_confirm_text_desc: "¡A las armas!"
@@ -61,35 +65,46 @@
  ironborn_rebellion_decision_tooltip: "¡Llora, oh Poniente, que las islas se levanten de nuevo!"
  ironborn_rebellion_decision_confirm_text_desc: "¡Pagaremos el precio del hierro!"
   
- agot_expose_true_parentage_decision: "Exponer la paternidad verdadera"
- agot_expose_true_parentage_decision_tooltip: "Revelarás lo que realmente ocurrió en la Torre de la Alegría."
- agot_expose_true_parentage_decision_desc: "Recuerdo muy profundamente las promesas hechas entre las rosas invernales... Y, sin embargo, ante mí hay un niño cuya vida entera se basa en una mentira. No es justo que este niño viva y muera sin saber nunca la verdad."
- agot_expose_true_parentage_decision_confirm: "¡La verdad debe ser conocida!"
-  
  agot_weirwood_events.0002.t: "Un visitante sorprendente"
  agot_weirwood_events.0002.desc: "El bosque de dioses es un lugar solemne de alivio de la angustia de mi gobierno; el árbol del corazón es un antiguo consejo al que puedo traer problemas grandes y pequeños.\n\nMe preparo para comunicarme con el gran arciano cuando un crujido repentino me interrumpe. Allí, casi oculto por el follaje, hay un gatito diminuto que maúlla suavemente mientras rueda."
  agot_weirwood_events.0002.a: "¡Me vendría bien una mascota!"
  agot_weirwood_events.0002.b: "El jardinero debería deshacerse de esta cosa..."
   
- disallow_petitioners_decision: "Rechazar peticionarios"
- disallow_petitioners_decision_tooltip: "Desactiva la posibilidad de que los vasallos te pidan."
- disallow_petitioners_decision_desc: "¡Mis vasallos no podrán presentar sus peticiones ante mí!"
- disallow_petitioners_decision_confirm: "No veré a ningún peticionario por ahora."
- allow_petitioners_decision: "Permitir peticionarios"
- allow_petitioners_decision_tooltip: "Habilita la posibilidad de que los vasallos te pidan."
- allow_petitioners_decision_desc: "Mis vassas pueden presentar peticiones ante mí."
- allow_petitioners_decision_confirm: "¡Déjales entrar!"
-  
- disallow_hommage_decision: "Rechazar el homenaje de vasallo"
- disallow_hommage_decision_tooltip: "Desactiva la posibilidad de que los vasallos te rindan homenaje."
- disallow_hommage_decision_desc: "Mis vasallos ya no podrán rendirme homenaje."
- disallow_hommage_decision_confirm: "No veré a ninguno de ellos por ahora."
- allow_hommage_decision: "Permitir homenaje de vasallo"
- allow_hommage_decision_tooltip: "Habilita la posibilidad de que los vasallos te rindan homenaje."
- allow_hommage_decision_desc: "Mis vasallos vendrán a rendirme homenaje."
- allow_hommage_decision_confirm: "¡Déjales entrar!"
-  
  recruit_forder_specialist_decision: "Recluta al especialista Vadeador"
  recruit_forder_specialist_decision_desc: "Recluta a un Comandante que no solo sepa cómo cruzar ríos de manera efectiva, sino que también sea un luchador hábil cuando lo hagan."
  recruit_forder_specialist_decision_tooltip: "Un Comandante con el rasgo Vadeador se unirá a tu corte."
  recruit_forder_specialist_decision_confirm: "Espero encontrar uno"
+  
+ stress_loss_uncouth_decision: "Déjate llevar"
+ stress_loss_uncouth_decision_desc: "Las presiones de este mundo se han vuelto excesivas. Si el mundo me ve como un monstruo, un monstruo lo verán."
+ stress_loss_uncouth_decision_tooltip: "Renunciarás a mantener las apariencias y dejarás que tu cabello y tus uñas crezcan salvajes."
+ stress_loss_uncouth_decision_confirm: "¿Quién necesita bañarse?"
+ uncouth_stopped_cutting: "Cabello Sin Cortar"
+ uncouth_stopped_cutting_desc: "Este personaje ha dejado de cortarse el pelo, creando una apariencia descuidada."
+  
+ agot_commission_crown_decision: "Encargar una nueva corona" #NT!
+ agot_commission_crown_decision_effects_tooltip: "Encargarás un nuevo artefacto de corona." #NT!
+ agot_commission_crown_decision_tooltip: "Encargarás una nueva corona" #NT!
+ agot_commission_crown_decision_desc: "En Poniente, a pocos se les permite poseer una corona. Y menos aún tienen la autoridad para llevarla. Ha llegado el momento de crear un nuevo símbolo de poder que represente y legitime mi reinado." #NT!
+ agot_commission_crown_decision_confirm: "¡Invoca al herrero!" #NT!
+ agot_commission_crown_button: "Elige Corona" #NT!
+ agot_commission_crown_dynasty_choice_loc: "Basado en mi linaje" #NT!
+ agot_commission_crown_dynasty_choice_tooltip: "Crear una corona basada en mi linaje." #NT!
+ agot_commission_crown_seat_choice_loc: "Basado en mis títulos de propiedad" #NT!
+ agot_commission_crown_seat_choice_tooltip: "Crea una corona basada en mis títulos de propiedad." #NT!
+ agot_commission_crown_faith_choice_loc: "Basado en mi fe" #NT!
+ agot_commission_crown_faith_choice_tooltip: "Crea una corona basada en mi fe." #NT!
+ agot_commission_crown_character_choice_loc: "Corona única" #NT!
+ agot_commission_crown_character_choice_tooltip: "Crea una corona única." #NT!
+  
+ agot_look_into_the_flames_decision: "Mira dentro de las llamas" #NT!
+ agot_look_into_the_flames_decision_confirm: "La noche es oscura y llena de terrores." #NT!
+ look_into_the_flames_decision_desc: "Se dice que [ROOT.Char.GetFaith.HighGodName] habla a sus elegidos a través de las llamas en una lengua de cenizas y brasas, llamas retorcidas que pocos realmente pueden captar.\n\n¿Qué puedo ver dentro de su bendita llama?" #NT!
+ look_into_the_flames_decision_tooltip: "¿Qué revelarán las llamas?" #NT!
+ look_into_flames_decision_effect: "Realizarás los ritos con la esperanza de presenciar una visión." #NT!
+ look_into_flames_decision_no_cooldown: "Usted #bold NOT#! ha tomado esta decisión en los últimos 5 años" #NT!
+  
+ mend_dynasty_relations_decision: "Reconciliar a los dragones" #NT!
+ mend_dynasty_relations_decision_desc: "Desde los tiempos del buen rey, el dragón negro ha buscado con saña una forma de destruir al rojo. Pero hemos #italic finalmente#! aprendido a vivir en paz, con los dos dragones en buenos términos, ¿deberíamos limitar nuestra animosidad a la historia?" #NT!
+ mend_dynasty_relations_decision_tooltip: "Enmendarás las relaciones entre los Targaryen y Fuegoscuro." #NT!
+ mend_dynasty_relations_decision_confirm: "¡Los dragones permanecerán como uno solo!" #NT!

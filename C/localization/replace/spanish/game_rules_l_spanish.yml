@@ -1,0 +1,495 @@
+﻿l_spanish:
+ GAME_RULES: "Reglas del juego" #NT!
+ GAME_RULES_HEADER: "Reglas del juego" #NT!
+ GAME_RULE_CATEGORIES: "Filtros de reglas de juego" #NT!
+ IRONMAN_LABEL: "Hombre de Acero" #NT!
+ ENABLE_IRONMAN: "Permitir" #NT!
+ DISABLE_IRONMAN: "Desactivar" #NT!
+ IRONMAN_ENABLED: "Ironman habilitado" #NT!
+ IRONMAN_DISBLED: "Ironman discapacitado" #NT!
+ IRONMAN_ENABLED_NO_HEADER: "#P Habilitado#!" #NT!
+ IRONMAN_DISABLED_NO_HEADER: "Desactivado" #NT!
+ ACHIEVEMENTS_LABEL: "Logros" #NT!
+ ACHIEVEMENTS_EXPLANATION: "#indent_newline:2 Los logros solo se pueden desbloquear si:\n$EFFECT_LIST_BULLET$Juegas para un jugador\n$EFFECT_LIST_BULLET$Si estás jugando con un personaje creado en Ruler Designer, no excedió el límite de puntos de $RULER_DESIGNER_POINTS_LIMIT_VALUE$#!" #NT!
+ ACHIEVEMENTS_ENABLED: "#T Logros disponibles\n#!Achievements actualmente se pueden desbloquear mientras se juega.\n\n$ACHIEVEMENTS_EXPLANATION$" #NT!
+ ACHIEVEMENTS_DISABLED: "#T Logros no disponibles#!\nAchievements actualmente no se pueden desbloquear mientras se juega.\n\n$ACHIEVEMENTS_EXPLANATION$" #NT!
+ ACHIEVEMENTS_ENABLED_NO_HEADER: "#P Disponible#!" #NT!
+ ACHIEVEMENTS_DISABLED_NO_HEADER: "#N No disponible#!" #NT!
+ GAME_RULE_BLOCKS_ACHIEVEMENTS: "Esta regla del juego desactiva los logros." #NT!
+ START_IRONMAN_SAVE: "Iniciar Ironman" #NT!
+ IRONMAN_PAUSE_MENU_EXPLANATION: "El juego se guarda automáticamente. No se permite cambiar de personaje ni jugar en modo multijugador." #NT!
+ GAME_SETUP_IRONMAN_SINGLEPLAYER_ONLY: "Ironman solo se puede jugar en un jugador" #NT!
+ IRONMAN_PAUSE_MENU_TOOLTIP: "#T $IRONMAN_LABEL$ #!\n$IRONMAN_PAUSE_MENU_EXPLANATION$" #NT!
+ ACHIEVEMENT_FILTER_ALL_TOOLTIP: "Mostrar la lista completa de Logros" #NT!
+ ACHIEVEMENT_FILTER_UNLOCKED_TOOLTIP: "Filtre la lista de logros para mostrar los logros desbloqueados" #NT!
+ ACHIEVEMENT_FILTER_LOCKED_TOOLTIP: "Filtre la lista de logros para mostrar los logros bloqueados" #NT!
+ ACHIEVEMENT_FILTER_POSSIBLE_TOOLTIP: "Filtra la lista de logros para mostrar todos los logros posibles en el juego actual." #NT!
+  
+ ACHIEVEMENTS_DISABLED_SAVEGAME: "@warning_icon! #X Logros no disponibles#!\nAchievements han sido deshabilitados para esta partida guardada" #NT!
+ ACHIEVEMENTS_WILL_BE_DISABLED_SWITCH_CHARACTER: "@warning_icon! #X Cambiar a un personaje diferente o al modo observador desactivará los logros#!" #NT!
+ ACHIEVEMENTS_WILL_BE_DISABLED_OBSERVER_MODE: "@warning_icon! #X Jugar en modo observador desactivará los logros#!" #NT!
+ ACHIEVEMENTS_WILL_BE_DISABLED_MULTIPLAYER: "@warning_icon! #X Abrir el juego en modo multijugador deshabilitará los logros#!" #NT!
+ ACHIEVEMENTS_DEBUG_MODE_WARNING: "@warning_icon! #X El modo de depuración está actualmente activo: cualquier comando de la consola o acción de depuración desactivará los logros para la partida#!" #NT!
+  
+ GAME_RULES_PRESET_DROPDOWN_NO_SELECTED_BODY: "No tienes presets guardados" #NT!
+ GAME_RULES_PRESET_DROPDOWN_NO_SELECTED: "Seleccione un ajuste preestablecido guardado" #NT!
+ SAVE_PRESET_HEADER: "Guardar preestablecido" #NT!
+  
+ SAVE_PRESET_SAVE_AS_LABEL: "Guardar preestablecido como:" #NT!
+ DELETE_SELECTED_PRESET_BUTTON_TOOLTIP: "Eliminar preajuste seleccionado" #NT!
+ DELETE_PRESET_WITH_NAME_BUTTON_TOOLTIP: "Eliminar preajuste [JominiGameRules.GetPresetSaveName|i]" #NT!
+ SAVE_PRESET_BUTTON_TOOLTIP: "Guardar preestablecido" #NT!
+ OVERWRITE_PRESET_BUTTON_TOOLTIP: "Sobrescribir preajuste [JominiGameRules.GetPresetSaveName|i]" #NT!
+  
+ OVERWRITE_GAME_RULES_PRESET_TITLE: "Sobrescribir reglas preestablecidas" #NT!
+ OVERWRITE_GAME_RULES_PRESET_BODY: "¿Está seguro de que desea sobrescribir el valor preestablecido $PRESET_NAME|i$?" #NT!
+ OVERWRITE_GAME_RULES_PRESET_ACCEPT: "Sobrescribir" #NT!
+ DELETE_GAME_RULES_PRESET_TITLE: "Eliminar reglas preestablecidas" #NT!
+ DELETE_GAME_RULES_PRESET_BODY: "¿Está seguro de que desea eliminar el valor preestablecido $PRESET_NAME|i$?" #NT!
+ DELETE_GAME_RULES_PRESET_ACCEPT: "Borrar" #NT!
+  
+ GAME_RULES_CATEGORY_DROPDOWN_NONE_SELECTED: "Seleccione una categoría" #NT!
+ game_rule_category_none: "Todo" #NT!
+  
+ GAME_RULES_PRESET_DIFFICULTY: "Dificultad: [GameRuleSetting.GetName]" #NT!
+  
+ ACHIEVEMENT_FILTER_BUTTON_ALL: "Todo" #NT!
+ ACHIEVEMENT_FILTER_BUTTON_UNLOCKED: "Desbloqueado" #NT!
+ ACHIEVEMENT_FILTER_BUTTON_LOCKED: "Bloqueado" #NT!
+ ACHIEVEMENT_FILTER_BUTTON_POSSIBLE: "Posible" #NT!
+ ACHIEVEMENT_FILTER_SHOW: "Mostrar logros:" #NT!
+  
+ game_rule_category_difficulty: "Dificultad" #NT!
+ game_rule_category_titles: "Títulos y reino" #NT!
+ game_rule_category_multiplayer: "Multijugador" #NT!
+ game_rule_category_health: "Salud" #NT!
+ game_rule_category_tweaks: "Ajustes" #NT!
+ game_rule_category_flavor: "Sabor" #NT!
+ game_rule_category_historicity: "Historicidad" #NT!
+ game_rule_category_game_modes: "Modos de juego" #NT!
+ game_rule_category_ai: "AI" #NT!
+ game_rule_category_setup: "Configuración" #NT!
+ game_rule_category_culture: "Cultura" #NT!
+ game_rule_category_faith: "Fe" #NT!
+  
+ rule_difficulty: "Dificultad" #NT!
+ setting_easy_difficulty: "#high Fácil#!" #NT!
+ setting_easy_difficulty_desc: "Recibirá bonificaciones, como la reducción del impacto de enfermedades, planes hostiles y estrés. También será más fácil manejar facciones." #NT!
+ setting_very_easy_difficulty: "#high Muy Fácil#!" #NT!
+ setting_very_easy_difficulty_desc: "Recibirá importantes bonificaciones, como la reducción del impacto de las enfermedades, los planes hostiles y el estrés. También será mucho más fácil manejar facciones." #NT!
+ setting_normal_difficulty: "Normal" #NT!
+ setting_normal_difficulty_desc: "Jugarás en igualdad de condiciones, sin bonificaciones significativas." #NT!
+  
+ rule_culture_conversion_speed: "Velocidad de conversión de cultura" #NT!
+ setting_default_culture_conversion_speed: "Por defecto" #NT!
+ setting_default_culture_conversion_speed_desc: "La velocidad de conversión no cambia." #NT!
+ setting_faster_culture_conversion_speed: "#high Más rápido#!" #NT!
+ setting_faster_culture_conversion_speed_desc: "Se aumenta la velocidad, lo que hace que la conversión tarde aproximadamente la mitad del tiempo." #NT!
+ setting_significantly_faster_culture_conversion_speed: "#high Significativamente más rápido#!" #NT!
+ setting_significantly_faster_culture_conversion_speed_desc: "La velocidad aumenta significativamente, lo que hace que la conversión tarde aproximadamente una cuarta parte del tiempo." #NT!
+ setting_significantly_slower_culture_conversion_speed: "#high Significativamente más lento#!" #NT!
+ setting_significantly_slower_culture_conversion_speed_desc: "La velocidad se reduce significativamente, lo que hace que la conversión tarde aproximadamente cuatro veces más." #NT!
+ setting_slower_culture_conversion_speed: "#high Más lento#!" #NT!
+ setting_slower_culture_conversion_speed_desc: "La velocidad se reduce, lo que hace que la conversión tarde aproximadamente el doble de tiempo." #NT!
+  
+ GAME_RULE_FASTER_REASON: "Regla del juego: #P x#![SCOPE.ScriptValue('faster_game_rule_value')|P0]" #NT!
+ GAME_RULE_SIGNIFICANTLY_FASTER_REASON: "Regla del juego: #P x#![SCOPE.ScriptValue('significantly_faster_game_rule_value')|P0]" #NT!
+ GAME_RULE_SLOWER_REASON: "Regla del juego: #N x#![SCOPE.ScriptValue('slower_game_rule_value')|N]" #NT!
+ GAME_RULE_SIGNIFICANTLY_SLOWER_REASON: "Regla del juego: #N x#![SCOPE.ScriptValue('significantly_slower_game_rule_value')|N]" #NT!
+  
+ rule_faith_conversion_speed: "Velocidad de conversión de fe" #NT!
+ setting_default_faith_conversion_speed: "Por defecto" #NT!
+ setting_default_faith_conversion_speed_desc: "$setting_default_culture_conversion_speed_desc$" #NT!
+ setting_faster_faith_conversion_speed: "#high Más rápido#!" #NT!
+ setting_faster_faith_conversion_speed_desc: "$setting_faster_culture_conversion_speed_desc$" #NT!
+ setting_significantly_faster_faith_conversion_speed: "#high Significativamente más rápido#!" #NT!
+ setting_significantly_faster_faith_conversion_speed_desc: "$setting_significantly_faster_culture_conversion_speed_desc$" #NT!
+ setting_significantly_slower_faith_conversion_speed: "#high Significativamente más lento#!" #NT!
+ setting_significantly_slower_faith_conversion_speed_desc: "$setting_significantly_slower_culture_conversion_speed_desc$" #NT!
+ setting_slower_faith_conversion_speed: "#high Más lento#!" #NT!
+ setting_slower_faith_conversion_speed_desc: "$setting_slower_culture_conversion_speed_desc$" #NT!
+  
+ rule_gender_equality: "Igualdad de género" #NT!
+ setting_default_gender_equality: "Por defecto" #NT!
+ setting_default_gender_equality_desc: "Las reglas de género están determinadas por las leyes de género y las doctrinas de fe." #NT!
+ setting_full_gender_equality: "#high Igual#!" #NT!
+ setting_full_gender_equality_desc: "Todas las doctrinas y leyes relacionadas con el género se establecen en igualdad. Las mismas reglas y derechos se aplican a todos los personajes, independientemente de su género." #NT!
+ setting_inversed_gender_equality: "#high Invertido#!" #NT!
+ setting_inversed_gender_equality_desc: "Se invierten todas las doctrinas y leyes relacionadas con el género. Las reglas y derechos que se aplicaban a los hombres en la era "predeterminada" ahora se aplican a las mujeres, y viceversa." #NT!
+  
+ rule_sexuality_distribution: "Distribución de la sexualidad" #NT!
+ setting_sexuality_distribution_default: "Heterosexualidad" #NT!
+ setting_sexuality_distribution_default_desc: "La heterosexualidad es la sexualidad más común, mientras que la homosexualidad, la bisexualidad y la asexualidad son menos comunes." #NT!
+ setting_sexuality_distribution_equal: "#high Igual#!" #NT!
+ setting_sexuality_distribution_equal_desc: "Todas las sexualidades del juego son igualmente comunes." #NT!
+ setting_sexuality_distribution_most_common_homosexuality: "#high Homosexualidad#!" #NT!
+ setting_sexuality_distribution_most_common_homosexuality_desc: "La homosexualidad es la sexualidad más común, mientras que la heterosexualidad, la bisexualidad y la asexualidad son menos comunes." #NT!
+ setting_sexuality_distribution_most_common_bisexuality: "#high Bisexualidad#!" #NT!
+ setting_sexuality_distribution_most_common_bisexuality_desc: "La bisexualidad es la sexualidad más común, mientras que la heterosexualidad, la homosexualidad y la asexualidad son menos comunes." #NT!
+ setting_sexuality_distribution_most_common_asexuality: "#high Asexualidad#!" #NT!
+ setting_sexuality_distribution_most_common_asexuality_desc: "La asexualidad es la sexualidad más común, mientras que la heterosexualidad, la homosexualidad y la bisexualidad son menos comunes." #NT!
+  
+ rule_same_sex_relations: "Relaciones entre personas del mismo sexo" #NT!
+ setting_default_same_sex_relations: "Por defecto" #NT!
+ setting_default_same_sex_relations_desc: "La visión sobre las relaciones entre personas del mismo sexo depende de la doctrina $doctrine_homosexuality_name$ de cada fe." #NT!
+ setting_accepted_same_sex_relations: "#high Aceptado#!" #NT!
+ setting_accepted_same_sex_relations_desc: "Las relaciones entre personas del mismo sexo son plenamente aceptadas por todas las religiones." #NT!
+  
+ rule_same_sex_marriage: "El matrimonio del mismo sexo" #NT!
+ setting_default_same_sex_marriage: "Por defecto" #NT!
+ setting_default_same_sex_marriage_desc: "El matrimonio entre personas del mismo sexo no está disponible." #NT!
+ setting_accepted_same_sex_marriage: "#high Aceptado#!" #NT!
+ setting_accepted_same_sex_marriage_desc: "El matrimonio y el concubinato entre personas del mismo sexo están disponibles para todos aquellos cuya fe lo acepte y cuya cultura practique el concubinato. Para habilitar para #EMP todos#!, establece la regla del juego $rule_same_sex_relations$ en $setting_accepted_same_sex_relations$." #NT!
+  
+ rule_adoption: "Adopción" #NT!
+ setting_default_adoption: "Por defecto" #NT!
+ setting_default_adoption_desc: "[adoption|E] se desbloquea por el [GetTrait('compassionate').GetName(GetNullCharacter)] [trait|E], cierto [culture_traditions|E], ser infértil y sin hijos, o estar en un matrimonio entre personas del mismo sexo." #NT!
+ setting_no_adoption: "#high Prohibido#!" #NT!
+ setting_no_adoption_desc: "El [adoption|E] [interaction|E] estará deshabilitado en todas las circunstancias." #NT!
+ setting_adoption_always_allowed: "#high Siempre permitido#!" #NT!
+ setting_adoption_always_allowed_desc: "El [adoption|E] [interaction|E] estará disponible para todos los personajes siempre que no estén casados ​​o sean la pareja dominante en su matrimonio." #NT!
+  
+ rule_randomized_faiths: "Religiones aleatorias" #NT!
+ setting_randomized_faiths_off: "Apagado" #NT!
+ setting_randomized_faiths_off_desc: "Los personajes y condados tienen religiones históricas." #NT!
+ setting_randomized_faiths_on: "#high Activado#!" #NT!
+ setting_randomized_faiths_on_desc: "A los personajes y condados se les asignan religiones aleatorias. Todas las religiones del juego están disponibles." #NT!
+  
+ rule_faith_acceptance: "Aceptación de la fe" #NT!
+ setting_default_faith_acceptance: "Por defecto" #NT!
+ setting_default_faith_acceptance_desc: "La actitud de una fe hacia otras religiones está dictada por sus doctrinas." #NT!
+ setting_full_faith_acceptance: "#high Completo#!" #NT!
+ setting_full_faith_acceptance_desc: "Todas las religiones tienen plena aceptación hacia otras religiones. No hay penalizaciones por opinión por tener una fe diferente." #NT!
+  
+ rule_ai_embarkation_cost: "Costo de embarque de IA" #NT!
+ setting_regular_embarkation_costs: "Por defecto" #NT!
+ setting_regular_embarkation_costs_desc: "La IA, al igual que el jugador, tiene que pagar [gold_i][gold|E] a [embark|E]." #NT!
+ setting_no_ai_embarkation_costs: "#high Ninguno#!" #NT!
+ setting_no_ai_embarkation_costs_desc: "La IA, a diferencia del jugador, no paga [gold_i][gold|E] a [embark|E]." #NT!
+  
+ rule_domain_limit_tweaks: "Límite de dominio" #NT!
+ setting_domain_limit_default: "Por defecto" #NT!
+ setting_domain_limit_default_desc: "El [domain_limit|E] no cambia para todos los [rulers|E]." #NT!
+ setting_domain_limit_plus_one: "#high +1#!" #NT!
+ setting_domain_limit_plus_one_desc: "El [domain_limit|E] se incrementa en uno para todos los [rulers|E]." #NT!
+ setting_domain_limit_plus_two: "#high +2#!" #NT!
+ setting_domain_limit_plus_two_desc: "El [domain_limit|E] se incrementa en dos para todos los [rulers|E]." #NT!
+ setting_domain_limit_plus_three: "#high +3#!" #NT!
+ setting_domain_limit_plus_three_desc: "El [domain_limit|E] se incrementa en tres para todos los [rulers|E]." #NT!
+ setting_domain_limit_minus_one: "#high -1#!" #NT!
+ setting_domain_limit_minus_one_desc: "El [domain_limit|E] se reduce #EMP#! en uno para todos los [rulers|E]." #NT!
+ setting_domain_limit_minus_two: "#high -2#!" #NT!
+ setting_domain_limit_minus_two_desc: "El [domain_limit|E] se reduce #EMP#! en dos para todos los [rulers|E]." #NT!
+ setting_domain_limit_minus_three: "#high -3#!" #NT!
+ setting_domain_limit_minus_three_desc: "El [domain_limit|E] se reduce #EMP#! en tres para todos los [rulers|E]." #NT!
+  
+ rule_random_nickname_frequency: "Frecuencia de apodo aleatoria" #NT!
+ setting_random_nickname_frequency_default: "Por defecto" #NT!
+ setting_random_nickname_frequency_default_desc: "Aleatorio [nicknames|E] aparece en las reglas con la frecuencia predeterminada." #NT!
+ setting_random_nickname_frequency_halved: "#high Reducido a la mitad#!" #NT!
+ setting_random_nickname_frequency_halved_desc: "Random [nicknames|E] aparece con la mitad de frecuencia." #NT!
+ setting_random_nickname_frequency_quartered: "#high Cuartelado#!" #NT!
+ setting_random_nickname_frequency_quartered_desc: "Random [nicknames|E] aparece con una cuarta parte de la frecuencia." #NT!
+ setting_random_nickname_frequency_none: "#high Deshabilitado#!" #NT!
+ setting_random_nickname_frequency_none_desc: "No aparecerá ningún [nicknames|E] aleatorio." #NT!
+ setting_random_nickname_frequency_doubled: "#high Duplicado#!" #NT!
+ setting_random_nickname_frequency_doubled_desc: "Random [nicknames|E] aparece el doble de veces." #NT!
+  
+ rule_random_ruler_placement: "Colocación aleatoria de la regla" #NT!
+ setting_random_ruler_placement_off: "Apagado" #NT!
+ setting_random_ruler_placement_off_desc: "Los gobernantes tienen sus títulos y reinos históricos." #NT!
+ setting_random_ruler_placement_on: "#high Activado#!" #NT!
+ setting_random_ruler_placement_on_desc: "Los gobernantes se colocan aleatoriamente en el mapa. Los reinos son básicamente los mismos, pero los títulos pertenecen a gobernantes diferentes." #NT!
+ setting_random_ruler_placement_on_conversion: "#high Activado (Conversión)#!" #NT!
+ setting_random_ruler_placement_on_conversion_desc: "Los gobernantes se colocan aleatoriamente en el mapa. Se convierten a la Fe del poseedor histórico." #NT!
+  
+ rule_diplomatic_range: "Rango diplomático" #NT!
+ setting_default_diplomatic_range: "Por defecto" #NT!
+ setting_default_diplomatic_range_desc: "El alcance diplomático no ha cambiado." #NT!
+ setting_restricted_diplomatic_range: "#high Restringido#!" #NT!
+ setting_restricted_diplomatic_range_desc: "El alcance diplomático se restringe aún más, lo que hace que las interacciones no locales sean mucho más raras." #NT!
+ setting_unrestricted_diplomatic_range: "#high Sin restricciones#!" #NT!
+ setting_unrestricted_diplomatic_range_desc: "El alcance diplomático está desactivado, lo que permite que cualquier persona en el mapa interactúe con cualquier otra persona." #NT!
+  
+ rule_minor_disease_frequency: "Enfermedades menores" #NT!
+ setting_default_minor_disease_frequency: "Por defecto" #NT!
+ setting_default_minor_disease_frequency_desc: "Las enfermedades menores aparecerán como de costumbre." #NT!
+ setting_fewer_minor_disease_frequency: "#high Menos#!" #NT!
+ setting_fewer_minor_disease_frequency_desc: "Las enfermedades menores aparecerán con menos frecuencia." #NT!
+  
+ rule_de_jure_requirement: "Requisito de jure" #NT!
+ setting_on_de_jure_requirement: "#high Activado#!" #NT!
+ setting_on_de_jure_requirement_desc: "Los títulos con tierras De Jure eventualmente serán destruidos si un personaje no posee tierras De Jure del título dentro de su reino." #NT!
+ setting_on_limited_de_jure_requirement: "Activado (limitado)" #NT!
+ setting_on_limited_de_jure_requirement_desc: "Los títulos con tierras De Jure eventualmente serán destruidos si un personaje no posee ninguna tierra De Jure del título dentro de su reino. El título principal del jugador nunca será destruido." #NT!
+ setting_off_de_jure_requirement: "#high Desactivado#!" #NT!
+ setting_off_de_jure_requirement_desc: "Los títulos de propiedad de tierras De Jure nunca serán destruidos." #NT!
+ de_jure_requirement_title: "[title_to_destroy.GetName] ¡Pérdida!" #NT!
+ de_jure_requirement_desc: "Ya no puedo pretender ser el gobernante de [title_to_destroy.GetNameNoTierNoTooltip], porque no poseo ninguna de sus tierras De Jure." #NT!
+  
+ rule_empire_obscurity_requirement: "Oscuridad del imperio" #NT!
+ setting_on_empire_obscurity_requirement: "#high Activado#!" #NT!
+ setting_on_empire_obscurity_requirement_desc: "[de_jure|E] [empires|E] será destruido a menos que el tenedor controle al menos el 20% de su De Jure [counties|E]." #NT!
+ setting_off_empire_obscurity_requirement: "Apagado" #NT!
+ setting_off_empire_obscurity_requirement_desc: "[empires|E] persistirá independientemente de cuánta tierra [de_jure|E] controle el titular." #NT!
+ game_rule.4.t: "Oscuridad del [falling_empire.GetBaseNameNoTooltip]" #NT!
+ game_rule.4.desc: "No puedo negar que mi amado imperio, el [falling_empire.GetBaseName], ha caído, y ha caído muy lejos...\n\nApenas controlo ninguno de sus territorios tradicionales. Mi imperio, una mera sombra de sí mismo, se está desvaneciendo lenta pero seguramente en la oscuridad." #NT!
+ game_rule.4.a: "¡Solo necesito más tiempo!" #NT!
+ game_rule.4.b: "Adiós, dulce imperio..." #NT!
+  
+ rule_multiplayer_murder_schemes: "Multijugador: planes de asesinato" #NT!
+ setting_default_multiplayer_murder_schemes: "Por defecto" #NT!
+ setting_default_multiplayer_murder_schemes_desc: "Se pueden utilizar esquemas hostiles contra los jugadores y sus familias." #NT!
+ setting_no_players_multiplayer_murder_schemes: "#high Sin jugadores#!" #NT!
+ setting_no_players_multiplayer_murder_schemes_desc: "Los jugadores no pueden iniciar planes hostiles contra otros jugadores." #NT!
+ setting_no_player_families_multiplayer_murder_schemes: "#high Sin familias de jugadores#!" #NT!
+ setting_no_player_families_multiplayer_murder_schemes_desc: "Los jugadores no pueden iniciar planes hostiles contra otros jugadores o sus familiares cercanos." #NT!
+  
+ rule_realm_stability: "Estabilidad del reino" #NT!
+ setting_default_realm_stability: "Por defecto" #NT!
+ setting_default_realm_stability_desc: "Surgirá el importe predeterminado de [factions|E]." #NT!
+ setting_lesser_realm_stability: "#high Menor estabilidad#!" #NT!
+ setting_lesser_realm_stability_desc: "Surgirá una cantidad mayor de [factions|E]." #NT!
+ setting_higher_realm_stability: "#high Mayor estabilidad#!" #NT!
+ setting_higher_realm_stability_desc: "Surgirá una cantidad menor de [factions|E]." #NT!
+ setting_extreme_realm_stability: "#high Estabilidad extrema#!" #NT!
+ setting_extreme_realm_stability_desc: "Surgirá una cantidad extremadamente baja de [factions|E]." #NT!
+  
+ rule_custom_kingdoms: "Reinos personalizados" #NT!
+ setting_on_custom_kingdoms: "En" #NT!
+ setting_on_custom_kingdoms_desc: "Se permite la creación de Reinos e Imperios personalizados no históricos." #NT!
+ setting_off_custom_kingdoms: "#high Desactivado#!" #NT!
+ setting_off_custom_kingdoms_desc: "No se permite la creación de reinos e imperios personalizados no históricos." #NT!
+  
+ rule_casus_belli_costs: "Costos de Casus Belli" #NT!
+ setting_default_casus_belli_costs: "Por defecto" #NT!
+ setting_default_casus_belli_costs_desc: "Casus Bellis cuesta recursos para declarar, como Prestigio o Piedad." #NT!
+ setting_no_cost_casus_belli_costs: "#high Sin costos#!" #NT!
+ setting_no_cost_casus_belli_costs_desc: "Casus Bellis es de uso gratuito, sin ningún coste asociado." #NT!
+  
+ rule_end_date: "Fecha final" #NT!
+ setting_1453_end_date: "None" #NT!
+ setting_1453_end_date_desc: "El juego terminará en 1453." #NT!
+ setting_no_end_date_end_date: "#high Sin fecha de finalización#!" #NT!
+ setting_no_end_date_end_date_desc: "El juego no terminará en ninguna fecha específica." #NT!
+  
+ rule_generate_families: "Generar familias" #NT!
+ setting_on_generate_families: "En" #NT!
+ setting_on_generate_families_desc: "La mayoría de los personajes históricos terratenientes sin familia registrada tendrán un cónyuge y hasta tres hijos generados para ellos. Esto reduce el riesgo de un [game_over|E] temprano." #NT!
+ setting_off_generate_families: "#high Desactivado#!" #NT!
+ setting_off_generate_families_desc: "Los personajes históricos aterrizados sin familia registrada NO tendrán una familia generada para ellos. Esto aumenta el riesgo de un [game_over|E] temprano." #NT!
+ setting_on_generate_families_ai_only: "#high Activado (solo IA)#!" #NT!
+ setting_on_generate_families_ai_only_desc: "La mayoría de los personajes históricos de IA sin familia registrada tendrán un cónyuge y hasta tres hijos generados para ellos. Esto aumenta el riesgo de un [game_over|E] temprano." #NT!
+  
+ rule_mongol_invasion: "Invasión mongol" #NT!
+ setting_default_mongol_invasion: "Por defecto" #NT!
+ setting_default_mongol_invasion_desc: "Los mongoles la invadirán alrededor del año 1200." #NT!
+ setting_never_mongol_invasion: "#high Nunca#!" #NT!
+ setting_never_mongol_invasion_desc: "Los mongoles no invadirán." #NT!
+ setting_random_mongol_invasion: "#high Aleatorio#!" #NT!
+ setting_random_mongol_invasion_desc: "Los mongoles invadirán en una fecha aleatoria." #NT!
+  
+ rule_random_harm: "Daño aleatorio" #NT!
+ setting_harm_dangerous: "Peligroso" #NT!
+ setting_harm_dangerous_desc: "Los accidentes, la mala suerte y los caprichos volubles del Destino pueden provocar [character_death_death|E], [GetTrait('incapable').GetName(GetNullCharacter)] [trait|E] y la pérdida de [health|E] al azar." #NT!
+ setting_harm_illusion_of_safety: "#high Ilusión de seguridad#!" #NT!
+ setting_harm_illusion_of_safety_desc: "Los eventos aleatorios [character_death_death|E] o de desactivación son mucho más raros. Hasta que no lo sean." #NT!
+ setting_harm_safe: "#high Seguro#!" #NT!
+ setting_harm_safe_desc: "Los eventos dañinos aleatorios no matarán ni paralizarán a [characters|E]. Aún pueden morir prematuramente en otros eventos, especialmente si se encuentran en situaciones peligrosas." #NT!
+ setting_harm_tragic: "#high Trágico#!" #NT!
+ setting_harm_tragic_desc: "No solo los buenos mueren jóvenes: ¡ahora tú también puedes hacerlo, con mayores posibilidades de que se produzcan eventos dañinos aleatorios para todos!" #NT!
+ setting_harm_spiteful: "#high Rencoroso#!" #NT!
+ setting_harm_spiteful_desc: "El destino centra su cruel ira en [characters|E] destacados: aquellos con [skills|E] alto, [traits|E] heredable, logros notables, etc." #NT!
+ setting_harm_tragically_spiteful: "#high Trágicamente rencoroso#!" #NT!
+ setting_harm_tragically_spiteful_desc: "La posibilidad de que todos sufran daños aleatorios aumenta notablemente, pero especialmente cualquiera de #EMP nota#!." #NT!
+  
+ rule_random_harm_target: "Objetivo de daño aleatorio" #NT!
+ setting_random_harm_boilerplate: "Los eventos que matan, incapacitan o dañan al [health|E] de [characters|E] al azar pueden ocurrirle a" #NT!
+ setting_harm_target_all: "Alguien" #NT!
+ setting_harm_target_all_desc: "$setting_random_harm_boilerplate$ cualquier $game_concept_character$." #NT!
+ setting_harm_target_player_only: "Sólo jugador" #NT!
+ setting_harm_target_player_only_desc: "$setting_random_harm_boilerplate$ jugadores solamente." #NT!
+ setting_harm_target_ai_only: "Solo IA" #NT!
+ setting_harm_target_ai_only_desc: "$setting_random_harm_boilerplate$ solo la IA." #NT!
+  
+ rule_exclave_independence: "Independencia del exclave" #NT!
+ setting_off_exclave_independence: "#high Desactivado#!" #NT!
+ setting_off_exclave_independence_desc: "Los Gobernantes Independientes pueden tener exclaves (tierras desconectadas) en cualquier parte del mundo." #NT!
+ setting_limited_exclave_independence: "#high Limitado#!" #NT!
+ setting_limited_exclave_independence_desc: "Los exclaves de gobernantes independientes en paz serán eliminados tras la sucesión a menos que estén conectados al área de la capital por un condado, a través de una ruta naval o parte del territorio de Jure." #NT!
+ setting_significant_exclave_independence: "#high Significativo#!" #NT!
+ setting_significant_exclave_independence_desc: "Los exclaves de gobernantes independientes en paz serán eliminados tras la sucesión a menos que estén conectados a través de una ruta naval o parte del territorio de Jure." #NT!
+ setting_total_exclave_independence: "#high Total#!" #NT!
+ setting_total_exclave_independence_desc: "Los exclaves de gobernantes independientes en paz serán eliminados tras la sucesión a menos que estén conectados a través de una ruta naval." #NT!
+ setting_ai_limited_exclave_independence: "#high Limitado (solo IA)#!" #NT!
+ setting_ai_limited_exclave_independence_desc: "Los enclaves de gobernantes de IA independientes en paz serán eliminados en el momento de la sucesión, a menos que estén conectados al área de la capital por un condado, a través de una ruta naval o parte del territorio de jure." #NT!
+ setting_ai_significant_exclave_independence: "Significativo (solo IA)" #NT!
+ setting_ai_significant_exclave_independence_desc: "Los exclaves de gobernantes independientes de la IA en paz serán eliminados tras la sucesión a menos que estén conectados a través de una ruta naval o parte del territorio de Jure." #NT!
+ setting_ai_total_exclave_independence: "#high Total (solo IA)#!" #NT!
+ setting_ai_total_exclave_independence_desc: "Los exclaves de gobernantes independientes de IA en paz serán eliminados tras la sucesión a menos que estén conectados a través de una ruta naval." #NT!
+  
+ rule_regional_heresy: "Herejías regionales" #NT!
+ setting_default_regional_heresy: "Por defecto" #NT!
+ setting_default_regional_heresy_desc: "Es más probable que los brotes de herejía en ciertas regiones sean herejías históricas, como la del Lolardía en Inglaterra." #NT!
+ setting_strict_regional_heresy: "#high Estricto#!" #NT!
+ setting_strict_regional_heresy_desc: "Los brotes de herejía en determinadas regiones casi siempre serán herejías históricas." #NT!
+ setting_relaxed_regional_heresy: "#high Relajado#!" #NT!
+ setting_relaxed_regional_heresy_desc: "Los brotes de herejía no tienen ponderación regional, lo que favorece la aparición de herejías más diversas." #NT!
+  
+ rule_hungarian_migration: "Migración húngara" #NT!
+ setting_launch_historical: "#high Histórico#!" #NT!
+ setting_launch_historical_desc: "La IA intentará iniciar la migración húngara entre 890 y 910." #NT!
+ setting_launch_immediate: "Inmediato" #NT!
+ setting_launch_immediate_desc: "La migración húngara ya estará activa al inicio del juego." #NT!
+ setting_launch_random: "#high Aleatorio#!" #NT!
+ setting_launch_random_desc: "La IA intentará iniciar la migración húngara en cualquier momento entre 5 años después del inicio del juego y el 910." #NT!
+ setting_launch_off: "#high Solo jugador#!" #NT!
+ setting_launch_off_desc: "La IA no intentará iniciar la migración húngara." #NT!
+  
+ rule_matrilineal_marriages: "Matrimonios matrilineales" #NT!
+ setting_default_matrilineal_marriages: "Por defecto" #NT!
+ setting_default_matrilineal_marriages_desc: "Los personajes de IA concertarán matrimonios [matrilineal|E] si pertenecen a la familia cercana del jugador, o a un reino [dynasty_prestige_level_4|L] [dynasty|E], o un reino [GetLaw('equal_law').GetName], o son fuertes [rulers|E]. [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] reinos por defecto son matrilineales." #NT!
+ setting_matrilineal_marriages_no_player_exception: "#high Predeterminado (sin excepción de jugador)#!" #NT!
+ setting_matrilineal_marriages_no_player_exception_desc: "Los personajes de IA organizarán [matrilineal|E] matrimonios si pertenecen a un reino [dynasty_prestige_level_4|L] [dynasty|E] o [GetLaw('equal_law').GetName], o son fuertes [rulers|E]. Los reinos [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] tienen como valor predeterminado el Matrilineal." #NT!
+ setting_matrilineal_marriages_always: "#high Siempre#!" #NT!
+ setting_matrilineal_marriages_always_desc: "Los personajes de IA querrán concertar matrimonios [matrilineal|E] para todas las miembros femeninas [dynasty|E]. Al igual que con las reglas #high $setting_default_matrilineal_marriages$#!, los matrimonios [patrilineal|E] aún se producen si se consideran lo suficientemente favorables." #NT!
+ setting_matrilineal_marriages_female_and_equal: "#high Mujer dominada e igual#!" #NT!
+ setting_matrilineal_marriages_female_and_equal_desc: "Los personajes de IA sólo concertarán matrimonios [matrilineal|E] si forman parte de un reino [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName] o [GetLaw('equal_law').GetName]. Al igual que con las reglas #high $setting_default_matrilineal_marriages$#!, los matrimonios [patrilineal|E] aún ocurren si se consideran lo suficientemente favorables." #NT!
+ setting_matrilineal_marriages_never: "#high Nunca#!" #NT!
+ setting_matrilineal_marriages_never_desc: "Los personajes de IA nunca concertarán matrimonios [matrilineal|E], a menos que formen parte de un reino [GetFaithDoctrine('doctrine_gender_female_dominated').GetBaseName]." #NT!
+  
+ rule_dlc_fp1_scandinavian_adventurers: "Aventureros escandinavos" #NT!
+ setting_fp1_scandi_adventurers_rare: "Extraño" #NT!
+ setting_fp1_scandi_adventurers_rare_desc: "Los aventureros escandinavos intentarán atacar Rusia y el Mar del Norte cada 15 años." #NT!
+ setting_fp1_scandi_adventurers_occasional: "Ocasional" #NT!
+ setting_fp1_scandi_adventurers_occasional_desc: "Los aventureros escandinavos intentarán atacar Rusia y el Mar del Norte cada 10 años." #NT!
+ setting_fp1_scandi_adventurers_frequent: "Frecuente" #NT!
+ setting_fp1_scandi_adventurers_frequent_desc: "Los aventureros escandinavos intentarán atacar Rusia y el Mar del Norte cada cinco años." #NT!
+ setting_fp1_scandi_adventurers_apocalyptic: "Apocalíptico" #NT!
+ setting_fp1_scandi_adventurers_apocalyptic_desc: "Los aventureros escandinavos intentarán apuntar a Rusia y el Mar del Norte cada año; los personajes de IA no requieren rasgos específicos para lanzar [varangian_adventures|E]." #NT!
+ setting_fp1_scandi_adventurers_off: "Apagado" #NT!
+ setting_fp1_scandi_adventurers_off_desc: "Los aventureros escandinavos nunca intentarán apuntar a Rusia o el Mar del Norte." #NT!
+  
+ rule_hybrid_culture_ai_frequency: "Frecuencia de cultivo híbrido" #NT!
+ setting_default_hybrid_culture_ai_frequency: "Por defecto" #NT!
+ setting_default_hybrid_culture_ai_frequency_desc: "Aparecerá la cantidad predeterminada de [hybrid_cultures|E]." #NT!
+ setting_less_common_hybrid_culture_ai_frequency: "#high Menos común#!" #NT!
+ setting_less_common_hybrid_culture_ai_frequency_desc: "Aparecerán menos [hybrid_cultures|E]." #NT!
+ setting_none_hybrid_culture_ai_frequency: "#high Ninguno#!" #NT!
+ setting_none_hybrid_culture_ai_frequency_desc: "No aparecerá ningún [hybrid_cultures|E] creado por personas que no sean jugadores." #NT!
+  
+ rule_hybrid_culture_ai_restrictions: "Restricciones de cultivo híbrido" #NT!
+ setting_default_hybrid_culture_ai_restrictions: "Por defecto" #NT!
+ setting_default_hybrid_culture_ai_restrictions_desc: "Los elementos creados por no jugadores [hybrid_cultures|E] estarán significativamente restringidos #weak (por ejemplo, no surgirán híbridos de dos culturas híbridas existentes)#!" #NT!
+ setting_relaxed_hybrid_culture_ai_restrictions: "#high Relajado#!" #NT!
+ setting_relaxed_hybrid_culture_ai_restrictions_desc: "Hasta cierto punto, [hybrid_cultures|E] creado sin jugadores puede surgir de culturas híbridas existentes." #NT!
+ setting_very_relaxed_hybrid_culture_ai_restrictions: "#high Muy Relajado#!" #NT!
+ setting_very_relaxed_hybrid_culture_ai_restrictions_desc: "Los [hybrid_cultures|E] creados sin jugadores solo tienen restricciones nominales." #NT!
+  
+ rule_divergent_culture_ai_frequency: "Frecuencia de cultura divergente" #NT!
+ setting_default_divergent_culture_ai_frequency: "Por defecto" #NT!
+ setting_default_divergent_culture_ai_frequency_desc: "Aparecerá la cantidad predeterminada de [divergent_cultures|E]." #NT!
+ setting_less_common_divergent_culture_ai_frequency: "#high Menos común#!" #NT!
+ setting_less_common_divergent_culture_ai_frequency_desc: "Aparecerán menos [divergent_cultures|E]." #NT!
+ setting_none_divergent_culture_ai_frequency: "#high Ninguno#!" #NT!
+ setting_none_divergent_culture_ai_frequency_desc: "No aparecerá ningún [divergent_cultures|E] creado por personas que no sean jugadores." #NT!
+ setting_relaxed_divergent_culture_ai_frequency: "#high Relajado#!" #NT!
+ setting_relaxed_divergent_culture_ai_frequency_desc: "[divergent_cultures|E] aparecerá con más frecuencia y se eliminarán la mayoría de las restricciones más estrictas." #NT!
+  
+ rule_hybrid_and_divergence_cooldowns: "Tiempos de reutilización de culturas divergentes e híbridas" #NT!
+ setting_default_hybrid_and_divergence_cooldowns: "Por defecto" #NT!
+ setting_default_hybrid_and_divergence_cooldowns_desc: "[cultures|E] sólo puede [diverge|E] después de haber existido durante #V 100#! años, y [hybridize|E] después de haber existido durante #V 50#! años." #NT!
+ setting_slower_hybrid_and_divergence_cooldowns: "#high Más lento#!" #NT!
+ setting_slower_hybrid_and_divergence_cooldowns_desc: "[cultures|E] sólo puede [diverge|E] después de haber existido durante #V 200#! años, y [hybridize|E] después de haber existido durante #V 100#! años." #NT!
+ setting_no_hybrid_and_divergence_cooldowns: "#high Sin tiempos de reutilización#!" #NT!
+ setting_no_hybrid_and_divergence_cooldowns_desc: "No hay tiempos de reutilización cuando a un [culture|E] se le permite [diverge|E] o [hybridize|E]." #NT!
+ setting_faster_hybrid_and_divergence_cooldowns: "#high Más rápido#!" #NT!
+ setting_faster_hybrid_and_divergence_cooldowns_desc: "[cultures|E] sólo puede [diverge|E] después de haber existido durante #V 50#! años, y [hybridize|E] después de haber existido durante #V 25#! años." #NT!
+  
+ rule_dissolution_umayyad: "Caída de Al-Andalus" #NT!
+ setting_dissolution_unconstrained: "Ninguna limitación" #NT!
+ setting_dissolution_unconstrained_desc: "El [dissolution_faction|E] puede impactar en el Reino de Al-Andalus desde el inicio del juego" #NT!
+ setting_dissolution_after_caliph_death: "#high Muerte del Califa#!" #NT!
+ setting_dissolution_after_caliph_death_desc: "El [dissolution_faction|E] sólo puede alcanzar el Reino de Al-Andalus tras la muerte del Sultán Muhammad $Abd-al-Rahman$" #NT!
+ setting_dissolution_historical_date: "#high Tiempo histórico#!" #NT!
+ setting_dissolution_historical_date_desc: "El [dissolution_faction|E] sólo se activa a partir del año 1020 para el Reino de Al-Andalus" #NT!
+  
+ rule_dlc_fp3_seljuk_invasion: "Invasión selyúcida" #NT!
+ setting_default_seljuk_invasion: "Por defecto" #NT!
+ setting_default_seljuk_invasion_desc: "Los seléucidas invadirán algún tiempo después del año 945." #NT!
+ setting_never_seljuk_invasion: "#high Nunca#!" #NT!
+ setting_never_seljuk_invasion_desc: "Los selyúcidas no invadirán." #NT!
+ setting_random_seljuk_invasion: "#high Aleatorio#!" #NT!
+ setting_random_seljuk_invasion_desc: "Los selyúcidas invadirán en una fecha aleatoria." #NT!
+  
+  #AGOT Modified 
+ #rule_black_death_occurrence: "Circunstancia de la muerte negra" #NT!
+ rule_black_death_occurrence: "Gran circunstancia de enfermedad primaveral" #NT!
+ setting_bd_occurrence_organic: "#high Orgánico#!" #NT!
+  #AGOT Modified 
+ #setting_bd_occurrence_organic_desc: "La Peste Negra ocurrirá en un escenario históricamente plausible que reacciona al estado actual del juego." #NT!
+ setting_bd_occurrence_organic_desc: "La Gran Enfermedad Primaveral ocurrirá en un escenario históricamente plausible que reacciona al estado actual del juego." #NT!
+ setting_bd_occurrence_historical: "Histórico" #NT!
+  #AGOT Modified 
+ #setting_bd_occurrence_historical_desc: "La Peste Negra comenzará en Asia Central en el siglo XIV y se extenderá orgánicamente a través de rutas comerciales históricamente populares. Milán, los Pirineos, Polonia y otras regiones históricas se verán menos afectadas." #NT!
+ setting_bd_occurrence_historical_desc: "La Gran Enfermedad Primaveral comenzará en una ciudad de Poniente alrededor del año 209 d.C. y se extenderá orgánicamente." #NT!
+ setting_bd_occurrence_random: "#high Aleatorio#!" #NT!
+  #AGOT Modified 
+ #setting_bd_occurrence_random_desc: "La Peste Negra se originará en una provincia completamente aleatoria en el mapa." #NT!
+ setting_bd_occurrence_random_desc: "La Gran Enfermedad Primaveral se originará en una provincia completamente aleatoria en el mapa." #NT!
+  
+  #AGOT Modified 
+ #rule_black_death_frequency: "Frecuencia de la Muerte Negra" #NT!
+ rule_black_death_frequency: "Gran frecuencia de enfermedades primaverales" #NT!
+ setting_bd_frequency_once: "Una vez" #NT!
+  #AGOT Modified 
+ #setting_bd_frequency_once_desc: "La Peste Negra solo puede ocurrir una vez durante tu partida." #NT!
+ setting_bd_frequency_once_desc: "La gran enfermedad primaveral solo puede ocurrir una vez durante el juego." #NT!
+ setting_bd_frequency_unlimited: "#high Ilimitado#!" #NT!
+  #AGOT Modified 
+ #setting_bd_frequency_unlimited_desc: "La Peste Negra puede aparecer un número ilimitado de veces en una campaña." #NT!
+ setting_bd_frequency_unlimited_desc: "La Gran Enfermedad Primaveral puede aparecer un número ilimitado de veces en una campaña." #NT!
+ setting_bd_frequency_never: "#high Nunca#!" #NT!
+  #AGOT Modified 
+ #setting_bd_frequency_never_desc: "La peste negra nunca ocurrirá." #NT!
+ setting_bd_frequency_never_desc: "La Gran Enfermedad Primaveral nunca ocurrirá." #NT!
+  
+ rule_other_epidemic_frequency: "Frecuencia de plaga" #NT!
+ setting_epidemic_frequency_normal: "Normal" #NT!
+ setting_epidemic_frequency_normal_desc: "Las plagas aparecerán y se propagarán a un ritmo normal." #NT!
+ setting_epidemic_frequency_often: "#high A menudo#!" #NT!
+ setting_epidemic_frequency_often_desc: "Las plagas aparecerán y se propagarán con mayor frecuencia." #NT!
+ setting_epidemic_frequency_very_often: "#high Muy a menudo#!" #NT!
+ setting_epidemic_frequency_very_often_desc: "Las plagas aparecerán y se extenderán con mucha más frecuencia." #NT!
+ setting_epidemic_frequency_doomsday: "#high Día del Juicio Final#!" #NT!
+ setting_epidemic_frequency_doomsday_desc: "El aire está lleno de miasmas y los ríos corren plagados de corrupción. La pestilencia es el mismo aire que respiras y el agua que bebes. No hay respiro de la plaga eterna." #NT!
+ setting_epidemic_frequency_rare: "#high Raro#!" #NT!
+ setting_epidemic_frequency_rare_desc: "Las plagas rara vez aparecerán y se propagarán con menos frecuencia." #NT!
+ setting_epidemic_frequency_very_rare: "#high Muy raro#!" #NT!
+ setting_epidemic_frequency_very_rare_desc: "Las plagas aparecerán muy raramente y se propagarán con mucha menos frecuencia." #NT!
+ setting_epidemic_frequency_disabled: "#high Deshabilitado#!" #NT!
+ setting_epidemic_frequency_disabled_desc: "Las plagas no aparecerán." #NT!
+  
+ rule_legend_spread_chance: "Probabilidad de propagación de leyenda" #NT!
+ setting_legend_spread_chance_normal: "Normal" #NT!
+ setting_legend_spread_chance_normal_desc: "Las leyendas tendrán una probabilidad normal de difundirse." #NT!
+ setting_legend_spread_chance_high: "#high Alto#!" #NT!
+ setting_legend_spread_chance_high_desc: "Las leyendas tendrán más posibilidades de extenderse a provincias adyacentes." #NT!
+ setting_legend_spread_chance_very_high: "#high Muy alto#!" #NT!
+ setting_legend_spread_chance_very_high_desc: "Las leyendas tendrán muchas más posibilidades de extenderse a provincias adyacentes." #NT!
+ setting_legend_spread_chance_low: "#high Bajo#!" #NT!
+ setting_legend_spread_chance_low_desc: "Las leyendas tendrán menos posibilidades de extenderse a provincias adyacentes." #NT!
+ setting_legend_spread_chance_very_low: "#high Muy bajo#!" #NT!
+ setting_legend_spread_chance_very_low_desc: "Las leyendas tendrán muchas menos posibilidades de extenderse a provincias adyacentes." #NT!
+  
+ rule_legend_cost: "Costo de leyenda" #NT!
+ setting_legend_cost_normal: "Normal" #NT!
+ setting_legend_cost_normal_desc: "Las leyendas costarán una cantidad normal." #NT!
+ setting_legend_cost_high: "#high Alto#!" #NT!
+ setting_legend_cost_high_desc: "Las leyendas costarán el doble de lo normal." #NT!
+ setting_legend_cost_very_high: "#high Muy alto#!" #NT!
+ setting_legend_cost_very_high_desc: "Las leyendas costarán cuatro veces más de lo normal." #NT!
+ setting_legend_cost_low: "#high Bajo#!" #NT!
+ setting_legend_cost_low_desc: "Las leyendas costarán la mitad de lo normal." #NT!
+ setting_legend_cost_very_low: "#high Muy bajo#!" #NT!
+ setting_legend_cost_very_low_desc: "Las leyendas costarán una cuarta parte de lo normal." #NT!

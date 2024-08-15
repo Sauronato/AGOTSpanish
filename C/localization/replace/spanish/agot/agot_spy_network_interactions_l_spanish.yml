@@ -1,10 +1,12 @@
 ﻿l_spanish:
  agot_invite_to_spy_network_interaction: "Reclutar como espía"
+ agot_check_for_potential_spies_interaction: "Compruebe si hay posibles espías" #NT!
  agot_remove_from_spy_network_interaction: "Descartar Espía"
  SPY_RECRUIT_GOLD: "Soborno"
  SPY_RECRUIT_GOLD_VALID: "Pagar [recipient.GetShortUINameNoTooltip] [gold_i] [SCOPE.ScriptValue('bribe_value')|V0]"
  AGOT_RECRUIT_SPY_SKILL_MOD: "Tu habilidad [intrigue|E]: $VALUE|=+0$"
  AGOT_RECRUIT_SPY_CAP_MODIFIER: "Tienes más espías de los que puedes gestionar: $VALUE|=+0$"
+ AGOT_RECRUIT_SPY_KINGSGUARD_REASON: "[recipient.GetShortUINameNoTooltip] es una guardia real: $VALUE|=+0$" #NT!
  highest_held_title_tier_greater_than: "Eres un nivel de título más alto que ellos."
  DECEITFUL_REASON: "[recipient.GetShortUINameNoTooltip] es engañoso: $VALUE|+0=$"
  HONEST_REASON: "[recipient.GetShortUINameNoTooltip] es honesto: $VALUE|+0=$"
@@ -18,6 +20,8 @@
  CONTRITE_REASON: "[recipient.GetShortUINameNoTooltip] está arrepentido: $VALUE|+0=$"
  agot_spy_network.0200.interface.employer.t: "Espía revela secreto"
  agot_spy_network.0200.interface.employer.desc: "Uno de tus espías reveló un secreto en su corte que podría ser útil."
+ agot_spy_network.0201.interface.employer.t: "Espía revela información sobre el objetivo" #NT!
+ agot_spy_network.0201.interface.employer.desc: "Uno de sus espías reveló información personal y militar sobre el dueño de su corte." #NT!
  agot_spy_network.0200.interface.spymaster.t: "Espía revela secreto"
  agot_spy_network.0200.interface.spymaster.desc: "Uno de tus espías reveló un secreto en su corte que podría ser útil."
  agot_spy_network.0210.t: "Mi Lord,"
@@ -50,3 +54,9 @@
  agot_spy_network.0700.t: "Se contrató a un espía"
  agot_spy_network.0700.desc: "[recipient.GetTitledFirstName] se ha unido a las filas de su extensa red de espionaje."
  agot_spy_network.0700.a: "La influencia crece como una mala hierba..."
+ agot_spy_network.0800.t: "Se puede contratar un espía" #NT!
+ agot_spy_network.0800.desc: "Su maestro de espías encontró un nuevo espía potencial en la corte de [recipient.GetTitledFirstName]. Es posible que convenzan a [potential_new_spy.GetTitledFirstName] para que se una a su red de espionaje." #NT!
+ agot_spy_network.0800.a: "Debería comunicarme con [potential_new_spy.GetTitledFirstName] pronto..." #NT!
+  
+  #GUI 
+ your_spies: "Tus espías" #NT!

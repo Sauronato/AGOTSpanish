@@ -1,0 +1,502 @@
+﻿l_spanish:
+ MESSAGE_CLICK_TOOLTIP: "[SelectLocalization(FeedMessageItem.IsExpanded,'MESSAGE_CLICK_TO_HIDE','MESSAGE_CLICK_TO_SHOW')]\n$MESSAGE_CLICK_TO_DISMISS$" #NT!
+ MESSAGE_CLICK_TO_HIDE: "#I Haga clic para ocultar.#!" #NT!
+ MESSAGE_CLICK_TO_SHOW: "#I Haga clic para mostrar.#!" #NT!
+ MESSAGE_CLICK_TO_DISMISS: "#I Haga clic derecho para descartar.#!" #NT!
+ MESSAGES_IN_QUEUE: "[MessageFeedHandler.GetNumberOfQueuedMessages] mensajes más" #NT!
+ FEED_MESSAGE_GOTO_TOOLTIP: "#T Ir a [PlayerMessageItem.GetGotoProvince.GetName].#!" #NT!
+ MESSAGE_CLEAR_ALL_TOOLTIP: "#I Haga clic para descartar. \nHaga clic derecho para descartar todo.#!" #NT!
+  
+ msg_marriage: "Matrimonio: Su [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! y #high [RIGHT_CHARACTER.GetFirstNameNoTooltip]#!" #NT!
+ msg_marriage_desc: "Tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNotMe] casado [RIGHT_CHARACTER.GetUINameNotMe]" #NT!
+ msg_building_done: "#high [BUILDING.GetNameNoTooltip]#! construido en [PROVINCE.GetNameNoTooltip]" #NT!
+ msg_building_done_desc: "[BUILDING.GetName] construido en [PROVINCE.GetName]" #NT!
+ msg_new_heir: "Nuevo heredero" #NT!
+ msg_new_heir_desc: "Tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] es tu nuevo [player_heir|E]" #NT!
+ msg_new_heir_newborn: "Nuevo heredero" #NT!
+ msg_new_heir_newborn_desc: "Tu recién nacido [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] es tu nuevo [player_heir|E]" #NT!
+ msg_new_heir_old_heir_dead: "Nuevo heredero" #NT!
+ msg_new_heir_old_heir_dead_desc: "Con la muerte de [RIGHT_CHARACTER.GetUINameNoTooltip], tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] es ​​tu nuevo [player_heir|E]" #NT!
+ msg_no_new_heir: "Sin heredero" #NT!
+ msg_no_new_heir_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] ya no es tu [player_heir|E]" #NT!
+ msg_no_new_heir_old_heir_dead: "Sin heredero" #NT!
+ msg_no_new_heir_old_heir_dead_desc: "Con la muerte de [LEFT_CHARACTER.GetUINameNoTooltip], no tienes [player_heir|E]" #NT!
+ msg_inherited_single_title: "Herencia" #NT!
+ msg_inherited_single_title_desc: "Heredaste el [LEFT_TITLE.GetName] de [CHARACTER.GetUINameNoTooltip] ($LAW$)" #NT!
+ msg_inherited_titles: "Herencia" #NT!
+ msg_inherited_titles_desc: "Heredaste los otros títulos [LEFT_TITLE.GetName] y $VALUE$ de [CHARACTER.GetUINameNoTooltip] ($LAW$)" #NT!
+ msg_realm_law_changed: "La ley del reino cambió" #NT!
+ msg_realm_law_changed_desc: "Como [LEFT_CHARACTER.GetTitleTierName|V] las leyes de tu reino ahora son $SUCCESSION_LAWS|V$" #NT!
+ msg_lost_single_title: "Título perdido" #NT!
+ msg_lost_single_title_desc: "Perdiste el [LEFT_TITLE.GetName] por el [CHARACTER.GetUINameNoTooltip]" #NT!
+ msg_lost_titles: "Títulos perdidos" #NT!
+ msg_lost_titles_desc: "Perdiste los otros títulos [LEFT_TITLE.GetName] y $VALUE$ ante [CHARACTER.GetUINameNoTooltip]" #NT!
+ msg_siege_started: "[PROVINCE.GetName|U] bajo asedio" #NT!
+ msg_siege_started_desc: "¡[PROVINCE.GetName|U] está debajo de [siege|E] por [PROVINCE.GetSiege.GetSiegingRealmCharacter.GetUIName]!" #NT!
+ msg_siege_won: "Asedio ganado" #NT!
+ msg_siege_won_desc: "Ahora controlas [PROVINCE.GetName]" #NT!
+ msg_siege_loot: "Asedio ganado" #NT!
+ msg_siege_loot_desc: "Ahora controlas [PROVINCE.GetName]\nObtuviste [gold_i]$VALUE|V0$ por ocupar [PROVINCE.GetName]" #NT!
+ msg_scheme_abandoned: "Esquema abandonado" #NT!
+ msg_scheme_abandoned_desc: "$SCHEME_NAME|V$ en [CHARACTER.GetUINameNoTooltip] ha sido abandonado" #NT!
+ msg_agent_joined_my_scheme: "Esquema unido por agente: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_agent_joined_my_scheme_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] se unió como [agent|E] en tu [scheme|E] a [SCHEME.GetFullActionName]" #NT!
+ msg_multiple_agents_joined_my_scheme: "Agentes unidos al esquema" #NT!
+ msg_multiple_agents_joined_my_scheme_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y $OTHER|V$ otros [agents|E] unieron tu [scheme|E] a [SCHEME.GetFullActionName]" #NT!
+ msg_2_agents_joined_my_scheme: "Agentes unidos al esquema" #NT!
+ msg_2_agents_joined_my_scheme_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y [RIGHT_CHARACTER.GetUINameNoTooltip] unieron tu [scheme|E] a [SCHEME.GetFullActionName]" #NT!
+ msg_agent_removed_my_scheme: "Agente eliminado del esquema" #NT!
+ msg_agent_removed_my_scheme_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] ya no es un agente en su [scheme|E] a [SCHEME.GetFullActionName]" #NT!
+ msg_2_agents_removed_my_scheme: "Agentes eliminados del esquema" #NT!
+ msg_2_agents_removed_my_scheme_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y [RIGHT_CHARACTER.GetUINameNoTooltip] ya no son parte de tu [scheme|E] a [SCHEME.GetFullActionName]" #NT!
+ msg_multiple_agents_removed_my_scheme: "Agentes eliminados del esquema" #NT!
+ msg_multiple_agents_removed_my_scheme_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y $OTHER|V$ otros [agents|E] ya no forman parte de sus [scheme|E] a [SCHEME.GetFullActionName]" #NT!
+ msg_scheme_froze_title: "Tu plan ha sido congelado" #NT!
+ msg_scheme_froze_desc: "Tu [scheme|E] a [SCHEME.GetFullActionName] se ha congelado porque $REASON$" #NT!
+ msg_scheme_froze_until_desc: "Tu [scheme|E] a [SCHEME.GetFullActionName] se ha congelado hasta [DATE.GetString|V] porque $REASON$" #NT!
+ msg_council_task_finished_location: "Tarea terminada" #NT!
+ msg_council_task_finished_location_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] terminó la tarea $TASK_NAME|D$ en $TASK_LOCATION|D$" #NT!
+ msg_council_task_finished: "Tarea terminada" #NT!
+ msg_council_task_finished_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] terminó la tarea $TASK_NAME|D$" #NT!
+ msg_alliance: "Alianza formada: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_alliance_desc: "[alliance|E] formado con [LEFT_CHARACTER.GetUINameNoTooltip]" #NT!
+ msg_broken_alliance: "Alianza rota: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_broken_alliance_desc: "Se ha roto el [alliance|E] con [LEFT_CHARACTER.GetUINameNoTooltip]" #NT!
+ msg_expired_alliance: "Alianza caducada: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_expired_alliance_desc: "Mi [alliance|E] con [LEFT_CHARACTER.GetUINameNoTooltip] ha terminado ya que [SECONDARY_ACTOR.GetUIName] y [SECONDARY_RECIPIENT.GetUIName] ya no están casados ​​ni comprometidos" #NT!
+ msg_expired_alliance_ally_death_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] ha muerto" #NT!
+ msg_alliance_became_landed: "Alianza formada: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_alliance_became_landed_desc: "[alliance|E] se formó con [LEFT_CHARACTER.GetUINameNoTooltip] porque [LEFT_CHARACTER.GetSheHe] ahora es [ruler|E]" #NT!
+ msg_alliance_became_unlanded: "Alianza no válida: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_alliance_became_unlanded_desc: "Ya no tienes un [alliance|E] con [LEFT_CHARACTER.GetUINameNoTooltip] porque [LEFT_CHARACTER.GetSheHe] ya no es un [ruler|E]" #NT!
+ msg_i_am_not_powerful_vassal: "Vasallo poderoso" #NT!
+ msg_i_am_not_powerful_vassal_desc: "Ya no eres considerado un [powerful_vassal|E] de [LEFT_CHARACTER.GetUINameNoTooltip]" #NT!
+ msg_war_ally_joined: "El aliado se une a la guerra: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_war_ally_joined_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] se unió al [WAR.GetName|V]" #NT!
+ msg_war_ally_joined_multiple: "Los aliados se unen a la guerra" #NT!
+ msg_war_ally_joined_multiple_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y $VALUE|V$ otros [rulers|E] se unieron al [WAR.GetName|V]" #NT!
+ msg_war_enemy_joined: "El aliado enemigo se une a la guerra: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_war_enemy_joined_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] se unió a [WAR.GetName|V]" #NT!
+ msg_war_enemy_joined_multiple: "Los aliados enemigos se unen a la guerra" #NT!
+ msg_war_enemy_joined_multiple_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y $VALUE|V$ otros [rulers|E] se unieron al [WAR.GetName|V]" #NT!
+ msg_war_player_joined: "Te uniste a una guerra" #NT!
+ msg_war_player_joined_desc: "Te has unido al [WAR.GetName|V]" #NT!
+ msg_war_ally_replaced: "El aliado se une a la guerra: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_war_ally_replaced_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] reemplazó a [RIGHT_CHARACTER.GetUINameNoTooltip] en [WAR.GetName|V]" #NT!
+ msg_war_enemy_replaced: "El aliado enemigo se une a la guerra: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_war_enemy_replaced_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] reemplazó a [RIGHT_CHARACTER.GetUINameNoTooltip] en [WAR.GetName|V]" #NT!
+ msg_war_player_replaced: "Te uniste a una guerra" #NT!
+ msg_war_player_replaced_desc: "Reemplazaste [RIGHT_CHARACTER.GetUINameNoTooltip] en [WAR.GetName|V]" #NT!
+ msg_war_enemy_transferred: "Nuevo objetivo de guerra: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_war_enemy_transferred_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] es ahora el objetivo de [WAR.GetName|V]" #NT!
+ msg_war_player_transferred: "Nueva Guerra: [WAR.GetActiveCB.GetAttacker.GetUINameNoTooltip]" #NT!
+ msg_war_player_transferred_desc: "Eres el nuevo objetivo del [WAR.GetName|V]" #NT!
+ msg_war_ally_transferred: "$msg_war_enemy_transferred$" #NT!
+ msg_war_ally_transferred_desc: "$msg_war_enemy_transferred_desc$" #NT!
+ msg_war_ally_removed: "Guerra de izquierda aliada: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_war_ally_removed_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] salió del [WAR.GetName|V]" #NT!
+ msg_war_ally_removed_multiple: "Guerra de izquierda aliada: [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_war_ally_removed_multiple_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y $VALUE|V$ otros [rulers|E] abandonaron el [WAR.GetName|V]" #NT!
+ msg_war_enemy_removed: "Los enemigos abandonaron la guerra" #NT!
+ msg_war_enemy_removed_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] salió del [WAR.GetName|V]" #NT!
+ msg_war_enemy_removed_multiple: "Los enemigos abandonaron la guerra" #NT!
+ msg_war_enemy_removed_multiple_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y $VALUE|V$ otros [rulers|E] abandonaron el [WAR.GetName|V]" #NT!
+ msg_war_player_removed: "Dejaste la guerra" #NT!
+ msg_war_player_removed_desc: "Te fuiste [WAR.GetName|V]" #NT!
+ msg_invalidation_of_council_task: "Tarea cancelada" #NT!
+ msg_invalidation_of_council_task_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] ya no puede continuar con [ACTIVE_COUNCIL_TASK.GetName]" #NT!
+ msg_troops_disbanding_civil_war: "Deserción" #NT!
+ msg_troops_disbanding_civil_war_desc: "Los impuestos de $AMOUNT$ de [LEFT_CHARACTER.GetShortUINameNoTooltip] se disuelven debido a la guerra civil" #NT!
+ msg_war_declared_on_liege: "¡Guerra declarada a Lieja!" #NT!
+ msg_war_declared_on_liege_desc: "[LEFT_CHARACTER.GetShortUIName|U] está siendo atacado por [RIGHT_CHARACTER.GetShortUIName]" #NT!
+ msg_war_declared_by_liege: "¡Lieja va a la guerra!" #NT!
+ msg_war_declared_by_liege_desc: "[LEFT_CHARACTER.GetShortUIName|U] ha declarado la guerra a [RIGHT_CHARACTER.GetShortUIName]" #NT!
+ msg_war_declared_on_me: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_war_declared_on_me_desc: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_attacker_win: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_attacker_win_desc: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_defender_win: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_defender_win_desc: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_white_peace: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_white_peace_desc: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_invalid: "#D MENSAJE NO UTILIZADO#!" #NT!
+ msg_liege_war_ended_invalid_desc: "#D MENSAJE NO UTILIZADO#!" #NT!
+  
+ event_message_title: "$TITLE$" #NT!
+ event_message_text: "$DESCRIPTION$" #NT!
+ event_message_text_and_effect: "$DESCRIPTION_AND_EFFECT$" #NT!
+ event_message_effect_and_text: "$EFFECT$\n\n$DESCRIPTION$" #NT!
+ event_message_effect: "$EFFECT$" #NT!
+ blank_line: ""
+  
+ send_interface_message_tooltip: "#T De un evento#!" #NT!
+ msg_gain_trait: "Rasgo adquirido" #NT!
+ msg_gain_trait_desc: "Obtuviste el rasgo [TRAIT.GetName( CHARACTER.Self )|L]" #NT!
+ msg_lose_trait: "Rasgo perdido" #NT!
+ msg_lose_trait_desc: "Perdiste el rasgo [TRAIT.GetName( CHARACTER.Self )|L]" #NT!
+ msg_gain_nickname: "Nuevo apodo" #NT!
+ msg_gain_nickname_desc: "Ahora eres conocido como [CHARACTER.GetNickname|V]" #NT!
+ msg_lost_nickname: "Apodo perdido" #NT!
+ msg_lost_nickname_desc: "Ya no eres conocido como [CHARACTER.GetNickname|V]" #NT!
+ msg_title_rank_up: "Rango obtenido" #NT!
+ msg_title_rank_up_desc: "Ahora eres un poderoso [CHARACTER.GetTitleTierName|V]" #NT!
+ msg_title_rank_down: "Rango perdido" #NT!
+ msg_title_rank_down_desc: "Ahora eres un simple [CHARACTER.GetTitleTierName|V]" #NT!
+ msg_change_primary: "Título principal cambiado" #NT!
+ msg_change_primary_desc: "Tu [primary_title|E] ahora es [TITLE.GetNameNoTier]" #NT!
+ msg_disbanded_faction_target_died: "Facción disuelta" #NT!
+ msg_disbanded_faction_target_died_desc: "[FACTION.GetName] objetivo [CHARACTER.GetUINameNoTooltip] murió, por lo tanto la facción se ha disuelto" #NT!
+ msg_removed_from_faction_not_valid: "Facción abandonada" #NT!
+ msg_removed_from_faction_not_valid_desc: "Tenías que dejar el [FACTION.GetName] frente al [CHARACTER.GetUINameNoTooltip].\n$REASONS$" #NT!
+ msg_removed_from_faction_not_valid_leader: "Facción disuelta" #NT!
+ msg_removed_from_faction_not_valid_leader_desc: "[FACTION.GetName] contra [CHARACTER.GetUINameNoTooltip] no tiene un líder válido, por lo tanto la facción ha sido disuelta" #NT!
+ msg_removed_from_faction_not_liege: "Facción de izquierda" #NT!
+ msg_removed_from_faction_not_liege_desc: "[CHARACTER.GetUINameNoTooltip] ya no es tu señor así que has dejado el [FACTION.GetName] contra el [CHARACTER.GetHerHim]" #NT!
+ msg_faction_against_liege_or_me_created: "¡Facción creada contra [RIGHT_CHARACTER.GetShortUINameNoTooltip]!" #NT!
+ msg_faction_against_liege_or_me_created_desc: "Tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUINameNoTooltip] creó el [FACTION.GetName] contra [RIGHT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_county_faction_against_liege_or_me_created_desc: "El [LEFT_TITLE.GetNameNoTooltip] ha dado lugar al [FACTION.GetName], apuntando al [RIGHT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_faction_against_me_disbanded: "¡Una facción que te ataca se ha disuelto!" #NT!
+ msg_faction_against_me_disbanded_desc: "El siguiente [faction|E] que apuntaba a usted se ha disuelto: [FACTION.GetName]" #NT!
+ msg_my_faction_disbanded: "Facción disuelta" #NT!
+ msg_my_faction_disbanded_desc: "[FACTION.GetName] ha sido disuelto" #NT!
+ msg_liege_passed_law: "Nueva ley" #NT!
+ msg_liege_passed_law_desc: "Su Señor ha aprobado la ley [LAW.GetName]" #NT!
+ msg_liege_passed_title_law: "Nueva Ley de Títulos" #NT!
+ msg_liege_passed_title_law_desc: "Su Señoría ha aprobado la ley [LAW.GetName] el [TITLE.GetName]" #NT!
+ msg_liege_removed_title_law: "Ley de títulos eliminada" #NT!
+ msg_liege_removed_title_law_desc: "Su Señor ha eliminado la ley [LAW.GetName] de [TITLE.GetName]" #NT!
+ msg_law_invalidated_no_new_law: "Ley eliminada" #NT!
+ msg_law_invalidated_no_new_law_desc: "[LAW.GetName] ya no es válido y se ha eliminado." #NT!
+ msg_law_invalidated: "Ley reemplazada" #NT!
+ msg_law_invalidated_desc: "[LAW.GetName] ya no es válido y fue reemplazado por [TARGET_LAW.GetName]" #NT!
+ msg_faction_local_not_leader_anymore: "Nuevo líder de facción" #NT!
+ msg_faction_local_not_leader_anymore_desc: "[LEFT_CHARACTER.GetShortUINameNoTooltip] te ha reemplazado como líder de [FACTION.GetName]" #NT!
+ msg_faction_local_becomes_leader: "Nuevo líder de facción" #NT!
+ msg_faction_local_becomes_leader_desc: "Ahora eres el líder del [FACTION.GetName] contra [CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_faction_forced_to_join: "Obligado a unirse a la facción" #NT!
+ msg_faction_forced_to_join_desc: "[RIGHT_CHARACTER.GetShortUINameNoTooltip] usó [RIGHT_CHARACTER.GetHerHis] [hook|E] contigo para obligarte a unirte al [FACTION.GetName] contra [LEFT_CHARACTER.GetShortUINameNoTooltip]" #NT!
+ msg_betrothal_invalidated: "Compromiso inválido" #NT!
+ msg_betrothal_invalidated_desc: "Tu nuevo [faith|E] dicta que ya no puedes estar comprometido con [LEFT_CHARACTER.GetShortUIName]" #NT!
+ msg_betrothal_invalidated_player_heir: "[player_heir|E] $msg_betrothal_invalidated$" #NT!
+ msg_betrothal_invalidated_player_heir_desc: "[LEFT_CHARACTER.GetShortUINamePossessive] nuevo [faith|E] dicta que [LEFT_CHARACTER.GetSheHe] ya no puede estar comprometido con [RIGHT_CHARACTER.GetShortUIName]" #NT!
+ msg_break_betrothal: "Compromiso roto" #NT!
+ msg_break_betrothal_desc: "Tu [betrothal|E] a [LEFT_CHARACTER.GetShortUIName] se ha roto." #NT!
+ msg_break_betrothal_player_heir: "[player_heir|E] $msg_break_betrothal$" #NT!
+ msg_break_betrothal_player_heir_desc: "[LEFT_CHARACTER.GetShortUINamePossessive] [betrothal|E] a [RIGHT_CHARACTER.GetShortUIName] se ha roto." #NT!
+ msg_spouse_invalidated: "Cónyuge inválido" #NT!
+ msg_spouse_invalidated_desc: "Los valores de [faith|E] o [culture|E] significan que [LEFT_CHARACTER.GetShortUIName] ya no es tu [spouse|E]" #NT!
+ msg_divorce: "Divorcio" #NT!
+ msg_divorce_desc: "Has obtenido [divorced|E] de [LEFT_CHARACTER.GetShortUIName] – [LEFT_CHARACTER.GetSheHe] ya no es tu [spouse|E]" #NT!
+ msg_spouse_invalidated_player_heir: "[player_heir|E] $msg_spouse_invalidated$" #NT!
+ msg_spouse_invalidated_player_heir_desc: "[LEFT_CHARACTER.GetShortUINamePossessive] nuevas creencias de [faith|E] significan que [RIGHT_CHARACTER.GetShortUIName] ya no es [LEFT_CHARACTER.GetHerHis] [spouse|E]" #NT!
+ msg_divorce_player_heir: "[player_heir|E] $msg_divorce$" #NT!
+ msg_divorce_player_heir_desc: "[LEFT_CHARACTER.GetShortUIName] ha obtenido [divorced|E] de [RIGHT_CHARACTER.GetShortUIName] – [RIGHT_CHARACTER.GetSheHe] ya no es [LEFT_CHARACTER.GetHerHis] [spouse|E]" #NT!
+ msg_betrothal_fulfilled: "Compromiso cumplido" #NT!
+ msg_betrothal_fulfilled_desc: "[LEFT_CHARACTER.GetShortUIName|U] y [RIGHT_CHARACTER.GetShortUIName] ahora están casados" #NT!
+ msg_marriage_forced: "Matrimonio por anzuelo fuerte" #NT!
+ msg_marriage_forced_desc: "[LEFT_CHARACTER.GetShortUIName|U] y [RIGHT_CHARACTER.GetShortUIName] se casan debido a un [strong_hook|E]" #NT!
+ msg_consort_invalidated: "Consorte inválido" #NT!
+ msg_consort_invalidated_desc: "Los valores de tu [faith|E] o [culture|E] significan que [LEFT_CHARACTER.GetShortUIName] ya no es tu consorte" #NT!
+ msg_war_casus_belli_changed: "Casus Belli cambió" #NT!
+ msg_war_casus_belli_changed_desc: "[WAR.GetName] está usando un nuevo [casus_belli|E]" #NT!
+ msg_cadet_branch_created: "Rama Cadete" #NT!
+ msg_cadet_branch_created_desc: "Tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUIName] creó el [cadet_branch|E] $NAME|V$" #NT!
+ msg_i_became_head_of_house: "Jefe de la casa cambiado" #NT!
+ msg_i_became_head_of_house_desc: "Te convertiste en el nuevo [house_head|E] de la Casa $NAME|V$" #NT!
+ msg_i_not_head_of_house_anymore: "El jefe de la casa cambió" #NT!
+ msg_i_not_head_of_house_anymore_desc: "[LEFT_CHARACTER.GetShortUIName|U] te reemplazó como el [house_head|E] de la dinastía $NAME|V$" #NT!
+ msg_became_head_of_house: "Jefe de la casa cambiado" #NT!
+ msg_became_head_of_house_desc: "Tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetShortUIName] se convirtió en el nuevo [house_head|E] de la Casa $NAME|V$" #NT!
+ msg_i_became_dynast: "Cabeza de dinastía cambiada" #NT!
+ msg_i_became_dynast_desc: "Te convertiste en el nuevo [dynast|E] de la dinastía $NAME|V$" #NT!
+ msg_i_not_dynast_anymore: "Cabeza de dinastía cambiada" #NT!
+ msg_i_not_dynast_anymore_desc: "[LEFT_CHARACTER.GetShortUIName|U] te reemplazó como [dynast|E] de la dinastía $NAME|V$" #NT!
+ msg_became_dynast: "Cabeza de dinastía cambiada" #NT!
+ msg_became_dynast_desc: "[LEFT_CHARACTER.GetShortUIName|U] se convirtió en el nuevo [dynast|E] de la dinastía $NAME|V$" #NT!
+ msg_i_became_head_of_faith: "Cabeza de fe cambiada" #NT!
+ msg_i_became_head_of_faith_desc: "Te convertiste en el nuevo [FAITH.ReligiousHeadName] de [FAITH.GetName]" #NT!
+ msg_i_became_head_of_multiple_faiths: "$msg_i_became_head_of_faith$" #NT!
+ msg_i_became_head_of_multiple_faiths_desc: "$msg_i_became_head_of_faith_desc$ y $NUM_OTHER_FAITHS|V$ otras religiones" #NT!
+ msg_i_not_head_of_faith_anymore: "Cabeza de fe cambiada" #NT!
+ msg_i_not_head_of_faith_anymore_desc: "[LEFT_CHARACTER.GetShortUIName|U] te reemplazó como [FAITH.ReligiousHeadName] de [FAITH.GetName]" #NT!
+ msg_i_not_head_of_multiple_faiths_anymore: "$msg_i_not_head_of_faith_anymore$" #NT!
+ msg_i_not_head_of_multiple_faiths_anymore_desc: "$msg_i_not_head_of_faith_anymore_desc$ y $NUM_OTHER_FAITHS|V$ otras religiones" #NT!
+ msg_new_fascination_selected: "Nuevo [cultural_fascination|E]" #NT!
+ msg_new_fascination_selected_desc: "Tu [culture|E] ahora es [Concept( 'fascination', 'Fascinated' )|E] por $NAME|V$ [innovation|E]" #NT!
+ msg_innovation_discovered: "Innovación descubierta" #NT!
+ msg_innovation_discovered_desc: "¡Tu [culture|E] ha descubierto $NAME|V$!" #NT!
+ msg_fascination_discovered: "Fascinación Descubierta" #NT!
+ msg_fascination_discovered_desc: "¡Tu [culture|E] ha descubierto el [fascination|E] $NAME|V$!\nSe puede seleccionar una nueva fascinación." #NT!
+ msg_era_discovered: "Nueva Era Cultural" #NT!
+ msg_era_discovered_desc: "Tu cultura se ha unido a la era $NAME|N$.\n¡Hay nuevas innovaciones disponibles!" #NT!
+ msg_first_era_discovered: "Nueva Era Cultural" #NT!
+ msg_first_era_discovered_desc: "[CULTURE.GetName] ha iniciado la era $NAME|V$" #NT!
+ msg_no_longer_culture_head: "Nuevo [culture_head|E]" #NT!
+ msg_no_longer_culture_head_desc: "[LEFT_CHARACTER.GetShortUIName|U] tomó tu lugar como [culture_head|E]" #NT!
+ msg_become_culture_head: "Nuevo [culture_head|E]" #NT!
+ msg_become_culture_head_desc: "¡Te convertiste en el [culture_head|E] de la cultura [CULTURE.GetName]!" #NT!
+ msg_new_theocracy_lesse: "Nuevo [LEFT_CHARACTER.GetCouncilTitle]" #NT!
+  #AGOT Modified 
+ #msg_new_theocracy_lesee_approve_desc: "[LEFT_CHARACTER.GetShortUIName|U] te respalda #weak ([church_property|E])#!" #NT!
+ #msg_new_theocracy_lesee_disapprove_desc: "[LEFT_CHARACTER.GetShortUIName|U] no te respalda #weak ([church_property|E])#!" #NT!
+ msg_new_theocracy_lesee_approve_desc: "[LEFT_CHARACTER.GetFirstNameNicknamedNoTooltip] te respalda #weak ([church_property|E])#!" #NT!
+ msg_new_theocracy_lesee_disapprove_desc: "[LEFT_CHARACTER.GetFirstNameNicknamedNoTooltip] no te respalda #weak ([church_property|E])#!" #NT!
+ msg_mercenary_company_dismissed: "Compañía Mercenaria despedida" #NT!
+ msg_mercenary_company_dismissed_desc: "El contrato de [LEFT_TITLE.GetNameNoTooltip] ha expirado y los soldados han sido despedidos." #NT!
+ msg_holy_order_dismissed: "Sagrada Orden despedida" #NT!
+ msg_holy_order_dismissed_desc: "[LEFT_TITLE.GetNameNoTooltip] ha sido descartado" #NT!
+ msg_fired_from_council: "Despedido del consejo" #NT!
+ msg_fired_from_council_desc: "[LEFT_CHARACTER.GetShortUIName|U] te ha despedido del [council|E]" #NT!
+ msg_council_swap_position: "Nueva posición del Consejo" #NT!
+ msg_council_swap_position_desc: "Ahora eres un $POSITION_NAME$ en [LEFT_CHARACTER.GetShortUINamePossessive] [council|E]" #NT!
+ msg_left_council_position: "Concejal Izquierda" #NT!
+ msg_left_council_position_desc: "[LEFT_CHARACTER.GetShortUIName|U] dejó la posición [LEFT_CHARACTER.GetHerHis] como $POSITION_NAME$" #NT!
+ msg_peace_armies_disbanded: "En paz" #NT!
+ msg_peace_armies_disbanded_desc: "Finalmente estás en paz, por lo tanto todos tus ejércitos se han disuelto." #NT!
+ msg_invalidate_war_title: "El [war.GetName] ha finalizado: ya no era válido continuar." #NT!
+ msg_claim_war_invalidated_message: "El [war.GetName] ha finalizado: [defender.GetShortUIName] ya no [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] ninguno de los condados reclamados." #NT!
+ msg_claim_war_invalidated_claimant_unavailable_dead_message: "El [war.GetName] ha finalizado: [claimant.GetShortUIName] murió y, por lo tanto, [attacker.GetShortUIName] ya no puede utilizar el reclamo de [claimant.GetHerHis]." #NT!
+ msg_claim_war_invalidated_claimant_unavailable_not_vassal_message: "El [war.GetName] ha terminado: [claimant.GetShortUIName] no es vasallo o cortesano de [attacker.GetShortUIName] y por lo tanto la reclamación de [claimant.GetHerHis] ya no se puede utilizar." #NT!
+ msg_de_jure_duchy_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetShortUIName] ya no tiene [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] ninguna tierra en el ducado objetivo." #NT!
+ msg_de_jure_county_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetShortUIName] ya no [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] el Condado." #NT!
+ msg_de_jure_duchy_war_invalidated_liege_war_message: "El [war.GetName] ha terminado: [Select_CString( attacker.IsLocalPlayer, 'You', attacker.GetShortUIName )] se ha unido a la guerra de [Select_CString( attacker.IsLocalPlayer, 'your', attacker.GetHerHis )] contra [Select_CString( defender.IsLocalPlayer, 'you', defender.GetShortUIName )]." #NT!
+ msg_de_jure_all_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetShortUIName] ya no [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] ninguna tierra reclamada de jure." #NT!
+ msg_religious_war_invalidation_region_message: "El [war.GetName] ha finalizado: [defender.GetShortUIName] ya no tiene [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] ningún terreno en la región objetivo." #NT!
+ msg_religious_war_invalidated_hostility_level_message: "El [war.GetName] ha finalizado: [attacker.GetShortUIName] no puede $game_concept_holy_war$ el [defender.GetFaith.GetAdjective] [faith|E]." #NT!
+ msg_invasion_war_invalidated_message: "El [war.GetName] ha finalizado: [defender.GetShortUIName] ya no tiene [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] ningún terreno en la región objetivo." #NT!
+ msg_mongol_invasion_war_invalidated_message: "El [war.GetName] ha finalizado: [defender.GetShortUIName] ya no tiene [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] ningún terreno en la región objetivo." #NT!
+ msg_county_conquest_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetShortUIName] ya no [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] el Condado." #NT!
+ msg_duchy_conquest_war_invalidated_message: "El [war.GetName] ha finalizado: [defender.GetShortUIName] ya no tiene [Select_CString( defender.IsLocalPlayer, 'control', 'controls' )] ningún terreno en la región objetivo." #NT!
+ msg_vassalization_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetShortUIName] ya no puede ser vasallo." #NT!
+ msg_subjugation_war_invalidated_message: "El [war.GetName] ha terminado: el [defender.GetShortUIName] ya no puede ser sometido." #NT!
+ msg_excommunication_war_invalidation_trait_message: "El [war.GetName] ha terminado: [defender.GetShortUIName] ya no está excomulgado." #NT!
+ msg_raid_war_invalidated_message: "El [war.GetName] ha finalizado: [defender.GetTitledFirstName] ya no puede ser atacado" #NT!
+ msg_free_house_member_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetTitledFirstName] ya no tiene ningún miembro encarcelado de [house|E] [attacker.GetHouse.GetBaseNameNoTooltip]" #NT!
+ msg_unify_house_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetTitledFirstName] ya no tiene vasallos de [house|E] [attacker.GetHouse.GetBaseNameNoTooltip]" #NT!
+  
+ msg_my_hook_replaced: "Gancho reemplazado" #NT!
+ msg_my_hook_replaced_desc: "Su [hook|E] en [LEFT_CHARACTER.GetShortUIName] ha sido reemplazado por un gancho [HOOK.GetName]" #NT!
+ msg_my_hook_added: "Gancho ganado" #NT!
+ msg_my_hook_added_desc: "Has ganado un [HOOK.GetName] [hook|E] en [LEFT_CHARACTER.GetShortUIName]" #NT!
+ msg_hook_on_me_replaced: "Gancho en usted reemplazado" #NT!
+ msg_hook_on_me_replaced_desc: "[LEFT_CHARACTER.GetShortUINamePossessive] [hook|E] en ti ha sido reemplazado con un gancho [HOOK.GetName]" #NT!
+ msg_hook_on_me_added: "Gancho que ganaste" #NT!
+ msg_hook_on_me_added_replaced: "Gancho que ganaste" #NT!
+ msg_hook_on_me_added_desc: "[LEFT_CHARACTER.GetShortUIName|U] ha ganado un [HOOK.GetName] [hook|E] sobre ti" #NT!
+ msg_hook_on_me_expired: "Gancho en ti caducado" #NT!
+ msg_hook_on_me_expired_desc: "[LEFT_CHARACTER.GetShortUINamePossessive] $HOOK_NAME$ [hook|E] en ti ha caducado" #NT!
+ msg_my_hook_expired: "Gancho caducado" #NT!
+ msg_my_hook_expired_desc: "Tu [hook|E] en [LEFT_CHARACTER.GetShortUIName] ha caducado" #NT!
+  
+ death_notification_title: "Su [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )|U] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! murió" #NT!
+ lover_death_notification_title: "Tu amante #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! murió" #NT!
+ friend_death_notification_title: "Tu amigo #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! murió" #NT!
+  #AGOT Modified 
+ #councillor_death_notification_title: "Su Concejal #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Murió" #NT!
+ councillor_death_notification_title: "Su concejal murió" #NT!
+  
+ msg_perk_point_added: "[LIFESTYLE.GetName] beneficio disponible" #NT!
+ msg_perk_point_added_desc: "Puedes desbloquear una nueva ventaja para el estilo de vida [LIFESTYLE.GetName]" #NT!
+ msg_focus_invalidated: "Enfoque en el estilo de vida invalidado" #NT!
+ msg_focus_invalidated_desc: "El [FOCUS.GetName] ha sido invalidado" #NT!
+ msg_dynasty_perk_added: "[DYNASTY_PERK.GetName] Desbloqueado" #NT!
+ msg_dynasty_perk_added_desc: "Tu [dynasty|E] ha desbloqueado [DYNASTY_PERK.GetName]" #NT!
+ msg_dynasty_perk_removed: "[DYNASTY_PERK.GetName] Perdido" #NT!
+ msg_dynasty_perk_removed_desc: "Tu [dynasty|E] ha perdido [DYNASTY_PERK.GetName]" #NT!
+ msg_vassal_feudalised: "Vasallo se ha vuelto feudal" #NT!
+ msg_vassal_feudalised_desc: "Tu vasallo, [ROOT.Char.GetShortUIName], ha abandonado las costumbres tribales [ROOT.Char.GetHerHis] y se ha vuelto feudal." #NT!
+ msg_dynasty_prestige_level_increase: "[dynasty_prestige_level|E] Incrementado" #NT!
+ msg_dynasty_prestige_level_increase_desc: "La dinastía [LEFT_CHARACTER.GetDynasty.GetBaseName] es conocida en todas partes." #NT!
+ msg_dynasty_prestige_level_dencrease: "Perdido [dynasty_prestige_level|E]" #NT!
+ msg_dynasty_prestige_level_dencrease_desc: "La dinastía [LEFT_CHARACTER.GetDynasty.GetBaseName] ha caído en descrédito" #NT!
+ piety_level_gain.message: "Ganado [piety_level|E]" #NT!
+ piety_level_gain.desc: "Eres conocido por la dedicación a tu fe." #NT!
+ piety_level_loss.message: "Perdido [piety_level|E]" #NT!
+ piety_level_loss.desc: "Tus actos pecaminosos tienen un costo" #NT!
+ prestige_level_gain.message: "Ganado [prestige_level|E]" #NT!
+ prestige_level_gain.desc: "Tu gloria es ampliamente conocida" #NT!
+ prestige_level_loss.message: "Perdido [prestige_level|E]" #NT!
+ prestige_level_loss.desc: "Tu deshonra tiene un costo" #NT!
+ stress_level_reduced.message: "Reducido [stress_level|E]" #NT!
+ stress_level_reduced.text: "Ya no estás tan abrumado por [stress|E]" #NT!
+ msg_holy_order_patronage_lost: "[holy_order|E] Patrocinio perdido" #NT!
+ msg_holy_order_patronage_lost_desc: "Has perdido el patrocinio del [LEFT_TITLE.GetName] [holy_order|E]" #NT!
+ msg_holy_order_patronage_gained: "[holy_order|E] Patrocinio obtenido" #NT!
+ msg_holy_order_patronage_gained_desc: "Te has ganado el patrocinio de [LEFT_TITLE.GetName] [holy_order|E]" #NT!
+ msg_murder_scheme_agent_join_title: "El agente se unió al plan de asesinato" #NT!
+ msg_murder_scheme_agent_join_message: "[agent.GetTitledFirstName] se unió a tu plan para matar a [target.GetTitledFirstName]." #NT!
+ msg_murder_scheme_agent_leave_title: "El agente abandonó el plan de asesinato" #NT!
+ msg_murder_scheme_agent_leave_message: "[agent.GetTitledFirstName] abandonó tu plan para matar a [target.GetTitledFirstName]." #NT!
+  
+ mongols_sieged_county.t: "[county.GetName] Arrasado por la Horda Mongol" #NT!
+  
+ msg_vassal_contract_level_invalidated: "[obligation|E] Invalidado" #NT!
+ msg_vassal_contract_level_invalidated_desc: "La obligación [RIGHT_CHARACTER.GetUINamePossessiveNoTooltip] $OBLIGATION_TYPE_0|V$ ha sido invalidada" #NT!
+ msg_vassal_contract_2_levels_invalidated: "[obligations|E] Invalidado" #NT!
+ msg_vassal_contract_2_levels_invalidated_desc: "[RIGHT_CHARACTER.GetUINamePossessiveNoTooltip] $OBLIGATION_TYPE_0|V$ y $OBLIGATION_TYPE_1|V$ Las obligaciones han sido invalidadas" #NT!
+ msg_vassal_contract_multiple_levels_invalidated: "[obligations|E] Invalidado" #NT!
+ msg_vassal_contract_multiple_levels_invalidated_desc: "[RIGHT_CHARACTER.GetUINamePossessiveNoTooltip] $OBLIGATION_TYPE_0|V$ y $OBLIGATION_TYPE_1|V$ y $COUNT|V$ otras obligaciones han sido invalidadas" #NT!
+  
+ msg_force_vote_in_succession_election_message: "Obligas a [recipient.GetTitledFirstName] a votar por el mismo candidato que tú durante los próximos [GetDefine('NCharacter', 'FORCED_SUCCESSION_ELECTION_YEARS')] años." #NT!
+ msg_recruited_guest_to_court_interaction_title: "Invitado reclutado para su corte" #NT!
+ msg_recruited_guest_to_court_interaction_message: "[recipient.GetTitledFirstName] ahora es miembro de tu [court|E]." #NT!
+ msg_kicked_courtier_from_court_interaction_title: "Cortesano despedido" #NT!
+ msg_courtier_left_court_interaction_title: "Cortesano izquierda" #NT!
+ msg_hired_court_physician_interaction_title: "Se contrató a un médico judicial" #NT!
+ msg_hired_court_physician_interaction_message: "[recipient.GetTitledFirstName] ahora es tu [GetCourtPositionType('court_physician_court_position').GetName()]." #NT!
+ msg_fired_court_physician_interaction_title: "Médico del tribunal despedido" #NT!
+ msg_fired_court_physician_interaction_message: "Despediste a [recipient.GetTitledFirstName] desde la posición de [GetCourtPositionType('court_physician_court_position').GetName()]." #NT!
+  
+ msg_concubine_taken_title: "Tomado una concubina" #NT!
+ msg_concubine_accepted_title: "Acepté a [secondary_actor.GetShortUIName] como mi concubina." #NT!
+ msg_concubine_dismissed_title: "Concubina despedida" #NT!
+ msg_concubine_offered_title: "Hecho [secondary_actor.GetTitledFirstName] [recipient.GetTitledFirstNamePossessive] concubina" #NT!
+ msg_concubine_offered_invalidated_title: "No pude ofrecer concubina" #NT!
+ msg_concubine_offered_invalidated_recipient_title: "No pude aceptar una concubina" #NT!
+ msg_concubine_offered_invalidated_consort: "[secondary_actor.GetTitledFirstName] es consorte de [spouse.GetShortUINamePossessive] y por lo tanto no puede convertirse en concubina de [recipient.GetShortUINamePossessive]" #NT!
+ msg_concubine_offered_invalidated_betrothed: "[secondary_actor.GetTitledFirstName] está comprometida con [spouse.GetShortUIName] y por lo tanto no puede convertirse en concubina de [recipient.GetShortUINamePossessive]" #NT!
+ msg_concubine_offer_rejected_title: "Concubina rechazada" #NT!
+ msg_concubine_offer_rejected: "[recipient.GetTitledFirstName] rechazó a [secondary_actor.GetTitledFirstName] como concubina [recipient.GetHerHis]" #NT!
+ msg_close_family_member_taken_as_concubine_title: "[recipient.GetTitledFirstName] Tomada como concubina" #NT!
+ msg_close_family_member_offered_as_concubine_title: "[secondary_actor.GetTitledFirstName] Tomada como concubina" #NT!
+  
+ msg_move_prisoner_to_dungeon: "Prisionero trasladado a la mazmorra." #NT!
+ msg_move_prisoner_to_house_arrest: "Prisionero trasladado a arresto domiciliario" #NT!
+ msg_execute_prisoner: "Prisionero ejecutado" #NT!
+ msg_execute_prisoner_desc: "[recipient.GetTitledFirstName] [recipient.GetDeathReason]" #NT!
+  
+ msg_artifact_gained_title: "Herencia: [artifact_inherited.GetNameNoTooltip]" #NT!
+ msg_artifact_gained_desc: "¡Heredaste [artifact_inherited.GetNameNoTooltip] de [old_owner.GetUIName]!" #NT!
+  
+ msg_rival_dethroned: "Tu rival [actor.GetTitledFirstName] perdió un Título" #NT!
+ msg_rival_dethroned_desc: "Tu [rival|E] [actor.GetTitledFirstName] perdió el [title.GetBaseName]" #NT!
+  
+ msg_court_position_gained: "Nombrado [COURT_POSITION_TYPE.GetNameNoTooltip]" #NT!
+ msg_court_position_gained_desc: "Has sido designado [LEFT_CHARACTER.GetShortUINamePossessive] [COURT_POSITION_TYPE.GetNameNoTooltip]" #NT!
+ msg_court_position_removed: "[COURT_POSITION_TYPE.GetNameNoTooltip] Cargo revocado" #NT!
+ msg_court_position_removed_desc: "[LEFT_CHARACTER.GetShortUIName] ya no te emplea como [COURT_POSITION_TYPE.GetNameNoTooltip]" #NT!
+ msg_court_position_invalidated_employee: "[COURT_POSITION_TYPE.GetNameNoTooltip] Posición perdida" #NT!
+ msg_court_position_invalidated_employee_desc: "[LEFT_CHARACTER.GetShortUIName] ya no puede contratarte como [COURT_POSITION_TYPE.GetNameNoTooltip]" #NT!
+ msg_court_position_invalidated_employer: "[COURT_POSITION_TYPE.GetNameNoTooltip] Puesto vacante" #NT!
+ msg_court_position_invalidated_employer_desc: "[LEFT_CHARACTER.GetShortUIName] ya no es tu [COURT_POSITION_TYPE.GetNameNoTooltip]" #NT!
+  
+ msg_becomes_obese: "Se volvió obeso" #NT!
+ msg_becomes_obese_desc: "Te has convertido en [GetModifier( 'obese_modifier' ).GetNameWithTooltip]" #NT!
+ msg_becomes_malnourished: "Se desnutrió" #NT!
+ msg_becomes_malnourished_desc: "Te has convertido en [GetModifier( 'malnourished_modifier' ).GetNameWithTooltip]" #NT!
+ msg_stops_being_obese: "Ya no soy obeso" #NT!
+ msg_stops_being_obese_desc: "Ya no eres [GetModifier( 'obese_modifier' ).GetNameWithTooltip]" #NT!
+ msg_stops_being_malnourished: "Ya no estamos desnutridos" #NT!
+ msg_stops_being_malnourished_desc: "Ya no eres [GetModifier( 'malnourished_modifier' ).GetNameWithTooltip]" #NT!
+  
+ msg_event_timeout: "Tiempo de espera agotado para el evento: $EVENT_NAME$" #NT!
+ msg_event_timeout_desc: "$EVENT_TIMEOUT_EFFECTS$" #NT!
+ msg_event_timeout_tt: "$EVENT_TIMEOUT_EFFECTS$" #NT!
+ msg_letter_event_timeout: "Se agotó el tiempo de espera del evento de [CHARACTER.GetShortUIName]" #NT!
+ msg_letter_event_timeout_desc: "$EVENT_TIMEOUT_EFFECTS$" #NT!
+ msg_letter_event_timeout_tt: "$EVENT_TIMEOUT_EFFECTS$" #NT!
+ msg_court_amenity_setting_invalidated: "Configuración de servicios de la corte invalidada" #NT!
+ msg_court_amenity_setting_invalidated_desc: "La configuración de Servicios del tribunal $INVALID_SETTING$ se invalidó y se reemplazó con $DEFAULT_SETTING$." #NT!
+  
+ msg_catalyst_triggered: "$STRUGGLE_NAME$: $game_concept_struggle_catalyst_catalyst$ Activado" #NT!
+ msg_catalyst_triggered_desc: "Un [struggle_catalyst|E] ha sido activado por [CHARACTER.GetTitledFirstName]: $CATALYST_INFO$\n\nProgreso hacia $STRUGGLE_PHASE$ [struggle_phase_phase|E]: $CATALYST_VALUE|+=$" #NT!
+ msg_catalyst_triggered_tt: "$msg_catalyst_triggered_desc$" #NT!
+ msg_catalyst_triggered_no_character: "$msg_catalyst_triggered$" #NT!
+ msg_catalyst_triggered_no_character_desc: "Se ha activado un [struggle_catalyst|E]: $CATALYST_INFO$\n\nProgreso hacia $STRUGGLE_PHASE$ [struggle_phase_phase|E]: $CATALYST_VALUE|+=$" #NT!
+ msg_catalyst_triggered_no_character_tt: "$msg_catalyst_triggered_no_character_desc$" #NT!
+ msg_player_character_changed: "$PLAYER_CHANGED_CHARACTER_TITLE_SWITCH$" #NT!
+ msg_player_character_changed_desc: "$PLAYER_CHANGED_CHARACTER_TEXT_SWITCH$" #NT!
+ msg_player_character_changed_tt: "$msg_player_character_changed_desc$" #NT!
+ msg_player_new_character: "$PLAYER_CHANGED_CHARACTER_TITLE_JOIN$" #NT!
+ msg_player_new_character_desc: "$PLAYER_CHANGED_CHARACTER_TEXT_JOIN$" #NT!
+ msg_player_new_character_tt: "$msg_player_new_character_desc$" #NT!
+ msg_player_new_observer: "$PLAYER_CHANGED_CHARACTER_TITLE_OBSERVER$" #NT!
+ msg_player_new_observer_desc: "$PLAYER_CHANGED_CHARACTER_TEXT_OBSERVER$" #NT!
+ msg_player_new_observer_tt: "$msg_player_new_observer_desc$" #NT!
+  
+ msg_struggle_phase_end: "$STRUGGLE_PHASE$ La fase está en transición" #NT!
+ msg_struggle_phase_end_desc: "@$STRUGGLE_PHASE_ICON$! ¡$STRUGGLE_PHASE$ está en transición a @$STRUGGLE_PHASE_ICON_NEXT$! $STRUGGLE_PHASE_NEXT$.\n\n $STRUGGLE_PHASE_NEXT$ comenzará en $DAYS_UNTIL_TRANSITION$ días." #NT!
+ msg_struggle_phase_end_tt: "$msg_struggle_phase_transitioned_tt$" #NT!
+ msg_struggle_phase_transitioned: "Fase de transición" #NT!
+ msg_struggle_phase_transitioned_desc: "¡El $STRUGGLE_NAME$ ha pasado a @$STRUGGLE_PHASE_ICON$! $STRUGGLE_PHASE$." #NT!
+ msg_struggle_phase_transitioned_tt: "$msg_struggle_phase_transitioned_desc$" #NT!
+  
+ msg_set_relation_friend_title: "@amigo_icono! Hice un amigo" #NT!
+ msg_set_relation_friend_desc: "[GetRelation( 'friend' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]" #NT!
+ msg_set_relation_best_friend_title: "@best_friend_icon! Se convirtieron en mejores amigos" #NT!
+ msg_set_relation_best_friend_desc: "[GetRelation( 'best_friend' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]" #NT!
+  
+ msg_set_relation_rival_title: "@rival_icon! Ganó un rival" #NT!
+ msg_set_relation_rival_desc: "[GetRelation( 'rival' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]" #NT!
+ msg_set_relation_nemesis_title: "@nemesis_icon! Némesis ganada" #NT!
+ msg_set_relation_nemesis_desc: "[GetRelation( 'nemesis' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]" #NT!
+  
+ msg_set_relation_lover_title: "@lover_icon! Gané un amante" #NT!
+ msg_set_relation_lover_desc: "[GetRelation( 'lover' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]" #NT!
+ msg_set_relation_soulmate_title: "@soulmate_icon! alma gemela encontrada" #NT!
+ msg_set_relation_soulmate_desc: "[GetRelation( 'soulmate' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]" #NT!
+  
+ msg_house_unity_change_stage: "Nivel de unidad de la casa cambiado" #NT!
+ msg_house_unity_change_stage_desc: "Tu [house_unity|E] ha cambiado de nivel a $HOUSE_UNITY_STAGE_NAME|U$" #NT!
+ msg_house_unity_change_stage_tt: "$msg_house_unity_change_stage_desc$" #NT!
+  
+  
+ msg_start_diarchy_title: "Entré en [LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [LEFT_CHARACTER.GetDiarchyTypeName]" #NT!
+ msg_start_diarchy_effect: "Empecé [sharing_power|E] con [RIGHT_CHARACTER.GetName]" #NT!
+ msg_inherit_diarchy_title: "Heredé [LEFT_CHARACTER.GetDiarchy.GetDiarch.Custom('GetDiarchyArticle')] [LEFT_CHARACTER.GetDiarchyTypeName]" #NT!
+ on_entered_diarchy.notification.vassal.t: "Lieja entró [ROOT.Char.GetDiarchyTypeName]" #NT!
+ on_entered_diarchy.notification.vassal.t.higher_liege: "Alta Lieja entró [ROOT.Char.GetDiarchyTypeName]" #NT!
+ on_entered_diarchy.notification.vassal.desc: "[ROOT.Char.GetShortUIName] ahora es [sharing_power|E] con [ROOT.Char.GetDiarchy.GetDiarch.GetShortUIName]" #NT!
+ on_entered_diarchy.notification.vassal.desc.outro.child: "Por ser un [child|E]" #NT!
+ on_entered_diarchy.notification.vassal.desc.outro.incapable: "Por ser [GetTrait('incapable').GetName(GetNullCharacter)]" #NT!
+ on_entered_diarchy.notification.vassal.desc.outro.imprisonment: "Por estar [imprisoned|E] en el extranjero" #NT!
+ on_entered_diarchy.notification.vassal.desc.outro.travel: "Debido a [traveling|E] en el extranjero" #NT!
+  
+ msg_end_diarchy_title: "[LEFT_CHARACTER.GetDiarchyTypeName] Finalizado" #NT!
+ msg_end_diarchy_effect: "Ya no soy [sharing_power|E] con [RIGHT_CHARACTER.GetName]" #NT!
+ on_left_diarchy.notification.vassal.t: "Lieja [ROOT.Char.GetDiarchyTypeName] Finalizado" #NT!
+ on_left_diarchy.notification.vassal.desc: "[ROOT.Char.GetShortUIName] ya no es [sharing_power|E] con [old_diarch.GetShortUIName]" #NT!
+  
+ msg_change_diarchy_type_title: "Mi tipo [power_sharing|E] cambió" #NT!
+ msg_change_diarchy_type_effect: "Mi $OLD_TYPE$ cambió a $NEW_TYPE$" #NT!
+  
+ on_diarch_change.notification.liege.boilerplate.t: "Mi [liege.GetDiarchTitle] ha cambiado" #NT!
+ on_diarch_change.notification.vassal.boilerplate.t: "El [liege.GetDiarchTitle] de tu Lieja ha cambiado" #NT!
+ on_diarch_change.notification.liege.death.t: "$on_diarch_change.notification.liege.boilerplate.t$" #NT!
+ on_diarch_change.notification.liege.death.desc: "[old_diarch.GetShortUINamePossessive|U] reciente [character_death_death|E] deja [diarch.GetShortUIName] como su nuevo [liege.GetDiarchTitle]." #NT!
+ on_diarch_change.notification.vassal.death.t: "$on_diarch_change.notification.vassal.boilerplate.t$" #NT!
+ on_diarch_change.notification.vassal.death.desc: "[old_diarch.GetShortUINamePossessive|U] reciente [character_death_death|E] ha dejado [diarch.GetShortUIName] como el siguiente [liege.GetDiarchTitle] de [liege.GetPrimaryTitle.GetName]." #NT!
+ on_diarch_change.notification.liege.deposition.t: "$on_diarch_change.notification.liege.boilerplate.t$" #NT!
+ on_diarch_change.notification.liege.deposition.desc: "[old_diarch.GetShortUIName|U] ha sido depuesto por la fuerza, dejando a [diarch.GetShortUIName] como tu nuevo [liege.GetDiarchTitle]." #NT!
+ on_diarch_change.notification.vassal.deposition.t: "$on_diarch_change.notification.vassal.boilerplate.t$" #NT!
+ on_diarch_change.notification.vassal.deposition.desc: "[old_diarch.GetShortUIName|U] [Select_CString( old_diarch.IsLocalPlayer, 'have', 'has' )] ha sido depuesto por la fuerza, dejando [diarch.GetShortUIName] como el siguiente [liege.GetDiarchTitle] de [liege.GetPrimaryTitle.GetName]." #NT!
+ on_diarch_change.notification.liege.invalidation.t: "$on_diarch_change.notification.liege.boilerplate.t$" #NT!
+ on_diarch_change.notification.liege.invalidation.desc: "[old_diarch.GetShortUIName|U] ya no es válido para continuar con las tareas de [old_diarch.GetHerHis], dejando [diarch.GetShortUIName] como tu nuevo [liege.GetDiarchTitle]." #NT!
+ on_diarch_change.notification.vassal.invalidation.t: "$on_diarch_change.notification.vassal.boilerplate.t$" #NT!
+ on_diarch_change.notification.vassal.invalidation.desc: "[old_diarch.GetShortUIName|U] [Select_CString( old_diarch.IsLocalPlayer, 'are', 'is' )] ya no es válido para continuar con las funciones de [CharMyHerHis(old_diarch)], quedando [diarch.GetShortUIName] como el siguiente [liege.GetDiarchTitle] de [liege.GetPrimaryTitle.GetName]." #NT!
+ on_diarch_change.notification.liege.inheritance.t: "$on_diarch_change.notification.liege.boilerplate.t$" #NT!
+ on_diarch_change.notification.liege.inheritance.desc: "Heredé un reino más grande, por lo que [diarch.GetShortUIName] es ahora mi nuevo [liege.GetDiarchTitle]" #NT!
+ on_diarch_change.notification.vassal.inheritance.t: "$on_diarch_change.notification.vassal.boilerplate.t$" #NT!
+ on_diarch_change.notification.vassal.inheritance.desc: "Por herencia ahora soy [liege.GetDiarchTitle] a [liege.GetShortUIName]" #NT!
+ on_diarch_change.notification.liege.fallback.t: "$on_diarch_change.notification.liege.boilerplate.t$" #NT!
+ on_diarch_change.notification.liege.fallback.desc: "[old_diarch.GetShortUIName|U] se reemplaza por [diarch.GetShortUIName] como su nuevo [liege.GetDiarchTitle]." #NT!
+ on_diarch_change.notification.vassal.fallback.t: "$on_diarch_change.notification.vassal.boilerplate.t$" #NT!
+ on_diarch_change.notification.vassal.fallback.desc: "[old_diarch.GetShortUIName|U] [Select_CString( old_diarch.IsLocalPlayer, 'are', 'is' )] reemplazado por [diarch.GetShortUIName] como el nuevo [liege.GetDiarchTitle] de tu señor." #NT!
+ msg_diarchy_more_power_title: "[LEFT_CHARACTER.GetLiege.GetDiarchTitle] ahora es más poderoso" #NT!
+ msg_diarchy_more_power_effect: "El swing [scales_of_power|E] ha alcanzado un nuevo nivel y hay más [diarch_powers|E] disponibles para el [LEFT_CHARACTER.GetLiege.GetDiarchTitle]" #NT!
+ msg_diarchy_less_power_title: "[LEFT_CHARACTER.GetLiege.GetDiarchTitle] ahora es menos poderoso" #NT!
+ msg_diarchy_less_power_effect: "El swing de [scales_of_power|E] ha caído a un nivel más bajo y el [LEFT_CHARACTER.GetLiege.GetDiarchTitle] tiene menos [diarch_powers|E]" #NT!
+ grand_wedding_cancelled_by_regency_title: "Gran boda cancelada" #NT!
+ grand_wedding_cancelled_by_regency_desc: "[diarch.GetTitledFirstName] se convirtió en [diarch.GetLiege.GetTitledFirstNamePossessive] [regent|E] y ya no puede asistir a [diarch.GetHerHis] [GetActivityType('activity_wedding').GetName] con [betrothed.GetTitledFirstName]" #NT!
+ msg_legend_promoter_join: "Se une el promotor legendario" #NT!
+ msg_legend_promoter_join_desc: "Tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] ha comenzado [Concept( 'promoted_legend', 'Promoting' )|E] tu [legend|E], [GetPlayer.GetPromotedLegend.GetName]." #NT!
+ msg_legend_promoter_leave: "El promotor de leyenda se va" #NT!
+ msg_legend_promoter_leave_desc: "Tu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] [LEFT_CHARACTER.GetUINameNoTooltip] ha detenido [Concept( 'promoted_legend', 'Promoting' )|E] tu [legend|E], [GetPlayer.GetPromotedLegend.GetName]." #NT!
+ msg_promoted_legend_unowned: "Leyenda promocionada Sin dueño" #NT!
+ msg_promoted_legend_unowned_desc: "Tu [promoted_legend|E] [Legend.GetName] ya no es propiedad de nadie" #NT!
+ msg_promoted_legend_completed: "Leyenda promocionada completada" #NT!
+ msg_promoted_legend_completed_desc: "Tu [promoted_legend|E] [Legend.GetName] ha sido completado" #NT!
+ msg_legend_library_added: "Leyenda agregada a la biblioteca" #NT!
+ msg_legend_library_added_desc: "[Legend.GetName] se agregó a tu [legend_library|E]." #NT!
+ message_consolidation_names: "#T Otros#!\n[PlayerMessageItem.GetConsolidationNames]" #NT!
+ message_consolidation_others: "#tooltip:message_consolidation_names #L [Subtract_int32( PlayerMessageItem.GetConsolidationCount, '(int32)2' )|V] [Select_CString( GreaterThan_int32( PlayerMessageItem.GetConsolidationCount, '(int32)3' ), 'others', 'other' )] #!#!" #NT!
