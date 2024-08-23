@@ -1,62 +1,62 @@
 ﻿l_spanish:
- DYNASTY_VIEW_CHILDREN_HIDE: "#T Ocultar niños#!" #NT!
- DYNASTY_VIEW_CHILDREN_SHOW: "#T Mostrar niños#!" #NT!
- DYNASTY_VIEW_INFO_TITLE: "#T [Dynasty.GetBaseNameNoTooltip|U] Dinastía#!" #NT!
- DYNASTY_VIEW_PRESTIGE: "[Dynasty.GetPrestige|V0] [dynasty_prestige|E]" #NT!
-  #AGOT MODIFIED 
- #DYNASTY_VIEW_HOUSES_AMOUNT: "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'House', 'Houses' )]" #NT!
- DYNASTY_VIEW_HOUSES_AMOUNT: "Ver todas las casas" #NT!
- DYNASTY_VIEW_HOUSES_TT: "#T Ver todas las casas de la [Dynasty.GetNameNoTooltip] Dinastía#!" #NT!
- DYNASTY_VIEW_MEMBERS: "[Dynasty.GetNumberOfLivingMembers|V] Miembros vivos" #NT!
- DYNASTY_VIEW_MEMBERS_TT: "#T Ver todos los miembros de la [Dynasty.GetNameNoTooltip] Dinastía#!" #NT!
- DYNASTY_VIEW_LIVING_MEMBERS: "[Dynasty.GetNumberOfLivingMembers|V]" #NT!
- DYNASTY_VIEW_DEAD_MEMBERS: "Miembros muertos ([GetDataModelSize( Dynasty.GetDeadMembers )])" #NT!
- DYNASTY_VIEW_HOUSES: "Casas" #NT!
- DYNASTY_VIEW_NAME: "[Dynasty.GetBaseNameNoTooltip] Dinastía" #NT!
- DYNASTY_VIEW_LIVING_MEMBERS_HEADER: "Miembros vivos ([Dynasty.GetNumberOfLivingMembers|V])" #NT!
- DYNASTY_VIEW_LEGACY_EXPLANATION: "Todos los miembros de la dinastía #high [Dynasty.GetBaseNameNoTooltip]#! obtienen los beneficios de estos [dynasty_perks|E]. Adquirir nuevos [dynasty_perks|E] se vuelve cada vez más difícil a medida que el costo aumenta en [dynasty_prestige_i]#V 500#! cada vez." #NT!
- PARENT_DYNASTY_PERK_NEEDED: "@warning_icon! #X No hemos desbloqueado el Legacy anterior#!" #NT!
- DYNASTY_PRESTIGE_NEEDED: "@warning_icon! #X No tenemos $VALUE$ [dynasty_prestige|E]#!" #NT!
- DYNASTY_PERK_TOOLTIP: "#T [DynastyPerk.GetNameNoTooltip]#!\n[DynastyPerk.GetEffectDescription( Dinastía.GetDynast )]" #NT!
- UNLOCK_DYNASTY_PERK_TOOLTIP: "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]\n\n#I Haz clic para desbloquear#!" #NT!
- LOCKED_DYNASTY_PERK_TOOLTIP: "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]" #NT!
- CHOOSE_DYNASTY_PERK_CONFIRM_TITLE: "Desbloquear [DYNASTY_PERK.GetNameNoTooltip]" #NT!
- CHOOSE_DYNASTY_PERK_CONFIRM_DESC: "[DYNASTY_PERK.GetEffectDescription( GetPlayer )][DYNASTY_PERK.GetCostString( GetPlayer )]" #NT!
- CHOOSE_DYNASTY_PERK_CONFIRM_ACCEPT: "Descubrir" #NT!
- DYNASTY_LEGACY_PERK_COST: "\nCosto: [dynasty_prestige_i]$VALUE|V$ [dynasty_prestige|E]" #NT!
- DYNASTY_VIEW_ALSO_DYNAST: "También Jefe de la Dinastía [Character.GetDynasty.GetBaseName]" #NT!
- DYNASTY_VIEW_ALSO_HOUSE_HEAD: "Jefe de la Casa [Character.GetHouse.GetName]" #NT!
- DYNASTY_VIEW_PAN_TO_ME: "Panorámica hacia ti" #NT!
- DYNASTY_VIEW_PAN_TO_ME_TT: "#T Pan para ti#!" #NT!
- DYNASTY_VIEW_PAN_TO_DYNAST: "De Pan a Dynasty Head" #NT!
- DYNASTY_VIEW_CLICK_TO_PAN: "#I Arrastre con el botón izquierdo o central del mouse para desplazarse#!" #NT!
- CUSTOMIZE_DYNASTY_HEADER: "Personalizar [Dynasty.GetBaseNameNoTooltip] Dinastía" #NT!
- DYNASTY_CUSTOMIZATION_NAME_FIELD: "Nombre" #NT!
- CUSTOMIZE_DYNASTY: "#T Personaliza Dinastía#!" #NT!
- CUSTOMIZE_DYNASTY_PLAYER_NOT_ALLOWED: "@warning_icon! #X [DYNASTY.GetBaseNameNoTooltip] La dinastía no es tuya para personalizarla#!" #NT!
- DYNASTY_VIEW_MY_DYNASTY: "Tu [dynasty|E]" #NT!
- DYNASTY_TT_DYNAST: "[dynast|E]: [Dynasty.GetDynast.GetUIName|U]" #NT!
- DYNASTY_TT_DEAD_DYNASTY: "Dinastía muerta: no hay miembros vivos" #NT!
- DYNASTY_TT_DEAD_HOUSE: "Casa muerta - Sin miembros vivos" #NT!
- DYNASTY_TT_SPLENDOR_LEVEL: "[dynasty_prestige_level|E]: [Dynasty.GetPrestigeLevelName]" #NT!
- DYNASTY_TT_MEMBERS: "Miembros vivos: [Dynasty.GetNumberOfLivingMembers|V]" #NT!
- DYNASTY_VIEW_TT_DYNASTY_TREE: "#T Árbol de dinastía abierto#!" #NT!
- DYNASTY_VIEW_DYNASTY_TREE: "Árbol de dinastía abierto" #NT!
- DYNASTY_VIEW_SHOW_LEGACIES: "Legados: [DynastyView.GetTotalUnlockedPerks]" #NT!
- DYNASTY_VIEW_SHOW_RENOWN: "[dynasty_prestige|E]: [dynasty_prestige_i][Dynasty.GetPrestige|V0]" #NT!
- DYNASTY_VIEW_SHOW_UNLOCK: "Descubrir" #NT!
- DYNASTY_VIEW_SHOW_LEGACY_EXPLANATION_HEAD: "$DYNASTY_VIEW_LEGACY_EXPLANATION$.\nTú como [dynast|E] puedes gastar [dynasty_prestige|E] para desbloquear Legados." #NT!
- DYNASTY_VIEW_SHOW_LEGACY_EXPLANATION_NOT_HEAD: "$DYNASTY_VIEW_LEGACY_EXPLANATION$.\n#X No eres el [dynast|E], por lo que no puedes gastar [dynasty_prestige|E] para desbloquear Legados.#!" #NT!
- DYNASTY_VIEW_HEADING: "[Dynasty.GetBaseNameNoTooltip] Legados de la dinastía" #NT!
- DYNASTY_VIEW_SET_ROOT: "#T Ocultar el resto del árbol#!" #NT!
- DYNASTY_VIEW_EXPAND_ROOT: "#T Expandir al padre#!" #NT!
- DYNASTY_VIEW_DYNAST_OF: "[dynast|E] de la Dinastía [Character.GetDynasty.GetBaseNameNoTooltip]" #NT!
- DYNASTY_VIEW_BECOME_DYNAST_ONE_HOUSE: "Sólo hay una Casa en la Dinastía [Character.GetDynasty.GetBaseNameNoTooltip] y por lo tanto la [house_head|E] es también la [dynast|E]" #NT!
- DYNASTY_VIEW_BECOME_DYNAST: "Otro [house_head|E] reemplazará a [Character.GetDynasty.GetDynast.GetHerHim] si exceden la Fuerza Militar máxima de [Character.GetDynasty.GetDynast.GetHerHis] por un margen significativo (¡necesitamos a @soldier_icon! [Character.GetDynasty.GetRequiredPowerToReplaceDynast|0])" #NT!
- DYNASTY_VIEW_SHOW_LEGACY_COST: "Costo: [dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]" #NT!
- DYNASTY_HOUSE_VIEW_PROGRESS_TOOLTIP: "Progreso: [dynasty_prestige_i][Dynasty.GetPrestige|V0]/[Dynasty.GetNextPerkCost|0] hacia el siguiente [dynasty_perk|E]" #NT!
- DYNASTY_HOUSE_VIEW_PROGRESS_LABEL: "Siguiente [dynasty_perk|E]" #NT!
- DYNASTY_SPLENDOR: "Esplendor de la dinastía:" #NT!
- DYNASTY_LEGACIES: "Legados de la dinastía" #NT!
- DYNASTY_HOUSE_VIEW_LEGACY_COST: "Costo del próximo legado: [dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]" #NT!
+ DYNASTY_VIEW_CHILDREN_HIDE: "#T Ocultar niños#!"
+ DYNASTY_VIEW_CHILDREN_SHOW: "#T Mostrar niños#!"
+ DYNASTY_VIEW_INFO_TITLE: "#T [Dynasty.GetBaseNameNoTooltip|U] Dinastía#!"
+ DYNASTY_VIEW_PRESTIGE: "[Dynasty.GetPrestige|V0] [dynasty_prestige|E]"
+  #AGOT Modified 
+ #DYNASTY_VIEW_HOUSES_AMOUNT: "[Dynasty.GetFoundedDynastyHousesCount|V] [Select_CString( EqualTo_int32( Dynasty.GetFoundedDynastyHousesCount, '(int32)1' ), 'House', 'Houses' )]"
+ DYNASTY_VIEW_HOUSES_AMOUNT: "Ver todas las casas"
+ DYNASTY_VIEW_HOUSES_TT: "#T Ver todas las casas de la [Dynasty.GetNameNoTooltip] Dinastía#!"
+ DYNASTY_VIEW_MEMBERS: "[Dynasty.GetNumberOfLivingMembers|V] Miembros vivos"
+ DYNASTY_VIEW_MEMBERS_TT: "#T Ver todos los miembros de la [Dynasty.GetNameNoTooltip] Dinastía#!"
+ DYNASTY_VIEW_LIVING_MEMBERS: "[Dynasty.GetNumberOfLivingMembers|V]"
+ DYNASTY_VIEW_DEAD_MEMBERS: "Miembros muertos ([GetDataModelSize( Dynasty.GetDeadMembers )])"
+ DYNASTY_VIEW_HOUSES: "Casas"
+ DYNASTY_VIEW_NAME: "[Dynasty.GetBaseNameNoTooltip] Dinastía"
+ DYNASTY_VIEW_LIVING_MEMBERS_HEADER: "Miembros vivos ([Dynasty.GetNumberOfLivingMembers|V])"
+ DYNASTY_VIEW_LEGACY_EXPLANATION: "Todos los miembros de la dinastía #high [Dynasty.GetBaseNameNoTooltip]#! obtienen los beneficios de estos [dynasty_perks|E]. Adquirir nuevos [dynasty_perks|E] se vuelve cada vez más difícil a medida que el costo aumenta en [dynasty_prestige_i]#V 500#! cada vez."
+ PARENT_DYNASTY_PERK_NEEDED: "@warning_icon! #X No hemos desbloqueado el Legacy anterior#!"
+ DYNASTY_PRESTIGE_NEEDED: "@warning_icon! #X No tenemos $VALUE$ [dynasty_prestige|E]#!"
+ DYNASTY_PERK_TOOLTIP: "#T [DynastyPerk.GetNameNoTooltip]#!\n[DynastyPerk.GetEffectDescription( Dinastía.GetDynast )]"
+ UNLOCK_DYNASTY_PERK_TOOLTIP: "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]\n\n#I Haz clic para desbloquear#!"
+ LOCKED_DYNASTY_PERK_TOOLTIP: "$DYNASTY_PERK_TOOLTIP$\n[DynastyView.CanSelectPerkDesc( DynastyPerk.Self )][DynastyPerk.GetCostString( GetPlayer )]"
+ CHOOSE_DYNASTY_PERK_CONFIRM_TITLE: "Desbloquear [DYNASTY_PERK.GetNameNoTooltip]"
+ CHOOSE_DYNASTY_PERK_CONFIRM_DESC: "[DYNASTY_PERK.GetEffectDescription( GetPlayer )][DYNASTY_PERK.GetCostString( GetPlayer )]"
+ CHOOSE_DYNASTY_PERK_CONFIRM_ACCEPT: "Descubrir"
+ DYNASTY_LEGACY_PERK_COST: "\nCosto: [dynasty_prestige_i]$VALUE|V$ [dynasty_prestige|E]"
+ DYNASTY_VIEW_ALSO_DYNAST: "También Jefe de la Dinastía [Character.GetDynasty.GetBaseName]"
+ DYNASTY_VIEW_ALSO_HOUSE_HEAD: "Jefe de la Casa [Character.GetHouse.GetName]"
+ DYNASTY_VIEW_PAN_TO_ME: "Panorámica hacia ti"
+ DYNASTY_VIEW_PAN_TO_ME_TT: "#T Pan para ti#!"
+ DYNASTY_VIEW_PAN_TO_DYNAST: "De Pan a Dynasty Head"
+ DYNASTY_VIEW_CLICK_TO_PAN: "#I Arrastre con el botón izquierdo o central del mouse para desplazarse#!"
+ CUSTOMIZE_DYNASTY_HEADER: "Personalizar [Dynasty.GetBaseNameNoTooltip] Dinastía"
+ DYNASTY_CUSTOMIZATION_NAME_FIELD: "Nombre"
+ CUSTOMIZE_DYNASTY: "#T Personaliza Dinastía#!"
+ CUSTOMIZE_DYNASTY_PLAYER_NOT_ALLOWED: "@warning_icon! #X [DYNASTY.GetBaseNameNoTooltip] La dinastía no es tuya para personalizarla#!"
+ DYNASTY_VIEW_MY_DYNASTY: "Tu [dynasty|E]"
+ DYNASTY_TT_DYNAST: "[dynast|E]: [Dynasty.GetDynast.GetUIName|U]"
+ DYNASTY_TT_DEAD_DYNASTY: "Dinastía muerta: no hay miembros vivos"
+ DYNASTY_TT_DEAD_HOUSE: "Casa muerta - Sin miembros vivos"
+ DYNASTY_TT_SPLENDOR_LEVEL: "[dynasty_prestige_level|E]: [Dynasty.GetPrestigeLevelName]"
+ DYNASTY_TT_MEMBERS: "Miembros vivos: [Dynasty.GetNumberOfLivingMembers|V]"
+ DYNASTY_VIEW_TT_DYNASTY_TREE: "#T Árbol de dinastía abierto#!"
+ DYNASTY_VIEW_DYNASTY_TREE: "Árbol de dinastía abierto"
+ DYNASTY_VIEW_SHOW_LEGACIES: "Legados: [DynastyView.GetTotalUnlockedPerks]"
+ DYNASTY_VIEW_SHOW_RENOWN: "[dynasty_prestige|E]: [dynasty_prestige_i][Dynasty.GetPrestige|V0]"
+ DYNASTY_VIEW_SHOW_UNLOCK: "Descubrir"
+ DYNASTY_VIEW_SHOW_LEGACY_EXPLANATION_HEAD: "$DYNASTY_VIEW_LEGACY_EXPLANATION$.\nTú como [dynast|E] puedes gastar [dynasty_prestige|E] para desbloquear Legados."
+ DYNASTY_VIEW_SHOW_LEGACY_EXPLANATION_NOT_HEAD: "$DYNASTY_VIEW_LEGACY_EXPLANATION$.\n#X No eres el [dynast|E], por lo que no puedes gastar [dynasty_prestige|E] para desbloquear Legados.#!"
+ DYNASTY_VIEW_HEADING: "[Dynasty.GetBaseNameNoTooltip] Legados de la dinastía"
+ DYNASTY_VIEW_SET_ROOT: "#T Ocultar el resto del árbol#!"
+ DYNASTY_VIEW_EXPAND_ROOT: "#T Expandir al padre#!"
+ DYNASTY_VIEW_DYNAST_OF: "[dynast|E] de la Dinastía [Character.GetDynasty.GetBaseNameNoTooltip]"
+ DYNASTY_VIEW_BECOME_DYNAST_ONE_HOUSE: "Sólo hay una Casa en la Dinastía [Character.GetDynasty.GetBaseNameNoTooltip] y por lo tanto la [house_head|E] es también la [dynast|E]"
+ DYNASTY_VIEW_BECOME_DYNAST: "Otro [house_head|E] reemplazará a [Character.GetDynasty.GetDynast.GetHerHim] si exceden la Fuerza Militar máxima de [Character.GetDynasty.GetDynast.GetHerHis] por un margen significativo (¡necesitamos a @soldier_icon! [Character.GetDynasty.GetRequiredPowerToReplaceDynast|0])"
+ DYNASTY_VIEW_SHOW_LEGACY_COST: "Costo: [dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]"
+ DYNASTY_HOUSE_VIEW_PROGRESS_TOOLTIP: "Progreso: [dynasty_prestige_i][Dynasty.GetPrestige|V0]/[Dynasty.GetNextPerkCost|0] hacia el siguiente [dynasty_perk|E]"
+ DYNASTY_HOUSE_VIEW_PROGRESS_LABEL: "Siguiente [dynasty_perk|E]"
+ DYNASTY_SPLENDOR: "Esplendor de la dinastía:"
+ DYNASTY_LEGACIES: "Legados de la dinastía"
+ DYNASTY_HOUSE_VIEW_LEGACY_COST: "Costo del próximo legado: [dynasty_prestige_i][Dynasty.GetNextPerkCost|V0]"
   

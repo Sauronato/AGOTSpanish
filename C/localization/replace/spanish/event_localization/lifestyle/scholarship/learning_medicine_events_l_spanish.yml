@@ -6,7 +6,7 @@
  learning_medicine.2001.no_pool.desc: "[herbalist.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] es un[herbalist.Custom('ES_XA')] herborista con talento, que conoce las plantas curativas y dañinas por igual. En más de una ocasión se ha ofrecido a compartir sus conocimientos conmigo."
  learning_medicine.2001.chaplain_hates_herbs.desc: "\n\nLa oferta es intrigante, pero sé que [chaplain_hates_herbs.GetCouncilTitle] [chaplain_hates_herbs.GetFirstName] desconfía de amuletos y pociones. Cree que [ROOT.Char.GetFaith.DevilName] los utiliza para sus propósitos nefandos… "
   
- learning_medicine.2001.a: "Siempre estoy dispuest[ROOT.Char.Custom('ES_OA')] a aprender algo nuevo."
+ learning_medicine.2001.a: "Siempre estoy dispuesto a aprender algo nuevo."
  learning_medicine.2001.b: "Una flor rara le alegraría el día a [flower_receiver.GetFirstNameNoTooltip]."
  learning_medicine.2001.c: "[herbalist.GetSheHe|U] puede plantar un jardín de hierbas sagradas."
  learning_medicine.2001.d: "No tengo tiempo para revolcarme entre el barro y las plantas."
@@ -24,13 +24,13 @@
  learning_medicine.2002.b.success.tt: "Si [herbalist.GetShortUIName] tiene un secreto de brujería, me será revelado"
  learning_medicine.2002.b.success.witch.t: "[herbalist.GetFirstNameNoTooltip] practica la brujería"
  learning_medicine.2002.b.success.no_witch.t: "[herbalist.GetFirstNameNoTooltip] no practica la brujería"
- learning_medicine.2002.b.success.no_witch.desc: "Estoy convencid[ROOT.Char.Custom('ES_OA')] de la inocencia de [herbalist.GetTitledFirstName|l]"
+ learning_medicine.2002.b.success.no_witch.desc: "Estoy convencido de la inocencia de [herbalist.GetTitledFirstName|l]"
  learning_medicine.2002.b.inconclusive.t: "Mi investigación no es concluyente"
  learning_medicine.2002.b.inconclusive.desc: "No encuentro pruebas de brujería"
  learning_medicine.2002.b.failure.t: "[herbalist.GetFirstNameNoTooltip] me pilla husmeando"
  learning_medicine.2002.c: "No me distraeré con mitos y rumores."
   
- learning_medicine.2003.desc: "«Esto es lo que deseo aprender», digo, mientras le paso el tomo a [herbalist.GetFirstName]. «¿Me instruirás?»\n\n[herbalist.GetFirstNameNoTooltip] me mira severamente durante un tiempo. «¿Estáis list[ROOT.Char.Custom('ES_OA')] de verdad, [ROOT.Char.GetFirstNameNoTooltip]? ¿Os consagraréis a [herbalist.GetFaith.WitchGodName] a cambio de Sus bendiciones?»"
+ learning_medicine.2003.desc: "«Esto es lo que deseo aprender», digo, mientras le paso el tomo a [herbalist.GetFirstName]. «¿Me instruirás?»\n\n[herbalist.GetFirstNameNoTooltip] me mira severamente durante un tiempo. «¿Estáis listo de verdad, [ROOT.Char.GetFirstNameNoTooltip]? ¿Os consagraréis a [herbalist.GetFaith.WitchGodName] a cambio de Sus bendiciones?»"
  learning_medicine.2003.a: "Nada desearía más."
   
  # Improve the skills of your court physician, by Mathilda Bjarnehed 
@@ -115,7 +115,7 @@
   
   #Healthy coping mechanism: becoming a confider 
  learning_medicine.2030.t: "Una corona pesada"
- learning_medicine.2030.desc: "A veces mis responsabilidades como [ROOT.Char.GetTitleAsNameNoTooltip] me abruman por completo. ¿Cómo puede una sola persona llevar todo [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] sobre sus hombros?\n\nTal vez haya algunas cargas con las que no tengo que lidiar sol[ROOT.Char.Custom('ES_OA')]. Si tuviera a alguien a quien confiarme…"
+ learning_medicine.2030.desc: "A veces mis responsabilidades como [ROOT.Char.GetTitleAsNameNoTooltip] me abruman por completo. ¿Cómo puede una sola persona llevar todo [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] sobre sus hombros?\n\nTal vez haya algunas cargas con las que no tengo que lidiar solo. Si tuviera a alguien a quien confiarme…"
  learning_medicine.2030.a: "Los consejos de [confider_target.GetFirstNameNoTooltip] siempre hacen que me sienta mejor."
  learning_medicine.2030.a.message: "Las confidencias me alivian el estrés"
  learning_medicine.2030.b: "[confider_target_2.GetFirstNameNoTooltip] sabe escuchar."
@@ -134,10 +134,10 @@
  learning_medicine.2040.b: "Pedir a [friend.GetFirstNameNoTooltip] consejos de viaje."
  learning_medicine.2040.c: "Salir a correr."
  learning_medicine.2030.c.trait: "El ejercicio me calma"
- learning_medicine.2030.c.modifier: "No me siento relajad[ROOT.Char.Custom('ES_OA')], pero me hago más fuerte"
+ learning_medicine.2030.c.modifier: "No me siento relajado, pero me hago más fuerte"
  learning_medicine.2040.d: "Paso la tarde escribiendo un diario"
  learning_medicine.2030.d.trait: "El diario me calma"
- learning_medicine.2030.d.modifier: "No me siento relajad[ROOT.Char.Custom('ES_OA')], pero mi escritura ha mejorado"
+ learning_medicine.2030.d.modifier: "No me siento relajado, pero mi escritura ha mejorado"
  learning_medicine.2040.e: "Me tomo todo el día libre."
   
   #Helping healing hand (medicine friend), by Mathilda Bjarnehed 
@@ -150,7 +150,7 @@
  learning_medicine.2050.a.success: "[helper.GetFirstNameNoTooltip] y yo salvamos [soldier.Custom('ES_AlAla')] soldado"
  learning_medicine.2050.a.failure: "Pese a nuestros esfuerzos, [soldier.Custom('ES_LoLa')] perdemos"
  learning_medicine.2050.b: "#EMP ¡Atrás#!! ¡Es #EMP mi#! paciente!"
- learning_medicine.2050.b.success: "Salvo [soldier.Custom('ES_AlAla')] soldado yo sol[ROOT.Char.Custom('ES_OA')]"
+ learning_medicine.2050.b.success: "Salvo [soldier.Custom('ES_AlAla')] soldado yo solo"
  learning_medicine.2050.b.failure: "Soy incapaz de salvarl[soldier.Custom('ES_LoLa')]"
  learning_medicine.2050.c: "Que se desangre. No se merece nada mejor."
   
@@ -221,7 +221,7 @@
   
  # Study human cadavers, by Linnéa Thimrén and Flavio Verna 
  learning_medicine_special.1001.t: "Secretos del cuerpo"
- learning_medicine_special.1001.desc: "Me encuentro fascinad[ROOT.Char.Custom('ES_OA')] por el cuerpo humano y todos los secretos que aún nos esconde. Siempre tengo en la cabeza preguntas sobre la vida y la muerte.\n\nLeer textos sobre el tema está muy bien, pero no puedo evitar sentir que aprendería mucho más con investigación práctica."
+ learning_medicine_special.1001.desc: "Me encuentro fascinado por el cuerpo humano y todos los secretos que aún nos esconde. Siempre tengo en la cabeza preguntas sobre la vida y la muerte.\n\nLeer textos sobre el tema está muy bien, pero no puedo evitar sentir que aprendería mucho más con investigación práctica."
  learning_medicine_special.1001.a: "Estudiaré los estragos de la enfermedad en un cadáver."
  learning_medicine_special.1001.b: "¡Los cuerpos de los muertos merecen nuestro respeto!"
   

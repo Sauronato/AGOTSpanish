@@ -17,78 +17,79 @@
   
  k_undisputed_lands: "Tierras indisputadas"
   
- bind_dragon_horn_decision: "Atar el cuerno del dragón" #NT!
- bind_dragon_horn_decision_desc: "Un ritual de sangre establecerá una conexión mágica entre el cuerno de dragón que tengo y yo. Si no está ligado, el cuerno no funcionará correctamente." #NT!
- bind_dragon_horn_decision_effect: "Intentarás unirte al cuerno del dragón, a un gran coste." #NT!
- bind_dragon_horn_decision_tooltip: "Realiza un ritual de unión de sangre con el cuerno de dragón." #NT!
- bind_dragon_horn_decision_confirm: "Preparar el ritual" #NT!
+ bind_dragon_horn_decision: "Atar el cuerno del dragón"
+ bind_dragon_horn_decision_desc: "Un ritual de sangre establecerá una conexión mágica entre el cuerno de dragón que tengo y yo. Si no está ligado, el cuerno no funcionará correctamente."
+ bind_dragon_horn_decision_effect: "Intentarás unirte al cuerno del dragón, a un gran coste."
+ bind_dragon_horn_decision_tooltip: "Realiza un ritual de unión de sangre con el cuerno de dragón."
+ bind_dragon_horn_decision_confirm: "Preparar el ritual"
   
- binding_available_prisoner: "Tiene un prisionero adulto para sacrificar." #NT!
- binding_available_kin: "Tiene parientes para sacrificar." #NT!
- binding_available_soulmate: "Tiene un alma gemela para sacrificar." #NT!
- binding_available_blood: "No está herido." #NT!
+ binding_available_prisoner: "Tiene un prisionero adulto para sacrificar."
+ binding_available_kin: "Tiene parientes para sacrificar."
+ binding_available_soulmate: "Tiene un alma gemela para sacrificar."
+ binding_available_blood: "No está herido."
   
- needs_rhllor_religion_chaplain: "Su capellán de la corte sigue la religión R'hllor." #NT!
- needs_valyrian_religion_chaplain: "Su capellán de la corte sigue la religión valyria." #NT!
- needs_mystic_figure: "Un cortesano tiene el estilo de vida [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]." #NT!
+ needs_rhllor_religion_chaplain: "Su capellán de la corte sigue la religión R'hllor."
+ needs_valyrian_religion_chaplain: "Su capellán de la corte sigue la religión valyria."
+ needs_mystic_figure: "Un cortesano tiene el estilo de vida [GetTrait('lifestyle_mystic').GetName( GetNullCharacter )]."
   
- agot_bloodbinding: "Vinculación de sangre" #NT!
+ agot_bloodbinding: "Vinculación de sangre"
   
- agot_decisions_events.0100.t: "$agot_bloodbinding$: El precio" #NT!
- agot_decisions_events.0100.desc: ""Para que el vínculo se mantenga, debe pagarse un precio", advierte [ritualist.GetFirstNameNicknamed], "y un precio muy caro. Una hechicería como esta no se doblega fácilmente... Se doblega #bold por la sangre#!."\n\n"And, eso no es todo", continúa [ritualist.GetSheHe]. "El vínculo debe reforzarse con llamas. Sangre y fuego, fuego y sangre". [ritualist.GetSheHe|U] deja que las palabras queden suspendidas en el aire por un momento antes de continuar. "El sacrificio de un extraño podría funcionar, seguro, si ofrecieras un rastro de tu propia sangre... Pero una ofrenda #italic personal#!, tu propia sangre o la de un pariente cercano, es mejor. El costo será grande, pero la recompensa será mayor"." #NT!
- agot_decisions_events.0100.a: "Traed a los prisioneros." #NT!
- agot_decisions_events.0100.a.tt: "Seleccionarás un sacrificio entre tus prisioneros, pero tus posibilidades de éxito serán #difficulty_hard tiny#!" #NT!
- agot_decisions_events.0100.b: "Envía por mi familia." #NT!
- agot_decisions_events.0100.b.tt: "Seleccionarás un sacrificio entre tus parientes cercanos, por lo que tus posibilidades de éxito serán #difficulty_medium modestas#!" #NT!
- agot_decisions_events.0100.c: "#BER I#! proporcionaré la sangre." #NT!
- agot_decisions_events.0100.c.tt: "Sangrarás caro por esto y tus posibilidades de éxito serán #difficulty_easy altas#!" #NT!
- agot_decisions_events.0100.soulmate: "Entregaré mi corazón, [soulmate.GetFirstName]." #NT!
- agot_decisions_events.0100.soulmate.tt: "[soulmate.GetTitledFirstNameNoTooltip], tu alma gemela, será sacrificada en este ritual, #true_white;bold garantizando el éxito#!" #NT!
- agot_decisions_events.0100.d: "El precio es demasiado alto." #NT!
+ agot_decisions_events.0100.t: "$agot_bloodbinding$: El precio"
+ agot_decisions_events.0100.desc: ""Para que el vínculo se mantenga, debe pagarse un precio", advierte [ritualist.GetFirstNameNicknamed], "y un precio muy caro. Una hechicería como esta no se doblega fácilmente... Se doblega #bold por la sangre#!."\n\n"And, eso no es todo", continúa [ritualist.GetSheHe]. "El vínculo debe reforzarse con llamas. Sangre y fuego, fuego y sangre". [ritualist.GetSheHe|U] deja que las palabras queden suspendidas en el aire por un momento antes de continuar. "El sacrificio de un extraño podría funcionar, seguro, si ofrecieras un rastro de tu propia sangre... Pero una ofrenda #italic personal#!, tu propia sangre o la de un pariente cercano, es mejor. El costo será grande, pero la recompensa será mayor"."
+ agot_decisions_events.0100.a: "Traed a los prisioneros."
+ agot_decisions_events.0100.a.tt: "Seleccionarás un sacrificio entre tus prisioneros, pero tus posibilidades de éxito serán #difficulty_hard tiny#!"
+ agot_decisions_events.0100.b: "Envía por mi familia."
+ agot_decisions_events.0100.b.tt: "Seleccionarás un sacrificio entre tus parientes cercanos, por lo que tus posibilidades de éxito serán #difficulty_medium modestas#!"
+ agot_decisions_events.0100.c: "#BER I#! proporcionaré la sangre."
+ agot_decisions_events.0100.c.tt: "Sangrarás caro por esto y tus posibilidades de éxito serán #difficulty_easy altas#!"
+ agot_decisions_events.0100.soulmate: "Entregaré mi corazón, [soulmate.GetFirstName]."
+ agot_decisions_events.0100.soulmate.tt: "[soulmate.GetTitledFirstNameNoTooltip], tu alma gemela, será sacrificada en este ritual, #true_white;bold garantizando el éxito#!"
+ agot_decisions_events.0100.d: "El precio es demasiado alto."
  agot_decisions_events.0100.hidden: ""
   
- agot_decisions_events.0101.t: "$agot_bloodbinding$: El sacrificio" #NT!
- agot_decisions_events.0101.desc: "Seleccione el sacrificio para el ritual." #NT!
- agot_decisions_events.0101.a: "Un buen sacrificio..." #NT!
- agot_decisions_events.0101.b: "Hay que pagar un precio diferente" #NT!
- agot_decisions_events.0101.c: "Pensándolo bien, esto es una tontería." #NT!
+ agot_decisions_events.0101.t: "$agot_bloodbinding$: El sacrificio"
+ agot_decisions_events.0101.desc: "Seleccione el sacrificio para el ritual."
+ agot_decisions_events.0101.a: "Un buen sacrificio..."
+ agot_decisions_events.0101.b: "Hay que pagar un precio diferente"
+ agot_decisions_events.0101.c: "Pensándolo bien, esto es una tontería."
   
- agot_decisions_events.0102.t: "$agot_bloodbinding$: El ritual" #NT!
- agot_decisions_events.0102.intro.sacrifice_ritualist: ""Muy bien", dice [ritualist.GetFirstName] en un tono hueco pero obediente.\n\n" #NT!
- agot_decisions_events.0102.intro.sacrifice_child: ""Le he dado a [sacrifice.GetHerHim] leche de amapola [sacrifice.GetSheHe] no sentirá nada", dice [ritualist.GetFirstNameNoTooltip] mientras lleva en brazos a [sacrifice.GetFirstName], mi hijo. Mientras miro el rostro de [sacrifice.GetHerHis], empiezo a preguntarme si vale la pena. Vale la pena, tiene que valer la pena." #NT!
- agot_decisions_events.0102.intro.sacrifice_kin: "[sacrifice.GetFirstName] se presenta ante mí y el peso de mi elección comienza a pesar sobre mí. #italic ¿Funcionará? #! pienso para mí misma, pero la mirada en los ojos de [ritualist.GetFirstNamePossessiveNoTooltip] me dice que sí. Seguramente, tal confianza no está fuera de lugar." #NT!
- agot_decisions_events.0102.intro.sacrifice_prisoner: "Mi prisionero [sacrifice.GetFirstName] es llevado ante mí y el peso de mi decisión comienza a pesar sobre mí. Criminal o no, semejante destino no es un castigo justo... La duda se cuela, pero la mirada en los ojos de [ritualist.GetFirstNamePossessiveNoTooltip] me tranquiliza. Este #bold tiene razón." #NT!
- agot_decisions_events.0102.intro.sacrifice_soulmate: ""Mi amor, ¿qué es esto?" En este momento, la voz de [soulmate.GetFirstNamePossessive] es como un cristal de dragón en mis venas, desgarrándome desde dentro. Le ordeno a [soulmate.GetHerHim] que guarde silencio, pero el silencio duele igual a #bold#!." #NT!
- agot_decisions_events.0102.intro.bleed_self: "Me preparo mentalmente para lo que ocurrirá a continuación. "Esto no será fácil", dice [ritualist.GetFirstNameNoTooltip] con ligereza. "Te drenarán casi hasta la muerte y es posible que nunca te recuperes". Mi mirada fija en el cuerno del dragón se endurece. "Cuando estés listo, comenzaremos", dice [ritualist.GetSheHe]." #NT!
- agot_decisions_events.0102.desc.blood_self: "Asiento y comienza el ritual. Paso una hoja afilada por mi brazo con cuidado y observo cómo el líquido de color carmesí intenso parece burbujear a lo largo de la costura. Luego sale a borbotones, más de lo que esperaba. Más de lo que esperaba... Me siento mareada mientras la oscuridad se cuela por los bordes de mi vista." #NT!
- agot_decisions_events.0102.desc.blood_sacrifice: "\n\n[sacrifice.GetFirstNameNoTooltip] se sacude mientras deslizo mi espada suavemente por el cuello de [sacrifice.GetHerHis]. [sacrifice.GetSheHe|U] podría haber gritado, pero el sonido se convierte en un gorgoteo de sangre. Un cálido baño de color carmesí fluye de la herida ahora abierta... y la luz en los ojos de [sacrifice.GetFirstNamePossessiveNoTooltip] se apaga.\n\nEl cuerno está bañado en la sangre del sacrificio. También ofrezco unas gotas de mi propia sangre." #NT!
- agot_decisions_events.0102.desc.fire: "En el fuego, los glifos del cuerno brillan con fuerza. El vínculo está sellado. El ritual ha terminado." #NT!
- agot_decisions_events.0102.a: "¿Funcionó?" #NT!
- agot_decisions_events.0102.tt: "Sólo hay una manera de averiguarlo." #NT!
- agot_decisions_events.0102.toast.soulmate: "Sabes lo que hiciste." #NT!
+ agot_decisions_events.0102.t: "$agot_bloodbinding$: El ritual"
+ agot_decisions_events.0102.intro.sacrifice_ritualist: ""Muy bien", dice [ritualist.GetFirstName] en un tono hueco pero obediente.\n\n"
+ agot_decisions_events.0102.intro.sacrifice_child: ""Le he dado a [sacrifice.GetHerHim] leche de amapola [sacrifice.GetSheHe] no sentirá nada", dice [ritualist.GetFirstNameNoTooltip] mientras lleva en brazos a [sacrifice.GetFirstName], mi hijo. Mientras miro el rostro de [sacrifice.GetHerHis], empiezo a preguntarme si vale la pena. Vale la pena, tiene que valer la pena."
+ agot_decisions_events.0102.intro.sacrifice_kin: "[sacrifice.GetFirstName] se presenta ante mí y el peso de mi elección comienza a pesar sobre mí. #italic ¿Funcionará? #! pienso para mí misma, pero la mirada en los ojos de [ritualist.GetFirstNamePossessiveNoTooltip] me dice que sí. Seguramente, tal confianza no está fuera de lugar."
+ agot_decisions_events.0102.intro.sacrifice_prisoner: "Mi prisionero [sacrifice.GetFirstName] es llevado ante mí y el peso de mi decisión comienza a pesar sobre mí. Criminal o no, semejante destino no es un castigo justo... La duda se cuela, pero la mirada en los ojos de [ritualist.GetFirstNamePossessiveNoTooltip] me tranquiliza. Este #bold tiene razón."
+ agot_decisions_events.0102.intro.sacrifice_soulmate: ""Mi amor, ¿qué es esto?" En este momento, la voz de [soulmate.GetFirstNamePossessive] es como un cristal de dragón en mis venas, desgarrándome desde dentro. Le ordeno a [soulmate.GetHerHim] que guarde silencio, pero el silencio duele igual a #bold#!."
+ agot_decisions_events.0102.intro.bleed_self: "Me preparo mentalmente para lo que ocurrirá a continuación. "Esto no será fácil", dice [ritualist.GetFirstNameNoTooltip] con ligereza. "Te drenarán casi hasta la muerte y es posible que nunca te recuperes". Mi mirada fija en el cuerno del dragón se endurece. "Cuando estés listo, comenzaremos", dice [ritualist.GetSheHe]."
+ agot_decisions_events.0102.desc.blood_self: "Asiento y comienza el ritual. Paso una hoja afilada por mi brazo con cuidado y observo cómo el líquido de color carmesí intenso parece burbujear a lo largo de la costura. Luego sale a borbotones, más de lo que esperaba. Más de lo que esperaba... Me siento mareada mientras la oscuridad se cuela por los bordes de mi vista."
+ agot_decisions_events.0102.desc.blood_sacrifice: "\n\n[sacrifice.GetFirstNameNoTooltip] se sacude mientras deslizo mi espada suavemente por el cuello de [sacrifice.GetHerHis]. [sacrifice.GetSheHe|U] podría haber gritado, pero el sonido se convierte en un gorgoteo de sangre. Un cálido baño de color carmesí fluye de la herida ahora abierta... y la luz en los ojos de [sacrifice.GetFirstNamePossessiveNoTooltip] se apaga.\n\nEl cuerno está bañado en la sangre del sacrificio. También ofrezco unas gotas de mi propia sangre."
+ agot_decisions_events.0102.desc.fire: "En el fuego, los glifos del cuerno brillan con fuerza. El vínculo está sellado. El ritual ha terminado."
+ agot_decisions_events.0102.a: "¿Funcionó?"
+ agot_decisions_events.0102.tt: "Sólo hay una manera de averiguarlo."
+ agot_decisions_events.0102.toast.soulmate: "Sabes lo que hiciste."
   
- agot_decisions_events.0105.t: "Vínculo menguante" #NT!
- agot_decisions_events.0105.desc.intro: "Últimamente, [dragon.GetName] se ha vuelto cada vez más inquieto. Cada vez más, [dragon.Custom('GetDragonSheHe')] se muestra reacio a seguir mis órdenes y, a veces, incluso se atreve a desobedecerlas. Me preocupa que mi control sobre [dragon.Custom('GetDragonHerHim')] se haya vuelto tenso y que pronto [dragon.Custom('GetDragonSheHe')] pueda liberarse de la atadura.\n\nSolo hay una forma de solucionar esto: debo moderar mi conexión con el cuerno de dragón y hacerlo sonar en presencia de [dragon.GetNamePossessiveNoTooltip]." #NT!
- agot_decisions_events.0105.desc.imminent_break: "Temo que sea esto o perder el control de [dragon.GetNameNoTooltip] por completo." #NT!
- agot_decisions_events.0105.desc.imminent_shatter: "Temo que sea esto o perder el control de [dragon.GetNameNoTooltip] por completo." #NT!
- agot_decisions_events.0105.a: "Debo arreglar esto." #NT!
+ agot_decisions_events.0105.t: "Vínculo menguante"
+ agot_decisions_events.0105.desc.intro: "Últimamente, [dragon.GetName] se ha vuelto cada vez más inquieto. Cada vez más, [dragon.Custom('GetDragonSheHe')] se muestra reacio a seguir mis órdenes y, a veces, incluso se atreve a desobedecerlas. Me preocupa que mi control sobre [dragon.Custom('GetDragonHerHim')] se haya vuelto tenso y que pronto [dragon.Custom('GetDragonSheHe')] pueda liberarse de la atadura.\n\nSolo hay una forma de solucionar esto: debo moderar mi conexión con el cuerno de dragón y hacerlo sonar en presencia de [dragon.GetNamePossessiveNoTooltip]."
+ agot_decisions_events.0105.desc.imminent_break: "Temo que sea esto o perder el control de [dragon.GetNameNoTooltip] por completo."
+ agot_decisions_events.0105.desc.imminent_shatter: "Temo que sea esto o perder el control de [dragon.GetNameNoTooltip] por completo."
+ agot_decisions_events.0105.a: "Debo arreglar esto."
   
- agot_decisions_events.0106.t: "$agot_dragonbinding$: Vínculo roto" #NT!
- agot_decisions_events.0106.desc: "[dragon.GetNameNicknamed] ya no obedece mis órdenes, mi control sobre [dragon.Custom('GetDragonHerHim')] se ha desvanecido por completo. Debo afrontar el hecho de que ya no soy un jinete de dragón." #NT!
- agot_decisions_events.0106.a: "Mayordomo, encuéntrame el cuerno." #NT!
- agot_decisions_events.0106.a.tt: "Intentarás volver a unir al dragón con el cuerno." #NT!
- agot_decisions_events.0106.b: "Esto podría haber terminado peor." #NT!
- agot_decisions_events.0106.dragon_flee: "El dragón se liberará de tu control y huirá si no tienes un Pozo de Dragón." #NT!
+ agot_decisions_events.0106.t: "$agot_dragonbinding$: Vínculo roto"
+ agot_decisions_events.0106.desc: "[dragon.GetNameNicknamed] ya no obedece mis órdenes, mi control sobre [dragon.Custom('GetDragonHerHim')] se ha desvanecido por completo. Debo afrontar el hecho de que ya no soy un jinete de dragón."
+ agot_decisions_events.0106.a: "Mayordomo, encuéntrame el cuerno."
+ agot_decisions_events.0106.a.tt: "Intentarás volver a unir al dragón con el cuerno."
+ agot_decisions_events.0106.b: "Esto podría haber terminado peor."
+ agot_decisions_events.0106.dragon_flee: "El dragón se liberará de tu control y huirá si no tienes un Pozo de Dragón."
   
- agot_decisions_events.0107.t: "$agot_dragonbinding$: Vínculo roto" #NT!
- agot_decisions_events.0107.desc: "La unión sobre [dragon.GetName] se ha deteriorado rápidamente, un testimonio de la pura fuerza de voluntad de [dragon.Custom('GetDragonHerHis')]. Con claridad renovada, [dragon.GetNameNoTooltip] una vez más tiene control total de [dragon.Custom('GetDragonHerHis')] destino y [dragon.Custom('GetDragonSheHe')] quiere #bold venganza#!. ¡Nunca debí haber confiado en la magia de sangre!" #NT!
- agot_decisions_events.0107.a: "¡El cuerno, ahora!" #NT!
- agot_decisions_events.0107.b: "[dragon.GetName], ¡tacones! ¡Dije tacones!" #NT!
+ agot_decisions_events.0107.t: "$agot_dragonbinding$: Vínculo roto"
+ agot_decisions_events.0107.desc: "La unión sobre [dragon.GetName] se ha deteriorado rápidamente, un testimonio de la pura fuerza de voluntad de [dragon.Custom('GetDragonHerHis')]. Con claridad renovada, [dragon.GetNameNoTooltip] una vez más tiene control total de [dragon.Custom('GetDragonHerHis')] destino y [dragon.Custom('GetDragonSheHe')] quiere #bold venganza#!. ¡Nunca debí haber confiado en la magia de sangre!"
+ agot_decisions_events.0107.a: "¡El cuerno, ahora!"
+ agot_decisions_events.0107.b: "[dragon.GetName], ¡tacones! ¡Dije tacones!"
+ agot_decisions_events.0107.b.valyrian: "#italic Dohaerās, [dragon.GetNameNoTooltip]! ¡Likiri!#!" #NT!
   
- agot_decisions_events.0109.t: "$agot_dragonbinding$: Un duro despertar" #NT!
- agot_decisions_events.0109.desc: "[dragon.GetNameNicknamed] ha dejado de responder abruptamente a mis órdenes. No es hasta que [dragon.Custom('GetDragonSheHe')] me mira fijamente que puedo sentir el profundo odio que este dragón siente por mí...\n\nSolo cuando las mandíbulas de [dragon.Custom('GetDragonHerHis')] se cierran alrededor de mi cuerpo entiendo lo que ha sucedido aquí. ¡La atadura se ha roto! ¡Alguien más se ha atado a mi cuerno de dragón!" #NT!
- agot_decisions_events.0109.a: "[ROOT.Char.Custom('Scream')]" #NT!
+ agot_decisions_events.0109.t: "$agot_dragonbinding$: Un duro despertar"
+ agot_decisions_events.0109.desc: "[dragon.GetNameNicknamed] ha dejado de responder abruptamente a mis órdenes. No es hasta que [dragon.Custom('GetDragonSheHe')] me mira fijamente que puedo sentir el profundo odio que este dragón siente por mí...\n\nSolo cuando las mandíbulas de [dragon.Custom('GetDragonHerHis')] se cierran alrededor de mi cuerpo entiendo lo que ha sucedido aquí. ¡La atadura se ha roto! ¡Alguien más se ha atado a mi cuerno de dragón!"
+ agot_decisions_events.0109.a: "[ROOT.Char.Custom('Scream')]"
   
- agot_decisions_events.0110.t: "$agot_dragonbinding$: Salida repentina" #NT!
- agot_decisions_events.0110.desc: "Al principio, no estaba claro qué había obligado a [dragon.GetName] a irse tan abruptamente. Hasta ahora, mi control sobre [dragon.Custom('GetDragonHerHim')] parecía sólido.\n\nPero, después de reflexionar, solo hay una conclusión natural: ¡alguien más se ha unido a mi cuerno de dragón! En retrospectiva, nunca debí haber extraviado esa cosa. Me consideraré afortunado, esto podría haber sido mucho peor." #NT!
- agot_decisions_events.0110.a: "Es una lástima perder al dragón." #NT!
+ agot_decisions_events.0110.t: "$agot_dragonbinding$: Salida repentina"
+ agot_decisions_events.0110.desc: "Al principio, no estaba claro qué había obligado a [dragon.GetName] a irse tan abruptamente. Hasta ahora, mi control sobre [dragon.Custom('GetDragonHerHim')] parecía sólido.\n\nPero, después de reflexionar, solo hay una conclusión natural: ¡alguien más se ha unido a mi cuerno de dragón! En retrospectiva, nunca debí haber extraviado esa cosa. Me consideraré afortunado, esto podría haber sido mucho peor."
+ agot_decisions_events.0110.a: "Es una lástima perder al dragón."
