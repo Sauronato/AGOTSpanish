@@ -1,5 +1,6 @@
 ## Traducción del mod AGOT de CK3 al español
 ---
+Actualizado a la versión 0.6
 
 Este mod traduce prácticamente a la totalidad el mod de Juego de Tronos para Crusader Kings III.
 
