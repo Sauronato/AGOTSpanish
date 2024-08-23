@@ -42,7 +42,7 @@
  #ADD_learning_SKILL_EFFECT: ""
  ADD_COURTIER_EFFECT: "$COURTIER$ se convierte en [courtier|E] en la corte de $EMPLOYER$"
  SET_EMPLOYER_EFFECT: "$COURTIER$ se convierte en [courtier|E] en la corte de $EMPLOYER$"
- REMOVE_COURT_CHARACTER_EFFECT: "[TARGET_CHARACTER.GetUIName] hojas [CHARACTER.GetShortUINamePossessive] corte"
+ REMOVE_COURT_CHARACTER_EFFECT: "[TARGET_CHARACTER.GetUIName] deja [CHARACTER.GetShortUINamePossessive] corte"
  REMOVED_COURT_CHARACTER_EFFECT: "[TARGET_CHARACTER.GetUIName] quedan [CHARACTER.GetShortUINamePossessive] cancha"
  GAIN_HOOK_EFFECT: "Obtiene un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
  GAINED_HOOK_EFFECT: "Obtuve un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
@@ -1288,9 +1288,9 @@
  ADD_DEFENDER_EFFECT_THIRD: "[CHARACTER.GetUIName] se une a [WAR.GetName|V] como Defensor"
  ADDED_DEFENDER_EFFECT_THIRD: "[CHARACTER.GetUIName] se unió a [WAR.GetName|V] como Defensor"
   
- REMOVE_PARTICIPANT_EFFECT: "Hojas [WAR.GetName|V]"
+ REMOVE_PARTICIPANT_EFFECT: "Dejas [WAR.GetName|V]"
  REMOVE_PARTICIPANT_EFFECT_FIRST: "Te vas [WAR.GetName|V]"
- REMOVE_PARTICIPANT_EFFECT_THIRD: "[CHARACTER.GetUIName] hojas [WAR.GetName|V]"
+ REMOVE_PARTICIPANT_EFFECT_THIRD: "[CHARACTER.GetUIName] dejas [WAR.GetName|V]"
   
  ENTERS_SERVICE: "[TARGET_CHARACTER.GetShortUIName|U] se une a [CHARACTER.GetShortUINamePossessive] Corte"
  ENTERS_MY_SERVICE: "[TARGET_CHARACTER.GetShortUIName|U] se une a tu Corte"
@@ -1595,7 +1595,7 @@
  leave_faction_with_cooldown_effect_first.tt: "No puedes unirte a otro hostil [faction|E] por #V $VALUE|0$ años#!"
  leave_faction_with_cooldown_effect_global.tt: "No se puede unir a otro [faction|E] hostil durante #V $VALUE|0$ años#!"
   
- CHARACTER_LEAVES_COURT: "[CHARACTER.GetShortUIName|U] hojas [CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive] [court|E]"
+ CHARACTER_LEAVES_COURT: "[CHARACTER.GetShortUIName|U] deja [CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive] [court|E]"
  LEFT_COURT: "Izquierda [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
  LEAVES_COURT: "Deja [CHARACTER.GetCurrentLocation.GetCounty.GetTitle.GetHolder.GetShortUINamePossessive] [court|E]"
  CHARACTER_LEFT_COURT: "[CHARACTER.GetShortUIName|U] quedan [CHARACTER.GetLiege.GetShortUINamePossessive] [court|E]"
