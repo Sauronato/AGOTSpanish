@@ -16,7 +16,7 @@
  ep2_locale_events.1002.a: "Vamos, no hace falta esa hostilidad. ¿Os invito a un trago?"
  ep2_locale_events.1002.b: "¿Ah, sí? #EMP ¡Traed las jarras!#!"
  ep2_locale_events.1002.b.success: "Consigues que [local_drunk.GetFirstNameNoTooltip] beba como una cuba"
- ep2_locale_events.1002.b.failure: "Te despiertas un par de horas después, maread[ROOT.Char.Custom('ES_OA')] y con un dolor de cabeza agudo"
+ ep2_locale_events.1002.b.failure: "Te despiertas un par de horas después, mareado y con un dolor de cabeza agudo"
  ep2_locale_events.1002.c: "Sentaos y callad, borrach[local_drunk.Custom('ES_OA')] incurable."
   
  ep2_locale_events.1010.t: "$tournament_locale_tavern$: ¿una partida?"
@@ -50,7 +50,7 @@
  ep2_locale_events.1013.t: "$tournament_locale_tavern$: la definitiva"
  ep2_locale_events.1013.opening: "Revelamos nuestros dados a la vez, pero enseguida se hace evidente que será necesaria una tercera ronda. Cogemos los cubiletes y los dados para la ronda final, en la que quien gane se lo lleva todo."
  ep2_locale_events.1013.dice_reveal: "\n\nAlzo el lado del cubilete que más cerca tengo. Las pequeñas marcas del dado revelan su número: #BOL [ROOT.Var('root_dice_3').GetValue|0]#!. Vuelvo a dejar el cubilete en la mesa y miro hacia arriba."
- ep2_locale_events.1013.tell.good: "\n\nHan pasado tres rondas y las pistas de [gambler.GetFirstName] empiezan a ser obvias. Su nariz se ensancha imperceptiblemente cuando la suma es alta, estoy segur[ROOT.Char.Custom('ES_OA')] de ello. ¿Pero no será solo un farol?"
+ ep2_locale_events.1013.tell.good: "\n\nHan pasado tres rondas y las pistas de [gambler.GetFirstName] empiezan a ser obvias. Su nariz se ensancha imperceptiblemente cuando la suma es alta, estoy seguro de ello. ¿Pero no será solo un farol?"
  ep2_locale_events.1013.tell.bad: "\n\n[gambler.GetFirstName] se pasa la mano por la cabeza distraíd[gambler.Custom('ES_OA')]. ¿Desesperad[gambler.Custom('ES_OA')]? ¿Es una tirada especialmente baja? Me ve y pone algo parecido a cara de valiente. #EMP Podría#! ser un farol doble…"
  ep2_locale_events.1013.average: "\n\n[gambler.GetFirstNameNoTooltip] intenta mirarme fijamente, pero su mirada vacila. Un labio tembloroso delata #EMP algo#!, pero ¿el qué?"
  ep2_locale_events.1013.deceitful: "\n\nLa impasibilidad de [gambler.GetFirstName] a lo largo de este duelo de ingenios ha sido realmente asombrosa y aquí no es diferente. La absoluta falta de emoción en su rostro es casi chocante. Tendrá que reducirse a simple azar."
@@ -60,7 +60,7 @@
  ep2_locale_events.1014.t: "$tournament_locale_tavern$: bien apostado"
  ep2_locale_events.1014.opening: "Los cubiletes se levantan por última vez. La pequeña multitud que se ha reunido a nuestro alrededor se inclina para ver que…\n\n"
  ep2_locale_events.1014.win: "¡He vencido! [gambler.GetFirstName] pone la cara más valiente que puede, pero su enfado es evidente. Empuja las bolsas que habíamos apostado hacia mi lado de la mesa y se aleja malhumorad[gambler.Custom('ES_OA')], el límite justo de la cortesía.\n\nMe reclino en la silla, tan alegre como con agotamiento mental."
- ep2_locale_events.1014.lose: "¡He perdido! [gambler.GetFirstName] se jacta encantad[gambler.Custom('ES_OA')] mientras coge las bolsas que habíamos apostado.\n\n«¡Más suerte la próxima vez!», se carcajea y se escabulle con los brazos llenos de dinero.\n\nMe reclino en la silla, desinflad[ROOT.Char.Custom('ES_OA')]."
+ ep2_locale_events.1014.lose: "¡He perdido! [gambler.GetFirstName] se jacta encantad[gambler.Custom('ES_OA')] mientras coge las bolsas que habíamos apostado.\n\n«¡Más suerte la próxima vez!», se carcajea y se escabulle con los brazos llenos de dinero.\n\nMe reclino en la silla, desinflado."
  ep2_locale_events.1014.draw: "Hemos... ¿empatado? [gambler.GetFirstName] se frota la cabeza con pesar, mientras recuperamos las bolsas de oro que habíamos puesto sobre la mesa para el vencedor.\n\n«Bueno, a veces los dados funcionan de maneras misteriosas», dice [gambler.GetFirstNameNoTooltip], encogiéndose de hombros. «Bien jugado, no obstante». Se levanta y se aleja."
  ep2_locale_events.1014.a: "¡Camarero! ¡Las bebidas corren de mi cuenta!"
  ep2_locale_events.1014.b: "¡Ah, el sabor de la victoria!"
@@ -389,7 +389,7 @@
  ep2_locale_events.4505.c: "¡No quiero tus espadas de baratillo!"
   
  ep2_locale_events.4506.t: "$tournament_locale_weaponsmith$: ¿qué importancia tiene el nombre?"
- ep2_locale_events.4506.desc: "«Necesita un nombre».\n\nLa interrupción de [tournament_weaponsmith.GetFirstName] mientras enarbolo mi nueva espada para probarla me obliga a mirar[tournament_weaponsmith.Custom('ES_LoLa')] con una ceja enarcada.\n\n«Todas las armas que llevan los personajes de las leyendas tienen un nombre. ¡Es lo que se hace! La espada de un[ROOT.Char.Custom('ES_XA')] guerrer[ROOT.Char.Custom('ES_OA')] poderos[ROOT.Char.Custom('ES_OA')] necesita un nombre potente para que los enemigos se amedrenten», insiste [tournament_weaponsmith.GetFirstNameNoTooltip]."
+ ep2_locale_events.4506.desc: "«Necesita un nombre».\n\nLa interrupción de [tournament_weaponsmith.GetFirstName] mientras enarbolo mi nueva espada para probarla me obliga a mirar[tournament_weaponsmith.Custom('ES_LoLa')] con una ceja enarcada.\n\n«Todas las armas que llevan los personajes de las leyendas tienen un nombre. ¡Es lo que se hace! La espada de un[ROOT.Char.Custom('ES_XA')] guerrero poderoso necesita un nombre potente para que los enemigos se amedrenten», insiste [tournament_weaponsmith.GetFirstNameNoTooltip]."
  ep2_locale_events.4506.a: "Tengo un nombre así pensado."
  ep2_locale_events.4506.a.tt: "[rename_artifact.GetName] recibe un nombre nuevo"
  ep2_locale_events.4506.b: "Una espada es una herramienta, y nada más."
@@ -454,7 +454,7 @@
  ep2_locale_events.5020.b: "La oportunidad perfecta para intimidar a es[impressed_rival.Custom('ES_EA')] molest[impressed_rival.Custom('ES_OA')] [impressed_rival.GetFirstNameNoTooltip]."
  ep2_locale_events.5020.b.success: "[impressed_rival.GetShortUIName] se siente intimidad[impressed_rival.Custom('ES_OA')]"
  ep2_locale_events.5020.b.failure: "[impressed_rival.GetShortUIName] no se dejó impresionar"
- ep2_locale_events.5020.c: "Solo hay una persona a la que tengo que impresionar. A mí mism[ROOT.Char.Custom('ES_OA')]."
+ ep2_locale_events.5020.c: "Solo hay una persona a la que tengo que impresionar. A mí mismo."
  tournament_ground_flexing: "Entrenamiento impresionante"
  ep2_locale_events.5020.a.success.tt: "Tu relación con [impressed_lover.GetShortUIName] ha aumentado la [fertility|lE]"
   
@@ -467,7 +467,7 @@
  ep2_locale_events.1520.e: "No significa nada."
  tournament_astronomy_modifier: "Astrónomo"
  tournament_astronomy_modifier_desc: "Este personaje ha estudiado las estrellas y sus movimientos"
- ep2_locale_events.1520.superstitious: "Te vuelves supersticios[ROOT.Char.Custom('ES_OA')]"
+ ep2_locale_events.1520.superstitious: "Te vuelves supersticioso"
   
  ep2_locale_events.3010.t: "Aire viciado"
  ep2_locale_events.3010.desc: "Nada más entrar en el campamento me recibe un olor penetrante. Me tapo la nariz con toda la elegancia que puedo mientras intento no enfermar, y se me acerca [alerted_physician.GetFirstName], tapándose la nariz con un pañuelo.\n\n«Deberíais iros, mi [ROOT.Char.GetLadyLord], los contendientes están enfermando, perjudicados por el aire viciado», me advierte [alerted_physician.GetSheHe]."
@@ -619,7 +619,7 @@
  tournament_stopped_peasant_fight: "Calles tranquilas"
   
  ep2_locale_events.5520.t: "$tournament_locale_settlement$: tirando del hilo"
- ep2_locale_events.5520.desc: "Un grupo de [village_woman.GetWomenMen] han ocupado una casa como su taller de costura principal, y puedo captar claramente que mantienen una conversación animada sobre el torneo en curso.\n\nMe inclino sobre la ventana con gran cuidado de pasar desapercibid[ROOT.Char.Custom('ES_OA')].\n\n«… ¿y qué hay de es[gossip_knight.Custom('ES_EA')], [gossip_knight.GetFirstName]? ¡No me puedo creer que ayer le pillaran in fraganti!», dice [Select_CString( village_woman.IsFemale, 'una de ellas', 'uno de ellos' )], mientras teje unos hilos con pericia."
+ ep2_locale_events.5520.desc: "Un grupo de [village_woman.GetWomenMen] han ocupado una casa como su taller de costura principal, y puedo captar claramente que mantienen una conversación animada sobre el torneo en curso.\n\nMe inclino sobre la ventana con gran cuidado de pasar desapercibido.\n\n«… ¿y qué hay de es[gossip_knight.Custom('ES_EA')], [gossip_knight.GetFirstName]? ¡No me puedo creer que ayer le pillaran in fraganti!», dice [Select_CString( village_woman.IsFemale, 'una de ellas', 'uno de ellos' )], mientras teje unos hilos con pericia."
  ep2_locale_events.5520.a: "¿He oído bien?"
  ep2_locale_events.5520.a.success: "No parecen haberse fijado en ti"
  ep2_locale_events.5520.a.success.tt: "Descubres el secreto [gossip_knight.Custom('ES_DelDela')] [gossip_knight.GetTitledFirstName|l]"
@@ -657,7 +657,7 @@
  ep2_locale_events.3020.a: "«Vencer no os conseguirá amigos»."
  ep2_locale_events.3020.a.success: "[enemy_knight.GetShortUIName] te escucha"
  ep2_locale_events.3020.a.failure: "Tu propuesta es insultante para [enemy_knight.GetShortUIName]"
- ep2_locale_events.3020.b: "«Soy vuestr[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetLadyLord]. Os ordeno que lo dejéis»."
+ ep2_locale_events.3020.b: "«Soy vuestro [ROOT.Char.GetLadyLord]. Os ordeno que lo dejéis»."
  ep2_locale_events.3020.c: "Quiero una pelea justa."
   
   # OPINIONS 

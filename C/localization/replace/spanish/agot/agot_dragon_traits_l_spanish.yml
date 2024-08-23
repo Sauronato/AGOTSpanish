@@ -1,175 +1,175 @@
 ﻿l_spanish:
   #Dragon 
- trait_dragon_generic: "Dragón" #NT!
- trait_dragon_wild: "Dragón salvaje" #NT!
- trait_dragon_owned: "Dragón propio" #NT!
- trait_dragon_tamed: "Dragón domesticado" #NT!
+ trait_dragon_generic: "Dragón"
+ trait_dragon_wild: "Dragón salvaje"
+ trait_dragon_owned: "Dragón propio"
+ trait_dragon_tamed: "Dragón domesticado"
  trait_dragon_desc: "Descripción del marcador de posición del dragón"
  trait_dragon_character_desc: "Descripción del carácter del marcador de posición del dragón"
   
   #Dragonrider 
- trait_dragonrider: "Jinete de dragón" #NT!
- trait_dragonrider_desc: "Los jinetes de dragones son esos pocos hombres y mujeres que se han unido a un dragón y manejan ese temible poder para sus propios fines." #NT!
- trait_dragonrider_character_desc: "Después de haber domesticado y unido al dragón '[ROOT.Var('current_dragon').Char.GetName]', [ROOT.GetCharacter.GetFirstNameNoTooltip] ahora es capaz de montar a [ROOT.Var('current_dragon').Char.Custom('GetDragonHerHim')]." #NT!
- trait_dragon_name_dragon_alive: "[ROOT.Var('current_dragon').Char.GetNamePossessive|U] Jinete" #NT!
- trait_track_dragon_training: "Entrenamiento de dragones" #NT!
- trait_track_dragon_training_desc: "El tiempo que pasan entrenando o combatiendo juntos mejora la habilidad y la velocidad con la que un jinete puede usar el poderoso poder de su dragón.\n\nCada nivel de entrenamiento agregará [dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon! #P +10%#!, hasta un máximo de #P +30%#!." #NT!
- trait_track_dragon_bond: "Vínculo del dragón" #NT!
- trait_track_dragon_bond_desc: "El vínculo entre un dragón y su jinete siempre es fuerte, pero se dice que los más fuertes están vinculados mágicamente. Un vínculo más estrecho hará que un dragón sirva a su jinete incluso en las circunstancias más estresantes." #NT!
- trait_dragonless_dragonrider: "Jinete sin dragón" #NT!
- trait_dragonless_dragonrider_desc: "Habiéndose unido previamente con un dragón, este personaje una vez ejerció la mayor fuerza del mundo; aunque actualmente no tiene dragón." #NT!
- trait_dragonless_dragonrider_character_desc: "Habiéndose unido previamente con un dragón, [ROOT.GetCharacter.GetFirstNameNoTooltip] alguna vez ejerció la mayor fuerza del mundo; aunque [ROOT.GetCharacter.GetSheHe] actualmente no tiene dragón." #NT!
- trait_dragonwidowed: "Vínculo roto" #NT!
- trait_dragonwidowed_desc: "Habiendo unido previamente a un dragón, la pérdida del vínculo de este personaje los ha dejado incapaces de considerar vincularse con otro dragón." #NT!
- trait_dragonwidowed_character_desc: "Habiéndose unido previamente a un dragón, la pérdida del compañero unido de [ROOT.GetCharacter.GetHerHis] ha dejado a [ROOT.GetCharacter.GetFirstNameNoTooltip] incapaz de considerar unirse con otro dragón." #NT!
+ trait_dragonrider: "Jinete de dragón"
+ trait_dragonrider_desc: "Los jinetes de dragones son esos pocos hombres y mujeres que se han unido a un dragón y manejan ese temible poder para sus propios fines."
+ trait_dragonrider_character_desc: "Después de haber domesticado y unido al dragón '[ROOT.Var('current_dragon').Char.GetName]', [ROOT.GetCharacter.GetFirstNameNoTooltip] ahora es capaz de montar a [ROOT.Var('current_dragon').Char.Custom('GetDragonHerHim')]."
+ trait_dragon_name_dragon_alive: "[ROOT.Var('current_dragon').Char.GetNamePossessive|U] Jinete"
+ trait_track_dragon_training: "Entrenamiento de dragones"
+ trait_track_dragon_training_desc: "El tiempo que pasan entrenando o combatiendo juntos mejora la habilidad y la velocidad con la que un jinete puede usar el poderoso poder de su dragón.\n\nCada nivel de entrenamiento agregará [dragon_combat_effectiveness|E]: @dragon_combat_effectiveness_icon! #P +10%#!, hasta un máximo de #P +30%#!."
+ trait_track_dragon_bond: "Vínculo del dragón"
+ trait_track_dragon_bond_desc: "El vínculo entre un dragón y su jinete siempre es fuerte, pero se dice que los más fuertes están vinculados mágicamente. Un vínculo más estrecho hará que un dragón sirva a su jinete incluso en las circunstancias más estresantes."
+ trait_dragonless_dragonrider: "Jinete sin dragón"
+ trait_dragonless_dragonrider_desc: "Habiéndose unido previamente con un dragón, este personaje una vez ejerció la mayor fuerza del mundo; aunque actualmente no tiene dragón."
+ trait_dragonless_dragonrider_character_desc: "Habiéndose unido previamente con un dragón, [ROOT.GetCharacter.GetFirstNameNoTooltip] alguna vez ejerció la mayor fuerza del mundo; aunque [ROOT.GetCharacter.GetSheHe] actualmente no tiene dragón."
+ trait_dragonwidowed: "Vínculo roto"
+ trait_dragonwidowed_desc: "Habiendo unido previamente a un dragón, la pérdida del vínculo de este personaje los ha dejado incapaces de considerar vincularse con otro dragón."
+ trait_dragonwidowed_character_desc: "Habiéndose unido previamente a un dragón, la pérdida del compañero unido de [ROOT.GetCharacter.GetHerHis] ha dejado a [ROOT.GetCharacter.GetFirstNameNoTooltip] incapaz de considerar unirse con otro dragón."
   
   #Dragonslayer 
- trait_dragonslayer: "Cazador de dragones" #NT!
- trait_dragonslayer_desc: "Muy pocos pueden reclamar el manto de cazador de dragones, ¡pero este personaje ha hecho justamente eso!" #NT!
- trait_dragonslayer_character_desc_alive: "[ROOT.Char.GetFirstNameNoTooltip] ha matado al dragón [ROOT.Char.MakeScope.Var( 'slain_dragon' ).GetCharacter.GetNameNoTooltip], ¡una hazaña verdaderamente impresionante de destreza marcial!" #NT!
- trait_dragonslayer_character_desc_dead: "[ROOT.Char.GetFirstNameNoTooltip] ha matado a un poderoso dragón, ¡una hazaña verdaderamente impresionante de destreza marcial!" #NT!
+ trait_dragonslayer: "Cazador de dragones"
+ trait_dragonslayer_desc: "Muy pocos pueden reclamar el manto de cazador de dragones, ¡pero este personaje ha hecho justamente eso!"
+ trait_dragonslayer_character_desc_alive: "[ROOT.Char.GetFirstNameNoTooltip] ha matado al dragón [ROOT.Char.MakeScope.Var( 'slain_dragon' ).GetCharacter.GetNameNoTooltip], ¡una hazaña verdaderamente impresionante de destreza marcial!"
+ trait_dragonslayer_character_desc_dead: "[ROOT.Char.GetFirstNameNoTooltip] ha matado a un poderoso dragón, ¡una hazaña verdaderamente impresionante de destreza marcial!"
   
   #Dragon personality traits 
- trait_dragon_aggressive: "Agresivo" #NT!
- trait_dragon_aggressive_desc: "Rápido para atacar a cualquier criatura, en cualquier situación, este dragón es conocido por su ira." #NT!
- trait_dragon_aggressive_character_desc: "Rápido para arremeter contra cualquier criatura, en cualquier situación, [ROOT.Char.GetFirstNameNoTooltip] es conocido por su ira." #NT!
+ trait_dragon_aggressive: "Agresivo"
+ trait_dragon_aggressive_desc: "Rápido para atacar a cualquier criatura, en cualquier situación, este dragón es conocido por su ira."
+ trait_dragon_aggressive_character_desc: "Rápido para arremeter contra cualquier criatura, en cualquier situación, [ROOT.Char.GetFirstNameNoTooltip] es conocido por su ira."
   
- trait_dragon_friendly: "Amigable" #NT!
- trait_dragon_friendly_desc: "Este dragón es sorprendentemente pacífico y considerado con la mayoría de las criaturas, y a menudo puede ser tranquilo o incluso juguetón." #NT!
- trait_dragon_friendly_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es sorprendentemente pacífico y considerado con la mayoría de las criaturas, y a menudo puede ser tranquilo o incluso juguetón." #NT!
+ trait_dragon_friendly: "Amigable"
+ trait_dragon_friendly_desc: "Este dragón es sorprendentemente pacífico y considerado con la mayoría de las criaturas, y a menudo puede ser tranquilo o incluso juguetón."
+ trait_dragon_friendly_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es sorprendentemente pacífico y considerado con la mayoría de las criaturas, y a menudo puede ser tranquilo o incluso juguetón."
   
- trait_dragon_cooperative: "Cooperativa" #NT!
- trait_dragon_cooperative_desc: "Este dragón es un animal de carga de principio a fin. Sobresale con sus compañeros a su lado." #NT!
- trait_dragon_cooperative_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es un animal de manada de pies a cabeza. [ROOT.Char.Custom('GetDragonSheHe')|U] se destaca con sus compañeros del lado de [ROOT.Char.Custom('GetDragonHerHis')]." #NT!
+ trait_dragon_cooperative: "Cooperativa"
+ trait_dragon_cooperative_desc: "Este dragón es un animal de carga de principio a fin. Sobresale con sus compañeros a su lado."
+ trait_dragon_cooperative_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es un animal de manada de pies a cabeza. [ROOT.Char.Custom('GetDragonSheHe')|U] se destaca con sus compañeros del lado de [ROOT.Char.Custom('GetDragonHerHis')]."
   
- trait_dragon_solitary: "Solitario" #NT!
- trait_dragon_solitary_desc: "Este dragón es más efectivo cuando está libre de distracciones y de otros dragones." #NT!
- trait_dragon_solitary_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es más efectivo en [ROOT.Char.Custom('GetDragonHerHis')] cuando está libre de distracciones y otros dragones." #NT!
+ trait_dragon_solitary: "Solitario"
+ trait_dragon_solitary_desc: "Este dragón es más efectivo cuando está libre de distracciones y de otros dragones."
+ trait_dragon_solitary_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es más efectivo en [ROOT.Char.Custom('GetDragonHerHis')] cuando está libre de distracciones y otros dragones."
   
- trait_dragon_imperious: "Imperioso" #NT!
- trait_dragon_imperious_desc: "Hay algo casi regio en las interacciones entre este dragón y otros dragones. Espera que todos, dragones y hombres, se sometan a él." #NT!
- trait_dragon_imperious_character_desc: "Hay algo casi regio en las interacciones entre [ROOT.Char.GetFirstNameNoTooltip] y otros dragones. [ROOT.Char.Custom('GetDragonSheHe')|U] espera que todos, dragones y hombres, se sometan a [ROOT.Char.Custom('GetDragonHerHim')]." #NT!
+ trait_dragon_imperious: "Imperioso"
+ trait_dragon_imperious_desc: "Hay algo casi regio en las interacciones entre este dragón y otros dragones. Espera que todos, dragones y hombres, se sometan a él."
+ trait_dragon_imperious_character_desc: "Hay algo casi regio en las interacciones entre [ROOT.Char.GetFirstNameNoTooltip] y otros dragones. [ROOT.Char.Custom('GetDragonSheHe')|U] espera que todos, dragones y hombres, se sometan a [ROOT.Char.Custom('GetDragonHerHim')]."
   
- trait_dragon_supporting: "Secundario" #NT!
- trait_dragon_supporting_desc: "Parece que este dragón sería más feliz como uno de los muchos secuaces que trabajan para él. Valora la lealtad por encima de tener el control." #NT!
- trait_dragon_supporting_character_desc: "Parece que [ROOT.Char.GetFirstNameNoTooltip] sería más feliz como uno de los muchos secuaces que trabajan. [ROOT.Char.Custom('GetDragonSheHe')|U] valora la lealtad por encima de tener el control." #NT!
+ trait_dragon_supporting: "Secundario"
+ trait_dragon_supporting_desc: "Parece que este dragón sería más feliz como uno de los muchos secuaces que trabajan para él. Valora la lealtad por encima de tener el control."
+ trait_dragon_supporting_character_desc: "Parece que [ROOT.Char.GetFirstNameNoTooltip] sería más feliz como uno de los muchos secuaces que trabajan. [ROOT.Char.Custom('GetDragonSheHe')|U] valora la lealtad por encima de tener el control."
   
- trait_dragon_impulsive: "Impulsivo" #NT!
- trait_dragon_impulsive_desc: "Este dragón ataca con desenfrenado desenfreno y a menudo se enfrenta a los enemigos de inmediato." #NT!
- trait_dragon_impulsive_character_desc: "Al atacar con abandono imprudente, [ROOT.Char.GetFirstNameNoTooltip] a menudo atacará a los enemigos de inmediato." #NT!
+ trait_dragon_impulsive: "Impulsivo"
+ trait_dragon_impulsive_desc: "Este dragón ataca con desenfrenado desenfreno y a menudo se enfrenta a los enemigos de inmediato."
+ trait_dragon_impulsive_character_desc: "Al atacar con abandono imprudente, [ROOT.Char.GetFirstNameNoTooltip] a menudo atacará a los enemigos de inmediato."
   
- trait_dragon_calculating: "Calculador" #NT!
- trait_dragon_calculating_desc: "Una bestia paciente, este dragón prefiere luchar con movimientos bien planificados y concentrados." #NT!
- trait_dragon_calculating_character_desc: "Una bestia paciente, [ROOT.Char.GetFirstNameNoTooltip] prefiere luchar con [ROOT.Char.Custom('GetDragonHerHis')] con movimientos bien planificados y concentrados." #NT!
+ trait_dragon_calculating: "Calculador"
+ trait_dragon_calculating_desc: "Una bestia paciente, este dragón prefiere luchar con movimientos bien planificados y concentrados."
+ trait_dragon_calculating_character_desc: "Una bestia paciente, [ROOT.Char.GetFirstNameNoTooltip] prefiere luchar con [ROOT.Char.Custom('GetDragonHerHis')] con movimientos bien planificados y concentrados."
   
- trait_dragon_voracious: "Voraz" #NT!
- trait_dragon_voracious_desc: "Con un apetito insaciable, este dragón es conocido por alimentarse en exceso." #NT!
- trait_dragon_voracious_character_desc: "Con un apetito insaciable, se sabe que [ROOT.Char.GetFirstNameNoTooltip] se alimenta en exceso." #NT!
+ trait_dragon_voracious: "Voraz"
+ trait_dragon_voracious_desc: "Con un apetito insaciable, este dragón es conocido por alimentarse en exceso."
+ trait_dragon_voracious_character_desc: "Con un apetito insaciable, se sabe que [ROOT.Char.GetFirstNameNoTooltip] se alimenta en exceso."
   
- trait_dragon_restrained: "Contenido" #NT!
- trait_dragon_restrained_desc: "Este dragón come menos de lo que se esperaría de un dragón de su tamaño, preservando recursos valiosos." #NT!
- trait_dragon_restrained_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] come menos de lo que se esperaría de un dragón de tamaño [ROOT.Char.Custom('GetDragonHerHis')], preservando recursos valiosos." #NT!
+ trait_dragon_restrained: "Contenido"
+ trait_dragon_restrained_desc: "Este dragón come menos de lo que se esperaría de un dragón de su tamaño, preservando recursos valiosos."
+ trait_dragon_restrained_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] come menos de lo que se esperaría de un dragón de tamaño [ROOT.Char.Custom('GetDragonHerHis')], preservando recursos valiosos."
   
- trait_dragon_defiant: "Desafiante" #NT!
- trait_dragon_defiant_desc: "Este dragón, que desprecia la sumisión a cualquier hombre, es probable que rechace jinetes, órdenes o cadenas." #NT!
- trait_dragon_defiant_character_desc: "Rechazando la sumisión a cualquier hombre, [ROOT.Char.GetFirstNameNoTooltip] es probable que rechace jinetes, órdenes o cadenas." #NT!
+ trait_dragon_defiant: "Desafiante"
+ trait_dragon_defiant_desc: "Este dragón, que desprecia la sumisión a cualquier hombre, es probable que rechace jinetes, órdenes o cadenas."
+ trait_dragon_defiant_character_desc: "Rechazando la sumisión a cualquier hombre, [ROOT.Char.GetFirstNameNoTooltip] es probable que rechace jinetes, órdenes o cadenas."
   
- trait_dragon_accepting: "Aceptando" #NT!
- trait_dragon_accepting_desc: "Curiosamente relajado con la gente, este dragón ha mostrado una tendencia hacia los jinetes y a seguir instrucciones." #NT!
- trait_dragon_accepting_character_desc: "Curiosamente relajado entre la gente, [ROOT.Char.GetFirstNameNoTooltip] ha mostrado una tendencia hacia los jinetes y a seguir instrucciones." #NT!
+ trait_dragon_accepting: "Aceptando"
+ trait_dragon_accepting_desc: "Curiosamente relajado con la gente, este dragón ha mostrado una tendencia hacia los jinetes y a seguir instrucciones."
+ trait_dragon_accepting_character_desc: "Curiosamente relajado entre la gente, [ROOT.Char.GetFirstNameNoTooltip] ha mostrado una tendencia hacia los jinetes y a seguir instrucciones."
   
- trait_dragon_bloodthirsty: "Sanguinario" #NT!
- trait_dragon_bloodthirsty_desc: "Este dragón anhela el conflicto sangriento y se nota en su elemento como causa de muerte o destrucción." #NT!
- trait_dragon_bloodthirsty_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] anhela el conflicto sangriento y está notablemente en el elemento [ROOT.Char.Custom('GetDragonHerHis')] como causa de muerte o destrucción." #NT!
+ trait_dragon_bloodthirsty: "Sanguinario"
+ trait_dragon_bloodthirsty_desc: "Este dragón anhela el conflicto sangriento y se nota en su elemento como causa de muerte o destrucción."
+ trait_dragon_bloodthirsty_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] anhela el conflicto sangriento y está notablemente en el elemento [ROOT.Char.Custom('GetDragonHerHis')] como causa de muerte o destrucción."
   
- trait_dragon_skittish: "Asustadizo" #NT!
- trait_dragon_skittish_desc: "Con tendencia a huir del conflicto, este dragón parece terriblemente inconsciente de su poder interior." #NT!
- trait_dragon_skittish_character_desc: "Con una tendencia a huir del conflicto, [ROOT.Char.GetFirstNameNoTooltip] parece terriblemente inconsciente del poder que [ROOT.Char.Custom('GetDragonHerHis')] tiene dentro..." #NT!
+ trait_dragon_skittish: "Asustadizo"
+ trait_dragon_skittish_desc: "Con tendencia a huir del conflicto, este dragón parece terriblemente inconsciente de su poder interior."
+ trait_dragon_skittish_character_desc: "Con una tendencia a huir del conflicto, [ROOT.Char.GetFirstNameNoTooltip] parece terriblemente inconsciente del poder que [ROOT.Char.Custom('GetDragonHerHis')] tiene dentro..."
   
- trait_dragon_cannibal: "Caníbal" #NT!
- trait_dragon_cannibal_desc: "Lejos de simplemente luchar por territorio o en la guerra, se sabe que este dragón canibaliza a otros dragones, simplemente para saciar su apetito." #NT!
- trait_dragon_cannibal_character_desc: "Lejos de simplemente luchar por territorio o en la guerra, se sabe que [ROOT.Char.GetFirstNameNoTooltip] canibaliza a otros dragones simplemente para saciar el apetito de [ROOT.Char.Custom('GetDragonHerHis')]." #NT!
+ trait_dragon_cannibal: "Caníbal"
+ trait_dragon_cannibal_desc: "Lejos de simplemente luchar por territorio o en la guerra, se sabe que este dragón canibaliza a otros dragones, simplemente para saciar su apetito."
+ trait_dragon_cannibal_character_desc: "Lejos de simplemente luchar por territorio o en la guerra, se sabe que [ROOT.Char.GetFirstNameNoTooltip] canibaliza a otros dragones simplemente para saciar el apetito de [ROOT.Char.Custom('GetDragonHerHis')]."
   
   #Congenital traits 
- trait_dragon_physique_good_3: "Leviatán tiránico" #NT!
- trait_dragon_physique_good_3_desc: "Algunos dragones son tan ejemplares de su especie que todos, desde Asshai hasta el Muro, conocen su majestuosidad física. Estar en su presencia es estar en presencia de la muerte encarnada." #NT!
- trait_dragon_physique_good_3_character_desc: "Todos, desde Asshai hasta el Muro, conocen la majestuosidad física de [ROOT.Char.GetFirstNameNoTooltip]. Estar en presencia de [ROOT.Char.Custom('GetDragonHerHis')] es estar en presencia de la muerte encarnada." #NT!
- trait_dragon_physique_good_2: "Gran draco" #NT!
- trait_dragon_physique_good_2_desc: "No todos los dragones son iguales, y algunos parecen ondear con la fuerza del fuego hecho carne, aturdiendo a todo aquel que los contempla." #NT!
- trait_dragon_physique_good_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es un impresionante ejemplar de tipo dragón. [ROOT.Char.Custom('GetDragonHerHis')] escamas perfectas se ondulan con la fuerza del fuego hecho carne." #NT!
- trait_dragon_physique_good_1: "Vermis temible" #NT!
- trait_dragon_physique_good_1_desc: "Con alas poderosas, una estructura pesada y una mordida titánica, algunos dragones pueden mostrar el poder de la antigua Valyria con su mera presencia." #NT!
- trait_dragon_physique_good_1_character_desc: "Con alas poderosas, una estructura pesada y una mordida titánica, cuando uno mira a [ROOT.Char.GetFirstNameNoTooltip] puede ver el poder de la antigua Valyria." #NT!
- trait_dragon_physique_good: "Buen físico de dragón" #NT!
- trait_dragon_physique_bad: "Físico del dragón malo" #NT!
- trait_dragon_physique_bad_1: "Wyrm insalubre" #NT!
- trait_dragon_physique_bad_1_desc: "Con alas ligeramente deformadas y parches de escamas deformes, anormalidades en la sangre o interferencias místicas pueden hacer que algunos dragones sean sutilmente inferiores a otros." #NT!
- trait_dragon_physique_bad_1_character_desc: "Con alas ligeramente deformadas y parches de escamas deformes, la presencia que [ROOT.Char.GetFirstNameNoTooltip] normalmente dominaría como dragón es algo menor." #NT!
- trait_dragon_physique_bad_2: "Drake malformado" #NT!
- trait_dragon_physique_bad_2_desc: "No todos los dragones son iguales, y algunos llevan la marca de una criatura menor, con extremidades disjuntas dispuestas en ángulos extraños y movimientos torpes y forzados." #NT!
- trait_dragon_physique_bad_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es visiblemente el menor de sus pares [ROOT.Char.Custom('GetDragonHerHis')]; sus extremidades están disjuntas y dispuestas en ángulos extraños, y los movimientos de [ROOT.Char.Custom('GetDragonHerHis')] son torpes y forzados." #NT!
- trait_dragon_physique_bad_3: "Vermis lamentable" #NT!
- trait_dragon_physique_bad_3_desc: "Tal es el destino de los dragones nacidos en las épocas menos mágicas, donde desde la punta hasta la cola no hay ninguna parte de ellos que luzca bien. Ojos deformes colocados de forma extraña en un cráneo asimétrico. Las alas son demasiado pequeñas y la espalda demasiado grande. Lejos de aterrorizar, estas criaturas incitan a la compasión." #NT!
- trait_dragon_physique_bad_3_character_desc: "De la punta a la cola no hay ninguna parte de [ROOT.Char.GetFirstNameNoTooltip] que luzca bien. Ojos deformes colocados de forma extraña en un cráneo asimétrico. Las alas son demasiado pequeñas y la espalda demasiado grande. Lejos de ser aterradora, esta criatura incita a la compasión." #NT!
- trait_dragon_swift: "Rápido" #NT!
- trait_dragon_swift_desc: "Algunos dragones son conocidos por su velocidad y agilidad, capaces de superar en maniobras a sus compañeros del mismo tamaño y edad." #NT!
- trait_dragon_swift_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es conocido por su velocidad y agilidad [ROOT.Char.Custom('GetDragonHerHis')], capaz de superar en maniobras a compañeros del mismo tamaño y edad." #NT!
- trait_dragon_slow: "Lento" #NT!
- trait_dragon_slow_desc: "Algunos dragones son lentos y torpes, incapaces de seguir el ritmo de sus compañeros del mismo tamaño y edad." #NT!
- trait_dragon_slow_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es lento y torpe, incapaz de seguir el ritmo de sus compañeros del mismo tamaño y edad." #NT!
- trait_dragon_spindly: "Largo y delgado" #NT!
- trait_dragon_spindly_desc: "Con extremidades alargadas y una estructura delgada, algunos dragones son conocidos por una apariencia delgada y desconcertante que hace que sean más pequeños y más ágiles que sus pares." #NT!
- trait_dragon_spindly_character_desc: "Con extremidades alargadas y una estructura delgada, [ROOT.Char.GetFirstNameNoTooltip] es conocido por su desconcertante apariencia delgada, lo que hace que [ROOT.Char.Custom('GetDragonHerHim')] sea más pequeño y más ágil que sus compañeros [ROOT.Char.Custom('GetDragonHerHis')]." #NT!
- trait_dragon_majestic: "Majestuoso" #NT!
- trait_dragon_majestic_desc: "Impresionantes en su presencia, algunos dragones son conocidos por su majestuosidad y grandiosidad, con escamas que brillan al sol como metal pulido." #NT!
- trait_dragon_majestic_character_desc: "Impresionante en su presencia, [ROOT.Char.GetFirstNameNoTooltip] es conocido por su absoluta majestuosidad y grandiosidad, con escamas que brillan al sol como metal pulido." #NT!
- trait_dragon_ugly: "Feo" #NT!
- trait_dragon_ugly_desc: "La mayoría de los dragones son hermosos o aterradores, pero con escamas opacas y una cara que sólo una madre podría amar, algunos dragones también pueden ser feos." #NT!
- trait_dragon_ugly_character_desc: "Con escamas opacas y un rostro que sólo una madre podría amar, [ROOT.Char.GetFirstNameNoTooltip] está maldito a ser un dragón feo." #NT!
- trait_dragon_fertile: "Fértil" #NT!
- trait_dragon_fertile_desc: "La fertilidad de los dragones es algo voluble, pero se sabe que este dragón es fructífero y fértil." #NT!
- trait_dragon_fertile_character_desc: "La fertilidad de los dragones es algo voluble, pero se sabe que [ROOT.GetCharacter.GetFirstNameNoTooltip] es fructífero y fértil." #NT!
- trait_dragon_destined: "Destinado" #NT!
- trait_dragon_destined_desc: "Las ruedas del destino giran siempre hacia adelante, y tal ha sido el hecho de que este dragón ha sido marcado como el instrumento del destino." #NT!
- trait_dragon_destined_character_desc: "Las ruedas del destino giran siempre hacia adelante, y tal ha sido visto [ROOT.GetCharacter.GetFirstNameNoTooltip] marcado como el instrumento del destino." #NT!
+ trait_dragon_physique_good_3: "Leviatán tiránico"
+ trait_dragon_physique_good_3_desc: "Algunos dragones son tan ejemplares de su especie que todos, desde Asshai hasta el Muro, conocen su majestuosidad física. Estar en su presencia es estar en presencia de la muerte encarnada."
+ trait_dragon_physique_good_3_character_desc: "Todos, desde Asshai hasta el Muro, conocen la majestuosidad física de [ROOT.Char.GetFirstNameNoTooltip]. Estar en presencia de [ROOT.Char.Custom('GetDragonHerHis')] es estar en presencia de la muerte encarnada."
+ trait_dragon_physique_good_2: "Gran draco"
+ trait_dragon_physique_good_2_desc: "No todos los dragones son iguales, y algunos parecen ondear con la fuerza del fuego hecho carne, aturdiendo a todo aquel que los contempla."
+ trait_dragon_physique_good_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es un impresionante ejemplar de tipo dragón. [ROOT.Char.Custom('GetDragonHerHis')] escamas perfectas se ondulan con la fuerza del fuego hecho carne."
+ trait_dragon_physique_good_1: "Vermis temible"
+ trait_dragon_physique_good_1_desc: "Con alas poderosas, una estructura pesada y una mordida titánica, algunos dragones pueden mostrar el poder de la antigua Valyria con su mera presencia."
+ trait_dragon_physique_good_1_character_desc: "Con alas poderosas, una estructura pesada y una mordida titánica, cuando uno mira a [ROOT.Char.GetFirstNameNoTooltip] puede ver el poder de la antigua Valyria."
+ trait_dragon_physique_good: "Buen físico de dragón"
+ trait_dragon_physique_bad: "Físico del dragón malo"
+ trait_dragon_physique_bad_1: "Wyrm insalubre"
+ trait_dragon_physique_bad_1_desc: "Con alas ligeramente deformadas y parches de escamas deformes, anormalidades en la sangre o interferencias místicas pueden hacer que algunos dragones sean sutilmente inferiores a otros."
+ trait_dragon_physique_bad_1_character_desc: "Con alas ligeramente deformadas y parches de escamas deformes, la presencia que [ROOT.Char.GetFirstNameNoTooltip] normalmente dominaría como dragón es algo menor."
+ trait_dragon_physique_bad_2: "Drake malformado"
+ trait_dragon_physique_bad_2_desc: "No todos los dragones son iguales, y algunos llevan la marca de una criatura menor, con extremidades disjuntas dispuestas en ángulos extraños y movimientos torpes y forzados."
+ trait_dragon_physique_bad_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es visiblemente el menor de sus pares [ROOT.Char.Custom('GetDragonHerHis')]; sus extremidades están disjuntas y dispuestas en ángulos extraños, y los movimientos de [ROOT.Char.Custom('GetDragonHerHis')] son torpes y forzados."
+ trait_dragon_physique_bad_3: "Vermis lamentable"
+ trait_dragon_physique_bad_3_desc: "Tal es el destino de los dragones nacidos en las épocas menos mágicas, donde desde la punta hasta la cola no hay ninguna parte de ellos que luzca bien. Ojos deformes colocados de forma extraña en un cráneo asimétrico. Las alas son demasiado pequeñas y la espalda demasiado grande. Lejos de aterrorizar, estas criaturas incitan a la compasión."
+ trait_dragon_physique_bad_3_character_desc: "De la punta a la cola no hay ninguna parte de [ROOT.Char.GetFirstNameNoTooltip] que luzca bien. Ojos deformes colocados de forma extraña en un cráneo asimétrico. Las alas son demasiado pequeñas y la espalda demasiado grande. Lejos de ser aterradora, esta criatura incita a la compasión."
+ trait_dragon_swift: "Rápido"
+ trait_dragon_swift_desc: "Algunos dragones son conocidos por su velocidad y agilidad, capaces de superar en maniobras a sus compañeros del mismo tamaño y edad."
+ trait_dragon_swift_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es conocido por su velocidad y agilidad [ROOT.Char.Custom('GetDragonHerHis')], capaz de superar en maniobras a compañeros del mismo tamaño y edad."
+ trait_dragon_slow: "Lento"
+ trait_dragon_slow_desc: "Algunos dragones son lentos y torpes, incapaces de seguir el ritmo de sus compañeros del mismo tamaño y edad."
+ trait_dragon_slow_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] es lento y torpe, incapaz de seguir el ritmo de sus compañeros del mismo tamaño y edad."
+ trait_dragon_spindly: "Largo y delgado"
+ trait_dragon_spindly_desc: "Con extremidades alargadas y una estructura delgada, algunos dragones son conocidos por una apariencia delgada y desconcertante que hace que sean más pequeños y más ágiles que sus pares."
+ trait_dragon_spindly_character_desc: "Con extremidades alargadas y una estructura delgada, [ROOT.Char.GetFirstNameNoTooltip] es conocido por su desconcertante apariencia delgada, lo que hace que [ROOT.Char.Custom('GetDragonHerHim')] sea más pequeño y más ágil que sus compañeros [ROOT.Char.Custom('GetDragonHerHis')]."
+ trait_dragon_majestic: "Majestuoso"
+ trait_dragon_majestic_desc: "Impresionantes en su presencia, algunos dragones son conocidos por su majestuosidad y grandiosidad, con escamas que brillan al sol como metal pulido."
+ trait_dragon_majestic_character_desc: "Impresionante en su presencia, [ROOT.Char.GetFirstNameNoTooltip] es conocido por su absoluta majestuosidad y grandiosidad, con escamas que brillan al sol como metal pulido."
+ trait_dragon_ugly: "Feo"
+ trait_dragon_ugly_desc: "La mayoría de los dragones son hermosos o aterradores, pero con escamas opacas y una cara que sólo una madre podría amar, algunos dragones también pueden ser feos."
+ trait_dragon_ugly_character_desc: "Con escamas opacas y un rostro que sólo una madre podría amar, [ROOT.Char.GetFirstNameNoTooltip] está maldito a ser un dragón feo."
+ trait_dragon_fertile: "Fértil"
+ trait_dragon_fertile_desc: "La fertilidad de los dragones es algo voluble, pero se sabe que este dragón es fructífero y fértil."
+ trait_dragon_fertile_character_desc: "La fertilidad de los dragones es algo voluble, pero se sabe que [ROOT.GetCharacter.GetFirstNameNoTooltip] es fructífero y fértil."
+ trait_dragon_destined: "Destinado"
+ trait_dragon_destined_desc: "Las ruedas del destino giran siempre hacia adelante, y tal ha sido el hecho de que este dragón ha sido marcado como el instrumento del destino."
+ trait_dragon_destined_character_desc: "Las ruedas del destino giran siempre hacia adelante, y tal ha sido visto [ROOT.GetCharacter.GetFirstNameNoTooltip] marcado como el instrumento del destino."
   
   #Education traits 
- trait_education_dragon_1: "Dragón salvaje" #NT!
- trait_education_dragon_1_desc: "Al crecer solo en medio de entornos hostiles, un dragón se vuelve tan salvaje como cualquier bestia de la naturaleza." #NT!
- trait_education_dragon_1_character_desc: "Al crecer solo en medio de entornos hostiles, [ROOT.Char.GetFirstNameNoTooltip] se ha vuelto tan salvaje como cualquier bestia de la naturaleza." #NT!
- trait_education_dragon_2: "Dragón natural" #NT!
- trait_education_dragon_2_desc: "Criado en el desierto sin guía ni entrenamiento, un dragón es voluntarioso y propenso a actos animales." #NT!
- trait_education_dragon_2_character_desc: "Criado en el desierto sin guía ni entrenamiento, [ROOT.Char.GetFirstNameNoTooltip] es voluntarioso y propenso a actos animales." #NT!
- trait_education_dragon_3: "Dragón entrenado" #NT!
- trait_education_dragon_3_desc: "Criados entre personas, algunos dragones conservarán la vena salvaje e independiente típica de los de su especie." #NT!
- trait_education_dragon_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] fue criado entre personas, aunque conserva la vena salvaje e independiente típica de los dragones." #NT!
- trait_education_dragon_4: "Dragón socializado" #NT!
- trait_education_dragon_4_desc: "Al ser desafiado y persuadido apropiadamente durante su crecimiento, un dragón puede sentirse cómodo tanto con personas como con otros dragones." #NT!
- trait_education_dragon_4_character_desc: "Al ser desafiado y persuadido apropiadamente durante el crecimiento de [ROOT.Char.Custom('GetDragonHerHis')], [ROOT.Char.GetFirstNameNoTooltip] se siente cómodo con las personas y con otros dragones." #NT!
- trait_education_dragon_5: "Dragón noble" #NT!
- trait_education_dragon_5_desc: "Un ejemplo de temperamento y carácter, un dragón idealmente criado es todo lo que cualquier jinete de dragón podría desear a su cargo." #NT!
- trait_education_dragon_5_character_desc: "Un ejemplo de temperamento y carácter, [ROOT.Char.GetFirstNameNoTooltip] es todo lo que cualquier jinete de dragón podría desear a su cargo." #NT!
+ trait_education_dragon_1: "Dragón salvaje"
+ trait_education_dragon_1_desc: "Al crecer solo en medio de entornos hostiles, un dragón se vuelve tan salvaje como cualquier bestia de la naturaleza."
+ trait_education_dragon_1_character_desc: "Al crecer solo en medio de entornos hostiles, [ROOT.Char.GetFirstNameNoTooltip] se ha vuelto tan salvaje como cualquier bestia de la naturaleza."
+ trait_education_dragon_2: "Dragón natural"
+ trait_education_dragon_2_desc: "Criado en el desierto sin guía ni entrenamiento, un dragón es voluntarioso y propenso a actos animales."
+ trait_education_dragon_2_character_desc: "Criado en el desierto sin guía ni entrenamiento, [ROOT.Char.GetFirstNameNoTooltip] es voluntarioso y propenso a actos animales."
+ trait_education_dragon_3: "Dragón entrenado"
+ trait_education_dragon_3_desc: "Criados entre personas, algunos dragones conservarán la vena salvaje e independiente típica de los de su especie."
+ trait_education_dragon_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] fue criado entre personas, aunque conserva la vena salvaje e independiente típica de los dragones."
+ trait_education_dragon_4: "Dragón socializado"
+ trait_education_dragon_4_desc: "Al ser desafiado y persuadido apropiadamente durante su crecimiento, un dragón puede sentirse cómodo tanto con personas como con otros dragones."
+ trait_education_dragon_4_character_desc: "Al ser desafiado y persuadido apropiadamente durante el crecimiento de [ROOT.Char.Custom('GetDragonHerHis')], [ROOT.Char.GetFirstNameNoTooltip] se siente cómodo con las personas y con otros dragones."
+ trait_education_dragon_5: "Dragón noble"
+ trait_education_dragon_5_desc: "Un ejemplo de temperamento y carácter, un dragón idealmente criado es todo lo que cualquier jinete de dragón podría desear a su cargo."
+ trait_education_dragon_5_character_desc: "Un ejemplo de temperamento y carácter, [ROOT.Char.GetFirstNameNoTooltip] es todo lo que cualquier jinete de dragón podría desear a su cargo."
   
   #Health traits 
- trait_dragon_wounded: "Herido" #NT!
- trait_dragon_wounded_1: "Herido levemente" #NT!
- trait_dragon_wounded_1_desc: "Ya sea por un accidente menor o por un combate muy desigual, un dragón puede resultar levemente herido." #NT!
- trait_dragon_wounded_1_character_desc: "Ya sea por un accidente menor o por un combate muy desigual, [ROOT.Char.GetFirstNameNoTooltip] ha resultado levemente herido." #NT!
- trait_dragon_wounded_2: "Herido" #NT!
- trait_dragon_wounded_2_desc: "Sorprendentemente para criaturas de su tamaño, los dragones pueden resultar heridos en combate o por accidentes." #NT!
- trait_dragon_wounded_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha sufrido una herida, algo sorprendente para una criatura de estatura [ROOT.Char.Custom('GetDragonHerHis')]." #NT!
- trait_dragon_wounded_3: "Gravemente herido" #NT!
- trait_dragon_wounded_3_desc: "Un dragón puede sufrir una gran herida que requiera mucho descanso para recuperarse completamente." #NT!
- trait_dragon_wounded_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha sufrido una gran herida y necesitará mucho descanso para recuperarse completamente." #NT!
- trait_dragon_wounded_4: "Gravemente herido" #NT!
- trait_dragon_wounded_4_desc: "Una herida de este tamaño sólo puede haber sido infligida por algo grande y terrible." #NT!
- trait_dragon_wounded_4_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha sufrido una herida verdaderamente grave: una herida de este tamaño sólo puede haber sido infligida por algo grande y terrible." #NT!
- trait_dragon_wounded_5: "Herido mortalmente" #NT!
- trait_dragon_wounded_5_desc: "Contra toda probabilidad para una criatura de tal magnificencia, los dragones pueden sufrir heridas tan graves que pueden ser casi fatales." #NT!
- trait_dragon_wounded_5_character_desc: "Contra toda probabilidad para una criatura de estatura [ROOT.Char.Custom('GetDragonHerHis')], [ROOT.Char.GetFirstNameNoTooltip] ha sido herido tan gravemente que está cerca de morir." #NT!
- trait_dragon_burned: "Quemado" #NT!
- trait_dragon_burned_desc: "Aunque son innatamente resistentes al fuego, los dragones aún pueden sufrir quemaduras a temperaturas realmente intensas." #NT!
- trait_dragon_burned_character_desc: "Expuesto a un calor verdaderamente intenso, [ROOT.Char.GetFirstNameNoTooltip] ha sufrido quemaduras en grandes secciones del cuerpo de [ROOT.Char.Custom('GetDragonHerHis')]." #NT!
- trait_dragon_ill: "Enfermo" #NT!
- trait_dragon_ill_desc: "Aunque los dragones rara vez se enferman, se sabe que ha sucedido en ocasiones debido a una mala comida o un malestar invisible." #NT!
- trait_dragon_ill_character_desc: "Aunque los dragones rara vez se enferman, [ROOT.Char.GetFirstNameNoTooltip] ha enfermado por algún malestar invisible o una mala comida." #NT!
+ trait_dragon_wounded: "Herido"
+ trait_dragon_wounded_1: "Herido levemente"
+ trait_dragon_wounded_1_desc: "Ya sea por un accidente menor o por un combate muy desigual, un dragón puede resultar levemente herido."
+ trait_dragon_wounded_1_character_desc: "Ya sea por un accidente menor o por un combate muy desigual, [ROOT.Char.GetFirstNameNoTooltip] ha resultado levemente herido."
+ trait_dragon_wounded_2: "Herido"
+ trait_dragon_wounded_2_desc: "Sorprendentemente para criaturas de su tamaño, los dragones pueden resultar heridos en combate o por accidentes."
+ trait_dragon_wounded_2_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha sufrido una herida, algo sorprendente para una criatura de estatura [ROOT.Char.Custom('GetDragonHerHis')]."
+ trait_dragon_wounded_3: "Gravemente herido"
+ trait_dragon_wounded_3_desc: "Un dragón puede sufrir una gran herida que requiera mucho descanso para recuperarse completamente."
+ trait_dragon_wounded_3_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha sufrido una gran herida y necesitará mucho descanso para recuperarse completamente."
+ trait_dragon_wounded_4: "Gravemente herido"
+ trait_dragon_wounded_4_desc: "Una herida de este tamaño sólo puede haber sido infligida por algo grande y terrible."
+ trait_dragon_wounded_4_character_desc: "[ROOT.Char.GetFirstNameNoTooltip] ha sufrido una herida verdaderamente grave: una herida de este tamaño sólo puede haber sido infligida por algo grande y terrible."
+ trait_dragon_wounded_5: "Herido mortalmente"
+ trait_dragon_wounded_5_desc: "Contra toda probabilidad para una criatura de tal magnificencia, los dragones pueden sufrir heridas tan graves que pueden ser casi fatales."
+ trait_dragon_wounded_5_character_desc: "Contra toda probabilidad para una criatura de estatura [ROOT.Char.Custom('GetDragonHerHis')], [ROOT.Char.GetFirstNameNoTooltip] ha sido herido tan gravemente que está cerca de morir."
+ trait_dragon_burned: "Quemado"
+ trait_dragon_burned_desc: "Aunque son innatamente resistentes al fuego, los dragones aún pueden sufrir quemaduras a temperaturas realmente intensas."
+ trait_dragon_burned_character_desc: "Expuesto a un calor verdaderamente intenso, [ROOT.Char.GetFirstNameNoTooltip] ha sufrido quemaduras en grandes secciones del cuerpo de [ROOT.Char.Custom('GetDragonHerHis')]."
+ trait_dragon_ill: "Enfermo"
+ trait_dragon_ill_desc: "Aunque los dragones rara vez se enferman, se sabe que ha sucedido en ocasiones debido a una mala comida o un malestar invisible."
+ trait_dragon_ill_character_desc: "Aunque los dragones rara vez se enferman, [ROOT.Char.GetFirstNameNoTooltip] ha enfermado por algún malestar invisible o una mala comida."

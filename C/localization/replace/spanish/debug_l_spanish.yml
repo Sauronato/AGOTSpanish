@@ -4,14 +4,14 @@
   debug.0002.a "Old fashioned pregnancy please" "Embarazo a la antigua usanza, por favor" #NT!
   debug.0002.b "One baby please" "Un bebe por favor" #NT!
   debug.0002.c "A duo please" "Un dúo por favor" #NT!
-  debug.0002.d "A trio please" "un trio por favor" #NT!
-  debug.0002.e "Surprise me" "sorpréndeme" #NT!
+  debug.0002.d "A trio please" "Un trio por favor" #NT!
+  debug.0002.e "Surprise me" "Sorpréndeme" #NT!
   
   debug_9601.t "Dogs Can't Look Up" "Los perros no pueden mirar hacia arriba" #NT!
   debug_9601.desc "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere urna id sollicitudin condimentum. Duis vitae augue quis massa tristique consectetur vel sit amet velit.\n\nProin bibendum ligula non magna elementum viverra. Duis vel turpis posuere, vestibulum felis a, pellentesque magna. Vivamus cursus convallis sapien, at sodales eros molestie in. Suspendisse lorem leo, tempor nec sem vel, condimentum ultrices erat.\n\nDuis id felis nibh. Proin feugiat dui consectetur, rutrum lectus scelerisque, aliquet neque. Quisque ut arcu at orci interdum venenatis vel vitae elit. Phasellus congue neque in diam porta dictum. Etiam eu odio quis tortor pretium porta non in nisl. Duis." "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum posuere urna id sollicitudin condimentum. Duis vitae augue quis massa tristique consectetur vel sit amet velit.\n\nProin bibendum ligula non magna elementum viverra. Duis vel turpis posuere, vestibulum felis a, pellentesque magna. Vivamus cursus convallis sapien, at sodales eros molestie in. Suspendisse lorem leo, tempor nec sem vel, condimentum ultrices erat.\n\nDuis id felis nibh. Proin feugiat dui consectetur, rutrum lectus scelerisque, aliquet neque. Quisque ut arcu at orci interdum venenatis vel vitae elit. Phasellus congue neque in diam porta dictum. Etiam eu odio quis tortor pretium porta non in nisl. Duis." #NT!
   debug_9601.a "Dogs cannot" "Los perros no pueden" #NT!
   debug_9601.b "Dogs can" "Los perros pueden" #NT!
-  debug_9601.c "Yes but cats" "si pero gatos" #NT!
+  debug_9601.c "Yes but cats" "Sí, pero los gatos." #NT!
   debug_9601.d "I disagree with animals" "No estoy de acuerdo con los animales" #NT!
   
   debug_generic_option "#D This is a debug option#!" "#D Esta es una opción de depuración#!" #NT!
@@ -81,7 +81,7 @@
   debug_start_great_holy_war_interaction "Start Great Holy War" "Comienza la Gran Guerra Santa" #NT!
   debug_change_council_task_interaction "Change Council Task" "Tarea del Consejo de Cambio" #NT!
   debug_trigger_localization_testing_interaction "Trigger localization testing" "Prueba de localización de disparadores" #NT!
-  debug_start_era_of_crusades_interaction "Trigger Era of Crusades" "Desencadenante de la era de las cruzadas" #NT!
+  debug_start_era_of_crusades_interaction "Trigger Era of Crusades" "La era desencadenante de las cruzadas" #NT!
   debug_start_era_of_jihads_interaction "Trigger Era of Jihads" "La era de las yihadistas" #NT!
   debug_launch_natural_crusade_interaction "Launch natural Crusade" "Lanzar cruzada natural" #NT!
  slay_character_interaction: "#difficulty_hard Matar#! ¡Personaje!"
@@ -97,7 +97,7 @@
   start_bout_interaction_board_game_tabula "Tabula" "Tabla" #NT!
   start_bout_interaction_board_game_hnefatafl "Hnefatafl" "Hnefatafl" #NT!
   start_bout_interaction_board_game_go "Go" "Ir" #NT!
-  start_bout_interaction_board_game_fidchell "Fidchell" "Fidchel" #NT!
+  start_bout_interaction_board_game_fidchell "Fidchell" "Fidchell" #NT!
   give_criminal_trait_interaction "Make them a hardened #difficulty_hard Criminal#!" "Hazlos unos #difficulty_hard Criminales endurecidos#!" #NT!
   give_criminal_trait_interaction_tt "[recipient.GetShortUIName] is given a criminal trait" "A [recipient.GetShortUIName] se le asigna un rasgo criminal" #NT!
   debug_sex_interaction "#italic Sleep#! With Character" "#italic Dormir#! Con Carácter" #NT!
@@ -224,7 +224,7 @@
   has_map_mode_trigger "Has map mode" "Tiene modo mapa" #NT!
   story_type_trigger "Story type" "Tipo de historia" #NT!
   owns_a_story_trigger "Owns a story" "Tiene una historia" #NT!
-  is_widget_open_trigger "Is widget open" "¿Está abierto el widget?" #NT!
+  is_widget_open_trigger "Is widget open" "¿El widget está abierto?" #NT!
   
   num_of_relation_oaf_trigger "Number of secret oafs: $NUM|V0$" "Número de tontos secretos: $NUM|V0$" #NT!
   num_of_relation_intrigue_student_trigger "Number of intrigue students: $NUM|V0$" "Número de estudiantes intrigantes: $NUM|V0$" #NT!
@@ -237,7 +237,7 @@
   has_inactive_trait_trigger "Has inactive trait" "Tiene un rasgo inactivo" #NT!
   
   has_relation_oaf_trigger "[TARGET_CHARACTER.GetShortUIName] is the oaf of [CHARACTER.GetShortUIName]" "[TARGET_CHARACTER.GetShortUIName] es el patán de [CHARACTER.GetShortUIName]" #NT!
-  has_relation_soldier_friend_trigger "[TARGET_CHARACTER.GetShortUIName] is the soldier friend of [CHARACTER.GetShortUIName]" "[TARGET_CHARACTER.GetShortUIName] es el soldado amigo de [CHARACTER.GetShortUIName]" #NT!
+  has_relation_soldier_friend_trigger "[TARGET_CHARACTER.GetShortUIName] is the soldier friend of [CHARACTER.GetShortUIName]" "[TARGET_CHARACTER.GetShortUIName] es el amigo soldado de [CHARACTER.GetShortUIName]" #NT!
   has_secret_relation_oaf_trigger "[TARGET_CHARACTER.GetShortUIName] is the secret oaf of [CHARACTER.GetShortUIName]" "[TARGET_CHARACTER.GetShortUIName] es el patán secreto de [CHARACTER.GetShortUIName]" #NT!
   has_secret_relation_student_trigger "[TARGET_CHARACTER.GetShortUIName] is the secret student of [CHARACTER.GetShortUIName]" "[TARGET_CHARACTER.GetShortUIName] es el estudiante secreto de [CHARACTER.GetShortUIName]" #NT!
   has_secret_relation_victim_trigger "[TARGET_CHARACTER.GetShortUIName] is the secret victim of [CHARACTER.GetShortUIName]" "[TARGET_CHARACTER.GetShortUIName] es la víctima secreta de [CHARACTER.GetShortUIName]" #NT!
@@ -273,7 +273,7 @@
   
   set_relationship_debug_name "Set Relationship" "Establecer relación" #NT!
   set_relationship_debug_desc "Change your relationship with [recipient.GetShortUIName]" "Cambia tu relación con [recipient.GetShortUIName]" #NT!
-  set_relationship_debug_friend_add "Make Friend" "hacer amigo" #NT!
+  set_relationship_debug_friend_add "Make Friend" "Haz un amigo" #NT!
   set_relationship_debug_friend_remove "Remove Friend" "Eliminar amigo" #NT!
   set_relationship_debug_best_friend_add "Make Best Friend" "Haz el mejor amigo" #NT!
   set_relationship_debug_best_friend_remove "Remove Best Friend" "Eliminar Mejor Amigo" #NT!
@@ -318,7 +318,7 @@
   add_glory_interaction "Add Accolade Glory" "Añadir elogio Glory" #NT!
   add_glory_debug_high_tt "Add 2500 Glory (set [accolade|E] to max rank)" "Añade 2500 de gloria (establece [accolade|E] en el rango máximo)" #NT!
   add_glory_debug_low_tt "Add 250 Glory" "Añade 250 Gloria" #NT!
-  add_glory_debug_delete_tt "Set Glory to 0" "Establecer gloria en 0" #NT!
+  add_glory_debug_delete_tt "Set Glory to 0" "Establezca la gloria en 0" #NT!
   
  debug_progress_all_active_schemes_interaction: "Esquemas activos completos"
   

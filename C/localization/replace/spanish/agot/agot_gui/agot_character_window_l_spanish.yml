@@ -1,7 +1,7 @@
 ﻿l_spanish:
- AGOT_NAME_SER: "Ser [Character.GetTitledFirstNameNicknamedNoTooltip] [Character.GetHouse.GetNameNoTooltip]" #NT!
- AGOT_NAME_SER_BASTARD: "Ser [Character.GetTitledFirstNameNicknamedNoTooltip]" #NT!
- AGOT_NAME_SILENT_SISTER: "Hermana silenciosa [Character.GetTitledFirstNameNicknamedNoTooltip]" #NT!
+ AGOT_NAME_SER: "Ser [Character.GetTitledFirstNameNicknamedNoTooltip] [Character.GetHouse.GetNameNoTooltip]"
+ AGOT_NAME_SER_BASTARD: "Ser [Character.GetTitledFirstNameNicknamedNoTooltip]"
+ AGOT_NAME_SILENT_SISTER: "Hermana silenciosa [Character.GetTitledFirstNameNicknamedNoTooltip]"
  KNIGHT_LABEL: "Caballero"
  SQUIRES_LABEL: "Escudero"
  PARAMOUR_LABEL: "Amante"
@@ -10,22 +10,22 @@
  AGOT_CHARACTER_TT_NAME_AGE: "[Character.GetFirstNameNicknamedNoTooltip]#medium , [Character.GetAge]#!"
  AGOT_SECONDARY_SPOUSES: "Cónyuges secundarios #weak ([GetDataModelSize(CharacterWindow.GetSecondarySpouses)])#!"
   #Dragons 
- DRAGON_LABEL: "Compañeros" #NT!
- CAPTURE_WILD_DRAGON: "Capturar dragón salvaje" #NT!
- CAPTURE_WILD_DRAGON_TT: "#I Intenta capturar a este dragón salvaje#!" #NT!
- SEND_TO_DRAGONPIT: "Enviar a Pozo de Dragon" #NT!
- SEND_TO_DRAGONPIT_TT: "#I Envía este dragón al pozo de dragones#!" #NT!
- CANT_SENT_TO_DRAGONPIT_TT: "Este dragón o su jinete están en un ejército." #NT!
- CANT_SENT_TO_DRAGONPIT_TRAVELING_TT: "Este dragón está viajando" #NT!
- REMOVE_FROM_DRAGONPIT: "Eliminar de Pozo de Dragon" #NT!
- REMOVE_FROM_DRAGONPIT_TT: "#I saca este dragón del pozo de dragones#!" #NT!
- VIEW_DRAGONPIT_DRAGONS: "Accede a este Pozo del Dragón" #NT!
- VIEW_DRAGONPIT_DRAGONS_TT: "#I accede a este pozo de dragones#!" #NT!
- DRAGONPIT_CLOSE_FAMILY: "Este dragón está en un [dragonpit|E] limitado a [close_family_members|E] de su poseedor" #NT!
- DRAGONPIT_HOUSE: "Este dragón está en un [dragonpit|E] limitado a [house|E] miembros de su titular" #NT!
- DRAGONPIT_DYNASTY: "Este dragón está en un [dragonpit|E] limitado a [dynasty|E] miembros de su titular" #NT!
- VIEW_PAST_RIDERS: "#I ver los jinetes anteriores de este dragón#!" #NT!
- DRAGON_RELATION_HAS_RIDER: "[Character.MakeScope.Var('current_rider').Char.GetShortUINamePossessiveNotMy|V] [dragon|E]" #NT!
- DRAGON_RELATION_HAS_BONDED: "[Character.GetRelationOfType(GetRelation('agot_dragon')).GetShortUINamePossessiveNotMy|V] [dragon|E]" #NT!
- DRAGON_RELATION_IS_PITTED: "En el [dragonpit|E] de [Character.MakeScope.Var('pitted_dragon_location').Title.GetNameNoTier|V]" #NT!
- DRAGON_RELATION_IS_WANDERING: "Volando alrededor [Character.GetCurrentLocation.GetName|V]" #NT!
+ DRAGON_LABEL: "Compañeros"
+ CAPTURE_WILD_DRAGON: "Capturar dragón salvaje"
+ CAPTURE_WILD_DRAGON_TT: "#I Intenta capturar a este dragón salvaje#!"
+ SEND_TO_DRAGONPIT: "Enviar a Pozo de Dragon"
+ SEND_TO_DRAGONPIT_TT: "#I Envía este dragón al pozo de dragones#!"
+ CANT_SENT_TO_DRAGONPIT_TT: "Este dragón o su jinete están en un ejército."
+ CANT_SENT_TO_DRAGONPIT_TRAVELING_TT: "Este dragón está viajando"
+ REMOVE_FROM_DRAGONPIT: "Eliminar de Pozo de Dragon"
+ REMOVE_FROM_DRAGONPIT_TT: "#I saca este dragón del pozo de dragones#!"
+ VIEW_DRAGONPIT_DRAGONS: "Accede a este Pozo del Dragón"
+ VIEW_DRAGONPIT_DRAGONS_TT: "#I accede a este pozo de dragones#!"
+ DRAGONPIT_CLOSE_FAMILY: "Este dragón está en un [dragonpit|E] limitado a [close_family_members|E] de su poseedor"
+ DRAGONPIT_HOUSE: "Este dragón está en un [dragonpit|E] limitado a [house|E] miembros de su titular"
+ DRAGONPIT_DYNASTY: "Este dragón está en un [dragonpit|E] limitado a [dynasty|E] miembros de su titular"
+ VIEW_PAST_RIDERS: "#I ver los jinetes anteriores de este dragón#!"
+ DRAGON_RELATION_HAS_RIDER: "[Character.MakeScope.Var('current_rider').Char.GetShortUINamePossessiveNotMy|V] [dragon|E]"
+ DRAGON_RELATION_HAS_BONDED: "[Character.GetRelationOfType(GetRelation('agot_dragon')).GetShortUINamePossessiveNotMy|V] [dragon|E]"
+ DRAGON_RELATION_IS_PITTED: "En el [dragonpit|E] de [Character.MakeScope.Var('pitted_dragon_location').Title.GetNameNoTier|V]"
+ DRAGON_RELATION_IS_WANDERING: "Volando alrededor [Character.GetCurrentLocation.GetName|V]"

@@ -1,122 +1,122 @@
 ﻿l_spanish:
   # Portraits / GUI 
- MATES_LABEL: "Compañero" #NT!
- CURRENT_HOST_LABEL: "Anfitrión" #NT!
- CURRENT_RIDER_LABEL: "Jinete" #NT!
- CURRENT_BONDED_HUMAN_LABEL: "Garantizado" #NT!
- PAST_RIDERS_LABEL: "Pasajeros anteriores #weak ([GetDataModelSize(CharacterWindow.GetCharacter.MakeScope.GetList('past_riders'))])#!" #NT!
- UNKNOWN_DRAGON_TOOLTIP: "Sexo: Masculino ([Concept('dragon_gender','Assumed')|E])" #NT!
- MALE_DRAGON_TOOLTIP: "Sexo: Masculino" #NT!
- FEMALE_DRAGON_TOOLTIP: "Sexo: Femenino" #NT!
- DRAGON_TYPE_TOOLTIP: "[dragon_type|E]" #NT!
- WILD_DRAGON_TOOLTIP: "[wild_dragon|E]" #NT!
- OWNED_DRAGON_TOOLTIP: "[owned_dragon|E]" #NT!
- TAMED_DRAGON_TOOLTIP: "[tamed_dragon|E]" #NT!
- WILD_DRAGON_GUI_TOOLTIP: "[wild_dragon|E]" #NT!
- OWNED_DRAGON_GUI_TOOLTIP: "[owned_dragon|E]" #NT!
- TAMED_DRAGON_GUI_TOOLTIP: "[tamed_dragon|E]" #NT!
- dragon_owner_unlanded: "[ROOT.Char.GetFullNamePossessive]" #NT!
- dragon_owner_landed: "[ROOT.Char.GetTitledFirstNamePossessive]" #NT!
+ MATES_LABEL: "Compañero"
+ CURRENT_HOST_LABEL: "Anfitrión"
+ CURRENT_RIDER_LABEL: "Jinete"
+ CURRENT_BONDED_HUMAN_LABEL: "Garantizado"
+ PAST_RIDERS_LABEL: "Pasajeros anteriores #weak ([GetDataModelSize(CharacterWindow.GetCharacter.MakeScope.GetList('past_riders'))])#!"
+ UNKNOWN_DRAGON_TOOLTIP: "Sexo: Masculino ([Concept('dragon_gender','Assumed')|E])"
+ MALE_DRAGON_TOOLTIP: "Sexo: Masculino"
+ FEMALE_DRAGON_TOOLTIP: "Sexo: Femenino"
+ DRAGON_TYPE_TOOLTIP: "[dragon_type|E]"
+ WILD_DRAGON_TOOLTIP: "[wild_dragon|E]"
+ OWNED_DRAGON_TOOLTIP: "[owned_dragon|E]"
+ TAMED_DRAGON_TOOLTIP: "[tamed_dragon|E]"
+ WILD_DRAGON_GUI_TOOLTIP: "[wild_dragon|E]"
+ OWNED_DRAGON_GUI_TOOLTIP: "[owned_dragon|E]"
+ TAMED_DRAGON_GUI_TOOLTIP: "[tamed_dragon|E]"
+ dragon_owner_unlanded: "[ROOT.Char.GetFullNamePossessive]"
+ dragon_owner_landed: "[ROOT.Char.GetTitledFirstNamePossessive]"
   
   # Notifications 
   # Healing 
- agot_dragon_healed.t: "[dragon.GetName] Recuperado" #NT!
- agot_dragon_healed.tt: "[dragon.GetName] se ha recuperado de [dragon.Custom('GetDragonHerHis')] herida." #NT!
+ agot_dragon_healed.t: "[dragon.GetName] Recuperado"
+ agot_dragon_healed.tt: "[dragon.GetName] se ha recuperado de [dragon.Custom('GetDragonHerHis')] herida."
   # Dragon must be in the same location alert 
- agot_dragon_same_location.t: "Regresó al dragón" #NT!
- agot_dragon_same_location.tt: "Abandonaste el ejército en [current_location.GetName] y regresaste con tu dragón en [dragon_location.GetName]." #NT!
+ agot_dragon_same_location.t: "Regresó al dragón"
+ agot_dragon_same_location.tt: "Abandonaste el ejército en [current_location.GetName] y regresaste con tu dragón en [dragon_location.GetName]."
   
   # Wild dragon notifications 
- wild_dragon_returned_home.t: "[dragon.GetName] Devuelto" #NT!
- wild_dragon_returned_home.desc: "[dragon.GetName] ha sido visto regresando a la guarida de [dragon.Custom('GetDragonHerHis')] en [lair.GetName]" #NT!
- wild_dragon_returned_home_from.t: "[dragon.GetName] Voló a casa" #NT!
- wild_dragon_returned_home_from.desc: "[dragon.GetName] ha sido avistado volando de regreso a la guarida [dragon.Custom('GetDragonHerHis')] en [lair.GetName]" #NT!
- wild_dragon_travelling_arrived.t: "[dragon.GetName] Vagando cerca" #NT!
- wild_dragon_travelling_arrived.desc: "[dragon.GetName], conocido por su guarida en la provincia de [lair.GetName], ha sido visto vagando cerca de [destination.GetName]" #NT!
- wild_dragon_left.t: "[dragon.GetName] Vagando por otros lugares" #NT!
- wild_dragon_left.desc: "[dragon.GetName] fue avistado volando, rumbo a la provincia de [destination.GetName]" #NT!
- wild_dragon_left_lair.t: "[dragon.GetName] itinerancia" #NT!
- wild_dragon_left_lair.desc: "[dragon.GetName] fue avistado saliendo de la guarida de [dragon.Custom('GetDragonHerHis')] en [lair.GetName], dirigiéndose hacia la provincia de [destination.GetName]" #NT!
+ wild_dragon_returned_home.t: "[dragon.GetName] Devuelto"
+ wild_dragon_returned_home.desc: "[dragon.GetName] ha sido visto regresando a la guarida de [dragon.Custom('GetDragonHerHis')] en [lair.GetName]"
+ wild_dragon_returned_home_from.t: "[dragon.GetName] Voló a casa"
+ wild_dragon_returned_home_from.desc: "[dragon.GetName] ha sido avistado volando de regreso a la guarida [dragon.Custom('GetDragonHerHis')] en [lair.GetName]"
+ wild_dragon_travelling_arrived.t: "[dragon.GetName] Vagando cerca"
+ wild_dragon_travelling_arrived.desc: "[dragon.GetName], conocido por su guarida en la provincia de [lair.GetName], ha sido visto vagando cerca de [destination.GetName]"
+ wild_dragon_left.t: "[dragon.GetName] Vagando por otros lugares"
+ wild_dragon_left.desc: "[dragon.GetName] fue avistado volando, rumbo a la provincia de [destination.GetName]"
+ wild_dragon_left_lair.t: "[dragon.GetName] itinerancia"
+ wild_dragon_left_lair.desc: "[dragon.GetName] fue avistado saliendo de la guarida de [dragon.Custom('GetDragonHerHis')] en [lair.GetName], dirigiéndose hacia la provincia de [destination.GetName]"
   
   # Effects 
- agot_spawn_dragon_effect.interface.t: "El dragón se unió a la corte" #NT!
- agot_spawn_dragon_effect.interface.desc: "[dragon.GetName] se unió a la corte" #NT!
- agot_spawn_wild_dragon_effect.interface.t: "Aparece un dragón salvaje" #NT!
- agot_spawn_wild_dragon_effect.interface.desc: "[dragon.GetName] apareció en [dragon.GetCurrentLocation.GetName]" #NT!
- agot_reveal_dragon_gender_effect_tt_male: "[dragon.GetNamePossessive] se revela que el género es masculino" #NT!
- agot_reveal_dragon_gender_effect_tt_female: "[dragon.GetNamePossessive] se revela que el género es femenino" #NT!
- dragonpit_was_ruinized_tt: "El [dragonpit|E] de este reino será destruido. Cualquier [dragons|E] encerrado en él será liberado." #NT!
- free_dragon_tt: "[free_dragon_for_effect.GetFirstName] se convertirá en [wild_dragon|E]" #NT!
+ agot_spawn_dragon_effect.interface.t: "El dragón se unió a la corte"
+ agot_spawn_dragon_effect.interface.desc: "[dragon.GetName] se unió a la corte"
+ agot_spawn_wild_dragon_effect.interface.t: "Aparece un dragón salvaje"
+ agot_spawn_wild_dragon_effect.interface.desc: "[dragon.GetName] apareció en [dragon.GetCurrentLocation.GetName]"
+ agot_reveal_dragon_gender_effect_tt_male: "[dragon.GetNamePossessive] se revela que el género es masculino"
+ agot_reveal_dragon_gender_effect_tt_female: "[dragon.GetNamePossessive] se revela que el género es femenino"
+ dragonpit_was_ruinized_tt: "El [dragonpit|E] de este reino será destruido. Cualquier [dragons|E] encerrado en él será liberado."
+ free_dragon_tt: "[free_dragon_for_effect.GetFirstName] se convertirá en [wild_dragon|E]"
   #Dragon Mil Tooltip Stuff 
- realm_dragons_faux_tt: "Reino [dragons|E]:" #NT!
- realm_dragons_faux_armies_tt: "ejércitos" #NT!
+ realm_dragons_faux_tt: "Reino [dragons|E]:"
+ realm_dragons_faux_armies_tt: "ejércitos"
   
- building_dragonpit_effect: "Este edificio actúa como un [dragonpit|e], lo que permite que el poseedor del [county|e] almacene [dragons|e]. Sin embargo, los dragones internados en él sufrirán penalizaciones de salud y crecimiento." #NT!
- building_dragonmont_dragonpit_effect: "Este edificio actúa como un [natural_dragonpit|e], lo que permite que el poseedor del [county|e] guarde [dragons|e]. Los dragones encerrados en él sufrirán considerablemente menos que un dragón en un pozo de dragones artificial." #NT!
+ building_dragonpit_effect: "Este edificio actúa como un [dragonpit|e], lo que permite que el poseedor del [county|e] almacene [dragons|e]. Sin embargo, los dragones internados en él sufrirán penalizaciones de salud y crecimiento."
+ building_dragonmont_dragonpit_effect: "Este edificio actúa como un [natural_dragonpit|e], lo que permite que el poseedor del [county|e] guarde [dragons|e]. Los dragones encerrados en él sufrirán considerablemente menos que un dragón en un pozo de dragones artificial."
   
- GET_DRAGON: "Se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragón" #NT!
- GOT_DRAGON: "Se convirtió en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragón" #NT!
- I_GET_DRAGON: "Te conviertes en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragones" #NT!
- THEY_GET_DRAGON: "[CHARACTER.GetShortUIName] se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragón" #NT!
- I_GOT_DRAGON: "Te convertiste en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragones" #NT!
- THEY_GOT_DRAGON: "[CHARACTER.GetShortUIName] se convirtió en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragones" #NT!
+ GET_DRAGON: "Se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragón"
+ GOT_DRAGON: "Se convirtió en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragón"
+ I_GET_DRAGON: "Te conviertes en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragones"
+ THEY_GET_DRAGON: "[CHARACTER.GetShortUIName] se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragón"
+ I_GOT_DRAGON: "Te convertiste en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragones"
+ THEY_GOT_DRAGON: "[CHARACTER.GetShortUIName] se convirtió en [TARGET_CHARACTER.GetShortUINamePossessive] jinete de dragones"
   
  # Size checks 
- dragon_size_at_least_10: "[dragon_size|E] es al menos 10" #NT!
- dragon_size_at_least_20: "[dragon_size|E] es al menos 20" #NT!
- dragon_size_at_least_30: "[dragon_size|E] es al menos 30" #NT!
- dragon_size_at_least_40: "[dragon_size|E] es al menos 40" #NT!
- recipient_dragon_size_at_least_10: "[recipient.GetFirstName] tiene al menos 10 [dragon_size|E]" #NT!
- recipient_dragon_size_at_least_20: "[recipient.GetFirstName] tiene al menos 20 [dragon_size|E]" #NT!
- recipient_dragon_size_at_least_30: "[recipient.GetFirstName] tiene al menos 30 [dragon_size|E]" #NT!
- recipient_dragon_size_at_least_40: "[recipient.GetFirstName] tiene al menos 40 [dragon_size|E]" #NT!
+ dragon_size_at_least_10: "[dragon_size|E] es al menos 10"
+ dragon_size_at_least_20: "[dragon_size|E] es al menos 20"
+ dragon_size_at_least_30: "[dragon_size|E] es al menos 30"
+ dragon_size_at_least_40: "[dragon_size|E] es al menos 40"
+ recipient_dragon_size_at_least_10: "[recipient.GetFirstName] tiene al menos 10 [dragon_size|E]"
+ recipient_dragon_size_at_least_20: "[recipient.GetFirstName] tiene al menos 20 [dragon_size|E]"
+ recipient_dragon_size_at_least_30: "[recipient.GetFirstName] tiene al menos 30 [dragon_size|E]"
+ recipient_dragon_size_at_least_40: "[recipient.GetFirstName] tiene al menos 40 [dragon_size|E]"
   
   # Color CusLoc Keys 
- dragon_black_key: "negro" #NT!
- dragon_grey_key: "gris" #NT!
- dragon_white_key: "blanco" #NT!
- dragon_red_key: "rojo" #NT!
- dragon_orange_key: "naranja" #NT!
- dragon_yellow_key: "amarillo" #NT!
- dragon_green_key: "verde" #NT!
- dragon_teal_key: "verde azulado" #NT!
- dragon_blue_key: "azul" #NT!
- dragon_purple_key: "púrpura" #NT!
- dragon_pink_key: "rosa" #NT!
- dragon_fuschia_key: "rosa" #NT!
- dragon_lightest_key: "pálido" #NT!
- dragon_lighter_key: "luz" #NT!
- dragon_middle_key: "brillante" #NT!
- dragon_darker_key: "oscuro" #NT!
- dragon_darkest_key: "estigio" #NT!
- dragon_color_full: "[ROOT.Char.Custom('GetDragonColorGrade')] [ROOT.Char.Custom('GetDragonColor')]" #NT!
+ dragon_black_key: "negro"
+ dragon_grey_key: "gris"
+ dragon_white_key: "blanco"
+ dragon_red_key: "rojo"
+ dragon_orange_key: "naranja"
+ dragon_yellow_key: "amarillo"
+ dragon_green_key: "verde"
+ dragon_teal_key: "verde azulado"
+ dragon_blue_key: "azul"
+ dragon_purple_key: "púrpura"
+ dragon_pink_key: "rosa"
+ dragon_fuschia_key: "rosa"
+ dragon_lightest_key: "pálido"
+ dragon_lighter_key: "luz"
+ dragon_middle_key: "brillante"
+ dragon_darker_key: "oscuro"
+ dragon_darkest_key: "estigio"
+ dragon_color_full: "[ROOT.Char.Custom('GetDragonColorGrade')] [ROOT.Char.Custom('GetDragonColor')]"
   
   #Used in French Localisation, DO NOT REMOVE 
- dragon_black_key_F: "negro" #NT!
- dragon_grey_key_F: "gris" #NT!
- dragon_white_key_F: "blanco" #NT!
- dragon_red_key_F: "rojo" #NT!
- dragon_orange_key_F: "naranja" #NT!
- dragon_yellow_key_F: "amarillo" #NT!
- dragon_green_key_F: "verde" #NT!
- dragon_teal_key_F: "verde azulado" #NT!
- dragon_blue_key_F: "azul" #NT!
- dragon_purple_key_F: "púrpura" #NT!
- dragon_pink_key_F: "rosa" #NT!
- dragon_fuschia_key_F: "rosa" #NT!
- dragon_lightest_key_F: "pálido" #NT!
- dragon_lighter_key_F: "luz" #NT!
- dragon_middle_key_F: "brillante" #NT!
- dragon_darker_key_F: "oscuro" #NT!
- dragon_darkest_key_F: "estigio" #NT!
+ dragon_black_key_F: "negro"
+ dragon_grey_key_F: "gris"
+ dragon_white_key_F: "blanco"
+ dragon_red_key_F: "rojo"
+ dragon_orange_key_F: "naranja"
+ dragon_yellow_key_F: "amarillo"
+ dragon_green_key_F: "verde"
+ dragon_teal_key_F: "verde azulado"
+ dragon_blue_key_F: "azul"
+ dragon_purple_key_F: "púrpura"
+ dragon_pink_key_F: "rosa"
+ dragon_fuschia_key_F: "rosa"
+ dragon_lightest_key_F: "pálido"
+ dragon_lighter_key_F: "luz"
+ dragon_middle_key_F: "brillante"
+ dragon_darker_key_F: "oscuro"
+ dragon_darkest_key_F: "estigio"
   
   
- tame_unbonded_dragon_scheme_scheme_power_mult: "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]" #NT!
- steal_back_artifact_scheme_resistance_mult: "[GetScheme('steal_back_artifact').GetTypeName] [scheme_resistance|E]" #NT!
+ tame_unbonded_dragon_scheme_scheme_power_mult: "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]"
+ steal_back_artifact_scheme_resistance_mult: "[GetScheme('steal_back_artifact').GetTypeName] [scheme_resistance|E]"
   
- title_is_dragonpit_warning: "@warning_icon! #warning [target.GetNameNoTier] tiene un [dragonpit|e], ¡regalarlo significaría entregarle el control a un gobernante externo! #!" #NT!
- title_is_dragonpit_and_ruler_is_not_king_warning: "@warning_icon! #warning [target.GetNameNoTier] tiene un [dragonpit|e], [recipient.GetShortUIName] no es un gobernante de nivel rey, lo que limitaría su acceso al Pozo del Dragón. #!" #NT!
+ title_is_dragonpit_warning: "@warning_icon! #warning [target.GetNameNoTier] tiene un [dragonpit|e], ¡regalarlo significaría entregarle el control a un gobernante externo! #!"
+ title_is_dragonpit_and_ruler_is_not_king_warning: "@warning_icon! #warning [target.GetNameNoTier] tiene un [dragonpit|e], [recipient.GetShortUIName] no es un gobernante de nivel rey, lo que limitaría su acceso al Pozo del Dragón. #!"
   
- has_a_relation_dragon_trigger_tooltip: "Tiene un [tamed_dragon|E]" #NT!
- has_a_dragon_egg_artifact_tooltip: "Tiene un huevo [dragon|E] [artifact|e]" #NT!
- dragons_are_extant_desc_tooltip: "[dragons|E] existen en el mundo" #NT!
+ has_a_relation_dragon_trigger_tooltip: "Tiene un [tamed_dragon|E]"
+ has_a_dragon_egg_artifact_tooltip: "Tiene un huevo [dragon|E] [artifact|e]"
+ dragons_are_extant_desc_tooltip: "[dragons|E] existen en el mundo"
