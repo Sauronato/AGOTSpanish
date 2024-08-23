@@ -27,7 +27,7 @@
  agot_valyrian_steel.2000.b: "Ese tiempo monstruoso es mejor dejarlo en el olvido"
   
  agot_valyrian_steel.2001.t: "El lamento de los dragones"
- agot_valyrian_steel.2001.desc: "Desciendo a las ruinosas ruinas de Dragonpit, y la atmósfera solemne de lo que ocurrió aquí es palpable. Persiste un miasma de muerte, de ceniza y miedo, cristalizado en el momento final de la muerte de los grandes lagartos y los miles aplastados bajo el monumento que se desmorona y se convirtió en una tumba.\n\nMientras deambulo, empiezo a darme cuenta de la amplitud del proyecto que pone delante de mí. Un plan de recuperación para desenterrar los huesos de hombres, mujeres y bestias que murieron gritando de terror. Será difícil y arduo, y puede que no produzca nada en absoluto. Pero ante la posibilidad de encontrar el rubí entre la piedra, podría no tener precio."
+ agot_valyrian_steel.2001.desc: "Desciendo a las ruinosas ruinas de Pozo de Dragon, y la atmósfera solemne de lo que ocurrió aquí es palpable. Persiste un miasma de muerte, de ceniza y miedo, cristalizado en el momento final de la muerte de los grandes lagartos y los miles aplastados bajo el monumento que se desmorona y se convirtió en una tumba.\n\nMientras deambulo, empiezo a darme cuenta de la amplitud del proyecto que pone delante de mí. Un plan de recuperación para desenterrar los huesos de hombres, mujeres y bestias que murieron gritando de terror. Será difícil y arduo, y puede que no produzca nada en absoluto. Pero ante la posibilidad de encontrar el rubí entre la piedra, podría no tener precio."
  agot_valyrian_steel.2001.a: "Buscar en estas ruinas será costoso..."
  agot_valyrian_steel.2001.a.tt: "Contratarás hombres para limpiar escombros"
  agot_valyrian_steel.2001.b: "¿Quizás el Gran Maestre pueda ayudarme en la búsqueda?"
@@ -86,52 +86,52 @@
  agot_valyrian_steel.2010.a: "La espada está rehecha."
   
  #Forging 
- agot_valyrian_steel.8000.t: "Reforjar: un sacrificio" #NT!
- agot_valyrian_steel.8000.desc: ""El secreto de forjar acero valyrio se ha perdido hace mucho tiempo... Sin embargo, podría ser posible transformar un artefacto de acero valyrio existente en algo nuevo... #bold si#! estás dispuesto a perder el artefacto original", ofrece [court_smith.GetFirstName] nerviosamente." #NT!
- agot_valyrian_steel.8000.a: "Una ofrenda digna." #NT!
- agot_valyrian_steel.8000.a.tt: "Destruirás el artefacto seleccionado para crear una nueva espada." #NT!
- agot_valyrian_steel.8000.b: "No puedo hacer esto." #NT!
- agot_valyrian_steel.8001.t: "Reforjar: nuevos comienzos" #NT!
- agot_valyrian_steel.8001.desc: ""¿Alguno de estos diseños te interesa, mi[ROOT.Char.GetLadyLord|l]?"" #NT!
- agot_valyrian_steel.8001.a: "Éste es digno de mí." #NT!
- agot_valyrian_steel.8001.b: "Ninguno de estos me conviene." #NT!
- agot_valyrian_steel_default_name: "Espada de acero valyrio reforjada" #NT!
- agot_valyrian_steel_default_desc: "Espada de acero valyrio reforjada" #NT!
- event_window_widget_enter_name_prompt: "Elija el nombre del artefacto:" #NT!
+ agot_valyrian_steel.8000.t: "Reforjar: un sacrificio"
+ agot_valyrian_steel.8000.desc: ""El secreto de forjar acero valyrio se ha perdido hace mucho tiempo... Sin embargo, podría ser posible transformar un artefacto de acero valyrio existente en algo nuevo... #bold si#! estás dispuesto a perder el artefacto original", ofrece [court_smith.GetFirstName] nerviosamente."
+ agot_valyrian_steel.8000.a: "Una ofrenda digna."
+ agot_valyrian_steel.8000.a.tt: "Destruirás el artefacto seleccionado para crear una nueva espada."
+ agot_valyrian_steel.8000.b: "No puedo hacer esto."
+ agot_valyrian_steel.8001.t: "Reforjar: nuevos comienzos"
+ agot_valyrian_steel.8001.desc: ""¿Alguno de estos diseños te interesa, mi[ROOT.Char.GetLadyLord|l]?""
+ agot_valyrian_steel.8001.a: "Éste es digno de mí."
+ agot_valyrian_steel.8001.b: "Ninguno de estos me conviene."
+ agot_valyrian_steel_default_name: "Espada de acero valyrio reforjada"
+ agot_valyrian_steel_default_desc: "Espada de acero valyrio reforjada"
+ event_window_widget_enter_name_prompt: "Elija el nombre del artefacto:"
   
  #Artifact looted in battle/taken from captive 
- agot_valyrian_steel.1000.t: "Acero Valyrio a Mis Pies" #NT!
- agot_valyrian_steel.1000.desc: "Mientras el calor de la batalla disminuye, limpio la sangre de mi enemigo de mi frente, veo el arma que casi se ha cobrado la vida si no fuera por mi habilidad superior.\n\nEn medio del barro y los innumerables cuerpos yace el acero valyrio. hoja de la casa [artifact_knight.GetHouse.GetBaseName]. Sin dueño que se apodere de él, es mío para tomarlo..." #NT!
- agot_valyrian_steel.1000.a: "¡He ganado la espada, la reclamo como mía!" #NT!
- agot_valyrian_steel.1000.a.tt: "#v ¡La Casa [artifact_knight.GetHouse.GetBaseName] no perdonará pronto tal insulto!#!" #NT!
- agot_valyrian_steel.1000.b: "No me pertenece." #NT!
- agot_valyrian_steel.1000.b.tt: "[looted_vs_sword.GetName] será devuelto a la Casa [artifact_knight.GetHouse.GetBaseName]" #NT!
+ agot_valyrian_steel.1000.t: "Acero Valyrio a Mis Pies"
+ agot_valyrian_steel.1000.desc: "Mientras el calor de la batalla disminuye, limpio la sangre de mi enemigo de mi frente, veo el arma que casi se ha cobrado la vida si no fuera por mi habilidad superior.\n\nEn medio del barro y los innumerables cuerpos yace el acero valyrio. hoja de la casa [artifact_knight.GetHouse.GetBaseName]. Sin dueño que se apodere de él, es mío para tomarlo..."
+ agot_valyrian_steel.1000.a: "¡He ganado la espada, la reclamo como mía!"
+ agot_valyrian_steel.1000.a.tt: "#v ¡La Casa [artifact_knight.GetHouse.GetBaseName] no perdonará pronto tal insulto!#!"
+ agot_valyrian_steel.1000.b: "No me pertenece."
+ agot_valyrian_steel.1000.b.tt: "[looted_vs_sword.GetName] será devuelto a la Casa [artifact_knight.GetHouse.GetBaseName]"
   
- agot_valyrian_steel.1001.t: "Portador de acero valyrio capturado" #NT!
- agot_valyrian_steel.1001.desc: "La batalla está ganada. Mis fuerzas salen victoriosas y mis enemigos huyen en plena derrota. Mientras se recogen los cuerpos de los caídos del campo de batalla y se toman cautivos, uno de mis guerreros leales trae a [artifact_knight.GetName], despojado de su prestigiosa arma.\n\n[looted_vs_sword.GetName], la hoja de acero valyrio de la Casa [artifact_knight.GetHouse.GetBaseName] está a mi alcance... Sólo un tonto disputaría mi derecho a reclamarlo." #NT!
- agot_valyrian_steel.1001.a: "¡Sería un buen trofeo!" #NT!
- agot_valyrian_steel.1001.b: "¡Tal acto sólo traería deshonra a mi nombre!" #NT!
+ agot_valyrian_steel.1001.t: "Portador de acero valyrio capturado"
+ agot_valyrian_steel.1001.desc: "La batalla está ganada. Mis fuerzas salen victoriosas y mis enemigos huyen en plena derrota. Mientras se recogen los cuerpos de los caídos del campo de batalla y se toman cautivos, uno de mis guerreros leales trae a [artifact_knight.GetName], despojado de su prestigiosa arma.\n\n[looted_vs_sword.GetName], la hoja de acero valyrio de la Casa [artifact_knight.GetHouse.GetBaseName] está a mi alcance... Sólo un tonto disputaría mi derecho a reclamarlo."
+ agot_valyrian_steel.1001.a: "¡Sería un buen trofeo!"
+ agot_valyrian_steel.1001.b: "¡Tal acto sólo traería deshonra a mi nombre!"
   
- agot_valyrian_steel.1010.t: "[enemy_knight.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
- agot_valyrian_steel.1010.desc: "He tomado posesión de la preciada espada de tu familia.\n\nLa reclamé de las manos de [artifact_knight.GetName] que luchó en el lado opuesto de una batalla como yo, [artifact_knight.GetHerHis] la muerte es lamentable y no me deshonraría privando a [artifact_knight.GetHerHis] familia de sus derechos. [looted_vs_sword.GetNameNoTooltip] es tuyo." #NT!
- agot_valyrian_steel.1010.a: "[looted_vs_sword.GetNameNoTooltip] ha encontrado el camino a casa." #NT!
+ agot_valyrian_steel.1010.t: "[enemy_knight.Custom2('AppropriateGreeting', ROOT.Char)]"
+ agot_valyrian_steel.1010.desc: "He tomado posesión de la preciada espada de tu familia.\n\nLa reclamé de las manos de [artifact_knight.GetName] que luchó en el lado opuesto de una batalla como yo, [artifact_knight.GetHerHis] la muerte es lamentable y no me deshonraría privando a [artifact_knight.GetHerHis] familia de sus derechos. [looted_vs_sword.GetNameNoTooltip] es tuyo."
+ agot_valyrian_steel.1010.a: "[looted_vs_sword.GetNameNoTooltip] ha encontrado el camino a casa."
   
- agot_valyrian_steel.1011.t: "Una reliquia robada" #NT!
- agot_valyrian_steel.1011.desc.prisoner: "¡El vil [vs_artifact_thief.GetName] no sólo me ha encadenado, sino que ha utilizado mi encarcelamiento como una oportunidad para robarme [looted_vs_sword.GetName]! ¡La espada de #italic Casa [ROOT.Char.GetHouse.GetName]!#!\n\nI #italic debe#! recuperarla! Por mi honor y el honor de la Casa [ROOT.Char.GetHouse.GetNameNoTooltip]." #NT!
- agot_valyrian_steel.1011.desc.house_head: "Las noticias del [battle_memory.GetName] llegan a manos de un mensajero exhausto.\n\n¡El vil [vs_artifact_thief.GetName] no sólo ha encadenado a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('artifact_knight'))] [artifact_knight.GetName], sino que ha utilizado el encarcelamiento de [artifact_knight.GetHerHis] como una oportunidad para robarme [looted_vs_sword.GetName]! ¡La espada de #italic Casa [ROOT.Char.GetHouse.GetName]!#!\n\nI #italic debe[vs_artifact_thief.GetName]0 recuperarla! Por mi honor y el honor de la Casa [vs_artifact_thief.GetName]1." #NT!
- agot_valyrian_steel.1011.desc.slain: "En el [battle_memory.GetName], [artifact_knight.GetName] murió luchando valientemente junto a [artifact_knight.GetHerHis] hombres, asesinado en el fragor de la batalla por el monstruoso [enemy_knight.GetName].\n\nNo solo se perdió la vida de [artifact_knight.GetFirstNamePossessiveNoTooltip], sino también de [looted_vs_sword.GetName]. ¡La preciada posesión de la Casa [artifact_knight.GetHouse.GetNameNoTooltip] ha sido robada por [enemy_knight.GetNameNoTooltip] para empuñarla y exhibirla como premio personal de [enemy_knight.GetHerHis]!" #NT!
- agot_valyrian_steel.1011.tt.house_opinion_loss: "Todos los miembros de #v tu#! Casa" #NT!
- agot_valyrian_steel.1011.feud: "¡La Casa [vs_artifact_thief.GetHouse.GetName] pagará caro este desaire!" #NT!
- agot_valyrian_steel.1011.feud.tt: "El [scheme|E] tendrá un [success_chance|E] aumentado" #NT!
- agot_valyrian_steel.1011.a: "#italic Debo#! traer [looted_vs_sword.GetNameNoTooltip] de vuelta a casa, sin importar el costo." #NT!
- agot_valyrian_steel.1011.b: "Está fuera de mi poder... No hay nada que pueda hacer." #NT!
- agot_valyrian_steel.1011.c: "[looted_vs_sword.GetNameNoTooltip] se sentará al lado de [vs_artifact_thief.GetFirstNamePossessive], por ahora..." #NT!
+ agot_valyrian_steel.1011.t: "Una reliquia robada"
+ agot_valyrian_steel.1011.desc.prisoner: "¡El vil [vs_artifact_thief.GetName] no sólo me ha encadenado, sino que ha utilizado mi encarcelamiento como una oportunidad para robarme [looted_vs_sword.GetName]! ¡La espada de #italic Casa [ROOT.Char.GetHouse.GetName]!#!\n\nI #italic debe#! recuperarla! Por mi honor y el honor de la Casa [ROOT.Char.GetHouse.GetNameNoTooltip]."
+ agot_valyrian_steel.1011.desc.house_head: "Las noticias del [battle_memory.GetName] llegan a manos de un mensajero exhausto.\n\n¡El vil [vs_artifact_thief.GetName] no sólo ha encadenado a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('artifact_knight'))] [artifact_knight.GetName], sino que ha utilizado el encarcelamiento de [artifact_knight.GetHerHis] como una oportunidad para robarme [looted_vs_sword.GetName]! ¡La espada de #italic Casa [ROOT.Char.GetHouse.GetName]!#!\n\nI #italic debe[vs_artifact_thief.GetName]0 recuperarla! Por mi honor y el honor de la Casa [vs_artifact_thief.GetName]1."
+ agot_valyrian_steel.1011.desc.slain: "En el [battle_memory.GetName], [artifact_knight.GetName] murió luchando valientemente junto a [artifact_knight.GetHerHis] hombres, asesinado en el fragor de la batalla por el monstruoso [enemy_knight.GetName].\n\nNo solo se perdió la vida de [artifact_knight.GetFirstNamePossessiveNoTooltip], sino también de [looted_vs_sword.GetName]. ¡La preciada posesión de la Casa [artifact_knight.GetHouse.GetNameNoTooltip] ha sido robada por [enemy_knight.GetNameNoTooltip] para empuñarla y exhibirla como premio personal de [enemy_knight.GetHerHis]!"
+ agot_valyrian_steel.1011.tt.house_opinion_loss: "Todos los miembros de #v tu#! Casa"
+ agot_valyrian_steel.1011.feud: "¡La Casa [vs_artifact_thief.GetHouse.GetName] pagará caro este desaire!"
+ agot_valyrian_steel.1011.feud.tt: "El [scheme|E] tendrá un [success_chance|E] aumentado"
+ agot_valyrian_steel.1011.a: "#italic Debo#! traer [looted_vs_sword.GetNameNoTooltip] de vuelta a casa, sin importar el costo."
+ agot_valyrian_steel.1011.b: "Está fuera de mi poder... No hay nada que pueda hacer."
+ agot_valyrian_steel.1011.c: "[looted_vs_sword.GetNameNoTooltip] se sentará al lado de [vs_artifact_thief.GetFirstNamePossessive], por ahora..."
   
- agot_valyrian_steel.1012.t: "[expected_vs_artifact_holder.Custom2('AppropriateGreetingNegative', ROOT.Char)]" #NT!
- agot_valyrian_steel.1012.desc: "¡Eres un ladrón deshonroso! ¡Que se sepa que [looted_vs_sword.GetName] es mío, por derecho! Veré restaurado el honor de la Casa [expected_vs_artifact_holder.GetHouse.GetName] y [looted_vs_sword.GetNameNoTooltip] devuelto al cuidado de mi familia." #NT!
- agot_valyrian_steel.1012.a: "¡Deja que [expected_vs_artifact_holder.GetHerHim] se queje, [looted_vs_sword.GetNameNoTooltip] es mío!" #NT!
+ agot_valyrian_steel.1012.t: "[expected_vs_artifact_holder.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ agot_valyrian_steel.1012.desc: "¡Eres un ladrón deshonroso! ¡Que se sepa que [looted_vs_sword.GetName] es mío, por derecho! Veré restaurado el honor de la Casa [expected_vs_artifact_holder.GetHouse.GetName] y [looted_vs_sword.GetNameNoTooltip] devuelto al cuidado de mi familia."
+ agot_valyrian_steel.1012.a: "¡Deja que [expected_vs_artifact_holder.GetHerHim] se queje, [looted_vs_sword.GetNameNoTooltip] es mío!"
   
  #Show me Steel 
- agot_valyrian_steel.9999.t: "Portadores de acero valyrio" #NT!
- agot_valyrian_steel.9999.desc: "Mi señor, he reunido aquí una lista de todos los portadores de acero valyrio en el mundo conocido." #NT!
- agot_valyrian_steel.9999.a: "Gracias." #NT!
+ agot_valyrian_steel.9999.t: "Portadores de acero valyrio"
+ agot_valyrian_steel.9999.desc: "Mi señor, he reunido aquí una lista de todos los portadores de acero valyrio en el mundo conocido."
+ agot_valyrian_steel.9999.a: "Gracias."

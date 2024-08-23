@@ -29,17 +29,17 @@
  kingsguard_5_possessive: "$Kingsguard_possesive$"
  kingsguard_6_possessive: "$Kingsguard_possesive$"
   
- KINGSGUARD_CLICK_TO_HIRE: "Interactuar con personajes \npara designar un [ActiveCouncilTask.GetPositionName|E]" #NT!
+ KINGSGUARD_CLICK_TO_HIRE: "Interactuar con personajes \npara designar un [ActiveCouncilTask.GetPositionName|E]"
   
- KINGSGUARD_TAB_BUTTON_TEXT: "Tu [GetPlayer.Custom('KingsguardName')]" #NT!
+ KINGSGUARD_TAB_BUTTON_TEXT: "Tu [GetPlayer.Custom('KingsguardName')]"
   
   #Naming 
  kingsguard_name: "Guardia Real"
  queensguard_name: "Guardia de la reina"
   
   # Modifiers 
- kingsguard_lord_commander_modifier: "Lord comandante de Señor Feudal"
- kingsguard_modifier: "Guardia Real de Señor Feudal"
+ kingsguard_lord_commander_modifier: "Lord comandante de Lord Feudal"
+ kingsguard_modifier: "Guardia Real de Lord Feudal"
   
  training_for_kingsguard: "Entrenamiento para unirse a la Guardia Real"
  training_for_kingsguard_desc: "Este personaje está entrenando para unirse a la Guardia Real."
@@ -48,9 +48,9 @@
  kingsguard_oathbreaker_desc: "Este personaje ha mancillado su juramento sagrado y ha abandonado a la Guardia Real."
   
  kingsguard_protection: "[councillor.GetModifierDescForTask('kingsguard_default_1')]"
- task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] obtiene [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]" #NT!
+ task_kingsguard_bodyguard_effect_desc: "[Select_CString(councillor.GetRelationOfType(GetRelation('bodyguard_target')).IsValid, councillor.GetRelationOfType(GetRelation('bodyguard_target')).GetUIName, 'Guarded dynasty member')] obtiene [GetModifier('kingsguard_bodyguard').GetNameWithTooltip]"
   
- valid_kingsguard_bodyguard_court: "No hay miembros desprotegidos de su dinastía en esta corte." #NT!
+ valid_kingsguard_bodyguard_court: "No hay miembros desprotegidos de su dinastía en esta corte."
   
  kingsguard_bodyguard: "Guardaespaldas"
  kingsguard_bodyguard_desc: "Este personaje está siendo custodiado por un miembro de la Guardia Real."

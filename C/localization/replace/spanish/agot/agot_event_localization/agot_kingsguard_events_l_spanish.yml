@@ -9,12 +9,15 @@
   
   
  agot_kingsguard.1001.t: "Un juramento cumplido: [dead_kingsguard.GetFirstNameNicknamedNoTooltip]"
+ agot_kingsguard.1001.fallback.t: "Un juramento roto: [removed_kg.GetFirstNameNicknamedNoTooltip]" #NT!
  agot_kingsguard.1001.desc.intro: "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] ha cumplido el juramento solemne de [dead_kingsguard.GetHerHis] y ha partido de este mundo bajo el manto de [dead_kingsguard.GetHerHis] Capa Blanca. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason]."
+ agot_kingsguard.1001.fallback.desc.intro: "[removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] ha deshonrado a [removed_kg.GetHerselfHimself] y ha sido despojado de su manto blanco por [removed_kg.GetHerHis]." #NT!
  agot_kingsguard.1001.desc.talented: "\n\n[dead_kingsguard.GetSheHe|U] fue un guerrero de increíble renombre. Aquellos que tuvieron la fortuna de ver a [dead_kingsguard.GetHerHim] con una espada en la mano describieron que [dead_kingsguard.GetHerHim] había luchado como el [dead_kingsguard.GetFaith.WarGodName] encarnado. El acero [dead_kingsguard.GetHerHis|U] ahora descansa junto a [dead_kingsguard.GetHerHim], ¡pero resonará en las mentes de los jóvenes guerreros de todo el reino durante siglos!"
  agot_kingsguard.1001.desc.suitable: "\n\n[dead_kingsguard.GetFirstNameNicknamedNoTooltip] fue un hábil [dead_kingsguard.Custom('KnightCultureNoTooltip')] que absolvió a [dead_kingsguard.GetHerselfHimself] con aplomo al servicio de [dead_kingsguard.GetHerHis] señor, [king.GetTitledFirstNameRegnal], siendo bien considerado por la habilidad de [dead_kingsguard.GetHerHis] con las armas."
  agot_kingsguard.1001.desc.passing: "\n\n[dead_kingsguard.GetSheHe|U] era un guerrero fuerte y confiable,"
  agot_kingsguard.1001.desc.unsuitable: "\n\nEl lugar de [dead_kingsguard.GetFirstNameNicknamedNoTooltip] dentro de la Guardia era cuestionable,"
  agot_kingsguard.1001.desc.end: "\n\nCon la partida de [dead_kingsguard.GetHerHis] a [dead_kingsguard.GetFaith.PositiveAfterLife], ahora recae el deber de llenar la vacante entre las filas de renombre de los Capas Blancas."
+ agot_kingsguard.1001.fallback.desc.end: "\n\nCon la partida de [removed_kg.GetHerHis], ahora me corresponde a mí llenar la vacante entre las renombradas filas de los mantos blancos." #NT!
  agot_kingsguard.1001.a: "¡Tráeme a los mejores caballeros de todo el reino!"
  agot_kingsguard.1001.a.tt: "Se le presentarán candidatos potenciales."
  agot_kingsguard.1001.b: "¡Haz que los poderosos señores del reino envíen candidatos potenciales para servirme!"
@@ -23,15 +26,19 @@
  agot_kingsguard.1001.c.tt: "Interactúa con personajes de tu reino para invitarlos a tu guardia personal."
   
  agot_kingsguard.1002.t: "Otorgando el Manto"
- agot_kingsguard.1002.desc: "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)] ha cumplido el juramento solemne de [dead_kingsguard.GetHerHis] y ha partido de este mundo bajo el manto de [dead_kingsguard.GetHerHis] Capa Blanca. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason].\n\n[lord_commander.GetFirstNameNicknamed] ha traído ante mí a los más grandes caballeros de todo el reino, de entre los cuales puedo seleccionar al miembro más nuevo de [ROOT.Char.Custom('KingsguardName')]."
+ agot_kingsguard.1002.desc.intro: "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] ha cumplido [dead_kingsguard.GetHerHis] juramento solemne y ha partido de este mundo bajo el manto de [dead_kingsguard.GetHerHis] capa blanca. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason]." #NT!
+ agot_kingsguard.1002.fallback.desc.intro: "[removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] ha deshonrado a [removed_kg.GetHerselfHimself] y ha sido despojado de su manto blanco por [removed_kg.GetHerHis]." #NT!
+ agot_kingsguard.1002.desc.end: "\n\n[lord_commander.GetFirstNameNicknamed] ha traído ante mí a los más grandes caballeros de todo el reino, entre quienes puedo seleccionar al miembro más nuevo del [ROOT.Char.Custom('KingsguardName')]." #NT!
  agot_kingsguard.1002.a: "¡[kingsguard_candidate_1.GetFirstNameNicknamedNoTooltip] es la elección segura!"
  agot_kingsguard.1002.b: "¡[kingsguard_candidate_2.GetFirstNameNicknamedNoTooltip] tiene la estatura de un guerrero!"
  agot_kingsguard.1002.c: "¡[kingsguard_candidate_3.GetFirstNameNicknamedNoTooltip] está hecho para el puesto!"
  agot_kingsguard.1002.d: "Bah, ninguno de estos servirá."
  agot_kingsguard.1002.d.tt: "Interactúa con personajes de tu reino para asignarlos a tu [ROOT.Char.Custom('KingsguardName')]"
   
- agot_kingsguard.1003.desc: "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)] ha cumplido el juramento solemne de [dead_kingsguard.GetHerHis] y ha partido de este mundo bajo el manto de [dead_kingsguard.GetHerHis] Capa Blanca. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason].\n\n[lord_commander.GetFirstNameNicknamed] me ha presentado a los candidatos de las casas nobles, de entre los cuales puedo seleccionar al miembro más nuevo del [ROOT.Char.Custom('KingsguardName')]."
  agot_kingsguard.1003.t: "Otorgando el Manto"
+ agot_kingsguard.1003.desc.intro: "[dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)|U] ha cumplido [dead_kingsguard.GetHerHis] juramento solemne y ha partido de este mundo bajo el manto de [dead_kingsguard.GetHerHis] capa blanca. [dead_kingsguard.GetFirstNameNicknamedNoTooltip] [dead_kingsguard.GetDeathReason]." #NT!
+ agot_kingsguard.1003.fallback.desc.intro: "[removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)|U] ha deshonrado a [removed_kg.GetHerselfHimself] y ha sido despojado de su manto blanco por [removed_kg.GetHerHis]." #NT!
+ agot_kingsguard.1003.desc.end: "\n\nLos hijos de varios nobles de todo el reino se han reunido en el patio, con [lord_commander.GetFirstNameNicknamed] a mi lado, [lord_commander.GetSheHe] señala quiénes serían candidatos ideales para servir dentro de mi [ROOT.Char.Custom('KingsguardName')]." #NT!
   
  agot_kingsguard.1005.opening: "[kingsguard_candidate.Custom2('AppropriateGreeting', ROOT.Char)]"
  agot_kingsguard.1005.opening_desc: "¡Me sentiría honrado de servir dentro de su [ROOT.Char.Custom('KingsguardName')]!"
@@ -66,13 +73,16 @@
  agot_kingsguard.1009.a.glad: "De hecho, protegerme es un honor."
   
  agot_kingsguard.1010.t: "Una hermandad despojada"
- agot_kingsguard.1010.desc: "Con la muerte de [dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)], sus espadas juradas pierden el liderazgo. Ahora viene la tarea crucial de llenar los sabatons de [dead_kingsguard.GetHerHis]. [kingsguard_successor.GetName] parecería el mejor [kingsguard_successor.GetWomanMan] para el trabajo, y la mayoría espera que suceda a [dead_kingsguard.GetName] como Lord Comandante. Sin embargo, la elección finalmente está en tus manos."
+ agot_kingsguard.1010.desc.intro: "Con el fallecimiento de [dead_kingsguard.Custom2('MyCharacterIntroduction',ROOT.Char)] los [ROOT.Char.Custom('KingsguardName')] se ven despojados de su liderazgo." #NT!
+ agot_kingsguard.1010.fallback.desc.intro: "Con la salida de [removed_kg.Custom2('MyCharacterIntroduction',ROOT.Char)] los [ROOT.Char.Custom('KingsguardName')] se ven despojados del liderazgo." #NT!
+ agot_kingsguard.1010.desc.end: "Ahora llega la crucial tarea de llenar [removed_kg.GetHerHis] escarpines. [kingsguard_successor.GetName] parecería ser el mejor [kingsguard_successor.GetWomanMan] para el trabajo, y la mayoría espera que suceda a [removed_kg.GetName] como Lord Comandante. Sin embargo, la elección finalmente está en mis manos." #NT!
+ agot_kingsguard.1010.fallback.desc.end: "Ahora llega la crucial tarea de llenar [removed_kg.GetHerHis] escarpines. Con el [ROOT.Char.Custom('KingsguardName')] vacío, ahora puede ser el mejor momento para encontrar caballeros dignos de la capa blanca." #NT!
  agot_kingsguard.1010.a: "[kingsguard_successor.GetName] es el sucesor natural de la oficina."
  agot_kingsguard.1010.b: "[kingsguard_1.GetName] liderará el [ROOT.Char.Custom('KingsguardName')]"
  agot_kingsguard.1010.c: "[kingsguard_2.GetName] liderará el [ROOT.Char.Custom('KingsguardName')]"
  agot_kingsguard.1010.d: "[kingsguard_3.GetName] liderará el [ROOT.Char.Custom('KingsguardName')]"
  agot_kingsguard.1010.e: "Quizás alguien más deba ocupar el lugar de [dead_character.GetNamePossessive]."
- agot_kingsguard.1010.f: "No... no queda nadie." #NT!
+ agot_kingsguard.1010.f: "No... no queda nadie."
   
  agot_kingsguard.1011.a: "[kingsguard_4.GetName] liderará el [ROOT.Char.Custom('KingsguardName')]"
  agot_kingsguard.1011.b: "[kingsguard_5.GetName] liderará el [ROOT.Char.Custom('KingsguardName')]"
@@ -89,6 +99,7 @@
  agot_kingsguard.2001.t: "Asignación de la Guardia Real"
  agot_kingsguard.2001.desc: "Puedo enviar mi [GetPlayer.Custom2('RelationToMe',SCOPE.sC('councillor'))], [councillor.GetShortUIName], para proteger a una persona de interés en el tribunal [target_character.GetUINamePossessive]. Alternativamente, podría asignar un guardaespaldas a [target_character.GetTitledFirstName] [target_character.GetHerselfHimself]."
  agot_kingsguard.2001.desc_own_court: "Puedo asignar mi [GetPlayer.Custom2('RelationToMe',SCOPE.sC('councillor'))], [councillor.GetTitledFirstName], para proteger a uno de mis invitados o cortesanos."
+ agot_kingsguard.2001.desc_bodyguard_courtowner: "Alternativamente, podría asignar un guardaespaldas a [target_character.GetTitledFirstName] [target_character.GetHerselfHimself]." #NT!
  agot_kingsguard.2001.a: "Proteger el objetivo designado."
  agot_kingsguard.2001.b: "Proteger [target_character.GetTitledFirstName]."
  agot_kingsguard.2001.c: "En realidad, no importa."
@@ -152,8 +163,8 @@
  agot_kingsguard.3005.c: "No necesito más cortesanos."
   
  agot_kingsguard.3006.t: "Estilo de vida [ROOT.Char.Custom('KingsguardName')]"
- agot_kingsguard.3006.desc: "[friendly_kingsguard.GetFullName] es un tipo saliente de [friendly_kingsguard.GetWomanMan]; Siempre dispuesto a iniciar una conversación o insertar [friendly_kingsguard.GetHerselfHimself] en una. Si bien irrita a los miembros más estoicos de mi [ROOT.Char.Custom('KingsguardName')], él y [kingsguard_friend.GetFullName] se han vuelto tan inseparables como hermanos.\n\nEntrenan juntos, desayunan juntos y en el fragor de cualquier batalla se encuentran uno al lado del otro. estimulándose unos a otros. Este vínculo de sangre entre estos dos guerreros se ha convertido en un tema de conversación común dentro de la corte, cuya fuerza dentro de mi [ROOT.Char.Custom('KingsguardName')] sólo puede servir para solidificar aún más mi reinado." #NT!
- agot_kingsguard.3006.a: "¡Que su amistad los lleve a mayores valores!" #NT!
+ agot_kingsguard.3006.desc: "[friendly_kingsguard.GetFullName] es un tipo saliente de [friendly_kingsguard.GetWomanMan]; Siempre dispuesto a iniciar una conversación o insertar [friendly_kingsguard.GetHerselfHimself] en una. Si bien irrita a los miembros más estoicos de mi [ROOT.Char.Custom('KingsguardName')], él y [kingsguard_friend.GetFullName] se han vuelto tan inseparables como hermanos.\n\nEntrenan juntos, desayunan juntos y en el fragor de cualquier batalla se encuentran uno al lado del otro. estimulándose unos a otros. Este vínculo de sangre entre estos dos guerreros se ha convertido en un tema de conversación común dentro de la corte, cuya fuerza dentro de mi [ROOT.Char.Custom('KingsguardName')] sólo puede servir para solidificar aún más mi reinado."
+ agot_kingsguard.3006.a: "¡Que su amistad los lleve a mayores valores!"
   
  agot_kingsguard.3007.notification: "[ROOT.Char.Custom('KingsguardName')] Mejorado"
  agot_kingsguard.3007.desc: "[improved_kingsguard.GetNamePossessive] horas de sparring en el patio y el compromiso con sus votos han llevado a esta mejora."
@@ -192,19 +203,19 @@
  agot_kingsguard.3013.c: "¡[drunken_kingsguard.GetFullName] es un [drunken_kingsguard.GetWomanMan] según mi propio corazón!"
   
   
- agot_kingsguard.3014.t: "Espadachín [ROOT.Char.Custom('KingsguardName')]" #NT!
- agot_kingsguard.3014.desc: "Tu [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] pasa gran parte del tiempo que no está a tu lado en tu patio, con el sudor corriendo por su frente mientras [lifestyle_kingsguard.GetHerHis] cruza espadas con los más grandes guerreros del reino.\n\n[lifestyle_kingsguard.GetNameNoTooltip] se ha convertido en un rostro familiar para tus armeros y para el [GetPlayer.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName], y la noticia de la destreza de [lifestyle_kingsguard.GetHerHis] con la espada se ha convertido en la comidilla de la corte. No es nada inusual que [lifestyle_kingsguard.GetHerHim] sea visto en el patio desde la primera salida del sol hasta su último parpadeo. [lifestyle_kingsguard.GetNameNoTooltip] se ha ganado una reputación como un hábil maestro de la espada." #NT!
- agot_kingsguard.3014.a: "¿Quizás puedas ayudarme con mi manejo de la espada, [lifestyle_kingsguard.GetFullNameNoTooltip]?" #NT!
+ agot_kingsguard.3014.t: "Espadachín [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.3014.desc: "Tu [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] pasa gran parte del tiempo que no está a tu lado en tu patio, con el sudor corriendo por su frente mientras [lifestyle_kingsguard.GetHerHis] cruza espadas con los más grandes guerreros del reino.\n\n[lifestyle_kingsguard.GetNameNoTooltip] se ha convertido en un rostro familiar para tus armeros y para el [GetPlayer.GetCouncillorPosition( 'councillor_marshal' ).GetPositionName], y la noticia de la destreza de [lifestyle_kingsguard.GetHerHis] con la espada se ha convertido en la comidilla de la corte. No es nada inusual que [lifestyle_kingsguard.GetHerHim] sea visto en el patio desde la primera salida del sol hasta su último parpadeo. [lifestyle_kingsguard.GetNameNoTooltip] se ha ganado una reputación como un hábil maestro de la espada."
+ agot_kingsguard.3014.a: "¿Quizás puedas ayudarme con mi manejo de la espada, [lifestyle_kingsguard.GetFullNameNoTooltip]?"
   
   
- agot_kingsguard.3015.t: "Cazando [ROOT.Char.Custom('KingsguardName')]" #NT!
- agot_kingsguard.3015.desc: "Tu [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] pasa gran parte del tiempo de [lifestyle_kingsguard.GetHerHis] que no está a tu lado en Royal Woods, aprovechando al máximo los privilegios proporcionados a las prestigiosas estaciones de [lifestyle_kingsguard.GetHerHim] a [lifestyle_kingsguard.GetHerHis].\n\n[lifestyle_kingsguard.GetNameNoTooltip] se ha convertido en un espectáculo conocido. a sus guardabosques y guardabosques, y la palabra de [lifestyle_kingsguard.GetHerHis] precisión con un arco se ha convertido en la comidilla de la corte. No es nada inusual que [lifestyle_kingsguard.GetHerHim] regrese de [lifestyle_kingsguard.GetHerHis] excursiones con [lifestyle_kingsguard.GetHerHis] botas sucias y [lifestyle_kingsguard.GetHerHis] séquito cargando [lifestyle_kingsguard.GetHerHis] último trofeo. [lifestyle_kingsguard.GetFullName]2 apartamentos envueltos en pieles, pellejos y calaveras, [lifestyle_kingsguard.GetNameNoTooltip] se ha ganado la reputación de ser un auténtico cazador." #NT!
- agot_kingsguard.3015.a: "¡Atrápame un alce gordo para la cena de esta noche, [lifestyle_kingsguard.GetFullNameNoTooltip]!" #NT!
+ agot_kingsguard.3015.t: "Cazando [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.3015.desc: "Tu [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] pasa gran parte del tiempo de [lifestyle_kingsguard.GetHerHis] que no está a tu lado en Royal Woods, aprovechando al máximo los privilegios proporcionados a las prestigiosas estaciones de [lifestyle_kingsguard.GetHerHim] a [lifestyle_kingsguard.GetHerHis].\n\n[lifestyle_kingsguard.GetNameNoTooltip] se ha convertido en un espectáculo conocido. a sus guardabosques y guardabosques, y la palabra de [lifestyle_kingsguard.GetHerHis] precisión con un arco se ha convertido en la comidilla de la corte. No es nada inusual que [lifestyle_kingsguard.GetHerHim] regrese de [lifestyle_kingsguard.GetHerHis] excursiones con [lifestyle_kingsguard.GetHerHis] botas sucias y [lifestyle_kingsguard.GetHerHis] séquito cargando [lifestyle_kingsguard.GetHerHis] último trofeo. [lifestyle_kingsguard.GetFullName]2 apartamentos envueltos en pieles, pellejos y calaveras, [lifestyle_kingsguard.GetNameNoTooltip] se ha ganado la reputación de ser un auténtico cazador."
+ agot_kingsguard.3015.a: "¡Atrápame un alce gordo para la cena de esta noche, [lifestyle_kingsguard.GetFullNameNoTooltip]!"
   
- agot_kingsguard.3016.t: "Halconero [ROOT.Char.Custom('KingsguardName')]" #NT!
- agot_kingsguard.3016.desc: "Tu [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] pasa gran parte del tiempo de [lifestyle_kingsguard.GetHerHis] que no está a tu lado en Royal Woods, aprovechando al máximo los privilegios proporcionados a las prestigiosas estaciones de [lifestyle_kingsguard.GetHerHim] a [lifestyle_kingsguard.GetHerHis].\n\n[lifestyle_kingsguard.GetNameNoTooltip] se ha convertido en un espectáculo conocido. a sus guardabosques y guardabosques, y la palabra de [lifestyle_kingsguard.GetHerHis] precisión con un arco se ha convertido en la comidilla de la corte. No es nada inusual que [lifestyle_kingsguard.GetHerHim] regrese de [lifestyle_kingsguard.GetHerHis] excursiones con [lifestyle_kingsguard.GetHerHis] botas sucias y [lifestyle_kingsguard.GetHerHis] séquito cargando [lifestyle_kingsguard.GetHerHis] último trofeo. [lifestyle_kingsguard.GetFullName]2 apartamentos envueltos en pieles, pellejos y calaveras, [lifestyle_kingsguard.GetNameNoTooltip] se ha ganado la reputación de ser un auténtico cazador." #NT!
- agot_kingsguard.3016.a: "¡Una búsqueda verdaderamente noble, [lifestyle_kingsguard.GetFullNameNoTooltip]!" #NT!
+ agot_kingsguard.3016.t: "Halconero [ROOT.Char.Custom('KingsguardName')]"
+ agot_kingsguard.3016.desc: "Tu [ROOT.Char.Custom('KingsguardName')] [lifestyle_kingsguard.GetFullName] pasa gran parte del tiempo de [lifestyle_kingsguard.GetHerHis] que no está a tu lado en Royal Woods, aprovechando al máximo los privilegios proporcionados a las prestigiosas estaciones de [lifestyle_kingsguard.GetHerHim] a [lifestyle_kingsguard.GetHerHis].\n\n[lifestyle_kingsguard.GetNameNoTooltip] se ha convertido en un espectáculo conocido. a sus guardabosques y guardabosques, y la palabra de [lifestyle_kingsguard.GetHerHis] precisión con un arco se ha convertido en la comidilla de la corte. No es nada inusual que [lifestyle_kingsguard.GetHerHim] regrese de [lifestyle_kingsguard.GetHerHis] excursiones con [lifestyle_kingsguard.GetHerHis] botas sucias y [lifestyle_kingsguard.GetHerHis] séquito cargando [lifestyle_kingsguard.GetHerHis] último trofeo. [lifestyle_kingsguard.GetFullName]2 apartamentos envueltos en pieles, pellejos y calaveras, [lifestyle_kingsguard.GetNameNoTooltip] se ha ganado la reputación de ser un auténtico cazador."
+ agot_kingsguard.3016.a: "¡Una búsqueda verdaderamente noble, [lifestyle_kingsguard.GetFullNameNoTooltip]!"
   
- agot_kingsguard.3017.t: "[ROOT.Char.Custom('KingsguardName')]: ¡Asesinato ignominioso!" #NT!
- agot_kingsguard.3017.desc: "El cadáver desnudo de mi [ROOT.Char.Custom('KingsguardName')] [eunuch_kingsguard.GetFullName] ha sido encontrado fuera de un burdel local. [eunuch_kingsguard.GetSheHe|U] fue descubierto habiendo sido castrado y, para colmo de insultos, [eunuch_kingsguard.GetHerHis] se metió su propia polla en la boca de [eunuch_kingsguard.GetHerHis]. Según nuestras fuentes, se encontraba en medio de una discusión con un trabajador cuando se vio abrumado por [eunuch_kingsguard.GetHerHis] menores. Desnudo y sin [eunuch_kingsguard.GetHerHis] arma, fue abrumado por las putas.\n\nEnvalentonados por esto, la gente pequeña se ha enfurecido y se está amotinando en las calles. Parece que [eunuch_kingsguard.GetFirstName] era muy conocido, pero no muy querido." #NT!
- agot_kingsguard.3017.a: "[eunuch_kingsguard.GetFirstNameNoTooltip] ¡tonto!" #NT!
+ agot_kingsguard.3017.t: "[ROOT.Char.Custom('KingsguardName')]: ¡Asesinato ignominioso!"
+ agot_kingsguard.3017.desc: "El cadáver desnudo de mi [ROOT.Char.Custom('KingsguardName')] [eunuch_kingsguard.GetFullName] ha sido encontrado fuera de un burdel local. [eunuch_kingsguard.GetSheHe|U] fue descubierto habiendo sido castrado y, para colmo de insultos, [eunuch_kingsguard.GetHerHis] se metió su propia polla en la boca de [eunuch_kingsguard.GetHerHis]. Según nuestras fuentes, se encontraba en medio de una discusión con un trabajador cuando se vio abrumado por [eunuch_kingsguard.GetHerHis] menores. Desnudo y sin [eunuch_kingsguard.GetHerHis] arma, fue abrumado por las putas.\n\nEnvalentonados por esto, la gente pequeña se ha enfurecido y se está amotinando en las calles. Parece que [eunuch_kingsguard.GetFirstName] era muy conocido, pero no muy querido."
+ agot_kingsguard.3017.a: "[eunuch_kingsguard.GetFirstNameNoTooltip] ¡tonto!"

@@ -1,0 +1,316 @@
+﻿l_spanish:
+  # # Trampled Underfoot 
+ court.8001.t: "Pisoteado" #NT!
+ court.8001.desc.intro:1 ""How many times have I told you to stay #EMP away#! from the #EMP newly planted [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]?!#!" \n\nIs that my gardener, [gardener.GetTitledFirstName], I hear bellowing? I turn to see [gardener.GetHerHim] carrying [child_1.Custom2('MyCharacterIntroduction', ROOT.Char)] by the scruff of [child_1.GetHerHis] neck down the hall towards me. \n\nThe child flails wildly, covered in petals and dirt, unable to reach [gardener.GetFirstNamePossessiveNoTooltip] arm: ""¡¿Cuántas veces te he dicho que te mantengas #EMP alejado#! del #EMP recién plantado [ROOT.Char.GetCapitalLocation.Custom('get_region_flower_type_plural')]?!#!" \n\n¿Es mi jardinero, [gardener.GetTitledFirstName], el que escucho bramar? Me giro para ver a [gardener.GetHerHim] llevando a [child_1.Custom2('MyCharacterIntroduction', ROOT.Char)] por el cuello de [child_1.GetHerHis] por el pasillo hacia mí. \n\nEl niño se agita salvajemente, cubierto de pétalos y tierra, incapaz de alcanzar el brazo de [gardener.GetFirstNamePossessiveNoTooltip]: "¡Bájame! ¡Te contaré al #!0!" \n\nMi jardinero arroja la carga de #!1 en un montón a mis pies, "¡El maldito #!2 ha pisoteado todo mi arduo trabajo, mi #!3! Tomará #EMP semanas#! para deshacer el daño..." \n \n#!6 se seca las lágrimas de [child_1.GetHerHis] ojos y solloza dócilmente," #NT!
+ court.8001.desc.diplomacy: ""¡Me estaban persiguiendo! Nunca he perdido un juego de #EMP it#!!" #NT!
+ court.8001.desc.martial: ""Sólo me estaba escondiendo de los soldados... ¡Tuvimos que emboscarlos para ganar la batalla!" #NT!
+ court.8001.desc.stewardship: ""¡No es mi culpa! [gardener.GetSheHe|U] ¡Ponlos sobre nuestro pequeño castillo!"" #NT!
+ court.8001.desc.intrigue: ""Estábamos jugando al escondite, nadie me habría encontrado si no fuera por #EMP [gardener.GetHerHim]#!!"" #NT!
+ court.8001.desc.learning: ""¡Sólo estaba mirando! ¡Esta vez son de un color diferente!"" #NT!
+ court.8001.desc.fallback: "-¡No hice nada! ¡Solo estaba jugando!" #NT!
+ court.8001.a.diplomacy: "A veces vale la pena que te atrapen, mi [child_1.Custom('GirlBoy')]." #NT!
+ court.8001.a.martial: "Pero también debes elegir el #EMP campo de batalla correcto#! ¡mi [child_1.Custom('GirlBoy')]!" #NT!
+ court.8001.a.stewardship: "Conozco un mejor lugar para construir tu poderosa corte mi [child_1.Custom('GirlBoy')]." #NT!
+ court.8001.a.intrigue: "Oh, te mostraré algunos lugares mucho mejores, mi [child_1.Custom('GirlBoy')]." #NT!
+ court.8001.a.learning: "También puedes aprender mucho a distancia, mi [child_1.Custom('GirlBoy')]." #NT!
+ court.8001.a.lesson_tt: "[child_1.GetFirstNameNoTooltip] toma tu punto" #NT!
+ court.8001.b.gardener: "¡No! #EMP No#! los parterres..." #NT!
+ court.8001.b.poet: "Delicada belleza, siempre aplastada por tontos torpes..." #NT!
+ court.8001.c: "Irás y ayudarás a replantarlos." #NT!
+ court.8001.c.gardener_tt: "[child_1.GetFirstNameNoTooltip] tiene dedos verdes" #NT!
+ court.8001.d: "¡¿Cómo #EMP te atreves#! a tratar a [child_1.GetFirstNameNoTooltip] de esa manera?!" #NT!
+ court.8001.e: "Los niños pueden jugar donde quieran, [gardener.GetFirstNameNoTooltip]." #NT!
+ # # Underequipped 
+ court.8010.t: "Subequipado" #NT!
+ court.8010.desc.intro: "Estoy disfrutando de un raro momento de tranquilidad entre consejos, cuando [underequipped.GetTitledFirstName] me lleva a un lado. \n\n"Mi señor...", comienza [underequipped.GetSheHe] con cuidado," #NT!
+ court.8010.desc.champion: ""Como su campeón, estoy orgulloso de representarlos," #NT!
+ court.8010.desc.bodyguard: ""Como tu guardaespaldas, es un honor para mí protegerte," #NT!
+ court.8010.desc.bold: "¡Pero esto es ridículo!" \n\n[underequipped.GetSheHe|U] desenvaina a medias la espada [underequipped.GetHerHis] de su vaina, llamando la atención sobre sus numerosos cortes y hoyos. "¡No se puede esperar que haga mi trabajo con esta torpe barra!"" #NT!
+ court.8010.desc.meek:0 "but..." \n\n[underequipped.GetSheHe|U] looks doubtful for a moment, then makes a weak but exasperated gesture with [underequipped.GetHerHis] scabbard: "pero..." \n\n[underequipped.GetSheHe|U] parece dudoso por un momento, luego hace un gesto débil pero exasperado con la vaina de [underequipped.GetHerHis]: "¿Cómo se supone que haga mi trabajo con esta vieja cosa?"" #NT!
+ court.8010.desc.body: "\n\n"Seguramente la calidad lo es todo cuando se trata de" #NT!
+ court.8010.desc.champion_end: "actuando en nombre de [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]!"" #NT!
+ court.8010.desc.bodyguard_end: "¡Protegiendo la [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] vida!"" #NT!
+ court.8010.a: "¡Mi mejor [underequipped.GetWomenMen] necesita brazos de calidad!" #NT!
+ court.8010.a.tt: "Se forjará un arma de buena calidad de [underequipped.GetTitledFirstNamePossessiveNoTooltip] elección por [underequipped.GetHerHim]" #NT!
+ court.8010.a.equipped_tt: "Se forja un arma excelente para [underequipped.GetTitledFirstName]" #NT!
+ court.8010.c: "Supongo que podría prescindir de una de mis propias armas..." #NT!
+ court.8010.c.equipped_tt: "[underequipped.GetTitledFirstNameNoTooltip] recibe un arma" #NT!
+ court.8010.d: "Ve a la armería, como todo el mundo." #NT!
+ court.8010.d.tt: "[underequipped.GetTitledFirstNameNoTooltip] traerá una espada de mala calidad de la armería." #NT!
+ court.8010.d.equipped_tt: "[underequipped.GetTitledFirstName] recibe una espada de armería" #NT!
+ court.8010.e: "¡Sal de mi vista, descarado [underequipped.Custom('InsultNoun')]!" #NT!
+  # # Sartorial Sting 
+ court.8020.t: "Picadura sartorial" #NT!
+ court.8020.desc: "Ocupado en medio de otro día en la corte, escucho por casualidad mi distintivo tono iracundo de [couture_spouse.GetWifeHusband] [couture_spouse.GetTitledFirstNamePossessive] — [couture_guest.GetTitledFirstName] parece haberse enojado [couture_spouse.GetHerHis]. \n\nAl acercarme, veo a mi invitado burlándose con aire de suficiencia: "Estas llamadas #EMP modas#! son una vergüenza; solo serían adecuadas para sirvientes y niños en cualquier corte #EMP [couture_guest.GetCulture.GetNameNoTooltip]#! respetable".\n\nMi [couture_spouse.GetWifeHusband] se sonroja y grita: "Ya he tenido #EMP bastante#! de ti — ¡no me importa si eres el [couture_spouse.GetTitledFirstNamePossessive]2 invitado!" — para [couture_spouse.GetTitledFirstNamePossessive]3 gran sorpresa. \n\nTomándome a un lado, [couture_spouse.GetTitledFirstNamePossessive]4 gime amargamente: "Ese ingrato [couture_spouse.GetTitledFirstNamePossessive]5 nunca deja de burlarse de nosotros; ayer mis sirvientes oyeron a [couture_spouse.GetTitledFirstNamePossessive]6 llamar a nuestras tendencias #EMP ¡pasadas de moda!#!"" #NT!
+ court.8020.a: "Ven querida, [couture_guest.GetSheHe] solo nos está tomando el pelo." #NT!
+ court.8020.b: "Supongo que podríamos esforzarnos un poco más..." #NT!
+ court.8020.d: "¿Pasado? #EMP ¡¿PASADO?!#!" #NT!
+  
+ poor_host_modifier: "Anfitrión inadecuado" #NT!
+ poor_host_modifier_desc: "Este personaje ha roto las reglas no escritas de la hospitalidad." #NT!
+ hunting_pooches_modifier: "Perros finos" #NT!
+ hunting_pooches_modifier_desc: "La corte de este personaje está equipada con perros de caza particularmente impresionantes." #NT!
+  # # Pawful of Pooches 
+ court.8030.t: "Un montón de perritos" #NT!
+ court.8030.desc.intro: "Cuando [huntmaster.GetTitledFirstName], mi maestro de caza, entra en la habitación, un grupo de cortesanos arrulladores desciende sobre [huntmaster.GetHerHim]. \n\nCuando [huntmaster.GetSheHe] finalmente logra pasar, la causa del revuelo se hace evidente: acunada en los brazos de [huntmaster.GetHerHis] hay una manta llena de cachorros retorciéndose, una especie de [ROOT.Char.Custom('get_region_dog_type')] por su aspecto, ¡y muy impresionantes también! \n\nMi $master_of_hunt_court_position$ sonríe ampliamente: "Mi señor, simplemente tenía que mostrarle esta camada; una vez que estos perros hayan crecido y hayan sido entrenados, ¡me atrevo a decir que serán la envidia de todas las partidas de caza de [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]!" \n\n" #NT!
+ court.8030.desc.one: "No puedo evitar notar mis [child_1.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))], [child_1.GetFirstNameNoTooltip], esforzándose por ver bien a los pequeños perros." #NT!
+ court.8030.desc.two: "Con el rabillo del ojo veo a dos de mis hijos, [child_1.GetFirstName] y [child_2.GetFirstName], claramente embelesados ​​por los cachorros, y en particular por el más grande de todos." #NT!
+ court.8030.desc.body: "\n\nTomando el más grande, [huntmaster.GetTitledFirstNameNoTooltip] reflexiona: "¡Este puede ser el mejor perro de su generación!"" #NT!
+ court.8030.a: "¡No puedo esperar a su debut!" #NT!
+ court.8030.b: "¡El más grande será para mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child_1'))], [child_1.GetFirstNameNoTooltip]!" #NT!
+ court.8030.c: "Sólo [child_2.GetFirstNameNoTooltip] merece un chico tan bueno." #NT!
+ court.8030.d: "¡Ah, estaba esperando un cachorro tan magnífico!" #NT!
+ # # Aristocratic Pretensions 
+ court.8040.t: "Pretensiones aristocráticas" #NT!
+ court.8040.desc.intro: "Tres de mis cortesanos están discutiendo abiertamente sobre mi 'gran número' de títulos al alcance del oído deliberadamente, lamentando en voz alta lo agotador que debe ser para el [ROOT.Char.GetTitleAsNameNoTooltip] administrar tantas propiedades [ROOT.Char.GetHerselfHimself]... \n\nSon tan uña y carne:" #NT!
+ court.8040.desc.position_holder: "fiel [position_holder.GetName] — un sirviente de la corte;" #NT!
+ court.8040.desc.knight: "galante [knight.GetName] — mi distinguido [ROOT.Char.Custom('MountedWarriorTerm')|U];" #NT!
+ court.8040.desc.relative: "[relative.GetName] — mis parientes titulados[relative.GetWomanMan];" #NT!
+ court.8040.desc.ambitious: "hambriento de poder [ambitious.GetName] — siempre en busca de poder;" #NT!
+ court.8040.desc.arrogant: "arrogante [arrogant.GetName] — cabeza en alto;" #NT!
+ court.8040.desc.lowborn: "hecho a sí mismo [lowborn.GetName] — que se arriesga;" #NT!
+ court.8040.desc.gentry: "altivo [gentry.GetName] — el privilegiado [gentry.GetHouse.GetName];" #NT!
+ court.8040.desc.generic_1: "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_1'))] [generic_1.GetName] — simplemente feliz de estar involucrado;" #NT!
+ court.8040.desc.generic_2: "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_2'))] [generic_2.GetName] — como llaman los guardias [generic_2.GetHerHim];" #NT!
+ court.8040.desc.generic_3: "[ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('generic_3'))] [generic_3.GetName] — un títere eminentemente olvidable;" #NT!
+ court.8040.desc.body: "y cegadoramente ausente: una pizca de humildad. \n\nPor encima del estruendo de los chismes de los cortesanos, distingo claramente las palabras: '[worst_title.GetTierAsNameNoTooltip]' y '[worst_title.GetNameNoTier]', en lo que estoy seguro era el tono burlón de [button.GetFirstNamePossessiveNoTooltip]. \n\nEl trío desvergonzado se gira para mirarme y los atrapo con una mirada fulminante." #NT!
+ court.8040.a: "Sí, sí, [courtier_1.GetTitledFirstNameNoTooltip]... [worst_title.GetNameNoTierNoTooltip] es tuyo." #NT!
+ court.8040.b: "Este pequeño juego puede terminar: ¡el [worst_title.GetTierAsNameNoTooltip] es [courtier_2.GetFirstNamePossessiveNoTooltip]!" #NT!
+ court.8040.c: "¡Tú ahí! [courtier_3.GetTitledFirstNameNoTooltip]? ¡El título es tuyo!" #NT!
+ court.8040.d: "¡Sé lo que estás tramando! ¡Es hora de demostrar tu valía!" #NT!
+ court.8040.d.flavor_tt: ""Al más fuerte"" #NT!
+ court.8040.d.courtier_1_tt: "[courtier_1.GetFirstNameNoTooltip] lo quiere más" #NT!
+ court.8040.d.courtier_2_tt: "[courtier_2.GetFirstNameNoTooltip] es el último [courtier_2.GetWomanMan] que queda en pie" #NT!
+ court.8040.d.courtier_3_tt: "[courtier_3.GetFirstNameNoTooltip] sale en primer lugar" #NT!
+ court.8040.grant_tt: "[new_noble.GetTitledFirstNameNoTooltip] recibe [worst_title.GetNameNoTierNoTooltip]" #NT!
+ court.8040.e: "Cada uno de ustedes, díganme por qué merecen un título." #NT!
+ court.8040.e.courtier_1_tt: "[courtier_1.GetFirstNameNoTooltip] es el más convincente" #NT!
+ court.8040.e.courtier_2_tt: "[courtier_2.GetFirstNameNoTooltip] impresiona por su elocuencia" #NT!
+ court.8040.e.courtier_3_tt: "[courtier_3.GetFirstNameNoTooltip] habla bien" #NT!
+ court.8040.f: "¿Qué estás mirando?" #NT!
+  # # A Little Bird 
+ court.8050.t: "un pajarito" #NT!
+ court.8050.desc:0 "At first I thought they were merely idiosyncrasies, but it is clear one of the many servants at court has been furtively signaling me.\n\nI approach [servant.GetHerHim] with my guards at a quiet moment, and [servant.GetSheHe] whispers conspiratorially: "Al principio pensé que eran meras idiosincrasias, pero está claro que uno de los muchos sirvientes de la corte me ha estado haciendo señales furtivas.\n\nMe acerco a [servant.GetHerHim] con mis guardias en un momento de silencio, y [servant.GetSheHe] susurra conspirativamente: "Gran [ROOT.Char.GetTitleAsNameNoTooltip], mi nombre es [servant.GetFirstName]. Escuchamos mucho mientras esperamos a tus invitados; apenas notan nuestra presencia..." \n\nMiro a [servant.GetHerHim] con dudas, preguntándome si realmente quiero escuchar lo que dice [servant.GetSheHe] a continuación. [servant.GetSheHe|U] me devuelve la mirada, claramente inseguro de si [servant.GetSheHe] está cometiendo un error. \n\nPor fin, [servant.GetSheHe] traga saliva: "Mi [ROOT.Char.GetLadyLord], [servant.GetSheHe]0, tu [servant.GetSheHe]1 [servant.GetSheHe]2, [servant.GetSheHe]3 detrás de las puertas cerradas de tu [servant.GetSheHe]4 — ¡lo juro con [servant.GetSheHe]5 como testigo!"" #NT!
+ court.8050.a: "Necesito a alguien más confiable como tú, [servant.GetWomenMen], [servant.GetFirstNameNoTooltip]." #NT!
+ court.8050.a.tt: "[servant.GetFirstNameNoTooltip] se unirá a tu [court|E]" #NT!
+ court.8050.b: "¿Qué más has escuchado?" #NT!
+ court.8050.b.tt: "Aprenderás un secreto de otra persona en la corte." #NT!
+ court.8050.b.tt_secret: "[vassal_2.GetTitledFirstNamePossessive] Secret" #NT!
+ court.8050.c: "Toma esto: solo me informarás a mí." #NT!
+ court.8050.c.tt: "Tu [spymaster|E] tendrá más probabilidades de interrumpir los planes mientras este modificador esté presente" #NT!
+ court.8050.d: "¡Arresten a este demonio acechante!" #NT!
+ court.8050.d.tt_imprison: "[servant.GetFirstNameNoTooltip] es arrojado a las mazmorras" #NT!
+  # Modifiers 
+ servant_informants_modifier: "Informantes sirvientes" #NT!
+ servant_informants_modifier_desc: "Los chismes en la corte de este personaje son reportados por una red de sirvientes espías." #NT!
+  # # Scornful Sycophants 
+ court.8060.t: "Aduladores desdeñosos" #NT!
+ court.8060.desc.intro: "Me detengo un momento en el umbral del pasillo, admirando la luz del sol, cuando escucho una risa burlona que viene a la vuelta de la esquina. \n\n "¡Yo #EMP lo sé! #!", Escucho a mi [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('snooty_1'))] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snooty_1'))], [snooty_1.GetFirstName], riéndose," #NT!
+ court.8060.desc.fashion: ""Cuando camino por ahí, a veces juro que siento que estoy en la cancha de los [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] grand[snooty_1.GetMotherFather]; ¡las tendencias son tan cansadas y tradicionales!" \n\n" #NT!
+ court.8060.desc.servants_1: ""Esperas #EMP todo el día#! a un sirviente y luego vienen dos a la vez, ¡sin lo que pediste!" \n\n" #NT!
+ court.8060.desc.food_1: ""¿Viste cómo quedó el banquete de anoche? ¡Prefiero masticar mi plato antes que comer esa porquería de cerdo!" \n\n" #NT!
+ court.8060.desc.body:0 "Another tittering voice cuts in: "Otra voz risueña interviene: "¡Dios mío, pensé que era el único que se había dado cuenta! Sin mencionar" #NT!
+ court.8060.desc.lodgings: "¡El tamaño #EMP#! de nuestras habitaciones! ¡Apenas hay espacio suficiente para un camastro de sirviente!" #NT!
+ court.8060.desc.food_2: "La comida en este lugar es realmente terrible, ¡y las porciones son tan #EMP pequeñas#!!" #NT!
+ court.8060.desc.servants_2: "Los encargados... ¡He desistido de pedirles nada: o no saben lo que es o no vuelven nunca!" #NT!
+ court.8060.desc.outro: "\n\n¿Es ese mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('snooty_2'))] [snooty_2.GetTitledFirstName], ahora reprimiendo una carcajada? ¡Qué descaro...!" #NT!
+ court.8060.a.fashion: "Voy a montar un nuevo stand de ropa solo para ti, [snooty_1.GetFirstNameNoTooltip]." #NT!
+ court.8060.a.servants: "¿Quizás podrías sugerirme algún personal calificado, [snooty_1.GetFirstNameNoTooltip]?" #NT!
+ court.8060.a.food: "[snooty_1.GetFirstNameNoTooltip], tengo una comida especial planeada mañana." #NT!
+ court.8060.b.food: "Pronto empezará un nuevo cocinero, [snooty_2.GetFirstNameNoTooltip]." #NT!
+ court.8060.b.lodgings: "Me mudaré a habitaciones más grandes esta noche, [snooty_2.GetFirstNameNoTooltip]." #NT!
+ court.8060.b.servants: "Supongo que nos vendría bien unas cuantas manos más que nos ayudaran." #NT!
+ court.8060.c: "¡Quítense de mi camino, percebes desagradecidos!" #NT!
+ court.8060.d: "Si no te gusta, ¡ve a buscar a alguien más para aprovecharte!" #NT!
+ court.8060.e: "Las distracciones mundanas sólo nos separan de [ROOT.Char.GetFaith.PositiveAfterLife]." #NT!
+ court.8060.e.pious_tt: "Todo vasallo o cortesano no cínico de una fe ascética." #NT!
+ court.8060.f: "Hermoso día ¿no?" #NT!
+ court.8060.f.flavor: "Hay que mantener las apariencias" #NT!
+  # # Feeling Useful 
+ court.8070.t: "Sentirse útil" #NT!
+ court.8070.desc:0 "My [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('parent'))] [parent.GetMotherFather] potters around court aimlessly each day, making clear [parent.GetHerHis] yearning for a purpose I am too busy to provide. \n\nToday [parent.GetSheHe] finally corners me: "Mi [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('parent'))] [parent.GetMotherFather] deambula sin rumbo por la corte todos los días, dejando en claro [parent.GetHerHis] su anhelo por un propósito que estoy demasiado ocupada para proporcionarle. \n\nHoy [parent.GetSheHe] finalmente me acorrala: "Ah, ahí estás [ROOT.Char.GetFirstNameNoTooltip], para mí todavía eres mi pequeña [ROOT.Char.Custom('GirlBoy')], ¡sabes! Déjame quitarte un poco de la carga de los hombros, todavía hay mucho que puedo enseñarte". \n\nMi séquito hace todo lo posible por encontrar algo más que mirar, pero solo empeora mi vergüenza. \n\n"[ROOT.Char.Custom('GetDaughterSon')|U], ¿qué pasa? ¿No te importa tu querida vieja [parent.Custom('GetMaPa')]? ¿Después de todo lo que he hecho por ti?"" #NT!
+ court.8070.a: "Encontraré algo que puedas hacer, [parent.Custom('GetMamaPapa')]." #NT!
+ court.8070.a.tt: "[parent.GetFirstNameNoTooltip] esperará un [court_position|E] en los próximos meses" #NT!
+ court.8070.b: "¿Has pensado en entregar tu vida a [ROOT.Char.GetFaith.HighGodName]?" #NT!
+ court.8070.c: "Simplemente acepta cualquier trabajo..." #NT!
+ court.8070.d: "Estoy #EMP muy#! ocupado, [parent.GetMotherFather]." #NT!
+ court.8071.satisfied: "[parent.GetMotherFather|U] se calienta con el rol [parent.GetHerHis]" #NT!
+ court.8071.disappoint: "[parent.GetMotherFather|U] cansa esperar" #NT!
+  # Modifiers 
+ promised_court_position_modifier: "Posición prometida" #NT!
+ promised_court_position_modifier_desc: "A este personaje se le ha asegurado un puesto en la corte en un futuro próximo, y se lo cuenta a todo aquel que esté dispuesto a escucharlo." #NT!
+  # # Maternal Reproach 
+ court.8080.t: "[parent.Custom('GetMaternalPaternal')|U] Reproche" #NT!
+ court.8080.desc.intro: "Mi [parent.GetMotherFather], [parent.GetTitledFirstName] se ha estado volviendo más irritable cada día. \n\nMientras me siento en mi trono, contemplando las posibles causas, el [parent.GetWomanMan] [parent.GetHerselfHimself] se lanza contra mí, tal como solía hacerlo [parent.GetSheHe] cuando me portaba mal de niña.\n\n"[ROOT.Char.GetFirstNameNoTooltip], mi [ROOT.Char.Custom('GetDaughterSon')]! Tienes que hacer algo al respecto." #NT!
+ court.8080.desc.fashion: "¡A esos tristes harapos los llamáis ropa!" #NT!
+ court.8080.desc.servants: "¡Tus sirvientes incompetentes y sobrecargados!" #NT!
+ court.8080.desc.lodgings: "¡Los escasos alojamientos que ofreces a tus invitados!" #NT!
+ court.8080.desc.food: "¡Las terribles ofrendas en tu mesa de banquete!" #NT!
+ court.8080.desc.outro: "¡¿No te importa lo que la gente piense de ti?!"\n\n"Esta no es forma de que un [ROOT.Char.GetTitleAsNameNoTooltip] presente a [ROOT.Char.GetHerselfHimself]; a este ritmo serás el hazmerreír de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] —¡no!— de todos los [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]!" #NT!
+ court.8080.a: "Sí [parent.Custom('GetMamaPapa')], lo arreglaré..." #NT!
+ court.8080.b: "Ah, ¿así que crees que eres mejor que mis cortesanos?" #NT!
+ court.8080.b.tt: "Cada [courtier|E]" #NT!
+ court.8080.c.nun: "¿Quizás preferirías los hábitos de un [ROOT.Char.GetFaith.DevoteeFemale]?" #NT!
+ court.8080.c.monk: "¿Quizás preferirías las túnicas de un [ROOT.Char.GetFaith.DevoteeMale]?" #NT!
+ court.8080.c.fallback: "¿Has considerado dedicarte a [ROOT.Char.GetFaith.HighGodName]?" #NT!
+ court.8080.d.fashion: "Creo que #EMP you#! deberías cosernos algunos reemplazos." #NT!
+ court.8080.d.servants: "Bueno, ¿por qué no echar una mano a los sirvientes?" #NT!
+ court.8080.d.lodgings: "¿Quizás podrías ceder tu habitación a otra persona?" #NT!
+ court.8080.d.food: "Bueno, busca otro lugar para comer..." #NT!
+ court.8080.e: "¡Ya no puedes hablarme así!" #NT!
+  # Modifiers 
+ court_8080_degraded_modifier: "Degradado" #NT!
+ court_8080_degraded_modifier_desc: "Este personaje ha sido humillado públicamente por su hijo y señor por quejarse." #NT!
+  # # Building Blocks 
+ court.8090.t: "Bloques de construcción" #NT!
+ court.8090.desc.intro: "Mis [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('architect'))], [architect.GetTitledFirstName], ciertamente toman en serio sus deberes como $royal_architect_court_position$; el apasionado debate de [architect.GetHerHis] con mis [steward.GetHeldCourtAndCouncilPositionsString], [steward.GetTitledFirstName], domina la habitación. \n\n"¡Sí, precisamente!", exclama [architect.GetFirstNameNoTooltip], "Las ruinas allí están plagadas de piedras talladas que podrían transferirse fácilmente a" #NT!
+ court.8090.desc.religious: "¡el [ROOT.Char.GetFaith.HouseOfWorship] de [temple_barony.GetNameNoTier]!"" #NT!
+ court.8090.desc.castle: "el [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] [ROOT.Char.Custom('FortifiedBuilding')] en [my_barony.GetNameNoTier]!"" #NT!
+ court.8090.desc.outro: "\n\n[steward.GetFirstNameNoTooltip] se frota la barbilla de [steward.GetHerHis] con duda: "Aun así, parece mucho trabajo, y a los lugareños que usan esos materiales no les va a gustar". \n\n[architect.GetFirstNameNoTooltip] pone los ojos en blanco ante esta refutación razonable." #NT!
+ court.8090.desc.chaplain:0 "but is cut off by my [chaplain.GetHeldCourtAndCouncilPositionsString]: "pero es interrumpido por mi [chaplain.GetHeldCourtAndCouncilPositionsString]: "El [ROOT.Char.GetFaith.HouseOfWorship] cercano de [temple_barony.GetNameNoTier] necesita urgentemente una ampliación"; [chaplain.GetTitledFirstName] chilla. "¡Ahí es donde deberían ir los escombros!"" #NT!
+ court.8090.desc.fallback: "burlándose, "Podemos darle un uso mucho mejor del que los plebeyos podrían, ¡lo sabes!"" #NT!
+ court.8090.a: "[my_barony.GetNameNoTierNoTooltip] #EMP podría#! mejorar un poco..." #NT!
+ court.8090.b: "Irá a la casa [ROOT.Char.GetFaith.HighGodNamePossessive] en [temple_barony.GetNameNoTierNoTooltip]." #NT!
+ court.8090.c: "En su lugar, quiero expandir [backup_barony.GetNameNoTooltip]." #NT!
+ court.8090.d: "Deja esos desgastados sillares para los plebeyos." #NT!
+  # Modifiers 
+ court_8090_commoners_modifier: "Ruinas comunes" #NT!
+ court_8090_commoners_modifier_desc: "La gente común de este condado se beneficia al desmantelar ruinas antiguas para obtener materiales de construcción." #NT!
+  # # Questionable Concoction 
+ court.8100.t: "Brebaje cuestionable" #NT!
+ court.8100.desc: "Caminando entre las audiencias, escucho a mi [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('physician'))] $court_physician_court_position$, [physician.GetTitledFirstName], discutiendo el último vuelo de la imaginación de [physician.GetHerHis]. \n\n"...supuestamente es la poción más fuerte que existe, y proviene solo de los confines más lejanos del mundo, o eso dicen los comerciantes y alquimistas con los que he hablado". \n\n[physician.GetSheHe|U] saca un frasco de líquido amarillo pálido, haciéndolo girar debajo de las narices enroscadas de mi cortesano. \n\n"Dicen que otorga vigor y larga vida, y es el favorito de aquellos que van a la batalla, pero solo los más fuertes pueden manejar su poder"." #NT!
+ court.8100.a: "¿La poción más fuerte, dices? Dámela aquí." #NT!
+ court.8100.b: "¿En serio? Deja que mi $food_taster_court_position$ lo intente primero." #NT!
+ court.8100.b.tt_forgiving: "[food_taster.GetTitledFirstName] no es $trait_forgiving$:" #NT!
+ court.8100.c: "Sólo [ROOT.Char.GetFaith.HighGodName] puede concedernos fuerza." #NT!
+ court.8100.d: "¡Esa bazofia no es apta para una bestia, y mucho menos para un hombre!" #NT!
+ court.8100.tt.handle_potion: "Manejas la poción más fuerte" #NT!
+ court.8100.tt.need_weaker: "Debería haber encontrado una poción más débil." #NT!
+ court.8100.tt.too_strong: "La poción es demasiado fuerte para ti." #NT!
+  # Modifiers 
+ strong_potion_modifier: "Poción fuerte" #NT!
+ strong_potion_modifier_desc: "Este personaje ha logrado manejar las pociones más fuertes." #NT!
+ feeling_unwell_modifier: "sentirse mal" #NT!
+ feeling_unwell_modifier_desc: "Este personaje debería haber encontrado algunas pociones más débiles." #NT!
+ # # Upon the Block 
+ court.8110.t: "En el bloque" #NT!
+ court.8110.desc.intro:0 "My [my_executioner.Custom('quirk_neg_adjective')] $executioner_court_position$, [my_executioner.GetTitledFirstName], mopes about the palace [my_executioner.Custom('quirk_neg_pp')], with all the subtlety of a petulant child.\n\nAt last I can tolerate these sorry displays at my court no more and demand: "What #EMP is#! the matter?!"\n\n[my_executioner.GetSheHe|U] is taken aback, but answers swiftly: "Mi [my_executioner.Custom('quirk_neg_adjective')] $executioner_court_position$, [my_executioner.GetTitledFirstName], se lamenta por el palacio [my_executioner.Custom('quirk_neg_pp')], con toda la sutileza de un niño petulante.\n\nPor fin no puedo tolerar más estas lamentables exhibiciones en mi corte y pregunto: "¿Qué #EMP es#! lo que pasa?"\n\n[my_executioner.GetSheHe|U] se sorprende, pero responde rápidamente: "Mi [ROOT.Char.GetLadyLord], perdóname, es solo que no he tenido una buena matanza en semanas..." \n\n"Vamos, que" #NT!
+ court.8110.desc.leader_1: "repugnante agitador, [prisoner_1.GetTitledFirstName]," #NT!
+ court.8110.desc.heretic: "hereje descarado, [prisoner_1.GetTitledFirstName]," #NT!
+ court.8110.desc.heathen: "pagano inmundo, [prisoner_1.GetTitledFirstName]," #NT!
+ court.8110.desc.infidel: "infiel sin Dios, [prisoner_1.GetTitledFirstName]," #NT!
+ court.8110.desc.noble: "demonio deplorable, [prisoner_1.GetTitledFirstName]," #NT!
+ court.8110.desc.fallback: "odioso [prisoner_1.Custom('GetCrime')], [prisoner_1.GetTitledFirstName]," #NT!
+ court.8110.desc.body: "es solo #EMP languideciendo#!, esperando que anuncie su fecha de ejecución." #NT!
+ court.8110.desc.religious: "No le importa [ROOT.Char.GetFaith.DeathDeityName] cuando el alma impía llega a [ROOT.Char.GetFaith.NegativeAfterLife]..."" #NT!
+ court.8110.desc.leader_2: "Mientras [prisoner_1.GetSheHe] viva, [prisoner_1.GetSheHe] puede ser un símbolo para otros renegados..."" #NT!
+ court.8110.desc.criminal: "Permíteme poner esa miseria de [prisoner_1.Custom('GetCrimeDesc')] sobre [prisoner_1.GetHerHis]..."" #NT!
+ court.8110.a: "Muy bien, es hora [prisoner_1.GetTitledFirstNamePossessiveNoTooltip]." #NT!
+ court.8110.b: "No, es el turno de [prisoner_2.GetTitledFirstNamePossessiveNoTooltip]." #NT!
+ court.8110.c: "Sí, y #EMP tú#! eres un [my_executioner.Custom('GetCrime')]!" #NT!
+ court.8110.c.flavor: "Mi $executioner_court_position$ debería saber cuál es su lugar" #NT!
+ court.8110.d: "Disfrutas esto demasiado, [my_executioner.GetFirstNameNoTooltip]." #NT!
+ court.8110.e: "No hay prisa" #NT!
+  # # Novel Perspectives 
+ court.8120.t: "Perspectivas novedosas" #NT!
+ court.8120.desc.intro: "Me siento en silencio, escuchando a mi [ROOT.Char.Custom2('DescriptorNegative', SCOPE.sC('accuser') )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('accuser'))], [accuser.GetTitledFirstName], enfrascado en un intenso debate teológico con mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('refuter'))], [refuter.GetTitledFirstName]. \n\nEste último suplica a [refuter.Custom('quirk_pos_adverb')]," #NT!
+ court.8120.desc.same_religion: ""...pero [refuter.GetFaith.GetNameNoTooltip] #EMP es#! más cercano a la verdadera palabra de [refuter.GetFaith.HighGodName]; es la destilación más pura de las revelaciones de [refuter.GetFaith.GetReligion.GetAdjectiveNoTooltip]."\n\n[accuser.GetTitledFirstNameNoTooltip] se burla, [accuser.Custom('quirk_neg_pp')]. "Lee el [accuser.GetFaith.ReligiousText] y verás que" #NT!
+ court.8120.desc.other_religion: ""...pero las enseñanzas al revés de [accuser.GetFaith.GetReligion.GetAdjectiveNoTooltip] no pueden compararse seriamente con las de nuestro [refuter.GetFaith.GetReligion.GetNameNoTooltip]; la verdad de [accuser.GetFaith.HighGodNamePossessive] es ​​una mera distorsión de [refuter.GetFaith.HighGodNamePossessive]."\n\n[accuser.GetTitledFirstNameNoTooltip] se burla, [accuser.Custom('quirk_neg_pp')]. "Piénsalo profundamente y verás que" #NT!
+ court.8120.desc.marriage: "Los lazos sagrados del matrimonio deben ser compartidos sólo con una persona; así nos acercamos a [accuser.GetFaith.PositiveAfterLife]."" #NT!
+ court.8120.desc.divorce: "El divorcio es para aquellos que no están dispuestos a dedicarse a otro incondicionalmente, buscando la pureza y el [accuser.GetFaith.PositiveAfterLife]. \n\n" #NT!
+ court.8120.desc.adultery: "[accuser.GetFaith.CreatorName] no tenía la intención de que fornicáramos fuera del matrimonio y persiguiéramos nuestras pasiones; ¡esa es la #EMP razón#! por la que tenemos estos vínculos!" #NT!
+ court.8120.desc.witchcraft: "Los rituales impíos de las brujas están en contradicción con la búsqueda de [accuser.GetFaith.PositiveAfterLife]."" #NT!
+ court.8120.desc.equality: "[accuser.GetFaith.CreatorName] creó a los hombres y a las mujeres juntos, ninguno subordinado al otro, al principio de los tiempos."" #NT!
+ court.8120.desc.cosanguity: "[accuser.GetFaith.CreatorName] no tenía intención de que los miembros de una misma familia se casaran o se reprodujeran entre sí; ¡esta es una tentación que desafía a la naturaleza!"" #NT!
+ court.8120.desc.outro: "\n\n"Por eso no hablo con los perdidos..." [refuter.GetTitledFirstNameNoTooltip] suspira con frustración. "Si no escuchas la verdad, solo espero que de alguna manera te salves del infierno [accuser.GetFaith.NegativeAfterLife]."" #NT!
+ court.8120.a.accuser: "[accuser.GetSheHe|U] tiene un punto, [refuter.GetFirstNameNoTooltip]." #NT!
+  #AGOT Modified, Vanilla Error 
+ #court.8120.a.refuter: "[refuter.GetSheHe|U] tiene un punto, [accuser.GetFirstNameNoTooltip]."" #NT!
+ court.8120.a.refuter: "[refuter.GetSheHe|U] tiene un punto, [accuser.GetFirstNameNoTooltip]." #NT!
+ court.8120.c: "Venid amigos, hay muchas maneras de honrar al creador." #NT!
+ court.8120.d: "¡Mira, estas son las [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] verdades!" #NT!
+ court.8120.d.tt: "Cada celoso [THIS.Char.GetFaith.GetAdjectiveNoTooltip] [vassal|E], [courtier|E] y [guest|E]" #NT!
+  #AGOT Modified 
+ #court.8120.e: "No quiero volver a escuchar este tipo de conversaciones, [accuser.GetFirstNameNoTooltip]." #NT!
+ court.8120.e: "No quiero volver a escuchar este tipo de conversaciones, [insulted_character.GetFirstNameNoTooltip]." #NT!
+ court.8120.f: "No nos corresponde debatir lo divino." #NT!
+ my_holy_book: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [ROOT.Char.GetFaith.ReligiousText|U]" #NT!
+ my_holy_book_description: "[ROOT.Char.GetTitledFirstNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierPossessiveNoTooltip] colección personal encuadernada de [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] enseñanzas, enfrentada con un dorado [ROOT.Char.GetFaith.ReligiousSymbol]." #NT!
+  # # Contrived Conflict 
+ court.8130.t: "Conflicto artificial" #NT!
+ court.8130.desc.intro: "Mientras estoy sentado en mi trono, reflexionando sobre esto y aquello, estalla un furor. \n\nMi $champion_court_position$ [champion.GetFirstName] ruge: "¡Sé exactamente lo que quisiste decir, tú [vassal.Custom('InsultNoun')]! ¡¿Cómo #EMP te atreves#! a faltarle el respeto a nuestro [ROOT.Char.GetTitleAsNameNoTooltip]?!", justo en la cara de un desconcertado [vassal.GetTitledFirstName]. [mediator.Custom2('MyCharacterIntroduction', ROOT.Char)|U] rápidamente interviene para separarlos, pero la atmósfera ya se ha empañado irreparablemente. \n\n" #NT!
+ court.8130.desc.bold: ""Tal agitación hay en esta corte, no me dejaré intimidar por tus juegos". [vassal.GetTitledFirstNameNoTooltip] replica [vassal.Custom('quirk_pos_adverb')]. $court.8130.desc.body$ El [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] y responde: "Muy bien, con mucho gusto pondré a este [champion.Custom('InsultAdjective')] bruto en [champion.GetHerHis] lugar"." #NT!
+ court.8130.desc.craven: "—¡P-p-pero yo no dije nada de eso! —espeta [vassal.GetTitledFirstNameNoTooltip] incrédulo. $court.8130.desc.body$ [vassal.GetTitleAsNameNoTooltip] [vassal.Custom('quirk_pos_present')] y tartamudea—: ¡¿Q-qué?! Vamos, ¡seguro que eso no será necesario!" #NT!
+ court.8130.desc.body: ""¡Te escuché con mis propios oídos!", [champion.GetFirstNameNoTooltip] baja la espalda, "¡Exijo satisfacción por este desaire a mi [ROOT.Char.GetLadyLord]!"" #NT!
+ court.8130.desc.outro: "\n\nTodos esperan mi opinión sobre el asunto, ya que [mediator.GetFirstNameNoTooltip] los mantiene separados." #NT!
+ court.8130.a: "[champion.GetFirstNameNoTooltip] defenderá mi honor." #NT!
+ court.8130.a.tt_champion: "[champion.GetTitledFirstNameNoTooltip] gana el duelo" #NT!
+ court.8130.a.tt_vassal: "[vassal.GetTitledFirstNameNoTooltip] gana el duelo" #NT!
+ court.8130.a.tt: "[champion.GetTitledFirstName] y [vassal.GetTitledFirstName] tienen un [single_combat_duel|E]" #NT!
+ court.8130.b: "Un malentendido; [vassal.GetFirstNameNoTooltip] es un vasallo leal." #NT!
+ court.8130.b.tt_me: "Gané el duelo" #NT!
+ court.8130.c: "Necesito agentes más sensatos." #NT!
+ court.8130.d: "[vassal.GetSheHe|U] dijo #EMP ¿qué?#! ¡Trae mi [ROOT.Char.Custom('signature_weapon')]!" #NT!
+ court.8130.d.tt: "[vassal.GetTitledFirstName] y yo tengo un [single_combat_duel|E]" #NT!
+ court.8130.e: "Tranquilos, no habrá duelo." #NT!
+  # # Royal Lapse 
+ court.8140.t: "Lapso real" #NT!
+ court.8140.desc:0 "The pageantry of court continues, day after day, from dawn to dusk. [courtier.GetTitledFirstName] extemporizes on my greatness, spouting platitudes and praises. Nearby [vassal.GetTitledFirstName] joins in, playing to the crowd, grinning stupidly and expecting a sign of my favor for [vassal.GetHerHis] antics... \n\nA deep, insistent desire to [ROOT.Char.Custom('GetStressDesire')] slowly builds, gnawing at my mind and distracting my attention. A lone bead of sweat trickles interminably down my brow... \n\n[courtier.GetFirstNameNoTooltip] notices my distance, inquiring: "El espectáculo de la corte continúa, día tras día, desde el amanecer hasta el anochecer. [courtier.GetTitledFirstName] improvisa sobre mi grandeza, soltando lugares comunes y alabanzas. Cerca de allí, [vassal.GetTitledFirstName] se suma, jugando con la multitud, sonriendo estúpidamente y esperando una señal de mi favor por las payasadas de [vassal.GetHerHis]... \n\nUn deseo profundo e insistente de [ROOT.Char.Custom('GetStressDesire')] crece lentamente, carcomiendo mi mente y distrayendo mi atención. Una solitaria gota de sudor resbala interminablemente por mi frente... \n\n[courtier.GetFirstNameNoTooltip] nota mi distancia y pregunta: "¿Estás bien, mi [ROOT.Char.GetLadyLord]?", con una preocupación casi genuina." #NT!
+ court.8140.a: "Mis disculpas, ¿decías?" #NT!
+ court.8140.a.flavor_tt: "¡Tranquilízate, eres el [ROOT.Char.GetTitleAsNameNoTooltip]!" #NT!
+ court.8140.b: "Perdóname, tengo otros asuntos que atender." #NT!
+ court.8140.b.flavor_tt: "Simplemente levántate, pasa junto a ellos y sal de la habitación." #NT!
+ court.8140.c: "Muy bien..." #NT!
+ court.8140.c.flavor_tt: "Los toleraré, pero sólo mientras la etiqueta lo exija." #NT!
+ # # Prandial Excess 
+ court.8150.t: "Exceso prandial" #NT!
+ court.8150.desc.intro: "Cada día parece que mi corte está llena de rumores sobre el próximo banquete, y muchos se han vuelto más corpulentos últimamente..." #NT!
+ court.8150.desc.taster: "\n\n[food_taster.GetTitledFirstName], mi $food_taster_court_position$, parece más letárgico con cada sesión, sudando más profusamente a medida que cada fantasía extranjera se lleva a la boca de [food_taster.GetHerHis]. \n\n" #NT!
+ court.8150.desc.body: "La actividad culinaria se ve alimentada por la constante competencia de [vassal_1.GetTitledFirstName], [vassal_2.GetTitledFirstName] y [vassal_3.GetTitledFirstNamePossessive] por exigir la comida más memorable de mis cocineros sobrecargados de trabajo. \n\nHoy es mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('demander'))], [demander.GetFirstNameNoTooltip], quien babea "Mi señor, esta noche voy a hacer que las cocinas preparen la salsa más rica conocida por el hombre, ¡servida con un asado de diez aves!", lamiéndose los labios de [demander.GetHerHis] con avidez. \n\n" #NT!
+ court.8150.desc.almoner_chaplain: "Mis $high_almoner_court_position$, [high_almoner.GetTitledFirstName] y [chaplain.GetCouncilTitleFirstName] hacen un gesto de desaprobación y sacuden la cabeza con un desdén manifiesto." #NT!
+ court.8150.desc.chaplain: "[chaplain.GetCouncilTitleFirstName] suspira con desaprobación, "Estos placeres fugaces no son nada comparados con la gracia de [chaplain.GetFaith.HighGodNamePossessive]..."" #NT!
+ court.8150.desc.almoner: "[high_almoner.GetTitledFirstName], mi $high_almoner_court_position$, levanta la nariz [high_almoner.GetHerHis], murmurando sobre los pobres hambrientos..." #NT!
+ court.8150.a: "¡No puedo esperar!" #NT!
+ court.8150.b: "Solo lo mejor para #EMP mi#! corte." #NT!
+ court.8150.c: "¡Esta extravagancia ha ido demasiado lejos!" #NT!
+ court.8150.d: "¿Nunca estarás satisfecho?" #NT!
+  # # Foremost Knight 
+ court.8160.t: "Lo más importante [ROOT.Char.Custom('MountedWarriorTerm')|U]" #NT!
+ court.8160.desc.intro: "Es de esperarse una sana rivalidad entre valientes luchadores, pero la creciente discordia entre [knight_1.GetFirstName] y [knight_2.GetFirstName] está agriando el ambiente en la corte. \n\n[knight_1.GetTitledFirstNameNoTooltip] es ​​ampliamente considerado más hábil, pero [knight_2.GetTitledFirstNameNoTooltip] claramente no está de acuerdo con la afirmación. \n\nEn medio de una audiencia, este último irrumpe en mi sala del trono y, agarrando la empuñadura de la espada de [knight_2.GetHerHis], grita "¡[knight_1.GetFirstNameNoTooltip]! ¡Solo uno de nosotros puede afirmar ser el [ROOT.Char.GetTitleAsNamePossessiveNoTooltip] más hábil [ROOT.Char.Custom('MountedWarriorTerm')], encuéntrame afuera y resolveré la cuestión!"\n\n[knight_1.GetTitledFirstNameNoTooltip] responde [knight_2.Custom('quirk_neg_adverb')], "¡Te cortaría en pedazos donde estás parado si no fuera por la presencia de mi [knight_2.GetFirstName]0, tú [knight_2.GetFirstName]1 [knight_2.GetFirstName]2! ¡Discúlpate y puede que te perdone la vida!" \n\nSerá mejor que actúe rápidamente si quiero detener esta escalada..." #NT!
+ court.8160.a: "Que gane mi mejor [ROOT.Char.Custom('MountedWarriorTerm')]." #NT!
+ court.8160.a.tt_knight_1: "[knight_1.GetTitledFirstNameNoTooltip] gana el duelo" #NT!
+ court.8160.a.tt_knight_2: "[knight_2.GetTitledFirstNameNoTooltip] gana el duelo" #NT!
+ court.8160.b: "¡Tomen sus espadas! Dales espadas de entrenamiento." #NT!
+ court.8160.c: "¡Los humillaré a ambos!" #NT!
+ court.8160.c.tt: "Lucharás en un combate singular con el [knight|E] o mayor [prowess|E] ([knight_1.GetTitledFirstName])" #NT!
+ court.8160.c.tt_win: "Eres victorioso" #NT!
+ court.8160.c.tt_lose: "Estás derrotado" #NT!
+ court.8160.d: "¡Estás en el lado #EMP mismo#!!" #NT!
+ court.8163.t: "Ganas el duelo" #NT!
+ court_humiliation_modifier: "Humillación en la corte" #NT!
+ court_humiliation_modifier_desc: "Este personaje ha sido socavado delante de toda su corte." #NT!
+  # # Pariah of Court 
+ court.8170.t: "Paria de la corte" #NT!
+ court.8170.desc.intro_scary: "Los niños de la corte huyen cuando '[criminal.GetFirstName] el [criminal.Custom('GetCrime')|U]' se acerca, y ni siquiera el más ferviente [ROOT.Char.GetFaith.BishopNeuterPlural] puede evitar encogerse ante la presencia de [criminal.GetHerHis]." #NT!
+ court.8170.desc.intro_sordid: "'[criminal.GetFirstName] el [criminal.Custom('GetCrime')|U]' es una figura de desdén en la corte, acosado por el ostracismo social y el blanco de muchas bromas sórdidas." #NT!
+ court.8170.desc.intro_religious: "Me juzgan duramente por mi hospitalidad hacia '[criminal.GetFirstName] el [criminal.Custom('GetCrime')|U]', quien es evitado por casi todos debido a su malvada fe." #NT!
+ court.8170.desc.intro_fallback: "Mi corte no admite excusas por mi hospitalidad hacia '[criminal.GetFirstName] el [criminal.Custom('GetCrime')|U]', a quien se considera una aberración en un lugar por lo demás distinguido." #NT!
+ court.8170.desc.body: "\n\nMi fracaso en condenar y mi continua proximidad a este [criminal.Custom('GetCrimeDesc')] se percibe como una tolerancia abierta, empañando la reputación de mi corte a los ojos de los [ROOT.Char.GetFaith.AltPriestTermPlural] y los fieles...\n\nMe han obligado a actuar y ahora debo decidir si mis crímenes de [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('criminal'))] superan mis afectos por [criminal.GetHerHim]. Seguramente debo hacer algo." #NT!
+ court.8170.desc.family: "incluso si [criminal.GetSheHe] es un [criminal.GetDynasty.GetNameNoTooltip]..." #NT!
+ court.8170.desc.guest: "[criminal.GetSheHe] es un simple viajero, después de todo." #NT!
+ court.8170.desc.fallback: "¿Es realmente tan difícil reemplazar a los cortesanos?" #NT!
+ court.8170.a.family: "No. La familia es lo primero." #NT!
+ court.8170.a.other: "No me corresponde juzgar." #NT!
+ court.8170.b: "¡Debes arrepentirte, [criminal.GetFirstNameNoTooltip]!" #NT!
+ court.8170.c: "Es hora de arrestar a la bestia." #NT!
+ court.8170.d: "Ya no puedo hospedarte más, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('criminal'))]..." #NT!
+ harbors_criminals_modifier: "Puertos criminales" #NT!
+ harbors_criminals_modifier_desc: "Este personaje no hace nada para llevar a los criminales ante la justicia en su propio tribunal." #NT!
+   # # Secrets and Lies 
+ court.8180.t: "Secretos y mentiras" #NT!
+ court.8180.desc.intro: "Los días pasan sin que se me pase por la cabeza, pero cada vez que veo a [criminal.GetTitledFirstNamePossessive] en la corte no puedo pensar en nada más que en [criminal.GetHerHis] crímenes. \n\nMe pregunto cuántos en la corte lo saben... ¿quizás ninguno? ¿Quizás todos...? La verdad saldrá a la luz eventualmente, y no le hará ningún bien a mi reputación tener tales escándalos en medio de mis cortesanos... \n\nDebo ocuparme de [criminal.GetSheHe|U], o tendré que lidiar con [ROOT.Char.GetFaith.HighGodName], y mucho menos con la corte." #NT!
+ court.8180.a: "¡Ya es suficiente! El mundo debe saberlo." #NT!
+ court.8180.b: "Sólo un tonto no aprovecharía este conocimiento." #NT!
+ court.8180.c: "[criminal.GetSheHe|U] pertenece a la mazmorra." #NT!
+ court.8180.d: "Es hora de que [criminal.GetHerHim] se vaya." #NT!
+ court.8180.e: "No es necesario actuar todavía..." #NT!

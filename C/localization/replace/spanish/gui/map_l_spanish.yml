@@ -27,7 +27,7 @@
  CHARACTER_AT_COURT_VISITING: "De visita en la [court|E] de [CHARACTER.GetShortUIName|V] en [PROVINCE.GetName|V]"
  CHARACTER_AT_COURT: "En la [court|E] de [CHARACTER.GetShortUIName|V] en [PROVINCE.GetName|V]"
   #AGOT Modified 
- #CHARACTER_TRAVELING_OWNER: "En [PROVINCE.GetName|V] mientras viaja" #NT!
+ #CHARACTER_TRAVELING_OWNER: "En [PROVINCE.GetName|V] mientras viaja"
  CHARACTER_TRAVELING_OWNER: "En [PROVINCE.GetName|V] de viaje"
  CHARACTER_TRAVELING_ENTOURAGE: "En el [entourage|E] de [TRAVEL_PLAN.GetData.GetOwner.GetShortUIName|V] en [PROVINCE.GetName|V]"
  FORD_TOOLTIP: "Vado entre $FROM$ y $TO$"
@@ -39,14 +39,14 @@
  MAP_REALM_TT_RELATION_ME: ""
  MAP_REALM_TT_RELATION_VASSAL: "Vasallo de [TARGET_CHARACTER.GetShortUINameNoTooltip|UV]"
  MAP_REALM_TT_RELATION_PEER: "Otro vasallo de [TARGET_CHARACTER.GetShortUINameNoTooltip|UV]"
- MAP_REALM_TT_RELATION_LIEGE: "Señor de [TARGET_CHARACTER.GetShortUINameNoTooltip|UV]"
- MAP_REALM_TT_RELATION_TOP_LIEGE: "Señor principal de [TARGET_CHARACTER.GetShortUIName|UV]"
+ MAP_REALM_TT_RELATION_LIEGE: "Lord de [TARGET_CHARACTER.GetShortUINameNoTooltip|UV]"
+ MAP_REALM_TT_RELATION_TOP_LIEGE: "Lord principal de [TARGET_CHARACTER.GetShortUIName|UV]"
  MAP_REALM_TT_RELATION_OTHER: "Señorío independiente"
   
   #AGOT MODIFIED 
- #IMPASSIBLE_PROVINCE_TOOLTIP: "#T Terreno intransitable#!" #NT!
+ #IMPASSIBLE_PROVINCE_TOOLTIP: "#T Terreno intransitable#!"
  IMPASSIBLE_PROVINCE_TOOLTIP: "#T Terreno infranqueable#!"
- #IMPASSPABLE_SEA_PROVINCE_TOOLTIP: "#T Yegua Incógnitum#!" #NT!
+ #IMPASSPABLE_SEA_PROVINCE_TOOLTIP: "#T Yegua Incógnitum#!"
  IMPASSPABLE_SEA_PROVINCE_TOOLTIP: "#T Mare Incognitum#!"
  SEA_PROVINCE_TOOLTIP: "#T [PROVINCE.GetName]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip|V]"
  LAKE_PROVINCE_TOOLTIP: "#T Lago#!"
@@ -121,7 +121,7 @@
  ECONOMY_MAP_TOOLTIP: "#T Condado de [ROOT.Province.GetCounty.GetName]#!\n[GetEconomyMapModeTooltip( ROOT.Province )]"
  COUNTY_CONTROL_MAP_MODE_TOOLTIP: "#T [control|E] de condado de [ROOT.Province.GetCounty.GetName]: [ROOT.Province.GetCounty.GetControlLevelOutOfMax]#!\n[ROOT.Province.GetCounty.GetCountyControlEffectsDesc]\n\n[ROOT.Province.GetCounty.GetCountyControlIncreaseDesc]"
  ADDITIONAL_MAPMODES: "Modos adicionales"
- ADDITIONAL_MAP_SETTINGS: "Ajustes adicionales" #NT!
+ ADDITIONAL_MAP_SETTINGS: "Ajustes adicionales"
  ZOOM_LEVEL_PAPER_MAP: "Mapa de papel"
  ZOOM_LEVEL_PAPER_MAP_TOOLTIP: "El $ZOOM_LEVEL_PAPER_MAP$ ofrece una vista general de todos los [realms|E] independientes del mundo.\n\n#TUT En este modo, al hacer clic en el mapa se seleccionan los [realms|E]#!"
  ZOOM_LEVEL_POLITICAL: "Mapa político"
@@ -147,21 +147,21 @@
  PROVINCE_WINTER_LEVEL_HARSH: "Dura"
  MAP_MODE: "Modo mapa"
   
- EPIDEMICS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetEpidemicMapTooltip]" #NT!
- EPIDEMIC_PROVINCE_NO_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot infectados por cualquier epidemia" #NT!
- EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP: "#T Infecciones en [Province.GetNameNoTooltip]#!\n$EPIDEMIC_NAMES$" #NT!
- EPIDEMIC_INFECTED_PROVINCE_TOOLTIP: "#T [Epidemic.GetNameNoTooltip] Infección en [Province.GetNameNoTooltip]#!\nInfection Tasa: [Epidemic.GetInfectionDataIn( Province.Self ).GetInfectionRate|V%/^]\nInicio del brote: [Epidemic.GetInfectionDataIn( Province.Self ).GetStartDate.GetString]" #NT!
- EPIDEMIC_SAFE_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot en riesgo de infección por [Epidemic.GetNameNoTooltip]" #NT!
- EPIDEMIC_RISK_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nRisk de infección por [Epidemic.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$" #NT!
- epidemics_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Haga clic para seleccionar [Province.GetHighestPriorityEpidemic.GetNameNoTooltip]#!" #NT!
+ EPIDEMICS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetEpidemicMapTooltip]"
+ EPIDEMIC_PROVINCE_NO_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot infectados por cualquier epidemia"
+ EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP: "#T Infecciones en [Province.GetNameNoTooltip]#!\n$EPIDEMIC_NAMES$"
+ EPIDEMIC_INFECTED_PROVINCE_TOOLTIP: "#T [Epidemic.GetNameNoTooltip] Infección en [Province.GetNameNoTooltip]#!\nInfection Tasa: [Epidemic.GetInfectionDataIn( Province.Self ).GetInfectionRate|V%/^]\nInicio del brote: [Epidemic.GetInfectionDataIn( Province.Self ).GetStartDate.GetString]"
+ EPIDEMIC_SAFE_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot en riesgo de infección por [Epidemic.GetNameNoTooltip]"
+ EPIDEMIC_RISK_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nRisk de infección por [Epidemic.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$"
+ epidemics_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Haga clic para seleccionar [Province.GetHighestPriorityEpidemic.GetNameNoTooltip]#!"
   
- LEGENDS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetLegendMapTooltip]" #NT!
- LEGEND_PROVINCE_NONE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot adoptó cualquier leyenda" #NT!
- LEGEND_PROVINCE_ALL_SPREAD_TOOLTIP: "#T Leyendas en [Province.GetNameNoTooltip]#!\n$LEGEND_NAMES$" #NT!
- LEGEND_IN_PROVINCE_TOOLTIP: "#T [Legend.GetNameNoTooltip] en [Province.GetNameNoTooltip]#!" #NT!
- LEGEND_NO_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot en rango para adoptar [Legend.GetNameNoTooltip]" #NT!
- LEGEND_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nChance de adopción por [Legend.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$\n\t$SPREAD_DEBUG_BREAKDOWN$" #NT!
- legends_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Haga clic para seleccionar [Province.GetHighestPriorityLegend.GetNameNoTooltip]#!" #NT!
- LEGEND_QUALITY_SPREAD_CHANCE: "Probabilidad desde el nivel de calidad: $CHANCE|%/+2=$" #NT!
- LEGEND_QUALITY_OWNER_MODIFIER: "Modificador de propietario: $MOD|%/+2=$" #NT!
- LEGEND_QUALITY_OWNER_MULTIPLIER: "Multiplicador de propietario: $BREAKDOWN_MULTIPLICATION_PREFIX$$MULT|2V$" #NT!
+ LEGENDS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetLegendMapTooltip]"
+ LEGEND_PROVINCE_NONE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot adoptó cualquier leyenda"
+ LEGEND_PROVINCE_ALL_SPREAD_TOOLTIP: "#T Leyendas en [Province.GetNameNoTooltip]#!\n$LEGEND_NAMES$"
+ LEGEND_IN_PROVINCE_TOOLTIP: "#T [Legend.GetNameNoTooltip] en [Province.GetNameNoTooltip]#!"
+ LEGEND_NO_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNot en rango para adoptar [Legend.GetNameNoTooltip]"
+ LEGEND_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nChance de adopción por [Legend.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$\n\t$SPREAD_DEBUG_BREAKDOWN$"
+ legends_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Haga clic para seleccionar [Province.GetHighestPriorityLegend.GetNameNoTooltip]#!"
+ LEGEND_QUALITY_SPREAD_CHANCE: "Probabilidad desde el nivel de calidad: $CHANCE|%/+2=$"
+ LEGEND_QUALITY_OWNER_MODIFIER: "Modificador de propietario: $MOD|%/+2=$"
+ LEGEND_QUALITY_OWNER_MULTIPLIER: "Multiplicador de propietario: $BREAKDOWN_MULTIPLICATION_PREFIX$$MULT|2V$"

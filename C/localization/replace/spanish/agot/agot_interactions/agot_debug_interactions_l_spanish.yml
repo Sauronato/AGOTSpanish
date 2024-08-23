@@ -22,7 +22,7 @@
  agot_mw_debug_show_stance_and_side_interaction_tt_crown: "[recipient.GetFirstName] es un objetivo mw."
  agot_mw_debug_show_stance_and_side_interaction_tt_rebel_leader: "[recipient.GetFirstName] es un líder rebelde contra [debug_mw_rebel_leader.GetFirstName]."
  agot_mw_debug_show_stance_and_side_interaction_tt_none: "[recipient.GetFirstName] está en ningún lado o lista."
- agot_mw_debug_show_stance_and_side_interaction_tt_pre_war_liege: "[recipient.GetFirstNamePossessive] feudo de antes de la guerra es [recipient.MakeScope.Var('pre_war_liege').Char.GetFirstName]." #NT!
+ agot_mw_debug_show_stance_and_side_interaction_tt_pre_war_liege: "[recipient.GetFirstNamePossessive] feudo de antes de la guerra es [recipient.MakeScope.Var('pre_war_liege').Char.GetFirstName]."
   
  agot_set_as_rebel_leader_interaction: "Establecer como líder rebelde"
  agot_set_as_rebel_leader_interaction_desc: "Establecer como líder rebelde"
@@ -53,3 +53,25 @@
  debug_decrease_ptk_15: "#N Disminuir PTK en 15"
  debug_decrease_ptk_20: "#N Disminuir PTK en 20"
  debug_decrease_ptk_25: "#N Disminuir PTK en 25"
+  
+  # DRAGONS 
+ debug_tame_dragon_interaction: "Depurar Administrar Dragon" #NT!
+ agot_debug_spawn_egg: "Generar huevo de dragón en" #NT!
+ agot_debug_spawn_dragon: "Engendro de dragón" #NT!
+ agot_debug_give_dragon_tt: "A [recipient.GetNameOrMeRegnal] se le asignará un [tamed_dragon|E]" #NT!
+ debug_bond_dragon: "Vínculo instantáneo" #NT!
+ debug_tame_dragon: "Dragón domesticado" #NT!
+ debug_untame_dragon: "Dragón indomable" #NT!
+ debug_unbond_dragon: "Dragón desvinculado" #NT!
+ debug_bond_dragon_tt: "[actor.GetShortUIName] se vinculará instantáneamente con [recipient.GetName]" #NT!
+ debug_tame_dragon_tt: "[actor.GetShortUIName] domesticará instantáneamente a [recipient.GetName]" #NT!
+ debug_untame_dragon_tt: "[actor.GetShortUIName] desatará a [recipient.GetName], pero [recipient.GetName] permanecerá unido a [actor.GetShortUIName]" #NT!
+ debug_unbond_dragon_tt: "[actor.GetShortUIName] se desvinculará [recipient.GetName]" #NT!
+ manage_dragon_nothing_tt: "No pasará nada" #NT!
+  
+ debug_spawn_owned_dragon: "Engendro [owned_dragon|E]" #NT!
+ debug_spawn_tamed_dragon: "Engendro [tamed_dragon|E]" #NT!
+ debug_spawn_wild_dragon: "Engendro [wild_dragon|E]" #NT!
+ agot_debug_spawn_owned_dragon_tt: "Aparecerá un [owned_dragon|E] en la cancha [recipient.GetNamePossessiveRegnal]" #NT!
+ agot_debug_spawn_tamed_dragon_tt: "Un [tamed_dragon|E] se presentará en el tribunal de [recipient.GetNamePossessiveRegnal]" #NT!
+ agot_debug_spawn_wild_dragon_tt: "Un [wild_dragon|E] aparecerá en la cancha [recipient.GetNamePossessiveRegnal]" #NT!

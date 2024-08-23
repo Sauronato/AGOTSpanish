@@ -1,0 +1,460 @@
+﻿l_spanish:
+  
+  ################################################## 
+  # Misc 
+ board_games.0000.t: "El mejor juego: [SCOPE.Custom('BG_GameType')|U]" #NT!
+ board_games.0001.t: "$board_games.0000.t$" #NT!
+  
+  ################################################## 
+  # Opponent Winning 
+ board_games.0001.desc.opponent_winning.diplomacy.low: ""Sabes", reflexiona mi oponente, "puede que no sea muy hablador, pero soy alarmantemente bueno en [SCOPE.Custom('BG_GameType')]"." #NT!
+ board_games.0001.desc.opponent_winning.diplomacy.medium: ""Ahhhh, si hablar en público fuera tan fácil como ganarte en [SCOPE.Custom('BG_GameType')]", comenta mi oponente." #NT!
+ board_games.0001.desc.opponent_winning.diplomacy.high: ""Realmente no sé qué es más fácil", se lamenta mi oponente, "ganarte en [SCOPE.Custom('BG_GameType')] o contar la historia de tu vergonzosa derrota"." #NT!
+ board_games.0001.desc.opponent_winning.martial.low: ""Si la guerra fuera tan fácil como [SCOPE.Custom('BG_GameType')], ya gobernaría el mundo", se ríe mi oponente. "Pero bueno, así soy yo"." #NT!
+ board_games.0001.desc.opponent_winning.martial.medium: ""Mmm, no eres muy buen estratega, ¿verdad?", se ríe entre dientes mi oponente." #NT!
+ board_games.0001.desc.opponent_winning.martial.high: ""El campo de batalla, el tablero, todo es solo una cuestión de lo más importante", canta mi oponente. [bg_opponent.GetSheHe|U] golpea [bg_opponent.GetHerHis] en la frente con un nudillo para enfatizar." #NT!
+ board_games.0001.desc.opponent_winning.stewardship.low: ""Ojalá las cuestiones de dinero fueran tan fáciles como jugar [SCOPE.Custom('BG_GameType')]", comenta mi oponente. "Estaría nadando en plata"." #NT!
+ board_games.0001.desc.opponent_winning.stewardship.medium: ""¿Crees que [SCOPE.Custom('BG_GameType')] es una buena práctica para la administración real?", pregunta mi oponente distraídamente. "Siempre lo he pensado así. No es que esté... insinuando nada con ello"." #NT!
+ board_games.0001.desc.opponent_winning.stewardship.high: ""Siempre he dicho que [SCOPE.Custom('BG_GameType')] puede enseñarle mucho a [bg_opponent.GetWomanMan] sobre cómo dirigir un reino", pontifica mi oponente. "Y viceversa, naturalmente"." #NT!
+ board_games.0001.desc.opponent_winning.intrigue.low: ""Ves, por eso me gusta [SCOPE.Custom('BG_GameType')]", opina mi oponente. "Sin andar por ahí, sin mentir, solo un juego de ingenio justo. Uno en el que, bueno..."" #NT!
+ board_games.0001.desc.opponent_winning.intrigue.medium: ""¿Sabías que puedes aprender #EMP exactamente#! cómo miente alguien observando su [bg_myself.Custom('MaskFace')] durante [SCOPE.Custom('BG_GameType')]?", pregunta mi oponente. "Oh, no quise decir... solo una nota..."" #NT!
+ board_games.0001.desc.opponent_winning.intrigue.high: ""Cuidado", sonríe mi oponente, "un movimiento más como ese y activarás mi trampa [SCOPE.Custom('BG_GamePiece')]"." #NT!
+ board_games.0001.desc.opponent_winning.learning.low: ""Sabes, me dicen que necesito #EMP libros#! para demostrar mi inteligencia", pontifica mi oponente, "pero creo que ahora está bastante claro que no soy tan patán"." #NT!
+ board_games.0001.desc.opponent_winning.learning.medium: ""Sinceramente", dice mi oponente, "me impresiona que estés jugando tan bien, teniendo en cuenta a quién te enfrentas"." #NT!
+ board_games.0001.desc.opponent_winning.learning.high: ""He estudiado [SCOPE.Custom('BG_GameType')] extensamente", explica mi oponente, "y lamento decir que a esta altura simplemente no creo que haya forma de que ganes"." #NT!
+ board_games.0001.desc.opponent_winning.trait.lustful: ""Como el mejor amante del mundo #EMP y #! [SCOPE.Custom('BG_GameType')] jugadores, no te culpo por perder contra mí", se ríe mi oponente." #NT!
+ board_games.0001.desc.opponent_winning.trait.chaste: ""La disciplina en el hogar genera disciplina en la mesa directiva, ¿sabes?", pontifica mi oponente. "Un poco de moderación ayuda mucho"." #NT!
+ board_games.0001.desc.opponent_winning.trait.gluttonous: ""Creo que podría celebrar mi victoria con un banquete", reflexiona mi oponente. "Tengo ganas de algo dulce para acompañar la victoria"." #NT!
+ board_games.0001.desc.opponent_winning.trait.temperate: ""Tal vez incluso me permitiré un vaso de agua con aroma a rosas después de este juego", reflexiona mi oponente. "No me doy un capricho a menudo, pero creo que me lo he ganado"." #NT!
+ board_games.0001.desc.opponent_winning.trait.greedy: ""Lo único más dulce que el tintineo del oro es el suave repiqueteo de las lágrimas de un [bg_myself.GetWomanMan] contra un tablero de [SCOPE.Custom('BG_GameType')]", sonríe mi oponente. "¿No estás de acuerdo?"" #NT!
+ board_games.0001.desc.opponent_winning.trait.generous: ""Mira, puede que esté ganando, pero si me lo pides amablemente, estoy dispuesto a... dejarte esto", explica mi oponente, con una voz que rezuma amabilidad y compasión. "Hay más en la vida que ganar a [SCOPE.Custom('BG_GameType')]"." #NT!
+ board_games.0001.desc.opponent_winning.trait.lazy: "Mi oponente bosteza ruidosamente. "Sinceramente esperaba un desafío un poco mayor, [bg_myself.GetFirstNameNoTooltip]. Apenas estoy despierto"." #NT!
+ board_games.0001.desc.opponent_winning.trait.diligent: ""Por eso es necesario que te esfuerces", consuela mi oponente, en un tono #EMP absolutamente#! insufrible. "No hay sustituto para el trabajo duro, ni en la vida ni en [SCOPE.Custom('BG_GameType')]"." #NT!
+ board_games.0001.desc.opponent_winning.trait.wrathful: "Mi oponente está extrañamente tranquilo. "Oh, no hay mucho por lo que enojarse", dice [bg_opponent.GetSheHe], captando mi mirada, "cuando las cosas van tan #EMP bien#!."." #NT!
+ board_games.0001.desc.opponent_winning.trait.calm: ""Siempre he pensado que la clave para el [SCOPE.Custom('BG_GameType')] es tener la mente clara y la cabeza fría", reflexiona mi oponente. "Algún día lo conseguirás"." #NT!
+ board_games.0001.desc.opponent_winning.trait.patient: ""La mayoría de la gente", me sermonea mi oponente, "no se da cuenta de lo complicado que es hacer [bg_opponent.Custom('BG_RandomArticleDirection')] [bg_opponent.Custom('BG_RandomRankPossessive')] [bg_opponent.Custom('BG_RandomMoveType')]. Y mucho menos defenderse de ello"." #NT!
+ board_games.0001.desc.opponent_winning.trait.impatient: ""Realmente eres bastante lento cuando juegas [SCOPE.Custom('BG_GameType')], [bg_myself.Custom2('GetYoungMiddleAgedOld',bg_opponent)] [bg_myself.GetWomanMan]", murmura mi oponente, tamborileando con [bg_opponent.GetHerHis] dedos sobre el tablero." #NT!
+ board_games.0001.desc.opponent_winning.trait.arrogant: ""No te sientas mal [bg_myself.GetFirstNameNoTooltip]", me dice mi oponente, reclinándose donde [bg_opponent.GetSheHe] se sienta tranquilamente. "No todos podemos ser tan talentosos por naturaleza #EMP"." #NT!
+ board_games.0001.desc.opponent_winning.trait.humble: ""La verdad es que lo estás haciendo muy bien", dice alegremente mi oponente. "No suelo hacerlo tan bien, así que creo que simplemente estás teniendo mala suerte"." #NT!
+ board_games.0001.desc.opponent_winning.trait.deceitful: ""No te sientas tan mal", tranquiliza mi oponente, con una voz dulce como la miel y cáustica como el pecado. "Ni siquiera [bg_opponent.GetFaith.TricksterGodName] pudo seguir mis movimientos"." #NT!
+ board_games.0001.desc.opponent_winning.trait.honest: ""¡Vaya, todo esto va mucho mejor de lo que esperaba!", exclama mi oponente. "No eres un enemigo difícil en absoluto... Oh, lo siento, no quise ser grosero. Solo estoy siendo honesto"." #NT!
+ board_games.0001.desc.opponent_winning.trait.craven: ""Yo... ¿estoy ganando? ¡Estoy ganando!", grita mi oponente. [bg_opponent.GetSheHe|U] parece genuinamente sorprendido, pero entonces, [bg_opponent.GetSheHe] #EMP ha#! pasado la mitad del partido observando a través de [bg_opponent.GetHerHis] dedos." #NT!
+ board_games.0001.desc.opponent_winning.trait.brave: ""Me permitirás reírme un poco", comenta mi oponente. "Pero vas a tener que jugar con más audacia que #EMP ese#! para vencer a #EMP yo#!"." #NT!
+ board_games.0001.desc.opponent_winning.trait.shy: ""¡Toda esa práctica está dando frutos!", chilla mi oponente, sonriendo con tímido orgullo ante el estado del tablero." #NT!
+ board_games.0001.desc.opponent_winning.trait.gregarious: ""No te sientas tan mal", dice mi oponente arrastrando las palabras, haciendo crujir los nudillos. "Gano a [SCOPE.Custom('BG_GameType')] como hago amigos. Es alarmantemente fácil"." #NT!
+ board_games.0001.desc.opponent_winning.trait.ambitious: ""¿Crees que designan a una especie de... #EMP Rey#! de los Juegos?", pregunta mi oponente, rascándose la barbilla de [bg_opponent.GetHerHis]. "Siento que ya estoy trabajando para conseguir ese título, ¿sabes?"." #NT!
+ board_games.0001.desc.opponent_winning.trait.content: ""Qué partido más bonito", se ríe entre dientes mi oponente. "No podríamos pedir nada mejor, ¿verdad? Aparte de tu suerte, quiero decir"." #NT!
+ board_games.0001.desc.opponent_winning.trait.arbitrary: ""No soy muy partidario de las reglas", opina mi oponente, "pero [SCOPE.Custom('BG_GameType')] me hace ver un poco el atractivo. Te permiten #EMP obligar#! a otras personas a admitir que eres mejor que ellas a veces"." #NT!
+ board_games.0001.desc.opponent_winning.trait.just: ""Mira", me explica mi oponente, agitando un fajo de papeles en mi dirección. "Lamento que sigas intentando hacer movimientos ilegales, pero si hubieras leído las reglas, te iría mejor"." #NT!
+ board_games.0001.desc.opponent_winning.trait.cynical: ""Por supuesto, no voy a ser indulgente contigo", dice mi oponente con picardía. "Tú #EMP definitivamente#! no lo serías conmigo, así que ¿para qué molestarte?"" #NT!
+ board_games.0001.desc.opponent_winning.trait.zealous: ""Me gustaría poder atribuirme el mérito de esta victoria segura", dice mi oponente, "pero es todo el trabajo de [bg_opponent.GetFaith.KnowledgeGodName] #EMP a#!"." #NT!
+ board_games.0001.desc.opponent_winning.trait.paranoid: ""Sé que todavía tienes algún as bajo la manga", frunce el ceño mi oponente. "Nadie puede ser tan fácil de vencer"." #NT!
+ board_games.0001.desc.opponent_winning.trait.trusting: ""Quizás me acerque al baño mientras te toca a ti", sonríe mi oponente. "¡No juegues con mi [SCOPE.Custom('BG_GamePiecePlural')]!"" #NT!
+ board_games.0001.desc.opponent_winning.trait.compassionate: ""Lo siento si te estoy poniendo en una mala situación, [bg_myself.GetFirstNameNoTooltip]", dice mi oponente, [bg_opponent.GetHerHis] con voz genuinamente arrepentida. "Juego [SCOPE.Custom('BG_GameType')] por diversión, pero creo que es divertido cuando #EMP ambos#! lo disfrutamos"." #NT!
+ board_games.0001.desc.opponent_winning.trait.callous: "—Por [bg_opponent.GetFaith.HouseholdGodName], no das mucha pelea, ¿verdad? —exclama mi oponente sin rodeos." #NT!
+ board_games.0001.desc.opponent_winning.trait.sadistic: ""Es #EMP mucho#! más divertido jugar con un enemigo herido", dice mi oponente arrastrando las palabras con no poca dosis de veneno encantado, "¿no estás de acuerdo, [bg_myself.GetFirstNameNoTooltip]?"" #NT!
+ board_games.0001.desc.opponent_winning.trait.stubborn: ""Es muy agradable ganar tan fácilmente para variar", se burla mi oponente. "Normalmente tengo que discutir durante varias horas antes de que el otro jugador admita que gané"." #NT!
+ board_games.0001.desc.opponent_winning.trait.fickle: ""Realmente me encanta que, sin importar la estrategia que elija, siempre pierdas con la misma dureza", bromea mi oponente." #NT!
+ board_games.0001.desc.opponent_winning.trait.vengeful: ""Por supuesto, todo esto es una venganza", susurra mi oponente. "Y tú sabes muy bien para qué"." #NT!
+ board_games.0001.desc.opponent_winning.trait.forgiving: ""Para ser sincero, esperaba un desafío un poco mayor", se queja mi oponente. "Aunque está bien. Al menos eres una buena práctica"." #NT!
+ board_games.0001.desc.opponent_winning.trait.rowdy: "Mi pequeño oponente canta, o al menos balbucea, una serie de amenazas mal planificadas hacia mí, prácticamente tirando el tablero con [bg_opponent.GetHerHis] entusiasmo." #NT!
+ board_games.0001.desc.opponent_winning.trait.charming: ""Deberíamos jugar [SCOPE.Custom('BG_GameType')] todos los días [bg_myself.GetFirstNameNoTooltip]", gorjea mi pequeño oponente. "¡Siempre es muy divertido!"" #NT!
+ board_games.0001.desc.opponent_winning.trait.curious: ""Sabes", reflexiona mi pequeño oponente, "realmente estoy aprendiendo mucho al vencerte"." #NT!
+ board_games.0001.desc.opponent_winning.trait.pensive: ""He leído mucho sobre cómo jugar [SCOPE.Custom('BG_GameType')]", sonríe mi pequeño oponente, "¡pero no sabía lo fácil que sería #EMP aplicarlo#!!"" #NT!
+ board_games.0001.desc.opponent_winning.trait.bossy: ""Después de que te gane", pronuncia mi pequeño oponente, "quiero un pan dulce. Como tributo"." #NT!
+ board_games.0001.desc.opponent_winning.relation.friend: ""Anímate, amargado-[bg_myself.Custom('MaskFace')]", se ríe mi oponente. "Es solo un pequeño juego entre amigos, ¿no?"" #NT!
+ board_games.0001.desc.opponent_winning.relation.best_friend: ""Por si sirve de algo, gane o pierda", dice mi mejor amigo, "no hay nadie en el mundo con quien preferiría jugar [SCOPE.Custom('BG_GameType')]"." #NT!
+ board_games.0001.desc.opponent_winning.relation.rival: ""¡Para [bg_opponent.GetFaith.FateGodName], eres tan malo en [SCOPE.Custom('BG_GameType')] como gobernando!" se ríe mi rival." #NT!
+ board_games.0001.desc.opponent_winning.relation.nemesis: "Mi némesis no dice nada. [bg_opponent.GetSheHe|U] simplemente me mira fijamente, [bg_opponent.Custom('EyeEyes')] ardiendo con odio puro y sin refinar #EMP #!." #NT!
+ board_games.0001.desc.opponent_winning.relation.lover: "Sin romper el contacto visual conmigo, mi amante comienza a acariciar suavemente a uno de los [SCOPE.Custom('BG_GamePiecePlural')] con la punta de los dedos de [bg_opponent.GetHerHis] y... Oh. #EMP Oh my#!" #NT!
+ board_games.0001.desc.opponent_winning.relation.soulmate: "Mi alma gemela solo presta atención a medias a nuestro juego de [SCOPE.Custom('BG_GameType')]. La mayor parte del tiempo, [bg_opponent.GetSheHe] parece estar concentrado en mirarme fijamente a los ojos a [bg_myself.Custom('EyeEyes')]." #NT!
+ board_games.0001.desc.opponent_winning.relation.bully: ""¿Ves?", se ríe mi oponente, "por eso te golpeé. No eres más que un #EMP tal#! perdedor"." #NT!
+ board_games.0001.desc.opponent_winning.relation.victim: "Los ojos de mi víctima brillan con furia justa, feliz de que, por una vez, algo va bien." #NT!
+ board_games.0001.desc.opponent_winning.relation.crush: "Espera, ¿dijo algo [bg_opponent.GetSheHe]? ¡Creo que dijo algo [bg_opponent.GetSheHe]! Oh, migajas, a veces me pierdo un poco mirando a [bg_opponent.GetHerHim] y ahora he arruinado las cosas." #NT!
+ board_games.0001.desc.opponent_winning.relation.guardian: ""Mírame de cerca [bg_myself.GetFirstName]", dice mi tutor. "Estudia cómo toco y puede que aprendas algo"." #NT!
+ board_games.0001.desc.opponent_winning.relation.ward: "Mi pupilo me sonríe. "¿Podemos jugar [SCOPE.Custom('BG_GameType')] más seguido? #EMP Por favor#!!"" #NT!
+ board_games.0001.desc.opponent_winning.hook_on.weak: ""$board_games.0001.desc.opponent_winning.hook_on.strong$"" #NT!
+ board_games.0001.desc.opponent_winning.hook_on.strong: ""Se siente bien darle la vuelta a la situación, ¿sabes?", dice mi oponente. "Siempre parece que me tienes bajo tu control. A menos que estemos jugando [SCOPE.Custom('BG_GameType')], por supuesto"." #NT!
+ board_games.0001.desc.opponent_winning.hooked_by.weak: ""$board_games.0001.desc.opponent_winning.hooked_by.strong$"" #NT!
+ board_games.0001.desc.opponent_winning.hooked_by.strong: ""No estás lanzando esto deliberadamente debido a nuestro #EMP acuerdo#!, ¿verdad?", pregunta mi oponente, rascándose la barbilla pensativamente. "Porque juegas como si estuvieras tratando de perder"." #NT!
+ board_games.0001.desc.opponent_winning.match_history.recently_won_against.default: ""Ahhh, ¿cuántas veces te he vencido ya?", se ríe mi oponente. "En serio, no pierdo la cuenta"." #NT!
+ board_games.0001.desc.opponent_winning.match_history.recently_won_against.county: ""[bg_myself.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier] lo está haciendo bien, ¿sabes?", dice lentamente mi oponente, "#EMP mucho#! mejor desde que tomé el control del lugar"." #NT!
+ board_games.0001.desc.opponent_winning.match_history.recently_won_against.gamble: ""Otro partido", me comenta mi oponente, "otra victoria para mi cuenta. Te vas a arruinar, ¿sabes?"." #NT!
+ board_games.0001.desc.opponent_winning.match_history.recently_lost_against.default: ""Ahora bien, esto", se ríe mi oponente, "es #EMP mucho#! mejor que el #EMP otro#! partido que jugamos"." #NT!
+ board_games.0001.desc.opponent_winning.match_history.recently_lost_against.county: ""Después de [bg_opponent.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier], no puedo vencerte lo suficiente", se queja mi oponente, todavía dolorido por nuestra antigua apuesta." #NT!
+ board_games.0001.desc.opponent_winning.match_history.recently_lost_against.gamble: ""Parece que la apuesta va a mi favor esta vez, ¿no?", se ríe mi oponente." #NT!
+ board_games.0001.desc.opponent_winning.other.pro_gamer: ""Deberías prestar mucha atención a mis técnicas", me dice mi oponente con sorna. "Estoy a punto de hacer lo que se llama un movimiento de jugador de tablero profesional"." #NT!
+ board_games.0001.desc.opponent_winning.other.avlf: ""#EMP ¿Eres#! un maestro del juego? No te hagas ilusiones, [bg_myself.GetFirstNameNoTooltip]. Ni siquiera eres un jugador"." #NT!
+  
+  ################################################## 
+  # Player Winning 
+ board_games.0001.desc.i_am_winning.diplomacy.low: ""No... no puedo... ¡Simplemente ten cuidado!", grita casi mi oponente, claramente frustrado e incapaz de encontrar las palabras adecuadas." #NT!
+ board_games.0001.desc.i_am_winning.diplomacy.medium: "Mi oponente no dice nada, simplemente tamborilea con [bg_opponent.GetHerHis] dedos contra la mesa en un ataque de resentimiento." #NT!
+ board_games.0001.desc.i_am_winning.diplomacy.high: ""Parece", dice mi oponente con sarcasmo, "que me tienes en ligera desventaja. Por ahora"." #NT!
+ board_games.0001.desc.i_am_winning.martial.low: ""No puedo liderar soldados", se queja mi oponente, "no puedo jugar [SCOPE.Custom('BG_GameType')]. ¿De qué sirvo?"" #NT!
+ board_games.0001.desc.i_am_winning.martial.medium: "Mi oponente acaricia pensativamente la barbilla de [bg_opponent.GetHerHis]. "Estaba #EMP seguro#! de que esa estratagema habría funcionado..."" #NT!
+ board_games.0001.desc.i_am_winning.martial.high: ""Si esto fuera un verdadero campo de batalla", declara mi oponente, "las cosas #EMP irían#! de manera diferente"." #NT!
+ board_games.0001.desc.i_am_winning.stewardship.low: ""¿Por qué los números #EMP siempre#! son tan difíciles?", hace pucheros mi oponente. "[SCOPE.Custom('BG_GameType')|U] necesita que pienses con tanta anticipación y yo #EMP no puedo#!"." #NT!
+ board_games.0001.desc.i_am_winning.stewardship.medium: "Mi oponente mira fijamente el tablero. "Debo... debo haber calculado mal en alguna parte..."" #NT!
+ board_games.0001.desc.i_am_winning.stewardship.high: ""Me duele decirlo", se queja mi oponente, "pero las probabilidades no son buenas para mí"." #NT!
+ board_games.0001.desc.i_am_winning.intrigue.low: ""¿Podrías dejar de hacer trampa tan descarada por un momento?" gruñe mi oponente." #NT!
+ board_games.0001.desc.i_am_winning.intrigue.medium: ""Sospecho que mi estrategia necesita más... astucia..." murmura mi oponente, mirando el tablero con frustración." #NT!
+ board_games.0001.desc.i_am_winning.intrigue.high: ""Puedes pensar que estás ganando", se ríe entre dientes mi oponente, "pero sólo piensas eso porque quiero que pienses eso. Y sé que tú sabes que yo sé que tú sabes eso"." #NT!
+ board_games.0001.desc.i_am_winning.learning.low: ""Esto es completamente injusto, ni siquiera entiendo la mitad de estas reglas", resopla mi oponente. "Está claro que las estás inventando mientras jugamos"." #NT!
+ board_games.0001.desc.i_am_winning.learning.medium: ""¿Estás usando el [bg_myself.Custom('BG_RandomRankPossessive')] [bg_myself.Custom('BG_RandomMoveType')] #EMP otra vez#!??", se queja mi oponente. "Eres #EMP tan#! tacaño"." #NT!
+ board_games.0001.desc.i_am_winning.learning.high: ""Sabía que no debería haber empezado con el [bg_opponent.Custom('BG_RandomMoveType')] del Loco", se queja mi oponente. "Básicamente, ya he perdido"." #NT!
+ board_games.0001.desc.i_am_winning.trait.lustful: "Mi oponente no parece estar prestando atención al partido en absoluto, y en cambio se concentra en la... forma de algunos de los [SCOPE.Custom('BG_GamePiecePlural')]." #NT!
+ board_games.0001.desc.i_am_winning.trait.chaste: "—Éste es el problema con [SCOPE.Custom('BG_GameType')] —grita mi oponente, gesticulando frenéticamente—. ¡Inflama las pasiones! ¡Excita los sentidos! Es un exceso carnal crudo en su forma más baja." #NT!
+ board_games.0001.desc.i_am_winning.trait.gluttonous: "Mi oponente mastica distraídamente un pequeño panecillo, perdido en una nube de migas y concentración." #NT!
+ board_games.0001.desc.i_am_winning.trait.temperate: ""Hrmph", se queja mi oponente. "Asumir riesgos como este algún día te hará daño"." #NT!
+ board_games.0001.desc.i_am_winning.trait.greedy: "Mi oponente lanza distraídamente una moneda entre los dedos de [bg_opponent.GetHerHis], el frío metal presumiblemente reconforta a [bg_opponent.GetHerHim] mientras [bg_opponent.GetSheHe] observa la inminente pérdida de [bg_opponent.GetHerHis]." #NT!
+ board_games.0001.desc.i_am_winning.trait.generous: "Mi oponente me da una sonrisa amable. "Lo estás haciendo #EMP así que#! bueno, ¡sigue así!"" #NT!
+ board_games.0001.desc.i_am_winning.trait.lazy: ""Oh, ¿me toca a mí?", bosteza mi oponente. "Lo siento, no he estado prestando mucha atención"." #NT!
+ board_games.0001.desc.i_am_winning.trait.diligent: ""Sí, ahora estás ganando", sermonea mi oponente, "¡pero con un poco de trabajo, puedo alcanzarte!"" #NT!
+ board_games.0001.desc.i_am_winning.trait.wrathful: "Una vena particularmente fea está abultada [bg_opponent.Custom('MaskFace_BehindIn')] de mi oponente [bg_opponent.Custom('MaskFace')]. "Si sigues ganando, voy a vomitar #EMP literal#! sangre por todo este tablero, ¡haces trampa [bg_myself.Custom('InsultNoun')]!"" #NT!
+ board_games.0001.desc.i_am_winning.trait.calm: "El porte habitualmente sereno de mi oponente está... distorsionado. El leve gesto de enfado nubla [bg_opponent.Custom('MaskFace_BehindAcross')] [bg_opponent.GetHerHis] [bg_opponent.Custom('MaskFace')]." #NT!
+ board_games.0001.desc.i_am_winning.trait.patient: ""Puede que tengas la ventaja por ahora", observa mi oponente, "pero tarde o temprano cometerás errores. Siempre suceden"." #NT!
+ board_games.0001.desc.i_am_winning.trait.impatient: ""Ya has ganado, #EMP ok#!?", frunce el ceño mi oponente. "Ya #EMP termínalo#!"." #NT!
+ board_games.0001.desc.i_am_winning.trait.arrogant: ""No me estás ganando, ¿sabes?", se jacta mi oponente. "Puedes #EMP pensar#! que lo estás haciendo, pero eso es imposible"." #NT!
+ board_games.0001.desc.i_am_winning.trait.humble: "Las orejas de mi oponente están #EMP visiblemente#! rojas de la molestia. "No se puede negar que tus técnicas son...", [bg_opponent.GetSheHe] traga saliva, "impecables"." #NT!
+ board_games.0001.desc.i_am_winning.trait.deceitful: ""Parece que necesitas el retrete", sugiere mi oponente con simpatía. "Siéntete libre; yo cuidaré el tablero"." #NT!
+ board_games.0001.desc.i_am_winning.trait.honest: ""No esperaba que fueras tan..." mi oponente hace una pausa por un momento, "#EMP difícil#! de jugar"." #NT!
+ board_games.0001.desc.i_am_winning.trait.craven: "Mi oponente se mueve incesantemente, pareciendo a punto de salir corriendo." #NT!
+ board_games.0001.desc.i_am_winning.trait.brave: ""Tengo un plan", presume mi oponente, "¡y cambiará todo el juego!"" #NT!
+ board_games.0001.desc.i_am_winning.trait.shy: "Mi oponente permanece quieto y en silencio, frunciendo el ceño mientras [bg_opponent.GetSheHe] reflexiona sobre cómo inclinar nuestro juego hacia [bg_opponent.GetHerHis] [SCOPE.Custom('BG_GamePiecePlural')]." #NT!
+ board_games.0001.desc.i_am_winning.trait.gregarious: ""Eres mucho mejor que mis compañeros habituales", admira mi oponente, "y yo juego un #EMP lote#! de [SCOPE.Custom('BG_GameType')]"." #NT!
+ board_games.0001.desc.i_am_winning.trait.ambitious: ""Tenía...", dice mi oponente, sin palabras, "... #EMP mayores#! esperanzas para este partido"." #NT!
+ board_games.0001.desc.i_am_winning.trait.content: ""Ah, bueno", suspira mi oponente, "puede que no gane esto, pero di lo mejor de mí"." #NT!
+ board_games.0001.desc.i_am_winning.trait.arbitrary: ""No veo por qué no podemos usar mis reglas", se lamenta mi oponente. "Te lo aseguro, así es como lo juega todo el mundo en [bg_opponent.GetCurrentLocation.GetNameNoTooltip]"." #NT!
+ board_games.0001.desc.i_am_winning.trait.just: ""No puedo probarlo", murmura mi oponente, "pero estoy #EMP seguro#! de que debes estar haciendo trampa"." #NT!
+ board_games.0001.desc.i_am_winning.trait.cynical: ""Por supuesto que estás ganando", gime mi oponente, tristemente. "Nadie me deja ganar una partida de #EMP"." #NT!
+ board_games.0001.desc.i_am_winning.trait.zealous: ""[bg_opponent.GetFaith.KnowledgeGodName] líbrame de esta amenaza", murmura mi oponente en voz baja." #NT!
+ board_games.0001.desc.i_am_winning.trait.paranoid: ""Lo planeaste, ¿no?", me responde mi oponente con un gruñido. "¡Planeaste humillarme con un juego amañado!"" #NT!
+ board_games.0001.desc.i_am_winning.trait.trusting: ""Por [bg_opponent.GetFaith.KnowledgeGodName]", se lamenta mi oponente. "¿Crees que te di demasiadas oportunidades? No esperaba perder tanto y tan pronto"." #NT!
+ board_games.0001.desc.i_am_winning.trait.compassionate: ""Sabes", reflexionó mi oponente con insistencia, "se supone que [SCOPE.Custom('BG_GameType')] se trata de #EMP divertirse#!,, no solo ganar a cualquier precio"." #NT!
+ board_games.0001.desc.i_am_winning.trait.callous: ""Hmm, ¿así es como se siente perder?", se pregunta mi oponente. "No es algo que me guste especialmente"." #NT!
+ board_games.0001.desc.i_am_winning.trait.sadistic: "Mi oponente permanece en silencio, [bg_opponent.Custom('EyeEyes')] traicionando un respeto a regañadientes por la habilidad y la victoria inminente." #NT!
+ board_games.0001.desc.i_am_winning.trait.stubborn: ""No vas a poder conmigo", escupe mi oponente entre dientes apretados. "Nadie #EMP jamás#! me puede ganar"." #NT!
+ board_games.0001.desc.i_am_winning.trait.fickle: ""Me estoy aburriendo bastante de [SCOPE.Custom('BG_GameType')]", se queja mi oponente. "¿No podemos jugar a otra cosa?"" #NT!
+ board_games.0001.desc.i_am_winning.trait.vengeful: "La expresión de mi oponente es pétrea. [bg_opponent.GetHerHis|U] dedos se tensan alrededor del borde del tablero, como si se estuvieran reteniendo." #NT!
+ board_games.0001.desc.i_am_winning.trait.forgiving: "Mi oponente parece completamente optimista, sin un rastro de veneno en sus escritos [bg_opponent.Custom('MaskFace_BehindAcross')] [bg_opponent.GetHerHis] [bg_opponent.Custom('MaskFace')]." #NT!
+ board_games.0001.desc.i_am_winning.trait.rowdy: ""Sólo para que lo sepas", susurra mi oponente, "si pierdo, te tiraré todo este juego a la cabeza, estúpida"." #NT!
+ board_games.0001.desc.i_am_winning.trait.charming: ""¿No quieres tomármelo con un #EMP menos#! de calma?", pregunta mi oponente con una voz empalagosa." #NT!
+ board_games.0001.desc.i_am_winning.trait.curious: ""Espera... ¿cómo estás? #EMP ganando#!?". mi oponente parece positivamente incrédulo." #NT!
+ board_games.0001.desc.i_am_winning.trait.pensive: "—Oh, no, sabía que no debía haber jugado... ahora te he hecho perder el tiempo... —murmura mi oponente." #NT!
+ board_games.0001.desc.i_am_winning.trait.bossy: ""Hrmf, si hubiéramos jugado con #EMP mis#! reglas #EMP entonces#! ¡te estaría demostrando!", gime mi oponente." #NT!
+ board_games.0001.desc.i_am_winning.relation.friend: ""Maldita sea", se ríe mi amigo, "no te relajas a las [SCOPE.Custom('BG_GameType')] por nadie, ¿verdad?"" #NT!
+ board_games.0001.desc.i_am_winning.relation.best_friend: ""No hay nada mejor, siempre digo", alardea mi mejor amigo, "que darle una paliza estrepitosa a alguien a [SCOPE.Custom('BG_GameType')]. ¡Te envidio!"" #NT!
+ board_games.0001.desc.i_am_winning.relation.rival: ""Simplemente me estás humillando, ¿no?", escupe mi rival, siempre el mal perdedor." #NT!
+ board_games.0001.desc.i_am_winning.relation.nemesis: "$board_games.0001.desc.opponent_winning.relation.nemesis$" #NT!
+ board_games.0001.desc.i_am_winning.relation.lover: ""No tenemos #EMP que estar jugando [SCOPE.Custom('BG_GameType')], [bg_myself.GetFirstNameNoTooltip]", susurra mi amante. "Seguro que hay otras formas de entretenernos..."" #NT!
+ board_games.0001.desc.i_am_winning.relation.soulmate: "$board_games.0001.desc.opponent_winning.relation.soulmate$" #NT!
+ board_games.0001.desc.i_am_winning.relation.bully: ""Si me ganas, yo te ganaré. Es así de simple", frunce el ceño mi abusador." #NT!
+ board_games.0001.desc.i_am_winning.relation.victim: "Mi víctima guarda silencio, pero parece que [bg_opponent.GetSheHe] está al borde de las lágrimas." #NT!
+ board_games.0001.desc.i_am_winning.relation.crush: "Mi crush es... ¡Oh no! [bg_opponent.GetSheHe|U] está enojado conmigo, ¡lo sé, puedo leerlo en [bg_opponent.GetHerHis] [bg_opponent.Custom('MaskFace')]!" #NT!
+ board_games.0001.desc.i_am_winning.relation.guardian: ""Parece que estás aprendiendo", comenta mi tutor con tono quejumbroso. "O al menos imitándome con más eficacia"." #NT!
+ board_games.0001.desc.i_am_winning.relation.ward: "Mi pupilo está claramente herido por lo mal que está perdiendo [bg_opponent.GetSheHe], una dura mirada escrita a [bg_opponent.Custom('MaskFace_BehindAcross')] [bg_opponent.GetHerHis] [bg_opponent.Custom('MaskFace')]." #NT!
+ board_games.0001.desc.i_am_winning.hook_on.weak: "$board_games.0001.desc.i_am_winning.hook_on.strong$" #NT!
+ board_games.0001.desc.i_am_winning.hook_on.strong: ""[bg_opponent.GetFaith.random_GoodGodNames]! No puedes dejarme tener ni un ápice de control, ¿verdad?", se lamenta mi oponente." #NT!
+ board_games.0001.desc.i_am_winning.hooked_by.weak: "$board_games.0001.desc.i_am_winning.hooked_by.strong$" #NT!
+ board_games.0001.desc.i_am_winning.hooked_by.strong: ""Si no fuera un desperdicio pagar lo que #EMP debes#! aquí", frunce el ceño mi oponente, "me sentiría tentado a #EMP obligarte#! a perder"." #NT!
+ board_games.0001.desc.i_am_winning.match_history.recently_won_against.default: ""Bueno", gruñe mi oponente, "parece que #EMP este#! juego no está yendo como yo quiero"." #NT!
+ board_games.0001.desc.i_am_winning.match_history.recently_won_against.county: ""Si tan solo hubieras jugado tan bien cuando [bg_myself.MakeScope.Var('bg_recent_land_loss_stake').Title.GetNameNoTier] estaba en la línea", sonríe mi oponente." #NT!
+ board_games.0001.desc.i_am_winning.match_history.recently_won_against.gamble: ""Ahhh", suspira mi oponente. "A veces ganas, a veces pierdes. Esta vez te toca a ti ganar, creo"." #NT!
+ board_games.0001.desc.i_am_winning.match_history.recently_lost_against.default: ""¡No, no, no!", se queja mi oponente. "No #EMP otra vez#!,, no #EMP tú#!!"." #NT!
+ board_games.0001.desc.i_am_winning.match_history.recently_lost_against.county: "Mi oponente limpia una gota de sudor de [bg_opponent.GetHerHis] [bg_opponent.Custom('MaskFace')], [bg_opponent.Custom('EyeEyes')] de ancho, sin duda repitiendo mentalmente el juego que costó [bg_opponent.GetHerHim] [bg_myself.MakeScope.Var('bg_recent_land_less_stake').Title.GetNameNoTier] mientras jugamos." #NT!
+ board_games.0001.desc.i_am_winning.match_history.recently_lost_against.gamble: ""Solo necesito una victoria, solo necesito una victoria, solo necesito..." murmura mi oponente, una y otra vez, en voz baja." #NT!
+  
+  ################################################## 
+  # Introductions 
+ board_games.0001.desc.intro.opening.defender: "[bg_opponent.GetTitledFirstName] ya está esperando para comenzar nuestro pequeño partido [SCOPE.Custom('BG_GameType')], sentado esperando con un #color_blue_gray [bg_myself.Custom('BG_RandomFacialExpression')]#! escrito en grande en [bg_opponent.GetHerHis] funciones." #NT!
+ board_games.0001.desc.intro.opening.attacker: "[bg_opponent.GetTitledFirstName] toma [bg_opponent.GetHerHis] asiento frente a mí. Nuestro pequeño juego de [SCOPE.Custom('BG_GameType')] está a punto de comenzar, y un #color_blue_gray [SCOPE.Custom('BG_RandomFacialExpression')]#! me dice exactamente qué tan seguro está mi [bg_myself.Custom2('RelationToMeShort',bg_opponent)].\n\n[bg_opponent.GetSheHe|U] va primero, abriendo con" #NT!
+ board_games.0001.desc.intro.subsequent: "Nuestro partido sigue adelante, [bg_opponent.GetFirstName] continuando con" #NT!
+  
+  ################################################## 
+  # Opponent's Play 
+ board_games.0001.desc.intro.diplomacy.crit_success: "un conjunto de movimientos exasperantemente atrevidos, por no decir atrevidos." #NT!
+ board_games.0001.desc.intro.diplomacy.success: "Una obra competente y un ingenioso ingenio." #NT!
+ board_games.0001.desc.intro.diplomacy.failure: "varios intentos de subterfugio mal disimulados." #NT!
+ board_games.0001.desc.intro.diplomacy.crit_failure: "un esfuerzo lamentablemente obvio para confundirme." #NT!
+ board_games.0001.desc.intro.martial.crit_success: "una serie de jugadas estratégicas devastadoramente innovadoras." #NT!
+ board_games.0001.desc.intro.martial.success: "varias estrategias adaptativas bien ejecutadas." #NT!
+ board_games.0001.desc.intro.martial.failure: "a... #EMP robusto#! intento de estrategia coherente." #NT!
+ board_games.0001.desc.intro.martial.crit_failure: "Una estrategia francamente #EMP hilarantemente#! pomposa." #NT!
+ board_games.0001.desc.intro.stewardship.crit_success: "una serie de movimientos que, matemáticamente, son prácticamente perfectos." #NT!
+ board_games.0001.desc.intro.stewardship.success: "Una serie de jugadas rotundamente bien calculadas." #NT!
+ board_games.0001.desc.intro.stewardship.failure: "un conjunto de movimientos insulsos y mal calculados." #NT!
+ board_games.0001.desc.intro.stewardship.crit_failure: "un mosaico de pésimos intentos de adivinar las probabilidades." #NT!
+ board_games.0001.desc.intro.intrigue.crit_success: "Una artimaña tan #EMP perversa#! que me dejó sin palabras." #NT!
+ board_games.0001.desc.intro.intrigue.success: "una variedad de fintas y estratagemas astutas." #NT!
+ board_games.0001.desc.intro.intrigue.failure: "Una trampa obvia." #NT!
+ board_games.0001.desc.intro.intrigue.crit_failure: "Una táctica sencillamente patética." #NT!
+ board_games.0001.desc.intro.learning.crit_success: "Una obra sacada de una leyenda." #NT!
+ board_games.0001.desc.intro.learning.success: "Algunas tácticas tradicionales muy gastadas." #NT!
+ board_games.0001.desc.intro.learning.failure: "Varios movimientos estándar y anodinos." #NT!
+ board_games.0001.desc.intro.learning.crit_failure: "un intento torpe de replicar los movimientos de mejores jugadores." #NT!
+ board_games.0001.desc.intro.prowess.crit_success: "un argumento muy percusivo #EMP." #NT!
+ board_games.0001.desc.intro.prowess.success: "Un movimiento decente y un agarre firme." #NT!
+ board_games.0001.desc.intro.prowess.failure: "una mala jugada y un golpe aún peor." #NT!
+ board_games.0001.desc.intro.prowess.crit_failure: "un intento de fuerza tan risible [bg_opponent.GetSheHe] casi cerebro [bg_opponent.GetHerselfHimself]." #NT!
+  
+  ################################################## 
+  # Counter Content 
+ board_games.0001.desc.i_have_countered: "Naturalmente, mis técnicas astutamente #color_blue_gray frustran#! a mi oponente.#!\n\n" #NT!
+ board_games.0001.desc.i_am_countered: "Maldita sea, #EMP de alguna manera#! esto [bg_opponent.GetWomanMan] parece #color_blue_gray contrarrestar#! cada estratagema que empleo.\n\n" #NT!
+ board_games.0001.desc.no_counters: "\n\n" #NT!
+  
+  ################################################## 
+  # Closeness to Victory 
+ board_games.0001.desc.relative_victory.winning_heavily: "Estoy ganando fácilmente a [bg_opponent.GetHerHim]," #NT!
+ board_games.0001.desc.relative_victory.winning_somewhat: "Estoy a la cabeza por ahora," #NT!
+ board_games.0001.desc.relative_victory.drawing: "Estamos codo a codo," #NT!
+ board_games.0001.desc.relative_victory.losing_somewhat: "[bg_opponent.GetSheHe|U] empieza a ganar," #NT!
+ board_games.0001.desc.relative_victory.losing_heavily: "Mi oponente está muy por delante de mí," #NT!
+ board_games.0001.desc.actual_victory.both_close: "y cualquiera de nosotros podría quedarse con el partido en cualquier momento." #NT!
+ board_games.0001.desc.actual_victory.i_am_close: "y la victoria está tan cerca que puedo saborearla.\n\n" #NT!
+ board_games.0001.desc.actual_victory.they_are_close: "y mi oponente podría triunfar en cualquier momento.\n\n" #NT!
+ board_games.0001.desc.actual_victory.sudden_death: "y este juego está llegando rápidamente a un punto crítico.\n\n" #NT!
+ board_games.0001.desc.actual_victory.neither_close: "Aunque ninguno de nosotros está ni cerca de la victoria." #NT!
+  
+  ################################################## 
+  # Success Tooltips 
+ board_games.0001.tt.crit_success: "Éxito crítico" #NT!
+ board_games.0001.tt.success: "Éxito" #NT!
+ board_games.0001.tt.failure: "Falla" #NT!
+ board_games.0001.tt.crit_failure: "Fallo crítico" #NT!
+  
+ board_games.0001.tt.crit_success.points: "Cantidad colosal de puntos para [board_game_winning|E]" #NT!
+ board_games.0001.tt.success.points: "Algunos puntúan hacia [board_game_winning|E]" #NT!
+ board_games.0001.tt.failure.points: "Unas migajas de puntuación para [board_game_winning|E]" #NT!
+ board_games.0001.tt.crit_failure.points: "Absolutamente ninguna puntuación hacia [board_game_winning|E]" #NT!
+  
+  ################################################## 
+  # Counter Skill Loc 
+ bg_counterskill_diplomacy: "[diplomacy|E]" #NT!
+ bg_counterskill_martial: "[martial|E]" #NT!
+ bg_counterskill_stewardship: "[stewardship|E]" #NT!
+ bg_counterskill_intrigue: "[intrigue|E]" #NT!
+ bg_counterskill_learning: "[learning|E]" #NT!
+ bg_counterskill_prowess: "[prowess|E]" #NT!
+  
+  ################################################## 
+  # Miscellaneous Custom Loc 
+ bg_gametype_pachisi: "pachisi" #NT!
+ bg_gametype_hnefatafl: "hnefatafl" #NT!
+ bg_gametype_tabula: "tabla" #NT!
+ bg_gametype_go: "ir" #NT!
+ bg_gametype_fidchell: "Fidchell (español:Fidchell)" #NT!
+  #AGOT MODIFIED 
+ #bg_gametype_chess: "ajedrez" #NT!
+ bg_gametype_chess: "civasse" #NT!
+  
+ bg_gametype_concept_pachisi: "[board_game_type_pachisi|E]" #NT!
+ bg_gametype_concept_hnefatafl: "[board_game_type_hnefatafl|E]" #NT!
+ bg_gametype_concept_tabula: "[board_game_type_tabula|E]" #NT!
+ bg_gametype_concept_go: "[board_game_type_go|E]" #NT!
+ bg_gametype_concept_fidchell: "[board_game_type_fidchell|E]" #NT!
+ bg_gametype_concept_chess: "[board_game_type_chess|E]" #NT!
+ bg_gametype_concept_pachisi_dark: "[board_game_type_pachisi|B]" #NT!
+ bg_gametype_concept_hnefatafl_dark: "[board_game_type_hnefatafl|B]" #NT!
+ bg_gametype_concept_tabula_dark: "[board_game_type_tabula|B]" #NT!
+ bg_gametype_concept_go_dark: "[board_game_type_go|B]" #NT!
+ bg_gametype_concept_fidchell_dark: "[board_game_type_fidchell|B]" #NT!
+ bg_gametype_concept_chess_dark: "[board_game_type_chess|B]" #NT!
+  
+ bg_gamepiece_token: "simbólico" #NT!
+ bg_gamepiece_counter: "encimera" #NT!
+ bg_gamepiece_stone: "piedra" #NT!
+ bg_gamepiece_piece: "pedazo" #NT!
+  
+ bg_gamepiece_tokens: "fichas" #NT!
+ bg_gamepiece_counters: "contadores" #NT!
+ bg_gamepiece_stones: "piedras" #NT!
+ bg_gamepiece_pieces: "piezas" #NT!
+  
+ bg_gamedecider_cowrie: "cauri" #NT!
+ bg_gamedecider_die: "morir" #NT!
+ bg_gamedecider_quill: "pluma de puntuación" #NT!
+  
+ bg_randomdirection_northern: "Un norteño" #NT!
+ bg_randomdirection_western: "Un occidental" #NT!
+ bg_randomdirection_eastern: "Un oriental" #NT!
+ bg_randomdirection_southern: "Un sureño" #NT!
+  
+ bg_randomrankpossessive_baron_female: "Baronesa'" #NT!
+ bg_randomrankpossessive_baron_male: "del barón" #NT!
+ bg_randomrankpossessive_count_female: "Condesa'" #NT!
+ bg_randomrankpossessive_count_male: "del conde" #NT!
+ bg_randomrankpossessive_duke_female: "Duquesa'" #NT!
+ bg_randomrankpossessive_duke_male: "Del duque" #NT!
+ bg_randomrankpossessive_king_female: "Del rey" #NT!
+ bg_randomrankpossessive_king_male: "De la reina" #NT!
+ bg_randomrankpossessive_emperor_female: "Emperatriz'" #NT!
+ bg_randomrankpossessive_emperor_male: "Del emperador" #NT!
+  
+ bg_randommovetype_gambit: "Gambito" #NT!
+ bg_randommovetype_cross: "Cruz" #NT!
+ bg_randommovetype_stratagem: "Estratagema" #NT!
+ bg_randommovetype_feint: "Finta" #NT!
+ bg_randommovetype_rush: "Correr" #NT!
+  
+ bg_randomfacialexpression_scornful: "sonrisa desdeñosa" #NT!
+ bg_randomfacialexpression_confident: "sonrisa confiada" #NT!
+ bg_randomfacialexpression_fight: "mueca competitiva" #NT!
+ bg_randomfacialexpression_unsure: "ceño fruncido interrogativo" #NT!
+ bg_randomfacialexpression_quailing: "puchero de codorniz" #NT!
+  
+ ################################################## 
+  # Move Localisation 
+ board_games.0001.a.random.a: "[SCOPE.Custom('BG_GameType')|U] se gana primero con palabras, luego con [SCOPE.Custom('BG_GamePiecePlural')]." #NT!
+ board_games.0001.a.random.b: "Un ingenio rápido es un jugador rápido." #NT!
+ board_games.0001.a.random.c: "Realmente tienes las pistas más fáciles [bg_opponent.GetFirstNameNoTooltip]..." #NT!
+ board_games.0001.a.random.d: "¿Has jugado a [SCOPE.Custom('BG_GameType')] antes? No lo sé." #NT!
+ board_games.0001.a.tt: "En [SCOPE.Custom('BG_GameType')], [diplomacy|E] es contrarrestado por [SCOPE.Custom('BG_CounterSkill_Diplomacy')]" #NT!
+ board_games.0001.a.tt.crit_success: "$board_games.0001.tt.crit_success.points$" #NT!
+ board_games.0001.a.tt.crit_success.tt: "$board_games.0001.tt.crit_success$" #NT!
+ board_games.0001.a.tt.success: "$board_games.0001.tt.success.points$" #NT!
+ board_games.0001.a.tt.success.tt: "$board_games.0001.tt.success$" #NT!
+ board_games.0001.a.tt.failure: "$board_games.0001.tt.failure.points$" #NT!
+ board_games.0001.a.tt.failure.tt: "$board_games.0001.tt.failure$" #NT!
+ board_games.0001.a.tt.crit_failure: "$board_games.0001.tt.crit_failure.points$" #NT!
+ board_games.0001.a.tt.crit_failure.tt: "$board_games.0001.tt.crit_failure$" #NT!
+ board_games.0001.b.random.a: "Mi mente marcial me hace #EMP imbatible#!." #NT!
+ board_games.0001.b.random.b: "Juego [SCOPE.Custom('BG_GameType')] como si peleara. Salvajemente." #NT!
+ board_games.0001.b.random.c: "[SCOPE.Custom('BG_GameType')|U], como la guerra, es todo una cuestión de #EMP logística#!." #NT!
+ board_games.0001.b.random.d: "¡Un brazo con espada fuerte es un brazo [SCOPE.Custom('BG_GameDecider')] fuerte!" #NT!
+ board_games.0001.b.tt: "En [SCOPE.Custom('BG_GameType')], [martial|E] es contrarrestado por [SCOPE.Custom('BG_CounterSkill_martial')]" #NT!
+ board_games.0001.b.tt.crit_success: "$board_games.0001.tt.crit_success$" #NT!
+ board_games.0001.b.tt.crit_success.tt: "$board_games.0001.tt.crit_success.points$" #NT!
+ board_games.0001.b.tt.success: "$board_games.0001.tt.success$" #NT!
+ board_games.0001.b.tt.success.tt: "$board_games.0001.tt.success.points$" #NT!
+ board_games.0001.b.tt.failure: "$board_games.0001.tt.failure$" #NT!
+ board_games.0001.b.tt.failure.tt: "$board_games.0001.tt.failure.points$" #NT!
+ board_games.0001.b.tt.crit_failure: "$board_games.0001.tt.crit_failure$" #NT!
+ board_games.0001.b.tt.crit_failure.tt: "$board_games.0001.tt.crit_failure.points$" #NT!
+ board_games.0001.c.random.a: "Ahora, ¿qué es lo que más me puede ayudar?" #NT!
+ board_games.0001.c.random.b: "Matemáticamente, el movimiento correcto sería..." #NT!
+ board_games.0001.c.random.c: "¡Soy [bg_myself.GetFaith.FateGodNamePossessive] cariño!" #NT!
+ board_games.0001.c.random.d: "Este es un juego muy exigente." #NT!
+ board_games.0001.c.tt: "En [SCOPE.Custom('BG_GameType')], [stewardship|E] es contrarrestado por [SCOPE.Custom('BG_CounterSkill_Stewardship')]" #NT!
+ board_games.0001.c.tt.crit_success: "$board_games.0001.tt.crit_success$" #NT!
+ board_games.0001.c.tt.crit_success.tt: "$board_games.0001.tt.crit_success.points$" #NT!
+ board_games.0001.c.tt.success: "$board_games.0001.tt.success$" #NT!
+ board_games.0001.c.tt.success.tt: "$board_games.0001.tt.success.points$" #NT!
+ board_games.0001.c.tt.failure: "$board_games.0001.tt.failure$" #NT!
+ board_games.0001.c.tt.failure.tt: "$board_games.0001.tt.failure.points$" #NT!
+ board_games.0001.c.tt.crit_failure: "$board_games.0001.tt.crit_failure$" #NT!
+ board_games.0001.c.tt.crit_failure.tt: "$board_games.0001.tt.crit_failure.points$" #NT!
+ board_games.0001.d.random.a: "Nunca verás venir mis movimientos..." #NT!
+ board_games.0001.d.random.b: "Sí, #EMP sí#!, tal como lo habíamos planeado..." #NT!
+ board_games.0001.d.random.c: "Se necesita una mente sutil para jugar [SCOPE.Custom('BG_GameType')]..." #NT!
+ board_games.0001.d.random.d: "*silbido inocente*" #NT!
+ board_games.0001.d.tt: "En [SCOPE.Custom('BG_GameType')], [intrigue|E] es contrarrestado por [SCOPE.Custom('BG_CounterSkill_Intrigue')]" #NT!
+ board_games.0001.d.tt.crit_success: "$board_games.0001.tt.crit_success$" #NT!
+ board_games.0001.d.tt.crit_success.tt: "$board_games.0001.tt.crit_success.points$" #NT!
+ board_games.0001.d.tt.success: "$board_games.0001.tt.success$" #NT!
+ board_games.0001.d.tt.success.tt: "$board_games.0001.tt.success.points$" #NT!
+ board_games.0001.d.tt.failure: "$board_games.0001.tt.failure$" #NT!
+ board_games.0001.d.tt.failure.tt: "$board_games.0001.tt.failure.points$" #NT!
+ board_games.0001.d.tt.crit_failure: "$board_games.0001.tt.crit_failure$" #NT!
+ board_games.0001.d.tt.crit_failure.tt: "$board_games.0001.tt.crit_failure.points$" #NT!
+ board_games.0001.e.random.a: "¡Soy incomparable en la teoría de [SCOPE.Custom('BG_GameType')]!" #NT!
+ board_games.0001.e.random.b: "He leído completos los #EMP manuales#! del [SCOPE.Custom('BG_GameType')]." #NT!
+ board_games.0001.e.random.c: "Conozco las reglas de [SCOPE.Custom('BG_GameType')] como la palma de mi mano." #NT!
+ board_games.0001.e.random.d: "Crees que puedes pensar mejor que yo #EMP#!?" #NT!
+ board_games.0001.e.tt: "En [SCOPE.Custom('BG_GameType')], [learning|E] es contrarrestado por [SCOPE.Custom('BG_CounterSkill_Learning')]" #NT!
+ board_games.0001.e.tt.crit_success: "$board_games.0001.tt.crit_success$" #NT!
+ board_games.0001.e.tt.crit_success.tt: "$board_games.0001.tt.crit_success.points$" #NT!
+ board_games.0001.e.tt.success: "$board_games.0001.tt.success$" #NT!
+ board_games.0001.e.tt.success.tt: "$board_games.0001.tt.success.points$" #NT!
+ board_games.0001.e.tt.failure: "$board_games.0001.tt.failure$" #NT!
+ board_games.0001.e.tt.failure.tt: "$board_games.0001.tt.failure.points$" #NT!
+ board_games.0001.e.tt.crit_failure: "$board_games.0001.tt.crit_failure$" #NT!
+ board_games.0001.e.tt.crit_failure.tt: "$board_games.0001.tt.crit_failure.points$" #NT!
+ board_games.0001.f.random.a: "Esto no funciona. ¿Quieres que lo consiga?" #NT!
+ board_games.0001.f.random.b: "Si intentas mover ese [SCOPE.Custom('BG_GamePiece')], serás golpeado." #NT!
+ board_games.0001.f.random.c: "*apuñala el tablero*" #NT!
+ board_games.0001.f.random.d: "#BER ¡Te tendré!#!" #NT!
+ board_games.0001.f.tt: "En [SCOPE.Custom('BG_GameType')], [prowess|E] es contrarrestado por [SCOPE.Custom('BG_CounterSkill_Prowess')]" #NT!
+ board_games.0001.f.tt.crit_success: "$board_games.0001.tt.crit_success$" #NT!
+ board_games.0001.f.tt.crit_success.tt: "$board_games.0001.tt.crit_success.points$" #NT!
+ board_games.0001.f.tt.success: "$board_games.0001.tt.success$" #NT!
+ board_games.0001.f.tt.success.tt: "$board_games.0001.tt.success.points$" #NT!
+ board_games.0001.f.tt.failure: "$board_games.0001.tt.failure$" #NT!
+ board_games.0001.f.tt.failure.tt: "$board_games.0001.tt.failure.points$" #NT!
+ board_games.0001.f.tt.crit_failure: "$board_games.0001.tt.crit_failure$" #NT!
+ board_games.0001.f.tt.crit_failure.tt: "$board_games.0001.tt.crit_failure.points$" #NT!
+  
+  ################################################## 
+  # Default Invalidation Toasts 
+ board_games.0021.trigger_failure.bg_initiator: "Las circunstancias interrumpen el juego [bg_defender.GetFirstNamePossessive] y [bg_attacker.GetFirstNamePossessive]" #NT!
+ board_games.0021.trigger_failure.bg_defender: "Las circunstancias interrumpen tu juego con [bg_attacker.GetFirstName]" #NT!
+ board_games.0021.trigger_failure.bg_attacker: "Las circunstancias interrumpen tu juego con [bg_defender.GetFirstName]" #NT!
+  
+  ################################################## 
+  # Ending Events 
+ board_games.0031.t: "$board_games.0000.t$" #NT!
+  
+  
+ board_games.0031.desc.intro.01: "Con un rugido de triunfo, me levanto de un salto, esparciendo [SCOPE.Custom('BG_GamePiecePlural')] por todas partes." #NT!
+ board_games.0031.desc.intro.02: "Con una sonrisa satisfecha, coloco mi último [SCOPE.Custom('BG_GamePiece')] sobre el tablero." #NT!
+ board_games.0031.desc.intro.03: "Ambos miramos fijamente el [SCOPE.Custom('BG_GamePiece')] final. Lo logré. Gané." #NT!
+  
+ board_games.0031.desc.middle.01: "Esta partida de [SCOPE.Custom('BG_GameType')] es mía, otra bella victoria en mi indiscutible ascenso hacia el rol de Rey de los Juegos." #NT!
+ board_games.0031.desc.middle.02: "Una vez más, mi superioridad intelectual triunfa por encima de todo." #NT!
+ board_games.0031.desc.middle.03: "[ROOT.Char.GetFaith.HighGodName] ha sido testigo de mi triunfo hoy. Desde el principio tuve plena confianza en que [ROOT.Char.GetFaith.HighGodName] me vería como el vencedor, no podía haber otra manera." #NT!
+  
+ board_games.0031.desc.end.01: "\n\nUn desolado [bg_loser.GetFirstName] permanece sentado, con las manos sobre los cuartos traseros de [bg_loser.GetHerHis], tratando de comprender dónde se equivocó [bg_loser.GetSheHe]." #NT!
+ board_games.0031.desc.end.02: "\n\nDe [bg_loser.GetFirstName] no queda nada más que la cáscara superficial de un [bg_loser.GetWomanMan]. [bg_loser.GetSheHe|U] no puedo creer que haya ganado." #NT!
+ board_games.0031.desc.end.03: "\n\n[bg_loser.GetFirstName] difícilmente puede contener el temperamento de [bg_loser.GetHerHis]. He superado y humillado a [bg_loser.GetHerHim]." #NT!
+  
+  
+ board_games.0031.a: "¡Buen juego!" #NT!
+ board_games.0031.a.a: "¡Un partido excelente!" #NT!
+ board_games.0031.b: "¿Qué se siente perder, pequeño [bg_loser.GetWomanMan]?" #NT!
+ board_games.0031.b.a: "¡Inclínate ante mí, tú [bg_loser.Custom('InsultNoun')]!" #NT!
+ board_games.0031.b.b: "No te sientas #EMP demasiado#! mal, no todos pueden ser tan inteligentes como yo." #NT!
+ board_games.0031.b.progress_towards_rival: "[bg_loser.GetTitledFirstName] se lo toma como algo personal" #NT!
+ board_games.0031.c: "Me encantaría volver a jugar algún día..." #NT!
+ board_games.0031.a.tt.success: "Tu oponente está de acuerdo en que fue un buen juego." #NT!
+ board_games.0031.a.tt.failure: "Tu oponente hace un gesto obsceno y se va." #NT!
+ board_games.0031.desc.result.skill: "#BOL Resultado:#! Gano el [board_game_match|E] contra [bg_loser.GetFirstNameNoTooltip] debido a mi puntuación [board_game_winning|E]" #NT!
+ board_games.0031.desc.result.sudden_death: "#BOL Resultado:#! Gano el [board_game_match|E] contra [bg_loser.GetFirstNameNoTooltip] debido a [board_game_winning_sudden_death|E]" #NT!
+  
+ board_games.0041.t: "$board_games.0000.t$" #NT!
+  
+  
+ board_games.0041.desc.intro.01: "Aullando en triunfo bestial, [bg_victor.GetFirstName] salta a [bg_victor.GetHerHis] pies.\n\nYo... He perdido. Mis manos se deslizan hasta mis rodillas, buscando apoyo." #NT!
+ board_games.0041.desc.intro.02: "Una sonrisa satisfecha se extiende de mejilla a mejilla en el rostro de [bg_victor.GetFirstName]. [bg_victor.GetSheHe] ha ganado, mientras que yo he perdido.\n\n" #NT!
+ board_games.0041.desc.intro.03: "No hay mayor decepción que la que siento al mirar el [SCOPE.Custom('BG_GamePiecePlural')] en este tablero, su disposición dicta claramente que he sido superado." #NT!
+  
+ board_games.0041.desc.middle.01: "Con [ROOT.Char.GetFaith.HighGodName] como testigo, hice todo lo que pude..." #NT!
+ board_games.0041.desc.middle.02: "Pensar que un tonto como [bg_victor.GetFirstName] podría ser más listo que yo." #NT!
+ board_games.0041.desc.middle.03: "\n\n[SCOPE.Custom('BG_GameType')|U] no es más que una imitación barata de #EMP guerra real#! de todos modos, algo en lo que sin duda soy superior cuando lo comparo con mi humilde oponente. Mientras [bg_loser.GetSheHe] estudiaba a [SCOPE.Custom('BG_GameType')], #EMP yo estudiaba la espada.#! No obstante..." #NT!
+  
+ board_games.0041.desc.end.01: "\n\n¿Soy #EMP malo#! en [SCOPE.Custom('BG_GameType')]?" #NT!
+ board_games.0041.desc.end.02: "\n\nMis palmas se ponen sudorosas y mis rodillas se debilitan mientras me doy cuenta de que lo mejor de mi habilidad simplemente no es suficiente para vencer a [bg_victor.GetFirstName]." #NT!
+ board_games.0041.desc.end.03: "\n\n¡Ese [recipient.Custom('InsultNoun')]! ¡Ese [recipient.Custom('InsultNoun')]! ¡No hay forma de que no hayan hecho trampa, cómo pudo #EMP I#! perder!" #NT!
+  
+ board_games.0041.a: "Ya veremos quién gana la próxima vez..." #NT!
+ board_games.0041.b: "Te has ganado un enemigo aquí hoy." #NT!
+ board_games.0041.b.b: "¡Sigue celebrando y para el [ROOT.Char.GetFaith.HighGodName] probarás mi pie!" #NT!
+ board_games.0041.c: "Bueno, ¡el mejor [bg_victor.GetWomanMan] ganó!" #NT!
+ board_games.0041.desc.result.skill: "#BOL Resultado:#! Pierdo el [board_game_match|E] a [bg_victor.GetFirstNameNoTooltip] debido a la puntuación de [bg_victor.GetHerHis] [board_game_winning|E]" #NT!
+ board_games.0041.desc.result.sudden_death: "#BOL Resultado:#! Pierdo el [board_game_match|E] a [bg_victor.GetFirstNameNoTooltip] debido a [board_game_winning_sudden_death|E]" #NT!
+  
+  ################################################## 
+  # Gaining a Trinket 
+ board_games.0051.t: "Un golpe de suerte" #NT!
+ board_games.0051.desc: "Incluso ahora, a veces recuerdo con cariño cuando vencí a [bg_loser.GetFirstName] con tanta fuerza en [SCOPE.Custom('BG_GameType')] hace unos meses. La apariencia de [bg_loser.GetHerHis] [bg_loser.Custom('MaskFace')] fue #EMP invaluable#!.\n\nI ¿Crees que tal vez todavía conserve en alguna parte el tablero en el que jugamos? Un tablero de sonido, un tablero de la suerte, con [SCOPE.Custom('BG_GamePiecePlural')] que han sido testigos del mejor juego jamás jugado.\n\nSin duda, [bg_victor.GetFaith.KnowledgeGodName] ya sonríe; Sería un tonto si dejara que desapareciera." #NT!
+ board_games.0051.a: "¡Ahhh, seguro que traerá buena suerte para siempre!" #NT!
+ board_games.0051.b: "Sólo unas cuantas piezas más y podría tener un conjunto verdaderamente #EMP#! raro..." #NT!
+ board_games.0051.c: "No necesito juguetes especiales." #NT!
+  
+  ################################################## 
+  # Debug Events 
+ board_games.0102.t: "El juego de juegos" #NT!
+ board_games.0102.desc: "El BGE es todos tus juegos de mesa favoritos reunidos en uno: ajedrez, pachisi, hnefaffetteffleelfae, tabula.\n\n¿Qué otros juegos te gustan?\n\nPodría tener esos otros juegos también, ¡pero más y mejor!\n\n#EMP Y siglos antes legalmente.#!\n\nRegular Los juegos de mesa deberían llamarse. Estoy aburrido. Juegos." #NT!
+ board_games.0102.a: "Juego normal, por favor." #NT!
+ board_games.0102.b: "El enemigo solo usa locomotoras ganadoras, por favor." #NT!
+ board_games.0102.c: "El enemigo solo usa locs perdedores, por favor." #NT!

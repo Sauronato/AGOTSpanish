@@ -8,10 +8,10 @@
  #Wardens of Mint? 
  #Lord Confessor/Keeper of the Cells 
  #Gold Cloaks 
- #Dragonmount Keeper / Dragon Pit Keeper? 
+ #Head Dragonkeeper 
   
   
- ## TRAITS ## 
+  ## TRAITS ## 
   
  court_position_education_martial_1_trait: "[GetTrait('education_martial_1').GetName( ROOT.Char )]"
  court_position_education_martial_2_trait: "[GetTrait('education_martial_2').GetName( ROOT.Char )]"
@@ -27,21 +27,21 @@
  court_position_honorable_trait: "[GetTrait('honorable').GetName( ROOT.Char )]"
  court_position_rude_trait: "[GetTrait('rude').GetName( ROOT.Char )]"
  court_position_callous_trait: "[GetTrait('callous').GetName( ROOT.Char )]"
- court_position_ruthless_trait: "[GetTrait('ruthless').GetName( ROOT.Char )]" #NT!
+ court_position_ruthless_trait: "[GetTrait('ruthless').GetName( ROOT.Char )]"
   
   
   
- #Positions 
+  #Positions 
   
  maester_court_position: "Maestre"
  maester_tradition_bonus: "Desde [culture_tradition|E]"
  maester_court_position_desc: "El $maester_court_position$ es responsable de la salud y el bienestar del [court|E] en el que se encuentran. Tratarán enfermedades y suturarán heridas lo mejor que puedan."
  maester_employer_custom_effect_description: "Realiza [medical_treatments|E]#!\nImproves [education|E] resultados\nDesbloquea el #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Poderoso [agent|E] en [hostile_schemes|E] contra ti#!\nImproves 0"
   
- grandmaester_court_position: "Gran Maestre" #NT!
- grandmaester_tradition_bonus: "Desde [culture_tradition|E]" #NT!
- grandmaester_court_position_desc: "El $grandmaester_court_position$ es responsable de la salud y el bienestar de la familia real. Tratarán enfermedades y suturarán heridas lo mejor que puedan." #NT!
- grandmaester_employer_custom_effect_description: "Realiza [medical_treatments|E]#!\nImproves [education|E] resultados\nDesbloquea el #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Potente [agent|E] en [hostile_schemes|E] contra ti#!" #NT!
+ grandmaester_court_position: "Gran Maestre"
+ grandmaester_tradition_bonus: "Desde [culture_tradition|E]"
+ grandmaester_court_position_desc: "El $grandmaester_court_position$ es responsable de la salud y el bienestar de la familia real. Tratarán enfermedades y suturarán heridas lo mejor que puedan."
+ grandmaester_employer_custom_effect_description: "Realiza [medical_treatments|E]#!\nImproves [education|E] resultados\nDesbloquea el #V $make_child_learn_language_interaction$#! [interaction|E]\n@warning_icon!#X Potente [agent|E] en [hostile_schemes|E] contra ti#!"
   
  household_guard_court_position: "Capitán de la Guardia Nacional"
  household_guard_tradition_bonus: "Desde [culture_tradition|E]"
@@ -83,7 +83,7 @@
  court_smith_court_position: "Herrero de la Corte"
  court_smith_court_position_desc: "El $court_smith_court_position$ es responsable del mantenimiento y cuidado de las obras metálicas"
   
- #NIGHTS WATCH 
+  #NIGHTS WATCH 
   
  nw_septon: "Septon"
  nw_septon_desc: "The resident septon serving the brothers of the Night's Watch who follow the Seven."
@@ -160,3 +160,16 @@
  b_greenguard_keeper: "Comandante de la Guardia Verde"
  b_greenguard_keeper_employer_custom_effect_description: "Guarda y protege al Greenguard"
  b_greenguard_keeper_desc: "Guarda y protege al Greenguard"
+  
+  ################ 
+  # DRAGONKEEPER # 
+  ################ 
+  
+ head_dragonkeeper_court_position: "Jefe guardián del dragón" #NT!
+ head_dragonkeeper_court_position_desc: "El $head_dragonkeeper_court_position$ es el líder de la orden [dragonkeeper|E] a la que sirve. Protegerá y criará a [dragons|e] en el [dragonpit|e] lo mejor que pueda." #NT!
+ head_dragonkeeper_court_position_custom_effect_description: "Desbloquea el #V $Teach historia de Dragones$#! [interaction|E]" #NT!
+ court_position_knows_valyrian_language: "Conoce la lengua valyria" #NT!
+ court_position_valyrian_heritage: "Tiene herencia valyria" #NT!
+ court_position_blood_of_old_valyria: "Sangre de la antigua Valyria" #NT!
+ deepen_bond_with_dragon_scheme_scheme_power_mult: "#V Profundiza el vínculo con tu dragón#! [scheme|E] poder" #NT!
+ bond_with_dragon_scheme_scheme_power_mult: "#V Vínculo con Dragón#! [scheme|E] poder" #NT!

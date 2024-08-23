@@ -1,38 +1,38 @@
 ﻿l_spanish:
- default_legitimacy_level_0: "[Concept( 'legitimacy', 'Illegitimate' )|E] Regla" #NT!
- default_legitimacy_level_1: "[legitimacy|E] $LEVEL|V:roman$" #NT!
- default_legitimacy_level_2: "[legitimacy|E] $LEVEL|V:roman$" #NT!
- default_legitimacy_level_3: "[legitimacy|E] $LEVEL|V:roman$" #NT!
- default_legitimacy_level_4: "[legitimacy|E] $LEVEL|V:roman$" #NT!
- default_legitimacy_level_5: "[legitimacy|E] $LEVEL|V:roman$" #NT!
- default_legitimacy_level_0_flavor: "Ilegítimo" #NT!
- default_legitimacy_level_1_flavor: "Ambicioso" #NT!
- default_legitimacy_level_2_flavor: "Reconocido" #NT!
+ default_legitimacy_level_0: "[Concept( 'legitimacy', 'Illegitimate' )|E] Regla"
+ default_legitimacy_level_1: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_2: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_3: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_4: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_5: "[legitimacy|E] $LEVEL|V:roman$"
+ default_legitimacy_level_0_flavor: "Ilegítimo"
+ default_legitimacy_level_1_flavor: "Ambicioso"
+ default_legitimacy_level_2_flavor: "Reconocido"
    #AGOT Modified 
- #default_legitimacy_level_3_flavor: "Legítimo" #NT!
- default_legitimacy_level_3_flavor: "Legal" #NT!
- #default_legitimacy_level_4_flavor: "Verdadero" #NT!
- default_legitimacy_level_4_flavor: "Legítimo" #NT!
- #default_legitimacy_level_5_flavor: "Ordenado" #NT!
- default_legitimacy_level_5_flavor: "Verdadero" #NT!
+ #default_legitimacy_level_3_flavor: "Legítimo"
+ default_legitimacy_level_3_flavor: "Legal"
+ #default_legitimacy_level_4_flavor: "Verdadero"
+ default_legitimacy_level_4_flavor: "Legítimo"
+ #default_legitimacy_level_5_flavor: "Ordenado"
+ default_legitimacy_level_5_flavor: "Verdadero"
   
- count_legitimacy_type_name: "[count|E] [rank|E]" #NT!
- duke_legitimacy_type_name: "[duke|E] [rank|E]" #NT!
- king_legitimacy_type_name: "[kingdom|E] [rank|E]" #NT!
- emperor_legitimacy_type_name: "[emperor|e] [rank|E]" #NT!
+ count_legitimacy_type_name: "[count|E] [rank|E]"
+ duke_legitimacy_type_name: "[duke|E] [rank|E]"
+ king_legitimacy_type_name: "[kingdom|E] [rank|E]"
+ emperor_legitimacy_type_name: "[emperor|e] [rank|E]"
   
- LEGITIMACY_EFFECTS: "#S Efectos:#!\n[LegitimacyLevel.GetModifierDesc]" #NT!
- LEGITIMACY_AVERAGE_EXPECTATIONS: "#S [Character.GetShortUINamePossessive|U] Promedio [expected_legitimacy|E]:#!\n$BULLET$[powerful_vassals|E]: [LegitimacyType.GetFlavorName( Character.GetAveragePowerfulVassalLegitimacyExpectation )|V] #weak ([Character.GetAveragePowerfulVassalLegitimacyExpectation.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!\n$BULLET$[vassals|E]: [LegitimacyType.GetFlavorName( Character.GetAverageVassalLegitimacyExpectation )|V] #weak ([Character.GetShortUINamePossessive|U]1/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])[Character.GetShortUINamePossessive|U]3" #NT!
- LEGITIMACY_BELOW_AVERAGE_EXPECTATIONS: "@warning_icon! #X Legitimación inferior a la esperada de todos los vasallos#!" #NT!
- VASSAL_BELOW_EXPECTED_LEGITIMACY_TT: "\n@warning_icon! #X [legitimacy_levels|E] debajo de [Character.GetHerHis] expectativas: [Subtract_int32( Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex )|V]#!" #NT!
- VASSAL_EXPECTED_LEGITIMACY_TT: "#T [expected_legitimacy|E]: [Character.GetLegitimacyExpectationsOfLiege]#![AddLocalizationIf( GreaterThan_int32( Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex ), 'VASSAL_BELOW_EXPECTED_LEGITIMACY_TT' )]" #NT!
- legitimacy_swing_scales_cheaper_tt: "#weak Costo reducido en [recipient.GetShortUINamePossessive] bajo [legitimacy|E] ([recipient.GetLegitimacyLevel.GetIndex|V])#!" #NT!
- legitimacy_swing_scales_dearer_tt: "#weak Costo aumentado en [recipient.GetShortUINamePossessive] alto [legitimacy|E] ([recipient.GetLegitimacyLevel.GetIndex|V])#!" #NT!
- legitimacy_hud_tt: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )] Regla [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )]" #NT!
- legitimacy_hud_tt_subheading: "[legitimacy_level|E] para el [LegitimacyType.GetName]" #NT!
- legitmacy_flavor_and_level: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )|V] #weak ([LegitimacyLevel.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!" #NT!
- LEGITIMACY_TRACK_TITLE: "Legitimación [Character.GetLegitimacy|V^]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^]" #NT!
- LEGITIMACY_TRACK_TOOLTIP: "#T [LegitimacyType.GetFlavorName( LegitimacyLevel.Self )]#!\nRequires al menos [LegitimacyLevel.GetThreshold( Character.Self )|V^] Legitimación\n\n$LEGITIMACY_EFFECTS$" #NT!
+ LEGITIMACY_EFFECTS: "#S Efectos:#!\n[LegitimacyLevel.GetModifierDesc]"
+ LEGITIMACY_AVERAGE_EXPECTATIONS: "#S [Character.GetShortUINamePossessive|U] Promedio [expected_legitimacy|E]:#!\n$BULLET$[powerful_vassals|E]: [LegitimacyType.GetFlavorName( Character.GetAveragePowerfulVassalLegitimacyExpectation )|V] #weak ([Character.GetAveragePowerfulVassalLegitimacyExpectation.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!\n$BULLET$[vassals|E]: [LegitimacyType.GetFlavorName( Character.GetAverageVassalLegitimacyExpectation )|V] #weak ([Character.GetShortUINamePossessive|U]1/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])[Character.GetShortUINamePossessive|U]3"
+ LEGITIMACY_BELOW_AVERAGE_EXPECTATIONS: "@warning_icon! #X Legitimación inferior a la esperada de todos los vasallos#!"
+ VASSAL_BELOW_EXPECTED_LEGITIMACY_TT: "\n@warning_icon! #X [legitimacy_levels|E] debajo de [Character.GetHerHis] expectativas: [Subtract_int32( Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex )|V]#!"
+ VASSAL_EXPECTED_LEGITIMACY_TT: "#T [expected_legitimacy|E]: [Character.GetLegitimacyExpectationsOfLiege]#![AddLocalizationIf( GreaterThan_int32( Character.GetLegitimacyExpectationsOfLiege, GetPlayer.GetLegitimacyLevel.GetIndex ), 'VASSAL_BELOW_EXPECTED_LEGITIMACY_TT' )]"
+ legitimacy_swing_scales_cheaper_tt: "#weak Costo reducido en [recipient.GetShortUINamePossessive] bajo [legitimacy|E] ([recipient.GetLegitimacyLevel.GetIndex|V])#!"
+ legitimacy_swing_scales_dearer_tt: "#weak Costo aumentado en [recipient.GetShortUINamePossessive] alto [legitimacy|E] ([recipient.GetLegitimacyLevel.GetIndex|V])#!"
+ legitimacy_hud_tt: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )] Regla [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )]"
+ legitimacy_hud_tt_subheading: "[legitimacy_level|E] para el [LegitimacyType.GetName]"
+ legitmacy_flavor_and_level: "[LegitimacyType.GetFlavorName( LegitimacyLevel.Self )|V] #weak ([LegitimacyLevel.GetIndex]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )])#!"
+ LEGITIMACY_TRACK_TITLE: "Legitimación [Character.GetLegitimacy|V^]/[LegitimacyType.GetMaxLegitimacy( Character.Self )|V^]"
+ LEGITIMACY_TRACK_TOOLTIP: "#T [LegitimacyType.GetFlavorName( LegitimacyLevel.Self )]#!\nRequires al menos [LegitimacyLevel.GetThreshold( Character.Self )|V^] Legitimación\n\n$LEGITIMACY_EFFECTS$"
   
- legitimacy_high_modifier_tt: "Alto [legitimacy|E]" #NT!
- legitimacy_low_modifier_tt: "Bajo [legitimacy|E]" #NT!
+ legitimacy_high_modifier_tt: "Alto [legitimacy|E]"
+ legitimacy_low_modifier_tt: "Bajo [legitimacy|E]"

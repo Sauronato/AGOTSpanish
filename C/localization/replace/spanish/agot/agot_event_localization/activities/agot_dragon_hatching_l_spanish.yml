@@ -1,0 +1,503 @@
+﻿l_spanish:
+ ############################## 
+ ### Activity Localizations ### 
+ ############################## 
+  # Base 
+ activity_dragon_hatching: "Eclosión de huevos de dragón" #NT!
+ activity_dragon_hatching_desc: "Ha llegado el momento de intentar hacer eclosionar tu huevo de dragón. Se celebrará una ceremonia para presenciar este gran momento." #NT!
+ activity_dragon_hatching_selection_tooltip: "Intenta hacer eclosionar tu huevo de dragón y marcar el comienzo de una nueva era.\n\nRecompensas previstas:\n$agot_host_hatching_potential_reward$" #NT!
+ agot_host_hatching_potential_reward: "$BULLET_WITH_TAB$Puede que tu huevo de dragón [artifact|E] eclosione y lo destruya\n$BULLET_WITH_TAB$Si tienes éxito, un recién nacido [dragon|E] se unirá a tu corte\n\n#n @warning_icon! Si no lo logras, puedes tener consecuencias inesperadas#!" #NT!
+ activity_dragon_hatching_predicted_cost: "El costo preciso de la eclosión de su dragón dependerá del estilo de eclosión elegido y de sus elecciones durante la ceremonia." #NT!
+ activity_dragon_hatching_destination_selection: "Solo puedes alojar una #V eclosión de huevos de dragón#! en tu [capital|E], en una [dragonpit|E] o en una #V ubicación especial#!." #NT!
+ activity_dragon_hatching_conclusion_desc: "El [GetActivityType( 'activity_dragon_hatching' ).GetName] ha concluido" #NT!
+ activity_dragon_hatching_guest_desc: "Asistentes" #NT!
+ activity_dragon_hatching_guest_help_text: "Elige a quién invitarás a presenciar la eclosión de tu huevo de dragón." #NT!
+ TRAVEL_NAME_FOR_activity_dragon_hatching: "$TRAVEL_NAME_FOR_activity_tournament$" #NT!
+ ceremony: "Preparaciones de la ceremonia" #NT!
+ ceremony_desc: "Se están preparando los fuegos, se ha hablado de la tradición y se están haciendo los preparativos necesarios para el espectáculo. Pronto un nuevo dragón surcará los cielos." #NT!
+ hatching_attempt: "Intento de eclosión" #NT!
+ hatching_attempt_desc: "Intentarás hacer eclosionar tu huevo de dragón." #NT!
+ hatching_outcome: "Resultado de la eclosión" #NT!
+ hatching_outcome_desc: "Se revelará el resultado de tu intento de eclosión." #NT!
+  # Base - no DLC 
+ activity_dragon_hatching_no_dlc: "$activity_dragon_hatching$" #NT!
+ activity_dragon_hatching_no_dlc_desc: "$activity_dragon_hatching_desc$" #NT!
+ activity_dragon_hatching_no_dlc_selection_tooltip: "$activity_dragon_hatching_selection_tooltip$" #NT!
+ activity_dragon_hatching_no_dlc_predicted_cost: "$activity_dragon_hatching_predicted_cost$" #NT!
+ activity_dragon_hatching_no_dlc_destination_selection: "$activity_dragon_hatching_destination_selection$" #NT!
+ activity_dragon_hatching_no_dlc_conclusion_desc: "$activity_dragon_hatching_conclusion_desc$" #NT!
+ activity_dragon_hatching_no_dlc_guest_desc: "$activity_dragon_hatching_guest_desc$" #NT!
+ activity_dragon_hatching_no_dlc_guest_help_text: "$activity_dragon_hatching_guest_help_text$" #NT!
+ TRAVEL_NAME_FOR_activity_dragon_hatching_no_dlc: "$TRAVEL_NAME_FOR_activity_dragon_hatching$" #NT!
+  # Options 
+ hatching_type: "Tipo de eclosión" #NT!
+ hatching_type_knowledge: "Eclosión de conocimientos" #NT!
+ hatching_type_knowledge_desc: "Convocarás a todos los maestres, guardianes de dragones y otros eruditos conocidos de la tradición de los dragones que estén dispuestos a ayudarte en la eclosión de tu huevo de dragón." #NT!
+ hatching_type_esoteric: "Eclosión esotérica" #NT!
+ hatching_type_esoteric_desc: "Convocarás a brujos, alquimistas y otros conocidos guardianes de conocimiento esotérico que están dispuestos a ayudarte a hacer eclosionar tu huevo de dragón." #NT!
+ agot_dragon_hatching_destination_selection: "Los lugares de importancia conocida para los dragones y su tradición son buenos candidatos para incubar un huevo de dragón." #NT!
+ hatching_sacrifice: "Sacrificio" #NT!
+ hatching_sacrifice_animal: "Animal" #NT!
+ hatching_sacrifice_animal_desc: "Utilizarás la vida de un animal como fuente de poder para esta eclosión. El animal que se sacrificará será elegido cuando llegue el momento." #NT!
+ hatching_sacrifice_blood: "Sangre" #NT!
+ hatching_sacrifice_blood_desc: "Utilizarás el poder de la sangre como fuente de poder para esta eclosión. Podrás seleccionar la fuente de la sangre cuando llegue el momento." #NT!
+ hatching_sacrifice_life: "Vida" #NT!
+ hatching_sacrifice_life_desc: "Utilizarás el poder de la vida como fuente para esta eclosión. Podrás seleccionar a quién sacrificarás en el momento adecuado." #NT!
+ hatching_catalyst: "Catalizador" #NT!
+ hatching_catalyst_minor: "Simple" #NT!
+ hatching_catalyst_minor_desc: "Utilizarás una simple fuente de calor como catalizador para esta eclosión, sin necesidad de adornos ni ceremonias." #NT!
+ hatching_catalyst_medium: "Adecuado" #NT!
+ hatching_catalyst_medium_desc: "Con un alojamiento apropiado y una ubicación pomposa, realizarás la ceremonia de eclosión con un catalizador acorde a la ocasión." #NT!
+ hatching_catalyst_major: "Magnífico" #NT!
+ hatching_catalyst_major_desc: "Con la gran cantidad de recursos y esfuerzo invertido en la ceremonia, calentarás el huevo en un recipiente especialmente diseñado con una gran procesión para acompañar el evento." #NT!
+ hatching_catalyst_massive: "Masivo" #NT!
+ hatching_catalyst_massive_desc: "Con la gran cantidad de conocimiento sobre dragones que has reunido, puedes asegurarte de que todas las diversas vías del éxito estén cubiertas al calentar el huevo." #NT!
+  # Intent 
+ hatch_dragon_intent: "Haz eclosionar un dragón" #NT!
+ hatch_dragon_intent_desc: "En este evento sólo tienes un interés: la eclosión de un [dragon|El]." #NT!
+ witness_hatch_dragon_intent: "Sea testigo de la eclosión de un dragón" #NT!
+ witness_hatch_dragon_intent_desc: "Estás aquí para presenciar un evento único en una generación: el regreso de [dragons|El] al mundo." #NT!
+  
+  # Modifiers 
+ agot_hatching_prov_has_KL_dragonpit: "#P +++ Tiene $building_type_dragonpit_01$#! ([building|E])\n" #NT!
+ agot_hatching_prov_has_dragonpit: "#P ++ Tiene genérico $building_type_dragonpit_01$#! ([building|E])\n" #NT!
+ agot_hatching_prov_has_dragonmont: "#P +++ Es $building_type_dragonstone_01$#!\n" #NT!
+ agot_hatching_prov_is_realm_capital: "#P + ¿Es la capital de tu reino? #!\n" #NT!
+ agot_hatching_prov_is_summerhall: "#N -- Tiene $building_type_agot_summerhall_01$#! ([building|E])\n" #NT!
+  
+  # Extras 
+ agot_hatching_something_broke: "Algo impidió que la ceremonia se desarrollara según lo previsto." #NT!
+ agot_hatching_host_folded: "Decidiste no hacer eclosionar el huevo." #NT!
+ agot_hatching_host_folded_guest: "[host.GetName] ha decidido no hacer eclosionar el huevo." #NT!
+ agot_hatching_success: "¡Tu huevo de dragón ha eclosionado!" #NT!
+ agot_hatching_success_guest: "¡[host.GetName] ha eclosionado con éxito [host.GetHerHis] huevo de dragón!" #NT!
+ agot_hatching_fail: "Tu huevo de dragón no eclosionó." #NT!
+ agot_hatching_fail_guest: "[host.GetName] no ha podido hacer eclosionar [host.GetHerHis] huevo de dragón." #NT!
+  
+  # Events 
+ agot_dragon_hatching.0001.t: "Preparativos" #NT!
+ agot_dragon_hatching.0001.desc: "He enviado misivas a las mentes académicas más brillantes del país para que las convoquen a [province.GetName] y me ayuden en mi misión de hacer eclosionar mi huevo de dragón. Ya estoy recibiendo respuestas de los maestres y de aquellos que han estudiado mucho la historia de los dragones. Muchos son escépticos, pero sienten una gran curiosidad por ver eclosionar un huevo de dragón, mientras que otros están ansiosos por poner a prueba sus conocimientos para traer un dragón al mundo. Aquellos que se sienten honrados de ayudar con una aventura tan grandiosa ya están en camino a [province.GetNameNoTooltip]." #NT!
+ agot_dragon_hatching.0001.opt.a: "Con mucho conocimiento y un poco de suerte, aún podremos lograrlo." #NT!
+  
+ agot_dragon_hatching.0002.t: "Preparativos" #NT!
+ agot_dragon_hatching.0002.desc: "He enviado una convocatoria a las mentes más famosas de la hechicería y la magia del mundo para que se dirijan a [province.GetName] y presten su arte a mi causa. Examino las respuestas de los brujos de Qarth y los maegi de Qohor, entre otros nombres de los rincones más exóticos del mundo, y tomo nota de los más reputados y conocedores, entusiasmados por ayudar en magias tan ambiciosas.\n\nMis invitados esotéricos ya están en camino, así que ya es hora de que yo me ponga en camino." #NT!
+ agot_dragon_hatching.0002.opt.a: "Hay que buscar medios no convencionales para lograr objetivos no convencionales." #NT!
+  
+ agot_dragon_hatching.preparations.tt: "Intentarás hacer eclosionar el huevo seleccionado." #NT!
+  
+ agot_dragon_hatching.0003.t: "Hacia la grandeza" #NT!
+ agot_dragon_hatching.0003.desc: "Partí de [ROOT.Char.GetCurrentLocation.GetName] hacia la provincia de [province.GetName] con el [egg.GetName]. Puedo sentir el poder que irradia incluso ahora, rebosante de emoción. Espero que sea un viaje seguro e ininterrumpido con tan preciado cargamento. Con la cabeza en alto, partí hacia mi destino." #NT!
+ agot_dragon_hatching.0003.opt.a: "Adelante, hacia la #bold grandeza#!!" #NT!
+  
+ agot_dragon_hatching.0005.t: "Ser testigo de la grandeza" #NT!
+ agot_dragon_hatching.0005.desc: "He partido de [ROOT.Char.GetCurrentLocation.GetName] hacia la provincia de [province.GetName]. Ser parte de un evento tan grande es un honor y seguramente será una experiencia inolvidable." #NT!
+ agot_dragon_hatching.0005.opt.a: "Mejor no llegar tarde." #NT!
+  
+ agot_dragon_hatching.0006.t: "Para traer el futuro" #NT!
+ agot_dragon_hatching.0006.desc_knowledge: "Mis invitados han llegado y los diversos académicos que me ayudan han hecho sus preparativos. Ahora debo decidir quién dirigirá la ceremonia y cómo se desarrollará a partir de ahora." #NT!
+ agot_dragon_hatching.0006.desc_esoteric: "Mis invitados han llegado y mis mascotas maegi han comenzado a recitar sus hechizos y a preparar sus reactivos. Ahora debo decidir quién nos dirigirá en el ritual." #NT!
+ agot_dragon_hatching.0006.opt.a: "¡Yo, por supuesto!" #NT!
+ agot_dragon_hatching.0006.opt.a.tt: "Serás el líder del ritual." #NT!
+ agot_dragon_hatching.0006.opt.b: "[scholar.GetFirstName] es el más erudito entre nosotros." #NT!
+ agot_dragon_hatching.0006.opt.b.tt: "[scholar.GetShortUINameNoTooltip] será el líder del ritual" #NT!
+ agot_dragon_hatching.0006.opt.c: "[septon.GetFirstName] nos guiará con la bendición de los Siete." #NT!
+ agot_dragon_hatching.0006.opt.c.tt: "[septon.GetShortUINameNoTooltip] será el líder del ritual" #NT!
+ agot_dragon_hatching.0006.opt.d: "El brujo [warlock.GetFirstName] conducirá el ritual." #NT!
+ agot_dragon_hatching.0006.opt.d.tt: "[warlock.GetShortUINameNoTooltip] será el líder del ritual" #NT!
+ agot_dragon_hatching.0006.opt.e: "Las llamas del piromante [pyromancer.GetFirstName] nos guiarán." #NT!
+ agot_dragon_hatching.0006.opt.e.tt: "[pyromancer.GetShortUINameNoTooltip] será el líder del ritual" #NT!
+ agot_dragon_hatching.0006.opt.f: "La bruja del bosque [witch.GetFirstName] nos guiará por los viejos caminos." #NT!
+ agot_dragon_hatching.0006.opt.f.tt: "[witch.GetShortUINameNoTooltip] será el líder del ritual" #NT!
+ agot_dragon_hatching.0006.opt.g: "El propio [rhllor_priest.GetFirstName] de R'hllor nos guiará." #NT!
+ agot_dragon_hatching.0006.opt.g.tt: "[rhllor_priest.GetShortUINameNoTooltip] será el líder del ritual" #NT!
+ agot_dragon_hatching.0006.opt.h: "Enviaré a buscar a [archmaester.GetFirstName], el más versado en la historia de los dragones de todo Poniente." #NT!
+ agot_dragon_hatching.0006.opt.h.tt: "[archmaester.GetShortUINameNoTooltip] será el líder del ritual" #NT!
+  
+ agot_dragon_hatching.0007.t: "$agot_dragon_hatching.0006.t$" #NT!
+ agot_dragon_hatching.0007.desc_knowledge: "Mis compañeros de viaje y yo hemos llegado, y los diversos hombres letrados se apresuran a hacer sus preparativos. Parece que lo único que falta es que nuestro anfitrión termine de preparar todo lo que este huevo necesita para eclosionar." #NT!
+ agot_dragon_hatching.0007.desc_esoteric: "Mis compañeros de viaje y yo hemos llegado, al igual que los hechiceros que ha mandado llamar nuestro anfitrión. Son desconcertantes, pero la forma en que se ponen a trabajar es fascinante. Todo lo que parece faltar es elegir los rituales necesarios para la ceremonia de la eclosión." #NT!
+ agot_dragon_hatching.0007.opt.a: "¡Qué esfuerzo! ¡No puedo esperar!" #NT!
+ agot_dragon_hatching.0007.opt.a.fear: "¿Estamos seguros de que esto es seguro?" #NT!
+ agot_dragon_hatching.0007.opt.a.flavor: "Observas cómo se prepara la ceremonia." #NT!
+  
+ agot_dragon_hatching.0008.t: "Una bestia por una bestia" #NT!
+ agot_dragon_hatching.0008.desc_knowledge: "Aunque entre mis eruditos hay un aire de vacilación respecto a sacrificar una criatura viviente, todos coinciden en que para que esta ceremonia tenga éxito, se debe entregar una vida. Tras consultar las historias y los textos disponibles, ahora debemos decidir qué raza de animal será sacrificada." #NT!
+ agot_dragon_hatching.0008.desc_esoteric: "Las leyes del universo son claras: hay que pagar por la vida. Los magos y los brujos estamos de acuerdo en que es necesario un sacrificio para que la eclosión sea un éxito. Ahora debemos decidir qué bestia será sacrificada." #NT!
+ agot_dragon_hatching.0008.opt.a_dog: "Oh leal [ROOT.Char.Custom('DogStoryName')], tu acto final será noble." #NT!
+ agot_dragon_hatching.0008.opt.a_dog_tt: "#bold;V [ROOT.Char.Custom('DogStoryName')]'s life#! será la fuente de poder para esta eclosión" #NT!
+ agot_dragon_hatching.0008.opt.a_cat: "Mi querido [ROOT.Char.Custom('CatStoryName')], tu sacrificio no será en vano." #NT!
+ agot_dragon_hatching.0008.opt.a_cat_tt: "#bold;V [ROOT.Char.Custom('CatStoryName')]'s life#! será la fuente de poder para esta eclosión" #NT!
+ agot_dragon_hatching.0008.opt.b: "¿Quizás se pueda preservar algo del ganado de la gente común local?" #NT!
+ agot_dragon_hatching.0008.opt.b_tt: "Algunas #bold;V vidas de ganado local#! serán la fuente de energía para esta eclosión." #NT!
+ agot_dragon_hatching.0008.opt.c: "Trae alguna pieza de caza cazada para la ocasión." #NT!
+ agot_dragon_hatching.0008.opt.c_tt: "Una #bold;V vida de animal salvaje#! será la fuente de energía para esta eclosión." #NT!
+ agot_dragon_hatching.0008.opt.d: "No basta con un animal común y corriente. ¡Tenemos que encontrar algo más exótico!" #NT!
+ agot_dragon_hatching.0008.opt.d_tt: "La #bold;V vida de un animal exótico#! será la fuente de poder para esta eclosión." #NT!
+  
+ agot_dragon_hatching.0009.t: "El precio de la sangre" #NT!
+ agot_dragon_hatching.0009.desc_knowledge: "Es bien sabido que los valyrios utilizaban magia de sangre para incubar a sus dragones. Los eruditos reunidos en la sala debaten cuánto, pero todos coinciden en que un tributo similar es el que tiene más probabilidades de tener éxito. La decisión ahora es de quién se extraerá la sangre." #NT!
+ agot_dragon_hatching.0009.desc_esoteric: "Los más grandes magos de sangre fueron los valyrios de antaño, los mismos que criaron dragones en una época perdida en la historia. Rodeado por los más arcanos de mis invitados y bajo la atenta mirada de mi maegi, ahora debo decidir cómo haremos un tributo similar." #NT!
+ agot_dragon_hatching.0009.opt.a: "Ninguna sangre excepto la mía será suficiente." #NT!
+ agot_dragon_hatching.0009.opt.a_tt: "#bold;V Tu sangre#! será la fuente de poder para esta eclosión." #NT!
+ agot_dragon_hatching.0009.opt.b: "Estoy seguro de que, como líder, [ritual_leader_character.GetFirstName] con gusto ofrecerá sangre a [ritual_leader_character.GetHerHis]." #NT!
+ agot_dragon_hatching.0009.opt.b_tt: "#bold;V [ritual_leader_character.GetShortUINamePossessiveNoTooltip] sangre#! será la fuente de poder para esta eclosión" #NT!
+ agot_dragon_hatching.0009.opt.c: "Todos deben abrir una vena para este gran proyecto." #NT!
+ agot_dragon_hatching.0009.opt.c_tt_1: "La #bold;V sangre de todos los presentes#! será la fuente de poder para esta eclosión." #NT!
+ agot_dragon_hatching.0009.opt.c_tt_2: "@warning_icon! #X Todos los asistentes resultarán heridos#!" #NT!
+ agot_dragon_hatching.0009.opt.d: "[prisoner_blood_sacrifice.GetFirstName] no puede oponerse..." #NT!
+ agot_dragon_hatching.0009.opt.d_tt: "#bold;V [prisoner_blood_sacrifice.GetShortUINamePossessiveNoTooltip] sangre#! será la fuente de poder para esta eclosión" #NT!
+  
+ agot_dragon_hatching.0010.t: "$agot_dragon_hatching.0009.t$" #NT!
+ agot_dragon_hatching.0010.desc: "Es bien sabido que los valyrios usaban magia de sangre para hacer nacer a sus dragones. Los sabios reunidos en la sala debaten cuánto, mientras que los más místicos entre nosotros están seguros de que un tributo similar es el que tiene más probabilidades de tener éxito.\n\n¡Esperaba que [host.GetTitledFirstName] sangrara a algún animal o prisionero, pero en cambio [host.GetSheHe] nos pidió a todos que abriéramos nuestras propias venas para la ceremonia!" #NT!
+ agot_dragon_hatching.0010.opt.a: "Si hay que hacerlo, hay que hacerlo." #NT!
+ agot_dragon_hatching.0010.opt.b: "¡No me inscribí para esto!" #NT!
+  
+ agot_dragon_hatching.0011.t: "Vida por una vida" #NT!
+ agot_dragon_hatching.0011.desc_knowledge: "Aunque entre mis maestres y los hombres eruditos hay un aire de vacilación ante la barbarie del acto, todos estamos de acuerdo en que un pago como éste es el que tiene más probabilidades de ser correspondido cuando se trata de objetos de una naturaleza tan mágica. Una vida por otra puede parecer un precio muy alto, pero ni siquiera una mente escéptica puede negar que un dragón vale más que cualquier otro que aún esté vivo." #NT!
+ agot_dragon_hatching.0011.desc_esoteric: "Todos y cada uno de mis brujos y hechiceros me dicen lo mismo: toda Valyria y sus dragones estaban empapados de #bold magia de sangre#!. Con ella, puedo traer esta nueva vida al mundo. Pero solo la vida puede pagar por la vida, y ahora debo elegir mi precio." #NT!
+ agot_dragon_hatching.0011.desc_escaped_attendee: "Parece que [escaped_unwilling_attendee.GetFirstName] ha logrado escapar de mis guardias y ha huido de la ceremonia. Me han dicho que es probable que [escaped_unwilling_attendee.GetSheHe] esté escondido en las instalaciones o que ya haya regresado a casa. Sin duda, [escaped_unwilling_attendee.GetSheHe] está furioso conmigo, pero la ceremonia debe continuar y yo debo elegir una vida para pagar la eclosión." #NT!
+ agot_dragon_hatching.0011.desc_refused_leader: "Para mi decepción y la de los asistentes, [ritual_leader_character.GetFirstName] se ha negado a ofrecerle la vida a [ritual_leader_character.GetHerHis] por la eclosión. Ahora me corresponde a mí elegir a otro para que pague el precio." #NT!
+ agot_dragon_hatching.0011.desc_refused_attendee: "[attendee_life_sacrifice_refusing.GetFirstName] se ha negado a ofrecerle a [attendee_life_sacrifice_refusing.GetHerHis] la vida para que nazcan los huevos, prefiriendo observar desde una distancia segura. Ahora me toca a mí elegir a otro para que pague el precio." #NT!
+ agot_dragon_hatching.0011.opt.a: "Daré mi propia vida por esto." #NT!
+ agot_dragon_hatching.0011.opt.a_tt: "#bold;V Tu propia vida#! será la fuente de poder para esta eclosión." #NT!
+ agot_dragon_hatching.0011.opt.b: "Estoy seguro que como líder, [ritual_leader_character.GetFirstName] con gusto ofrecerá [ritual_leader_character.GetHerHis] su propia vida." #NT!
+ agot_dragon_hatching.0011.opt.b_accepts: "#bold;V [ritual_leader_character.GetShortUINamePossessiveNoTooltip] vida#! será la fuente de poder para esta eclosión" #NT!
+ agot_dragon_hatching.0011.opt.b_declines: "[ritual_leader_character.GetShortUINameNoTooltip] se niega y debes elegir otro" #NT!
+ agot_dragon_hatching.0011.opt.c: "¡Elegiré un prisionero para pagar el precio!" #NT!
+ agot_dragon_hatching.0011.opt.c_tt: "Se le presentará una lista de prisioneros para elegir." #NT!
+ agot_dragon_hatching.0011.opt.d: "¿Quizás [attendee_life_sacrifice_willing.GetFirstName] estaría de acuerdo?" #NT!
+ agot_dragon_hatching.0011.opt.d_accepts: "#bold;V [attendee_life_sacrifice_willing.GetShortUINamePossessiveNoTooltip] vida#! será la fuente de poder para esta eclosión" #NT!
+ agot_dragon_hatching.0011.opt.d_declines: "[attendee_life_sacrifice_willing.GetShortUIName] se niega y debes elegir otro" #NT!
+ agot_dragon_hatching.0011.opt.d_unwilling: "Uno de mis invitados pagará el precio..." #NT!
+ agot_dragon_hatching.0011.opt.d_tt_unwilling: "Ordenarás el sacrificio de uno de tus invitados." #NT!
+ agot_dragon_hatching.0011.opt.d_tt_unwilling_may_escape: "@warning_icon! #warning Quizás logren escapar#!" #NT!
+ agot_dragon_hatching.0011.opt.e: "#N;bold ¡Nuestro montón de cadáveres serán las cenizas de las que se levantará el dragón!#!" #NT!
+ agot_dragon_hatching.0011.opt.e_tt: "#warning La vida de todos los presentes será la fuente de poder para esta eclosión#!" #NT!
+  
+ agot_dragon_hatching.0012.t: "$agot_dragon_hatching.0011.t$" #NT!
+ agot_dragon_hatching.0012.desc_knowledge: "La elección del prisionero es algo que debo considerar cuidadosamente, ya que muchos de los presentes ya están preocupados por la idea de que se quite una vida para la eclosión. A quién elija será observado por todos, y debo tener cuidado de elegir sabiamente." #NT!
+ agot_dragon_hatching.0012.desc_esoteric: "La elección del prisionero es algo que debo considerar cuidadosamente, ya que se ha teorizado que el poder de la sangre es mayor cuando la vida es de un individuo más importante. La sangre de un rey, un señor o un plebeyo... no todas tienen el mismo peso..." #NT!
+ agot_dragon_hatching.0012.opt.a: "Después de todo, no pueden oponerse..." #NT!
+ agot_dragon_hatching.0012.opt.a_tt: "#bold;V La vida del prisionero seleccionado#! será la fuente de poder para esta eclosión." #NT!
+ agot_dragon_hatching.0012.opt.b: "Pensándolo bien, hay otras opciones." #NT!
+ agot_dragon_hatching.0012.opt.b_tt: "Volverás y elegirás otro sacrificio." #NT!
+  
+ agot_dragon_hatching.0013.t: "La fuente del poder" #NT!
+ agot_dragon_hatching.0013.desc_opening_knowledge: "Los maestres y eruditos reunidos son una fuente de conocimiento que no suele reunirse en un solo lugar. Como es bien sabido entre los hombres de letras, les encanta debatir y discutir los puntos más finos de su oficio. El tema del día es la fuente de poder para la eclosión, y el debate es feroz. Al final, es [host.GetTitledFirstName] quien decide qué se debe utilizar.\n\n" #NT!
+ agot_dragon_hatching.0013.desc_opening_esoteric: "Los diversos practicantes y vendedores ambulantes de lo arcano que me rodean son un grupo heterogéneo, pero están unidos en su creencia de que la fuente de poder para la eclosión es de suma importancia. El debate es feroz, pero al final, es [host.GetTitledFirstName] quien decide qué se debe utilizar.\n\n" #NT!
+ agot_dragon_hatching.0013.desc_animal_pet_dog: "En una muestra de verdadero sacrificio, nuestro anfitrión comparte que [host.GetHerHis] amado perro [host.Custom('DogStoryName')] será la fuente de poder para la eclosión." #NT!
+ agot_dragon_hatching.0013.desc_animal_pet_cat: "En una muestra de verdadero sacrificio, nuestro anfitrión comparte que [host.GetHerHis] amado gato [host.Custom('CatStoryName')] será la fuente de poder para la eclosión." #NT!
+ agot_dragon_hatching.0013.desc_animal_livestock: "Aunque no estoy seguro de la sabiduría de la decisión, nuestro anfitrión ha optado por utilizar una bestia de carga local tomada de los campesinos como fuente de energía para la eclosión." #NT!
+ agot_dragon_hatching.0013.desc_animal_wild: "[host.GetSheHe|U] cree que el espíritu salvaje de los dragones solo puede ser invocado mediante el sacrificio de un animal salvaje, y ha enviado cazadores para traer de vuelta una criatura adecuada." #NT!
+ agot_dragon_hatching.0013.desc_animal_exotic: "En lo que seguramente será una exhibición exótica, nuestro anfitrión ha elegido utilizar una criatura del lejano oriente como fuente de energía para la eclosión, que actualmente se dirige a nuestra ubicación." #NT!
+ agot_dragon_hatching.0013.desc_blood_myself: "En una muestra de verdadero sacrificio, nuestro anfitrión ha elegido utilizar su propia sangre como fuente de poder para la eclosión, creyendo que es la única forma de garantizar el éxito." #NT!
+ agot_dragon_hatching.0013.desc_blood_leader: "En una muestra de verdadera creencia en los esfuerzos de [ritual_leader_character.GetHerHis], [ritual_leader_character.GetFirstName], el líder de la ceremonia, ha ofrecido la propia sangre de [ritual_leader_character.GetHerHis] como fuente de poder para la eclosión." #NT!
+ agot_dragon_hatching.0013.desc_blood_everyone: "[host.GetSheHe|U] ha pedido a todos los presentes que ofrezcan su sangre como fuente de poder para la eclosión, creyendo que el poder combinado de los reunidos será suficiente para hacer surgir al dragón." #NT!
+ agot_dragon_hatching.0013.desc_blood_prisoner: "En la sabiduría de [host.GetHerHis], [host.GetSheHe] ha decidido usar la sangre del prisionero de [host.GetHerHis], [prisoner.GetFirstName], como fuente de poder para la eclosión, ya que [prisoner.GetSheHe] no está en posición de oponerse." #NT!
+ agot_dragon_hatching.0013.desc_life_myself: "En una muestra de verdadero sacrificio, nuestro anfitrión ha elegido usar su propia vida como fuente de poder para la eclosión, dedicando su propia vida a este esfuerzo." #NT!
+ agot_dragon_hatching.0013.desc_life_leader: "En una muestra de verdadera creencia en el propósito de [ritual_leader_character.GetHerHis] aquí, [ritual_leader_character.GetFirstName], el líder de la ceremonia, ha ofrecido su propia vida como fuente de poder para la eclosión." #NT!
+  agot_dragon_hatching.0013.desc_life_attendee:0 "In a display of true belief in the purpose of the ceremony, [attendee.GetFirstName] has offered [attendee.GetHerHis] own life as the source of power for the hatching. 
+ agot_dragon_hatching.0013.desc_life_prisoner: "En la sabiduría de [host.GetHerHis], [host.GetSheHe] ha elegido usar la vida del prisionero de [host.GetHerHis], [prisoner.GetFirstName], como fuente de poder para la eclosión, ya que [prisoner.GetSheHe] no está en posición de objetar." #NT!
+ agot_dragon_hatching.0013.desc_life_everyone: "[host.GetSheHe|U] no parece estar listo para tomar esta decisión todavía, y simplemente dice que todos lo sabremos cuando llegue el momento." #NT!
+ agot_dragon_hatching.0013.desc_close_happy: "¡Realmente esto se perfila como un gran evento!" #NT!
+ agot_dragon_hatching.0013.desc_close_worried: "No puedo evitar sentir una sensación de pavor a medida que avanza el proceso." #NT!
+ agot_dragon_hatching.0013.opt.a: "A continuación, la ceremonia." #NT!
+  
+ agot_dragon_hatching.0014.t: "El catalizador del poder" #NT!
+ agot_dragon_hatching.0014.desc_opening_knowledge: "Se ha determinado la fuente de poder y ahora debemos determinar cuál es la mejor manera de activarla para que el huevo cobre vida. El huevo debe calentarse a una temperatura específica para garantizar que el dragón que lleva dentro nazca sano y fuerte." #NT!
+ agot_dragon_hatching.0014.desc_opening_esoteric: "Una vez decidido el sacrificio, debemos preparar el catalizador para imbuir al huevo con el poder de la fuerza vital otorgada. Las energías liberadas en el ritual que se avecina no deben ser ni demasiado intensas ni demasiado débiles, para que el huevo no se destruya en el proceso." #NT!
+ agot_dragon_hatching.0014.desc_minor: "He optado por utilizar una fuente de calor sencilla como catalizador para la eclosión, sin necesidad de adornos ni ceremonias. Aun así, la decisión de qué utilizar es fundamental." #NT!
+ agot_dragon_hatching.0014.desc_medium: "Ya he realizado la inversión y los preparativos necesarios para ello, pero aún se debate cómo proporcionar exactamente el calor necesario." #NT!
+ agot_dragon_hatching.0014.desc_major: "Con la gran cantidad de recursos y la fanfarria apropiada puesta en la ceremonia, ahora debo decidir cómo calentar el huevo en su recipiente especialmente diseñado." #NT!
+ agot_dragon_hatching.0014.desc_massive: "Cada página de la tradición de los dragones y las plegarias a los dioses valyrios que he leído me han llevado a este momento. Los preparativos extensos y de largo alcance que he hecho garantizarán que, pase lo que pase, el huevo se calentará a la temperatura perfecta. Sin embargo, ahora debo decidir qué calentará el huevo." #NT!
+ agot_dragon_hatching.0014.opt.warning: "#warning @warning_icon! Esta es tu última oportunidad de detener la ceremonia de eclosión #!" #NT!
+ agot_dragon_hatching.0014.opt.a_rational: "Bueno, con madera, ¿qué más?" #NT!
+ agot_dragon_hatching.0014.opt.a_bold: "¡Traed leña y yesca!" #NT!
+ agot_dragon_hatching.0014.opt.a_tt: "Utilizarás #bold;V madera#! como fuente de calor para esta eclosión." #NT!
+ agot_dragon_hatching.0014.opt.b: "Las brasas calientes harán el truco." #NT!
+ agot_dragon_hatching.0014.opt.b_ttplsnohasherror: "Utilizarás #bold;V brasas#! como fuente de calor para esta eclosión." #NT!
+ agot_dragon_hatching.0014.opt.c: "El aceite encendido será la fuente de calor." #NT!
+ agot_dragon_hatching.0014.opt.c_tt: "Utilizarás #bold;V aceite#! como fuente de calor para esta eclosión." #NT!
+ agot_dragon_hatching.0014.opt.d: "¡Solo las llamas más ardientes servirán! ¡Que se propague el fuego!" #NT!
+ agot_dragon_hatching.0014.opt.d_tt: "Utilizarás #WF2;bold wildfire#! como fuente de calor para esta eclosión." #NT!
+ agot_dragon_hatching.0014.opt.e: "¡Debemos utilizar el Dragonmont!" #NT!
+ agot_dragon_hatching.0014.opt.e_tt: "Utilizarás #bold;V el volcán#! como fuente de calor para esta eclosión." #NT!
+ agot_dragon_hatching.0014.opt.f: "¡El poder del sol será nuestra fuente de calor! ¡Traed la lupa!" #NT!
+ agot_dragon_hatching.0014.opt.f_tt: "Usarás... #bold;V una lupa#!? Si tú lo dices..." #NT!
+ agot_dragon_hatching.0014.opt.leave_coward: "¡No puedo seguir con esto!" #NT!
+ agot_dragon_hatching.0014.opt.leave_bold: "¡Esto ha ido demasiado lejos!" #NT!
+ agot_dragon_hatching.0014.opt.leave_rational: "¡Esto nunca funcionará!" #NT!
+ agot_dragon_hatching.0014.opt.leave_tt: "#warning @warning_icon! Abandonarás la ceremonia #!" #NT!
+  
+ agot_dragon_hatching.0015.t: "No hay nuevo amanecer" #NT!
+ agot_dragon_hatching.0015.desc_knowledge: "Veo que los sirvientes bajan los estandartes y que los maestres guardan sus tomos. Antes de que se haga el anuncio, ya sé la razón. [host.GetTitledFirstName] ha perdido el valor de [host.GetHerHis]: no habrá ceremonia. El huevo permanece intacto y el dragón que hay dentro no ha despertado. La ceremonia ha terminado y el sueño de un nuevo dragón ha muerto." #NT!
+ agot_dragon_hatching.0015.desc_esoteric: "Los brujos y los maegi fueron expulsados ​​antes de que me diera cuenta de lo que estaba pasando. Las velas se apagaron y el incienso se extinguió. Parece que [host.GetTitledFirstName] se ha echado atrás en el próximo ritual. El huevo sigue intacto y el dragón que hay dentro no ha despertado. La ceremonia ha terminado y el sueño de una nueva era de dragones ha muerto." #NT!
+ agot_dragon_hatching.0015.opt.a_rational: "Quizás sea lo mejor." #NT!
+ agot_dragon_hatching.0015.opt.a_coward: "¡Gracias a los dioses por eso!" #NT!
+ agot_dragon_hatching.0015.opt.a_bold: "¡No puedo creer que [host.GetSheHe] se haya echado atrás!" #NT!
+  
+ agot_dragon_hatching.0016.t: "La ceremonia" #NT!
+ agot_dragon_hatching.0016.desc_opening_craven: "Mi mano tiembla y la agarro con la otra para estabilizarla." #NT!
+ agot_dragon_hatching.0016.desc_opening_normal: "El aire está cargado de anticipación, la gente reunida comparte una emoción expresada y no expresada." #NT!
+ agot_dragon_hatching.0016.desc_opening_bold: "Amanece una nueva era, ¡y qué placer es estar aquí en su comienzo!" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_opening_me: "Ha llegado el momento de comenzar la ceremonia. Me paro ante los reunidos, con el huevo en mis manos y el conocimiento de los siglos a mis espaldas." #NT!
+ agot_dragon_hatching.0016.desc_knowledge_opening_other: "Ha llegado el momento de comenzar la ceremonia. [ritual_leader_character.GetFirstName] está sobre nosotros, el huevo en las manos de [ritual_leader_character.GetHerHis], el conocimiento de los siglos en la espalda de [ritual_leader_character.GetHerHis]." #NT!
+ agot_dragon_hatching.0016.desc_esoteric_opening_me: "Ha llegado el momento de comenzar el ritual. Se han pronunciado los ritos y se han preparado los reactivos. Me paro ante los reunidos mientras sus cánticos aumentan a mi alrededor, sintiendo el huevo tibio en mis manos." #NT!
+ agot_dragon_hatching.0016.desc_esoteric_opening_other: "Ha llegado el momento de comenzar el ritual. Se han pronunciado los ritos y se han preparado los reactivos. [ritual_leader_character.GetFirstName] está frente a nosotros, el canto instruido brota de mi garganta mientras cantamos en un idioma olvidado hace mucho tiempo." #NT!
+ agot_dragon_hatching.0016.desc_esoteric_opening_other_prisoner: "Ha llegado el momento de comenzar el ritual. Se han pronunciado los ritos y se han preparado los reactivos. Un extraño canto llena la habitación mientras me preocupo por lo que va a ser de mí." #NT!
+ agot_dragon_hatching.0016.desc_animal_pet_dog: "El perro es traído ante" #NT!
+ agot_dragon_hatching.0016.pet_dog_host: "[ROOT.Char.Custom('DogStoryName')] parece inseguro ya que [ROOT.Char.Custom('DogStorySheHe')] es presentado antes" #NT!
+ agot_dragon_hatching.0016.desc_animal_pet_cat: "El gato es llevado ante" #NT!
+ agot_dragon_hatching.0016.pet_cat_host: "[ROOT.Char.Custom('CatStoryName')] parece cauteloso cuando se presenta a [ROOT.Char.Custom('CatStorySheHe')]." #NT!
+ agot_dragon_hatching.0016.desc_animal_livestock: "El [ROOT.Char.Custom('RegionalFarmAnimal')] se trae antes" #NT!
+ agot_dragon_hatching.0016.desc_animal_wild: "Los cuerpos de las piezas de caza son llevados ante" #NT!
+ agot_dragon_hatching.0016.desc_animal_exotic: "No puedo identificar a la criatura que trajeron ante mí." #NT!
+ agot_dragon_hatching.0016.desc_me_stop: "a mí." #NT!
+ agot_dragon_hatching.0016.desc_leader_stop: "[ritual_leader_character.GetFirstNameNoTooltip]." #NT!
+ agot_dragon_hatching.0016.desc_animal_my_dog: "Me duele el corazón al ver [ROOT.Char.Custom('DogStoryHerHim')], sabiendo lo que vendrá, pero sé que esto debe hacerse." #NT!
+ agot_dragon_hatching.0016.desc_animal_my_cat: "Me duele el corazón al ver [ROOT.Char.Custom('CatStoryHerHim')], pero sé que esto debe hacerse." #NT!
+ agot_dragon_hatching.0016.desc_animal_exotic_end: "Su pelaje es extraño y sus sonidos de angustia son ajenos a todos los oídos." #NT!
+ agot_dragon_hatching.0016.desc_animal_kill_me: "Levanto la hoja y la bajo de un solo corte limpio, la vida de la criatura terminó con un solo golpe." #NT!
+ agot_dragon_hatching.0016.desc_animal_kill_leader: "[ritual_leader_character.GetTitledFirstNameNoTooltip] levanta la espada y la baja de un solo corte limpio, la vida de la criatura termina con un solo golpe." #NT!
+ agot_dragon_hatching.0016.desc_blood_me: "Traen el cuenco ante mí, mi brazo" #NT!
+ agot_dragon_hatching.0016.desc_blood_me_me: "Desnuda y lista. Me muerdo el labio mientras paso la hoja por mi piel, derramando carmesí en el cuenco." #NT!
+ agot_dragon_hatching.0016.desc_blood_me_prisoner: "Lucho contra las esposas mientras [ritual_leader_character.GetTitledFirstNameNoTooltip] desliza la espada por mi brazo, derramando el color carmesí en el cuenco. Grito por la injusticia de todo esto, pero mis gritos son ignorados." #NT!
+ agot_dragon_hatching.0016.desc_blood_me_leader: "Desnuda y lista. Me muerdo el labio mientras [ritual_leader_character.GetTitledFirstNameNoTooltip] desliza la espada por mi brazo, derramando carmesí en el cuenco." #NT!
+ agot_dragon_hatching.0016.desc_blood_me_everyone: "Observo cómo los demás hacen lo mismo, [ritual_leader_character.GetTitledFirstNameNoTooltip] cortando a cada uno en especie." #NT!
+ agot_dragon_hatching.0016.desc_blood_me_everyone_leader: "Luego camino delante de todos, haciendo lo mismo con cada uno de los reunidos, y nuestra sangre vital combinada se une como una sola." #NT!
+ agot_dragon_hatching.0016.desc_blood_leader: "El cuenco es llevado ante [ritual_leader_character.GetTitledFirstNameNoTooltip], con el brazo de [ritual_leader_character.GetHerHis] descubierto y listo. [ritual_leader_character.GetSheHe|U] muerde el labio de [ritual_leader_character.GetHerHis] mientras [ritual_leader_character.GetSheHe] baja la espada por la piel de [ritual_leader_character.GetHerHis], derramándose carmesí en el cuenco designado." #NT!
+ agot_dragon_hatching.0016.desc_blood_prisoner: "El cuenco se lleva ante [prisoner.GetName], el brazo de [prisoner.GetHerHis] se fuerza hacia abajo y la hoja pasa por la piel de [prisoner.GetHerHis], el carmesí se derrama en el cuenco mientras [prisoner.GetSheHe] grita." #NT!
+ agot_dragon_hatching.0016.desc_blood_everyone_refused: "El cuenco es llevado ante todos menos ante mí, cada brazo desnudo y listo. La espada es pasada por encima de cada uno de ellos, el color carmesí se derrama en el cuenco mientras los gritos de los heridos llenan la habitación. Aunque me alegro de no estar entre ellos, me miran con una mirada avergonzada." #NT!
+ agot_dragon_hatching.0016.desc_life_myself_me_self: "Con una respiración profunda, doy un paso adelante y tomo la espada en la mano, listo para hacer el sacrificio máximo. Me paro frente al huevo, la espada colocada contra mi garganta, y #emp slice#!. Hay un momento de dolor, la sensación de calor derramándose por mi pecho, y luego nada..." #NT!
+ agot_dragon_hatching.0016.desc_life_myself_me_leader: "Con una respiración profunda, doy un paso adelante frente al huevo mientras [ritual_leader_character.GetTitledFirstNameNoTooltip] presiona la cuchilla contra mi garganta. Cierro los ojos...\n\nHay un momento de dolor, la sensación de calor derramándose por mi pecho, y luego nada..." #NT!
+ agot_dragon_hatching.0016.desc_life_myself_other_self: "Observo con gran asombro y horror cómo [host.GetTitledFirstNameNoTooltip] avanza. [host.GetSheHe|U] se para frente al huevo, con la espada apuntando a la garganta de [host.GetHerHis], y #emp corta la sangre de #!. sobre el huevo, y [host.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_myself_other_leader: "Observo con gran asombro y horror cómo [host.GetTitledFirstName] avanza frente al huevo. [ritual_leader_character.GetTitledFirstNameNoTooltip] presiona la espada contra la garganta de [host.GetHerHis]. [host.GetTitledFirstNameNoTooltip] cierra los ojos de [host.GetHerHis] y #emp corta #!.. La sangre se derrama sobre el huevo y [host.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_leader_self: "Con una respiración profunda, doy un paso adelante y tomo la espada en la mano, listo para hacer el sacrificio máximo por la causa [host.GetTitledFirstNamePossessive]. Me paro frente al huevo, la espada preparada contra mi garganta, y #emp corte#!.. Hay un momento de dolor, la sensación de calor derramándose por mi pecho, y luego nada..." #NT!
+ agot_dragon_hatching.0016.desc_life_leader_host: "Me siento humilde por la devoción de [ritual_leader_character.GetFirstNamePossessiveNoTooltip] hacia mí y mi causa mientras [ritual_leader_character.GetSheHe] da un paso adelante. [ritual_leader_character.GetSheHe|U] se para frente al huevo, con la espada apuntando contra la garganta de [ritual_leader_character.GetHerHis], y #emp corta #!.. La sangre de [ritual_leader_character.GetHerHis|U] se derrama sobre el huevo, y [ritual_leader_character.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_leader_other: "Observo con asombro la devoción de [ritual_leader_character.GetFirstNamePossessiveNoTooltip] hacia la causa de [host.GetTitledFirstNamePossessive] mientras [ritual_leader_character.GetFirstNameNoTooltip] da un paso adelante. [ritual_leader_character.GetSheHe|U] se para frente al huevo, con la espada apuntando contra la garganta de [ritual_leader_character.GetHerHis], y #emp corta#!. La sangre se derrama sobre el huevo y [ritual_leader_character.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_me: "Con una respiración profunda, doy un paso adelante mientras [ritual_leader_character.GetFirstNameNoTooltip] presiona la espada contra mi garganta. Cierro los ojos, lista para hacer el máximo sacrificio para dar inicio a esta nueva era...\n\nHay un momento de dolor, la sensación de calor derramándose por mi pecho, y luego nada..." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_leader: "Me siento humilde por la devoción de [attendee.GetFirstNamePossessive] hacia [host.GetFirstNamePossessiveOrMyNoTooltip] porque [attendee.GetSheHe] se acerca al huevo. Coloco la espada contra la garganta de [attendee.GetHerHis] y #emp corta #!.. La sangre de [attendee.GetHerHis|U] se derrama sobre el huevo y [attendee.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_host: "Me siento humilde por la devoción de [attendee.GetFirstNamePossessive] hacia mí y mi causa mientras [attendee.GetSheHe] da un paso adelante. [attendee.GetSheHe|U] se para frente al huevo mientras [ritual_leader_character.GetFirstNameNoTooltip] presiona la espada contra la garganta de [attendee.GetHerHis]. [attendee.GetSheHe|U] cierra los ojos de [attendee.GetHerHis], y [ritual_leader_character.GetFirstNameNoTooltip] #emp corta #!. La sangre se derrama sobre el huevo, y [attendee.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_other: "Observo con asombro la devoción de [attendee.GetFirstNamePossessive] a la causa mientras [attendee.GetSheHe] da un paso adelante, preparado para hacer el máximo sacrificio. [attendee.GetSheHe|U] se para frente al huevo, [ritual_leader_character.GetFirstNameNoTooltip] presionando la hoja contra la garganta de [attendee.GetHerHis], y #emp corta#!.. La sangre se derrama sobre el huevo y [attendee.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_me_unwilling: "Me empujan hacia adelante con un gruñido, [ritual_leader_character.GetFirstNameNoTooltip] presiona la hoja contra mi garganta. Abro la boca para soltar una maldición, pero [ritual_leader_character.GetSheHe] es más rápido...\n\nHay un momento de dolor, la sensación de calor derramándose por mi pecho, y luego nada..." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_leader_unwilling: "Observo como [attendee.GetFirstNamePossessive] es empujado hacia adelante por causa de [host.GetFirstNamePossessiveOrMyNoTooltip]. [attendee.GetSheHe|U] es ​​forzado ante el huevo, y coloco la espada contra la garganta de [attendee.GetHerHis]. #emp Rebana#!. La sangre de [attendee.GetHerHis|U] se derrama sobre el huevo, y [attendee.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_host_unwilling: "Observo como [attendee.GetFirstNamePossessive] es empujado hacia adelante por mi causa. [attendee.GetSheHe|U] es forzado ante el huevo, y [ritual_leader_character.GetFirstNameNoTooltip] coloca la espada contra la garganta de [attendee.GetHerHis]. #emp Slice#!. [attendee.GetHerHis|U] la sangre se derrama sobre el huevo, y [attendee.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_attendee_other_unwilling: "Observo con horror como [attendee.GetFirstNamePossessive] es empujado hacia adelante. [attendee.GetSheHe|U] es forzado ante el huevo, y [ritual_leader_character.GetFirstNameNoTooltip] coloca la espada contra la garganta de [attendee.GetHerHis]. #emp Rebana#!. La sangre de [attendee.GetHerHis|U] se derrama sobre el huevo, y [attendee.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_prisoner_me: "Lucho contra mis ataduras mientras me llevan ante Egg. [ritual_leader_character.GetFirstNameNoTooltip] presiona una cuchilla fría contra mi garganta y, antes de que pueda gritar por la injusticia de todo esto, siento un dolor agudo que me atraviesa el cuello. Mi visión se vuelve borrosa, mi pecho se siente cálido pero se enfría por dentro y luego no siento nada..." #NT!
+ agot_dragon_hatching.0016.desc_life_prisoner_leader: "Indico a los guardias que traigan al prisionero. Llevan a [prisoner.GetFirstNameNoTooltip] ante el huevo y apunto con la espada a la garganta de [prisoner.GetHerHis]. El tiempo es crucial y #emp corto a #! antes de que [prisoner.GetSheHe] pueda siquiera hablar. La sangre se derrama sobre el huevo y [prisoner.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_prisoner_host: "Indico a los guardias que traigan al prisionero. Llevan a [prisoner.GetFirstNameNoTooltip] ante el huevo y [ritual_leader_character.GetFirstNameNoTooltip] apunta con la espada a la garganta de [prisoner.GetHerHis]. El tiempo es crucial y [ritual_leader_character.GetFirstNameNoTooltip] #emp corta a #! antes de que [prisoner.GetSheHe] pueda siquiera hablar. La sangre se derrama sobre el huevo y [prisoner.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_prisoner_other: "Observo con incomodidad cómo los guardias llevan a [prisoner.GetFirstNameNoTooltip] ante el huevo. [ritual_leader_character.GetFirstNameNoTooltip] apunta con la espada a la garganta de [prisoner.GetHerHis] y #emp corta a #! antes de que [prisoner.GetSheHe] pueda siquiera hablar. La sangre se derrama sobre el huevo y [prisoner.GetSheHe] cae al suelo, sin vida." #NT!
+ agot_dragon_hatching.0016.desc_life_everyone_me: "Miro a mis invitados, uno por uno, luego a mis guardias. Con un gesto de asentimiento, comienzan a traer a cada uno hacia adelante. Gritos de protesta, ira y miedo llenan la habitación mientras cada uno es llevado ante el huevo, la cuchilla presionada contra sus gargantas y sus vidas entregadas para la eclosión. Me quedo de pie frente al huevo, la sangre de todos los presentes se acumula a mi alrededor, antes de que finalmente sea mi turno. Las instrucciones son claras; con esto, seguramente debemos tener éxito. Cierro los ojos, siento la cuchilla arrastrarse por mi garganta, y luego no hay nada..." #NT!
+ agot_dragon_hatching.0016.desc_life_everyone_oh_no: "Todavía no se sabe qué se sacrificará. Me sorprende ver que los guardias sacan sus espadas y empiezan a llevar a cada uno hacia adelante. Gritos de protesta, ira y miedo llenan la habitación, mi propia voz entre ellos. Sin embargo, ante mis propios ojos, cada uno es llevado ante el huevo, la espada presionada contra sus gargantas y sus vidas entregadas para la eclosión. Me opongo, pero mis gritos son ignorados. Lucho, pero mis esfuerzos son en vano. Con una última mirada de odio y desafío, soy llevado ante el huevo, la espada presionada contra mi garganta y mi vida entregada para la eclosión..." #NT!
+ agot_dragon_hatching.0016.desc_newline: "\n\n" #NT!
+ agot_dragon_hatching.0016.desc_minor_wood: "Se junta la leña en una pila y se coloca el huevo encima. Se encienden las llamas y el calor comienza a subir." #NT!
+ agot_dragon_hatching.0016.desc_minor_coal: "Las brasas calientes se colocan debajo del huevo, calentándolo desde abajo." #NT!
+ agot_dragon_hatching.0016.desc_minor_oil: "Se coloca el huevo en un recipiente con aceite y se enciende el líquido con una antorcha para comenzar a calentarlo." #NT!
+ agot_dragon_hatching.0016.desc_minor_wildfire: "Se vierte fuego salvaje sobre el huevo y se enciende, produciendo llamas verdes brillantes que lamen la cáscara." #NT!
+ agot_dragon_hatching.0016.desc_minor_lava: "Se encuentra una pequeña veta de lava y se coloca el huevo en un pequeño estanque de roca fundida." #NT!
+ agot_dragon_hatching.0016.desc_minor_magnifying_glass: "Se coloca un gran vaso delante del huevo y los rayos del sol se enfocan a través de él para aplicar calor a la cáscara." #NT!
+ agot_dragon_hatching.0016.desc_medium_wood: "Se monta una gran pira, se coloca el huevo encima y se encienden fuegos más pequeños a su alrededor para garantizar un calentamiento uniforme." #NT!
+ agot_dragon_hatching.0016.desc_medium_coal: "Delante del huevo se colocan brasas encendidas y encima se coloca un gran brasero. Se coloca el huevo dentro y el calor sube desde abajo." #NT!
+ agot_dragon_hatching.0016.desc_medium_oil: "Se coloca un gran cuenco con aceites mezclados delante del huevo, se lo coloca dentro y se enciende el líquido con una antorcha para comenzar a calentarlo." #NT!
+ agot_dragon_hatching.0016.desc_medium_wildfire: "Se saca un charco de fuego valyrio y se sumerge el huevo en su interior. El líquido se enciende y las etéreas llamas verdes enmascaran el huevo que hay en su interior." #NT!
+ agot_dragon_hatching.0016.desc_medium_lava: "Se encuentra un gran charco de lava y se coloca cuidadosamente el huevo dentro. La roca fundida burbujea y hierve alrededor del huevo, y el calor aumenta para calentarlo." #NT!
+ agot_dragon_hatching.0016.desc_medium_magnifying_glass: "Se acerca un gran vaso ante el huevo y los rayos del sol se enfocan a través de él para aplicar calor a la cáscara. El vaso se mueve en un círculo lento y el calor aumenta con cada pasada." #NT!
+ agot_dragon_hatching.0016.desc_major_wood: "Se arma una pira de un tamaño que nunca he visto. Se coloca cuidadosamente el huevo encima con gran ceremonia y se encienden las llamas. El calor aumenta y el huevo comienza a brillar." #NT!
+ agot_dragon_hatching.0016.desc_major_coal: "Se coloca un gran brasero de bronce y hierro delante del huevo, con las brasas al rojo vivo. Se coloca el huevo dentro mientras se pronuncian las palabras adecuadas y el calor comienza a aumentar." #NT!
+ agot_dragon_hatching.0016.desc_major_oil: "Se coloca delante del huevo un gran cuenco con aceites mezclados procedentes de todo el mundo conocido. Se coloca el huevo dentro y se enciende el líquido con una antorcha para empezar a calentarlo. Se vierten más aceites encima del huevo y las llamas se van elevando cada vez más." #NT!
+ agot_dragon_hatching.0016.desc_major_wildfire: "El fuego más potente y peligroso se lleva ante el huevo, se vierte el líquido sobre la cáscara, se deja un charco del material debajo del huevo y se encienden las etéreas llamas verdes." #NT!
+ agot_dragon_hatching.0016.desc_major_lava: "Una gran cámara de lava dentro de Dragonmont se ha convertido en un receptáculo para el huevo. Con gran ceremonia y cuidado, el huevo se coloca dentro, mientras la roca fundida burbujea y hierve a su alrededor." #NT!
+ agot_dragon_hatching.0016.desc_major_magnifying_glass: "Se acerca una serie de grandes vasos ante el huevo, y los rayos del sol se enfocan a través de ellos para aplicar calor a la cáscara. Como un coro de luces, los vasos se mueven en un lento círculo, el despliegue de luz y calor deslumbra." #NT!
+ agot_dragon_hatching.0016.desc_massive_wood: "La pira es una montaña de madera, casi tan alta como un edificio. Con un desfile de antorchas, se coloca el huevo dentro y se encienden las llamas. El calor es intenso y, aunque es difícil verlo, el huevo parece brillar." #NT!
+ agot_dragon_hatching.0016.desc_massive_coal: "Se coloca delante del huevo un gran brasero de bronce y hierro, lo suficientemente grande como para que entre un caballo. Las brasas brillan al rojo vivo y se coloca el huevo dentro ceremoniosamente. El calor es intenso y el huevo comienza a brillar." #NT!
+ agot_dragon_hatching.0016.desc_massive_oil: "Se acerca un gran cuenco vacío, con aceites de todo el mundo conocido traídos ante él en secuencia. Hombres y mujeres santos de diversas religiones dicen oraciones sobre sus respectivos aceites mientras se vierten en el cuenco. Se coloca el huevo dentro y se enciende el líquido con una antorcha para comenzar a calentarlo." #NT!
+ agot_dragon_hatching.0016.desc_massive_wildfire: "El fuego más potente y peligroso se lleva ante el huevo, se vierte el líquido sobre la cáscara, se deja un charco debajo del huevo y se encienden las llamas. El rugido del fuego es ensordecedor, ya que parece #emp gritar#! de calor." #NT!
+ agot_dragon_hatching.0016.desc_massive_lava: "La cima del Dragonmont está coronada con una gran banda de hierro, y el huevo está suspendido sobre la roca fundida que hay en su interior. Con una gran ceremonia, todos observan cómo el huevo desciende hasta la lava. La roca fundida burbujea y hierve alrededor del huevo, y el calor aumenta hasta alcanzar un punto álgido." #NT!
+ agot_dragon_hatching.0016.desc_massive_magnifying_glass: "Se colocan ante el huevo una serie de vasos de distintas formas y tamaños, y los rayos del sol se enfocan a través de ellos para aplicar calor a la cáscara. Cada uno de ellos danza con mil puntos de luz, y el calor aumenta a medida que giran en círculo en un espectáculo que ninguno de los presentes olvidará jamás." #NT!
+ agot_dragon_hatching.0016.desc_blood_sacrifice: "Se saca el cuenco de sangre." #NT!
+ agot_dragon_hatching.0016.desc_bodies_sacrifice: "Los cuerpos son sacados a la luz" #NT!
+ agot_dragon_hatching.0016.desc_body_sacrifice: "El cuerpo nace" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_wood: "y colocado encima de la madera ardiente" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_coal: "y colocado sobre las brasas calientes" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_oil: "y se coloca dentro del recipiente el aceite encendido" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_wildfire: "y colocado encima del incendio forestal en llamas" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_lava: "y bajado a la piscina de lava" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_magnifying_glass: "y los rayos del sol también se centran en él" #NT!
+ agot_dragon_hatching.0016.desc_knowledge_end: "con todo el cuidado apropiado." #NT!
+ agot_dragon_hatching.0016.desc_esoteric_wood: "y arrojado sobre la madera en llamas" #NT!
+ agot_dragon_hatching.0016.desc_esoteric_coal: "y arrojado sobre las brasas" #NT!
+ agot_dragon_hatching.0016.desc_esoteric_oil: "y lo arrojó al recipiente con aceite encendido" #NT!
+ agot_dragon_hatching.0016.desc_esoteric_wildfire: "y arrojado sobre el fuego" #NT!
+ agot_dragon_hatching.0016.desc_esoteric_lava: "y arrojado al estanque de lava" #NT!
+ agot_dragon_hatching.0016.desc_esoteric_magnifying_glass: "y poner encima del huevo" #NT!
+ agot_dragon_hatching.0016.desc_esoteric_end: "mientras el canto alcanza un punto álgido." #NT!
+ agot_dragon_hatching.0016.desc_very_low: "Todos los ojos están fijos en el huevo, preparados para presenciar la magia de los dragones una vez más." #NT!
+ agot_dragon_hatching.0016.desc_low: "Todas las miradas están fijas en el huevo, que parece brillar por el calor que lo rodea." #NT!
+ agot_dragon_hatching.0016.desc_medium: "Todos los ojos están fijos en el huevo, cada respiración contenida en anticipación del milagro que vendrá." #NT!
+ agot_dragon_hatching.0016.desc_high: "Todas las miradas están fijas en el huevo brillante, que parece latir con vida en el centro de su receptáculo." #NT!
+ agot_dragon_hatching.0016.desc_very_high: "Todos los ojos están fijos en el huevo brillante, temblando ligeramente por el poder que hay en su interior." #NT!
+ agot_dragon_hatching.0016.opt.dead_willing: "Que mi sacrificio traiga al dragón..." #NT!
+ agot_dragon_hatching.0016.opt.dead_unwilling: "¡Maldito seas, [host.GetTitledFirstNameNoTooltip]!" #NT!
+ agot_dragon_hatching.0016.opt.alive: "¡No puedo esperar!" #NT!
+ agot_dragon_hatching.0016.opt.alive_tt: "Observas para ver si nacerá un dragón." #NT!
+ agot_dragon_hatching.0016.opt.base_esoteric_tt: "Una eclosión esotérica #difficulty_easy AUMENTA#! la probabilidad de una eclosión exitosa, pero también aumenta la probabilidad de un resultado negativo." #NT!
+ agot_dragon_hatching.0016.opt.base_knowledge_tt: "La eclosión de un conocimiento tiene #difficulty_medium NINGÚN EFECTO#! en la probabilidad de una eclosión exitosa" #NT!
+ agot_dragon_hatching.0016.opt.dragonlore_tt: "Tu dragonlore #difficulty_easy AUMENTA #! la probabilidad de una eclosión exitosa" #NT!
+ agot_dragon_hatching.0016.opt.dragonlore_knowledge_tt: "Esta bonificación es #difficulty_easy AUMENTADA#! porque se trata de una eclosión de conocimiento." #NT!
+ agot_dragon_hatching.0016.opt.synergy_type_tt: "Tu probabilidad de éxito es #difficulty_easy AUMENTADA#! debido a la sinergia entre el tipo de eclosión y el tipo de sacrificio." #NT!
+ agot_dragon_hatching.0016.opt.leader_quality_tt: "Su probabilidad de éxito es #difficulty_easy AUMENTADA#! debido a la calidad del líder elegido" #NT!
+ agot_dragon_hatching.0016.opt.sacrifice_level_tt: "Tu probabilidad de éxito es #difficulty_easy AUMENTADA#! debido al nivel de sacrificio realizado" #NT!
+ agot_dragon_hatching.0016.opt.sacrifice_synergy_tt: "Su probabilidad de éxito es #difficulty_easy AUMENTADA#! debido a las circunstancias que rodean el sacrificio." #NT!
+ agot_dragon_hatching.0016.opt.catalyst_level_high_tt: "Su probabilidad de éxito es #difficulty_easy GRANMENTE AUMENTADA#! debido al nivel del catalizador utilizado" #NT!
+ agot_dragon_hatching.0016.opt.catalyst_level_low_tt: "Su probabilidad de éxito es #difficulty_easy AUMENTADA#! debido al nivel del catalizador utilizado" #NT!
+ agot_dragon_hatching.0016.opt.sacrifice_catalyst_synergy_tt: "Tu probabilidad de éxito es #difficulty_easy AUMENTADA#! debido a la sinergia entre el sacrificio elegido y el catalizador utilizado." #NT!
+ agot_dragon_hatching.0016.opt.catalyst_leader_synergy_tt: "Su probabilidad de éxito es #difficulty_easy AUMENTADA#! debido a la sinergia entre el líder de la ceremonia y el catalizador utilizado." #NT!
+ agot_dragon_hatching.0016.opt.leader_sacrifice_synergy_tt: "Tu probabilidad de éxito es #difficulty_easy AUMENTADA#! debido a la sinergia entre el líder de la ceremonia y el tipo de sacrificio." #NT!
+  
+ agot_dragon_hatching.0017.t: "Sangre, ¿pero cuánta?" #NT!
+ agot_dragon_hatching.0017.desc_self: "Los diversos maestros arcanos que asisten a esta reunión tienen ideas tan salvajes y variadas como las tierras de las que proceden. Sin embargo, en lo único en lo que todos están de acuerdo es en que debe derramarse sangre. La pregunta ahora es: ¿cuánta? ¿Me desangro, como es la costumbre de mi pueblo, u ofrezco un sacrificio más sustancial? Muchos de los esotéricos reunidos están de acuerdo en que hay que pagar vida por vida, y nada menos servirá. La pregunta es: ¿estoy de acuerdo?" #NT!
+ agot_dragon_hatching.0017.desc_leader: "—El ritual se está preparando como me instruyó [ROOT.Char.GetTitledFirstName] —dice [ritual_leader_character.GetSheHe], con la voz tranquila y firme de [ritual_leader_character.GetHerHis]—. Debo... plantear la cuestión del sacrificio. Aunque ambos estamos de acuerdo en que debe derramarse sangre, muchos de los reunidos (entre ellos yo, debo admitirlo) creen que hay que pagar vida por vida, y nada menos servirá. ¿Qué dices tú? [ritual_leader_character.GetSheHe] me mira, con la voz tranquila, como si fuera la decisión más natural del mundo.\n\nSin duda, [ritual_leader_character.GetSheHe] sabe más que yo, pero aun así, es una decisión difícil de tomar. ¿Qué estoy dispuesto a dar por la oportunidad de tener un dragón?" #NT!
+ agot_dragon_hatching.0017.opt.a: "Daré lo que sea necesario." #NT!
+ agot_dragon_hatching.0017.opt.a_tt: "Seleccionarás una vida para ser sacrificada." #NT!
+ agot_dragon_hatching.0017.opt.b: "Daré lo que se acostumbra." #NT!
+ agot_dragon_hatching.0017.opt.b_tt: "Seleccionarás un sacrificio de sangre." #NT!
+  
+ agot_dragon_hatching.0018.t: "$agot_dragon_hatching.0011.t$" #NT!
+ agot_dragon_hatching.0018.desc_knowledge: "La elección de a quién sacrificar por la fuerza es algo que debo considerar cuidadosamente, ya que muchos de los presentes ya están incómodos ante la idea de que se tome una vida para la eclosión. Todos observarán a quién elija y debo tener cuidado de elegir sabiamente." #NT!
+ agot_dragon_hatching.0018.desc_esoteric: "La elección de a quién sacrificar por la fuerza es algo que debo considerar cuidadosamente, ya que se ha teorizado que el poder de la sangre es más fuerte cuando la vida es de un individuo más importante. La sangre de un rey, un señor o un plebeyo... no todas tienen el mismo peso..." #NT!
+ agot_dragon_hatching.0018.opt.a: "¡Guardias, apresadlos!" #NT!
+ agot_dragon_hatching.0018.opt.a_tt: "#bold;V La vida del asistente seleccionado#! será la fuente de energía para esta eclosión." #NT!
+ agot_dragon_hatching.0018.opt.b: "Pensándolo bien, hay otras opciones." #NT!
+ agot_dragon_hatching.0018.opt.b_tt: "Volverás y elegirás otro sacrificio." #NT!
+ agot_dragon_hatching.0019.t: "El sacrificio, ¿yo?" #NT!
+ agot_dragon_hatching.0019.desc: "Nadie esperaba que la eclosión de un dragón se realizara sin sacrificios, pero cuando veo a [host.GetTitledFirstNamePossessive] guardias acercarse, ¡me doy cuenta de que he sido elegido!\n\nSolo tengo un momento antes de que me lleven, ¿qué debo hacer?" #NT!
+ agot_dragon_hatching.0019.opt.escape.title: "¡Escapar!" #NT!
+ agot_dragon_hatching.0019.opt.escape.a_tt: "Te abriste paso hacia la libertad" #NT!
+ agot_dragon_hatching.0019.opt.escape.b_tt: "Te escapas en la confusión" #NT!
+ agot_dragon_hatching.0019.opt.caught.title: "¡Atrapó!" #NT!
+ agot_dragon_hatching.0019.opt.caught.a_tt: "Estás desarmado y te llevan lejos." #NT!
+ agot_dragon_hatching.0019.opt.caught.b_tt: "Tu artimaña falla y te llevan" #NT!
+ agot_dragon_hatching.0019.opt.a: "¡No me iré en silencio!" #NT!
+ agot_dragon_hatching.0019.opt.a.f: "Intentas abrirte camino para liberarte" #NT!
+ agot_dragon_hatching.0019.opt.b: "[ROOT.Char.GetTitledFirstNameNoTooltip]? ¡Vi a [ROOT.Char.GetHerHim] de esa manera!" #NT!
+ agot_dragon_hatching.0019.opt.b.f: "Intentas mentir para salir de la situación." #NT!
+ agot_dragon_hatching.0019.opt.c: "Muy bien, si tiene que ser alguien, que sea yo." #NT!
+ agot_dragon_hatching.0019.opt.c.f: "Aceptas tu destino" #NT!
+ agot_dragon_hatching.0019.opt.c_tt: "#bold;V Tu vida#! será la fuente de poder para esta eclosión." #NT!
+  # Catastrophe results 
+ agot_dragon_hatching.0101.t: "¡Catástrofe de ambición!" #NT!
+ agot_dragon_hatching.0101.desc: "¡Catástrofe!\n\nAnte mis propios ojos, el huevo se rompe, el poder del dragón en su interior y los ritos realizados se desataron en una ola de destrucción. El calor es insoportable y las llamas lo consumen todo a su paso. Mi locura nos ha traído la ruina a todos, y el sueño de un nuevo dragón ha muerto en fuego y sangre." #NT!
+ agot_dragon_hatching.0101.opt.a: "¡Dioses, no!" #NT!
+ agot_dragon_hatching.0102.t: "$agot_dragon_hatching.0101.t$" #NT!
+ agot_dragon_hatching.0102.desc: "¡Catástrofe!\n\nAnte mis propios ojos, el huevo se rompe, el poder del dragón en su interior y los ritos realizados se desatan en una ola de destrucción. El calor es insoportable, las llamas consumen todo a su paso. La locura de [host.GetTitledFirstName] ha traído la ruina sobre todos nosotros, y el sueño de un nuevo dragón ha muerto en fuego y sangre." #NT!
+ agot_dragon_hatching.0102.opt.a: "$agot_dragon_hatching.0101.opt.a$" #NT!
+  # Disaster results 
+ agot_dragon_hatching.0201.t: "¡Desastre de la ambición!" #NT!
+ agot_dragon_hatching.0201.desc: "¡Desastre!\n\nEl huevo se rompe con el calor, el poder que hay en su interior lo parte en dos y hace que salgan volando fragmentos de cáscara y vísceras en llamas. Los restos que vuelan golpean a los que están allí reunidos y prenden fuego a personas y lugares. Mi sueño de un nuevo dragón ha muerto en fuego y sangre." #NT!
+ agot_dragon_hatching.0201.opt.a: "¡Agáchate y cúbrete!" #NT!
+ agot_dragon_hatching.0202.t: "$agot_dragon_hatching.0201$" #NT!
+ agot_dragon_hatching.0202.desc: "¡Desastre!\n\nEl huevo se rompe con el calor, el poder que hay en su interior lo parte en dos y hace que salgan volando fragmentos llameantes de cáscara y vísceras. Los restos que vuelan golpean a los reunidos y prenden fuego tanto a personas como a lugares. [host.GetTitledFirstNamePossessive] El sueño de un nuevo dragón ha muerto en fuego y sangre." #NT!
+ agot_dragon_hatching.0202.opt.a: "$agot_dragon_hatching.0201.opt.a$" #NT!
+  # Nothing results 
+ agot_dragon_hatching.0303.t: "Rompiendo el yunque de la ambición" #NT!
+ agot_dragon_hatching.0303.desc: "#bold;italic *CRACK*#!\n\nThe El sonido es ensordecedor. Ante un gran coro de gritos y suspiros decepcionados, el huevo se ha partido en pedazos bajo el calor. Mis sueños (y mi huevo) están tan destrozados como la cáscara que tengo ante mí." #NT!
+ agot_dragon_hatching.0303.opt.a: "¡Maldita sea todo!" #NT!
+ agot_dragon_hatching.0304.t: "Esfuerzos en vano" #NT!
+ agot_dragon_hatching.0304.desc: "La multitud mira con gran expectación, esperando que el huevo eclosione, se mueva, haga #emp algo#!. Pero no pasa nada. Sigue siendo como era, intacto e inquebrantable.\n\nMientras las toses de la decepción y los susurros del fracaso llenan el aire, debo aceptar que mis esfuerzos han sido en vano. Con gran pesar, instruyo a los sirvientes a que retiren el huevo y comiencen la limpieza." #NT!
+ agot_dragon_hatching.0304.opt.a: "$agot_dragon_hatching.0303.opt.a$" #NT!
+ agot_dragon_hatching.0305.t: "$agot_dragon_hatching.0303.t$" #NT!
+ agot_dragon_hatching.0305.desc: "#bold;italic *CRACK*#!\n\nThe El sonido es ensordecedor. En medio de un gran coro de gritos y suspiros de decepción, entre ellos el mío, el huevo se ha partido en pedazos por el calor. [host.GetTitledFirstNamePossessive] sueños —y [host.GetHerHis] huevo— están tan destrozados como la cáscara que tenemos ante nosotros." #NT!
+ agot_dragon_hatching.0305.opt.a: "Y parecía tan prometedor..." #NT!
+ agot_dragon_hatching.0306.t: "$agot_dragon_hatching.0304.t$" #NT!
+ agot_dragon_hatching.0306.desc: "La multitud observa con la respiración contenida, esperando que el huevo eclosione, se mueva, haga algo, pero no pasa nada. Permanece como estaba, intacto e inflexible.\n\nMientras las toses de la decepción y los susurros del fracaso llenan el aire, [host.GetTitledFirstName] debe aceptar que los esfuerzos de [host.GetHerHis] han sido en vano. Veo que [host.GetHerHim] ordena a los sirvientes que retiren el huevo y comiencen la limpieza, y solo puedo sacudir la cabeza con simpatía." #NT!
+ agot_dragon_hatching.0306.opt.a: "$agot_dragon_hatching.0305.opt.a$" #NT!
+  # Success results 
+ agot_dragon_hatching.0401.t: "Un nuevo amanecer" #NT!
+ agot_dragon_hatching.0401.desc: "Todo queda en silencio por un momento. La multitud contiene la respiración. Parece que no va a pasar nada... Entonces, el huevo se estremece y se rompe. Emerge una cabeza pequeña y escamosa, seguida de un cuello largo y sinuoso. ¡El dragón interior ha nacido! ¡Ha comenzado una nueva era de dragones y yo soy quien la provocó!" #NT!
+ agot_dragon_hatching.0401.opt.a: "¡Hurra!" #NT!
+ agot_dragon_hatching.0401.opt.a_tt: "¡Has logrado crear un dragón!" #NT!
+ agot_dragon_hatching.0402.t: "$agot_dragon_hatching.0401.t$" #NT!
+ agot_dragon_hatching.0402.desc: "Todo queda en silencio por un momento. La multitud contiene la respiración. Parece que nada sucederá... Entonces, el huevo se estremece y se agrieta. Una pequeña cabeza escamosa emerge, seguida de un cuello largo y sinuoso. ¡El dragón que está dentro ha nacido! ¡Una nueva era de dragones ha comenzado y yo estuve aquí para presenciarla!" #NT!
+ agot_dragon_hatching.0402.opt.a: "$agot_dragon_hatching.0401.opt.a$" #NT!
+ agot_dragon_hatching.0402.opt.a_tt: "¡Fuiste testigo de cómo [host.GetTitledFirstName] eclosionaba un dragón!" #NT!
+  
+ hatched_dragon_via_cradling_notification: "[ROOT.Char.GetName] eclosionó [dragon.GetName] por Cradling" #NT!
+  
+ agot_dragon_hatching_you_try_hatching: "Intentas eclosionar [egg.GetName]" #NT!
+  
+  # Hatching historia de Dragones # 
+ agot_dragon_hatching_dragonlore.0001.t: "historia de Dragones: La colina de Rhaenys" #NT!
+ agot_dragon_hatching_dragonlore.0001.desc: "Lo que una vez fue el hogar de algunos de los dragones más feroces, este coloso no es más que una ruina. Mientras camino por sus túneles, quedo asombrado por su magnitud y cautivo por el peso de su significado.\n\nAtrapado como estoy, casi no noto los papeles polvorientos entre los escombros. ¡Parecen insinuar las técnicas de eclosión utilizadas por los cuidadores de dragones!" #NT!
+ agot_dragon_hatching_dragonlore.0001.opt: "¡Esto te resultará útil!" #NT!
+  
+ agot_dragon_hatching_dragonlore.0002.t: "historia de Dragones: Rocadragón" #NT!
+ agot_dragon_hatching_dragonlore.0002.desc: "Mientras deambulo por los túneles de Dragonmont, me cuesta comprender su tamaño. Los dragones han anidado aquí durante siglos y, sin embargo, aquí estoy. \n\nCuando doblo una esquina, entro en lo que deben ser los criaderos. Habría investigado más a fondo si no me hubiera topado con una pila de pergaminos. Al inspeccionarlos más de cerca, me desanimo un poco al descubrir que la mayoría de ellos son ilegibles. \n\n#I ¡Pero uno sí lo es!#! ¡Detalla cómo los guardianes de dragones de la isla cuidaron los huevos hasta que eclosionaron!" #NT!
+ agot_dragon_hatching_dragonlore.0002.opt: "Debería tomar nota de esto..." #NT!
+  
+ agot_dragon_hatching_dragonlore.0003.t: "historia de Dragones: La Ciudadela" #NT!
+ agot_dragon_hatching_dragonlore.0003.desc: "Al llegar a la Ciudadela, un Archimaestre me indica que hay una colección de libros. Parecen antiguos, pero se nota que están bien cuidados. Debería encontrar una silla cómoda en algún lugar, al parecer, este libro es bastante grueso. \n\nEl libro entra en detalles bastante intrínsecos sobre las diversas eclosiones conocidas de huevos, comenzando por la emigración de los Targaryen a Rocadragón desde la antigua Valyria hace tantos años." #NT!
+ agot_dragon_hatching_dragonlore.0003.opt: "¡Debo empezar a estudiar!" #NT!
+  
+ agot_dragon_hatching_dragonlore.0004.t: "historia de Dragones: Salón de Verano" #NT!
+ agot_dragon_hatching_dragonlore.0004.desc: "Podría haber jurado que aún podía oler las ruinas en llamas de Summerhall. Aquí ocurrió una tragedia, pero tengo la intención de encontrar información que llevó al rey Aegon el Improbable a celebrar un ritual de eclosión tan intrincadamente planeado aquí. \n\nQuedan muy pocos restos de la construcción de la mansión de verano, solo pilas de ladrillos quemados y algún que otro panel de vidrio. Sin embargo, la maleza se ha apoderado del lugar, lo que dificulta la búsqueda de pistas. \n\nAfortunadamente, mis esfuerzos dan sus frutos. Mi búsqueda diligente revela fragmentos de las notas del rey enterradas bajo algunos ladrillos caídos. Tendré que juntarlos yo mismo, ¡pero es un buen progreso!" #NT!
+ agot_dragon_hatching_dragonlore.0004.opt: "¿Qué pasó realmente aquí?" #NT!
+  
+ agot_dragon_hatching_dragonlore.0005.t: "historia de Dragones: Harrenhal" #NT!
+ agot_dragon_hatching_dragonlore.0005.desc: "Creo que las historias de Harrenhal no le hacen justicia. Ningún ocupante se ha atrevido a aceptar el desafío de reconstruir el otrora grandioso castillo. En cambio, se encuentra en ruinas. \n\nEs mucho más grande que cualquier castillo en el que haya estado, ni siquiera la Fortaleza Roja se puede comparar. Las otrora grandes torres habían sido agrietadas y dobladas por el fuego del dragón mucho antes de mi llegada. Harren el Negro tenía fe en estos muros y su linaje terminaba dentro de ellos. El castillo sirve como recordatorio de que no se debe desafiar al dragón." #NT!
+ agot_dragon_hatching_dragonlore.0005.opt: "Harren el Negro era un tonto." #NT!
+  
+ agot_dragon_hatching_dragonlore.0006.t: "historia de Dragones: Campos de fuego" #NT!
+ agot_dragon_hatching_dragonlore.0006.desc: "La hierba ha vuelto a crecer desde hace mucho tiempo después de que Aegon y sus hermanas esposas la quemaran durante la Conquista. Sin embargo, las llanuras aún tienen un aire de mortalidad. Miles de hombres murieron aquí, inmolados por el fuego del dragón. La Casa Gardener se extinguió en estos campos, la Casa Lannister se arrodilló poco después. Esta batalla fue la única vez que los tres conquistadores lucharon juntos, los tres dragones lucharon como uno solo. La batalla fue un verdadero reflejo del poder de un dragón, utilizado por tres individuos, advenedizos de una isla que se convirtieron en las personas más poderosas de los Siete Reinos, si no del mundo." #NT!
+ agot_dragon_hatching_dragonlore.0006.opt: "¡Imagina tener una fracción de ese poder!" #NT!
+  
+ agot_dragon_hatching_dragonlore_increase: "Tu historia de Dragones aumenta" #NT!
+  
+ agot_dragon_egg_lay.female_revealed: "\n\nPor supuesto, después de haber puesto una nidada, ahora sabemos que [dragon_parent.GetNameNoTooltip] es de hecho un dragón hembra." #NT!
+ agot_dragon_egg_lay.female_revealed_past: "\n\nPor supuesto, después de haber puesto una nidada, ahora sabemos que [dragon_parent.GetNameNoTooltip] era de hecho un dragón hembra." #NT!
+  
+ agot_dragon_egg_cradling.1001.t: "Un huevo de piedra" #NT!
+ agot_dragon_egg_cradling.1001.desc: "Algo ha salido mal.\n\nSostengo mi huevo de dragón frío sobre un brasero, intentando recuperar algo del calor que solía irradiar desde su superficie escamosa. La llama y el humo del brasero calientan el exterior, pero la vida en el interior está oculta: pronto no será más que una piedra de colores brillantes. El destino me ha negado este dragón.\n\n¿Lo intento con otro?" #NT!
+ agot_dragon_egg_cradling.1001.a: "Tráeme otro huevo." #NT!
+ agot_dragon_egg_cradling.1001.a.tt: "Comenzarás a acunar [new_egg.GetName]" #NT!
+ agot_dragon_egg_cradling.1001.b: "¿Cómo puede ser esto?" #NT!
+  
+ agot_dragon_egg_cradling.1002.t: "Un huevo de piedra" #NT!
+ agot_dragon_egg_cradling.1002.young_desc: "Entro en la habitación [egg_owner.GetNamePossessive] y me acerco al lugar donde se encuentra el huevo de dragón [egg_owner.GetHerHis], esperando a que eclosione. Paso las manos por la superficie escamosa del huevo y tiemblo al sentir solo piedra fría bajo mi palma. El calor habitual casi se ha ido y es probable que el dragón que está dentro se haya perdido y nunca eclosione.\n\n¿Debería darle a [egg_owner.GetHerHim] otro huevo para que lo pruebe?" #NT!
+ agot_dragon_egg_cradling.1002.desc: "Entro en la cámara de [egg_owner.GetNamePossessive] y veo a [egg_owner.GetHerHim] sentado junto a la chimenea en el borde de la habitación, agarrando el huevo de dragón de [egg_owner.GetHerHis] justo sobre las llamas. Los zarcillos de fuego lamen la parte inferior de la superficie escamosa y el humo atenúa el color brillante habitual del huevo. "Se ha enfriado", dice [egg_owner.GetSheHe], con lágrimas goteando por el rostro de [egg_owner.GetHerHis]. Meto la mano entre el humo y paso las manos por la superficie. El huevo está tan sin vida como una piedra.\n\n¿Debería hacer que [egg_owner.GetHerHim] pruebe con otro?" #NT!
+ agot_dragon_egg_cradling.1002.a: "Vamos a probar otra cosa." #NT!
+ agot_dragon_egg_cradling.1002.a.tt: "[egg_owner.GetNameNoTooltip] comenzará a acunar a [new_egg.GetName]" #NT!
+ agot_dragon_egg_cradling.1002.b: "Lo siento mucho, [egg_owner.GetNameNoTooltip]" #NT!
+  
+ agot_dragon_egg_cradling.2000.t: "Compañeros de cuna" #NT!
+ agot_dragon_egg_cradling.2000.desc_start1: "Miro a [child.GetName] con asombro; mira lo que he hecho. [child.GetSheHe] merece el mundo entero y, con suerte, algún día eso incluirá los cielos." #NT!
+ agot_dragon_egg_cradling.2000.desc_start2: "[child.GetName] me mira parpadeando y [child.GetHerHis] extiende los brazos para alcanzarme. Estoy de pie junto a [child.GetHerHis] cuna, un huevo de dragón irradia calor en mi mano." #NT!
+ agot_dragon_egg_cradling.2000.desc_targ: "Desde que Rhaena colocó un huevo en las cunas de Jaehaerys y Alysanne, ha sido una tradición Targaryen." #NT!
+ agot_dragon_egg_cradling.2000.desc: "Si mi hijo comparte cuna con un huevo de dragón, y éste nace en [child.GetHerHim], su vínculo será aún más fuerte." #NT!
+ agot_dragon_egg_cradling.2000.a: "Se acunarán juntos." #NT!
+ agot_dragon_egg_cradling.2000.a.tt: "[child.GetNameNoTooltip] comenzará a acunar el [cradle_egg.GetName]" #NT!
+ agot_dragon_egg_cradling.2000.b: "Una cuna no es lugar para un huevo de dragón." #NT!
+  
+ agot_dragon_egg_cradling_birth.0002.t: "¡Mi huevo eclosiona!" #NT!
+ agot_dragon_egg_cradling_birth.0002.desc: "¡Nunca en mi vida he sentido tanta alegría! Mi huevo ha eclosionado y un dragón ha salido de las ruinas de su cascarón.\n\nYa puedo sentir abrumadoramente el vínculo que compartimos, y cómo estarán conmigo hasta el fin de mis días. Aunque todavía no puedo decir cuál es su sexo, todavía necesitan un nombre que la historia nunca olvide.\n\n¿Cómo debería llamarlos?" #NT!
+ agot_dragon_egg_cradling_birth.0002.a: "Viviremos toda una vida de aventuras juntos." #NT!
+ agot_dragon_egg_cradling_birth.0002.a_tt_dragon_born: "Ha nacido un nuevo [dragon|e]." #NT!
+ agot_dragon_egg_cradling_birth.0002.a_tt_egg_destroyed: "Tu #v huevo de dragón#! [artifact|e] ha sido #N destruido#!." #NT!
+  
+ agot_dragon_egg_cradling_birth.0003.t: "Una cría bajo mi cuidado" #NT!
+ agot_dragon_egg_cradling_birth.0003.desc: "¡Un huevo que estaba bajo mi cuidado ha eclosionado! [dragon.GetName] ha nacido y se une a mi familia, aunque no está claro de inmediato cuál es su sexo, eso se determinará con el tiempo.\n\nPor ahora, los [dragonkeepers|e] han tomado a [dragon.GetNameNoTooltip] bajo su cuidado, y debo reflexionar sobre los preparativos para su alojamiento y crecimiento. Pero primero lo primero, un dragón necesita un nombre. ¿Cuál será?" #NT!
+ agot_dragon_egg_cradling_birth.0003.opt.a: "Un nombre para los anales de la historia." #NT!
+  
+ agot_dragon_egg_cradling_birth.0004.t: "¡El género es obvio!" #NT!
+ agot_dragon_egg_cradling_birth.0004.desc: "[dragon_gender|E] es un concepto intrínsecamente misterioso, ¡pero el misterio parece haber sido evitado esta vez!\n\n[revealing.GetFullName] me dice que [revealing.GetSheHe] está seguro de que [dragon.GetName] es un dragón [dragon.Custom('DragonFemaleMale')] basándose en el comportamiento que [dragon.Custom('GetDragonSheHe')] ha mostrado durante la primera semana de vida de [dragon.Custom('GetDragonHerHis')]." #NT!
+ agot_dragon_egg_cradling_birth.0004.a: "¿Quién es un buen [dragon.Custom('DragonGirlBoy')]?" #NT!
+  
+ agot_dragon_egg_lay.0001.t: "[dragon_parent.GetNameNoTooltip] ¡Pone un huevo!" #NT!
+ agot_dragon_egg_lay.0001.desc: "¡[dragon_parent.GetName] ha puesto un huevo! Mis guardianes de dragones se apresuraron a poner el huevo en incubación tan pronto como [dragon_parent.GetNameNoTooltip] estuvo listo para desprenderse de él. Con tan pocos huevos de dragón restantes, y aún menos dragones vivos, el nuevo regalo de [dragon_parent.GetNamePossessiveNoTooltip] tiene un valor incalculable.\n\nIncluso un solo huevo podría hacerme fabulosamente rico si encuentro al comprador adecuado... Aunque tal vez sea mejor quedármelo para asegurar el futuro de mi familia.\n\n¿Quizás la Casa [ROOT.Char.GetHouse.GetName] tendrá otro dragón algún día pronto?" #NT!
+ agot_dragon_egg_lay.0001.opt: "¡Esto es fantástico!" #NT!
+  
+ agot_dragon_egg_lay.0002.t: "[dragon_parent.GetNameNoTooltip] ¡Da a luz un embrague!" #NT!
+ agot_dragon_egg_lay.0002.desc: "¡[dragon_parent.GetName] ha puesto una nidada de [ROOT.Var('spawn_eggs').GetValue] huevos! Mis guardianes de dragones han creado rápidamente nuevas áreas para la incubación, ya que no esperaban más que un solo huevo.\n\nEl resto del mundo observa con envidia cómo he sido bendecida con estos tesoros. El nacimiento de [dragon_parent.GetNameNoTooltip] hoy es más riqueza de la que casi todas las familias conocerán jamás, o más poder del que jamás podrán ejercer.\n\n¡Pronto todos los vástagos de la Casa [ROOT.Char.GetHouse.GetName] surcarán los cielos!" #NT!
+ agot_dragon_egg_lay.0002.opt: "¡Hemos sido bendecidos!" #NT!
+  
+ dragon_laid_eggs: "Tu dragón [dragon_parent.GetName] ha puesto [GetPlayer.MakeScope.Var('spawn_eggs').GetValue] huevos" #NT!
+ dragon_laid_egg_before_death: "Tu dragón [dragon_parent.GetName] puso un huevo antes de que [dragon_parent.GetSheHe] muriera" #NT!

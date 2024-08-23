@@ -12,14 +12,26 @@
  night_watch_centralization_2: "Organización de la Alta Guardia Nocturna"
  night_watch_centralization_3: "Organización de la Guardia de la Noche Absoluta"
   
- slavery_laws: "Esclavitud" #NT!
- slavery_disallowed_law: "Esclavitud prohibida" #NT!
- slavery_disallowed_law_effect: "No se tolera ninguna forma de esclavitud. Los gobernantes tienen acceso a los esclavos libres [casus_bellis|E]." #NT!
- slavery_allowed_law: "Esclavitud permitida" #NT!
- slavery_allowed_law_effect: "Los gobernantes pueden construir y usar las líneas $building_type_agot_slave_camps_01$ de [buildings|E] y vender prisioneros como esclavos. Los gobernantes pueden utilizar Slave Raid [casus_bellis|E] para llenar sus campos de esclavos." #NT!
+ slavery_laws: "Esclavitud"
+ slavery_disallowed_law: "Esclavitud prohibida"
+ slavery_disallowed_law_effect: "No se tolera ninguna forma de esclavitud. Los gobernantes tienen acceso a los esclavos libres [casus_bellis|E]."
+ slavery_allowed_law: "Esclavitud permitida"
+ slavery_allowed_law_effect: "Los gobernantes pueden construir y usar las líneas $building_type_agot_slave_camps_01$ de [buildings|E] y vender prisioneros como esclavos. Los gobernantes pueden utilizar Slave Raid [casus_bellis|E] para llenar sus campos de esclavos."
   
- SLAVERY_LAW_IS_ON_COOLDOWN: "Recientemente cambiaste las leyes sobre esclavitud. Se puede cambiar nuevamente después de [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]" #NT!
+ SLAVERY_LAW_IS_ON_COOLDOWN: "Recientemente cambiaste las leyes sobre esclavitud. Se puede cambiar nuevamente después de [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'slavery_law_cooldown') )]"
+ DRAGONPIT_LAW_IS_ON_COOLDOWN: "Recientemente has cambiado las leyes de Pozo del Dragón. Puedes volver a cambiarlas después de [GetCurrentDateWithDiff( GetVarTimeRemaining( CHARACTER.MakeScope, 'dragonpit_law_cooldown') )]" #NT!
   
- AGOT_MY_REALM_WINDOW_REALM_LAWS_TAB: "Leyes" #NT!
- AGOT_MY_REALM_WINDOW_MY_REALM_LAWS_TAB: "Mis leyes" #NT!
- AGOT_MY_REALM_WINDOW_LIEGE_REALM_LAWS_TAB: "Leyes de Lieja" #NT!
+ AGOT_MY_REALM_WINDOW_REALM_LAWS_TAB: "Leyes"
+ AGOT_MY_REALM_WINDOW_MY_REALM_LAWS_TAB: "Mis leyes"
+ AGOT_MY_REALM_WINDOW_LIEGE_REALM_LAWS_TAB: "Leyes de Lieja"
+  
+ dragonpit_laws: "Leyes de acceso a Pozo de Dragon" #NT!
+ dragonpit_close_family_law: "Solo familia cercana" #NT!
+ dragonpit_close_family_law_effects: "[dragons|E] en tu [dragonpit|e] solo puede ser accedido por [close_family_members|e]" #NT!
+ dragonpit_house_law: "Solo casa" #NT!
+ dragonpit_house_law_effects: "[dragons|E] en tu [dragonpit|e] solo pueden acceder a [house|e] miembros" #NT!
+ dragonpit_dynasty_law: "Sólo dinastía" #NT!
+ dragonpit_dynasty_law_effects: "[dragons|E] en tu [dragonpit|e] solo pueden acceder a [dynasty|e] miembros" #NT!
+ dragonpit_everyone_law: "Todos" #NT!
+ dragonpit_everyone_law_effects: "[dragons|E] en tu [dragonpit|e] puede ser accedido por #warning todos#!" #NT!
+ YOU_ARE_BANNED_FROM_THIS_DRAGONS_PIT: "Estás baneado del [dragonpit|e] en el que se encuentra este dragón" #NT!

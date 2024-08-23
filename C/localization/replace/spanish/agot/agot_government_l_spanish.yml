@@ -1,21 +1,22 @@
 ﻿l_spanish:
   
- government_is_free_city: "El tipo [government|E] es [GetGovernment( 'free_city_government' ).GetName]" #NT!
- government_is_lp_feudal: "El tipo [government|E] es [GetGovernment( 'lp_feudal_government' ).GetName]" #NT!
- government_is_nw: "El tipo [government|E] es [GetGovernment( 'nights_watch_government' ).GetName]" #NT!
- government_is_ruins: "El tipo [government|E] es [GetGovernment( 'ruins_government' ).GetName]" #NT!
- agot_government_is_pirate: "El tipo [government|E] es [GetGovernment( 'pirate_government' ).GetName]" #NT!
+ government_is_free_city: "El tipo [government|E] es [GetGovernment( 'free_city_government' ).GetName]"
+ government_is_lp_feudal: "El tipo [government|E] es [GetGovernment( 'lp_feudal_government' ).GetName]"
+ government_is_nw: "El tipo [government|E] es [GetGovernment( 'nights_watch_government' ).GetName]"
+ government_is_ruins: "El tipo [government|E] es [GetGovernment( 'ruins_government' ).GetName]"
+ government_is_host: "El tipo [government|E] es [GetGovernment( 'host_government' ).GetName]" #NT!
+ agot_government_is_pirate: "El tipo [government|E] es [GetGovernment( 'pirate_government' ).GetName]"
   
  lp_feudal_government: "Supremacía feudal"
  lp_feudal_government_adjective: "Supremo feudal"
  lp_feudal_government_realm: "Reino Feudal"
  lp_feudal_government_vassals_label: "Los [obligations|E] feudales se basan en los [feudal_contract|E] de cada [vassal|E]"
  lp_feudal_government_desc: "$game_concept_feudal_desc$\n\n#F PLACEHOLDER_DESCRIPTION"
- lc_nights_watch_male_empire: "Señor Comandante" #NT!
- lc_nights_watch_male_kingdom: "Señor comandante" #NT!
- lc_nights_watch_male_duchy: "Comandante" #NT!
- lc_nights_watch_male_county: "Comandante" #NT!
- lc_nights_watch_male_barony: "Comandante" #NT!
+ lc_nights_watch_male_empire: "Lord Comandante"
+ lc_nights_watch_male_kingdom: "Lord comandante"
+ lc_nights_watch_male_duchy: "Comandante"
+ lc_nights_watch_male_county: "Comandante"
+ lc_nights_watch_male_barony: "Comandante"
  lc_nights_watch_female: "Lord comandante"
  commander_nights_watch: "Comandante"
  dc_nights_watch: "Comandante"
@@ -23,32 +24,44 @@
   
   
   
- pirate_government: "Capitanía Pirata" #NT!
- pirate_government_desc: "Una forma de gobierno mayoritariamente irregular en la que forajidos, exiliados, mercenarios y aquellos que intentan ganar gloria se han unido bajo un capitán. Al ser comparativamente desorganizados e impredecibles que otros, los Piratas se nominan entre sí, o a sí mismos, para el puesto de Capitán. Sin embargo, es común ver a Piratas descontentos y descontentos con los resultados de la votación que se separan e intentan ganar la gloria para sí mismos." #NT!
- pirate_government_adjective: "Pirata" #NT!
- pirate_government_realm: "Reino Pirata" #NT!
+ pirate_government: "Capitanía Pirata"
+ pirate_government_desc: "Una forma de gobierno mayoritariamente irregular en la que forajidos, exiliados, mercenarios y aquellos que intentan ganar gloria se han unido bajo un capitán. Al ser comparativamente desorganizados e impredecibles que otros, los Piratas se nominan entre sí, o a sí mismos, para el puesto de Capitán. Sin embargo, es común ver a Piratas descontentos y descontentos con los resultados de la votación que se separan e intentan ganar la gloria para sí mismos."
+ pirate_government_adjective: "Pirata"
+ pirate_government_realm: "Reino Pirata"
  pirate_government_vassals_label: ""
- #agot_pirate_gov_succ_block: "Desbloquea la Sucesión Pirata especial [succession_law|E]. Bloquea otros [succession_laws|E]\n$EFFECT_LIST_BULLET$ Si [heir|E] es demasiado débil, [realm|E] colapsará sobre [ruler|E] [character_death_death|E]" #NT!
- agot_pirate_gov_succ_block: "Desbloquea la Sucesión Pirata especial [succession_law|E]. Bloquea otros [succession_laws|E]" #NT!
- agot_unlocks_conquest_cb: "Desbloquea Conquista [casus_belli|E]" #NT!
+ #agot_pirate_gov_succ_block: "Desbloquea la Sucesión Pirata especial [succession_law|E]. Bloquea otros [succession_laws|E]\n$EFFECT_LIST_BULLET$ Si [heir|E] es demasiado débil, [realm|E] colapsará sobre [ruler|E] [character_death_death|E]"
+ agot_pirate_gov_succ_block: "Desbloquea la Sucesión Pirata especial [succession_law|E]. Bloquea otros [succession_laws|E]"
+ agot_unlocks_conquest_cb: "Desbloquea Conquista [casus_belli|E]"
   
  silent_sisterhood_holder: "Madre silenciosa"
+  
+ host_government: "Anfitrión" #NT!
+ host_government_adjective: "Anfitrión" #NT!
+ host_government_realm: "Anfitrión" #NT!
+ host_government_desc: "Un [government_form|E] que es menos un gobierno y más una reunión temporal de personas, a menudo con un propósito específico. El anfitrión no es un [government|E] permanente y cambiará o se disolverá una vez que se cumpla el propósito." #NT!
   
  nights_watch_government: "Guardia de la noche"
  nights_watch_government_adjective: "Guardia de la noche"
  nights_watch_government_realm: "Guardia de la noche"
  nights_watch_government_desc: "La Guardia de la Noche es una orden militar que sostiene y protege el Muro para evitar que los salvajes y los Caminantes Blancos crucen a los Siete Reinos."
   
- seneschal_the_citadel_male: "$seneschal_court_position$" #NT!
- the_citadel_government: "El Cónclave" #NT!
- the_citadel_government_adjective: "El Cónclave" #NT!
- the_citadel_government_realm: "El Cónclave" #NT!
- the_citadel_government_desc: "El Cónclave es un [government_form|E] injugable controlado por un senescal que es elegido entre los archimaestres cada año. Los novatos se entrenan aquí para convertirse en maestres que eventualmente sirven al reino en la corte o con investigaciones. Este gobierno es exclusivo de la Ciudadela de Oldtown." #NT!
+ nights_watch_realm_succession_law: "Sucesión de la Guardia de la Noche" #NT!
+ nights_watch_realm_succession_law_effects: "\n#V Según $nights_watch_realm_succession_law$, todos los Lord Comandantes [titles|E] pasarán a un sucesor elegido entre todos los Hermanos Negros elegibles, y todos los vasallos [titles|E] pasarán al Lord Comandante.#!" #NT!
   
- kingsguard_government: "Guardia Real" #NT!
- kingsguard_government_desc: "Guardia Real" #NT!
- kingsguard_succession_law: "Sucesión de la Guardia Real" #NT!
- kingsguard_succession_law_effects: "\n#V En $kingsguard_succession_law$, el señor seleccionará qué miembro de la orden heredará el [titles].#!" #NT!
+ nights_watch_temp_realm_succession_law: "$nights_watch_realm_succession_law$" #NT!
+ nights_watch_temp_realm_succession_law_effects: "$nights_watch_realm_succession_law_effects$" #NT!
+  
+ seneschal_the_citadel_male: "$seneschal_court_position$"
+ the_citadel_government: "El Cónclave"
+ the_citadel_government_adjective: "El Cónclave"
+ the_citadel_government_realm: "El Cónclave"
+ the_citadel_government_desc: "El Cónclave es un [government_form|E] injugable controlado por un senescal que es elegido entre los archimaestres cada año. Los novatos se entrenan aquí para convertirse en maestres que eventualmente sirven al reino en la corte o con investigaciones. Este gobierno es exclusivo de la Ciudadela de Oldtown."
+  
+ kingsguard_government: "Guardia Real"
+ kingsguard_government_adjective: "Guardia real" #NT!
+ kingsguard_government_desc: "Guardia Real"
+ kingsguard_succession_law: "Sucesión de la Guardia Real"
+ kingsguard_succession_law_effects: "\n#V En $kingsguard_succession_law$, el señor seleccionará qué miembro de la orden heredará el [titles].#!"
   
   # Ruins 
  ruins_government: "Ruina"
@@ -81,103 +94,3 @@
  cant_fight_the_seven_k_as_wall: "Como $nights_watch_government$, no puedes declarar la guerra a los siete reinos."
  NOT_cant_fight_the_wall: "No puedes declarar la guerra a la guardia de la noche."
  NOT_cant_fight_the_seven_k_as_wall: "Como $nights_watch_government$, no puedes declarar la guerra a los siete reinos."
-  
-  # King Flavourisation 
- king_stormlands: "Rey de la Tormenta"
- queen_stormlands: "Reina de la Tormenta"
- king_north: "Rey en el Norte"
- queen_north: "Reina en el Norte"
- king_riverlands: "Rey de los Ríos"
- queen_riverlands: "Reina de los Ríos"
- king_wall: "Rey de la Noche"
- queen_wall: "Reina de la Noche"
-  
-  #Smaller Kingdoms 
- king_the_dreadlands: "Rey rojo" #NT!
- queen_the_dreadlands: "Reina Roja" #NT!
- king_the_neck: "Rey del pantano" #NT!
- queen_the_neck: "Reina del pantano" #NT!
- king_bear_island: "Rey Oso" #NT!
- queen_bear_island: "Reina del oso" #NT!
- king_last_lands: "Último rey" #NT!
- queen_last_lands: "Última reina" #NT!
- king_greystones: "Rey gris" #NT!
- queen_greystones: "Reina gris" #NT!
- king_barrows_and_rills: "Rey túmulo" #NT!
- queen_barrows_and_rills: "Reina del túmulo" #NT!
- king_the_wolfswood: "Rey de madera" #NT!
- queen_the_wolfswood: "Reina de madera" #NT!
- king_the_white_knife: "Rey del puerto" #NT!
- queen_the_white_knife: "Reina del puerto" #NT!
- king_great_wyk: "Rey del rock" #NT!
- queen_great_wyk: "Reina del rock" #NT!
- king_ironmans_bay: "Rey de la sal" #NT!
- queen_ironmans_bay: "Reina de la sal" #NT!
- king_the_gods_eye: "Rey negro" #NT!
- queen_the_gods_eye: "Reina negra" #NT!
- king_the_blue_fork: "Rey Cuervo" #NT!
- queen_the_blue_fork: "Reina Cuervo" #NT!
- king_the_red_fork: "Rey de los setos" #NT!
- queen_the_red_fork: "Reina del seto" #NT!
- king_the_green_fork: "Rey del cruce" #NT!
- queen_the_green_fork: "Reina del cruce" #NT!
- king_maidenpool: "Rey Salmón" #NT!
- queen_maidenpool: "Reina del Salmón" #NT!
- king_runestone: "Rey de Bronce"
- queen_runestone: "Reina de Bronce"
- king_oldtown: "Rey de la torre" #NT!
- queen_oldtown: "Reina de la torre" #NT!
- king_the_arbor_straits: "Rey de la vid" #NT!
- queen_the_arbor_straits: "Reina de la vid" #NT!
- king_westmarch: "Rey de marzo" #NT!
- queen_westmarch: "Reina de marzo" #NT!
- king_stone_and_sky: "Rey del cielo" #NT!
- queen_stone_and_sky: "Reina del cielo" #NT!
- king_the_brimstone: "Rey Azufre" #NT!
- queen_the_brimstone: "Reina del azufre" #NT!
- king_the_torrentine: "Rey estrella" #NT!
- queen_the_torrentine: "Reina estrella" #NT!
- king_godsgrace: "Rey de arena" #NT!
- queen_godsgrace: "Reina de arena" #NT!
- king_the_tor: "Rey de arena" #NT!
- queen_the_tor: "Reina de arena" #NT!
- king_the_red_mountains: "Rey Buitre" #NT!
- queen_the_red_mountains: "Reina buitre" #NT!
- king_tarth: "Rey Zafiro" #NT!
- queen_tarth: "Reina Zafiro" #NT!
- king_eastmarch: "Rey de marzo" #NT!
- queen_eastmarch: "Reina de marzo" #NT!
- king_the_banefort: "Rey encapuchado" #NT!
- queen_the_banefort: "Reina encapuchada" #NT!
- king_fair_isle: "Rey justo" #NT!
- queen_fair_isle: "Reina justa" #NT!
- king_yronwood: "Sangre real" #NT!
- queen_yronwood: "Sangre real" #NT!
- king_the_claw: "Rey Garra" #NT!
- queen_the_claw: "Reina Garra" #NT!
- king_duskendale: "Rey Oscuro"
- queen_duskendale: "Reina Oscura"
- king_the_fingers: "Rey dedo" #NT!
- queen_the_fingers: "Reina de los dedos" #NT!
- king_the_hook: "Rey de piedra" #NT!
- queen_the_hook: "Reina de piedra" #NT!
- king_the_crownlands: "Rey de aguas negras" #NT!
- queen_the_crownlands: "Reina de aguas negras" #NT!
- king_the_stormlands: "Rey Tormenta" #NT!
- queen_the_stormlands: "Reina de la tormenta" #NT!
- king_dorne: "Principe"
- queen_dorne: "Princesa"
- king_the_westerlands: "Rey de oro" #NT!
- queen_the_westerlands: "Reina de oro" #NT!
- king_the_riverlands: "Rey del río" #NT!
- queen_the_riverlands: "Reina del rio" #NT!
- king_the_vale: "Rey de la montaña" #NT!
- queen_the_vale: "Reina de la montaña" #NT!
- king_the_iron_islands: "Rey de Hierro" #NT!
- queen_the_iron_islands: "Reina de hierro" #NT!
- king_the_north: "Rey del invierno" #NT!
- queen_the_north: "Reina del invierno" #NT!
- king_the_reach: "Rey del jardín" #NT!
- queen_the_reach: "Reina del jardín" #NT!
- king_dragonstone: "Rey del mar" #NT!
- queen_dragonstone: "Reina del mar" #NT!

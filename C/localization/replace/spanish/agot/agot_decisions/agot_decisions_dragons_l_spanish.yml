@@ -1,6 +1,83 @@
 ﻿l_spanish:
-  # Title Paramount 
+  # Dragon Eggs 
  hatch_dragon_egg_decision: "Incubar huevo de dragón"
  hatch_dragon_egg_decision_desc: "Intentaré incubar mi huevo de dragón."
  hatch_dragon_egg_decision_tooltip: "No hay absolutamente ninguna manera de que esto pueda salir mal."
  hatch_dragon_egg_decision_confirm: "Esta es una mala idea..."
+ spend_time_with_dragon_egg_decision: "Pasa tiempo con el huevo de dragón" #NT!
+ spend_time_with_dragon_egg_decision_desc: "No es suficiente poseer un huevo de dragón, uno debe vincularse con él para asegurar una fuerte conexión con el dragón que se encuentra debajo." #NT!
+ spend_time_with_dragon_egg_decision_tooltip: "Decide pasar tiempo con tu huevo de dragón." #NT!
+ spend_time_with_dragon_egg_decision_confirm: "Pasa tiempo con tu huevo" #NT!
+  
+ agot_appoint_dragonkeeper_head: "Nombrar guardián jefe del dragón" #NT!
+ agot_appoint_dragonkeeper_head_desc: "El puesto de Guardián del Dragón Jefe ha quedado vacante. Para preservar y mantener nuestro [dragonpit|e], deberíamos nombrar a un nuevo guardián." #NT!
+ agot_appoint_dragonkeeper_head_dragonmount_desc: "El puesto de Guardián de dragones principal ha quedado vacante. Para mantener el Dragonmont protegido y mantenido, deberíamos nombrar a un nuevo guardián." #NT!
+ agot_appoint_dragonkeeper_head_tooltip: "Nombrar un nuevo Guardián Jefe del Dragón" #NT!
+ agot_appoint_dragonkeeper_head_confirm: "Nombrar un nuevo Guardián Jefe del Dragón" #NT!
+ tooltip_employ_dragonkeeper: "Actualmente no debe emplear a un Guardián de Dragones Jefe." #NT!
+ agot_appoint_dragonkeeper_head_effect_tooltip: "Se generará un nuevo Guardián de dragones principal en función de la financiación de los servicios del Pozo de dragones." #NT!
+ agot_restore_dragonstone_dragonkeepers: "Restaurar a los Guardianes del Dragón de Dragonmont" #NT!
+ agot_restore_dragonstone_dragonkeepers_desc: "Después de muchos años de inactividad, el [GetBuilding('agot_dragonmont_01').GetName] vuelve a requerir una orden de [dragonkeepers|e] para protegerlo." #NT!
+ agot_restore_dragonmont_dragonkeepers_effect_tooltip: "Se establecerá un nuevo [GetCourtPositionType('head_dragonkeeper_court_position').GetName()] y orden de guardianes de dragones en [GetTitleByKey('c_dragonstone').GetNameNoTier]." #NT!
+  
+  # Terror Campaign 
+ conduct_terror_campaign: "Realizar una campaña de terror" #NT!
+ conduct_terror_campaign_desc: "Como jinete de un gran dragón, me corresponde a mí decidir cómo se utilizará en la guerra. Aunque históricamente su uso se ha restringido a los ejércitos enemigos, nada me impide utilizarlo para aniquilar a la población civil de mis enemigos." #NT!
+ conduct_terror_campaign_effect: "Comenzarás una campaña de terror draconiana que dañará todas las provincias a tu alrededor cuando estés en guerra.\n\n#X @warning_icon! Esta destrucción desenfrenada provocará una ira extrema tanto en tus enemigos como en tus aliados más escrupulosos.#!" #NT!
+ conduct_terror_campaign_tooltip: "#X @warning_icon! Una destrucción tan desenfrenada provocará una ira extrema tanto en tus enemigos como en tus aliados más escrupulosos.#!" #NT!
+ conduct_terror_campaign_dragon_condition: "Tu dragón tiene al menos 100 [dragon_combat_effectiveness|E]" #NT!
+ conduct_terror_campaign_confirm: "¡Quemenlos a todos!" #NT!
+  
+ stop_terror_campaign: "Campaña para poner fin al terrorismo" #NT!
+ stop_terror_campaign_show_condition: "Estás llevando a cabo una campaña de terror." #NT!
+ stop_terror_campaign_desc: "Actualmente estoy llevando a cabo una campaña de terror dracónica. Cualquier ejército en el que yo o mi dragón estemos se utilizará como base de operaciones para que la devastación caiga sobre las tierras circundantes. Aunque sin duda son efectivas, estas tácticas contradicen todas las convenciones de las honorables reglas de la guerra." #NT!
+ stop_terror_campaign_tooltip: "Pondrás fin a tu campaña de terror." #NT!
+ stop_terror_campaign_confirm: "Cese la destrucción" #NT!
+  
+  # Ride your Dragon 
+ ride_dragon_decision: "Paseo [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip]" #NT!
+ ride_dragon_decision_desc: "Ha pasado mucho tiempo desde que [ROOT.Var('current_dragon').Char.GetFirstName] y yo simplemente viajamos juntos. Anhelo sentir el viento soplar sobre mí y la libertad del cielo abierto." #NT!
+ ride_dragon_decision_tooltip: "Monta tu dragón" #NT!
+ ride_dragon_decision_confirm: "Monta tu dragón" #NT!
+ ride_dragon_effect_tooltip: "Perderás algo de [stress|E] y podrás aumentar tu vínculo con tu dragón." #NT!
+  
+  # Use / Don't use Dragon 
+ use_dragon_decision: "Utilice [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] en la guerra" #NT!
+ use_dragon_decision_desc: "Tengo un dragón, un arma de destrucción masiva. No tengo que pisar el barro con mis soldados, simplemente puedo volar sobre el campo de batalla y hacer llover fuego sobre mis enemigos." #NT!
+ use_dragon_decision_tooltip: "Puedes optar por usar una vez más tu dragón cuando estés en guerra." #NT!
+ use_dragon_decision_confirm: "Usa tu dragón" #NT!
+ use_dragon_decision_effect: "Tu [dragon|E] podrá unirse a ejércitos y lucharás con él." #NT!
+ dont_use_dragon_decision: "No uses [ROOT.Var('current_dragon').Char.GetFirstNameNoTooltip] en la guerra" #NT!
+ dont_use_dragon_decision_desc: "Aunque es poderoso, no siempre es prudente utilizar todos los recursos a tu disposición. Ya sea por seguridad, orgullo o cualquier otra razón, puedo elegir no utilizar a mi dragón en la guerra." #NT!
+ dont_use_dragon_decision_tooltip: "Si bien es un recurso poderoso, puedes optar por no usar tu dragón en la batalla." #NT!
+ dont_use_dragon_decision_confirm: "No uses a tu dragón" #NT!
+ dont_use_dragon_decision_effect: "Tu [dragon|E] no se unirá a los ejércitos y lucharás sin él." #NT!
+  
+  # Show me the Dragons 
+ show_me_dragons_decision: "Mostrar los dragones" #NT!
+ show_me_dragons_decision_desc: "Tráeme la lista de todos los dragones conocidos." #NT!
+ show_me_dragons_decision_tooltip: "Se le presentará una lista de todos los dragones vivos." #NT!
+ show_me_dragons_decision_confirm: "¡Muéstrame!" #NT!
+ show_me_dragons_decision_effect_tooltip: "Se le traerá una lista de todos los dragones vivos." #NT!
+  
+  #Dragonrider House 
+ become_dragonrider_house_decision: "Conviértete en la Casa Jinete de Dragón" #NT!
+ become_dragonrider_house_decision_desc: "Hay pocas cosas en este mundo más prestigiosas que ser un jinete de dragones. A menudo, la amenaza de mi bestia es suficiente para poner de rodillas a mis enemigos. Un dragón me ha aceptado, la sangre ardiente corre por mis venas. Solo queda un último paso por dar, para asegurarme de que mis herederos se eleven y dominen, como lo he hecho yo." #NT!
+ become_dragonrider_house_decision_living_house_member_count_tt: "5 o más miembros vivos de tu [house|E] son jinetes de dragones" #NT!
+ become_dragonrider_house_decision_confirm: "¡A los cielos!" #NT!
+ become_dragonrider_house_decision_tooltip: "Afirma el vínculo de tu casa con los dragones" #NT!
+  
+  #Dragonseeds 
+ call_for_dragonseeds_decision: "Invitar a Dragonseeds" #NT!
+ call_for_dragonseeds_decision_desc: "La capacidad de reclamar un dragón se encuentra en la sangre, no en el nombre. Puede haber quienes llevan la sangre del dragón, pero no llevan el nombre de una gran casa en absoluto. Si llamo, algunos pueden contestar. Los riesgos serían grandes, pero la recompensa podría ser el fortalecimiento de mi casa, siempre y cuando todos juren lealtad." #NT!
+ call_for_dragonseeds_decision_unclaimed_dragons_tt: "Al menos hay un [owned_dragon|E] en tus fosos de dragones que puede ser domesticado" #NT!
+ call_for_dragonseeds_decision_local_wild_dragons_tt: "Al menos un [wild_dragon|E] tiene su guarida en tu [domain|E] que puede ser domesticado" #NT!
+ call_for_dragonseeds_decision_confirm: "Envía el heraldo" #NT!
+ call_for_dragonseeds_decision_tooltip: "Se invocan semillas de dragón para unirse a tu corte." #NT!
+  
+ # Drink Wildfire 
+ drink_wildfire_decision: "Beber Wildfire" #NT!
+ drink_wildfire_decision_desc: "Desde que el Gremio de Alquimistas elaboró ​​por primera vez la sustancia, se rumorea que posee el poder de convertir al hombre en dragón." #NT!
+ drink_wildfire_decision_confirm: "¡Traeme mi taza!" #NT!
+ drink_wildfire_decision_tooltip: "Conviértete en un dragón" #NT!
+ drink_wildfire_decision_effect: "Ningún hombre ha sobrevivido jamás a un intento así, pero quizá no poseían la sangre del dragón." #NT!

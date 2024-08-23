@@ -1,719 +1,719 @@
 ﻿l_spanish:
  #Travel Flavor Events 
  #Good omen? - Encounter a duck 
- travel_events.2000.t: "$travel_event_prefix$ ¿Qué diablos?" #NT!
- travel_events.2000.desc: "El día en la carretera ha sido bastante tranquilo y anodino hasta ahora. Estamos en algún lugar fuera de [ROOT.Char.GetCurrentLocation.GetName] y cierro los ojos mientras mi montura me hace avanzar, un paso sólido a la vez.\n\nMientras el viento toca una magnífica melodía a través de las copas de los árboles, la brisa lleva otro ruido, y no de nuestro séquito. ¿Eso es... graznido?\n\n" #NT!
- travel_events.2000.desc_meh_memory: "Busco las aves en mi entorno. La última vez que seguí a un pato en la naturaleza, las cosas se volvieron... incómodas." #NT!
- travel_events.2000.desc_delicious_memory: "La última vez que seguí a un pato en su hábitat natural, comí una comida #EMP deliciosa#. ¿Tal vez este sea mi día de suerte?" #NT!
- travel_events.2000.desc_good_memory: "Recuerdo con cariño la última vez que me encontré con un pato en la naturaleza. Me llevó a un nido de #EMP tantos#! patitos peludos." #NT!
- travel_events.2000.desc_bad_memory: "Dudo por un momento, recordando la última vez que seguí a un pato en la naturaleza. Eso no termino bien." #NT!
- travel_events.2000.desc_default: "Aíslo el sonido para que provenga de un arbusto a mi derecha." #NT!
- travel_events.2000.a: "Ese es un buen augurio." #NT!
- travel_events.2000.a_sadist: "Esto es una tontería." #NT!
- travel_events.2000.b: "¡Sigue a ese pato!" #NT!
- travel_events.2000.b_sadist: "Supongo que podría seguirlo..." #NT!
- travel_events.2000.b.tt: "Sigues al pato por un rato." #NT!
- travel_events.2000.c: "¡Ick, ave molesta! ¡Lejos!" #NT!
- travel_events.2000.c.tt: "Lanzas una piedra ante el sonido del graznido." #NT!
+ travel_events.2000.t: "$travel_event_prefix$ ¿Qué diablos?"
+ travel_events.2000.desc: "El día en la carretera ha sido bastante tranquilo y anodino hasta ahora. Estamos en algún lugar fuera de [ROOT.Char.GetCurrentLocation.GetName] y cierro los ojos mientras mi montura me hace avanzar, un paso sólido a la vez.\n\nMientras el viento toca una magnífica melodía a través de las copas de los árboles, la brisa lleva otro ruido, y no de nuestro séquito. ¿Eso es... graznido?\n\n"
+ travel_events.2000.desc_meh_memory: "Busco las aves en mi entorno. La última vez que seguí a un pato en la naturaleza, las cosas se volvieron... incómodas."
+ travel_events.2000.desc_delicious_memory: "La última vez que seguí a un pato en su hábitat natural, comí una comida #EMP deliciosa#. ¿Tal vez este sea mi día de suerte?"
+ travel_events.2000.desc_good_memory: "Recuerdo con cariño la última vez que me encontré con un pato en la naturaleza. Me llevó a un nido de #EMP tantos#! patitos peludos."
+ travel_events.2000.desc_bad_memory: "Dudo por un momento, recordando la última vez que seguí a un pato en la naturaleza. Eso no termino bien."
+ travel_events.2000.desc_default: "Aíslo el sonido para que provenga de un arbusto a mi derecha."
+ travel_events.2000.a: "Ese es un buen augurio."
+ travel_events.2000.a_sadist: "Esto es una tontería."
+ travel_events.2000.b: "¡Sigue a ese pato!"
+ travel_events.2000.b_sadist: "Supongo que podría seguirlo..."
+ travel_events.2000.b.tt: "Sigues al pato por un rato."
+ travel_events.2000.c: "¡Ick, ave molesta! ¡Lejos!"
+ travel_events.2000.c.tt: "Lanzas una piedra ante el sonido del graznido."
   
  #Duck follow-up 
- travel_events.2001.t_positive: "Esto es..." #NT!
- travel_events.2001.t_negative: "¡Eso no es un pato!" #NT!
- travel_events.2001.t: "$travel_event_prefix$ ¡Cuac!" #NT!
- travel_events.2001.intro: "Desmonto y ubico al pato entre los arbustos cercanos. Empieza a alejarse contoneándose hacia el desierto y yo lo sigo a pie." #NT!
- travel_events.2001.desc_positive: "\n\nA medida que sigo adelante, al suave graznido se le une lentamente un coro de pequeños chirridos (al principio débiles, pero cada vez más fuertes). Cuando doy la vuelta al siguiente arbusto, no veo un solo pato, sino una plétora de patos y nidos de patitos." #NT!
- travel_events.2001.desc_positive_sadist: "\n\nSiento que mi estómago ruge mientras contemplo los tiernos patos y patitos." #NT!
- travel_events.2001.desc_positive_default: "\n\nSiento que mis rodillas se debilitan mientras asimilo la suave esponjosidad de todo." #NT!
- travel_events.2001.desc_negative: "\n\nA medida que me alejo más y más de mi séquito, un escalofrío recorre mi espalda. ¿Hay algo mirándome?\n\n¡De repente, aparece un [ROOT.Char.Custom('RegionalFerociousAnimal')] en el borde del bosque! Resopla y me mira con ojos enojados." #NT!
- travel_events.2001.desc: "\n\nDe repente, el pato se detiene e inclina la cabeza en mi dirección, claramente confundido en cuanto a por qué ha conseguido un seguidor humano.\n\nLe sonrío al pato, tratando de aliviar la tensión, pero el pato de repente se retuerce y aletea. sus alas y se va volando." #NT!
- travel_events.2001.a: "Esto es... #EMP ¡demasiado!#!" #NT!
- travel_events.2001.a_tt: "#EMP Encantador#!" #NT!
- travel_events.2001.a_tt_death: "La adorabilidad es demasiado para tu pobre corazón." #NT!
- travel_events.2001.b: "Estos harían un asado perfecto..." #NT!
- travel_events.2001.b_success.tt: "Una buena comida" #NT!
- travel_events.2001.b_failure.tt: "Ahogado en ello" #NT!
- travel_events.2001.c: "¡Esto es #EMP malo!#!" #NT!
- travel_events.2001.c_success.tt: "Éxito" #NT!
- travel_events.2001.c_ran: "Has logrado escapar con éxito" #NT!
- travel_events.2001.c_failure.tt: "Herido" #NT!
- travel_events.2001.c_hit_and_ran: "Te golpean pero huyes" #NT!
- travel_events.2001.c_critical_failure: "La bestia te mutila" #NT!
- travel_events.2001.d: "¡En guardia!" #NT!
- travel_events.2001.d_scare_beast: "Asustas a la bestia" #NT!
- travel_events.2001.d_beast_hit: "La bestia toma represalias pero sale corriendo." #NT!
- travel_events.2001.e: "¡Qué persecución tan salvaje... #EMP pato#!?" #NT!
+ travel_events.2001.t_positive: "Esto es..."
+ travel_events.2001.t_negative: "¡Eso no es un pato!"
+ travel_events.2001.t: "$travel_event_prefix$ ¡Cuac!"
+ travel_events.2001.intro: "Desmonto y ubico al pato entre los arbustos cercanos. Empieza a alejarse contoneándose hacia el desierto y yo lo sigo a pie."
+ travel_events.2001.desc_positive: "\n\nA medida que sigo adelante, al suave graznido se le une lentamente un coro de pequeños chirridos (al principio débiles, pero cada vez más fuertes). Cuando doy la vuelta al siguiente arbusto, no veo un solo pato, sino una plétora de patos y nidos de patitos."
+ travel_events.2001.desc_positive_sadist: "\n\nSiento que mi estómago ruge mientras contemplo los tiernos patos y patitos."
+ travel_events.2001.desc_positive_default: "\n\nSiento que mis rodillas se debilitan mientras asimilo la suave esponjosidad de todo."
+ travel_events.2001.desc_negative: "\n\nA medida que me alejo más y más de mi séquito, un escalofrío recorre mi espalda. ¿Hay algo mirándome?\n\n¡De repente, aparece un [ROOT.Char.Custom('RegionalFerociousAnimal')] en el borde del bosque! Resopla y me mira con ojos enojados."
+ travel_events.2001.desc: "\n\nDe repente, el pato se detiene e inclina la cabeza en mi dirección, claramente confundido en cuanto a por qué ha conseguido un seguidor humano.\n\nLe sonrío al pato, tratando de aliviar la tensión, pero el pato de repente se retuerce y aletea. sus alas y se va volando."
+ travel_events.2001.a: "Esto es... #EMP ¡demasiado!#!"
+ travel_events.2001.a_tt: "#EMP Encantador#!"
+ travel_events.2001.a_tt_death: "La adorabilidad es demasiado para tu pobre corazón."
+ travel_events.2001.b: "Estos harían un asado perfecto..."
+ travel_events.2001.b_success.tt: "Una buena comida"
+ travel_events.2001.b_failure.tt: "Ahogado en ello"
+ travel_events.2001.c: "¡Esto es #EMP malo!#!"
+ travel_events.2001.c_success.tt: "Éxito"
+ travel_events.2001.c_ran: "Has logrado escapar con éxito"
+ travel_events.2001.c_failure.tt: "Herido"
+ travel_events.2001.c_hit_and_ran: "Te golpean pero huyes"
+ travel_events.2001.c_critical_failure: "La bestia te mutila"
+ travel_events.2001.d: "¡En guardia!"
+ travel_events.2001.d_scare_beast: "Asustas a la bestia"
+ travel_events.2001.d_beast_hit: "La bestia toma represalias pero sale corriendo."
+ travel_events.2001.e: "¡Qué persecución tan salvaje... #EMP pato#!?"
   
  #Crossing an ant path - Ignore or don't ignore your guide 
- travel_events.2002.t: "$travel_event_prefix$ El camino trillado" #NT!
- travel_events.2002.desc: "La procesión se ha detenido a un paso de [ROOT.Char.GetCurrentLocation.GetName]. Miro para ver a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guide_leader'))] [guide_leader.GetFirstName], desmontado y mirando fijamente algo en el suelo. Los otros miembros del séquito se han reunido alrededor de [guide_leader.GetHerHim].\n\n[guide_leader.GetFirstNameNoTooltip] levanta la vista cuando me acerco. "Mi [ROOT.Char.GetLadyLord], hay un camino de hormigas aquí. Puede que sea un poco supersticioso, pero nunca deberías cruzar un camino de hormigas."\n\n[guide_leader.GetSheHe|U] hace una pausa. "Mi bisnieto[great_grand_parent.Custom('MotherFather')] lo hizo y [great_grand_parent.GetSheHe] nunca regresó a casa"." #NT!
- travel_events.2002.a: "#EMP Bien#!. Encontraremos otro camino." #NT!
- travel_events.2002.b: "Esto no tiene sentido. ¡Yo haré de guía!" #NT!
- travel_events.2002.c: "Tengo la cura perfecta para tu superstición." #NT!
- travel_competent_guide_tt: "Eres un guía competente." #NT!
- travel.competent_guide: "$travel_competent_guide_tt$" #NT!
- travel_get_lost_tt: "Te perdiste" #NT!
+ travel_events.2002.t: "$travel_event_prefix$ El camino trillado"
+ travel_events.2002.desc: "La procesión se ha detenido a un paso de [ROOT.Char.GetCurrentLocation.GetName]. Miro para ver a mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('guide_leader'))] [guide_leader.GetFirstName], desmontado y mirando fijamente algo en el suelo. Los otros miembros del séquito se han reunido alrededor de [guide_leader.GetHerHim].\n\n[guide_leader.GetFirstNameNoTooltip] levanta la vista cuando me acerco. "Mi [ROOT.Char.GetLadyLord], hay un camino de hormigas aquí. Puede que sea un poco supersticioso, pero nunca deberías cruzar un camino de hormigas."\n\n[guide_leader.GetSheHe|U] hace una pausa. "Mi bisnieto[great_grand_parent.Custom('MotherFather')] lo hizo y [great_grand_parent.GetSheHe] nunca regresó a casa"."
+ travel_events.2002.a: "#EMP Bien#!. Encontraremos otro camino."
+ travel_events.2002.b: "Esto no tiene sentido. ¡Yo haré de guía!"
+ travel_events.2002.c: "Tengo la cura perfecta para tu superstición."
+ travel_competent_guide_tt: "Eres un guía competente."
+ travel.competent_guide: "$travel_competent_guide_tt$"
+ travel_get_lost_tt: "Te perdiste"
   
  #Visit the local military place (barrack/military camp/regiment grounds) - Try to improve your martial 
- travel_events.2003.t: "$travel_event_prefix$ Un estudio en marcial" #NT!
- travel_events.2003.intro: "[local_captain.GetFirstName], el capitán local y algunos oficiales de [local_captain.GetHerHis] me saludan cuando mi séquito ingresa a los campamentos militares de [ROOT.Char.GetCurrentLocation.GetName]." #NT!
- travel_events.2003.desc_barracks: "Desmonté rápidamente, ansioso por inspeccionar los cuarteles locales.\n\nEstán rebosantes de actividad; Hay soldados por todas partes, pero cada uno parece saber exactamente su propósito y tener una dirección clara en cuanto a hacia dónde se dirigen." #NT!
- travel_events.2003.desc_regiment: "Observo brevemente los terrenos del regimiento y luego desmonto.\n\n[local_captain.GetFirstNameNoTooltip] señala hacia un grupo de tres o cuatro soldados, comprometidos en un plan de batalla. "Esos son nuestros soldados de élite, los de allá, mi [ROOT.Char.GetLadyLord]"." #NT!
- travel_events.2003.desc_camp:1 "As [local_captain.GetSheHe] wanders off, I quickly dismount and follow [local_captain.GetHerHim].\n\nA couple of paces forward, [local_captain.GetFirstNameNoTooltip] stops and turns to the latest siege equipment which is neatly placed in rows before me: "Mientras [local_captain.GetSheHe] se aleja, rápidamente desmonto y sigo a [local_captain.GetHerHim].\n\nUn par de pasos adelante, [local_captain.GetFirstNameNoTooltip] se detiene y se gira hacia el último equipo de asedio que está cuidadosamente colocado en filas frente a mí: "Todo un espectáculo, ¿no? ¿él?"" #NT!
- travel_events.2003.outro: "\n\nAsiento, apreciando el caos organizado que estoy observando.\n"Ahora, ¿qué querría hacer mi [ROOT.Char.GetLadyLord] a continuación?" [local_captain.GetFirstNameNoTooltip] me mira expectante." #NT!
- travel_events.2003.a: "¡No me importaría un poco de entrenamiento!" #NT!
- travel_events.2003.a_sparring_tt: "Entrenas con éxito con las tropas." #NT!
- travel_events.2003.a_wounded_tt: "Accidentalmente resultas herido" #NT!
- travel_events.2003.b: "¿Qué es ese artilugio?" #NT!
- travel_events.2003.b_success_tt: "Marcial aprendido" #NT!
- travel_events.2003.b_learn_tt: "Aprendes algo al estudiar el equipo." #NT!
- travel_events.2003.b_failure_tt: "Descubierto" #NT!
- travel_events.2003.b_spy_tt: "[county_liege.GetShortUIName] cree que podrías estar espiando" #NT!
- travel_events.2003.b_cut_tt: "Te cortaste accidentalmente con el equipo." #NT!
- travel_events.2003.c: "Deberías unirte a mí." #NT!
- travel_events.2003.c_success_tt: "Reclutamiento secreto" #NT!
- travel_events.2003.c_secret_tt: "[county_liege.GetShortUIName] no se entera de tu caza furtiva" #NT!
- travel_events.2003.c_found_out_tt: "[county_liege.GetShortUIName] se entera de tu caza furtiva" #NT!
- travel_events.2003.d: "En realidad tengo un lugar donde estar..." #NT!
+ travel_events.2003.t: "$travel_event_prefix$ Un estudio en marcial"
+ travel_events.2003.intro: "[local_captain.GetFirstName], el capitán local y algunos oficiales de [local_captain.GetHerHis] me saludan cuando mi séquito ingresa a los campamentos militares de [ROOT.Char.GetCurrentLocation.GetName]."
+ travel_events.2003.desc_barracks: "Desmonté rápidamente, ansioso por inspeccionar los cuarteles locales.\n\nEstán rebosantes de actividad; Hay soldados por todas partes, pero cada uno parece saber exactamente su propósito y tener una dirección clara en cuanto a hacia dónde se dirigen."
+ travel_events.2003.desc_regiment: "Observo brevemente los terrenos del regimiento y luego desmonto.\n\n[local_captain.GetFirstNameNoTooltip] señala hacia un grupo de tres o cuatro soldados, comprometidos en un plan de batalla. "Esos son nuestros soldados de élite, los de allá, mi [ROOT.Char.GetLadyLord]"."
+ travel_events.2003.desc_camp:1 "As [local_captain.GetSheHe] wanders off, I quickly dismount and follow [local_captain.GetHerHim].\n\nA couple of paces forward, [local_captain.GetFirstNameNoTooltip] stops and turns to the latest siege equipment which is neatly placed in rows before me: "Mientras [local_captain.GetSheHe] se aleja, rápidamente desmonto y sigo a [local_captain.GetHerHim].\n\nUn par de pasos más adelante, [local_captain.GetFirstNameNoTooltip] se detiene y se gira hacia el último equipo de asedio que está cuidadosamente colocado en filas frente a mí: "Todo un espectáculo, ¿no?"" #NT!
+ travel_events.2003.outro: "\n\nAsiento, apreciando el caos organizado que estoy observando.\n"Ahora, ¿qué querría hacer mi [ROOT.Char.GetLadyLord] a continuación?" [local_captain.GetFirstNameNoTooltip] me mira expectante."
+ travel_events.2003.a: "¡No me importaría un poco de entrenamiento!"
+ travel_events.2003.a_sparring_tt: "Entrenas con éxito con las tropas."
+ travel_events.2003.a_wounded_tt: "Accidentalmente resultas herido"
+ travel_events.2003.b: "¿Qué es ese artilugio?"
+ travel_events.2003.b_success_tt: "Marcial aprendido"
+ travel_events.2003.b_learn_tt: "Aprendes algo al estudiar el equipo."
+ travel_events.2003.b_failure_tt: "Descubierto"
+ travel_events.2003.b_spy_tt: "[county_liege.GetShortUIName] cree que podrías estar espiando"
+ travel_events.2003.b_cut_tt: "Te cortaste accidentalmente con el equipo."
+ travel_events.2003.c: "Deberías unirte a mí."
+ travel_events.2003.c_success_tt: "Reclutamiento secreto"
+ travel_events.2003.c_secret_tt: "[county_liege.GetShortUIName] no se entera de tu caza furtiva"
+ travel_events.2003.c_found_out_tt: "[county_liege.GetShortUIName] se entera de tu caza furtiva"
+ travel_events.2003.d: "En realidad tengo un lugar donde estar..."
   
  #Visit (your own) crappy pasture - Try to address or ignore the issues 
- travel_events.2004.t: "$travel_event_prefix$ Imagen Pasto" #NT!
- travel_events.2004.desc: "El olor a descomposición golpea mis fosas nasales como un puñetazo acre. El ganado no se ve bien cuando miro alrededor de los pastos inmediatos a [ROOT.Char.GetCurrentLocation.GetName].\n\nLos campesinos que trabajan aquí arrastran los pies y deambulan sin rumbo tratando de parecer ocupados. Al parecer, su clara falta de motivación y moral se está contagiando a toda la población, ya que el desarrollo de la zona claramente se ha paralizado.\n\nMe estremezco de incredulidad cuando el líder local, [local_farmer.GetFirstName], se acerca a mí. ¡Qué agujero tan mal gestionado!" #NT!
- travel_events.2004.a: "Un cerdo ciego podría administrar mejor este lugar, [local_farmer.GetFirstNameNoTooltip]." #NT!
- travel_events.2004.a_success_tt: "Crítica absorbida" #NT!
- travel_events.2004.a_critique_success_tt: "[local_farmer.GetShortUIName] absorbe tu crítica" #NT!
- travel_events.2004.a_failure_tt: "Crítica rechazada" #NT!
- travel_events.2004.a_critique_reject_tt: "[local_farmer.GetShortUIName] rechaza tu crítica" #NT!
- travel_events.2004.b: "Necesito tus caballos ahora." #NT!
- travel_events.2004.c: "Tengo mejores cosas que hacer." #NT!
+ travel_events.2004.t: "$travel_event_prefix$ Imagen Pasto"
+ travel_events.2004.desc: "El olor a descomposición golpea mis fosas nasales como un puñetazo acre. El ganado no se ve bien cuando miro alrededor de los pastos inmediatos a [ROOT.Char.GetCurrentLocation.GetName].\n\nLos campesinos que trabajan aquí arrastran los pies y deambulan sin rumbo tratando de parecer ocupados. Al parecer, su clara falta de motivación y moral se está contagiando a toda la población, ya que el desarrollo de la zona claramente se ha paralizado.\n\nMe estremezco de incredulidad cuando el líder local, [local_farmer.GetFirstName], se acerca a mí. ¡Qué agujero tan mal gestionado!"
+ travel_events.2004.a: "Un cerdo ciego podría administrar mejor este lugar, [local_farmer.GetFirstNameNoTooltip]."
+ travel_events.2004.a_success_tt: "Crítica absorbida"
+ travel_events.2004.a_critique_success_tt: "[local_farmer.GetShortUIName] absorbe tu crítica"
+ travel_events.2004.a_failure_tt: "Crítica rechazada"
+ travel_events.2004.a_critique_reject_tt: "[local_farmer.GetShortUIName] rechaza tu crítica"
+ travel_events.2004.b: "Necesito tus caballos ahora."
+ travel_events.2004.c: "Tengo mejores cosas que hacer."
   
  #Visit another ruler's pasture - Give advice or sabotage the pasture 
- travel_events.2005.t: "$travel_event_prefix$ Pastos de otras personas" #NT!
- travel_events.2005.desc: "En un día tan bonito como este, hace buen tiempo, los pastos de [ROOT.Char.GetCurrentLocation.GetName] tienen un aspecto fantástico y el ganado local salta y aplaude a su manera gutural. Los terneros caminan junto a sus madres, su pelaje brillante y limpio.\n\nEn general, el lugar está muy bien administrado, aunque noto un par de rarezas que yo manejaría de manera un poco diferente.\n\nEl local [local_farmer.Custom('MatriarchPatriarch')] se acerca a mí. . "¡Que tengas una buena mañana, mi [ROOT.Char.GetLadyLord]! ¿No son estas bellezas un espectáculo digno de contemplar?"" #NT!
- travel_events.2005.a: "¡Podría aplicar algo de esto en casa!" #NT!
- travel_events.2005.a_success_tt: "Consejos exitosos" #NT!
- travel_events.2005.a_implemented_tt: "Su consejo se implementa con éxito" #NT!
- travel_events.2005.a_failure_tt: "Consejos mal interpretados" #NT!
- travel_events.2005.a_misinterpreted_tt: "Tu consejo está completamente mal interpretado." #NT!
- travel_events.2005.b: "A ver si podemos mejorar las cosas por aquí." #NT!
- #travel_events.2005.b_success_tt: "Sabotaje exitoso" #NT!
- #travel_events.2005.b_sabotage_tt: "Tu sabotaje es exitoso y secreto." #NT!
- #travel_events.2005.b_failure_tt: "Sabotaje evitado" #NT!
- #travel_events.2005.b_averted_tt: "Su #EMP sabotaje#! en realidad soluciona algunos problemas locales" #NT!
- travel_events.2005.c: "Estoy seguro de que [county_liege.GetTitledFirstNameNoTooltip] puede cuidar de [county_liege.GetHerHis] sus propios pastos." #NT!
+ travel_events.2005.t: "$travel_event_prefix$ Pastos de otras personas"
+ travel_events.2005.desc: "En un día tan bonito como este, hace buen tiempo, los pastos de [ROOT.Char.GetCurrentLocation.GetName] tienen un aspecto fantástico y el ganado local salta y aplaude a su manera gutural. Los terneros caminan junto a sus madres, su pelaje brillante y limpio.\n\nEn general, el lugar está muy bien administrado, aunque noto un par de rarezas que yo manejaría de manera un poco diferente.\n\nEl local [local_farmer.Custom('MatriarchPatriarch')] se acerca a mí. . "¡Que tengas una buena mañana, mi [ROOT.Char.GetLadyLord]! ¿No son estas bellezas un espectáculo digno de contemplar?""
+ travel_events.2005.a: "¡Podría aplicar algo de esto en casa!"
+ travel_events.2005.a_success_tt: "Consejos exitosos"
+ travel_events.2005.a_implemented_tt: "Su consejo se implementa con éxito"
+ travel_events.2005.a_failure_tt: "Consejos mal interpretados"
+ travel_events.2005.a_misinterpreted_tt: "Tu consejo está completamente mal interpretado."
+ travel_events.2005.b: "A ver si podemos mejorar las cosas por aquí."
+ #travel_events.2005.b_success_tt: "Sabotaje exitoso"
+ #travel_events.2005.b_sabotage_tt: "Tu sabotaje es exitoso y secreto."
+ #travel_events.2005.b_failure_tt: "Sabotaje evitado"
+ #travel_events.2005.b_averted_tt: "Su #EMP sabotaje#! en realidad soluciona algunos problemas locales"
+ travel_events.2005.c: "Estoy seguro de que [county_liege.GetTitledFirstNameNoTooltip] puede cuidar de [county_liege.GetHerHis] sus propios pastos."
  #Visit a camel farm - Get defiled by a camel 
- travel_events.2006.t: "$travel_event_prefix$ ¿Camello otra vez?" #NT!
- travel_events.2006.desc: "El sol está alto sobre la granja de camellos en [ROOT.Char.GetCurrentLocation.GetName], y busco sombra debajo de las pieles protectoras que cubren ciertas áreas de la granja. Un gruñido repentino me sobresalta y me doy vuelta.\n\nA mi lado, una de las magníficas bestias tuvo la misma idea y se acurruca en la sombra. Me inclino para acariciar su cabeza alargada, cuando el animal #EMP con un movimiento rápido me golpea en la frente y me escupe en la mejilla#!.\n\nWhen. Me oriento y veo a su dueño parado a sólo veinte pasos de distancia, mortificado." #NT!
- travel_events.2006.a: "¡Tú y tu bestia necesitan aprender algunos modales!" #NT!
- travel_events.2006.a_tt: "Azotas a la bestia y a su dueño." #NT!
- travel_events.2006.b: "La cabeza de esta bestia emitirá una advertencia de #EMP multa#!." #NT!
- travel_events.2006.b_tt: "Decapitas al camello" #NT!
- travel_events.2006_camel_head: "Cabeza de camello" #NT!
- travel_events.2006_camel_head_desc: "La cabeza de un camello desobediente." #NT!
- travel_events.2006.c: "Una bestia no es más que una criatura sin mente." #NT!
+ travel_events.2006.t: "$travel_event_prefix$ ¿Camello otra vez?"
+ travel_events.2006.desc: "El sol está alto sobre la granja de camellos en [ROOT.Char.GetCurrentLocation.GetName], y busco sombra debajo de las pieles protectoras que cubren ciertas áreas de la granja. Un gruñido repentino me sobresalta y me doy vuelta.\n\nA mi lado, una de las magníficas bestias tuvo la misma idea y se acurruca en la sombra. Me inclino para acariciar su cabeza alargada, cuando el animal #EMP con un movimiento rápido me golpea en la frente y me escupe en la mejilla#!.\n\nWhen. Me oriento y veo a su dueño parado a sólo veinte pasos de distancia, mortificado."
+ travel_events.2006.a: "¡Tú y tu bestia necesitan aprender algunos modales!"
+ travel_events.2006.a_tt: "Azotas a la bestia y a su dueño."
+ travel_events.2006.b: "La cabeza de esta bestia emitirá una advertencia de #EMP multa#!."
+ travel_events.2006.b_tt: "Decapitas al camello"
+ travel_events.2006_camel_head: "Cabeza de camello"
+ travel_events.2006_camel_head_desc: "La cabeza de un camello desobediente."
+ travel_events.2006.c: "Una bestia no es más que una criatura sin mente."
   
  #Visit an elephant pen - Train with the elephants 
- travel_events.2007.t: "$travel_event_prefix$ Elefantástico" #NT!
- travel_events.2007.desc_memory: "Miro con recelo a las enormes bestias en los corrales de elefantes [ROOT.Char.GetCurrentLocation.GetName], todavía un poco traumatizada por cuando mi" #NT!
- travel_events.2007.desc_memory_rival: "Rival" #NT!
- travel_events.2007.desc_memory_nemesis: "Justicia" #NT!
- travel_events.2007.desc_memory_segway: "[crushing_person.GetTitledFirstName] casi me deja uno encima" #NT!
- travel_events.2007.desc_memory_here: "En este lugar exacto." #NT!
- travel_events.2007.desc_memory_not_here: "En el [elephant_memory.Var('elephant_location').GetProvince.GetName] [elephant_memory.Var('elephant_location').GetTerrain.GetName]" #NT!
- travel_events.2007.desc_default: "Las majestuosas bestias en los corrales de elefantes [ROOT.Char.GetCurrentLocation.GetName] son realmente impresionantes. Los veo cargar troncos y realizar todo tipo de ejercicio físico." #NT!
- travel_events.2007.desc_outro: "\n\nMientras observo a los elefantes realizar sus tareas, escucho a un par de mahouts discutir las diferentes formas en que entrenan con las criaturas.\n\nSuena como un gran ejercicio y, ciertamente, despierta mi interés." #NT!
- travel_events.2007.a: "Esto no es rival para #EMP o #! [ROOT.Char.GetTitleAsNameNoTooltip|U]." #NT!
- travel_events.2007.a_success_tt: "Formación eficiente" #NT!
- travel_events.2007.a_efficient_training_tt: "El entrenamiento va fenomenal." #NT!
- travel_events.2007.a_soft_success_tt: "Bien entrenando" #NT!
- travel_events.2007.a_alright_training_tt: "El entrenamiento esta bien" #NT!
- travel_events.2007.a_failure_tt: "Entrenamiento terrible" #NT!
- travel_events.2007.a_failed_training_tt: "Tropiezas con tus propios pies" #NT!
- travel_events.2007.b: "No perderé el tiempo." #NT!
+ travel_events.2007.t: "$travel_event_prefix$ Elefantástico"
+ travel_events.2007.desc_memory: "Miro con recelo a las enormes bestias en los corrales de elefantes [ROOT.Char.GetCurrentLocation.GetName], todavía un poco traumatizada por cuando mi"
+ travel_events.2007.desc_memory_rival: "Rival"
+ travel_events.2007.desc_memory_nemesis: "Justicia"
+ travel_events.2007.desc_memory_segway: "[crushing_person.GetTitledFirstName] casi me deja uno encima"
+ travel_events.2007.desc_memory_here: "En este lugar exacto."
+ travel_events.2007.desc_memory_not_here: "En el [elephant_memory.Var('elephant_location').GetProvince.GetName] [elephant_memory.Var('elephant_location').GetTerrain.GetName]"
+ travel_events.2007.desc_default: "Las majestuosas bestias en los corrales de elefantes [ROOT.Char.GetCurrentLocation.GetName] son realmente impresionantes. Los veo cargar troncos y realizar todo tipo de ejercicio físico."
+ travel_events.2007.desc_outro: "\n\nMientras observo a los elefantes realizar sus tareas, escucho a un par de mahouts discutir las diferentes formas en que entrenan con las criaturas.\n\nSuena como un gran ejercicio y, ciertamente, despierta mi interés."
+ travel_events.2007.a: "Esto no es rival para #EMP o #! [ROOT.Char.GetTitleAsNameNoTooltip|U]."
+ travel_events.2007.a_success_tt: "Formación eficiente"
+ travel_events.2007.a_efficient_training_tt: "El entrenamiento va fenomenal."
+ travel_events.2007.a_soft_success_tt: "Bien entrenando"
+ travel_events.2007.a_alright_training_tt: "El entrenamiento esta bien"
+ travel_events.2007.a_failure_tt: "Entrenamiento terrible"
+ travel_events.2007.a_failed_training_tt: "Tropiezas con tus propios pies"
+ travel_events.2007.b: "No perderé el tiempo."
   
  #Visit an elephant pen, your rival is on site - Attempt to crush your rival? 
- travel_events.2008.t: "$travel_event_prefix$ Toma asiento" #NT!
- travel_events.2008.desc: "Gotas de sudor siguen cayendo por mi cara mientras el calor de la jungla me alcanza. Al detenerme para secarme la frente, veo mi [elephant_rival.Custom('InsultNoun')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('elephant_rival'))], [elephant_rival.GetTitledFirstName], junto a los corrales de elefantes locales de [ROOT.Char.GetCurrentLocation.GetName].\n\n[elephant_rival.GetSheHe|U] hace un gesto grosero en mi dirección y deja escapar una risa escandalosa, sin duda burlona. a mí. Aprieto la mandíbula.\n\nAhí es cuando noto que [elephant_rival.GetTitledFirstNameNoTooltip] está parado #EMP justo detrás del elefante#!, y la bestia está en movimiento. Logro llamar la atención de su mahout." #NT!
- travel_events.2008.a: "[ROOT.Char.Custom('RandomElephantName')], #EMP sentarse.#!" #NT!
- travel_events.2008.a_success_tt: "Elefante aplastado" #NT!
- travel_events.2008.a_crushed_tt: "[elephant_rival.GetShortUIName] es aplastado por el elefante" #NT!
- travel_events.2008.a_soft_success_tt: "Semi-Triturado" #NT!
- travel_events.2008.a_wounded_tt: "[elephant_rival.GetShortUIName] sufre lesiones" #NT!
- travel_events.2008.a_failure_tt: "[elephant_rival.GetTitledFirstNameNoTooltip] Escapó" #NT!
- travel_events.2008.a_scotfree_tt: "[elephant_rival.GetShortUIName] escapa del elefante" #NT!
- travel_events.2008.b: "[elephant_rival.GetTitledFirstNameNoTooltip], ¡cuidado!" #NT!
+ travel_events.2008.t: "$travel_event_prefix$ Toma asiento"
+ travel_events.2008.desc: "Gotas de sudor siguen cayendo por mi cara mientras el calor de la jungla me alcanza. Al detenerme para secarme la frente, veo mi [elephant_rival.Custom('InsultNoun')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('elephant_rival'))], [elephant_rival.GetTitledFirstName], junto a los corrales de elefantes locales de [ROOT.Char.GetCurrentLocation.GetName].\n\n[elephant_rival.GetSheHe|U] hace un gesto grosero en mi dirección y deja escapar una risa escandalosa, sin duda burlona. a mí. Aprieto la mandíbula.\n\nAhí es cuando noto que [elephant_rival.GetTitledFirstNameNoTooltip] está parado #EMP justo detrás del elefante#!, y la bestia está en movimiento. Logro llamar la atención de su mahout."
+ travel_events.2008.a: "[ROOT.Char.Custom('RandomElephantName')], #EMP sentarse.#!"
+ travel_events.2008.a_success_tt: "Elefante aplastado"
+ travel_events.2008.a_crushed_tt: "[elephant_rival.GetShortUIName] es aplastado por el elefante"
+ travel_events.2008.a_soft_success_tt: "Semi-Triturado"
+ travel_events.2008.a_wounded_tt: "[elephant_rival.GetShortUIName] sufre lesiones"
+ travel_events.2008.a_failure_tt: "[elephant_rival.GetTitledFirstNameNoTooltip] Escapó"
+ travel_events.2008.a_scotfree_tt: "[elephant_rival.GetShortUIName] escapa del elefante"
+ travel_events.2008.b: "[elephant_rival.GetTitledFirstNameNoTooltip], ¡cuidado!"
   
  #Visit an orchard - Kid falls out of tree 
- travel_events.2010.t: "$travel_event_prefix$ Una ramita rota" #NT!
- travel_events.2010.temperate_summer: "La cálida brisa acaricia mi cuello mientras deambulo por los huertos de [ROOT.Char.GetCurrentLocation.GetName]. Los árboles se extienden suavemente hacia el cielo, coloreados por una mezcla de nuevos brotes y frutos que van tomando forma." #NT!
- travel_events.2010.temperate_winter: "Hay un escalofrío en el aire y mi aliento se nubla en pequeñas bocanadas mientras atravieso los huertos de [ROOT.Char.GetCurrentLocation.GetName]. Los árboles parecen encogerse un poco por el frío, anhelando días más cálidos." #NT!
- travel_events.2010.tropical_summer: "El calor es agobiante cuando paso por los huertos de [ROOT.Char.GetCurrentLocation.GetName]. A mi alrededor, los árboles están en plena floración, celebrando la estación." #NT!
- travel_events.2010.tropical_winter: "Por fin es una época templada para pasear por los huertos de [ROOT.Char.GetCurrentLocation.GetName], y aprovecho la oportunidad para hacerlo. Latentes, pero aún verdes, los árboles esperan estaciones más cálidas." #NT!
- travel_events.2010.fallback: "Los árboles se extienden hacia el cielo mientras deambulo entre las hileras de troncos cuidadosamente colocados en el huerto local en [ROOT.Char.GetCurrentLocation.GetName]. Es un buen día para pasear." #NT!
- travel_events.2010.desc: "\n\nDe repente, un chillido agudo atraviesa el aire. Acelero mi paso sólo para encontrar" #NT!
- travel_events.2010.entourage: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fallen_child'))] [fallen_child.GetFirstName]" #NT!
- travel_events.2010.peasant: "Un niño campesino" #NT!
- travel_events.2010.outro: "Debajo de un árbol, en ruinas y sollozando violentamente.\n\nParecería como si [fallen_child.GetSheHe] intentara trepar al árbol, antes de resbalar y caer al suelo. Uno de los tubos de hueso sobresale en un ángulo extraño." #NT!
- travel_events.2010.a: "¡Estos árboles son un peligro para la salud!" #NT!
- travel_events.2010.a_flavor: "¡Quema este lugar hasta los cimientos!" #NT!
- travel_events.2010.a_tt: "[fallen_child.GetShortUINamePossessive] lesiones podrían empeorar" #NT!
- travel_events.2010.a_tt_2: "¡[ROOT.Char.GetTitledFirstName] quemó tus huertos en [location_county.GetNameNoTier]!" #NT!
- travel_events.2010.b: "¿Qué estabas pensando, [fallen_child.GetFirstNameNoTooltip]!" #NT!
- travel_events.2010.b_tt: "Rasgo ganado" #NT!
- travel_events.2010.c: "Ahí ahí." #NT!
- travel_events.2010.c_physician: "Déjame que te miren, niña." #NT!
- travel_events.2010.c_physician_tt: "[court_physician.GetShortUIName] trata [fallen_child.GetShortUIName]" #NT!
- travel_events.2010.d: "[fallen_child.Custom('GirlBoyPlural')|U] será [fallen_child.Custom('GirlBoyPlural')]." #NT!
+ travel_events.2010.t: "$travel_event_prefix$ Una ramita rota"
+ travel_events.2010.temperate_summer: "La cálida brisa acaricia mi cuello mientras deambulo por los huertos de [ROOT.Char.GetCurrentLocation.GetName]. Los árboles se extienden suavemente hacia el cielo, coloreados por una mezcla de nuevos brotes y frutos que van tomando forma."
+ travel_events.2010.temperate_winter: "Hay un escalofrío en el aire y mi aliento se nubla en pequeñas bocanadas mientras atravieso los huertos de [ROOT.Char.GetCurrentLocation.GetName]. Los árboles parecen encogerse un poco por el frío, anhelando días más cálidos."
+ travel_events.2010.tropical_summer: "El calor es agobiante cuando paso por los huertos de [ROOT.Char.GetCurrentLocation.GetName]. A mi alrededor, los árboles están en plena floración, celebrando la estación."
+ travel_events.2010.tropical_winter: "Por fin es una época templada para pasear por los huertos de [ROOT.Char.GetCurrentLocation.GetName], y aprovecho la oportunidad para hacerlo. Latentes, pero aún verdes, los árboles esperan estaciones más cálidas."
+ travel_events.2010.fallback: "Los árboles se extienden hacia el cielo mientras deambulo entre las hileras de troncos cuidadosamente colocados en el huerto local en [ROOT.Char.GetCurrentLocation.GetName]. Es un buen día para pasear."
+ travel_events.2010.desc: "\n\nDe repente, un chillido agudo atraviesa el aire. Acelero mi paso sólo para encontrar"
+ travel_events.2010.entourage: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('fallen_child'))] [fallen_child.GetFirstName]"
+ travel_events.2010.peasant: "Un niño campesino"
+ travel_events.2010.outro: "Debajo de un árbol, en ruinas y sollozando violentamente.\n\nParecería como si [fallen_child.GetSheHe] intentara trepar al árbol, antes de resbalar y caer al suelo. Uno de los tubos de hueso sobresale en un ángulo extraño."
+ travel_events.2010.a: "¡Estos árboles son un peligro para la salud!"
+ travel_events.2010.a_flavor: "¡Quema este lugar hasta los cimientos!"
+ travel_events.2010.a_tt: "[fallen_child.GetShortUINamePossessive] lesiones podrían empeorar"
+ travel_events.2010.a_tt_2: "¡[ROOT.Char.GetTitledFirstName] quemó tus huertos en [location_county.GetNameNoTier]!"
+ travel_events.2010.b: "¿Qué estabas pensando, [fallen_child.GetFirstNameNoTooltip]!"
+ travel_events.2010.b_tt: "Rasgo ganado"
+ travel_events.2010.c: "Ahí ahí."
+ travel_events.2010.c_physician: "Déjame que te miren, niña."
+ travel_events.2010.c_physician_tt: "[court_physician.GetShortUIName] trata [fallen_child.GetShortUIName]"
+ travel_events.2010.d: "[fallen_child.Custom('GirlBoyPlural')|U] será [fallen_child.Custom('GirlBoyPlural')]."
   
  #Orchard hidden follow-up event 
- travel_events.2011.tt_healed: "Heridas curadas" #NT!
- travel_events.2011.tt_healed_desc: "[fallen_child.GetShortUINamePossessive] heridas curadas" #NT!
- travel_events.2011.tt_worsened: "Las heridas empeoraron" #NT!
- travel_events.2011.tt_worsened_desc: "[fallen_child.GetShortUINamePossessive] heridas empeoraron" #NT!
+ travel_events.2011.tt_healed: "Heridas curadas"
+ travel_events.2011.tt_healed_desc: "[fallen_child.GetShortUINamePossessive] heridas curadas"
+ travel_events.2011.tt_worsened: "Las heridas empeoraron"
+ travel_events.2011.tt_worsened_desc: "[fallen_child.GetShortUINamePossessive] heridas empeoraron"
   
  #Visit a plantation - Fire! 
- travel_events.2012.t: "$travel_event_prefix$ ¡Fuego!" #NT!
- travel_events.2012.desc: "Atravesamos tierras repletas de agricultura. Nuestra siguiente parada es la plantación local en [ROOT.Char.GetCurrentLocation.GetName], pero cuando diviso las puertas a unos cien pasos de distancia, algo está mal...\n\nInspiro el olor acre de... ¿humo? ¿Fumar? ¡Fuego! De repente noto que la columna de humo va tomando forma sobre la plantación.\n\nLa columna es gruesa y pesada, demasiado grande para que uno de los trabajadores queme algunos escombros perdidos." #NT!
- travel_events.2012.a: "[guard_type_character.GetFirstNameNoTooltip], ¡rápido! ¡Consigue esos cubos!" #NT!
- travel_events.2012.a_unscathed: "Llamas radiestesias" #NT!
- travel_events.2012.a_unscathed_desc: "[guard_type_character.GetShortUIName] apaga el fuego" #NT!
- travel_events.2012.a_scarred: "Radiestesia pero marcada" #NT!
- travel_events.2012.a_scarred_desc: "[guard_type_character.GetShortUIName] apaga el fuego pero queda marcado" #NT!
- travel_events.2012.a_death: "Radiestesia pero murió" #NT!
- travel_events.2012.a_death_desc: "[guard_type_character.GetShortUIName] apaga el fuego pero muere en el proceso" #NT!
- travel_events.2012.b: "¡Evacuemos a la gente de las casas de trabajo!" #NT!
- travel_events.2012.b_unscathed: "Indemne" #NT!
- travel_events.2012.b_unscathed_desc: "Rescatáis a los trabajadores ilesos" #NT!
- travel_events.2012.b_scarred: "Cicatrizado" #NT!
- travel_events.2012.b_scarred_desc: "Rescatáis a los trabajadores pero quedáis marcados." #NT!
- travel_events.2012.b_tt: "La opinión que su entorno tiene sobre usted aumenta significativamente" #NT!
- travel_events.2012.c: "#EMP Bueno#!, entonces, ¿no es esta una oportunidad...?" #NT!
- travel_events.2012.c_secret: "Saqueo secreto" #NT!
- travel_events.2012.c_secret_desc: "Tu saqueo permaneció en secreto" #NT!
- travel_events.2012.c_revealed: "Saqueo al descubierto" #NT!
- travel_events.2012.c_revealed_desc: "Tu saqueo fue descubierto por [county_liege.GetShortUIName]" #NT!
- travel_events.2012.c_tt: "Los miembros de tu entorno pierden mucha opinión sobre ti." #NT!
- travel_events.2012.d: "Nunca estuvimos aquí." #NT!
- travel_events.2012.d_flavor: "El séquito se escabulle silenciosamente." #NT!
- travel_events.2012.d_tt: "Los miembros de tu entorno pierden la opinión que tienes de ti" #NT!
+ travel_events.2012.t: "$travel_event_prefix$ ¡Fuego!"
+ travel_events.2012.desc: "Atravesamos tierras repletas de agricultura. Nuestra siguiente parada es la plantación local en [ROOT.Char.GetCurrentLocation.GetName], pero cuando diviso las puertas a unos cien pasos de distancia, algo está mal...\n\nInspiro el olor acre de... ¿humo? ¿Fumar? ¡Fuego! De repente noto que la columna de humo va tomando forma sobre la plantación.\n\nLa columna es gruesa y pesada, demasiado grande para que uno de los trabajadores queme algunos escombros perdidos."
+ travel_events.2012.a: "[guard_type_character.GetFirstNameNoTooltip], ¡rápido! ¡Consigue esos cubos!"
+ travel_events.2012.a_unscathed: "Llamas radiestesias"
+ travel_events.2012.a_unscathed_desc: "[guard_type_character.GetShortUIName] apaga el fuego"
+ travel_events.2012.a_scarred: "Radiestesia pero marcada"
+ travel_events.2012.a_scarred_desc: "[guard_type_character.GetShortUIName] apaga el fuego pero queda marcado"
+ travel_events.2012.a_death: "Radiestesia pero murió"
+ travel_events.2012.a_death_desc: "[guard_type_character.GetShortUIName] apaga el fuego pero muere en el proceso"
+ travel_events.2012.b: "¡Evacuemos a la gente de las casas de trabajo!"
+ travel_events.2012.b_unscathed: "Indemne"
+ travel_events.2012.b_unscathed_desc: "Rescatáis a los trabajadores ilesos"
+ travel_events.2012.b_scarred: "Cicatrizado"
+ travel_events.2012.b_scarred_desc: "Rescatáis a los trabajadores pero quedáis marcados."
+ travel_events.2012.b_tt: "La opinión que su entorno tiene sobre usted aumenta significativamente"
+ travel_events.2012.c: "#EMP Bueno#!, entonces, ¿no es esta una oportunidad...?"
+ travel_events.2012.c_secret: "Saqueo secreto"
+ travel_events.2012.c_secret_desc: "Tu saqueo permaneció en secreto"
+ travel_events.2012.c_revealed: "Saqueo al descubierto"
+ travel_events.2012.c_revealed_desc: "Tu saqueo fue descubierto por [county_liege.GetShortUIName]"
+ travel_events.2012.c_tt: "Los miembros de tu entorno pierden mucha opinión sobre ti."
+ travel_events.2012.d: "Nunca estuvimos aquí."
+ travel_events.2012.d_flavor: "El séquito se escabulle silenciosamente."
+ travel_events.2012.d_tt: "Los miembros de tu entorno pierden la opinión que tienes de ti"
   
  #Visit a hillfort - Train to gain military skillz 
- travel_events.2013.t: "$travel_event_prefix$ Conocimiento fortalecido" #NT!
- travel_events.2013.intro: "La gran altitud y el aire fresco de [ROOT.Char.GetCurrentLocation.GetName] tienen una cualidad muy refrescante mientras atravesamos el castro local." #NT!
- travel_events.2013.martial: "\n\nObservo con atención a los soldados que entrenan debajo. Sus tácticas no me son completamente ajenas, ya que estoy entrenado en artes marciales." #NT!
- travel_events.2013.default: "\n\nLos soldados en el valle de abajo parecen estar practicando algún tipo raro de técnica de entrenamiento que no había visto antes. Me acerco, sin poder contener mi curiosidad." #NT!
- travel_events.2013.outro: "\n\nWhile doing so I am approached by the local captain, [local_captain.GetFirstNameNoTooltip]: "\n\nMientras lo hago, el capitán local, [local_captain.GetFirstNameNoTooltip], se me acerca: "¿Te gustaría unirte, mi [ROOT.Char.GetLadyLord]?"" #NT!
- travel_events.2013.rough_terrain: "Conviértete en un experto en terrenos difíciles." #NT!
- travel_events.2013.reckless: "Se vuelve imprudente" #NT!
- travel_events.2013.a: "¡Siempre estoy dispuesto a aceptar un desafío!" #NT!
- travel_events.2013.a_success.tt: "Rasgo adquirido" #NT!
- travel_events.2013.a_failure.tt: "Entrenamiento fallido" #NT!
- travel_events.2013.a_rough_terrain: "Te conviertes en un experto en terrenos accidentados" #NT!
- travel_events.2013.a_reckless: "Te vuelves imprudente" #NT!
- travel_events.2013.a_failed: "El entrenamiento falla" #NT!
- travel_events.2013.b: "[entourage_heir.GetFirstNameNoTooltip], únete al [local_captain.GetWomanMan]." #NT!
- travel_events.2013.b_rough_terrain: "[entourage_heir.GetShortUIName] $travel_events.2013.rough_terrain$" #NT!
- travel_events.2013.b_reckless: "[entourage_heir.GetShortUIName] $travel_events.2013.reckless$" #NT!
- travel_events.2013.c: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guard_type_character'))] seguramente se beneficiaría de este régimen de entrenamiento." #NT!
- travel_events.2013.c_rough_terrain: "[guard_type_character.GetShortUIName] $travel_events.2013.rough_terrain$" #NT!
- travel_events.2013.c_reckless: "[guard_type_character.GetShortUIName] $travel_events.2013.reckless$" #NT!
- travel_events.2013.d: "La verdad es que me quedo por las vistas." #NT!
- travel_events.2013.e: "Desgraciadamente tenemos prisa." #NT!
+ travel_events.2013.t: "$travel_event_prefix$ Conocimiento fortalecido"
+ travel_events.2013.intro: "La gran altitud y el aire fresco de [ROOT.Char.GetCurrentLocation.GetName] tienen una cualidad muy refrescante mientras atravesamos el castro local."
+ travel_events.2013.martial: "\n\nObservo con atención a los soldados que entrenan debajo. Sus tácticas no me son completamente ajenas, ya que estoy entrenado en artes marciales."
+ travel_events.2013.default: "\n\nLos soldados en el valle de abajo parecen estar practicando algún tipo raro de técnica de entrenamiento que no había visto antes. Me acerco, sin poder contener mi curiosidad."
+ travel_events.2013.outro:0 "\n\nWhile doing so I am approached by the local captain, [local_captain.GetFirstNameNoTooltip]: "\n\nMientras lo hago, se me acerca el capitán local, [local_captain.GetFirstNameNoTooltip]: "¿Te gustaría unirte, mi [ROOT.Char.GetLadyLord]?"" #NT!
+ travel_events.2013.rough_terrain: "Conviértete en un experto en terrenos difíciles."
+ travel_events.2013.reckless: "Se vuelve imprudente"
+ travel_events.2013.a: "¡Siempre estoy dispuesto a aceptar un desafío!"
+ travel_events.2013.a_success.tt: "Rasgo adquirido"
+ travel_events.2013.a_failure.tt: "Entrenamiento fallido"
+ travel_events.2013.a_rough_terrain: "Te conviertes en un experto en terrenos accidentados"
+ travel_events.2013.a_reckless: "Te vuelves imprudente"
+ travel_events.2013.a_failed: "El entrenamiento falla"
+ travel_events.2013.b: "[entourage_heir.GetFirstNameNoTooltip], únete al [local_captain.GetWomanMan]."
+ travel_events.2013.b_rough_terrain: "[entourage_heir.GetShortUIName] $travel_events.2013.rough_terrain$"
+ travel_events.2013.b_reckless: "[entourage_heir.GetShortUIName] $travel_events.2013.reckless$"
+ travel_events.2013.c: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guard_type_character'))] seguramente se beneficiaría de este régimen de entrenamiento."
+ travel_events.2013.c_rough_terrain: "[guard_type_character.GetShortUIName] $travel_events.2013.rough_terrain$"
+ travel_events.2013.c_reckless: "[guard_type_character.GetShortUIName] $travel_events.2013.reckless$"
+ travel_events.2013.d: "La verdad es que me quedo por las vistas."
+ travel_events.2013.e: "Desgraciadamente tenemos prisa."
   
  #Visit a logging camp - Burn off some stress chopping wood 
- travel_events.2014.t: "$travel_event_prefix$ Picar, picar" #NT!
- travel_events.2014.desc: "La enorme tabla de cortar en medio del campamento maderero de [ROOT.Char.GetCurrentLocation.GetName] ha tenido mucho uso. Parece que siempre ha estado ahí, incluso antes de que el hombre caminara sobre esta tierra.\n\nMis hombros están tensos y mi antebrazo tiembla ligeramente por la tensión acumulada mientras me acerco al magnífico tronco de madera.\n\nColoco con cuidado un trozo de madera desechada en el podio y, con un movimiento rápido, levanto mi hacha." #NT!
- travel_events.2014.a: "#EMP ¡Huraagh!#!" #NT!
- travel_events.2014.a_flavor: "¡Toma #EMP ese#!, estrés!" #NT!
- travel_events.2014.a_stress_tt: "Disminución del estrés" #NT!
- travel_events.2014.a_great_stress_desc: "Reduces mucho tu estrés" #NT!
- travel_events.2014.a_stress_desc: "Reduce tu estrés" #NT!
- travel_events.2014.a_injured_tt: "Lesión sostenida" #NT!
- travel_events.2014.a_injured_desc: "Accidentalmente te mutilas" #NT!
- travel_events.2014.b: "... no, el trabajo manual está por debajo de mí." #NT!
- travel_events.2014.b_flavor: "Bajas tu hacha." #NT!
+ travel_events.2014.t: "$travel_event_prefix$ Picar, picar"
+ travel_events.2014.desc: "La enorme tabla de cortar en medio del campamento maderero de [ROOT.Char.GetCurrentLocation.GetName] ha tenido mucho uso. Parece que siempre ha estado ahí, incluso antes de que el hombre caminara sobre esta tierra.\n\nMis hombros están tensos y mi antebrazo tiembla ligeramente por la tensión acumulada mientras me acerco al magnífico tronco de madera.\n\nColoco con cuidado un trozo de madera desechada en el podio y, con un movimiento rápido, levanto mi hacha."
+ travel_events.2014.a: "#EMP ¡Huraagh!#!"
+ travel_events.2014.a_flavor: "¡Toma #EMP ese#!, estrés!"
+ travel_events.2014.a_stress_tt: "Disminución del estrés"
+ travel_events.2014.a_great_stress_desc: "Reduces mucho tu estrés"
+ travel_events.2014.a_stress_desc: "Reduce tu estrés"
+ travel_events.2014.a_injured_tt: "Lesión sostenida"
+ travel_events.2014.a_injured_desc: "Accidentalmente te mutilas"
+ travel_events.2014.b: "... no, el trabajo manual está por debajo de mí."
+ travel_events.2014.b_flavor: "Bajas tu hacha."
   
  #Visit a peat quarry - Try not to fall asleep 
- travel_events.2015.t: "$travel_event_prefix$ Turba, Cuéntame más..." #NT!
- travel_events.2015.desc: "[quarry_guide.GetTitledFirstName|U] está nervioso con alegría infantil mientras [quarry_guide.GetSheHe] guía mi visita a la cantera de turba en [ROOT.Char.GetCurrentLocation.GetName]. Por alguna razón incomprensible, [quarry_guide.GetSheHe] parece pensar que este lugar es la joya de la corona cubierta de hierba de [quarry_guide.GetHerHis].\n\nMiro el campo devastado, todo marrón y verde grisáceo.\nMis párpados se vuelven pesados. Últimamente el sueño me ha estado esquivando. Lentamente se cierran...\n\nDe repente me despierto sobresaltado, [quarry_guide.GetFirstNamePossessiveNoTooltip] mano en mi manga.\n"... ¿Estaba #EMP aburrido#! contigo?"" #NT!
- travel_events.2015.a: "¡Simplemente estaba asimilando todo!" #NT!
- travel_events.2015.a_convinced_tt: "Convencido" #NT!
- travel_events.2015.a_convinced_desc: "Logras convencer a [quarry_guide.GetShortUIName]" #NT!
- travel_events.2015.a_insulted_tt: "Insultado" #NT!
- travel_events.2015.a_insulted_desc: "[quarry_guide.GetShortUIName] se siente insultado" #NT!
- travel_events.2015.b: "Mira este monedero..." #NT!
- travel_events.2015.b_flavor: "Tu sobornas [quarry_guide.GetShortUIName]" #NT!
+ travel_events.2015.t: "$travel_event_prefix$ Turba, Cuéntame más..."
+ travel_events.2015.desc: "[quarry_guide.GetTitledFirstName|U] está nervioso con alegría infantil mientras [quarry_guide.GetSheHe] guía mi visita a la cantera de turba en [ROOT.Char.GetCurrentLocation.GetName]. Por alguna razón incomprensible, [quarry_guide.GetSheHe] parece pensar que este lugar es la joya de la corona cubierta de hierba de [quarry_guide.GetHerHis].\n\nMiro el campo devastado, todo marrón y verde grisáceo.\nMis párpados se vuelven pesados. Últimamente el sueño me ha estado esquivando. Lentamente se cierran...\n\nDe repente me despierto sobresaltado, [quarry_guide.GetFirstNamePossessiveNoTooltip] mano en mi manga.\n"... ¿Estaba #EMP aburrido#! contigo?""
+ travel_events.2015.a: "¡Simplemente estaba asimilando todo!"
+ travel_events.2015.a_convinced_tt: "Convencido"
+ travel_events.2015.a_convinced_desc: "Logras convencer a [quarry_guide.GetShortUIName]"
+ travel_events.2015.a_insulted_tt: "Insultado"
+ travel_events.2015.a_insulted_desc: "[quarry_guide.GetShortUIName] se siente insultado"
+ travel_events.2015.b: "Mira este monedero..."
+ travel_events.2015.b_flavor: "Tu sobornas [quarry_guide.GetShortUIName]"
  #Visit a hill farm - Bull rush! 
- travel_events.2016.t: "¿Matón para ti?" #NT!
- travel_events.2016.desc: "Suaves mugidos y olor a estiércol no son todo lo que los pastizales de las laderas de [ROOT.Char.GetCurrentLocation.GetName] ofrecen al viajero. También hay peones que gritan, bramidos estentóreos y un toro que se ha escapado en el camino delante de nosotros.\n\nEl gigante carga de un lado a otro con gran angustia, hasta que se fija en una víctima: [entourage_member.GetFirstName], encima de [entourage_member.GetHerHis] corcel aterrorizado.\n\ Hay una puerta abierta para retener a la bestia. ¡Uno de nosotros solo necesita el coraje suficiente para atraerla!" #NT!
- travel_events.2016.a: "¡Por aquí, toro [bull_loc.Custom('InsultAdjective')]!" #NT!
- travel_events.2016.a_captured.tt: "Capturado" #NT!
- travel_events.2016.a_captured.desc: "Capturas al toro con éxito" #NT!
- travel_events.2016.a_wounded.tt: "$travel_events.2001.c_failure.tt$" #NT!
- travel_events.2016.a_wounded.desc: "El toro es capturado pero tú resultas herido." #NT!
- travel_events.2016.b: "[guard_type_character.GetFirstNameNoTooltip], #EMP ¡haz algo!#!" #NT!
- travel_events.2016.b_putdown.tt: "Suelte" #NT!
- travel_events.2016.b_putdown.desc: "[guard_type_character.GetShortUIName] saca al toro de su miseria" #NT!
- travel_events.2016.b_wounded.desc: "[guard_type_character.GetShortUIName] recibe un golpe" #NT!
- travel_events.2016.c: "Mejor no arriesgarse." #NT!
- travel_events.2016.c_escaped.tt: "Escapado" #NT!
- travel_events.2016.c_escaped.desc: "[entourage_member.GetShortUIName] escapa por poco de la embestida del toro" #NT!
- travel_events.2016.c_wounded.desc: "[entourage_member.GetShortUIName] se lesiona" #NT!
+ travel_events.2016.t: "¿Matón para ti?"
+ travel_events.2016.desc: "Suaves mugidos y olor a estiércol no son todo lo que los pastizales de las laderas de [ROOT.Char.GetCurrentLocation.GetName] ofrecen al viajero. También hay peones que gritan, bramidos estentóreos y un toro que se ha escapado en el camino delante de nosotros.\n\nEl gigante carga de un lado a otro con gran angustia, hasta que se fija en una víctima: [entourage_member.GetFirstName], encima de [entourage_member.GetHerHis] corcel aterrorizado.\n\ Hay una puerta abierta para retener a la bestia. ¡Uno de nosotros solo necesita el coraje suficiente para atraerla!"
+ travel_events.2016.a: "¡Por aquí, toro [bull_loc.Custom('InsultAdjective')]!"
+ travel_events.2016.a_captured.tt: "Capturado"
+ travel_events.2016.a_captured.desc: "Capturas al toro con éxito"
+ travel_events.2016.a_wounded.tt: "$travel_events.2001.c_failure.tt$"
+ travel_events.2016.a_wounded.desc: "El toro es capturado pero tú resultas herido."
+ travel_events.2016.b: "[guard_type_character.GetFirstNameNoTooltip], #EMP ¡haz algo!#!"
+ travel_events.2016.b_putdown.tt: "Suelte"
+ travel_events.2016.b_putdown.desc: "[guard_type_character.GetShortUIName] saca al toro de su miseria"
+ travel_events.2016.b_wounded.desc: "[guard_type_character.GetShortUIName] recibe un golpe"
+ travel_events.2016.c: "Mejor no arriesgarse."
+ travel_events.2016.c_escaped.tt: "Escapado"
+ travel_events.2016.c_escaped.desc: "[entourage_member.GetShortUIName] escapa por poco de la embestida del toro"
+ travel_events.2016.c_wounded.desc: "[entourage_member.GetShortUIName] se lesiona"
   
  #Visit a 'haunted' mansion (farm estate) - Enter at your own peril 
- travel_events.haunted_manor.t: "Mansión 'embrujada'" #NT!
- travel_events.2017.t: "$travel_event_prefix$ $travel_events.haunted_manor.t$" #NT!
- travel_events.2017.desc: "Mientras caminamos por los pasillos de la mansión en [ROOT.Char.GetCurrentLocation.GetName], [estate_character.GetTitledFirstName] se vuelve hacia mí. "Dicen que esta parte de la finca está encantada, mi [ROOT.Char.GetLadyLord]."\n\nMiro a mi alrededor vacilante. El salón está un poco más oscuro de lo que esperaba, las velas parpadean en sus postes.\n\nCuando nos detenemos en el antiguo comedor, [estate_character.GetFirstNameNoTooltip] se vuelve hacia mí de nuevo, esta vez con una sonrisa. "¿Le gustaría hacer un recorrido por la mansión #EMP embrujada#!?"" #NT!
- travel_events.2017.a: "¡Oh, qué intrigante!#!" #NT!
- travel_events.2017.a_tt: "Entras a la mansión" #NT!
- travel_events.2017.b: "Esto no está ocurriendo." #NT!
- travel_events.2017.b_tt: "Dejas la mansión" #NT!
+ travel_events.haunted_manor.t: "Mansión 'embrujada'"
+ travel_events.2017.t: "$travel_event_prefix$ $travel_events.haunted_manor.t$"
+ travel_events.2017.desc: "Mientras caminamos por los pasillos de la mansión en [ROOT.Char.GetCurrentLocation.GetName], [estate_character.GetTitledFirstName] se vuelve hacia mí. "Dicen que esta parte de la finca está encantada, mi [ROOT.Char.GetLadyLord]."\n\nMiro a mi alrededor vacilante. El salón está un poco más oscuro de lo que esperaba, las velas parpadean en sus postes.\n\nCuando nos detenemos en el antiguo comedor, [estate_character.GetFirstNameNoTooltip] se vuelve hacia mí de nuevo, esta vez con una sonrisa. "¿Le gustaría hacer un recorrido por la mansión #EMP embrujada#!?""
+ travel_events.2017.a: "¡Oh, qué intrigante!#!"
+ travel_events.2017.a_tt: "Entras a la mansión"
+ travel_events.2017.b: "Esto no está ocurriendo."
+ travel_events.2017.b_tt: "Dejas la mansión"
   
  #Go with the pack or explore on your own? 
- travel_events.2018.t: "$travel_events.haunted_manor.t$: un camino a seguir" #NT!
- travel_events.2018.desc: "Caminamos por un pasillo oscuro y desierto. Los pocos muebles que encontramos están cubiertos con sábanas, lo que contribuye a crear una atmósfera fantasmal.\n\n¿Eso fue... una... rata? Me apresuro a alcanzar a mi séquito.\n\n[estate_character.GetTitledFirstName|U] se da vuelta para mirarnos, entrecerrando los ojos mientras [estate_character.GetSheHe] pronuncia las palabras "... y por aquí, mis señores y señoras"." #NT!
- travel_events.2018.a: "Mejor seguir la ruta." #NT!
- travel_events.2018.a_tt: "Te quedas con tu séquito" #NT!
- travel_events.2018.b: "Ahora, ¿qué es este rincón de aquí...?" #NT!
- travel_events.2018.b_tt: "Quizás encuentres algo interesante" #NT!
- travel_events.2018.c: "¡Estoy fuera de aquí!" #NT!
+ travel_events.2018.t: "$travel_events.haunted_manor.t$: un camino a seguir"
+ travel_events.2018.desc: "Caminamos por un pasillo oscuro y desierto. Los pocos muebles que encontramos están cubiertos con sábanas, lo que contribuye a crear una atmósfera fantasmal.\n\n¿Eso fue... una... rata? Me apresuro a alcanzar a mi séquito.\n\n[estate_character.GetTitledFirstName|U] se da vuelta para mirarnos, entrecerrando los ojos mientras [estate_character.GetSheHe] pronuncia las palabras "... y por aquí, mis señores y señoras"."
+ travel_events.2018.a: "Mejor seguir la ruta."
+ travel_events.2018.a_tt: "Te quedas con tu séquito"
+ travel_events.2018.b: "Ahora, ¿qué es este rincón de aquí...?"
+ travel_events.2018.b_tt: "Quizás encuentres algo interesante"
+ travel_events.2018.c: "¡Estoy fuera de aquí!"
   
  #Oh look, someone is trying to murder you 
- travel_events.2019.t: "$travel_events.haunted_manor.t$: Traición en la mansión" #NT!
- travel_events.2019.desc: "Sigo por el camino de la izquierda y entro por un arco bajo. Frente a mí hay una trampilla, ligeramente entreabierta.\n\nLa oscuridad compacta se rompe con luces parpadeantes que vienen de abajo. Bajo con cuidado la escalera, solo para encontrar... #EMP ¡¿un individuo envuelto con una daga?!#!\n\nI escudriño desesperadamente mis alrededores mientras el asesino se acerca rápidamente a mí." #NT!
- travel_events.2019.a: "¡Mirar! ¡Detrás de ti!" #NT!
- travel_events.2019.a_tt: "Intenta empujar el armario sobre el asesino." #NT!
- travel_events.2019.a_retaliate.tt: "Represalias" #NT!
- travel_events.2019.a_retaliate.desc: "El armario aplasta el cráneo del asesino." #NT!
- travel_events.2019.a_retaliate.effect_tt: "El asesino muere" #NT!
- travel_events.2019.a_death.desc: "Tu mueres" #NT!
- travel_events.2019.b: "¡Puedo llenar tus bolsillos con monedas!" #NT!
- travel_events.2019.b_tt: "Intento de soborno al asesino" #NT!
- travel_events.2019.b_paid_off.tt: "Pagado" #NT!
- travel_events.2019.b_paid_off.desc: "El asesino recibe dinero y escapa." #NT!
- travel_events.2019.a_paid_off.effect_tt: "El asesino escapa" #NT!
- travel_events.2019.c: "¡En guardia, maldito!" #NT!
- travel_events.2019.c_tt: "Enfrentar al asesino" #NT!
- travel_events.2019.c_retaliate.desc: "Matas al asesino" #NT!
- travel_events.2019.expose_effect_tt: "Agente expuesto" #NT!
+ travel_events.2019.t: "$travel_events.haunted_manor.t$: Traición en la mansión"
+ travel_events.2019.desc: "Sigo por el camino de la izquierda y entro por un arco bajo. Frente a mí hay una trampilla, ligeramente entreabierta.\n\nLa oscuridad compacta se rompe con luces parpadeantes que vienen de abajo. Bajo con cuidado la escalera, solo para encontrar... #EMP ¡¿un individuo envuelto con una daga?!#!\n\nI escudriño desesperadamente mis alrededores mientras el asesino se acerca rápidamente a mí."
+ travel_events.2019.a: "¡Mirar! ¡Detrás de ti!"
+ travel_events.2019.a_tt: "Intenta empujar el armario sobre el asesino."
+ travel_events.2019.a_retaliate.tt: "Represalias"
+ travel_events.2019.a_retaliate.desc: "El armario aplasta el cráneo del asesino."
+ travel_events.2019.a_retaliate.effect_tt: "El asesino muere"
+ travel_events.2019.a_death.desc: "Tu mueres"
+ travel_events.2019.b: "¡Puedo llenar tus bolsillos con monedas!"
+ travel_events.2019.b_tt: "Intento de soborno al asesino"
+ travel_events.2019.b_paid_off.tt: "Pagado"
+ travel_events.2019.b_paid_off.desc: "El asesino recibe dinero y escapa."
+ travel_events.2019.a_paid_off.effect_tt: "El asesino escapa"
+ travel_events.2019.c: "¡En guardia, maldito!"
+ travel_events.2019.c_tt: "Enfrentar al asesino"
+ travel_events.2019.c_retaliate.desc: "Matas al asesino"
+ travel_events.2019.expose_effect_tt: "Agente expuesto"
   
  #You found a very weird mendicant character 
- travel_events.2020.t: "$travel_events.haunted_manor.t$: ¿Qué bruja?" #NT!
- travel_events.2020.desc_witch: "De repente siento la necesidad de explorar el estrecho pasaje a mi derecha. Mientras deambulo por el pasillo, me saluda el cálido resplandor de una puerta abierta.\n\nLa habitación está repleta de todo tipo de utensilios. Reconozco una cierta gama de hierbas, alambiques, crisoles, matraces, ollas, teteras... Es una gloriosa representación de la alquimia.\n\n[mendicant_character.GetFirstNamePossessive] sonrisa me saluda. "Hola amigo [ROOT.Char.Custom('SisterBrother')]. Ha pasado mucho tiempo desde que alguien oscureció mi puerta. ¿Quieres tomar una copa?" [mendicant_character.GetSheHe|U] hace movimientos hacia la tetera. [mendicant_character.GetSheHe] está amamantando actualmente." #NT!
- travel_events.2020.desc: "Me separo del grupo y paso por un pasillo aún más oscuro hasta que me topo con una puerta. Veo luz brillando por los bordes.\n\nAbro la puerta con cuidado y me recibe un silbido bajo. En medio de la habitación abarrotada, llena de libros, botellas y todo tipo de herramientas de química, se encuentra un [mendicant_character.GetWomanMan].\n\nUn olor desagradable proviene del caldero que [mendicant_character.GetSheHe] está cuidando. Sin girar la cabeza, [mendicant_character.GetSheHe] dice: "¿Quieres un poco? Suele hacer maravillas"." #NT!
- travel_events.2020.a: "No me importaría un poco de ese té." #NT!
- travel_events.2020.b: "Podría resultar útil en mi corte, ¿sabe?" #NT!
- travel_events.2020.c: "Una muestra de ti ahora; té más tarde." #NT!
- travel_events.2020.d: "Um... ¿hacia dónde vamos a la gira?" #NT!
+ travel_events.2020.t: "$travel_events.haunted_manor.t$: ¿Qué bruja?"
+ travel_events.2020.desc_witch: "De repente siento la necesidad de explorar el estrecho pasaje a mi derecha. Mientras deambulo por el pasillo, me saluda el cálido resplandor de una puerta abierta.\n\nLa habitación está repleta de todo tipo de utensilios. Reconozco una cierta gama de hierbas, alambiques, crisoles, matraces, ollas, teteras... Es una gloriosa representación de la alquimia.\n\n[mendicant_character.GetFirstNamePossessive] sonrisa me saluda. "Hola amigo [ROOT.Char.Custom('SisterBrother')]. Ha pasado mucho tiempo desde que alguien oscureció mi puerta. ¿Quieres tomar una copa?" [mendicant_character.GetSheHe|U] hace movimientos hacia la tetera. [mendicant_character.GetSheHe] está amamantando actualmente."
+ travel_events.2020.desc: "Me separo del grupo y paso por un pasillo aún más oscuro hasta que me topo con una puerta. Veo luz brillando por los bordes.\n\nAbro la puerta con cuidado y me recibe un silbido bajo. En medio de la habitación abarrotada, llena de libros, botellas y todo tipo de herramientas de química, se encuentra un [mendicant_character.GetWomanMan].\n\nUn olor desagradable proviene del caldero que [mendicant_character.GetSheHe] está cuidando. Sin girar la cabeza, [mendicant_character.GetHerHis] dice: "¿Quieres un poco? Suele hacer maravillas"." #NT!
+ travel_events.2020.a: "No me importaría un poco de ese té."
+ travel_events.2020.b: "Podría resultar útil en mi corte, ¿sabe?"
+ travel_events.2020.c: "Una muestra de ti ahora; té más tarde."
+ travel_events.2020.d: "Um... ¿hacia dónde vamos a la gira?"
   
  #You found a shiny bauble 
- travel_events.2021.t: "$travel_events.haunted_manor.t$: Algo prestado" #NT!
- travel_events.2021.desc_intro: "Entro por una puerta estrecha y me saluda una especie de brillo oscuro que sale de las ventanas cubiertas. La habitación parece haber sido un antiguo estudio." #NT!
- travel_events.2021.desc_illustrious: "\n\nInmediatamente mi atención se dirige hacia el prístino [new_trinket.GetName], cuidadosamente colocado sobre un pedestal en el medio de la habitación. Me acerco a ella con cautela.\n\nRealmente es una obra de arte, cada detalle es más espectacular que el anterior. Admiro su belleza por un momento." #NT!
- travel_events.2021.desc_famed: "\n\nMiro alrededor de la habitación y no puedo evitar notar un [new_trinket.GetName] magistralmente elaborado. Está colocado encima de lo que parece ser un pedestal, exigiendo mi atención.\n\nEsta pieza realmente no debería estar expuesta de esta manera, un verdadero objetivo tanto para saqueadores como para ladrones. Me acerco a él con cuidado." #NT!
- travel_events.2021.desc_masterwork: "\n\nSentado justo en el medio de la habitación sobre un pedestal está el [new_trinket.GetName]. Me acerco a él con cautela.\n\n¿Quién podría haber sido el dueño de esto? Se encuentra en un estado de conservación notablemente bueno, teniendo en cuenta el lugar donde está almacenado." #NT!
- travel_events.2021.desc_common: "\n\nCuando mis ojos se han acostumbrado al nuevo entorno, noto un objeto interesante sobre una mesa junto a la ventana.\n\nPuede que el [new_trinket.GetName] no parezca gran cosa en este mundo, pero reconozco la artesanía que se ha entrado en ello. Es un trabajo sólido." #NT!
- travel_events.2021.desc_bad: "\n\nExamino detenidamente la habitación, agradecida por la luz adicional que proporciona la ventana. Cuando estoy a punto de irme, noto algo sobre un montón de escombros en la esquina.\n\n ¿Es eso... #EMP una cosa?#! ¿Con un propósito? Dudo por un momento." #NT!
- travel_events.2021.a: "Esta es una excelente adición a mi colección." #NT!
- travel_events.2021.a_bad: "... ¿tengo que?" #NT!
- travel_events.2021.b: "Mejor no." #NT!
- travel_events.2021.b_tt: "Ignoras el [new_trinket.GetName]" #NT!
+ travel_events.2021.t: "$travel_events.haunted_manor.t$: Algo prestado"
+ travel_events.2021.desc_intro: "Entro por una puerta estrecha y me saluda una especie de brillo oscuro que sale de las ventanas cubiertas. La habitación parece haber sido un antiguo estudio."
+ travel_events.2021.desc_illustrious: "\n\nInmediatamente mi atención se dirige hacia el prístino [new_trinket.GetName], cuidadosamente colocado sobre un pedestal en el medio de la habitación. Me acerco a ella con cautela.\n\nRealmente es una obra de arte, cada detalle es más espectacular que el anterior. Admiro su belleza por un momento."
+ travel_events.2021.desc_famed: "\n\nMiro alrededor de la habitación y no puedo evitar notar un [new_trinket.GetName] magistralmente elaborado. Está colocado encima de lo que parece ser un pedestal, exigiendo mi atención.\n\nEsta pieza realmente no debería estar expuesta de esta manera, un verdadero objetivo tanto para saqueadores como para ladrones. Me acerco a él con cuidado."
+ travel_events.2021.desc_masterwork: "\n\nSentado justo en el medio de la habitación sobre un pedestal está el [new_trinket.GetName]. Me acerco a él con cautela.\n\n¿Quién podría haber sido el dueño de esto? Se encuentra en un estado de conservación notablemente bueno, teniendo en cuenta el lugar donde está almacenado."
+ travel_events.2021.desc_common: "\n\nCuando mis ojos se han acostumbrado al nuevo entorno, noto un objeto interesante sobre una mesa junto a la ventana.\n\nPuede que el [new_trinket.GetName] no parezca gran cosa en este mundo, pero reconozco la artesanía que se ha entrado en ello. Es un trabajo sólido."
+ travel_events.2021.desc_bad: "\n\nExamino detenidamente la habitación, agradecida por la luz adicional que proporciona la ventana. Cuando estoy a punto de irme, noto algo sobre un montón de escombros en la esquina.\n\n ¿Es eso... #EMP una cosa?#! ¿Con un propósito? Dudo por un momento."
+ travel_events.2021.a: "Esta es una excelente adición a mi colección."
+ travel_events.2021.a_bad: "... ¿tengo que?"
+ travel_events.2021.b: "Mejor no."
+ travel_events.2021.b_tt: "Ignoras el [new_trinket.GetName]"
   
  #Resolution: You were joshed / You found a bauble / You survived the murder attempt / You came back from the mendicant 
- travel_events.2022.t: "$travel_events.haunted_manor.t$: sano y salvo" #NT!
- travel_events.2022.desc_pack: "Mientras caminamos a través de un arco hacia la siguiente habitación, una gran forma de repente viene hacia nosotros. Todo el grupo salta y grita.\n\nCuando miro hacia arriba, la figura oscura parece ser un esqueleto, envuelto en una sábana oscura. Frunzo el ceño mientras [estate_character.GetTitledFirstName|U] se ríe y nos sonríe.\n\n "¡Deberían haber visto la expresión en sus caras, milord y señoras!" Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_member_one'))], [entourage_member_one.GetTitledFirstName], está visiblemente agitado y se acerca a [estate_character.GetTitledFirstNameNoTooltip] con la mano levantada." #NT!
- travel_events.2022.desc_murder: "Aturdido por haber escapado de un asesino, me pongo de pie tambaleante. #EMP ¿Qué acaba de pasar?#!\n\nTrembling, Vuelvo a subir la escalera y regreso por el pasillo hacia el comedor. Mi estrés pronto es reemplazado por rabia. #EMP ¿Estaba [estate_character.GetTitledFirstName] involucrado en esto?#!\n\nAs Finalmente llego al grupo reunido, apenas noto el esqueleto envuelto que cuelga del arco.\n\nMis ojos se llenan de rabia hirviente, miro a [estate_character.GetFirstNameNoTooltip], quien me mira con una confusión." #NT!
- travel_events.2022.desc_mendicant: "Después de dejar las habitaciones del mendigo, sigo fácilmente el ruido de regreso a la sala principal.\n\nEl grupo parece agitado pero aliviado, y veo una forma oscura colgando del arco sobre ellos. [estate_character.GetTitledFirstName|U] rápidamente se da vuelta y salta levemente al verme.\n\n "¡Mi [ROOT.Char.GetLadyLord]! ¿Estabas fuera solo? Eso no es seguro, ¿sabes?" [estate_character.GetSheHe|U] entrecierra [estate_character.GetHerHis] ojos." #NT!
- travel_events.2022.desc_mendicant_recruit: "Mi nuevo compañero y yo, [mendicant_character.GetTitledFirstName], dejamos las habitaciones de [mendicant_character.GetHerHis] y regresamos al grupo en la sala principal.\n\n[mendicant_character.GetFirstNameNoTooltip] resopla cuando [mendicant_character.GetSheHe] nota una figura oscura que cuelga del arco por el que debe haber pasado el grupo. , haciendo que nuestro guía, [estate_character.GetTitledFirstName], gire.\n\n[estate_character.GetHerHis|U] ojos se abren cuando [estate_character.GetSheHe] nota [mendicant_character.GetFirstNameNoTooltip]. "¿Quién es este #EMP? #! ¡Mi [mendicant_character.GetHerHis]0, no puedes huir así! ¡No es seguro!"" #NT!
- travel_events.2022.desc_bauble: "Con mi nueva posesión en mi bolsillo, deambulo por los pasillos estrechos y oscuros. Finalmente encuentro al resto del grupo en el comedor al final de la mansión.\n\nUna gran figura oscura cuelga de uno de los arcos de la habitación, y no puedo evitar preguntarme para qué serviría. . Además, los demás parecen un poco agitados... ?\n\n[estate_character.GetTitledFirstName|U] se sobresalta y se gira en mi dirección. "¡Mi [ROOT.Char.GetLadyLord]! ¿Qué hiciste? ¡Estos pasillos oscuros no son seguros para uno solo!"" #NT!
- travel_events.2022.desc_joshed: "Busco a tientas en la oscuridad, haciendo lo mejor que puedo para ignorar la ligera sensación de pánico que la oscuridad invoca en mí. Me apresuro por la siguiente puerta, tratando de encontrar al grupo...\n\n...y #EMP de repente#! una gran forma oscura viene silbando encima de mí. Dejo escapar un grito de sorpresa.\n\nCuando recobro el sentido, encuentro al grupo parado en la habitación a la que acabo de entrar. [estate_character.GetTitledFirstName] tiene problemas para respirar entre la risa y me señala. "M... myh [ROOT.Char.GetLadyLord] #EMP *resoplido*#! hiciste... túh... ¿te lo pasaste bien?"" #NT!
- travel_events.2022.a: "¡Acabo de sobrevivir a un intento de asesinato, orquestado por #EMP tú!#!" #NT!
- travel_events.2022.a_slain.tt: "Culpable asesinado" #NT!
- travel_events.2022.a_slain.desc: "Tu matas [estate_character.GetShortUIName]" #NT!
- travel_events.2022.a_escape.tt: "El culpable escapó" #NT!
- travel_events.2022.a_escape.desc: "[estate_character.GetShortUIName] te hiere y escapa" #NT!
- travel_events.2022.b: "¡Guardia! ¡Esta persona está involucrada en un complot para matarme!" #NT!
- travel_events.2022.b_slain.desc: "[estate_character.GetShortUIName] es asesinado por [travel_leader.GetShortUIName]" #NT!
- travel_events.2022.b_escape.desc: "[estate_character.GetShortUIName] heridas [travel_leader.GetShortUIName] y escapa" #NT!
- travel_events.2022.c: "Quizás quieras buscar brujas en la casa." #NT!
- travel_events.2022.d: "De hecho, encontré esta bruja, [mendicant_character.GetFirstNameNoTooltip]." #NT!
- travel_events.2022.e: "Me parece una casa perfectamente normal y corriente." #NT!
- travel_events.2022.f_pack: "No debería intervenir." #NT!
- travel_events.2022.f: "¡Brujo!" #NT!
- travel_events.2022.g_pack: "[entourage_member_one.GetFirstNameNoTooltip], no lo hagas." #NT!
- travel_events.2022.g: "Oh. Jaja, ¡si efectivamente!" #NT!
+ travel_events.2022.t: "$travel_events.haunted_manor.t$: sano y salvo"
+ travel_events.2022.desc_pack: "Mientras caminamos a través de un arco hacia la siguiente habitación, una gran forma de repente viene hacia nosotros. Todo el grupo salta y grita.\n\nCuando miro hacia arriba, la figura oscura parece ser un esqueleto, envuelto en una sábana oscura. Frunzo el ceño mientras [estate_character.GetTitledFirstName|U] se ríe y nos sonríe.\n\n "¡Deberían haber visto la expresión en sus caras, milord y señoras!" Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_member_one'))], [entourage_member_one.GetTitledFirstName], está visiblemente agitado y se acerca a [estate_character.GetTitledFirstNameNoTooltip] con la mano levantada."
+ travel_events.2022.desc_murder: "Aturdido por haber escapado de un asesino, me pongo de pie tambaleante. #EMP ¿Qué acaba de pasar?#!\n\nTrembling, Vuelvo a subir la escalera y regreso por el pasillo hacia el comedor. Mi estrés pronto es reemplazado por rabia. #EMP ¿Estaba [estate_character.GetTitledFirstName] involucrado en esto?#!\n\nAs Finalmente llego al grupo reunido, apenas noto el esqueleto envuelto que cuelga del arco.\n\nMis ojos se llenan de rabia hirviente, miro a [estate_character.GetFirstNameNoTooltip], quien me mira con una confusión."
+ travel_events.2022.desc_mendicant: "Después de dejar las habitaciones del mendigo, sigo fácilmente el ruido de regreso a la sala principal.\n\nEl grupo parece agitado pero aliviado, y veo una forma oscura colgando del arco sobre ellos. [estate_character.GetTitledFirstName|U] rápidamente se da vuelta y salta levemente al verme.\n\n "¡Mi [ROOT.Char.GetLadyLord]! ¿Estabas fuera solo? Eso no es seguro, ¿sabes?" [estate_character.GetSheHe|U] entrecierra [estate_character.GetHerHis] ojos."
+ travel_events.2022.desc_mendicant_recruit: "Mi nuevo compañero y yo, [mendicant_character.GetTitledFirstName], dejamos las habitaciones de [mendicant_character.GetHerHis] y regresamos al grupo en la sala principal.\n\n[mendicant_character.GetFirstNameNoTooltip] resopla cuando [mendicant_character.GetSheHe] nota una figura oscura que cuelga del arco por el que debe haber pasado el grupo. , haciendo que nuestro guía, [estate_character.GetTitledFirstName], gire.\n\n[estate_character.GetHerHis|U] ojos se abren cuando [estate_character.GetSheHe] nota [mendicant_character.GetFirstNameNoTooltip]. "¿Quién es este #EMP? #! ¡Mi [mendicant_character.GetHerHis]0, no puedes huir así! ¡No es seguro!""
+ travel_events.2022.desc_bauble: "Con mi nueva posesión en mi bolsillo, deambulo por los pasillos estrechos y oscuros. Finalmente encuentro al resto del grupo en el comedor al final de la mansión.\n\nUna gran figura oscura cuelga de uno de los arcos de la habitación, y no puedo evitar preguntarme para qué serviría. . Además, los demás parecen un poco agitados... ?\n\n[estate_character.GetTitledFirstName|U] se sobresalta y se gira en mi dirección. "¡Mi [ROOT.Char.GetLadyLord]! ¿Qué hiciste? ¡Estos pasillos oscuros no son seguros para uno solo!""
+ travel_events.2022.desc_joshed: "Busco a tientas en la oscuridad, haciendo lo mejor que puedo para ignorar la ligera sensación de pánico que la oscuridad invoca en mí. Me apresuro por la siguiente puerta, tratando de encontrar al grupo...\n\n...y #EMP de repente#! una gran forma oscura viene silbando encima de mí. Dejo escapar un grito de sorpresa.\n\nCuando recobro el sentido, encuentro al grupo parado en la habitación a la que acabo de entrar. [estate_character.GetTitledFirstName] tiene problemas para respirar entre la risa y me señala. "M... myh [ROOT.Char.GetLadyLord] #EMP *resoplido*#! hiciste... túh... ¿te lo pasaste bien?""
+ travel_events.2022.a: "¡Acabo de sobrevivir a un intento de asesinato, orquestado por #EMP tú!#!"
+ travel_events.2022.a_slain.tt: "Culpable asesinado"
+ travel_events.2022.a_slain.desc: "Tu matas [estate_character.GetShortUIName]"
+ travel_events.2022.a_escape.tt: "El culpable escapó"
+ travel_events.2022.a_escape.desc: "[estate_character.GetShortUIName] te hiere y escapa"
+ travel_events.2022.b: "¡Guardia! ¡Esta persona está involucrada en un complot para matarme!"
+ travel_events.2022.b_slain.desc: "[estate_character.GetShortUIName] es asesinado por [travel_leader.GetShortUIName]"
+ travel_events.2022.b_escape.desc: "[estate_character.GetShortUIName] heridas [travel_leader.GetShortUIName] y escapa"
+ travel_events.2022.c: "Quizás quieras buscar brujas en la casa."
+ travel_events.2022.d: "De hecho, encontré esta bruja, [mendicant_character.GetFirstNameNoTooltip]."
+ travel_events.2022.e: "Me parece una casa perfectamente normal y corriente."
+ travel_events.2022.f_pack: "No debería intervenir."
+ travel_events.2022.f: "¡Brujo!"
+ travel_events.2022.g_pack: "[entourage_member_one.GetFirstNameNoTooltip], no lo hagas."
+ travel_events.2022.g: "Oh. Jaja, ¡si efectivamente!"
   
  #You ratted out the witch; have a curse(?) dream 
- travel_events.2024.t: "$travel_events.haunted_manor.t$: una viruela sobre ti" #NT!
- travel_events.2024.desc: "[mendicant_character.GetFirstName] me mira fijamente. [mendicant_character.GetSheHe|U] sigue mirándome. Intento escapar corriendo por los pasillos, pero [mendicant_character.GetSheHe] me sigue. [mendicant_character.GetHerHis|U] tiene ojos por todas partes.\n\n"Lo... sé..." susurra [mendicant_character.GetSheHe]. Cuando me doy vuelta para correr, tropiezo y caigo en un pozo tan oscuro que ni siquiera mil velas podrían iluminarlo. Sigo cayendo, cayendo...\n\nDe repente me despierto de golpe, empapado en sudor." #NT!
- travel_events.2024.a: "Todo fue... ¿un mal sueño?" #NT!
+ travel_events.2024.t: "$travel_events.haunted_manor.t$: una viruela sobre ti"
+ travel_events.2024.desc: "[mendicant_character.GetFirstName] me mira fijamente. [mendicant_character.GetSheHe|U] sigue mirándome. Intento escapar corriendo por los pasillos, pero [mendicant_character.GetSheHe] me sigue. [mendicant_character.GetHerHis|U] tiene ojos por todas partes.\n\n"Lo... sé..." susurra [mendicant_character.GetSheHe]. Cuando me doy vuelta para correr, tropiezo y caigo en un pozo tan oscuro que ni siquiera mil velas podrían iluminarlo. Sigo cayendo, cayendo...\n\nDe repente me despierto de golpe, empapado en sudor."
+ travel_events.2024.a: "Todo fue... ¿un mal sueño?"
   
  #Visit your own farm estate - Tax or don't tax your hospitable subject 
- travel_events.2025.t: "$travel_event_prefix$ El amable anfitrión" #NT!
- travel_events.2025.desc: "Arriving sometime before nightfall at the farm estates in [ROOT.Char.GetCurrentLocation.GetName], [estate_owner.GetFirstName] plays the role of a most gracious host tending to all our needs.\n\nLater in the evening, a feast is hosted in my honor and the [ROOT.Char.Custom('RegionalDrink')] figuratively keeps flowing until we start seeing signs of dawn in the sky.\n\nThe morning after, I am approached by [estate_owner.GetFirstNameNoTooltip]: "Al llegar en algún momento antes del anochecer a las fincas agrícolas en [ROOT.Char.GetCurrentLocation.GetName], [estate_owner.GetFirstName] desempeña el papel de un anfitrión muy amable que atiende todas nuestras necesidades.\n\nMás tarde en la noche, se organiza una fiesta en mi honor y el [ROOT.Char.Custom('RegionalDrink')] en sentido figurado continúa fluyendo. hasta que empezamos a ver señales del amanecer en el cielo.\n\nA la mañana siguiente, [estate_owner.GetFirstNameNoTooltip] se me acerca: "Mi [ROOT.Char.GetLadyLord], disfrutamos muchísimo hospedarte y esta juerga nos calentará muchas noches más", [estate_owner.GetSheHe] sonríe y asiente." #NT!
- travel_events.2025.a: "... ¿Sus acciones de [ROOT.Char.Custom('RegionalDrink')] coinciden con su tasa impositiva?" #NT!
- travel_events.2025.b: "Ha sido un anfitrión muy amable, [estate_owner.GetFirstNameNoTooltip]." #NT!
- travel_events.2025.c: "A cambio, permítanme compartir algunas ideas de mejora." #NT!
+ travel_events.2025.t: "$travel_event_prefix$ El amable anfitrión"
+ travel_events.2025.desc:0 "Arriving sometime before nightfall at the farm estates in [ROOT.Char.GetCurrentLocation.GetName], [estate_owner.GetFirstName] plays the role of a most gracious host tending to all our needs.\n\nLater in the evening, a feast is hosted in my honor and the [ROOT.Char.Custom('RegionalDrink')] figuratively keeps flowing until we start seeing signs of dawn in the sky.\n\nThe morning after, I am approached by [estate_owner.GetFirstNameNoTooltip]: "Al llegar un poco antes del anochecer a las fincas de la granja en [ROOT.Char.GetCurrentLocation.GetName], [estate_owner.GetFirstName] desempeña el papel de un anfitrión muy amable que atiende todas nuestras necesidades.\n\nMás tarde en la noche, se organiza una fiesta en mi honor y el [ROOT.Char.Custom('RegionalDrink')] sigue fluyendo figurativamente hasta que comenzamos a ver señales del amanecer en el cielo.\n\nA la mañana siguiente, [estate_owner.GetFirstNameNoTooltip] se me acerca: "Mi [ROOT.Char.GetLadyLord], disfrutamos mucho de hospedarte, y esta fiesta nos calentará muchas noches más", [estate_owner.GetSheHe] sonríe y asiente." #NT!
+ travel_events.2025.a: "... ¿Sus acciones de [ROOT.Char.Custom('RegionalDrink')] coinciden con su tasa impositiva?"
+ travel_events.2025.b: "Ha sido un anfitrión muy amable, [estate_owner.GetFirstNameNoTooltip]."
+ travel_events.2025.c: "A cambio, permítanme compartir algunas ideas de mejora."
   
  #Visit someone else's farm estate - Pay or don't pay for the hospitality 
- travel_events.2026.t: "$travel_event_prefix$ Dar propina al anfitrión" #NT!
- travel_events.2026.desc_intro: "La tarde avanza rápidamente hacia el anochecer cuando entramos en las fincas agrícolas locales de [ROOT.Char.GetCurrentLocation.GetName]. El dueño de la propiedad [estate_owner.GetFirstName] nos saluda calurosamente y promete organizarnos un banquete espléndido.\n\nUna vez que comienza el banquete, cenamos" #NT!
- travel_events.2026.desc_carnivore: "Una auténtica colección de animales asados, guisos, sopas, pan y cosas por el estilo." #NT!
- travel_events.2026.desc_vegetarians: "Una maravillosa plétora de cocina basada en vegetales, de algunas de las cuales nunca antes había oído hablar." #NT!
- travel_events.2026.desc_outro: "\n\nPor la mañana, [estate_owner.GetFirstNameNoTooltip] se me acerca mientras disfruto de mi desayuno. "Mi [ROOT.Char.GetLadyLord], organizar una fiesta tan extravagante como la de ayer puede ser #EMP caro...#!"" #NT!
- travel_events.2026.a: "#EMP Tú#! deberías pagarme#EMP a mí#! por el prestigio que traje a tu #EMP granja#!." #NT!
- travel_events.2026.b: "Déjame compensarte." #NT!
- travel_events.2026.c: "Quizás [county_liege.GetTitledFirstNameNoTooltip] y yo podamos llegar a un acuerdo." #NT!
- travel_events.2026.d: "¡Cómo #EMP te atreves#!!" #NT!
+ travel_events.2026.t: "$travel_event_prefix$ Dar propina al anfitrión"
+ travel_events.2026.desc_intro: "La tarde avanza rápidamente hacia el anochecer cuando entramos en las fincas agrícolas locales de [ROOT.Char.GetCurrentLocation.GetName]. El dueño de la propiedad [estate_owner.GetFirstName] nos saluda calurosamente y promete organizarnos un banquete espléndido.\n\nUna vez que comienza el banquete, cenamos"
+ travel_events.2026.desc_carnivore: "Una auténtica colección de animales asados, guisos, sopas, pan y cosas por el estilo."
+ travel_events.2026.desc_vegetarians: "Una maravillosa plétora de cocina basada en vegetales, de algunas de las cuales nunca antes había oído hablar."
+ travel_events.2026.desc_outro: "\n\nPor la mañana, [estate_owner.GetFirstNameNoTooltip] se me acerca mientras disfruto de mi desayuno. "Mi [ROOT.Char.GetLadyLord], organizar una fiesta tan extravagante como la de ayer puede ser #EMP caro...#!""
+ travel_events.2026.a: "#EMP Tú#! deberías pagarme#EMP a mí#! por el prestigio que traje a tu #EMP granja#!."
+ travel_events.2026.b: "Déjame compensarte."
+ travel_events.2026.c: "Quizás [county_liege.GetTitledFirstNameNoTooltip] y yo podamos llegar a un acuerdo."
+ travel_events.2026.d: "¡Cómo #EMP te atreves#!!"
  #Visit your own quarry - Encounter hungry workers 
- travel_events.2027.t: "$travel_event_prefix$ Pelea de cantera" #NT!
- travel_events.2027.desc: "Al entrar en la cantera local en [ROOT.Char.GetCurrentLocation.GetName], veo a varios niños flacos y sucios que ayudan a sus padres hambrientos con el trabajo pesado. La comida parece escasa en esta zona.\n\nUn poco más arriba en el rellano, el capataz de la cantera, [foreman_character.GetFirstName], está discutiendo con [peasant_leader.GetFirstName], que parece ser el portavoz de los trabajadores. "¡Esto es #EMP inaceptable#!, m'[foreman_character.GetLadyLord]!" [peasant_leader.GetFirstNameNoTooltip] dice.\n\n"No podemos permitirnos suficiente comida y nos hemos acostado con hambre durante meses. Nuestros niños se mueren de hambre y nuestras fuerzas están disminuyendo al realizar un trabajo tan pesado. Todo lo que necesitaríamos es el #EMP más pequeño#! subir..." [peasant_leader.GetSheHe|U] se apaga cuando [foreman_character.GetFirstName]0 nota mi presencia." #NT!
- travel_events.2027.a: "Los trabajadores seguros y nutridos son más eficaces." #NT!
- travel_events.2027.b: "El hambre mantiene alta la motivación." #NT!
- travel_events.2027.c: "Ponte en fila, #EMP campesino.#!" #NT!
- travel_events.2027.d: "¿Por qué no cenar con el capataz?" #NT!
+ travel_events.2027.t: "$travel_event_prefix$ Pelea de cantera"
+ travel_events.2027.desc: "Al entrar en la cantera local en [ROOT.Char.GetCurrentLocation.GetName], veo a varios niños flacos y sucios que ayudan a sus padres hambrientos con el trabajo pesado. La comida parece escasa en esta zona.\n\nUn poco más arriba en el rellano, el capataz de la cantera, [foreman_character.GetFirstName], está discutiendo con [peasant_leader.GetFirstName], que parece ser el portavoz de los trabajadores. "¡Esto es #EMP inaceptable#!, m'[foreman_character.GetLadyLord]!" [peasant_leader.GetFirstNameNoTooltip] dice.\n\n"No podemos permitirnos suficiente comida y nos hemos acostado con hambre durante meses. Nuestros niños se mueren de hambre y nuestras fuerzas están disminuyendo al realizar un trabajo tan pesado. Todo lo que necesitaríamos es el #EMP más pequeño#! subir..." [peasant_leader.GetSheHe|U] se apaga cuando [foreman_character.GetFirstName]0 nota mi presencia."
+ travel_events.2027.a: "Los trabajadores seguros y nutridos son más eficaces."
+ travel_events.2027.b: "El hambre mantiene alta la motivación."
+ travel_events.2027.c: "Ponte en fila, #EMP campesino.#!"
+ travel_events.2027.d: "¿Por qué no cenar con el capataz?"
   
  #Visit someone else's quarry - Encounter an architect 
- travel_events.2028.t: "$travel_event_prefix$ Resumen del arquitecto" #NT!
- travel_events.2028.desc: "[budding_architect.GetFirstName] se pierde en sus pensamientos cuando nuestro séquito entra en las canteras de [ROOT.Char.GetCurrentLocation.GetName]. [budding_architect.GetSheHe|U] está inclinado sobre una gran mesa de madera toscamente cortada, absorto dibujando algo en un pergamino.\n\nMe inclino más cerca sobre el hombro de [budding_architect.GetHerHis], llamando la atención de [budding_architect.GetHerHis]. "¡Mi [ROOT.Char.GetLadyLord]! ¡No te vi allí, mis más sinceras disculpas!"\n\nLe pregunto qué está haciendo [budding_architect.GetSheHe] y [budding_architect.GetFirstNameNoTooltip] responde.\n"Oh, estoy redactando mis pensamientos sobre la construcción y "Soy todo un arquitecto, ya lo ves", [budding_architect.GetSheHe] sonríe tímidamente." #NT!
- travel_events.2028.a_architect: "Estos son bastante buenos. ¡Me llevaré uno!" #NT!
- travel_events.2028.a: "¿Arquitecto dices? ¡Me llevaré uno de los dibujos!" #NT!
- holding_blueprint: "Arquitecto Dibujo" #NT!
- holding_blueprint_desc: "Un pergamino que contiene un dibujo que explica cómo construir ciertos edificios de manera más eficiente." #NT!
- travel_events.2028.b: "Tus habilidades serían útiles en mi corte." #NT!
- travel_events.2028.b.tt: "[budding_architect.GetShortUIName] trabajará por un salario menor durante 20 años" #NT!
- trainee_salary_mod: "Salario Inexperto" #NT!
- travel_events.2028.c: "Eso es... bonito... Sigan con el buen trabajo." #NT!
+ travel_events.2028.t: "$travel_event_prefix$ Resumen del arquitecto"
+ travel_events.2028.desc: "[budding_architect.GetFirstName] se pierde en sus pensamientos cuando nuestro séquito entra en las canteras de [ROOT.Char.GetCurrentLocation.GetName]. [budding_architect.GetSheHe|U] está inclinado sobre una gran mesa de madera toscamente cortada, absorto dibujando algo en un pergamino.\n\nMe inclino más cerca sobre el hombro de [budding_architect.GetHerHis], llamando la atención de [budding_architect.GetHerHis]. "¡Mi [ROOT.Char.GetLadyLord]! ¡No te vi allí, mis más sinceras disculpas!"\n\nLe pregunto qué está haciendo [budding_architect.GetSheHe] y [budding_architect.GetFirstNameNoTooltip] responde.\n"Oh, estoy redactando mis pensamientos sobre la construcción y "Soy todo un arquitecto, ya lo ves", [budding_architect.GetSheHe] sonríe tímidamente."
+ travel_events.2028.a_architect: "Estos son bastante buenos. ¡Me llevaré uno!"
+ travel_events.2028.a: "¿Arquitecto dices? ¡Me llevaré uno de los dibujos!"
+ holding_blueprint: "Arquitecto Dibujo"
+ holding_blueprint_desc: "Un pergamino que contiene un dibujo que explica cómo construir ciertos edificios de manera más eficiente."
+ travel_events.2028.b: "Tus habilidades serían útiles en mi corte."
+ travel_events.2028.b.tt: "[budding_architect.GetShortUIName] trabajará por un salario menor durante 20 años"
+ trainee_salary_mod: "Salario Inexperto"
+ travel_events.2028.c: "Eso es... bonito... Sigan con el buen trabajo."
   
  #Visit a cereal field - Encounter a heathen 
- travel_events.2029.t: "$travel_event_prefix$ Despertar" #NT!
- travel_events.2029.desc: "Cae la noche y un [crop_circler.GetWomanMan] está trabajando duro cuando llegamos a los campos de cereales al sur de [ROOT.Char.GetCurrentLocation.GetName]. [crop_circler.GetSheHe|U] parece estar aplanando cultivos a un ritmo rápido, usando un gran trozo de madera plano y piedras pesadas.\n\nFrunzo el ceño mientras observo a [crop_circler.GetWomanMan] realizar el trabajo de [crop_circler.GetHerHis], luego pregunto qué está haciendo exactamente [crop_circler.GetSheHe] .\n\n[crop_circler.GetSheHe|U] hace una mueca de dolor, luego comienza a despotricar sobre cómo todos necesitamos despertar y encontrarnos con nuestros verdaderos maestros en lugar de escondernos detrás de las falsas enseñanzas de [crop_circler.GetFaith.GetReligion.GetAdjectiveNoTooltip]. Retrocedo unos pasos sorprendido." #NT!
- travel_events.2029.a: "¡Basta ya, hereje!" #NT!
- travel_events.2029.b: "¡Cómo te atreves a contaminar [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip]!" #NT!
- travel_events.2029.c: "Cuéntame más de estos #EMP verdaderos maestros#!." #NT!
- travel_events.2029.d: "Mmm... está bien." #NT!
+ travel_events.2029.t: "$travel_event_prefix$ Despertar"
+ travel_events.2029.desc: "Cae la noche y un [crop_circler.GetWomanMan] está trabajando duro cuando llegamos a los campos de cereales al sur de [ROOT.Char.GetCurrentLocation.GetName]. [crop_circler.GetSheHe|U] parece estar aplanando cultivos a un ritmo rápido, usando un gran trozo de madera plano y piedras pesadas.\n\nFrunzo el ceño mientras observo a [crop_circler.GetWomanMan] realizar el trabajo de [crop_circler.GetHerHis], luego pregunto qué está haciendo exactamente [crop_circler.GetSheHe] .\n\n[crop_circler.GetSheHe|U] hace una mueca de dolor, luego comienza a despotricar sobre cómo todos necesitamos despertar y encontrarnos con nuestros verdaderos maestros en lugar de escondernos detrás de las falsas enseñanzas de [crop_circler.GetFaith.GetReligion.GetAdjectiveNoTooltip]. Retrocedo unos pasos sorprendido."
+ travel_events.2029.a: "¡Basta ya, hereje!"
+ travel_events.2029.b: "¡Cómo te atreves a contaminar [ROOT.Char.GetFaith.GetReligion.GetNameNoTooltip]!"
+ travel_events.2029.c: "Cuéntame más de estos #EMP verdaderos maestros#!."
+ travel_events.2029.d: "Mmm... está bien."
   
  #Cereal field potential follow-up 
- travel_events.2030.t: "$travel_event_prefix$ Confesiones de un no creyente" #NT!
- travel_events.2030.desc: "Por la mañana, [entourage_chaplain.GetTitledFirstName] se me acerca retorciendo [entourage_chaplain.GetHerHis] las manos. "Mis [ROOT.Char.GetLadyLord] y [entourage_chaplain.Custom2('RelationToMe', ROOT.Char)], tengo la confesión más horrible que hacer."\n\n[entourage_chaplain.GetSheHe|U] suspira profundamente. "Aunque no acepto ninguna... enseñanza decididamente loca... como esa [crop_circler.Custom('GetLassLad')] de anoche, he tenido... #EMP dudas.#!" [entourage_chaplain.GetFirstNameNoTooltip] me mira de cerca, buscando simpatía con § _1 situación.\n\n"Simplemente no estoy seguro de que [entourage_chaplain.GetHerHis]0 realmente exista y nos cuide". [entourage_chaplain.GetSheHe|U] termina, con una pausa dramática." #NT!
- travel_events.2030.a: "Eso está bien." #NT!
- travel_events.2030.b: "Esto es #EMP inaceptable#!!" #NT!
+ travel_events.2030.t: "$travel_event_prefix$ Confesiones de un no creyente"
+ travel_events.2030.desc: "Por la mañana, [entourage_chaplain.GetTitledFirstName] se me acerca retorciendo [entourage_chaplain.GetHerHis] las manos. "Mis [ROOT.Char.GetLadyLord] y [entourage_chaplain.Custom2('RelationToMe', ROOT.Char)], tengo la confesión más horrible que hacer."\n\n[entourage_chaplain.GetSheHe|U] suspira profundamente. "Aunque no acepto ninguna... enseñanza decididamente loca... como esa [crop_circler.Custom('GetLassLad')] de anoche, he tenido... #EMP dudas.#!" [entourage_chaplain.GetFirstNameNoTooltip] me mira de cerca, buscando simpatía con § _1 situación.\n\n"Simplemente no estoy seguro de que [entourage_chaplain.GetHerHis]0 realmente exista y nos cuide". [entourage_chaplain.GetSheHe|U] termina, con una pausa dramática."
+ travel_events.2030.a: "Eso está bien."
+ travel_events.2030.b: "Esto es #EMP inaceptable#!!"
   
  #Visit another cereal field - Encounter a gardener 
- travel_events.2031.t: "$travel_event_prefix$ El útero de la tierra" #NT!
- travel_events.2031.desc: "Los campos de [ROOT.Char.GetCurrentLocation.GetName] son un espectáculo digno de contemplar. Cada cosecha en flor; cada hoja verde; cada raíz es deliciosa.\n\nRápidamente localizo la fuente del verdor y localizo a un [gardener_character.GetWomanMan] parado en un campo, aparentemente dando una conferencia de algún tipo a una reunión de oyentes. "Mi nombre es [gardener_character.Custom('MistressMaster')] [gardener_character.GetFirstName]."\n\n[gardener_character.GetSheHe|U] me ve a lo lejos y gira en mi dirección. "Mi conocimiento de jardinería es vasto, sí, incomparablemente vasto, así que quédese un rato y escuche"." #NT!
- travel_events.2031.a: "¡Coloréame intrigado!" #NT!
- travel_events.2031.a_down_to_earth.t: "Con los pies en la tierra" #NT!
- travel_events.2031.b: "¿El [ROOT.Char.GetTitleAsNameNoTooltip|U]? Haciendo #EMP jardinería#!?" #NT!
+ travel_events.2031.t: "$travel_event_prefix$ El útero de la tierra"
+ travel_events.2031.desc: "Los campos de [ROOT.Char.GetCurrentLocation.GetName] son un espectáculo digno de contemplar. Cada cosecha en flor; cada hoja verde; cada raíz es deliciosa.\n\nRápidamente localizo la fuente del verdor y localizo a un [gardener_character.GetWomanMan] parado en un campo, aparentemente dando una conferencia de algún tipo a una reunión de oyentes. "Mi nombre es [gardener_character.Custom('MistressMaster')] [gardener_character.GetFirstName]."\n\n[gardener_character.GetSheHe|U] me ve a lo lejos y gira en mi dirección. "Mi conocimiento de jardinería es vasto, sí, incomparablemente vasto, así que quédese un rato y escuche"."
+ travel_events.2031.a: "¡Coloréame intrigado!"
+ travel_events.2031.a_down_to_earth.t: "Con los pies en la tierra"
+ travel_events.2031.b: "¿El [ROOT.Char.GetTitleAsNameNoTooltip|U]? Haciendo #EMP jardinería#!?"
   
  #Visit a ramparts/forest fort - Encounter a herbalist/physician 
- travel_events.2032.t: "$travel_event_prefix$ Una hierba para ti..." #NT!
- travel_events.2032.desc: "La impresionante estructura defensiva en la cima de [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] es algo muy especial. Mientras deambulo por el perímetro exterior, noto a una persona peculiar en la distancia.\n\n[herbalist_character.GetSheHe|U] parece estar murmurando con [herbalist_character.GetHerselfHimself], mientras se detiene para agacharse y recolectar lo que parecen ser hierbas de varios tipos. Es casi como si [herbalist_character.GetSheHe] estuviera hablando con... las hierbas de #EMP #!?\n\nI se acercan a [herbalist_character.GetHerHim] con cuidado, y [herbalist_character.GetSheHe] mira hacia arriba, con varias hierbas expuestas en la palma de [herbalist_character.GetHerHis]. Noto una chispa de curiosidad detrás de los ojos de [herbalist_character.GetHerHis], proponiendo una pregunta tácita." #NT!
- travel_events.2032.a: "Entonces, ¿qué hace esta hierba?" #NT!
- travel_events.2032.a_poisonous.tt: "Consigues algunas hierbas venenosas que puedes aplicar a tu próximo [GetScheme('murder').GetTypeName] [scheme|E]" #NT!
- travel_events.2032.a_poisonous.t: "Hierbas adquiridas" #NT!
- travel_events.2032.a_poisonous.desc: "Encontraste algunas hierbas venenosas." #NT!
- travel_events.2032.a_learning.tt: "Habilidad mejorada" #NT!
- travel_events.2032.b: "¿Estaría interesado en convertirse en mi médico de la corte?" #NT!
- travel_events.2032.c: "Esto es una pérdida de mi tiempo." #NT!
+ travel_events.2032.t: "$travel_event_prefix$ Una hierba para ti..."
+ travel_events.2032.desc: "La impresionante estructura defensiva en la cima de [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l] es algo muy especial. Mientras deambulo por el perímetro exterior, noto a una persona peculiar en la distancia.\n\n[herbalist_character.GetSheHe|U] parece estar murmurando con [herbalist_character.GetHerselfHimself], mientras se detiene para agacharse y recolectar lo que parecen ser hierbas de varios tipos. Es casi como si [herbalist_character.GetSheHe] estuviera hablando con... las hierbas de #EMP #!?\n\nI se acercan a [herbalist_character.GetHerHim] con cuidado, y [herbalist_character.GetSheHe] mira hacia arriba, con varias hierbas expuestas en la palma de [herbalist_character.GetHerHis]. Noto una chispa de curiosidad detrás de los ojos de [herbalist_character.GetHerHis], proponiendo una pregunta tácita."
+ travel_events.2032.a: "Entonces, ¿qué hace esta hierba?"
+ travel_events.2032.a_poisonous.tt: "Consigues algunas hierbas venenosas que puedes aplicar a tu próximo [GetScheme('murder').GetTypeName] [scheme|E]"
+ travel_events.2032.a_poisonous.t: "Hierbas adquiridas"
+ travel_events.2032.a_poisonous.desc: "Encontraste algunas hierbas venenosas."
+ travel_events.2032.a_learning.tt: "Habilidad mejorada"
+ travel_events.2032.b: "¿Estaría interesado en convertirse en mi médico de la corte?"
+ travel_events.2032.c: "Esto es una pérdida de mi tiempo."
   
  #Visit some hunting grounds - If you have a prisoner with you; manhunt! 
- travel_events.2033.t: "$travel_event_prefix$ ¡El prisionero escapó!" #NT!
- travel_events.2033.desc_intro: "Tan pronto como entramos en los terrenos de caza de [ROOT.Char.GetCurrentLocation.GetName], mis guardias vienen corriendo hacia mí, jadeando y ligeramente asustados. "¡Mi [ROOT.Char.GetLadyLord]! ¡Ese [ prisoner.Custom('InsultAdjective')] [prisoner.GetTitledFirstName] ha escapado de nuestros grilletes!"\n\nMi mirada se mueve inmediatamente hacia el borde del bosque, buscando señales de movimiento, pero no encuentra ninguna." #NT!
- travel_events.2033.desc_manhunt: "Esto solo puede significar una cosa. #EMP ¡Caza humana!#!\n\n" #NT!
- travel_events.2033.desc_manhunt_previous: "Esa chispa de alegría al recordar mi última persecución me pone nervioso. La emoción. El peligro. No puedo esperar." #NT!
- travel_events.2033.desc_manhunt_first: "Hace tiempo que quiero probar suerte con la presa más esquiva y peligrosa de la naturaleza. Una sonrisa juega en la comisura de mi boca." #NT!
- travel_events.2033.desc: "Ligeramente aturdido por la fuga, considero la situación detenidamente.\n\n¿Seguramente deberíamos llevar ante la justicia a un prisionero fugado?" #NT!
- travel_events.2033.a_manhunt: "#EMP ¡Emocionante!#!" #NT!
- travel_events.2033.a_cannibal: "Ah sí, prisioneros; la otra carne blanca." #NT!
- travel_events.2033.a_manhunt_tt: "Un objetivo que escapa de una persecución puede regresar en busca de venganza." #NT!
- travel_events.2033.a_manhunt.tt: "Caza humana cumplida" #NT!
- travel_events.2033.a_manhunt.desc: "[prisoner.GetShortUIName] es cazado y asesinado" #NT!
- travel_events.2033.a_caught_trophy.desc: "[prisoner.GetShortUIName] es cazado y convertido en trofeo" #NT!
- travel_events.2033.a_caught_eaten.tt: "Prisionero comido" #NT!
- travel_events.2033.a_caught_eaten.desc: "[prisoner.GetShortUIName] es atrapado y comido" #NT!
- travel_events.2033.a_escaped.tt: "El prisionero se escapó" #NT!
- travel_events.2033.a_escaped.desc: "[prisoner.GetShortUIName] se te escapa de las manos" #NT!
- travel_events.2033.a_killed.desc: "[prisoner.GetShortUIName] te mata y escapa" #NT!
- travel_events.2033.a_accident.desc: "Tropiezas y te rompes el cuello" #NT!
- manhunt_skull_cup: "Copa Calavera Manhunt" #NT!
+ travel_events.2033.t: "$travel_event_prefix$ ¡El prisionero escapó!"
+ travel_events.2033.desc_intro: "Tan pronto como entramos en los terrenos de caza de [ROOT.Char.GetCurrentLocation.GetName], mis guardias vienen corriendo hacia mí, jadeando y ligeramente asustados. "¡Mi [ROOT.Char.GetLadyLord]! ¡Ese [ prisoner.Custom('InsultAdjective')] [prisoner.GetTitledFirstName] ha escapado de nuestros grilletes!"\n\nMi mirada se mueve inmediatamente hacia el borde del bosque, buscando señales de movimiento, pero no encuentra ninguna."
+ travel_events.2033.desc_manhunt: "Esto solo puede significar una cosa. #EMP ¡Caza humana!#!\n\n"
+ travel_events.2033.desc_manhunt_previous: "Esa chispa de alegría al recordar mi última persecución me pone nervioso. La emoción. El peligro. No puedo esperar."
+ travel_events.2033.desc_manhunt_first: "Hace tiempo que quiero probar suerte con la presa más esquiva y peligrosa de la naturaleza. Una sonrisa juega en la comisura de mi boca."
+ travel_events.2033.desc: "Ligeramente aturdido por la fuga, considero la situación detenidamente.\n\n¿Seguramente deberíamos llevar ante la justicia a un prisionero fugado?"
+ travel_events.2033.a_manhunt: "#EMP ¡Emocionante!#!"
+ travel_events.2033.a_cannibal: "Ah sí, prisioneros; la otra carne blanca."
+ travel_events.2033.a_manhunt_tt: "Un objetivo que escapa de una persecución puede regresar en busca de venganza."
+ travel_events.2033.a_manhunt.tt: "Caza humana cumplida"
+ travel_events.2033.a_manhunt.desc: "[prisoner.GetShortUIName] es cazado y asesinado"
+ travel_events.2033.a_caught_trophy.desc: "[prisoner.GetShortUIName] es cazado y convertido en trofeo"
+ travel_events.2033.a_caught_eaten.tt: "Prisionero comido"
+ travel_events.2033.a_caught_eaten.desc: "[prisoner.GetShortUIName] es atrapado y comido"
+ travel_events.2033.a_escaped.tt: "El prisionero se escapó"
+ travel_events.2033.a_escaped.desc: "[prisoner.GetShortUIName] se te escapa de las manos"
+ travel_events.2033.a_killed.desc: "[prisoner.GetShortUIName] te mata y escapa"
+ travel_events.2033.a_accident.desc: "Tropiezas y te rompes el cuello"
+ manhunt_skull_cup: "Copa Calavera Manhunt"
  #AGOT MODIFIED 
- #manhunt_skull_cup_desc: "Esta copa de calavera es un trofeo de la exitosa búsqueda de [new_skull_cup.MakeScope.Var('skull_origin').Char.GetUIName] en [ROOT.Char.GetCurrentLocation.GetName] [ ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]." #NT!
- manhunt_skull_cup_desc: "Esta copa de calavera es un trofeo de la exitosa cacería humana de [new_skull_cup.MakeScope.Var('skull_origin').Char.GetUIName] en [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]." #NT!
- manhunt_skull_cup_desc_fallback: "Esta copa de calavera es un trofeo de la exitosa caza de presas humanas." #NT!
- travel_events.2033.b: "... ¿Supongo que deberíamos capturar [prisoner.GetHerHim]?" #NT!
- travel_events.2033.b_caught.tt: "Prisionero atrapado" #NT!
- travel_events.2033.b_caught.desc: "[prisoner.GetShortUIName] está atrapado" #NT!
- travel_events.2033.b_caught.effect: "[prisoner.GetShortUIName] sigue siendo tu prisionero" #NT!
- travel_events.2033.c: "Deje que [prisoner.GetFirstNameNoTooltip] se ejecute. El desierto tomará [prisoner.GetHerHim] de todos modos." #NT!
+ #manhunt_skull_cup_desc: "Esta copa de calavera es un trofeo de la exitosa búsqueda de [new_skull_cup.MakeScope.Var('skull_origin').Char.GetUIName] en [ROOT.Char.GetCurrentLocation.GetName] [ ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]."
+ manhunt_skull_cup_desc: "Esta copa de calavera es un trofeo de la exitosa cacería humana de [new_skull_cup.MakeScope.Var('skull_origin').Char.GetUIName] en [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]."
+ manhunt_skull_cup_desc_fallback: "Esta copa de calavera es un trofeo de la exitosa caza de presas humanas."
+ travel_events.2033.b: "... ¿Supongo que deberíamos capturar [prisoner.GetHerHim]?"
+ travel_events.2033.b_caught.tt: "Prisionero atrapado"
+ travel_events.2033.b_caught.desc: "[prisoner.GetShortUIName] está atrapado"
+ travel_events.2033.b_caught.effect: "[prisoner.GetShortUIName] sigue siendo tu prisionero"
+ travel_events.2033.c: "Deje que [prisoner.GetFirstNameNoTooltip] se ejecute. El desierto tomará [prisoner.GetHerHim] de todos modos."
   
  #Your escaped manhunted prisoner seeks revenge 
- travel_events.2034.t: "$travel_event_prefix$ Lo que pasa..." #NT!
- travel_events.2034.desc_intro: "La mañana comienza a amanecer en nuestro campamento en el [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]. Bostezo y me estiro suavemente, rodando sobre mi costado.\n\nAdormilado, me levanto y me acerco a la abertura de la tienda para respirar el aire fresco de la mañana. De repente, se me erizan los pelos de la nuca." #NT!
- travel_events.2034.desc: "Y con el rabillo del ojo veo a [vengeful_prisoner.GetTitledFirstName], con el cuchillo en la mano.\n\n[vengeful_prisoner.GetSheHe|U] sonríe con ironía. "[ROOT.Char.GetTitledFirstNameNoTooltip|U], es agradable volver a verte. Esta vez #EMP yo#! haré la cacería humana". Parpadeo, momentáneamente aturdido." #NT!
- travel_events.2034.desc_long_time: "Y por el rabillo del ojo veo un [vengeful_prisoner.GetWomanMan], con un cuchillo desenvainado.\n\n[vengeful_prisoner.GetSheHe|U] sonríe irónicamente. "No me recuerdas, ¿verdad? Bueno, recuerdo #EMP ti#!, [ROOT.Char.GetTitledFirstNameNoTooltip] y tus #EMP sádicas#! prácticas de caza humana". Un vago recuerdo vuelve a mí. ¿Prisionero fugitivo #EMP [vengeful_prisoner.GetTitledFirstName]#!...?" #NT!
- travel_events.2034.a: "¡No tienes que hacer esto!" #NT!
- travel_events.2034.a_overpowered_desc: "Tú dominas [vengeful_prisoner.GetShortUIName]" #NT!
- travel_events.2034.a_overpowered_effect: "Tú decides [vengeful_prisoner.GetShortUINamePossessive] destino" #NT!
- travel_events.2034.a_death_desc: "$travel_events.2019.a_death.desc$" #NT!
- travel_events.2034.b: "#EMP [bodyguard.GetFirstNameNoTooltip]!!#!" #NT!
- travel_events.2034.b_overpowered_desc: "[bodyguard.GetShortUIName] domina a [vengeful_prisoner.GetShortUIName]" #NT!
- travel_events.2034.b_death_tt: "Prisionero fugitivo asesinado" #NT!
- travel_events.2034.b_death_desc: "[bodyguard.GetShortUIName] mata a [vengeful_prisoner.GetShortUIName]" #NT!
+ travel_events.2034.t: "$travel_event_prefix$ Lo que pasa..."
+ travel_events.2034.desc_intro: "La mañana comienza a amanecer en nuestro campamento en el [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l]. Bostezo y me estiro suavemente, rodando sobre mi costado.\n\nAdormilado, me levanto y me acerco a la abertura de la tienda para respirar el aire fresco de la mañana. De repente, se me erizan los pelos de la nuca."
+ travel_events.2034.desc: "Y con el rabillo del ojo veo a [vengeful_prisoner.GetTitledFirstName], con el cuchillo en la mano.\n\n[vengeful_prisoner.GetSheHe|U] sonríe con ironía. "[ROOT.Char.GetTitledFirstNameNoTooltip|U], es agradable volver a verte. Esta vez #EMP yo#! haré la cacería humana". Parpadeo, momentáneamente aturdido."
+ travel_events.2034.desc_long_time: "Y por el rabillo del ojo veo un [vengeful_prisoner.GetWomanMan], con un cuchillo desenvainado.\n\n[vengeful_prisoner.GetSheHe|U] sonríe irónicamente. "No me recuerdas, ¿verdad? Bueno, recuerdo #EMP ti#!, [ROOT.Char.GetTitledFirstNameNoTooltip] y tus #EMP sádicas#! prácticas de caza humana". Un vago recuerdo vuelve a mí. ¿Prisionero fugitivo #EMP [vengeful_prisoner.GetTitledFirstName]#!...?"
+ travel_events.2034.a: "¡No tienes que hacer esto!"
+ travel_events.2034.a_overpowered_desc: "Tú dominas [vengeful_prisoner.GetShortUIName]"
+ travel_events.2034.a_overpowered_effect: "Tú decides [vengeful_prisoner.GetShortUINamePossessive] destino"
+ travel_events.2034.a_death_desc: "$travel_events.2019.a_death.desc$"
+ travel_events.2034.b: "#EMP [bodyguard.GetFirstNameNoTooltip]!!#!"
+ travel_events.2034.b_overpowered_desc: "[bodyguard.GetShortUIName] domina a [vengeful_prisoner.GetShortUIName]"
+ travel_events.2034.b_death_tt: "Prisionero fugitivo asesinado"
+ travel_events.2034.b_death_desc: "[bodyguard.GetShortUIName] mata a [vengeful_prisoner.GetShortUIName]"
  #Decide their fate 
- travel_events.2035.t: "...Viene por aquí" #NT!
- travel_events.2035.desc: "[vengeful_prisoner.GetTitledFirstName|U] está arrodillado frente a mí, inmovilizado e incapaz de moverse. Después del shock inicial, mis guardias ahora llenan la tienda hasta el borde.\n\n[vengeful_prisoner.GetSheHe|U] obstinadamente mira hacia el suelo y se niega a mirarme a los ojos. ¿Qué debo hacer con este [vengeful_prisoner.Custom('InsultNoun')]?" #NT!
- travel_events.2035.a: "La muerte es lo que te mereces." #NT!
- travel_events.2035.b: "Deberías volver a prisión." #NT!
- travel_events.2035.c: "Pondré la otra mejilla." #NT!
+ travel_events.2035.t: "...Viene por aquí"
+ travel_events.2035.desc: "[vengeful_prisoner.GetTitledFirstName|U] está arrodillado frente a mí, inmovilizado e incapaz de moverse. Después del shock inicial, mis guardias ahora llenan la tienda hasta el borde.\n\n[vengeful_prisoner.GetSheHe|U] obstinadamente mira hacia el suelo y se niega a mirarme a los ojos. ¿Qué debo hacer con este [vengeful_prisoner.Custom('InsultNoun')]?"
+ travel_events.2035.a: "La muerte es lo que te mereces."
+ travel_events.2035.b: "Deberías volver a prisión."
+ travel_events.2035.c: "Pondré la otra mejilla."
   
  #Your escaped/reformed prisoner is... pretty peaceful actually 
- travel_events.2036.t: "$travel_event_prefix$ ¿Un fin?" #NT!
- travel_events.2036.desc_intro: "Entramos por las puertas de una aldea en [ROOT.Char.GetCurrentLocation.GetName]. La gente aquí parece estar en paz, sigue con su vida diaria y se ayuda unos a otros.\n\nAl examinar detenidamente a los aldeanos, una repentina sacudida de reconocimiento me recorre." #NT!
- travel_events.2036.desc_reformed: "En el santuario local, reconozco instantáneamente a mi prisionero fugitivo, [peaceful_prisoner.GetTitledFirstName], enfrascado en una amable conversación con el líder espiritual.\n\n¡Qué irónica coincidencia es esta! Miro fijamente mientras [peaceful_prisoner.GetSheHe] ayuda al clero con tareas menores, aparentemente en paz." #NT!
- travel_events.2036.desc: "Instantáneamente reconozco a mi prisionero fugitivo, [peaceful_prisoner.GetTitledFirstName], compartiendo una risa y ayudando a uno de los habitantes ancianos de la aldea rural.\n\n[peaceful_prisoner.GetSheHe|U] parece contento con la situación de [peaceful_prisoner.GetHerHis]." #NT!
- travel_events.2036.a: "Vivir y dejar vivir." #NT!
- travel_events.2036.a_criminal: "Supongo que incluso los delincuentes pueden reformarse." #NT!
- travel_events.2036.a_reformed: "Mientras [peaceful_prisoner.GetSheHe] no vuelva a atentar contra mi vida." #NT!
- travel_events.2036.b: "[peaceful_prisoner.GetTitledFirstNameNoTooltip|U] viene con #EMP yo#!." #NT!
- travel_events.2036.b_criminal: "Una vez criminal, siempre criminal." #NT!
- travel_events.2036.b_reformed: "#EMP ...no#!, No me siento seguro sabiendo que [peaceful_prisoner.GetSheHe] está aquí." #NT!
+ travel_events.2036.t: "$travel_event_prefix$ ¿Un fin?"
+ travel_events.2036.desc_intro: "Entramos por las puertas de una aldea en [ROOT.Char.GetCurrentLocation.GetName]. La gente aquí parece estar en paz, sigue con su vida diaria y se ayuda unos a otros.\n\nAl examinar detenidamente a los aldeanos, una repentina sacudida de reconocimiento me recorre."
+ travel_events.2036.desc_reformed: "En el santuario local, reconozco instantáneamente a mi prisionero fugitivo, [peaceful_prisoner.GetTitledFirstName], enfrascado en una amable conversación con el líder espiritual.\n\n¡Qué irónica coincidencia es esta! Miro fijamente mientras [peaceful_prisoner.GetSheHe] ayuda al clero con tareas menores, aparentemente en paz."
+ travel_events.2036.desc: "Instantáneamente reconozco a mi prisionero fugitivo, [peaceful_prisoner.GetTitledFirstName], compartiendo una risa y ayudando a uno de los habitantes ancianos de la aldea rural.\n\n[peaceful_prisoner.GetSheHe|U] parece contento con la situación de [peaceful_prisoner.GetHerHis]."
+ travel_events.2036.a: "Vivir y dejar vivir."
+ travel_events.2036.a_criminal: "Supongo que incluso los delincuentes pueden reformarse."
+ travel_events.2036.a_reformed: "Mientras [peaceful_prisoner.GetSheHe] no vuelva a atentar contra mi vida."
+ travel_events.2036.b: "[peaceful_prisoner.GetTitledFirstNameNoTooltip|U] viene con #EMP yo#!."
+ travel_events.2036.b_criminal: "Una vez criminal, siempre criminal."
+ travel_events.2036.b_reformed: "#EMP ...no#!, No me siento seguro sabiendo que [peaceful_prisoner.GetSheHe] está aquí."
   
  #Visit some hunting grounds - Sadistic county holder is manhunting 
- travel_events.2037.t: "$travel_event_prefix$ El cazador de hombres" #NT!
- travel_events.2037.desc: "We encounter [2037_county_liege.GetTitledFirstName], the ruler of [ROOT.Char.GetCurrentLocation.GetName], and [2037_county_liege.GetHerHis] entourage at the local hunting grounds.\n\nAfter an  exchange of polite greetings, [2037_county_liege.GetSheHe] looks at me with a mischievous grin: "Nos encontramos con [2037_county_liege.GetTitledFirstName], el gobernante de [ROOT.Char.GetCurrentLocation.GetName], y el séquito de [2037_county_liege.GetHerHis] en los terrenos de caza locales.\n\nDespués de un intercambio de saludos corteses, [2037_county_liege.GetSheHe] me mira con una sonrisa traviesa: "¿Te importaría unirte a mí para el el más noble de los deportes," #NT!
- travel_events.2037.desc_child: "¿pequeño?"" #NT!
- travel_events.2037.desc_adult: "Mi [2037_county_liege.Custom2('RelationToMeShort', ROOT.Char)]?"" #NT!
- travel_events.2037.desc_segway: "[2037_county_liege.GetSheHe|U] señala con la cabeza al prisionero encadenado en el borde del bosque." #NT!
- travel_events.2037.desc_outro_segway_adult: "\n\nMe doy cuenta demasiado pronto a qué se refiere #EMP deporte#! [2037_county_liege.GetSheHe]." #NT!
- travel_events.2037.desc_outro_child: "\n\nDefinitivamente se ha despertado mi curiosidad. ¿Qué juego podría ser este...? ¿Etiqueta?\n\nMientras considero la oferta, noto que mi [ROOT.Char.Custom2('RelationToMeShort',  SCOPE.sC('entourage_character'))] [entourage_character.GetTitledFirstName] busca mi atención y sacude con cuidado la cabeza de [entourage_character.GetHerHis]." #NT!
- travel_events.2037.desc_outro_manhunter: "Como cazador de hombres experimentado, esta sugerencia me hace cosquillas." #NT!
- travel_events.2037.desc_outro: "#EMP Manhunting.#! Estoy realmente disgustado... ¿o estoy intrigado?" #NT!
- travel_events.2037.a: "Suena bastante interesante..." #NT!
- travel_events.2037.a_child: "¡Jugaré!" #NT!
- travel_events.2037.a_manhunted: "Empecemos." #NT!
- travel_events.2037.a_your_kill.desc: "Cazas y matas [2037_manhunt_prisoner.GetShortUIName]" #NT!
- travel_events.2037.a_their_kill.tt: "[2037_county_liege.GetShortUINameNoTooltip] consigue la muerte" #NT!
- travel_events.2037.a_their_kill.desc: "[2037_manhunt_prisoner.GetShortUIName] es perseguido y asesinado por [2037_county_liege.GetShortUIName]" #NT!
- travel_events.2037.b: "Podría encontrarle utilidad a ese prisionero, si no te importa." #NT!
- travel_events.2037.b_child: "Preferiría que [2037_manhunt_prisoner.GetFirstNameNoTooltip] viniera conmigo." #NT!
- travel_events.2037.c: "¿Estas loco?" #NT!
- travel_events.2037.c_child: "No. Esto parece un juego perverso." #NT!
+ travel_events.2037.t: "$travel_event_prefix$ El cazador de hombres"
+ travel_events.2037.desc:0 "We encounter [2037_county_liege.GetTitledFirstName], the ruler of [ROOT.Char.GetCurrentLocation.GetName], and [2037_county_liege.GetHerHis] entourage at the local hunting grounds.\n\nAfter an  exchange of polite greetings, [2037_county_liege.GetSheHe] looks at me with a mischievous grin: "Nos encontramos con [2037_county_liege.GetTitledFirstName], el gobernante de [ROOT.Char.GetCurrentLocation.GetName], y el séquito de [2037_county_liege.GetHerHis] en los terrenos de caza locales.\n\nDespués de un intercambio de saludos corteses, [2037_county_liege.GetSheHe] me mira con una sonrisa traviesa: "¿Te importaría unirte a mí para el el más noble de los deportes," #NT!
+ travel_events.2037.desc_child: "¿pequeño?""
+ travel_events.2037.desc_adult: "Mi [2037_county_liege.Custom2('RelationToMeShort', ROOT.Char)]?""
+ travel_events.2037.desc_segway: "[2037_county_liege.GetSheHe|U] señala con la cabeza al prisionero encadenado en el borde del bosque."
+ travel_events.2037.desc_outro_segway_adult: "\n\nMe doy cuenta demasiado pronto a qué se refiere #EMP deporte#! [2037_county_liege.GetSheHe]."
+ travel_events.2037.desc_outro_child: "\n\nDefinitivamente se ha despertado mi curiosidad. ¿Qué juego podría ser este...? ¿Etiqueta?\n\nMientras considero la oferta, noto que mi [ROOT.Char.Custom2('RelationToMeShort',  SCOPE.sC('entourage_character'))] [entourage_character.GetTitledFirstName] busca mi atención y sacude con cuidado la cabeza de [entourage_character.GetHerHis]."
+ travel_events.2037.desc_outro_manhunter: "Como cazador de hombres experimentado, esta sugerencia me hace cosquillas."
+ travel_events.2037.desc_outro: "#EMP Manhunting.#! Estoy realmente disgustado... ¿o estoy intrigado?"
+ travel_events.2037.a: "Suena bastante interesante..."
+ travel_events.2037.a_child: "¡Jugaré!"
+ travel_events.2037.a_manhunted: "Empecemos."
+ travel_events.2037.a_your_kill.desc: "Cazas y matas [2037_manhunt_prisoner.GetShortUIName]"
+ travel_events.2037.a_their_kill.tt: "[2037_county_liege.GetShortUINameNoTooltip] consigue la muerte"
+ travel_events.2037.a_their_kill.desc: "[2037_manhunt_prisoner.GetShortUIName] es perseguido y asesinado por [2037_county_liege.GetShortUIName]"
+ travel_events.2037.b: "Podría encontrarle utilidad a ese prisionero, si no te importa."
+ travel_events.2037.b_child: "Preferiría que [2037_manhunt_prisoner.GetFirstNameNoTooltip] viniera conmigo."
+ travel_events.2037.c: "¿Estas loco?"
+ travel_events.2037.c_child: "No. Esto parece un juego perverso."
   
  #Visit some hunting grounds - Friendly competition with an entourage member 
- travel_events.2038.t: "$travel_event_prefix$ Objetivo verdadero" #NT!
- travel_events.2038.desc: "Lleno de todo tipo de vida silvestre, [entourage_character.GetTitledFirstName] y yo coincidimos en que [ROOT.Char.GetCurrentLocation.GetName] sería un lugar espléndido para ir a cazar.\n\nAunque no tenemos tiempo para quedarnos para una excursión adecuada, mientras atravesamos el área, veo un prístino conejo salvaje al borde del bosque. Tiene marcas peculiares en su pelaje y le hago un gesto a [entourage_character.GetFirstNameNoTooltip] para que examine al animal.\n\nCuando [entourage_character.GetSheHe] ve al conejo, [entourage_character.GetSheHe] sonríe. "¿Qué dirías de una apuesta amistosa, [entourage_character.Custom2('RelationToMeShort', ROOT.Char)]? Gana quien golpee a ese prístino individuo con una flecha"." #NT!
- travel_events.2038.a: "¡Suena como un trato para mi!" #NT!
- travel_events.2038.a_your_kill.tt: "Consigues la muerte" #NT!
- travel_events.2038.a_your_kill.desc: "Tu flecha atraviesa perfectamente el corazón del conejo." #NT!
- travel_events.2038.a_their_kill.tt: "[entourage_character.GetShortUINameNoTooltip] consigue la muerte" #NT!
- travel_events.2038.a_their_kill.desc: "El conejo es asesinado por [entourage_character.GetShortUIName]" #NT!
- lucky_rabbits_paw: "Pata de conejo de la suerte" #NT!
- lucky_rabbits_paw_desc: "Una pata de un conejo prístino único en su tipo, derribado en una cacería amistosa con [entourage_character.GetTitledFirstName] en los terrenos de caza de [ROOT.Char.GetCurrentLocation.GetName]." #NT!
- travel_events.2038.b: "#EMP ¡Oh no#!, el sol está en mis ojos!" #NT!
- travel_events.2038.c: "...pft, no tengo tiempo para esto." #NT!
+ travel_events.2038.t: "$travel_event_prefix$ Objetivo verdadero"
+ travel_events.2038.desc: "Lleno de todo tipo de vida silvestre, [entourage_character.GetTitledFirstName] y yo coincidimos en que [ROOT.Char.GetCurrentLocation.GetName] sería un lugar espléndido para ir a cazar.\n\nAunque no tenemos tiempo para quedarnos para una excursión adecuada, mientras atravesamos el área, veo un prístino conejo salvaje al borde del bosque. Tiene marcas peculiares en su pelaje y le hago un gesto a [entourage_character.GetFirstNameNoTooltip] para que examine al animal.\n\nCuando [entourage_character.GetSheHe] ve al conejo, [entourage_character.GetSheHe] sonríe. "¿Qué dirías de una apuesta amistosa, [entourage_character.Custom2('RelationToMeShort', ROOT.Char)]? Gana quien golpee a ese prístino individuo con una flecha"."
+ travel_events.2038.a: "¡Suena como un trato para mi!"
+ travel_events.2038.a_your_kill.tt: "Consigues la muerte"
+ travel_events.2038.a_your_kill.desc: "Tu flecha atraviesa perfectamente el corazón del conejo."
+ travel_events.2038.a_their_kill.tt: "[entourage_character.GetShortUINameNoTooltip] consigue la muerte"
+ travel_events.2038.a_their_kill.desc: "El conejo es asesinado por [entourage_character.GetShortUIName]"
+ lucky_rabbits_paw: "Pata de conejo de la suerte"
+ lucky_rabbits_paw_desc: "Una pata de un conejo prístino único en su tipo, derribado en una cacería amistosa con [entourage_character.GetTitledFirstName] en los terrenos de caza de [ROOT.Char.GetCurrentLocation.GetName]."
+ travel_events.2038.b: "#EMP ¡Oh no#!, el sol está en mis ojos!"
+ travel_events.2038.c: "...pft, no tengo tiempo para esto."
   
  #Follow-up hunt outcome 
- travel_events.2039.t: "$travel_event_prefix$ Objetivo más verdadero" #NT!
- travel_events.2039.desc_child_won: "[entourage_character.GetTitledFirstName] corre tras el conejo, con el arco preparado, ajeno al débil farol de mis flechas mal disparadas.\n\nDespués de un poco de lucha con la maleza, [entourage_character.GetTitledFirstNameNoTooltip] gorjea triunfalmente y se lanza hacia adelante, recogiendo el cadáver del prístino animal con una flecha. firmemente alojado en su pequeño torso. Aplaudo mientras [entourage_character.GetSheHe] me sonríe." #NT!
- travel_events.2039.desc_won: "Con el conejo a la vista, nos acercamos lentamente pero con determinación al conejo, apuntando a su pequeño cuerpo mientras muerde un trozo de paja. Tiro de la cuerda y la suelto cuando la flecha se dirige directamente al cuerpo del animal; el impacto repentino lo lanza unos pasos, luego el pequeño cuerpo se desploma en el suelo, inmóvil. Rujo de triunfo y [entourage_character.GetTitledFirstName] se une a mi aclamación. "Buen tiro", grita [entourage_character.GetSheHe], mientras me lanzo hacia adelante para recoger el trofeo." #NT!
- travel_events.2039.desc_lost: "[entourage_character.GetTitledFirstName] está unos pasos delante de mí, mientras nos esforzamos por acercarnos al conejo para disparar. Lucho por seguir el ritmo, mientras [entourage_character.GetSheHe] apunta una flecha al animal y, con un movimiento rápido, la lanza directamente al diminuto cuerpo de la criatura.\n\n[entourage_character.GetFirstNameNoTooltip] hace un gesto de victoria y grita mientras el conejo queda inerte en el suelo. suelo, y [entourage_character.GetSheHe] se apresura a recoger el cadáver. Aplaudo en agradecimiento." #NT!
- travel_events.2039.a: "¡Buen tiro!" #NT!
- travel_events.2039.a_trinket.t: "Baratija obtenida" #NT!
- travel_events.2039.a_win: "¡Esto fue divertido!" #NT!
- travel_events.2039.a_cynical: "He visto peores." #NT!
+ travel_events.2039.t: "$travel_event_prefix$ Objetivo más verdadero"
+ travel_events.2039.desc_child_won: "[entourage_character.GetTitledFirstName] corre tras el conejo, con el arco preparado, ajeno al débil farol de mis flechas mal disparadas.\n\nDespués de un poco de lucha con la maleza, [entourage_character.GetTitledFirstNameNoTooltip] gorjea triunfalmente y se lanza hacia adelante, recogiendo el cadáver del prístino animal con una flecha. firmemente alojado en su pequeño torso. Aplaudo mientras [entourage_character.GetSheHe] me sonríe."
+ travel_events.2039.desc_won: "Con el conejo a la vista, nos acercamos lentamente pero con determinación al conejo, apuntando a su pequeño cuerpo mientras muerde un trozo de paja. Tiro de la cuerda y la suelto cuando la flecha se dirige directamente al cuerpo del animal; el impacto repentino lo lanza unos pasos, luego el pequeño cuerpo se desploma en el suelo, inmóvil. Rujo de triunfo y [entourage_character.GetTitledFirstName] se une a mi aclamación. "Buen tiro", grita [entourage_character.GetSheHe], mientras me lanzo hacia adelante para recoger el trofeo."
+ travel_events.2039.desc_lost: "[entourage_character.GetTitledFirstName] está unos pasos delante de mí, mientras nos esforzamos por acercarnos al conejo para disparar. Lucho por seguir el ritmo, mientras [entourage_character.GetSheHe] apunta una flecha al animal y, con un movimiento rápido, la lanza directamente al diminuto cuerpo de la criatura.\n\n[entourage_character.GetFirstNameNoTooltip] hace un gesto de victoria y grita mientras el conejo queda inerte en el suelo. suelo, y [entourage_character.GetSheHe] se apresura a recoger el cadáver. Aplaudo en agradecimiento."
+ travel_events.2039.a: "¡Buen tiro!"
+ travel_events.2039.a_trinket.t: "Baratija obtenida"
+ travel_events.2039.a_win: "¡Esto fue divertido!"
+ travel_events.2039.a_cynical: "He visto peores."
   
  #The rescued manhunt prisoner from travel_events.2037 turns out to be a psycho 
- travel_events.2040.t: "$travel_event_prefix$ Tomar un descanso" #NT!
- travel_events.2040.intro: "Una noche, mientras estábamos sentados junto a la fogata, miro hacia arriba y me doy cuenta de que estoy solo con [2037_manhunt_prisoner.GetTitledFirstName]. Los ojos de [2037_manhunt_prisoner.GetHerHis|U] reflejan la llama parpadeante mientras [2037_manhunt_prisoner.GetSheHe] se fija en mí.\n\n" #NT!
- travel_events.2040.desc_child: "—¿Por qué ese horrible [2037_county_liege.GetWomanMan] intentó matarte allí atrás? —digo de golpe. [2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] duda por un momento, luego mira hacia otro lado mientras [2037_manhunt_prisoner.GetSheHe] responde:" #NT!
- travel_events.2040.desc: "Realmente nunca pregunté a [2037_manhunt_prisoner.GetHerHim] por qué habían encarcelado a [2037_manhunt_prisoner.GetSheHe], me doy cuenta. Entonces, como si [2037_manhunt_prisoner.GetSheHe] hubiera leído mi mente, [2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] murmura:" #NT!
- travel_events.2040.outro: "\n\n"Era como si [2040_previous_victim.GetHerHis] carne clamara por liberación, ¿sabes?", una sombría nostalgia se arrastraba en la voz de [2037_manhunt_prisoner.GetHerHis]." #NT!
- travel_events.2040.a: "...eso es muy filosófico." #NT!
- travel_events.2040.a_child: "Yo también he hecho cosas malas." #NT!
- travel_events.2040.a.flavor: "¿Quién es más peligroso que un lunático?" #NT!
- travel_events.2040.a.flavor_child: "Estoy seguro de que [2037_manhunt_prisoner.GetSheHe] no me haría daño a #EMP#!,, ¿verdad?" #NT!
- travel_events.2040.a.tt: "[2037_manhunt_prisoner.GetShortUIName] funcionará como tu [GetCourtPositionType('bodyguard_court_position').GetName()] gratis" #NT!
- insane_bodyguard_salary_mod: "Guardaespaldas loco" #NT!
- travel_events.2040.b: "Los asesinos deben estar tras las rejas." #NT!
- travel_events.2040.b_child: "Lastimar a la gente no está bien." #NT!
- travel_events.2040.b.flavor: "Por eso fue encarcelado [2037_manhunt_prisoner.GetSheHe]..." #NT!
- travel_events.2040.b.flavor_child: "[2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] me está asustando..." #NT!
- travel_events.2040.c: "#EMP ¡No puedo permitir que viva un asesino!#!" #NT!
- travel_events.2040.c.flavor: "Ojo por ojo." #NT!
- travel_events.2040.c_slay.t: "Asesino asesinado" #NT!
- travel_events.2040.c_slay.desc: "Tu matas [2037_manhunt_prisoner.GetShortUIName]" #NT!
- travel_events.2040.c_wounded.t: "$travel_events.2001.c_failure.tt$" #NT!
- travel_events.2040.c_wounded.desc: "Matas a [2037_manhunt_prisoner.GetShortUIName], pero resultas herido." #NT!
- travel_events.2040.c_incapable.t: "Gravemente herido" #NT!
- travel_events.2040.c_incapable.desc: "Resultas gravemente herido en la pelea y [2037_manhunt_prisoner.GetShortUIName] escapa." #NT!
- travel_events.2040.c_death.desc: "Tu mueres" #NT!
+ travel_events.2040.t: "$travel_event_prefix$ Tomar un descanso"
+ travel_events.2040.intro: "Una noche, mientras estábamos sentados junto a la fogata, miro hacia arriba y me doy cuenta de que estoy solo con [2037_manhunt_prisoner.GetTitledFirstName]. Los ojos de [2037_manhunt_prisoner.GetHerHis|U] reflejan la llama parpadeante mientras [2037_manhunt_prisoner.GetSheHe] se fija en mí.\n\n"
+ travel_events.2040.desc_child: "—¿Por qué ese horrible [2037_county_liege.GetWomanMan] intentó matarte allí atrás? —digo de golpe. [2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] duda por un momento, luego mira hacia otro lado mientras [2037_manhunt_prisoner.GetSheHe] responde:"
+ travel_events.2040.desc: "Realmente nunca pregunté a [2037_manhunt_prisoner.GetHerHim] por qué habían encarcelado a [2037_manhunt_prisoner.GetSheHe], me doy cuenta. Entonces, como si [2037_manhunt_prisoner.GetSheHe] hubiera leído mi mente, [2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] murmura:"
+ travel_events.2040.outro: "\n\n"Era como si [2040_previous_victim.GetHerHis] carne clamara por liberación, ¿sabes?", una sombría nostalgia se arrastraba en la voz de [2037_manhunt_prisoner.GetHerHis]."
+ travel_events.2040.a: "...eso es muy filosófico."
+ travel_events.2040.a_child: "Yo también he hecho cosas malas."
+ travel_events.2040.a.flavor: "¿Quién es más peligroso que un lunático?"
+ travel_events.2040.a.flavor_child: "Estoy seguro de que [2037_manhunt_prisoner.GetSheHe] no me haría daño a #EMP#!,, ¿verdad?"
+ travel_events.2040.a.tt: "[2037_manhunt_prisoner.GetShortUIName] funcionará como tu [GetCourtPositionType('bodyguard_court_position').GetName()] gratis"
+ insane_bodyguard_salary_mod: "Guardaespaldas loco"
+ travel_events.2040.b: "Los asesinos deben estar tras las rejas."
+ travel_events.2040.b_child: "Lastimar a la gente no está bien."
+ travel_events.2040.b.flavor: "Por eso fue encarcelado [2037_manhunt_prisoner.GetSheHe]..."
+ travel_events.2040.b.flavor_child: "[2037_manhunt_prisoner.GetTitledFirstNameNoTooltip] me está asustando..."
+ travel_events.2040.c: "#EMP ¡No puedo permitir que viva un asesino!#!"
+ travel_events.2040.c.flavor: "Ojo por ojo."
+ travel_events.2040.c_slay.t: "Asesino asesinado"
+ travel_events.2040.c_slay.desc: "Tu matas [2037_manhunt_prisoner.GetShortUIName]"
+ travel_events.2040.c_wounded.t: "$travel_events.2001.c_failure.tt$"
+ travel_events.2040.c_wounded.desc: "Matas a [2037_manhunt_prisoner.GetShortUIName], pero resultas herido."
+ travel_events.2040.c_incapable.t: "Gravemente herido"
+ travel_events.2040.c_incapable.desc: "Resultas gravemente herido en la pelea y [2037_manhunt_prisoner.GetShortUIName] escapa."
+ travel_events.2040.c_death.desc: "Tu mueres"
   
  #Ruler Events# 
  #Visiting Ruler: Someone is trying to assassinate the Target Ruler! 
- travel_events_life_or_death.t: "Vida o muerte" #NT!
- travel_events.2100.t: "$travel_event_prefix$ $travel_events_life_or_death.t$" #NT!
- travel_events.2100.desc_intro: "Estamos avanzando a buen ritmo en nuestros esfuerzos por llegar a [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName], y" #NT!
- travel_events.2100.desc_intro_trees: "Los espesos bosques de [ROOT.Char.GetCurrentLocation.GetName] no son rival para el ingenio de nuestro guía local.\n\nCuando los árboles se abren en abanico, diviso un segundo grupo de viajeros, atravesando adelante." #NT!
- travel_events.2100.desc_intro_hills: "El viento sopla a nuestra espalda mientras atravesamos las laderas de [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l].\n\nA bastante distancia por delante de nosotros, otro séquito también avanza por la ladera." #NT!
- travel_events.2100.desc_intro_flats: "Las llanuras de [ROOT.Char.GetCurrentLocation.GetName] nos permiten bajar la guardia por unos momentos.\n\nCuando llegamos a la cima del valle y miramos hacia abajo, noto que otro séquito avanza diligentemente." #NT!
- travel_events.2100.desc_relation_in: "Mientras entrecierro los ojos, me doy cuenta de que el gobernante de ese séquito en particular es" #NT!
- travel_events.2100.desc_negative_segway: "El [murder_target.Custom('InsultAdjectiveGeneric')]" #NT!
- travel_events.2100.desc_positive_segway: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murder_target'))]" #NT!
- travel_events.2100.desc_relation_out: "[murder_target.GetTitledFirstName]." #NT!
- travel_events.2100.desc_no_relation_traveller: "Parecen estar contemplando el paisaje, prácticamente retozando y recorriendo el área local." #NT!
- travel_events.2100.desc_no_relation_liege: "Parecen estar inspeccionando el área, tomando notas y discutiendo el paisaje." #NT!
- travel_events.2100.desc_trees: "Pero algo no está bien. Al recorrer la línea de árboles, también detecto un grupo de figuras sospechosamente envueltas en capas, aparentemente esperando que el grupo viajero se acercara." #NT!
- travel_events.2100.desc_hills: "Pero ¿qué son esos jinetes enmascarados, con las armas desenvainadas, que se acercan desde el oeste...?" #NT!
- travel_events.2100.desc_flats: "Aún observando al grupo, ¡parecería como si jinetes enmascarados con armas en alto se estuvieran acercando rápidamente desde el este!" #NT!
- travel_events.2100.desc_outro: "\n\nEsto parece una emboscada, y" #NT!
- travel_events.2100.desc_outro_negative: "No me atrevo. ¿Debo intervenir en lo que parece ser una muerte segura para [murder_target.GetTitledFirstNameNoTooltip]?" #NT!
- travel_events.2100.desc_outro_positive: "No hay ninguna duda en mi mente. ¡Debo guardar [murder_target.GetTitledFirstNameNoTooltip]!" #NT!
- travel_events.2100.desc_outro_default: "No me atrevo. ¿Es realmente mi responsabilidad salvaguardar a otros viajeros?" #NT!
- travel_events.2100.a: "¿Por qué debería involucrarse #EMP I#!?" #NT!
- travel_events.2100.a_rival: "Buena suerte." #NT!
- travel_events.2100.a_nemesis: "#EMP ¡Por fin!#!" #NT!
- travel_events.2100.a_stealthy_entourage.tt: "Entorno oculto" #NT!
- travel_events.2100.a_stealthy_entourage.desc: "Tú y tu séquito permanecéis ocultos" #NT!
- travel_events.2100.a_stealthy_outcome.tt: "Si [murder_target.GetShortUIName] sobrevive, [murder_target.GetSheHe] nunca sabrá que estuviste aquí." #NT!
- travel_events.2100.a_nonstealthy_entourage.tt: "Entorno expuesto" #NT!
- travel_events.2100.a_nonstealthy_entourage.desc: "Su presencia se nota por [murder_target.GetShortUIName]" #NT!
- travel_events.2100.a_nonstealthy_outcome.tt: "Si [murder_target.GetShortUIName] sobrevive, [murder_target.GetSheHe] recordará esto" #NT!
- travel_events.2100.b: "¡Debo actuar!" #NT!
- travel_events.2100.b.tt: "Intervienes en el intento de asesinato de [murder_target.GetShortUIName]" #NT!
- travel_events.2100.b_outcome_tt: "[murder_target.GetShortUIName] recordará esto" #NT!
+ travel_events_life_or_death.t: "Vida o muerte"
+ travel_events.2100.t: "$travel_event_prefix$ $travel_events_life_or_death.t$"
+ travel_events.2100.desc_intro: "Estamos avanzando a buen ritmo en nuestros esfuerzos por llegar a [ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName], y"
+ travel_events.2100.desc_intro_trees: "Los espesos bosques de [ROOT.Char.GetCurrentLocation.GetName] no son rival para el ingenio de nuestro guía local.\n\nCuando los árboles se abren en abanico, diviso un segundo grupo de viajeros, atravesando adelante."
+ travel_events.2100.desc_intro_hills: "El viento sopla a nuestra espalda mientras atravesamos las laderas de [ROOT.Char.GetCurrentLocation.GetName] [ROOT.Char.GetCurrentLocation.GetTerrain.GetNameNoTooltip|l].\n\nA bastante distancia por delante de nosotros, otro séquito también avanza por la ladera."
+ travel_events.2100.desc_intro_flats: "Las llanuras de [ROOT.Char.GetCurrentLocation.GetName] nos permiten bajar la guardia por unos momentos.\n\nCuando llegamos a la cima del valle y miramos hacia abajo, noto que otro séquito avanza diligentemente."
+ travel_events.2100.desc_relation_in: "Mientras entrecierro los ojos, me doy cuenta de que el gobernante de ese séquito en particular es"
+ travel_events.2100.desc_negative_segway: "El [murder_target.Custom('InsultAdjectiveGeneric')]"
+ travel_events.2100.desc_positive_segway: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('murder_target'))]"
+ travel_events.2100.desc_relation_out: "[murder_target.GetTitledFirstName]."
+ travel_events.2100.desc_no_relation_traveller: "Parecen estar contemplando el paisaje, prácticamente retozando y recorriendo el área local."
+ travel_events.2100.desc_no_relation_liege: "Parecen estar inspeccionando el área, tomando notas y discutiendo el paisaje."
+ travel_events.2100.desc_trees: "Pero algo no está bien. Al recorrer la línea de árboles, también detecto un grupo de figuras sospechosamente envueltas en capas, aparentemente esperando que el grupo viajero se acercara."
+ travel_events.2100.desc_hills: "Pero ¿qué son esos jinetes enmascarados, con las armas desenvainadas, que se acercan desde el oeste...?"
+ travel_events.2100.desc_flats: "Aún observando al grupo, ¡parecería como si jinetes enmascarados con armas en alto se estuvieran acercando rápidamente desde el este!"
+ travel_events.2100.desc_outro: "\n\nEsto parece una emboscada, y"
+ travel_events.2100.desc_outro_negative: "No me atrevo. ¿Debo intervenir en lo que parece ser una muerte segura para [murder_target.GetTitledFirstNameNoTooltip]?"
+ travel_events.2100.desc_outro_positive: "No hay ninguna duda en mi mente. ¡Debo guardar [murder_target.GetTitledFirstNameNoTooltip]!"
+ travel_events.2100.desc_outro_default: "No me atrevo. ¿Es realmente mi responsabilidad salvaguardar a otros viajeros?"
+ travel_events.2100.a: "¿Por qué debería involucrarse #EMP I#!?"
+ travel_events.2100.a_rival: "Buena suerte."
+ travel_events.2100.a_nemesis: "#EMP ¡Por fin!#!"
+ travel_events.2100.a_stealthy_entourage.tt: "Entorno oculto"
+ travel_events.2100.a_stealthy_entourage.desc: "Tú y tu séquito permanecéis ocultos"
+ travel_events.2100.a_stealthy_outcome.tt: "Si [murder_target.GetShortUIName] sobrevive, [murder_target.GetSheHe] nunca sabrá que estuviste aquí."
+ travel_events.2100.a_nonstealthy_entourage.tt: "Entorno expuesto"
+ travel_events.2100.a_nonstealthy_entourage.desc: "Su presencia se nota por [murder_target.GetShortUIName]"
+ travel_events.2100.a_nonstealthy_outcome.tt: "Si [murder_target.GetShortUIName] sobrevive, [murder_target.GetSheHe] recordará esto"
+ travel_events.2100.b: "¡Debo actuar!"
+ travel_events.2100.b.tt: "Intervienes en el intento de asesinato de [murder_target.GetShortUIName]"
+ travel_events.2100.b_outcome_tt: "[murder_target.GetShortUIName] recordará esto"
   
  #Target Ruler: You are being assassinated 
- travel_events.2101.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, ¡Asesinos!" #NT!
- travel_events.2101.desc: "Mientras se contemplan las tierras de [ROOT.Char.GetCurrentLocation.GetName], el sol está alto y hay una ligera brisa. Miro a mi alrededor y reflexiono sobre el hecho de que el área está bastante desolada, salvo algunas aves migratorias que se encuentran en lo alto del cielo.\n\nMientras me inclino para ajustarme la bota, de repente me pongo de pie de repente cuando oigo a unos jinetes acercándose. Las figuras encapuchadas parecen venir de todas direcciones, y antes de darme cuenta, uno de los villanos está justo frente a mí, con la espada desenvainada y lanzándose hacia mi garganta." #NT!
- travel_events.2101.a: "¡Cómo te atreves!" #NT!
- travel_events.2101.a_guards: "[bodyguard.GetNameNoTooltip]!!" #NT!
- travel_events.2101.a_assassin_death.tt: "Asesino asesinado" #NT!
- travel_events.2101.a_bodyguard_kill.desc: "El asesino es asesinado por [bodyguard.GetShortUIName]" #NT!
- travel_events.2101.a_bodyguard_wounded.tt: "Guardaespaldas herido" #NT!
- travel_events.2101.a_bodyguard_wounded.desc: "[bodyguard.GetShortUIName] mata al asesino pero resulta herido" #NT!
- travel_events.2101.a_assassin_death.desc: "Matas al asesino" #NT!
- travel_events.2101.a_death.desc: "Tu mueres" #NT!
- travel_events.2101.a_ruler_assassinated.tt: "[murder_target.GetShortUIName] Murió" #NT!
- travel_events.2101.a_ruler_assassinated.desc: "[murder_target.GetShortUIName] fue asesinado mientras visitaba a [visiting_ruler.MakeScope.Var('assassination_location').GetProvince.GetName]" #NT!
- travel_events.2101.a_ruler_survived.tt: "[murder_target.GetShortUIName] sobrevivió" #NT!
- travel_events.2101.a_ruler_survived.desc: "[murder_target.GetShortUIName] sobrevivió al intento de asesinato en [visiting_ruler.MakeScope.Var('assassination_location').GetProvince.GetName]" #NT!
+ travel_events.2101.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, ¡Asesinos!"
+ travel_events.2101.desc: "Mientras se contemplan las tierras de [ROOT.Char.GetCurrentLocation.GetName], el sol está alto y hay una ligera brisa. Miro a mi alrededor y reflexiono sobre el hecho de que el área está bastante desolada, salvo algunas aves migratorias que se encuentran en lo alto del cielo.\n\nMientras me inclino para ajustarme la bota, de repente me pongo de pie de repente cuando oigo a unos jinetes acercándose. Las figuras encapuchadas parecen venir de todas direcciones, y antes de darme cuenta, uno de los villanos está justo frente a mí, con la espada desenvainada y lanzándose hacia mi garganta."
+ travel_events.2101.a: "¡Cómo te atreves!"
+ travel_events.2101.a_guards: "[bodyguard.GetNameNoTooltip]!!"
+ travel_events.2101.a_assassin_death.tt: "Asesino asesinado"
+ travel_events.2101.a_bodyguard_kill.desc: "El asesino es asesinado por [bodyguard.GetShortUIName]"
+ travel_events.2101.a_bodyguard_wounded.tt: "Guardaespaldas herido"
+ travel_events.2101.a_bodyguard_wounded.desc: "[bodyguard.GetShortUIName] mata al asesino pero resulta herido"
+ travel_events.2101.a_assassin_death.desc: "Matas al asesino"
+ travel_events.2101.a_death.desc: "Tu mueres"
+ travel_events.2101.a_ruler_assassinated.tt: "[murder_target.GetShortUIName] Murió"
+ travel_events.2101.a_ruler_assassinated.desc: "[murder_target.GetShortUIName] fue asesinado mientras visitaba a [visiting_ruler.MakeScope.Var('assassination_location').GetProvince.GetName]"
+ travel_events.2101.a_ruler_survived.tt: "[murder_target.GetShortUIName] sobrevivió"
+ travel_events.2101.a_ruler_survived.desc: "[murder_target.GetShortUIName] sobrevivió al intento de asesinato en [visiting_ruler.MakeScope.Var('assassination_location').GetProvince.GetName]"
   
  #Target Ruler: Wait a minute, didn't I see Visiting Ruler?? 
- travel_events.2102.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Traicionado" #NT!
- travel_events.2102.desc: "La pelea dura lo que parecen horas, pero en realidad sólo dura un par de minutos. Los asesinos son rechazados y sobrevivimos ilesos.\n\nRecorro el campo de batalla y encuentro evidencia del complot de asesinato que se inventó contra mí en uno de los cadáveres. En mi elevado estado de conciencia también noto que una pancarta desaparece de la vista. [visiting_ruler.GetTitledFirstName]?" #NT!
- travel_events.2102.desc_negative: "\n\nPor supuesto. Sería absurdo de mi parte esperar el apoyo de alguien como [visiting_ruler.GetFirstNameNoTooltip] y [visiting_ruler.GetHerHis]. Maldita sea la tumba de [visiting_ruler.GetHerHis]." #NT!
- travel_events.2102.desc_positive: "\n\n¿Cómo... podría [visiting_ruler.GetSheHe]? Yo... esperaba más de [visiting_ruler.GetHerHim]. Mis ojos están medio cerrados porque el aguijón de esta traición me hiere más que cualquier espada." #NT!
- travel_events.2102.desc_default: "\n\n[visiting_ruler.GetSheHe|U] vio los acontecimientos que ocurrían sin ayudarme en mi momento de necesidad? Esta postura agresiva y desinteresada demuestra en quién se puede o no confiar." #NT!
- travel_events.2102.a: "Esto realmente habla del carácter [visiting_ruler.GetTitledFirstNamePossessiveNoTooltip] [visiting_ruler.Custom('InsultAdjectiveGeneric')]." #NT!
+ travel_events.2102.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Traicionado"
+ travel_events.2102.desc: "La pelea dura lo que parecen horas, pero en realidad sólo dura un par de minutos. Los asesinos son rechazados y sobrevivimos ilesos.\n\nRecorro el campo de batalla y encuentro evidencia del complot de asesinato que se inventó contra mí en uno de los cadáveres. En mi elevado estado de conciencia también noto que una pancarta desaparece de la vista. [visiting_ruler.GetTitledFirstName]?"
+ travel_events.2102.desc_negative: "\n\nPor supuesto. Sería absurdo de mi parte esperar el apoyo de alguien como [visiting_ruler.GetFirstNameNoTooltip] y [visiting_ruler.GetHerHis]. Maldita sea la tumba de [visiting_ruler.GetHerHis]."
+ travel_events.2102.desc_positive: "\n\n¿Cómo... podría [visiting_ruler.GetSheHe]? Yo... esperaba más de [visiting_ruler.GetHerHim]. Mis ojos están medio cerrados porque el aguijón de esta traición me hiere más que cualquier espada."
+ travel_events.2102.desc_default: "\n\n[visiting_ruler.GetSheHe|U] vio los acontecimientos que ocurrían sin ayudarme en mi momento de necesidad? Esta postura agresiva y desinteresada demuestra en quién se puede o no confiar."
+ travel_events.2102.a: "Esto realmente habla del carácter [visiting_ruler.GetTitledFirstNamePossessiveNoTooltip] [visiting_ruler.Custom('InsultAdjectiveGeneric')]."
   
  #Visiting Ruler: Letter event - Target Ruler knows you what you did (or rather, didn't do) 
- travel_events.2103.t: "[murder_target.Custom2('AppropriateGreetingNegative', ROOT.Char )]" #NT!
- travel_events.2103.desc_intro: "[murder_target.Custom2('NegativeSupplimentaryGreeting', ROOT.Char )]" #NT!
- travel_events.2103.desc_negative: "\n\nNo esperaba nada menos de ti que el deseo de ver mi último aliento desvanecerse en las tierras salvajes de [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l].\n\nVerdaderamente saborearé el día en que la chispa de la vida finalmente abandone esos pozos negros a los que te refieres como ojos, mis [visiting_ruler.Custom('InsultAdjectiveGeneric')] [murder_target.Custom2('RelationToMe', SCOPE.sC( 'visiting_ruler' ))]." #NT!
- travel_events.2103.desc_positive: "\n\n¿Cómo pudiste, mi [murder_target.Custom2('RelationToMe', SCOPE.sC( 'visiting_ruler' ))]? ¿Cómo pudiste darme por muerto en medio de [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]? Lo recordaré, de eso puedes estar seguro." #NT!
- travel_events.2103.desc_default: "\n\n[ROOT.Char.GetTitledFirstName], espero la decencia humana normal y el respeto por la vida como cualquier persona buena y fiel. El hecho de que me hayas dejado por muerto en medio de [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l], lamentablemente, habla de tu carácter como alguien que no teme a Dios [ROOT.Char.GetWomanMan]. Lo recordaré." #NT!
- travel_events.2103.a: "Bueno, [murder_target.GetSheHe] #EMP sobrevivió#! después de todo." #NT!
+ travel_events.2103.t: "[murder_target.Custom2('AppropriateGreetingNegative', ROOT.Char )]"
+ travel_events.2103.desc_intro: "[murder_target.Custom2('NegativeSupplimentaryGreeting', ROOT.Char )]"
+ travel_events.2103.desc_negative: "\n\nNo esperaba nada menos de ti que el deseo de ver mi último aliento desvanecerse en las tierras salvajes de [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l].\n\nVerdaderamente saborearé el día en que la chispa de la vida finalmente abandone esos pozos negros a los que te refieres como ojos, mis [visiting_ruler.Custom('InsultAdjectiveGeneric')] [murder_target.Custom2('RelationToMe', SCOPE.sC( 'visiting_ruler' ))]."
+ travel_events.2103.desc_positive: "\n\n¿Cómo pudiste, mi [murder_target.Custom2('RelationToMe', SCOPE.sC( 'visiting_ruler' ))]? ¿Cómo pudiste darme por muerto en medio de [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l]? Lo recordaré, de eso puedes estar seguro."
+ travel_events.2103.desc_default: "\n\n[ROOT.Char.GetTitledFirstName], espero la decencia humana normal y el respeto por la vida como cualquier persona buena y fiel. El hecho de que me hayas dejado por muerto en medio de [ROOT.Var('assassination_location').GetProvince.GetName] [ROOT.Var('assassination_location').GetProvince.GetTerrain.GetNameNoTooltip|l], lamentablemente, habla de tu carácter como alguien que no teme a Dios [ROOT.Char.GetWomanMan]. Lo recordaré."
+ travel_events.2103.a: "Bueno, [murder_target.GetSheHe] #EMP sobrevivió#! después de todo."
   
  #Visiting Ruler: You heroically thwart the assassination of Target Ruler 
- travel_events.2104.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Cómo salvar una vida" #NT!
- travel_events.2104.desc: "Mi séquito y yo nos lanzamos de cabeza hacia los posibles asesinos, tomándolos por sorpresa por completo. ¿Qué tan incompetente tienes que ser para no tener una vista clara de tu trasero?\n\nAtravesamos fácilmente a los pocos que se resisten y el resto huye hacia la naturaleza. Miro hacia arriba y veo a [murder_target.GetTitledFirstName] mirándome, con los ojos muy abiertos y la boca ligeramente abierta.\n\nCuando [murder_target.GetSheHe] se recupera, los rasgos faciales de [murder_target.GetHerHis] se ajustan, pero [murder_target.GetSheHe] todavía parece sorprendido y agradecido por mi intervención. [murder_target.GetSheHe|U] me hace señas para que vaya." #NT!
- travel_events.2104.a: "Esa es mi buena acción del día." #NT!
- travel_events.2104.a_shy: "Eso era lo correcto que hacer." #NT!
+ travel_events.2104.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Cómo salvar una vida"
+ travel_events.2104.desc: "Mi séquito y yo nos lanzamos de cabeza hacia los posibles asesinos, tomándolos por sorpresa por completo. ¿Qué tan incompetente tienes que ser para no tener una vista clara de tu trasero?\n\nAtravesamos fácilmente a los pocos que se resisten y el resto huye hacia la naturaleza. Miro hacia arriba y veo a [murder_target.GetTitledFirstName] mirándome, con los ojos muy abiertos y la boca ligeramente abierta.\n\nCuando [murder_target.GetSheHe] se recupera, los rasgos faciales de [murder_target.GetHerHis] se ajustan, pero [murder_target.GetSheHe] todavía parece sorprendido y agradecido por mi intervención. [murder_target.GetSheHe|U] me hace señas para que vaya."
+ travel_events.2104.a: "Esa es mi buena acción del día."
+ travel_events.2104.a_shy: "Eso era lo correcto que hacer."
   
  #Target Ruler: Visiting Ruler thwarted your assassination 
- travel_events.2105.t: "$travel_events.2104.t$" #NT!
- travel_events.2105.desc_intro: "Mientras inspeccionamos las tierras de [ROOT.Char.GetCurrentLocation.GetName], de repente somos invadidos por asesinos. Y, aparentemente de la nada, el séquito de [visiting_ruler.GetTitledFirstName] y [visiting_ruler.GetHerHis] viene cabalgando, de cabeza y con las armas en alto, ¡directamente hacia la multitud de asesinos!\n\n" #NT!
- travel_events.2105.desc_negative: "I watch in astonishment as my [ROOT.Char.Custom2('GetRivalNemesis', SCOPE.sC('visiting_ruler'))] slashes through assassins left and right, the rest of them running off in terror. [visiting_ruler.GetFirstNameNoTooltip] circles back, then stops right in front of me: "Observo con asombro cómo mi [ROOT.Char.Custom2('GetRivalNemesis', SCOPE.sC('visiting_ruler'))] atraviesa a los asesinos a izquierda y derecha, mientras el resto huye aterrorizado. [visiting_ruler.GetFirstNameNoTooltip] da vueltas hacia atrás, luego se detiene justo frente a mí: "Parece que te vendría bien la ayuda", [visiting_ruler.GetSheHe] gruñe.\n\nDudo. Si bien [visiting_ruler.GetSheHe] #EMP#! simplemente me salvó el pellejo, ¿cómo podría confiar en [visiting_ruler.GetHerHim]...? Asiento de mala gana." #NT!
- travel_events.2105.desc_positive: "My eyes are filled with joy as I watch my savior and [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('visiting_ruler'))] [visiting_ruler.GetFirstNameNoTooltip] drive off the assassins, then make a wide circle and return back to my entourage: "Mis ojos se llenan de alegría mientras observo a mi salvador y [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('visiting_ruler'))] [visiting_ruler.GetFirstNameNoTooltip] ahuyentar a los asesinos, luego hago un amplio círculo y regreso a mi séquito: "¡Mi [visiting_ruler.Custom2('RelationToMe', ROOT.Char)]! ¿Cómo te va?" [visiting_ruler.GetSheHe|U] me sonríe." #NT!
- travel_events.2105.desc_default: "El acto de ayudar a un extraño (a todos los efectos) necesitado demuestra verdaderamente que existe un plan divino. Esto debe ser una señal de [ROOT.Char.GetFaith.HighGodName] de que nuestro viaje ha sido bendecido.\n\nMi salvador gira hacia mí y asiente cortésmente. Sonrío en respuesta y digo un "¡[ROOT.Char.GetFaith.HighGodName] te bendiga, mi [visiting_ruler.GetLadyLord]!"" #NT!
- travel_events.2105.a: "¡Eres un verdadero espíritu noble!" #NT!
- travel_events.2105.a_cynical: "Aprecio el sentimiento." #NT!
- travel_events.2105.a.tt: "¡[visiting_ruler.GetShortUIName] acudió en tu ayuda!" #NT!
+ travel_events.2105.t: "$travel_events.2104.t$"
+ travel_events.2105.desc_intro: "Mientras inspeccionamos las tierras de [ROOT.Char.GetCurrentLocation.GetName], de repente somos invadidos por asesinos. Y, aparentemente de la nada, el séquito de [visiting_ruler.GetTitledFirstName] y [visiting_ruler.GetHerHis] viene cabalgando, de cabeza y con las armas en alto, ¡directamente hacia la multitud de asesinos!\n\n"
+ travel_events.2105.desc_negative:0 "I watch in astonishment as my [ROOT.Char.Custom2('GetRivalNemesis', SCOPE.sC('visiting_ruler'))] slashes through assassins left and right, the rest of them running off in terror. [visiting_ruler.GetFirstNameNoTooltip] circles back, then stops right in front of me: "Observo con asombro cómo mi [ROOT.Char.Custom2('GetRivalNemesis', SCOPE.sC('visiting_ruler'))] corta a asesinos a diestro y siniestro, mientras el resto huye aterrorizado. [visiting_ruler.GetFirstNameNoTooltip] da un rodeo y se detiene justo delante de mí: "Parece que te vendría bien la ayuda", gruñe [visiting_ruler.GetSheHe].\n\nDudo. Aunque [visiting_ruler.GetSheHe] #EMP acaba de salvarme el pellejo, ¿cómo podría confiar en [visiting_ruler.GetHerHim]...? Asiento con la cabeza a regañadientes." #NT!
+ travel_events.2105.desc_positive:0 "My eyes are filled with joy as I watch my savior and [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('visiting_ruler'))] [visiting_ruler.GetFirstNameNoTooltip] drive off the assassins, then make a wide circle and return back to my entourage: "Mis ojos se llenan de alegría mientras veo a mi salvador y [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('visiting_ruler'))] [visiting_ruler.GetFirstNameNoTooltip] ahuyentar a los asesinos, luego hacer un amplio círculo y regresar con mi séquito: "¡Mi [visiting_ruler.Custom2('RelationToMe', ROOT.Char)]! ¿Cómo estás?" [visiting_ruler.GetSheHe|U] me sonríe." #NT!
+ travel_events.2105.desc_default: "El acto de ayudar a un extraño (a todos los efectos) necesitado demuestra verdaderamente que existe un plan divino. Esto debe ser una señal de [ROOT.Char.GetFaith.HighGodName] de que nuestro viaje ha sido bendecido.\n\nMi salvador gira hacia mí y asiente cortésmente. Sonrío en respuesta y digo un "¡[ROOT.Char.GetFaith.HighGodName] te bendiga, mi [visiting_ruler.GetLadyLord]!""
+ travel_events.2105.a: "¡Eres un verdadero espíritu noble!"
+ travel_events.2105.a_cynical: "Aprecio el sentimiento."
+ travel_events.2105.a.tt: "¡[visiting_ruler.GetShortUIName] acudió en tu ayuda!"
   
  #County Liege: You notice a Travelling Ruler coming under attack 
- travel_events.2107.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, refugio seguro" #NT!
- travel_events.2107.desc_intro_plains: "Cuando el sol comienza a ponerse, miro por encima del [holding_location.GetTerrain.GetNameNoTooltip|l] desde mi habitación en [holding_location.GetName]. A lo lejos, un grupo de viajeros atraviesa el terreno cubierto de hierba que se extiende delante de ellos." #NT!
- travel_events.2107.desc_intro_desert: "Una brisa sorda juega en la arena afuera de [holding_location.GetName], enviando pequeñas bocanadas de tierra arremolinándose en todas direcciones. Mientras observo el sol errante fuera del torreón, noto un grupo de viajeros caminando diligentemente por la arena." #NT!
- travel_events.2107.desc_intro_wetlands: "A medida que el sol se pone, el [holding_location.GetTerrain.GetNameNoTooltip|l] afuera de [holding_location.GetName] tiene un tono distintivo esta noche. Desde la santidad de mi torre observo los colores cambiantes y la oscuridad que se acerca, y mientras lo hago noto un grupo de viajeros muy lejos de la fortaleza, atravesando los caminos embarrados." #NT!
- travel_events.2107.desc_intro_forest: "A medida que se pone el sol, el bosque que rodea [holding_location.GetName] se vuelve más oscuro. Desde la santidad de mi torre observo la luz del atardecer y al hacerlo noto a un grupo de viajeros que atraviesan el borde del bosque." #NT!
- travel_events.2107.desc_intro_mountains: "El aire es fresco cuando asomo la cabeza al aire libre, mirando hacia el valle debajo de [holding_location.GetName]. Aprecio la diferencia de temperatura mientras observo la vida salvaje y, noto, a un grupo de viajeros que avanzan diligentemente por el valle." #NT!
- travel_events.2107.desc_intro_hills: "La suave pendiente de las colinas alrededor de [holding_location.GetName] es agradable a la vista cuando miro hacia afuera y bajo las colinas hasta el pequeño estanque que se encuentra debajo. Un grupo de viajeros aparentemente está dando la vuelta al estanque, avanzando hacia su destino." #NT!
- travel_events.2107.desc_intro_jungle: "La jungla es cálida y húmeda como de costumbre, y desde la santidad de mi torre miro hacia los árboles de arriba [holding_location.GetName] para echar un vistazo a los coloridos pájaros que anidan arriba. Por el rabillo del ojo, noto a un grupo de viajeros atravesando la maleza hacia el norte." #NT!
- travel_events.2107.desc_intro: "El cielo está prácticamente despejado mientras paso la tarde en las afueras de [holding_location.GetName]. En el camino de regreso al holding, observo que un grupo de viajeros se dirige apenas fuera de los límites de la ciudad." #NT!
- travel_events.2107.desc_segway: "\n\nCuando miro más de cerca, me doy cuenta de que el líder del grupo no es otro que el séquito de [travelling_ruler.GetTitledFirstName] y [travelling_ruler.GetHerHis]. Estudiando casualmente sus movimientos, instintivamente miro hacia arriba cuando un enjambre de jinetes se acerca rápidamente al grupo pacífico.\n\nA medida que los jinetes se acercan, comienzan a levantar sus armas." #NT!
- travel_events.2107.desc_outro_negative: "Esto debería ser interesante." #NT!
- travel_events.2107.desc_outro_positive: "¡Debo hacer algo!" #NT!
- travel_events.2107.desc_outro_family: "La sangre es más espesa que el agua, ¿o eso dicen?" #NT!
- travel_events.2107.desc_outro: "Los viajeros están claramente a punto de ser asaltados, en #EMP my#! tierra." #NT!
- travel_events.2107.a: "Es nuestro deber intervenir." #NT!
- travel_events.2107.a_christian: "Es lo que haría cualquier buen [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]." #NT!
- travel_events.2107.a_outcome_tt: "[travelling_ruler.GetShortUIName] recordará esto" #NT!
- travel_events.2107.b: "Esto es demasiado peligroso." #NT!
- travel_events.2107.b_negative: "Buen viaje." #NT!
- travel_events.2107.b_outcome_tt: "Si [travelling_ruler.GetShortUIName] sobrevive, [travelling_ruler.GetSheHe] recordará esto" #NT!
+ travel_events.2107.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, refugio seguro"
+ travel_events.2107.desc_intro_plains: "Cuando el sol comienza a ponerse, miro por encima del [holding_location.GetTerrain.GetNameNoTooltip|l] desde mi habitación en [holding_location.GetName]. A lo lejos, un grupo de viajeros atraviesa el terreno cubierto de hierba que se extiende delante de ellos."
+ travel_events.2107.desc_intro_desert: "Una brisa sorda juega en la arena afuera de [holding_location.GetName], enviando pequeñas bocanadas de tierra arremolinándose en todas direcciones. Mientras observo el sol errante fuera del torreón, noto un grupo de viajeros caminando diligentemente por la arena."
+ travel_events.2107.desc_intro_wetlands: "A medida que el sol se pone, el [holding_location.GetTerrain.GetNameNoTooltip|l] afuera de [holding_location.GetName] tiene un tono distintivo esta noche. Desde la santidad de mi torre observo los colores cambiantes y la oscuridad que se acerca, y mientras lo hago noto un grupo de viajeros muy lejos de la fortaleza, atravesando los caminos embarrados."
+ travel_events.2107.desc_intro_forest: "A medida que se pone el sol, el bosque que rodea [holding_location.GetName] se vuelve más oscuro. Desde la santidad de mi torre observo la luz del atardecer y al hacerlo noto a un grupo de viajeros que atraviesan el borde del bosque."
+ travel_events.2107.desc_intro_mountains: "El aire es fresco cuando asomo la cabeza al aire libre, mirando hacia el valle debajo de [holding_location.GetName]. Aprecio la diferencia de temperatura mientras observo la vida salvaje y, noto, a un grupo de viajeros que avanzan diligentemente por el valle."
+ travel_events.2107.desc_intro_hills: "La suave pendiente de las colinas alrededor de [holding_location.GetName] es agradable a la vista cuando miro hacia afuera y bajo las colinas hasta el pequeño estanque que se encuentra debajo. Un grupo de viajeros aparentemente está dando la vuelta al estanque, avanzando hacia su destino."
+ travel_events.2107.desc_intro_jungle: "La jungla es cálida y húmeda como de costumbre, y desde la santidad de mi torre miro hacia los árboles de arriba [holding_location.GetName] para echar un vistazo a los coloridos pájaros que anidan arriba. Por el rabillo del ojo, noto a un grupo de viajeros atravesando la maleza hacia el norte."
+ travel_events.2107.desc_intro: "El cielo está prácticamente despejado mientras paso la tarde en las afueras de [holding_location.GetName]. En el camino de regreso al holding, observo que un grupo de viajeros se dirige apenas fuera de los límites de la ciudad."
+ travel_events.2107.desc_segway: "\n\nCuando miro más de cerca, me doy cuenta de que el líder del grupo no es otro que el séquito de [travelling_ruler.GetTitledFirstName] y [travelling_ruler.GetHerHis]. Estudiando casualmente sus movimientos, instintivamente miro hacia arriba cuando un enjambre de jinetes se acerca rápidamente al grupo pacífico.\n\nA medida que los jinetes se acercan, comienzan a levantar sus armas."
+ travel_events.2107.desc_outro_negative: "Esto debería ser interesante."
+ travel_events.2107.desc_outro_positive: "¡Debo hacer algo!"
+ travel_events.2107.desc_outro_family: "La sangre es más espesa que el agua, ¿o eso dicen?"
+ travel_events.2107.desc_outro: "Los viajeros están claramente a punto de ser asaltados, en #EMP my#! tierra."
+ travel_events.2107.a: "Es nuestro deber intervenir."
+ travel_events.2107.a_christian: "Es lo que haría cualquier buen [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]."
+ travel_events.2107.a_outcome_tt: "[travelling_ruler.GetShortUIName] recordará esto"
+ travel_events.2107.b: "Esto es demasiado peligroso."
+ travel_events.2107.b_negative: "Buen viaje."
+ travel_events.2107.b_outcome_tt: "Si [travelling_ruler.GetShortUIName] sobrevive, [travelling_ruler.GetSheHe] recordará esto"
   
  #Travelling Ruler: You are saved by County Liege 
- travel_events.2108.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Guardado" #NT!
- travel_events.2108.desc_intro: "Al atravesar el [holding_location.GetTerrain.GetNameNoTooltip|l] en las afueras de [holding_location.GetName], de repente somos atacados por un enjambre de jinetes bandidos en busca de sangre. ¡Otro grupo de ciclistas se acerca rápidamente desde el holding cercano, liderados por [province_liege.GetTitledFirstName]!" #NT!
- travel_events.2108.desc_negative: "\n\nContengo mi sorpresa por ahora, ya que ser salvado por nada menos que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('province_liege'))] ¡ciertamente no era algo que esperaba!" #NT!
- travel_events.2108.desc_positive: "\n\nMi corazón se calienta cuando mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('province_liege'))] [province_liege.GetFirstNameNoTooltip] lidera la carga de frente hacia la retaguardia desprotegida del grupo de sinvergüenzas." #NT!
- travel_events.2108.desc: "\n\nEstoy muy gratamente sorprendido por el comportamiento altruista del [province_liege.GetTitleAsNameNoTooltip] local, y elogio a [ROOT.Char.GetFaith.HighGodName] porque llegaron justo a tiempo." #NT!
- travel_events.2108.desc_segway: "\n\n[province_liege.GetFirstNameNoTooltip] da vueltas con una sonrisa victoriosa en la cara de [province_liege.GetHerHis]:" #NT!
- travel_events.2108.desc_outro_negative: "—No podía dejar que nadie más tuviera el placer de terminar con mi [province_liege.Custom2('RelationToMe', ROOT.Char)], ¿o sí? —Dudo por un momento y luego respondo." #NT!
- travel_events.2108.desc_outro_positive: ""¿Estás herido? Únase a nosotros para recibir hospitalidad en [holding_location.GetNameNoTooltip], una vez que este desastre esté limpio"." #NT!
- travel_events.2108.desc_outro: ""¡Deberías unirte a nosotros para disfrutar de una hospitalidad de [province_liege.GetCulture.GetNameNoTooltip] en [holding_location.GetNameNoTooltip]!"" #NT!
- travel_events.2108.a: "¡Sería un honor!" #NT!
- travel_events.2108.a_negative: "Es agradable estar vivo, supongo." #NT!
- travel_events.2108.a.tt: "¡[province_liege.GetShortUIName] acudió en tu ayuda!" #NT!
+ travel_events.2108.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Guardado"
+ travel_events.2108.desc_intro: "Al atravesar el [holding_location.GetTerrain.GetNameNoTooltip|l] en las afueras de [holding_location.GetName], de repente somos atacados por un enjambre de jinetes bandidos en busca de sangre. ¡Otro grupo de ciclistas se acerca rápidamente desde el holding cercano, liderados por [province_liege.GetTitledFirstName]!"
+ travel_events.2108.desc_negative: "\n\nContengo mi sorpresa por ahora, ya que ser salvado por nada menos que mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('province_liege'))] ¡ciertamente no era algo que esperaba!"
+ travel_events.2108.desc_positive: "\n\nMi corazón se calienta cuando mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('province_liege'))] [province_liege.GetFirstNameNoTooltip] lidera la carga de frente hacia la retaguardia desprotegida del grupo de sinvergüenzas."
+ travel_events.2108.desc: "\n\nEstoy muy gratamente sorprendido por el comportamiento altruista del [province_liege.GetTitleAsNameNoTooltip] local, y elogio a [ROOT.Char.GetFaith.HighGodName] porque llegaron justo a tiempo."
+ travel_events.2108.desc_segway: "\n\n[province_liege.GetFirstNameNoTooltip] da vueltas con una sonrisa victoriosa en la cara de [province_liege.GetHerHis]:"
+ travel_events.2108.desc_outro_negative: "—No podía dejar que nadie más tuviera el placer de terminar con mi [province_liege.Custom2('RelationToMe', ROOT.Char)], ¿o sí? —Dudo por un momento y luego respondo."
+ travel_events.2108.desc_outro_positive: ""¿Estás herido? Únase a nosotros para recibir hospitalidad en [holding_location.GetNameNoTooltip], una vez que este desastre esté limpio"."
+ travel_events.2108.desc_outro: ""¡Deberías unirte a nosotros para disfrutar de una hospitalidad de [province_liege.GetCulture.GetNameNoTooltip] en [holding_location.GetNameNoTooltip]!""
+ travel_events.2108.a: "¡Sería un honor!"
+ travel_events.2108.a_negative: "Es agradable estar vivo, supongo."
+ travel_events.2108.a.tt: "¡[province_liege.GetShortUIName] acudió en tu ayuda!"
   
  #County Liege: You save Travelling Ruler 
- travel_events.2109.t: "$travel_events.2108.t$" #NT!
- travel_events.2109.desc_intro: "Los bandidos no saben qué los golpeó. Conduzco a nuestros mejores guerreros a la batalla en las afueras de [holding_location.GetName] y atravesamos el grupo como mantequilla en un caluroso día de verano." #NT!
- travel_events.2109.desc_negative: "\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('travelling_ruler'))] [travelling_ruler.GetTitledFirstName] se queda estupefacto, como alcanzado por un rayo, observando nuestra carga y defensa exitosa del grupo de viaje [travelling_ruler.GetHerHis]." #NT!
- travel_events.2109.desc_positive: "\n\nEl séquito de [travelling_ruler.GetTitledFirstName] y [travelling_ruler.GetHerHis] nos anima mientras administramos el contraataque final contra los sinvergüenzas." #NT!
- travel_events.2109.desc: "\n\n[travelling_ruler.GetTitledFirstName] nos observa atentamente mientras limpiamos a los sinvergüenzas, luego se suaviza un poco ya que está claro que somos amigables." #NT!
- travel_events.2109.desc_segway: "\n\nCuando los agresores finalmente son enviados a huir, vuelvo en círculos hacia [travelling_ruler.GetFirstNameNoTooltip]," #NT!
- travel_events.2109.desc_outro_negative: "Ahora parece que se ha vuelto a orientar. [travelling_ruler.GetSheHe|U] asiente amigablemente en mi dirección. "Nada que no pudiéramos solucionar, pero es agradable no haber tenido que esforzarnos demasiado", admite [travelling_ruler.GetSheHe]." #NT!
- travel_events.2109.desc_outro_positive: "Que se acerca rápidamente a mí. "¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('province_liege'))]! Ojalá nos hubiéramos vuelto a reunir en circunstancias menos sombrías", exclama [travelling_ruler.GetSheHe]." #NT!
- travel_events.2109.desc_outro: "Quien ahora parece más cómodo con nuestra presencia. "Amigo mío, gracias por ayudarnos en nuestro momento de necesidad", dice [travelling_ruler.GetSheHe], sonriéndome." #NT!
- travel_events.2109.a: "La tierra vuelve a estar segura." #NT!
- travel_events.2109.a_negative: "Sólo quería evitar tener que limpiar un desastre mayor." #NT!
- travel_events.2109.a_positive: "¡Feliz de poder servirte, [province_liege.Custom2('RelationToMe', SCOPE.sC('travelling_ruler'))]!" #NT!
- travel_events.2109.a_hurt.tt: "[ROOT.Char.Custom('KnightCultureNoTooltip')] Lesionado" #NT!
- travel_events.2109.a_first_hurt.desc: "[first_potential_hurt_knight.GetShortUIName] resultó herido en la batalla" #NT!
- travel_events.2109.a_second_hurt.desc: "[second_potential_hurt_knight.GetShortUIName] resultó herido en la batalla" #NT!
- travel_events.2109.a_third_hurt.desc: "[third_potential_hurt_knight.GetShortUIName] resultó herido en la batalla" #NT!
- travel_events.2109.a_none_hurt.tt: "Indemne" #NT!
- travel_events.2109.a_none_hurt.desc: "Ninguno de tus [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] resultó herido en la batalla." #NT!
+ travel_events.2109.t: "$travel_events.2108.t$"
+ travel_events.2109.desc_intro: "Los bandidos no saben qué los golpeó. Conduzco a nuestros mejores guerreros a la batalla en las afueras de [holding_location.GetName] y atravesamos el grupo como mantequilla en un caluroso día de verano."
+ travel_events.2109.desc_negative: "\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('travelling_ruler'))] [travelling_ruler.GetTitledFirstName] se queda estupefacto, como alcanzado por un rayo, observando nuestra carga y defensa exitosa del grupo de viaje [travelling_ruler.GetHerHis]."
+ travel_events.2109.desc_positive: "\n\nEl séquito de [travelling_ruler.GetTitledFirstName] y [travelling_ruler.GetHerHis] nos anima mientras administramos el contraataque final contra los sinvergüenzas."
+ travel_events.2109.desc: "\n\n[travelling_ruler.GetTitledFirstName] nos observa atentamente mientras limpiamos a los sinvergüenzas, luego se suaviza un poco ya que está claro que somos amigables."
+ travel_events.2109.desc_segway: "\n\nCuando los agresores finalmente son enviados a huir, vuelvo en círculos hacia [travelling_ruler.GetFirstNameNoTooltip],"
+ travel_events.2109.desc_outro_negative: "Ahora parece que se ha vuelto a orientar. [travelling_ruler.GetSheHe|U] asiente amigablemente en mi dirección. "Nada que no pudiéramos solucionar, pero es agradable no haber tenido que esforzarnos demasiado", admite [travelling_ruler.GetSheHe]."
+ travel_events.2109.desc_outro_positive: "Que se acerca rápidamente a mí. "¡Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('province_liege'))]! Ojalá nos hubiéramos vuelto a reunir en circunstancias menos sombrías", exclama [travelling_ruler.GetSheHe]."
+ travel_events.2109.desc_outro: "Quien ahora parece más cómodo con nuestra presencia. "Amigo mío, gracias por ayudarnos en nuestro momento de necesidad", dice [travelling_ruler.GetSheHe], sonriéndome."
+ travel_events.2109.a: "La tierra vuelve a estar segura."
+ travel_events.2109.a_negative: "Sólo quería evitar tener que limpiar un desastre mayor."
+ travel_events.2109.a_positive: "¡Feliz de poder servirte, [province_liege.Custom2('RelationToMe', SCOPE.sC('travelling_ruler'))]!"
+ travel_events.2109.a_hurt.tt: "[ROOT.Char.Custom('KnightCultureNoTooltip')] Lesionado"
+ travel_events.2109.a_first_hurt.desc: "[first_potential_hurt_knight.GetShortUIName] resultó herido en la batalla"
+ travel_events.2109.a_second_hurt.desc: "[second_potential_hurt_knight.GetShortUIName] resultó herido en la batalla"
+ travel_events.2109.a_third_hurt.desc: "[third_potential_hurt_knight.GetShortUIName] resultó herido en la batalla"
+ travel_events.2109.a_none_hurt.tt: "Indemne"
+ travel_events.2109.a_none_hurt.desc: "Ninguno de tus [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')] resultó herido en la batalla."
   
  #Travelling Ruler: You get ruthlessly attacked 
- travel_events.2110.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Varado" #NT!
- travel_events.2110.desc: "Al atravesar el [holding_location.GetTerrain.GetNameNoTooltip|l] en las afueras de [holding_location.GetName], de repente somos atacados por un enjambre de jinetes bandidos en busca de sangre. Estamos tan cerca de la fortaleza que seguramente [province_liege.GetTitledFirstName] enviará ayuda.\n\nA medida que pasa el tiempo y somos perseguidos por los sinvergüenzas, evitando la batalla más larga, se vuelve dolorosamente claro que no llegará ninguna ayuda." #NT!
- travel_events.2110.desc_negative: "No estoy seguro de lo que esperaba de un [travelling_ruler.Custom('InsultNoun')] como [province_liege.GetFirstNameNoTooltip]. Pero incluso esto está por debajo de [province_liege.GetHerHim]." #NT!
- travel_events.2110.desc_positive: "Siento un dolor agudo en el pecho al darme cuenta de la traición que acaba de realizar [province_liege.GetTitledFirstNameNoTooltip]." #NT!
- travel_events.2110.desc_neutral: "¿Cómo podría un gobernante permitir que jinetes maliciosos como estos habitaran fronteras [province_liege.GetHerHis]?" #NT!
- travel_events.2110.desc_outro: "\n\nMi [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] [knight_to_sacrifice.GetTitledFirstName] cabalga a mi lado, con una mirada solemne en los ojos de [knight_to_sacrifice.GetHerHis]. Ambos conocemos la táctica que hemos practicado en el pasado." #NT!
- travel_events.2110.a: "Estamos como uno." #NT!
- travel_events.2110.a_unscathed.tt: "Indemne" #NT!
- travel_events.2110.a_unscathed.desc: "Sobrevives ileso a la batalla." #NT!
- travel_events.2110.a_injured.tt: "Herido" #NT!
- travel_events.2110.a_injured.desc: "Sobrevives a la batalla pero resultas herido." #NT!
- travel_events.2110.a_severely_injured.tt: "Gravemente herido" #NT!
- travel_events.2110.a_severely_injured.desc: "Quedas gravemente herido en la batalla." #NT!
- travel_events.2110.a_death: "Estás asesinado en batalla" #NT!
- travel_events.2110.b: "[knight_to_sacrifice.GetFirstNameNoTooltip], ya sabes qué hacer." #NT!
- travel_events.2110.b_tt: "[knight_to_sacrifice.GetShortUIName] se queda atrás para distraer a los atacantes." #NT!
+ travel_events.2110.t: "$travel_danger_prefix$ $travel_events_life_or_death.t$, Varado"
+ travel_events.2110.desc: "Al atravesar el [holding_location.GetTerrain.GetNameNoTooltip|l] en las afueras de [holding_location.GetName], de repente somos atacados por un enjambre de jinetes bandidos en busca de sangre. Estamos tan cerca de la fortaleza que seguramente [province_liege.GetTitledFirstName] enviará ayuda.\n\nA medida que pasa el tiempo y somos perseguidos por los sinvergüenzas, evitando la batalla más larga, se vuelve dolorosamente claro que no llegará ninguna ayuda."
+ travel_events.2110.desc_negative: "No estoy seguro de lo que esperaba de un [travelling_ruler.Custom('InsultNoun')] como [province_liege.GetFirstNameNoTooltip]. Pero incluso esto está por debajo de [province_liege.GetHerHim]."
+ travel_events.2110.desc_positive: "Siento un dolor agudo en el pecho al darme cuenta de la traición que acaba de realizar [province_liege.GetTitledFirstNameNoTooltip]."
+ travel_events.2110.desc_neutral: "¿Cómo podría un gobernante permitir que jinetes maliciosos como estos habitaran fronteras [province_liege.GetHerHis]?"
+ travel_events.2110.desc_outro: "\n\nMi [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] [knight_to_sacrifice.GetTitledFirstName] cabalga a mi lado, con una mirada solemne en los ojos de [knight_to_sacrifice.GetHerHis]. Ambos conocemos la táctica que hemos practicado en el pasado."
+ travel_events.2110.a: "Estamos como uno."
+ travel_events.2110.a_unscathed.tt: "Indemne"
+ travel_events.2110.a_unscathed.desc: "Sobrevives ileso a la batalla."
+ travel_events.2110.a_injured.tt: "Herido"
+ travel_events.2110.a_injured.desc: "Sobrevives a la batalla pero resultas herido."
+ travel_events.2110.a_severely_injured.tt: "Gravemente herido"
+ travel_events.2110.a_severely_injured.desc: "Quedas gravemente herido en la batalla."
+ travel_events.2110.a_death: "Estás asesinado en batalla"
+ travel_events.2110.b: "[knight_to_sacrifice.GetFirstNameNoTooltip], ya sabes qué hacer."
+ travel_events.2110.b_tt: "[knight_to_sacrifice.GetShortUIName] se queda atrás para distraer a los atacantes."
   
  #County Liege: You observe the attack on Travelling Ruler 
- travel_events.2111.t: "$travel_danger_prefix$ $travel_events.2110.t$" #NT!
- travel_events.2111.desc_sacrifice: "El sol se pone sobre el [holding_location.GetTerrain.GetNameNoTooltip|l] mientras observo la escena frente a mí. Si esperaba una batalla a gran escala, me equivoqué.\n\nParecería como si [travelling_ruler.GetTitledFirstName] hubiera ordenado un señuelo y una retirada, lo que significa que uno de [travelling_ruler.GetHerHis] [travelling_ruler.Custom('KnightCulturePluralNoTooltipLowercase')] se queda atrás para salvar la cola del grupo. Mientras tanto, el grupo de viaje se ha reorganizado y está haciendo una escapada hacia el otro extremo de los límites de la ciudad.\n\nParece estar funcionando, ya que los jinetes ignoran al grupo que huye y en su lugar se concentran en el soldado solitario, envolviendo completamente a [knight_to_sacrifice.GetHerHim] de mi vista. Ojalá el final fuera rápido." #NT!
- travel_events.2111.desc_unscathed: "Así como el sol tiñe de rojo el cielo cuando desaparece en el horizonte, la batalla frente a mí tiñe de rojo el suelo. Sin embargo, parece que esto sólo está rojo con sangre de bandido.\n\nEl grupo viajero está mostrando una destreza sorprendente ante un ataque repentino y está luchando con uñas y dientes, lo que finalmente obliga a los sinvergüenzas a huir. Simplemente arrojan sus armas y rápidamente se retiran por donde vinieron.\n\n[travelling_ruler.GetTitledFirstName] hace un gesto desafiante en la dirección de mi agarre y levanto las cejas en silenciosa sorpresa. Esto fue #EMP muy#! inesperado." #NT!
- travel_events.2111.desc_survived: "Cuando el sol se pone sobre el [holding_location.GetTerrain.GetNameNoTooltip|l], los dos grupos convergen en una masa de armas y dolor. Observo cómo el shock inicial del grupo de viaje se desvanece y diligentemente se ponen de pie, haciendo retroceder a los jinetes armados.\n\n[travelling_ruler.GetTitledFirstName] toma la delantera mientras el contraataque llega, rápido y mortal, hacia los sucios bandidos. Sin embargo, uno de los sinvergüenzas aparentemente logra darle un golpe bastante severo a [travelling_ruler.GetFirstNameNoTooltip], pero pronto uno de [travelling_ruler.GetHerHis] [travelling_ruler.Custom('KnightCulturePluralNoTooltipLowercase')] toma represalias.\n\nLos jinetes que todavía respiran y pueden abandonar la escena, tan rápido y repentinamente como ellos aparecieron. A su paso, cadáveres y animales muertos; pero una reunión de viajeros sorprendentemente saludable." #NT!
- travel_events.2111.desc_died: "Mientras el sol tiñe de rojo el cielo al desaparecer en el horizonte, la batalla que se desarrolla frente a mí tiñe de rojo el suelo. Observo con atención, tratando de averiguar qué bando tiene la ventaja.\n\nMi dilema se aclara pronto cuando un jinete particularmente grande y corpulento ruge victorioso, levantando los brazos en un movimiento hacia el cielo. Una mano sostiene una espada, la otra... la cabeza de [travelling_ruler.GetTitledFirstName]." #NT!
- travel_events.2111.desc_negative_outro: "\n\nDoy un suspiro de alivio. Finalmente, ese [travelling_ruler.Custom('InsultNoun')] ya no es una espina clavada en mi costado." #NT!
- travel_events.2111.desc_positive_outro: "\n\nParpadeo un par de veces, sin comprender completamente lo que acaba de suceder. Sí, supongo que este fue el final de [travelling_ruler.GetHerHim]..." #NT!
- travel_events.2111.desc_outro: "\n\nMe siento sorprendentemente vacío después de haber presenciado el asesinato de [travelling_ruler.GetTitledFirstNameNoTooltip]. Debería hacer algo con esos ciclistas." #NT!
- travel_events.2111.a: "Tácticas interesantes." #NT!
- travel_events.2111.a_compassionate: "Qué he hecho..." #NT!
- travel_events.2111.a_sadist: "¡Entretenido!" #NT!
- travel_events.2111.a_dead: "Eventualmente sucedería." #NT!
+ travel_events.2111.t: "$travel_danger_prefix$ $travel_events.2110.t$"
+ travel_events.2111.desc_sacrifice: "El sol se pone sobre el [holding_location.GetTerrain.GetNameNoTooltip|l] mientras observo la escena frente a mí. Si esperaba una batalla a gran escala, me equivoqué.\n\nParecería como si [travelling_ruler.GetTitledFirstName] hubiera ordenado un señuelo y una retirada, lo que significa que uno de [travelling_ruler.GetHerHis] [travelling_ruler.Custom('KnightCulturePluralNoTooltipLowercase')] se queda atrás para salvar la cola del grupo. Mientras tanto, el grupo de viaje se ha reorganizado y está haciendo una escapada hacia el otro extremo de los límites de la ciudad.\n\nParece estar funcionando, ya que los jinetes ignoran al grupo que huye y en su lugar se concentran en el soldado solitario, envolviendo completamente a [knight_to_sacrifice.GetHerHim] de mi vista. Ojalá el final fuera rápido."
+ travel_events.2111.desc_unscathed: "Así como el sol tiñe de rojo el cielo cuando desaparece en el horizonte, la batalla frente a mí tiñe de rojo el suelo. Sin embargo, parece que esto sólo está rojo con sangre de bandido.\n\nEl grupo viajero está mostrando una destreza sorprendente ante un ataque repentino y está luchando con uñas y dientes, lo que finalmente obliga a los sinvergüenzas a huir. Simplemente arrojan sus armas y rápidamente se retiran por donde vinieron.\n\n[travelling_ruler.GetTitledFirstName] hace un gesto desafiante en la dirección de mi agarre y levanto las cejas en silenciosa sorpresa. Esto fue #EMP muy#! inesperado."
+ travel_events.2111.desc_survived: "Cuando el sol se pone sobre el [holding_location.GetTerrain.GetNameNoTooltip|l], los dos grupos convergen en una masa de armas y dolor. Observo cómo el shock inicial del grupo de viaje se desvanece y diligentemente se ponen de pie, haciendo retroceder a los jinetes armados.\n\n[travelling_ruler.GetTitledFirstName] toma la delantera mientras el contraataque llega, rápido y mortal, hacia los sucios bandidos. Sin embargo, uno de los sinvergüenzas aparentemente logra darle un golpe bastante severo a [travelling_ruler.GetFirstNameNoTooltip], pero pronto uno de [travelling_ruler.GetHerHis] [travelling_ruler.Custom('KnightCulturePluralNoTooltipLowercase')] toma represalias.\n\nLos jinetes que todavía respiran y pueden abandonar la escena, tan rápido y repentinamente como ellos aparecieron. A su paso, cadáveres y animales muertos; pero una reunión de viajeros sorprendentemente saludable."
+ travel_events.2111.desc_died: "Mientras el sol tiñe de rojo el cielo al desaparecer en el horizonte, la batalla que se desarrolla frente a mí tiñe de rojo el suelo. Observo con atención, tratando de averiguar qué bando tiene la ventaja.\n\nMi dilema se aclara pronto cuando un jinete particularmente grande y corpulento ruge victorioso, levantando los brazos en un movimiento hacia el cielo. Una mano sostiene una espada, la otra... la cabeza de [travelling_ruler.GetTitledFirstName]."
+ travel_events.2111.desc_negative_outro: "\n\nDoy un suspiro de alivio. Finalmente, ese [travelling_ruler.Custom('InsultNoun')] ya no es una espina clavada en mi costado."
+ travel_events.2111.desc_positive_outro: "\n\nParpadeo un par de veces, sin comprender completamente lo que acaba de suceder. Sí, supongo que este fue el final de [travelling_ruler.GetHerHim]..."
+ travel_events.2111.desc_outro: "\n\nMe siento sorprendentemente vacío después de haber presenciado el asesinato de [travelling_ruler.GetTitledFirstNameNoTooltip]. Debería hacer algo con esos ciclistas."
+ travel_events.2111.a: "Tácticas interesantes."
+ travel_events.2111.a_compassionate: "Qué he hecho..."
+ travel_events.2111.a_sadist: "¡Entretenido!"
+ travel_events.2111.a_dead: "Eventualmente sucedería."
