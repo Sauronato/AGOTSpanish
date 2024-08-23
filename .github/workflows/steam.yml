@@ -16,5 +16,3 @@ jobs:
           cd ~/steamcmd
           ./steamcmd.sh +login ${{ secrets.STEAM_USER }} +workshop_build_item ${{ secrets.DIR }}/AGOTSpanish/AGOTSpanish/mod_agotspansih.vdf +quit
           echo "Item Actualizado"
-      - name: Clean Code
-        run: rm -rf ${{ secrets.DIR }}
