@@ -247,12 +247,12 @@
  EDUCATE_ME_OPTION_CONVERT_FAITH_LIKELY_EFFECT: "#TUT_KW Es probable que me convierta a la fe [FAITH.GetAdjective]#!"
  EDUCATE_CHILD_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "#TUT_KW Es poco probable que se convierta a la fe [FAITH.GetAdjective], dada su edad#!"
  EDUCATE_ME_OPTION_CONVERT_FAITH_UNLIKELY_EFFECT: "#TUT_KW Mi edad hace que sea improbable que me convierta a la fe [FAITH.GetAdjective]#!"
- EDUCATE_CHILD_OPTION_ZEAL_EFFECT: "Se convertirá en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
- EDUCATE_ME_OPTION_ZEAL_EFFECT: "Me convertiré en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
- EDUCATE_CHILD_OPTION_ZEAL_LIKELY_EFFECT: "¿Es probable que #P#! se convierta en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!?" #NT!
- EDUCATE_ME_OPTION_ZEAL_LIKELY_EFFECT: "Tengo #P probabilidades#! de convertirme en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
- EDUCATE_CHILD_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "¿Es poco probable que #N#! se convierta en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!?" #NT!
- EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "Tengo #N improbabilidad#! de convertirme en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!" #NT!
+ EDUCATE_CHILD_OPTION_ZEAL_EFFECT: "Se convertirá en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_ME_OPTION_ZEAL_EFFECT: "Me convertiré en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_CHILD_OPTION_ZEAL_LIKELY_EFFECT: "¿Es probable que #P#! se convierta en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!?"
+ EDUCATE_ME_OPTION_ZEAL_LIKELY_EFFECT: "Tengo #P probabilidades#! de convertirme en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
+ EDUCATE_CHILD_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "¿Es poco probable que #N#! se convierta en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!?"
+ EDUCATE_ME_OPTION_ZEAL_UNLIKELY_EFFECT_LOW: "Tengo #N improbabilidad#! de convertirme en #high [GetTrait('zealous').GetName(GetNullCharacter)]#!"
  EDUCATION_UNIVERSITY: "Enviar a la universidad"
  imprison_interaction: "Encarcelar"
  imprison_interaction_desc: "Intenta [imprison|E] a [recipient.GetShortUINameNoTooltip]"
@@ -313,8 +313,8 @@
  IS_ALLOWED_TO_EXECUTE_HOSTILE_RELIGION_DESC: "Tu fe considera que la fe de [victim.GetShortUIName|U], el [victim.GetFaith.GetName|l], es $hostility_hostile_tooltippable$ o $hostility_evil_tooltippable$, lo que te permite ejecutar[victim.Custom('ES_LoLa')] sin que se te considere un[ROOT.Char.Custom('ES_XA')] [Concept( 'tyrant', 'tiran' )|E][ROOT.Char.Custom('ES_OA')]."
  IS_ALLOWED_TO_IMPRISON_NO_RECIPIENT_DESC: "#weak Mientras [Select_CString( imprisoner.IsLocalPlayer, 'yo', imprisoner.GetShortUIName )] tenga un motivo justo, nadie podrá decir que [Select_CString( imprisoner.IsLocalPlayer, 'soy', 'es' )] un[imprisoner.Custom('ES_XA')] [Concept( 'tyrant', 'tiran' )|E][imprisoner.Custom('ES_OA')]#!"
  IS_ALLOWED_TO_EXECUTE_NO_RECIPIENT_DESC: "$IS_ALLOWED_TO_IMPRISON_NO_RECIPIENT_DESC$"
- IS_ALLOWED_TO_REVOKE_TITLE_DESC: "[recipient.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'eres', 'es' )] un[recipient.Custom('ES_XA')] [criminal|E] conocid[recipient.Custom('ES_OA')] #weak ([recipient.GetRevokeReasons( actor.Self )])#!, lo que [Select_CString( actor.IsLocalPlayer, 'te', 'le' )] permite revocar [Select_CString( recipient.IsLocalPlayer, 'tu', 'su' )] [title|E] sin que nadie pueda decir que [Select_CString( actor.IsLocalPlayer, 'eres', 'es' )] un[actor.Custom('ES_XA')] tiran[actor.Custom('ES_OA')]."
- IS_ALLOWED_TO_REVOKE_VASSAL_DESC: "[recipient.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'eres', 'es' )] un[recipient.Custom('ES_XA')] [criminal|E] conocid[recipient.Custom('ES_OA')] #weak ([recipient.GetRevokeReasons( actor.Self )])#!, lo que [Select_CString( actor.IsLocalPlayer, 'te', 'le' )] permite revocar a [Select_CString( recipient.IsLocalPlayer, 'tus', 'sus' )] [vassals|E] sin que nadie pueda decir que [Select_CString( actor.IsLocalPlayer, 'eres', 'es' )] un[actor.Custom('ES_XA')] tiran[actor.Custom('ES_OA')]."
+ IS_ALLOWED_TO_REVOKE_TITLE_DESC: "[recipient.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'eres', 'es' )] un[recipient.Custom('ES_XA')] [criminal|E] conocid[recipient.Custom('ES_OA')] #weak ([recipient.GetRevokeReasons( actor.Self )])#!, lo que [Select_CString( actor.IsLocalPlayer, 'te', 'le' )] permite revocar [Select_CString( recipient.IsLocalPlayer, 'tu', 'su' )] [title|E] sin que nadie pueda decir que [Select_CString( actor.IsLocalPlayer, 'eres', 'es' )] un[actor.Custom('ES_XA')] tirano."
+ IS_ALLOWED_TO_REVOKE_VASSAL_DESC: "[recipient.GetShortUIName|U] [Select_CString( recipient.IsLocalPlayer, 'eres', 'es' )] un[recipient.Custom('ES_XA')] [criminal|E] conocid[recipient.Custom('ES_OA')] #weak ([recipient.GetRevokeReasons( actor.Self )])#!, lo que [Select_CString( actor.IsLocalPlayer, 'te', 'le' )] permite revocar a [Select_CString( recipient.IsLocalPlayer, 'tus', 'sus' )] [vassals|E] sin que nadie pueda decir que [Select_CString( actor.IsLocalPlayer, 'eres', 'es' )] un[actor.Custom('ES_XA')] tirano."
  IS_ALLOWED_TO_REVOKE_TITLE_FOR_CLAIM_DESC: "Tienes [claim|E] sobre el [title|E], por lo que puedes revocarlo sin que te consideren un[ROOT.Char.Custom('ES_XA')] tiran[ROOT.Char.Custom('ES_OA')]"
  IS_ALLOWED_TO_REVOKE_EVIL_INFIDEL_TITLE: "Como consideras que los [recipient.GetFaith.GetAdherentNamePlural] son $hostility_evil_tooltippable$, puedes revocar los títulos de [recipient.GetShortUIName] sin que se te considere un[ROOT.Char.Custom('ES_XA')] tiran[ROOT.Char.Custom('ES_OA')]."
  IS_ALLOWED_TO_REVOKE_HOSTILE_INFIDEL_TITLE: "Como consideras que los [recipient.GetFaith.GetAdherentNamePlural] son $hostility_hostile_tooltippable$, puedes revocar los títulos de [recipient.GetShortUIName] sin que se te considere un[ROOT.Char.Custom('ES_XA')] tiran[ROOT.Char.Custom('ES_OA')]."
@@ -338,7 +338,7 @@
  RELEASE_BANISH: "[banish|E]"
  RELEASE_TAKE_VOWS: "Tomar los votos"
  RELEASE_TAKE_VOWS_VALID: "[recipient.GetShortUIName] ingresa en un monasterio."
- RELEASE_TAKE_VOWS_INVALID_RECRUIT: "Debes reclutar a un personaje antes de obligarlo a tomar los votos." #NT!
+ RELEASE_TAKE_VOWS_INVALID_RECRUIT: "Debes reclutar a un personaje antes de obligarlo a tomar los votos."
  take_vows_decline_summary: "Si [recipient.GetShortUINameNoTooltip] no acepta, se quedará en tu [court|E]"
  RELEASE_RECRUIT: "Reclutar"
  RELEASE_AS_EXECUTIONER: "Emplear verdugo"
@@ -491,7 +491,7 @@
  BLACKMAIL_NOTIFICATION_SECRET_NON_BELIEVER: "\nTengo pruebas de tus dudas sobre [recipient.GetFaith.HighGodName]."
  BLACKMAIL_NOTIFICATION_SECRET_INCEST: "\n¡Tengo pruebas de tus aventuras incestuosas!"
  BLACKMAIL_NOTIFICATION_SECRET_WITCH: "\n¡Tengo pruebas de tus tratos con demonios!"
- BLACKMAIL_NOTIFICATION_SECRET_CRYPTO_RELIGIONIST: "\n¡Sé que eres un creyente secreto de [recipient.GetSecretFaith.GetName]!" #NT!
+ BLACKMAIL_NOTIFICATION_SECRET_CRYPTO_RELIGIONIST: "\n¡Sé que eres un creyente secreto de [recipient.GetSecretFaith.GetName]!"
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY: "\nSé que soy el verdadero padre del hijo que esperas."
  BLACKMAIL_NOTIFICATION_SECRET_ILLEGITIMATE_PREGNANCY_OTHER: "\nSé que [secret_target.GetShortUIName] es el verdadero padre del retoño que esperas."
  BLACKMAIL_NOTIFICATION_SECRET_FALLBACK: "\n¡Lo sé todo de tu secreto!"
@@ -658,7 +658,7 @@
   #Religious Interactions Descs 
  ask_for_conversion_interaction: "Exigir conversión"
  ask_for_conversion_interaction_desc: "Exigir que [recipient.GetShortUINameNoTooltip] se convierta a tu [faith|E]\n#weak (De [recipient.GetFaith.GetName] a [actor.GetFaith.GetName])#!"
- ask_for_conversion_interaction_accept_tooltip: "@warning_icon! #X [THIS.Char.GetShortUINameNoTooltip|U] puede continuar practicando [recipient.GetFaith.GetName] en secreto#!" #NT!
+ ask_for_conversion_interaction_accept_tooltip: "@warning_icon! #X [THIS.Char.GetShortUINameNoTooltip|U] puede continuar practicando [recipient.GetFaith.GetName] en secreto#!"
  ask_for_conversion_courtier_interaction: "Exigir conversión"
  ask_for_conversion_courtier_interaction_extra_icon: "$hook_extra_icon$"
  ask_for_conversion_courtier_interaction.tt: "Cortesano acepta la conversión"
@@ -678,10 +678,10 @@
  ASK_FOR_CONVERSION_RECIPIENT_IS_ZEALOUS: "[recipient.GetShortUIName] tiene un carácter [GetTrait('zealous').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_CYNICAL: "[recipient.GetShortUIName] tiene un carácter [GetTrait('cynical').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_STUBBORN: "[recipient.GetShortUIName] es [GetTrait('stubborn').GetName( GetPlayer )]: $VALUE|=+0$"
- ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U] es [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$" #NT!
+ ASK_FOR_CONVERSION_RECIPIENT_IS_FICKLE: "[recipient.GetShortUIName|U] es [GetTrait('fickle').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERESIARCH: "[recipient.GetShortUIName] es un[recipient.Custom('ES_XA')] [GetTrait('heresiarch').GetName( GetPlayer )]: $VALUE|=+0$"
  ASK_FOR_CONVERSION_RECIPIENT_IS_HERETIC: "[recipient.GetShortUIName] es un[recipient.Custom('ES_XA')] [GetTrait('heretic').GetName( GetPlayer )]: $VALUE|=+0$"
- ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U] es $game_concept_pious$: $VALUE|=+0$" #NT!
+ ASK_FOR_CONVERSION_RECIPIENT_IS_PIOUS: "[recipient.GetShortUIName|U] es $game_concept_pious$: $VALUE|=+0$"
  ASK_FOR_CONVERSION_SAME_CULTURE_PRESTIGE_LEVEL: "Tanto [actor.GetCulture.GetName] como [actor.GetShortUIName] son [GetPrestigeLevelName( actor.GetPrestigeLevel )]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_SAVIOR: "Eres el [GetTrait('savior').GetName( GetPlayer )] de [actor.GetFaith.GetName]: $VALUE|=+0$"
  RELIGIOUS_HEAD_INTERACTION_DIVINE_BLOOD: "Tengo [GetTrait('divine_blood').GetName( GetPlayer )]: $VALUE|=+0$"
@@ -743,7 +743,7 @@
  offer_vassalization_interaction_aibehavior_illegitimate_tt: "Tu derecho no es legítimo: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_claimant_tt: "Es un[recipient.Custom('ES_XA')] [claimant|E] a [actor.GetPrimaryTitle.GetName]: $VALUE|=+0$"
  offer_vassalization_interaction_aibehavior_dreaded_tt: "Eres [dreadful|E]: $VALUE|=+0$"
- GENERIC_YOUR_PIETY_LEVEL_MODIFIER: "Tu [piety_level|E]: $VALUE|=+0$" #NT!
+ GENERIC_YOUR_PIETY_LEVEL_MODIFIER: "Tu [piety_level|E]: $VALUE|=+0$"
  isolationist_reason: "[recipient.GetSheHe|U] es parte de una [culture|E] aislacionista: $VALUE|+=0$"
  interaction_lover: "[recipient.GetSheHe|U] es tu [lover|E]: $VALUE|=+0$"
  interaction_soulmate: "[recipient.GetSheHe|U] es tu [soulmate|E]: $VALUE|=+0$"
@@ -758,7 +758,7 @@
  just_widowed_interaction_reason: "[recipient.GetShortUIName] sospecha del fallecimiento de tu anterior cónyuge durante tu gran boda: $VALUE|=+0$"
  offer_fealty_interaction_aibehavior_amkingtier_tt: "Eres un[ROOT.Char.Custom('ES_XA')] [actor.GetTitleTierName]: $VALUE|=+0$"
  IS_NEIGHBOR_OR_DEJURE_LIEGE: "[TARGET_CHARACTER.GetShortUINameNotMe] debe ser vecin[TARGET_CHARACTER.Custom('ES_OA')] o señor[TARGET_CHARACTER.Custom('ES_XA')] [de_jure|E] de tu capital"
- OFFER_VASSALIZATION_INTERACTION_NOTIFICATION: "Deseo extender mi protección como vuestr[actor.Custom('ES_OA')] nuev[actor.Custom('ES_OA')] am[actor.Custom('ES_OA')] y señor[actor.Custom('ES_XA')]. Lo único que pido a cambio es vuestro juramento de lealtad…"
+ OFFER_VASSALIZATION_INTERACTION_NOTIFICATION: "Deseo extender mi protección como vuestro nuevo amo y señor[actor.Custom('ES_XA')]. Lo único que pido a cambio es vuestro juramento de lealtad…"
  GRANT_INDEPENDENCE_INTERACTION_NOTIFICATION: "He decidido concederos la independencia. A partir de hoy, quedáis libre de vuestro juramento de lealtad."
  FORCE_VOTE_INTERACTION_NOTIFICATION: "He decidido usar mi influencia sobre vos para obligaros a votar por el sucesor que he elegido en la siguiente elección."
  FORCE_JOIN_FACTION_NOTIFICATION: "He decidido usar mi influencia sobre vos para obligaros a uniros a mi facción."
@@ -804,14 +804,14 @@
  call_ally.0101.a: "¡Qué [recipient.Custom('InsultNoun')] [recipient.Custom('InsultAdjective')]!"
   
  char_interaction.0001.opening: "[recipient.Custom2('AppropriateGreeting', actor )]"
- char_interaction.0001.desc: "¡Acepto vuestra graciosa oferta de vasallaje, mi [recipient.Custom('ES_SennorSennora')]!"
+ char_interaction.0001.desc: "¡Acepto vuestra graciosa oferta de vasallaje, mi Lord!"
   
  char_interaction.0002.desc: "No necesito vuestra protección y prefiero guardarme las bondades de mi señorío para mí."
  char_interaction.0002.a: "Tendré que sondear otras opciones…"
   
  char_interaction.0010.opening: "[recipient.Custom2('AppropriateGreetingPositive', actor )]"
  char_interaction.0010.desc: "¡[actor.GetFirstName], creo que es el principio de un hermoso vasallaje!"
- char_interaction.0010.a: "¡Mi [recipient.Custom('ES_SennorSennora')]!"
+ char_interaction.0010.a: "¡Mi Lord!"
   
  char_interaction.0011.desc: "Aunque aprecio vuestra oferta de fidelidad, no puedo aceptarla."
  char_interaction.0011.a: "Es una lástima."
@@ -827,11 +827,11 @@
  char_interaction.0040.desc: "Como cabeza de la dinastía, ¡por la presente, os denuncio públicamente como réprobo y una vergüenza para toda la dinastía [actor.GetDynastyName]!"
  char_interaction.0040.a: "¿Qué? ¿¡Por qué!?"
   
- char_interaction.0041.desc: "Tu [recipient.Custom('InsultBehavior')] y tu comportamiento decadente avergüenzan a toda la casa [actor.GetHouse.GetBaseName], y como jefe de la casa considero que es mi deber informar al resto del clan de tus costumbres [recipient.Custom('InsultAdjective')].\n\nQue la luz de [actor.GetFaith.HighGodNamePossessive] te guíe de regreso a un camino virtuoso. camino... aunque lo dudo." #NT!
- char_interaction.0041.a: "¡Calumnia!" #NT!
+ char_interaction.0041.desc: "Tu [recipient.Custom('InsultBehavior')] y tu comportamiento decadente avergüenzan a toda la casa [actor.GetHouse.GetBaseName], y como jefe de la casa considero que es mi deber informar al resto del clan de tus costumbres [recipient.Custom('InsultAdjective')].\n\nQue la luz de [actor.GetFaith.HighGodNamePossessive] te guíe de regreso a un camino virtuoso. camino... aunque lo dudo."
+ char_interaction.0041.a: "¡Calumnia!"
   
- char_interaction.0042.desc: "Eres tanto [recipient.Custom('FormalComplimentAdjective')] como [recipient.Custom('ComplimentAdjective')], una inspiración para toda la casa [actor.GetHouse.GetBaseName], ¡y como jefe de la casa es mi deber ensalzar tus virtudes ante todo el clan!\n\nQue permanezcas en la gracia de [actor.GetFaith.HighGodNamePossessive]." #NT!
- char_interaction.0042.a: "¡Encantador!" #NT!
+ char_interaction.0042.desc: "Eres tanto [recipient.Custom('FormalComplimentAdjective')] como [recipient.Custom('ComplimentAdjective')], una inspiración para toda la casa [actor.GetHouse.GetBaseName], ¡y como jefe de la casa es mi deber ensalzar tus virtudes ante todo el clan!\n\nQue permanezcas en la gracia de [actor.GetFaith.HighGodNamePossessive]."
+ char_interaction.0042.a: "¡Encantador!"
   
  char_interaction.0050.desc: "Como cabeza de la dinastía, ¡por la presente, os perdono vuestras trasgresiones del pasado y retiro vuestra denuncia entre los miembros de la dinastía [actor.GetDynastyName]!"
  char_interaction.0050.a: "¡Se ha hecho justicia!"
@@ -871,9 +871,9 @@
   
  char_interaction.0083.t: "Una mente para moldear"
  char_interaction.0083.intro: "El joven [ward.GetTitledFirstName], [ward_liege.GetTitledFirstNamePossessive] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))], por fin ha llegado de [ward_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] para la educación de [ward.GetHerHis]."
- char_interaction.0083.not_related: "[ward_liege.GetTitledFirstNamePossessive] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))]," #NT!
- char_interaction.0083.related: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('ward'))]," #NT!
- char_interaction.0083.outro: "Por fin ha llegado de [ward_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] para [ward.GetHerHis] educación." #NT!
+ char_interaction.0083.not_related: "[ward_liege.GetTitledFirstNamePossessive] [ward_liege.Custom2('RelationToMeShort', SCOPE.sC('ward'))],"
+ char_interaction.0083.related: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('ward'))],"
+ char_interaction.0083.outro: "Por fin ha llegado de [ward_liege.GetPrimaryTitle.GetNameNoTierNoTooltip] para [ward.GetHerHis] educación."
  char_interaction.0083.desc.host: "\n\n[guardian.GetTitledFirstName] pronto comenzará [guardian.GetHerHis] lecciones."
  char_interaction.0083.desc: "\n\nUna vez que [ward.GetSheHe] esté instalado, las lecciones comenzarán."
  char_interaction.0083.a: "Excelente."
@@ -905,7 +905,7 @@
  char_interaction.0140.desc: "Acepto vuestra oferta de rescate. ¡[secondary_recipient.GetShortUIName] regresará con vos inmediatamente!"
   
  char_interaction.0141.desc: "Vuestra oferta de rescate me parece bastante decepcionante. Creo que me quedaré con [secondary_recipient.GetShortUIName] por ahora."
- char_interaction.0141.a: "¡Maldit[actor.Custom('ES_OA')] sea es[actor.Custom('ES_XA')] [actor.Custom('InsultNoun')] [actor.Custom('InsultAdjective')]!"
+ char_interaction.0141.a: "¡Maldito sea es[actor.Custom('ES_XA')] [actor.Custom('InsultNoun')] [actor.Custom('InsultAdjective')]!"
   
  char_interaction.0150.desc: "Muy bien, os liberaré, pero debo admitir que le he tomado cariño a vuestra compañía."
   
@@ -963,7 +963,7 @@
  char_interaction.0231.desc_house_arrest: "Por orden mía, [recipient.GetTitledFirstName|l] ahora está confinad[recipient.Custom('ES_OA')] en su casa. He puesto algunos guardas para asegurarme de que cumpla con el arresto domiciliario."
  char_interaction.0231.a: "Bien."
   
- char_interaction.0232.desc: "Demasiado tiempo he soportado indignidades a manos de [actor.GetTitledFirstName|l]. ¡No me quedaré con los brazos cruzados mientras nuestr[actor.Custom('ES_OA')] señor[actor.Custom('ES_XA')] abusa de sus leales vasallos. ¡Te urjo a que te unas a mí en la lucha para destronar a semejante tiran[actor.Custom('ES_OA')]."
+ char_interaction.0232.desc: "Demasiado tiempo he soportado indignidades a manos de [actor.GetTitledFirstName|l]. ¡No me quedaré con los brazos cruzados mientras nuestro señor[actor.Custom('ES_XA')] abusa de sus leales vasallos. ¡Te urjo a que te unas a mí en la lucha para destronar a semejante tirano."
  char_interaction.0232.a: "¡No estarás sol[recipient.Custom('ES_OA')]!"
  char_interaction.0232.b: "¡Tú eres el/la traidor[recipient.Custom('ES_XA')]!"
   
@@ -975,7 +975,7 @@
  marriage_interaction.0010.c_desc: "Acepto vuestra propuesta de matrimonio."
  marriage_interaction.0010.d_desc: "Acepto vuestra propuesta de compromiso."
  marriage_interaction.0010.e_desc: "Yo, [secondary_recipient.GetFirstName], ¡acepto gustosamente vuestra propuesta de matrimonio!"
- marriage_interaction.0010.mid.a_desc: "\n\nVuestr[actor.Custom('ES_OA')] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], y mi [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], se unirán en santo matrimonio."
+ marriage_interaction.0010.mid.a_desc: "\n\nVuestro [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], y mi [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], se unirán en santo matrimonio."
  marriage_interaction.0010.mid.a_no_acquaintance_desc: "\n\nVuestr[secondary_actor.Custom('ES_OA')] cortesan[secondary_actor.Custom('ES_OA')], [secondary_actor.GetFirstName], y mi [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], se unirán en santo matrimonio."
  marriage_interaction.0010.mid.b_desc: "\n\nVos y mi [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], [secondary_recipient.GetFirstName], os uniréis en santo matrimonio."
  marriage_interaction.0010.mid.c_desc: "\n\nTomaré gentilmente la mano de vuestr[secondary_actor.Custom('ES_OA')] [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], [secondary_actor.GetFirstName], en santo matrimonio."
@@ -1136,13 +1136,13 @@
  I_PROMISED_NOT_TO_REVEAL_SECRET: "Prometiste no revelar el secreto"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_LOVER_SECRET: "No puedes servirte del [secret|E] de tu propio amante para chantajear"
  I_CANNOT_BLACKMAIL_OVER_MY_OWN_BASTARD: "No puedes servirte de tu propio [bastard|E] para chantajear"
- CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] tiene un Cripto-Religionista [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]" #NT!
- CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_NOT_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] tiene un Cripto-Religionista [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]" #NT!
- HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "Tiene un criptorreligionario [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]" #NT!
- I_CANNOT_BLACKMAIL_CRYPTO_RELIGIONIST_OF_SAME_FAITH: "No puedes chantajear a otro Crypto-[ROOT.Char.GetSecretFaith.GetAdherentName]" #NT!
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] tiene un Cripto-Religionista [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]"
+ CHARACTER_HAS_A_CRYPTO_RELIGIONIST_SECRET_NOT_KNOWN_BY_CHARACTER: "[CHARACTER.GetShortUIName|U] tiene un Cripto-Religionista [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]"
+ HAS_A_CRYPTO_RELIGIONIST_SECRET_KNOWN_BY_CHARACTER: "Tiene un criptorreligionario [secret|E] conocido por [TARGET_CHARACTER.GetShortUIName]"
+ I_CANNOT_BLACKMAIL_CRYPTO_RELIGIONIST_OF_SAME_FAITH: "No puedes chantajear a otro Crypto-[ROOT.Char.GetSecretFaith.GetAdherentName]"
   
- IS_AWARE_OF_SHARED_CRYPTO_RELIGION: "Sabes que [TARGET_CHARACTER.GetShortUINameNoTooltip] practica Crypto-[CHARACTER.GetSecretFaith.GetName]" #NT!
- IS_NOT_AWARE_OF_SHARED_CRYPTO_RELIGION: "No sabes si [TARGET_CHARACTER.GetShortUINameNoTooltip] practica Crypto-[CHARACTER.GetSecretFaith.GetName]" #NT!
+ IS_AWARE_OF_SHARED_CRYPTO_RELIGION: "Sabes que [TARGET_CHARACTER.GetShortUINameNoTooltip] practica Crypto-[CHARACTER.GetSecretFaith.GetName]"
+ IS_NOT_AWARE_OF_SHARED_CRYPTO_RELIGION: "No sabes si [TARGET_CHARACTER.GetShortUINameNoTooltip] practica Crypto-[CHARACTER.GetSecretFaith.GetName]"
   
  FORCE_VOTE_IN_SUCCESSION_ELECTION_ALREADY_FORCED: "@warning_icon!#X [CHARACTER.GetUINameNotMe] ya controla el voto de [TARGET_CHARACTER.GetShortUIName] en esta elección#!"
   
@@ -1246,7 +1246,7 @@
  CHARACTER_INTERACTION_WINDOW_SELECT_TITLE_TOOLTIP: "Selección de título"
   
  perk_alliance_interaction: "Proponer alianza"
- perk_alliance_interaction_extra_icon: "$hook_extra_icon$" #NT!
+ perk_alliance_interaction_extra_icon: "$hook_extra_icon$"
  perk_alliance_interaction_desc: "Recurriré a la diplomacia estratégica para forjar una alianza con [recipient.GetTitledFirstNameNoTooltip|l]; no con sangre, ¡sino con palabras!"
   
   
@@ -1399,7 +1399,7 @@
   
  char_interaction.0250.desc: "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nLamento informaros de que he decidido aumentar las obligaciones de nuestro pacto.\n\nSé que entenderéis mi dilema, ya que [actor.GetPrimaryTitle.GetNameNoTierNoTooltip] necesita protección urgente y vuestra contribución tiene un gran papel.\n\nAdemás, #emphasis ¡me lo debéis!#!"
  char_interaction.0250.a: "Parece que no me quedan muchas opciones…"
- char_interaction.0251.desc: "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nHe sido un[actor.Custom('ES_XA')] buen vasall[actor.Custom('ES_OA')] con vos, ¡pero debéis entender que también tengo súbditos propios!\n\nEl pacto que nos une es muy restrictivo, así que seguro que veréis cuán inteligente sería aligerarlo un poco, ¿verdad?\n\nAdemás, #emphasis ¡me lo debéis!#!"
+ char_interaction.0251.desc: "[actor.Custom2('PositiveSupplimentaryGreeting', recipient)]\nHe sido un[actor.Custom('ES_XA')] buen vasallo con vos, ¡pero debéis entender que también tengo súbditos propios!\n\nEl pacto que nos une es muy restrictivo, así que seguro que veréis cuán inteligente sería aligerarlo un poco, ¿verdad?\n\nAdemás, #emphasis ¡me lo debéis!#!"
  INTERACTION_SHOW_ACCEPT_EFFECTS_TT: "Mostrar resultados si se acepta la [interaction|E]"
  INTERACTION_SHOW_INTERMEDIARY_DECLINE_EFFECTS_TT: "Muestra qué pasará si el intermediario veta la [interaction|E] antes de que llegue al destinatario"
  INTERACTION_SHOW_DECLINE_EFFECTS_TT: "Mostrar resultados si se rechaza la [interaction|E]"
@@ -1559,13 +1559,13 @@
  court_amenities_interactions.0001.desc: "«¿Quién presumís ser para pavonearos con ese ridículo atuendo? ¡Esto es una corte real, no un burdel! ¡Desvestíos y poneos algo más humilde, como el resto de la corte!»"
  court_amenities_interactions.0001.desc_outro: "[actor.GetNameNoTooltip] me ha acusado de infringir la ley suntuaria de [debate_locale.GetName] y ha exigido que me someta a un castigo con todo el peso de la ley, una mácula y una vergüenza social que probablemente no superaré. Obviamente las acusaciones son inventadas, ¡y sé que si argumento bien mi caso, puedo dejar con un palmo de narices a [actor.GetFirstNameNoTooltip]! Hasta podría causar algunos daños…"
  court_amenities_interactions.0001.a: "«Y exactamente, ¿qué lleváis vos?»"
- court_amenities_interactions.0001.a.tt_success: "#positive_value Defiendes con éxito tus elecciones de ropa#!" #NT!
- court_amenities_interactions.0001.a.tt_failure: "#negative_value Sus argumentos sobre indumentaria tienen poco fundamento#!" #NT!
+ court_amenities_interactions.0001.a.tt_success: "#positive_value Defiendes con éxito tus elecciones de ropa#!"
+ court_amenities_interactions.0001.a.tt_failure: "#negative_value Sus argumentos sobre indumentaria tienen poco fundamento#!"
  court_amenities_interactions.0001.b: "Pagaré el precio con mi dignidad…"
  court_amenities_interactions.0001.b.tt: "$religious_interaction.2400.b.tt$"
  court_amenities_interactions.0002.t: "Un debate de moda"
  court_amenities_interactions.0002.desc_intro: "Hemos debido estar debatiendo durante horas las leyes sobre la correcta apariencia y el aseo personal, haciéndonos gestos violentos, citando leyes antiguas que pocos en la corte parecían conocer. Cuando el humo del espectáculo se disipa,"
- court_amenities_interactions.0002.desc_won.nakey: "¡parece que gané!\n\n Por ello, [actor.GetName] se vio obligad[actor.Custom('ES_OA')] a vestir las ropas de un[actor.Custom('ES_XA')] plebey[actor.Custom('ES_OA')] y ocultar al mundo su cuerpo vergonzosamente descuidado."
+ court_amenities_interactions.0002.desc_won.nakey: "¡parece que gané!\n\n Por ello, [actor.GetName] se vio obligado a vestir las ropas de un[actor.Custom('ES_XA')] plebeyo y ocultar al mundo su cuerpo vergonzosamente descuidado."
  court_amenities_interactions.0002.desc_won: "¡parece que gané!\n\n ¡Por ello, [recipient.GetName] se vio obligad[recipient.Custom('ES_OA')] a despojarse hasta de sus prendas íntimas! Todos los presentes en la corte [recipient.GetHerHim] vieron exactamente tal como [ROOT.Char.GetFaith.CreatorName] [recipient.GetHerHim] trajo al mundo!"
  court_amenities_interactions.0002.desc_lost.nakey: "¡me sorprendió descubrir que, de hecho, estaba infringiendo la ley!\n\n Por primera vez en mi vida, me siento avergonzad[ROOT.Char.Custom('ES_OA')] del cuerpo que [ROOT.Char.GetFaith.CreatorName] me dio, y justo cuando siento que mi desnudez se vuelve obscena, guardias y estilistas cercanos se acercan para vestirme con trapos vulgares y sucios."
  court_amenities_interactions.0002.desc_lost: "¡me sorprendió descubrir que, de hecho, estaba infringiendo la ley!\n\n ¡Permanezco avergonzad[ROOT.Char.Custom('ES_OA')] mientras los guardias del castillo de [debate_locale.GetNameNoTierNoTooltip] y estilistas me despojan hasta las prendas íntimas y siguen desnudándome! Expuest[ROOT.Char.Custom('ES_OA')] ante las corte, huyo de la escena con el orgullo entre las piernas."
@@ -1573,8 +1573,8 @@
  court_amenities_interactions.0002.a_lost.humble: "Que miren. No siento ninguna vergüenza."
  court_amenities_interactions.0002.a_lost.lustful: "Generalmente reservo este honor a mis amantes."
  court_amenities_interactions.0002.a_lost: "Tal vez no vuelva a presentarme en público."
- court_amenities_interactions.0003.desc_won.nakey: "¡parece que gané!\n\n Por ello, [actor.GetName] se vio obligad[actor.Custom('ES_OA')] a vestir las ropas de un[actor.Custom('ES_XA')] plebey[actor.Custom('ES_OA')] y ocultar al mundo su cuerpo vergonzosamente descuidado."
- court_amenities_interactions.0003.desc_won: "¡parece que gané!\n\n ¡Por ello, [actor.GetName] se vio obligad[actor.Custom('ES_OA')] a despojarse hasta de sus prendas íntimas! Todos los presentes en la corte [actor.GetHerHim] vieron exactamente tal como [ROOT.Char.GetFaith.CreatorName] [actor.GetHerHim] trajo al mundo!"
+ court_amenities_interactions.0003.desc_won.nakey: "¡parece que gané!\n\n Por ello, [actor.GetName] se vio obligado a vestir las ropas de un[actor.Custom('ES_XA')] plebeyo y ocultar al mundo su cuerpo vergonzosamente descuidado."
+ court_amenities_interactions.0003.desc_won: "¡parece que gané!\n\n ¡Por ello, [actor.GetName] se vio obligado a despojarse hasta de sus prendas íntimas! Todos los presentes en la corte [actor.GetHerHim] vieron exactamente tal como [ROOT.Char.GetFaith.CreatorName] [actor.GetHerHim] trajo al mundo!"
  court_amenities_interactions.0004.desc: "¡parece que la infracción legal de [victim.GetNameNoTooltip] es un delito castigado con el máximo alcance de la ley de [debate_locale.GetNameNoTierNoTooltip]! ¡Lo que significa que podría encarcelar a [victim.GetNameNoTooltip]! ¡Aunque no es el resultado que estaba esperando, desde luego me pone en una situación de fuerza!"
  court_amenities_interactions.0004.a: "Puede que haga la vista gorda a cambio de un favor…"
  court_amenities_interactions.0004.b: "¡Le quedarían mucho mejor los harapos de prisión!"
@@ -1701,9 +1701,9 @@
  ward_departs_tt: "[ward.GetFirstNameNoTooltip] sale hacia [guardian.GetCurrentLocation.GetNameNoTooltip]"
  guardian_departs_title: "El guardián se pone en marcha"
  guardian_departs_tt: "[guardian.GetFirstNameNoTooltip] sale hacia [ward.GetCurrentLocation.GetNameNoTooltip]"
- adoptee_departs_title: "El adoptado se pone en marcha" #NT!
- adoptee_departs_tt: "[adoptee.GetFirstNameNoTooltip] sale hacia [adopter.GetCurrentLocation.GetNameNoTooltip]" #NT!
- adoptee_leaves_for_adopter_tt: "@alerta_icon! #alert_trial [adoptee.GetFirstName] debe primero [travel|E] a [adopter.GetFirstNamePossessive] corte#!" #NT!
+ adoptee_departs_title: "El adoptado se pone en marcha"
+ adoptee_departs_tt: "[adoptee.GetFirstNameNoTooltip] sale hacia [adopter.GetCurrentLocation.GetNameNoTooltip]"
+ adoptee_leaves_for_adopter_tt: "@alerta_icon! #alert_trial [adoptee.GetFirstName] debe primero [travel|E] a [adopter.GetFirstNamePossessive] corte#!"
  ward_leaves_for_guardian_tt: "@alerta_icon! #alert_trial [ward|E] debe primero [travel|E] a [guardian_possessive|E] corte#!"
  guardian_leaves_for_ward_tt: "@alerta_icon! #alert_trial [guardian|E] debe primero [travel|E] a [ward_possessive|E] corte#!"
  ward_already_offered_awaiting_response_tt: "Ya en negociación para convertirme en alguien [ward|E]"
@@ -1715,6 +1715,6 @@
  ward_travelling_tt: "[THIS.Char.GetShortUIName|U] viaja para convertirse en [ward|E]"
  guardian_travelling_tt: "[THIS.Char.GetShortUIName|U] viaja para convertirse en [guardian|E]"
   
- offer_vassalization_interaction_aibehavior_rival_tt_2: "[secondary_recipient.GetSheHe|U] es tu [rival|E]: $VALUE|=+0$" #NT!
- offer_vassalization_interaction_aibehavior_nemesis_tt_2: "[secondary_recipient.GetSheHe|U] es tu [nemesis|E]: $VALUE|=+0$" #NT!
- offer_vassalization_interaction_aibehavior_dynasty_tt_2: "[secondary_recipient.GetSheHe|U] pertenece a tu [dynasty|E]: $VALUE|=+0$" #NT!
+ offer_vassalization_interaction_aibehavior_rival_tt_2: "[secondary_recipient.GetSheHe|U] es tu [rival|E]: $VALUE|=+0$"
+ offer_vassalization_interaction_aibehavior_nemesis_tt_2: "[secondary_recipient.GetSheHe|U] es tu [nemesis|E]: $VALUE|=+0$"
+ offer_vassalization_interaction_aibehavior_dynasty_tt_2: "[secondary_recipient.GetSheHe|U] pertenece a tu [dynasty|E]: $VALUE|=+0$"

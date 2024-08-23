@@ -1,119 +1,149 @@
 ﻿l_spanish:
   ### Government ### 
- free_city_government: "Ciudad libre" #NT!
- free_city_government_adjective: "Ciudad libre" #NT!
- free_city_government_realm: "Participaciones de la ciudad" #NT!
- free_city_government_vassals_label: "Ciudad libre [obligations|E] se basa en el [feudal_contract|E] de cada [vassal|E]" #NT!
- free_city_government_desc: "Las Ciudades Libres de Essos son ciudades-estado independientes que existen desde que el Imperio Valyrio gobernaba el continente." #NT!
- c_tyroshi_landing: "Aterrizaje de Tyroshi" #NT!
+ free_city_government: "Ciudad libre"
+ free_city_government_adjective: "Ciudad libre"
+ free_city_government_realm: "Participaciones de la ciudad"
+ free_city_government_vassals_label: "Ciudad libre [obligations|E] se basa en el [feudal_contract|E] de cada [vassal|E]"
+ free_city_government_desc: "Las Ciudades Libres de Essos son ciudades-estado independientes que existen desde que el Imperio Valyrio gobernaba el continente."
+ c_tyroshi_landing: "Aterrizaje de Tyroshi"
   
   ### Laws ### 
- free_city_single_heir_succession_law: "Primogenitura" #NT!
- free_city_single_heir_succession_law_subname: "Primogenitura" #NT!
+ free_city_single_heir_succession_law: "Primogenitura"
+ free_city_single_heir_succession_law_subname: "Primogenitura"
   
- magisterial_life_succession_law: "Electiva de Archonato" #NT!
- magisterial_life_succession_law_subname: "Magistral" #NT!
- magisterial_life_elective_candidates: "Magistrados" #NT!
- magisterial_life_elective_candidates_tooltip: "Los ricos y poderosos de las Ciudades Libres son conocidos como los magisters." #NT!
- magisterial_life_elective_electors: "Magistrados" #NT!
- magisterial_life_elective_electors_tooltip: "Los votos de los más grandes magistrados deciden la elección. El resto se alineará" #NT!
- magisterial_life_succession_attached_titles_law: "Electiva Arconato" #NT!
- magisterial_life_succession_attached_titles_law_effects: "Este título seguirá a la elección del reino." #NT!
- magisterial_life_succession_attached_titles_law_subname: "Magistral" #NT!
+ magisterial_life_succession_law: "Electiva de Archonato"
+ magisterial_life_succession_law_subname: "Magistral"
+ magisterial_life_elective_candidates: "Magistrados"
+ magisterial_life_elective_candidates_tooltip: "Los ricos y poderosos de las Ciudades Libres son conocidos como los magisters."
+ magisterial_life_elective_electors: "Magistrados"
+ magisterial_life_elective_electors_tooltip: "Los votos de los más grandes magistrados deciden la elección. El resto se alineará"
+ magisterial_life_succession_attached_titles_law: "Electiva Arconato"
+ magisterial_life_succession_attached_titles_law_effects: "Este título seguirá a la elección del reino."
+ magisterial_life_succession_attached_titles_law_subname: "Magistral"
   
- magisterial_limited_succession_law: "Primera Electiva Magistral" #NT!
- magisterial_limited_succession_law_subname: "Magistral" #NT!
- magisterial_limited_elective_candidates: "Maestros" #NT!
- magisterial_limited_elective_candidates_tooltip: "Los ricos y poderosos de las Ciudades Libres son conocidos como los magisters." #NT!
- magisterial_limited_elective_electors: "Magistrados" #NT!
- magisterial_limited_elective_electors_tooltip: "Los votos de los más grandes magistrados deciden la elección. El resto se alineará" #NT!
- magisterial_limited_succession_attached_titles_law: "Primera Electiva Magistral" #NT!
- magisterial_limited_succession_attached_titles_law_effects: "Este título seguirá a la elección del reino." #NT!
- magisterial_limited_succession_attached_titles_law_subname: "Magistral" #NT!
+ magisterial_limited_succession_law: "Primera Electiva Magistral"
+ magisterial_limited_succession_law_subname: "Magistral"
+ magisterial_limited_elective_candidates: "Maestros"
+ magisterial_limited_elective_candidates_tooltip: "Los ricos y poderosos de las Ciudades Libres son conocidos como los magisters."
+ magisterial_limited_elective_electors: "Magistrados"
+ magisterial_limited_elective_electors_tooltip: "Los votos de los más grandes magistrados deciden la elección. El resto se alineará"
+ magisterial_limited_succession_attached_titles_law: "Primera Electiva Magistral"
+ magisterial_limited_succession_attached_titles_law_effects: "Este título seguirá a la elección del reino."
+ magisterial_limited_succession_attached_titles_law_subname: "Magistral"
   
- dictatorship_succession_law: "Dictadura" #NT!
- dictatorship_succession_law_subname: "Editorial" #NT!
+ dictatorship_succession_law: "Dictadura"
+ dictatorship_succession_law_subname: "Editorial"
   
- election_history: "Elegido" #NT!
+ election_history: "Elegido"
   
   ### Events ### 
- free_city_events.9999.t: "Termina el plazo" #NT!
- free_city_events.9999.desc: "Se ha elegido un nuevo Primer Magister y [old_holder.GetTitledFirstName] ha sido despedido del puesto [old_holder.GetHerHis]. Cuando termina el reinado de [old_holder.GetHerHis], comienza otro, ya que el cónclave ha elegido a [magister_winner.GetFullName]. Con mucha ceremonia, los Magister y el Gonfaloniere juran lealtad al nuevo Primer Magister, y el pueblo reconoce oficialmente la autoridad. Sigue siendo incierto cómo gobernará [magister_winner.GetFullNameNoTooltip], y los Magister ya están planeando cómo convencer a su nuevo líder para que se ponga de su lado." #NT!
- free_city_events.9999.a: "¡Viva el Primer Magister! ¡Viva el [term_limit_country.GetName]!" #NT!
+ free_city_events.9999.t: "Termina el plazo"
+ free_city_events.9999.desc: "Se ha elegido un nuevo Primer Magister y [old_holder.GetTitledFirstName] ha sido despedido del puesto [old_holder.GetHerHis]. Cuando termina el reinado de [old_holder.GetHerHis], comienza otro, ya que el cónclave ha elegido a [magister_winner.GetFullName]. Con mucha ceremonia, los Magister y el Gonfaloniere juran lealtad al nuevo Primer Magister, y el pueblo reconoce oficialmente la autoridad. Sigue siendo incierto cómo gobernará [magister_winner.GetFullNameNoTooltip], y los Magister ya están planeando cómo convencer a su nuevo líder para que se ponga de su lado."
+ free_city_events.9999.a: "¡Viva el Primer Magister! ¡Viva el [term_limit_country.GetName]!"
   
- free_city_events.0001.t: "Una carta con propuesta de alianza" #NT!
- free_city_events.0001.desc: "Un capitán trajo a nuestra corte una carta que llevaba el sello de [request_sender.GetTitledFirstName], y el mensaje que contenía hablaba de una decisión trascendental.\n\n[request_sender.GetTitledFirstNameNoTooltip] extiende una rama de olivo, proponiendo la renovación de una antigua alianza que una vez formó la poderosa Triarquía. Un recuerdo de aquellos días, cuando nuestras ciudades estaban unidas y fuertes, ha vuelto a nuestros corazones.\n\n[request_sender.GetSheHe|U] desea una vez más izar el estandarte del Reino de las Tres Hijas, uniendo a Myr, Lys y Tyrosh. en propósito y poder.\n\n¿Rechazaremos, como ciudades orgullosas y soberanas, la animosidad del pasado y reformaremos una alianza eterna de días pasados? ¿Estaremos juntos, hombro con hombro, y enfrentaremos las tormentas venideras como una Triarquía unida, o elegiremos seguir nuestro destino como barcos individuales, enfrentando las tormentas solos?" #NT!
- free_city_events.0001.a: "¡Que la Triarquía navegue una vez más por los mares una al lado de la otra!" #NT!
- free_city_events.0001.b: "Se resolvió hace años y no volverá, todavía no..." #NT!
+ free_city_events.1001.t: "Elecciones pospuestas" #NT!
+ free_city_events.1001.desc_elector: "Con el reino envuelto en una guerra contra el [war_enemy.GetPrimaryTitle.GetName], el Cónclave ha considerado que no es seguro proceder con la elección de un nuevo Primer Magister.\n\nEn cambio, el [current_ruler.GetFullNameNicknamed] ha asumido temporalmente nuevos poderes para ayudar a mantener el orden y la estabilidad hasta que termine la guerra.\n\nEl Cónclave y el Gonfaloniere declaran en un comunicado que reconocen la autoridad del Primer Magister durante este período de crisis, conscientes de que el futuro de su ciudad está en juego. Los ciudadanos ahora esperan el final del conflicto, aparentemente divididos, ya sea aplaudiendo los decretos o sin saber qué les espera una vez que se restablezca la paz." #NT!
+ free_city_events.1001.desc_liege: "Con el reino envuelto en una guerra contra el [war_enemy.GetPrimaryTitle.GetName], el Cónclave ha considerado que no es seguro proceder con la elección de un nuevo Primer Magister, manteniendo mi puesto a salvo por ahora.\n\nEn cambio, el Cónclave ha declarado que usted asume temporalmente nuevos poderes para mí con el fin de ayudar a mantener el orden y la estabilidad hasta que termine la guerra.\n\nEl Cónclave y el Gonfaloniere declaran en un anuncio público que reconocen mi autoridad durante este período de crisis, conscientes de que el futuro de su ciudad está en juego. Mis ciudadanos ahora esperan el final del conflicto, aparentemente divididos, ya sea aplaudiendo los decretos o sin saber qué les espera una vez que se restablezca la paz." #NT!
+ free_city_events.1001.a: "¿Así muere la libertad?... ¿con aplausos atronadores?" #NT!
+ free_city_events.1001.a_liege: "Me aplauden..." #NT!
+ free_city_events.1001.a.tt: "El Cónclave pospone las elecciones hasta después de que termine la guerra." #NT!
   
- free_city_events.0003.t: "Reforma de las Tres Hijas" #NT!
- free_city_events.0003.desc: "Una vez más, las Tres Hijas están unidas. Myr, Lys y Tyrosh han jurado de nuevo la eterna alianza de la Triarquía. Se ha declarado el nacimiento de un nuevo Reino de las Tres Hijas en todas partes, tanto en Essos como en Poniente.\n\nJuntos, hombro con hombro, hemos prometido reclamar cada centímetro de nuestra legítima tierra y repeler a nuestros enemigos. de regreso a los rincones distantes de donde vinieron.\n\n¡El mundo sabe que ha llegado el amanecer de una nueva era, donde el Reino de las Tres Hijas se levantará, fuerte y unido como uno solo para soportar nuestro poder combinado!\n\ n[request_sender.GetFirstName] [request_sender.GetHouse.GetName] ha prestado juramento como Triarca." #NT!
- free_city_events.0003.a: "¡Que nuestra alianza sea eterna, ahora y siempre!" #NT!
+ free_city_events.1002.t: "El fin de la guerra" #NT!
   
- free_city_events.0004.t: "Un sueño en cenizas" #NT!
- free_city_events.0004.desc: "Es con gran pesar que debemos aceptar el fracaso de nuestro intento de reformar la alianza entre las Tres Hijas. A pesar de la noble causa, la Triarquía no será levantada en este momento de la historia. Sin embargo, algún día, la idea puede resurgir de las cenizas.\n\nEl sueño de un reino unido, donde Myr, Lys y Tyrosh estén hombro con hombro, reclamando las tierras que les corresponden y rechazando a sus enemigos, sigue estando distante. Por ahora, esas tres ciudades están separadas, cada una siguiendo su propio camino.\n\nSi las estrellas se hubieran alineado de manera diferente, el mundo conocido se doblegaría ante nuestra fuerza..." #NT!
- free_city_events.0004.a: "Si las estrellas se hubieran alineado de manera diferente..." #NT!
- free_city_events.0004.b: "¡Que quede escrito en las páginas de la historia!" #NT!
+ free_city_events.1002.desc_elector: "La guerra finalmente ha terminado y la ciudad se prepara para reanudar la elección de un nuevo Primer Magister. \n\nCon el conflicto a sus espaldas, el Cónclave se dispone a reunirse y elegir a un líder que guíe a la ciudad a través de su recuperación y hacia un futuro próspero. \n\nLos primeros indicios sugieren que [magister_winner.GetFullName] puede tener el apoyo necesario para ser elegido. Mientras los Magister y el Gonfaloniere se reúnen, los ciudadanos están llenos de anticipación y esperanza por la estabilidad y el regreso a la normalidad." #NT!
   
- free_city_events.0005.t: "Declaración de guerra" #NT!
- free_city_events.0005.desc: "[actor.GetTitledFirstName] ha convocado al Alto Consejo de la Triarquía a votar ante la perspectiva de declarar la guerra a [recipient.GetTitledFirstName]. Con el corazón apesadumbrado y la mente centrada en el bienestar de las Tres Hijas y su reino, los miembros del Consejo se reúnen en el Gran Salón para emitir sus votos.\n\nEse momento llega cuando los ojos del Consejo se vuelven hacia mí, uno de sus miembros. , y estoy llamado a emitir mi voto.\n\nLa decisión colectiva del Consejo dará forma al camino de las Tres Hijas y al reino que todos apreciamos, así que me aclaro la garganta y voto..." #NT!
- free_city_events.0005.a: "¡Deberíamos declarar la guerra!" #NT!
- free_city_events.0005.b: "No deberíamos #bold#! declarar la guerra..." #NT!
+ free_city_events.1002.desc_liege: "Con la guerra concluida, la cuestión de renunciar a los poderes de emergencia asumidos durante el conflicto se perfila como una cuestión importante. \n\nEl Cónclave se está preparando para reanudar la elección de un nuevo Primer Magister, pero el proceso es incierto. [magister_winner.GetFullName] parece ser un candidato probable, pero la decisión final aún está por tomarse. \n\nComo el Magister que mantuvo la estabilidad durante la guerra, contemplas si renunciar es realmente lo mejor para la ciudad, o bueno, lo mejor para ti, o si tu liderazgo continuo podría proporcionar la orientación necesaria en estos tiempos precarios." #NT!
+ free_city_events.1002.a: "¡Viva el [current_ruler.GetPrimaryTitle.GetName]! ¡Que empiecen las elecciones!" #NT!
   
- free_city_events.1000.t: "Liberar las ciudades libres" #NT!
- free_city_events.1000.desc: ""¿Pensabas que la tiranía del [dead_ruler.GetNamePossessive] duraría para siempre? Ahora que el [free_city.GetName] se ha liberado de la mancha del [dead_ruler.GetHerHis], hemos reanudado las elecciones y no eres tú a quien elegimos"." #NT!
- free_city_events.1000.a: "Oh, no..." #NT!
+ free_city_events.1002.a_liege: "Por el bien de [current_ruler.GetPrimaryTitle.GetName], ¡seguiré el debido proceso!" #NT!
+ free_city_events.1002.a.tt: "El cónclave reanuda la elección de un nuevo Primer Magister." #NT!
+  
+  free_city_events.1002.b_liege:0 "The city needs a strong leader, and I shall be the one to guide it! 
+ free_city_events.1002.b.tt: "Te esfuerzas por mantener tu posición como Primer Magister, convirtiendo el estado en una dictadura." #NT!
+  
+ free_city_events.1003.t: "El término termina" #NT!
+ free_city_events.1003.desc: "Se ha elegido un nuevo Primer Magister y [current_ruler.GetTitledFirstName] ha sido destituido del puesto de [current_ruler.GetHerHis]. Cuando el reinado de [current_ruler.GetHerHis] termina, comienza otro, ya que el Cónclave ha elegido a [magister_winner.GetFullName]. Con mucha ceremonia, los Magister y el Gonfaloniere juran lealtad al nuevo Primer Magister y el pueblo reconoce oficialmente la autoridad de [magister_winner.GetHerHis]. No se sabe cómo gobernará [magister_winner.GetFullNameNoTooltip], y los Magister ya están conspirando para convencer a su nuevo líder." #NT!
+ free_city_events.1003.a: "¡Viva el Primer Magíster! ¡Viva el [magister_winner.GetPrimaryTitle.GetName]!" #NT!
+  
+ free_city_events.1004.t: "Un giro oscuro" #NT!
+ free_city_events.1004.desc: "En un sorprendente giro de los acontecimientos, [current_ruler.GetFullName] ha declarado que no se le cederán los poderes de emergencia a [current_ruler.GetHerHis]. En cambio, [current_ruler.GetHerHis] pretende mantener el control y transformar la ciudad en una dictadura. Este anuncio ha causado conmoción en el Cónclave y en la población, que esperaban el retorno a la democracia. A medida que aumentan las tensiones, el futuro del reino pende de un hilo, y la incertidumbre y el miedo se extienden entre sus ciudadanos." #NT!
+ free_city_events.1004.a: "¿Qué será de nuestro reino?" #NT!
+  
+  
+  
+ free_city_events.0001.t: "Una carta con propuesta de alianza"
+ free_city_events.0001.desc: "Un capitán trajo a nuestra corte una carta que llevaba el sello de [request_sender.GetTitledFirstName], y el mensaje que contenía hablaba de una decisión trascendental.\n\n[request_sender.GetTitledFirstNameNoTooltip] extiende una rama de olivo, proponiendo la renovación de una antigua alianza que una vez formó la poderosa Triarquía. Un recuerdo de aquellos días, cuando nuestras ciudades estaban unidas y fuertes, ha vuelto a nuestros corazones.\n\n[request_sender.GetSheHe|U] desea una vez más izar el estandarte del Reino de las Tres Hijas, uniendo a Myr, Lys y Tyrosh. en propósito y poder.\n\n¿Rechazaremos, como ciudades orgullosas y soberanas, la animosidad del pasado y reformaremos una alianza eterna de días pasados? ¿Estaremos juntos, hombro con hombro, y enfrentaremos las tormentas venideras como una Triarquía unida, o elegiremos seguir nuestro destino como barcos individuales, enfrentando las tormentas solos?"
+ free_city_events.0001.a: "¡Que la Triarquía navegue una vez más por los mares una al lado de la otra!"
+ free_city_events.0001.b: "Se resolvió hace años y no volverá, todavía no..."
+  
+ free_city_events.0003.t: "Reforma de las Tres Hijas"
+ free_city_events.0003.desc: "Una vez más, las Tres Hijas están unidas. Myr, Lys y Tyrosh han jurado de nuevo la eterna alianza de la Triarquía. Se ha declarado el nacimiento de un nuevo Reino de las Tres Hijas en todas partes, tanto en Essos como en Poniente.\n\nJuntos, hombro con hombro, hemos prometido reclamar cada centímetro de nuestra legítima tierra y repeler a nuestros enemigos. de regreso a los rincones distantes de donde vinieron.\n\n¡El mundo sabe que ha llegado el amanecer de una nueva era, donde el Reino de las Tres Hijas se levantará, fuerte y unido como uno solo para soportar nuestro poder combinado!\n\ n[request_sender.GetFirstName] [request_sender.GetHouse.GetName] ha prestado juramento como Triarca."
+ free_city_events.0003.a: "¡Que nuestra alianza sea eterna, ahora y siempre!"
+  
+ free_city_events.0004.t: "Un sueño en cenizas"
+ free_city_events.0004.desc: "Es con gran pesar que debemos aceptar el fracaso de nuestro intento de reformar la alianza entre las Tres Hijas. A pesar de la noble causa, la Triarquía no será levantada en este momento de la historia. Sin embargo, algún día, la idea puede resurgir de las cenizas.\n\nEl sueño de un reino unido, donde Myr, Lys y Tyrosh estén hombro con hombro, reclamando las tierras que les corresponden y rechazando a sus enemigos, sigue estando distante. Por ahora, esas tres ciudades están separadas, cada una siguiendo su propio camino.\n\nSi las estrellas se hubieran alineado de manera diferente, el mundo conocido se doblegaría ante nuestra fuerza..."
+ free_city_events.0004.a: "Si las estrellas se hubieran alineado de manera diferente..."
+ free_city_events.0004.b: "¡Que quede escrito en las páginas de la historia!"
+  
+ free_city_events.0005.t: "Declaración de guerra"
+ free_city_events.0005.desc: "[actor.GetTitledFirstName] ha convocado al Alto Consejo de la Triarquía a votar ante la perspectiva de declarar la guerra a [recipient.GetTitledFirstName]. Con el corazón apesadumbrado y la mente centrada en el bienestar de las Tres Hijas y su reino, los miembros del Consejo se reúnen en el Gran Salón para emitir sus votos.\n\nEse momento llega cuando los ojos del Consejo se vuelven hacia mí, uno de sus miembros. , y estoy llamado a emitir mi voto.\n\nLa decisión colectiva del Consejo dará forma al camino de las Tres Hijas y al reino que todos apreciamos, así que me aclaro la garganta y voto..."
+ free_city_events.0005.a: "¡Deberíamos declarar la guerra!"
+ free_city_events.0005.b: "No deberíamos #bold#! declarar la guerra..."
+  
+ free_city_events.1000.t: "Liberar las ciudades libres"
+ free_city_events.1000.desc: ""¿Pensabas que la tiranía del [dead_ruler.GetNamePossessive] duraría para siempre? Ahora que el [free_city.GetName] se ha liberado de la mancha del [dead_ruler.GetHerHis], hemos reanudado las elecciones y no eres tú a quien elegimos"."
+ free_city_events.1000.a: "Oh, no..."
   
   ### Decisions/Interactions ### 
- agot_attempt_triarchy: "Intento de formar la triarquía" #NT!
- agot_attempt_triarchy_desc: "Llegar a las otras Tres Hijas para formar la Triarquía" #NT!
- agot_attempt_triarchy_tooltip: "Acércate a tus compañeros gobernantes para formar la triarquía." #NT!
- agot_attempt_triarchy_confirm: "Tráeme mi sello" #NT!
- request_war_interaction: "Solicitar permiso para la guerra" #NT!
- request_war_desc: "Solicita que el Alto Consejo te conceda permiso para declarar la guerra" #NT!
+ agot_attempt_triarchy: "Intento de formar la triarquía"
+ agot_attempt_triarchy_desc: "Llegar a las otras Tres Hijas para formar la Triarquía"
+ agot_attempt_triarchy_tooltip: "Acércate a tus compañeros gobernantes para formar la triarquía."
+ agot_attempt_triarchy_confirm: "Tráeme mi sello"
+ request_war_interaction: "Solicitar permiso para la guerra"
+ request_war_desc: "Solicita que el Alto Consejo te conceda permiso para declarar la guerra"
   
- agot_create_three_daughters: "Forma el Reino de las Tres Hijas" #NT!
- agot_create_three_daughters_desc: "Ahora que controlo a las tres hijas de la Vieja Valyria, es hora de consolidar mi poder." #NT!
- agot_create_three_daughters_tooltip: "Forma el reino de las Tres Hijas." #NT!
- agot_create_three_daughters_confirm: "Tráeme mi sello" #NT!
+ agot_create_three_daughters: "Forma el Reino de las Tres Hijas"
+ agot_create_three_daughters_desc: "Ahora que controlo a las tres hijas de la Vieja Valyria, es hora de consolidar mi poder."
+ agot_create_three_daughters_tooltip: "Forma el reino de las Tres Hijas."
+ agot_create_three_daughters_confirm: "Tráeme mi sello"
   
- agot_stepstones_rhoynish_culture: "Una nueva identidad" #NT!
- agot_stepstones_rhoynish_culture_desc: "Llevamos mucho tiempo varados en estas islas, y durante mucho tiempo nos hemos mantenido en nuestras raíces de Rhoyne y los Antiguos Principados. ¿Pero realmente deseamos seguir así?" #NT!
- agot_stepstones_rhoynish_culture_tooltip: "Surgirá una cultura nueva y divergente del $rhoynish$, con su propio conjunto de tradiciones." #NT!
- agot_stepstones_rhoynish_culture_confirm: "A nuevos comienzos." #NT!
+ agot_stepstones_rhoynish_culture: "Una nueva identidad"
+ agot_stepstones_rhoynish_culture_desc: "Llevamos mucho tiempo varados en estas islas, y durante mucho tiempo nos hemos mantenido en nuestras raíces de Rhoyne y los Antiguos Principados. ¿Pero realmente deseamos seguir así?"
+ agot_stepstones_rhoynish_culture_tooltip: "Surgirá una cultura nueva y divergente del $rhoynish$, con su propio conjunto de tradiciones."
+ agot_stepstones_rhoynish_culture_confirm: "A nuevos comienzos."
   
- agot_seize_control: "Tomar el control" #NT!
- agot_seize_control_desc: "Una dictadura no puede durar para siempre; si quiero asegurar la sucesión de mi dinastía debo abandonar toda pretensión de democracia." #NT!
- agot_seize_control_tooltip: "Poner fin para siempre a las elecciones convirtiéndote a un gobierno feudal." #NT!
- agot_seize_control_confirm: "Tráeme mi sello" #NT!
- lys_full_county_control_tt: "Tienes un máximo de [county_control|E] en $c_lys$" #NT!
- pentos_full_county_control_tt: "Tienes máximo [county_control|E] en $c_pentos$" #NT!
- myr_full_county_control_tt: "Tienes máximo [county_control|E] en $c_myr$" #NT!
- tyrosh_full_county_control_tt: "Tienes máximo [county_control|E] en $c_tyrosh$" #NT!
- strong_hook_on_all_powerful_vassals_tt: "Tienes un [strong_hook|E] en todos tus [powerful_vassals|E]" #NT!
+ agot_seize_control: "Tomar el control"
+ agot_seize_control_desc: "Una dictadura no puede durar para siempre; si quiero asegurar la sucesión de mi dinastía debo abandonar toda pretensión de democracia."
+ agot_seize_control_tooltip: "Poner fin para siempre a las elecciones convirtiéndote a un gobierno feudal."
+ agot_seize_control_confirm: "Tráeme mi sello"
+ lys_full_county_control_tt: "Tienes un máximo de [county_control|E] en $c_lys$"
+ pentos_full_county_control_tt: "Tienes máximo [county_control|E] en $c_pentos$"
+ myr_full_county_control_tt: "Tienes máximo [county_control|E] en $c_myr$"
+ tyrosh_full_county_control_tt: "Tienes máximo [county_control|E] en $c_tyrosh$"
+ strong_hook_on_all_powerful_vassals_tt: "Tienes un [strong_hook|E] en todos tus [powerful_vassals|E]"
   
- agot_form_undisputed_lands: "Resolver las tierras en disputa" #NT!
- agot_form_undisputed_lands_decision_desc: "Estas tierras han sido objeto de lucha y conquista desde la Perdición de Valyria, pero finalmente las he unido." #NT!
- agot_form_undisputed_lands_decision_tooltip: "Forma un reino a partir de estas tierras que alguna vez estuvieron en disputa." #NT!
- agot_form_undisputed_lands_confirm: "¡A la infamia y la inmortalidad!" #NT!
+ agot_form_undisputed_lands: "Resolver las tierras en disputa"
+ agot_form_undisputed_lands_decision_desc: "Estas tierras han sido objeto de lucha y conquista desde la Perdición de Valyria, pero finalmente las he unido."
+ agot_form_undisputed_lands_decision_tooltip: "Forma un reino a partir de estas tierras que alguna vez estuvieron en disputa."
+ agot_form_undisputed_lands_confirm: "¡A la infamia y la inmortalidad!"
   
   ### Misc ### 
- THREE_DAUGHTERS: "Alto Consejo de la Triarquía" #NT!
- HIGH_COUNCIL_TRIARCHY: "Consejo Superior" #NT!
- tooltip_magisterial_wealth: "Riqueza personal: [GetPlayer.GetGold|0]" #NT!
- year_till_election: "Un año antes de las elecciones" #NT!
- year_till_election_desc: "Dentro de un año, [election_title.GetName] tendrá elección para el próximo Primer Magister. Quizás sería mejor guardar el oro para prepararlo." #NT!
- gonfaloniere_diarchy_type: "Gonfalón" #NT!
- gonfaloniere_diarch_title: "Gonfaloniero" #NT!
- second_magister_diarchy_type: "Cónclave magistral" #NT!
- second_magister_diarch_title: "Segundo Magíster" #NT!
- high_councilor_diarchy_type: "Consejo Magistral" #NT!
- high_councilor_diarch_title: "Alto Consejero" #NT!
- tyniate_diarchy_type: "Cónclave Magisterial" #NT!
- tyniate_diarch_title: "Tyniate" #NT!
- MYR: "#bold #high MYR#!#!" #NT!
- LYS: "#bold #high LYS#!#!" #NT!
- TYROSH: "#bold #high TYROSH#!#!" #NT!
- high_council_description: "#italic El Alto Consejo de la Triarquía está formado por once Magísteres de cada ciudad libre que lo compone.\n\nJuntos, votan todas las acciones importantes de las Tres Hijas y los de mayor rango entre ellos seleccionan a la próxima Triarca.#!" #NT!
- war_approved: "Aprobado por la guerra" #NT!
- war_denied: "Guerra negada" #NT!
+ THREE_DAUGHTERS: "Alto Consejo de la Triarquía"
+ HIGH_COUNCIL_TRIARCHY: "Consejo Superior"
+ tooltip_magisterial_wealth: "Riqueza personal: [GetPlayer.GetGold|0]"
+ year_till_election: "Un año antes de las elecciones"
+ year_till_election_desc: "Dentro de un año, [election_title.GetName] tendrá elección para el próximo Primer Magister. Quizás sería mejor guardar el oro para prepararlo."
+ gonfaloniere_diarchy_type: "Gonfalón"
+ gonfaloniere_diarch_title: "Gonfaloniero"
+ second_magister_diarchy_type: "Cónclave magistral"
+ second_magister_diarch_title: "Segundo Magíster"
+ high_councilor_diarchy_type: "Consejo Magistral"
+ high_councilor_diarch_title: "Alto Consejero"
+ tyniate_diarchy_type: "Cónclave Magisterial"
+ tyniate_diarch_title: "Tyniate"
+ MYR: "#bold #high MYR#!#!"
+ LYS: "#bold #high LYS#!#!"
+ TYROSH: "#bold #high TYROSH#!#!"
+ high_council_description: "#italic El Alto Consejo de la Triarquía está formado por once Magísteres de cada ciudad libre que lo compone.\n\nJuntos, votan todas las acciones importantes de las Tres Hijas y los de mayor rango entre ellos seleccionan a la próxima Triarca.#!"
+ war_approved: "Aprobado por la guerra"
+ war_denied: "Guerra negada"

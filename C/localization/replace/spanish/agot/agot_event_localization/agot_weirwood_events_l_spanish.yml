@@ -11,18 +11,7 @@
   ############ 
   
  gain_piety_tooltip: "Mi piedad no pasa desapercibida"
- upgrade_education_tooltip: "Actualizas tu [education_trait|E]"
- may_gain_animal_companion_tooltip: "Ganas un compañero animal."
- gain_fertility_bonus_tooltip: "Obtienes una bonificación a tu [fertility|E]"
- gain_minor_health_bonus_tooltip: "Obtienes una bonificación menor a tu [health|E]"
- gain_medium_health_bonus_tooltip: "Obtienes una bonificación mediana a tu [health|E]"
- downgrade_wounds_tooltip: "Tus heridas sanan en parte"
  wounds_turn_to_cripple_tooltip: "Tus heridas sanan por completo, pero te conviertes en [GetTrait('crippled').GetName( GetNullCharacter )]"
- may_improve_relationship_with_spouse_tooltip: "Mejoras tu relación con [spouse.GetName]"
- may_improve_relationship_with_family_member_tooltip: "Mejoras tu relación con un familiar"
- may_remove_sins_tooltip: "Puede optar por superar uno de los siguientes [sins|E] o, en general, [traits|E] negativo:"
- may_remove_specific_sin_tooltip: "[GetTrait(Localize(Scope.GetFlagName)).GetName(GetPlayer.Self)]"
- may_gain_calm_tooltip: "Puedes optar por obtener el [GetTrait('calm').GetName(GetNullCharacter)] [trait|E]"
   
   ############# 
   # MODIFIERS # 
@@ -31,3 +20,4 @@
  weirwood_fertility_bonus_modifier: "Bendición de fertilidad de Weirwood"
  weirwood_minor_health_bonus_modifier: "Bendición de salud Weirwood (menor)"
  weirwood_medium_health_bonus_modifier: "Bendición de salud Weirwood (mediana)"
+ weirwood_stress_modifier: "La paz de los arcianos" #NT!

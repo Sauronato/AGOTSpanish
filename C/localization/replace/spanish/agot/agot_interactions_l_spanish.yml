@@ -7,8 +7,8 @@
  mute_interaction: "Silenciar"
  mute_interaction_desc: "Convertir [recipient.GetShortUINameNoTooltip] en [GetTrait('mute').GetName( GetPlayer )]"
   
- sell_prisoner_into_slavery_interaction: "Vender como esclavo" #NT!
- sell_prisoner_into_slavery_interaction_desc: "Vender [recipient.GetShortUINameNoTooltip] como esclavo" #NT!
+ sell_prisoner_into_slavery_interaction: "Vender como esclavo"
+ sell_prisoner_into_slavery_interaction_desc: "Vender [recipient.GetShortUINameNoTooltip] como esclavo"
   
  #septa 
  septa_child_language_rank_1: "El [aptitude|E] de tu [GetCourtPositionType('septa_court_position').GetName()] da el [scheme|E] #P 5#! [success_chance|E] y [scheme_power|E] adicionales"
@@ -46,7 +46,7 @@
  WHEREABOUTS_UNKNOWN: "Se desconoce el paradero de [CHARACTER.GetShortUIName|U]"
   
  offer_vassalization_shattered_world_tt: "Equilibrio mundial destrozado: $VALUE|=+0$"
- offer_vassalization_stepstones_tt: "Pirata: $VALUE|=+0$" #NT!
+ offer_vassalization_stepstones_tt: "Pirata: $VALUE|=+0$"
   
  offer_dawn_interaction: "Oferta amanecer"
  offer_dawn_interaction_desc: "Ofrecer Dawn a [recipient.GetShortUINameNoTooltip]. Si [recipient.GetSheHe] no es digno, [recipient.GetSheHe] no puede aceptar..."
@@ -61,4 +61,13 @@
  raise_to_nobility_tt: "Será elevado a la nobleza y fundará una nueva dinastía."
  raised_me_to_nobility_opinion: "Elevado a la nobleza"
   
- already_offered_concubine_warning: "@warning_icon! #X Ya has ofrecido una concubina a [recipient.GetShortUIName], ofrecer otra #underline anulará#! el modificador [opinion|E] existente.#!" #NT!
+ already_offered_concubine_warning: "@warning_icon! #X Ya has ofrecido una concubina a [recipient.GetShortUIName], ofrecer otra #underline anulará#! el modificador [opinion|E] existente.#!"
+  
+ hof_ask_for_claim_must_higher_one_tier_desc: "El nivel entre tú y el personaje objetivo es demasiado grande" #NT!
+  
+ CANNOT_GRANT_OWN_SC_VASSAL_THIRD: "No se puede ceder un miembro del Consejo Privado prestado" #NT!
+ is_available_desc_third: "Estás disponible" #NT!
+ NOT_is_available_desc_third: "no estas disponible" #NT!
+  
+ agot_dragon.0004.t: "Un momento difícil" #NT!
+ agot_dragon.0004.desc: "Me despertaron de madrugada dos guardias desconocidos. Sin duda, había pensado en lo que estaba a punto de suceder en mis momentos más oscuros, pero ninguna cantidad de imágenes mentales podría haberme preparado para enfrentar esto. Mientras me llevan frente al dragón [actor.GetShortUINamePossessive], experimento un momento de serena y perfecta claridad. Pasamos mucho tiempo considerando nuestras acciones, nuestras decisiones y cómo nuestras acciones impactan al mundo, pero todo es mentira. No soy más que un saco de carne, tendones y huesos. Este, este ser que me mira con la mirada hambrienta de un depredador, este es su mundo; solo vivimos en él. \n\nO, bueno, vivimos." #NT!

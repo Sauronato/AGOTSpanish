@@ -1,618 +1,618 @@
 ﻿l_spanish:
- fire_court_physician_effect.tt: "[THIS.Char.GetShortUIName] ya no es [GetCourtPositionType('court_physician_court_position').GetName()]" #NT!
+ fire_court_physician_effect.tt: "[THIS.Char.GetShortUIName] ya no es [GetCourtPositionType('court_physician_court_position').GetName()]"
   
   #Recovery events, by Linnéa Thimrén and Petter Vilberg 
- health.0001.desc: "Mi herida ha sanado" #NT!
+ health.0001.desc: "Mi herida ha sanado"
   
- health_wounded_title: "Herido:" #NT!
- health.0002.t: "$health_wounded_title$ Curación" #NT!
- health.0002.desc: "Mis lesiones están mejorando poco a poco y el dolor ya no es mi compañero constante. Todavía estoy debilitado, pero hoy soy capaz de muchas cosas que hace apenas una luna eran imposibles." #NT!
- health.0002.a: "Espero mi completa recuperación." #NT!
+ health_wounded_title: "Herido:"
+ health.0002.t: "$health_wounded_title$ Curación"
+ health.0002.desc: "Mis lesiones están mejorando poco a poco y el dolor ya no es mi compañero constante. Todavía estoy debilitado, pero hoy soy capaz de muchas cosas que hace apenas una luna eran imposibles."
+ health.0002.a: "Espero mi completa recuperación."
   
- health.0003.t: "$health_wounded_title$ Un roce con la muerte" #NT!
- health.0003.desc: "Parece que lo peor ya ha pasado. Mis heridas abiertas y mis huesos rotos han comenzado a sanar lentamente." #NT!
- health.0003.a: "Quizás pueda superar esto." #NT!
+ health.0003.t: "$health_wounded_title$ Un roce con la muerte"
+ health.0003.desc: "Parece que lo peor ya ha pasado. Mis heridas abiertas y mis huesos rotos han comenzado a sanar lentamente."
+ health.0003.a: "Quizás pueda superar esto."
   
- health.0004.t: "$health_wounded_title$ El fuego termina" #NT!
- health.0004.desc: "La piel alrededor se endurece, pero la sensación de ardor en mi herida ha pasado. Parece que la infección ha desaparecido." #NT!
- health.0004.a: "Gracias [ROOT.Char.GetFaith.HealthGodName]." #NT!
+ health.0004.t: "$health_wounded_title$ El fuego termina"
+ health.0004.desc: "La piel alrededor se endurece, pero la sensación de ardor en mi herida ha pasado. Parece que la infección ha desaparecido."
+ health.0004.a: "Gracias [ROOT.Char.GetFaith.HealthGodName]."
   
- health.wounded_1_success: "Tratamiento exitoso de heridas" #NT!
- health.wounded_1_failure: "Tratamiento fallido de heridas" #NT!
+ health.wounded_1_success: "Tratamiento exitoso de heridas"
+ health.wounded_1_failure: "Tratamiento fallido de heridas"
   
   # Becoming wounded, by Linnéa Thimrén and Petter Vilberg 
- health.0102.t: "$health_wounded_title$ Corte Profundo" #NT!
- health.0102.desc: "El dolor me recorre el cuerpo a cada paso, y hasta el más mínimo movimiento me deja sin aliento. Cuando levanto una mano para tocarme con cuidado la herida, la aparto ensangrentada y tiemblo mientras la sangre gotea por mi costado." #NT!
- health.0102.court_physician.desc: "\n\n"No te preocupes, mi [ROOT.Char.GetLadyLord]. Tu herida es profunda, pero mi conocimiento es más profundo."" #NT!
- health.0102.a: "Sólo necesito sentarme un rato..." #NT!
+ health.0102.t: "$health_wounded_title$ Corte Profundo"
+ health.0102.desc: "El dolor me recorre el cuerpo a cada paso, y hasta el más mínimo movimiento me deja sin aliento. Cuando levanto una mano para tocarme con cuidado la herida, la aparto ensangrentada y tiemblo mientras la sangre gotea por mi costado."
+ health.0102.court_physician.desc: "\n\n"No te preocupes, mi [ROOT.Char.GetLadyLord]. Tu herida es profunda, pero mi conocimiento es más profundo.""
+ health.0102.a: "Sólo necesito sentarme un rato..."
   
- health.0104.t: "$health_wounded_title$ Gravemente herido" #NT!
- health.0104.desc: "¿Es ese hueso que veo incrustado en mi carne, o algo que debería estar escondido aún más profundamente? Mientras mi piel bosteza como las fauces hambrientas de la muerte, quedo paralizado por el río de sangre que se derrama." #NT!
- health.0104.court_physician.desc: "\n\n"Estás gravemente herido, mi [ROOT.Char.GetLadyLord]. ¡Necesitamos atenderte de inmediato!"" #NT!
- health.0104.a: "[ROOT.Char.GetFaith.HealthGodName|U], ¡líbrame de este dolor!" #NT!
+ health.0104.t: "$health_wounded_title$ Gravemente herido"
+ health.0104.desc: "¿Es ese hueso que veo incrustado en mi carne, o algo que debería estar escondido aún más profundamente? Mientras mi piel bosteza como las fauces hambrientas de la muerte, quedo paralizado por el río de sangre que se derrama."
+ health.0104.court_physician.desc: "\n\n"Estás gravemente herido, mi [ROOT.Char.GetLadyLord]. ¡Necesitamos atenderte de inmediato!""
+ health.0104.a: "[ROOT.Char.GetFaith.HealthGodName|U], ¡líbrame de este dolor!"
   
   # Infection/gangrene, by Linnéa Thimrén and Petter Vilberg 
- health.0201.desc: "Herida infectada" #NT!
+ health.0201.desc: "Herida infectada"
   
- health.0202.t: "$health_wounded_title$ Una mancha interior" #NT!
- health.0202.desc: "¡Siento como si cien cuchillos estuvieran cortando mi herida! Cuando la carne se oscurece y la sangre se vuelve pálida, queda claro que la herida está infectada." #NT!
- health.0202.unintelligent: "Es como si muchos cuchillos me cortaran la piel alrededor de la herida cada vez que la toco. La carne está tierna y creo que la sangre no tiene el color adecuado." #NT!
- health.0202.court_physician.desc: "\n\n"Tu herida se ha infectado, mi [ROOT.Char.GetLadyLord]. Pero no te preocupes, te ayudaré a superar esto."" #NT!
- health.0202.a: "Espero vivir esto." #NT!
+ health.0202.t: "$health_wounded_title$ Una mancha interior"
+ health.0202.desc: "¡Siento como si cien cuchillos estuvieran cortando mi herida! Cuando la carne se oscurece y la sangre se vuelve pálida, queda claro que la herida está infectada."
+ health.0202.unintelligent: "Es como si muchos cuchillos me cortaran la piel alrededor de la herida cada vez que la toco. La carne está tierna y creo que la sangre no tiene el color adecuado."
+ health.0202.court_physician.desc: "\n\n"Tu herida se ha infectado, mi [ROOT.Char.GetLadyLord]. Pero no te preocupes, te ayudaré a superar esto.""
+ health.0202.a: "Espero vivir esto."
   
- health.0203.desc: "Herida gangrenosa" #NT!
+ health.0203.desc: "Herida gangrenosa"
   
- health.0204.t: "$health_wounded_title$ Noticias oscuras" #NT!
- health.0204.desc: "Se supone que una herida duele y algo de hinchazón no es inusual, así que supuse que mi herida se estaba curando. Sin embargo, ahora hay ampollas que estropean mi piel y el enrojecimiento se está volviendo negro. ¡Mi cuerpo se está pudriendo ante mis ojos!" #NT!
- health.0204.court_physician.desc: "\n\n"Has contraído gangrena, mi [ROOT.Char.GetLadyLord]. Esto es muy grave... ¡Debemos tratarte de inmediato!"" #NT!
+ health.0204.t: "$health_wounded_title$ Noticias oscuras"
+ health.0204.desc: "Se supone que una herida duele y algo de hinchazón no es inusual, así que supuse que mi herida se estaba curando. Sin embargo, ahora hay ampollas que estropean mi piel y el enrojecimiento se está volviendo negro. ¡Mi cuerpo se está pudriendo ante mis ojos!"
+ health.0204.court_physician.desc: "\n\n"Has contraído gangrena, mi [ROOT.Char.GetLadyLord]. Esto es muy grave... ¡Debemos tratarte de inmediato!""
   
   # Disease Contraction, by Mathilda Bjarnehed 
- health.1001.t: "[SCOPE.Custom('EventTitleDisease')]: Mi cuerpo mortal" #NT!
- health.1001.desc: "[ROOT.Char.GetTitleTierName] o campesino, alto o bajo, no importa. Al final, todos somos mortales.\n\nMe acordé de esto cuando me desperté tosiendo en las primeras horas de la mañana, con un dolor sordo golpeando mi cabeza y mi garganta. Mi cuerpo está sacudido por escalofríos y debilidad, mi cabeza gotea por cada orificio.\n\n" #NT!
- health.1001.nophysician.desc: "Seguramente debe haber alguien en el reino a quien pueda conseguir para arreglar esta condición maldita..." #NT!
- health.1001.court_physician.desc: ""Escuché ese jadeo desde el pasillo, mi [ROOT.Char.GetLadyLord]", [physician.GetFirstName], mi médico, asoma la cabeza de [physician.GetHerHis] por mi puerta, "si lo necesita, conozco un buen número de remedios adecuados"." #NT!
- health.1001.a: "Lo único que quiero es quedarme en la cama..." #NT!
- health.1001.b: "¡Debo regresar a casa #EMP inmediatamente!#!" #NT!
+ health.1001.t: "[SCOPE.Custom('EventTitleDisease')]: Mi cuerpo mortal"
+ health.1001.desc: "[ROOT.Char.GetTitleTierName] o campesino, alto o bajo, no importa. Al final, todos somos mortales.\n\nMe acordé de esto cuando me desperté tosiendo en las primeras horas de la mañana, con un dolor sordo golpeando mi cabeza y mi garganta. Mi cuerpo está sacudido por escalofríos y debilidad, mi cabeza gotea por cada orificio.\n\n"
+ health.1001.nophysician.desc: "Seguramente debe haber alguien en el reino a quien pueda conseguir para arreglar esta condición maldita..."
+ health.1001.court_physician.desc: ""Escuché ese jadeo desde el pasillo, mi [ROOT.Char.GetLadyLord]", [physician.GetFirstName], mi médico, asoma la cabeza de [physician.GetHerHis] por mi puerta, "si lo necesita, conozco un buen número de remedios adecuados"."
+ health.1001.a: "Lo único que quiero es quedarme en la cama..."
+ health.1001.b: "¡Debo regresar a casa #EMP inmediatamente!#!"
   
- health.1002.t: "[SCOPE.Custom('EventTitleDisease')]: Tan afilado como un cuchillo" #NT!
- health.1002.desc: "Respirar es algo tan fácil y maravilloso: un pequeño milagro en el que rara vez pensamos por un momento. Ahora, mientras lucho por mantener la respiración uniforme y los ataques de tos son seguidos por un dolor punzante en el pecho, esto está constantemente en primer plano en mi mente." #NT!
- health.1002.court_physician.desc: "\n\nMi médico [physician.GetFirstName] me mira de arriba abajo. "Es neumonía, mi [ROOT.Char.GetLadyLord]. No debe tomarse a la ligera. ¿Cómo procederemos?"" #NT!
- health.1002.a: "¡Por favor, que esto no sea el final!" #NT!
+ health.1002.t: "[SCOPE.Custom('EventTitleDisease')]: Tan afilado como un cuchillo"
+ health.1002.desc: "Respirar es algo tan fácil y maravilloso: un pequeño milagro en el que rara vez pensamos por un momento. Ahora, mientras lucho por mantener la respiración uniforme y los ataques de tos son seguidos por un dolor punzante en el pecho, esto está constantemente en primer plano en mi mente."
+ health.1002.court_physician.desc: "\n\nMi médico [physician.GetFirstName] me mira de arriba abajo. "Es neumonía, mi [ROOT.Char.GetLadyLord]. No debe tomarse a la ligera. ¿Cómo procederemos?""
+ health.1002.a: "¡Por favor, que esto no sea el final!"
   
- health.1003.t: "[SCOPE.Custom('EventTitleDisease')]: El precio de la indulgencia" #NT!
- health.1003.court_amenities_gout.desc: "Mi corte es famosa por tener raciones de comida exuberantes e incesantes. A medida que mis pies comienzan a hincharse, me doy cuenta de que muchos de nosotros también tendremos que prepararnos para un dolor implacable." #NT!
- health.1003.desc: "La llaman "la enfermedad de los reyes", como si hubiera algo lujoso o envidiable en mis articulaciones hinchadas y doloridas. En particular, el dedo gordo del pie está dolorosamente distendido y me deja cojeando. Cuando mis dolores llegan a su punto máximo, no puedo evitar desear haber nacido como un simple campesino." #NT!
- health.1003.court_physician.desc: "\n\nMi médico [physician.GetFirstName] deja algunos ungüentos a mi lado. "Tienes mi más sentido pésame, mi [ROOT.Char.GetLadyLord]. Tengo algunas ideas que podrían aliviar los síntomas de tu gota"." #NT!
- health.1003.a: "¡Tráeme algunos ungüentos! ¡Rápidamente!" #NT!
+ health.1003.t: "[SCOPE.Custom('EventTitleDisease')]: El precio de la indulgencia"
+ health.1003.court_amenities_gout.desc: "Mi corte es famosa por tener raciones de comida exuberantes e incesantes. A medida que mis pies comienzan a hincharse, me doy cuenta de que muchos de nosotros también tendremos que prepararnos para un dolor implacable."
+ health.1003.desc: "La llaman "la enfermedad de los reyes", como si hubiera algo lujoso o envidiable en mis articulaciones hinchadas y doloridas. En particular, el dedo gordo del pie está dolorosamente distendido y me deja cojeando. Cuando mis dolores llegan a su punto máximo, no puedo evitar desear haber nacido como un simple campesino."
+ health.1003.court_physician.desc: "\n\nMi médico [physician.GetFirstName] deja algunos ungüentos a mi lado. "Tienes mi más sentido pésame, mi [ROOT.Char.GetLadyLord]. Tengo algunas ideas que podrían aliviar los síntomas de tu gota"."
+ health.1003.a: "¡Tráeme algunos ungüentos! ¡Rápidamente!"
   
- health.1004.t: "[SCOPE.Custom('EventTitleDisease')]: Ojos desviados" #NT!
- health.1004.desc: "Los primeros síntomas fueron sutiles y rápidamente los olvidé. Quizás estaba demasiado asustado para ver la verdad. Sin embargo, esta horrenda marca en mi cara, esta lesión... Es algo que ya no puedo ignorar.\n\nMis súbditos todavía siguen mis órdenes, pero algo ha cambiado en la forma en que me miran. ¿Eso es miedo en sus ojos? ¿Lástima? ¿Asco?" #NT!
- health.1004.court_physician.desc: "\n\n"Lo siento, la lepra es una aflicción permanente, mi [ROOT.Char.GetLadyLord]. Sin embargo, tengo métodos para aliviar tus síntomas."" #NT!
- health.1004.a: "¿Qué he hecho para merecer esta maldición?" #NT!
+ health.1004.t: "[SCOPE.Custom('EventTitleDisease')]: Ojos desviados"
+ health.1004.desc: "Los primeros síntomas fueron sutiles y rápidamente los olvidé. Quizás estaba demasiado asustado para ver la verdad. Sin embargo, esta horrenda marca en mi cara, esta lesión... Es algo que ya no puedo ignorar.\n\nMis súbditos todavía siguen mis órdenes, pero algo ha cambiado en la forma en que me miran. ¿Eso es miedo en sus ojos? ¿Lástima? ¿Asco?"
+ health.1004.court_physician.desc: "\n\n"Lo siento, la lepra es una aflicción permanente, mi [ROOT.Char.GetLadyLord]. Sin embargo, tengo métodos para aliviar tus síntomas.""
+ health.1004.a: "¿Qué he hecho para merecer esta maldición?"
   
   #AGOT Modified 
- #health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Fiebre del campamento" #NT!
- health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Fiebre Verde" #NT!
- health.1005.desc: "He oído historias de valientes soldados que mueren como moscas antes de poner un pie en el campo de batalla. Pero yo, ¿un [ROOT.Char.GetTitleTierName]? Esta dolorosa y febril pesadilla no es un destino destinado a mí.\n\nMientras otra comida se abre paso por mi garganta, rezo por la redención, con las fosas nasales ardiendo por el penetrante hedor de la bilis." #NT!
+ #health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Fiebre del campamento"
+ health.1005.t: "[SCOPE.Custom('EventTitleDisease')]: Fiebre Verde"
+ health.1005.desc: "He oído historias de valientes soldados que mueren como moscas antes de poner un pie en el campo de batalla. Pero yo, ¿un [ROOT.Char.GetTitleTierName]? Esta dolorosa y febril pesadilla no es un destino destinado a mí.\n\nMientras otra comida se abre paso por mi garganta, rezo por la redención, con las fosas nasales ardiendo por el penetrante hedor de la bilis."
   #AGOT Modified 
- #health.1005.court_physician.desc: "\n\n"¡No te preocupes, mi [ROOT.Char.GetLadyLord]! El tifus es tratable, te lo aseguro"." #NT!
- health.1005.court_physician.desc: "\n\n"¡No te preocupes, mi [ROOT.Char.GetLadyLord]! La fiebre verde es tratable, te lo aseguro."" #NT!
- health.1005.a: "¡Te lo ruego, que termine!" #NT!
+ #health.1005.court_physician.desc: "\n\n"¡No te preocupes, mi [ROOT.Char.GetLadyLord]! El tifus es tratable, te lo aseguro"."
+ health.1005.court_physician.desc: "\n\n"¡No te preocupes, mi [ROOT.Char.GetLadyLord]! La fiebre verde es tratable, te lo aseguro.""
+ health.1005.a: "¡Te lo ruego, que termine!"
   
- health.1006.t: "[SCOPE.Custom('EventTitleDisease')]: Poco a poco" #NT!
- health.1006.desc: "Una mancha carmesí, tan marcada contra la tela pálida. Lo miro con incredulidad, reprimiendo otra tos. Lo hizo...? ¿Acaso...?\n\nMe limpio los dedos contra los labios y la mano me tiembla cuando la retiro. Puedo sentir la cálida humedad, pero me da miedo mirar." #NT!
- health.1006.court_physician.desc: "\n\n"Me temo que has contraído tisis, mi [ROOT.Char.GetLadyLord]. Te trataré de inmediato."" #NT!
- health.1006.a: "¿Es este mi destino? ¿Para consumirse lentamente?" #NT!
+ health.1006.t: "[SCOPE.Custom('EventTitleDisease')]: Poco a poco"
+ health.1006.desc: "Una mancha carmesí, tan marcada contra la tela pálida. Lo miro con incredulidad, reprimiendo otra tos. Lo hizo...? ¿Acaso...?\n\nMe limpio los dedos contra los labios y la mano me tiembla cuando la retiro. Puedo sentir la cálida humedad, pero me da miedo mirar."
+ health.1006.court_physician.desc: "\n\n"Me temo que has contraído tisis, mi [ROOT.Char.GetLadyLord]. Te trataré de inmediato.""
+ health.1006.a: "¿Es este mi destino? ¿Para consumirse lentamente?"
   
- health.1007.t: "[SCOPE.Custom('EventTitleDisease')]: Un extraño adentro" #NT!
- health.1007.desc: "Hay algo dentro de mí que no soy yo. Se abre camino a través de mi carne, alimentándose de mi fuerza vital, y su fuerza aumenta mientras yo me marchito.\n\nEmpujo mis manos contra el crecimiento debajo de mi piel, mis dedos duelen por arrancarlo. La idea de que crezca me da ganas de vomitar." #NT!
- health.1007.court_physician.desc: "\n\n"Sí, lamentablemente es cáncer. Sólo conozco un tratamiento eficaz..."" #NT!
- health.1007.a: "Contra este enemigo no puede haber victoria." #NT!
+ health.1007.t: "[SCOPE.Custom('EventTitleDisease')]: Un extraño adentro"
+ health.1007.desc: "Hay algo dentro de mí que no soy yo. Se abre camino a través de mi carne, alimentándose de mi fuerza vital, y su fuerza aumenta mientras yo me marchito.\n\nEmpujo mis manos contra el crecimiento debajo de mi piel, mis dedos duelen por arrancarlo. La idea de que crezca me da ganas de vomitar."
+ health.1007.court_physician.desc: "\n\n"Sí, lamentablemente es cáncer. Sólo conozco un tratamiento eficaz...""
+ health.1007.a: "Contra este enemigo no puede haber victoria."
   
- health.1008.t: "[SCOPE.Custom('EventTitleDisease')]: El fuego del amor" #NT!
- health.1008.desc: "La sensación de ardor en mi ingle se estaba volviendo tan insoportable que tuve que disculparme y huir a mis aposentos. Finalmente, sola, pude rascarme para encontrar alivio.\n\nSin embargo, no encontré alivio, ¡porque mis dedos encontraron ampollas y las abrieron!" #NT!
- health.1008.partner.a: "[infecting_partner.GetFirstNameNoTooltip]...!" #NT!
- health.1008.no_partner.a: "¿Cómo? ¡¿OMS?!" #NT!
+ health.1008.t: "[SCOPE.Custom('EventTitleDisease')]: El fuego del amor"
+ health.1008.desc: "La sensación de ardor en mi ingle se estaba volviendo tan insoportable que tuve que disculparme y huir a mis aposentos. Finalmente, sola, pude rascarme para encontrar alivio.\n\nSin embargo, no encontré alivio, ¡porque mis dedos encontraron ampollas y las abrieron!"
+ health.1008.partner.a: "[infecting_partner.GetFirstNameNoTooltip]...!"
+ health.1008.no_partner.a: "¿Cómo? ¡¿OMS?!"
   
- health.1013.t: "[SCOPE.Custom('EventTitleDisease')]: La gran viruela" #NT!
- health.1013.desc: "Pensé que no eran más que unas cuantas ampollas. Si bien estaba disgustado, maldiciendo mi mala suerte, nunca imaginé que empeoraría. Ahora, un sarpullido rojo se está extendiendo por todo mi cuerpo.\n\nSé lo que viene después. Llagas, fiebre, todo tipo de dolores y atrofia. Y al final, si vivo tanto tiempo, perderé la cabeza." #NT!
- health.1013.court_physician.desc: "\n\n"Mi [ROOT.Char.GetLadyLord]. Eso... no se ve bien. Déjame ver qué puedo hacer."" #NT!
- health.1013.partner.a: "Me has maldecido, [infecting_partner.GetFirstNameNoTooltip]." #NT!
- health.1013.no_partner.a: "Estoy maldito. Verdadera y absolutamente maldito." #NT!
+ health.1013.t: "[SCOPE.Custom('EventTitleDisease')]: La gran viruela"
+ health.1013.desc: "Pensé que no eran más que unas cuantas ampollas. Si bien estaba disgustado, maldiciendo mi mala suerte, nunca imaginé que empeoraría. Ahora, un sarpullido rojo se está extendiendo por todo mi cuerpo.\n\nSé lo que viene después. Llagas, fiebre, todo tipo de dolores y atrofia. Y al final, si vivo tanto tiempo, perderé la cabeza."
+ health.1013.court_physician.desc: "\n\n"Mi [ROOT.Char.GetLadyLord]. Eso... no se ve bien. Déjame ver qué puedo hacer.""
+ health.1013.partner.a: "Me has maldecido, [infecting_partner.GetFirstNameNoTooltip]."
+ health.1013.no_partner.a: "Estoy maldito. Verdadera y absolutamente maldito."
   
- health.1014.t: "[SCOPE.Custom('EventTitleDisease')]: El Descenso" #NT!
- health.1014.desc: "¿Dónde estoy?\n\nMiro fijamente el pasillo vacío que tengo delante, con el corazón acelerado y las manos temblorosas. ¿Cómo he llegado hasta aquí? Mi mente está... fragmentada. Hay imágenes (escaleras, caídas, sombras en los rincones), pero no consigo unirlas.\n\nAlguien me está observando.\n\nMe doy la vuelta y encuentro más vacío." #NT!
- health.1014.a: "No tengo miedo de ti. ¡¿Me escuchas?! ¡NO TIENE MIEDO!" #NT!
+ health.1014.t: "[SCOPE.Custom('EventTitleDisease')]: El Descenso"
+ health.1014.desc: "¿Dónde estoy?\n\nMiro fijamente el pasillo vacío que tengo delante, con el corazón acelerado y las manos temblorosas. ¿Cómo he llegado hasta aquí? Mi mente está... fragmentada. Hay imágenes (escaleras, caídas, sombras en los rincones), pero no consigo unirlas.\n\nAlguien me está observando.\n\nMe doy la vuelta y encuentro más vacío."
+ health.1014.a: "No tengo miedo de ti. ¡¿Me escuchas?! ¡NO TIENE MIEDO!"
   
- health.1010.t: "[SCOPE.Custom('EventTitleDisease')]: La plaga roja" #NT!
- health.1010.desc: "Con la primera ola de fiebre y vómitos, deseé desesperadamente que no fuera nada peor que la enfermedad del sudor. Y me mejoré un poco, me levanté de la cama y regresé a mis deberes. Durante una semana todo estuvo bien, hasta que noté las primeras manchas rojas en mi boca." #NT!
- health.1010.end.desc: "\n\nEso fue hace dos días, y ahora las lesiones reveladoras se están extendiendo por mi piel..." #NT!
- health.1010.court_physician.desc: "\n\n"De hecho, estas lesiones son un signo seguro de viruela. Muy peligrosas si no se tratan"." #NT!
- health.1010.a: "[ROOT.Char.GetFaith.HealthGodName], te lo ruego, ¡todavía no! ¡No estoy listo!" #NT!
+ health.1010.t: "[SCOPE.Custom('EventTitleDisease')]: La plaga roja"
+ health.1010.desc: "Con la primera ola de fiebre y vómitos, deseé desesperadamente que no fuera nada peor que la enfermedad del sudor. Y me mejoré un poco, me levanté de la cama y regresé a mis deberes. Durante una semana todo estuvo bien, hasta que noté las primeras manchas rojas en mi boca."
+ health.1010.end.desc: "\n\nEso fue hace dos días, y ahora las lesiones reveladoras se están extendiendo por mi piel..."
+ health.1010.court_physician.desc: "\n\n"De hecho, estas lesiones son un signo seguro de viruela. Muy peligrosas si no se tratan"."
+ health.1010.a: "[ROOT.Char.GetFaith.HealthGodName], te lo ruego, ¡todavía no! ¡No estoy listo!"
   
- health.1011.t: "[SCOPE.Custom('EventTitleDisease')]: El toque de la muerte" #NT!
- health.1011.desc: "El miedo a la peste ha sido un compañero constante a lo largo de mi vida. La enfermera de mi infancia me contaba historias inquietantes antes de dormir sobre bubones hinchados y extremidades ennegrecidas.\n\nPero la peste ya no es sólo una historia de miedo. Con cautela, empujo mis dedos contra el bulto en mi axila. Una fuerza oscura y mortal está contaminando mi carne, consumiéndome mientras todavía respiro." #NT!
- health.1011.court_physician.desc: "\n\n"Mi [ROOT.Char.GetLadyLord], haré todo lo que esté en mi poder, pero sería prudente prepararme para lo peor..."" #NT!
- health.1011.a: "¡Oh, [ROOT.Char.GetFaith.HealthGodName]! ¡Sálvame de esta pesadilla!" #NT!
+ health.1011.t: "[SCOPE.Custom('EventTitleDisease')]: El toque de la muerte"
+ health.1011.desc: "El miedo a la peste ha sido un compañero constante a lo largo de mi vida. La enfermera de mi infancia me contaba historias inquietantes antes de dormir sobre bubones hinchados y extremidades ennegrecidas.\n\nPero la peste ya no es sólo una historia de miedo. Con cautela, empujo mis dedos contra el bulto en mi axila. Una fuerza oscura y mortal está contaminando mi carne, consumiéndome mientras todavía respiro."
+ health.1011.court_physician.desc: "\n\n"Mi [ROOT.Char.GetLadyLord], haré todo lo que esté en mi poder, pero sería prudente prepararme para lo peor...""
+ health.1011.a: "¡Oh, [ROOT.Char.GetFaith.HealthGodName]! ¡Sálvame de esta pesadilla!"
   
   # Travel loc if you get ill on the road 
- health.travel.t: "[SCOPE.Custom('EventTitleDisease')]: ¿El final de un viaje?" #NT!
- health.travel.option.home: "Puedo buscar la mejor atención en casa." #NT!
- health.travel.option.home.flavor: "Abandonas tu [ROOT.Char.GetInvolvedActivity.GetNameNoTooltip] y comienzas a viajar a casa." #NT!
- health.travel.option.continue: "Debemos seguir adelante." #NT!
+ health.travel.t: "[SCOPE.Custom('EventTitleDisease')]: ¿El final de un viaje?"
+ health.travel.option.home: "Puedo buscar la mejor atención en casa."
+ health.travel.option.home.flavor: "Abandonas tu [ROOT.Char.GetInvolvedActivity.GetNameNoTooltip] y comienzas a viajar a casa."
+ health.travel.option.continue: "Debemos seguir adelante."
   
   # Recover from diseases, by Mathilda Bjarnehed 
- health.1101.t: "[SCOPE.Custom('EventTitleDisease')]: Mi antiguo yo" #NT!
- health.1101.desc: "Cuando me desperté esta mañana y observé los primeros rayos de sol, me tomó un momento darme cuenta de que había dormido profundamente por primera vez en semanas. ¡No me desperté tosiendo ni una sola vez!\n\nHa sido un largo camino para recuperar la salud, pero me encuentro en su cálido abrazo una vez más." #NT!
- health.1101.a: "Me alegro de estar bien de nuevo." #NT!
+ health.1101.t: "[SCOPE.Custom('EventTitleDisease')]: Mi antiguo yo"
+ health.1101.desc: "Cuando me desperté esta mañana y observé los primeros rayos de sol, me tomó un momento darme cuenta de que había dormido profundamente por primera vez en semanas. ¡No me desperté tosiendo ni una sola vez!\n\nHa sido un largo camino para recuperar la salud, pero me encuentro en su cálido abrazo una vez más."
+ health.1101.a: "Me alegro de estar bien de nuevo."
   
- health.1102.t: "[SCOPE.Custom('EventTitleDisease')]: Mi fuerza regresa" #NT!
- health.1102.desc: "Debo admitir que en algún momento me preocupé por mi vida, pero ahora esa angustia no es más que un pálido recuerdo. Lleno de agradecimiento, respiro profundamente, preparándome para el día venidero." #NT!
- health.1102.a: "¡Es hora de conquistar el mundo!" #NT!
+ health.1102.t: "[SCOPE.Custom('EventTitleDisease')]: Mi fuerza regresa"
+ health.1102.desc: "Debo admitir que en algún momento me preocupé por mi vida, pero ahora esa angustia no es más que un pálido recuerdo. Lleno de agradecimiento, respiro profundamente, preparándome para el día venidero."
+ health.1102.a: "¡Es hora de conquistar el mundo!"
   
- health.1103.t: "[SCOPE.Custom('EventTitleDisease')]: Libre de dolor" #NT!
- health.1103.desc: "Tuve que limitarme y renunciar a muchos de los placeres de la vida, pero es un sacrificio que volvería a hacer con gusto. ¡Hay otras cosas para disfrutar en la vida que la comida y la bebida! Ahora, cuando mis dolores ya no me estorban, finalmente soy libre para buscarlos." #NT!
- health.1103.a: "¡La moderación ha dado sus frutos!" #NT!
+ health.1103.t: "[SCOPE.Custom('EventTitleDisease')]: Libre de dolor"
+ health.1103.desc: "Tuve que limitarme y renunciar a muchos de los placeres de la vida, pero es un sacrificio que volvería a hacer con gusto. ¡Hay otras cosas para disfrutar en la vida que la comida y la bebida! Ahora, cuando mis dolores ya no me estorban, finalmente soy libre para buscarlos."
+ health.1103.a: "¡La moderación ha dado sus frutos!"
   
- health.1105.t: "[SCOPE.Custom('EventTitleDisease')]: Una batalla ganada" #NT!
+ health.1105.t: "[SCOPE.Custom('EventTitleDisease')]: Una batalla ganada"
   #AGOT Modified 
- #health.1105.desc: "A diferencia de muchos antes que yo, yo era lo suficientemente fuerte como para sobrevivir a los estragos de la temida fiebre del campo. Fue un desafío brutal, no lo niego, ¡pero perseveré!" #NT!
- health.1105.desc: "A diferencia de muchos antes que yo, yo era lo suficientemente fuerte como para sobrevivir a los estragos de la temida fiebre verde. Fue un desafío brutal, no lo niego, ¡pero perseveré!" #NT!
- health.1105.a: "¡Vivo para luchar otro día!" #NT!
+ #health.1105.desc: "A diferencia de muchos antes que yo, yo era lo suficientemente fuerte como para sobrevivir a los estragos de la temida fiebre del campo. Fue un desafío brutal, no lo niego, ¡pero perseveré!"
+ health.1105.desc: "A diferencia de muchos antes que yo, yo era lo suficientemente fuerte como para sobrevivir a los estragos de la temida fiebre verde. Fue un desafío brutal, no lo niego, ¡pero perseveré!"
+ health.1105.a: "¡Vivo para luchar otro día!"
   
- health.1106.t: "[SCOPE.Custom('EventTitleDisease')]: Una segunda oportunidad" #NT!
- health.1106.desc: "Me demacré, tosí y sangré. Pensé que me consumiría hasta quedar en nada. Ciertamente me sentí así cuando apenas podía levantarme de la cama.\n\nSin embargo, mi salud y mi fuerza se recuperaron, aunque muy lentamente. Finalmente, estoy listo para enfrentar el mundo y todos sus desafíos." #NT!
- health.1106.a: "¡Es hora de conquistar el mundo!" #NT!
+ health.1106.t: "[SCOPE.Custom('EventTitleDisease')]: Una segunda oportunidad"
+ health.1106.desc: "Me demacré, tosí y sangré. Pensé que me consumiría hasta quedar en nada. Ciertamente me sentí así cuando apenas podía levantarme de la cama.\n\nSin embargo, mi salud y mi fuerza se recuperaron, aunque muy lentamente. Finalmente, estoy listo para enfrentar el mundo y todos sus desafíos."
+ health.1106.a: "¡Es hora de conquistar el mundo!"
   
- health.1107.t: "[SCOPE.Custom('EventTitleDisease')]: Un milagro médico" #NT!
- health.1107.desc: "Me dicen que soy una maravilla, un milagro. La gente no debería recuperarse de algo como esto.\n\nSin embargo, me siento bien y el bulto ha desaparecido. No hay otra conclusión: me he recuperado del cáncer." #NT!
- health.1107.a: "¡Viviré la vida al máximo!" #NT!
+ health.1107.t: "[SCOPE.Custom('EventTitleDisease')]: Un milagro médico"
+ health.1107.desc: "Me dicen que soy una maravilla, un milagro. La gente no debería recuperarse de algo como esto.\n\nSin embargo, me siento bien y el bulto ha desaparecido. No hay otra conclusión: me he recuperado del cáncer."
+ health.1107.a: "¡Viviré la vida al máximo!"
   
- health.1109.t: "[SCOPE.Custom('EventTitleDisease')]: Un gran alivio" #NT!
- health.1109.desc: "Temía que la Gran Viruela me quitara la vida, pero parece que he ganado la lucha. Llevo muchas lunas sin síntomas. Es hora de dejar de lado esa preocupación constante." #NT!
- health.1109.a: "¡Viviré la vida al máximo!" #NT!
+ health.1109.t: "[SCOPE.Custom('EventTitleDisease')]: Un gran alivio"
+ health.1109.desc: "Temía que la Gran Viruela me quitara la vida, pero parece que he ganado la lucha. Llevo muchas lunas sin síntomas. Es hora de dejar de lado esa preocupación constante."
+ health.1109.a: "¡Viviré la vida al máximo!"
   
- health.1110.t: "[SCOPE.Custom('EventTitleDisease')]: Escapar [ROOT.Char.GetFaith.DeathDeityName]" #NT!
- health.1110.desc: "Si bien pueden quedar cicatrices, tanto en mi piel como en mi mente, parece que la aflicción ha abandonado mi cuerpo. Sobreviviré. Todavía hay tiempo." #NT!
- health.1110.a: "¡Gloria a [ROOT.Char.GetFaith.HealthGodName]! ¡Yo soy así!" #NT!
- health.1110.a.tt: "Ahora soy inmune a [GetTrait('smallpox').GetName( GetNullCharacter )]" #NT!
+ health.1110.t: "[SCOPE.Custom('EventTitleDisease')]: Escapar [ROOT.Char.GetFaith.DeathDeityName]"
+ health.1110.desc: "Si bien pueden quedar cicatrices, tanto en mi piel como en mi mente, parece que la aflicción ha abandonado mi cuerpo. Sobreviviré. Todavía hay tiempo."
+ health.1110.a: "¡Gloria a [ROOT.Char.GetFaith.HealthGodName]! ¡Yo soy así!"
+ health.1110.a.tt: "Ahora soy inmune a [GetTrait('smallpox').GetName( GetNullCharacter )]"
   
- health.1111.t: "[SCOPE.Custom('EventTitleDisease')]: Contra todo pronóstico" #NT!
- health.1111.desc: "Parece como si [ROOT.Char.GetFaith.DeathDeityName] hubiera atravesado mi puerta, permanecido junto a mi cama, pero al final decidió dejarme vivir. Nunca olvidaré los tormentos del tacto de [ROOT.Char.GetFaith.DeathDeityHerHis|U], pero [ROOT.Char.GetFaith.DeathDeitySheHe|U] ha abierto mis ojos al milagro de la vida.\n\n La plaga se ha cobrado muchas almas, pero yo no seré una de ellas." #NT!
- health.1111.a: "¡Alabado sea [ROOT.Char.GetFaith.HealthGodName] por este milagro!" #NT!
- health.1111.a.tt: "Ahora soy inmune a [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" #NT!
+ health.1111.t: "[SCOPE.Custom('EventTitleDisease')]: Contra todo pronóstico"
+ health.1111.desc: "Parece como si [ROOT.Char.GetFaith.DeathDeityName] hubiera atravesado mi puerta, permanecido junto a mi cama, pero al final decidió dejarme vivir. Nunca olvidaré los tormentos del tacto de [ROOT.Char.GetFaith.DeathDeityHerHis|U], pero [ROOT.Char.GetFaith.DeathDeitySheHe|U] ha abierto mis ojos al milagro de la vida.\n\n La plaga se ha cobrado muchas almas, pero yo no seré una de ellas."
+ health.1111.a: "¡Alabado sea [ROOT.Char.GetFaith.HealthGodName] por este milagro!"
+ health.1111.a.tt: "Ahora soy inmune a [GetTrait('bubonic_plague').GetName( GetNullCharacter )]"
   
   # STD events, by Mathilda Bjarnehed 
- health.2001.t: "[SCOPE.Custom('EventTitleDisease')]: Una desagradable sorpresa" #NT!
- health.2001.start.desc: "Mientras me deslizaba entre las sábanas para unirme a [std_partner.GetFirstName], ¡me horroricé al encontrar ampollas supurantes en las partes más privadas de [std_partner.GetHerHis]!" #NT!
- health.2001.not_sick.desc: "¿Cómo pudo [std_partner.GetSheHe] traer una aflicción tan repugnante a nuestra cama?" #NT!
- health.2001.sick.desc: "¿Le hice esto a [std_partner.GetHerHim]?" #NT!
- health.2001.a.not_sick: "¡Sal de mi cama, traicionero [std_partner.Custom('InsultNounSexual')]!" #NT!
- health.2001.a.sick: "Perdóname, [std_partner.GetFirstNameNoTooltip], pero no puedo compartir tu cama así." #NT!
- health.2001.c.not_sick: "La sola idea de tocarte... ¡no puedo!" #NT!
- health.2001.c.sick: "Perdóname [std_partner.GetFirstNameNoTooltip], no podemos seguir así." #NT!
- health.2001.d.not_sick: "Te perdono, [std_partner.GetFirstNameNoTooltip]." #NT!
- health.2001.d.sick: "Querida, ¡no puedo expresar cuánto lo siento!" #NT!
- health.2001.c.tt: "Continúo visitando la cama [std_partner.GetFirstNamePossessive], arriesgándome a infectarme al hacerlo." #NT!
- health.2001.c.tt_sick: "Sigo visitando [std_partner.GetFirstNamePossessive] cama" #NT!
+ health.2001.t: "[SCOPE.Custom('EventTitleDisease')]: Una desagradable sorpresa"
+ health.2001.start.desc: "Mientras me deslizaba entre las sábanas para unirme a [std_partner.GetFirstName], ¡me horroricé al encontrar ampollas supurantes en las partes más privadas de [std_partner.GetHerHis]!"
+ health.2001.not_sick.desc: "¿Cómo pudo [std_partner.GetSheHe] traer una aflicción tan repugnante a nuestra cama?"
+ health.2001.sick.desc: "¿Le hice esto a [std_partner.GetHerHim]?"
+ health.2001.a.not_sick: "¡Sal de mi cama, traicionero [std_partner.Custom('InsultNounSexual')]!"
+ health.2001.a.sick: "Perdóname, [std_partner.GetFirstNameNoTooltip], pero no puedo compartir tu cama así."
+ health.2001.c.not_sick: "La sola idea de tocarte... ¡no puedo!"
+ health.2001.c.sick: "Perdóname [std_partner.GetFirstNameNoTooltip], no podemos seguir así."
+ health.2001.d.not_sick: "Te perdono, [std_partner.GetFirstNameNoTooltip]."
+ health.2001.d.sick: "Querida, ¡no puedo expresar cuánto lo siento!"
+ health.2001.c.tt: "Continúo visitando la cama [std_partner.GetFirstNamePossessive], arriesgándome a infectarme al hacerlo."
+ health.2001.c.tt_sick: "Sigo visitando [std_partner.GetFirstNamePossessive] cama"
   
- health.2002.t: "[SCOPE.Custom('EventTitleDisease')]: Aún peor" #NT!
- health.2002.start.desc: "Lo que [std_partner.GetFirstName] insistía en que no eran más que ampollas finalmente ha mostrado su verdadera cara. Una erupción roja se está extendiendo por toda la piel, un signo seguro de la gran viruela." #NT!
- health.2002.early_great_pox.desc: "\n\n¿Esto significa...?" #NT!
- health.2002.a.not_sick: "¡Alejarse de mí!" #NT!
- health.2002.a.sick: "Yo... no puedo. ¡Esto es demasiado!" #NT!
- health.2002.b.not_sick: "¡No puedo estar contigo así, [std_partner.GetFirstName]!" #NT!
- health.2002.b.sick: "Querida, lo siento, pero no puedo..." #NT!
- health.2002.c: "Te apoyaré en esto, mi amor." #NT!
- health.2002.d.not_sick: "Este podría haber sido mi final." #NT!
- health.2002.d.sick: "¡Estamos malditos!" #NT!
+ health.2002.t: "[SCOPE.Custom('EventTitleDisease')]: Aún peor"
+ health.2002.start.desc: "Lo que [std_partner.GetFirstName] insistía en que no eran más que ampollas finalmente ha mostrado su verdadera cara. Una erupción roja se está extendiendo por toda la piel, un signo seguro de la gran viruela."
+ health.2002.early_great_pox.desc: "\n\n¿Esto significa...?"
+ health.2002.a.not_sick: "¡Alejarse de mí!"
+ health.2002.a.sick: "Yo... no puedo. ¡Esto es demasiado!"
+ health.2002.b.not_sick: "¡No puedo estar contigo así, [std_partner.GetFirstName]!"
+ health.2002.b.sick: "Querida, lo siento, pero no puedo..."
+ health.2002.c: "Te apoyaré en esto, mi amor."
+ health.2002.d.not_sick: "Este podría haber sido mi final."
+ health.2002.d.sick: "¡Estamos malditos!"
   
- health.2003.t: "[SCOPE.Custom('EventTitleDisease')]: Náufrago" #NT!
- health.2003.start.desc: "Cuando le conté a [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('other_partner'))] mi aflicción, busqué [other_partner.GetHerHis] consuelo pero recibí [other_partner.GetHerHis] rechazo. El disgusto brilló en los ojos de [other_partner.GetFirstNamePossessive] cuando [other_partner.GetSheHe]" #NT!
- health.2003.consort.desc: "Me dijo que me mantuviera alejado de la cama [other_partner.GetHerHis]." #NT!
- health.2003.lover.desc: "Terminó las cosas entre nosotros." #NT!
- health.2003.a: "¿Me quitarán todo?" #NT!
+ health.2003.t: "[SCOPE.Custom('EventTitleDisease')]: Náufrago"
+ health.2003.start.desc: "Cuando le conté a [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('other_partner'))] mi aflicción, busqué [other_partner.GetHerHis] consuelo pero recibí [other_partner.GetHerHis] rechazo. El disgusto brilló en los ojos de [other_partner.GetFirstNamePossessive] cuando [other_partner.GetSheHe]"
+ health.2003.consort.desc: "Me dijo que me mantuviera alejado de la cama [other_partner.GetHerHis]."
+ health.2003.lover.desc: "Terminó las cosas entre nosotros."
+ health.2003.a: "¿Me quitarán todo?"
   
   #Courtier/guest/prisoner has contagious disease 
- health.2101.t: "[SCOPE.Custom('EventTitleDisease')]: Un asesino entre nosotros" #NT!
- health.2101.smallpox_outbreak.desc: "La maldición de la muerte ha caído sobre mi corte: ¡se ha descubierto un caso de viruela!" #NT!
- health.2101.smallpox_spreads.desc: "Otra alma más ha sido maldecida con viruela." #NT!
+ health.2101.t: "[SCOPE.Custom('EventTitleDisease')]: Un asesino entre nosotros"
+ health.2101.smallpox_outbreak.desc: "La maldición de la muerte ha caído sobre mi corte: ¡se ha descubierto un caso de viruela!"
+ health.2101.smallpox_spreads.desc: "Otra alma más ha sido maldecida con viruela."
   #AGOT Modified 
- #health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] ha levantado [ROOT.Char.GetFaith.DeathDeityHerHis] guadaña sobre mi reino: ¡se ha descubierto un caso de la temida peste bubónica!" #NT!
- health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] ha levantado [ROOT.Char.GetFaith.DeathDeityHerHis] guadaña sobre mi reino: ¡se ha descubierto un caso de la temida plaga del atardecer!" #NT!
- health.2101.bubonic_plague_spreads.desc: "Otra alma más se encuentra a las puertas de la Muerte, los temidos bubones estropean su piel." #NT!
+ #health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] ha levantado [ROOT.Char.GetFaith.DeathDeityHerHis] guadaña sobre mi reino: ¡se ha descubierto un caso de la temida peste bubónica!"
+ health.2101.bubonic_plague_outbreak.desc: "[ROOT.Char.GetFaith.DeathDeityName|U] ha levantado [ROOT.Char.GetFaith.DeathDeityHerHis] guadaña sobre mi reino: ¡se ha descubierto un caso de la temida plaga del atardecer!"
+ health.2101.bubonic_plague_spreads.desc: "Otra alma más se encuentra a las puertas de la Muerte, los temidos bubones estropean su piel."
   #AGOT Modified 
- #health.2101.typhus_outbreak.desc: "Un peligroso caso de fiebre de campo ha llegado a los tribunales. Erupciones cutáneas, tos y fiebre acosan a los afectados." #NT!
- #health.2101.typhus_spreads.desc: "Ha surgido otro caso de tifus." #NT!
- health.2101.typhus_outbreak.desc: "Un caso peligroso de fiebre verde ha llegado a los tribunales. Los afectados sufren sarpullido, tos y fiebre." #NT!
- health.2101.typhus_spreads.desc: "Ha surgido otro caso de fiebre verde." #NT!
- health.2101.consumption_outbreak.desc: "Toses secas resuenan por toda la cancha. El consumo acecha por los pasillos cobrándose su primera víctima." #NT!
- health.2101.consumption_spreads.desc: "Las almas más desafortunadas se encuentran en las garras del tisis." #NT!
+ #health.2101.typhus_outbreak.desc: "Un peligroso caso de fiebre de campo ha llegado a los tribunales. Erupciones cutáneas, tos y fiebre acosan a los afectados."
+ #health.2101.typhus_spreads.desc: "Ha surgido otro caso de tifus."
+ health.2101.typhus_outbreak.desc: "Un caso peligroso de fiebre verde ha llegado a los tribunales. Los afectados sufren sarpullido, tos y fiebre."
+ health.2101.typhus_spreads.desc: "Ha surgido otro caso de fiebre verde."
+ health.2101.consumption_outbreak.desc: "Toses secas resuenan por toda la cancha. El consumo acecha por los pasillos cobrándose su primera víctima."
+ health.2101.consumption_spreads.desc: "Las almas más desafortunadas se encuentran en las garras del tisis."
   #AGOT Modifed 
- #health.2101.measles_outbreak.desc: "La erupción que se desarrollaba en la piel de los afectados era evidente: se había descubierto sarampión en la corte." #NT!
- #health.2101.measles_spreads.desc: "Cada vez son más los que enferman y desarrollan erupciones lívidas en la piel que desmienten la presencia del sarampión." #NT!
- health.2101.measles_outbreak.desc: "La erupción que se desarrollaba en la piel de los afectados era evidente: en la corte se descubrió fiebre maculosa." #NT!
- health.2101.measles_spreads.desc: "Cada vez son más los que enferman y desarrollan erupciones lívidas en la piel que desmienten la presencia de fiebre maculosa." #NT!
- health.2101.dysentery_outbreak.desc: "El hedor que rodea el lugar cuenta su propia historia. Se ha descubierto disentería en la corte." #NT!
- health.2101.dysentery_spreads.desc: "Siguen apareciendo nuevos casos de disentería, los retretes están ocupados todo el día y toda la noche." #NT!
+ #health.2101.measles_outbreak.desc: "La erupción que se desarrollaba en la piel de los afectados era evidente: se había descubierto sarampión en la corte."
+ #health.2101.measles_spreads.desc: "Cada vez son más los que enferman y desarrollan erupciones lívidas en la piel que desmienten la presencia del sarampión."
+ health.2101.measles_outbreak.desc: "La erupción que se desarrollaba en la piel de los afectados era evidente: en la corte se descubrió fiebre maculosa."
+ health.2101.measles_spreads.desc: "Cada vez son más los que enferman y desarrollan erupciones lívidas en la piel que desmienten la presencia de fiebre maculosa."
+ health.2101.dysentery_outbreak.desc: "El hedor que rodea el lugar cuenta su propia historia. Se ha descubierto disentería en la corte."
+ health.2101.dysentery_spreads.desc: "Siguen apareciendo nuevos casos de disentería, los retretes están ocupados todo el día y toda la noche."
   #AGOT Modifed 
- #health.2101.ergotism_outbreak.desc: "El ergotismo ha asomado la cabeza en el tribunal y los movimientos bruscos de la víctima lo hacen evidente para todos los presentes." #NT!
- #health.2101.ergotism_spreads.desc: "Otros casos de ergotismo continúan atacando a las víctimas, provocando que sus extremidades se quemen debajo de la piel." #NT!
- health.2101.ergotism_outbreak.desc: "La peste danzante ha asomado la cabeza en el tribunal y los movimientos bruscos de la víctima lo hacen evidente para todos los presentes." #NT!
- health.2101.ergotism_spreads.desc: "Más casos de peste danzante continúan atacando a las víctimas, provocando que sus extremidades se quemen debajo de la piel." #NT!
- health.2101.imporant.desc: "Mi pobre [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] está luchando por [sick_character.GetHerHis] la vida." #NT!
- health.2101.prisoner.desc: "La desafortunada víctima es [sick_character.GetTitledFirstName], uno de mis prisioneros." #NT!
- health.2101.courtier_or_guest.desc: "La desafortunada víctima es mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName]." #NT!
- health.2101.immune.desc: "\n\nAunque soy inmune a los estragos de esta devastadora aflicción, su presencia representa un peligro para todos los demás en mi corte." #NT!
- health.2101.not_immune.desc: "\n\nLa corrupción que posee [sick_character.GetHerHis] carne es un peligro para todos nosotros. Mientras [sick_character.GetSheHe] siga afectado, ninguna vida en la corte estará segura." #NT!
- health.2101.a: "Aislar a [sick_character.GetHerHim] y orar por la redención." #NT!
- health.2101.a.tt: "La enfermedad se propagará sin obstáculos en mi corte." #NT!
- health.2101.b: "¡[sick_character.GetTitledFirstName] está desterrado de mi corte!" #NT!
- health.2101.c: "¡Tira [sick_character.GetHerHim]!" #NT!
+ #health.2101.ergotism_outbreak.desc: "El ergotismo ha asomado la cabeza en el tribunal y los movimientos bruscos de la víctima lo hacen evidente para todos los presentes."
+ #health.2101.ergotism_spreads.desc: "Otros casos de ergotismo continúan atacando a las víctimas, provocando que sus extremidades se quemen debajo de la piel."
+ health.2101.ergotism_outbreak.desc: "La peste danzante ha asomado la cabeza en el tribunal y los movimientos bruscos de la víctima lo hacen evidente para todos los presentes."
+ health.2101.ergotism_spreads.desc: "Más casos de peste danzante continúan atacando a las víctimas, provocando que sus extremidades se quemen debajo de la piel."
+ health.2101.imporant.desc: "Mi pobre [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] está luchando por [sick_character.GetHerHis] la vida."
+ health.2101.prisoner.desc: "La desafortunada víctima es [sick_character.GetTitledFirstName], uno de mis prisioneros."
+ health.2101.courtier_or_guest.desc: "La desafortunada víctima es mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName]."
+ health.2101.immune.desc: "\n\nAunque soy inmune a los estragos de esta devastadora aflicción, su presencia representa un peligro para todos los demás en mi corte."
+ health.2101.not_immune.desc: "\n\nLa corrupción que posee [sick_character.GetHerHis] carne es un peligro para todos nosotros. Mientras [sick_character.GetSheHe] siga afectado, ninguna vida en la corte estará segura."
+ health.2101.a: "Aislar a [sick_character.GetHerHim] y orar por la redención."
+ health.2101.a.tt: "La enfermedad se propagará sin obstáculos en mi corte."
+ health.2101.b: "¡[sick_character.GetTitledFirstName] está desterrado de mi corte!"
+ health.2101.c: "¡Tira [sick_character.GetHerHim]!"
   
   # Important character has dangerous disease events, by Mathilda Bjarnehed 
- health.2201.t: "[SCOPE.Custom('EventTitleDisease')]: Mi Pobre [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]" #NT!
- health.2201.start.desc: "Me llegan noticias graves. Mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] ha enfermado de" #NT!
- disease_ill_article: "A" #NT!
- disease_ill: "Frío." #NT!
- disease_pneumonic: "Neumonía." #NT!
- disease_gout_ridden: "Gota." #NT!
- disease_leper: "Lepra." #NT!
+ health.2201.t: "[SCOPE.Custom('EventTitleDisease')]: Mi Pobre [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]"
+ health.2201.start.desc: "Me llegan noticias graves. Mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName] ha enfermado de"
+ disease_ill_article: "A"
+ disease_ill: "Frío."
+ disease_pneumonic: "Neumonía."
+ disease_gout_ridden: "Gota."
+ disease_leper: "Lepra."
   #AGOT Modified 
- #disease_typhus: "Tifus." #NT!
- disease_typhus: "Fiebre verde." #NT!
- disease_consumption: "Consumo." #NT!
- disease_cancer: "Cáncer." #NT!
- disease_lovers_pox: "Viruela del amante." #NT!
- disease_early_great_pox: "Viruela del amante." #NT!
- disease_great_pox: "Gran viruela." #NT!
- disease_smallpox: "Viruela." #NT!
+ #disease_typhus: "Tifus."
+ disease_typhus: "Fiebre verde."
+ disease_consumption: "Consumo."
+ disease_cancer: "Cáncer."
+ disease_lovers_pox: "Viruela del amante."
+ disease_early_great_pox: "Viruela del amante."
+ disease_great_pox: "Gran viruela."
+ disease_smallpox: "Viruela."
   #AGOT Modified 
- #disease_bubonic_plague: "Peste bubónica." #NT!
- disease_bubonic_plague: "Plaga del atardecer." #NT!
+ #disease_bubonic_plague: "Peste bubónica."
+ disease_bubonic_plague: "Plaga del atardecer."
   #AGOT Modifed 
- #disease_measles: "Sarampión." #NT!
- disease_measles: "Fiebre manchada." #NT!
+ #disease_measles: "Sarampión."
+ disease_measles: "Fiebre manchada."
   #AGOT Modifed 
- #disease_ergotism: "Fuego sagrado." #NT!
- disease_ergotism: "Plaga danzante." #NT!
- disease_dysentery: "Flujo sangriento." #NT!
- missing_illness: "#D Enfermedad faltante #!" #NT!
- health.2201.minor_disease.desc: "\n\nNormalmente, una aflicción tan leve no sería motivo de gran preocupación, sin embargo, la salud de [sick_character.GetFirstNamePossessive] es frágil y esto podría ser demasiado para [sick_character.GetHerHim]." #NT!
- health.2201.leprosy.desc: "\n\nAunque [sick_character.GetSheHe] podría vivir muchos años, la deformidad de [sick_character.GetHerHis] hará que [sick_character.GetHerHim] sea rechazado y desconfiado. Ni siquiera yo puedo reprimir mi disgusto ante la idea de que las lesiones crezcan por toda la piel..." #NT!
- health.2201.lethal_disease.desc: "\n\nLa aflicción mata sin piedad, eliminando a jóvenes y viejos, pobres y ricos, hombres y mujeres. Me temo que este es el final. Sólo un milagro puede salvar a [sick_character.GetHerHim]." #NT!
- health.2201.major_disease.desc: "\n\nEl futuro es incierto. La muerte permanece cerca de su cama, pero no todo está perdido. [sick_character.GetFirstNameNoTooltip] podría sobrevivir, si la suerte está del lado de [sick_character.GetHerHis].\n\nSolo [ROOT.Char.GetFaith.FateGodName] conoce el destino de [sick_character.GetHerHis]." #NT!
- health.2201.court_physician.desc: "\n\nEl médico quiere saber cómo se debe tratar mi [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]." #NT!
- health.2201.court_physician.desc_sick_physician: "\n\n[sick_character.GetSheHe|U] puede ser mi médico, pero [sick_character.GetSheHe], aun así, busca en mí orientación." #NT!
- health.2201.a: "Este es un enemigo del que no puedo proteger a [sick_character.GetHerHim]." #NT!
+ #disease_ergotism: "Fuego sagrado."
+ disease_ergotism: "Plaga danzante."
+ disease_dysentery: "Flujo sangriento."
+ missing_illness: "#D Enfermedad faltante #!"
+ health.2201.minor_disease.desc: "\n\nNormalmente, una aflicción tan leve no sería motivo de gran preocupación, sin embargo, la salud de [sick_character.GetFirstNamePossessive] es frágil y esto podría ser demasiado para [sick_character.GetHerHim]."
+ health.2201.leprosy.desc: "\n\nAunque [sick_character.GetSheHe] podría vivir muchos años, la deformidad de [sick_character.GetHerHis] hará que [sick_character.GetHerHim] sea rechazado y desconfiado. Ni siquiera yo puedo reprimir mi disgusto ante la idea de que las lesiones crezcan por toda la piel..."
+ health.2201.lethal_disease.desc: "\n\nLa aflicción mata sin piedad, eliminando a jóvenes y viejos, pobres y ricos, hombres y mujeres. Me temo que este es el final. Sólo un milagro puede salvar a [sick_character.GetHerHim]."
+ health.2201.major_disease.desc: "\n\nEl futuro es incierto. La muerte permanece cerca de su cama, pero no todo está perdido. [sick_character.GetFirstNameNoTooltip] podría sobrevivir, si la suerte está del lado de [sick_character.GetHerHis].\n\nSolo [ROOT.Char.GetFaith.FateGodName] conoce el destino de [sick_character.GetHerHis]."
+ health.2201.court_physician.desc: "\n\nEl médico quiere saber cómo se debe tratar mi [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]."
+ health.2201.court_physician.desc_sick_physician: "\n\n[sick_character.GetSheHe|U] puede ser mi médico, pero [sick_character.GetSheHe], aun así, busca en mí orientación."
+ health.2201.a: "Este es un enemigo del que no le puedo proteger."
   
   #There is no longer an outbreak! 
- health.2102.t: "[SCOPE.Custom('EventTitleDisease')]: Un nuevo día" #NT!
- health.2102.start1.desc: "El estallido de" #NT!
- health.2102.smallpox.desc: "Viruela" #NT!
- health.2102.bubonic_plague.desc: "Plaga" #NT!
- health.2102.start2.desc: "Que ha devastado mi corte finalmente ha terminado." #NT!
- health.2102.physician.desc: "Todas sus víctimas se han recuperado o han abandonado este mundo.\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me asegura que todos los cuerpos han sido eliminados adecuadamente y que la amenaza ha desaparecido por completo." #NT!
- health.2102.no_physician.desc: "Todas las víctimas se han recuperado o han partido de este mundo; no queda ninguna enfermedad." #NT!
- health.2102.2_victims.desc: "\n\nSin embargo, el camino hacia la recuperación es largo. Hemos perdido [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)] y [victim_2.Custom2('MyCharacterIntroduction', ROOT.Char)], entre muchos otros. La vida continúa, pero las cicatrices permanecen." #NT!
- health.2102.1_victim.desc: "\n\nSin embargo, el camino hacia la recuperación es largo. Hemos perdido [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)] y muchos otros. La vida continúa, pero las cicatrices permanecen." #NT!
- health.2102.root_victim.desc: "\n\nAlgunas noches todavía me despierto sudando frío y paralizado por el miedo. Salí adelante, pero las cicatrices (las de mi piel y las de mi mente) permanecerán durante muchos años." #NT!
- health.2102.a.victim: "Por fin podemos descansar. Y llorar." #NT!
- health.2102.a.no_victim: "Finalmente, estamos a salvo." #NT!
- health.2102.a.dead_and_survivors.tt: "#N [THIS.Var('dead_victims_num').GetValue|0]#! víctima(s) murió(n) y #P [THIS.Var('surviving_victims_num').GetValue|0]#! sobrevivió en el tribunal" #NT!
- health.2102.a.no_survivors.tt: "#N [THIS.Var('dead_victims_num').GetValue|0]#! víctima(s) fallecidas en el tribunal" #NT!
- health.2102.a.no_dead.tt: "#P [THIS.Var('surviving_victims_num').GetValue|0]#! víctima(s) sobrevivieron en el tribunal" #NT!
- health.2102.a.dead.tt: "[THIS.Char.GetShortUIName] murió durante el brote" #NT!
- health.2102.a.surviving.tt: "[THIS.Char.GetShortUIName] enfermó pero se recuperó durante el brote" #NT!
+ health.2102.t: "[SCOPE.Custom('EventTitleDisease')]: Un nuevo día"
+ health.2102.start1.desc: "El estallido de"
+ health.2102.smallpox.desc: "Viruela"
+ health.2102.bubonic_plague.desc: "Plaga"
+ health.2102.start2.desc: "Que ha devastado mi corte finalmente ha terminado."
+ health.2102.physician.desc: "Todas sus víctimas se han recuperado o han abandonado este mundo.\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me asegura que todos los cuerpos han sido eliminados adecuadamente y que la amenaza ha desaparecido por completo."
+ health.2102.no_physician.desc: "Todas las víctimas se han recuperado o han partido de este mundo; no queda ninguna enfermedad."
+ health.2102.2_victims.desc: "\n\nSin embargo, el camino hacia la recuperación es largo. Hemos perdido [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)] y [victim_2.Custom2('MyCharacterIntroduction', ROOT.Char)], entre muchos otros. La vida continúa, pero las cicatrices permanecen."
+ health.2102.1_victim.desc: "\n\nSin embargo, el camino hacia la recuperación es largo. Hemos perdido [victim_1.Custom2('MyCharacterIntroduction', ROOT.Char)] y muchos otros. La vida continúa, pero las cicatrices permanecen."
+ health.2102.root_victim.desc: "\n\nAlgunas noches todavía me despierto sudando frío y paralizado por el miedo. Salí adelante, pero las cicatrices (las de mi piel y las de mi mente) permanecerán durante muchos años."
+ health.2102.a.victim: "Por fin podemos descansar. Y llorar."
+ health.2102.a.no_victim: "Finalmente, estamos a salvo."
+ health.2102.a.dead_and_survivors.tt: "#N [THIS.Var('dead_victims_num').GetValue|0]#! víctima(s) murió(n) y #P [THIS.Var('surviving_victims_num').GetValue|0]#! sobrevivió en el tribunal"
+ health.2102.a.no_survivors.tt: "#N [THIS.Var('dead_victims_num').GetValue|0]#! víctima(s) fallecidas en el tribunal"
+ health.2102.a.no_dead.tt: "#P [THIS.Var('surviving_victims_num').GetValue|0]#! víctima(s) sobrevivieron en el tribunal"
+ health.2102.a.dead.tt: "[THIS.Char.GetShortUIName] murió durante el brote"
+ health.2102.a.surviving.tt: "[THIS.Char.GetShortUIName] enfermó pero se recuperó durante el brote"
   
- health.2202.t: "[SCOPE.Custom('EventTitleDisease')]: Humores equilibrados" #NT!
- health.2202.desc: "Mientras camino por los pasillos escucho una risa ahogada. Esa voz... No estoy acostumbrado a escucharla tan clara y brillante.\n\nEmpujo la puerta entreabierta y allí frente a mí está mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName], aparentemente recuperado de" #NT!
- health.2202.desc.happy: "\n\n¡Mi amado [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] está bien una vez más! Es difícil no derramar una lágrima de alegría..." #NT!
- health.2202.desc.angry: "\n\n¿Cómo pudo suceder esto? ¿Por qué yo, [ROOT.Char.GetFaith.HealthGodName]? #EMP ¿¡Por qué!?#!" #NT!
- health.2202.desc.relieved: "\n\nSe me quita un gran peso de encima cuando [sick_character.GetSheHe] me saluda y lucho por contener una lágrima de alivio." #NT!
- health.2202.desc.neutral: "\n\nLe doy a [sick_character.GetHerHim] un gesto solemne." #NT!
- health.2202.a.happy: "¡Noticias maravillosas! [ROOT.Char.GetFaith.HealthGodName] ¡alabado sea!" #NT!
- health.2202.a.angry: "Que desafortunado..." #NT!
- health.2202.a.relieved: "Mi cancha es un poco más segura." #NT!
- health.2202.a.neutral: "Afortunado." #NT!
+ health.2202.t: "[SCOPE.Custom('EventTitleDisease')]: Humores equilibrados"
+ health.2202.desc: "Mientras camino por los pasillos escucho una risa ahogada. Esa voz... No estoy acostumbrado a escucharla tan clara y brillante.\n\nEmpujo la puerta entreabierta y allí frente a mí está mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstName], aparentemente recuperado de"
+ health.2202.desc.happy: "\n\n¡Mi amado [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] está bien una vez más! Es difícil no derramar una lágrima de alegría..."
+ health.2202.desc.angry: "\n\n¿Cómo pudo suceder esto? ¿Por qué yo, [ROOT.Char.GetFaith.HealthGodName]? #EMP ¿¡Por qué!?#!"
+ health.2202.desc.relieved: "\n\nSe me quita un gran peso de encima cuando [sick_character.GetSheHe] me saluda y lucho por contener una lágrima de alivio."
+ health.2202.desc.neutral: "\n\nLe doy a [sick_character.GetHerHim] un gesto solemne."
+ health.2202.a.happy: "¡Noticias maravillosas! [ROOT.Char.GetFaith.HealthGodName] ¡alabado sea!"
+ health.2202.a.angry: "Que desafortunado..."
+ health.2202.a.relieved: "Mi cancha es un poco más segura."
+ health.2202.a.neutral: "Afortunado."
   
   # Recruit physician event 
- health.3001.disease.t: "[SCOPE.Custom('EventTitleDisease')]:" #NT!
- health.3001.t: "Médico de la corte" #NT!
- health.3001.fallback_reason.desc: "Este mundo está lleno de peligros, incluso para un tribunal [ROOT.Char.GetTitleTierName] y [ROOT.Char.GetHerHis]. Debería contratar a un médico de la corte para que no nos ocurran lesiones o enfermedades.\n\nHe preguntado por recomendaciones y he reunido algunas opciones para elegir." #NT!
- health.3001.decision.desc: "Este mundo está lleno de peligros, incluso para un tribunal [ROOT.Char.GetTitleTierName] y [ROOT.Char.GetHerHis]. Según mi solicitud, mis sirvientes han pedido recomendaciones. Ahora han reunido algunas opciones para elegir." #NT!
- health.3001.already_sick.desc: "Finalmente, mis sirvientes han encontrado algunas personas que podrían ser aptas para servir como médico de la corte. De cualquier manera, me temo que ahora no puedo permitirme el lujo de ser exigente." #NT!
- health.3001.a: "Aparentemente, [high_skill_option.GetFirstNameNoTooltip] tiene bastante experiencia." #NT!
- health.3001.a.tt: "Un [GetCourtPositionType('court_physician_court_position').GetName()] también tiene un salario mensual de [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]" #NT!
- health.3001.a.aptitude: "[high_skill_option.GetUINamePossessive] [aptitude|E] es [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]" #NT!
- health.3001.b: "[low_skill_option.GetFirstNameNoTooltip] parece entusiasmado, al menos." #NT!
- health.3001.b.aptitude: "[low_skill_option.GetUINamePossessive] [aptitude|E] es [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]" #NT!
- health.3001.c: "[mystic_option.GetFirstNameNoTooltip] afirma estar capacitado en "medicina alternativa"." #NT!
- health.3001.c.aptitude: "[mystic_option.GetUINamePossessive] [aptitude|E] es [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]" #NT!
- health.3001.d.two: "Ninguno de ellos logra impresionarme." #NT!
- health.3001.d.more: "Todos ellos no logran impresionarme." #NT!
- health.3001.e: "[excellent_skill_option.GetFirstNameNoTooltip] es ampliamente conocido en los círculos académicos." #NT!
- health.3001.e.aptitude: "[excellent_skill_option.GetUINamePossessive] [aptitude|E] es [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]" #NT!
- health.3001.d.tt: "No recluto a nadie como mi [GetCourtPositionType('court_physician_court_position').GetName()]" #NT!
+ health.3001.disease.t: "[SCOPE.Custom('EventTitleDisease')]:"
+ health.3001.t: "Médico de la corte"
+ health.3001.fallback_reason.desc: "Este mundo está lleno de peligros, incluso para un tribunal [ROOT.Char.GetTitleTierName] y [ROOT.Char.GetHerHis]. Debería contratar a un médico de la corte para que no nos ocurran lesiones o enfermedades.\n\nHe preguntado por recomendaciones y he reunido algunas opciones para elegir."
+ health.3001.decision.desc: "Este mundo está lleno de peligros, incluso para un tribunal [ROOT.Char.GetTitleTierName] y [ROOT.Char.GetHerHis]. Según mi solicitud, mis sirvientes han pedido recomendaciones. Ahora han reunido algunas opciones para elegir."
+ health.3001.already_sick.desc: "Finalmente, mis sirvientes han encontrado algunas personas que podrían ser aptas para servir como médico de la corte. De cualquier manera, me temo que ahora no puedo permitirme el lujo de ser exigente."
+ health.3001.a: "Aparentemente, [high_skill_option.GetFirstNameNoTooltip] tiene bastante experiencia."
+ health.3001.a.tt: "Un [GetCourtPositionType('court_physician_court_position').GetName()] también tiene un salario mensual de [gold_i][SCOPE.ScriptValue('court_position_physician_salary')]"
+ health.3001.a.aptitude: "[high_skill_option.GetUINamePossessive] [aptitude|E] es [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.b: "[low_skill_option.GetFirstNameNoTooltip] parece entusiasmado, al menos."
+ health.3001.b.aptitude: "[low_skill_option.GetUINamePossessive] [aptitude|E] es [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.c: "[mystic_option.GetFirstNameNoTooltip] afirma estar capacitado en "medicina alternativa"."
+ health.3001.c.aptitude: "[mystic_option.GetUINamePossessive] [aptitude|E] es [mystic_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.d.two: "Ninguno de ellos logra impresionarme."
+ health.3001.d.more: "Todos ellos no logran impresionarme."
+ health.3001.e: "[excellent_skill_option.GetFirstNameNoTooltip] es ampliamente conocido en los círculos académicos."
+ health.3001.e.aptitude: "[excellent_skill_option.GetUINamePossessive] [aptitude|E] es [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'court_physician_court_position' ) )]"
+ health.3001.d.tt: "No recluto a nadie como mi [GetCourtPositionType('court_physician_court_position').GetName()]"
   
   #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson 
- health.3101.t: "[SCOPE.Custom('EventTitleDisease')]: Tiempo para el tratamiento" #NT!
- health.3101.start.desc: "El olor sombrío de tinturas burbujeantes y ungüentos machacados asalta mis sentidos mientras me dirijo a la sala de trabajo de mi médico [physician.GetFirstNamePossessive]. [physician.GetSheHe|U] levanta la vista de una unción que [physician.GetSheHe] está preparando.\n\n"Ha llegado el momento, mi [ROOT.Char.GetLadyLord]. Conozco varias formas de tratar tu" #NT!
- health.3101.safe_recommendation.desc: "Si bien estoy bastante seguro de que una simple tintura sería suficiente," #NT!
- health.3101.risky_recommendation.desc: "Recomendaría medidas drásticas, pero" #NT!
- health.3101.mystic_recommendation.desc: "Si me permiten ser tan atrevido, me gustaría recomendar un... tratamiento alternativo. Pero" #NT!
- health.3101.end.desc: "La elección es tuya, y sólo tuya." [physician.GetSheHe|U] muecas.\n\n"No será agradable."" #NT!
- health.3101.a: "No hagas más de lo necesario." #NT!
- health.3101.b: "¡Es demasiado tarde para tomar precauciones!" #NT!
- health.3101.c: "Estoy dispuesto a... probar cosas nuevas." #NT!
- health.3101.d: "¡Déjame ser!" #NT!
- health.3101.e: "¡Mande llamar a un médico! ¡Ahora!" #NT!
- health.3101.e.already_looking: "¡Pronto! ¡La ayuda está en camino!" #NT!
- health.3101.e_sick_physician: "¡Necesito un nuevo médico!" #NT!
- health.3101.e.tt: "Mis sirvientes buscarán posibles candidatos [GetCourtPositionType('court_physician_court_position').GetName()]" #NT!
- health.3101.tutorial.tt: "Al elegir esta opción, se le mostrará cómo designar a un [GetCourtPositionType('court_physician_court_position').GetName()], que podría curar su dolencia." #NT!
- health.3101.f: "Oh [ROOT.Char.GetFaith.HighGodName], ¿¡voy a morir así...!?" #NT!
- health_3101_already_looking_tt: "Ya estás buscando un [GetCourtPositionType('court_physician_court_position').GetName()]" #NT!
+ health.3101.t: "[SCOPE.Custom('EventTitleDisease')]: Tiempo para el tratamiento"
+ health.3101.start.desc: "El olor sombrío de tinturas burbujeantes y ungüentos machacados asalta mis sentidos mientras me dirijo a la sala de trabajo de mi médico [physician.GetFirstNamePossessive]. [physician.GetSheHe|U] levanta la vista de una unción que [physician.GetSheHe] está preparando.\n\n"Ha llegado el momento, mi [ROOT.Char.GetLadyLord]. Conozco varias formas de tratar tu"
+ health.3101.safe_recommendation.desc: "Si bien estoy bastante seguro de que una simple tintura sería suficiente,"
+ health.3101.risky_recommendation.desc: "Recomendaría medidas drásticas, pero"
+ health.3101.mystic_recommendation.desc: "Si me permiten ser tan atrevido, me gustaría recomendar un... tratamiento alternativo. Pero"
+ health.3101.end.desc: "La elección es tuya, y sólo tuya." [physician.GetSheHe|U] muecas.\n\n"No será agradable.""
+ health.3101.a: "No hagas más de lo necesario."
+ health.3101.b: "¡Es demasiado tarde para tomar precauciones!"
+ health.3101.c: "Estoy dispuesto a... probar cosas nuevas."
+ health.3101.d: "¡Déjame ser!"
+ health.3101.e: "¡Mande llamar a un médico! ¡Ahora!"
+ health.3101.e.already_looking: "¡Pronto! ¡La ayuda está en camino!"
+ health.3101.e_sick_physician: "¡Necesito un nuevo médico!"
+ health.3101.e.tt: "Mis sirvientes buscarán posibles candidatos [GetCourtPositionType('court_physician_court_position').GetName()]"
+ health.3101.tutorial.tt: "Al elegir esta opción, se le mostrará cómo designar a un [GetCourtPositionType('court_physician_court_position').GetName()], que podría curar su dolencia."
+ health.3101.f: "Oh [ROOT.Char.GetFaith.HighGodName], ¿¡voy a morir así...!?"
+ health_3101_already_looking_tt: "Ya estás buscando un [GetCourtPositionType('court_physician_court_position').GetName()]"
   
- safe_diseaste_treatment.tt: "Un tratamiento seguro podría disminuir los síntomas temporalmente y tiene pocos riesgos." #NT!
- risky_diseaste_treatment.tt: "Un tratamiento arriesgado puede tener grandes resultados, pero también podría provocar un empeoramiento de los síntomas o lesiones permanentes." #NT!
- mystic_diseaste_treatment.tt: "Los tratamientos místicos son impredecibles. El resultado de extraños rituales puede ser milagroso, pero también podría volverte loco..." #NT!
- safe_wound_treatment.tt: "Un tratamiento seguro podría aliviar mi dolor temporalmente y tiene pocos riesgos." #NT!
- risky_wound_treatment.tt: "Un tratamiento arriesgado podría tener grandes resultados, pero también podría provocar un empeoramiento de los síntomas o lesiones permanentes." #NT!
- no_treatment_effect.tt: "Sin tratamiento, la naturaleza sigue su curso" #NT!
- deny_treatment_effect.tt: "No se realizará ningún tratamiento y la naturaleza sigue su curso." #NT!
- pick_own_treatment_effect.adult.tt: "[sick_character.GetTitledFirstName] decidirá qué tipo de tratamiento quiere [sick_character.GetSheHe]." #NT!
- pick_own_treatment_effect.child.tt: "El médico decidirá qué tipo de tratamiento recibe [sick_character.GetTitledFirstName]" #NT!
+ safe_diseaste_treatment.tt: "Un tratamiento seguro podría disminuir los síntomas temporalmente y tiene pocos riesgos."
+ risky_diseaste_treatment.tt: "Un tratamiento arriesgado puede tener grandes resultados, pero también podría provocar un empeoramiento de los síntomas o lesiones permanentes."
+ mystic_diseaste_treatment.tt: "Los tratamientos místicos son impredecibles. El resultado de extraños rituales puede ser milagroso, pero también podría volverte loco..."
+ safe_wound_treatment.tt: "Un tratamiento seguro podría aliviar mi dolor temporalmente y tiene pocos riesgos."
+ risky_wound_treatment.tt: "Un tratamiento arriesgado podría tener grandes resultados, pero también podría provocar un empeoramiento de los síntomas o lesiones permanentes."
+ no_treatment_effect.tt: "Sin tratamiento, la naturaleza sigue su curso"
+ deny_treatment_effect.tt: "No se realizará ningún tratamiento y la naturaleza sigue su curso."
+ pick_own_treatment_effect.adult.tt: "[sick_character.GetTitledFirstName] decidirá qué tipo de tratamiento quiere [sick_character.GetSheHe]."
+ pick_own_treatment_effect.child.tt: "El médico decidirá qué tipo de tratamiento recibe [sick_character.GetTitledFirstName]"
   
- health.3102.t: "[SCOPE.Custom('EventTitleDisease')]: Mi malestar [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]" #NT!
- health.3102.preamble: "Las llamas chisporrotean un poco la oscuridad de la habitación. Sobre la mesa del médico yace [sick_character.GetFirstName], su forma rígida con anticipación asustada.\n\n" #NT!
- health.3102.start.desc: "Es hora de decidir cómo tratar [sick_character.GetFirstNamePossessive]" #NT!
- health.3102.start.desc_sick_physician: "Es hora de decidir cómo tratar a mi" #NT!
- health.3102.treatment: "Hay varios tratamientos potenciales disponibles, que van desde los típicos hasta los poco ortodoxos. Depende de mí decidir cuál se adapta mejor a sus necesidades particulares." #NT!
- health.3102.a: "Ser cauteloso. No hagas más de lo necesario." #NT!
- health.3102.b: "Ha llegado el momento de tomar medidas drásticas." #NT!
- health.3102.c: "Sólo un poder superior puede salvar [sick_character.GetHerHim] ahora." #NT!
- health.3102.c_sick_physician: "Sólo un poder superior puede salvarte ahora." #NT!
- health.3102.d: "No habrá tratamiento." #NT!
- health.3102.e_adult: "La elección depende de mi [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]." #NT!
- health.3102.e_child: "Confío en tu criterio." #NT!
+ health.3102.t: "[SCOPE.Custom('EventTitleDisease')]: Mi malestar [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]"
+ health.3102.preamble: "Las llamas chisporrotean un poco la oscuridad de la habitación. Sobre la mesa del médico yace [sick_character.GetFirstName], su forma rígida con anticipación asustada.\n\n"
+ health.3102.start.desc: "Es hora de decidir cómo tratar [sick_character.GetFirstNamePossessive]"
+ health.3102.start.desc_sick_physician: "Es hora de decidir cómo tratar a mi"
+ health.3102.treatment: "Hay varios tratamientos potenciales disponibles, que van desde los típicos hasta los poco ortodoxos. Depende de mí decidir cuál se adapta mejor a sus necesidades particulares."
+ health.3102.a: "Ser cauteloso. No hagas más de lo necesario."
+ health.3102.b: "Ha llegado el momento de tomar medidas drásticas."
+ health.3102.c: "Sólo un poder superior puede salvar [sick_character.GetHerHim] ahora."
+ health.3102.c_sick_physician: "Sólo un poder superior puede salvarte ahora."
+ health.3102.d: "No habrá tratamiento."
+ health.3102.e_adult: "La elección depende de mi [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]."
+ health.3102.e_child: "Confío en tu criterio."
   
- health.3103.t: "[SCOPE.Custom('EventTitleDisease')]: Un poco más brillante" #NT!
- health.safe_treatment.1.desc: "[physician.GetTitledFirstName] decidió que el mejor tratamiento sería un poco de descanso. [physician.GetSheHe|U] me rodeó con suaves almohadas y me arropó suavemente bajo muchas capas de mantas. Antes de que [physician.GetSheHe] saliera de mi habitación, [physician.GetFirstNameNoTooltip] cerró las cortinas. Era mediodía.\n\nDormir un poco más" #NT!
- health.safe_treatment.2.desc: "[physician.GetTitledFirstName] atribuyó mis dolencias a una dieta poco saludable. Para revitalizar mi cuerpo, [physician.GetSheHe] insistió en que consumiera sólo verduras crudas e infusiones de hierbas durante una semana. Para no tentarme, [physician.GetSheHe] confiscó mi alijo de golosinas. [physician.GetSheHe|U] nunca los devolvió.\n\nLas restricciones dietéticas" #NT!
- health.safe_treatment.3.desc: "[physician.GetTitledFirstName] me dijo que me acostara en mi cama y luego le ofreciera [physician.GetHerHim] mis manos. Firmemente, [physician.GetSheHe] frotó y golpeó mis palmas hasta que se enrojecieron, y luego repitió el tratamiento en mis plantas. Como toque final, [physician.GetSheHe] me pellizcó suavemente hacia arriba y hacia abajo por mis extremidades.\n\nEste extraño procedimiento" #NT!
- health.safe_treatment.4.desc: "[physician.GetTitledFirstName] me ofreció una poción clara en un frasco dorado. Como había probado algunos remedios anteriores de [physician.GetFirstNamePossessive], al principio me preocupé, pero cuando lo bebí no pude detectar ni olor ni sabor. Pregunté sobre los ingredientes, pero [physician.GetSheHe] me dijo que era una receta secreta.\n\nLa poción misteriosa" #NT!
- health.safe_treatment.5.desc: ""Relaja tu respiración", me instruyó [physician.GetTitledFirstName]. La pluma en la mano de [physician.GetHerHis] parecía casi etérea cuando [physician.GetSheHe] comenzó a acariciarme suavemente debajo de la nariz. "¡Mal, vete!" [physician.GetSheHe] me instó mientras estornudaba ruidosamente.\n\nEl extraño cosquilleo" #NT!
- health.safe_treatment.6.desc: "[physician.GetTitledFirstName] organizó una pequeña ceremonia en mi nombre. Una vez que mi familia y mi séquito más cercano estuvieron todos reunidos en el salón principal, el [ROOT.Char.Custom('DefaultPriestTitle')] pronunció un sermón resaltando mi virtud y benevolencia. La ceremonia finalizó con una hora de oración silenciosa.\n\nAlcanzando a [ROOT.Char.GetFaith.HealthGodName]" #NT!
- health.safe_treatment.7.desc: "Pasé muchas tardes con [physician.GetTitledFirstName] sentado a mi lado, recitando pasajes del [ROOT.Char.GetFaith.ReligiousText].\n\nLas palabras del [ROOT.Char.GetFaith.HealthGodName]" #NT!
- health.safe_treatment.8.desc: "[physician.GetTitledFirstName] pidió al [ROOT.Char.Custom('DefaultPriestTitle')] que trajera al mejor cantante de la corte, que resultó ser un niño pequeño con una brillante voz de tenor. Durante varios días seguidos, el niño me cantó para dormir.\n\nLa voz tranquilizadora" #NT!
- health.safe_treatment.9.desc: "El vapor se elevó de la taza mientras [physician.GetTitledFirstName] revolvía el polvo verde en ella. [physician.GetSheHe|U] me explicó detalladamente las propiedades curativas de la hierba, antes de indicarme que la bebiera. "La raíz también está ahí", revela con jactancia [physician.GetSheHe].\n\nLa hierba amarga" #NT!
- health.safe_treatment.10.desc: "[physician.GetTitledFirstName] insistió en que mis humores estaban desequilibrados y que la mejor manera de restaurarlos sería mediante un derramamiento de sangre. Después de consultar las cartas astronómicas, [physician.GetSheHe] decidió que me sangraran las axilas y las sienes.\n\nLa sangría" #NT!
- health.safe_treatment.11.desc: "[physician.GetTitledFirstName] me dijo que me desnudara y luego me arrodillara con las nalgas levantadas. Eso fue bastante incómodo, pero cuando vi el instrumento en mis manos casi salí corriendo. [physician.GetSheHe|U] debe haberlo notado porque [physician.GetSheHe] me dio unas palmaditas tranquilizadoras en el hombro y me dijo que dejara de apretar.\n\nEl enema" #NT!
- health.safe_treatment.12.desc: "[physician.GetTitledFirstName] entró en mis aposentos con una vasija de barro acunada en [physician.GetHerHis] brazos y vino a sentarse junto a mi cama. [physician.GetSheHe|U] sacó una sanguijuela del frasco y le dio una mirada muy tierna antes de colocarla con cuidado en mi cara. "Quédate quieto, mi [ROOT.Char.GetLadyLord]. Será mejor que no molestes su alimentación."\n\nLas sanguijuelas" #NT!
- health.safe_treatment.13.desc: "Cuando [physician.GetTitledFirstName] entró en mis habitaciones, [physician.GetSheHe] fue seguido por un aire de lo más desagradable. El origen del hedor era un frasco en las manos de [physician.GetHerHis]: "una mezcla de estiércol de vaca y hierbas para tu cataplasma, mi [ROOT.Char.GetLadyLord]". Cuando [physician.GetFirstName] procedió a untarlo en mi pecho, casi tuve náuseas.\n\nAl final, la cataplasma" #NT!
- health.safe_treatment.14.desc: "[physician.GetTitledFirstName] me trajo un brebaje hecho de espino amarillo y sen. Al principio pensé que la poción era ineficaz, pero más tarde ese mismo día sentí un revuelo en mis intestinos que me hizo correr hacia el retrete. Mientras aullaba de angustia, [physician.GetFirstName] me aseguró que la suciedad fue expulsada con mis heces.\n\nAl final, la limpieza" #NT!
- health.safe_treatment.15.desc: "[physician.GetTitledFirstName] me presentó el cadáver carbonizado de un gato y me impulsó a cavar. Mientras comía, [physician.GetSheHe] me contó cómo [physician.GetSheHe] había perseguido al regordete felino por mis propiedades durante horas. Creo que [physician.GetSheHe] quería elogios por el arduo trabajo de [physician.GetHerHis], pero el vil sabor de la comida me mantuvo en silencio.\n\nAl final, la comida grasosa" #NT!
- health.safe_treatment.16.desc: "[physician.GetTitledFirstName] trajo un cubo que croaba a mi habitación y me dijo que expusiera la parte superior de mi cuerpo. [physician.GetSheHe|U] agarré un sapo, lo destripé con manos hábiles y procedí a colocar el cadáver todavía retorciéndose sobre mi pecho. [physician.GetSheHe|U] Continué hasta que el balde estuvo vacío y mi torso cubierto.\n\nEl tratamiento del sapo" #NT!
- health.safe_treatment.17.desc: "[physician.GetTitledFirstName] vino a mi habitación y me ofreció una bebida de color amarillo. [physician.GetSheHe|U] me dijo que me pellizcara la nariz mientras lo bebía. Cuando el líquido tibio pasó por mis labios, casi inmediatamente lo escupí de nuevo. Exigí saber el contenido del vaso y [physician.GetSheHe] reveló que era orina fresca de una cerda preñada.\n\nLos desechos porcinos" #NT!
- health.safe_treatment.18.desc: "[physician.GetTitledFirstName] bajó [physician.GetHerHis] mano en el cubo que [physician.GetSheHe] trajo a mis habitaciones. Cuando [physician.GetSheHe] lo volvió a sacar, un pececito se retorcía entre los dedos de [physician.GetHerHis]. "Abre de par en par", dijo [physician.GetSheHe] y lo metió en la boca. Luché por no vomitar mientras me hacía cosquillas en la parte posterior de la garganta.\n\nLo que sea que hubiera en ese pescado" #NT!
- health.safe_treatment.19.desc: "El líquido del cáliz era cálido y agrio. "Ahuyentará el otro calor" explicó [physician.GetTitledFirstName].\n\nLa poción" #NT!
- health.safe_treatment.20.desc: "Para equilibrar mis humores, [physician.GetTitledFirstName] me hizo beber agua salada para inducirme el vómito. Fue muy efectivo.\n\nVaciar mi estómago" #NT!
- health.safe_treatment.21.desc: "Para librarme de mis dolencias [physician.GetTitledFirstName] me ordenó dormir boca abajo durante un par de días. "Te reequilibrará", me aseguró [physician.GetSheHe]. \n\nMe sentí como un murciélago.\n\nLa extraña posición para dormir" #NT!
+ health.3103.t: "[SCOPE.Custom('EventTitleDisease')]: Un poco más brillante"
+ health.safe_treatment.1.desc: "[physician.GetTitledFirstName] decidió que el mejor tratamiento sería un poco de descanso. [physician.GetSheHe|U] me rodeó con suaves almohadas y me arropó suavemente bajo muchas capas de mantas. Antes de que [physician.GetSheHe] saliera de mi habitación, [physician.GetFirstNameNoTooltip] cerró las cortinas. Era mediodía.\n\nDormir un poco más"
+ health.safe_treatment.2.desc: "[physician.GetTitledFirstName] atribuyó mis dolencias a una dieta poco saludable. Para revitalizar mi cuerpo, [physician.GetSheHe] insistió en que consumiera sólo verduras crudas e infusiones de hierbas durante una semana. Para no tentarme, [physician.GetSheHe] confiscó mi alijo de golosinas. [physician.GetSheHe|U] nunca los devolvió.\n\nLas restricciones dietéticas"
+ health.safe_treatment.3.desc: "[physician.GetTitledFirstName] me dijo que me acostara en mi cama y luego le ofreciera [physician.GetHerHim] mis manos. Firmemente, [physician.GetSheHe] frotó y golpeó mis palmas hasta que se enrojecieron, y luego repitió el tratamiento en mis plantas. Como toque final, [physician.GetSheHe] me pellizcó suavemente hacia arriba y hacia abajo por mis extremidades.\n\nEste extraño procedimiento"
+ health.safe_treatment.4.desc: "[physician.GetTitledFirstName] me ofreció una poción clara en un frasco dorado. Como había probado algunos remedios anteriores de [physician.GetFirstNamePossessive], al principio me preocupé, pero cuando lo bebí no pude detectar ni olor ni sabor. Pregunté sobre los ingredientes, pero [physician.GetSheHe] me dijo que era una receta secreta.\n\nLa poción misteriosa"
+ health.safe_treatment.5.desc: ""Relaja tu respiración", me instruyó [physician.GetTitledFirstName]. La pluma en la mano de [physician.GetHerHis] parecía casi etérea cuando [physician.GetSheHe] comenzó a acariciarme suavemente debajo de la nariz. "¡Mal, vete!" [physician.GetSheHe] me instó mientras estornudaba ruidosamente.\n\nEl extraño cosquilleo"
+ health.safe_treatment.6.desc: "[physician.GetTitledFirstName] organizó una pequeña ceremonia en mi nombre. Una vez que mi familia y mi séquito más cercano estuvieron todos reunidos en el salón principal, el [ROOT.Char.Custom('DefaultPriestTitle')] pronunció un sermón resaltando mi virtud y benevolencia. La ceremonia finalizó con una hora de oración silenciosa.\n\nAlcanzando a [ROOT.Char.GetFaith.HealthGodName]"
+ health.safe_treatment.7.desc: "Pasé muchas tardes con [physician.GetTitledFirstName] sentado a mi lado, recitando pasajes del [ROOT.Char.GetFaith.ReligiousText].\n\nLas palabras del [ROOT.Char.GetFaith.HealthGodName]"
+ health.safe_treatment.8.desc: "[physician.GetTitledFirstName] pidió al [ROOT.Char.Custom('DefaultPriestTitle')] que trajera al mejor cantante de la corte, que resultó ser un niño pequeño con una brillante voz de tenor. Durante varios días seguidos, el niño me cantó para dormir.\n\nLa voz tranquilizadora"
+ health.safe_treatment.9.desc: "El vapor se elevó de la taza mientras [physician.GetTitledFirstName] revolvía el polvo verde en ella. [physician.GetSheHe|U] me explicó detalladamente las propiedades curativas de la hierba, antes de indicarme que la bebiera. "La raíz también está ahí", revela con jactancia [physician.GetSheHe].\n\nLa hierba amarga"
+ health.safe_treatment.10.desc: "[physician.GetTitledFirstName] insistió en que mis humores estaban desequilibrados y que la mejor manera de restaurarlos sería mediante un derramamiento de sangre. Después de consultar las cartas astronómicas, [physician.GetSheHe] decidió que me sangraran las axilas y las sienes.\n\nLa sangría"
+ health.safe_treatment.11.desc: "[physician.GetTitledFirstName] me dijo que me desnudara y luego me arrodillara con las nalgas levantadas. Eso fue bastante incómodo, pero cuando vi el instrumento en mis manos casi salí corriendo. [physician.GetSheHe|U] debe haberlo notado porque [physician.GetSheHe] me dio unas palmaditas tranquilizadoras en el hombro y me dijo que dejara de apretar.\n\nEl enema"
+ health.safe_treatment.12.desc: "[physician.GetTitledFirstName] entró en mis aposentos con una vasija de barro acunada en [physician.GetHerHis] brazos y vino a sentarse junto a mi cama. [physician.GetSheHe|U] sacó una sanguijuela del frasco y le dio una mirada muy tierna antes de colocarla con cuidado en mi cara. "Quédate quieto, mi [ROOT.Char.GetLadyLord]. Será mejor que no molestes su alimentación."\n\nLas sanguijuelas"
+ health.safe_treatment.13.desc: "Cuando [physician.GetTitledFirstName] entró en mi habitación, [physician.GetSheHe] fue seguido por un aire de lo más fétido. El hedor provenía de un frasco en las manos de [physician.GetHerHis]: "una mezcla de estiércol de vaca y hierbas para tu cataplasma, mi [ROOT.Char.GetLadyLord]". Cuando [physician.GetFirstName] procedió a untarlo en mi pecho, casi vomité.\n\nAl final, la cataplasma" #NT!
+ health.safe_treatment.14.desc: "[physician.GetTitledFirstName] me trajo un brebaje hecho de espino amarillo y sen. Al principio pensé que la poción era ineficaz, pero más tarde ese mismo día sentí un revuelo en mis intestinos que me hizo correr hacia el retrete. Mientras aullaba de angustia, [physician.GetFirstName] me aseguró que la suciedad fue expulsada con mis heces.\n\nAl final, la limpieza"
+ health.safe_treatment.15.desc: "[physician.GetTitledFirstName] me presentó el cadáver carbonizado de un gato y me impulsó a cavar. Mientras comía, [physician.GetSheHe] me contó cómo [physician.GetSheHe] había perseguido al regordete felino por mis propiedades durante horas. Creo que [physician.GetSheHe] quería elogios por el arduo trabajo de [physician.GetHerHis], pero el vil sabor de la comida me mantuvo en silencio.\n\nAl final, la comida grasosa"
+ health.safe_treatment.16.desc: "[physician.GetTitledFirstName] trajo un cubo que croaba a mi habitación y me dijo que expusiera la parte superior de mi cuerpo. [physician.GetSheHe|U] agarré un sapo, lo destripé con manos hábiles y procedí a colocar el cadáver todavía retorciéndose sobre mi pecho. [physician.GetSheHe|U] Continué hasta que el balde estuvo vacío y mi torso cubierto.\n\nEl tratamiento del sapo"
+ health.safe_treatment.17.desc: "[physician.GetTitledFirstName] vino a mi habitación y me ofreció una bebida de color amarillo. [physician.GetSheHe|U] me dijo que me pellizcara la nariz mientras lo bebía. Cuando el líquido tibio pasó por mis labios, casi inmediatamente lo escupí de nuevo. Exigí saber el contenido del vaso y [physician.GetSheHe] reveló que era orina fresca de una cerda preñada.\n\nLos desechos porcinos"
+ health.safe_treatment.18.desc: "[physician.GetTitledFirstName] bajó [physician.GetHerHis] mano en el cubo que [physician.GetSheHe] trajo a mis habitaciones. Cuando [physician.GetSheHe] lo volvió a sacar, un pececito se retorcía entre los dedos de [physician.GetHerHis]. "Abre de par en par", dijo [physician.GetSheHe] y lo metió en la boca. Luché por no vomitar mientras me hacía cosquillas en la parte posterior de la garganta.\n\nLo que sea que hubiera en ese pescado"
+ health.safe_treatment.19.desc: "El líquido del cáliz era cálido y agrio. "Ahuyentará el otro calor" explicó [physician.GetTitledFirstName].\n\nLa poción"
+ health.safe_treatment.20.desc: "Para equilibrar mis humores, [physician.GetTitledFirstName] me hizo beber agua salada para inducirme el vómito. Fue muy efectivo.\n\nVaciar mi estómago"
+ health.safe_treatment.21.desc: "Para librarme de mis dolencias [physician.GetTitledFirstName] me ordenó dormir boca abajo durante un par de días. "Te reequilibrará", me aseguró [physician.GetSheHe]. \n\nMe sentí como un murciélago.\n\nLa extraña posición para dormir"
   
- health.3103.end.desc: "Resultó ser justo lo que necesitaba. Por ahora, los peores de mis síntomas se han aliviado y el mundo parece un poco más brillante." #NT!
- health.3103.a: "Excelente trabajo, [physician.GetFirstNameNoTooltip]." #NT!
- health.3104.t: "[SCOPE.Custom('EventTitleDisease')]: Aún peor" #NT!
- health.3104.end.desc: "No hizo nada para mejorar mi estado. La verdad creo que me siento peor!" #NT!
- health.3104.a: "Irse. Quiero descansar..." #NT!
+ health.3103.end.desc: "Resultó ser justo lo que necesitaba. Por ahora, los peores de mis síntomas se han aliviado y el mundo parece un poco más brillante."
+ health.3103.a: "Excelente trabajo, [physician.GetFirstNameNoTooltip]."
+ health.3104.t: "[SCOPE.Custom('EventTitleDisease')]: Aún peor"
+ health.3104.end.desc: "No hizo nada para mejorar mi estado. La verdad creo que me siento peor!"
+ health.3104.a: "Irse. Quiero descansar..."
   
- health.3105.t: "[SCOPE.Custom('EventTitleDisease')]: Un milagro médico" #NT!
- health.risky_treatment_medicine.1.desc: "La olla que [physician.GetTitledFirstName] trajo con [physician.GetHerHim] a mis aposentos emitió un extraño zumbido. Antes de que pudiera detenerme, [physician.GetHerHim] [physician.GetSheHe] lo arrojó al suelo, donde explotó en una nube de fragmentos de cerámica y un enjambre de abejas furiosas. Mientras mi médico huía de la habitación, yo seguía siendo su único objetivo." #NT!
- health.risky_treatment_medicine.2.desc: "No podía creer lo que veía cuando [physician.GetTitledFirstName] sacó una mano cortada de la cartera de [physician.GetHerHis]. Las manchas negras en su dedo me provocaron escalofríos y exigí saber de dónde lo había sacado [physician.GetSheHe]. [physician.GetSheHe|U] sólo me hizo callar y procedió a frotar la mano cortada contra mi pecho." #NT!
- health.risky_treatment_medicine.3.desc: "[physician.GetTitledFirstName] me regaló una poción de lo más peculiar. No tenía olor ni sabor, poseía la apariencia de plata líquida. La bebida metálica era bastante fácil de ingerir, pero no pude reprimir mi inquietud." #NT!
- health.risky_treatment_medicine.4.desc: "[physician.GetTitledFirstName] insistió en que la única cura para mi condición era correr desnudo a medianoche. Durante la siguiente luna llena, [physician.GetSheHe] me obligó a desvestirme y correr por el desierto. "¡No pares hasta que tus piernas cedan!" [physician.GetSheHe] gritó detrás de mí. "¡Expulsa el mal a través de tu sudor!"" #NT!
- health.risky_treatment_medicine.5.desc: "El polvo era amarillo y tenía un aroma delicioso. Me consternó ver cómo lo mezclaba con azufre y lo espolvoreaba sobre la vesícula todavía tibia de un castor. El animal había sido encontrado rabioso, echando espuma por la boca y presentando signos claros de la enfermedad. "Combatimos el mal con el mal, mi [ROOT.Char.GetLadyLord]."" #NT!
- health.risky_treatment_medicine.6.desc: "[physician.GetTitledFirstName] se me acercó con un cuchillo pequeño. [physician.GetSheHe|U] sostuve mi brazo firmemente e hice una incisión precisa, apenas rompiendo mi piel. [physician.GetSheHe|U] luego procedió a presionar algo asqueroso contra la herida. Un vistazo rápido a la sustancia fue todo lo que pude soportar." #NT!
- health.risky_treatment_medicine.7.desc: "[physician.GetTitledFirstName] me entregó un plato con una sustancia en polvo gris. Al parecer se trataba de costras trituradas de una persona en peor estado que el mío. [physician.GetTitledFirstName] no mostró indicios de estar bromeando cuando [physician.GetSheHe] me dijo que me inclinara e inhalara tanto como pudiera." #NT!
- health.risky_treatment_medicine.8.desc: "El polvo rojo tenía un color tentador. Un sirviente había cometido el error de probarlo en su forma pura; su lengua se había hinchado mucho y [physician.GetTitledFirstName] lo había reprendido firmemente por ello. [physician.GetTitledFirstName] vertió la especia en un cáliz de agua y la removió meticulosamente antes de darme una cucharada." #NT!
- health.risky_treatment_medicine.9.desc: "Mis ojos se abrieron cuando [physician.GetTitledFirstName] condujo una cabra a mis habitaciones. El fétido olor de sus flatulencias me hizo taparme la nariz, pero el médico apartó mi mano. "Disculpas, mi [ROOT.Char.GetLadyLord], pero este es el tratamiento". [physician.GetSheHe|U] respiraciones profundas recomendadas." #NT!
- health.risky_treatment_surgery.1.desc: "[physician.GetTitledFirstName] me dio un trago que tenía un sabor muy peculiar. Me hizo sentir entumecido y mis párpados comenzaron a caerse. "Pido disculpas, mi [ROOT.Char.GetLadyLord], pero no quieres estar despierto para la siguiente parte", dijo [physician.GetSheHe]. El pánico me invadió y traté de levantarme de la mesa de operaciones, pero mis extremidades no obedecieron." #NT!
- health.risky_treatment_surgery.2.desc: "[physician.GetTitledFirstNamePossessive] asistente aseguró [physician.GetHerHim] que la poción me había hecho dormir. ¡Oh, qué equivocado estaba [physician.GetSheHe]! No podía hablar ni moverme, pero aún estaba consciente de todo lo que me hacían. Intenté gritar y agitarme, pero estaba prisionera de mi propio cuerpo. El procedimiento pareció durar una eternidad..." #NT!
- health.risky_treatment_amputation.1.desc: "[physician.GetTitledFirstName] abrochó la última correa, asegurándome en la mesa de operaciones. "No te mentiré, mi [ROOT.Char.GetLadyLord]. Esto será terriblemente doloroso, pero hay que hacerlo."\n\nTraté de protestar cuando [physician.GetFirstName] sacó la sierra, pero debido a la poción calmante que [physician.GetSheHe] había hecho Mientras bebía, arrastraba las palabras más allá de la comprensión." #NT!
- health.risky_treatment_disfigurement.1.desc: "[physician.GetTitledFirstName] me informó que [physician.GetSheHe] había identificado el tejido contaminado que era la raíz de mi enfermedad y que eliminarlo probablemente me curaría. Me sentí muy complacido y acepté la cirugía.\n\nOjalá [physician.GetFirstName] me hubiera dicho que "el tejido" era mi cara." #NT!
- health.risky_treatment_eye.1.desc: "[physician.GetTitledFirstName] me hizo beber un trago de amapola antes de atarme a la mesa de operaciones de [physician.GetHerHis]. Casi me quedé dormido mientras [physician.GetSheHe] preparaba los instrumentos de [physician.GetHerHis], pero cuando [physician.GetSheHe] levantó un bisturí hacia mi ojo, me sentí completamente despierto. "Lo siento, mi [ROOT.Char.GetLadyLord], pero debemos eliminar la raíz del problema."" #NT!
- health.3105.end.desc: "\n\nCuriosamente, ya no siento ningún síntoma..." #NT!
- health.3105.a: "¡Esto es un milagro!" #NT!
+ health.3105.t: "[SCOPE.Custom('EventTitleDisease')]: Un milagro médico"
+ health.risky_treatment_medicine.1.desc: "La olla que [physician.GetTitledFirstName] trajo con [physician.GetHerHim] a mis aposentos emitió un extraño zumbido. Antes de que pudiera detenerme, [physician.GetHerHim] [physician.GetSheHe] lo arrojó al suelo, donde explotó en una nube de fragmentos de cerámica y un enjambre de abejas furiosas. Mientras mi médico huía de la habitación, yo seguía siendo su único objetivo."
+ health.risky_treatment_medicine.2.desc: "No podía creer lo que veía cuando [physician.GetTitledFirstName] sacó una mano cortada de la cartera de [physician.GetHerHis]. Las manchas negras en su dedo me provocaron escalofríos y exigí saber de dónde lo había sacado [physician.GetSheHe]. [physician.GetSheHe|U] sólo me hizo callar y procedió a frotar la mano cortada contra mi pecho."
+ health.risky_treatment_medicine.3.desc: "[physician.GetTitledFirstName] me regaló una poción de lo más peculiar. No tenía olor ni sabor, poseía la apariencia de plata líquida. La bebida metálica era bastante fácil de ingerir, pero no pude reprimir mi inquietud."
+ health.risky_treatment_medicine.4.desc: "[physician.GetTitledFirstName] insistió en que la única cura para mi condición era correr desnudo a medianoche. Durante la siguiente luna llena, [physician.GetSheHe] me obligó a desvestirme y correr por el desierto. "¡No pares hasta que tus piernas cedan!" [physician.GetSheHe] gritó detrás de mí. "¡Expulsa el mal a través de tu sudor!""
+ health.risky_treatment_medicine.5.desc: "El polvo era amarillo y tenía un aroma delicioso. Me consternó ver cómo lo mezclaba con azufre y lo espolvoreaba sobre la vesícula todavía tibia de un castor. El animal había sido encontrado rabioso, echando espuma por la boca y presentando signos claros de la enfermedad. "Combatimos el mal con el mal, mi [ROOT.Char.GetLadyLord].""
+ health.risky_treatment_medicine.6.desc: "[physician.GetTitledFirstName] se me acercó con un cuchillo pequeño. [physician.GetSheHe|U] sostuve mi brazo firmemente e hice una incisión precisa, apenas rompiendo mi piel. [physician.GetSheHe|U] luego procedió a presionar algo asqueroso contra la herida. Un vistazo rápido a la sustancia fue todo lo que pude soportar."
+ health.risky_treatment_medicine.7.desc: "[physician.GetTitledFirstName] me entregó un plato con una sustancia en polvo gris. Al parecer se trataba de costras trituradas de una persona en peor estado que el mío. [physician.GetTitledFirstName] no mostró indicios de estar bromeando cuando [physician.GetSheHe] me dijo que me inclinara e inhalara tanto como pudiera."
+ health.risky_treatment_medicine.8.desc: "El polvo rojo tenía un color tentador. Un sirviente había cometido el error de probarlo en su forma pura; su lengua se había hinchado mucho y [physician.GetTitledFirstName] lo había reprendido firmemente por ello. [physician.GetTitledFirstName] vertió la especia en un cáliz de agua y la removió meticulosamente antes de darme una cucharada."
+ health.risky_treatment_medicine.9.desc: "Mis ojos se abrieron cuando [physician.GetTitledFirstName] condujo una cabra a mis habitaciones. El fétido olor de sus flatulencias me hizo taparme la nariz, pero el médico apartó mi mano. "Disculpas, mi [ROOT.Char.GetLadyLord], pero este es el tratamiento". [physician.GetSheHe|U] respiraciones profundas recomendadas."
+ health.risky_treatment_surgery.1.desc: "[physician.GetTitledFirstName] me dio un trago que tenía un sabor muy peculiar. Me hizo sentir entumecido y mis párpados comenzaron a caerse. "Pido disculpas, mi [ROOT.Char.GetLadyLord], pero no quieres estar despierto para la siguiente parte", dijo [physician.GetSheHe]. El pánico me invadió y traté de levantarme de la mesa de operaciones, pero mis extremidades no obedecieron."
+ health.risky_treatment_surgery.2.desc: "[physician.GetTitledFirstNamePossessive] asistente aseguró [physician.GetHerHim] que la poción me había hecho dormir. ¡Oh, qué equivocado estaba [physician.GetSheHe]! No podía hablar ni moverme, pero aún estaba consciente de todo lo que me hacían. Intenté gritar y agitarme, pero estaba prisionera de mi propio cuerpo. El procedimiento pareció durar una eternidad..."
+ health.risky_treatment_amputation.1.desc: "[physician.GetTitledFirstName] abrochó la última correa, asegurándome en la mesa de operaciones. "No te mentiré, mi [ROOT.Char.GetLadyLord]. Esto será terriblemente doloroso, pero hay que hacerlo."\n\nTraté de protestar cuando [physician.GetFirstName] sacó la sierra, pero debido a la poción calmante que [physician.GetSheHe] había hecho Mientras bebía, arrastraba las palabras más allá de la comprensión."
+ health.risky_treatment_disfigurement.1.desc: "[physician.GetTitledFirstName] me informó que [physician.GetSheHe] había identificado el tejido contaminado que era la raíz de mi enfermedad y que eliminarlo probablemente me curaría. Me sentí muy complacido y acepté la cirugía.\n\nOjalá [physician.GetFirstName] me hubiera dicho que "el tejido" era mi cara."
+ health.risky_treatment_eye.1.desc: "[physician.GetTitledFirstName] me hizo beber un trago de amapola antes de atarme a la mesa de operaciones de [physician.GetHerHis]. Casi me quedé dormido mientras [physician.GetSheHe] preparaba los instrumentos de [physician.GetHerHis], pero cuando [physician.GetSheHe] levantó un bisturí hacia mi ojo, me sentí completamente despierto. "Lo siento, mi [ROOT.Char.GetLadyLord], pero debemos eliminar la raíz del problema.""
+ health.3105.end.desc: "\n\nCuriosamente, ya no siento ningún síntoma..."
+ health.3105.a: "¡Esto es un milagro!"
   
- health.3106.t: "[SCOPE.Custom('EventTitleDisease')]: Humores equilibrados" #NT!
- health.3106.end.desc: "\n\nEl tratamiento fue casi tan desagradable como mis síntomas, pero parece haber sido eficaz. Aunque no estoy completamente curada, me siento mucho mejor." #NT!
- health.3106.a: "Viviré para ver otro día." #NT!
+ health.3106.t: "[SCOPE.Custom('EventTitleDisease')]: Humores equilibrados"
+ health.3106.end.desc: "\n\nEl tratamiento fue casi tan desagradable como mis síntomas, pero parece haber sido eficaz. Aunque no estoy completamente curada, me siento mucho mejor."
+ health.3106.a: "Viviré para ver otro día."
   
- health.3107.t: "[SCOPE.Custom('EventTitleDisease')]: Maltrato desastroso" #NT!
- health.3107.death.desc: "\n\nCuando desperté, pude sentirlo en mis huesos. Algo había salido mal. Muy, muy equivocado." #NT!
- health.3107.end.desc: "\n\nPensé que sería imposible sentirme peor de lo que ya me sentía, ¡pero [physician.GetFirstNameNoTooltip] demostró que estaba equivocado!" #NT!
- health.3107.a: "Me siento debil..." #NT!
- health.3107.b: "Esto no pasará otra vez. ¿Me entiendes?" #NT!
- health.3107.c: "Todos conocíamos los riesgos. Estás perdonado." #NT!
- health.3107.d: "¡Guardias! ¡Coloquen [physician.GetHerHim] bajo llave!" #NT!
- health.3107.d.tt: "Una vez en mi prisión, puedo decidir qué hacer con [physician.GetTitledFirstName]" #NT!
- health.3107.e: "¡Este traidor merece morir!" #NT!
- health.3107.f: "Oh [physician.GetFirstNameNoTooltip], ¿qué te has hecho a ti mismo?" #NT!
+ health.3107.t: "[SCOPE.Custom('EventTitleDisease')]: Maltrato desastroso"
+ health.3107.death.desc: "\n\nCuando desperté, pude sentirlo en mis huesos. Algo había salido mal. Muy, muy equivocado."
+ health.3107.end.desc: "\n\nPensé que sería imposible sentirme peor de lo que ya me sentía, ¡pero [physician.GetFirstNameNoTooltip] demostró que estaba equivocado!"
+ health.3107.a: "Me siento debil..."
+ health.3107.b: "Esto no pasará otra vez. ¿Me entiendes?"
+ health.3107.c: "Todos conocíamos los riesgos. Estás perdonado."
+ health.3107.d: "¡Guardias! ¡Coloquen [physician.GetHerHim] bajo llave!"
+ health.3107.d.tt: "Una vez en mi prisión, puedo decidir qué hacer con [physician.GetTitledFirstName]"
+ health.3107.e: "¡Este traidor merece morir!"
+ health.3107.f: "Oh [physician.GetFirstNameNoTooltip], ¿qué te has hecho a ti mismo?"
   
- health.3108.t: "[SCOPE.Custom('EventTitleDisease')]: Un poder mayor" #NT!
- health.mystic_treatment_occult.cannibal.desc: ""Bebe esto", susurró [physician.GetTitledFirstName]. Apenas el líquido había pasado por mis labios cuando comenzaron las extrañas sensaciones. Mis extremidades se entumecieron, pero dentro, un fuego despertó...\n\n"Ahora, come esto". Los trozos estaban tibios, húmedos y masticables. Al fuego le gustó eso. Quería más. Cuando [physician.GetSheHe] me pasó el resto del brazo pálido, me atiborré hasta que tuve náuseas." #NT!
- health.mystic_treatment_occult.deviant.desc: "[physician.GetTitledFirstName] me hizo desvestirme y me masajeó la piel con aceite. Cuando [physician.GetSheHe] deslizó [physician.GetHerHis] mano hacia mi lugar más privado, [physician.GetHerHis] ojos buscando los míos, me di cuenta de que quería esto. Asentí.\n\nPronto, más manos se unieron [physician.GetFirstNamePossessive]. Lisa, callosa, arrugada, esbelta, fuerte. Cuando mis rodillas se doblaron, me agarraron y me entregué a su toque." #NT!
- health.mystic_treatment_occult.1.desc: "Confinado en mi cama, los sirvientes me dijeron que el humo de la pira se podía ver a kilómetros de distancia. Las vidas de más de dos docenas de excelentes animales habían terminado esa noche, en un gran sacrificio. Según órdenes de [physician.GetTitledFirstNamePossessive], llevo quince días frotándome la piel con las cenizas." #NT!
- health.mystic_treatment_occult.2.desc: "[physician.GetTitledFirstName] me indicó que entrara en la bañera vacía y me dejó desvestirme en privado. [physician.GetHerHis|U] regreso fue anunciado por un fuerte "¡baah!" [physician.GetSheHe|U] iba seguido de un sirviente y media docena de cabras. Con mano hábil, [physician.GetFirstNameNoTooltip] procedió a agarrar las cabras y degollarlas sobre la bañera, una por una.\n\nLas manchas en el suelo no desaparecen." #NT!
- health.mystic_treatment_occult.3.desc: "[physician.GetTitledFirstName] me dijo que [ROOT.Char.GetFaith.HealthGodName] exige un sacrificio. Más tarde esa noche oí gritos.\n\nSiguiendo el sonido encontré a [physician.GetFirstNameNoTooltip] encorvado sobre un cuerpo, pánico en los ojos de [physician.GetHerHis], sangre en las manos de [physician.GetHerHis]. "¡Fue por el bien del reino...!", susurró [physician.GetSheHe]." #NT!
- health.mystic_treatment_occult.4.desc: "[physician.GetFirstName] me dio una bolsa de hierbas y me envió a un viaje para encontrar mi "espiritual guía". Vagué por el desierto durante días, comiendo sólo raíces de la bolsa y durmiendo bajo las estrellas. Finalmente, sentí una presencia. Ante mí había una gran bestia con cuernos. Me di la vuelta y corrí.\n\nA salvo en mi cama, el sueño se me escapa. ¿Soy la bestia?" #NT!
- health.mystic_treatment_occult.5.desc: "[physician.GetTitledFirstName] estaba de pie al final de mi cama mientras los sirvientes encendían las velas. Me pusieron una olla en las manos; a juzgar por los sonidos, contenía un animal pequeño y aterrorizado. "La criatura llevará tus cargas en tu lugar", explicó [physician.GetSheHe]. Entonces comenzó el canto." #NT!
- health.mystic_treatment_questionable.1.desc: "[physician.GetFirstName] me sentó frente a un espejo alto y encendió un círculo de velas a mi alrededor. "Necesitamos comunicarnos con el otro", afirmó [physician.GetSheHe] casualmente. Cuando levanté las cejas en [physician.GetHerHim] [physician.GetSheHe] puse una mano en mi hombro. "Esto podría... alterarte."" #NT!
- health.mystic_treatment_questionable.2.desc: "La habitación estaba iluminada únicamente por la llama de una vela. De cara a la ventana del oeste, [physician.GetTitledFirstName] me pinté las uñas con gotas de aceite. Sentí un calor en mi piel cuando [physician.GetSheHe] movió mi mano hacia la llama. "No te preocupes, mi [ROOT.Char.GetLadyLord]. Por la sabiduría de [ROOT.Char.GetFaith.HealthGodName], serás limpiado"." #NT!
- health.mystic_treatment_questionable.3.desc: ""La luna exige tu devoción", dijo [physician.GetTitledFirstName], antes de entregarme un pastel cubierto con algo con un aroma especiado. Unos minutos después de comer, miré al cielo nocturno e improvisé el poema más grande del mundo. Más tarde, las palabras se me escapan..." #NT!
- health.mystic_treatment_questionable.4.desc: "[physician.GetTitledFirstName] me hizo beber una bebida especialmente espesa todas las noches antes de acostarme. "Afloja la estructura de tu ser, permitiendo que los espíritus entren en tu cuerpo", me aseguró [physician.GetSheHe]. "También es bastante... relajante", admitió [physician.GetSheHe], sonriéndome." #NT!
- health.mystic_treatment_questionable.5.desc: "[physician.GetFirstName] me dijo que la tarea de interpretar [ROOT.Char.GetFaith.ReligiousText] es un trabajo difícil, pero la limpieza a través del fuego es un arte tan antiguo como el mundo mismo. No sabía que [physician.GetSheHe] me haría caminar sobre brasas." #NT!
- health.mystic_treatment_questionable.6.desc: "[physician.GetTitledFirstName] me dijo que [ROOT.Char.GetFaith.HealthGodName] exige una prueba de mi mente. Juntos viajamos hasta que llegamos a un pequeño lago. Tomados de la mano, caminamos hacia el agua. Me sorprendí cuando [physician.GetFirstNameNoTooltip] me agarró del hombro y me sujetó. Debí haber perdido el conocimiento, porque no recuerdo qué pasó después..." #NT!
- health.3108.end.desc: "\n\nCuando me desperté esta mañana, los dolores y molestias a los que me había acostumbrado habían desaparecido. ¿Me curó [physician.GetSheHe]...?" #NT!
- health.3108.a: "No sé cómo sentirme... Ni qué creer." #NT!
+ health.3108.t: "[SCOPE.Custom('EventTitleDisease')]: Un poder mayor"
+ health.mystic_treatment_occult.cannibal.desc: ""Bebe esto", susurró [physician.GetTitledFirstName]. Apenas el líquido había pasado por mis labios cuando comenzaron las extrañas sensaciones. Mis extremidades se entumecieron, pero dentro, un fuego despertó...\n\n"Ahora, come esto". Los trozos estaban tibios, húmedos y masticables. Al fuego le gustó eso. Quería más. Cuando [physician.GetSheHe] me pasó el resto del brazo pálido, me atiborré hasta que tuve náuseas."
+ health.mystic_treatment_occult.deviant.desc: "[physician.GetTitledFirstName] me hizo desvestirme y me masajeó la piel con aceite. Cuando [physician.GetSheHe] deslizó [physician.GetHerHis] mano hacia mi lugar más privado, [physician.GetHerHis] ojos buscando los míos, me di cuenta de que quería esto. Asentí.\n\nPronto, más manos se unieron [physician.GetFirstNamePossessive]. Lisa, callosa, arrugada, esbelta, fuerte. Cuando mis rodillas se doblaron, me agarraron y me entregué a su toque."
+ health.mystic_treatment_occult.1.desc: "Confinado en mi cama, los sirvientes me dijeron que el humo de la pira se podía ver a kilómetros de distancia. Las vidas de más de dos docenas de excelentes animales habían terminado esa noche, en un gran sacrificio. Según órdenes de [physician.GetTitledFirstNamePossessive], llevo quince días frotándome la piel con las cenizas."
+ health.mystic_treatment_occult.2.desc: "[physician.GetTitledFirstName] me indicó que entrara en la bañera vacía y me dejó desvestirme en privado. [physician.GetHerHis|U] regreso fue anunciado por un fuerte "¡baah!" [physician.GetSheHe|U] iba seguido de un sirviente y media docena de cabras. Con mano hábil, [physician.GetFirstNameNoTooltip] procedió a agarrar las cabras y degollarlas sobre la bañera, una por una.\n\nLas manchas en el suelo no desaparecen."
+ health.mystic_treatment_occult.3.desc: "[physician.GetTitledFirstName] me dijo que [ROOT.Char.GetFaith.HealthGodName] exige un sacrificio. Más tarde esa noche oí gritos.\n\nSiguiendo el sonido encontré a [physician.GetFirstNameNoTooltip] encorvado sobre un cuerpo, pánico en los ojos de [physician.GetHerHis], sangre en las manos de [physician.GetHerHis]. "¡Fue por el bien del reino...!", susurró [physician.GetSheHe]."
+ health.mystic_treatment_occult.4.desc: "[physician.GetFirstName] me dio una bolsa de hierbas y me envió a un viaje para encontrar mi "espiritual guía". Vagué por el desierto durante días, comiendo sólo raíces de la bolsa y durmiendo bajo las estrellas. Finalmente, sentí una presencia. Ante mí había una gran bestia con cuernos. Me di la vuelta y corrí.\n\nA salvo en mi cama, el sueño se me escapa. ¿Soy la bestia?"
+ health.mystic_treatment_occult.5.desc: "[physician.GetTitledFirstName] estaba de pie al final de mi cama mientras los sirvientes encendían las velas. Me pusieron una olla en las manos; a juzgar por los sonidos, contenía un animal pequeño y aterrorizado. "La criatura llevará tus cargas en tu lugar", explicó [physician.GetSheHe]. Entonces comenzó el canto."
+ health.mystic_treatment_questionable.1.desc: "[physician.GetFirstName] me sentó frente a un espejo alto y encendió un círculo de velas a mi alrededor. "Necesitamos comunicarnos con el otro", afirmó [physician.GetSheHe] casualmente. Cuando levanté las cejas en [physician.GetHerHim] [physician.GetSheHe] puse una mano en mi hombro. "Esto podría... alterarte.""
+ health.mystic_treatment_questionable.2.desc: "La habitación estaba iluminada únicamente por la llama de una vela. De cara a la ventana del oeste, [physician.GetTitledFirstName] me pinté las uñas con gotas de aceite. Sentí un calor en mi piel cuando [physician.GetSheHe] movió mi mano hacia la llama. "No te preocupes, mi [ROOT.Char.GetLadyLord]. Por la sabiduría de [ROOT.Char.GetFaith.HealthGodName], serás limpiado"."
+ health.mystic_treatment_questionable.3.desc: ""La luna exige tu devoción", dijo [physician.GetTitledFirstName], antes de entregarme un pastel cubierto con algo con un aroma especiado. Unos minutos después de comer, miré al cielo nocturno e improvisé el poema más grande del mundo. Más tarde, las palabras se me escapan..."
+ health.mystic_treatment_questionable.4.desc: "[physician.GetTitledFirstName] me hizo beber una bebida especialmente espesa todas las noches antes de acostarme. "Afloja la estructura de tu ser, permitiendo que los espíritus entren en tu cuerpo", me aseguró [physician.GetSheHe]. "También es bastante... relajante", admitió [physician.GetSheHe], sonriéndome."
+ health.mystic_treatment_questionable.5.desc: "[physician.GetFirstName] me dijo que la tarea de interpretar [ROOT.Char.GetFaith.ReligiousText] es un trabajo difícil, pero la limpieza a través del fuego es un arte tan antiguo como el mundo mismo. No sabía que [physician.GetSheHe] me haría caminar sobre brasas."
+ health.mystic_treatment_questionable.6.desc: "[physician.GetTitledFirstName] me dijo que [ROOT.Char.GetFaith.HealthGodName] exige una prueba de mi mente. Juntos viajamos hasta que llegamos a un pequeño lago. Tomados de la mano, caminamos hacia el agua. Me sorprendí cuando [physician.GetFirstNameNoTooltip] me agarró del hombro y me sujetó. Debí haber perdido el conocimiento, porque no recuerdo qué pasó después..."
+ health.3108.end.desc: "\n\nCuando me desperté esta mañana, los dolores y molestias a los que me había acostumbrado habían desaparecido. ¿Me curó [physician.GetSheHe]...?"
+ health.3108.a: "No sé cómo sentirme... Ni qué creer."
   
- health.3109.t: "[SCOPE.Custom('EventTitleDisease')]: Sentimientos conflictivos" #NT!
- health.3109.end.desc: "\n\nTodavía no estoy seguro de cómo me siento acerca de lo que pasó, pero no puedo negar que la mayoría de mis síntomas han desaparecido desde entonces." #NT!
- health.3109.a: "No sé lo que esperaba, pero no fue eso." #NT!
+ health.3109.t: "[SCOPE.Custom('EventTitleDisease')]: Sentimientos conflictivos"
+ health.3109.end.desc: "\n\nTodavía no estoy seguro de cómo me siento acerca de lo que pasó, pero no puedo negar que la mayoría de mis síntomas han desaparecido desde entonces."
+ health.3109.a: "No sé lo que esperaba, pero no fue eso."
   
- health.3110.t: "[SCOPE.Custom('EventTitleDisease')]: Hacia la oscuridad" #NT!
- health.3110.end.desc: "\n\nMi mente debe haber sido alterada, retorcida por algún truco oscuro. Nunca habría aceptado esto de buena gana. Los recuerdos me persiguen..." #NT!
+ health.3110.t: "[SCOPE.Custom('EventTitleDisease')]: Hacia la oscuridad"
+ health.3110.end.desc: "\n\nMi mente debe haber sido alterada, retorcida por algún truco oscuro. Nunca habría aceptado esto de buena gana. Los recuerdos me persiguen..."
   
   # Punishment for mistreating important people 
- health.3200.death.desc: "Si bien ciertamente puedo ver que la cara es [sick_character.GetTitledFirstNamePossessive], todavía no se parece en nada a [sick_character.GetHerHim]. [sick_character.GetSheHe|U] ya no está... allí. El resto del cuerpo está envuelto en un grueso sudario que cubre los espeluznantes detalles del fracaso de [physician.GetTitledFirstNamePossessive]." #NT!
- health.3200.failure.desc: "Me toma un momento reconocer [sick_character.GetTitledFirstName]. [sick_character.GetSheHe|U] está tan magullado e hinchado que [sick_character.GetSheHe] apenas parece humano. Mientras agarro [sick_character.GetHerHis] la mano, mi [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] intenta hablar pero ningún sonido sale de [sick_character.GetHerHis] labios." #NT!
- health.3200.failure.desc_2: "Cuando me acerco a las cámaras [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstNamePossessive] escucho un grito horrible; apenas humano y lleno de dolor. Entré irrumpiendo en la habitación sólo para encontrar a [sick_character.GetFirstNameNoTooltip] desplomado en el suelo, #EMP cubierto#! en sangre." #NT!
- health.3200.failure.desc_3: "Me toma un momento comprender la magnitud del daño que [sick_character.Custom2('MyCharacterIntroduction', ROOT.Char)] ha causado a [sick_character.GetHerHis] en su propio cuerpo; [sick_character.GetSheHe] está cubierto de una cantidad obscena de sangre y todavía empuña un cuchillo con movimientos vigorosos. Antes de que pueda intervenir, [sick_character.GetSheHe] fija una mirada de decepción en la hoja afilada antes de desmayarse rápidamente." #NT!
- health.3200.end.desc: "\n\nEl médico [physician.Custom('InsultAdjective')] está de pie en la esquina de la habitación, retorciéndose ansiosamente las manos [physician.GetHerHis]..." #NT!
- health.3200.death.tt: "[sick_character.GetTitledFirstName] murió durante el tratamiento." #NT!
+ health.3200.death.desc: "Si bien ciertamente puedo ver que la cara es [sick_character.GetTitledFirstNamePossessive], todavía no se parece en nada a [sick_character.GetHerHim]. [sick_character.GetSheHe|U] ya no está... allí. El resto del cuerpo está envuelto en un grueso sudario que cubre los espeluznantes detalles del fracaso de [physician.GetTitledFirstNamePossessive]."
+ health.3200.failure.desc: "Me toma un momento reconocer [sick_character.GetTitledFirstName]. [sick_character.GetSheHe|U] está tan magullado e hinchado que [sick_character.GetSheHe] apenas parece humano. Mientras agarro [sick_character.GetHerHis] la mano, mi [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] intenta hablar pero ningún sonido sale de [sick_character.GetHerHis] labios."
+ health.3200.failure.desc_2: "Cuando me acerco a las cámaras [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstNamePossessive] escucho un grito horrible; apenas humano y lleno de dolor. Entré irrumpiendo en la habitación sólo para encontrar a [sick_character.GetFirstNameNoTooltip] desplomado en el suelo, #EMP cubierto#! en sangre."
+ health.3200.failure.desc_3: "Me toma un momento comprender la magnitud del daño que [sick_character.Custom2('MyCharacterIntroduction', ROOT.Char)] ha causado a [sick_character.GetHerHis] en su propio cuerpo; [sick_character.GetSheHe] está cubierto de una cantidad obscena de sangre y todavía empuña un cuchillo con movimientos vigorosos. Antes de que pueda intervenir, [sick_character.GetSheHe] fija una mirada de decepción en la hoja afilada antes de desmayarse rápidamente."
+ health.3200.end.desc: "\n\nEl médico [physician.Custom('InsultAdjective')] está de pie en la esquina de la habitación, retorciéndose ansiosamente las manos [physician.GetHerHis]..."
+ health.3200.death.tt: "[sick_character.GetTitledFirstName] murió durante el tratamiento."
   
- health.3201.desc: "Hay algo salvaje en mis ojos [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstNamePossessive]. Le pregunto a [sick_character.GetHerHim] qué ha visto [sick_character.GetSheHe], pero ni una palabra sale de los labios de [sick_character.GetHerHis].\n\n" #NT!
- health.3201.occult.desc: "Un sirviente me dice que [physician.GetTitledFirstName] ha realizado algún tipo de ritual maligno, que es la causa de la angustia de [sick_character.GetFirstNamePossessive]. La historia es macabra, por decir lo menos." #NT!
- health.3201.occult.desc_sick_physician: "Un sirviente me dice que [physician.GetTitledFirstName] ha realizado algún tipo de ritual maligno, que es la causa de la angustia de [physician.GetHerHis]. La historia es macabra, por decir lo menos." #NT!
- health.3201.questionable.desc: "Parece que uno de los tratamientos "alternativos" [physician.GetFirstNamePossessive] ha salido terriblemente mal." #NT!
- health.3201.c: "¡No digas una palabra de esto, [physician.GetFirstNameNoTooltip]!" #NT!
+ health.3201.desc: "Hay algo salvaje en mis ojos [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetFirstNamePossessive]. Le pregunto a [sick_character.GetHerHim] qué ha visto [sick_character.GetSheHe], pero ni una palabra sale de los labios de [sick_character.GetHerHis].\n\n"
+ health.3201.occult.desc: "Un sirviente me dice que [physician.GetTitledFirstName] ha realizado algún tipo de ritual maligno, que es la causa de la angustia de [sick_character.GetFirstNamePossessive]. La historia es macabra, por decir lo menos."
+ health.3201.occult.desc_sick_physician: "Un sirviente me dice que [physician.GetTitledFirstName] ha realizado algún tipo de ritual maligno, que es la causa de la angustia de [physician.GetHerHis]. La historia es macabra, por decir lo menos."
+ health.3201.questionable.desc: "Parece que uno de los tratamientos "alternativos" [physician.GetFirstNamePossessive] ha salido terriblemente mal."
+ health.3201.c: "¡No digas una palabra de esto, [physician.GetFirstNameNoTooltip]!"
   
- court_physician_treatment_success_message_title: "Tratamiento exitoso" #NT!
- court_physician_treatment_failure_message_title: "Tratamiento fallido" #NT!
+ court_physician_treatment_success_message_title: "Tratamiento exitoso"
+ court_physician_treatment_failure_message_title: "Tratamiento fallido"
   
- inform_relatives_about_disease_treatment_effect.safe_success.desc: "[physician.GetTitledFirstName] redujo los síntomas de [sick_character.GetTitledFirstNamePossessive]" #NT!
- inform_relatives_about_disease_treatment_effect.safe_failure.desc: "El tratamiento [sick_character.GetTitledFirstNamePossessive], administrado por [physician.GetTitledFirstName], no tuvo éxito." #NT!
- inform_relatives_about_disease_treatment_effect.risky_critical_success.desc: "[physician.GetTitledFirstName] curado [sick_character.GetTitledFirstNamePossessive]" #NT!
- inform_relatives_about_disease_treatment_effect.risky_success.desc: "[physician.GetTitledFirstName] redujo en gran medida los síntomas de [sick_character.GetTitledFirstNamePossessive]" #NT!
- inform_relatives_about_disease_treatment_effect.risky_failure.desc: "[physician.GetTitledFirstName] falló en el tratamiento de [sick_character.GetTitledFirstName]." #NT!
- inform_relatives_about_disease_treatment_effect.mystic_failure.desc: "¡[sick_character.GetTitledFirstName] no es lo mismo después del ritual fallido de [physician.GetTitledFirstNamePossessive]!" #NT!
- physician_level_up_chance_effect.t: "Aumenta el conocimiento del médico del tribunal" #NT!
+ inform_relatives_about_disease_treatment_effect.safe_success.desc: "[physician.GetTitledFirstName] redujo los síntomas de [sick_character.GetTitledFirstNamePossessive]"
+ inform_relatives_about_disease_treatment_effect.safe_failure.desc: "El tratamiento [sick_character.GetTitledFirstNamePossessive], administrado por [physician.GetTitledFirstName], no tuvo éxito."
+ inform_relatives_about_disease_treatment_effect.risky_critical_success.desc: "[physician.GetTitledFirstName] curado [sick_character.GetTitledFirstNamePossessive]"
+ inform_relatives_about_disease_treatment_effect.risky_success.desc: "[physician.GetTitledFirstName] redujo en gran medida los síntomas de [sick_character.GetTitledFirstNamePossessive]"
+ inform_relatives_about_disease_treatment_effect.risky_failure.desc: "[physician.GetTitledFirstName] falló en el tratamiento de [sick_character.GetTitledFirstName]."
+ inform_relatives_about_disease_treatment_effect.mystic_failure.desc: "¡[sick_character.GetTitledFirstName] no es lo mismo después del ritual fallido de [physician.GetTitledFirstNamePossessive]!"
+ physician_level_up_chance_effect.t: "Aumenta el conocimiento del médico del tribunal"
   
   # Wound treatment, by Linnéa Thimrén 
- health.4000.t: "$health_wounded_title$ Mis Heridos [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]" #NT!
- health.4000.start.desc: "Mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName] ha sido herido," #NT!
- health.4000.infected_wound.desc: "Y [sick_character.GetHerHis] carne ha contraído impureza e hinchazón.\n\nSi se administra el tipo de tratamiento correcto, y [ROOT.Char.GetFaith.HealthGodName] es misericordioso, [sick_character.GetSheHe] debe hacerlo." #NT!
- health.4000.gangrene.desc: "Y [sick_character.GetHerHis] carne ha contraído inmundicia y muerte.\n\nLa negrura se está extendiendo sobre [sick_character.GetHerHis] piel, y sólo [ROOT.Char.GetFaith.FateGodName] sabe si [sick_character.GetSheHe] lo logrará." #NT!
- health.4000.close_to_death_wounded.desc: "Y la herida es muy profunda. [sick_character.GetHerHis|U] cada respiro es una batalla, y temo que sólo un milagro podrá salvar [sick_character.GetHerHim]." #NT!
- health.4000.very_wounded.desc: "Y la herida es profunda. Me temo que mi cuerpo no es lo suficientemente fuerte para luchar contra esto por sí solo; Siento la muerte persistiendo junto a mi cama." #NT!
- health.4000.wounded.desc: "Y [sick_character.GetSheHe] claramente siente dolor. La aflicción es menor, pero los males del cuerpo no deben tomarse a la ligera." #NT!
- health.4000.a: "No hay nada que se pueda hacer." #NT!
+ health.4000.t: "$health_wounded_title$ Mis Heridos [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U]"
+ health.4000.start.desc: "Mi [ROOT.GetCharacter.Custom2('RelationToMe', SCOPE.sC('sick_character'))] [sick_character.GetTitledFirstName] ha sido herido,"
+ health.4000.infected_wound.desc: "Y [sick_character.GetHerHis] carne ha contraído impureza e hinchazón.\n\nSi se administra el tipo de tratamiento correcto, y [ROOT.Char.GetFaith.HealthGodName] es misericordioso, [sick_character.GetSheHe] debe hacerlo."
+ health.4000.gangrene.desc: "Y [sick_character.GetHerHis] carne ha contraído inmundicia y muerte.\n\nLa negrura se está extendiendo sobre [sick_character.GetHerHis] piel, y sólo [ROOT.Char.GetFaith.FateGodName] sabe si [sick_character.GetSheHe] lo logrará."
+ health.4000.close_to_death_wounded.desc: "Y la herida es muy profunda. [sick_character.GetHerHis|U] cada respiro es una batalla, y temo que sólo un milagro podrá salvar [sick_character.GetHerHim]."
+ health.4000.very_wounded.desc: "Y la herida es profunda. Me temo que mi cuerpo no es lo suficientemente fuerte para luchar contra esto por sí solo; Siento la muerte persistiendo junto a mi cama."
+ health.4000.wounded.desc: "Y [sick_character.GetSheHe] claramente siente dolor. La aflicción es menor, pero los males del cuerpo no deben tomarse a la ligera."
+ health.4000.a: "No hay nada que se pueda hacer."
   
- health.4001.start.desc: ""Ha llegado el momento de curar tus heridas." #NT!
- health.4001.safe_recommendation.desc: "Estoy seguro de que un tratamiento sencillo será suficiente, pero" #NT!
- health.4001.gangrene.desc: "Dado que la muerte ya se está extendiendo a través de la carne, me temo que debo recomendar... #EMP medidas drásticas#!, pero" #NT!
- health.4001.infection.desc: "Como la herida está infectada debo recomendar medidas drásticas, pero" #NT!
- health.4001.risky_recommendation.desc: "Recomiendo medidas drásticas, pero" #NT!
+ health.4001.start.desc: ""Ha llegado el momento de curar tus heridas."
+ health.4001.safe_recommendation.desc: "Estoy seguro de que un tratamiento sencillo será suficiente, pero"
+ health.4001.gangrene.desc: "Dado que la muerte ya se está extendiendo a través de la carne, me temo que debo recomendar... #EMP medidas drásticas#!, pero"
+ health.4001.infection.desc: "Como la herida está infectada debo recomendar medidas drásticas, pero"
+ health.4001.risky_recommendation.desc: "Recomiendo medidas drásticas, pero"
   
- health.4002.start.desc: ""Ha llegado el momento de tratar tu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]." #NT!
- health.4002.start.desc_sick_physician: ""Ha llegado el momento de tratarme." #NT!
+ health.4002.start.desc: ""Ha llegado el momento de tratar tu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))]."
+ health.4002.start.desc_sick_physician: ""Ha llegado el momento de tratarme."
   
- health.4101.t: "$health_wounded_title$ Curación" #NT!
- health.4101.desc_infection: "Cuando [physician.GetFirstName] comenzó a triturar suavemente las hierbas y la miel, pensé que [physician.GetSheHe] estaba bromeando; seguramente el verdor no podría ayudarme. Mientras [physician.GetSheHe] untaba la cataplasma sobre mi herida dolorida," #NT!
- health.4101.desc_1: "Cuando [physician.GetFirstName] volcó una botella de vino sobre mi herida, el dolor superó todo lo que la herida misma me había causado.\n\n"Por favor, descúbrelo, mi [ROOT.Char.GetTitleTierName]. Es necesario disipar la maldad interior."\n\ Y efectivamente, después de vendar bien la herida," #NT!
- health.4101.desc_2: "[physician.GetFirstName] rápidamente enhebró una aguja y se puso a trabajar en mi herida como si [physician.GetSheHe] estuviera bordando alrededor del fuego. ¡La visión resultante de los puntos que mantenían mi carne unida fue macabra! A medida que pasó el tiempo" #NT!
- health.4101.desc_end: "Pronto comenzó a sanar." #NT!
- health.4101.a: "¡Excelente trabajo, [physician.GetFirstNameNoTooltip]!" #NT!
+ health.4101.t: "$health_wounded_title$ Curación"
+ health.4101.desc_infection: "Cuando [physician.GetFirstName] comenzó a triturar suavemente las hierbas y la miel, pensé que [physician.GetSheHe] estaba bromeando; seguramente el verdor no podría ayudarme. Mientras [physician.GetSheHe] untaba la cataplasma sobre mi herida dolorida,"
+ health.4101.desc_1: "Cuando [physician.GetFirstName] volcó una botella de vino sobre mi herida, el dolor superó todo lo que la herida misma me había causado.\n\n"Por favor, descúbrelo, mi [ROOT.Char.GetTitleTierName]. Es necesario disipar la maldad interior."\n\ Y efectivamente, después de vendar bien la herida,"
+ health.4101.desc_2: "[physician.GetFirstName] rápidamente enhebró una aguja y se puso a trabajar en mi herida como si [physician.GetSheHe] estuviera bordando alrededor del fuego. ¡La visión resultante de los puntos que mantenían mi carne unida fue macabra! A medida que pasó el tiempo"
+ health.4101.desc_end: "Pronto comenzó a sanar."
+ health.4101.a: "¡Excelente trabajo, [physician.GetFirstNameNoTooltip]!"
   
- health.4102.t: "$health_wounded_title$ Dolor" #NT!
- health.4102.desc_infection: "La bolsa que llevé a mis habitaciones se movió sola y el interior se convulsionó como si estuviera vivo. Cuando [physician.GetFirstNameNoTooltip] sacó una sanguijuela que se retorcía, sentí que mi cara se ponía blanca. "Quédate quieto ahora, mi [ROOT.Char.GetTitleTierName]..."\n\nCualquiera que sea el efecto que [physician.GetSheHe] había esperado, seguramente no fue este; como las criaturas me lo sangraron" #NT!
- health.4102.desc_end: "No hizo nada para equilibrar mis humores y el dolor sólo empeoró." #NT!
- health.4102.a: "Argh...! ¡No me toques!" #NT!
+ health.4102.t: "$health_wounded_title$ Dolor"
+ health.4102.desc_infection: "La bolsa que llevé a mis habitaciones se movió sola y el interior se convulsionó como si estuviera vivo. Cuando [physician.GetFirstNameNoTooltip] sacó una sanguijuela que se retorcía, sentí que mi cara se ponía blanca. "Quédate quieto ahora, mi [ROOT.Char.GetTitleTierName]..."\n\nCualquiera que sea el efecto que [physician.GetSheHe] había esperado, seguramente no fue este; como las criaturas me lo sangraron"
+ health.4102.desc_end: "No hizo nada para equilibrar mis humores y el dolor sólo empeoró."
+ health.4102.a: "Argh...! ¡No me toques!"
   
- health.4103.t: "$health_wounded_title$ Manos curativas" #NT!
- health.4103.risky_treatment_medicine.1.desc: "Cuando [physician.GetFirstName] encendió un fuego en mis habitaciones, supuse que [physician.GetSheHe] pretendía que el calor ayudara a equilibrar mis humores. Sin embargo, cuando el asistente de [physician.GetHerHis] comenzó a atarme a mi cama, noté que la barra de hierro se calentaba con las llamas." #NT!
- health.4103.risky_treatment_disfigurement.1.desc: "[physician.GetFirstName] vio mi horror cuando [physician.GetSheHe] sacó un cuchillo largo y una aguja torcida de la cartera de [physician.GetHerHis]. "Para que tu cuerpo sane necesitamos extirpar todo el tejido afectado y cerrar la herida".\n\nNo sé qué duele más: el dolor punzante de la carne desgarrada y la sensación de tirar de la aguja a través de la piel, o la verme a mí mismo después." #NT!
- health.4103.end.desc: "\n\nPara mi sorpresa, ¡pronto encontré que mi cuerpo estaba en camino a la recuperación!" #NT!
+ health.4103.t: "$health_wounded_title$ Manos curativas"
+ health.4103.risky_treatment_medicine.1.desc: "Cuando [physician.GetFirstName] encendió un fuego en mis habitaciones, supuse que [physician.GetSheHe] pretendía que el calor ayudara a equilibrar mis humores. Sin embargo, cuando el asistente de [physician.GetHerHis] comenzó a atarme a mi cama, noté que la barra de hierro se calentaba con las llamas."
+ health.4103.risky_treatment_disfigurement.1.desc: "[physician.GetFirstName] vio mi horror cuando [physician.GetSheHe] sacó un cuchillo largo y una aguja torcida de la cartera de [physician.GetHerHis]. "Para que tu cuerpo sane necesitamos extirpar todo el tejido afectado y cerrar la herida".\n\nNo sé qué duele más: el dolor punzante de la carne desgarrada y la sensación de tirar de la aguja a través de la piel, o la verme a mí mismo después."
+ health.4103.end.desc: "\n\nPara mi sorpresa, ¡pronto encontré que mi cuerpo estaba en camino a la recuperación!"
   
- health.4104.t: "$health_wounded_title$ En recuperación" #NT!
- health.4104.end.desc: "\n\nDespués de haber vivido ese tratamiento, me cuesta encontrar alegría en la recuperación de mi cuerpo, pero me estoy recuperando." #NT!
+ health.4104.t: "$health_wounded_title$ En recuperación"
+ health.4104.end.desc: "\n\nDespués de haber vivido ese tratamiento, me cuesta encontrar alegría en la recuperación de mi cuerpo, pero me estoy recuperando."
   
- health.4105.t: "$health_wounded_title$ Golpes de desastre" #NT!
- health.4105.end.desc: "\n\nNo creía que pudiera sentir más dolor, pero pronto descubrí que estaba equivocado." #NT!
+ health.4105.t: "$health_wounded_title$ Golpes de desastre"
+ health.4105.end.desc: "\n\nNo creía que pudiera sentir más dolor, pero pronto descubrí que estaba equivocado."
   
   
   ######################## 
   # Notification messages 
   ######################## 
   
- disease_contraction_feed_message.t: "[message_receiver.Custom2( 'RelationToMeShort', CHARACTER.Self )|U] cae enfermo" #NT!
- disease_contraction_feed_message.d_1: "[LEFT_CHARACTER.GetShortUIName|U] ganó el [trait|E] [disease_trait.GetName( CHARACTER.Self )|LV]" #NT!
- disease_contraction_feed_message.d_2: "[LEFT_CHARACTER.GetShortUIName|U] y [RIGHT_CHARACTER.GetShortUIName|U] ganaron el [trait|E] [disease_trait.GetName( CHARACTER.Self )|LV]" #NT!
- disease_contraction_feed_message.d: "[LEFT_CHARACTER.GetShortUIName|U], [RIGHT_CHARACTER.GetShortUIName|U] y $message_consolidation_others$ ganaron el [trait|E] [disease_trait.GetName( LEFT_CHARACTER.Self )|LV]" #NT!
- disease_recovery_feed_message.t: "[message_receiver.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U] Se recupera" #NT!
+ disease_contraction_feed_message.t: "[message_receiver.Custom2( 'RelationToMeShort', CHARACTER.Self )|U] cae enfermo"
+ disease_contraction_feed_message.d_1: "[LEFT_CHARACTER.GetShortUIName|U] ganó el [trait|E] [disease_trait.GetName( CHARACTER.Self )|LV]"
+ disease_contraction_feed_message.d_2: "[LEFT_CHARACTER.GetShortUIName|U] y [RIGHT_CHARACTER.GetShortUIName|U] ganaron el [trait|E] [disease_trait.GetName( CHARACTER.Self )|LV]"
+ disease_contraction_feed_message.d: "[LEFT_CHARACTER.GetShortUIName|U], [RIGHT_CHARACTER.GetShortUIName|U] y $message_consolidation_others$ ganaron el [trait|E] [disease_trait.GetName( LEFT_CHARACTER.Self )|LV]"
+ disease_recovery_feed_message.t: "[message_receiver.Custom2('RelationToMeShort', SCOPE.sC('sick_character'))|U] Se recupera"
   
   
   
   # Suicide events, by Linnéa Thimrén 
- health.6001.t: "El intento" #NT!
- health.6001.desc_opening: "Terminaré con mi vida. No puedo evitar que la tristeza aumente en mi corazón al pensar en todo lo que dejaré atrás, pero mi mente está firme." #NT!
- health.6001.desc_depression: "El sufrimiento parece interminable." #NT!
- health.6001.desc_sickness: "Mi cuerpo se ha convertido en una prisión, consumiéndose..." #NT!
- health.6001.desc_lunacy: "Las sombras han hablado y pronto me uniré a ellas." #NT!
- health.6001.desc_loss: "No puedo soportar otra pérdida." #NT!
- health.6001.desc_stress: "No puedo seguir soportando esto." #NT!
- health.6001.desc_ending: "\n\nLo que todavía tengo que decidir es cómo lo haré..." #NT!
- health.6001.warning: "Siempre existe la posibilidad de que el intento fracase." #NT!
- health.6001.a: "Encontraré un edificio lo suficientemente alto." #NT!
- health.6001.a_tribal: "Encontraré un acantilado lo suficientemente alto." #NT!
- health.6001.b: "Té, elaborado con una planta letal... Suena casi apetecible." #NT!
- health.6001.c: "Un baño tibio y un cuchillo afilado deberían bastar." #NT!
- health.6001.d: "Ya no estoy seguro de que esto sea lo que quiero hacer." #NT!
- health.6001.d_tt: "No hago el intento" #NT!
+ health.6001.t: "El intento"
+ health.6001.desc_opening: "Terminaré con mi vida. No puedo evitar que la tristeza aumente en mi corazón al pensar en todo lo que dejaré atrás, pero mi mente está firme."
+ health.6001.desc_depression: "El sufrimiento parece interminable."
+ health.6001.desc_sickness: "Mi cuerpo se ha convertido en una prisión, consumiéndose..."
+ health.6001.desc_lunacy: "Las sombras han hablado y pronto me uniré a ellas."
+ health.6001.desc_loss: "No puedo soportar otra pérdida."
+ health.6001.desc_stress: "No puedo seguir soportando esto."
+ health.6001.desc_ending: "\n\nLo que todavía tengo que decidir es cómo lo haré..."
+ health.6001.warning: "Siempre existe la posibilidad de que el intento fracase."
+ health.6001.a: "Encontraré un edificio lo suficientemente alto."
+ health.6001.a_tribal: "Encontraré un acantilado lo suficientemente alto."
+ health.6001.b: "Té, elaborado con una planta letal... Suena casi apetecible."
+ health.6001.c: "Un baño tibio y un cuchillo afilado deberían bastar."
+ health.6001.d: "Ya no estoy seguro de que esto sea lo que quiero hacer."
+ health.6001.d_tt: "No hago el intento"
   
- health.6002.desc_fall: "A medida que me acerco al borde, el viento atrapa la tela de mi [ROOT.Char.Custom('GetClothingArticle')] y me azota. Es un largo camino hacia abajo." #NT!
- health.6002.desc_poison: "Mientras el té hierve, el aire se llena de un hedor fétido, como para recordarme su propósito. Vierto el líquido en una taza. Se enfría rápidamente y levanto la taza hacia mis labios." #NT!
- health.6002.desc_knife: "Sentada en el baño tibio, inhalo el vapor mientras alcanzo el cuchillo afilado a mi lado." #NT!
- health.6002.desc_ending: "\n\n"[ROOT.Char.GetFirstNameNoTooltip]! ¡No lo hagas, [friendly_person.Custom2('RelationToMeShort', ROOT.Char)]!"\n\nMe giro y encuentro a [friendly_person.GetTitledFirstName] parado allí, acercándose hacia mí con una expresión aterrorizada. "Por favor, este no es el camino"." #NT!
- health.6002.a: "No hay nada que puedas hacer para detenerme." #NT!
- health.6002.a_success: "Tu intento tiene éxito" #NT!
- health.6002.a_failure: "Tu intento falla" #NT!
- health.6002.b: "Tienes razón. Las cosas aún podrían mejorar." #NT!
+ health.6002.desc_fall: "A medida que me acerco al borde, el viento atrapa la tela de mi [ROOT.Char.Custom('GetClothingArticle')] y me azota. Es un largo camino hacia abajo."
+ health.6002.desc_poison: "Mientras el té hierve, el aire se llena de un hedor fétido, como para recordarme su propósito. Vierto el líquido en una taza. Se enfría rápidamente y levanto la taza hacia mis labios."
+ health.6002.desc_knife: "Sentada en el baño tibio, inhalo el vapor mientras alcanzo el cuchillo afilado a mi lado."
+ health.6002.desc_ending: "\n\n"[ROOT.Char.GetFirstNameNoTooltip]! ¡No lo hagas, [friendly_person.Custom2('RelationToMeShort', ROOT.Char)]!"\n\nMe giro y encuentro a [friendly_person.GetTitledFirstName] parado allí, acercándose hacia mí con una expresión aterrorizada. "Por favor, este no es el camino"."
+ health.6002.a: "No hay nada que puedas hacer para detenerme."
+ health.6002.a_success: "Tu intento tiene éxito"
+ health.6002.a_failure: "Tu intento falla"
+ health.6002.b: "Tienes razón. Las cosas aún podrían mejorar."
   
- health.6004.desc: "Un pequeño paso hacia el límite, eso es todo lo que se necesita. Con el viento rugiendo a mi alrededor, levanto el pie y avanzo.\n\nPor un momento siento como si estuviera suspendido en el aire, el mundo gira a mi alrededor, y luego todo va muy rápido. El viento en mis oídos, la sensación de caer, el suelo elevándose para encontrarme..." #NT!
- health.6004.a: "Libre, por fin." #NT!
+ health.6004.desc: "Un pequeño paso hacia el límite, eso es todo lo que se necesita. Con el viento rugiendo a mi alrededor, levanto el pie y avanzo.\n\nPor un momento siento como si estuviera suspendido en el aire, el mundo gira a mi alrededor, y luego todo va muy rápido. El viento en mis oídos, la sensación de caer, el suelo elevándose para encontrarme..."
+ health.6004.a: "Libre, por fin."
   
- health.6005.desc: "Un pequeño paso hacia el límite, eso es todo lo que se necesita. Con el viento rugiendo a mi alrededor, levanto el pie y...\n\nSoy bruscamente tirado hacia atrás, un guardia me sujeta." #NT!
- health.6005.desc_ending: ""Lo siento, mi [ROOT.Char.GetLadyLord], ¡pero no estás en tu sano juicio!"" #NT!
- health.6005.a: "Mis planes, frustrados..." #NT!
+ health.6005.desc: "Un pequeño paso hacia el límite, eso es todo lo que se necesita. Con el viento rugiendo a mi alrededor, levanto el pie y...\n\nSoy bruscamente tirado hacia atrás, un guardia me sujeta."
+ health.6005.desc_ending: ""Lo siento, mi [ROOT.Char.GetLadyLord], ¡pero no estás en tu sano juicio!""
+ health.6005.a: "Mis planes, frustrados..."
   
- health.6007.desc: "Aspiro los vapores que salen de la taza de té que tengo en mis manos y cierro los ojos. Lentamente levanto el borde hasta mis labios y tomo un largo sorbo. Trago.\n\nPronto el mundo comienza a volverse gris e indistinto, la oscuridad se arrastra hasta el borde de mi visión, y apoyo mi cabeza sobre la mesa. Siento que mi respiración se hace cada vez más corta. Cierro mis ojos." #NT!
+ health.6007.desc: "Aspiro los vapores que salen de la taza de té que tengo en mis manos y cierro los ojos. Lentamente levanto el borde hasta mis labios y tomo un largo sorbo. Trago.\n\nPronto el mundo comienza a volverse gris e indistinto, la oscuridad se arrastra hasta el borde de mi visión, y apoyo mi cabeza sobre la mesa. Siento que mi respiración se hace cada vez más corta. Cierro mis ojos."
   
- health.6008.desc: "Aspiro los vapores que salen de la taza de té que tengo en mis manos y cierro los ojos. Lentamente levanto el borde hasta mis labios y...\n\nMe arrancan la taza de la mano y la arrojan al suelo, donde se hace añicos. Hay un guardia encima de mí, con pánico en los ojos." #NT!
+ health.6008.desc: "Aspiro los vapores que salen de la taza de té que tengo en mis manos y cierro los ojos. Lentamente levanto el borde hasta mis labios y...\n\nMe arrancan la taza de la mano y la arrojan al suelo, donde se hace añicos. Hay un guardia encima de mí, con pánico en los ojos."
   
- health.6010.desc: "El vapor de mi baño caliente flota a mi alrededor y respiro profundamente mientras recojo el cuchillo que está a mi lado. Lo apoyo suavemente sobre un brazo y luego presiono. Duro.\n\nCuando tengo dos cortes idénticos en ambos brazos, los dejo hundirse nuevamente en el agua que enrojece rápidamente. Inclino mi cabeza hacia atrás y suspiro mientras el mundo comienza a girar. Ya no falta mucho..." #NT!
+ health.6010.desc: "El vapor de mi baño caliente flota a mi alrededor y respiro profundamente mientras recojo el cuchillo que está a mi lado. Lo apoyo suavemente sobre un brazo y luego presiono. Duro.\n\nCuando tengo dos cortes idénticos en ambos brazos, los dejo hundirse nuevamente en el agua que enrojece rápidamente. Inclino mi cabeza hacia atrás y suspiro mientras el mundo comienza a girar. Ya no falta mucho..."
   
- health.6011.desc: "Justo cuando estoy a punto de cortarme el brazo con el cuchillo, el vapor del baño caliente flotando a mi alrededor, los guardias irrumpen y rápidamente me quitan el cuchillo de las manos.\n\n" #NT!
+ health.6011.desc: "Justo cuando estoy a punto de cortarme el brazo con el cuchillo, el vapor del baño caliente flotando a mi alrededor, los guardias irrumpen y rápidamente me quitan el cuchillo de las manos.\n\n"
   
- health.6100.desc: ""Hola [ROOT.Char.GetTitledFirstNameNoTooltip]. Sólo quería hacerte una visita, para preguntarte cómo estás desde... el incidente de hace un tiempo."\n\n[friendly_person.GetTitledFirstName] me pregunta con genuina calidez, y ni siquiera la mención de mi el intento de suicidio puede sofocarlo por completo." #NT!
- health.6100.a: "Estoy mejor, gracias." #NT!
- health.6100.b: "Cómo estoy no es asunto tuyo." #NT!
+ health.6100.desc: ""Hola [ROOT.Char.GetTitledFirstNameNoTooltip]. Sólo quería hacerte una visita, para preguntarte cómo estás desde... el incidente de hace un tiempo."\n\n[friendly_person.GetTitledFirstName] me pregunta con genuina calidez, y ni siquiera la mención de mi el intento de suicidio puede sofocarlo por completo."
+ health.6100.a: "Estoy mejor, gracias."
+ health.6100.b: "Cómo estoy no es asunto tuyo."
   
- health.6200.desc_opening: "En un raro momento de claridad siento que alguien está junto a mi cama." #NT!
- health.6200.desc_close_person: "\n\nDebe ser mi [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('close_person'))] [close_person.GetTitledFirstName], una de las pocas personas que vienen a verme hoy en día. Intento alcanzar [close_person.GetHerHim], pero mis manos ni siquiera se mueven..." #NT!
- health.6200.desc: "Las únicas personas que vienen a visitarme hoy en día son los sirvientes, pero necesito #EMP alguien#! que me libere..." #NT!
- health.6200.a: ""[close_person.GetFirstNameNoTooltip]... Por favor... Termina con esto..."" #NT!
- health.6200.a_success: "[close_person.GetSheHe|U] acepta hacerlo" #NT!
- health.6200.a_failure: "[close_person.GetSheHe|U] me niega" #NT!
- health.6200.a_failure_tt: "No mueres" #NT!
- health.6200.b: "No puedo pedirle esto a [close_person.GetHerHim]. Un sirviente debe hacerlo..." #NT!
- health.6200.b_2: "Un sirviente debe hacerlo..." #NT!
- health.6200.b_success: "Un sirviente cumple tu deseo" #NT!
- health.6200.b_failure: "Ningún sirviente está de acuerdo" #NT!
+ health.6200.desc_opening: "En un raro momento de claridad siento que alguien está junto a mi cama."
+ health.6200.desc_close_person: "\n\nDebe ser mi [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('close_person'))] [close_person.GetTitledFirstName], una de las pocas personas que vienen a verme hoy en día. Intento alcanzar [close_person.GetHerHim], pero mis manos ni siquiera se mueven..."
+ health.6200.desc: "Las únicas personas que vienen a visitarme hoy en día son los sirvientes, pero necesito #EMP alguien#! que me libere..."
+ health.6200.a: ""[close_person.GetFirstNameNoTooltip]... Por favor... Termina con esto...""
+ health.6200.a_success: "[close_person.GetSheHe|U] acepta hacerlo"
+ health.6200.a_failure: "[close_person.GetSheHe|U] me niega"
+ health.6200.a_failure_tt: "No mueres"
+ health.6200.b: "No puedo pedirle esto a [close_person.GetHerHim]. Un sirviente debe hacerlo..."
+ health.6200.b_2: "Un sirviente debe hacerlo..."
+ health.6200.b_success: "Un sirviente cumple tu deseo"
+ health.6200.b_failure: "Ningún sirviente está de acuerdo"
   
- health.6203.desc: "Me siento junto a la cama de [incapable_person.GetTitledFirstNamePossessive] cuando [incapable_person.GetSheHe] de repente parece despertarse casi despierto, con los ojos recorriendo el techo. Desde que [incapable_person.GetSheHe] quedó atado a esta cama [incapable_person.GetSheHe] apenas ha dicho una palabra, pero de repente el silencio es roto por una voz jadeante.\n\n"[ROOT.Char.GetFirstNameNoTooltip]? [ROOT.Char.GetFirstNameNoTooltip] por favor... Termina con esto. Misericordia..."" #NT!
- health.6203.desc_murder: "\n\n[incapable_person.GetSheHe] no tiene idea de que [incapable_person.GetSheHe] encaja perfectamente en mis planes." #NT!
- health.6203.a: "Yo... lo entiendo..." #NT!
- health.6203.b: "¡No! ¿Cómo puedes pedirme algo así?" #NT!
+ health.6203.desc: "Me siento junto a la cama de [incapable_person.GetTitledFirstNamePossessive] cuando [incapable_person.GetSheHe] de repente parece despertarse casi despierto, con los ojos recorriendo el techo. Desde que [incapable_person.GetSheHe] quedó atado a esta cama [incapable_person.GetSheHe] apenas ha dicho una palabra, pero de repente el silencio es roto por una voz jadeante.\n\n"[ROOT.Char.GetFirstNameNoTooltip]? [ROOT.Char.GetFirstNameNoTooltip] por favor... Termina con esto. Misericordia...""
+ health.6203.desc_murder: "\n\n[incapable_person.GetSheHe] no tiene idea de que [incapable_person.GetSheHe] encaja perfectamente en mis planes."
+ health.6203.a: "Yo... lo entiendo..."
+ health.6203.b: "¡No! ¿Cómo puedes pedirme algo así?"
   
- health.6204.desc_opening: "No puedo distinguir la respuesta de [close_person.GetTitledFirstNamePossessive], pero [close_person.GetSheHe] no se aleja de mi lado.\n\n" #NT!
- health.6204.desc_1: "Después de un rato siento movimiento y luego siento una suave presión contra mi cara. La presión crece y encuentro que no puedo respirar, y no me siento lleno más que... Gratitud. [close_person.GetSheHe|U] de acuerdo. [close_person.GetSheHe|U]..." #NT!
- health.6204.desc_2: "Después de un rato siento movimiento y luego siento una presión fría y aguda contra mi cuello. Apenas siento el corte. Pero escucho a [close_person.GetHerHis] inhalar, escucho el cuchillo caer al suelo, escucho un gemido en mis oídos... Y luego... Nada." #NT!
- health.6204.a: "Libre, por fin..." #NT!
+ health.6204.desc_opening: "No puedo distinguir la respuesta de [close_person.GetTitledFirstNamePossessive], pero [close_person.GetSheHe] no se aleja de mi lado.\n\n"
+ health.6204.desc_1: "Después de un rato siento movimiento y luego siento una suave presión contra mi cara. La presión crece y encuentro que no puedo respirar, y no me siento lleno más que... Gratitud. [close_person.GetSheHe|U] de acuerdo. [close_person.GetSheHe|U]..."
+ health.6204.desc_2: "Después de un rato siento movimiento y luego siento una presión fría y aguda contra mi cuello. Apenas siento el corte. Pero escucho a [close_person.GetHerHis] inhalar, escucho el cuchillo caer al suelo, escucho un gemido en mis oídos... Y luego... Nada."
+ health.6204.a: "Libre, por fin..."
   
- health.6205.desc_1: "Después de un rato siento movimiento y luego siento una suave presión contra mi cara. La presión crece y encuentro que no puedo respirar, y no me siento lleno más que... Gratitud. Justo cuando estoy a punto de quedarme dormido, el aire vuelve a mis pulmones. Escucho llanto y una voz histérica. Escucho pasos saliendo de la habitación." #NT!
- health.6205.desc_2: "Después de un rato siento movimiento y luego siento una presión fría y aguda contra mi cuello. La presión aumenta y… y oigo el cuchillo caer al suelo. Oigo llantos, una voz suplicante, pasos que salen de la habitación." #NT!
- health.6205.a: "No... Por favor... Vuelve..." #NT!
+ health.6205.desc_1: "Después de un rato siento movimiento y luego siento una suave presión contra mi cara. La presión crece y encuentro que no puedo respirar, y no me siento lleno más que... Gratitud. Justo cuando estoy a punto de quedarme dormido, el aire vuelve a mis pulmones. Escucho llanto y una voz histérica. Escucho pasos saliendo de la habitación."
+ health.6205.desc_2: "Después de un rato siento movimiento y luego siento una presión fría y aguda contra mi cuello. La presión aumenta y… y oigo el cuchillo caer al suelo. Oigo llantos, una voz suplicante, pasos que salen de la habitación."
+ health.6205.a: "No... Por favor... Vuelve..."
   
- health.6206.desc: ""[ROOT.Char.GetFirstNameNoTooltip]..."\n\nEscucho la voz de [close_person.GetFirstNamePossessive] como si viniera del otro lado de un gran vacío. "[ROOT.Char.GetFirstNameNoTooltip], yo... no puedo."\n\nLa desesperación me llena, y sólo el sonido del llanto, de pasos alejándose, rompe la niebla en mi mente." #NT!
+ health.6206.desc: ""[ROOT.Char.GetFirstNameNoTooltip]..."\n\nEscucho la voz de [close_person.GetFirstNamePossessive] como si viniera del otro lado de un gran vacío. "[ROOT.Char.GetFirstNameNoTooltip], yo... no puedo."\n\nLa desesperación me llena, y sólo el sonido del llanto, de pasos alejándose, rompe la niebla en mi mente."
   
- health.6207.desc: "La próxima vez que un sirviente entra en la habitación, me esfuerzo por elevarme por encima de la niebla de mi mente, del letargo de mi cuerpo.\n\n"Tú... ¿Quién...?"\n\n"¿Yo, mi [ROOT.Char.GetLadyLord]?" Unos pasos llegan rápidamente a mi lado de la cama. "Soy [servant.GetFirstName]. ¿Hay algo que pueda hacer por ti?"" #NT!
- health.6207.a: ""[servant.GetFirstNameNoTooltip]... Por favor... Termina con esto..."" #NT!
- health.6207.a_success: "[servant.GetSheHe|U] acepta hacerlo" #NT!
- health.6207.a_failure: "[servant.GetSheHe|U] me niega" #NT!
+ health.6207.desc: "La próxima vez que un sirviente entra en la habitación, me esfuerzo por elevarme por encima de la niebla de mi mente, del letargo de mi cuerpo.\n\n"Tú... ¿Quién...?"\n\n"¿Yo, mi [ROOT.Char.GetLadyLord]?" Unos pasos llegan rápidamente a mi lado de la cama. "Soy [servant.GetFirstName]. ¿Hay algo que pueda hacer por ti?""
+ health.6207.a: ""[servant.GetFirstNameNoTooltip]... Por favor... Termina con esto...""
+ health.6207.a_success: "[servant.GetSheHe|U] acepta hacerlo"
+ health.6207.a_failure: "[servant.GetSheHe|U] me niega"
   
- health.6209.desc_refusal: ""¡Mi [ROOT.Char.GetLadyLord]! Yo..."\n\n" #NT!
- health.6209.desc: ""¡Mi [ROOT.Char.GetLadyLord]! ¡Nunca podría...! ¿Cómo puedes siquiera pedir tal..."\n\nLa desesperación me llena, y sólo el sonido del llanto, de pasos alejándose, rompe la niebla en mi mente." #NT!
+ health.6209.desc_refusal: ""¡Mi [ROOT.Char.GetLadyLord]! Yo..."\n\n"
+ health.6209.desc: ""¡Mi [ROOT.Char.GetLadyLord]! ¡Nunca podría...! ¿Cómo puedes siquiera pedir tal..."\n\nLa desesperación me llena, y sólo el sonido del llanto, de pasos alejándose, rompe la niebla en mi mente."
   
- health.6210.desc: "Estoy a la espera. Eso lo puedo recordar incluso a través de la niebla de mi mente: estoy esperando la entrega que [close_person.GetTitledFirstName] me puede conceder, pero no llega. Por qué...? ¿Por qué no viene [close_person.GetSheHe]?" #NT!
- health.6210.a: "¿[close_person.GetSheHe] también me ha dejado atrás...?" #NT!
+ health.6210.desc: "Estoy a la espera. Eso lo puedo recordar incluso a través de la niebla de mi mente: estoy esperando la entrega que [close_person.GetTitledFirstName] me puede conceder, pero no llega. Por qué...? ¿Por qué no viene [close_person.GetSheHe]?"
+ health.6210.a: "¿[close_person.GetSheHe] también me ha dejado atrás...?"
   
   # Infirm events 
- health.7000.t: "Un prisionero en mi propio cuerpo" #NT!
- health.7000.desc: "Sabía que envejecer significaría hacer todo más lento, pero no pensé que todo se detendría hasta mi muerte. Últimamente siento un malestar constante y todo requiere más esfuerzo que antes. Me preocupa que si me acuesto no pueda volver a levantarme. No hay duda de que se me acaba el tiempo." #NT!
- health.7000.desc_collapse: "Sé que estaba exagerando; debería haber escuchado lo que mi cuerpo me decía, pero elegí ignorarlo. "Terminaré esto antes de irme a la cama; solo un par más, luego descansaré". De repente, me sentí mareado y, cuando me levanté, mi visión se oscureció.\n\nAl día siguiente, me desperté en mi cama, incapaz de levantarme porque mi cuerpo se niega a escucharme. Tal vez [ROOT.Char.GetFaith.HighGodName] decidió castigarme por no tratar con respeto a este recipiente que se suponía que debía servir a [ROOT.Char.GetFaith.HighGodNameAlternate]." #NT!
- health.7000.desc_closing: "\n\nSiento que no puedo hacer nada más que esperar el dulce abrazo de la muerte para reclamarme." #NT!
- health.7000.a: "¿Cuánto tiempo tendré que esperar?" #NT!
- health.7000.a.lazy: "Al menos puedo estar en la cama todo el día..." #NT!
- health.7100.desc: "¿Qué día es? ¿Cuánto tiempo he estado descansando esta vez?\n\nMe encuentro buscando en los rostros de mis visitantes frecuentes algún indicio (arrugas o cicatrices) #bold cualquier cosa#! que sirva como prueba de que el tiempo todavía pasa. De alguna manera, las interacciones que tengo con los demás siento como si estuvieran hablando #bold a#! de mí, no #bold a#! de mí.\n\n¿Sigo siendo yo o un alma extraída de mi cuerpo? ¿Estoy viviendo o simplemente existiendo?" #NT!
- health.7100.a: "Mi existencia es una tortura." #NT!
+ health.7000.t: "Un prisionero en mi propio cuerpo"
+ health.7000.desc: "Sabía que envejecer significaría hacer todo más lento, pero no pensé que todo se detendría hasta mi muerte. Últimamente siento un malestar constante y todo requiere más esfuerzo que antes. Me preocupa que si me acuesto no pueda volver a levantarme. No hay duda de que se me acaba el tiempo."
+ health.7000.desc_collapse: "Sé que estaba exagerando; debería haber escuchado lo que mi cuerpo me decía, pero elegí ignorarlo. "Terminaré esto antes de irme a la cama; solo un par más, luego descansaré". De repente, me sentí mareado y, cuando me levanté, mi visión se oscureció.\n\nAl día siguiente, me desperté en mi cama, incapaz de levantarme porque mi cuerpo se niega a escucharme. Tal vez [ROOT.Char.GetFaith.HighGodName] decidió castigarme por no tratar con respeto a este recipiente que se suponía que debía servir a [ROOT.Char.GetFaith.HighGodNameAlternate]."
+ health.7000.desc_closing: "\n\nSiento que no puedo hacer nada más que esperar el dulce abrazo de la muerte para reclamarme."
+ health.7000.a: "¿Cuánto tiempo tendré que esperar?"
+ health.7000.a.lazy: "Al menos puedo estar en la cama todo el día..."
+ health.7100.desc: "¿Qué día es? ¿Cuánto tiempo he estado descansando esta vez?\n\nMe encuentro buscando en los rostros de mis visitantes frecuentes algún indicio (arrugas o cicatrices) #bold cualquier cosa#! que sirva como prueba de que el tiempo todavía pasa. De alguna manera, las interacciones que tengo con los demás siento como si estuvieran hablando #bold a#! de mí, no #bold a#! de mí.\n\n¿Sigo siendo yo o un alma extraída de mi cuerpo? ¿Estoy viviendo o simplemente existiendo?"
+ health.7100.a: "Mi existencia es una tortura."

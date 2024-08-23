@@ -10,7 +10,7 @@
  unavailable_hold_court: "Celebrando corte"
  unavailable_tour_stop: "Preparando la [tour|E] de tu señor"
   
- GENERIC_CHOOSE_OPTION: "Elija una opción" #NT!
+ GENERIC_CHOOSE_OPTION: "Elija una opción"
   
  start_hunt_decision: "Llamar a una cacería"
  start_hunt_decision_tooltip: "Se celebrará una [GetActivityType('activity_hunt').GetName|l]"
@@ -135,10 +135,10 @@
  create_cadet_branch_decision_desc: "Quizás sea el momento de que mi familia abandone el legado de la Casa [ROOT.Char.GetHouse.GetNameNoTooltip] y se labre su propio camino en la Historia conmigo como cabeza de esta nueva rama de nuestra gran dinastía."
  create_cadet_branch_decision_confirm: "Crear rama cadete"
   #AGOT MODIFED 
- #I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE: "Eres el tercero o más cercano en la línea de sucesión de uno de tus [house_head|E] [titles|E]" #NT!
+ #I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE: "Eres el tercero o más cercano en la línea de sucesión de uno de tus [house_head|E] [titles|E]"
  I_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE: "Estás al menos en el tercer puesto de la línea de sucesión de uno de [titles|E] de tu [house_head|E]"
   #AGOT MODIFIED 
- #I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE: "Usted es #bold no#! tercero o más cercano en la línea de sucesión de uno de sus [house_head|E] [titles|E]" #NT!
+ #I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE: "Usted es #bold no#! tercero o más cercano en la línea de sucesión de uno de sus [house_head|E] [titles|E]"
  I_NOT_CREATE_CADET_BRANCH_DECISION_SUCCESSION_LINE: "#bold No#! estás en el tercer puesto o superior de la línea de sucesión de uno de los [titles|E] de tu [house_head|E]"
  I_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE: "Uno de tus antepasados fue miembro de tu [house|E] actual"
  I_NOT_CREATE_CADET_BRANCH_DECISION_ANCESTOR_IN_HOUSE: "Ninguno de nuestros antepasados vivos pertenece a tu actual [house|E]"
@@ -245,27 +245,27 @@
  COMMISSION_ARTIFACT_DECISION_NEXT_STEP_BUTTON: "Elegir artefacto"
  COMMISSION_ARTIFACT_DECISION_SELECT_ARTIFACT_TITLE: "Elegir un tipo de [artifact|E]"
   
- commission_legend_artifact_decision: "Artefacto de leyenda de la comisión" #NT!
- commission_legend_artifact_decision_effect: "Tu $court_position_antiquarian$ o $court_position_chronicler$ producirá un libro para conmemorar tu [legend|E]" #NT!
- commission_legend_artifact_decision_tooltip: "Encarga un libro [artifact|E] para conmemorar tu [legend|E]" #NT!
- commission_legend_artifact_decision_confirm: "Poner en marcha la Comisión" #NT!
- commission_legend_artifact_decision_desc: "Los recuerdos pueden perderse con el tiempo, pero los libros son eternos. Me aseguraré de que mi leyenda nunca sea olvidada." #NT!
- commission_legend_artifact_decision_var_tt: "Debes haber completado un [legend|E]" #NT!
- commision_legend_artifact_decision_court_positions_tt: "No tienes $court_position_antiquarian$ o $court_position_chronicler$" #NT!
- commision_legend_artifact_decision_disappearing_tt: "El [legend|E] debe estar presente en tu [realm|E]" #NT!
+ commission_legend_artifact_decision: "Artefacto de leyenda de la comisión"
+ commission_legend_artifact_decision_effect: "Tu $court_position_antiquarian$ o $court_position_chronicler$ producirá un libro para conmemorar tu [legend|E]"
+ commission_legend_artifact_decision_tooltip: "Encarga un libro [artifact|E] para conmemorar tu [legend|E]"
+ commission_legend_artifact_decision_confirm: "Poner en marcha la Comisión"
+ commission_legend_artifact_decision_desc: "Los recuerdos pueden perderse con el tiempo, pero los libros son eternos. Me aseguraré de que mi leyenda nunca sea olvidada."
+ commission_legend_artifact_decision_var_tt: "Debes haber completado un [legend|E]"
+ commision_legend_artifact_decision_court_positions_tt: "No tienes $court_position_antiquarian$ o $court_position_chronicler$"
+ commision_legend_artifact_decision_disappearing_tt: "El [legend|E] debe estar presente en tu [realm|E]"
   
- isolate_capital_decision: "Aislar capital" #NT!
- isolate_capital_decision_tt: "Debe haber un [epidemic|E] en tu reino." #NT!
- isolate_capital_decision_tooltip: "Aumenta el [epidemic_resistance|E] de tu [capital|E]" #NT!
- isolate_capital_decision_desc: "Con la plaga que se cierne sobre nuestra capital sólo hay una medida posible para remediarla: reforzar los muros, cerrar las puertas y tirar las llaves." #NT!
- isolate_capital_decision_confirm: "$isolate_capital_decision$" #NT!
- isolate_capital_decision_modifier: "Capital aislada" #NT!
- isolate_capital_decision_modifier_desc: "Este condado ha sido puesto en cuarentena para protegerlo de la plaga." #NT!
- unisolate_capital_decision: "Poner fin al aislamiento del capital" #NT!
- unisolate_capital_decision_tooltip: "Finalizar las medidas de aislamiento en su [capital|E], disminuyendo su [epidemic_resistance|E]" #NT!
- unisolate_capital_decision_desc: "Independientemente de que la plaga haya disminuido o no, el impacto del aislamiento está resultando demasiado grande y es necesario volver a abrir las puertas." #NT!
- unisolate_capital_decision_confirm: "$unisolate_capital_decision$" #NT!
- unisolate_capital_decision_tt: "Su capital debe estar actualmente aislado." #NT!
+ isolate_capital_decision: "Aislar capital"
+ isolate_capital_decision_tt: "Debe haber un [epidemic|E] en tu reino."
+ isolate_capital_decision_tooltip: "Aumenta el [epidemic_resistance|E] de tu [capital|E]"
+ isolate_capital_decision_desc: "Con la plaga que se cierne sobre nuestra capital sólo hay una medida posible para remediarla: reforzar los muros, cerrar las puertas y tirar las llaves."
+ isolate_capital_decision_confirm: "$isolate_capital_decision$"
+ isolate_capital_decision_modifier: "Capital aislada"
+ isolate_capital_decision_modifier_desc: "Este condado ha sido puesto en cuarentena para protegerlo de la plaga."
+ unisolate_capital_decision: "Poner fin al aislamiento del capital"
+ unisolate_capital_decision_tooltip: "Finalizar las medidas de aislamiento en su [capital|E], disminuyendo su [epidemic_resistance|E]"
+ unisolate_capital_decision_desc: "Independientemente de que la plaga haya disminuido o no, el impacto del aislamiento está resultando demasiado grande y es necesario volver a abrir las puertas."
+ unisolate_capital_decision_confirm: "$unisolate_capital_decision$"
+ unisolate_capital_decision_tt: "Su capital debe estar actualmente aislado."
   
  commission_artifact_decision_option_weapon: "Arma\n#low Tienes: [ROOT.Char.GetInventory.GetNumberOfArtifactsForSlotTypeString( 'primary_armament' )]#!"
  commission_artifact_decision_option_armor: "Armadura\n#low Tienes: [ROOT.Char.GetInventory.GetNumberOfArtifactsForSlotTypeString( 'armor' )]#!"
@@ -839,10 +839,10 @@
  encourage_confession_of_false_conversions_decision.desc.tt_pluralist_counties: "Si eres [independent|E], los [counties|E] dentro de tu [realm|E] que tengan [GetModifier('false_convert_modifier').GetNameWithTooltip] pueden convertirse abiertamente dependiendo de cómo sea de hostil tu nueva [faith|E]"
  encourage_confession_of_false_conversions_decision.desc.tt_coreligionist: "Los criptoconversos que haya en tu señorío pueden revelarse si su [faith|E] privada es la misma que la tuya pública"
  encourage_confession_of_false_conversions_decision_confirm: "Hacer una proclamación"
- abandon_crypto_faith_decision: "Abandonar la fe secreta" #NT!
- abandon_crypto_faith_decision.tt: "Deja de practicar tu antigua fe en secreto" #NT!
- abandon_crypto_faith_decision.desc: "#F Todos estos sermones secretos y oraciones susurradas están cansando mi paciencia. Mientras tanto, me siento cómodo con mi vida pública en [ROOT.Char.GetFaith.GetName]. Tal vez sea hora de dejar mi vieja fe a descansar de una vez por todas.#!" #NT!
- abandon_crypto_faith_decision_confirm: "Abandonar la criptofe #EMP#!" #NT!
+ abandon_crypto_faith_decision: "Abandonar la fe secreta"
+ abandon_crypto_faith_decision.tt: "Deja de practicar tu antigua fe en secreto"
+ abandon_crypto_faith_decision.desc: "#F Todos estos sermones secretos y oraciones susurradas están cansando mi paciencia. Mientras tanto, me siento cómodo con mi vida pública en [ROOT.Char.GetFaith.GetName]. Tal vez sea hora de dejar mi vieja fe a descansar de una vez por todas.#!"
+ abandon_crypto_faith_decision_confirm: "Abandonar la criptofe #EMP#!"
   
   #Restore the Holy Roman Empire 
  restore_holy_roman_empire_decision: "Restaurar el Sacro Imperio Romano"
@@ -975,7 +975,7 @@
  stress_loss_comfort_eater_decision_desc: "Cuando todo parece un poco #EMP demasiado#! Siempre puedo contar con la comida para relajar la mente. Con el estómago lleno, la mente se vacía y relaja."
  stress_loss_comfort_eater_decision_tooltip: "Como para centrar la mente"
  stress_loss_comfort_eater_decision_confirm: "¡Poned la mesa!"
- lackluster_diet_hindrance_desc: "Estás siguiendo una dieta mediocre" #NT!
+ lackluster_diet_hindrance_desc: "Estás siguiendo una dieta mediocre"
   
  stress_loss_inappetetic_decision: "Rehuir la comida"
  stress_loss_inappetetic_decision_desc: "Tengo mucho que digerir, ¡y no me refiero solo a lo que tengo en el plato! Si me salto alguna comida, podré concentrarme en los problemas que realmente importan al reino."
@@ -1152,10 +1152,10 @@
  appoint_a_righteous_caliph_decision.control_two_holy_sites: "Controlas al menos dos [holy_sites|E]"
  appoint_a_righteous_caliph_decision.caliph_has_x_or_more_traits_sinful_to_your_faith: "Tu [head_of_faith|E] tiene [EmptyScope.ScriptValue('appoint_a_righteous_caliph_decision_hof_min_sins')|0] [traits|E] [Concept( 'sinful', 'pecaminosos' )|E] o más"
  appoint_a_righteous_caliph_decision.has_wishes_to_schism_caliphate_flag: "Planeabas separarte aún más cuando se creó tu [faith|E]"
- appoint_a_righteous_caliph_decision_mutazila_variant: "Restaurar Mu'tazila" #NT!
- appoint_a_righteous_caliph_decision_general_iranian_variant: "Romper con el Califato" #NT!
- appoint_a_righteous_caliph_decision_mutazila_variant_desc: "Desde el final de la Mihna, aquellos que defienden la creación del Corán han sido perseguidos o abandonados por los aspirantes a califas. Me encargaré de vengar los desaires que hemos sufrido y una vez más llevar la doctrina Mu'tazila al primer plano del pensamiento islámico." #NT!
- appoint_a_righteous_caliph_decision_general_iranian_variant_desc: "Aunque el Islam fue traído a Persia por la fuerza, nadie puede ahora negar nuestra creencia en la Unidad de [ROOT.Char.GetFaith.HighGodNameAlternate]. Pero nuestras costumbres y las costumbres árabes se han distanciado, y debemos romper con [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] de una vez por todas. De ahora en adelante, dirigiré personalmente el [ROOT.Char.GetFaith.GetAdjective]." #NT!
+ appoint_a_righteous_caliph_decision_mutazila_variant: "Restaurar Mu'tazila"
+ appoint_a_righteous_caliph_decision_general_iranian_variant: "Romper con el Califato"
+ appoint_a_righteous_caliph_decision_mutazila_variant_desc: "Desde el final de la Mihna, aquellos que defienden la creación del Corán han sido perseguidos o abandonados por los aspirantes a califas. Me encargaré de vengar los desaires que hemos sufrido y una vez más llevar la doctrina Mu'tazila al primer plano del pensamiento islámico."
+ appoint_a_righteous_caliph_decision_general_iranian_variant_desc: "Aunque el Islam fue traído a Persia por la fuerza, nadie puede ahora negar nuestra creencia en la Unidad de [ROOT.Char.GetFaith.HighGodNameAlternate]. Pero nuestras costumbres y las costumbres árabes se han distanciado, y debemos romper con [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] de una vez por todas. De ahora en adelante, dirigiré personalmente el [ROOT.Char.GetFaith.GetAdjective]."
   
  mozarabic_bind_the_faith_to_rome_decision: "Unir la fe a Roma"
  mozarabic_bind_the_faith_to_rome_decision_desc: "Si bien [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName|l] sigue siendo nuestr[ROOT.Char.GetFaith.GetReligiousHead.Custom('ES_OA')] auténtic[ROOT.Char.GetFaith.GetReligiousHead.Custom('ES_OA')] Papa, el aislamiento de la voluntad del Vicario de Cristo nos ha llevado por caminos extraños. Atrás quedaron los días en que los grandes cónclaves del clero europeo hollaban los salones de Toledo.\n\nSin embargo, no tiene por qué seguir así… Si nuestra fe se ha extraviado, ¿no podría un pastor fuerte volver a unirla al rebaño?"
@@ -1226,8 +1226,8 @@
  NO_DECISION_OPTIONS_SELECTED: "@warning_icon! #X Selecciona una opción#!"
  revive_taltoism_decision_before_last_date: "La fecha es el 1-1-1100 o anterior."
   
- I_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "Estás #bold no#! en el mismo [realm|E] que tu [house_head|E]" #NT!
- I_NOT_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "Tú #bold estás#! en el mismo [realm|E] que tu [house_head|E]" #NT!
+ I_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "Estás #bold no#! en el mismo [realm|E] que tu [house_head|E]"
+ I_NOT_CREATE_CADET_BRANCH_DECISION_IN_ANOTHER_REALM: "Tú #bold estás#! en el mismo [realm|E] que tu [house_head|E]"
   
  call_for_acclaimed_knight_candidates_decision: "Restablecer galardones"
  call_for_acclaimed_knight_candidates_decision_desc: "Las dignidades marciales de mi séquito siguen durmientes. Que corra la voz entre los $knight_culture_player_plural_no_tooltip_lowercase$ de la tierra: ¡[ROOT.Char.Custom('ES_ElLa')] [ROOT.Char.GetTitleAsNameNoTooltip|l] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] os llama!\n\nLos dignos descendientes de los cargos de honor de larga tradición tendrán una cálida recepción."
@@ -1244,19 +1244,19 @@
  break_with_the_old_ways_decision_desc: "La fe $kabarism_adj$ lleva mucho tiempo practicándose junto con las tradiciones locales, pero se acabó. Debemos rechazar las viejas costumbres y abrazar el judaísmo en su máxima extensión."
  break_with_the_old_ways_decision_tooltip: "¡Ya no es una religión popular!"
  break_with_the_old_ways_decision_confirm: "¡Nos comprometemos con el judaísmo!"
- CHOOSE_REFORMATION_TYPE: "Seleccione una reforma" #NT!
- bwow_no_changes: "Coexistencia" #NT!
- bwow_no_changes_tooltip: "Tu fe seguirá siendo en gran medida la misma" #NT!
- bwow_no_changes_desc: "Mantendremos nuestras tradiciones y fusionaremos las nuevas costumbres con las antiguas." #NT!
- bwow_chosen_people: "Pueblo escogido" #NT!
- bwow_chosen_people_tooltip: "Vuestra fe se hará más justa y comunitaria." #NT!
- bwow_chosen_people_desc: "Hemos sido elegidos por $judaism_high_god_name$" #NT!
- bwow_esotericism: "Misticismo" #NT!
- bwow_esotericism_tooltip: "Tu fe se volverá más justa y mística." #NT!
- bwow_esotericism_desc: "Nuestras raíces paganas han llegado a expresarse como un conjunto de prácticas espirituales esotéricas." #NT!
- bwow_fundementalist: "Fundamentalismo" #NT!
- bwow_fundementalist_tooltip: "Tu fe se volverá más fundamentalista y guerrera" #NT!
- bwow_fundementalist_desc: "Hay una fe verdadera, un Dios verdadero, y nuestra misión es difundir la creencia en Él entre todos los no creyentes." #NT!
+ CHOOSE_REFORMATION_TYPE: "Seleccione una reforma"
+ bwow_no_changes: "Coexistencia"
+ bwow_no_changes_tooltip: "Tu fe seguirá siendo en gran medida la misma"
+ bwow_no_changes_desc: "Mantendremos nuestras tradiciones y fusionaremos las nuevas costumbres con las antiguas."
+ bwow_chosen_people: "Pueblo escogido"
+ bwow_chosen_people_tooltip: "Vuestra fe se hará más justa y comunitaria."
+ bwow_chosen_people_desc: "Hemos sido elegidos por $judaism_high_god_name$"
+ bwow_esotericism: "Misticismo"
+ bwow_esotericism_tooltip: "Tu fe se volverá más justa y mística."
+ bwow_esotericism_desc: "Nuestras raíces paganas han llegado a expresarse como un conjunto de prácticas espirituales esotéricas."
+ bwow_fundementalist: "Fundamentalismo"
+ bwow_fundementalist_tooltip: "Tu fe se volverá más fundamentalista y guerrera"
+ bwow_fundementalist_desc: "Hay una fe verdadera, un Dios verdadero, y nuestra misión es difundir la creencia en Él entre todos los no creyentes."
   
  embrace_hebrew_language_decision: "Adoptar el idioma hebreo"
  embrace_hebrew_language_decision_desc: "El hebreo ha sido el lenguaje litúrgico de la religión judía durante milenios, pero la diáspora nos hizo desarrollar innumerables idiomas, influidos por nuestros vecinos. Ahora que hemos construido aquí una comunidad lo bastante grande, podemos adoptar el hebreo como idioma común para nuestro pueblo."
@@ -1266,60 +1266,60 @@
  switch_to_original_language_tt: "Tu nueva cultura hablará [target_other_culture.GetLanguage.GetNameNoTooltip]."
  at_least_10_jewish_counties_tt: "Debes poseer al menos 10 [counties|E] judíos de tu [culture|E]"
   
- DECISION_TOOLTIP_TITLE: "$EFFECT_LIST_BULLET$ [Decision.GetName]" #NT!
- clear_ground_legendary_shrine_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_shrine').GetName]" #NT!
- clear_ground_legendary_shrine: "$building_type_legendary_shrine$" #NT!
- clear_ground_legendary_statue_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_statue').GetName]" #NT!
- clear_ground_legendary_statue: "$building_type_legendary_statue$" #NT!
- clear_ground_legendary_palace_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_palace').GetName]" #NT!
- clear_ground_legendary_palace: "$building_type_legendary_palace$" #NT!
- clear_ground_legendary_watchtower_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_watchtower').GetName]" #NT!
- clear_ground_legendary_watchtower: "$building_type_legendary_watchtower$" #NT!
- clear_ground_legendary_hunting_lodge_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_hunting_lodge').GetName]" #NT!
- clear_ground_legendary_hunting_lodge: "$building_type_legendary_hunting_lodge$" #NT!
- clear_ground_legendary_shrine_tooltip: "$clear_ground_legendary_shrine_desc$" #NT!
- clear_ground_legendary_statue_tooltip: "$clear_ground_legendary_statue_desc$" #NT!
- clear_ground_legendary_palace_tooltip: "$clear_ground_legendary_palace_desc$" #NT!
- clear_ground_legendary_watchtower_tooltip: "$clear_ground_legendary_watchtower_desc$" #NT!
- clear_ground_legendary_hunting_lodge_tooltip: "$clear_ground_legendary_hunting_lodge_desc$" #NT!
- clear_ground_for_legendary_building: "Terreno despejado para un edificio legendario" #NT!
- clear_ground_for_legendary_building_tooltip: "Desbloquea un espacio de [special_building|E] en una de tus provincias" #NT!
- clear_ground_for_legendary_building_desc: "La leyenda está completa y mi gente está inspirada. Mis tierras están maduras para un nuevo monumento a mi leyenda, pero ¿qué debería construirse exactamente?" #NT!
- clear_ground_for_legendary_building_confirm: "Limpiar el terreno" #NT!
- clear_ground_legendary_hunting_lodge_tt: "Debes haber completado un [legend|E] Mítico o Ilustre sobre una bestia, o tener #V 50#! experiencia en el [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait|E], o el [GetCultureTradition('tradition_hunters').GetName] o [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [tradition|E]" #NT!
- clear_ground_legendary_watchtower_tt: "Debes haber completado un [legend|E] Mítico o Ilustre mientras tenías [GetDynastyPerk('ce1_legitimacy_legacy_5').GetName] [dynasty_perk|E]" #NT!
- clear_ground_legendary_shrine_tt: "Debes haber completado un Santo Mítico o Ilustre [legend|E]" #NT!
- clear_ground_legendary_statue_tt: "Debes haber completado una Legitimación Mítica o Ilustre [legend|E]" #NT!
- clear_ground_legendary_palace_tt: "Debes haber completado una Heroica Mítica o Ilustre [legend|E]" #NT!
- can_build_legendary_shrine_tt: "Obtenga acceso a la opción [GetBuilding('legendary_shrine').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]" #NT!
- can_build_legendary_statue_tt: "Obtenga acceso a la opción [GetBuilding('legendary_statue').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]" #NT!
- can_build_legendary_palace_tt: "Obtenga acceso a la opción [GetBuilding('legendary_palace').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]" #NT!
- can_build_legendary_watchtower_tt: "Obtenga acceso a la opción [GetBuilding('legendary_watchtower').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]" #NT!
- can_build_legendary_hunting_lodge_tt: "Obtenga acceso a la opción [GetBuilding('legendary_hunting_lodge').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]" #NT!
- CHOOSE_LEGENDARY_BUILDING: "Seleccione un edificio" #NT!
- clear_ground_for_legendary_building.toast: "Los motivos son claros" #NT!
+ DECISION_TOOLTIP_TITLE: "$EFFECT_LIST_BULLET$ [Decision.GetName]"
+ clear_ground_legendary_shrine_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_shrine').GetName]"
+ clear_ground_legendary_shrine: "$building_type_legendary_shrine$"
+ clear_ground_legendary_statue_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_statue').GetName]"
+ clear_ground_legendary_statue: "$building_type_legendary_statue$"
+ clear_ground_legendary_palace_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_palace').GetName]"
+ clear_ground_legendary_palace: "$building_type_legendary_palace$"
+ clear_ground_legendary_watchtower_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_watchtower').GetName]"
+ clear_ground_legendary_watchtower: "$building_type_legendary_watchtower$"
+ clear_ground_legendary_hunting_lodge_desc: "Una provincia del reino será elegible para un [GetBuilding('legendary_hunting_lodge').GetName]"
+ clear_ground_legendary_hunting_lodge: "$building_type_legendary_hunting_lodge$"
+ clear_ground_legendary_shrine_tooltip: "$clear_ground_legendary_shrine_desc$"
+ clear_ground_legendary_statue_tooltip: "$clear_ground_legendary_statue_desc$"
+ clear_ground_legendary_palace_tooltip: "$clear_ground_legendary_palace_desc$"
+ clear_ground_legendary_watchtower_tooltip: "$clear_ground_legendary_watchtower_desc$"
+ clear_ground_legendary_hunting_lodge_tooltip: "$clear_ground_legendary_hunting_lodge_desc$"
+ clear_ground_for_legendary_building: "Terreno despejado para un edificio legendario"
+ clear_ground_for_legendary_building_tooltip: "Desbloquea un espacio de [special_building|E] en una de tus provincias"
+ clear_ground_for_legendary_building_desc: "La leyenda está completa y mi gente está inspirada. Mis tierras están maduras para un nuevo monumento a mi leyenda, pero ¿qué debería construirse exactamente?"
+ clear_ground_for_legendary_building_confirm: "Limpiar el terreno"
+ clear_ground_legendary_hunting_lodge_tt: "Debes haber completado un [legend|E] Mítico o Ilustre sobre una bestia, o tener #V 50#! experiencia en el [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait|E], o el [GetCultureTradition('tradition_hunters').GetName] o [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [tradition|E]"
+ clear_ground_legendary_watchtower_tt: "Debes haber completado un [legend|E] Mítico o Ilustre mientras tenías [GetDynastyPerk('ce1_legitimacy_legacy_5').GetName] [dynasty_perk|E]"
+ clear_ground_legendary_shrine_tt: "Debes haber completado un Santo Mítico o Ilustre [legend|E]"
+ clear_ground_legendary_statue_tt: "Debes haber completado una Legitimación Mítica o Ilustre [legend|E]"
+ clear_ground_legendary_palace_tt: "Debes haber completado una Heroica Mítica o Ilustre [legend|E]"
+ can_build_legendary_shrine_tt: "Obtenga acceso a la opción [GetBuilding('legendary_shrine').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]"
+ can_build_legendary_statue_tt: "Obtenga acceso a la opción [GetBuilding('legendary_statue').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]"
+ can_build_legendary_palace_tt: "Obtenga acceso a la opción [GetBuilding('legendary_palace').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]"
+ can_build_legendary_watchtower_tt: "Obtenga acceso a la opción [GetBuilding('legendary_watchtower').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]"
+ can_build_legendary_hunting_lodge_tt: "Obtenga acceso a la opción [GetBuilding('legendary_hunting_lodge').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]"
+ CHOOSE_LEGENDARY_BUILDING: "Seleccione un edificio"
+ clear_ground_for_legendary_building.toast: "Los motivos son claros"
   
- isolate_family_decision: "Entrar en aislamiento" #NT!
- isolate_family_decision_tooltip: "Haz que tú y tu [close_family|E] sean más resistentes a [epidemics|E]" #NT!
- isolate_family_decision_desc: "Una plaga grande y mortal se avecina en el horizonte y, aunque muchos morirán, no puedo permitir que yo o mis seres queridos se nos cuente entre los muertos. Debemos retirarnos a las afueras de la capital en aislamiento, a salvo del miasma de la peste y la enfermedad." #NT!
- isolate_family_decision_confirm: "$isolate_family_decision$" #NT!
- unisolate_family_decision: "Salir del aislamiento" #NT!
- unisolate_family_decision_tooltip: "Tú y tu [close_family_members|E] dejarán de aislarse" #NT!
- unisolate_family_decision_desc: "Ya no puedo gobernar desde lejos, es imperativo que salga del aislamiento y regrese al lugar que me corresponde en la capital." #NT!
- unisolate_family_decision_confirm: "$unisolate_family_decision$" #NT!
- travelling_will_break_isolation_tt: "@warning_icon! #warning Elegir [travel|E] en cualquier momento durante su aislamiento finalizará su aislamiento#!" #NT!
- ai_unisolate_cooldown_tt: "[GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'isolating_cooldown_var' ))] restantes hasta que puedas aislarte nuevamente" #NT!
- you_are_at_your_capital_tt: "Debes estar actualmente dentro de tu capital." #NT!
- every_close_family_member_at_court: "Cada [close_family_member|E] en [court|E]" #NT!
- isolating_modifier: "Aislado" #NT!
- isolating_modifier_desc: "Este personaje se está aislando, impidiendo la mayoría de los métodos de comunicación con el mundo exterior y dejándose sin poder ni influencia.\n\n[infection_chance|E]: #P -75%#!" #NT!
- epidemic_events.0100.t: "Aislamiento" #NT!
- epidemic_events.0100.desc: "Llevados lejos del hedor del corazón de la capital a altas horas de la noche, mi familia y yo podemos permanecer alejados de la gente del reino hasta el momento adecuado para emerger.\n\nLa comunicación será limitada y mi trono Nos sentimos vacíos, pero debemos permanecer a salvo de la muerte y la decadencia más allá de nuestras cuatro modestas paredes." #NT!
- epidemic_events.0100.a: "Cierra la puerta." #NT!
- epidemic_events.0101.t: "Fuera de la jaula" #NT!
- epidemic_events.0101.desc: "El sol se siente desconocido y hostil en mi piel, el viento se siente frío y violador.\n\n¿Cuándo fue la última vez que tomé una bocanada de aire como lo hizo [ROOT.Char.GetFaith.HighGodName|U]?" #NT!
- epidemic_events.0101.a: "¡Cuánto me alegro de estar de vuelta!" #NT!
- epidemic_events.0101.b: "Cierra la puerta, ¡hay corrientes de aire!" #NT!
+ isolate_family_decision: "Entrar en aislamiento"
+ isolate_family_decision_tooltip: "Haz que tú y tu [close_family|E] sean más resistentes a [epidemics|E]"
+ isolate_family_decision_desc: "Una plaga grande y mortal se avecina en el horizonte y, aunque muchos morirán, no puedo permitir que yo o mis seres queridos se nos cuente entre los muertos. Debemos retirarnos a las afueras de la capital en aislamiento, a salvo del miasma de la peste y la enfermedad."
+ isolate_family_decision_confirm: "$isolate_family_decision$"
+ unisolate_family_decision: "Salir del aislamiento"
+ unisolate_family_decision_tooltip: "Tú y tu [close_family_members|E] dejarán de aislarse"
+ unisolate_family_decision_desc: "Ya no puedo gobernar desde lejos, es imperativo que salga del aislamiento y regrese al lugar que me corresponde en la capital."
+ unisolate_family_decision_confirm: "$unisolate_family_decision$"
+ travelling_will_break_isolation_tt: "@warning_icon! #warning Elegir [travel|E] en cualquier momento durante su aislamiento finalizará su aislamiento#!"
+ ai_unisolate_cooldown_tt: "[GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'isolating_cooldown_var' ))] restantes hasta que puedas aislarte nuevamente"
+ you_are_at_your_capital_tt: "Debes estar actualmente dentro de tu capital."
+ every_close_family_member_at_court: "Cada [close_family_member|E] en [court|E]"
+ isolating_modifier: "Aislado"
+ isolating_modifier_desc: "Este personaje se está aislando, impidiendo la mayoría de los métodos de comunicación con el mundo exterior y dejándose sin poder ni influencia.\n\n[infection_chance|E]: #P -75%#!"
+ epidemic_events.0100.t: "Aislamiento"
+ epidemic_events.0100.desc: "Llevados lejos del hedor del corazón de la capital a altas horas de la noche, mi familia y yo podemos permanecer alejados de la gente del reino hasta el momento adecuado para emerger.\n\nLa comunicación será limitada y mi trono Nos sentimos vacíos, pero debemos permanecer a salvo de la muerte y la decadencia más allá de nuestras cuatro modestas paredes."
+ epidemic_events.0100.a: "Cierra la puerta."
+ epidemic_events.0101.t: "Fuera de la jaula"
+ epidemic_events.0101.desc: "El sol se siente desconocido y hostil en mi piel, el viento se siente frío y violador.\n\n¿Cuándo fue la última vez que tomé una bocanada de aire como lo hizo [ROOT.Char.GetFaith.HighGodName|U]?"
+ epidemic_events.0101.a: "¡Cuánto me alegro de estar de vuelta!"
+ epidemic_events.0101.b: "Cierra la puerta, ¡hay corrientes de aire!"
   
- SELECT_ACTION: "Seleccione una acción" #NT!
+ SELECT_ACTION: "Seleccione una acción"
   

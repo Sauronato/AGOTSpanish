@@ -2,25 +2,25 @@
   
  maester_title_localization: "Maestre"
  maester_title_holder: "[CHARACTER.Custom('MaesterCheck')]"
- ArchaesterTitle: "$archmaester$" #NT!
+ ArchaesterTitle: "$archmaester$"
  MaesterTitle: "Maestre"
- AcolyteTitle: "$trait_acolyte$" #NT!
- NoviceTitle: "$trait_novice$" #NT!
+ AcolyteTitle: "$trait_acolyte$"
+ NoviceTitle: "$trait_novice$"
   
   ### Maester Decisions/Events ### 
  decision_employ_maester: "Enviar por un maestre de la ciudadela"
  decision_employ_maester_tooltip: "Llamarás a un [maester|E]."
- decision_employ_maester_desc: "Reconocido en todo el mundo conocido como el centro de aprendizaje de Westerosi, la Ciudadela de Antigua proporciona a cada fortaleza en Westeros un hombre entrenado en aprendizaje. Tal vez debería enviar por uno."
+ decision_employ_maester_desc: "Reconocido en todo el mundo conocido como el centro de aprendizaje de Occidental, la Ciudadela de Antigua proporciona a cada fortaleza en Poniente un hombre entrenado en aprendizaje. Tal vez debería enviar por uno."
  decision_employ_maester_effect: "A capable maester will be selected to attend you and arrive at your court shortly"
  decision_employ_maester_confirm: "Envía un cuervo a Antigua."
  tooltip_employ_maester: "No debe haber maestres capaces en nuestra corte."
- tooltip_recently_employed_maester: "No debe haber intentado recientemente contratar a un maestre." #NT!
+ tooltip_recently_employed_maester: "No debe haber intentado recientemente contratar a un maestre."
   
- essos_decision_employ_maester: "Buscar un maestre" #NT!
- essos_decision_employ_maester_tooltip: "Comenzarás una búsqueda de un [maester|E]" #NT!
- essos_decision_employ_maester_desc: "¿Dónde está escrito que sólo los señores de Poniente pueden contratar un maestre? Debería empezar a buscar un maestre y, con un poco de suerte, encontraré a alguien competente." #NT!
- essos_decision_employ_maester_effect: "Comenzará la búsqueda de un maestre." #NT!
- essos_decision_employ_maester_confirm: "Comienza la búsqueda." #NT!
+ essos_decision_employ_maester: "Buscar un maestre"
+ essos_decision_employ_maester_tooltip: "Comenzarás una búsqueda de un [maester|E]"
+ essos_decision_employ_maester_desc: "¿Dónde está escrito que sólo los señores de Poniente pueden contratar un maestre? Debería empezar a buscar un maestre y, con un poco de suerte, encontraré a alguien competente."
+ essos_decision_employ_maester_effect: "Comenzará la búsqueda de un maestre."
+ essos_decision_employ_maester_confirm: "Comienza la búsqueda."
  tooltip_employ_maester: "No debe haber maestres capaces en nuestra corte."
   
   
@@ -35,59 +35,59 @@
  agot_maester.0002.a: "Bien."
  agot_maester.0002.a.tt: "El maestre actuará como consejero y como médico de la corte."
   
- agot_maester.0005.t: "El nuevo "Maestro" de [capital.GetNameNoTooltip]" #NT!
- agot_maester.0005.desc: "[new_maester.GetFirstName] es, en el mejor de los casos, un médico dudoso. [new_maester.GetSheHe|U] afirma haber sido un antiguo maestre hasta que el Cónclave despojó a [new_maester.GetHerHim] de la cadena de [new_maester.GetHersHis]. No es demasiado tarde para despedir a [new_maester.GetHerHim]." #NT!
- agot_maester.0005.a: "No tengo reparos en esto." #NT!
- agot_maester.0005.b: "No caeré tan bajo." #NT!
+ agot_maester.0005.t: "El nuevo "Maestro" de [capital.GetNameNoTooltip]"
+ agot_maester.0005.desc: "[new_maester.GetFirstName] es, en el mejor de los casos, un médico dudoso. [new_maester.GetSheHe|U] afirma haber sido un antiguo maestre hasta que el Cónclave despojó a [new_maester.GetHerHim] de la cadena de [new_maester.GetHersHis]. No es demasiado tarde para despedir a [new_maester.GetHerHim]."
+ agot_maester.0005.a: "No tengo reparos en esto."
+ agot_maester.0005.b: "No caeré tan bajo."
   
- agot_maester.0006.desc: "Supuestamente el maestre [new_maester.GetFirstName] estaba en el área cuando [new_maester.GetSheHe] se enteró de mi llamado para un nuevo maestre. Esperemos que [new_maester.GetSheHe] sea leal y sabio." #NT!
+ agot_maester.0006.desc: "Supuestamente el maestre [new_maester.GetFirstName] estaba en el área cuando [new_maester.GetSheHe] se enteró de mi llamado para un nuevo maestre. Esperemos que [new_maester.GetSheHe] sea leal y sabio."
   
- agot_maester.0007.t: "Sin maestre" #NT!
- agot_maester.0007.desc: "Mi búsqueda de un nuevo maestre no ha dado ningún fruto. Parece que [capital.GetNameNoTooltip] se quedará sin maestre en el futuro previsible." #NT!
- agot_maester.0007.a: "Que decepcionante." #NT!
+ agot_maester.0007.t: "Sin maestre"
+ agot_maester.0007.desc: "Mi búsqueda de un nuevo maestre no ha dado ningún fruto. Parece que [capital.GetNameNoTooltip] se quedará sin maestre en el futuro previsible."
+ agot_maester.0007.a: "Que decepcionante."
   
- agot_maester.0008.t: "El acólito errante" #NT!
+ agot_maester.0008.t: "El acólito errante"
   
- agot_maester.0008.desc: "[acolyte.GetFirstName] afirma haber pasado tiempo estudiando en la Ciudadela, pero sin la cadena de un maestre, es imposible estar seguro. [acolyte.GetSheHe|U] aparentemente no progresó mucho en los estudios de [acolyte.GetHerHis]. Aunque [acolyte.GetFirstNameNoTooltip] no es exactamente quien tenía en mente, [acolyte.GetSheHe] es mejor que nada." #NT!
+ agot_maester.0008.desc: "[acolyte.GetFirstName] afirma haber pasado tiempo estudiando en la Ciudadela, pero sin la cadena de un maestre, es imposible estar seguro. [acolyte.GetSheHe|U] aparentemente no progresó mucho en los estudios de [acolyte.GetHerHis]. Aunque [acolyte.GetFirstNameNoTooltip] no es exactamente quien tenía en mente, [acolyte.GetSheHe] es mejor que nada."
   
- agot_maester.0008.a: "[acolyte.GetSheHe|U] tendrá que ser suficiente." #NT!
- agot_maester.0008.b: "Exijo algo mejor." #NT!
+ agot_maester.0008.a: "[acolyte.GetSheHe|U] tendrá que ser suficiente."
+ agot_maester.0008.b: "Exijo algo mejor."
   
- agot_maester.1000.t: "Eslabones de una cadena" #NT!
- agot_maester.1000.desc: "[child.GetFirstName] es un niño tranquilo. [child.GetSheHe|U] prefiere la compañía de los contables y del maestre que la de los escuderos y los caballeros. [child.GetSheHe|U] Prefiero pasar las tardes en la habitación [child.GetHerHis], rodeado de libros y pergaminos que en el patio practicando el manejo de la espada [child.GetHerHis].\n\nFinalmente llega el día en que [child.GetSheHe] viene a verme, [child.Custom('quirk_pos_present')] y luego habla sobre el deseo de [child.GetHerHis]. dejar [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] y viajar a la Ciudadela. Allí [child.GetSheHe] puede comenzar [child.GetHerHis] estudios y trabajar para forjar una cadena, para que algún día puedan servir al reino como maestre." #NT!
- agot_maester.1000.a: "Puedes despedirte hacia la Ciudadela mañana." #NT!
- agot_maester.1000.b: "¡Eres un [ROOT.Char.GetDynastyNameNoTooltip], no una Rata Gris!" #NT!
+ agot_maester.1000.t: "Eslabones de una cadena"
+ agot_maester.1000.desc: "[child.GetFirstName] es un niño tranquilo. [child.GetSheHe|U] prefiere la compañía de los contables y del maestre que la de los escuderos y los caballeros. [child.GetSheHe|U] Prefiero pasar las tardes en la habitación [child.GetHerHis], rodeado de libros y pergaminos que en el patio practicando el manejo de la espada [child.GetHerHis].\n\nFinalmente llega el día en que [child.GetSheHe] viene a verme, [child.Custom('quirk_pos_present')] y luego habla sobre el deseo de [child.GetHerHis]. dejar [ROOT.Char.GetCapitalLocation.GetNameNoTooltip] y viajar a la Ciudadela. Allí [child.GetSheHe] puede comenzar [child.GetHerHis] estudios y trabajar para forjar una cadena, para que algún día puedan servir al reino como maestre."
+ agot_maester.1000.a: "Puedes despedirte hacia la Ciudadela mañana."
+ agot_maester.1000.b: "¡Eres un [ROOT.Char.GetDynastyNameNoTooltip], no una Rata Gris!"
   
- agot_maester.1001.t: "Un nuevo archimaestre" #NT!
- agot_maester.1001.desc: "Maester [archmaester_candidate.GetFirstName] ha venido a mí con gran ilusión. Afirma que desde el fallecimiento del Archimaestre [dead_archmaester.GetFirstName], ha habido una votación en la Ciudadela para su reemplazo. Los miembros del Cónclave han determinado que el Maestre [archmaester_candidate.GetFirstNameNoTooltip] será elevado al cargo de Archimaestre y ha sido convocado de regreso a la Ciudadela." #NT!
- agot_maester.1001.a: "¡Esta es una gran noticia!" #NT!
- agot_maester.1001.a.tt: "Maestre [archmaester_candidate.GetFirstNameNoTooltip] será elevado al título de Archimaestre y partirá hacia la ciudadela." #NT!
+ agot_maester.1001.t: "Un nuevo archimaestre"
+ agot_maester.1001.desc: "Maester [archmaester_candidate.GetFirstName] ha venido a mí con gran ilusión. Afirma que desde el fallecimiento del Archimaestre [dead_archmaester.GetFirstName], ha habido una votación en la Ciudadela para su reemplazo. Los miembros del Cónclave han determinado que el Maestre [archmaester_candidate.GetFirstNameNoTooltip] será elevado al cargo de Archimaestre y ha sido convocado de regreso a la Ciudadela."
+ agot_maester.1001.a: "¡Esta es una gran noticia!"
+ agot_maester.1001.a.tt: "Maestre [archmaester_candidate.GetFirstNameNoTooltip] será elevado al título de Archimaestre y partirá hacia la ciudadela."
   
- agot_maester.1002.t: "Un nuevo gran maestre" #NT!
- agot_maester.1002.desc_death: "Con el fallecimiento del Gran Maestre [old_grandmaester.GetFirstName]," #NT!
- agot_maester.1002.desc_disgraced: "Con la destitución del ex Gran Maestre [disgraced_maester.GetFirstName]," #NT!
- agot_maester.1002.desc: "El Cónclave de la Ciudadela ha elegido al Gran Maestre [grandmaester_candidate.GetFirstName] para que sea su nueva voz en la Corte Real. Parece que está en camino." #NT!
- agot_maester.1002.a: "No puedo esperar." #NT!
- agot_maester.1002.b: "Será mejor que sea competente." #NT!
+ agot_maester.1002.t: "Un nuevo gran maestre"
+ agot_maester.1002.desc_death: "Con el fallecimiento del Gran Maestre [old_grandmaester.GetFirstName],"
+ agot_maester.1002.desc_disgraced: "Con la destitución del ex Gran Maestre [disgraced_maester.GetFirstName],"
+ agot_maester.1002.desc: "El Cónclave de la Ciudadela ha elegido al Gran Maestre [grandmaester_candidate.GetFirstName] para que sea su nueva voz en la Corte Real. Parece que está en camino."
+ agot_maester.1002.a: "No puedo esperar."
+ agot_maester.1002.b: "Será mejor que sea competente."
   
- agot_maester.1003.t: "Llega el nuevo Gran Maestre" #NT!
- agot_maester.1003.desc: "El Gran Maestre [grandmaester_candidate.GetFirstName] ha llegado por fin a la corte. Esperemos que sirva fielmente al reino." #NT!
- agot_maester.1003.a: "Cuida tu paso." #NT!
+ agot_maester.1003.t: "Llega el nuevo Gran Maestre"
+ agot_maester.1003.desc: "El Gran Maestre [grandmaester_candidate.GetFirstName] ha llegado por fin a la corte. Esperemos que sirva fielmente al reino."
+ agot_maester.1003.a: "Cuida tu paso."
   
- agot_maester.1004.t: "Una gran decepción" #NT!
- agot_maester.1004.desc: "Según los informes, el Gran Maestre [old_grandmaester.GetFirstName] murió mientras aceptaba su puesto. El Cónclave ha iniciado las deliberaciones para elegir un nuevo Gran Maestre." #NT!
- agot_maester.1004.a: "Espero que este próximo dure." #NT!
+ agot_maester.1004.t: "Una gran decepción"
+ agot_maester.1004.desc: "Según los informes, el Gran Maestre [old_grandmaester.GetFirstName] murió mientras aceptaba su puesto. El Cónclave ha iniciado las deliberaciones para elegir un nuevo Gran Maestre."
+ agot_maester.1004.a: "Espero que este próximo dure."
   
- agot_maester.1005.t: "Una mente cuestionadora" #NT!
- agot_maester.1005.desc: "El maestre [maester.GetFirstName] ha venido a verme por uno de mis hijos. [maester.GetSheHe|U] afirma que [child.GetFirstName] se muestra muy prometedor en los estudios de [child.GetHerHis] y puede ser un gran candidato para la Ciudadela. Allí, dice [maester.GetSheHe], [child.GetFirstNameNoTooltip] podría encontrar [child.GetHerHis] su propio camino y trabajar para forjar una cadena, para que [child.GetSheHe] algún día pueda servir al reino como maestre." #NT!
- agot_maester.1005.a: "[child.GetFirstName] parte hacia la Ciudadela al día siguiente." #NT!
- agot_maester.1005.b: "¡Mi hijo es un [ROOT.Char.GetDynastyNameNoTooltip], no una Rata Gris!" #NT!
+ agot_maester.1005.t: "Una mente cuestionadora"
+ agot_maester.1005.desc: "El maestre [maester.GetFirstName] ha venido a verme por uno de mis hijos. [maester.GetSheHe|U] afirma que [child.GetFirstName] se muestra muy prometedor en los estudios de [child.GetHerHis] y puede ser un gran candidato para la Ciudadela. Allí, dice [maester.GetSheHe], [child.GetFirstNameNoTooltip] podría encontrar [child.GetHerHis] su propio camino y trabajar para forjar una cadena, para que [child.GetSheHe] algún día pueda servir al reino como maestre."
+ agot_maester.1005.a: "[child.GetFirstName] parte hacia la Ciudadela al día siguiente."
+ agot_maester.1005.b: "¡Mi hijo es un [ROOT.Char.GetDynastyNameNoTooltip], no una Rata Gris!"
   
- agot_maester.1006.t: "Su maestre, deshonrado" #NT!
- agot_maester.1006.desc: "Ha llegado un mensaje de la Ciudadela: a la luz del secreto de [disgraced_maester.GetFirstNamePossessive] [secret.GetName], el Cónclave ha revocado el título de maestre de [disgraced_maester.GetHerHis]. Como señor feudal de [disgraced_maester.GetHerHis] y [root.GetLadyLord], el Cónclave me ha ordenado que envíe a [disgraced_maester.GetHerHim] al exilio. A cambio, han ofrecido enviar un nuevo maestre a mi corte." #NT!
- agot_maester.1006.a: "No quiero tener nada que ver contigo, rata gris." #NT!
- agot_maester.1006.a.tt: "[disgraced_maester.GetName] será exiliado de Poniente" #NT!
- agot_maester.1006.b: "Una celda fría es tu lugar." #NT!
- agot_maester.1006.b.tt: "[disgraced_maester.GetName] será encarcelado por ti" #NT!
- agot_maester.1006.c: "Esto no ha cambiado nada." #NT!
- agot_maester.1006.c.tt: "[disgraced_maester.GetName] permanecerá como tu maestre" #NT!
+ agot_maester.1006.t: "Su maestre, deshonrado"
+ agot_maester.1006.desc: "Ha llegado un mensaje de la Ciudadela: a la luz del secreto de [disgraced_maester.GetFirstNamePossessive] [secret.GetName], el Cónclave ha revocado el título de maestre de [disgraced_maester.GetHerHis]. Como señor feudal de [disgraced_maester.GetHerHis] y [root.GetLadyLord], el Cónclave me ha ordenado que envíe a [disgraced_maester.GetHerHim] al exilio. A cambio, han ofrecido enviar un nuevo maestre a mi corte."
+ agot_maester.1006.a: "No quiero tener nada que ver contigo, rata gris."
+ agot_maester.1006.a.tt: "[disgraced_maester.GetName] será exiliado de Poniente"
+ agot_maester.1006.b: "Una celda fría es tu lugar."
+ agot_maester.1006.b.tt: "[disgraced_maester.GetName] será encarcelado por ti"
+ agot_maester.1006.c: "Esto no ha cambiado nada."
+ agot_maester.1006.c.tt: "[disgraced_maester.GetName] permanecerá como tu maestre"

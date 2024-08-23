@@ -1,0 +1,352 @@
+﻿l_spanish:
+  ##EVENTS 
+  #Parent/Guardian: Your child/ward walks in on you performing your stress trait 
+ bp2_yearly.1000.t: "Lo que viene alrededor..." #NT!
+ bp2_yearly.1000.desc_drunkard: ""Una... una ronda más, schervant, por favor... #EMP *hip*!#!"\n\nThe [ROOT.Char.Custom('RegionalAlcoholicDrink')] está arruinando mi discurso, pero estoy demasiado acurrucado en su comodidad como para preocuparme en este momento. Como para preocuparme por la mayoría de las cosas, en realidad.\n\nEn una gran ráfaga húmeda, el alcohol decide huir de mi cuerpo... ¡por toda mi cena! Los invitados de los alrededores resoplan con disgusto." #NT!
+ bp2_yearly.1000.desc_hashishiyah: "Esta vez el hachís es de excelente calidad, tan fuerte que me empieza a picar la piel y siento que la ropa me aprieta demasiado. Me desnudo y, siguiendo un capricho, escucho el canto de un pájaro hasta la puerta. Un momento después, me doy la vuelta..." #NT!
+ bp2_yearly.1000.desc_reclusive: "—¡Malditos idiotas y perros rancios, todos ellos! —murmuro, mientras finalmente tomo la soledad en silencio. Me masajeo las sienes y cierro los ojos.\n\nUn ruido inesperado me devuelve a la realidad. Mis ojos se abren de golpe. #EMP ¿No estoy solo, como anhelo estar?#! Murmuro una maldición." #NT!
+ bp2_yearly.1000.desc_irritable: "It is late in the evening. Local potentates gab all about me. My aching head drives nails into my thoughts.\n\nA dropped jug crashes to the floor next to me.\n\nWithout hesitation, I snap and scream at the offending servant: "Es tarde en la noche. Los potentados locales parlotean a mi alrededor. Mi dolor de cabeza clava clavos en mis pensamientos.\n\nUna jarra caída se estrella contra el suelo a mi lado.\n\nSin dudarlo, le grito al sirviente ofensor: "¡Insolente #EMP [dummy_gender.Custom('InsultNounClumsy')]!#! ¿Fuiste engendrado por un ogro [dummy_gender.Custom('InsultAdjectiveClumsy')]?"" #NT!
+ bp2_yearly.1000.desc_flagellant: "#EMP *¡CRACK!*#! Mi látigo me desgarra, furioso, #EMP otra vez#! y #EMP otra vez.#! El dolor intenso, aislado y ardiente me concentra.\n\nLe doy a mi cuerpo el látigo unas cuantas veces más. Cada golpe me acerca un poquito más a la dulce absolución." #NT!
+ bp2_yearly.1000.desc_profligate: "#EMP Hmm#! esto se ve bien. Sí, eso también. He hecho mis compras elegidas, arrojo las mejores mercancías a mis sirvientes.\n\nAl darme la vuelta, contemplo el montón de frivolidades que he acumulado. Se está volviendo bastante... extenso. Y mi bolso se ha quedado... bastante vacío." #NT!
+ bp2_yearly.1000.desc_improvident: "Un excelente sermón, un rito perfecto. Cuando dejamos el [ROOT.Char.GetFaith.HouseOfWorship], yo, por supuesto, dignifico el [ROOT.Char.Custom('DefaultPriestTitle')] no solo con monedas, sino también con todas las joyas que puedo ahorrar. Algunos me miran con recelo.\n\n¡Pero el oro es algo pasajero! Más pesado es el peso de la culpa y la vergüenza..." #NT!
+ bp2_yearly.1000.desc_contrite: "[other_guest.GetTitledFirstName] me mira boquiabierto, horrorizado por la información íntima que acabo de confesar durante la cena. "Hiciste #EMP qué#!?" [other_guest.GetSheHe] repite, confundido.\n\nMi arrepentimiento tiene sus ventajas y desventajas, hay que admitirlo. Me siento aliviado... pero ¿es porque estoy cargando a los demás?" #NT!
+ bp2_yearly.1000.desc_comfort_eater: "Me recuesto en mi silla, probablemente bastante llena, pero otro manjar sensual se desliza por mis labios. Los rigores de mi agitada mañana se sienten casi enterrados.\n\nMe doy cuenta de que estoy rodeada de innumerables platos vacíos de [ROOT.Char.Custom('FavoriteTreat')]. Incontables." #NT!
+ bp2_yearly.1000.desc_inappetetic: "Toco la comida que tengo delante y la muevo para dar la impresión de que ya he comido. No quiero causar problemas. ¿Quién tiene tiempo para comer? El día es para gobernar; la noche, para hacer política. ¿Cómo puedo disfrutar de la comida mientras todo esto me pesa?" #NT!
+ bp2_yearly.1000.desc_journaller: "Dejé escapar un suspiro de alivio y dejé a un lado mis materiales de escritura. Dejé que mis ojos vagaran por mi pequeño y muy manoseado diario, una colección de garabatos que rara vez se apartan de mí.\n\nAl levantar la cabeza, vi que la luz del sol de la mañana había dado paso al atardecer. ¿Cuánto tiempo llevo hablando de esto?" #NT!
+ bp2_yearly.1000.desc_confider: "Ya sea en el desayuno o en una reunión informal, a menudo me acerco a mi confidente, [confider_friend.GetTitledFirstName], y comparto mi perspectiva sobre los asuntos.\n\n¡Qué bueno es escuchar mis pensamientos con mis propias palabras, confiar en las opiniones de un amigo! Una vez obtenido el consejo de [confider_friend.GetFirstNamePossessiveNoTooltip] sobre un asunto insignificante, miro hacia el comedor..." #NT!
+ bp2_yearly.1000.desc_athletic: "Doy otra vuelta por el patio, con el sudor corriendo por mi espalda, y capto las miradas de los transeúntes. ¡Un cuerpo fuerte realmente genera una mente sana!\n\nCon un rugido, me detengo, agarro una gran piedra y la levanto hasta mi pecho." #NT!
+ bp2_yearly.1000.outro_bad: "\n\n...y entonces veo a [appropriate_child.GetTitledFirstName], mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))], mirándome fijamente. #EMP Hmm.#!" #NT!
+ bp2_yearly.1000.outro: "\n\n...entonces noto que mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] me mira intrigado." #NT!
+ bp2_yearly.1000.a: "No fue exactamente mi mejor momento..." #NT!
+ bp2_yearly.1000.a_good: "Ahora, ¿dónde estaba yo?" #NT!
+ bp2_yearly.1000.a.flavor: "Estoy seguro que [appropriate_child.GetFirstNameNoTooltip] estará bien..." #NT!
+ bp2_yearly.1000.a.flavor_good: "No todos los hábitos son malos, ¿verdad?" #NT!
+ bp2_yearly.1000.a.tt: "Tu exhibición puede tener un impacto duradero en [appropriate_child.GetShortUIName]" #NT!
+ bp2_yearly.1000.b: "¿Quieres acompañarme?" #NT!
+ bp2_yearly.1000.b_drunkard: "¿Te gustaría unirte a mí?" #NT!
+ bp2_yearly.1000.b_contrite: "¿Cuáles son tus #EMP#! confesiones, niña?" #NT!
+ bp2_yearly.1000.b_inappetetic: "La comida es para los animales." #NT!
+ bp2_yearly.1000.b_us: "¿Quieres unirte a nosotros?" #NT!
+ bp2_yearly.1000.b_hashishiyah: "...¿quieres probar un poco?" #NT!
+ bp2_yearly.1000.b_reclusive: "Por favor #EMP salir#!." #NT!
+ bp2_yearly.1000.b_flagellant: "A veces el látigo es tu único consuelo." #NT!
+ bp2_yearly.1000.b_improvident: "Mi bolsa se siente liviana, pero mi corazón aún más liviano." #NT!
+ bp2_yearly.1000.b_athletic: "Incluso puedo correr más rápido que [ROOT.Char.GetFaith.WitchGodName], ¿sabes?" #NT!
+ bp2_yearly.1000.b_agitated: "¿¡Qué estás mirando #EMP tú#!!?" #NT!
+ bp2_yearly.1000.b.flavor: "¡Cuanto más, mejor!" #NT!
+ bp2_yearly.1000.b.flavor_contrite: "Los secretos son como heridas infectadas..." #NT!
+ bp2_yearly.1000.b.flavor_inappetetic: "Deberíamos volver a hacer el trabajo real." #NT!
+ bp2_yearly.1000.b.flavor_confider: "¡Confiar es un arte!" #NT!
+ bp2_yearly.1000.b.flavor_flagellant: "Es la verdad." #NT!
+ bp2_yearly.1000.b.flavor_improvident: "Debemos cuidar a los menos afortunados." #NT!
+ bp2_yearly.1000.b.flavor_athletic: "... bueno, no es que lo haya intentado." #NT!
+ bp2_yearly.1000.b.flavor_agitated: "¡El #EMP nervio#! de algunas personas!" #NT!
+  #Follow-up; the child is mimicking your stress behavior 
+ bp2_yearly.1001.t: "...da vueltas" #NT!
+ bp2_yearly.1001.desc_drunkard: "La puerta del sótano suele estar cerrada, pero me doy cuenta fácilmente de ello porque el cocinero no deja de quejarse de las ratas. Me acerco con cautela a la puerta abierta y sucia.\n\nAparece mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName], con la boca entreabierta, los ojos vidriosos y el aliento apestando a [ROOT.Char.Custom('RegionalAlcoholicDrink')] y a golosinas robadas." #NT!
+ bp2_yearly.1001.desc_hashishiyah: "Una risita sale de la aparentemente desierta sala del consejo. Entro, curiosa, y encuentro mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] escondida en un rincón de la habitación.\n\n[appropriate_child.GetSheHe|U] intenta contener [appropriate_child.GetHerHis] la alegría, pero #EMP conozco#! esa sonrisa torcida, ¡sin mencionar los ojos inyectados en sangre y el olor palpable a hachís!" #NT!
+ bp2_yearly.1001.desc_reclusive: "Hace días que no veo a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] por nuestras residencias. Los sirvientes empiezan a murmurar y los parientes se muestran preocupados, así que me acerco al dormitorio de [appropriate_child.GetHerHis].\n\nCuando entro en la habitación (después de todo, #EMP es#! mi dominio), [appropriate_child.GetFirstNameNoTooltip] se da vuelta sin formalidad ni cortesía, silbándome para que salga y deje a [appropriate_child.GetHerHim] solo." #NT!
+ bp2_yearly.1001.desc_irritable: "En mi camino del comedor al baño, me encuentro con un #EMP muy#! furioso [appropriate_child.GetFirstName].\n\n"#EMP ¡Insolente [appropriate_child.Custom('InsultNounClumsy')]!#!" [appropriate_child.GetSheHe] aúlla. "¡Has manchado mi [appropriate_child.Custom('child_object_of_interest')]! ¿Por qué no vas a ahogarte en ese [ROOT.Char.Custom('RegionalDrink')]?"" #NT!
+ bp2_yearly.1001.desc_flagellant: "Mis oscuras mazmorras resuenan con gritos de dolor... #EMP grita el juvenil#!. Me apresuro a avanzar.\n\nEntrecerrando los ojos, veo que el culpable es mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] y... #EMP ¿es ese uno de mis látigos?#! Se me cae la mandíbula cuando [appropriate_child.GetFirstNameNoTooltip] hiere a [appropriate_child.GetHerselfHimself] en nombre de [ROOT.Char.GetFaith.HighGodNameAlternate]." #NT!
+ bp2_yearly.1001.desc_profligate: "Por tercera vez en varias semanas, [appropriate_child.GetFirstName] ha pedido un juguete nuevo y caro. Los vendedores ambulantes acechan cada uno de nuestros movimientos desde la fortaleza.\n\nEsto me preocupa un poco. Después de todo, ¿qué pasaría si [appropriate_child.GetSheHe] tuviera algún día poder sobre el tesoro? Semejante gasto...\n\n¿Y qué es esto? ¿Acaso [appropriate_child.GetSheHe] ha comprado el mismo [ROOT.Char.Custom('GetAccessory')] que yo compré una vez?" #NT!
+ bp2_yearly.1001.desc_improvident: "Estos últimos días, he notado que mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] regala muchos de los juguetes de [appropriate_child.GetHerHis] a otros niños.\n\nEn los raros momentos en que pasa tiempo entre los comunes, [appropriate_child.GetSheHe] me insiste para que se los dé a los mendigos, ¡y se detiene a llorar ante la historia de desdicha de cada pobre viuda!" #NT!
+ bp2_yearly.1001.desc_contrite: "Nuestro propio [appropriate_child.GetFirstName] está de pie sobre un cofre. [appropriate_child.GetSheHe|U] ha reunido a una multitud de niños y les cuenta los secretos más mundanos imaginables. A su vez, [appropriate_child.GetSheHe] convence a los niños para que revelen sus propias fechorías.\n\n"Yo... yo me llevé el último [appropriate_child.Custom('FavoriteTreat')]", admite uno de los [dummy_gender.Custom('GirlBoy')], tembloroso. "¡Maté a una rata!", confiesa otro niño." #NT!
+ bp2_yearly.1001.desc_comfort_eater: "Siguiendo con mi rutina, noto algo inusual: mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName], compartiendo un escondite con un desastre de [appropriate_child.Custom('FavoriteTreat')], comiendo sin parar.\n\nHan pasado muchas cosas aquí últimamente, y [appropriate_child.GetSheHe] #EMP se ha vuelto un poco más redondo..." #NT!
+ bp2_yearly.1001.desc_inappetetic: "Durante la cena, mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] siempre parece impaciente y les hace gestos a los sirvientes que le traen las bandejas para que la dejen en paz.\n\n ¿Quizás [appropriate_child.GetSheHe] simplemente está ansiosa por irse a hacer otras actividades? O, si no estoy imaginando cosas, ¿las mejillas de [appropriate_child.GetHerHis] se están poniendo un poco... pálidas y delgadas?" #NT!
+ bp2_yearly.1001.desc_journaller: "Recientemente, he visto una avalancha de notas escritas a mano esparcidas por mi propiedad. ¿La fuente? Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName], encorvada en una habitación vacía, escribiendo a gusto.\n\nConsidero mi propio hábito de escritura, mi diario está repleto de reflexiones. Tal vez he compartido una práctica que vale la pena." #NT!
+ bp2_yearly.1001.desc_confider: "He notado un cambio sutil en mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] recientemente. [appropriate_child.GetSheHe|U] está pasando más tiempo con los amigos cercanos de [appropriate_child.GetHerHis], susurrando y riendo.\n\nJuro que esos [appropriate_child.Custom('GirlBoyPlural')] saben más sobre [appropriate_child.GetHerHim] que yo, y su vínculo parece fuerte. Amigos como estos, amigos de confianza con los que se puede hablar con franqueza, son realmente un regalo." #NT!
+ bp2_yearly.1001.desc_athletic: "En el patio, los niños pasan rápidamente: uno es claramente más rápido y ágil que [appropriate_child.GetHerHis] compañeros.\n\n'¡Es mi propio [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('appropriate_child'))] [appropriate_child.GetFirstName] superando al resto!\n\nSonrío alentadoramente, impresionado por [appropriate_child.GetHerHis] inesperado muestra de voluntad y perseverancia. Pronto, los otros corredores se detienen temprano. ¡El orgullo por [appropriate_child.GetFirstNameNoTooltip] arde en mi corazón!" #NT!
+ bp2_yearly.1001.outro_bad: "\n\nMe alejo tambaleándome de la vista. ¿Así es como actúo #EMP I#!?" #NT!
+ bp2_yearly.1001.outro: "¿Tal vez no sea un hábito tan terrible después de todo?" #NT!
+ bp2_yearly.1001.a: "[appropriate_child.GetFirstNameNoTooltip], ven aquí." #NT!
+ bp2_yearly.1001.a.flavor: "Haz lo que digo, no lo que hago." #NT!
+ bp2_yearly.1001.a.flavor_good: "¡Este comportamiento debe ser fomentado!" #NT!
+ bp2_yearly.1001.a.no_trait.t: "Tutorizado" #NT!
+ bp2_yearly.1001.a.no_trait.desc: "[appropriate_child.GetFirstNameNoTooltip] abandona el hábito" #NT!
+ bp2_yearly.1001.a.trait.t: "Rasgo adquirido" #NT!
+ bp2_yearly.1001.a.trait.desc: "[appropriate_child.GetFirstNameNoTooltip] se inclina hacia el hábito" #NT!
+ bp2_yearly.1001.b: "¿Qué #EMP am#! estoy haciendo?" #NT!
+ bp2_yearly.1001.b.flavor: "Debería mejorar." #NT!
+ bp2_yearly.1001.c: "Yo... no puedo lidiar con esto ahora mismo." #NT!
+ bp2_yearly.1001.c_ecc_sadist: "¡Ese es mi [appropriate_child.Custom('GirlBoy')]!" #NT!
+ bp2_yearly.1001.c_callous: "¿Quién soy yo para interrumpir?" #NT!
+ bp2_yearly.1001.c.flavor: "Estoy seguro de que alguien más se encargará de ello." #NT!
+ bp2_yearly.1001.c.flavor_ecc_sadist: "Deja que la carne #EMP cante.#!" #NT!
+ bp2_yearly.1001.c.flavor_callous: "¿Quién dijo que criar hijos era difícil?" #NT!
+  #Child: You notice your parent/guardian performing a stress trait 
+ bp2_yearly.1005.t: "Niño Mira, Niño..." #NT!
+ bp2_yearly.1005.intro: "He observado mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('stressed_adult'))], [stressed_adult.GetTitledFirstName]," #NT!
+ bp2_yearly.1005.desc_drunkard: "Últimamente he visto a [ROOT.Char.Custom('RegionalAlcoholicDrink')] con bastante frecuencia.\n\nUna vez incluso encontré a [stressed_adult.GetHerHim] en un rincón del lugar, boca abajo en un charco de... origen cuestionable. [stressed_adult.GetSheHe] estaba borracho hasta los huesos.\n\nPero independientemente de la apariencia de [stressed_adult.GetHerHis], [stressed_adult.GetSheHe] #EMP parecían#! bastante pacíficos." #NT!
+ bp2_yearly.1005.desc_hashishiyah: "Últimamente me escabullo con frecuencia para quemar hachís.\n\nEn un momento encontré a [stressed_adult.GetHerHim] tirado en el suelo de la habitación de [stressed_adult.GetHerHis] durante un día entero, "en un esfuerzo por inspeccionar el techo", dijo [stressed_adult.GetSheHe], con los ojos vidriosos.\n\nParecía bastante relajante." #NT!
+ bp2_yearly.1005.desc_reclusive: "permaneciendo fuera de la vista de [stressed_adult.GetHerHis] estudiando últimamente.\n\nLa semana pasada [stressed_adult.GetSheHe] se quedó allí varios días, incluso pidió que le trajeran comida a la habitación de [stressed_adult.GetHerHis].\n\nParecía bastante tranquilo, aunque al hacerlo [stressed_adult.GetSheHe] descuidó algunos eventos en la corte." #NT!
+ bp2_yearly.1005.desc_irritable: "dando sermones severos y arremetiendo contra cosas insignificantes últimamente.\n\nEl otro día [stressed_adult.GetSheHe] casi le arranca la cabeza a uno de los sirvientes por rechazar [stressed_adult.GetHerHis] hojas incorrectamente.\n\nDespués [stressed_adult.GetSheHe] parecía bastante sereno, sin embargo." #NT!
+ bp2_yearly.1005.desc_flagellant: "causando daño voluntario a [stressed_adult.GetHerselfHimself] últimamente.\n\nJusto el otro día, escuché a [stressed_adult.GetHerHim] azotar la piel de [stressed_adult.GetHerHis] con un látigo mientras cantaba versos religiosos en el sótano.\n\nAl principio me asusté, pero pareció aliviarse ☻ _2 mente." #NT!
+ bp2_yearly.1005.desc_profligate: "obteniendo muchos artículos únicos últimamente.\n\nAlgunos de los sirvientes parecen descartar los artículos como chucherías serviles y describen el comportamiento de [stressed_adult.GetHerHis] como "arrojar oro al pozo".\n\nNo estoy tan seguro, [stressed_adult.GetSheHe] parece ¿Disfrutar coleccionando chucherías?" #NT!
+ bp2_yearly.1005.desc_improvident: "donando mucho oro a organizaciones benéficas últimamente.\n\nHe notado que algunas personas en la corte lo desaprueban un poco; incluso llegan a afirmar que [stressed_adult.GetSheHe] no es bueno con el oro.\n\nPero si levanta el ánimo a [stressed_adult.GetHerHis], eso es algo bueno, ¿verdad...?" #NT!
+ bp2_yearly.1005.desc_contrite: "reconociendo y confesando las más pequeñas indiscreciones últimamente.\n\nJusto el otro día [stressed_adult.GetSheHe] le confesó al sirviente que a [stressed_adult.GetSheHe] no le importaba mucho la ropa del sirviente y que [stressed_adult.GetSheHe] tenía la conciencia culpable por eso.\n\nParecía un poco trivial, pero si tranquiliza a [stressed_adult.GetHerHis]...?" #NT!
+ bp2_yearly.1005.desc_comfort_eater: "devorando un montón de [stressed_adult.Custom('FavoriteTreat')] últimamente.\n\nPor mucho no me refiero a cinco o diez, sino al triple, y he oído a los sirvientes susurrar sobre que es necesario aumentar la talla de camisa de [stressed_adult.GetHerHis].\n\nSin embargo; el acto de indulgencia parece calmar a [stressed_adult.GetHerHim]..." #NT!
+ bp2_yearly.1005.desc_inappetetic: "últimamente descuidando alguna que otra cena.\n\nBueno, en realidad, no he visto a [stressed_adult.GetHerHim] comer desde ayer por la mañana. Los sirvientes susurran que el sastre también se vio obligado a reducir la talla de la camisa de [stressed_adult.GetHerHis] la semana pasada.\n\n¿Eso es algo malo?" #NT!
+ bp2_yearly.1005.desc_journaller: "con manchas de tinta en los dedos de [stressed_adult.GetHerHis] recientemente.\n\n[stressed_adult.GetSheHe|U] no va a ningún lado sin ese libro encuadernado en cuero al lado de [stressed_adult.GetHerHis], tomando notas constantemente.\n\nDejando de lado las manchas de tinta, [stressed_adult.GetSheHe] parece más tranquilo y ordenado recientemente. Parece... agradable." #NT!
+ bp2_yearly.1005.desc_confider: "estando figurativamente pegado a la oreja de [stressed_adult.GetHerHis] confidente [confidant_friend.GetTitledFirstNamePossessive] últimamente.\n\nParecen compartir todo entre ellos, mientras caminan por el pasillo, riéndose.\n\nDebe ser agradable poder transmitir todo lo bueno y malo de tu vida a alguien." #NT!
+ bp2_yearly.1005.desc_athletic: "ya haga sol o llueva, últimamente he estado dando varias vueltas alrededor del perímetro de la propiedad.\n\nAlgunos de los cortesanos fruncen el ceño ante el olor almizclado que perciben después del entrenamiento, pero parece que los susurros deprimentes solo hacen que [stressed_adult.GetHerHim] sea más resistente en la resolución de [stressed_adult.GetHerHis].\n\nMe intriga." #NT!
+ bp2_yearly.1005.a: "Debería probarlo." #NT!
+ bp2_yearly.1005.a.flavor: "¿Qué daño podría hacer...?" #NT!
+ bp2_yearly.1005.a.stressed.t: "Estresado" #NT!
+ bp2_yearly.1005.a.stressed.desc: "Fue #EMP no#! una experiencia placentera" #NT!
+ bp2_yearly.1005.a.trait.desc: "Te gusta mucho #EMP #!" #NT!
+ bp2_yearly.1005.a.insight.t: "Conocimiento" #NT!
+ bp2_yearly.1005.a.insight.desc: "Encuentras una mejor manera" #NT!
+ bp2_yearly.1005.b: "Mejor no." #NT!
+  #Parent/Guardian: Your child gives you a hug 
+ bp2_yearly.1010.t: "Incondicionalmente" #NT!
+ bp2_yearly.1010.intro: "Mientras me inclino sobre el mapa en la sala del consejo, un crujido repentino de #EMP#! me hace girar la cabeza hacia la puerta. Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hugging_child'))] [hugging_child.GetFirstName] aparece en el pasillo." #NT!
+ bp2_yearly.1010.desc_toddler: "acercándose a mí a una velocidad sorprendente para [hugging_child.GetHerHis] edad.\n\n[hugging_child.GetSheHe|U] envuelve a [hugging_child.GetHerselfHimself] firmemente alrededor de mi pierna, abrazándome fuerte e inclinando [hugging_child.GetHerHis] la cabeza hacia atrás para mirarme." #NT!
+ bp2_yearly.1010.desc_rambler: "corriendo como el viento hacia mí, gritando #EMP "¡Abrazos!"#!\n\n[hugging_child.GetSheHe|U] se inclina y envuelve mis caderas en un abrazo firme." #NT!
+ bp2_yearly.1010.desc_kid: "Entra en la habitación.\n\n[hugging_child.GetSheHe|U] me mira con una mirada inescrutable por un momento, luego camina hacia mí y me envuelve en un fuerte abrazo." #NT!
+ bp2_yearly.1010.desc_teenager: "Entra tranquilamente en la habitación, aparentemente desinteresado en mi presencia.\n\nLuego, sin previo aviso, me envuelve en un fuerte abrazo. [hugging_child.GetSheHe|U] me suelta rápidamente, con una expresión avergonzada." #NT!
+ bp2_yearly.1010.outro_callous: "\n\n¿Qué es esta sensación cálida en mi pecho...?" #NT!
+ bp2_yearly.1010.outro_young: "\n\nMiro a [hugging_child.GetHerHim], con una lágrima oculta en el ojo mientras mi mano acaricia el cabello de [hugging_child.GetHerHis] en un esfuerzo por corresponder al gesto." #NT!
+ bp2_yearly.1010.outro_older: "\n\nMiro a [hugging_child.GetHerHim], con una lágrima oculta en el ojo mientras mi mano aprieta el hombro de [hugging_child.GetHerHis] en un esfuerzo por corresponder el gesto." #NT!
+ bp2_yearly.1010.a: "Eres un buen [hugging_child.Custom('GetDaughterSon')]..." #NT!
+ bp2_yearly.1010.a_callous: "Ahí, ahí." #NT!
+ bp2_yearly.1010.a.flavor: "No llores. NO llores." #NT!
+ bp2_yearly.1010.a.flavor_callous: "Ahora, suéltame..." #NT!
+  #Parent/Guardian: Your child/ward found a pouch of gold while exploring 
+ bp2_yearly.1015.t: "Niño de oro" #NT!
+ bp2_yearly.1015.intro: "Una mañana mientras me preparo para afrontar el día, mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('golden_child'))] [golden_child.GetFirstName] se acerca a mí:" #NT!
+ bp2_yearly.1015.desc_guardian: "\n\n"[ROOT.Char.Custom('MistressMaster')|U] [ROOT.Char.GetFirstNameNoTooltip]," #NT!
+ bp2_yearly.1015.desc_parent: "\n\n"[golden_child.Custom2('RelationToMeShort', ROOT.Char)|U]," #NT!
+ bp2_yearly.1015.outro: "Encontramos esto mientras explorábamos la torre norte ayer. Deberías tenerlo". [golden_child.GetSheHe] le entrega una pequeña y destartalada bolsa de monedas. Hace un sonido metálico." #NT!
+ bp2_yearly.1015.a: "¡Muy agradecido!" #NT!
+ bp2_yearly.1015.a.flavor: "¡Qué niño tan agradable!" #NT!
+ bp2_yearly.1015.a.flavor_greedy: "¿Eso es todo...?" #NT!
+ bp2_yearly.1015.b: "¡Consérvelo! ¡Inviértalo!" #NT!
+ bp2_yearly.1015.b.tt: "Esto contribuirá aún más a [golden_child.GetFirstNamePossessiveNoTooltip] [stewardship|E] [education_focus|E]" #NT!
+ bp2_yearly.1015.b.tt_matching: "Esto ayudará mucho a [golden_child.GetFirstNamePossessiveNoTooltip] [stewardship|E] [education_focus|E]" #NT!
+  #Parent/Guardian: Your child/ward has found a secret in court 
+ bp2_yearly.1020.t: "Aquí están los secretos" #NT!
+ bp2_yearly.1020.intro: "Mientras me inclino para tomar un pasaje de las Escrituras para estudiar, mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('secrety_child'))] [secrety_child.GetFirstName] irrumpe por la puerta, interrumpiendo mi tranquila soledad." #NT!
+ bp2_yearly.1020.desc_guardian: ""[ROOT.Char.Custom('MistressMaster')|U] [ROOT.Char.GetFirstNameNoTooltip]!" #NT!
+ bp2_yearly.1020.desc_parent: ""[secrety_child.Custom2('RelationToMeShort', ROOT.Char)|U]!" #NT!
+ bp2_yearly.1020.desc: "¡No creerás lo que descubrí sobre [secret_keeper.GetTitledFirstName]!" [secrety_child.GetSheHe|U] hace una pausa para recuperar [secrety_child.GetHerHis] el aliento para lograr un efecto dramático." #NT!
+ bp2_yearly.1020.a: "Bueno, entonces ¡habla!" #NT!
+ bp2_yearly.1020.a.secret.t: "Secreto aprendido" #NT!
+ bp2_yearly.1020.a.tt: "Descubres un secreto sobre uno de tus cortesanos." #NT!
+ bp2_yearly.1020.b: "¡A-a! Los secretos son una moneda, querida [secrety_child.Custom('GirlBoy')]!" #NT!
+ bp2_yearly.1020.b.tt: "Esto contribuirá aún más a [secrety_child.GetFirstNamePossessiveNoTooltip] [intrigue|E] [education_focus|E]" #NT!
+ bp2_yearly.1020.b.tt_matching: "Esto ayudará mucho a [secrety_child.GetFirstNamePossessiveNoTooltip] [intrigue|E] [education_focus|E]" #NT!
+  #Parent: Your child does not have the same educational trait as you. Change? 
+ bp2_yearly.1030.t: "Las caídas de la manzana" #NT!
+ bp2_yearly.1030.desc: "Últimamente he estado reflexionando sobre la educación de mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('focus_child'))] [focus_child.GetFirstName]: ¿es [focus_child.Custom('GetChildEducationFocus')] realmente la dirección apropiada?\n\nDesde que fui entrenado en [ROOT.Char.Custom('education_focus')], he descubierto que ese conocimiento en particular me resulta muy útil.\n\nSeguramente debería hacer lo mismo con [focus_child.GetHerHim]." #NT!
+ bp2_yearly.1030.a: "Forma [focus_child.GetHerHim] en mi imagen." #NT!
+ bp2_yearly.1030.a.tt_change: "[focus_child.GetFirstNamePossessiveNoTooltip] [education_focus|E] cambia a [THIS.Char.Custom('GetEducationTraitConcept')]" #NT!
+ bp2_yearly.1030.a.tt_tutor: "Tú personalmente das clases particulares a [focus_child.GetFirstNameNoTooltip] para compensar cualquier educación perdida" #NT!
+ bp2_yearly.1030.b: "Un conjunto variado de habilidades sólo es beneficioso." #NT!
+ bp2_yearly.1030.b.tt: "Esto contribuirá aún más a [focus_child.GetFirstNamePossessiveNoTooltip] [focus_child.Custom('GetEducationTraitConcept')] [education_focus|E]" #NT!
+  #Parent/Guardian: Your child/ward has a rock collection 
+ bp2_yearly.1035.t: "Una joya en bruto" #NT!
+ bp2_yearly.1035.desc: "During one of our lessons in my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rock_child'))] [rock_child.GetFirstNamePossessive] chambers, I notice a collection of rocks neatly displayed on a shelf.\n\nOne of the stones stand out in the collection — it is quite rough but upon closer inspection there is a deeply red, brilliant hue contained within.\n\n[rock_child.GetSheHe|U] notices my interest, picks it up and hands it over: "Durante una de nuestras lecciones en mi habitación [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('rock_child'))] [rock_child.GetFirstNamePossessive], noto una colección de rocas cuidadosamente exhibidas en un estante.\n\nUna de las piedras se destaca en la colección: es bastante áspera, pero al inspeccionarla más de cerca, contiene un tono rojo intenso y brillante.\n\n[rock_child.GetSheHe|U] nota mi interés, la recoge y me la entrega: "Puedes quedártela," #NT!
+ bp2_yearly.1035.desc_guardian: "[ROOT.Char.Custom('MistressMaster')] [ROOT.Char.GetFirstNameNoTooltip]."" #NT!
+ bp2_yearly.1035.desc_parent: "[rock_child.Custom2('RelationToMeShort', ROOT.Char)]."" #NT!
+ bp2_yearly.1035.a: "Oh, gracias." #NT!
+ bp2_yearly.1035.a.flavor: "¿Es eso... una joya?" #NT!
+ gemstone_trinket_rough: "Piedra preciosa en bruto" #NT!
+ gemstone_trinket_rough.desc: "Una piedra preciosa con costra desenterrada por [rock_child.GetTitledFirstNameNoTooltip] en las cercanías de [trinket_location.GetNameNoTooltip]." #NT!
+ gemstone_trinket_modest: "Piedra preciosa modesta" #NT!
+ gemstone_trinket_modest.desc: "Una fina piedra preciosa desenterrada por [rock_child.GetTitledFirstNameNoTooltip] en las cercanías de [trinket_location.GetNameNoTooltip]." #NT!
+ gemstone_trinket_brilliant: "Piedra preciosa brillante" #NT!
+ gemstone_trinket_brilliant.desc: "Una piedra preciosa brillante desenterrada por [rock_child.GetTitledFirstNameNoTooltip] en las cercanías de [trinket_location.GetNameNoTooltip]." #NT!
+ bp2_yearly.1035.b: "Deberías estudiar eso, niña." #NT!
+ bp2_yearly.1035.b.tt: "Esto contribuirá aún más a [rock_child.GetFirstNamePossessiveNoTooltip] [learning|E] [education_focus|E]" #NT!
+ bp2_yearly.1035.b.tt_matching: "Esto ayudará mucho a [rock_child.GetFirstNamePossessiveNoTooltip] [learning|E] [education_focus|E]" #NT!
+  #Parent/Guardian: Your child/ward has a text about martial arts 
+ bp2_yearly.1040.t: "Una pluma poderosa" #NT!
+ bp2_yearly.1040.desc: "Picking up the padded swords for a sparring match with my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sparring_child'))] [sparring_child.GetFirstName], I notice a tattered journal on a sideboard.\n\nFrom the cover, it seems to contain exercises and best practices pertaining to the martial arts.\n\n[sparring_child.GetFirstNameNoTooltip] glances in my direction: "Mientras tomo las espadas acolchadas para un combate de entrenamiento con mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('sparring_child'))] [sparring_child.GetFirstName], noto un diario hecho jirones en un aparador.\n\nPor la portada, parece contener ejercicios y mejores prácticas relacionadas con las artes marciales.\n\n[sparring_child.GetFirstNameNoTooltip] mira en mi dirección: "Oh. Esa cosa... la leo principalmente por las ilustraciones. Puedes tomarla prestada"." #NT!
+ bp2_yearly.1040.a: "Intrigante." #NT!
+ bp2_yearly.1040.a.flavor: ""Agarra la empuñadura, no la punta". Hm." #NT!
+ bp2_yearly.1040.b: "¡Deberíamos probarlo!" #NT!
+ bp2_yearly.1040.b.tt: "Esto contribuirá aún más a [sparring_child.GetFirstNamePossessiveNoTooltip] [martial|E] [education_focus|E]" #NT!
+ bp2_yearly.1040.b.tt_matching: "Esto ayudará mucho a [sparring_child.GetFirstNamePossessiveNoTooltip] [martial|E] [education_focus|E]" #NT!
+ #Parent/Guardian: There is a brawl among some children 
+ bp2_yearly.1045.t: "El negociador" #NT!
+ bp2_yearly.1045.intro: "Durante mi paseo vespertino por las calles de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip], mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('diplomacy_child'))] [diplomacy_child.GetFirstName] corre hacia mí:" #NT!
+ bp2_yearly.1045.desc_guardian: "$bp2_yearly.1020.desc_guardian$" #NT!
+ bp2_yearly.1045.desc_parent: ""[diplomacy_child.Custom2('RelationToMeShort', ROOT.Char)|U]!" #NT!
+ bp2_yearly.1045.desc: "Empezaron a golpearse el uno al otro cuando..."\n\n[diplomacy_child.GetSheHe|U] es interrumpido por un agudo chillido, dirigiendo nuestra atención a la pelea que se desarrollaba al final de la calle.\n\nLos combatientes parecen estar a un par de pajes de #EMP mi#! corte, dando vueltas uno alrededor del otro en preparación para otra pelea." #NT!
+ bp2_yearly.1045.a: "#EMP Ya se van, los dos.#!" #NT!
+ bp2_yearly.1045.a.perk.t: "Beneficio obtenido" #NT!
+ bp2_yearly.1045.a.flavor: "Peleando; #EMP en mi propio patio trasero#!..." #NT!
+ bp2_yearly.1045.b: "#EMP Atractivo#!! Me gustaría apostar por..." #NT!
+ bp2_yearly.1045.b.flavor: "Ese parece feroz." #NT!
+ bp2_yearly.1045.b.win.t: "Lucha ganada" #NT!
+ bp2_yearly.1045.b.win.desc: "Tu luchador gana" #NT!
+ bp2_yearly.1045.b.loss.t: "Lucha perdida" #NT!
+ bp2_yearly.1045.b.loss.desc: "Tu luchador pierde" #NT!
+ bp2_yearly.1045.c: "[diplomacy_child.GetFirstNameNoTooltip], ayúdalos a mediar." #NT!
+ bp2_yearly.1045.c.tt: "Esto contribuirá aún más a [diplomacy_child.GetFirstNamePossessiveNoTooltip] [diplomacy|E] [education_focus|E]" #NT!
+ bp2_yearly.1045.c.tt_matching: "Esto ayudará mucho a [diplomacy_child.GetFirstNamePossessiveNoTooltip] [diplomacy|E] [education_focus|E]" #NT!
+  #The tide/sandstorm is ruining your sandcastle! 
+ bp2_yearly.1050.t_builder: "El constructor" #NT!
+ bp2_yearly.1050.t: "$bp2_yearly.1050.t_builder$: Castillos de arena en la arena" #NT!
+ bp2_yearly.1050.t_twig: "$bp2_yearly.1050.t_builder$: La tormenta que se avecina" #NT!
+ bp2_yearly.1050.desc: "El majestuoso castillo de arena se eleva sobre la playa, mientras he pasado la tarde esculpiendo minuciosos detalles en la arena húmeda y granulada.\n\nSin embargo, a medida que el tiempo pasa implacablemente hacia adelante, también lo hace la marea, y cada segundo se acerca más a mi obra maestra fangosa, mordisqueando sus pies.\n\nMiro desesperadamente la marea, tratando de descubrir cómo garantizar la seguridad de mi castillo antes de retirarme." #NT!
+ bp2_yearly.1050.desc_desert: "Los sirvientes han estado trayendo agua para mi majestuoso castillo de arena en el desierto todo el día mientras el sol golpeaba implacablemente nuestras espaldas. Tallo un último y minucioso detalle en la torre más alta cuando noto la tormenta de arena que se acerca en el horizonte. Mi frente se frunce instantáneamente, mientras trato de descubrir cómo proteger mi castillo de la tormenta que se avecina antes de retirarme." #NT!
+ bp2_yearly.1050.desc_twig: "El magnífico modelo de castillo que hice con ramitas y pequeñas rocas realmente tiene un aire de esplendor.\n\nMientras aplico los toques finales a la torre más alta, la lluvia comienza a caer mientras la tormenta que se estaba gestando en el horizonte finalmente alcanza mi ubicación.\n\nLe lanzo a la tormenta una mirada desesperada, tratando furiosamente de descubrir cómo garantizar la seguridad de mi creación antes de retirarme." #NT!
+ bp2_yearly.1050.a: "¡Sobornaré a la marea con estas piedras brillantes!" #NT!
+ bp2_yearly.1050.a.flavor: "Me gustan mucho estas piedras; pero es por una buena causa." #NT!
+ bp2_yearly.1050.a_twig: "¡Sobornaré a la tormenta con estas piedras brillantes!" #NT!
+ bp2_yearly.1050.a.flavor_twig: "Me gustan mucho estas piedras; pero es por una buena causa." #NT!
+ bp2_yearly.1050.b: "Debería reforzar los muros exteriores." #NT!
+ bp2_yearly.1050.b.flavor: "#EMP Yo#! siempre me siento seguro con paredes." #NT!
+ bp2_yearly.1050.c: "Un pequeño santuario en la plaza principal será suficiente." #NT!
+ bp2_yearly.1050.c.flavor: "[ROOT.Char.GetFaith.HighGodNameAlternate] ¡seguramente lo protegerá!" #NT!
+  #Follow-up: Curse you, tide! 
+ bp2_yearly.1051.t: "$bp2_yearly.1050.t_builder$: Arenas movedizas" #NT!
+ bp2_yearly.1051.t_twig: "$bp2_yearly.1050.t_builder$: Todo lo que queda" #NT!
+ bp2_yearly.1051.desc: "Al día siguiente, cuando regreso a la playa, corro hacia el lugar donde el día anterior se alzaba mi majestuoso castillo sobre la arena mojada." #NT!
+ bp2_yearly.1051.desc_desert: "Cuando la tormenta amaina al día siguiente, corro al lugar donde construí cuidadosamente mi majestuoso castillo de arena el día anterior." #NT!
+ bp2_yearly.1051.desc_twig: "Al amanecer, la tormenta finalmente se calma y salgo corriendo entre los arbustos para inspeccionar los daños causados ​​a mi magnífico castillo de ramitas." #NT!
+ bp2_yearly.1051.outro: "\n\nLa mayor parte ha desaparecido, pero queda un elemento en pie: la torre más alta, con la pequeña insignia que tallé cuidadosamente para mí. #EMP Éxito.#!\n\nAt A sus pies encuentro una pequeña piedra iridiscente, medio enterrada en la tierra. Puede que esté imaginando cosas, pero al examinarla más de cerca, distingo vagamente la forma de un pequeño... ¿mazo?" #NT!
+ bp2_yearly.1051.a: "Ganas #EMP esta #! ronda, marea." #NT!
+ bp2_yearly.1051.a_twig: "Ganas #EMP esta#! ronda, tormenta." #NT!
+ iridescent_stone_trinket: "Piedra iridiscente" #NT!
+ iridescent_stone_trinket.desc: "La piedra iridiscente que se encuentra en [ROOT.Char.GetCurrentLocation.GetName] parece tener una mancha oscura con forma de mazo diminuto en un lado. Curioso." #NT!
+  #You are challenged to a den-building competition 
+ bp2_yearly.1055.t: "$bp2_yearly.1050.t_builder$: Y Den Eran..." #NT!
+ bp2_yearly.1055.desc: "El día lo he pasado jugando al aire libre, en general un día bastante agradable, cuando de repente se me acerca" #NT!
+ bp2_yearly.1055.desc_related: "my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('den_challenger'))], [den_challenger.GetTitledFirstName]: "mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('den_challenger'))], [den_challenger.GetTitledFirstName]: "¡Te reto a una competencia de construcción de guaridas, [den_challenger.Custom2('RelationToMeShort', ROOT.Char )]!" #NT!
+ bp2_yearly.1055.desc_relations: "my [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('den_challenger'))], [den_challenger.GetTitledFirstName]: "mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('den_challenger'))], [den_challenger.GetTitledFirstName]: "¡Te reto a una competencia de construcción de guaridas, [ROOT.Char.GetFirstNameNoTooltip]!" #NT!
+ bp2_yearly.1055.desc_liege: "a local child: "un niño local: "Soy [den_challenger.GetTitledFirstName] y te desafío a una competencia de construcción de madrigueras, [ROOT.Char.GetLadyLord] [ROOT.Char.GetFirstNameNoTooltip]"." #NT!
+ bp2_yearly.1055.outro: "\n\n[den_challenger.GetSheHe|U] se pavonea y me sonríe triunfante, esperando plenamente ganar." #NT!
+ bp2_yearly.1055.a: "Permítanme reclutar a estos trabajadores..." #NT!
+ bp2_yearly.1055.a.flavor: "No es trampa si se paga." #NT!
+ bp2_yearly.1055.b: "¡Podemos construir una guarida más fuerte #EMP juntos!#!" #NT!
+ bp2_yearly.1055.b.flavor: "Con paredes altas." #NT!
+ bp2_yearly.1055.c: "Estoy ocupado construyendo este altar. Vete." #NT!
+ bp2_yearly.1055.c.flavor: "[ROOT.Char.GetFaith.HighGodName] es el único que puede juzgar #EMP mi#! trabajo." #NT!
+  #Follow-up: Things went down in the woods 
+ bp2_yearly.1056.t_economy: "$bp2_yearly.1050.t_builder$: ... Muchos" #NT!
+ bp2_yearly.1056.t_martial: "$bp2_yearly.1050.t_builder$: ... Dos" #NT!
+ bp2_yearly.1056.t_pious: "$bp2_yearly.1050.t_builder$: ...Empapado" #NT!
+ bp2_yearly.1056.desc_economy: "Reclutar a los jóvenes locales y pagarles en [ROOT.Char.Custom('RegionalRootVegetablePlural')] hizo maravillas para construir la guarida más gloriosa de este lado de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip].\n\n[den_challenger.GetTitledFirstName|U] mira a regañadientes mi creación y se queja mientras la exigua construcción de uno-[den_challenger.GetWomanMan] de [den_challenger.GetHerHis] apenas mantiene afuera la lluvia." #NT!
+ bp2_yearly.1056.desc_martial: "[den_challenger.GetTitledFirstName] es sorprendentemente fuerte, y entre los dos construimos una guarida adecuada y resistente, justo a tiempo para que los cielos se abran y dejen caer una lluvia torrencial.\n\nLos rayos atraviesan el cielo a toda velocidad; ninguno de ellos nos golpea porque estamos protegidos por las paredes de la guarida.\n\nMientras nos sentamos dentro del escondite, secos y seguros gracias a nuestro arduo trabajo, no puedo evitar contemplar el valor de la unión y la camaradería." #NT!
+ bp2_yearly.1056.desc_pious: "Una vez que corono el altar con un palo viejo, la lluvia comienza a caer con fuerza, obligándonos a buscar refugio. Un enorme rayo del cielo golpea el altar con un estruendoso *THWACK*, y me apresuro a evaluar los daños.\n\nCuando el altar aparece a la vista, una tenue columna de humo sale del palo, que está ennegrecido en un extremo y recibió un buen golpe por el golpe.\n\nLo observo con atención mientras lo recojo. Todavía está tibio en mi mano." #NT!
+ bp2_yearly.1056.a_economy: "El empleo es verdaderamente la #EMP raíz#! de la prosperidad." #NT!
+ bp2_yearly.1056.a_martial: "Las alianzas son una gran defensa. Y los muros." #NT!
+ bp2_yearly.1056.a_pious: "¡Esto seguramente es una señal de [ROOT.Char.GetFaith.HighGodNameAlternate]!" #NT!
+ holy_stick: "Palo Santo" #NT!
+ holy_stick.desc: "Creado durante un rayo en [ROOT.Char.GetCurrentLocation.GetName]. Una mancha ennegrecida con forma de martillo marca la empuñadura." #NT!
+  #Appreciate the architecture of your capital 
+ bp2_yearly.1060.t: "$bp2_yearly.1050.t_builder$: Una vista para recordar" #NT!
+ bp2_yearly.1060.desc: "Como no tengo nada planeado para el día, esta es una buena oportunidad para enriquecerme con los diversos aspectos de nuestra gloriosa propiedad, [ROOT.Var('the_builder_sightseed_capital').GetProvince.GetName].\n\nLa pregunta es qué sería más productivo: ¿debería ir al complejo militar dirigido por [martial_character.GetTitledFirstName], el distrito comercial administrado por [steward_character.GetTitledFirstName], o visitar a [learned_character.GetTitledFirstName] en el [ROOT.Char.GetFaith.HouseOfWorship] local?" #NT!
+ economical_architecture_book: "La arquitectura del comercio" #NT!
+ economical_architecture_book_desc: "Una crónica sobre la historia de los puertos comerciales y sus ubicaciones." #NT!
+ martial_architecture_book: "Un castillo y sus sirvientes" #NT!
+ martial_architecture_book_desc: "Una crónica sobre el arte de la construcción de castillos." #NT!
+  #AGOT Modified 
+ #religious_architecture_book: "Dei Gratia" #NT!
+ religious_architecture_book: "Pasabaralión" #NT!
+ religious_architecture_book_desc: "Un registro cuidadosamente elaborado de lugares notables para adorar en [ROOT.Char.GetCurrentLocation.GetCounty.GetName] con alrededores." #NT!
+ bp2_yearly.1060.a: "[steward_character.GetTitledFirstNameNoTooltip] parece tener conocimiento." #NT!
+ bp2_yearly.1060.a.flavor: "¿Qué hace que un centro comercial sea bueno?" #NT!
+ bp2_yearly.1060.b: "Debería inspeccionar nuestras defensas en el recinto." #NT!
+ bp2_yearly.1060.b.flavor: "Una buena defensa es el mejor ataque. ...espera." #NT!
+ bp2_yearly.1060.c: "La fe primero. Al [ROOT.Char.GetFaith.HouseOfWorship] vamos." #NT!
+ bp2_yearly.1060.c.flavor: "¿Cómo podemos acercarnos más a [ROOT.Char.GetFaith.HighGodNameAlternate]?" #NT!
+  #Follow-up: You spend the day with WhatsTheirFace 
+ bp2_yearly.1061.t: "$bp2_yearly.1050.t_builder$: Antes del atardecer" #NT!
+ bp2_yearly.1061.desc_steward: "Pasamos el día recorriendo las salas de los gremios, inspeccionando la ubicación de los artesanos en relación con su espacio de mercado y otros aspectos económicos de la construcción de la ciudad.\n\n[architecture_character.GetTitledFirstName|U] es un guía experto, que habla sobre impuestos y tarifas, y pinta una imagen de nuestro estado económico actual." #NT!
+ bp2_yearly.1061.desc_martial: "El día se pasa inspeccionando el armamento militar de [ROOT.Var('the_builder_sightseed_capital').GetProvince.GetName], sus puntos fuertes y, de hecho, sus debilidades.\n\nToda cadena es tan fuerte como su eslabón más débil, repite [architecture_character.GetTitledFirstName] durante el recorrido, y me inclino a estar de acuerdo." #NT!
+ bp2_yearly.1061.desc_religion: "I have a hard time remembering a more serene and peaceful day, as [architecture_character.GetTitledFirstName|U] and I stroll through the [ROOT.Char.GetFaith.HouseOfWorshipPlural] and shrines of [ROOT.Var('the_builder_sightseed_capital').GetProvince.GetName].\n\nAt one point, [architecture_character.GetSheHe] turns to me and says: "Me cuesta recordar un día más sereno y tranquilo, mientras [architecture_character.GetTitledFirstName|U] y yo paseamos por los santuarios de [ROOT.Char.GetFaith.HouseOfWorshipPlural] y [ROOT.Var('the_builder_sightseed_capital').GetProvince.GetName].\n\nEn un momento, [architecture_character.GetSheHe] se vuelve hacia mí y dice: "Un arco bien construido puede evocar cierto tipo de espiritualidad, ¿no crees?"." #NT!
+ bp2_yearly.1061.outro: "\n\n[architecture_character.GetSheHe|U] termina el recorrido entregándome [book_to_get.GetName], un viejo y trillado trozo de literatura sobre el tema." #NT!
+ bp2_yearly.1061.a: "Hoy ha sido un buen día." #NT!
+ bp2_yearly.1061.a.flavor: "He aprendido mucho" #NT!
+  #Your input is desired on the next building target 
+ bp2_yearly.1065.t: "$bp2_yearly.1050.t_builder$: Los comunes" #NT!
+ bp2_yearly.1065.intro_parent: "Ha llegado el momento de sustituir los comunes de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetName], y mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('current_regent'))] [current_regent.GetTitledFirstName] me ha pedido que opine sobre el asunto." #NT!
+ bp2_yearly.1065.intro_regent: "Ha llegado el momento de sustituir los comunes de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetName], y mi [ROOT.Char.GetDiarchTitle|l] [current_regent.GetTitledFirstName] me ha pedido que opine sobre el asunto." #NT!
+ bp2_yearly.1065.intro: "Ha llegado el momento de sustituir los comunes de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetName], y me han pedido que dé mi opinión sobre el asunto." #NT!
+ bp2_yearly.1065.desc_parent_mayor: "\n\nEl gobernante de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetNameNoTooltip], [province_holder.GetTitledFirstName] y mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('current_regent'))] han estado teniendo intensas discusiones toda la mañana y ahora han llegado a un punto muerto." #NT!
+ bp2_yearly.1065.desc_parent: "\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('current_regent'))] y el maestro de construcción de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetNameNoTooltip] han estado teniendo acaloradas discusiones toda la mañana, y ahora han llegado a un punto muerto." #NT!
+ bp2_yearly.1065.desc_regent_mayor: "\n\nLos gobernantes de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetNameNoTooltip], [province_holder.GetTitledFirstName] y [current_regent.GetFirstNameNoTooltip] han estado teniendo intensas discusiones toda la mañana y ahora han llegado a un punto muerto." #NT!
+ bp2_yearly.1065.desc_regent: "\n\n[current_regent.GetFirstNameNoTooltip] y el maestro de construcción de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetNameNoTooltip] han estado teniendo acaloradas discusiones toda la mañana, y ahora han llegado a un punto muerto." #NT!
+ bp2_yearly.1065.desc_mayor: "\n\nLos gobernantes de las construcciones [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetNameNoTooltip], [province_holder.GetTitledFirstName] y [province_holder.GetHerHis] han estado teniendo intensas discusiones toda la mañana y ahora han llegado a un punto muerto." #NT!
+ bp2_yearly.1065.desc: "\n\nEl maestro de construcción y el intendente de [ROOT.Var('the_builder_constructed_building_in').GetProvince.GetNameNoTooltip] han estado discutiendo toda la mañana sobre cuáles deberían ser las nuevas mejoras, y las discusiones ahora han llegado a un punto muerto." #NT!
+ bp2_yearly.1065.outro: "\n\nCuando entro en la habitación, dirigen su atención hacia mí, claramente esperando una respuesta a esta pregunta." #NT!
+ bp2_yearly.1065.a: "Deberíamos centrarnos en el comercio y la producción." #NT!
+ bp2_yearly.1065.a.flavor: "Una economía floreciente es buena para todos." #NT!
+ bp2_yearly.1065.b: "El holding necesita más fuerza militar." #NT!
+ bp2_yearly.1065.b.flavor: "Un poco de violencia puede solucionar cualquier problema." #NT!
+ bp2_yearly.1065.c: "Un poco más de fervor sólo sería beneficioso." #NT!
+ bp2_yearly.1065.c.flavor: "La fe es todo lo que necesitamos." #NT!
+ bp2_yearly.1065.c.tt: "#X Esto cambiará el [holding_type|E] y eliminará cualquier edificio no válido en [1065_province_for_building.GetName]#!" #NT!
+  #All of our efforts have culminated into _this_ 
+ bp2_yearly.1070.t: "$bp2_yearly.1050.t_builder$: ¿Qué hay en un arco?" #NT!
+ bp2_yearly.1070.intro: "Todos mis años dedicados al estudio del arte de la construcción (desde la construcción de castillos simulados cuando era niño, guaridas en la naturaleza, el estudio de la gran arquitectura de [sightseed_capital.GetName] y el asesoramiento sobre la expansión de [constructed_building_in.GetName], entre otras cosas) me han llevado a este mismo momento." #NT!
+ bp2_yearly.1070.desc: "Ha llegado el momento de dejar mi huella en el mundo fundando una nueva propiedad en la provincia de [1070_province_to_build_in.GetName]; y de mí depende decidir nuestra dirección." #NT!
+ bp2_yearly.1070.desc_no_province: "\n\n[1070_province_to_buff.GetName] necesita un retoque y depende de mí aplicar mis conocimientos y mejorar el mantenimiento tal como está." #NT!
+ bp2_yearly.1070.desc_no_province_no_buff: "\n\nY aunque mis dominios están impecables y no necesitan ningún trabajo manual ni retoques adicionales, me angustia la persistente pregunta que ronda en mi mente: ¿dónde reside la esencia de la construcción? ¿La economía? ¿La fe?" #NT!
+ bp2_yearly.1070.a: "Una ciudad sería la buena opción." #NT!
+ bp2_yearly.1070.a_buff: "Ajustarlo a favor del comercio es bueno." #NT!
+ bp2_yearly.1070.a_none: "Construye para la economía, y ellos vendrán." #NT!
+ bp2_yearly.1070.a.flavor: "¡Construiremos un centro económico próspero!" #NT!
+ bp2_yearly.1070.a.flavor_none: "Una cartera pesada puede solucionar cualquier problema." #NT!
+ bp2_yearly.1070.b: "Más castillos son el camino hacia el futuro." #NT!
+ bp2_yearly.1070.b_buff: "La defensa es el mejor seguro para la prosperidad." #NT!
+ bp2_yearly.1070.b_none: "Los muros unirán a los ciudadanos." #NT!
+ bp2_yearly.1070.b.flavor: "Con paredes maravillosas." #NT!
+ bp2_yearly.1070.b.flavor_none: "... y mantener a raya algún que otro proyectil." #NT!
+ bp2_yearly.1070.c: "[ROOT.Char.GetFaith.HighGodName] da crecimiento." #NT!
+ bp2_yearly.1070.c.flavor: "Esta explotación estará destinada a [ROOT.Char.GetFaith.HighGodNameAlternate]." #NT!
+ bp2_yearly.1070.c.flavor_none: "Realmente." #NT!
+  #Follow-up: Get the sweet sweet loo... I mean, sweet sweet effects! 
+ bp2_yearly.1071.t_city: "El constructor de ciudades" #NT!
+ bp2_yearly.1071.t_castle: "El constructor de castillos" #NT!
+ bp2_yearly.1071.t_temple: "El constructor del templo" #NT!
+ bp2_yearly.1071.desc_city: "El bullicio del mercado minuciosamente planificado fluye sin problemas hacia los distritos artesanales y hacia los lugares de comercio para el envío y la recepción de mercancías del extranjero." #NT!
+ bp2_yearly.1071.desc_castle: "Las torres brillando bajo el sol de la mañana; los imponentes muros manteniendo a raya a cualquier atacante." #NT!
+ bp2_yearly.1071.desc_temple: "Un testimonio de [ROOT.Char.GetFaith.HighGodNameAlternate] — arcos que respiran un aire de espiritualidad; paredes con una base fuerte como nuestra fe." #NT!
+ bp2_yearly.1071.outro: "\n\n[constructed_holding.GetName] es verdaderamente una magnífica pieza de construcción, que pasará a la historia como el comienzo de un nuevo talento arquitectónico, es decir, yo mismo." #NT!
+ bp2_yearly.1071.a: "Esto servirá." #NT!
+ bp2_yearly.1071.a.flavor: ""
+  #Clean up: You dun messed up, son 
+ bp2_yearly.1072.t: "$bp2_yearly.1050.t_builder$: Constructor de sueños rotos" #NT!
+ bp2_yearly.1072.desc: "Yo... yo... no estoy seguro de lo que pasó. La explotación que se planeó construir en [cancelled_holding.GetName] se ha agotado y ya no existe." #NT!
+ bp2_yearly.1072.a: "Ah, bueno." #NT!
+  
+  ##OPINIONS 
+ teaching_moment_opinion: "Me enseñó" #NT!
+ bonded_over_architecture_opinion: "Arquitectura unida" #NT!
+  
+  ##MODIFIERS 
+ changed_ways_modifier: "Maneras cambiadas" #NT!
+ changed_ways_modifier_desc: "Este personaje ha abandonado recientemente un hábito relacionado con el estrés." #NT!
+ stress_insight_modifier: "Perspicaz" #NT!
+ stress_insight_modifier_desc: "Este personaje ha llegado a comprender qué es el estrés." #NT!
+ august_presence_modifier: "Agosto" #NT!
+ august_presence_modifier_desc: "Este personaje valora el arte de la diplomacia por encima de los puñetazos." #NT!
+ the_city_builder_modifier: "Constructor de ciudades" #NT!
+ the_city_builder_modifier_desc: "Este personaje es un conocido constructor de ciudades." #NT!
+ the_castle_builder_modifier: "Constructor de castillos" #NT!
+ the_castle_builder_modifier_desc: "Este personaje es un famoso constructor de castillos." #NT!
+ the_temple_builder_modifier: "Constructor de templos" #NT!
+ the_temple_builder_modifier_desc: "Este personaje es un famoso constructor de templos." #NT!
+  
+  #PROVINCE MODIFIERS 
+ economical_improvements_modifier: "Expansión económica" #NT!
+ economical_improvements_modifier_desc: "Este holding se ha visto potenciado en sus aspectos económicos." #NT!
+ martial_improvements_modifier: "Expansión militar" #NT!
+ martial_improvements_modifier_desc: "Esta explotación ha recibido mejoras defensivas." #NT!
+ pious_improvements_modifier: "Expansión sagrada" #NT!
+ pious_improvements_modifier_desc: "Los ciudadanos de este holding se han unido en su devoción." #NT!
+ improved_by_the_city_builder_modifier: "Mejoras del constructor de ciudades" #NT!
+ improved_by_the_city_builder_modifier_desc: "El constructor de la ciudad ha logrado que esta propiedad se convierta en una fortaleza financiera." #NT!
+ improved_by_the_castle_builder_modifier: "Mejoras del constructor de castillos" #NT!
+ improved_by_the_castle_builder_modifier_desc: "El constructor de castillos ha reforzado el aspecto militar de esta propiedad." #NT!
+ improved_by_the_temple_builder_modifier: "Mejoras del constructor de templos" #NT!
+ improved_by_the_temple_builder_modifier_desc: "El Constructor del Templo ha renovado la fe en esta afirmación." #NT!
+  
+  #EFFECTS 
+ UPON_HOLDING_COMPLETION: "Al finalizar la celebración:" #NT!
+ REMINDS_OF_CHILDHOOD_DECISION: "Esto te recuerda otra decisión de la infancia..." #NT!
+ REMINDED_OF_CHILDHOOD_DECISION: "Esto te recordó otra decisión de la infancia..." #NT!

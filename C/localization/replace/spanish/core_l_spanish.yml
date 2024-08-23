@@ -73,9 +73,9 @@
  CHARACTER_DEFAULT_TOOLTIP: "[CHARACTER.GetUIName]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nID histórica: [CHARACTER.GetSlowHistoryIdForDebug|V]\nDinastía: [CHARACTER.GetDynastyName|V]\nCultura: [CHARACTER.GetCulture.GetName|V]\nFertilidad: [CHARACTER.GetFertility|%0V]\nSalud: [CHARACTER.GetHealth|1V]\n"
  CHARACTER_DEBUG_REAL_FATHER_TOOLTIP: "[Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', 'Verdadero padre: ' )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', CHARACTER.GetRealFather.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetFather, CHARACTER.GetRealFather ), '', '\n' )]"
   #AGOT Added 
- CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP: "[Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', 'Real Mother: ' )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', CHARACTER.GetRealMother.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', '\n' )]" #NT!
+ CHARACTER_DEBUG_REAL_MOTHER_TOOLTIP: "[Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', 'Real Mother: ' )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', CHARACTER.GetRealMother.GetUIName )][Select_CString( ObjectsEqual( CHARACTER.GetMother, CHARACTER.GetRealMother ), '', '\n' )]"
   #AGOT Modified 
- #CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórico: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: #!\nID:\ norte" #NT!
+ #CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórico: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: #!\nID:\ norte"
  CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórica: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: [CHARACTER.GetCurrentWeight]\n"
  CHARACTER_AI_VALUES_DEBUG_TOOLTIP: "#D DEPURACIÓN#! Valores IA:\nHonor: [Character.GetAIHonor|V]\nCodicia: [Character.GetAIGreed|V]\nRacionalidad: [Character.GetAIRationality|V]\nEnergía: [Character.GetAIEnergy|V]\nValor: [Character.GetAIBoldness|V]\nValor modificado por temor: [Character.GetAIBoldnessAsAffectedByPlayerDread|V]\nCelo: [Character.GetAIZeal|V]\nRevanchismo: [Character.GetAIVengefulness|V]\nCompasión: [Character.GetAICompassion|V]\nSociabilidad: [Character.GetAISociability|V]\n[Character.GetVariablesDescription]\n\n[Character.GetAiBudgetDescription]"
  CHARACTER_AI_VALUE: " #DEBUG Valores IA#!"
@@ -143,8 +143,8 @@
  OPINION_MTTH: "Opinion de [CHARACTER.GetShortUIName] sobre [TARGET_CHARACTER.GetShortUIName]: $VALUE|=+0$"
  TRAIT_COMPATIBILITY_LIKES: "$TRAIT$ le gusta $OTHER_TRAIT$: $VALUE|=+0$"
  TRAIT_COMPATIBILITY_DISLIKES: "$TRAIT$ le disgusta $OTHER_TRAIT$: $VALUE|=+0$"
- RANGED_MODIFIER: "$FROM$ a $TO$" #NT!
- RANGED_MODIFIER_DESCRIPTION: "$MODIFIER$: $RANGED_MODIFIER$" #NT!
+ RANGED_MODIFIER: "$FROM$ a $TO$"
+ RANGED_MODIFIER_DESCRIPTION: "$MODIFIER$: $RANGED_MODIFIER$"
  SCRIPTED_VALUE_MODIFIER: "Valor: $VALUE|+0$"
  AI_VALUE_MODIFIER_COMPOUND: "Personalidad: $VALUE|=+0$"
  AI_VALUE_MODIFIER_MIN_VALUE: "Valor mínimo: $VALUE|+0$"
@@ -198,8 +198,8 @@
  CHARACTER_GIRLS: "Chicas"
  CHARACTER_BOYS: "Chicos"
  CHARACTER_CHILDREN: "Niños/as"
- CHARACTER_LADY: "Señora"
- CHARACTER_LORD: "Señor"
+ CHARACTER_LADY: "Lady"
+ CHARACTER_LORD: "Lord"
  CHARACTER_HERSELF: "Sí misma"
  CHARACTER_HIMSELF: "Sí mismo"
  CHARACTER_ITSELF: "Sí mismo"
@@ -304,7 +304,7 @@
  GOLD_SIMPLE_TOOLTIP: "#T [CHARACTER.LocalPlayerString( 'Tu', 'El' )] [gold|E] [CHARACTER.LocalPlayerString( '', 'Loc_ES_de_GetShortUIName' )]: $VALUE|V0$#!"
  GOLD_WITH_BALANCE_TOOLTIP: "#T [gold|E]: $VALUE|V0$#!\n$BALANCE|V=1$/mes"
  COST_PER_DAY: "/día"
- COST_PER_WEEK: "/semana" #NT!
+ COST_PER_WEEK: "/semana"
  COST_PER_MONTH: "/mes"
  COST_PER_YEAR: "/año"
  PIETY: "$VALUE|0$ [piety_i]"
@@ -403,7 +403,7 @@
  LOADING_SAVEGAME_PROGRESS: "Cargando: $PROGRESS|0%$"
   #AGOT Modified 
  # LOADSCREEN_INITIALIZING_GAME: "Iniciando juego..."
- LOADSCREEN_INITIALIZING_GAME: "Viajando a Poniente…"
+ LOADSCREEN_INITIALIZING_GAME: "Volando a Poniente…"
  SERVER_NAME: "Partida de $NAME$"
  PLAYERS_ON_SERVER: "Jugadores en servidor: NOMBRE - TÍTULO - PING"
  PLAYER_ON_SERVER: "$NAME$ - $TITLE$ - $PING$"
@@ -425,12 +425,17 @@
  CHARACTER_VALUE_F1: "[CHARACTER.GetUIName]: $VALUE|V1$"
  CHARACTER_VALUE_F2: "[CHARACTER.GetUIName]: $VALUE|V2$"
  ERROR_ACTION: "\n#I Haz clic sobre mí y te los mostraré. Clic secundario para limpiar el registro de errores.#!"
+  #AGOT Modified 
+ #ERROR_HOOF: "Soy Errorhoof. Estoy aquí porque hay $ERRORS$ error(es) en tu juego. $ERROR_ACTION$" #NT!
+ #ERROR_HOOF_1: "Soy el Niño Jesús. A veces estoy aquí en lugar de Errorhoof. También estoy aquí porque hay $ERRORS$ error(es) en tu juego. $ERROR_ACTION$" #NT!
+ #ERROR_HOOF_2: "Soy Erroberto. A veces estoy aquí en lugar de Errorhoof. También estoy aquí porque hay $ERRORS$ errores en tu juego. $ERROR_ACTION$" #NT!
+ #ERROR_HOOF_3: "Yo soy el Bazcat. A veces estoy aquí en lugar de Errorhoof. Aliméntame. También hay $ERRORS$ errores en tu juego. $ERROR_ACTION$" #NT!
  ERROR_HOOF: "Soy PezuñaErrada. Estoy aquí porque tu juego tiene errores ($ERRORS$). $ERROR_ACTION$"
  ERROR_HOOF_1: "Soy Jesushito. A veces aparezco en lugar de PezuñaErrada. También estoy aquí porque hay errores en tu juego ($ERRORS$). $ERROR_ACTION$"
  ERROR_HOOF_2: "Soy ErRobert. A veces aparezco en lugar de PezuñaErrada. También estoy aquí porque hay errores en tu juego ($ERRORS$). $ERROR_ACTION$"
  ERROR_HOOF_3: "Soy Bazgato. A veces aparezco en lugar de PezuñaErrada. Dame de comer. Por cierto, hay errores en tu juego ($ERRORS$). $ERROR_ACTION$"
  ERROR_HOOF_4: "Soy Recongato. A veces aparezco en lugar de PezuñaErrada. No lo llames Reconquista o me pongo triste. Hay $ERRORS$ error(es) en tu juego. $ERROR_ACTION$"
- ERROR_HOOF_5: "Soy un niño presumido. A veces estoy aquí en lugar de Errorhoof. Estoy viendo tu error y me veo satisfecho al respecto. También hay $ERRORS$ errores en tu juego. $ERROR_ACTION$" #NT!
+ ERROR_HOOF_5: "Soy un niño presumido. A veces estoy aquí en lugar de Errorhoof. Estoy viendo tu error y me veo satisfecho al respecto. También hay $ERRORS$ errores en tu juego. $ERROR_ACTION$"
  ENABLED_MODS: "Mods habilitados"
  RALLY_POINT_NAME: "Punto de reunión en [PROVINCE.GetNameNoTooltip]"
  CONFIRM: "Confirmar"
@@ -484,8 +489,8 @@
  SCOPE_INSPIRATION: "[ROOT.Inspiration.GetName]"
  SCOPE_STRUGGLE: "[ROOT.Struggle.GetName]"
  SCOPE_TRAVEL_PLAN: "[ROOT.TravelPlan.GetName]:"
- SCOPE_HOUSE_UNITY: "[ROOT.HouseUnity.GetName]" #NT!
- SCOPE_TAX_SLOT: "[ROOT.TaxSlot.GetName]" #NT!
+ SCOPE_HOUSE_UNITY: "[ROOT.HouseUnity.GetName]"
+ SCOPE_TAX_SLOT: "[ROOT.TaxSlot.GetName]"
  SAVE_NAME_LABEL: "Nombre partida:"
  SAVE_TO_CLOUD_LABEL: "Guardar en la nube"
  FILE_NAME_INVALID: "@warning_icon!#X Nombre de partida no válido#! "
@@ -666,21 +671,21 @@
  VALUE_BREAKDOWN_ENTRY_WEAK: "#weak $TITLE$: $VALUE$#!"
  VALUE_BREAKDOWN_ENTRY_WEAK_VALUE_FIRST: "#weak $VALUE$ $TITLE$#!"
  VALUE_BREAKDOWN_ENTRY_WEAK_NO_VALUE: "#weak $TITLE$#!"
- VALUE_BREAKDOWN_INDICATOR_GOOD_UP: "@change_up_good_1!" #NT!
- VALUE_BREAKDOWN_INDICATOR_BAD_UP: "@change_up_bad_1!" #NT!
- VALUE_BREAKDOWN_INDICATOR_NEUTRAL_UP: "@change_up_neutral_1!" #NT!
- VALUE_BREAKDOWN_INDICATOR_GOOD_UP_DOUBLE: "@change_up_good_2!" #NT!
- VALUE_BREAKDOWN_INDICATOR_BAD_UP_DOUBLE: "@change_up_bad_2!" #NT!
- VALUE_BREAKDOWN_INDICATOR_NEUTRAL_UP_DOUBLE: "@change_up_neutral_2!" #NT!
- VALUE_BREAKDOWN_INDICATOR_BAD_DOWN: "@change_down_bad_1!" #NT!
- VALUE_BREAKDOWN_INDICATOR_GOOD_DOWN: "@change_down_good_1!" #NT!
- VALUE_BREAKDOWN_INDICATOR_NEUTRAL_DOWN: "@change_down_neutral_1!" #NT!
- VALUE_BREAKDOWN_INDICATOR_BAD_DOWN_DOUBLE: "@change_down_bad_2!" #NT!
- VALUE_BREAKDOWN_INDICATOR_GOOD_DOWN_DOUBLE: "@change_down_good_2!" #NT!
- VALUE_BREAKDOWN_INDICATOR_NEUTRAL_DOWN_DOUBLE: "@change_down_neutral_2!" #NT!
- VALUE_BREAKDOWN_INDICATOR_BAD_NONE: "@change_none_bad!" #NT!
- VALUE_BREAKDOWN_INDICATOR_GOOD_NONE: "@change_none_good!" #NT!
- VALUE_BREAKDOWN_INDICATOR_NEUTRAL_NONE: "@change_none_neutral!" #NT!
+ VALUE_BREAKDOWN_INDICATOR_GOOD_UP: "@change_up_good_1!"
+ VALUE_BREAKDOWN_INDICATOR_BAD_UP: "@change_up_bad_1!"
+ VALUE_BREAKDOWN_INDICATOR_NEUTRAL_UP: "@change_up_neutral_1!"
+ VALUE_BREAKDOWN_INDICATOR_GOOD_UP_DOUBLE: "@change_up_good_2!"
+ VALUE_BREAKDOWN_INDICATOR_BAD_UP_DOUBLE: "@change_up_bad_2!"
+ VALUE_BREAKDOWN_INDICATOR_NEUTRAL_UP_DOUBLE: "@change_up_neutral_2!"
+ VALUE_BREAKDOWN_INDICATOR_BAD_DOWN: "@change_down_bad_1!"
+ VALUE_BREAKDOWN_INDICATOR_GOOD_DOWN: "@change_down_good_1!"
+ VALUE_BREAKDOWN_INDICATOR_NEUTRAL_DOWN: "@change_down_neutral_1!"
+ VALUE_BREAKDOWN_INDICATOR_BAD_DOWN_DOUBLE: "@change_down_bad_2!"
+ VALUE_BREAKDOWN_INDICATOR_GOOD_DOWN_DOUBLE: "@change_down_good_2!"
+ VALUE_BREAKDOWN_INDICATOR_NEUTRAL_DOWN_DOUBLE: "@change_down_neutral_2!"
+ VALUE_BREAKDOWN_INDICATOR_BAD_NONE: "@change_none_bad!"
+ VALUE_BREAKDOWN_INDICATOR_GOOD_NONE: "@change_none_good!"
+ VALUE_BREAKDOWN_INDICATOR_NEUTRAL_NONE: "@change_none_neutral!"
  GOVERNMENT_TYPE_DESCRIPTION: "[GovernmentType.GetRuleInfo][GovernmentType.GetDescription]"
  GOVERNMENT_FLAG_INFO: "$EFFECT_LIST_BULLET$ $FLAG$"
  GOVERNMENT_IGNORED_DEVELOPMENT: "$EFFECT_LIST_BULLET$ El [development|E] en [counties|E] poseídos queda ignorado"
@@ -733,7 +738,7 @@
  rite_legalism_law_cost_tooltip: "Rito legalista"
  rite_pronouncements_law_cost_tooltip: "Ley religiosa"
  rite_primitivism_law_cost_tooltip: "Primitivismo natural"
- clan_government_cost_tooltip: "Tu tipo [government|E] es [GetGovernment('clan_government').GetName]" #NT!
+ clan_government_cost_tooltip: "Tu tipo [government|E] es [GetGovernment('clan_government').GetName]"
  character_modifiers_law_cost_tooltip: "Modificadores de personaje"
  SCRIPTED_COST_HEADER: "#S $TEXT$#!"
  SCRIPTED_COST_NO_DYNAST: "Solo el [dynast|E] puede gastar [dynasty_prestige|E]"
@@ -764,15 +769,15 @@
  mongol_event_troops: "Horda mongola"
  first_almohad_event_troops: "Las tribus reunidas"
  second_almohad_event_troops: "Los almohades"
- azariqa_fanatics: "Fanáticos de Azariqa" #NT!
- yaqubs_ayyar_loyalists: "Leales a Ayyar" #NT!
- persian_warriors: "Guerreros persas" #NT!
+ azariqa_fanatics: "Fanáticos de Azariqa"
+ yaqubs_ayyar_loyalists: "Leales a Ayyar"
+ persian_warriors: "Guerreros persas"
  event_troop_default_name: "Hueste de [ROOT.Char.GetTitledFirstNameNoTooltip|l]"
  CURRENT_SITUATION_SUGGESTIONS: "Sugerencias"
  CURRENT_SITUATION_SUGGESTIONS_EMPTY: "Ninguna disponible"
  CURRENT_SITUATION_HEADER: "Situación actual"
  CHARACTER_INTERACTION_BLACKMAIL_NO_SECRET: "No hay secretos que usar para hacer chantaje."
- CHARACTER_INTERACTION_BLACKMAIL_ALREADY_STRONG_HOOK: "[CHARACTER.GetShortUIName|U] ya [CharHaveHas(CHARACTER)] a [strong_hook|E] en [TARGET_CHARACTER.GetShortUIName|U]" #NT!
+ CHARACTER_INTERACTION_BLACKMAIL_ALREADY_STRONG_HOOK: "[CHARACTER.GetShortUIName|U] ya [CharHaveHas(CHARACTER)] a [strong_hook|E] en [TARGET_CHARACTER.GetShortUIName|U]"
  RESET_DISMISSED_BUTTON_TEXT: "Reiniciar"
  RESET_DISMISSED_TOOLTIP: "#T Restablecer#!\nRecuperar #EMP $CURRENT_SITUATION_HEADER$#! objetos que has descartado.\n\n#I Haz clic para restablecer la lista#!"
  CHARACTER_INTERACTION_SAME_REALM_AS: "Tiene que ser parte de tu [realm|E]."
@@ -813,19 +818,19 @@
  num_suffix_8: "$num_suffix_0$"
  num_suffix_9: "$num_suffix_0$"
   
- aptitude_terrible: "#aptitude_terrible Terrible @aptitude:1:hered_color!#!" #NT!
- aptitude_poor: "#aptitude_poor Pobre @aptitude:2:inherit_color!#!" #NT!
- aptitude_average: "#aptitude_average Promedio @aptitude:3:inherit_color!#!" #NT!
- aptitude_good: "#aptitude_good Bueno @aptitude:4:inherit_color!#!" #NT!
- aptitude_excellent: "#aptitude_excellent Excelente @aptitude:5:inherit_color!#!" #NT!
+ aptitude_terrible: "#aptitude_terrible Terrible @aptitude:1:hered_color!#!"
+ aptitude_poor: "#aptitude_poor Pobre @aptitude:2:inherit_color!#!"
+ aptitude_average: "#aptitude_average Promedio @aptitude:3:inherit_color!#!"
+ aptitude_good: "#aptitude_good Bueno @aptitude:4:inherit_color!#!"
+ aptitude_excellent: "#aptitude_excellent Excelente @aptitude:5:inherit_color!#!"
   
- compare_date_trigger_operator_greater_than: "Después" #NT!
- compare_date_trigger_operator_greater_or_equal: "Sobre o después" #NT!
- compare_date_trigger_operator_less_than: "Antes" #NT!
- compare_date_trigger_operator_less_or_equal: "En o antes" #NT!
- compare_date_trigger_operator_equal: "En" #NT!
- compare_date_trigger_operator_not_equal: "No en" #NT!
+ compare_date_trigger_operator_greater_than: "Después"
+ compare_date_trigger_operator_greater_or_equal: "Sobre o después"
+ compare_date_trigger_operator_less_than: "Antes"
+ compare_date_trigger_operator_less_or_equal: "En o antes"
+ compare_date_trigger_operator_equal: "En"
+ compare_date_trigger_operator_not_equal: "No en"
   
- CONFIRM_COMMAND_TITLE: "Confirmar acción" #NT!
- CONFIRM_COMMAND_TEXT: "¿Seguro que quieres hacer esto?" #NT!
- CONFIRM_COMMAND_ACCEPT: "Aceptar" #NT!
+ CONFIRM_COMMAND_TITLE: "Confirmar acción"
+ CONFIRM_COMMAND_TEXT: "¿Seguro que quieres hacer esto?"
+ CONFIRM_COMMAND_ACCEPT: "Aceptar"

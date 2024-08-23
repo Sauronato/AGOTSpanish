@@ -6,7 +6,7 @@
  game_concept_agot_knight: "Caballero"
  game_concept_agot_knights: "Caballeros"
  game_concept_agot_knightspossessive: "De caballero"
- game_concept_agot_knight_desc: "Un caballero es un guerrero que practica un código de caballería.\n\nSi bien se encuentra tradicionalmente en los Siete Reinos de Westeros, cualquier caballero puede convertirse en caballero, incluso si son cultural o religiosamente diferentes.\n\nUn caballero puede tomar hasta un [squire|E] y entrénalos para que algún día sean caballeros. Un caballero también puede otorgar el título de caballero a aquellos que califiquen.\n\nUna persona puede convertirse en caballero una vez que tenga 16 años o más, y si no tiene ningún #N rasgo que lo descalifique #!. Un personaje también puede convertirse en caballero a partir de los 12 años si tienen [prowess|E] excepcionalmente alto."
+ game_concept_agot_knight_desc: "Un caballero es un guerrero que practica un código de caballería.\n\nSi bien se encuentra tradicionalmente en los Siete Reinos de Poniente, cualquier caballero puede convertirse en caballero, incluso si son cultural o religiosamente diferentes.\n\nUn caballero puede tomar hasta un [squire|E] y entrénalos para que algún día sean caballeros. Un caballero también puede otorgar el título de caballero a aquellos que califiquen.\n\nUna persona puede convertirse en caballero una vez que tenga 16 años o más, y si no tiene ningún #N rasgo que lo descalifique #!. Un personaje también puede convertirse en caballero a partir de los 12 años si tienen [prowess|E] excepcionalmente alto."
   
  game_concept_squire: "Escudero"
  game_concept_squires: "Escuderos"
@@ -26,7 +26,8 @@
  game_concept_kingsguard_desc: "El $game_concept_kingsguard$ es una camarilla de los más grandes guerreros del reino, juramentados al servicio de su Lord y comprometidos a cambiar su vida por la de ellos."
   
  game_concept_maester: "Maestre"
- game_concept_maester_desc: "Los Caballeros de la Mente de Westerosi; los Maestres de la Ciudadela son educados a la vanguardia de la ciencia y continúan empujando los límites. Llevan alrededor del cuello la carga de esta enseñanza en eslabones metálicos, que representan su injerto y su deber, que inclinan sus cuellos cuando son asignados a las cortes de los Siete Reinos para servir a los señores titulares como curanderos, tutores y consejeros. Una red de hombres eruditos, que han dejado de lado su propio nombre por el bien mayor, celebrando un consejo de cámara con los poderosos, en aras del conocimiento."
+ game_concept_maesters: "Maestres" #NT!
+ game_concept_maester_desc: "Los Caballeros de la Mente de Occidental; los Maestres de la Ciudadela son educados a la vanguardia de la ciencia y continúan empujando los límites. Llevan alrededor del cuello la carga de esta enseñanza en eslabones metálicos, que representan su injerto y su deber, que inclinan sus cuellos cuando son asignados a las cortes de los Siete Reinos para servir a los señores titulares como curanderos, tutores y consejeros. Una red de hombres eruditos, que han dejado de lado su propio nombre por el bien mayor, celebrando un consejo de cámara con los poderosos, en aras del conocimiento."
   
  game_concept_monastery_holding: "Monasterio"
  game_concept_monastery: "Monasterio"
@@ -70,11 +71,71 @@
  activity_location_set: "Viajando"
  activity_location_set_name: "Viajando"
   
- game_concept_agot_personal_coa: "Armas personales" #NT!
- game_concept_agot_personal_coa_desc: "$game_concept_agot_personal_coa$ es un conjunto de armas heráldicas propiedad del individuo en lugar de [house|e].\n\nUn jugador puede personalizar sus propias armas a su gusto; sin embargo, a veces se les puede conceder uno en función de otras condiciones, como su apodo u orden de nacimiento." #NT!
+ game_concept_agot_personal_coa: "Armas personales"
+ game_concept_agot_personal_coa_desc: "$game_concept_agot_personal_coa$ es un conjunto de armas heráldicas propiedad del individuo en lugar de [house|e].\n\nUn jugador puede personalizar sus propias armas a su gusto; sin embargo, a veces se les puede conceder uno en función de otras condiciones, como su apodo u orden de nacimiento."
   
- game_concept_pirate_den_holding: "Tenencia de guarida pirata" #NT!
- game_concept_pirate_den: "Guarida pirata" #NT!
- game_concept_pirate_dens: "Participaciones de la guarida pirata" #NT!
- game_concept_pirate_den_holdings: "Participaciones de la guarida pirata" #NT!
- game_concept_pirate_den_holding_desc: "Pirate dens are where pirates gather when forced to land." #Placeholder, vanilla example: "Las guaridas de piratas son el lugar donde los piratas se reúnen cuando se ven obligados a desembarcar." #Placeholder, ejemplo sencillo: "Los castillos son los más fuertemente fortificados [holding_type|E] y el tipo estándar para [feudal|E], [clan|E] y [tribal|E] [rulers|E], así como para [holy_orders|E]. Suelen proporcionar más [levies|E] que [taxes|E]." #NT!
+ game_concept_pirate_den_holding: "Tenencia de guarida pirata"
+ game_concept_pirate_den: "Guarida pirata"
+ game_concept_pirate_dens: "Participaciones de la guarida pirata"
+ game_concept_pirate_den_holdings: "Participaciones de la guarida pirata"
+ game_concept_pirate_den_holding_desc: "Las guaridas piratas son los campamentos estándar [holding_type|E] ligeramente fortificados donde se reúnen los piratas cuando se ven obligados a desembarcar. Es el único tipo de propiedad disponible para [GetGovernment( 'pirate_government' ).GetName] [rulers|E]." #NT!
+  
+ game_concept_dragon: "Dragón" #NT!
+ game_concept_dragons: "Dragones" #NT!
+ game_concept_dragon_desc: "Los $game_concept_dragons$ son bestias mágicas, famosas por ser utilizadas por los señores dragón de la antigua Valyria en su conquista del mundo conocido. Ver uno es ver el fuego hecho carne, montar uno es ser el amo de tu destino y el modelador del mundo.\n\nCada dragón tendrá sus propios [personality|E], [traits|E] y [education|E], que afectarán a sus [draconic_dread|E], [temperament|E] y [taming_chance|E]. El [dragon_combat_effectiveness|E] de un dragón afectará su uso en combate y aumentará a medida que envejezca y gane [dragon_size|E].\n\nHay tres [dragon_type|E]: [personality|E]0, [personality|E]1 y [personality|E]2. Los dragones domesticados y poseídos se pueden almacenar en un [personality|E]3 si hay uno disponible." #NT!
+  
+ game_concept_dragon_type: "Tipos de dragones" #NT!
+ game_concept_dragon_type_desc: "Los dragones $game_concept_dragons$ se dividen en tres tipos distintos: [wild_dragons|E], [owned_dragons|E] y [tamed_dragons|E]. El tipo de dragón afectará la forma en que interactúa con el mundo, la forma en que un dragón [ruler|e] puede interactuar con él y si se puede usar en combate." #NT!
+  
+ game_concept_wild_dragon: "Dragón salvaje" #NT!
+ game_concept_wild_dragons: "Dragones salvajes" #NT!
+ game_concept_wild_dragon_desc: "$game_concept_wild_dragons$ son dragones que no son propiedad de ningún [ruler|E] y viven como lo hacen de manera natural. Son libres de vagar por el mundo, aunque prefieren permanecer cerca de su guarida. Un dragón salvaje no puede usarse en combate ni para viajar, y en gran medida representa un peligro para cualquier [ruler|E] o [realm|E] dentro del rango de caza.\n\nSon uno de los tres tipos de [dragon|E]. Los otros dos son [owned_dragons|E] y [tamed_dragons|E].\n\nUn gobernante con un [dragonpit|E] puede intentar capturar un $game_concept_wild_dragon$ para convertirlo en un $game_concept_owned_dragon$, mientras que los gobernantes cercanos y [ruler|E]0 pueden intentar domesticarlo directamente." #NT!
+  
+ game_concept_owned_dragon: "Dragón propio" #NT!
+ game_concept_owned_dragons: "Dragones propios" #NT!
+ game_concept_owned_dragon_desc: "$game_concept_owned_dragons$ son dragones que son propiedad de un [ruler|E] con un [dragonpit|E], pero que no han sido domesticados por un [GetTrait('dragonrider').GetName(GetNullCharacter)]. Permanecerán en la capital de su dueño. $game_concept_owned_dragons$ no se pueden usar en combate ni para viajar, pero son más fáciles de domesticar que $game_concept_wild_dragons$. Los personajes que no hayan domesticado a un [dragon|E] podrán interactuar con un dragón de su propiedad en su corte ya sea para intentar formar un vínculo con él o para domesticarlo directamente.\n\nSon uno de los tres tipos de [dragon|E]. Los otros dos son [wild_dragons|E] y [tamed_dragons|E]." #NT!
+  
+ game_concept_tamed_dragon: "Dragón domesticado" #NT!
+ game_concept_tamed_dragons: "Dragones domesticados" #NT!
+ game_concept_tamed_dragon_desc: "$game_concept_tamed_dragons$ son dragones que han sido domesticados por un [GetTrait('dragonrider').GetName(GetNullCharacter)]. Si su jinete es un [ruler|E] permanecerán en su capital, de lo contrario permanecerán en la capital del empleador de su jinete. Es decir, a menos que estén en un [army|E] o estén acostumbrados a [travel|E].\n\nSon uno de los tres tipos de [dragon|E]. Los otros dos son [wild_dragons|E] y [owned_dragons|E]. Los dragones domesticados se volverán salvajes si su jinete muere mientras no se mantienen en un [dragonpit|E]." #NT!
+  
+ game_concept_draconic_dread: "Miedo dracónico" #NT!
+ game_concept_draconic_dread_desc: "$game_concept_draconic_dread$ es el [dread|E] que posee un [dragon|E], en lugar de un gobernante. Representa el miedo intrínseco que la criatura infunde en los corazones de los hombres. Si bien refleja en gran medida al [dragons_size|E], también puede verse afectado por su [personality|E] y sus acciones." #NT!
+  
+ game_concept_temperament: "Temperamento" #NT!
+ game_concept_temperament_desc: "$game_concept_temperament$ es la disposición y actitud general que muestra un [dragon|E]. Los valores positivos indican un dragón más sociable, mientras que un dragón con temperamento negativo es una bestia más salvaje y obstinada. El temperamento de un dragón se verá afectado por sus [education|E], [personality|E] y sus experiencias." #NT!
+  
+ game_concept_taming_chance: "Domar la suerte" #NT!
+ game_concept_taming_chance_desc: "$game_concept_taming_chance$ es la probabilidad innata de que un dragón [dragon|E] sea domesticado y se una a él. Una probabilidad de domesticación más alta indica que el dragón es más susceptible a la interacción humana, mientras que una probabilidad de domesticación más baja representa un dragón que todos, excepto los de voluntad más fuerte, tendrán dificultades para domesticar. La probabilidad de domesticación de un dragón se verá afectada por sus [education|E], [personality|E] y experiencias." #NT!
+  
+ game_concept_dragon_size: "Tamaño del dragón" #NT!
+ game_concept_dragons_size: "El tamaño del dragón" #NT!
+ game_concept_dragon_size_desc: "$game_concept_dragon_size$ es el tamaño físico de un [dragon|E]. Es una medida colectiva de la longitud, la envergadura y el peso del dragón. El tamaño de un dragón afectará en gran medida a su [dragon_combat_effectiveness|E], así como a su [draconic_dread|E] y [taming_chance|E].\n\nUn dragón nunca dejará de crecer, pero la velocidad a la que lo hará se ralentizará a medida que envejezca. Los dragones que se mantienen en un [dragonpit|E] creado por el hombre crecerán más lentamente que los que crecen en estado salvaje o en un [natural_dragonpit|E]." #NT!
+  
+ game_concept_dragon_combat_effectiveness: "Eficacia en combate" #NT!
+ game_concept_dragon_combat_effectiveness_desc: "$game_concept_dragon_combat_effectiveness$ es una medida de la eficacia de un [dragon|E] en combate. Se ve afectado en gran medida por el [dragons_size|E], pero puede verse influenciado por el [traits|E] y la experiencia de su [GetTrait('dragonrider').GetName(GetNullCharacter)]. Un dragón con una alta eficacia en combate será más eficaz en la batalla." #NT!
+  
+ game_concept_dragonpit: "Pozo de dragones" #NT!
+ game_concept_dragonpits: "Pozos de dragones" #NT!
+ game_concept_dragonpit_desc: "Un $game_concept_dragonpit$ es un [building|E] que se utiliza para albergar tanto a [owned_dragons|E] como a [tamed_dragons|E]. Estos edificios son muy costosos de construir, pero una vez terminados proporcionan al poseedor una mayor seguridad para sus dragones, interacciones únicas y la capacidad de designar un $head_dragonkeeper_court_position$ [court_position|E]. Cabe destacar que estas son la única forma de conservar un dragón domesticado como un dragón propio en caso de que su jinete muera.\n\nEl Dragonmont en Rocadragón actúa como un [natural_dragonpit|E]; el único de su tipo." #NT!
+ game_concept_dragon_pit: "$game_concept_dragonpit$" #NT!
+ game_concept_dragon_pit_desc: "$game_concept_dragonpit_desc$" #NT!
+ game_concept_natural_dragonpit: "Pozo de dragón natural" #NT!
+ game_concept_natural_dragonpits: "Pozos de dragones naturales" #NT!
+ game_concept_natural_dragonpit_desc: "Un $game_concept_natural_dragonpit$ es un [dragonpit|E] donde una orden de [dragonkeepers|E] ha hecho uso de cavernas naturales para almacenar y proteger a [dragons|E]. Un [dragons_size|E] no sufrirá tanto como un dragón encerrado en un pozo de dragones creado por el hombre." #NT!
+  
+ game_concept_anti_dragon_maa: "Anti-Dragón" #NT!
+ game_concept_anti_dragon_maa_desc: "[men_at_arms|E] fue construido específicamente para combatir la amenaza de [dragons|E]. Estos regimientos no serán de utilidad a menos que se enfrenten a su enemigo previsto, pero no hay nada más que pueda proteger a un [army|E] cuando se enfrenta a un dragón." #NT!
+  
+ game_concept_dragon_gender: "Género del dragón" #NT!
+ game_concept_dragon_gender_desc: "Los [maesters|E] de la Ciudadela han debatido durante mucho tiempo la verdadera naturaleza de [dragons|E]. Algunos creen que cambian según sea necesario entre macho y hembra, y otros creen que no tienen ningún género en particular. Históricamente, a los dragones que se ha observado que ponen huevos se los ha denominado hembras, aunque algunos que se sabe que son hembras no lo han hecho.\n\nDe todas formas, las convenciones de los hombres sostienen que los dragones se distinguen por su sexo, por lo que se los denomina así hasta que el jinete o una nidada indiquen lo contrario." #NT!
+  
+ game_concept_dragonblood: "Sangre de dragón" #NT!
+ game_concept_dragonblood_desc: "$game_concept_dragonblood$ es un indicador de que un [character|e] desciende de un [GetTrait('dragonrider').GetName( GetNullCharacter )|LV] o de un [house|E] con el modificador [GetModifier('dragonrider_house_modifier').GetNameWithTooltip|L], dentro de 3 generaciones." #NT!
+  
+ game_concept_authorized_tamer: "Domador autorizado" #NT!
+ game_concept_authorized_tamer_desc: "Un $game_concept_authorized_tamer$ es un [character|e] al que se le ha otorgado un permiso especial para acceder a un [dragonpit|e] específico independientemente de sus leyes. El propietario del Pozo del Dragón puede eliminar esta distinción a voluntad.\n\nUn personaje solo puede ser un $game_concept_authorized_tamer$ de un Pozo del Dragón a la vez." #NT!
+  
+ game_concept_dragonkeeper: "Guardián del dragón" #NT!
+ game_concept_dragonkeepers: "Guardianes del dragón" #NT!
+ game_concept_dragonkeeper_desc: "La Orden del $game_concept_dragonkeepers$ está encargada de supervisar el mantenimiento de [dragonpits|E] y de cualquier [dragons|E] alojado. La orden está dirigida por un $head_dragonkeeper_court_position$." #NT!

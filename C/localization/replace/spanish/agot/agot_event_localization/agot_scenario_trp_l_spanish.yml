@@ -1,0 +1,459 @@
+﻿l_spanish:
+  # Event IDs 
+  # 0001 - 0099: Daemon 
+  # 0100 - 0199: Corlys 
+  # 0200 - 0299: Cangrejero 
+  # 1000 - 1999: Misc Minor Events 
+  
+  # 0001 - 0099: Daemon 
+ agot_scenario_trp.0001.t: "La guerra del príncipe rebelde" #NT!
+ agot_scenario_trp.0001.desc: "Me bajo de la parte trasera de [current_dragon.GetName], me quito el casco para inspeccionar el campamento de guerra que tengo delante. Los estandartes de Targaryen y Velaryon ondean al viento, los soldados ya se están preparando para nuestra próxima ofensiva. La isla de [ROOT.Char.GetCurrentLocation.GetName] cayó con bastante facilidad, pero el resto de los Peldaños de Piedra no será tan sencillo.\n\nAunque se me haya negado mi derecho de nacimiento como Príncipe de Rocadragón, no permitiré que mi hermano me relegue a la oscuridad. ¡Conquistaré los Peldaños de Piedra y demostraré que este segundo hijo es el verdadero heredero de la Casa [ROOT.Char.GetHouse.GetName]!" #NT!
+ agot_scenario_trp.0001.a: "¡Ningún #emp Cangrejero#! me detendrá!" #NT!
+  
+ agot_scenario_trp.0002.t: "Un aterrizaje asegurado" #NT!
+ agot_scenario_trp.0002.desc_crabfeeder: "¡Victoria! El primero de estos pretendientes almirantes ha sido derrotado, ¡y el corazón de los Stepstones es nuestro! Sin embargo, parece que la Triarquía se ha enterado de nuestras acciones y ha unido sus fuerzas para detenernos.\n\nAdemás, parece que han dado su consentimiento a su primacía sobre sus coalmirantes, y sus fuerzas se han reunido bajo su estandarte.\n\nUnidos, divididos, cientos de barcos o miles, ¡no permitiré que me detengan! ¡Todos aprenderán el verdadero significado de #italic Fuego y Sangre!#!" #NT!
+ agot_scenario_trp.0002.desc_other: "¡Victoria! El primero de estos pretendientes almirantes ha sido derrotado, ¡y el corazón de los Stepstones es nuestro! Sin embargo, parece que la Triarquía se ha enterado de nuestras acciones y se ha unido a los esfuerzos de sus almirantes para detenernos.\n\nAdemás, parece que han dado la primacía a [stepstones_commander.GetTitledFirstName], y sus fuerzas se han reunido bajo el estandarte de [stepstones_commander.GetHerHis].\n\nUnidos, divididos, cientos de barcos o miles, ¡no permitiré que me detengan! ¡Todos aprenderán el verdadero significado de #italic Fuego y Sangre!#!" #NT!
+ agot_scenario_trp.0002.a: "¡Estas piedras escalonadas serán mías!" #NT!
+  
+ agot_scenario_trp.0003.t: "Rey del Mar Angosto" #NT!
+ agot_scenario_trp.0003.desc: "¡Los Peldaños de Piedra son míos! La flota de la Triarquía está en ruinas y sus ejércitos se han dispersado por los cuatro costados.\n\nMe han coronado Rey de los Peldaños de Piedra y del Mar Angosto, ¡y ahora el mundo sabe que al menos un Targaryen aún encarna el destino de su casa!\n\nAunque la Triarquía ha sido empujada hasta el borde de estas islas, aún está por verse si aceptarán su derrota o si intentarán recuperar sus tierras perdidas.\n\nAunque seguramente pronto habrá noticias de su próximo movimiento, hay una pequeña ventana para respirar y, mientras tanto, ¡soy un triunfador!" #NT!
+ agot_scenario_trp.0003.a: "¡Inclínate ante tu Rey!" #NT!
+ agot_scenario_trp.0003.a.tt: "La Triarquía pronto decidirá si acepta su derrota o intenta recuperar sus tierras perdidas." #NT!
+  
+ agot_scenario_trp.0004.t: "Serpientes del desierto" #NT!
+ agot_scenario_trp.0004.desc: "Parece que los dornienses no están contentos con dejar que un segundo reino Targaryen colinda con el suyo. He recibido noticias de que han enviado su propio ejército a los Peldaños de Piedra y han suplicado a la Triarquía que intente derrocarme una vez más. Aunque todavía se están recuperando de nuestra última guerra, estos comerciantes engreídos pueden resultar difíciles de derrotar junto con sus nuevos amigos, las ratas del desierto. Tal vez debería simplemente regresar a la Fortaleza Roja, satisfecho con mi gloria, o tal vez debería mostrarle al mundo que los Targaryen se quedan con lo que toman." #NT!
+ agot_scenario_trp.0004.a: "Seamos dornienses o no, ¡nuestros enemigos arderán!" #NT!
+ agot_scenario_trp.0004.b: "¿Todo esto por un montón de rocas en el mar?" #NT!
+  
+ agot_scenario_trp.0005.t: "Lord dragón indiscutible del mar" #NT!
+ agot_scenario_trp.0005.desc: "La Triarquía se ha visto obligada a aceptar mi gobierno y ha quedado confinada firmemente en Essos. ¡He demostrado que los Peldaños de Piedra son míos y no los dejaré ir fácilmente!\n\nMi reino es fuerte y está unido bajo mi gobierno, pero ahora me enfrento a una elección. Al este se encuentra mi enemigo de toda la vida, lamiéndose las heridas. Podría atacar mientras están débiles y poner este imperio bajo mi control. #italic mi #!rule. Al oeste," #NT!
+ agot_scenario_trp.0005.desc.west_brother: "Mi hermano se sienta en el Trono de Hierro. Aunque lo amo, sé que no es un dragón de verdad. ¿Me atreveré a desafiarlo?" #NT!
+ agot_scenario_trp.0005.desc.west_niece: "mi sobrina se sienta en el Trono de Hierro. Pero al ser una niña, no es una verdadera heredera del legado Targaryen. Sin embargo, todavía la amo." #NT!
+ agot_scenario_trp.0005.desc.west_other: "algún falso heredero se sienta en el Trono de Hierro, y sus logros palidecen en comparación con los míos." #NT!
+ agot_scenario_trp.0005.desc.end: "También podría jurar lealtad al trono. ¿Acaso añadir un nuevo reino a los Siete merece un premio?\n\nPor último, también podría gobernar mi reino, satisfecho con mi gloria. La elección es mía." #NT!
+ agot_scenario_trp.0005.a: "¡Conquistaré la Triarquía!" #NT!
+ agot_scenario_trp.0005.b: "¡Basta de fingir! ¡El Trono de Hierro debería ser mío!" #NT!
+ agot_scenario_trp.0005.c: "¡Los Peldaños de Piedra se añadirán a los Siete Reinos!" #NT!
+ agot_scenario_trp.0005.c.tt: "Se te pueden conceder beneficios adicionales por tu gran servicio al reino." #NT!
+ agot_scenario_trp.0005.d: "He demostrado que puedo conquistar. Ahora demostraré que puedo gobernar." #NT!
+ agot_scenario_trp.0005.d.tt: "Seguirás siendo independiente y continuarás gobernando los Stepstones." #NT!
+ agot_scenario_trp.0005.e: "Me estoy cansando de este reino de rocas. Volveré a la Fortaleza Roja." #NT!
+  
+ agot_scenario_trp.0006.t: "La invitación de una serpiente marina" #NT!
+ agot_scenario_trp.0006.desc: "¡Mi antiguo amigo y aliado de guerra, [corlys.GetTitledFirstName], me envió una invitación a Marcaderiva! Aunque ya lo he estado antes, y no ha pasado tanto tiempo desde la última vez que vi a Corlys, hay un indicio de... oportunidad en sus palabras. Corlys siempre fue partidario de los grandes gestos y no puedo evitar preguntarme qué tiene en mente.\n\n¿Debo aceptar esta invitación o debo quedarme aquí?" #NT!
+ agot_scenario_trp.0006.a: "Veamos qué tiene en mente la serpenteante Serpiente Marina." #NT!
+ agot_scenario_trp.0006.a.f: "Ordenas a un barco que salga al día siguiente." #NT!
+ agot_scenario_trp.0006.a.tt: "Tu viaje a Marcaderiva" #NT!
+ agot_scenario_trp.0006.b: "No tengo tiempo para los juegos de Sea Snake." #NT!
+ agot_scenario_trp.0006.b.tt: "Rechazas la invitación de Corlys" #NT!
+  
+ agot_scenario_trp.0007.t: "Hija de la serpiente marina" #NT!
+ agot_scenario_trp.0007.desc: "No tardo mucho en darme cuenta de por qué Corlys me ha invitado a Marcaderiva. A los pocos minutos de haber tocado tierra, me guía hasta el jardín donde nos espera su hija, la dama [laena.GetFirstName]. Se ha convertido en una mujer verdaderamente hermosa y no puedo negar el efecto que sus encantos están teniendo en mí." #NT!
+ agot_scenario_trp.0007.desc_betrothed: "Sin embargo, estos planes tienen un problema. Parece que, si quiero tener a esta belleza, el dragón primero debe matar al caballero. Según cuenta Corlys, hace algunos años Laena se comprometió con [laena_betrothed.GetFirstName], quien, después de heredar el título de su padre, despilfarró rápidamente el legado de su padre y ahora vive en la corte de Corlys, tratando de asegurarse de que Corlys cumpla su promesa." #NT!
+ agot_scenario_trp.0007.desc_not: "Por supuesto, una vez se la ofrecieron a mi hermano cuando estaba de duelo por su primera esposa, pero él se negó y ahora ella está aquí conmigo, y es muy #italic close#!. Claramente, fue una oportunidad perdida para él, pero después de intentar mantenerme al margen durante tanto tiempo, ¿puedo aceptar ser su segunda esposa en el matrimonio, como lo fui en la herencia?" #NT!
+ agot_scenario_trp.0007.a: "¡Derribaré a este retador!" #NT!
+ agot_scenario_trp.0007.a.tt: "Si ganas te casarás [laena.GetName]" #NT!
+ agot_scenario_trp.0007.b: "Lady mía, ¿puedo pedir su mano?" #NT!
+ agot_scenario_trp.0007.b.tt: "Pedirás la mano de Laena en matrimonio." #NT!
+ agot_scenario_trp.0007.c: "¡No voy a ser el segundo violín de mi hermano aquí!" #NT!
+ agot_scenario_trp.0007.c.f: "Ordenas el primer envío a casa." #NT!
+  
+ agot_scenario_trp.daemon_leaves_tt: "Dejarás los Peldaños de Piedra a su suerte y regresarás a la Fortaleza Roja." #NT!
+  
+  # 0100 - 0199: Corlys 
+ agot_scenario_trp.0101.t: "La serpiente marina" #NT!
+ agot_scenario_trp.0101.desc: "Estoy de pie en la cubierta de mi buque insignia, el Sea Snake, una vez más listo para zarpar en otra aventura por la gloria de la Casa [ROOT.Char.GetHouse.GetName]. Los aranceles de la Triarquía sobre los Peldaños de Piedra han estado sofocando las riquezas que ya había ganado, y no permitiré que unos comerciantes engreídos derriben mis obras de un plumazo.\n\nEn esto, me he aliado con [daemon.GetTitledFirstName], que ya ha desembarcado en [daemon.GetCurrentLocation.GetName] y ha comenzado a prepararse para la siguiente fase de la guerra. ¡Me uniré a él y juntos haremos que la Triarquía se arrodille!" #NT!
+ agot_scenario_trp.0101.a: "¡A los Peldaños de Piedra!" #NT!
+ agot_scenario_trp.0101.a.tt: "Si no estás de acuerdo con esta guerra, tu esposa y tus hijos no montarán sus dragones en este conflicto." #NT!
+  
+ agot_scenario_trp.0102.t: "Derrota para Marcaderiva" #NT!
+ agot_scenario_trp.0102.desc: "La guerra en los Peldaños de Piedra no ha ido bien. La flota de la Triarquía ha sido demasiado fuerte y con" #NT!
+ agot_scenario_trp.0102.desc.dead: "La muerte de Daemon" #NT!
+ agot_scenario_trp.0102.desc.alive: "Daemon huye de regreso a la Fortaleza Roja" #NT!
+ agot_scenario_trp.0102.desc.end: "Nuestras posibilidades de victoria se han visto frustradas.\n\nLa Triarquía está destinada a imponer aranceles aún más duros a nuestro comercio, y temo que la gloria de la Casa Velaryon pueda estar menguando en el futuro previsible." #NT!
+ agot_scenario_trp.0102.a: "¡Nunca me he enfrentado a una derrota tan grande!" #NT!
+  
+ agot_scenario_trp.0103.t: "La venganza de la serpiente marina" #NT!
+ agot_scenario_trp.0103.desc: "¡Victoria! La flota de la Triarquía está en llamas, y con ella su control sobre los Peldaños de Piedra y nuestro comercio, ambos en cenizas.\n\nHe coronado a [daemon.GetFirstName] como el Rey de los Peldaños de Piedra y el Mar Angosto en una ceremonia ante nuestras huestes combinadas, y con sus garantías de pasaje y puerto gratuitos, ¡la Casa Velaryon es la más rica de Poniente una vez más!" #NT!
+ agot_scenario_trp.0103.a: "¡Esta alianza ha dado sus frutos y debe continuar!" #NT!
+ agot_scenario_trp.0103.a.daemon_t: "Alianza consolidada" #NT!
+ agot_scenario_trp.0103.a.daemon_tt: "Corlys ha decidido continuar su alianza contigo." #NT!
+ agot_scenario_trp.0103.b: "¡El mundo sabe que no se debe jugar con la serpiente marina!" #NT!
+ agot_scenario_trp.0103.b.daemon_t: "La alianza terminó" #NT!
+ agot_scenario_trp.0103.b.daemon_tt: "Corlys se ha llevado sus barcos a casa y ha logrado sus objetivos originales." #NT!
+  
+ agot_scenario_trp.0104.t: "Barcos en el claro" #NT!
+ agot_scenario_trp.0104.desc: "Se ha establecido un desembarco sólido y la flota de la Triarquía no puede esperar mantener su bloqueo de los Peldaños de Piedra por más tiempo.\n\nSi quisiera, podría navegar de regreso a Marcaderiva y regresar a mi vida de lujo. ¡Pero he llegado hasta aquí y seguramente la gloria y el oro me esperan si continúo!" #NT!
+ agot_scenario_trp.0104.a: "¡No dejaré pasar esta oportunidad!" #NT!
+ agot_scenario_trp.0104.b: "Mis barcos pueden viajar libremente y así se logran mis objetivos." #NT!
+ agot_scenario_trp.0104.b.f: "Dejarás que Daemon luche sus guerras solo." #NT!
+  
+ agot_scenario_trp.0105.t: "Un juramento que se avecina" #NT!
+ agot_scenario_trp.0105.desc: ""Fue un acuerdo que tenía sentido en ese momento..."\n\nMi amada hija, [laena.GetFirstName], ha estado comprometida con [laena_betrothed.GetName] durante años, pero la idoneidad de la unión ha ido decayendo seriamente. Poco después de que yo aceptara la unión con el ex Lord del Mar, [laena_betrothed.GetFirstNameNoTooltip] heredó la posición de su padre y rápidamente despilfarró el legado de su padre.\n\nSu compromiso con mi hija es su último activo restante, ha estado viviendo en mi corte desde entonces, tratando de asegurarse de que cumpla mi promesa.\n\nHe podido evitar sus solicitudes durante años, citando la juventud de [laena.GetFirstNamePossessiveNoTooltip], pero ahora que es una mujer adulta no podré mantener esta farsa por mucho más tiempo." #NT!
+ agot_scenario_trp.0105.a: "Un juramento es un juramento. No lo romperé." #NT!
+ agot_scenario_trp.0105.a.f: "Con el corazón apesadumbrado, aceptas el matrimonio. Quizá con el tiempo demuestre que es un buen candidato... pero lo dudas." #NT!
+ agot_scenario_trp.0105.b: "No, todavía no es el momento adecuado, mis disculpas." #NT!
+ agot_scenario_trp.0105.b.f: "Encuentras más excusas para retrasar el matrimonio." #NT!
+ agot_scenario_trp.0105.b.tt: "Si Laena permanece soltera, puede haber oportunidades más ventajosas en el futuro." #NT!
+  
+ agot_scenario_trp.0106.t: "Una ambición renovada" #NT!
+ agot_scenario_trp.0106.desc: "Me han llegado noticias interesantes. Parece que [king.GetTitledFirstName]" #NT!
+ agot_scenario_trp.0106.desc_visy: "está una vez más sin esposa. Aunque una vez intenté casar a mi hija con él, se la declaró demasiado joven en ese momento, y en su lugar se casó con esa ramera de Hightower. Bueno, más tonto es él, porque una vez más está sin esposa, y mi hija ahora es una mujer adulta.\n\nAunque el insulto de su negativa anterior todavía duele, no puedo negar que el prestigio de un matrimonio con el Trono de Hierro todavía está presente, y sería una bendición para mi casa. ¿Quizás debería ofrecer la mano de mi hija una vez más?" #NT!
+ agot_scenario_trp.0106.desc_daemon: "está buscando una nueva esposa para que se una a él en la Fortaleza Roja. Recuerdo con cariño nuestros días en los Peldaños de Piedra y la gloria que ganamos juntos. Aunque una vez le negué un matrimonio a su hermano mayor, ¿quizás mi viejo amigo estaría más dispuesto a casarse con mi hija ahora que es rey? Ella se ha convertido en una joven hermosa y nadie podría negar lo apropiado de un matrimonio así." #NT!
+ agot_scenario_trp.0106.desc_other: "está buscando una nueva esposa para que se una a él en la Fortaleza Roja.\n\nAunque ya había buscado una pareja así antes, no era el momento adecuado. [laena.GetFirstName] era demasiado joven, incluso yo puedo admitirlo ahora. Aun así, la herida en mi orgullo me duele y no puedo estar seguro de que [king.GetFirstNameNoTooltip] acepte. Aun así, los beneficios de una pareja así son claros." #NT!
+ agot_scenario_trp.0106.desc_betrothed: "\n\nPor supuesto, también está el asunto de [laena_betrothed.GetFirstName], pero en vista de un matrimonio con el Trono de Hierro, él podría ser fácilmente dejado de lado." #NT!
+ agot_scenario_trp.0106.a: "¡Le ofreceré la mano de mi hija!" #NT!
+ agot_scenario_trp.0106.a.f: "Realizas el viaje a la Fortaleza Roja para ofrecer la mano de tu hija en matrimonio." #NT!
+ agot_scenario_trp.0106.a.tt: "Si [king.GetTitledFirstName] acepta, se casará con [laena.GetFirstName]" #NT!
+ agot_scenario_trp.0106.b: "Ya he pasado por esto antes. No volveré a ofrecerlo." #NT!
+ agot_scenario_trp.0106.b.tt: "No ofrecerás la mano de tu hija en matrimonio." #NT!
+  
+ agot_scenario_trp.0107.t: "¿Hermano de armas, yerno?" #NT!
+ agot_scenario_trp.0107.desc: "Hoy me han llegado noticias de que mi viejo hermano de armas [daemon.GetTitledFirstName] se ha quedado sin esposa. Aunque una vez intenté casar a [laena.GetFirstName] con su hermano, ¿quizás él sería un mejor pretendiente? Lo conozco desde hace muchos años y, aunque es un hombre de gran ambición, es un guerrero capaz, un jinete de dragones, un Targaryen y un príncipe del reino.\n\nPor supuesto, un matrimonio así tendría que ser... gestionado, dada la fuerza de los espíritus involucrados. Pero los beneficios son claros. ¿Quizás debería invitar a Daemon a Marcaderiva para evaluar su interés mutuo?" #NT!
+ agot_scenario_trp.0107.a: "No estaría de más explorar esas posibilidades." #NT!
+ agot_scenario_trp.0107.a.f: "Le escribes a Daemon, invitándolo a Marcaderiva con el pretexto de una visita amistosa." #NT!
+ agot_scenario_trp.0107.a.landed_tt: "[daemon.GetFirstName] considerará tu invitación." #NT!
+ agot_scenario_trp.0107.a.unlanded_tt: "[daemon.GetFirstName] llegará en breve." #NT!
+ agot_scenario_trp.0107.b: "Lo sé, Daemon. Un matrimonio así no es lo mejor para Laena." #NT!
+  
+ agot_scenario_trp.0108.t: "Compromiso mal asegurado" #NT!
+ agot_scenario_trp.0108.desc: "En verdad, parece que no se puede evitar esta mala combinación.\n\n[laena.GetFirstName] ha estado comprometida con [laena_betrothed.GetFirstName] durante más de dos décadas y ahora está llegando al punto en que su edad comenzará a convertirse en un problema para cualquier otra oferta de #italic#! que pueda recibir. Parece que mi oportunidad para encontrar una pareja verdaderamente oportuna ha pasado.\n\nTendré que sacar lo mejor de esta situación y esperar que [laena_betrothed.GetFirstNameNoTooltip] pueda demostrar que es una pareja digna para mi hija." #NT!
+ agot_scenario_trp.0108.a: "Muy bien. Voy a seguir con esto hasta el final." #NT!
+ agot_scenario_trp.0108.a.f: "Decides mantener el compromiso entre Laena y [laena_betrothed.GetFirstNameNoTooltip]." #NT!
+ agot_scenario_trp.0108.b: "¡No! ¡No lo haré! ¡Esta farsa ha terminado!" #NT!
+ agot_scenario_trp.0108.b.f: "Rompes el compromiso entre Laena y [laena_betrothed.GetFirstNameNoTooltip]." #NT!
+  
+ agot_scenario_trp.0109.t: "Un dilema para una hija" #NT!
+ agot_scenario_trp.0109.desc: "Daemon ha enviado un mensaje diciendo que no viajará a Marcaderiva, ya que tiene otros asuntos que atender.\n\nAunque esta noticia sea decepcionante, no era seguro que se hubieran llevado bien de todos modos. Aun así, el asunto del matrimonio de [laena.GetFirstNamePossessive] sigue siendo una preocupación apremiante." #NT!
+ agot_scenario_trp.0109.a: "Tendré que estar atento a otras oportunidades." #NT!
+ agot_scenario_trp.0109.a.tt: "Sigues buscando una pareja para Laena" #NT!
+  
+ agot_scenario_trp.0110.t: "¡Daemon declina!" #NT!
+ agot_scenario_trp.0110.desc_betrothed: "¡Todo iba tan bien! Cuando [daemon.GetFirstName] llegó a Marcaderiva, él y [laena.GetFirstName] parecían estar absolutamente enamorados. ¡Pensé que esto se resolvería ese mismo día!\n\n¡Pero no! Cuando se enteró del compromiso, en lugar de aceptar lo que quería sin tener en cuenta la costumbre, como esperaba del hombre que conocía, se negó rotundamente. "¡Ya terminé de luchar contra los hombres por el afecto de las mujeres valyrias!", dijo, lo que sea que eso pudiera significar.\n\n¡Parece que ahora tendré que encontrar otra pareja para mi hija, y que [laena_betrothed.GetFirstName] sigue encontrando formas de fastidiarme!" #NT!
+ agot_scenario_trp.0110.desc_not: "¡Lo tenía todo planeado! [daemon.GetFirstName] vendría a Marcaderiva, y él y [laena.GetFirstName] quedarían enamorados, ¡y mi casa estaría ligada a los Targaryen para siempre!\n\n¡Pero no! Aunque, por supuesto, vino y se alegró de que lo invitaran a cenar y a beber, se mostró frío y distante con Laena. Cuando abordé el tema de un matrimonio entre ellos, ¡se sintió insultado por la idea!\n\n¡Parecía pensar que solo se la estaba ofreciendo porque su hermano no estaba disponible y que estaba tratando de endosársela a él! ¡Qué descaro! Tendré que encontrar otra pareja para mi hija ahora, y espero que este insulto no vuelva para atormentarme." #NT!
+ agot_scenario_trp.0110.a: "Estaba tan seguro de que esto funcionaría..." #NT!
+ agot_scenario_trp.0110.a.tt: "Seguirás buscando una pareja para Laena" #NT!
+  
+ agot_scenario_trp.0111.t: "La conquista del dragón" #NT!
+ agot_scenario_trp.0111.desc: "¡Mi plan funcionó mejor de lo que esperaba!\n\nCuando [daemon.GetFirstName] llegó a Marcaderiva, él y [laena.GetFirstName] parecían estar absolutamente enamorados. Había pensado que el compromiso sería un problema, ¡pero el granuja acabó con su competencia sin pensarlo dos veces!\n\nNo vi ninguna razón para demorarme y llamé al septón para que los casara ese mismo día. Fue una hermosa ceremonia para uno de los hombres más impresionantes del reino.\n\n¿Qué más podría pedir un padre?" #NT!
+ agot_scenario_trp.0111.a: "¡Estoy muy orgulloso!" #NT!
+ agot_scenario_trp.0111.a.daemon_t: "Alegría en la victoria" #NT!
+  
+ agot_scenario_trp.0112.t: "La apuesta exterior" #NT!
+ agot_scenario_trp.0112.desc: "[daemon.GetFirstName] llegó con toda la fanfarria esperada, pero nunca podría haber esperado lo que vendría de su visita. Él y [laena.GetFirstName] parecían estar absolutamente enamorados, ¡y pensé que el compromiso se resolvería ese mismo día! Cuando se enteró del compromiso, ¡retó a [laena_betrothed.GetFirstName] a un duelo!\n\n¡Sorprendentemente, este famoso espadachín y jinete de dragones fue derrotado por un comerciante que saltó de un salto! [laena_betrothed.GetFirstName] lo mató con una estocada en el estómago, ¡y exige que Laena y él se casen en este mismo momento!" #NT!
+ agot_scenario_trp.0112.a: "¡No puedo creer esto!" #NT!
+  
+ agot_scenario_trp.0113.t: "El plan de seducción de la serpiente marina tuvo éxito" #NT!
+ agot_scenario_trp.0113.desc: "¡El plan funcionó exactamente como lo esperaba!\n\nCuando [daemon.GetFirstName] llegó a Marcaderiva, él y [laena.GetFirstName] parecían estar absolutamente enamorados. No pasó mucho tiempo antes de que él hiciera la oferta, ¡y pude aceptarla sin ningún problema!\n\nLa ceremonia fue hermosa y los dos parecen estar muy felices juntos. ¡Estoy tan orgullosa de mi hija y tan feliz de que haya encontrado una pareja así!" #NT!
+ agot_scenario_trp.0113.a: "¡Es todo lo que un padre podría pedir!" #NT!
+ agot_scenario_trp.0113.a.daemon_t: "Matrimonio aceptado" #NT!
+  
+  # 0200 - 0299: Cangrejero 
+ agot_scenario_trp.0201.t: "El general de los cangrejos" #NT!
+ agot_scenario_trp.0201.desc: "Un buen general no se resiste a cumplir con su deber... ni a sus enemigos. Me he enfrentado a docenas de ellos, desde los muros de Myr hasta las Tierras en Disputa. Durante los últimos diez años, he estado al mando de las fuerzas de la Triarquía en los Peldaños de Piedra, luchando contra pequeños reyes piratas de isla en isla en brutales campañas de lucha en cuevas. Ahora, me enfrento a un nuevo enemigo, no uno que se escabulle bajo tierra o surque los mares, ¡sino uno que vuela!\n\n[daemon.GetTitledFirstName] [daemon.GetHouse.GetName], el Príncipe Renegado, ha desembarcado en [daemon.GetCurrentLocation.GetName] y ha comenzado una campaña para conquistar los Peldaños de Piedra en un vano intento de gloria. ¡No permitiré que triunfe y no permitiré que caiga la Triarquía!" #NT!
+ agot_scenario_trp.0201.a: "¡Los cangrejos probarán carne de dragón!" #NT!
+  
+ agot_scenario_trp.0202.t: "Una corona de ceniza" #NT!
+ agot_scenario_trp.0202.desc: "¡Desastre! La hueste del Dragón ha establecido un punto de apoyo en los Peldaños de Piedra y uno de mis co-almirantes, [coadmiral_1.GetFirstName], ya ha caído ante su fuego de dragón. ¡Simplemente no podemos hacer esto solos!\n\nAfortunadamente, parece que no es necesario. ¡He recibido noticias de que la Triarquía se ha unido a nuestra lucha! Además, ¡me han dado primacía sobre nuestras fuerzas en los Peldaños de Piedra! ¡No los decepcionaré!" #NT!
+ agot_scenario_trp.0202.a: "¡Conduciré nuestras fuerzas a la victoria!" #NT!
+  
+ agot_scenario_trp.0203.t: "¡El dragón hirió!" #NT!
+ agot_scenario_trp.0203.desc: "¡Victoria! Estos dragones de Poniente están lejos de ser invencibles. El Príncipe Rebelde ha" #NT!
+ agot_scenario_trp.0203.desc_fled: "huyó de regreso a la Fortaleza Roja, avergonzado y derrotado." #NT!
+ agot_scenario_trp.0203.desc_dead: "ha sido arrojado al mar; la sangre de dragón ahora baña nuestras costas." #NT!
+ agot_scenario_trp.0203.desc_end: "¡Los Peldaños de Piedra son nuestros una vez más!\n\nSin embargo, el conflicto ha alterado en gran medida el equilibrio de poder en el Mar Angosto, y la Triarquía ha gastado gran parte de su fuerza en este conflicto. ¿Quizás nuestra nueva unidad pueda trasladar su fuerza del oeste al este? ¡Si alguna vez hubo un momento para jugar por la independencia, es ahora!" #NT!
+ agot_scenario_trp.0203.a: "No traicionaremos a nuestro antiguo aliado, volvamos al redil." #NT!
+ agot_scenario_trp.0203.b: "¡Estas islas son mías y de nadie más!" #NT!
+  
+  # 1000 - 1999: Misc Minor Events 
+ agot_scenario_trp.1000.t: "Un hermano distanciado" #NT!
+ agot_scenario_trp.1000.desc: "Como siempre, he recibido noticias de que mi hermano, [daemon.GetTitledFirstName], ha llegado a [daemon.GetCurrentLocation.GetName] y ha comenzado una campaña para conquistar los Peldaños de Piedra. Aunque no siento ningún cariño por la Triarquía y me preocupa mucho mi hermano, semejante ansia de guerra es impropia de un gobernante sabio.\n\nEl tiempo dirá cómo le va a su campaña y qué significa para el futuro del reino." #NT!
+ agot_scenario_trp.1000.a: "Buena suerte hermano, estás loco." #NT!
+  
+ agot_scenario_trp.1001.t: "Tío mío" #NT!
+ agot_scenario_trp.1001.desc: "He recibido noticias de que mi tío, [daemon.GetTitledFirstName], ha desembarcado en [daemon.GetCurrentLocation.GetName] y ha iniciado una campaña para conquistar los Peldaños de Piedra. ¡Cómo me hubiera gustado que me llevara con él!\n\nDesafortunadamente, todavía debo doblegarme a los caprichos de mi padre. Sin embargo, ¿quizás el futuro me permita desplegar mis alas?" #NT!
+ agot_scenario_trp.1001.a: "¡Buena suerte, tío!" #NT!
+  
+ agot_scenario_trp.1002.t: "Choque en la orilla del mar" #NT!
+ agot_scenario_trp.1002.desc.daemon: "La batalla continúa abajo, la Triarquía se enfrenta a nuestras fuerzas por una vez en lugar de esconderse en sus cuevas. Mientras quemo otra línea de barcos, veo una figura familiar en la orilla de abajo. ¡El Cragrejero, [crabfeeder.GetFirstName], está aquí!\n\nPodría quemarlo fácilmente desde el cielo, pero no permitiré que digan que soy un cobarde. ¡Aterrizaré y me enfrentaré a él en combate singular!\n\nHago que Caraxes se lance en picado de repente, mientras [crabfeeder.GetHouse.GetNameNoTooltip] hombres retroceden a toda prisa de la explosión. Pero el Cragrejero no da un paso atrás. #bold Bien.#!\n\nI Aterrizo en la arena, saco a la Hermana Oscura y la levanto sin decir palabra en desafío." #NT!
+ agot_scenario_trp.1002.desc.crabfeeder: "Mis barcos arden frente a la costa, nuestras fuerzas fueron capturadas antes de que pudiéramos retirarnos a las cuevas. Mientras separo la cabeza de otro hombre de su cuello, veo una figura familiar que cae del cielo como un meteoro. ¡El Príncipe Pícaro, [daemon.GetFirstName], está aquí!\n\nMe preparo para ser bañado en fuego de dragón, pero el Príncipe aterriza frente a mí, atrae a la Hermana Oscura y la levanta sin decir palabra en desafío.\n\nÉl desea terminar con este cara a cara . #bold Bien.#!\n\nI Ordena a mis hombres que se queden atrás, desenvaina mi espada y da un paso adelante para encontrarse con él." #NT!
+ agot_scenario_trp.1002.a: "¡Ven y muere entonces!" #NT!
+  
+ agot_scenario_trp.1003.t: "Un hermano en necesidad" #NT!
+ agot_scenario_trp.1003.desc: "Han pasado más de dos años desde que recibí noticias de mi hermano, [daemon.GetName], y he oído que su campaña en los Peldaños de Piedra se balancea sobre el filo de la navaja.\n\nAunque sé que nunca pediría mi ayuda, ¿de verdad puedo quedarme de brazos cruzados y dejar que fracase? Debo decidir si le envío ayuda o si le dejo que se enfrente a su destino solo." #NT!
+ agot_scenario_trp.1003.a: "¡El peso de Poniente recaerá sobre la Triarquía!" #NT!
+ agot_scenario_trp.1003.b: "Tendrá el apoyo de nuestras arcas, si no de nuestros hombres." #NT!
+ agot_scenario_trp.1003.c: "Mi hermano tiene éxito, o #N fracasa#!, por su cuenta." #NT!
+  
+ agot_scenario_trp.1004.t: "Otro reino de dragones" #NT!
+ agot_scenario_trp.1004.desc: "Me he enterado de que [daemon.GetName] ha conquistado los Peldaños de Piedra y se ha coronado a sí mismo como Rey del Mar Angosto. Aunque no siento ningún cariño por la Triarquía, siento aún menos por mis vecinos del norte.\n\nMis consejeros nos aconsejan que no toleremos esta nueva amenaza procedente de nuestras costas orientales, que es muy probable que se alíen con sus parientes en Desembarco del Rey. Aunque hemos sido derrotados recientemente, si nos aliamos, la Triarquía y los dornienses podrían derrocar a este segundo hijo, con dragón o sin él." #NT!
+ agot_scenario_trp.1004.a: "Toma mi pluma. Escribiré a la Triarquía." #NT!
+ agot_scenario_trp.1004.b: "No se derramará sangre dorniense para defender suelo extranjero." #NT!
+  
+ agot_scenario_trp.1005.t: "Una oferta desde el otro lado del mar" #NT!
+ agot_scenario_trp.1005.desc: ""¡Mi [ROOT.Char.GetLadyLord]! ¡Un mensaje desde el otro lado del mar!", oigo gritar a un paje mientras me entrega una pequeña tira de papel. ¡Es una carta de Dorne! La leo rápidamente y mi corazón se acelera.\n\nParece que los dornienses no tienen ningún deseo de ver a [daemon.GetName] descansar tranquilo en los Peldaños de Piedra como el autoproclamado Rey del Mar Angosto.\n\nLa carta continúa diciendo que los dornienses se han ofrecido a aliarse con nosotros para derrocar a este segundo hijo. Aunque todavía nos estamos recuperando de la última guerra, si nos aliamos, la Triarquía y los dornienses seguramente podrían derrocar a este príncipe rebelde, dragón o no." #NT!
+ agot_scenario_trp.1005.a: "Escribe a los dornienses. ¡Nos aliaremos!" #NT!
+ agot_scenario_trp.1005.b: "Hemos sangrado suficiente por esas malditas islas." #NT!
+  
+ agot_scenario_trp.1006.t: "¡La Triarquía acepta!" #NT!
+ agot_scenario_trp.1006.desc: "¡He recibido noticias de que la Triarquía ha aceptado mi oferta de alianza! Sus nuevos barcos ya están desplegando sus velas y sus ejércitos navegando hacia los Peldaños de Piedra. ¡Con nuestra ayuda, [daemon.GetName] seguramente será derrocado!" #NT!
+ agot_scenario_trp.1006.a: "¡Seguro que no nos arrepentiremos de esto!" #NT!
+  
+ agot_scenario_trp.1007.t: "La triarquía en decadencia" #NT!
+ agot_scenario_trp.1007.desc: "He recibido noticias de que la Triarquía ha rechazado mi oferta de alianza. Afirman que todavía se están recuperando de la última guerra y que no tienen ningún deseo de luchar en otra tan pronto.\n\nTemo que esto pueda significar el fin de una resistencia significativa y que [daemon.GetFirstNameNicknamed] seguirá siendo el Rey del Mar Angosto." #NT!
+ agot_scenario_trp.1007.a: "El tiempo dirá cuán acertada es su reticencia." #NT!
+  
+ agot_scenario_trp.1008.t: "Sangre en la espuma" #NT!
+ agot_scenario_trp.1008.desc.daemon: "Con un golpe de la Hermana Oscura separo la cabeza del asqueroso Cangrejero de su cuello, el rostro conmocionado cae hacia las mareas mientras la sangre forma arcos en el aire.\n\nOigo a Caraxes rugir en señal de aprobación y me doy vuelta para ver a las fuerzas de la Triarquía dispersarse y huir de regreso a sus barcos. Con su general muerto, la posición de la Triarquía en el Mar Angosto está condenada." #NT!
+ agot_scenario_trp.1008.desc.crabfeeder: "Con un último y desesperado corte de mi sable, le parto los testículos al príncipe, que ha saltado hacia arriba, ¡y le da tiempo a bajar la mirada en estado de shock antes de que la luz abandone sus ojos y su espada valyria caiga de sus manos. Sin embargo, la amenaza no ha terminado... Miro para ver qué está haciendo la gran bestia y caigo al suelo, ruge en protesta y deja escapar una llamarada hacia el cielo. Con un gran aleteo, despega y vuela quién sabe hacia dónde. Miro hacia el mar y veo que mis fuerzas están superando lentamente a las tropas de Velaryon. Con su príncipe muerto, su aventura contra nosotros está condenada al fracaso." #NT!
+ agot_scenario_trp.1008.a: "¡Los Stepstones son míos!" #NT!
+  
+ agot_scenario_trp.1009.t_alive: "¡El Príncipe Pródigo regresa!" #NT!
+ agot_scenario_trp.1009.t_dead: "El Príncipe Pródigo Regresa..." #NT!
+ agot_scenario_trp.1009.desc_alive: "He recibido noticias de que [daemon.GetTitledFirstName] ha regresado a la Fortaleza Roja, ya que esta mañana se ha visto a Caraxes volando hacia el Pozo del Dragón. Parece que ha abandonado los Peldaños de Piedra, ya que la situación allí no le agrada. Aunque esperaba algo más auspicioso, me alegra verlo a salvo.\n\nRey del Mar Angosto o no, ahora es un comandante de batalla experimentado. Tal vez encuentre otra forma de demostrar su valía al reino." #NT!
+ agot_scenario_trp.1009.desc_dead: "[daemon.GetTitledFirstName] ha regresado a la Fortaleza Roja, pero no de la forma que esperaba. Parece que [daemon.GetDeathReason] lo hizo durante su intento de conquista de los Peldaños de Piedra.\n\n" #NT!
+ agot_scenario_trp.1009.desc_dead_related: "Aunque lamento mucho esta pérdida," #NT!
+ agot_scenario_trp.1009.desc_dead_unrelated: "Me siento un poco aliviado, aunque" #NT!
+ agot_scenario_trp.1009.desc_dead_end: "Parece que el Mar Angosto seguirá siendo un lugar peligroso para los barcos de Poniente." #NT!
+ agot_scenario_trp.1009.a_alive: "¡Bienvenido a casa!" #NT!
+ agot_scenario_trp.1009.a_dead: "Que descanse en paz." #NT!
+ agot_scenario_trp.1009.a_dead_unrelated: "Bueno, ese es un competidor menos del que preocuparse." #NT!
+  
+  
+ agot_scenario_trp.1010.t: "¡El Príncipe regresa convertido en Rey!" #NT!
+ agot_scenario_trp.1010.desc: "He recibido noticias de que [daemon.GetTitledFirstName] ha regresado a la Fortaleza Roja, ya que se vio a Caraxes volando hacia Pozo de Dragon esta mañana. ¡Regresa victorioso, el Rey indiscutible de los Peldaños de Piedra y el Mar Angosto! ¡La Triarquía ha renunciado a todos los derechos sobre las islas!\n\nAunque tuve una pequeña preocupación cuando escuché que había regresado a lomo de dragón, parece que ha venido a hacer algo más que regodearse. ¡Ha venido a jurarme lealtad!\n\nNo lo negaré. Ha demostrado ser un gobernante digno y me alegro de tenerlo de vuelta en el reino. Sin embargo, se espera que le dé alguna bendición por su servicio. ¿Extiendo esta oferta?" #NT!
+ agot_scenario_trp.1010.a: "¿Qué pedirías a cambio de un servicio tan leal?" #NT!
+ agot_scenario_trp.1010.a.tt: "Daemon elegirá un favor para pedirte." #NT!
+ agot_scenario_trp.1010.b: "Bueno, eh, sí, gracias." #NT!
+ agot_scenario_trp.1010.b.tt: "No le ofrecerás ningún favor." #NT!
+ agot_scenario_trp.1010.b.toast.t: "Bendición negada" #NT!
+ agot_scenario_trp.1010.b.toast.desc: "No te han ofrecido ninguna bendición." #NT!
+  
+ agot_scenario_trp.1011.t: "El precio de un reino" #NT!
+ agot_scenario_trp.1011.desc: "Doy un paso delante de [sitting_ruler.GetTitledFirstName] y me arrodillo, con la cabeza inclinada en señal de respeto. Con un gesto amplio, tomo la corona de mi cabeza y la coloco a [sitting_ruler.GetHerHis] pies.\n\nComo era de esperar, [sitting_ruler.GetFirstNameNoTooltip] acepta gentilmente mi lealtad y me pide que me levante. Ahora no soy sólo Príncipe, sino Lord Supremo de los Peldaños de Piedra.\n\nAdemás, se me ha concedido una bendición por mi servicio al reino. La pregunta ahora es ¿qué debo pedir?" #NT!
+ agot_scenario_trp.1011.desc.rhaenyra_rejected: "¡Qué sorpresa! A pesar de que parece interesada en todas nuestras interacciones hasta ahora, parece que Rhaenyra no tiene ningún interés en mí. Ha rechazado mi oferta de matrimonio, a pesar del consentimiento de [sitting_ruler.GetTitledFirstNamePossessive].\n\nAmablemente, [sitting_ruler.GetSheHe] me ha ofrecido otro favor en su lugar." #NT!
+ agot_scenario_trp.1011.desc.rejected_start: ""¡Vas demasiado lejos!" La negativa es clara en la voz de [sitting_ruler.GetTitledFirstNamePossessive]. "¡Elige a otro, antes de que cambie de opinión!", dice [sitting_ruler.GetSheHe]. Al parecer mi petición" #NT!
+ agot_scenario_trp.1011.desc.rejected_heir_boon: "porque mi legítimo lugar como heredero es un puente demasiado lejano para [sitting_ruler.GetFirstNameNoTooltip], a pesar de la obvia legitimidad y capacidad que aporto." #NT!
+ agot_scenario_trp.1011.desc.rejected_rhaenyra_boon: "La mano de Rhaenyra en matrimonio incensa a [sitting_ruler.GetFirstNameNoTooltip], a pesar de los obvios beneficios políticos y personales que traería consigo tal unión." #NT!
+ agot_scenario_trp.1011.desc.rejected_divorce_boon: "porque el divorcio de la Perra de Bronce era "contra los juramentos que hice" o alguna otra tontería religiosa similar." #NT!
+ agot_scenario_trp.1011.desc.rejected_hand_boon: "Llamarse Hand sería "políticamente inviable"." #NT!
+ agot_scenario_trp.1011.desc.rejected_gold_boon: "por simples honores y oro no es financieramente factible en este momento." #NT!
+ agot_scenario_trp.1011.desc.rejected_end: "\n\nAunque [sitting_ruler.GetSheHe] me ha ofrecido la oportunidad de elegir a otro, ¿debería un #emp Rey#! tener que rogar por sus deseos? Puedo sentir la rabia que habita en mi pecho.\n\nAun así, después de todos estos años, ¿no me reconocerán aquí?" #NT!
+ agot_scenario_trp.1011.tt: "[sitting_ruler.GetTitledFirstName] puede rechazar su solicitud" #NT!
+ agot_scenario_trp.1011.a: "¡Es mi derecho de nacimiento! ¡Nombrádme Príncipe de Rocadragón y vuestro legítimo heredero!" #NT!
+ agot_scenario_trp.1011.b: "Quiero... Rhaenyra." #NT!
+ agot_scenario_trp.1011.b.ruler: "Te deseo." #NT!
+ agot_scenario_trp.1011.c: "Deseo librarme de mi repugnante esposa." #NT!
+ agot_scenario_trp.1011.d: "¡Deseo ser nombrado Mano del Rey!" #NT!
+ agot_scenario_trp.1011.e: "Bastará con oro y una fiesta en mi honor." #NT!
+ agot_scenario_trp.1011.f: "¡Maldita sea esta fortaleza y también tu gobierno!" #NT!
+ agot_scenario_trp.1011.f.f: "No puedes contener tu ira y la rabia se desborda." #NT!
+  
+ agot_scenario_trp.1012.t: "El precio de un reino" #NT!
+ agot_scenario_trp.1012.desc: "Daemon se levanta de sus rodillas y parece pensativo por un momento." #NT!
+ agot_scenario_trp.1012.desc.rhaenyra_rejected: "Para mi sorpresa, parece que Rhaenyra no tiene ningún interés en Daemon y ha rechazado su oferta de matrimonio. Puedo ver la decepción en sus ojos, así que le ofrezco otro favor en su lugar." #NT!
+ agot_scenario_trp.1012.desc.heir: "Sin embargo, nunca se cuestionó qué pediría. Es lo que siempre ha querido.\n\n"Quiero mi derecho de nacimiento", dice, casi en un susurro. "Quiero ser el Príncipe de Rocadragón y tu legítimo heredero", levanta la voz lo suficiente para que la corte lo oiga.\n\n¡Qué petición tan atrevida! ¿Me atrevo a concederla?" #NT!
+ agot_scenario_trp.1012.desc.rhaenyra: "Lo que viene después, nunca lo hubiera esperado.\n\n"Quiero a Rhaenyra", dice, con un brillo en los ojos mientras la mira a ella. "Quiero casarme con ella según la tradición de nuestra casa. Unir a los dragones como uno solo". Levanta la voz, lo suficiente para que la corte lo escuche.\n\nLos rostros horrorizados se alinean en la corte, pero Rhaenyra no es uno de ellos. Ella me mira y puedo ver el mismo brillo en sus ojos. ¡Ella #emp quiere#! esto!" #NT!
+ agot_scenario_trp.1012.desc.rhaenyra.ruler: "Lo que viene a continuación, nunca lo hubiera esperado.\n\n"Te deseo", dice, con un brillo en los ojos, esa sonrisa irónica en sus labios. "Quiero casarme contigo según la tradición de nuestra casa. Unir a los dragones como uno solo. Siempre te he deseado, Rhaenyra, y sé que tú siempre me has deseado. Pon fin a la farsa. Que se sepa".\n\nLos rostros horrorizados se alinean en la corte, pero no puedo evitar sonreír. ¡Yo también quiero esto!" #NT!
+ agot_scenario_trp.1012.desc.divorce: "Lo que viene a continuación era de esperarse.\n\n"Quiero librarme de mi repugnante esposa", dice, ante el asombro de la corte. "Quiero liberarme de la Perra de Bronce; casarme con alguien más digna de mi posición. He demostrado ser un gobernante digno, y creo que el reino estaría de acuerdo en que merezco tal recompensa".\n\n¡Semejante bendición es a la vez trivial y completamente escandalosa!" #NT!
+ agot_scenario_trp.1012.desc.hand: "Lo que viene después era de esperarse.\n\n"¡Deseo ser nombrado Mano del Rey!" dice, ante el grito ahogado del tribunal. "Quiero ser tu mano derecha, tu asesor más confiable, como siempre debí haber sido. He demostrado ser un gobernante digno y no hay nadie mejor para ser tu mano".\n\nAunque ciertamente es una declaración política, No puedo negar que ha demostrado ser un gobernante digno." #NT!
+ agot_scenario_trp.1012.desc.gold: "Lo que viene a continuación era de esperarse de un hombre como él.\n\n"Bueno, Su Gracia... el oro siempre es bienvenido. Y un festival en mi honor sería muy apreciado. He demostrado ser un gobernante digno, y creo que el reino estaría de acuerdo en que merezco tal recompensa", dice con una sonrisa irónica.\n\n¡Semejante beneficio es trivial comparado con el territorio ganado!" #NT!
+ agot_scenario_trp.1012.a: "¡Y así será!" #NT!
+ agot_scenario_trp.1012.a.toast.t: "Bendición concedida" #NT!
+ agot_scenario_trp.1012.a.toast.desc.heir: "¡Has sido nombrado Príncipe de Rocadragón y legítimo heredero del Trono de Hierro!" #NT!
+ agot_scenario_trp.1012.a.toast.desc.rhaenyra: "¡Se te ha concedido la mano de Rhaenyra Targaryen!" #NT!
+ agot_scenario_trp.1012.a.toast.desc.divorce: "¡Se le ha concedido el divorcio de su esposa y es libre de casarse nuevamente!" #NT!
+ agot_scenario_trp.1012.a.toast.desc.hand: "¡Has sido nombrado Mano del Rey!" #NT!
+ agot_scenario_trp.1012.a.toast.desc.gold: "¡Se te ha concedido una gran suma de oro y un festival en tu honor!" #NT!
+ agot_scenario_trp.1012.b: "¡Eso está demasiado lejos! ¡Elige otro antes de que cambie de opinión!" #NT!
+ agot_scenario_trp.1012.b.again: "¿Te atreves?" #NT!
+ agot_scenario_trp.1012.b.tt: "Rechazarás su solicitud y Daemon podrá pedir otra bendición." #NT!
+ agot_scenario_trp.1012.b.again.tt: "Rechazarás su petición." #NT!
+  
+ agot_scenario_trp.1013.t: "La mano del príncipe" #NT!
+ agot_scenario_trp.1013.desc: "He recibido noticias de que [daemon.GetTitledFirstName] ha regresado a la Fortaleza Roja, ya que esta mañana se vio a Caraxes volando hacia el Pozo del Dragón. ¡Regresa victorioso, el Rey indiscutible de los Peldaños de Piedra y del Mar Angosto! ¡Además, ha venido a jurar lealtad!\n\nMientras la corte se reúne ante el trono, [sitting_ruler.GetTitledFirstName] le ofrece a Daemon una bendición por su servicio al reino. Al mirarme a los ojos, sé lo que va a pedir antes de que las palabras salgan de sus labios.\n\n"Quiero a Rhaenyra"." #NT!
+ agot_scenario_trp.1013.a: "¡Oh, demonio!#!" #NT!
+ agot_scenario_trp.1013.b: "¡No me dejaré ofrecer como un broche de premio!" #NT!
+  
+ agot_scenario_trp.1014.t: "Alas rojas como la sangre en lo alto" #NT!
+ agot_scenario_trp.1014.desc: "He estado gobernando estas islas bañadas por la marea durante muchos años, una competencia incómoda entre mí y los otros coalmirantes aquí en nombre de la Triarquía. Aunque he podido extraer una gran riqueza de nuestras levas en los barcos que pasan, ninguno de nosotros ha podido tomar la primacía.\n\nAhora, sin embargo, he recibido noticias de que un nuevo poder ha llegado para cambiar las cosas. [daemon.GetTitledFirstName] ha desembarcado en [daemon.GetCurrentLocation.GetName] y ha comenzado una campaña para conquistar los Peldaños de Piedra. Con un dragón a sus espaldas, seguro que será un enemigo formidable.\n\nAunque no hay amor perdido entre nosotros, hemos dejado de lado nuestras diferencias y hemos jurado enviar a este Príncipe Renegado de vuelta a las profundidades." #NT!
+ agot_scenario_trp.1014.a: "¡Los Peldaños de Piedra no caerán ante este príncipe enaltecido!" #NT!
+  
+ agot_scenario_trp.1015.t: "Cenizas en el mar" #NT!
+ agot_scenario_trp.1015.desc: "¡Desastre! La hueste del Dragón ha establecido un punto de apoyo en los Peldaños de Piedra, y uno de mis co-almirantes, [coadmiral_1.GetFirstName], ya ha caído bajo el fuego de su dragón. ¡Simplemente no podemos hacer esto solos!\n\nAfortunadamente, parece que no es necesario. ¡He recibido noticias de que la Triarquía se ha unido a nuestra lucha! Aunque le han dado a [drahar.GetTitledFirstNameNicknamed] primacía sobre nuestras fuerzas en los escalones de piedra, a mí me han nombrado [drahar.GetHerHis] segundo. No tengo más remedio que aceptar este acuerdo; ¡Nuestra propia supervivencia depende de ello!" #NT!
+ agot_scenario_trp.1015.a: "¡Debemos#! salir victoriosos!" #NT!
+  
+ agot_scenario_trp.1016.t: "Los escalones de piedra arden" #NT!
+ agot_scenario_trp.1016.desc: "¡Terribles noticias de los Peldaños de Piedra! Parece que [daemon.GetTitledFirstName] ha lanzado una invasión de los Peldaños de Piedra y ya ha conquistado un tercio de ellos. Nuestros almirantes títeres no han podido detenerlo hasta ahora; ¡es necesaria una acción drástica y directa!\n\n¡Nos uniremos a esta lucha, resolveremos las disputas de nuestros almirantes y llevaremos a este Príncipe Renegado ante la justicia!" #NT!
+ agot_scenario_trp.1016.a: "¡Nuestro control sobre los Stepstones se mantendrá!" #NT!
+  
+ agot_scenario_trp.1018.t: "¡El dragón cae!" #NT!
+ agot_scenario_trp.1018.desc.start: "¡Victoria! Aunque fue una victoria difícil, las fuerzas del [daemon.GetTitledFirstName] no pudieron con nuestro poder combinado." #NT!
+ agot_scenario_trp.1018.desc.alive: "El Príncipe Renegado ha huido de nuevo a la Fortaleza Roja, avergonzado y derrotado. ¡Los Peldaños de Piedra son nuestros una vez más!" #NT!
+ agot_scenario_trp.1018.desc.dead: "Su sangre de dragón ahora se encuentra en las orillas de los Peldaños de Piedra, y su cuerpo yace en las profundidades del mar. ¡Los Peldaños de Piedra son nuestros una vez más!" #NT!
+ agot_scenario_trp.1018.desc.end: "\n\nPero no todo está bien. El príncipe puede haber sido derrotado, pero a medida que la amenaza muere, también lo hace la fuerza unificadora de nuestra alianza. Mis compañeros de almirante ya han comenzado a pelearse por el botín, y ahora cada uno de nosotros debe elegir: ¿será la paz o la guerra?" #NT!
+ agot_scenario_trp.1018.a: "Ya se ha derramado suficiente sangre. ¡Hay que lograr la paz!" #NT!
+ agot_scenario_trp.1018.a.tt: "Si tus coalmirantes están de acuerdo, regresarás pacíficamente como vasallo de la Triarquía." #NT!
+ agot_scenario_trp.1018.b: "¡Los Peldaños de Piedra serán sólo míos!" #NT!
+ agot_scenario_trp.1018.b.tt: "Declararás la guerra a todos los demás gobernantes de los Peldaños de Piedra. Ellos también se declararán la guerra entre ellos. Quien gane será el único gobernante de los Peldaños de Piedra." #NT!
+  
+ agot_scenario_trp.1020.t: "La paz en nuestro tiempo" #NT!
+ agot_scenario_trp.1020.desc: "Parece que ni yo ni mis compañeros almirantes deseamos ver las Piedras Peldañas arder de nuevo tan pronto. Aunque nos hemos estado peleando durante años, hemos decidido dejar de lado nuestras diferencias y volver al status quo.\n\nLas Piedras Peldañas están una vez más bajo el control de la Triarquía, y el flujo regular de comercio se ha reanudado. Aunque puede que no haya obtenido nuevas tierras, he ganado el respeto de mis pares y el conocimiento de que puedo guiarlos a la victoria." #NT!
+ agot_scenario_trp.1020.desc.no_three_daughters: "Parece que ni yo ni mis compañeros almirantes deseamos ver arder de nuevo los Peldaños de Piedra tan pronto. Aunque nos hemos estado peleando durante años, hemos decidido dejar de lado nuestras diferencias y volver al status quo.\n\nAunque la guía de la Triarquía ya no esté disponible para nosotros, uno espera que con cabezas tan tranquilas a cargo, la paz pueda prevalecer. Me he ganado el respeto de mis pares y el conocimiento de que puedo dirigirlos sabiamente." #NT!
+ agot_scenario_trp.1020.a: "Paz, por fin." #NT!
+  
+ agot_scenario_trp.1021.t: "Caos sobre los bancos de arena" #NT!
+ agot_scenario_trp.1021.desc: "El proceso de paz ha fracasado.\n\nParece que a pesar de mis esfuerzos, mis coalmirantes, [war_instigator.GetTitledFirstName] el principal de ellos, han decidido que ahora es el momento de decidir quién de nosotros gobernará los Peldaños de Piedra.\n\nAunque esto fue No es el camino que deseaba, el destino ha decidido que luchemos." #NT!
+ agot_scenario_trp.1021.a: "¡No tomarás lo que es mío!" #NT!
+  
+  
+ agot_scenario_trp.1022.t: "Islas Unidas" #NT!
+ agot_scenario_trp.1022.desc: "¡Victoria!\n\nSoy supremo entre mis pares, mis fuerzas, una vez co-almirantes, han sido arrojadas al mar y ahora sirven bajo mi estandarte. Aunque puedan quejarse y gemir en los próximos días, ¡por ahora son míos y los Peldaños de Piedra están unidos bajo mi gobierno!\n\nPor supuesto, este reino mío siempre fue ligeramente independiente de la Triarquía. Debo decidir si continuar gobernando como vasallo de este reino mayor o formalizar mi independencia." #NT!
+ agot_scenario_trp.1022.a: "Los Peldaños de Piedra seguirán siendo vasallos de la Triarquía." #NT!
+ agot_scenario_trp.1022.b: "#EMP ¡Nosotros#! luchamos por estas islas, y serán sólo nuestras!" #NT!
+  
+ agot_scenario_trp.1023.t: "Derramamiento de sangre, ¿para qué?" #NT!
+ agot_scenario_trp.1023.desc: "Esta contienda entre almirantes y pequeños señores piratas que actualmente está enzarzando a los Peldaños de Piedra no ha dado lugar a un claro ganador.\n\nCon los participantes lamiéndose las heridas en sus distintas cuevas e islas, la Triarquía ya no puede permitir semejante derramamiento de sangre. Aunque todavía pueden estar en curso algunos conflictos, una cosa es segura: nadie saldrá vencedor de este asunto." #NT!
+ agot_scenario_trp.1023.desc.no_three_daughters: "Esta contienda entre almirantes y pequeños señores piratas que actualmente está enzarzada en los Peldaños de Piedra no ha dado lugar a un claro ganador.\n\nCon los participantes lamiéndose las heridas en sus distintas cuevas e islas, ninguno puede reclamar la verdadera primacía. Aunque todavía pueden estar en curso algunos conflictos, una cosa es segura:\n\nNinguno saldrá vencedor de este asunto." #NT!
+ agot_scenario_trp.1023.a: "Quizás esto sea lo mejor." #NT!
+  
+ agot_scenario_trp.1024.t: "Reprimenda desde los Peldaños de Piedra" #NT!
+ agot_scenario_trp.1024.desc_daemon_lost_first: "Nuestro control sobre los Peldaños de Piedra siempre ha sido una cuestión de sugerencias más que de imposición. Esos almirantes saben de dónde vienen sus barcos y dónde viven sus hombres. Al menos hasta ahora...\n\nHe recibido noticias de que [stepstones_ruler.GetName] ha salido recientemente al paso del conflicto regional entre los almirantes y ha reprendido nuestra autoridad sobre el nuevo reino [stepstones_ruler.GetHerHis]." #NT!
+ agot_scenario_trp.1024.desc_daemon_lost_second: "Uno podría pensar que después de hacer retroceder al dragón, nuestro control sobre los Peldaños de Piedra se confirmaría de forma segura. Sin embargo, está claro que hemos exagerado con [stepstones_ruler.GetName].\n\n¡Hace poco escuché que [stepstones_ruler.GetSheHe] ha reprendido nuestra autoridad sobre el nuevo reino [stepstones_ruler.GetHerHis] y ha declarado la independencia de [stepstones_ruler.GetHerHis]!" #NT!
+ agot_scenario_trp.1024.a: "¡Ese pirata saltado!" #NT!
+ agot_scenario_trp.1024.b: "¡No toleraremos esto!" #NT!
+  
+ agot_scenario_trp.1025.t: "La ira del príncipe dragón" #NT!
+ agot_scenario_trp.1025.desc.refused: "¡Una vez más, [sitting_ruler.GetTitledFirstName] ha rechazado mi bendición!" #NT!
+ agot_scenario_trp.1025.desc.rage: "¡Que [sitting_ruler.GetTitledFirstName] haya rechazado mi favor es impensable!" #NT!
+ agot_scenario_trp.1025.desc: "¡Es un insulto de primer orden! ¡Pensar que yo, jinete del gran Caraxes y portador de la Hermana Oscura, Rey de los Peldaños de Piedra y el Mar Angosto, el #emp legítimo heredero del Trono de Hierro#!, debería ser rechazado por algún debilucho mimado que ni siquiera estaría en el trono si no fuera por la casualidad de que no fui yo quien nació primero!\n\nMi rabia me consume por completo, el fuego de mi dragón arde en mi pecho. Por los Siete, el Dios Ahogado, el Dios Rojo, todos los dioses sangrientos y el sentido común de cada maldito hombre y mujer de Poniente #N ¡MEREZCO UN PUTO RECONOCIMIENTO!#!" #NT!
+ agot_scenario_trp.1025.a: "Caraxes! #N;bold ¡DRACARYS!#!" #NT!
+ agot_scenario_trp.1025.a.tt: "Si [sitting_ruler_heir.GetSheHe] sobrevive, declararás la guerra contra [sitting_ruler_heir.GetTitledFirstName] por el derecho a gobernar Poniente." #NT!
+ agot_scenario_trp.1025.b: "¡Entonces mi bendición será el Trono de Hierro!" #NT!
+ agot_scenario_trp.1025.b.f: "¡Saca tu espada para tomar el trono mediante un golpe!" #NT!
+ agot_scenario_trp.1025.b.fone: "$agot_scenario_trp.1025.b.f$ [daemon_kg_1.GetFullName] se interpone entre tú y [sitting_ruler.GetTitledFirstName]." #NT!
+ agot_scenario_trp.1025.b.ftwo: "$agot_scenario_trp.1025.b.f$ [daemon_kg_1.GetFullName] y [daemon_kg_2.GetFullName] se interponen entre usted y [sitting_ruler.GetTitledFirstName]." #NT!
+ agot_scenario_trp.1025.b.tt: "[sitting_ruler.GetTitledFirstName] puede batirse en duelo contigo por el trono o rendirse" #NT!
+ agot_scenario_trp.1025.b.ttone: "Te batirás a duelo [daemon_kg_1.GetFullName]" #NT!
+ agot_scenario_trp.1025.b.tttwo: "Te batirás a duelo con [daemon_kg_1.GetFullName] y [daemon_kg_2.GetFullName]" #NT!
+ agot_scenario_trp.1025.b.ttadult: "Si ganas, [sitting_ruler.GetTitledFirstName] podrá batirse en duelo contigo por el trono o rendirse a tu misericordia." #NT!
+ agot_scenario_trp.1025.b.ttchild: "De niño, [sitting_ruler.GetTitledFirstName] se verá obligado a entregarte el trono." #NT!
+ agot_scenario_trp.1025.c: "¡No eres mi soberano!" #NT!
+ agot_scenario_trp.1025.c.f: "Te retractas de tu lealtad a [sitting_ruler.GetTitledFirstName] y sales furioso de la sala del trono." #NT!
+ agot_scenario_trp.1025.d: "La venganza es un plato que se sirve frío." #NT!
+ agot_scenario_trp.1025.d.f: "Aceptas cortésmente el rechazo, pero comienzas a planear una venganza..." #NT!
+  
+ agot_scenario_trp.1026.t: "El horror del príncipe" #NT!
+ agot_scenario_trp.1026.desc: "Daemon sale furioso de la fortaleza, enfurecido por mi negativa a su pedido. Lo llamo, pero no escucha mis palabras.\n\nMe siento de nuevo en el trono con un suspiro cansado, pero antes de poder llamar a un escriba para que escriba la carta que inevitablemente debemos enviar, escucho un gran #bold RUGIDO #! desde afuera de la fortaleza, seguido de un fenomenal #bold ¡estrés!#!\n\nLa comprensión me invade como un baño de hielo, un terror frío se filtra a través de mis huesos. No puede haberlo hecho, ni siquiera Daemon sería tan destructivo como para...\n\nEl pensamiento se ve interrumpido por un destello de luz cegador, y brevemente ves el cielo abierto antes de que todo en la sala del trono sea incinerado." #NT!
+ agot_scenario_trp.1026.a: "¡Maldito seas, Daemon!" #NT!
+  
+ agot_scenario_trp.1029.t: "¡La ambición de Daemon se desata!" #NT!
+ agot_scenario_trp.1029.desc.start: ""Por los Siete, el Dios Ahogado, el Dios Rojo, todos los malditos dioses y el sentido común de cada maldito hombre y mujer de Poniente #N ¡MEREZCO UN PUTO RECONOCIMIENTO!#!" grita [daemon.GetFirstName], dibujando a la Hermana Oscura más rápido de lo que puedo ver.\n\n" #NT!
+ agot_scenario_trp.1029.desc.kgone: "Sin embargo, mi Guardia Real es bastante rápida, con [daemon_kg_1.GetFullName]" #NT!
+ agot_scenario_trp.1029.desc.kgoneend: "Dibujando su propia espada [daemon_kg_1.GetHerHis] en respuesta. Daemon duda pero por un momento, mirándome fijamente a los ojos." #NT!
+ agot_scenario_trp.1029.desc.kgtwo: "y [daemon_kg_2.GetFullName] sacan sus propias espadas en respuesta. Daemon duda por un momento, mirándome fijamente." #NT!
+ agot_scenario_trp.1029.desc.brother: ""Si no me das eso, querido hermano," #NT!
+ agot_scenario_trp.1029.desc.niece: ""Si no me lo das #italic princesa#!," #NT!
+ agot_scenario_trp.1029.desc.other: ""Si te interpones en mi camino" #NT!
+ agot_scenario_trp.1029.desc.cont: "entonces tomaré lo que debería haber sido #bold ¡siempre mío! #!"" #NT!
+ agot_scenario_trp.1029.desc.kgkill: "\n\nComo una serpiente en ataque, ataca a [daemon_kg_1.GetFullNameNoTooltip], apartando de un golpe la espada del caballero antes de embestir a la Hermana Oscura en la cuenca del ojo de [daemon_kg_1.GetHerHis]." #NT!
+ agot_scenario_trp.1029.desc.kgkilltwo: "A [daemon_kg_2.GetFirstNameNoTooltip] le va un poco mejor, ya que la espada de Daemon encuentra su camino a través de la garganta de [daemon_kg_2.GetHerHis] después de un breve intercambio." #NT!
+ agot_scenario_trp.1029.desc.end: "La sala del trono está en silencio, salvo por el sonido de la respiración agitada de Daemon. Los cortesanos, conmocionados, tienen demasiado miedo de moverse, mientras observan lo que sucederá. Veo el fuego en sus ojos mientras me apunta con su espada sin decir palabra." #NT!
+ agot_scenario_trp.1029.a: "¡Traidor! ¡Te acabaré yo mismo!" #NT!
+ agot_scenario_trp.1029.a.tt: "Te batirás a duelo con [daemon.GetTitledFirstName] por el derecho a gobernar el Trono de Hierro." #NT!
+ agot_scenario_trp.1029.b: "¡No puedo vencerte! ¡Me rindo!" #NT!
+ agot_scenario_trp.1029.b.tt: "Le entregas el trono a [daemon.GetTitledFirstName]" #NT!
+ agot_scenario_trp.1029.b.tt_child: "Como eres un niño, no tienes más opción que rendirte." #NT!
+  
+ agot_scenario_trp.1030.t: "Regla ascendente" #NT!
+ agot_scenario_trp.1030.desc.start: "[loser_of_IT_duel.GetFirstName] yace muerto a mis pies y la sala del trono queda en silencio por un momento, antes de que un único aplauso resuene en la habitación. Me doy vuelta para ver a un valiente cortesano, y luego a otro, y a otro, hasta que la sala se llena con el sonido de los aplausos.\n\nMiro hacia el trono y, con pasos decididos, subo al Trono de Hierro para ocupar el asiento que me corresponde." #NT!
+ agot_scenario_trp.1030.desc.brother: "Aunque la muerte de mi hermano pesará mucho en mi corazón, sé que he hecho lo necesario." #NT!
+ agot_scenario_trp.1030.desc.uncle: "Aunque la muerte de mi tío pesará mucho en mi corazón, sé que he hecho lo que era necesario." #NT!
+ agot_scenario_trp.1030.desc.niece: "Aunque la muerte de mi sobrina pesará mucho en mi corazón, sé que he hecho lo que era necesario." #NT!
+ agot_scenario_trp.1030.a: "El reino es mío, como debe ser." #NT!
+ agot_scenario_trp.1030.a.tt: "[dragonstone_claimant.GetTitledFirstName] permanece, sin embargo, y aún puede desafiar tu gobierno." #NT!
+  
+ agot_scenario_trp.1031.t: "El fin del príncipe rebelde" #NT!
+ agot_scenario_trp.1031.desc.start: "$agot_scenario_trp.1029.desc.start$$agot_scenario_trp.1029.desc.kgone$" #NT!
+ agot_scenario_trp.1031.desc.kgkilled: "\n\nComo una serpiente que ataca, ataca a [daemon_kg_1.GetFullNameNoTooltip], apartando la espada del caballero antes de atravesar la cuenca del ojo de [daemon_kg_1.GetHerHis] con su Hermana Oscura. Sin embargo, no llega más lejos, ya que [daemon_kg_2.GetFullNameNoTooltip] cae sobre él furioso y los dos chocan en una tormenta de acero antes de que [daemon_kg_2.GetFirstNameNoTooltip] atraviese el corazón de Daemon con su espada." #NT!
+ agot_scenario_trp.1031.desc.kglived: "\n\nComo una serpiente ataca, carga contra [daemon_kg_1.GetFullNameNoTooltip], apartando de un golpe la espada del caballero e intentando atravesar rápidamente la cuenca del ojo de [daemon_kg_1.GetHerHis] con la Hermana Oscura. Sin embargo, [daemon_kg_1.GetSheHe] es ​​demasiado rápido, gira la cabeza y clava el pomo de su espada en el costado de la cara de Daemon, aturdiéndolo brevemente. [daemon_kg_1.GetFirstNameNoTooltip] no pierde el ritmo y clava su espada en el corazón de Daemon." #NT!
+ agot_scenario_trp.1031.desc.fightend: "\n\nLa sala del trono está en silencio, salvo por el sonido de la respiración dificultosa de Daemon y el goteo de sangre de su pecho. Se gira hacia mí, con sangre goteando de su boca. Tose, más sangre brota de sus labios y cae de rodillas." #NT!
+ agot_scenario_trp.1031.desc.brother: ""#italic Hermano...yo...#!"" #NT!
+ agot_scenario_trp.1031.desc.niece: ""#italic Rhaenyra...yo...#!"" #NT!
+ agot_scenario_trp.1031.desc.other: ""#italic Tú...yo...#!"" #NT!
+ agot_scenario_trp.1031.desc.end: "Cae al suelo, sin pronunciar sus últimas palabras." #NT!
+ agot_scenario_trp.1031.a.brother: "Tu ambición te ha costado todo, hermano..." #NT!
+ agot_scenario_trp.1031.a.niece: "Cómo me gustaría que no hubieras estado así, tío..." #NT!
+ agot_scenario_trp.1031.a.other: "Tú mismo te buscaste esto, Daemon." #NT!
+  
+ agot_scenario_trp.1032.t: "El príncipe rebelde ascendente" #NT!
+ agot_scenario_trp.1032.desc.surrendered: "¡Noticias impactantes desde Desembarco del Rey! Parece que [daemon.GetFullName], después de jurar lealtad al Trono de Hierro tras su conquista de los escalones de piedra, no quedó satisfecho con las recompensas que le ofreció [sitting_ruler.GetTitledFirstName]. Estaba tan furioso que logró encarcelar a [sitting_ruler.GetTitledFirstNameNoTooltip], ¡y ahora se sienta en el Trono de Hierro!\n\n¡Exige que todos los señores del reino lo reconozcan como el gobernante indiscutible de los Siete Reinos! Como gobernante de la sede ancestral de Targaeryen y heredero aparente anterior, los señores me estarán esperando para ver si accedemos a sus demandas." #NT!
+ agot_scenario_trp.1032.desc.dead: "¡Terribles noticias desde Desembarco del Rey! Parece que [daemon.GetFullName], después de jurar lealtad al Trono de Hierro tras su conquista de los escalones de piedra, no quedó satisfecho con las recompensas que le ofreció [sitting_ruler.GetTitledFirstName]. Se enfureció tanto que desenvainó su espada y mató a [sitting_ruler.GetTitledFirstNameNoTooltip], ¡y ahora se sienta en el Trono de Hierro!\n\n¡Exige que todos los señores del reino lo reconozcan como el gobernante indiscutible de los Siete Reinos! Como gobernante de la sede ancestral de Targaeryen y heredero aparente anterior, los señores me estarán esperando para ver si accedemos a sus demandas." #NT!
+ agot_scenario_trp.1032.a: "Estoy seguro que no me hará daño." #NT!
+ agot_scenario_trp.1032.b: "¡No me inclinaré ante este príncipe engreído!" #NT!
+  
+ agot_scenario_trp.1033.t: "Dragonstone se somete" #NT!
+ agot_scenario_trp.1033.desc: "Han llegado noticias de Rocadragón. [dragonstone_claimant.GetTitledFirstName] me ha respondido reconociendo mi mandato como gobernante legítimo de los Siete Reinos y asegurando que [dragonstone_claimant.GetSheHe] no desafiará mi mandato ni intentará hacerme daño.\n\nCon el apoyo y el reconocimiento público de [dragonstone_claimant.GetHerHis], la mayor amenaza a mi legitimidad ha sido eliminada antes de que pudiera siquiera comenzar. Mi mandato está asegurado." #NT!
+ agot_scenario_trp.1033.a: "Por supuesto, Dragonstone #emp es#! nuestro asiento ancestral..." #NT!
+ agot_scenario_trp.1033.a.f: "Aunque [dragonstone_claimant.GetTitledFirstNameNoTooltip] haya enviado su mensaje, eso no significa que tengas que tratar bien a [dragonstone_claimant.GetHerHim]." #NT!
+  
+ agot_scenario_trp.1034.t: "El príncipe es más grande" #NT!
+ agot_scenario_trp.1034.desc: "Para mi sorpresa, [sitting_ruler.GetTitledFirstName] se levanta rápidamente y, en lugar de sacar la espada de [sitting_ruler.GetHerHis], se arrodilla ante mí, ofreciéndome la corona de la cabeza de [sitting_ruler.GetHerHis]. "Si este es el camino que sigues, Daemon, entonces no puedo detenerte... pero ahora aquellos que te llamaron un segundo Maegor tendrán razón", dice [sitting_ruler.GetSheHe], con la mirada baja.\n\nTomo la corona y la coloco en mi cabeza. Con un movimiento de mi mano, le quito las cadenas a [sitting_ruler.GetTitledFirstNameNoTooltip] y camino para reclamar ese asiento que siempre debería haber sido mío." #NT!
+ agot_scenario_trp.1034.a: "El reino es mío, como debe ser." #NT!
+ agot_scenario_trp.1034.a.dragonstone: "Ahora, a lidiar con Rocadragón..." #NT!
+  
+ agot_scenario_trp.1035.t: "Un príncipe despreciado" #NT!
+ agot_scenario_trp.1035.desc: "Daemon sale furioso de la fortaleza porque me negué a su pedido. Despotrica y delira, insultándonos a mí y a mi corte con todo tipo de improperios antes de marcharse, retractándose de su lealtad y declarando su independencia una vez más. Lo llamo, pero no escucha mis palabras. Me vuelvo a sentar en el trono con un suspiro de cansancio. Sin duda, podría haber ido mejor." #NT!
+ agot_scenario_trp.1035.a: "¡No voy a tolerar esto!" #NT!
+ agot_scenario_trp.1035.b: "Pues bien, así es el camino de los hombres voluntariosos." #NT!
+  
+ agot_scenario_trp.1036.t: "La decisión del reino" #NT!
+ agot_scenario_trp.1036.desc: "Hace mucho que no tengo un hijo vivo que continúe mi linaje, pero ya lo tengo. Los dioses han considerado oportuno bendecirme con un niño, y [male_child_born.GetFirstName] será su nombre. ¡El reino se regocija con la noticia!\n\nSin embargo, esto pone en tela de juicio la decisión que tomé hace tanto tiempo. La cuestión de la sucesión siempre estuvo en mi mente, y con [female_current_heir.GetFirstName] proclamado como mi heredero, ahora debo decidir si cambio esa decisión a la luz de mi nueva familia." #NT!
+ agot_scenario_trp.1036.a: "¡Se casarán y [male_child_born.GetFirstNameNoTooltip] será nombrado heredero!" #NT!
+ agot_scenario_trp.1036.b: "No cambiaré de opinión, pero se casarán para asegurar el reino." #NT!
+ agot_scenario_trp.1036.b_tt: "[TopScope.GetValue('courtly_vassals_count')] $courtly_vassals$ perderá #N -15#! opinión contigo" #NT!
+ agot_scenario_trp.1036.c: "[male_child_born.GetFirstNameNoTooltip] será nombrado heredero, según es costumbre." #NT!
+ agot_scenario_trp.1036.d: "Ya tomé mi decisión una vez y no la cambiaré ahora." #NT!
+ agot_scenario_trp.1036.d_tt: "[TopScope.GetValue('courtly_vassals_count')] $courtly_vassals$ perderá #N -25#! opinión contigo" #NT!
+  
+ agot_scenario_trp.1037.t: "Decisiones del Padre" #NT!
+ agot_scenario_trp.1037.desc: "Mi padre [ROOT.Char.GetFather.GetTitledFirstName], a falta de un hijo vivo, ha sostenido durante mucho tiempo que yo era su único heredero legal. Sin embargo, con el nacimiento de mi hermano [male_child_born.GetFirstName], el reino está poniendo en duda la sucesión.\n\n" #NT!
+ agot_scenario_trp.1037.desc.supplanted: "¡Contra todo sentido común y razón, mi padre ha decidido nombrar a mi hermano como su heredero, suplantándome en la línea de sucesión! ¡Debo regresar a la Fortaleza Roja y aceptar a mi hermano como Príncipe de Rocadragón!" #NT!
+ agot_scenario_trp.1037.desc.married_supplanted: "¡Contra todo sentido común y razón, mi padre ha decidido nombrar a mi hermano como su heredero, suplantándome en la línea de sucesión! Además, ¡debo regresar a la Fortaleza Roja y aceptar a mi hermano como Príncipe de Rocadragón y mi prometido!" #NT!
+ agot_scenario_trp.1037.desc.married: "Para sortear esta delicada situación, mi padre ha decidido que me comprometa con mi nuevo hermano, a pesar de la diferencia de edad. Aunque no es una perspectiva muy alentadora, debo aceptar la decisión de mi padre." #NT!
+ agot_scenario_trp.1037.desc.stayed: "En su sabiduría, mi padre ha decidido que seguiré siendo su heredero y que cualquier desafío a mi posición será respondido con todo el peso de la ley." #NT!
+ agot_scenario_trp.1037.a: "Debo aceptar la decisión de mi padre." #NT!
+ agot_scenario_trp.1037.b: "Gracias por estar a mi lado, padre." #NT!
+ agot_scenario_trp.1037.c: "¡No toleraré esto y el reino estará conmigo!" #NT!
+  
+ agot_scenario_trp.1038.t: "La ambición de la serpiente marina revivida" #NT!
+ agot_scenario_trp.1038.desc: "Cuando [corlys.GetName] llegó a la corte, le dejé tener una audiencia privada como algo natural. Hombre de acción, no tardó mucho en revelar el verdadero motivo de su visita.\n\nHa venido con una oferta, una que una vez fue hecha pero rechazada, y ahora se vuelve a hacer. Quiere que me case con su hija, la dama [laena.GetFirstName]. Ahora es una mujer adulta, una jinete de dragón y, además, hermosa. La Serpiente Marina me ha prometido el apoyo de su flota, sus arcas y la lealtad eterna de su casa si acepto." #NT!
+ agot_scenario_trp.1038.a: "¡Será una gran reina!" #NT!
+ agot_scenario_trp.1038.a.toast.title: "¡El Rey Acepta!" #NT!
+ agot_scenario_trp.1038.b: "¿No tengo ya tu lealtad, [corlys.GetTitledFirstNameNoTooltip]?" #NT!
+ agot_scenario_trp.1038.b.toast.title: "¡El Rey se niega!" #NT!
+  
+ agot_scenario_trp.1039.t: "Desafiado por la bella doncella" #NT!
+ agot_scenario_trp.1039.desc: "¡La Serpiente Marina me ha jugado una mala pasada! Para librarse de su oferta, ha hecho que el príncipe rebelde [daemon.GetFirstName] venga en persona a competir por la mano de su hija, la dama [laena.GetFirstName]. ¡Y lo que es peor, el bruto ha decidido hacer un espectáculo y me ha desafiado a un duelo por su mano!" #NT!
+ agot_scenario_trp.1039.a: "Bueno yo... ¡debo aceptar!" #NT!
+  
+ agot_scenario_trp.1041.t: "La guerra en el frente interno" #NT!
+ agot_scenario_trp.1041.desc: "Ahora soy un comandante de batalla experimentado, habiendo llevado a mis fuerzas a la victoria en muchos conflictos. Sin embargo, mi esposa [rhea.GetFirstName] todavía me atormenta; ¡de todos los hombres que mato, ninguno es esta maldita mujer!\n\nSin embargo, no todas las batallas se libran con espadas, y se me han ocurrido algunas ideas. Si ella sufriera un accidente cuando yo no esté cerca, ¿quién podría culparme? Podría deshacerme de ella y nadie se daría cuenta." #NT!
+ agot_scenario_trp.1041.a: "La enviaré a cazar y esperaré que todo salga bien." #NT!
+ agot_scenario_trp.1041.a.tt: "Ella encuentra su final en un trágico accidente de caza." #NT!
+ agot_scenario_trp.1041.a.tt_survived: "Ella sobrevive al viaje de caza." #NT!
+ agot_scenario_trp.1041.b: "No me rebajaré a tal nivel." #NT!
+  
+ agot_scenario_trp.1042.t: "La mordedura del dragón" #NT!
+ agot_scenario_trp.1042.desc_survived: "Mientras iba a ensillar mi caballo para la cacería, descubrí que mis asistentes ya se habían reunido y había muchas caras nuevas entre ellos. No soy propenso a sospechar, así que no pensé en ello en ese momento, pero cuando nuestro grupo se adentró en el bosque, sus expresiones tranquilas y apagadas me pusieron los pelos de punta. Cuando llegamos a la cima de una colina, ¡el grupo intentó sacarme del caballo! Con un golpe afortunado de mi espada maté a uno de mis atacantes y logré escapar. Dejé a los posibles asesinos detrás de mí con el sonido de los cascos de sus caballos, y me pregunté quién podría haber estado detrás de semejante complot." #NT!
+ agot_scenario_trp.1042.desc_died: "Mientras iba a ensillar mi caballo para la cacería, ¡descubrí que mis asistentes ya se habían reunido! Los felicité por su diligencia, pero cuando nos adentramos en el bosque, noté que estaban inusualmente tranquilos.\n\nMe incliné hacia adelante para preguntar qué pasaba y sentí un fuerte tirón en la espalda. Me caí del caballo con un #bold golpe sordo#!, y cuando sentí que la bestia caía sobre mí, supe que me habían traicionado..." #NT!
+ agot_scenario_trp.1042.a: "Daemon... #emp *tos*#! ¡bastardo!" #NT!
+ agot_scenario_trp.1042.b: "Creo que sé quién está detrás de esto..." #NT!
+ agot_scenario_trp.1042.b.f: "Sospechas que [daemon.GetTitledFirstName] está detrás del intento de asesinato, pero no tienes pruebas." #NT!
+  
+ agot_scenario_trp.1043.t: "Para derribar a la perra" #NT!
+ agot_scenario_trp.1043.desc_survived: "¡Maldición!\n\nMi plan para asesinar a [rhea.GetName] ha fracasado, mi bastón plantado ha frustrado el intento de acabar con su vida. ¡Ella mató a uno y se fue cabalgando perfectamente sana! Al menos tuvieron el buen sentido de dispersarse después.\n\nSi bien no hay nada que me vincule directamente con este evento, sin duda la Perra de Bronce sospecha de mi participación..." #NT!
+ agot_scenario_trp.1043.desc_died: "¡Éxito!\n\nMis asistentes plantados empujaron a la perra desde su caballo y luego empalaron al semental con una rama afilada antes de arrojar a la bestia sobre ella. Me dijeron que se desangró por sus heridas mientras yacía en la cama." #NT!
+ agot_scenario_trp.1043.a: "¡Por fin soy libre!" #NT!
+ agot_scenario_trp.1043.b: "Bueno, nada sale bien la primera vez..." #NT!
+ agot_scenario_trp.1043.c: "Esto es demasiado arriesgado." #NT!

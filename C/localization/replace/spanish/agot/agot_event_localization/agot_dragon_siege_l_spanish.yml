@@ -1,0 +1,124 @@
+﻿l_spanish:
+ DRAGON_IN_SIEGE: "Utilizar Dragón" #NT!
+ agot_dragon_siege.gui_tt: "Tú decidirás cómo usar [sieging_dragon.GetName] en el asedio." #NT!
+ agot_dragon_siege.gui_anti_dragon_tt: "@warning_icon!#warning Los defensores tienen [anti_dragon_maa|E] [men_at_arms|E] estacionados aquí, lo que aumenta el riesgo de esta acción.#!" #NT!
+ agot_dragon_siege.gui_scorpion_1_tt: "@warning_icon!#warning Los defensores tienen emplazamientos de escorpión, lo que aumenta el riesgo de esta acción.#!" #NT!
+ agot_dragon_siege.gui_scorpion_2_tt: "@warning_icon!#warning Los defensores tienen emplazamientos de escorpiones pesados, lo que aumenta enormemente el riesgo de esta acción.#!" #NT!
+ agot_dragon_siege.gui_tt_check: "Sólo puedes usar tu dragón para asediar una vez al día." #NT!
+ agot_dragon_siege.gui_tt_cant_damage: "Tu dragón no es lo suficientemente grande como para dañar aún más esta ubicación." #NT!
+ agot_dragon_siege.title: "Asedio de [sieging_location.GetNameNoTooltip]:" #NT!
+ agot_dragon_siege.scorpion_1_warning: "@warning_icon!#warning [sieging_location.GetName] tiene emplazamientos de escorpión, lo que aumenta el riesgo de usar [sieging_dragon.GetFirstName] en el asedio.#!" #NT!
+ agot_dragon_siege.scorpion_2_warning: "@warning_icon!#warning [sieging_location.GetName] tiene emplazamientos de escorpiones pesados, lo que aumenta enormemente el riesgo de usar [sieging_dragon.GetFirstName] en el asedio.#!" #NT!
+ agot_dragon_siege.ineffective: "El ataque de tu dragón fue ineficaz." #NT!
+  
+  # Choice of siege 
+ agot_dragon_siege.0001.t: "$agot_dragon_siege.title$ El acercamiento del dragón" #NT!
+ agot_dragon_siege.0001.desc_opening: "Estoy de pie frente a los muros de [sieging_location.GetName], con mi dragón [sieging_dragon.GetName] a mi lado. Nuestros hombres rodean el bastión, los defensores están atrapados dentro, agazapados tras sus muros.\n\n" #NT!
+ agot_dragon_siege.0001.desc_none: "Aunque sin duda los obligaríamos a rendirse con tiempo suficiente, ninguna muralla puede protegerlos del fuego del dragón. No está exento de riesgos, pero podría montar a [sieging_dragon.GetNameNoTooltip] para desatar sus llamas sobre el castillo y poner fin a este asedio mucho más rápido." #NT!
+ agot_dragon_siege.0001.desc_defender: "Aunque sin duda los obligaríamos a rendirse con el tiempo suficiente, no hay muros que los puedan proteger del fuego del dragón. Desafortunadamente, [defending_dragonrider.GetTitledFirstName] y [defending_dragonrider.GetHerHis] dragón [defending_dragon.GetName] están aquí y sin duda intentarán detenernos. Si voy a atacar, primero debo enfrentarlos." #NT!
+ agot_dragon_siege.0001.desc_defenders: "Aunque sin duda los obligaríamos a rendirse con tiempo suficiente, ningún muro puede protegerlos del fuego de dragón. Desafortunadamente, [defending_dragonrider.GetTitledFirstName] y [defending_dragonrider.GetHerHis] dragón [defending_dragon.GetName] están aquí, y no son los únicos. Si voy a atacar, primero debo derrotar a todos los demás dragones en el cielo." #NT!
+ agot_dragon_siege.0001.desc_owned: "Aunque hay otros dragones dentro de esos muros, dado que no tienen jinetes, es muy poco probable que luchen contra nosotros. No está exento de riesgos, pero podría montar a [sieging_dragon.GetNameNoTooltip] para desatar sus llamas sobre el castillo y poner fin a este asedio mucho más rápido." #NT!
+ agot_dragon_siege.0001.desc_owned_single: "Aunque [owned_dragon_present.GetName] reside en el interior, como [owned_dragon_present.Custom('GetDragonSheHe')] no tiene jinete, es poco probable que [owned_dragon_present.Custom('GetDragonSheHe')] pueda ofrecer una resistencia efectiva. No está exento de riesgos, pero podría montar [sieging_dragon.GetNameNoTooltip] para desatar [sieging_dragon.Custom('GetDragonSheHe')] llamas sobre el castillo y poner fin a este asedio mucho más rápido." #NT!
+  
+ agot_dragon_siege.0001.a: "Atacaremos primero los objetivos fáciles, suavizando sus defensas." #NT!
+ agot_dragon_siege.0001.a.f: "El enfoque menos arriesgado, será montar [sieging_dragon.GetNameNoTooltip] para atacar los puntos más débiles del holding, suavizando sus defensas." #NT!
+ agot_dragon_siege.0001.b: "Esos muros no los protegerán del fuego del dragón." #NT!
+ agot_dragon_siege.0001.b.f: "Montarás [sieging_dragon.GetNameNoTooltip] para desatar [sieging_dragon.Custom('GetDragonHerHis')] llamas sobre las defensas, intentando poner fin a este asedio en un resplandor de gloria." #NT!
+ agot_dragon_siege.0001.c: "No habrá piedad: la fortaleza arderá #N#!." #NT!
+ agot_dragon_siege.0001.c.f: "Desatarás [sieging_dragon.GetNameNoTooltip] sobre las defensas y el torreón interior, dañando gravemente la fortaleza y sus defensores." #NT!
+ agot_dragon_siege.0001.c.tt: "#N Muchos dentro [sieging_location.GetNameNoTooltip] serán quemados o perecerán.#!" #NT!
+ agot_dragon_siege.0001.d: "#N;bold ¡No quedará nada más que cenizas y ruina!#!" #NT!
+ agot_dragon_siege.0001.d.f: "Arrasarás la propiedad hasta los cimientos, y no dejarás nada más que cenizas y ruinas a tu paso." #NT!
+ agot_dragon_siege.0001.d.tt: "#N Todos los que estén dentro de [sieging_location.GetNameNoTooltip] serán asesinados.#!" #NT!
+ agot_dragon_siege.0001.e: "[defending_dragonrider.GetFirstName]! ¡Sal y muere!" #NT!
+ agot_dragon_siege.0001.e.f: "Obligarás a [defending_dragonrider.GetTitledFirstNameNoTooltip] y [defending_dragon.GetFirstNameNoTooltip] a enfrentarse a ti." #NT!
+ agot_dragon_siege.0001.f: "No, vamos a asediar a la antigua usanza." #NT!
+ agot_dragon_siege.0001.f.f: "Continúas el asedio." #NT!
+  
+  # Perspective of besieged below 
+  # Burned in dragon siege 
+ agot_dragon_siege.0002.t: "$agot_dragon_siege.title$ ¡Fuego de dragón!" #NT!
+ agot_dragon_siege.0002.intro: "Mientras camino por las almenas de [location.GetName], no puedo ignorar la precariedad de mi situación: los soldados enemigos han rodeado mi fortaleza y parece probable un asedio prolongado." #NT!
+ agot_dragon_siege.0002.bigboi: "El sol está alto en el cielo cuando lo oigo: un rugido penetrante, seguido de una ráfaga de viento... Un furor como una tremenda tormenta que se estrella contra el [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')], sacudiendo el [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] alrededor de mi castillo. Una inmensa sombra se arrastra a través del sol que alguna vez fue brillante, eclipsándolo... Me encuentro mirando fijamente ese abismo oscuro mientras desciende sobre mí: [sieging_dragon.GetFirstNameNicknamed], el #XB gran coloso de dragón#!!\n\n" #NT!
+ agot_dragon_siege.0002.option1: "Un denso manto de nubes se cierne sobre mi cabeza. Miro hacia el [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')] que rodea mi castillo y escucho un rugido agudo cuando una figura emprende el vuelo sobre el [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')]. Con las alas desplegadas, empujando a la bestia hacia el cielo, contemplo mi destino que se acerca con dolor en el corazón. ¡Aquí viene [sieging_dragon.GetFirstNameNicknamed], el #X temible dragón#! de mi enemigo!\n\n" #NT!
+ agot_dragon_siege.0002.option2: "El sol está empezando a ponerse cuando lo oigo: un rugido atronador en la distancia, más allá de los [ROOT.Char.GetCurrentLocation.Custom('GetProvinceFoliageDesc')] que envuelven mi castillo. El dragón se lanza hacia arriba, cortando el aire como una espada, columnas de fuego de dragón brillante danzando desde su boca. El cielo se vuelve carmesí mientras me enfrento a mi destino: las llamas [sieging_dragon.GetFirstNameNicknamed|U] y #X [sieging_dragon.Custom('DragonGetHerHis')]#! han sido llamadas al asedio.\n\n" #NT!
+ agot_dragon_siege.0002.option3: "Un chillido ondulante corta el tenso silencio, y más allá del [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')] puedo ver claramente a mi némesis: [sieging_dragon.GetFirstNameNicknamed], el #X repugnante dragón#!, ha tomado los cielos, preparado para hacer llover fuego de dragón sobre mis hombres y sobre mí.\n\n" #NT!
+ agot_dragon_siege.0002.option4: "El silencio flota en el aire como la muerte. A lo lejos, el profundo trémolo de un pájaro carpintero en el [ROOT.Char.GetCurrentLocation.Custom('GetTerrainTreePlural')] marca un ritmo entrecortado bajo la respiración tensa de mi guarnición. El silencio se rompe como un cristal cuando [sieging_dragon.GetFirstNameNicknamed] se lanza hacia el cielo, un remolino de llamas y desesperación, viene a #X traer mi fin#!.\n\n" #NT!
+ agot_dragon_siege.0002.outro: "Solo tengo tiempo de murmurar una oración antes de que el calor se despliegue a mi alrededor como un tapiz de fuego. Mis hombres se derriten a mi alrededor, convertidos en cenizas y hollín al instante, mientras siento que el fuego del dragón se acerca a mí." #NT!
+ agot_dragon_siege.0002.a: "[ROOT.Char.Custom('Scream')]" #NT!
+ agot_dragon_siege.0002.a.f: "Estás quemado por [sieging_dragon.GetNameNoTooltip]." #NT!
+  
+  # Dying in dragon siege 
+ agot_dragon_siege.0003.t: "$agot_dragon_siege.title$ ¡Condenado por el fuego del dragón!" #NT!
+ agot_dragon_siege.0003.outro: "Solo tengo tiempo de murmurar una oración antes de que el calor se despliegue a mi alrededor como un tapiz de fuego. Mis hombres se derriten a mi alrededor, convertidos en cenizas y hollín al instante, mientras me aferro a mi último aliento." #NT!
+ agot_dragon_siege.0003.a: "[ROOT.Char.Custom('Scream')]" #NT!
+ agot_dragon_siege.0003.a.f: "Estás quemado hasta la muerte por [sieging_dragon.GetNameNoTooltip]." #NT!
+  
+  # Dragon siege consequences for attacker below 
+  # Rider struck with arrow 
+ agot_dragon_siege.0004.t: "$agot_dragon_siege.title$ Un tiro afortunado" #NT!
+ agot_dragon_siege.0004.desc.minor: "[sieging_dragon.GetName] y yo volamos hacia [sieging_location.GetName], el paisaje fluye debajo de nosotros mientras nuestro primer objetivo, un carro de suministros que los defensores habían dejado tontamente fuera de los muros, se acerca cada vez más. Desato [sieging_dragon.Custom('GetDragonHerHis')] llamas sobre él, y el carro se ve rápidamente envuelto en fuego, los suministros de los defensores se convierten en humo. ¡Solo el primero de nuestros ataques!\n\nUna torre, un puesto de guardia y un establo externo caen en llamas [sieging_dragon.GetFirstNamePossessiveNoTooltip], pero cuando nos alejamos del establo en llamas de abajo siento un impacto repentino y un dolor agudo en mi costado.\n\nGrito de dolor, miro hacia abajo para ver la flecha incrustada en mi abdomen, la mancha roja se extiende por mi torso. Con un rugido, [sieging_dragon.GetNameNoTooltip] gira para regresar a nuestras líneas, y apenas veo al afortunado arquero que había logrado golpearme retrocediendo hacia el torreón mientras volamos." #NT!
+ agot_dragon_siege.0004.desc: "Las cenizas ardientes de [sieging_location.GetName] vuelan alrededor de las alas de [sieging_dragon.GetName], como un demonio de leyenda que cabalgamos, trayendo muerte a nuestro paso.\n\nDebajo de nosotros hay un patio donde los defensores parecen estar reuniéndose, un intento ingenuo de detener la destrucción que traemos. Con un giro de mis talones, ordeno a [sieging_dragon.GetFirstNameNoTooltip] que flote sobre el patio y haga llover llamas de dragón sobre los indefensos terrones de abajo.\n\nPero mientras quemamos hombres bajo nuestra poderosa presencia, siento un calor repentino en mi costado y grito mientras irradia dolor. Miro hacia abajo para ver la flecha incrustada en mi abdomen, y hacia arriba para ver al afortunado arquero que había logrado golpearme desde las paredes. Con un rugido, lo quemamos en cenizas también, pero no puedo quedarme aquí ahora, y hago girar a [sieging_dragon.GetFirstNameNoTooltip] para regresar a nuestras líneas." #NT!
+ agot_dragon_siege.0004.a: "¡Al menos hemos hecho algún daño!" #NT!
+ agot_dragon_siege.0004.a.f: "Te has visto obligado a retirarte, pero no antes de lograr el daño que te propusiste hacer." #NT!
+  
+  # Dragon hit with spear 
+ agot_dragon_siege.0005.t: "$agot_dragon_siege.title$ Lanza de sacrificio" #NT!
+ agot_dragon_siege.0005.desc.minor: "Nuestros ataques de sondeo en el [sieging_location.GetName] han tenido éxito, y los defensores más accesibles están ardiendo o desorganizados. El objetivo final es una torre, y ordeno a [sieging_dragon.GetName] que desate las llamas de [sieging_dragon.Custom('GetDragonHerHis')] sobre ella.\n\nPero justo cuando [sieging_dragon.GetName] lo hace, el calor dobla la piedra, veo a un hombre solitario levantar una lanza desde lo alto de la torre, dejando sus manos justo cuando la torre se derrumba bajo sus pies.\n\nAunque sin duda está cayendo hacia su perdición, su lanza dio en el blanco. Por más que intentamos evitarla, la lanza golpea a [sieging_dragon.GetNameNoTooltip] en el costado, y siento la fuerza del dolor de [sieging_dragon.Custom('GetDragonHerHis')] mientras [sieging_dragon.Custom('GetDragonSheHe')] se tambalea hacia atrás, rugiendo con una mezcla de ira y agonía." #NT!
+ agot_dragon_siege.0005.desc: "La calle de [sieging_location.GetName] es un río de fuego y los defensores se dispersan ante nuestra forma terrestre. Otro edificio arde en llamas y, mientras los defensores huyen, ordeno a [sieging_dragon.GetName] que persiga a los arqueros antes de que puedan reagruparse.\n\nLa gran forma de [sieging_dragon.Custom('GetDragonHerHis')|U] avanza pesadamente por la calle a una velocidad sorprendente tras los arqueros que huyen, pero cuando pasamos por una calle, ¡[sieging_dragon.Custom('GetDragonSheHe')] ruge de dolor! Miro hacia abajo y veo una lanza incrustada en el costado de [sieging_dragon.Custom('GetDragonHerHis')]. ¡El defensor solitario que debe haber estado acobardado en esa calle ha sacado su coraje para atacarnos!\n\nSin instrucciones, [sieging_dragon.GetFirstNameNoTooltip] gira y incinera al hombre, pero puedo sentir el dolor de [sieging_dragon.Custom('GetDragonHerHis')] y le ordeno a [sieging_dragon.Custom('GetDragonHerHim')] que se levante." #NT!
+ agot_dragon_siege.0005.a: "¡Atrás [sieging_dragon.GetFirstNameNoTooltip]! ¡Debemos curar tus heridas!" #NT!
+ agot_dragon_siege.0005.a.f: "Te has visto obligado a retirarte, pero no antes de lograr el daño que te propusiste hacer." #NT!
+  # Dragon attacked in concert by defenders 
+  
+ agot_dragon_siege.0006.t: "$agot_dragon_siege.title$ Valentía condenada al fracaso" #NT!
+ agot_dragon_siege.0006.desc: "Los defensores de [sieging_location.GetName] nos han estado acosando con flechas y lanzas, los hombres se lanzan hacia sus fortificaciones más fuertes donde pueden para evitar nuestras llamas. Finalmente veo una abertura, un grupo de arqueros que han sido lo suficientemente tontos como para reunirse todos juntos. Solo se mantienen a cubierto por un pequeño arco, ¡y ordeno a [sieging_dragon.GetName] que se lance para atacar!\n\nCuando lo hago, veo la trampa demasiado tarde. Sobre el arco, un grupo de defensores ha estado esperando en un techo adyacente, y mientras descendemos en picado, ellos #italic saltan#! hacia [sieging_dragon.GetFirstNameNoTooltip].\n\nAunque muchos fallan y se hacen añicos en la piedra de abajo, algunos de los tontos valientes encuentran apoyo, sus estocadas hacia abajo dan en el blanco y clavan a los hombres en [sieging_dragon.GetFirstNameNoTooltip], sostenidos por sus lanzas y espadas. [sieging_dragon.GetFirstNameNoTooltip] ruge de agonía y se arquea hacia arriba, arrojando a muchos de los atacantes, y se eleva hacia el cielo, mientras el resto cae a su perdición debajo." #NT!
+ agot_dragon_siege.0006.a: "¡Esos valientes bastardos!" #NT!
+ agot_dragon_siege.0006.a.f: "[sieging_dragon.GetFirstNameNoTooltip] está gravemente herido y te has visto obligado a retirarte, aunque no antes de lograr el daño que te propusiste hacer." #NT!
+  # I am struck by many arrows 
+  
+ agot_dragon_siege.0007.t: "$agot_dragon_siege.title$ Mil cortes" #NT!
+ agot_dragon_siege.0007.desc: "El ataque a [sieging_location.GetName] ha ido bien, sus numerosos emplazamientos estructurales han caído sin apenas dificultad ni resistencia. Había pensado que esta provincia estaba bien defendida, pero parece que los defensores no son tan valientes como quieren hacernos creer.\n\nSin embargo, cuando atacamos nuestro próximo objetivo clave (un gran cuartel que ocupaban los defensores), veo dónde estaban estos defensores que faltaban. ¡Las flechas vuelan desde todas las ventanas, todas apuntando directamente hacia mí!\n\nAunque [sieging_dragon.GetFirstName] levanta las alas de [sieging_dragon.Custom('GetDragonHerHis')] para protegerme, muchas dan en el blanco y siento que su mordisco se clava profundamente en mi carne. Grito de dolor, marcando una última orden tácita mientras nos elevamos hacia el cielo, las nubes se desvanecen ante mí mientras siento que la sangre corre por mi pecho." #NT!
+ agot_dragon_siege.0007.a: "¡Necesito un sanador!" #NT!
+ agot_dragon_siege.0007.a.f: "Has sido gravemente herido y te has visto obligado a retirarte, pero no antes de lograr el daño que te propusiste hacer." #NT!
+ agot_dragon_siege.0007.b: "Yo...yo no...yo..." #NT!
+ agot_dragon_siege.0007.b.f: "Te desangras en la espalda de [sieging_dragon.GetNameNoTooltip] y tu cuerpo regresa a tus líneas. El daño que te propusiste hacer lo lograste, pero a un gran costo." #NT!
+  
+  # I was struck by a lucky spear throw 
+ agot_dragon_siege.0008.t: "$agot_dragon_siege.title$ Lanza del extraño" #NT!
+ agot_dragon_siege.0008.desc: "Los defensores de [sieging_location.GetName] han estado dando una pelea decente, pero por supuesto nadie puede hacerle frente a [sieging_dragon.GetName] y a mí. Hemos estado quemando sus defensas de un lado a otro de la fortaleza, concentrándonos en aquellas que pueden albergar armas y hombres antes de volvernos contra aquellas que bloquearían la entrada de nuestros hombres.\n\nCuando nos volvemos hacia el último de ellos, veo a un hombre solitario a caballo, que de alguna manera se las arregló para escapar de las llamas, cabalgando hacia nosotros, con una lanza en su mano como si fuera a alancearnos. ¡Tal valentía o tal estupidez, no puedo decirlo, pero cuando le ordeno a [sieging_dragon.GetNameNoTooltip] que se dé vuelta y lo enfrente, me sorprende ver la lanza del hombre volar de sus manos y golpearme de lleno en el pecho! Me quedo sin aire en los pulmones y ni siquiera puedo aullar con [sieging_dragon.GetFirstNameNoTooltip].\n\nSoy vagamente consciente de la sacudida mientras [sieging_dragon.GetNameNoTooltip] se eleva hacia el cielo, mi cuerpo inerte atado, la cabeza colgando hacia atrás para mirar el cielo. El humo que se eleva goteando brasas se ve tan... tan..." #NT!
+ agot_dragon_siege.0008.a: "Qué bonita..." #NT!
+ agot_dragon_siege.0008.a.f: "Tu cuerpo, atado a [sieging_dragon.GetNameNoTooltip], es devuelto a tus líneas, con daño hecho, pero a un gran costo." #NT!
+  
+  # Scorpion wounded my dragon 
+ agot_dragon_siege.0009.t: "$agot_dragon_siege.title$ Golpe del escorpión" #NT!
+ agot_dragon_siege.0009.desc: "Es raro que uno se sienta humillado encima de un dragón. Pocos han conocido esa sensación. Aunque intelectualmente sabía que usar a [sieging_dragon.GetName] en el asedio era un riesgo, había pensado que los defensores no podían esperar atacarnos con sus escasas defensas. Estaba equivocado.\n\nMientras descendemos en picado para inmolar otra estructura defensiva, veo un destello de metal y un rayo sale volando de las paredes, golpeando a [sieging_dragon.GetNameNoTooltip] en el costado. [sieging_dragon.GetFirstNameNoTooltip] ruge de dolor, se tambalea hacia atrás y casi me arroja desde atrás. [sieging_dragon.Custom('GetDragonHerHis')]." #NT!
+ agot_dragon_siege.0009.a: "¡Debemos retirarnos!" #NT!
+ agot_dragon_siege.0009.a.f: "Te has visto obligado a retirarte, tus ataques son ineficaces y [sieging_dragon.GetFirstNameNoTooltip] estás gravemente herido." #NT!
+  
+  # Scorpion killed us both! 
+ agot_dragon_siege.0010.t: "$agot_dragon_siege.title$ Picadura de escorpión" #NT!
+ agot_dragon_siege.0010.desc: "Los antiguos valyrios bautizaron a sus dragones con el nombre de dioses, y es fácil entender por qué. [sieging_dragon.GetName] es un dios del fuego y la muerte, y yo soy su elegido. Sin embargo, así como los dioses de antaño fueron derribados por la fe de los nuevos, también las armas más grandes pueden caer ante las más pequeñas.\n\nLa lluvia de metal que cae de las paredes cae como una tormenta. Veo a [sieging_dragon.GetNameNoTooltip] atravesado por la articulación de las alas de [sieging_dragon.Custom('GetDragonHerHis')] por un rayo de escorpión, el grito gutural de dolor se interrumpe cuando otro rayo se estrella contra el cuello de [sieging_dragon.Custom('GetDragonHerHis')]. La sangre brota de las heridas de [sieging_dragon.Custom('GetDragonHerHis')]... y donde estábamos volando, ahora estamos cayendo, el suelo se precipita para encontrarnos." #NT!
+ agot_dragon_siege.0010.a: "¡No, [sieging_dragon.GetFirstNameNoTooltip]! ¡Vuela!" #NT!
+ agot_dragon_siege.0010.a.f: "Tú y [sieging_dragon.GetNameNoTooltip] están muertos, tu cuerpo destrozado fue encontrado entre los restos del propio [sieging_dragon.GetFirstNamePossessiveNoTooltip]." #NT!
+  
+  # I am dragonrider and I am defending from siege 
+ agot_dragon_siege.0011.t: "$agot_dragon_siege.title$ Defensa del dragón" #NT!
+ agot_dragon_siege.0011.desc: "Los leales defensores de [sieging_location.GetName] han tenido que luchar para mantener a raya a nuestros atacantes, y parece que la frustración finalmente ha llegado a su límite. Veo que [sieging_dragonrider.GetTitledFirstName] y [sieging_dragon.GetName] comienzan a levantarse de las líneas, y sé lo que se avecina. No tengo elección: ¡ha llegado el momento!\n\nDebo montar a [defending_dragon.GetName] y enfrentarlos en el cielo, o huir y dejar a los defensores a su suerte." #NT!
+ agot_dragon_siege.0011.a: "¡Me enfrentaré a ellos!" #NT!
+ agot_dragon_siege.0011.a.f: "Montas en [defending_dragon.GetNameNoTooltip] y te enfrentas a tus atacantes en el cielo." #NT!
+ agot_dragon_siege.0011.b: "¡Vuela [defending_dragon.GetFirstNameNoTooltip]! ¡Tenemos que huir!" #NT!
+ agot_dragon_siege.0011.b.f: "Huyes del campo, abandonando a los defensores a su suerte." #NT!
+ agot_dragon_siege.notify_sieger_of_fleeing.t: "[defending_dragonrider.GetTitledFirstNameNoTooltip] huye!" #NT!
+ agot_dragon_siege.notify_sieger_of_fleeing.tt: "[defending_dragonrider.GetTitledFirstName] ha huido hacia [defending_dragon.GetFirstName] en lugar de enfrentarte." #NT!
+  
+  # My owned dragon has fled due to the events of a siege 
+ agot_dragon_siege.0013.t: "$agot_dragon_siege.title$ Vuelo del dragón" #NT!
+ agot_dragon_siege.0013.desc: "[sieging_rider.GetTitledFirstName] y [sieging_dragon.GetFirstName] han entregado su destrucción, pero ahora me han dicho que el costo fue incluso mayor de lo que se conocía anteriormente.\n\n¡Mi dragón [fleeing_dragon.GetName], ya sea asustado por el ruido del asedio o por la presencia de [sieging_dragon.GetNameNoTooltip], ha huido del campo!\n\nMe han dicho que [fleeing_dragon.Custom('GetDragonSheHe')] ha sido visto haciendo guarida en [new_location.GetBaseName]." #NT!
+ agot_dragon_siege.0013.a: "Una gran pérdida para nosotros..." #NT!
+ agot_dragon_siege.0013.a.f: "Tu dragón se ha vuelto salvaje. Aún puedes recuperar [fleeing_dragon.GetFirstNameNoTooltip], pero puede que sea más difícil ahora que [fleeing_dragon.Custom('GetDragonSheHe')] ya no es tuyo." #NT!
+  
+  # A wild dragon has arrived from the events of a siege 
+ agot_dragon_siege.0014.t: "$agot_dragon_siege.title$ La llegada del dragón" #NT!
+ agot_dragon_siege.0014.desc: "He oído que cerca de allí, los acontecimientos del asedio de [sieging_location.GetName] han sido el escenario de una gran calamidad. [sieging_rider.GetTitledFirstName] y [sieging_dragon.GetName] han causado destrucción entre los defensores, pero lo más inmediato para mí es la llegada de [fleeing_dragon.GetFirstName].\n\nUna vez mantenido en la misma propiedad, parece que [fleeing_dragon.Custom('GetDragonSheHe')] ha huido del asedio de [fleeing_dragon.Custom('GetDragonHerHis')] por voluntad propia, y mis exploradores me dicen que la bestia ha sido vista haciendo su guarida en [new_location.GetBaseName]." #NT!
+ agot_dragon_siege.0014.a: "¿Una oportunidad o una amenaza?" #NT!
+ agot_dragon_siege.0014.a.f: "Un dragón salvaje ha llegado a [new_location.GetBaseName] y puede que sea una oportunidad para que lo reclames como tuyo. Por supuesto, los dragones salvajes son vecinos peligrosos..." #NT!
