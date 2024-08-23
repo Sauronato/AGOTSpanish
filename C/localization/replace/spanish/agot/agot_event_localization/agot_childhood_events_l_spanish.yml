@@ -95,3 +95,31 @@
  agot_childhood_events.0009.c.tt: "Encontrarás a alguien más que asuma esta responsabilidad."
  agot_childhood_events.0009.d: "Aún no me he decidido."
  agot_childhood_events.0009.d.tt: "El peso de la responsabilidad pesa sobre usted y duda en tomar una decisión tan fundamental. Quizás sea mejor posponer esta decisión por ahora, dejando más tiempo para una consideración cuidadosa antes de confiar [ward.GetFirstName] al cuidado de alguien."
+  
+ child_personality.keeps_authoritative_tt: "[child.GetFirstName] mantiene el rasgo [GetTrait('authoritative').GetName( child.Self )]" #NT!
+ child_personality.keeps_rude_tt: "[child.GetFirstName] mantiene el rasgo [GetTrait('rude').GetName( child.Self )]" #NT!
+ child_personality.keeps_inquisitive_tt: "[child.GetFirstName] mantiene el rasgo [GetTrait('inquisitive').GetName( child.Self )]" #NT!
+  
+ agot_child_personality_events.2010.t: "Sirvientes que pelean" #NT!
+ agot_child_personality_events.2010.guardian: "[guardian.GetTitledFirstName] me ha traído a dos sirvientes, con el rostro rojo de ira mientras se miran fijamente desde el otro lado del pasillo. Parece que una cortina estaba manchada con un rojo Arbor, y cada uno culpa al otro. Ninguno está dispuesto a lidiar con la mancha, y los sirvientes indignados son malos para la moral. [guardian.GetFirstNameNoTooltip] me encarga que resuelva la disputa como una prueba de mi carácter." #NT!
+ agot_child_personality_events.2010.no_guardian: "Dos sirvientes irrumpieron en mi habitación; ambos tenían el rostro rojo de ira. Cada uno afirma que el otro manchó una cortina con una taza de vino tinto Arbor mientras limpiaba anoche. Esta disputa es sin duda mala para la moral y debo responder rápidamente." #NT!
+ agot_child_personality_events.2010.a: "Compartiréis la carga de la limpieza." #NT!
+ agot_child_personality_events.2010.b: "¡Ambos están despedidos!" #NT!
+ agot_child_personality_events.2010.c: "¿Quién estaba de servicio anoche?" #NT!
+  
+ agot_child_personality_events.201.desc: "Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))] [child.GetFirstName] se ha enfrentado a una nueva prueba de las habilidades de [child.GetHerHis]. Dos sirvientes pendencieros iniciaron una disputa, cada uno alegando que el otro derramó un fino vino tinto Arbor sobre un juego de cortinas costosas. Se golpearon de un lado a otro con gritos y puñetazos mientras los demás sirvientes observaban atentamente." #NT!
+  
+ agot_child_personality_events.2011.t: "$agot_child_personality_events.2010.t$" #NT!
+ agot_child_personality_events.201.authoritative: "[child.GetFirstNameNoTooltip] les ordenó a ambos que limpiaran las cortinas y les ordenó que no hablaran más de su disputa. [child.GetSheHe|U] fue decisivo, y las órdenes de [child.GetHerHis] fueron seguidas rápidamente." #NT!
+ agot_child_personality_events.201.confirm_authoritative: "Serás un líder inspirador." #NT!
+ agot_child_personality_events.201.authoritative_change: "Si deseas gobernar, debes demostrar capacidad de liderazgo." #NT!
+  
+ agot_child_personality_events.2012.t: "$agot_child_personality_events.2010.t$" #NT!
+ agot_child_personality_events.201.rude: "[child.GetFirstNameNoTooltip] reaccionó violentamente, gritándole a todo el personal por no poder resolver un problema tan simple por sí mismos. [child.GetSheHe|U] no se dio cuenta de las miradas frustradas en los rostros de los sirvientes mientras [child.GetSheHe] desestimaba con frivolidad su disputa y su valor." #NT!
+ agot_child_personality_events.201.confirm_rude: "Así es [child.Custom('GirlBoy')]. No valen nada." #NT!
+ agot_child_personality_events.201.rude_change: "No debiste haberles dedicado ni un momento de tu tiempo." #NT!
+  
+ agot_child_personality_events.2013.t: "$agot_child_personality_events.2010.t$" #NT!
+ agot_child_personality_events.201.inquisitive: "[child.GetFirstNameNoTooltip] reunió a los sirvientes, discerniendo rápidamente quién estaba realmente de servicio anoche y comprometiéndolos a limpiar el desastre ellos mismos. [child.GetSheHe|U] mostró consideración y tacto al reunir más información antes de tomar una decisión apresurada o dar órdenes." #NT!
+ agot_child_personality_events.201.confirm_inquisitive: "Has demostrado tu sabiduría hoy." #NT!
+ agot_child_personality_events.201.inquisitive_change: "Para abordar los problemas hay que buscar su raíz." #NT!

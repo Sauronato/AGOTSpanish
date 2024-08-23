@@ -21,12 +21,12 @@
  #desc 
  agot_crown_theft.0100.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. Aunque hace tiempo que albergo la ambición de gobernar el reino, el heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], actualmente no se encuentra en la capital.\n\nLa oportunidad de apoderarme del trono me llama, prometiendo poder y autoridad sin medida."
  agot_crown_theft.0200.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. Aunque hace tiempo que albergo la ambición de adquirir poder en el reino, el heredero legítimo, [crown_theft_king_legit_heir.GetTitledFirstName], actualmente no se encuentra en la capital.\n\nLa oportunidad de apoderarse del trono para mi pupilo, [crown_thief.GetTitledFirstName], me llama, prometiendo poder y autoridad sin medida."
- agot_crown_theft.0200.a: "¡El trono es [crown_thief.GetTitledFirstNamePossessiveNoTooltip]!"
  agot_crown_theft.0300.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. De todas formas, las costumbres dictan que un bastardo no puede heredar títulos, pero yo he albergado durante mucho tiempo la ambición de gobernar el reino. El heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], se encuentra actualmente ausente de la capital.\n\nLa oportunidad de apoderarme del trono me llama, prometiendo poder y autoridad sin medida."
  agot_crown_theft.0400.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. De todos modos, fui desheredado y no puedo heredar títulos, pero desde hace mucho tiempo albergo la ambición de gobernar el reino. El heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], actualmente se encuentra ausente de la capital.\n\nLa oportunidad de apoderarme del trono me llama, prometiendo poder y autoridad sin medida."
  agot_crown_theft.0500.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. Aunque hace tiempo que albergo la ambición de gobernar el reino, el heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], no es digno de tomar el trono.\n\nLa oportunidad de tomar el trono por mí mismo me llama, prometiendo poder y autoridad sin medida."
   
  agot_crown_theft.0100.a: "¡El trono es mío!"
+ agot_crown_theft.0200.a: "¡El trono es [crown_thief.GetTitledFirstNamePossessiveNoTooltip]!"
  agot_crown_theft.0100.b: "No, debo respetar la línea de sucesión."
   
   #KING DECIDES WHO TO CONTINUE AS 
@@ -154,10 +154,12 @@
  agot_crown_theft.0224.desc.you: "En una descarada demostración de traición, [usurper_guardian.GetTitledFirstName] ha coronado a [crown_thief.GetTitledFirstName] en [crown_thief.GetCapitalLocation.GetName] ante una gran asamblea, usurpando el trono que por derecho me corresponde.\n\nEsta afrenta a mi reclamo no puede quedar sin respuesta."
  agot_crown_theft.0224.desc.notyou: "En una descarada demostración de traición, [usurper_guardian.GetTitledFirstName] ha coronado a [crown_thief.GetTitledFirstName] en [crown_thief.GetCapitalLocation.GetName] ante una gran asamblea, usurpando el trono que legítimamente pertenece a [crown_theft_king_legit_heir.GetTitledFirstName]."
  agot_crown_theft.0224.a: "Prepárate para mi ira, Hacedor de Reyes."
+ agot_crown_theft.0224.queen.a: "Prepárate para mi ira, Hacedor de Reinas." #NT!
  agot_crown_theft.0224.b: "Interesante."
   
   #KINGMAKER followup 
  agot_crown_theft.0225.t: "El hacedor de reyes"
+ agot_crown_theft.0225.queen.t: "El hacedor de reinas" #NT!
  agot_crown_theft.0225.desc.king: "Mi guardián, [usurper_guardian.GetTitledFirstName], me coronó en [crown_thief.GetCapitalLocation.GetName] ante una gran asamblea.\n\nA partir de este día, soy el legítimo [Select_CString(crown_thief.IsFemale,'queen','king')]."
  agot_crown_theft.0225.desc.guardian: "He coronado a [crown_thief.GetTitledFirstName] en [crown_thief.GetCapitalLocation.GetName] ante una gran asamblea.\n\nA partir de este día, [crown_thief.GetSheHe] es ​​el legítimo [Select_CString(crown_thief.IsFemale,'queen','king')]."
  agot_crown_theft.0225.a: "El reino es nuestro."

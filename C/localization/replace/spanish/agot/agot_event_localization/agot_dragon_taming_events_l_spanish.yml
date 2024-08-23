@@ -33,18 +33,10 @@
   
  dragon_taming_events.0301.t: "$agot_dragonbinding$: Un cuerno sonado"
  dragon_taming_events.0301.desc.intro: "Obedientemente, [horn_blower.GetName] levanta el cuerno del infierno hacia los labios de [horn_blower.GetHerHis]. El rugido del cuerno es un grito de pesadilla, como el alarido de mil almas. Como si se convirtiera en llamas, mis huesos duelen y arden mientras el sonido sacude mi núcleo. El silencio que sigue a este gemido horroroso solo se rompe por el ahogo de [horn_blower.GetNameNoTooltip]: una leve bocanada de humo, como si los pulmones de [horn_blower.GetHerHis] estuvieran chamuscados y ampollados.\n\nSolo pasa un momento antes de que el cuerno de dragón agregue otra voz a su coro."
- dragon_taming_events.0301.desc.intro_rebind: "Nunca me acostumbraré a eso."
- dragon_taming_events.0301.desc.one_dragon: "La tensión entre [dragon.GetNameNicknamed] y yo es insoportable. Nuestros ojos se cruzan y nuestras voluntades están estancadas. #italic ¿Funcionó? #! Creo, la incertidumbre me araña...\n\n"
- dragon_taming_events.0301.desc.two_dragons: "La tensión en el aire es insoportable. Espero, paralizada ante los ojos de [dragon.GetNameNicknamed] y [dragon_two.GetNameNicknamed]. Rezo para que no puedan percibir mi miedo. #italic ¿Funcionó? #! Pienso, la incertidumbre me araña...\n\n"
- dragon_taming_events.0301.desc.multiple_dragons: "La tensión en el aire es insoportable. Espero, paralizada ante los ojos de [dragon.GetNameNicknamed] y los otros dragones. Rezo para que no puedan percibir mi miedo. #italic ¿Funcionó? #! Pienso, la incertidumbre me agarra...\n\n"
- dragon_taming_events.0301.desc.success_multiple_rebind: "Los dragones finalmente ceden, habiendo sido devueltos a sus lugares; aunque es una pena lo de [horn_blower.GetNameNoTooltip]."
  dragon_taming_events.0301.desc.success_rebind: "[dragon.GetNameNoTooltip] ha sido devuelto al lugar [dragon.GetHerHis]; el dragón es #bold mío#!. Pasando por encima del cuerpo humeante de [horn_blower.GetNameNoTooltip], me acerco a la bestia [dragon.Custom('GetDragonColorFull')] y reclamo mi premio."
-  
  dragon_taming_events.0301.desc.success: "Finalmente, [dragon.GetNameNoTooltip] envía; el dragón es #bold mío#!. Pasando por encima del cuerpo humeante de [horn_blower.GetNameNoTooltip], me acerco a la bestia [dragon.Custom('GetDragonColorFull')] y reclamo mi premio."
- dragon_taming_events.0301.desc.another_multiple_rebind: "Los dragones finalmente ceden. Se mueven con paso firme en mi dirección y yo doy un paso hacia ellos, ignorando el cuerpo aún humeante de [horn_blower.GetNameNoTooltip], ansioso por reclamar mis premios una vez más. Las bestias, sin embargo, siguen pasando a mi lado, ciegas a mi existencia."
  dragon_taming_events.0301.desc.another_rebind: "$dragon_taming_events.0301.desc.another$"
  dragon_taming_events.0301.desc.another: "Finalmente, [dragon.GetNameNoTooltip] cede. [dragon.Custom('GetDragonSheHe')|U] se mueve en mi dirección y yo doy un paso hacia [dragon.GetHerHim], ignorando el cuerpo aún humeante de [horn_blower.GetNameNoTooltip], ansioso por reclamar mi premio. La bestia [dragon.Custom('GetDragonColorFull')], sin embargo, sigue a mi lado, ciega a mi existencia."
- dragon_taming_events.0301.desc.failure_multiple_rebind: "Un terror absoluto me invade cuando los cuellos de los dragones se enroscan en conjunto, los colores de sus escamas se mezclan para formar una parte de un arcoíris burlón. No se están rindiendo... Al contrario, cada uno de ellos tiene la intención de incendiarme #bold#!."
  dragon_taming_events.0301.desc.failure_rebind: "$dragon_taming_events.0301.desc.failure$"
  dragon_taming_events.0301.desc.failure: "El puro terror se apodera de mí mientras la [dragon.Custom('GetDragonColorFull')] bestia enrolla el cuello [dragon.Custom('GetDragonHerHis')]. [dragon.Custom('GetDragonSheHe')|U] no se somete... Al contrario, [dragon.Custom('GetDragonSheHe')] se está preparando para prenderme #bold en llamas#!."
  dragon_taming_events.0301.a: "El mundo es mío."
@@ -56,12 +48,10 @@
   
  dragon_taming_events.0302.t: "$agot_dragonbinding$: Un dragón atado"
  dragon_taming_events.0302.desc: "Al parecer, [fool.GetName] ha hecho sonar el cuerno del dragón en presencia de [dragon.GetNameNicknamed]. Como el cuerno estaba atado a mí, [dragon.Custom('GetDragonColorFull')] me ha buscado...\n\n"
- dragon_taming_events.0302.desc_multiple: "Al parecer, [fool.GetName] ha hecho sonar el cuerno de dragón en presencia de dragones, entre ellos [dragon.GetNameNicknamed]. Como el cuerno estaba atado a mí, las bestias me han buscado...\n\n"
  dragon_taming_events.0302.desc.dragon_rider: "Nos miramos a los ojos, una batalla de voluntades aún se libra a pesar de la hechicería de sangre del cuerno del infierno. Siento un hilo de sudor bajando por mi nuca, cuando [dragon.Custom('GetDragonSheHe')] rompe el contacto visual y da un paso perezoso hacia adelante. [dragon.GetNameNoTooltip] presenta [dragon.Custom('GetDragonHerHis')] cuello, declarándome [dragon.Custom('GetDragonHerHis')] jinete."
  dragon_taming_events.0302.a: "¡Mi poder ha crecido!"
  dragon_taming_events.0302.b: "$dragon_taming_events.0301.a$"
  dragon_taming_events.0302.b.tt: "Reclamas a este dragón como su jinete."
- dragon_taming_events.0302.c: "Elegiré entre estos dragones."
  dragon_taming_events.0302.decline: "Este dragón no me conviene."
  dragon_taming_events.0302.decline.tt: "El dragón permanece bajo tu propiedad."
   
@@ -82,6 +72,8 @@
  dragon_taming_events.0304.c.tt: "Intentarás fortalecer tu vínculo con [dragon.GetNameNoTooltip]."
  dragon_taming_events.0304.d: "No importa."
  has_available_horn_blower: "Cortesano o prisionero disponible"
+ agot_rebind_success: "[dragon.GetNameNicknamedNoTooltip] se rebotará." #NT!
+ agot_rebind_failure: "[dragon.GetNameNicknamedNoTooltip] resistirá el intento de revinculación." #NT!
   
  dragon_taming_events.0305.t: "La semilla falsa"
  dragon_taming_events.0305.desc.intro: "[dragon_keeper.GetFirstName] ha enviado un llamado al reino para que haya nuevos jinetes de dragón, una especie de reunión familiar. Aunque no tengo sangre de dragón, veo una oportunidad.\n\nSe dice que las semillas de dragón vienen en muchos, mmm, sabores diferentes. Podría ser posible introducir de contrabando a un cortesano propio; un cortesano confiable que no se acobarde ante la muerte, porque la muerte es inevitable.\n\nCon lo caótico que será [dragonpit.GetNameNoTooltip] ese día, podría ser posible introducir de contrabando el cuerno con nuestra querida "semilla de dragón"."
