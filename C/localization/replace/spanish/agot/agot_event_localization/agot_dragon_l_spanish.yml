@@ -114,6 +114,22 @@
  agot_dragon.0016.a: "¡Ya veo! Un [dragon.Custom('DragonGirlBoy')] entonces."
  agot_dragon.0016.b: "¿Entonces un [dragon.Custom('DragonFemaleMale')]? Es bueno saberlo."
   
+ # Child reveals dragon's gender event 
+ agot_dragon.0030.t: "$agot_dragon.0016.t$" #NT!
+ agot_dragon.0030.desc: "El tema del género de [dragon.GetNamePossessive] ha sido tema de mucha discusión últimamente. Mientras [revealing.GetName] y yo conversamos sobre el tema, [child.GetName] interviene con bastante fuerza. "¡[dragon.GetNameNoTooltip] es un dragón #italic [dragon.Custom('DragonGirlBoy')]#!!", se queja [child.GetSheHe]. Aunque no está claro cómo lo sabe [child.GetNameNoTooltip], [child.GetSheHe] se mantiene firme en su postura respecto a [revealing.GetName]0." #NT!
+ agot_dragon.0030.a: "¡Ya veo! Entonces es un dragón [dragon.Custom('DragonGirlBoy')]." #NT!
+  
+ # Child reveals dragon's flame color 
+ agot_dragon.0040.t: "Las primeras llamas del dragón" #NT!
+ agot_dragon.0040.desc.intro: "De paso, escucho la risa aturdida de [child.GetName]; [child.GetSheHe] debe estar jugando con [dragon.GetName]. Abandonando mi rumbo actual, me acerco al dúo y la escena es abrumadora. Sin darse cuenta de mi presencia, [child.GetNameNoTooltip] dice en un ataque de risa" #NT!
+  # Option for child finding and showing off dragon to parent 
+ agot_dragon.0040.desc.fire_common: ""otra vez, [dragon.GetNameNoTooltip], llama [dragon.GetNameNoTooltip]!"" #NT!
+ agot_dragon.0040.desc.fire_valyrian: ""de nuevo, [dragon.GetNameNoTooltip], dracarys [dragon.GetNameNoTooltip]!"" #NT!
+ agor_dragon.0040.desc.fire_breath: "Las llamas brotan de las fauces del dragón, provocando una vez más una risa alegre en [child.GetNameNoTooltip]." #NT!
+ agor_dragon.0040.desc.fire_breath_craven: "Las llamas brotan de las fauces del dragón y me encuentro huyendo para salir. Un niño no debería tener ese poder." #NT!
+ agot_dragon.0040.a: "Notable." #NT!
+ agot_dragon.0040.b: "Hay que contener al dragón antes de que mate a alguien." #NT!
+  
  # The conquered cities 
  agot_dragon.0017.t: "Las ciudades conquistadas"
  agot_dragon.0017.desc: "¡Victoria! Mi nuevo imperio se forjó a partir de la caída del propio gobierno de la Triarquía. Ahora que este organismo ha caído bajo mi ala de hierro, existe la oportunidad de forjar un verdadero estado unitario a partir de las cenizas de la antigua oligarquía. Sin embargo, una pregunta natural es: ¿dónde estará la sede de mi nuevo imperio?"
@@ -149,7 +165,7 @@
   # Dragon went wild notification 
  agot_dragon.0020.t: "Un dragón enloquecido"
  agot_dragon.0020.desc: "Noticias trágicas para nuestra casa, ya que [now_wild_dragon.GetName] parece haber volado después de la muerte de [dead_rider.GetName]. Puede que nunca sepamos si fue el dolor o el deseo de libertad lo que alejó a [now_wild_dragon.GetFirstNameNoTooltip].\n\nEs un día triste para todos nosotros, ya que ahora debemos afrontar la pérdida tanto del dragón como de su jinete."
- agot_dragon.0020.wild_fire_desc: "Noticias extrañas para nuestra casa, ya que [now_wild_dragon.GetName] parece haber volado después del accidente provocado por el incendio forestal de [human_who_became_dragon.GetName]. No sé cuál será el impacto de estos acontecimientos, pero puedo decir que ha sido un día muy extraño." #NT!
+ agot_dragon.0020.wild_fire_desc: "Noticias extrañas para nuestra casa, ya que [now_wild_dragon.GetName] parece haber volado después del accidente provocado por el incendio forestal de [human_who_became_dragon.GetName]. No sé cuál será el impacto de estos acontecimientos, pero puedo decir que ha sido un día muy extraño."
  agot_dragon.0020.a: "No puedo creerlo..."
  agot_dragon.0020.a.f: "Te preocupa cómo afrontar la pérdida de [now_wild_dragon.GetNameNoTooltip]."
  agot_dragon.0020.a.tt: "[now_wild_dragon.GetName] ahora es [wild_dragon|E]"
