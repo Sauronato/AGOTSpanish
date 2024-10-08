@@ -1,0 +1,692 @@
+﻿l_spanish:
+  
+  # MAINTENANCE 
+  # Intro/Setup Event 
+ coronation.0001.t: "Los preparativos finales" #NT!
+ coronation.0001.desc_intro: "Los sirvientes corren por el patio de [barony.GetNameNoTier], trayendo las decoraciones finales mientras los miembros de la corte toman sus lugares. Muchos de los asistentes a esta ocasión aún no han llegado." #NT!
+ coronation.0001.dislikes_host_vassal: "Todavía no puedo creer que [host.Custom('InsultNoun')], [center_portrait.GetFirstName|U], vaya a ser coronado como nuestro nuevo [center_portrait.GetTitleAsNameNoTooltip|U]. Apenas soporto estar en la misma habitación que [center_portrait.GetHerHim|l], y ni hablar de tener que arrodillarme." #NT!
+ coronation.0001.dislikes_host_other: "Todavía no puedo creer que [host.Custom('InsultNoun')], [center_portrait.GetFirstName|U], vaya a ser coronado [center_portrait.GetTitleAsNameNoTooltip|U]. Apenas soporto estar en la misma habitación que [center_portrait.GetHerHim|l]." #NT!
+ coronation.0001.likes_host: "Es difícil creer que hoy sea el día en que coronamos a nuestro nuevo [center_portrait.GetTitleAsNameNoTooltip|U]. [center_portrait.GetFirstName|U] parece estar a la altura de la tarea. Me alivia saber que [center_portrait.GetPrimaryTitle.GetNameNoTierNoTooltip] estará en las manos más capaces de [center_portrait.GetFirstNamePossessiveNoTooltip|U]. Que el reinado de [center_portrait.GetHerHis|l] sea largo y próspero." #NT!
+ coronation.0001.neutral: "Hoy coronamos a un nuevo [center_portrait.GetTitleAsNameNoTooltip|U]. [center_portrait.GetFirstName|U] parece capaz, aunque el tiempo dirá si realmente está a la altura." #NT!
+ coronation.0001.host: "Hoy es el día en que me coronan [ROOT.Char.GetTitleAsNameNoTooltip|U] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ #coronation.0001.host_distracted: "$coronation.0001.host$ Sin embargo, mi mente está centrada en otros asuntos." #NT!
+  
+ coronation.0001.intent_woo_arrived: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Para ello, veo a [ROOT.Char.GetIntentTarget.GetTitledFirstName] entre la multitud, lo que significa que mi plan para [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim] puede seguir adelante según lo previsto." #NT!
+ coronation.0001.intent_woo: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Sin embargo, aún no puedo encontrar a [ROOT.Char.GetIntentTarget.GetTitledFirstName] en ningún lado. No puedo esperar a que llegue [ROOT.Char.GetIntentTarget.GetHerHim] para que mi plan de [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim] pueda seguir adelante." #NT!
+  
+ coronation.0001.intent_murder_arrived: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Para ello, veo a [ROOT.Char.GetIntentTarget.GetTitledFirstName] entre la multitud, lo que significa que mi plan para [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim] puede seguir adelante según lo previsto." #NT!
+ coronation.0001.intent_murder: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Sin embargo, aún no puedo encontrar a [ROOT.Char.GetIntentTarget.GetTitledFirstName] en ningún lado. No puedo esperar a que llegue [ROOT.Char.GetIntentTarget.GetHerHim] para que mi plan de [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim] pueda seguir adelante." #NT!
+  
+ coronation.0001.intent_befriend_arrived: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Para ello, veo a [ROOT.Char.GetIntentTarget.GetTitledFirstName] entre la multitud, lo que significa que mi plan para [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim] puede seguir adelante según lo previsto." #NT!
+ coronation.0001.intent_befriend: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Sin embargo, aún no puedo encontrar a [ROOT.Char.GetIntentTarget.GetTitledFirstName] en ningún lado. No puedo esperar a que llegue [ROOT.Char.GetIntentTarget.GetHerHim] para que mi plan de [ROOT.Char.GetInvolvedActivityIntent.GetName|l] [ROOT.Char.GetIntentTarget.GetHerHim] pueda seguir adelante." #NT!
+  
+ coronation.0001.intent_diplomacy_arrived: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Para ello, veo a [ROOT.Char.GetIntentTarget.GetTitledFirstName] entre la multitud, lo que significa que mi plan de formar una alianza con [ROOT.Char.GetIntentTarget.GetHerHim] puede seguir adelante según lo previsto." #NT!
+ coronation.0001.intent_diplomacy: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Sin embargo, aún no puedo encontrar a [ROOT.Char.GetIntentTarget.GetTitledFirstName] en ningún lado. No puedo esperar a que llegue [ROOT.Char.GetIntentTarget.GetHerHim] para que mi plan de formar una alianza con [ROOT.Char.GetIntentTarget.GetHerHim] pueda seguir adelante." #NT!
+  
+ coronation.0001.intent_legitimize_bastard: "\n\nSin embargo, mi objetivo de que [ROOT.Char.GetIntentTarget.GetFirstNameNicknamed] sea legitimado por [center_portrait.GetHerHis|U] Grace está en primer plano en mi mente. Solo puedo esperar que [center_portrait.GetFirstNameNoTooltip|U] esté de acuerdo con mi caso y otorgue un decreto real de legitimación." #NT!
+ coronation.0001.intent_sabotage_coronation: "Con un poco de suerte podré detener, o al menos retrasar, el procedimiento." #NT!
+  
+ coronation.0001.intent_vie_male: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Para ello, veo a Su Gracia entre la multitud. Es imperativo que me quede a solas con él para poder seguir adelante con mi plan de unirme al Consejo Privado." #NT!
+ coronation.0001.intent_vie_female: "\n\nA pesar de las festividades, tengo otros objetivos que cumplir. Con ese fin, veo a Su Gracia entre la multitud. Es imperativo que me quede a solas con ella para poder seguir adelante con mi plan de unirme al Consejo Privado." #NT!
+  
+ coronation.0001.waiting_for_officiant: "Espero con ansias la llegada de [lower_right_portrait.GetTitledFirstNameNicknamed|U]. Todavía hay mucho que discutir con [lower_right_portrait.GetHerHim|l] mientras se realizan los preparativos finales." #NT!
+  
+ coronation.0001.a.good: "¡Qué día tan glorioso!" #NT!
+ coronation.0001.a.bad: "No puedo esperar a que termine este día." #NT!
+ coronation.0001.a.sabotage: "¡Es hora de arruinar el día [center_portrait.GetFirstNamePossessiveNoTooltip]!" #NT!
+ coronation.0001.after.tt: "Se enviarán cuervos a todos los que hayan sido invitados." #NT!
+  
+  # Officiant Replacement 
+ coronation.0002.t: "Un nuevo oficiante" #NT!
+ coronation.0002.desc: "Circunstancias imprevistas me obligan a buscar a alguien nuevo para que me coroneé. Miro hacia la sala llena de asistentes, con la esperanza de que alguien de renombre esté dispuesto a ocupar el lugar de [old_coronation_officiant.GetTitledFirstNameNicknamed|U]." #NT!
+ coronation.0002.desc_removed: "Circunstancias imprevistas me obligan a buscar a alguien nuevo para que me coroneé. Miro hacia la sala llena de asistentes, con la esperanza de que alguien de renombre esté dispuesto a ocupar el lugar de [old_coronation_officiant.GetTitledFirstNameNicknamed|U]." #NT!
+ coronation.0002.desc_no_officiant: "Se me ocurre que tal vez necesite que alguien me corone. Miro a la sala llena de asistentes y me pregunto si alguien de renombre podría estar dispuesto a asumir ese papel." #NT!
+ coronation.0002.a: "¡Alguien más me coronará!" #NT!
+ coronation.0002.a.tt: "[new_coronation_officiant.GetTitledFirstNameNicknamed|U] servirá como oficiante de su coronación." #NT!
+ coronation.0002.a.tt_hof: "[new_coronation_officiant.GetTitledFirstNameNicknamed|U] es tu [head_of_faith|E], lo que aumenta tu ganancia [piety_i] [piety|E]." #NT!
+ coronation.0002.a.tt_pv: "[new_coronation_officiant.GetTitledFirstNameNicknamed|U] es un [powerful_vassal|E], lo que aumenta su ganancia de [legitimacy_i] [legitimacy|E]." #NT!
+ coronation.0002.a.tt_dynn: "[new_coronation_officiant.GetTitledFirstNameNicknamed|U] es un miembro de tu [dynasty|E], lo que aumenta tu ganancia [dynasty_prestige_i] [dynasty_prestige|E]." #NT!
+ coronation.0002.a.tt_consort: "[new_coronation_officiant.GetTitledFirstNameNicknamed|U] es tu [spouse|E], aumentando así tu [prestige_i] [prestige|E]." #NT!
+ coronation.0002.b: "Quizás [intent_target.GetTitledFirstNameNicknamed|U] debería coronarme" #NT!
+ coronation.0002.b.tt: "[new_coronation_officiant.GetTitledFirstNameNicknamed|U] servirá como oficiante de su coronación." #NT!
+ coronation.0002.c: "¡Maldita sea, lo haré yo mismo!" #NT!
+ coronation.0002.c.tt: "Te coronarás a ti mismo." #NT!
+  
+  # Letters to the Player 
+ coronation.0003.opening: "[sender.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
+ coronation.0003.desc_seven_kingdoms: "Es con gran honor y anticipación que yo, [sender.GetFirstNameNoTooltip|U], de la Casa [sender.GetHouse.GetName|U], [sender.GetTitleAsNameNoTooltip|U] de los Ándalos, los Rhoynar y los Primeros Hombres, [sender.GetLadyLord|U] de los Siete Reinos y Protector del Reino, te extiendo esta invitación. La ocasión auspiciosa de mi [GetActivityType('activity_coronation').GetName|l] tendrá lugar en [county.GetNameNoTier] a las [barony.GetNameNoTier]." #NT!
+ coronation.0003.desc_other: "Es con gran honor y anticipación que yo, [sender.GetFirstNameNoTooltip|U], de la Casa [sender.GetHouse.GetName|U], [sender.GetTitleAsNameNoTooltip|U] de [sender.GetPrimaryTitle.GetNameNoTierNoTooltip], les extiendo esta invitación. La ocasión auspiciosa de mi [GetActivityType('activity_coronation').GetName|l] tendrá lugar en [county.GetNameNoTier] a las [barony.GetNameNoTier]." #NT!
+ coronation.0003.desc_officiant: "\n\nEn reconocimiento a su estimable posición y lealtad inquebrantable, humildemente solicito que oficie la ceremonia y tenga el honor de colocar la corona sobre mi cabeza. Su participación en este evento sagrado no solo simbolizará la unidad y la fuerza de nuestro vínculo, sino que también sentará un precedente noble para mi reinado.\n\nQue su viaje a [county.GetNameNoTierNoTooltip] sea rápido y seguro. Espero con ansias su llegada y la promesa de su apoyo inquebrantable." #NT!
+ coronation.0003.desc_guest: "\n\nQue tu viaje a [county.GetNameNoTierNoTooltip] sea rápido y seguro. Espero con ansias tu llegada y la promesa de tu apoyo inquebrantable." #NT!
+ coronation.0003.desc_vassal: "\n\nSe solicita y requiere su presencia como vasallo leal del reino. Se espera que asista a este evento trascendental y afirme públicamente su lealtad arrodillándose. Este acto significará su lealtad y compromiso continuos con la corona y la unidad duradera del reino.\n\nQue su viaje a [county.GetNameNoTierNoTooltip] sea rápido y seguro. Espero con ansias su llegada y la promesa de su apoyo inquebrantable." #NT!
+ coronation.0003.a: "Será un placer para mí; me iré de inmediato." #NT!
+ coronation.0003.b: "Enviaré a alguien en mi lugar." #NT!
+ coronation.0003.c: "Tengo asuntos más importantes que atender." #NT!
+ coronation.0003.c.tt_refusal: "[recipient.GetTitledFirstNameNoTooltip|U] Se negó a asistir a la coronación" #NT!
+ coronation.0003.c.tt_officiant_refusal: "[recipient.GetTitledFirstNameNoTooltip|U] Se negó a oficiar la coronación" #NT!
+  
+  # Representative Events (For those who can't attend) 
+ coronation.0004.t: "Representante de [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]" #NT!
+ coronation.0004.desc: "Con la coronación de [coronation_target.GetTitledFirstName], se espera que renueve mi lealtad a la corona. Como no puedo asistir, alguien debe ir en mi lugar." #NT!
+ coronation.0004.a: "[potential_representative_1.GetFirstNameNoTooltip|U] es la elección lógica" #NT!
+ coronation.0004.a.tt: "[potential_representative_1.GetShortUIName] acepta la invitación en tu nombre" #NT!
+ coronation.0004.b: "Debe ser [potential_representative_2.GetFirstNameNoTooltip|U]" #NT!
+ coronation.0004.b.tt: "[potential_representative_2.GetShortUIName] acepta la invitación en tu nombre" #NT!
+ coronation.0004.c: "[potential_representative_3.GetFirstNameNoTooltip|U] lo es" #NT!
+ coronation.0004.c.tt: "[potential_representative_3.GetShortUIName] acepta la invitación en tu nombre" #NT!
+ coronation.0004.d: "Uno de mis concejales me representará." #NT!
+ coronation.0004.d.tt: "Seleccionarás entre tus concejales disponibles" #NT!
+  
+  # Selecting a Crown - Decides which crown the officiant will use to crown them and set up for sabotage 
+ coronation.0005.t: "Seleccionar una corona" #NT!
+ coronation.0005.desc: "Con los preparativos finales en marcha, [coronation_officiant.GetTitledFirstNameNoTooltip] se acerca a mí. "Su Gracia, debemos decidir con qué corona desea ser coronado".\n\nMe tomo un momento para considerar cuál de las coronas de mi colección debería usarse." #NT!
+ coronation.0005.desc_high_septon: "Con los preparativos finales en marcha, [coronation_officiant.GetTitledFirstNameNicknamedNoTooltip|U] se acerca a mí. "Su Gracia, debemos decidir con qué corona desea ser coronado".\n\nMe tomo un momento para considerar cuál de las coronas de mi colección debería usarse." #NT!
+ coronation.0005.desc_after_sabotage: "Después de que alguien me robó mi corona, ahora debo seleccionar entre las demás de mi colección." #NT!
+ coronation.0005.a: "Esto estará bien" #NT!
+ coronation.0005.a.tt: "#high [selected_crown_for_coronation.GetNameNoTooltip]#! se usará para coronarte" #NT!
+ coronation.0005.b: "Ninguno de estos es adecuado; encargaré una nueva corona." #NT!
+  
+ coronation.0006.t: "Coronar o no coronar" #NT!
+ coronation.0006.desc: "Ha estallado una guerra en el reino y todavía no he sido coronado. Dadas las circunstancias, el reino podría perdonarme si renuncio a una ceremonia formal de coronación. Por otra parte, los señores del reino podrían tenerme rencor en los años venideros." #NT!
+ coronation.0006.a: "Hay que hacerlo para asegurar mi trono." #NT!
+ coronation.0006.a.tt: "Serás coronado sin formalidades" #NT!
+ coronation.0006.b: "Debe hacerse correctamente o no debe hacerse en absoluto." #NT!
+ coronation.0006.b.tt: "Esperarás hasta que se resuelva la guerra para organizar un [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+  
+ coronation.0008.t: "Mayoridad" #NT!
+ coronation.0008.desc: "Ya no puedo usar mi edad como excusa para retrasar mi coronación. El reino esperará una pronto, no sea que decidan que no soy apto para ocupar mi trono." #NT!
+ coronation.0008.a: "Y así comienza" #NT!
+  
+  # Activity Start 
+ coronation.0100.t: "Comienza la ceremonia de coronación" #NT!
+ coronation.0100.desc_diplo: "Por fin ha llegado el día de mi coronación formal [coronation_target.GetTitleAsNameNoTooltip|U]. Mientras se hacen los preparativos, mi mente ya está centrada en lo que viene a continuación. Detrás de todos los rituales y ceremonias, las coronaciones son, ante todo, acontecimientos políticos. Por tanto, a pesar de las sonrisas y la deferencia, me pregunto si mis vasallos aceptarán mi mandato.\n\nAdemás, todavía hay otra pregunta que me pesa mucho: ¿el Trono de Hierro me considerará digno?" #NT!
+ coronation.0100.desc_religious: "Por fin ha llegado el día de mi coronación formal [coronation_target.GetTitleAsNameNoTooltip|U]. Todos los pasos de una coronación son importantes. Después de todo, la validez de cualquier ritual se basa en la reproducción correcta de todas sus partes.\n\nHe estado prestando mucha atención como asistentes [other_guest.GetTitledFirstName|U] y [other_guest.GetHerHis|l], cualquier componente que se me escape podría poner en duda mi legitimidad." #NT!
+ coronation.0100.desc_shy: "Por fin ha llegado el día de mi coronación formal [coronation_target.GetTitleAsNameNoTooltip|U]. Todo me resulta abrumador: las suntuosas decoraciones, la charla constante de los invitados y el escrutinio penetrante de mis vasallos que juzgan cada una de mis acciones.\n\nTodo se funde en una vorágine tumultuosa de ansiedad, que solo puedo esperar que se calme en el momento de mi coronación. Si pudiera elegir, habría prescindido de todas estas formalidades." #NT!
+ coronation.0100.desc_arrogant: "Por fin ha llegado el día en que me coronarán formalmente [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. El día apenas ha empezado y ya estoy harta del parloteo incesante de [other_guest.GetTitledFirstName|U]. No es de extrañar que haya estado furiosa durante casi toda la mañana.\n\nA este paso, podré escupir fuego cuando me coronen. Mi paciencia se está agotando." #NT!
+ coronation.0100.desc_paranoid: "Por fin ha llegado el día en que me coronarán formalmente [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. Todos los supuestos simpatizantes y vasallos defensores esconden mentiras y engaños tras sus falsas sonrisas.\n\nUna vez que me coloquen la corona en la cabeza, los cuervos volarán en círculos. Nunca se desharán de mí." #NT!
+ coronation.0100.desc_appearance: "Por fin ha llegado el día en que me coronarán oficialmente [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. Sin embargo, estoy pendiente de las miradas de todos los que me rodean. Sé que mi discapacidad provoca repulsión en algunos y horror en otros, pero hoy se verán obligados a mirarme.\n\nEspero que se guarden sus comentarios para sí mismos." #NT!
+ coronation.0100.desc_seducer: "Por fin ha llegado el día en que me coronarán formalmente [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. Mi atención se desplaza de la inminente ceremonia a las atractivas y jóvenes sirvientas que se mueven afanosamente por allí. Me pregunto si podría persuadir discretamente a una o dos para que se vayan conmigo antes de que comience el evento. Es poco probable que alguien se dé cuenta." #NT!
+ coronation.0100.desc_drunkard: "Por fin ha llegado el día en que me coronarán formalmente [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. A pesar de la ceremonia que se avecina, mi mayor deseo es tomar una bebida fuerte. Mientras observo a los sirvientes afanándose, ordeno a uno que me traiga la bebida deseada para saciar mi sed. Para terminar, me traen otra. Será un milagro si logro mantenerme en pie al final del día." #NT!
+ coronation.0100.desc_guest: "Ha llegado el día. Solo el tiempo dirá si [coronation_target.GetFirstName|U] está a la altura de gobernar a [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]." #NT!
+ coronation.0100.a: "Así comienza..." #NT!
+  
+  # Coronation Event Host 
+ coronation.0150.t: "El verdadero [coronation_target.GetTitleAsNameNoTooltip|U]" #NT!
+ coronation.0150.desc_ct_intro: "La ceremonia finalmente ha llegado a su clímax. [officiant.GetTitledFirstNameNicknamed|U] me ha ungido según los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip] y ahora se prepara para coronarme. Mientras me colocan la corona en la cabeza, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] proclama:" #NT!
+  
+ coronation.0150.desc_ct_no_crown_intro: "La ceremonia finalmente ha llegado a su clímax. [officiant.GetTitledFirstNameNicknamed|U] me ha ungido según los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip]. Sin corona disponible, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] simplemente proclama:" #NT!
+  
+ coronation.0150.desc_self_crowner_intro: "La ceremonia finalmente ha llegado a su clímax. Me han ungido según los ritos tradicionales del [coronation_target.GetFaith.GetNameNoTooltip] y me preparo para colocarme la corona en la cabeza. Mientras la corona descansa sobre mi frente, me levanto y me enfrento a la multitud." #NT!
+  
+ coronation.0150.desc_self_crowner_no_crown_intro: "La ceremonia finalmente ha llegado a su clímax. Me han ungido según los ritos tradicionales del [coronation_target.GetFaith.GetNameNoTooltip]. Sin corona disponible, me enfrento a la multitud y proclamo:" #NT!
+  
+ coronation.0150.desc_officiant_intro: "La ceremonia finalmente ha llegado a su clímax. He ungido a [coronation_target.GetTitledFirstName|U] en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip] y me preparo para coronar a [coronation_target.GetHerHim]. Mientras coloco la corona sobre la cabeza de [coronation_target.GetFirstNamePossessiveNoTooltip|U], proclamo:" #NT!
+  
+ coronation.0150.desc_officiant_no_crown_intro: "La ceremonia finalmente ha llegado a su clímax. He ungido a [coronation_target.GetTitledFirstName|U] en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip], pero no tenemos una corona [coronation_target.GetHerHim] para colocar sobre la cabeza de [coronation_target.GetHerHis|l]. Por lo tanto, simplemente proclamo:" #NT!
+  
+  # Coronation Event Guests 
+ coronation.0150.desc_guests_intro: "La ceremonia finalmente ha llegado a su clímax. [officiant.GetTitledFirstName|U] ha ungido a [coronation_target.GetTitledFirstName|U] en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip] y ahora se prepara para coronar a [coronation_target.GetHerHim]. Mientras se coloca la corona sobre la cabeza de [coronation_target.GetFirstNamePossessiveNoTooltip|U], [officiant.GetTitledFirstNameNoTooltip|U] proclama:" #NT!
+  
+ coronation.0150.desc_guests_no_crown_intro: "La ceremonia finalmente ha llegado a su clímax. [officiant.GetTitledFirstName|U] ha ungido a [coronation_target.GetTitledFirstName|U] en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip], pero no hay corona a la vista. Intercambiamos miradas confusas mientras [officiant.GetTitledFirstNameNoTooltip|U] simplemente proclama:" #NT!
+  
+ coronation.0150.desc_guests_self_crowner_intro: "La ceremonia finalmente ha llegado a su clímax. [coronation_target.GetTitledFirstName|U] ha sido ungido en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip] y [coronation_target.GetSheHe|l] coloca la corona sobre la cabeza de [coronation_target.GetHerHis|l].\n\nGirándose hacia nosotros, [coronation_target.GetSheHe|l] proclama:" #NT!
+  
+ coronation.0150.desc_guests_self_crowner_no_crown_intro: "La ceremonia finalmente ha llegado a su clímax. [coronation_target.GetTitledFirstName|U] ha sido ungido en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip], pero no hay ninguna corona a la vista.\n\nGirándose hacia nosotros, [coronation_target.GetSheHe|l] simplemente proclama:" #NT!
+  
+  # Coronation Saboteur 
+ coronation.0150.desc_saboteur_no_crown_intro: "La ceremonia finalmente ha llegado a su clímax. [officiant.GetTitledFirstName|U] ha ungido a [coronation_target.GetTitledFirstName|U] en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip], pero no hay ninguna corona a la vista. Los que me rodean intercambian miradas confusas mientras [officiant.GetTitledFirstNameNoTooltip|U] simplemente proclama:" #NT!
+  
+ coronation.0150.desc_saboteur_self_crowner_no_crown_intro: "La ceremonia finalmente ha llegado a su clímax. [coronation_target.GetTitledFirstName|U] ha sido ungido en los ritos tradicionales de [coronation_target.GetFaith.GetNameNoTooltip], pero no hay ninguna corona a la vista.\n\nGirándose hacia nosotros, [coronation_target.GetSheHe|l] simplemente proclama:" #NT!
+  
+  #Ruler's proclamation 
+ coronation.0150.desc_proclaimation_seven_kingdoms: "\n\n#italic "Ante los dioses y los hombres, proclamo a [coronation_target.GetFirstNameNoTooltipRegnal|U] de la Casa [coronation_target.GetHouse.GetNameNoTooltip|U], [coronation_target.GetTitleAsNameNoTooltip|U] de los Ándalos, los Rhoynar y los Primeros Hombres, [coronation_target.GetLadyLord|U] de los Siete Reinos y Protector del Reino. ¡Que [coronation_target.GetSheHe] reine por mucho tiempo!" #!" #NT!
+ coronation.0150.desc_proclaimation_seven_kingdoms_self: "\n\n#italic "Soy [coronation_target.GetFirstNameNoTooltipRegnal|U] de la Casa [coronation_target.GetHouse.GetNameNoTooltip|U], [coronation_target.GetTitleAsNameNoTooltip|U] de los Ándalos, los Rhoynar y los Primeros Hombres, [coronation_target.GetLadyLord|U] de los Siete Reinos y Protector del Reino. ¡Que pueda reinar por mucho tiempo!" #!" #NT!
+ coronation.0150.desc_proclaimation_other: "\n\n#italic "Ante los dioses y los hombres, proclamo [coronation_target.GetFirstNameNoTooltipRegnal|U] de la Casa [coronation_target.GetHouse.GetNameNoTooltip|U], [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip|U]! ¡Que reine por mucho tiempo [coronation_target.GetSheHe]!" #!" #NT!
+ coronation.0150.desc_proclaimation_other_self: "\n\n#italic "¡Soy [coronation_target.GetFirstNameNoTooltipRegnal|U] de la Casa [coronation_target.GetHouse.GetNameNoTooltip|U], [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip|U]! ¡Que pueda reinar por mucho tiempo!" #!" #NT!
+  
+  #Outro 
+ coronation.0150.desc_ct_outro: "\n\nLa multitud comienza a vitorear mientras me levanto para enfrentarlos." #NT!
+ coronation.0150.desc_ct_no_crown_outro: "\n\nLa sala permanece en silencio durante varios momentos mientras los presentes intercambian miradas confusas mientras me levanto para enfrentarlos." #NT!
+ coronation.0150.desc_self_crowner_outro: "$coronation.0150.desc_ct_outro$" #NT!
+ coronation.0150.desc_self_crowner_no_crown_outro: "\n\nLa sala permanece en silencio durante varios momentos mientras los asistentes intercambian miradas confusas." #NT!
+ coronation.0150.desc_officiant_outro: "\n\nLa multitud comienza a vitorear y todos somos testigos del comienzo de lo que todos esperamos que sea un reinado pacífico y próspero." #NT!
+ coronation.0150.desc_officiant_no_crown_outro: "\n\nLa sala permanece en silencio durante varios momentos mientras los asistentes intercambian miradas confusas." #NT!
+ coronation.0150.desc_guests_outro: "\n\nLa multitud comienza a vitorear y todos somos testigos del comienzo de lo que todos esperamos que sea un reinado pacífico y próspero." #NT!
+ coronation.0150.desc_guests_no_crown_outro: "Durante varios momentos no hacemos ningún ruido antes de que alguien comience a aplaudir tímidamente y nosotros nos unimos vacilantes." #NT!
+ coronation.0150.desc_guests_self_crowner_outro: "$coronation.0150.desc_officiant_outro$" #NT!
+ coronation.0150.desc_guests_self_crowner_no_crown_outro: "Durante varios momentos no hacemos ningún ruido antes de que alguien comience a aplaudir tímidamente y nosotros nos unimos vacilantes." #NT!
+ coronation.0150.desc_saboteur_no_crown_outro: "Durante un largo rato, nadie hace ningún ruido. Una sonrisa se dibuja lentamente en mi rostro al saber que esto fue obra mía. Entonces, alguien comienza a aplaudir tímidamente y los demás se suman vacilantes." #NT!
+  
+ coronation.0150.a: "¡Que reine por mucho tiempo!" #NT!
+ coronation.0150.b: "¡Que ella reine por mucho tiempo!" #NT!
+ coronation.0150.c: "¡Que [coronation_target.GetFaith.HighGodName] dé testimonio!" #NT!
+ coronation.0150.a.tt_seven_kingdoms: "[coronation_target.GetShortUIName|U] se sentará en el Trono de Hierro" #NT!
+ coronation.0150.a.tt_other: "[coronation_target.GetShortUIName|U] se sentará en el trono [coronation_target.GetHerHis|l]" #NT!
+ coronation.0150.b.tt_seven_kingdoms: "[coronation_target.GetShortUIName|U] se sentará en el Trono de Hierro" #NT!
+ coronation.0150.b.tt_other: "[coronation_target.GetShortUIName|U] se sentará en el trono [coronation_target.GetHerHis|l]" #NT!
+ coronation.0150.c.tt_seven_kingdoms: "[coronation_target.GetShortUIName|U] se sentará en el Trono de Hierro" #NT!
+ coronation.0150.c.tt_other: "[coronation_target.GetShortUIName|U] se sentará en tu trono" #NT!
+  
+  # Sitting the Iron Throne 
+ coronation.0151.t: "Sentado en el trono" #NT!
+ coronation.0151.desc_intro_ruler_seven_kingdoms: "Me han coronado [coronation_target.GetTitleAsNameNoTooltip|U]. Ahora, debo demostrar que soy digno del título y sentarme en el trono del Conquistador. Me doy la vuelta y el silencio llena la sala. Comienzo a subir los escalones estrechos y desiguales, con cada pisada resonando por toda la cámara.\n\n" #NT!
+ coronation.0151.desc_intro_ruler_other: "Me han coronado [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. Ahora, debo sentarme en mi trono. Subo los escalones con deliberado cuidado, mientras cada pisada resuena en toda la cámara. A medida que me acerco al trono, el peso de la corona pesa en mi mente y los ojos de la corte están sobre mí. La expectación es espesa en el aire.\n\n" #NT!
+ coronation.0151.desc_intro_ruler_slips: "Bajo las escaleras dando tumbos, aunque logro levantarme rápidamente y sacudirme el polvo. Me aparto de la multitud y el silencio invade el salón una vez más. Reanudo mi ascenso por las escaleras, con cada paso resonando por toda la sala." #NT!
+ coronation.0151.desc_intro_ruler_recovers: "A pesar de casi caerme, logro recuperar el equilibrio." #NT!
+ coronation.0151.desc_unworthy: "Me tomo un momento para fortalecer mi determinación mientras la inquietud palpable impregna el aire. Me doy vuelta y me bajo lentamente al Trono de Hierro. Justo cuando siento que mi inquietud disminuye, siento un agudo pinchazo en mi dedo mientras rápidamente retiro mi mano para coger el hierro dentado. \n\nMiro la herida durante varios momentos mientras la sangre comienza a supurar de la herida. Escucho jadeos de la multitud mientras intento ocultar mi mano ensangrentada debajo de mi capa." #NT!
+ coronation.0151.desc_worthy: "Me tomo un momento para fortalecer mi determinación mientras la palpable inquietud impregna el aire. Me doy vuelta y me siento lentamente en el Trono de Hierro. No es el asiento más cómodo y dudo que alguna vez me acostumbre, pero me las arreglaré. Hago un gesto a mis asistentes para que hagan pasar al primero de mis vasallos que han venido a arrodillarse." #NT!
+ coronation.0151.desc_other: "Me tomo un momento para fortalecer mi determinación mientras me doy vuelta y me siento lentamente en el trono. Luego les hago un gesto a mis asistentes para que hagan pasar al primero de mis vasallos que han venido a arrodillarse." #NT!
+  
+ coronation.0151.desc_intro_guest_seven_kingdoms: "[coronation_target.GetFirstName|U] ha sido coronado [coronation_target.GetTitleAsNameNoTooltip|U]. Ahora, [coronation_target.GetSheHe|l] debe sentarse en el Trono de Hierro. [coronation_target.GetSheHe|U] se aparta de la multitud y el silencio llena la sala. Observamos con la respiración contenida cómo [coronation_target.GetSheHe|l] asciende los escalones estrechos y desiguales, y cada pisada resuena en toda la sala." #NT!
+ coronation.0151.desc_intro_guest_other: "[coronation_target.GetFirstName|U] ha sido coronado [coronation_target.GetTitleAsNameNoTooltip|U]. Ahora, [coronation_target.GetSheHe|l] debe sentarse en su trono. [coronation_target.GetSheHe|U] se aparta de la multitud y el silencio llena la sala. Observamos con la respiración contenida cómo [coronation_target.GetSheHe|l] sube los escalones y cada pisada resuena en toda la sala." #NT!
+ coronation.0151.desc_intro_guest_slips: "[coronation_target.GetFirstName|U] ha sido coronado [coronation_target.GetTitleAsNameNoTooltip|U]. Mientras [coronation_target.GetSheHe|l] asciende al trono, [coronation_target.GetSheHe|l] resbala y cae por los escalones y yo respiro profundamente. [coronation_target.GetSheHe|U] se levanta y el silencio llena el salón una vez más. Observamos con la respiración contenida mientras [coronation_target.GetSheHe|l] vuelve a subir los escalones estrechos y desiguales, y cada pisada hace eco en toda la sala." #NT!
+ coronation.0151.desc_intro_guest_recovers: "[coronation_target.GetFirstName|U] ha sido coronado [coronation_target.GetTitleAsNameNoTooltip|U]. Ahora, [coronation_target.GetSheHe|l] debe sentarse en el trono. [coronation_target.GetSheHe|U] se aparta de la multitud y el silencio llena la sala. Observamos con la respiración contenida cómo [coronation_target.GetSheHe|l] sube los escalones, y cada pisada resuena en toda la sala. Por un momento, [coronation_target.GetSheHe|l] pierde el equilibrio ante [coronation_target.GetHerHis|l], pero se recupera rápidamente." #NT!
+ coronation.0151.desc_unworthy_guest: "\n\n[coronation_target.GetSheHe|U] llega a la cima y se detiene mientras una inquietud palpable impregna el aire. [coronation_target.GetSheHe|U] se da vuelta y se sienta en el Trono de Hierro. Justo cuando sentimos que nuestra inquietud disminuye, [coronation_target.GetSheHe|l] exclama: #italic "¡Ay!" #!. Todos dejamos escapar un jadeo colectivo cuando la sangre comienza a supurar de la herida de [coronation_target.GetHerHis|U] Grace.\n\nTodos compartimos miradas preocupadas, preguntándonos si esto es un presagio terrible del reinado que está por venir." #NT!
+ coronation.0151.desc_worthy_guest: "\n\n[coronation_target.GetSheHe|U] llega a la cima y se detiene mientras una inquietud palpable impregna el aire. Observamos a [coronation_target.GetHerHis|U] Grace sentarse en el trono y hacer que el primero de los [coronation_target.GetHerHis|l] se pare ante [coronation_target.GetHerHim|l] y doble la rodilla." #NT!
+ coronation.0151.desc_other_guest: "\n\n[coronation_target.GetSheHe|U] llega a la cima y se detiene mientras una inquietud palpable impregna el aire. Observamos a [coronation_target.GetHerHim|l] sentarse en el trono y hacer que el primero de los [coronation_target.GetHerHis|l] vasallos se pare ante [coronation_target.GetHerHim|l] y doble la rodilla." #NT!
+ coronation.0151.a: "Es hora de doblar la rodilla..." #NT!
+ coronation.0151.b: "Traed a los señores ante mí..." #NT!
+ coronation.0151.c: "Quizás no soy digno." #NT!
+  
+  #Homage Event 
+ coronation.0152.t: "Doblar la rodilla" #NT!
+ coronation.0152.desc: "[coronation_target.GetTitledFirstNamePossessive|U] sirvientes me hacen avanzar. Mientras me preparo para arrodillarme y recitar mi juramento, se me ocurre que tal vez sería prudente congraciarme con mi nuevo señor con un regalo." #NT!
+ coronation.0152.a: "Mi sumisión es suficiente" #NT!
+ coronation.0152_submission: "Doblas la rodilla, pero no das nada." #NT!
+ coronation.0152.b: "Haré una promesa" #NT!
+ coronation.0152_hook: "Doblas la rodilla y le ofreces un favor a la corona." #NT!
+ coronation.0152.c: "Aumentaré mi tributo a la corona." #NT!
+ coronation.0152_contract: "Doblas la rodilla y aumentas tus impuestos a la corona." #NT!
+ coronation.0152.d: "Ofreceré oro" #NT!
+ coronation.0152_gold: "Doblas la rodilla y le regalas la corona de oro." #NT!
+ coronation.0152.e: "Me niego a doblar la rodilla" #NT!
+ coronation.0152_refusal: "Te niegas a doblar la rodilla y afrontarás las consecuencias." #NT!
+ coronation.0152_refusal.tt: "Es posible que lo eliminen de la actividad." #NT!
+  
+ coronation.0154.t: "Rodillas dobladas" #NT!
+ coronation.0154.desc_seven_kingdoms: "Mientras me siento en el Trono de Hierro, todos mis vasallos se arrodillan. Algunos traen regalos, otros ofrecen oro y algunos se ponen en deuda conmigo." #NT!
+ coronation.0154.desc_other: "Mientras me siento en mi trono, todos mis vasallos se arrodillan. Algunos traen regalos, otros ofrecen oro y algunos se ponen en deuda conmigo." #NT!
+ coronation.0154.desc_refusal: "Sin embargo, algunos han roto sus juramentos y se han negado a arrodillarse ante sus [coronation_target.GetTitleAsNameNoTooltip]. Tendré que ocuparme de estos traidores una vez que concluyan las festividades." #NT!
+ coronation.0154.a: "Muy bien" #NT!
+  
+ coronation.0200.t: "Comienza el banquete de coronación" #NT!
+ coronation.0200.desc_host: "Con todas las formalidades atrás, ¡ahora es hora de celebrar!\n\nHago una señal para que los sirvientes saquen la comida y las bebidas, y lleven a los invitados al lugar de la fiesta.\n\n¡Que comience el banquete!" #NT!
+ coronation.0200.desc: "La parte formal de la coronación —la ceremonia— finalmente ha quedado atrás.\n\nTodos están sonriendo anticipando la comida gigantesca, el entretenimiento emocionante y el jolgorio general que nos están por ofrecer.\n\n¡A comer!" #NT!
+ coronation.0200.a: "¡Disfrutar!" #NT!
+ coronation.0200.b: "¡Me lo voy a pasar bien!" #NT!
+ every_attending_relative_of_coronation_target: "Todos los familiares presentes de [coronation_target.GetUIName]" #NT!
+ coronation.0900.t: "Coronación invalidada" #NT!
+ coronation.0900.desc: "La noticia de la muerte repentina de [dead_spouse.GetTitledFirstNamePossessive] golpea la fiesta de coronación como un trueno retumbante en un día soleado.\n\nEl canto se vuelve silencioso, los rostros sonrientes se transforman en lágrimas, las flores en el suelo yacen esparcidas y pisoteadas por una multitud afligida.\n\nEs una verdadera tragedia que un día de felicidad se convierta en un día de luto..." #NT!
+ coronation.0900.a: "Una tragedia realmente..." #NT!
+ coronation.9000.tt: "[previous_host.GetUIName|U] recibió un reembolso por el [GetActivityType('activity_coronation').GetName] cancelado de [gold_i][THIS.Var('gwedding_gold_recoup_value').GetValue|V0]" #NT!
+ coronation.0910.desc: "La noticia de la muerte repentina de [dead_spouse.GetTitledFirstNamePossessive] me golpea profundamente, por inesperada y trágica que sea en el día de nuestra propia coronación.\n\nNo hemos estado casados ​​ni un día, y sin embargo ya te han arrebatado de mí..." #NT!
+ coronation.0910.a: "Déjame solo para llorar..." #NT!
+ coronation.9015.tt: "[ROOT.Char.GetUIName|U] recibió un reembolso por el [GetActivityType('activity_wedding').GetName] cancelado de [gold_i][THIS.Var('gwedding_gold_recoup_value').GetValue|V0]" #NT!
+ coronation.0915.desc: "[previous_host.Custom2('MyCharacterIntroduction', ROOT.Char)] estaba organizando una fiesta para [GetActivityType('activity_wedding').GetName] en el momento en que falleció [previous_host.GetHerHis]. Una actividad deliciosa a la que no me invitaron.\n\nAhora que [previous_host.GetSheHe] se fue, la fiesta se ha vuelto un caos y todos se han ido a casa, decepcionados." #NT!
+ coronation.0915.a: "Debería haber estado allí." #NT!
+ coronation.0920.desc: "Tenía muchas ganas de coronarme para [free_spouse.GetTitledFirstName], pero parece que [ROOT.Char.GetFaith.HouseholdGodName] tenía otros planes para mí —o para [free_spouse.GetFirstNameNoTooltip].\n\nSi bien el compromiso sigue vigente, la promesa de una gran boda ahora es nula y sin valor." #NT!
+ coronation.0920.a: "Esto es tan triste..." #NT!
+ coronation.0921.desc: "La noticia del encarcelamiento de [prisoner_spouse.GetTitledFirstNamePossessive] detiene todas las celebraciones. Parece que [ROOT.Char.GetFaith.HouseholdGodName] tenía otros planes para [prisoner_spouse.GetHerHim].\n\nSi bien el compromiso sigue vigente, la promesa de una gran boda ahora es nula y sin valor." #NT!
+ coronation.0921.a: "Qué decepcionante." #NT!
+ coronation.0950.t: "La conclusión" #NT!
+ coronation.0950.desc: "Cuando — #EMP finalmente#! — se va el último invitado, miro a mi alrededor y veo el lugar desierto, los restos de comida, el [ROOT.Char.Custom('RegionalDrink')] derramado en el suelo, los ecos de las risas de la gente aún flotando en el aire, y me siento satisfecho.\n\n¡Qué día tan maravilloso! Hice un excelente trabajo organizándolo." #NT!
+ ep2_grand_wedding_host_incentives_effect.tt: "Es más probable que otros personajes acepten las propuestas de matrimonio de este personaje durante los próximos 20 años." #NT!
+ coronation.0950.a: "¡Gracias a todos por venir!" #NT!
+ coronation.0960.desc: "El sol amanece en un nuevo día, el primero de mi vida con [other_spouse.GetFirstName].\n\nEs hora de dejar atrás las celebraciones y los festejos, por deliciosos que hayan sido, y avanzar hacia nuestra nueva normalidad." #NT!
+ coronation.0970.desc: "Uno tras otro, todos los invitados se van marchando, y es hora de que yo también me vaya.\n\nLa coronación fue una gran ocasión para mezclarme con mis compañeros y relajarme, y abandono el local cansado y satisfecho, enviando mis mejores deseos a nuestro nuevo señor." #NT!
+ coronation.0970.a: "¡Felicitaciones de nuevo!" #NT!
+ coronation.0997.desc_intro: "La espera de [missing_spouse.GetFirstName] se ha hecho demasiado larga, y ahora está claro que [missing_spouse.GetSheHe] ha desaparecido en el camino.\n\nPronto, la gente empieza a hablar. Los rumores de un pueblo no muy lejos de aquí dicen que [missing_spouse.GetSheHe] fue visto por última vez en un mercado de mala muerte comprando hierbas, mientras que otros podrían jurar que vieron por última vez a [missing_spouse.GetHerHim] subiendo a un barco hacia una tierra lejana." #NT!
+ coronation.0997.desc_spouse: "\n\nEn cualquier caso, está claro que [missing_spouse.GetFirstNameNoTooltip] se ha escapado porque [missing_spouse.GetSheHe] prefiere vivir [missing_spouse.GetHerHis] la vida como un vagabundo que casado conmigo." #NT!
+ coronation.0997.desc_generic: "\n\nEn cualquier caso, está claro que [missing_spouse.GetFirstNameNoTooltip] se ha escapado porque [missing_spouse.GetSheHe] prefiere vivir [missing_spouse.GetHerHis] la vida como vagabundo que casada con [other_spouse.GetFirstName]." #NT!
+ coronation.0998.desc: "Siempre es un día triste cuando todas las esperanzas que acompañan a una coronación se desperdician, y todo el trabajo duro puesto en organizar un gran evento se desperdicia.\n\nDesafortunadamente, esta coronación simplemente no estaba destinada a ser.\n\nMientras los sirvientes comienzan a limpiar, los invitados se van en grupos confundidos y decepcionados para regresar a sus respectivos hogares." #NT!
+ coronation.0998.desc_stolen_crown: "[coronation_target.GetTitledFirstNamePossessiveOrMy|U] La coronación fue cancelada inesperadamente debido a que alguien robó la corona.\n\nSiempre es un día triste cuando todas las esperanzas que acompañan a una coronación se desperdician, y todo el trabajo duro puesto en organizar un gran evento se desperdicia.\n\nDesafortunadamente, esta coronación simplemente no estaba destinada a ser.\n\nMientras los sirvientes comienzan a limpiar, los invitados se van en grupos confundidos y decepcionados para regresar a sus respectivos hogares." #NT!
+ coronation.0998.a: "Demasiado." #NT!
+ coronation.0999.t: "$coronation.0900.t$" #NT!
+ coronation.0999.desc: "La reciente noticia interrumpió las celebraciones y dejó a todos sorprendidos y confundidos. Al parecer, el estatus y las posesiones del anfitrión no permitirán que la coronación continúe, y sin un anfitrión fuerte que la dirija, solo nos queda regresar a casa, decepcionados." #NT!
+ coronation.0999.a: "¡Qué lástima...!" #NT!
+  
+ coronation.2000.t: "Mi reclamo sobre [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ coronation.2000.desc: "Mientras me encuentro fuera de [barony.GetNameNoTierNoTooltip] con señores y damas de todo el reino esperando para entrar y encontrar nuestros asientos, se me ocurre un pensamiento: yo debería haber sido el coronado hoy.\n\nEl pensamiento se agudiza mientras un plan comienza a tomar forma. Tal vez pueda reclutar partidarios para mi reclamo entre los vasallos de [coronation_target.GetTitledFirstNamePossessive]. Luego, justo antes de que [coronation_target.GetFirstNameNoTooltip] sea coronado, expongo mi objeción para que todos la escuchen.\n\nVeo a varios señores y damas de diferentes rangos, algunos influyentes y otros con una reputación mediana." #NT!
+ coronation.2000.a: "Vamos a acercarnos" #NT!
+ coronation.2000.a.tt: "Te acercarás a [potential_supporter.GetTitledFirstName]" #NT!
+ coronation.2000.b: "Tengo suficiente apoyo" #NT!
+ coronation.2000.b.tt: "No intentarás convencer a nadie más para que apoye tu causa." #NT!
+ coronation.2000.c: "Renunciaré a mis pretensiones en su lugar." #NT!
+ coronation.2000.c.result: "[coronation_claimant.GetTitledFirstNameNoTooltip] Renuncia [coronation_claimant.GetHerHis|l] Reclamación" #NT!
+ coronation_claimant_renounce_log_title: "$coronation.2000.c.result$" #NT!
+ coronation_claimant_renounce_log: "En un acto de obediencia al señor de [coronation_claimant.GetHerHis|l], [coronation_claimant.GetShortUIName] renunció a todos y cada uno de sus derechos sobre [coronation_target.GetPrimaryTitle.GetName]." #NT!
+ coronation.2001.desc: "Me acerco a [potential_supporter.GetTitledFirstName], inclinándome respetuosamente mientras llego al lado de [potential_supporter.GetHerHis|l]. "Mi [potential_supporter.GetLadyLord|l], una palabra sobre el futuro del reino", murmuro, manteniendo mi tono bajo y mesurado. [potential_supporter.GetSheHe|U] se gira hacia mí, la expresión de [potential_supporter.GetHerHis|l] serena e ilegible. "Por supuesto", responde [potential_supporter.GetSheHe|l], inclinando ligeramente la cabeza de [potential_supporter.GetHerHis|l] para indicar que debo continuar.\n\n"Con el estado actual del reino, muchos sienten la necesidad de un cambio", comienzo, eligiendo mis palabras con cuidado. "Una nueva dirección que asegure la prosperidad y la estabilidad para todas las casas, incluida la tuya". [potential_supporter.GetTitledFirstNameNoTooltip] escucha atentamente, los ojos de [potential_supporter.GetHerHis|l] nunca se apartan de los míos. [potential_supporter.GetSheHe|U] asiente pensativamente en los momentos apropiados, reconociendo mis puntos sin revelar [potential_supporter.GetHerHis|l] sus verdaderos pensamientos. La actitud tranquila de [potential_supporter.GetHerHis|l]1 no delata nada, dejándome preguntándome si he tenido algún impacto." #NT!
+ coronation.2001.a: "Por eso deberías apoyar mi afirmación." #NT!
+ coronation.2001.a.tt_ally: "@warning_icon! #warning [potential_supporter.GetShortUIName] es [allied|E] a [coronation_target.GetShortUIName] y probablemente #bold NO#! te apoyará#!" #NT!
+ coronation.2001.a.tt: "[potential_supporter.GetShortUIName] puede unirse a tu causa, pero se le deberá un favor si logras presionar con tu reclamo." #NT!
+ coronation.2001.b: "Olvídalo, no creo que lo entiendas." #NT!
+ coronation.2001.b.tt: "Te acercarás a otra persona" #NT!
+  
+ coronation.2002.t: "El reclamante" #NT!
+ coronation.2002.desc: "Mientras me encuentro entre la nobleza reunida en [barony.GetNameNoTierNoTooltip], noto que una figura se acerca a mí con una reverencia respetuosa. Es [coronation_claimant.GetShortUINameNoFormat], que luce sereno y decidido. "Mi [potential_supporter.GetLadyLord|l], unas palabras sobre el futuro del reino", murmura [coronation_claimant.GetSheHe|l], [coronation_claimant.GetHerHis|l] con voz baja y mesurada. Me doy vuelta para mirar a [coronation_claimant.GetHerHim|l] por completo, manteniendo una expresión neutral. "Por supuesto", respondo, asintiendo levemente para alentarlos a continuar.\n\n[coronation_claimant.GetSheHe|U] habla del estado actual del reino, insinuando la necesidad de cambio y una nueva dirección que prometa prosperidad y estabilidad para todas las casas, incluida la mía. Escucho atentamente, asintiendo pensativamente a intervalos para demostrar que estoy comprometido, aunque me aseguro de que mi rostro no delate mis verdaderos sentimientos.\n\nFinalmente, [coronation_claimant.GetSheHe|l] dice: "Es por eso que deberías apoyar mi reclamo a [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]"." #NT!
+ coronation.2002.a: "Presentas un argumento convincente; [potential_supporter.GetPrimaryTitle.GetNameNoTierNoTooltip] apoyará tu causa" #NT!
+ coronation.2002.a.tt: "[potential_supporter.GetShortUIName|U] promesa de apoyo [coronation_claimant.GetShortUINamePossessive] reclamo" #NT!
+ coronation.2002.a.tt_2: "[potential_supporter.GetShortUIName|U] intentará convencer a los vasallos de [potential_supporter.GetPrimaryTitle.GetNameNoTier] para que hagan lo mismo" #NT!
+ coronation.2002.a.tt_3: "A [potential_supporter.GetShortUIName|U] se le deberá un favor si [coronation_claimant.GetShortUIName] toma con éxito el [coronation_target.GetPrimaryTitle.GetName]" #NT!
+ coronation.2002.b: "No puedo apoyar esto en este momento." #NT!
+ coronation.2002.b.tt: "Mantendrás esta información para ti mismo." #NT!
+ coronation.2002.b_failure: "[potential_supporter.GetShortUIName|U] No te apoyará" #NT!
+ coronation.2002.c: "[coronation_target.GetTitleAsNameNoTooltip|U] debería saber de esto" #NT!
+ coronation.2002.c.tt: "Informarás a [coronation_target.GetShortUIName] de [coronation_claimant.GetShortUINamePossessive] parcela" #NT!
+ coronation.2002.c_failure: "[potential_supporter.GetShortUIName|U] Informado [coronation_target.GetShortUIName]" #NT!
+  
+ coronation.2003.desc: "Luego dirijo mi atención a cualquier otra persona que pueda unirse a mi causa." #NT!
+  
+ coronation.2011.t: "Los vasallos de [potential_supporter.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ coronation.2011.desc: "Dentro de una cámara tenuemente iluminada de [barony.GetNameNoTierNoTooltip], me paro ante mis vasallos reunidos. "Mis señores y damas", comienzo, mi voz firme y resuelta, "enfrentamos un momento crucial para el futuro del reino. Ha surgido un nuevo reclamante, uno que promete un mejor camino para todas nuestras casas". Examino los rostros frente a mí, viendo una mezcla de curiosidad y escepticismo. "Apoyar a este reclamante, [coronation_claimant.GetTitledFirstName], asegurará nuestra prosperidad y estabilidad". \n\nJusto cuando termino, [vassal_objector.GetTitledFirstName] da un paso adelante, [vassal_objector.GetHerHis|l] frunce el ceño con preocupación. "Mi [potential_supporter.GetLadyLord|l]", comienza [vassal_objector.GetSheHe|l], [vassal_objector.GetHerHis|l] con la voz firme pero con un borde de duda. "Todos hemos hecho juramentos de servir a [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. ¿Cómo podemos estar seguros de que las promesas de este reclamante son genuinas? ¿Qué garantía tenemos de que no cambiaremos un conjunto de problemas por otro? ¿Cómo podemos estar seguros de que ganaremos una guerra contra [coronation_target.GetTitledFirstName]?" #NT!
+ coronation.2011.a: "Seguramente todos veis que esto puede beneficiar [potential_supporter.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ coronation.2011.b: "Como tu señor [potential_supporter.GetLadyLord|l], te protegeré." #NT!
+ coronation.2011.c: "Tú #bold harás#! lo que te digan, o de lo contrario" #NT!
+ coronation.2011.c_tywin: "Esto me recuerda a mi canción favorita: #italic Las lluvias de Castamere#!" #NT!
+ coronation.2011.a.success: "[potential_supporter.GetTitledFirstNamePossessiveOrMy|U] vasallos apoyarán [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U] reclamo" #NT!
+ coronation.2011.a.success.tt: "Los vasallos de [potential_supporter.GetPrimaryTitle.GetNameNoTierNoTooltip] se comprometen a apoyar [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U]" #NT!
+ coronation.2011.a.success_join: "Al inicio de [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U] [Concept('agot_mw_mega_wars', 'Mega War')|E], [potential_supporter.GetTitledFirstNamePossessiveOrMy] vasallos directos se unirán como atacantes" #NT!
+ coronation.2011.a.failure: "[potential_supporter.GetTitledFirstNamePossessiveOrMy|U] vasallos se niegan a apoyar [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U] reclamo en este momento" #NT!
+ coronation.2011.a.failure.tt: "Los vasallos de [potential_supporter.GetPrimaryTitle.GetNameNoTierNoTooltip] se niegan a apoyar la reclamación de [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U]" #NT!
+ coronation.2011.a.failure_join: "Al inicio de [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U] [Concept('agot_mw_mega_wars', 'Mega War')|E], [potential_supporter.GetTitledFirstNamePossessiveOrMy] vasallos directos serán libres de unirse a cualquier bando o permanecer neutrales." #NT!
+  
+ coronation.2012.desc: "Dentro de una cámara tenuemente iluminada de [barony.GetNameNoTierNoTooltip], [potential_supporter.GetTitledFirstName] se encuentra frente a nosotros. "Mis señores y señoras", comienza [potential_supporter.GetSheHe|l], "enfrentamos un momento crucial para el futuro del reino. Ha surgido un nuevo reclamante, uno que promete un mejor camino para todas nuestras casas. Apoyar a este reclamante, [coronation_claimant.GetTitledFirstName], asegurará nuestra prosperidad y estabilidad".\n\nJusto cuando [potential_supporter.GetTitledFirstNameNoTooltip] termina, [vassal_objector.GetTitledFirstName] da un paso adelante, [vassal_objector.GetHerHis|l] frunce el ceño con preocupación. "Mi [potential_supporter.GetLadyLord|l]", comienza [vassal_objector.GetSheHe|l], [vassal_objector.GetHerHis|l] con la voz firme pero con un borde de duda. "Todos hemos hecho juramentos para servir a [potential_supporter.GetTitledFirstName]0. ¿Cómo podemos estar seguros de que las promesas de este reclamante son genuinas? ¿Qué garantía tenemos de que no cambiaremos un conjunto de problemas por otro? ¿Cómo podemos estar seguros de que ganaremos una guerra contra [potential_supporter.GetTitledFirstName]1?" #NT!
+ coronation.2012.a: "Me uniré a ti" #NT!
+ coronation.2012.a.tt: "[vassal_respondant.GetShortUIName|U] promesa de apoyo [coronation_claimant.GetShortUINamePossessive] reclamo" #NT!
+ coronation.2012.b: "No puedo unirme a ti" #NT!
+ coronation.2012.a.success_join: "[vassal_respondant.GetShortUIName|U] Compromisos de apoyo [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U] Reclamo" #NT!
+ coronation.2012.a.failure_join: "[vassal_respondant.GetShortUIName|U] se niega a apoyar la reclamación [coronation_claimant.GetTitledFirstNamePossessiveOrMy|U]" #NT!
+  
+ coronation.2013.opening: "$coronation.0003.opening$" #NT!
+ coronation.2013.desc: "Le escribo para informarle que tengo la intención de apoyar la reclamación de [mw_rebel_leader.GetTitledFirstNamePossessive] a [mw_crown.GetPrimaryTitle.GetName], en caso de que [mw_rebel_leader.GetSheHe|l] insista. Por lo tanto, lo mejor para usted es unirse a nuestra causa y comprometerse a apoyarnos. Si se niega, las consecuencias serán muy severas." #NT!
+ coronation.2013.a: "Como mi [potential_supporter.GetLadyLord|l] manda" #NT!
+ coronation.2013.a.tt: "[title_holder.GetShortUIName|U] promesa de apoyo [mw_rebel_leader.GetShortUINamePossessive] reclamo" #NT!
+ coronation.2013.b: "No elegiré un bando cuando no se esté librando ninguna guerra." #NT!
+ coronation.2013.b.tt: "[title_holder.GetShortUIName|U] elegirá un bando cuando comience una guerra" #NT!
+ coronation.2013.c: "Mis lealtades son para [mw_crown.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ coronation.2013.c.tt: "[title_holder.GetShortUIName|U] promesa de apoyo [mw_crown.GetShortUIName]" #NT!
+  
+ coronation.2014.t: "El objetor" #NT!
+ coronation.2014.desc: "Justo cuando [officiant.GetTitledFirstNameNicknamed|U] iba a comenzar a ungirme, una voz proveniente de la corona reunida corta el aire. "¡BASTA! ¡Basta de esta farsa! [coronation_target.GetFirstNameNoTooltip] no es un [coronation_target.GetTitleAsNameNoTooltip] verdadero... ¡pero #italic sí lo soy! #!". Me doy vuelta para ver a mi [coronation_target.Custom2('RelationToMe', SCOPE.sC('coronation_claimant'))], [coronation_claimant.GetFirstName], que se ha puesto de pie.\n\nLa tensión en la habitación es palpable mientras todos se giran lentamente hacia mí con la respiración contenida." #NT!
+ coronation.2014.a: "¡GUARDIAS! ¡Arrojen a este [coronation_claimant.Custom('InsultNoun')] fuera!" #NT!
+ coronation.2014.a.tt: "Echas a [coronation_claimant.GetTitledFirstName] de la ceremonia" #NT!
+ coronation.2014.b: "¡Que alguien arreste a este [coronation_claimant.Custom('InsultNoun')]!" #NT!
+ coronation.2014.imprison: "Tú encarcelas [coronation_claimant.GetTitledFirstNameNoTooltip]" #NT!
+ coronation.2014.escapes: "[coronation_claimant.GetTitledFirstNameNoTooltip] escapa y se rebela" #NT!
+ coronation.2014.c: "Oh, vamos... simplemente ignoremos lo que pasó." #NT!
+  
+ coronation.2015.t: "Objetar o no objetar" #NT!
+ coronation.2015.desc: "Mientras [coronation_target.GetTitledFirstName] avanza por el pasillo central hacia [officiant.GetTitledFirstNameNicknamed|U], mientras [coronation_target.GetSheHe|l] llega a la base del trono, me doy cuenta de que es el momento de objetar y anunciar la virtud de mi afirmación, si es que la hay. Hacerlo puede iniciar una guerra, pero permanecer en silencio puede significar que nunca se me considere digno de gobernar [coronation_target.GetPrimaryTitle.GetTierAsNameNoTooltip]." #NT!
+ coronation.2015.a: "¡Objeto!" #NT!
+ coronation.2015.a.flavor: "@warning_icon! #warning [coronation_target.GetShortUIName] ¡puede intentar encarcelarte!#!" #NT!
+ coronation.2015.a.tt: "Interrumpes la ceremonia para proclamar que debes gobernar el [coronation_target.GetPrimaryTitle.GetTierAsNameNoTooltip]" #NT!
+ coronation.2015.a.objection: "[coronation_claimant.GetShortUIName|U] Objetado durante la coronación" #NT!
+ coronation.2015.b: "No te opongas" #NT!
+ coronation.2015.b.tt: "Te quedas en silencio" #NT!
+  
+ wedding_opinion_high: "ganó [EmptyScope.ScriptValue('came_to_my_wedding_opinion_value_high')|+0] [opinion|E] con cada personaje presente" #NT!
+ came_to_my_wedding_opinion_host_high: "[host.GetTitledFirstNameNoTooltip] $wedding_opinion_high$" #NT!
+ came_to_my_wedding_opinion_spouse_1_high: "[spouse_1.GetTitledFirstNameNoTooltip] $wedding_opinion_high$" #NT!
+ came_to_my_wedding_opinion_coronation_target_high: "[coronation_target.GetTitledFirstNameNoTooltip] $wedding_opinion_high$" #NT!
+ wedding_opinion_medium: "ganó [EmptyScope.ScriptValue('came_to_my_wedding_opinion_value_medium')|+0] [opinion|E] con cada personaje presente" #NT!
+ came_to_my_wedding_opinion_host_medium: "[host.GetTitledFirstNameNoTooltip] $wedding_opinion_medium$" #NT!
+ came_to_my_wedding_opinion_spouse_1_medium: "[spouse_1.GetTitledFirstNameNoTooltip] $wedding_opinion_medium$" #NT!
+ came_to_my_wedding_opinion_coronation_target_medium: "[coronation_target.GetTitledFirstNameNoTooltip] $wedding_opinion_medium$" #NT!
+ wedding_opinion_low: "ganó [EmptyScope.ScriptValue('came_to_my_wedding_opinion_value_low')|+0] [opinion|E] con cada personaje presente" #NT!
+ came_to_my_wedding_opinion_host_low: "[host.GetTitledFirstNameNoTooltip] $wedding_opinion_low$" #NT!
+ came_to_my_wedding_opinion_spouse_1_low: "[spouse_1.GetTitledFirstNameNoTooltip] $wedding_opinion_low$" #NT!
+ came_to_my_wedding_opinion_coronation_target_low: "[coronation_target.GetTitledFirstNameNoTooltip] $wedding_opinion_low$" #NT!
+  
+  # Artistic Differences 
+ coronation.1000.t: "Diferencias artísticas" #NT!
+ coronation.1000.desc: "Como si organizar una coronación no fuera lo suficientemente estresante, también tengo que lidiar con uno de mis parientes.\n\nMi [coronation_target.Custom2('RelationToMe', SCOPE.sC('1000_relative'))], [1000_relative.GetTitledFirstName], llegó temprano hoy y desde entonces me ha estado siguiendo a todas partes, quejándose de esto y aquello sin parar. Mientras siento un terrible dolor de cabeza creciendo detrás de mis ojos, [1000_relative.GetSheHe] sigue parloteando sin inmutarse." #NT!
+ coronation.1000.desc_servants: "\n\n"¿Estás #EMP seguro#! de que tienes suficientes sirvientes para esto? ¡No esperas que #EMP yo#! lleve a [ROOT.Char.Custom('GetExpensiveMeal')], ¿verdad?! ¡La leyenda dice que en la coronación de [historical_figure.GetTitledFirstNameNicknamedPossessiveRegnal|U] los sirvientes eran tan numerosos que sus sombreros oscurecían el sol!"" #NT!
+ coronation.1000.desc_dec: "\n\n"¡Todo el salón está asfixiado por la heráldica! ¿Y por qué elegiste un arreglo tan #EMP insípido#! para las mesas? ¡Y no me hagas hablar de estas #EMP llamativas#! telas!"" #NT!
+ coronation.1000.desc_dec_low: "\n\n"¡Sabía #EMP#! que no se podía confiar en ti para planear una #EMP simple#! coronación! ¡Mira este lugar, la falta de heráldica, las mesas vacías y ni una sola astilla de oro a la vista! ¡Mi pobre corazón #EMP sangra#! por el miserable destino que le espera al reino bajo tu liderazgo!"" #NT!
+ coronation.1000.desc_entertainment: "\n\n"¿Son esos mimos? ¿A dónde van esos sirvientes con esas fogatas? ¿Y por qué está esa caja de madera #EMP gruñendo#!?!? ¡Esto va a ser un desastre!"" #NT!
+ coronation.1000.desc_fallback: "\n\n"Supongo que tendremos que ver si esta ocasión es para la historia. ¡La coronación de [historical_figure.GetTitledFirstNameNicknamedPossessiveRegnal|U] fue tan magnífica que todavía la recordamos hoy! ¿Alguien #EMP recordará la suya? El tiempo lo dirá"." #NT!
+ coronation.1000.a: "Estoy seguro de que podemos encontrar algún punto común..." #NT!
+ coronation.1000.a.success: "[1000_relative.GetFirstNameNoTooltip] está apaciguado" #NT!
+ coronation.1000.a.success.tt: "Me convenciste [1000_relative.GetFirstNameNoTooltip]" #NT!
+ coronation.1000.a.failure: "[1000_relative.GetFirstNameNoTooltip] no está satisfecho" #NT!
+ coronation.1000.a.failure.tt: "No me convenciste [1000_relative.GetFirstNameNoTooltip]" #NT!
+ coronation_artistic_mediate_log_title: "Mediación exitosa" #NT!
+ coronation_artistic_mediate_log: "[CHARACTER.GetUIName|U] disipó las dudas sobre la ceremonia presentada por [TARGET_CHARACTER.GetUIName]" #NT!
+ coronation_artistic_mediate_fail_log_title: "Mediación fallida" #NT!
+ coronation_artistic_mediate_fail_log: "[CHARACTER.GetUIName|U] no logró disipar las dudas sobre la ceremonia presentada por [TARGET_CHARACTER.GetUIName]" #NT!
+ coronation.1000.b: "No te veo pagando nada así que cállate." #NT!
+ coronation.1000.c: "Todo va a estar #EMP bien#!, ¡relájate!" #NT!
+ coronation.1000.d: "La casa [coronation_target.GetHouse.GetNameNoTooltip] prosperará a partir de hoy, ya lo verás." #NT!
+ coronation_artistic_insult_log_title: "Comentario contundente" #NT!
+ coronation_artistic_insult_log: "[CHARACTER.GetUIName|U] no disipó las dudas sobre la ceremonia presentada por [TARGET_CHARACTER.GetUIName]" #NT!
+  
+  #A Magnificent Welcome 
+ coronation.1010.t: "Una magnífica bienvenida" #NT!
+ coronation.1010.desc: "Me alegro de haberle dicho a mis sirvientes con anticipación que estuvieran atentos a la llegada de [1010_target.GetTitledFirstNamePossessive] porque, en medio de los preparativos de la coronación, de lo contrario me lo habría perdido.\n\nEn cambio, estoy orgullosamente de pie en el medio del patio, vistiendo mi ropa más elegante y rodeado por una guardia de honor, cuando [1010_target.GetFirstNameNoTooltip] hace su entrada [1010_target.GetHerHis]." #NT!
+ coronation.1010.diplo: "\n\n"¡Me complace enormemente darle la bienvenida, [1010_target.GetTitledFirstNameNoTooltip]! Estoy seguro de que encontrará mi hospitalidad muy agradable y quedará impresionado por todas las maravillas que mi reino tiene para ofrecer"." #NT!
+ coronation.1010.seduce: "\n\n"¡Mi querido [1010_target.GetTitledFirstNameNoTooltip]! ¡Por fin estás aquí! ¡Ninguna celebración sería tan placentera para mí como poder deleitarme con tu radiante presencia!"" #NT!
+ coronation.1010.match: "\n\n"[1010_target.GetTitledFirstNameNoTooltip], ¡bienvenido! [1010_match.GetFirstName], ¡ven a saludar también! — #EMP Debes causar una buena impresión en la familia [1010_target.GetHerHim] y [1010_target.GetHerHis], ¿entendido?!" agregué en un susurro furioso." #NT!
+ coronation.1010.a: "¡Déjame mostrarte los jardines!" #NT!
+ coronation.1010.a.success: "A [1010_target.GetFirstNameNoTooltip] le gustan tus jardines" #NT!
+ coronation.1010.a.success.tt: "[1010_target.GetFirstNameNoTooltip] quedó impresionado" #NT!
+ coronation.1010.a.failure: "Tus jardines no impresionan [1010_target.GetFirstNameNoTooltip]" #NT!
+ coronation.1010.a.failure.tt: "[1010_target.GetFirstNameNoTooltip] no quedó impresionado" #NT!
+ coronation_welcome_garden_log_title: "Buena impresión" #NT!
+ coronation_welcome_garden_log: "[CHARACTER.GetUIName|U] impresionado [TARGET_CHARACTER.GetUIName] con [CHARACTER.GetHerHis] jardines" #NT!
+ coronation_welcome_garden_fail_log_title: "Mala impresión" #NT!
+ coronation_welcome_garden_fail_log: "[CHARACTER.GetUIName|U] no logró impresionar a [TARGET_CHARACTER.GetUIName] con [CHARACTER.GetHerHis] jardines" #NT!
+ coronation.1010.b: "¿Te gustaría ver los preparativos del lugar?" #NT!
+ coronation.1010.b.success: "[1010_target.GetFirstNameNoTooltip] está asombrado por el lugar de la coronación" #NT!
+ coronation.1010.b.failure: "El lugar deja una impresión decepcionante en [1010_target.GetFirstNameNoTooltip]" #NT!
+ coronation.1010.c: "¡Espero que disfrutes la ceremonia!" #NT!
+ wedding_welcome_ceremony_log_title: "$coronation_welcome_garden_log_title$" #NT!
+ wedding_welcome_ceremony_log: "[CHARACTER.GetUIName|U] impresionado [TARGET_CHARACTER.GetUIName] con el lugar de la ceremonia" #NT!
+ wedding_welcome_ceremony_fail_log_title: "$coronation_welcome_garden_fail_log_title$" #NT!
+ wedding_welcome_ceremony_fail_log: "[CHARACTER.GetUIName|U] no logró impresionar a [TARGET_CHARACTER.GetUIName] con el lugar de la ceremonia" #NT!
+  
+  #A Good/Bad Omen 
+ coronation.1030.t: "Un presagio de [ROOT.Char.Custom('GoodBad')|U]" #NT!
+ coronation.1030.desc: "Los invitados están reunidos, la ceremonia está a punto de comenzar y todo parece estar en orden, cuando algo fuera de lo común sucede ante mis ojos." #NT!
+ coronation.1030.desc_good1: "Un pato salvaje aparentemente perdido se abre paso entre los invitados, caminando con paso decidido hacia [coronation_target.GetTitledFirstName], quien aún no se ha dado cuenta. Al llegar a [coronation_target.GetHerHim], el ave emite un ensordecedor #EMP ¡CUAAC! #!, se da la vuelta y se va, ante el asombro de [coronation_target.GetFirstNamePossessiveNoTooltip] y la diversión de la multitud." #NT!
+ coronation.1030.desc_good2: "[coronation_target.GetTitledFirstName|U], en camino hacia el pasillo, [coronation_target.GetHerHis] tropieza y se tambalea, ¡a punto de caerse! Cuando un sirviente preocupado se acerca, [coronation_target.GetSheHe] simplemente sonríe y recoge al culpable: ¡una herradura!" #NT!
+ coronation.1030.desc_good3: "Una bandada de pájaros a nuestra izquierda emprende el vuelo abruptamente cuando aparece [coronation_target.GetTitledFirstName], ¡y vuela directamente sobre la cabeza de [coronation_target.GetHerHis] hacia la derecha de [coronation_target.GetHerHis]!" #NT!
+ coronation.1030.desc_bad1: "¡Un sirviente, al dirigirse a la cocina, tropieza y derrama un salero entero en el suelo!" #NT!
+ coronation.1030.desc_bad2: "¡El amuleto de la suerte que [coronation_target.GetTitledFirstName] llevaba alrededor del cuello de [coronation_target.GetHerHis] se suelta y se desliza al suelo, para ser pisoteado descuidadamente por los sirvientes apresurados!" #NT!
+ coronation.1030.desc_bad3: "Nubes de tormenta se juntan, aparentemente de la nada, y convergen justo encima del lugar. Un hermoso cielo soleado cambia rápidamente a oscuro y amenazante, proyectando una sombra siniestra sobre la ceremonia que está a punto de comenzar." #NT!
+ coronation.1030.desc_outro: "\n\n[1030_chatter.GetTitledFirstName], que ha visto toda la escena al igual que yo, me llama la atención y comenta:" #NT!
+ coronation.1030.desc_good: ""Eso fue... sorprendente, ¿no?"" #NT!
+ coronation.1030.desc_bad: ""Eso fue... realmente malo, ¿no?"" #NT!
+ coronation.1030.a: "¡Qué señal tan auspiciosa!" #NT!
+ wedding_omen_good_log_title: "Buen augurio" #NT!
+ wedding_omen_good_log: "[CHARACTER.GetUIName|U] vio un buen augurio con respecto a [TARGET_CHARACTER.GetUIName]" #NT!
+ coronation.1030.b: "Significa #EMP NADA#!." #NT!
+ wedding_omen_bad_log_title: "Mal presagio" #NT!
+ wedding_omen_bad_log: "[CHARACTER.GetUIName|U] vio un mal presagio sobre [TARGET_CHARACTER.GetUIName]" #NT!
+ coronation.1030.c: "¡Qué señal más nefasta! ¡Estamos CONDENADOS!" #NT!
+ wedding_omen_dismissed_log_title: "Presagio desestimado" #NT!
+ wedding_omen_dismissed_log: "[CHARACTER.GetUIName|U] desestimó un mal presagio sobre [TARGET_CHARACTER.GetUIName]" #NT!
+ coronation.1030.d: "¡Maravilloso! ¡Una coronación digna de [ROOT.Char.dynasty.GetName]!" #NT!
+  
+  # Romantic Scouting 
+ coronation.1150.t: "Escultismo romántico" #NT!
+ coronation.1150.desc: "Las coronaciones suelen ser largas y tediosas, y mis ojos están constantemente explorando la multitud de invitados en busca del objetivo de mis deseos: [intent_target.GetTitledFirstName]." #NT!
+ coronation.1150.desc_1: "\n\nCuando finalmente localizo a [intent_target.GetHerHim], [intent_target.GetSheHe] está un poco lejos de la multitud, oliendo algunas flores de la decoración del lugar con una sonrisa de alegría en el rostro de [intent_target.GetHerHis]." #NT!
+ coronation.1150.desc_2: "\n\nCuando finalmente localizo a [intent_target.GetHerHim], [intent_target.GetSheHe] está mirando a los sirvientes apresurados con platos llenos y barriles de [host.Custom('RegionalDrink')] con gran atención." #NT!
+ coronation.1150.desc_3: "\n\nCuando finalmente localizo a [intent_target.GetHerHim], [intent_target.GetSheHe] está cotilleando con un pequeño grupo de invitados sobre la inutilidad de las bodas." #NT!
+ coronation.1150.desc_4: "\n\nCuando finalmente localizo a [intent_target.GetHerHim], [intent_target.GetSheHe] está predicando a otros invitados sobre la santidad del matrimonio." #NT!
+ coronation.1150.desc_fallback: "\n\nCuando finalmente localizo a [intent_target.GetHerHim], [intent_target.GetSheHe] está ocupado mezclándose con un pequeño grupo de invitados." #NT!
+ coronation.1150.desc_conclusion: "Es la oportunidad perfecta para acercarte a [intent_target.GetHerHim]." #NT!
+ coronation.1150.a: "Estas circunstancias exigen algo de #EMP poesía#!!" #NT!
+ coronation.1150.b: "¿Sabes para qué me ponen de #EMP humor#! las bodas?" #NT!
+ coronation.1150.c: "¿Podrías contarme más sobre ello?" #NT!
+ seduction_good_impression_log: "[CHARACTER.GetUIName|U] hizo un gesto elegante con [TARGET_CHARACTER.GetUIName]." #NT!
+ seduction_good_impression_log_title: "$coronation.1150.t$" #NT!
+ coronation.1150.a.success: "[intent_target.GetFirstNameNoTooltip] está interesado" #NT!
+ coronation.1150.a.success.tt: "Causaste una buena impresión en [intent_target.GetFirstNameNoTooltip]" #NT!
+ coronation.1150.a.failure: "[intent_target.GetFirstNameNoTooltip] está molesto" #NT!
+ coronation.1150.a.failure.tt: "Te molestaste [intent_target.GetFirstNameNoTooltip]" #NT!
+  # Gatecrashers 
+ coronation.1160.t: "Intrusos" #NT!
+ coronation.1160.desc: "Las coronaciones son siempre un gran espectáculo para la gente común, que se reúne con la esperanza de ver a su gobernante y probar algo de sus riquezas. En particular, no puedo evitar notar que los preparativos en curso para el gran banquete están siendo seguidos con gran atención por un grupo de campesinos de aspecto extremadamente demacrado..." #NT!
+ coronation.1160.a: "¡Podría dejarlos entrar!" #NT!
+ coronation.1160.a.tt: "¡Esto le dará un toque picante a las cosas!" #NT!
+ coronation.1160.b: "¡Podría pasarles algo de comida de contrabando!" #NT!
+ coronation.1160.b.tt: "[host.GetFirstNameNoTooltip] ¡nunca lo notará!" #NT!
+ coronation.1160.c: "Esto está debajo de mí." #NT!
+ coronation.1161.desc: "He estado notando la creciente multitud de plebeyos que rodean el evento por un tiempo.\n\n¡Lo que no esperaba era ver una pequeña tropa de ellos asaltando las cocinas y tratando de engullir tanto [ROOT.Char.Custom('RegionalDrink')] y [ROOT.Char.Custom('GetExpensiveMeal')] como pudieran!\n\n#EMP ¡¿Cómo entraron?!#!" #NT!
+ coronation.1161.a: "¡Échenlos!" #NT!
+ coronation.1161.b: "¡Compartamos todos nuestra alegría!" #NT!
+ coronation.1161.success: "Los campesinos son expulsados" #NT!
+ coronation.1161.success.tt: "Restableciste el orden" #NT!
+ coronation.1161.success.tt2: "[host.GetFirstName] expulsó a los campesinos." #NT!
+ coronation.1161.failure: "No logras controlar a la multitud" #NT!
+ coronation.1161.failure.tt: "Los intrusos siguen corriendo desenfrenadamente" #NT!
+ coronation.1161.failure.tt2: "[host.GetFirstName] no pudo controlar a los intrusos." #NT!
+ coronation.1161.b.tt: "[host.GetFirstName] dejad que los campesinos se queden." #NT!
+ wedding_peasant_invasion_managed_log: "[CHARACTER.GetUIName|U] manejó con éxito una invasión de plebeyos intrusos." #NT!
+ wedding_peasant_invasion_managed_log_title: "$coronation.1160.t$" #NT!
+ wedding_peasant_invasion_not_managed_log: "[CHARACTER.GetUIName|U] no pudo controlar una invasión de plebeyos intrusos." #NT!
+ wedding_peasant_invasion_not_managed_log_title: "$coronation.1160.t$" #NT!
+ wedding_peasant_invasion_stay_log: "[CHARACTER.GetUIName|U] deja que un grupo de plebeyos intrusos participen en las festividades." #NT!
+ wedding_peasant_invasion_stay_log_title: "$coronation.1160.t$" #NT!
+  
+  # Religious Complaints 
+ coronation.1190.t: "Quejas religiosas" #NT!
+ coronation.1190.desc: "Todos están emocionados y asombrados por la magnificencia del lugar. Todos menos [grumbler.GetTitledFirstName].\n\nDesde la llegada de [grumbler.GetHerHis], [grumbler.GetFirstNameNoTooltip] ha estado rondando, buscando cualquier pretexto para quejarse. "Todas estas exhibiciones grandiosas son #EMP pecaminosas#!!" "¿No hay nada #EMP sagrado#! que tengas que usar?" "¿Es todo esto una exhibición de lujo y vanidad?"" #NT!
+ coronation.1190.a: "Me avergüenzo de mí mismo..." #NT!
+ coronation.1190.b: "Guardias, acompañen a este aguafiestas hasta la puerta." #NT!
+ coronation.1190.c: "Voy a fingir que no escuché nada." #NT!
+ coronation.1190.d: "¡Sí, y lo voy a disfrutar también!" #NT!
+ coronation.1190.e: "Sí, #italic tú#! pedirás #italic mi#! perdón!" #NT!
+ every_zealous_attending_character: "Todo personaje asistente celoso" #NT!
+ wedding_religious_complaints_log: "[CHARACTER.GetUIName|U] hizo una escena sobre la fastuosidad de la coronación." #NT!
+ wedding_religious_complaints_log_title: "$coronation.1190.t$" #NT!
+ wedding_gloating_log: "[CHARACTER.GetUIName|U] se sintió ofendido [TARGET_CHARACTER.GetUIName] al regodearse por la exitosa coronación." #NT!
+ wedding_gloating_log_title: "Regodeo" #NT!
+ wedding_alliance_log: "[CHARACTER.GetUIName|U] obtuvo una alianza con [TARGET_CHARACTER.GetUIName] al mostrar sus poderosas conexiones matrimoniales." #NT!
+ wedding_alliance_log_title: "Nueva alianza" #NT!
+  # Political Talk 
+ coronation.1210.t: "Charla política" #NT!
+ coronation.1210.desc: "A medida que la ceremonia sigue su curso, finalmente logro ubicarme junto a [talk_to.GetTitledFirstName] y entablar una pequeña charla con [talk_to.GetHerHim], que rápidamente se transforma en un tema más interesante: la política.\n\nCompartimos algunos comentarios casuales hasta que llevo a [talk_to.GetHerHim] exactamente a donde quería que fuera [talk_to.GetHerHim]." #NT!
+ coronation.1210.desc_gold: "\n\n"Me duele admitirlo, pero ¡mis arcas están vacías!"" #NT!
+ coronation.1210.desc_fear: "\n\n"Vivo con miedo constante por mi [talk_to.GetPrimaryTitle.GetTierAsNameNoTooltip] y por mí misma..."" #NT!
+ coronation.1210.desc_raids: "\n\n"Estoy muy preocupado por las recientes incursiones en mis tierras..."" #NT!
+ coronation.1210.desc_rivals: "\n\n"¡No puedo dormir por la noche, veo a mis enemigos en cada sombra!"" #NT!
+ coronation.1210.desc_age: "\n\n"Me duele admitirlo, pero ¡no me estoy haciendo más joven!"" #NT!
+ coronation.1210.desc_bad_harvest: "\n\n"Lamentablemente, hemos tenido algunas malas cosechas que han retrasado nuestro crecimiento recientemente..."" #NT!
+ coronation.1210.desc_rain: "\n\n"Lluvias inesperadas han estado azotando a mi pueblo y dañando la cosecha..."" #NT!
+ coronation.1210.desc_enemies: "\n\n"Nunca puedes sentirte demasiado seguro. Tus enemigos siempre se vuelven más fuertes a tu alrededor"." #NT!
+ coronation.1210.a: "Sería una lástima que alguien se aprovechara de eso, ¿eh?" #NT!
+ coronation.1210.a.success: "[talk_to.GetFirstNameNoTooltip] se siente intimidado" #NT!
+ coronation.1210.a.failure: "[talk_to.GetFirstNameNoTooltip] no se deja intimidar" #NT!
+ coronation.1210.b: "¡Es bueno tener aliados fuertes en tiempos de necesidad!" #NT!
+ coronation.1210.b.success: "[talk_to.GetFirstNameNoTooltip] está impresionado" #NT!
+ coronation.1210.b.failure: "[talk_to.GetFirstNameNoTooltip] no confía en ti" #NT!
+ coronation.1210.c: "¿Has considerado adquirir un protector?" #NT!
+ coronation.1210.c.success: "[talk_to.GetFirstNameNoTooltip] está convencido" #NT!
+ coronation.1210.c.failure: "[talk_to.GetFirstNameNoTooltip] es sospechoso" #NT!
+ wedding_intimidation_log: "[CHARACTER.GetUIName|U] intimidó a [TARGET_CHARACTER.GetUIName] y ganó un gancho." #NT!
+ wedding_intimidation_log_title: "Gancho ganado" #NT!
+ wedding_fealty_log: "[CHARACTER.GetUIName|U] intimidó a [TARGET_CHARACTER.GetUIName] para que jurara lealtad a [CHARACTER.GetHerHim]." #NT!
+ wedding_fealty_log_title: "Nuevo Vasallo" #NT!
+  
+  #Bastard Intent 
+ coronation_bastard_intent_1000_log_success_title: "[bastard_scope.GetShortUINameNoTooltip|U] está Legitimado por Real Decreto" #NT!
+ coronation_bastard_intent_1000_log_success: "$coronation_bastard_intent.legitimization_intent.success.tt$" #NT!
+ coronation.1120.t: "El bastardo de [asking_guest.GetCapitalLocation.GetNameNoTooltip]" #NT!
+ coronation.1120.a: ""Su Gracia, le pido permiso para legitimar [bastard_scope.GetFirstNameNoTooltip|U]..."" #NT!
+ coronation.1120.a.success: "[bastard_scope.GetFirstNameNoTooltip|U] está legitimado por decreto real" #NT!
+ coronation.1120.a.failure: "[coronation_target.GetTitledFirstNameNoTooltip|U] no está convencido" #NT!
+ coronation.1121.request_favor_tt: "[coronation_target.GetTitledFirstNameNoTooltip|U] puede solicitar un [favor|E] a cambio" #NT!
+ coronation_bastard_intent.legitimization_intent.success.tt: "Se concede la solicitud de legitimación de [bastard_scope.GetFirstNameNoTooltip]." #NT!
+ coronation.1120.b: ""Su Gracia, usted #bold legitimará #! [bastard_scope.GetFirstNameNoTooltip|U]..."" #NT!
+ coronation.1120.c: ""Pensándolo bien, no importa..."" #NT!
+ coronation.1120.desc.intro: "Mientras los señores y damas del reino comienzan a entrar en [activity_barony.GetNameNoTier], veo a [coronation_target.GetTitledFirstName|U] con sus asistentes [coronation_target.GetHerHis|l]. Agarro a [bastard_scope.GetFirstName|U] y me acerco a [coronation_target.GetTitleAsNameNoTooltip]. "¡Su Gracia!", grito, llamando la atención de [coronation_target.GetHerHis|l].\n\n[coronation_target.GetTitledFirstNameNoTooltip|U] se da vuelta y los ojos de [coronation_target.GetHerHis|l] se entrecierran con curiosidad. "[asking_guest.GetTitledFirstNameNoTooltip|U], ¿qué puedo hacer por usted?"" #NT!
+  
+ coronation.1121.desc: "Mientras los señores y damas del reino comienzan a abrirse paso hacia el interior de [activity_barony.GetNameNoTier], veo a [asking_guest.GetTitledFirstName|U] acercarse con [bastard_scope.GetFirstName|U] siguiéndolo de cerca. "¡Su Gracia!", grita [asking_guest.GetSheHe|U]. [asking_guest.GetTitledFirstNameNoTooltip|U] hace una profunda reverencia y [bastard_scope.GetFirstNameNoTooltip|U] lo imita.\n\n"[asking_guest.GetTitledFirstNameNoTooltip|U], ¿qué puedo hacer por usted?", pregunto. \n\n"Su Gracia, este es [bastard_scope.GetFirstNameNoTooltip|U]. [bastard_scope.GetSheHe|U] ha servido fielmente en mi casa y deseo ver a [bastard_scope.GetHerHim|l] legitimado".\n\nEstudio a [bastard_scope.GetFirstNameNoTooltip|U], luego a [asking_guest.GetTitledFirstNameNoTooltip|U]. "Su bastardo [asking_guest.GetTitledFirstName|U]2, querrá decir".\n\n[asking_guest.GetTitledFirstNameNoTooltip|U] asiente. "Sí, Su Gracia. [bastard_scope.GetFirstNameNoTooltip|U] es mi sangre y ha demostrado ser [asking_guest.GetTitledFirstName|U]5 digno de mi nombre"." #NT!
+ coronation.1121.desc_hooked: "Mientras los señores y damas del reino comienzan a abrirse paso hacia el interior de [activity_barony.GetNameNoTier], veo que [asking_guest.GetTitledFirstName|U] se acerca con [bastard_scope.GetFirstName|U] siguiéndolo de cerca. "¡Su Gracia!", grita [asking_guest.GetSheHe|U].\n\n"[asking_guest.GetTitledFirstNameNoTooltip|U], ¿qué puedo hacer por usted?", pregunto. \n\nEl tono de [asking_guest.GetTitledFirstNamePossessiveNoTooltip|U] cambia abruptamente de uno de deferencia a uno de confianza. "Su Gracia, este es [bastard_scope.GetFirstNameNoTooltip|U]. [bastard_scope.GetSheHe|U] ha servido fielmente en mi casa, y como la corona me debe un favor, deseo ver a [bastard_scope.GetHerHim|l] legitimado"." #NT!
+ coronation.1121.a: "Tienes razón, [bastard_scope.GetSheHe|l] debería ser un miembro legítimo de tu Casa." #NT!
+ coronation.1121.a_hooked: "Muy bien. [bastard_scope.GetSheHe|U] será un miembro legítimo de tu Casa." #NT!
+ coronation.1121.b: "¿A cambio de qué?" #NT!
+ coronation.1121.c: "Tengo mejores cosas de las que preocuparme ahora mismo." #NT!
+  
+  #Sabotage Intent 
+ coronation.1130.t: "Sabotaje en la ceremonia" #NT!
+ coronation.1130.desc: "Mientras los invitados toman sus asientos y esperan a que [host.GetTitledFirstName|U] haga su gran entrada, me encuentro perdida en mis pensamientos. El murmullo de la anticipación llena el Gran Salón, pero una idea oscura se cuela en mi mente.\n\nMe pregunto si podría haber una manera de llevar este asunto a una conclusión rápida, de interrumpir la ceremonia y desestabilizar el nuevo reinado de [host.GetTitleAsNamePossessiveNoTooltip|l] antes de que comience. Mis ojos escanean la habitación, notando las posiciones estratégicas de los guardias junto al trono, la disposición de las decoraciones y la colocación de la corona.\n\nUn plan comienza a formarse, uno que requeriría precisión y sigilo. Sabotear la coronación podría crear el caos necesario para desafiar la autoridad de [host.GetFirstNamePossessiveNoTooltip]." #NT!
+ coronation.1130.a: "Podría robar el [sabotage_target_crown.GetName|U]" #NT!
+ coronation.1130.a.tt: "#V Intentarás robar el [sabotage_target_crown.GetNameNoTooltip|U] para retrasar o detener la ceremonia.#!\n\n@warning_icon! #warning Este plan es más arriesgado, con una alta probabilidad de ser atrapado y fallar." #NT!
+ coronation.1130.b: "Podría sabotear el [sabotage_target_throne.GetName|U]." #NT!
+ coronation.1130.b.tt: "#V Intentarás sabotear el [sabotage_target_throne.GetNameNoTooltip|U].#!\n\n@warning_icon! #warning Este plan es más arriesgado, con una alta probabilidad de ser atrapado y fallar." #NT!
+ coronation.1130.c: "Quizás un reclamante descontento tenga algo que decir sobre esto." #NT!
+ coronation.1130.c.tt: "#V Convencerás a un reclamante presente para que presione su reclamo ante el [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]#!\n\n@warning_icon! #warning Si tienes éxito, se activará un [Concept('agot_mw_mega_wars', 'Mega War')|E]#!" #NT!
+ coronation.1130.d: "Podría hacer que dos Casas enemistadas causaran una escena." #NT!
+ coronation.1130.d.tt: "#V Enfrentarás a dos Feuding [house_heads|E] entre sí#!\n\n@warning_icon! #warning Si tienes éxito, alguien puede resultar herido (o muerto)#!" #NT!
+  
+ coronation.1130.e: "$coronation.1160.c$" #NT!
+  
+ coronation.1131.desc_intro: "Examino discretamente la habitación, buscando posibles aliados para mi plan." #NT!
+  
+ coronation.1131.desc_kingsguard: "Mi mirada se posa en [potential_distraction_1.GetTitledFirstName|U], un miembro prominente de la Guardia Real conocido por su [potential_distraction_1.GetHerHis|l] abierto desagrado por la [coronation_target.GetTitleAsNameNoTooltip]. [potential_distraction_1.GetSheHe|U] autoridad e influencia sobre los otros guardias podría servir como una poderosa distracción si se utiliza adecuadamente." #NT!
+  
+ coronation.1131.desc_knight: "Mi mirada se posa en [potential_distraction_1.GetTitledFirstName|U], un caballero conocido por su abierto desagrado por [potential_distraction_1.GetHerHis|l] los [coronation_target.GetTitleAsNameNoTooltip]. [potential_distraction_1.GetSheHe|U] podría atraer la atención de los guardias causando una escena." #NT!
+  
+ coronation.1131.desc_master_whisper: "\n\nCerca de allí, veo a [coronation_target.GetTitledFirstNamePossessiveNoTooltip|U] Maestro de los susurradores, [potential_distraction_2.GetTitledFirstName|U]. Conocido por [potential_distraction_2.GetHerHis|l] su astuta e intrincada red de espías, [potential_distraction_2.GetHerHis|l] su habilidad para influenciar y manipular información podría servir como una poderosa distracción si se utiliza adecuadamente." #NT!
+  
+ coronation.1131.desc_schemer: "\n\nCerca de allí, veo otro aliado potencial para mi plan, [potential_distraction_2.GetTitledFirstName|U]. La lengua afilada de [potential_distraction_2.GetHerHis|U] y su tendencia a crear caos podrían fácilmente desviar la atención si [potential_distraction_2.GetSheHe|l] decidiera hablar o causar una escena." #NT!
+  
+ coronation.1131.desc_end: "\n\nFinalmente, noto que [potential_distraction_3.GetTitledFirstName|U] holgazanea con un aire de indiferencia calculada. [potential_distraction_3.GetSheHe|U] no siente ningún amor por [coronation_target.GetTitleAsNameNoTooltip], lo que convierte a [potential_distraction_3.GetHerHim|l] en un candidato ideal.\n\nCon estas tres distracciones potenciales identificadas, el camino hacia el sabotaje comienza a tomar forma." #NT!
+  
+  
+ coronation.1131.a: "[potential_distraction_1.GetTitledFirstName|U] es la elección lógica" #NT!
+ coronation.1131.a.tt: "Intentarás “convencer” a [potential_distraction_1.GetTitledFirstNameNoTooltip|U] para que se convierta en tu cómplice." #NT!
+ coronation.1131.a.success: "Me convences [potential_distraction_1.GetTitledFirstNameNoTooltip|U]" #NT!
+ coronation.1131.a.success.tt: "[potential_distraction_1.GetTitledFirstNameNoTooltip|U] se convierte en tu cómplice, lo que te da una ventaja en los duelos de [prowess_i][prowess|E]" #NT!
+ coronation.1131.a.failure: "No logras convencer [potential_distraction_1.GetTitledFirstNameNoTooltip|U]" #NT!
+ coronation.1131.a.no_tell_failure.tt: "[potential_distraction_1.GetTitledFirstNameNoTooltip|U] mantiene tu identidad en secreto" #NT!
+ coronation.1131.a.failure.tt: "[potential_distraction_1.GetTitledFirstNameNoTooltip|U] le revelará tu plan a [coronation_target.GetShortUIName|U]" #NT!
+ coronation.1131.b: "Vamos con [potential_distraction_2.GetTitledFirstName|U]" #NT!
+ coronation.1131.b.tt: "Intentarás “convencer” a [potential_distraction_2.GetTitledFirstNameNoTooltip|U] para que se convierta en tu cómplice." #NT!
+ coronation.1131.b.success: "Me convences [potential_distraction_2.GetTitledFirstNameNoTooltip|U]" #NT!
+ coronation.1131.b.success.tt: "[potential_distraction_2.GetTitledFirstNameNoTooltip|U] se convierte en tu cómplice, lo que te da una ventaja en los duelos de [intrigue_i][intrigue|E]" #NT!
+ coronation.1131.b.failure: "No logras convencer [potential_distraction_2.GetTitledFirstNameNoTooltip|U]" #NT!
+ coronation.1131.b.failure.tt: "[potential_distraction_2.GetTitledFirstNameNoTooltip|U] le revelará tu plan a [coronation_target.GetShortUIName|U]" #NT!
+ coronation.1131.b.no_tell_failure.tt: "[potential_distraction_2.GetTitledFirstNameNoTooltip|U] mantiene tu identidad en secreto" #NT!
+ coronation.1131.c: "[potential_distraction_3.GetTitledFirstName|U] seguro que me ayuda" #NT!
+ coronation.1131.c.tt: "Intentarás “convencer” a [potential_distraction_3.GetTitledFirstNameNoTooltip|U] para que se convierta en tu cómplice." #NT!
+ coronation.1131.c.success: "Me convences [potential_distraction_3.GetTitledFirstNameNoTooltip|U]" #NT!
+ coronation.1131.c.success.tt: "[potential_distraction_3.GetTitledFirstNameNoTooltip|U] se convierte en tu cómplice, lo que te da una ventaja en los duelos de [diplomacy_i][diplomacy|E]" #NT!
+ coronation.1131.c.failure: "No logras convencer [potential_distraction_3.GetTitledFirstNameNoTooltip|U]" #NT!
+ coronation.1131.c.failure.tt: "[potential_distraction_3.GetTitledFirstNameNoTooltip|U] le revelará tu plan a [coronation_target.GetShortUIName|U]" #NT!
+ coronation.1131.c.no_tell_failure.tt: "[potential_distraction_3.GetTitledFirstNameNoTooltip|U] mantiene tu identidad en secreto" #NT!
+  
+ coronation.1132.t: "Sabotaje frustrado" #NT!
+ coronation.1132.desc_1: "El gran salón bulle de actividad mientras continúan los preparativos para la coronación. En medio del frenesí, [tattle_tale.GetTitledFirstName|U] avanza con determinación hacia mí, [tattle_tale.GetHerHis|l] con expresión sombría. [tattle_tale.GetSheHe|U] se arrodilla ante mí. "Su Gracia", comienza [tattle_tale.GetTitledFirstNameNoTooltip|U], [tattle_tale.GetHerHis|l] con voz baja pero urgente. "Traigo noticias preocupantes. Hay un complot para sabotear su coronación".\n\n"¿Quién está detrás de esta traición?", exijo. "[saboteur.GetTitledFirstName|U]", responde [tattle_tale.GetTitledFirstNameNoTooltip|U]. "[saboteur.GetSheHe|U] fue atrapado intentando interrumpir los procedimientos"." #NT!
+ coronation.1132.a: "¡Tira [saboteur.GetHerHim|l] fuera!" #NT!
+ coronation.1132.a.tt: "[saboteur.GetTitledFirstNameNoTooltip|U] vuelve a casa" #NT!
+ coronation.1132.b: "Veamos cómo le va a [saboteur.GetTitledFirstNameNoTooltip|U] en una celda" #NT!
+ coronation.1132.b.tt: "Pondrás [saboteur.GetTitledFirstNameNoTooltip|U] en una celda negra" #NT!
+ coronation.1132.c: "No hubo daño alguno: el agua ya pasó" #NT!
+ coronation.1132.c.tt: "Permites que [saboteur.GetTitledFirstNameNoTooltip|U] permanezca como invitado, pero [saboteur.GetSheHe|l] puede causar más problemas" #NT!
+  
+ coronation.1134.t: "Colocación incorrecta de una corona" #NT!
+ coronation.1134.desc: "Mientras me acerco a la cámara que alberga a [sabotage_target_crown.GetName|U], veo a [kingsguard.GetName|U] apostado en la puerta, [kingsguard.GetHerHis|l] con postura rígida y alerta. El peso de mi plan me pesa en la mente. Discretamente le hago una señal a mi cómplice, [distraction.GetName|U], quien asiente con la cabeza en señal de comprensión.\n\nMe acerco a [distraction.GetFirstNameNoTooltip|U] y bajo la voz hasta convertirla en un susurro. "Necesitamos crear una distracción", digo, mirando a [kingsguard.GetFirstNameNoTooltip|U]. "Necesitas entablar una conversación con [kingsguard.GetHerHim|l], desviar la atención de [kingsguard.GetHerHis|l] de la puerta. Haz que sea convincente".\n\n[distraction.GetFirstNameNoTooltip|U] asiente levemente, preparándose para ejecutar la distracción." #NT!
+ coronation.1134.a: ""[distraction.GetFirstNameNoTooltip], pelea con [kingsguard.GetFirstNameNoTooltip]..."" #NT!
+ coronation.1134.b: ""[distraction.GetFirstNameNoTooltip], usa tu ingenio para ser más astuto que [kingsguard.GetFirstNameNoTooltip]..."" #NT!
+ coronation.1134.c: ""[distraction.GetFirstNameNoTooltip], encanto [kingsguard.GetFirstNameNoTooltip]..."" #NT!
+ coronation.1134.d: ""[distraction.GetFirstNameNoTooltip], finge estar de guardia y relevar a [kingsguard.GetFirstNameNoTooltip]"" #NT!
+ coronation.1134.d.tt.success: "[kingsguard.GetFirstNameNoTooltip] deja su publicación" #NT!
+ coronation.1134.d.tt.failure: "[kingsguard.GetFirstNameNoTooltip] se niega a abandonar su puesto" #NT!
+ coronation.1134.a.tt: "Sigues adelante con tu plan de robar [sabotage_target_crown.GetNameNoTooltip|U]." #NT!
+ coronation.1134.tt.success: "[distraction.GetFirstNameNoTooltip] logra distraer a [kingsguard.GetFirstNameNoTooltip]" #NT!
+ coronation.1134.a.tt.success: "Pasas de largo [kingsguard.GetFirstNameNoTooltip] y robas el [sabotage_target_crown.GetName|U]" #NT!
+ coronation.1134.tt.failure: "[distraction.GetFirstNameNoTooltip] no logra distraer [kingsguard.GetFirstNameNoTooltip]" #NT!
+ coronation.1134.e: "Esto está por debajo de mí..." #NT!
+ coronation.1134.e.tt: "Abandonaste tu plan de sabotear [coronation_target.GetTitledFirstNamePossessiveNoTooltip|U] coronación" #NT!
+  
+ coronation.1135.t: "Una corona fuera de lugar" #NT!
+ coronation.1135.desc: "Mientras practico mi discurso para la ceremonia de coronación, [kingsguard_notifier.GetName|U], un miembro de la Guardia Real, entra corriendo a mi habitación en pánico. "Mi [coronation_officiant.GetLadyLord|l], hay un problema", tartamudea [kingsguard_notifier.GetSheHe|l], luchando por recuperar el aliento de [kingsguard_notifier.GetHerHis|l].\n\nMe vuelvo hacia [kingsguard_notifier.GetHerHim|l], sintiendo la urgencia en la voz de [kingsguard_notifier.GetHerHis|l]. "¿Qué es?", pregunto, mi mente repasando los posibles problemas que podrían surgir en un día tan importante.\n\n"La corona", suelta [kingsguard_notifier.GetSheHe|l], el rostro de [kingsguard_notifier.GetHerHis|l] pálido. "Ha sido... extraviada". Mi corazón se acelera mientras proceso las palabras de [kingsguard_notifier.GetHerHis|l], la gravedad de la situación me hace comprender. Sin la corona, la futura legitimidad del reinado de [coronation_target.GetTitledFirstNamePossessive|U] está en peligro." #NT!
+ coronation.1135.a: ""¡Reúne a todos los sirvientes y encuéntralo!"" #NT!
+ coronation.1135.a.tt: "Intenta localizar la corona" #NT!
+ coronation.1135.a.success.tt: "Localiza la corona" #NT!
+ coronation.1135.a.no_return.tt: "No puedes recuperar el [sabotage_target_crown.GetName]" #NT!
+ coronation.1135.a.confront.tt: "Te enfrentas a quien te robó el [sabotage_target_crown.GetName]" #NT!
+ coronation.1135.a.failure.tt: "[coronation_officiant.GetShortUINameNoTooltipNoFormat] no pudo localizar la corona" #NT!
+ coronation.1135.a.failure.tt_stolen: "Alguien me robó [sabotage_target_crown.GetName]" #NT!
+ coronation.1135.a.failure.tt_unrecovered: "[coronation_officiant.GetShortUINameNoTooltipNoFormat] no se pudo localizar tu corona" #NT!
+ coronation.1135.b: ""Conseguiremos uno nuevo..."" #NT!
+ coronation.1135.b.tt: "Forjas una nueva corona y esperas que nadie lo note." #NT!
+ coronation.1135.c: ""Pensándolo bien, no necesitamos una corona..."" #NT!
+ coronation.1135.c.tt: "Coronarás a [coronation_target.GetFirstNameNoTooltip|U] sin corona" #NT!
+ coronation.1135.a.failure_saboteur.tt: "[coronation_officiant.GetTitledFirstNameNoTooltip|U] no pudo encontrar el [sabotage_target_crown.GetName|U]" #NT!
+ coronation.1135.failure_saboteur.tt: "Nadie sabe que tomaste la corona" #NT!
+ coronation.1135.a.no_search_saboteur.tt: "[coronation_officiant.GetShortUINameNoTooltipNoFormat|U] decidió no buscar el [sabotage_target_crown.GetName|U]" #NT!
+ coronation.1135.a.tt.success_target: "Alguien robó el [sabotage_target_crown.GetNameNoTooltip|U]" #NT!
+ coronation.1135.a.backup_crown.tt: "[coronation_officiant.GetShortUINameNoTooltipNoFormat|U] ha optado por utilizar una corona de respaldo" #NT!
+  
+ coronation.1136.a: ""¿Qué deseas?"" #NT!
+ coronation.1136.b: ""¡¿Debes estar bromeando?! ¡Está bien, quédate con esa maldita cosa!"" #NT!
+ coronation.1136.desc: "[kingsguard_notifier.GetFirstName|U] hace marchar al culpable, [saboteur.GetTitledFirstName|U], hacia la cámara, con la corona firmemente agarrada en las manos de [saboteur.GetHerHis|l]. Doy un paso hacia adelante, mirando fijamente al ladrón. "Devuélveme la corona", ordeno, mi voz firme pero urgente.\n\n[saboteur.GetTitledFirstNameNoTooltip|U] duda, apretando cada vez más la corona. Se produce un largo silencio. Finalmente, [saboteur.GetSheHe|l] me mira, con una sonrisa maliciosa dibujada en el rostro de [saboteur.GetHerHis|l]. "¿A cambio de qué?"\n\nAtónita, miro a [kingsguard_notifier.GetFirstNameNoTooltip|U], que me mira a los ojos expectante, esperando mi siguiente movimiento." #NT!
+ coronation.1136.tt.success: "Convences a [saboteur.GetTitledFirstNameNoTooltip|U] para que devuelva la corona" #NT!
+ coronation.1136.tt.failure: "No logras convencer a [saboteur.GetTitledFirstNameNoTooltip|U] de devolver la corona" #NT!
+ coronation.1136.tt.success_past: "[coronation_officiant.GetShortUINameNoTooltipNoFormat] convenció a [saboteur.GetTitledFirstNameNoTooltip|U] de devolver la corona" #NT!
+ coronation.1136.tt.failure_past: "[coronation_officiant.GetShortUINameNoTooltipNoFormat] no logró convencer a [saboteur.GetTitledFirstNameNoTooltip|U] de devolver la corona" #NT!
+ coronation.1136.tt.success_1: "[saboteur.GetTitledFirstNameNoTooltip|U] está de acuerdo sin ningún compromiso" #NT!
+ coronation.1136.tt.success_2: "[saboteur.GetTitledFirstNameNoTooltip|U] está de acuerdo con [gold|E]" #NT!
+ coronation.1136.tt.success_3: "[saboteur.GetTitledFirstNameNoTooltip|U] está de acuerdo con [favor|E]" #NT!
+ coronation.1136.a.tt.success_target: "[saboteur.GetTitledFirstNameNoTooltip|U] se robó el [sabotage_target_crown.GetName|U]" #NT!
+  
+ coronation.1137.desc: "[kingsguard_notifier.GetFirstNamePossessive|U] me agarra con firmeza el brazo mientras me llevan a la habitación de [coronation_officiant.GetTitledFirstNamePossessive|U], con la corona robada agarrada con fuerza en mis manos. La habitación queda en silencio mientras todos los ojos se vuelven hacia mí.\n\n[coronation_officiant.GetTitledFirstNameNoTooltip|U] avanza, la mirada penetrante de [coronation_officiant.GetHerHis|l]. "Devuélveme la corona", ordena [coronation_officiant.GetSheHe|l], la voz de [coronation_officiant.GetHerHis|l] firme pero urgente.\n\nDudo, sintiendo el peso de la corona en mis manos y la tensión en la habitación. El silencio se extiende entre nosotros, denso por la anticipación. Finalmente, encuentro a [coronation_officiant.GetHerHis|l] a los ojos con una sonrisa maliciosa. "¿A cambio de qué?"\n\nLa expresión atónita de [coronation_officiant.GetHerHis|U] es casi satisfactoria. [coronation_officiant.GetSheHe|U] mira a [kingsguard_notifier.GetFirstNameNoTooltip|U], claramente desconcertado, quien mira a [coronation_officiant.GetHerHis|l] expectante, esperando que [coronation_officiant.GetTitledFirstNamePossessive|U]1 decida qué viene después. Finalmente, [coronation_officiant.GetSheHe|l] rompe el silencio. "¿Qué quieres?"" #NT!
+ coronation.1137.a: ""Verte retorcerte fue suficiente."" #NT!
+ coronation.1137.a.tt: "Devuelves el [sabotage_target_crown.GetNameNoTooltip|U] sin condiciones" #NT!
+ coronation.1137.b: ""Podrás recuperar la corona, por un precio..."" #NT!
+ coronation.1137.b.tt: "Devuelves el [sabotage_target_crown.GetNameNoTooltip|U] a cambio de [gold|E]" #NT!
+ coronation.1137.c: ""Te devolveré la corona, pero me debes una..."" #NT!
+ coronation.1137.c.tt: "Devuelves el [sabotage_target_crown.GetNameNoTooltip|U] y [coronation_officiant.GetTitledFirstNameNoTooltip|U] te debe un [favor|E]" #NT!
+ coronation.1137.d: ""Me quedaré con esto"" #NT!
+ coronation.1137.d.tt: "Te niegas a devolver el [sabotage_target_crown.GetNameNoTooltip|U]" #NT!
+  
+ coronation.1138.desc: "Justo cuando me estoy preparando para entrar en la sala del trono, [coronation_officiant.GetTitledFirstName|U] me lleva a una cámara adyacente. El rostro de [coronation_officiant.GetHerHis|U] muestra una expresión cautelosa mientras [coronation_officiant.GetSheHe|l] evita mi mirada.\n\n"Su Gracia", dice finalmente [coronation_officiant.GetSheHe|l]. "Le he fallado. Parece que le han quitado la corona y no he podido recuperarla. Sin embargo, esto no tiene por qué interrumpir la ceremonia, simplemente renunciaremos a esa... formalidad"." #NT!
+ coronation.1138.a: ""¡Idiota! Alguien más tendrá el honor de ungirme"" #NT!
+ coronation.1138.a.tt: "Reemplazarás a [coronation_officiant.GetShortUIName] como oficiante" #NT!
+ coronation.1135.a.officiant_removed.tt: "[coronation_target.GetShortUIName] eliminó a [coronation_officiant.GetShortUIName] como oficiante" #NT!
+ coronation.1138.b: ""Supongo que no necesito una corona para ser [coronation_target.GetTitleAsNameNoTooltip|U]"" #NT!
+ coronation.1138.b.tt: "Procederás con la ceremonia." #NT!
+ coronation.1135.a.carry_on.tt: "[coronation_target.GetShortUIName] mantuvo a [coronation_officiant.GetShortUIName] como oficiante" #NT!
+ coronation.1138.c: "Tenemos suerte de tener repuestos." #NT!
+ coronation.1138.c.tt: "Seleccionarás una nueva corona con la que serás coronado." #NT!
+ coronation.1138.d: ""Lo cancelaremos. No tener corona anula el sentido de ser #italic coronado#!"" #NT!
+ coronation.1138.d.tt: "Cancelarás la coronación" #NT!
+  
+ coronation.1139.t: "Saboteando el [sabotage_target_throne.GetNameNoTooltip]" #NT!
+ coronation.1139.desc: "Cuando entro en la sala del trono, veo a [kingsguard.GetName|U] apostado cerca de [sabotage_target_throne.GetNameNoTooltip], [kingsguard.GetHerHis|l] con postura rígida y alerta. Le hago una señal discreta a mi cómplice, [distraction.GetName|U], quien asiente con la cabeza en señal de comprensión.\n\nMe acerco a [distraction.GetFirstNameNoTooltip|U] y bajo la voz hasta convertirla en un susurro. "Necesitamos crear una distracción", digo, mirando a [kingsguard.GetFirstNameNoTooltip|U]. "Necesitas entablar una conversación con [kingsguard.GetHerHim|l], desviar la atención de [kingsguard.GetHerHis|l] de [sabotage_target_throne.GetNameNoTooltip]. Haz que sea convincente".\n\n[distraction.GetFirstNameNoTooltip|U] asiente levemente, preparándose para ejecutar la distracción." #NT!
+ coronation.1139.tt.success: "$coronation.1134.tt.success$" #NT!
+ coronation.1139.tt.failure: "$coronation.1134.tt.failure$" #NT!
+ coronation.1139.a.tt: "Intentarás colocar algo resbaladizo en el escalón superior del [sabotage_target_throne.GetNameNoTooltip]" #NT!
+ coronation.1139.a.tt.success_text: "Saboteaste con éxito el [sabotage_target_throne.GetNameNoTooltip]" #NT!
+ coronation.1139.a: "$coronation.1134.a$" #NT!
+ coronation.1139.b: "$coronation.1134.b$" #NT!
+ coronation.1139.c: "$coronation.1134.c$" #NT!
+ coronation.1139.d: "$coronation.1134.d$" #NT!
+ coronation.1139.d.tt.success: "[kingsguard.GetFirstNameNoTooltip] deja su publicación" #NT!
+ coronation.1139.d.tt.failure: "[kingsguard.GetFirstNameNoTooltip] se niega a abandonar su puesto" #NT!
+ coronation.1139.e: "$coronation.1134.e$" #NT!
+ coronation.1139.e.tt: "$coronation.1134.e.tt$" #NT!
+  
+ coronation.1140.t: "Un paso resbaladizo" #NT!
+ coronation.1140.a.tt_die: "Te empalas en el [sabotage_target_throne.GetNameNoTooltip]" #NT!
+ coronation.1140.a.tt_die_broken_neck: "Te resbalas, te caes y te rompes el cuello." #NT!
+ coronation.1140.a.tt_slip: "Te caes por las escaleras" #NT!
+ coronation.1140.a.tt_recover: "Te atrapas cayéndote por las escaleras" #NT!
+ coronation.1140.a: "¡Ups!" #NT!
+ coronation.1140.desc_seven_kingdoms: "He sido coronado como el [coronation_target.GetTitleAsNameNoTooltip|U] de los Siete Reinos. Ahora, debo demostrar que soy digno del título y sentarme en el trono del Conquistador. Mientras me acerco al trono, con el peso de la corona en mi mente, subo los escalones con deliberado cuidado. Los ojos de la corte están sobre mí, la anticipación está espesa en el aire. Justo cuando llego al escalón superior, mi pie resbala en un lugar resbaladizo inesperado.\n\nLos jadeos de los señores y damas reunidos resuenan en el salón, su preocupación es palpable. Extiendo la mano esperando que algo amortigüe mi caída. Con el rabillo del ojo, veo una espada que sobresale ubicada cerca de donde podría aterrizar." #NT!
+ coronation.1140.desc_other: "Me han coronado [coronation_target.GetTitleAsNameNoTooltip|U] de [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. Ahora, debo sentarme en mi trono. Mientras me acerco al trono, con el peso de la corona en mi mente, subo los escalones con deliberado cuidado. Los ojos de la corte están sobre mí, la expectación se percibe en el aire. Justo cuando llego al último escalón, mi pie resbala en un lugar resbaladizo inesperado.\n\nLos jadeos de los señores y damas reunidos resuenan en el salón, su preocupación es palpable. Extiendo la mano esperando que algo amortigüe mi caída." #NT!
+  
+ coronation.1141.t: "Selección de un reclamante" #NT!
+ coronation.1141.desc: "En mi esfuerzo por llevar estas celebraciones a una conclusión rápida —y prematura—, he optado por encontrar un pretendiente descontento para [coronation_target.GetPrimaryTitle.GetNameNoTier]. Examino a la multitud y decido a quién debo acercarme para poder #italic convencerlos#! de que expongan su caso durante la ceremonia." #NT!
+ coronation.1141.a: "Vamos a acercarnos" #NT!
+ coronation.1141.a.tt: "Te acercarás a [coronation_claimant.GetTitledFirstName] y convencerás a [coronation_claimant.GetHerHim|l] para que presione [coronation_claimant.GetHerHis|l] [claim|E] en el [coronation_target.GetPrimaryTitle.GetNameNoTooltip]" #NT!
+ coronation.1141.b: "Esto está por debajo de mí" #NT!
+ coronation.1141.lp: "@warning_icon! #warning Como Lord Paramount, se espera que apoyes a [coronation_claimant.GetTitledFirstNamePossessive] [claim|E] y convenzas a tu [vassals|E] de hacer lo mismo#!" #NT!
+ coronation.1141.flavor: "@warning_icon! #warning Se espera que apoyes [coronation_claimant.GetTitledFirstNamePossessive] [claim|E]#!" #NT!
+  
+ coronation.1142.t: "Reclamante a [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ coronation.1142.desc: "Antes de que comience la ceremonia, me abro paso entre la multitud de nobles hacia [coronation_claimant.GetTitledFirstName], que está de pie al borde de la multitud. La mirada de [coronation_claimant.GetHerHis|U] está fija en el procedimiento, con una mezcla de resignación y contemplación en los ojos de [coronation_claimant.GetHerHis|l]. "Vaya espectáculo, ¿no?" Empiezo a decir con un tono casual. \n\n"De hecho", responde [coronation_claimant.GetSheHe|l] secamente.\n\nMe inclino ligeramente hacia delante, bajando la voz lo suficiente. "Sabes, #italic muchos#! aquí creen que posees las cualidades de un verdadero líder. Algunos incluso susurran que el reino prosperaría bajo tu gobierno".\n\nLos ojos de [coronation_claimant.GetFirstNamePossessiveNoTooltip] parpadean con una chispa de interés. "¿Lo creen?", pregunta [coronation_claimant.GetSheHe|l]." #NT!
+ coronation.1142.a: "¡Por supuesto que lo hacen!" #NT!
+ coronation.1142.b: "En realidad, mentí. Olvida lo que dije." #NT!
+ coronation.1142.b.tt: "Abandonás tus intentos de convencer a [coronation_claimant.GetFirstNameNoTooltip] para que presione [coronation_claimant.GetHerHis|l] [claim|E]" #NT!
+  
+ coronation.1143.t: "Mi reclamo a [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ coronation.1143.desc: "Mientras se desarrolla la ceremonia de coronación, me quedo de pie al borde de la multitud, con la mirada fija en el gran espectáculo que se desarrolla ante mí. El peso del momento me pesa en la mente, una mezcla de resignación y contemplación. "Vaya espectáculo, ¿no?", dice una voz a mi lado, llamando mi atención. Me doy vuelta para ver a [saboteur.GetTitledFirstName], que me ofrece una sonrisa casual.\n\n"De hecho", respondo secamente.\n\n[saboteur.GetSheHe|U] se inclina ligeramente y la voz de [saboteur.GetHerHis|l] se convierte en un susurro conspirativo. "Sabes, #italic muchos#! aquí creen que posees las cualidades de un verdadero líder. Algunos incluso susurran que el reino prosperaría bajo tu gobierno"." #NT!
+ coronation.1143.a: "Voy a insistir en mi reclamación y tú deberías apoyarme." #NT!
+ coronation.1143.a.tt: "Hablarás con los señores más fuertes presentes y los convencerás de unirse a tu causa.\n\n@warning_icon! #warning Seguir esta opción conducirá inevitablemente a una guerra entre [coronation_claimant.GetShortUIName] y [coronation_target.GetShortUIName]." #NT!
+ coronation.1143.a_success: "[coronation_claimant.GetShortUIName|U] Decidí presionar [coronation_claimant.GetShortUINamePossessive|U] [claim|E]" #NT!
+ coronation.1143.b: "Esta es una idea tonta" #NT!
+ coronation.1143.b.tt: "Permanecerás en silencio sobre esto durante la ceremonia." #NT!
+ coronation.1143.b_failure: "[coronation_claimant.GetShortUIName|U] Decidí no presionar [coronation_claimant.GetShortUINamePossessive|U] [claim|E]" #NT!
+ coronation.1143.c: "[coronation_target.GetFirstNameNoTooltip] es el mejor gobernante; renunciaré a mis pretensiones en su lugar" #NT!
+  
+ coronation.1144.t: "Negativa" #NT!
+ coronation.1144.desc: "A pesar de mis mejores esfuerzos, [coronation_claimant.GetShortUINameNoFormat] no logró entrar en razón y no le hizo caso a [coronation_target.GetPrimaryTitle.GetNameNoTierNoTooltip]. Fue un revés inesperado. Seguramente tendré que encontrar otra forma de arruinar el día." #NT!
+ coronation.1144.a: "Maldito seas [coronation_claimant.GetFirstNameNoTooltip]" #NT!
+ coronation.1144.b: "Da igual, poco importa" #NT!
+ coronation.1144.b_failure: "[coronation_claimant.GetShortUINameNoFormat] decidió no presionar [coronation_claimant.GetHerHis|l] [claim|E]" #NT!

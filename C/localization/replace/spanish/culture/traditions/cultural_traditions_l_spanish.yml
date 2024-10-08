@@ -375,6 +375,7 @@
  culture_parameter_prowess_from_religious_traits: "[traits|E] como [GetTrait('education_learning_3').GetName( GetNullCharacter )], [GetTrait('devoted').GetName( GetNullCharacter )] o [GetTrait('theologian').GetName( GetNullCharacter )] dan [prowess|E]"
  culture_parameter_prowess_traits_more_valued: "Son más valorados los [GetTrait('education_martial_prowess_1').GetName( GetNullCharacter )], [GetTrait('education_martial_prowess_2').GetName( GetNullCharacter )], [GetTrait('education_martial_prowess_3').GetName( GetNullCharacter )] y [GetTrait('education_martial_prowess_4').GetName( GetNullCharacter )] [traits|E]"
  culture_parameter_culture_clergy_can_fight: "$doctrine_parameter_clergy_can_fight$"
+ culture_parameter_monastery_prowess_martial_bonus: "La línea #V $building_type_monastic_schools_01$#! de [buildings|E] proporciona bonificaciones adicionales [prowess|E] y [martial|E]" #NT!
  culture_parameter_can_recruit_prisoners_easily: "[prisoners|E] tiene más probabilidades de aceptar el reclutamiento, obtener un [opinion|E] [modifier|E] positivo cuando es reclutado y el reclutador obtiene un [strong_hook|E]"
  culture_parameter_better_knights_from_decision: "Mejora [knights|E] del #V $invite_knights_decision$#! [decision|E]"
  culture_parameter_pardoning_gives_loyalty: "El #V $pardon_interaction$#! [interaction|E] da un [opinion|E] y un [strong_hook|E] mucho más positivos"
@@ -418,6 +419,8 @@
  culture_parameter_jungle_trait_bonuses: "Algunos [commander_traits|E] y [personality_traits|E] tienen bonificaciones adicionales en la jungla."
  culture_parameter_eunuch_trait_bonuses: "El [GetTrait('eunuch').GetName( GetNullCharacter )] [trait|E] tiene algunas bonificaciones adicionales"
  culture_parameter_can_appoint_chief_eunuch: "Puede nombrar el #high $chief_eunuch_court_position$#! [court_position|E]"
+ culture_parameter_palace_politics_trait_bonuses: "[GetTrait('loyal').GetName( GetNullCharacter )], [GetTrait('deceitful').GetName( GetNullCharacter )], [GetTrait('ambitious').GetName( GetNullCharacter )], [GetTrait('arbitrary').GetName( GetNullCharacter )] y [GetTrait('paranoid').GetName( GetNullCharacter )] [characters|E] obtienen un beneficio mensual adicional de [influence|E]" #NT!
+ culture_parameter_palace_politics_trait_maluses: "[GetTrait( 'shy' ).GetName( GetNullCharacter )], [GetTrait( 'trusting' ).GetName( GetNullCharacter )], [GetTrait( 'maimed' ).GetName( GetNullCharacter )], [GetTrait( 'one_eyed' ).GetName( GetNullCharacter )], [GetTrait( 'one_legged' ).GetName( GetNullCharacter )] y [GetTrait( 'disfigured' ).GetName( GetNullCharacter )] [characters|E] tienen un ingreso mensual reducido [influence|E]" #NT!
  culture_parameter_physical_disfigurement_blocks_inheritance: "Los [claimants|E] físicamente desfigurados e infértiles no pueden presionar su [claims|E] contra el [rulers|E] de este [culture|E]."
  culture_parameter_infertility_blocks_inheritance: "Los personajes infértiles no pueden heredar [titles|E]"
  culture_parameter_can_recruit_winter_specialist: "Gana un [decision|E] para reclutar a Winter [commanders|E]"
@@ -471,6 +474,7 @@
  culture_parameter_plantations_building_bonuses: "La línea #V $building_type_plantations_01$#! de [buildings|E] tiene bonificaciones adicionales en [counties|E] de este [culture|E]"
  culture_parameter_outposts_building_bonuses: "La línea #V $building_type_outposts_01$#! de [buildings|E] tiene bonificaciones adicionales en [counties|E] de este [culture|E]"
  culture_parameter_introverted_trait_bonuses: "Los [GetTrait('chaste').GetName( GetNullCharacter )], [GetTrait('content').GetName( GetNullCharacter )], [GetTrait('humble').GetName( GetNullCharacter )], [GetTrait('shy').GetName( GetNullCharacter )] y [GetTrait('temperate').GetName( GetNullCharacter )] [traits|E] dan bonificaciones"
+ culture_parameter_knight_errant_trait_bonuses: "El [GetTrait('knight_errant').GetName( GetNullCharacter )] [trait|E] tiene bonificaciones adicionales" #NT!
  culture_parameter_poorly_educated_leaders_distrusted: "Se desconfía de [rulers|E] con [education_traits|E] pobre, como [GetTrait('education_stewardship_1').GetName( GetNullCharacter )] o [GetTrait('education_diplomacy_1').GetName( GetNullCharacter )]"
  culture_parameter_city_buildings_more_powerful: "[city_holdings|E] da más [taxes|E], [development|E] y [levies|E]"
  culture_parameter_city_buildings_less_control: "[city_holdings|E] reduce significativamente la ganancia de [control|E]"
@@ -485,6 +489,10 @@
  culture_parameter_can_levy_longbowmen: "Desbloquea el [levy_longbowmen_decision|E]"
  culture_parameter_archer_era_improvement: "Los [GetMaA('longbowmen').GetName] [men_at_arms|E] son cada vez mejores cada [era|E]"
  culture_parameter_next_level_trade_ports: "La línea #V $building_type_common_tradeport_01$#! de [buildings|E] se puede construir un [era|E] antes"
+ culture_parameter_next_level_military_camps: "La línea #V $building_type_military_camps_01$#! de [buildings|E] se puede construir un [era|E] antes" #NT!
+ culture_parameter_next_level_barracks: "La línea #V $building_type_barracks_01$#! de [buildings|E] se puede construir un [era|E] antes" #NT!
+ culture_parameter_next_level_stables: "La línea #V $building_type_stables_01$#! de [buildings|E] se puede construir un [era|E] antes" #NT!
+ culture_parameter_formation_fighting_strategist: "El [GetTrait('strategist').GetName( GetNullCharacter )] [trait|E] tiene bonificaciones adicionales" #NT!
  culture_parameter_maritime_mercantilism_coastal_holdings: "Costero [holdings|E] en [counties|E] de este [culture|E] proporciona un #P +[EmptyScope.ScriptValue('maritime_mercantilism_coastal_holdings_value_tt')|0]%#! [gold_i][tax|E] adicional"
  culture_parameter_coastal_holdings_give_defensive_bonus: "Costero [holdings|E] en [counties|E] de este [culture|E] proporciona Defensor adicional [advantage|E]"
  culture_parameter_castle_fortifications_increase: "[castles|E] en [counties|E] de este [culture|E] proporciona un #V adicional 5#! $MOD_DEFENDER_HOLDING_ADVANTAGE$ por nivel [holding|E]"
@@ -520,8 +528,54 @@
  culture_parameter_characters_are_better_food_tasters: "[characters|E] de este [culture|E] se desempeña mejor cuando es designado para el #high $food_taster_court_position$#! [court_position|E]"
  culture_parameter_characters_are_better_court_poets: "[characters|E] de este [culture|E] se desempeña mejor cuando es designado para el #high $court_poet_court_position$#! [court_position|E]"
   
+ culture_parameter_frugal_blacksmith_maa_size: "La línea #V $building_type_smiths_01$#! de [buildings|E] aumenta el Número #V de [knight_i][knights|E]#! y el Tamaño #V de [men_at_arms|E] $building_type_smiths_01$0#!" #NT!
+ culture_parameter_warrior_lodges_lift_restrictions: "La línea #V $building_type_warrior_lodges_01$#! de [buildings|E] siempre se puede construir en [counties|E] de este [culture|E]" #NT!
+ culture_parameter_strength_in_numbers_maa_limit_bonus: "Las líneas #V $building_type_barracks_01$#! y #V $building_type_war_camps_01$#! de [buildings|E] aumentan el límite de regimiento #V [men_at_arms|E]#!" #NT!
+ culture_parameter_strength_in_numbers_heavy_maa_ban: "@warning_icon! #X [heavy_infantry|E], [heavy_cavalry|E] y [elephant_cavalry|E] [men_at_arms|E] no pueden ser reclutados por [rulers|E] de estos [culture|E]#!" #NT!
+ culture_parameter_next_level_w_mills: "Las líneas #V $building_type_watermills_01$#! y #V $building_type_windmills_01$#! de [buildings|E] se pueden construir un [era|E] antes" #NT!
+ culture_parameter_next_level_smiths: "La línea #V $building_type_smiths_01$#! de [buildings|E] se puede construir un [era|E] antes" #NT!
+ culture_parameter_astute_diplomat_bonus: "El [GetTrait('diplomat').GetName( GetNullCharacter )] [trait|E] proporciona bonificaciones adicionales" #NT!
+ culture_parameter_collective_lands_farms_bonuses: "La línea #V $building_type_cereal_fields_01$#! de [buildings|E] proporciona bonificaciones [stationed|E] [men_at_arms|E]" #NT!
+ culture_parameter_peasant_leader_is_inherited: "El [GetTrait('peasant_leader').GetName( GetNullCharacter )] [trait|E] se hereda al llegar a la edad adulta." #NT!
+ culture_parameter_watermills_windmills_cities: "#V $building_type_watermills_01$#! o #V $building_type_windmills_01$#! o #V $building_type_caravanserai_01$#! líneas de [buildings|E] se pueden construir en $building_type_watermills_01$0 después de descubrir #V $building_type_watermills_01$2#! $building_type_watermills_01$4" #NT!
+ culture_parameter_temple_next_level: "[temple_holdings|E] se puede actualizar uno [era|E] antes" #NT!
+ culture_parameter_tribals_can_into_temples: "[temple_holdings|E] se puede construir con [tribal|E] [rulers|E]" #NT!
+ culture_parameter_legalistic_administrator_bonuses: "El [GetTrait('administrator').GetName( GetNullCharacter )] [trait|E] tiene bonificaciones adicionales" #NT!
+ culture_parameter_next_level_monasteries: "La línea #V $building_type_monastic_schools_01$#! de [buildings|E] se puede construir un [era|E] antes" #NT!
+ culture_parameter_monastic_monastery_learning_bonus: "La línea #V $building_type_monastic_schools_01$#! de [buildings|E] proporciona bonificaciones adicionales [learning|E]" #NT!
+ culture_parameter_next_level_fortification: "Las líneas de #V Fortificación#! de [buildings|E] se pueden construir una [era|E] antes" #NT!
+ culture_parameter_next_level_cities: "El #V [city|E]#! principal [buildings|E] se puede construir uno [era|E] antes" #NT!
+ culture_parameter_maritime_mercantilism_avaricious_bonus: "El [GetTrait('avaricious').GetName( GetNullCharacter )] [trait|E] proporciona bonificaciones adicionales" #NT!
+ culture_parameter_vegetarian_building_ban: "La línea #V $building_type_hunting_grounds_01$#! de [buildings|E] #X no puede#! construirse en [counties|E] de este [culture|E]" #NT!
+ culture_parameter_vegetarian_next_level_cereal_fields: "La línea #V $building_type_cereal_fields_01$#! de [buildings|E] se puede construir un [era|E] antes" #NT!
+ culture_parameter_vegetarian_fruit_orchard_allowed: "La línea #V $building_type_orchards_01$#! de [buildings|E] siempre se puede construir en [counties|E] de este [culture|E]" #NT!
+ culture_parameter_ancient_miners_quarries_building_bonuses: "La línea #V $building_type_quarries_01$#! de [buildings|E] proporciona bonificaciones adicionales" #NT!
+  
+ next_level_trade_ports_name: "$tradition_maritime_mercantilism_name$"
+ next_level_military_camps_name: "#V $tradition_adaptive_skirmishing_name$#!" #NT!
+ next_level_barracks_name: "#V $tradition_formation_fighting_name$#!" #NT!
+ next_level_stables_name: "#V $tradition_horse_breeder_name$#!" #NT!
+ next_level_guild_halls_name: "#V $tradition_city_keepers_name$#!" #NT!
+ next_level_w_mills_name: "#V $tradition_hard_working_name$#!" #NT!
+ next_level_smiths_name: "#V $tradition_metal_craftsmanship_name$#!" #NT!
+ temple_next_level_name: "#V $tradition_fervent_temple_builders_name$#!" #NT!
+ next_level_monasteries_name: "#V $tradition_monastic_communities_name$#!" #NT!
+ next_level_fortification_name: "#V $tradition_stalwart_defenders_name$#!" #NT!
+ next_level_cities_name: "#V $tradition_republican_legacy_name$#!" #NT!
+ vegetarian_next_level_cereal_fields_name: "#V $tradition_vegetarianism_name$#!" #NT!
+ vegetarian_building_ban_name: "#V $tradition_vegetarianism_name$#!" #NT!
+ warrior_lodges_lift_restrictions_name: "#V $tradition_reverence_for_veterans_name$#!" #NT!
+ farm_estates_pastures_unlock_name: "#V $tradition_pastoralists_name$#!" #NT!
+ watermills_forestries_unlock_name: "#V $tradition_forest_wardens_name$#!" #NT!
+ windmills_hill_farms_unlock_name: "#V $tradition_hill_dwellers_name$#!" #NT!
+ second_caravanserai_name: "#V $tradition_caravaneers_name$#!" #NT!
   
  ### Decision loc 
+ recruit_terrain_specialist_decision: "Reclutar especialista en terreno" #NT!
+ CHOOSE_TERRAIN_SPECIALIST_DECISION_NEXT_STEP_BUTTON: "Elija Especialista en Terreno" #NT!
+ recruit_terrain_specialist_decision_confirm: "Recluta" #NT!
+ recruit_terrain_specialist_decision_tooltip: "Buscas un [commander|E] altamente calificado con el [commander_trait|E] seleccionado para unirse a tu [court|E]\n\n#weak Tu [culture_traditions|E] afecta los tipos de comandantes que puedes reclutar#!" #NT!
+  
  recruit_winter_specialist_decision: "Reclutar especialista en invierno"
  recruit_winter_specialist_decision_desc: "Mi pueblo resistente, los [ROOT.Char.GetCulture.GetCollectiveNoun], son dueños del frío. Si necesito un comandante experto para guiar a mis tropas a través del invierno implacable, sólo necesito enviar un mensaje: no faltan veteranos congelados dispuestos a atender mi llamado."
  recruit_winter_specialist_decision.tt: "Un [martial|E] [commander|E] alto con el [GetTrait('winter_soldier').GetName( GetNullCharacter )] [trait|E] se une a tu [court|E]"
@@ -658,6 +712,7 @@
  culture_parameter_cannot_fire_court_chaplain: "No puedes disparar tu [court_chaplain|E]"
  culture_parameter_extra_piety_from_temple_construction: "Obtenga un beneficio adicional significativo de [piety_i][piety|E] al construir [temple|E] [holdings|E]"
  culture_parameter_renown_from_temple_construction: "Gana [dynasty_prestige_i][dynasty_prestige|E] al construir y actualizar [temple|E] [holdings|E]"
+ culture_parameter_consolidate_rule_decision: "Obtén acceso a #high $consolidate_rule_decision$#! [decision|E] por [empires|E]" #NT!
  culture_parameter_prestige_from_temple_construction: "Obtenga [prestige_i][prestige|E] significativo al construir [temple|E] [holdings|E]"
  culture_parameter_less_likely_to_force_conversion: "[rulers|E] tiene menos probabilidades de exigir conversión a su [vassals|E]"
  culture_parameter_enables_unite_africa_decision: "Habilita el programa Unir África [decision|E] para culturas sin africano [heritage|E]"
@@ -724,6 +779,7 @@
  culture_parameter_marriage_acceptance_bonus: "[marriage|E] Aceptación: #P +10#!"
  culture_parameter_tribal_holding_fort_level_in_jungle_bonus: "[fort_level|E] para [tribes|E] en Selva [terrain|E]: [fort_level_i]#P +[EmptyScope.ScriptValue('tribal_holding_fort_level_in_jungle_bonus_value')|0]#!"
  culture_parameter_castle_holding_fort_level_in_jungle_bonus: "[fort_level|E] para [castles|E] en Selva [terrain|E]: [fort_level_i]#P +[EmptyScope.ScriptValue('castle_holding_fort_level_in_jungle_bonus_value')|0]#!"
+ culture_parameter_tribal_holding_stationed_bonus: "La línea #V $building_type_tribe_01$#! de [buildings|E] proporciona bonificaciones adicionales [stationed|E] [men_at_arms|E]" #NT!
   
  culture_parameter_close_family_better_councillors: "El progreso base y el impacto de [skill|E] en [councillor_tasks|E] aumentan en #P +10%#! para [close_family|E] miembros"
  culture_parameter_close_family_better_court_positions: "[court_position|E] [aptitude|E] para [close_family|E] miembros: #P +20#!"
@@ -851,6 +907,8 @@
  not_bureaucratic_courtly_or_egalitarian_desc: "El [culture|E] no tiene el $ethos_bureaucratic_name$, $ethos_courtly_name$ ni el $ethos_egalitarian_name$ [ethos|E]"
  not_bureaucratic_spiritual_or_egalitarian_desc: "El [culture|E] no tiene el $ethos_bureaucratic_name$, $ethos_spiritual_name$ o $ethos_egalitarian_name$ [ethos|E]"
  not_bureaucratic_courtly_or_spiritual_desc: "El [culture|E] no tiene el $ethos_bureaucratic_name$, $ethos_courtly_name$ ni el $ethos_spiritual_name$ [ethos|E]"
+ culture_parameter_can_adopt_administrative_government_as_kingdom_tier: "[SelectLocalization( HasDlcFeature( 'royal_court' ), 'can_adopt_administrative_government_as_kingdom_tier_text', '' )]" #NT!
+ can_adopt_administrative_government_as_kingdom_tier_text: "Los gobernantes también pueden adoptar el tipo [administrative|E] [government|E] como [king|E] cuando son [emperors|E]" #NT!
   
   ## Spiritual. 
   
@@ -948,6 +1006,7 @@
  rulers_with_lifestyle_herbalist_desc: "El [culture|E] no tiene #V 3#! [rulers|E] con el [GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )] [trait|E]"
  rulers_following_different_faiths_desc: "No tienes al menos #V 5#! [vassals|E] de tu [culture|E] que siga a un [faith|E] diferente"
  culture_head_cavalry_desc: "No tienes un [regiment|E] de [light_cavalry|E], [heavy_cavalry|E] o [archer_cavalry|E] de al menos #V 8#! de tamaño"
+ culture_head_heavy_cavalry_desc: "No tienes un [regiment|E] de [heavy_cavalry|E] de al menos #V 8#! de tamaño" #NT!
  tradition_cultural_head_affinity_penalty_desc: "El [culture_head|E] no tiene ningún [traits|E] correspondiente"
  tradition_cultural_head_trait_bonus: "[traits|E] de [culture_head|E]"
  tradition_cultural_head_learning_penalty: "El [culture_head|E] tiene bajo [learning_skill|E]"
@@ -1169,6 +1228,7 @@
  culture_parameter_always_unlock_legendary_hunting_lodge: "[SelectLocalization( HasDlcFeature( 'legends' ), 'culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC', 'culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC' )]"
  culture_parameter_always_unlock_legendary_hunting_lodge_NO_LEGENDS_DLC: ""
  culture_parameter_always_unlock_legendary_hunting_lodge_HAS_LEGENDS_DLC: "[rulers|E] de este [culture|E] siempre puede construir un $building_type_legendary_hunting_lodge$ después de completar un [legend|E]"
+ culture_parameter_less_plague_spread_culture: "[characters|E] de estos [culture|E] tienen una mayor probabilidad de [epidemics|E] no propagarse a sus tierras" #NT!
   
   
   #BP2 Traditions 
@@ -1180,3 +1240,79 @@
  traditionalist_discount_desc: "El [culture|E] fue conducido hacia el tradicionalismo por su [culture_head|E]"
  culture_parameter_more_hostage_acceptance: "[characters|E] de este [culture|E] están más dispuestos a enviar, tomar y devolver [hostages|E]"
  culture_parameter_more_hostage_acceptance_for_vassals: "[characters|E] de este [culture|E] están más dispuestos a enviar, tomar y devolver [hostages|E] con su [liege|E]"
+  
+ #EP3 Traditions 
+ tradition_ep3_indomitable_azatani_name: "Azatani indomable" #NT!
+ tradition_ep3_indomitable_azatani_desc: "Para los nobles ferozmente orgullosos de esta cultura, que descienden atronadores de sus altas fortalezas, "La herida de una daga se cura, ¡pero la de una lengua, nunca!"" #NT!
+ culture_parameter_house_hostility_more_common: "[rulers|E] Actuar de forma más agresiva contra otros [houses|E]" #NT!
+ culture_parameter_vassals_more_likely_to_refuse_demands: "[characters|E] tienen más probabilidades de rechazar [imprisonment|E], [retractions|E] y [revocations|E]" #NT!
+  
+ tradition_ep3_audacious_cadets_name: "Cadetes audaces" #NT!
+ tradition_ep3_audacious_cadets_desc: "Esta cultura está definida por multitudes inquietas de hijos jóvenes. Estos jinetes, audaces y sin escrúpulos, persiguen sueños de aventuras lejanas, de crueldades mercenarias y de gloriosas conquistas." #NT!
+  
+ culture_parameter_ambitious_trait_more_common: "El [GetTrait('ambitious').GetName( GetNullCharacter )] [trait|E] es más común" #NT!
+ culture_parameter_reduced_bodyguard_aptitude: "Reducido [GetCourtPositionType('bodyguard_court_position').GetName()] [aptitude|E]" #NT!
+  
+ tradition_ep3_imperial_tagmata_name: "Tagmata imperial" #NT!
+ tradition_ep3_imperial_tagmata_desc: "Los regimientos de élite, bien armados, forman la columna vertebral de las campañas militares de esta cultura. Sus altivas tropas tienen poco respeto por los pequeños nobles guerreros y los actos temerarios de valor personal; en cambio, honran la disciplina y los nombres sagrados de sus unidades. #EMP ¡Exkoubitoi! ¡Scholai! ¡Hikanatoi!#!" #NT!
+  
+ domain_counties_with_stables_desc: "El [culture_head|E] no contiene #high 8#! [counties|E] con $building_type_stables_01$ incorporado en uno de sus [holdings|E]" #NT!
+  
+ tradition_ep3_roman_ceremonies_name: "Ceremonias romanas" #NT!
+ tradition_ep3_roman_ceremonies_desc: "Los emperadores del pasado han otorgado a esta cultura una grandeza persistente, ritos espectaculares, un respeto por el cargo imperial... y una vida pública llena de agitación." #NT!
+  
+ tradition_ep3_palace_politics_name: "Política de palacio" #NT!
+ tradition_ep3_palace_politics_desc: "Eunucos poderosos y aduladores vestidos de seda manejan un vasto aparato político, impresionando con galas, adulando con honores y conspirando viciosamente en nombre del progreso." #NT!
+ culture_head_court_grandeur_desc: "El [culture_head|E] no tiene un [court_grandeur_level|E] de #high 8#! o superior" #NT!
+ culture_parameter_unlock_akolouthos: "Puede nombrar a [GetCourtPositionType('akolouthos_court_position').GetName()] [court_position|E], cuando se mantiene a $e_byzantium$ [title|E] y se ha fundado la Guardia Varega." #NT!
+  
+ capital_province_development_level_desc: "La capital del [culture_head|E] no tiene un [county_development|E] de #high 30#! o mayor" #NT!
+  
+ culture_parameter_other_cultures_more_likely_to_hybridize: "Otros-[culture|E] [rulers|E] tienen más probabilidades de [hybridize|E] con este [culture|E]" #NT!
+ culture_parameter_estate_building_upgrade_development_gain: "Construir o mejorar [estate_buildings|E] proporciona #P [EmptyScope.ScriptValue('cultivated_sophistication_development_gain')|=+0]#! [development_growth|E] al [estate|E] [county|E]" #NT!
+  
+ tradition_ep3_cultivated_sophistication_name: "Sofisticación cultivada" #NT!
+ tradition_ep3_cultivated_sophistication_desc: "Los bárbaros contemplan con envidia los lujos resplandecientes de esta cultura y la sofisticación de su sociedad. Impulsada por un sentido de primacía, esta cultura rechaza cualquier contradicción que se encuentre fuera de su esfera de influencia cosmopolita." #NT!
+ must_have_administrative_government_tt: "El tipo [government|E] de [culture_head|E] debe ser [administrative|E]" #NT!
+  
+ hosts_chariot_races_name: "Cuadriga" #NT!
+ culture_parameter_hosts_chariot_races: "Puede albergar al [GetActivityType('activity_chariot_race').GetName] [activity|E] y contratar tanto a un [GetCourtPositionType('charioteer_court_position').GetName] como a un [GetCourtPositionType('bookmaker_court_position').GetName]" #NT!
+ culture_parameter_unlock_voluntary_laampdom: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_unlock_voluntary_laampdom_DLC', 'culture_parameter_unlock_voluntary_laampdom_NO_DLC' )]" #NT!
+ culture_parameter_unlock_voluntary_laampdom_DLC: "Permite el [GetDecisionWithKey('become_landless_adventurer_decision').GetName] [decision|E]" #NT!
+ culture_parameter_unlock_voluntary_laampdom_NO_DLC: ""
+ unlock_voluntary_laampdom_name: "[GetCultureTradition('tradition_swords_for_hire').GetName], [GetCultureTradition('tradition_horse_lords').GetName], [GetCultureTradition('tradition_futuwaa').GetName] o [GetCultureTradition('tradition_ep3_audacious_cadets').GetName]" #NT!
+  
+ unlock_junior_emperors_name: "[nominal_duumvirates|E]" #NT!
+ culture_parameter_unlock_junior_emperors: "[administrative|E] [emperors|E] puede designar a uno de sus [children|E] como [junior_emperor|E], entrando en un [nominal_duumvirate|E] hasta que el $game_concept_child$ alcance la mayoría de edad." #NT!
+ unlock_co_emperors_name: "[duumvirates|E]" #NT!
+ culture_parameter_unlock_co_emperors: "[administrative|E] [emperors|E] puede entrar en [duumvirates|E], voluntariamente [sharing_power|E] con otro [character|E] para obtener bonificaciones poderosas" #NT!
+  
+ holds_triumphs_name: "Tiene triunfos" #NT!
+ culture_parameter_holds_triumphs: "Gana un [decision|E] para mantener un triunfo" #NT!
+  
+ culture_parameter_farm_estates_pastures_unlock: "La construcción de #V $building_pastures_04$#! [building|E] desbloquea los primeros cuatro niveles de la línea #V $building_type_farm_estates_01$#! de [buildings|E]" #NT!
+ culture_parameter_watermills_forestries_unlock: "La construcción de #V $building_logging_camps_04$#! [building|E] desbloquea los primeros cuatro niveles de la línea #V $building_type_watermills_01$#! de [buildings|E]" #NT!
+ culture_parameter_windmills_hill_farms_unlock: "La construcción de #V $building_hill_farms_04$#! [building|E] desbloquea los primeros cuatro niveles de la línea #V $building_type_windmills_01$#! de [buildings|E]" #NT!
+ culture_parameter_second_caravanserai: "Se puede construir un segundo #V $building_type_caravanserai_01$#! en [counties|E] de este [culture|E]" #NT!
+  
+ culture_parameter_family_castration: "Puede utilizar el $castrate_child_interaction$ [interaction|E]" #NT!
+  
+ EVENT_BONUS_INTERMARRYING_ADMIN: "Lazos de larga data entre [houses|E]: $VALUE|+=0$" #NT!
+  
+ culture_parameter_allows_noble_family_adoption: "[administrative|E] [noble_family|E] [house_heads|E] pueden usar el #V $noble_family_adoption_interaction$#! [interaction|E]" #NT!
+  
+ culture_parameter_much_more_likely_to_be_laamps: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_much_more_likely_to_be_laamps_DLC', 'culture_parameter_much_more_likely_to_be_laamps_NO_DLC' )]" #NT!
+ culture_parameter_much_more_likely_to_be_laamps_DLC: "[characters|E] tienen muchas más probabilidades de convertirse en [adventurers|E]" #NT!
+ culture_parameter_much_more_likely_to_be_laamps_NO_DLC: ""
+ culture_parameter_more_likely_to_be_laamps: "[SelectLocalization( HasDlcFeature( 'landless_playable' ), 'culture_parameter_more_likely_to_be_laamps_DLC', 'culture_parameter_more_likely_to_be_laamps_NO_DLC' )]" #NT!
+ culture_parameter_more_likely_to_be_laamps_DLC: "[characters|E] tienen muchas más probabilidades de convertirse en [adventurers|E]" #NT!
+ culture_parameter_more_likely_to_be_laamps_NO_DLC: ""
+  
+ culture_parameter_frontier_themes_borrow_neighbor_troops: "Administración Fronteriza [governorships|E] puede tomar prestado el [title_men_at_arms|E] de vecinos que no sean de Frontier" #NT!
+  
+ culture_parameter_less_likely_to_culture_convert: "La conversión #high a la cultura local#! [decision|E] provoca una ganancia [stress|E] y se evita mediante [rulers|E]" #NT!
+ culture_parameter_less_likely_to_promote_culture: "[rulers|E] rara vez usará #V $task_promote_culture$#! [councillor_task|E]" #NT!
+  
+ culture_parameter_resistant_to_desert_privation: ""
+ culture_parameter_resistant_to_mountain_privation: ""
+ culture_parameter_resistant_to_winter_privation: ""

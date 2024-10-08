@@ -105,9 +105,27 @@
  EXECUTE_SCHEME_EFFECT: "Ejecuta el esquema"
  END_SCHEME_EFFECT: "Finaliza [SCHEME.GetOwner.GetShortUINamePossessive] [scheme|E] a [SCHEME.GetFullActionName]"
  ENDED_SCHEME_EFFECT: "Finalizado [SCHEME.GetOwner.GetShortUINamePossessive] [scheme|E] a [SCHEME.GetFullActionName]"
- START_SCHEME_EFFECT: "Comienza un $TYPE$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName]"
- THEY_START_SCHEME_EFFECT: "[CHARACTER.GetShortUIName|U] inicia un plan de $TYPE$ contra [TARGET_CHARACTER.GetShortUIName]"
- STARTED_SCHEME_EFFECT: "Comenzó un $TYPE$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName]"
+  
+ START_SCHEME_AGAINST_CHARACTER_EFFECT_FIRST: "Empiezo un $TYPE$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ THEY_START_SCHEME_AGAINST_CHARACTER_EFFECT: "[CHARACTER.GetShortUIName|U] inicia un plan de $TYPE$ contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ START_SCHEME_AGAINST_CHARACTER_EFFECT_GLOBAL: "Comienza un $TYPE$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ STARTED_SCHEME_AGAINST_CHARACTER_EFFECT: "Empecé un $TYPE$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ THEY_STARTED_SCHEME_AGAINST_CHARACTER_EFFECT: "[CHARACTER.GetShortUIName|U] inició un $TYPE$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ STARTED_SCHEME_AGAINST_CHARACTER_EFFECT_GLOBAL: "Comenzó un $TYPE$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+  
+ START_SCHEME_AGAINST_TITLE_EFFECT: "Comienza un $TYPE$ [scheme|E] contra [TARGET_TITLE.GetName]" #NT!
+ THEY_START_SCHEME_AGAINST_TITLE_EFFECT: "[CHARACTER.GetShortUIName|U] inicia un plan de $TYPE$ contra [TARGET_TITLE.GetName]" #NT!
+ STARTED_SCHEME_AGAINST_TITLE_EFFECT: "Comenzó un $TYPE$ [scheme|E] contra [TARGET_TITLE.GetName]" #NT!
+ START_SCHEME_AGAINST_CULTURE_EFFECT: "Comienza un $TYPE$ [scheme|E] contra [TARGET_CULTURE.GetName]" #NT!
+ THEY_START_SCHEME_AGAINST_CULTURE_EFFECT: "[CHARACTER.GetShortUIName|U] inicia un plan de $TYPE$ contra [TARGET_CULTURE.GetName]" #NT!
+ STARTED_SCHEME_AGAINST_CULTURE_EFFECT: "Comenzó un $TYPE$ [scheme|E] contra [TARGET_CULTURE.GetName]" #NT!
+ START_SCHEME_AGAINST_FAITH_EFFECT: "Comienza un $TYPE$ [scheme|E] contra [FAITH.GetName]" #NT!
+ THEY_START_SCHEME_AGAINST_FAITH_EFFECT: "[CHARACTER.GetShortUIName|U] inicia un plan de $TYPE$ contra [FAITH.GetName]" #NT!
+ STARTED_SCHEME_AGAINST_FAITH_EFFECT: "Comenzó un $TYPE$ [scheme|E] contra [FAITH.GetName]" #NT!
+ START_SCHEME_AGAINST_NOTHING_EFFECT: "Comienza un $TYPE$ [scheme|E]" #NT!
+ THEY_START_SCHEME_AGAINST_NOTHING_EFFECT: "[CHARACTER.GetShortUIName|U] inicia un esquema $TYPE$" #NT!
+ STARTED_SCHEME_AGAINST_NOTHING_EFFECT: "Comenzó un $TYPE$ [scheme|E]" #NT!
+  
  REMOVE_TERRAIN_MODIFIER_EFFECT: "Eliminar modificador de terreno $TYPE$"
  ADD_TERRAIN_MODIFIER_EFFECT: "Añadir modificador de terreno $TYPE$"
  ADD_MORALE_EFFECT_POSITIVE: "Obtiene $VALUE|+$ Moral"
@@ -142,6 +160,11 @@
  THEY_HAVE_BEEN_EXPOSED_AS_AGENT_IN_SCHEME_NAME: "[TARGET_CHARACTER.GetShortUIName|U] ha sido expuesto como [agent|E] en el [SCHEME.GetName] contra [SCHEME.GetTarget.GetShortUIName]"
   
  SCHEME_COOLDOWN_EFFECT: "No se puede iniciar un $TYPE|V$ contra [TARGET_CHARACTER.GetShortUIName] hasta $DURATION|V$"
+ SCHEME_COOLDOWN_EFFECT_PAST: "No se puede iniciar un $TYPE|V$ [scheme|E] contra [TARGET_CHARACTER.GetShortUIName] hasta $DURATION|V$" #NT!
+ add_scheme_cooldown_third: "$SCHEME_COOLDOWN_EFFECT$" #NT!
+ add_scheme_cooldown_global: "$SCHEME_COOLDOWN_EFFECT$" #NT!
+ add_scheme_cooldown_third_past: "$SCHEME_COOLDOWN_EFFECT_PAST$" #NT!
+ add_scheme_cooldown_global_past: "$SCHEME_COOLDOWN_EFFECT_PAST$" #NT!
  SCHEME_EXPOSE_CHARACTER_EFFECT: "Expone que [CHARACTER.GetShortUIName] está involucrado en [SCHEME.GetName|V]"
  REMOVE_CHARACTER_FLAG_EFFECT: "Pierde la bandera $FLAG$"
  REMOVE_CHARACTER_MODIFIER_EFFECT: "Pierde $MODIFIER$"
@@ -199,9 +222,29 @@
  START_WAR_EFFECT_FIRST: "Empiezas una guerra contra [TARGET_CHARACTER.GetShortUIName] con el "$CASUS_BELLI$" [casus_belli|E]"
  START_WAR_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] inicia una guerra contra [TARGET_CHARACTER.GetShortUIName] con el "$CASUS_BELLI$" [casus_belli|E]"
  START_WAR_EFFECT: "[CHARACTER.GetShortUIName|U] inicia una guerra contra [TARGET_CHARACTER.GetShortUIName] con el "$CASUS_BELLI$" [casus_belli|E]"
+ START_WAR_EFFECT_FIRST_PAST: "Empezaste una guerra contra [TARGET_CHARACTER.GetShortUIName] con el $CASUS_BELLI$ [casus_belli|E]" #NT!
+ START_WAR_EFFECT_THIRD_PAST: "[CHARACTER.GetShortUIName|U] inició una guerra contra [TARGET_CHARACTER.GetShortUIName] con el $CASUS_BELLI$ [casus_belli|E]" #NT!
+ START_WAR_EFFECT_PAST: "[CHARACTER.GetShortUIName|U] inició una guerra contra [TARGET_CHARACTER.GetShortUIName] con el $CASUS_BELLI$ [casus_belli|E]" #NT!
+  
  END_WAR_ATTACKER_VICTORY: "[WAR.GetActiveCB.GetAttacker.GetUIName] gana el [WAR.GetName]"
- END_WAR_DEFENDER_VICTORY: "[WAR.GetActiveCB.GetDefender.GetUIName] gana el [WAR.GetName]"
+ END_WAR_ATTACKER_VICTORY_FIRST: "[WAR.GetActiveCB.GetAttacker.GetUIName|U] gana el [WAR.GetName]" #NT!
+ END_WAR_ATTACKER_VICTORY_THIRD: "[WAR.GetActiveCB.GetAttacker.GetUIName] gana el [WAR.GetName]" #NT!
+ ENDED_WAR_ATTACKER_VICTORY: "[WAR.GetActiveCB.GetAttacker.GetUIName|U] ganó el [WAR.GetName]" #NT!
+ ENDED_WAR_ATTACKER_VICTORY_FIRST: "[WAR.GetActiveCB.GetAttacker.GetUIName|U] ganó el [WAR.GetName]" #NT!
+ ENDED_WAR_ATTACKER_VICTORY_THIRD: "[WAR.GetActiveCB.GetAttacker.GetUIName|U] ganó el [WAR.GetName]" #NT!
  END_WAR_EFFECT_WHITE_PEACE: "El [WAR.GetName|V] termina en [white_peace|E]"
+ END_WAR_EFFECT_WHITE_PEACE_FIRST: "$END_WAR_EFFECT_WHITE_PEACE$" #NT!
+ END_WAR_EFFECT_WHITE_PEACE_THIRD: "$END_WAR_EFFECT_WHITE_PEACE$" #NT!
+ ENDED_WAR_EFFECT_WHITE_PEACE: "El [WAR.GetName|V] terminó en [white_peace|E]" #NT!
+ ENDED_WAR_EFFECT_WHITE_PEACE_FIRST: "$ENDED_WAR_EFFECT_WHITE_PEACE$" #NT!
+ ENDED_WAR_EFFECT_WHITE_PEACE_THIRD: "$ENDED_WAR_EFFECT_WHITE_PEACE$" #NT!
+ END_WAR_DEFENDER_VICTORY: "[WAR.GetActiveCB.GetDefender.GetUIName] gana el [WAR.GetName]"
+ END_WAR_DEFENDER_VICTORY_FIRST: "[WAR.GetActiveCB.GetDefender.GetUIName|U] gana el [WAR.GetName]" #NT!
+ END_WAR_DEFENDER_VICTORY_THIRD: "[WAR.GetActiveCB.GetDefender.GetUIName] gana el [WAR.GetName]" #NT!
+ ENDED_WAR_DEFENDER_VICTORY: "[WAR.GetActiveCB.GetDefender.GetUIName|U] ganó el [WAR.GetName]" #NT!
+ ENDED_WAR_DEFENDER_VICTORY_FIRST: "[WAR.GetActiveCB.GetDefender.GetUIName|U] ganó el [WAR.GetName]" #NT!
+ ENDED_WAR_DEFENDER_VICTORY_THIRD: "[WAR.GetActiveCB.GetDefender.GetUIName|U] ganó el [WAR.GetName]" #NT!
+  
  END_WAR_INVALIDATED: "[WAR.GetName|V] termina sin ser concluyente"
  SET_CASUS_BELLI_EFFECT: "[WAR.GetName|V] se convierte en una guerra $CASUS_BELLI|V$"
  SET_CALLED_TO_WAR: "[TARGET_CHARACTER.GetShortUIName|U] ya ha sido llamado al [WAR.GetName]"
@@ -332,6 +375,22 @@
  I_LOST_DREAD_EFFECT: "Perdiste $VALUE|-0$ [dread|E]"
  THEY_GAINED_DREAD_EFFECT: "[CHARACTER.GetShortUIName|U] ganado $VALUE|V0$ [dread|E]"
  THEY_LOST_DREAD_EFFECT: "[CHARACTER.GetShortUIName|U] perdido $VALUE|V0$ [dread|E]"
+  
+ ADD_PROVISIONS_EFFECT_POSITIVE: "$NAME$ obtiene [provisions_i]$VALUE|+0$ [provisions|E]" #NT!
+ ADD_PROVISIONS_EFFECT_NEGATIVE: "$NAME$ pierde [provisions_i]$VALUE|-0$ [provisions|E]" #NT!
+ I_GAIN_PROVISIONS_EFFECT: "Ganas [provisions_i]$VALUE|+0$ [provisions|E]" #NT!
+ I_LOSE_PROVISIONS_EFFECT: "Pierdes [provisions_i]$VALUE|-0$ [provisions|E]" #NT!
+ GAIN_PROVISIONS_EFFECT: "Ganancias [provisions_i]$VALUE|+0$ [provisions|E]" #NT!
+ LOSE_PROVISIONS_EFFECT: "Pierde [provisions_i]$VALUE|-0$ [provisions|E]" #NT!
+ GAINED_PROVISIONS_EFFECT: "Ganado [provisions_i]$VALUE|+0$ [provisions|E]" #NT!
+ LOST_PROVISIONS_EFFECT: "Perdido [provisions_i]$VALUE|-0$ [provisions|E]" #NT!
+ THEY_GAIN_PROVISIONS_EFFECT: "[DOMICILE.GetOwner.GetShortUIName|U] ganancia[_s(DOMICILE.GetOwner)] [provisions_i]$VALUE|+0$ [provisions|E]" #NT!
+ THEY_LOSE_PROVISIONS_EFFECT: "[DOMICILE.GetOwner.GetShortUIName|U] pierde[_s(DOMICILE.GetOwner)] [provisions_i]$VALUE|-0$ [provisions|E]" #NT!
+ I_GAINED_PROVISIONS_EFFECT: "Ganaste [provisions_i]$VALUE|+0$ [provisions|E]" #NT!
+ I_LOST_PROVISIONS_EFFECT: "Perdiste [provisions_i]$VALUE|-0$ [provisions|E]" #NT!
+ THEY_GAINED_PROVISIONS_EFFECT: "[DOMICILE.GetOwner.GetShortUIName|U] ganado [provisions_i]$VALUE|+0$ [provisions|E]" #NT!
+ THEY_LOST_PROVISIONS_EFFECT: "[DOMICILE.GetOwner.GetShortUIName|U] perdido [provisions_i]$VALUE|-0$ [provisions|E]" #NT!
+  
  RANDOM_LIST_EFFECT_HEADER: "#S $DESC$:#!"
  RANDOM_LIST_DEFAULT_DESC: "Posibles resultados"
  RANDOM_LIST_DEFAULT_MULTIPLE_DESC: "Posibles resultados, elige cualquier combinación de $VALUE|V0$ resultados"
@@ -644,6 +703,22 @@
  THEY_LOSE_POTENTIAL_RIVAL: "[CHARACTER.GetShortUIName|U] ya no está en la garganta de [TARGET_CHARACTER.GetShortUIName]"
  THEY_GAIN_POTENTIAL_RIVAL: "[CHARACTER.GetShortUIName|U] está cada vez más cerca de formar una rivalidad con [TARGET_CHARACTER.GetShortUIName]"
  THEY_GAINED_POTENTIAL_RIVAL: "[CHARACTER.GetShortUIName|U] estuvo cerca de formar una rivalidad con [TARGET_CHARACTER.GetShortUIName]"
+  
+ GAINS_GRUDGE: "Desarrolla un rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ I_GAIN_GRUDGE: "Desarrollas rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ THEY_GAIN_GRUDGE: "[CHARACTER.GetShortUIName|U] desarrolla rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+  
+ GAINED_GRUDGE: "Desarrollé un rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ I_GAINED_GRUDGE: "Desarrollaste un rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ THEY_GAINED_GRUDGE: "[CHARACTER.GetShortUIName|U] desarrolló un rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+  
+ LOSES_GRUDGE: "Deja caer el rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ I_LOSE_GRUDGE: "Dejas caer tu rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ THEY_LOSE_GRUDGE: "[CHARACTER.GetShortUIName|U] gotas [CHARACTER.GetHerHis] rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+  
+ LOST_GRUDGE: "Dejé de guardar rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ I_LOST_GRUDGE: "Dejaste caer tu rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
+ THEY_LOST_GRUDGE: "[CHARACTER.GetShortUIName|U] cayó [CHARACTER.GetHerHis] rencor contra [TARGET_CHARACTER.GetShortUIName]" #NT!
   
  I_GAIN_WEDDING_GOOD_FERTILITY: "Tu matrimonio con [TARGET_CHARACTER.GetShortUIName] está destinado a producir muchos descendientes"
  I_GAINED_WEDDING_GOOD_FERTILITY: "Tu matrimonio con [TARGET_CHARACTER.GetShortUIName] estaba destinado a producir muchos descendientes."
@@ -1049,8 +1124,12 @@
  THEIR_PREGNANCY_HAS_ENDED: "[CHARACTER.GetShortUINamePossessive] el embarazo ha terminado"
   
  FORCE_ADD_TO_SCHEME_THIRD: "[CHARACTER.GetShortUIName|U] se ve obligado a unirse a [SCHEME.GetName] contra [SCHEME.GetTarget.GetShortUIName] hasta $DURATION$"
-  
  ADD_TO_SCHEME_THIRD: "[CHARACTER.GetShortUIName|U] se une al [SCHEME.GetName] contra [SCHEME.GetTarget.GetShortUIName]"
+  
+ ADD_AGENT_SLOT: "Añadir $CONTRIBUTION_ICON$ $AGENT_SLOT$ [agent|E] ranuras" #NT!
+  
+ ADD_SCHEME_OPPORTUNITIES_THIRD: "[scheme|E] obtiene @scheme_opportunity_icon!$VALUE|+0$ [scheme_opportunity_opportunities|E]" #NT!
+ REMOVE_SCHEME_OPPORTUNITIES_THIRD: "[scheme|E] gasta @scheme_opportunity_icon!$VALUE|-0$ [scheme_opportunity_opportunities|E]" #NT!
   
  DE_JURE_PRESTIGE: "[CHARACTER.GetShortUIName|U] gana [prestige_i]$VALUE|V0$"
  DE_JURE_PRESTIGE_LOSS: "[CHARACTER.GetShortUIName|U] pierde [prestige_i]$VALUE|V0$"
@@ -1098,6 +1177,8 @@
   # Yes I know the below is disgusting but I'm sick of the other way not working & staring at that bloody perspective false positive for months on end. 
  CHANGE_COUNTY_CONTROL_NEG: "El nivel [control|E] cambiará en #N -#!$VALUE|-0$"
  CHANGE_COUNTY_CONTROL_THIRD_NEG: "El nivel [control|E] en [TITLE.GetName] cambiará en #N -#!$VALUE|-0$"
+ CHANGE_COUNTY_CONTROL_PAST_NEG: "El nivel [control|E] cambió por #N -#!$VALUE|-0$" #NT!
+ CHANGE_COUNTY_CONTROL_THIRD_PAST_NEG: "El nivel [control|E] en [TITLE.GetName] cambió por #N -#!$VALUE|-0$" #NT!
   
  IT_RECEIVES_COUNTY_MODIFIER: "[TITLE.GetName] gana $MODIFIER|V$"
  RECEIVES_COUNTY_MODIFIER: "Ganancias $MODIFIER|V$"
@@ -1241,6 +1322,8 @@
  REMOVE_JOINED_FACTION_DISCONTENT_EFFECT: "El [faction|E] al que pertenece este personaje pierde $VALUE|V0$ [faction_discontent|E]"
  ADD_JOINED_FACTION_DISCONTENT_EFFECT_THIRD: "El [faction|E] [CHARACTER.GetShortUIName] pertenece a las ganancias $VALUE|V0$ [faction_discontent|E]"
  REMOVE_JOINED_FACTION_DISCONTENT_EFFECT_THIRD: "El [faction|E] [CHARACTER.GetShortUIName] pertenece a pierde $VALUE|V0$ [faction_discontent|E]"
+ ADD_JOINED_FACTION_DISCONTENT_EFFECT_FIRST: "[CHARACTER.GetShortUINamePossessive|U] [faction|E] gana $VALUE|V0$ [faction_discontent|E]" #NT!
+ REMOVE_JOINED_FACTION_DISCONTENT_EFFECT_FIRST: "[CHARACTER.GetShortUINamePossessive|U] [faction|E] pierde $VALUE|V0$ [faction_discontent|E]" #NT!
   
  ADD_TARGETING_FACTIONS_DISCONTENT_EFFECT: "[factions|E] objetivo [CHARACTER.GetShortUIName] ganancia $VALUE|V0$ [faction_discontent|E]"
  REMOVE_TARGETING_FACTIONS_DISCONTENT_EFFECT: "[factions|E] al apuntar a este personaje pierde $VALUE|V0$ [faction_discontent|E]"
@@ -1252,6 +1335,8 @@
  I_JOIN_FACTION_EFFECT: "Te unes al [FACTION.GetName|V]"
  I_JOINED_FACTION_EFFECT: "Te uniste al [FACTION.GetName|V]"
  JOIN_FACTION_EFFECT: "Se une al [FACTION.GetName|V]"
+ THEY_JOIN_FACTION_EFFECT: "[CHARACTER.GetShortUIName|U] se une al [FACTION.GetName|V] [faction|E]" #NT!
+ THEY_JOINED_FACTION_EFFECT: "[CHARACTER.GetShortUIName|U] se unió a [FACTION.GetName|V] [faction|E]" #NT!
  JOINED_FACTION_EFFECT: "Se unió al [FACTION.GetName|V]"
  JOIN_FACTION_FORCED_EFFECT: "[CHARACTER.GetShortUIName|U] es obligado por [TARGET_CHARACTER.GetShortUIName] a unirse a [FACTION.GetName|V] hasta $DURATION|V$"
   
@@ -1264,6 +1349,7 @@
  CREATED_FACTION_EFFECT: "Comenzó $TYPE|V$ contra [TARGET_CHARACTER.GetUIName]"
   
  FACTION_STARTS_WAR: "El [FACTION.GetName|V] inicia una guerra"
+ faction_starts_war.tt.replacement: "El [faction.GetName|V] [faction|E] inicia un [war|E]" #NT!
   
  TITLE_JOIN_FACTION: "[TITLE.GetName] se une al [FACTION.GetName|V]"
  TITLE_LEAVE_FACTION: "[TITLE.GetName] deja el [FACTION.GetName|V]"
@@ -1293,8 +1379,11 @@
  REMOVE_PARTICIPANT_EFFECT_THIRD: "[CHARACTER.GetUIName] dejas [WAR.GetName|V]"
   
  ENTERS_SERVICE: "[TARGET_CHARACTER.GetShortUIName|U] se une a [CHARACTER.GetShortUINamePossessive] Corte"
+ ENTERS_SERVICE_PAST: "[TARGET_CHARACTER.GetShortUIName|U] se unió [CHARACTER.GetShortUINamePossessive] [court|E]" #NT!
  ENTERS_MY_SERVICE: "[TARGET_CHARACTER.GetShortUIName|U] se une a tu Corte"
+ ENTERS_MY_SERVICE_PAST: "[TARGET_CHARACTER.GetShortUIName|U] se unió a tu [court|E]" #NT!
  ENTERS_THEIR_SERVICE: "[CHARACTER.GetShortUIName|U] se une a [TARGET_CHARACTER.GetShortUINamePossessive] Corte"
+ ENTERS_THEIR_SERVICE_PAST: "[CHARACTER.GetShortUIName|U] se unió [TARGET_CHARACTER.GetShortUINamePossessive] [court|E]" #NT!
   
  GIVE_NICKNAME_GLOBAL: "Gana el [nickname|E] #V '$NICKNAME|U$'#!"
  GIVE_NICKNAME_FIRST: "Obtienes el [nickname|E] #V '$NICKNAME|U$'#!"
@@ -1328,9 +1417,9 @@
  SET_DESIGNATED_HEIR_FIRST: "Tendrás a [TARGET_CHARACTER.GetShortUIName] como tu heredero designado"
  SET_DESIGNATED_HEIR_FIRST_PAST: "[TARGET_CHARACTER.GetShortUIName] es tu heredero designado"
  SET_DESIGNATED_HEIR_THIRD: "[CHARACTER.GetShortUIName|U] tendrá a [TARGET_CHARACTER.GetShortUIName] como su heredero designado"
- SET_DESIGNATED_HEIR_NONE_GLOBAL: "Ya no tendrá un heredero designado"
- SET_DESIGNATED_HEIR_NONE_FIRST: "Ya no tendrás un heredero designado"
- SET_DESIGNATED_HEIR_NONE_THIRD: "[CHARACTER.GetShortUIName|U] ya no tendrá un heredero designado"
+ CLEAR_DESIGNATED_HEIR_GLOBAL: "Ya no tendré un [designated_heir|E]" #NT!
+ CLEAR_DESIGNATED_HEIR_FIRST: "Ya no tendrás un [designated_heir|E]" #NT!
+ CLEAR_DESIGNATED_HEIR_THIRD: "[CHARACTER.GetShortUIName|U] ya no tendrá un [designated_heir|E]" #NT!
   
  DIVORCE_GLOBAL: "Divorcios [TARGET_CHARACTER.GetUIName]"
  DIVORCE_FIRST: "Te divorcias [TARGET_CHARACTER.GetUIName]"
@@ -1369,6 +1458,13 @@
  ADD_PRESTIGE_FROM_CONTRIBUTION_THIRD_PAST: "Los aliados de [CHARACTER.GetShortUIName] compartieron [prestige_i]$VALUE|V0$ en función de su contribución"
  ADD_PRESTIGE_FROM_CONTRIBUTION_PAST: "Los aliados compartieron [prestige_i]$VALUE|V0$ en función de su contribución"
   
+ ADD_PRESTIGE_FROM_CONTRIBUTION_FIRST_NEG: "Tu [allies|E] comparte [prestige_i]$VALUE|-0$ en base a su contribución" #NT!
+ ADD_PRESTIGE_FROM_CONTRIBUTION_THIRD_NEG: "[allies|E] de [CHARACTER.GetShortUIName] comparte [prestige_i]$VALUE|V0$ según su contribución" #NT!
+ ADD_PRESTIGE_FROM_CONTRIBUTION_NEG: "[allies|E] comparte [prestige_i]$VALUE|V0$ según su contribución" #NT!
+ ADD_PRESTIGE_FROM_CONTRIBUTION_FIRST_PAST_NEG: "Tu [allies|E] compartió [prestige_i]$VALUE|-0$ en base a su contribución" #NT!
+ ADD_PRESTIGE_FROM_CONTRIBUTION_THIRD_PAST_NEG: "[allies|E] de [CHARACTER.GetShortUIName] compartió [prestige_i]$VALUE|V0$ según su contribución" #NT!
+ ADD_PRESTIGE_FROM_CONTRIBUTION_PAST_NEG: "[allies|E] compartió [prestige_i]$VALUE|V0$ en función de su contribución" #NT!
+  
  ADD_PIETY_FROM_CONTRIBUTION_FIRST: "Tus aliados comparten [piety_i]$VALUE|+0$ según su contribución"
  ADD_PIETY_FROM_CONTRIBUTION_THIRD: "Los aliados de [CHARACTER.GetShortUIName] comparten [piety_i]$VALUE|V0$ según su contribución"
  ADD_PIETY_FROM_CONTRIBUTION: "Los aliados comparten [piety_i]$VALUE|V0$ según su contribución"
@@ -1391,6 +1487,7 @@
  ADD_OPINION_FROM_CONTRIBUTION_PAST: "Se aumentó [CHARACTER.GetHerHis] la opinión de [CHARACTER.GetHerHis] aliados en función de su contribución"
   
  I_CREATE_CADET_BRANCH: "Creas un [cadet_branch|E] de tu Casa actual"
+ CREATE_CADET_BRANCH: "Crea un [cadet_branch|E] de la Casa actual" #NT!
  DYNASTY_NO_NAME_GAINS_PRESTIGE_LEVEL_EFFECT: "Aumenta su [dynasty_prestige_level|E] en $VALUE|+0$"
  DYNASTY_NO_NAME_LOSES_PRESTIGE_LEVEL_EFFECT: "Disminuye su [dynasty_prestige_level|E] en $VALUE|-0$"
   
@@ -1842,6 +1939,8 @@
  I_CAN_USE_CELIBACY_DECISIONS: "Puedes tomar el [embrace_celibacy|E] y el [abandon_celibacy|E] [decisions|E]"
  THEY_CAN_USE_CELIBACY_DECISIONS: "[CHARACTER.GetShortUIName|U] puede tomar [embrace_celibacy|E] y [abandon_celibacy|E] [decisions|E]"
   
+ CAREFREE_PERK_EFFECT: "Puedes tomar el [GetDecisionWithKey('reject_inheritance_decision').GetName] [decision|E]" #NT!
+  
  RECEIVE_WARNING_OF_NATURAL_DEATH: "Recibir una advertencia cuando [character_death_death|E] de causas naturales esté a 1 año de distancia"
  I_WILL_RECEIVE_WARNING_OF_NATURAL_DEATH: "Cuando [character_death_death|E] de causas naturales esté a #V 1#! años de distancia, recibirás una advertencia"
  THEY_WILL_RECEIVE_WARNING_OF_NATURAL_DEATH: "Cuando [character_death_death|E] de causas naturales esté a #V 1#! años de distancia, [CHARACTER.GetShortUIName] recibirá una advertencia"
@@ -2177,6 +2276,7 @@
  custom.every_same_culture_vassal: "Cada [root_culture.GetName] [vassal|E]"
  custom.every_different_culture_vassal: "Cada no-[root_culture.GetName] [vassal|E]"
  custom.every_vassal_of_liege.tt: "Cada co-[vassal|E]"
+ custom.every_admin_vassal: "Cada [administrative|E] [vassal|E]" #NT!
  custom.every_attending_character: "Cada personaje presente"
  custom.every_attending_character_but_courtly: "Cada [GetVassalStance( 'courtly' ).GetTextIcon]No[GetVassalStance( 'courtly' ).GetName] asistente [vassal|E]"
  custom.every_non_callous_or_sadistic_courtier_and_guest: "Cada no insensible o sádico [courtier|E] y [guest|E]"
@@ -2203,6 +2303,23 @@
  custom.every_opposed_interloper_struggle_ruler.supporter: "Cada [GetTrait('fp3_struggle_supporter').GetName( GetNullCharacter )] [struggle_interloper|E] [ruler|E]"
  custom.every_opposed_involved_struggle_ruler.detractor: "Cada [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_involved|E] [ruler|E]"
  custom.every_opposed_interloper_struggle_ruler.detractor: "Cada [GetTrait('fp3_struggle_detractor').GetName( GetNullCharacter )] [struggle_interloper|E] [ruler|E]"
+ custom.every_domain_county: "Cada [domain|E] [county|E]" #NT!
+ custom.every_dynasty_member: "Cada [character|E] de tus [dynasty|E]" #NT!
+ custom.every_close_or_extended_family_member: "Cada [close_family|E] o [extended_family|E] [character|E]" #NT!
+ custom.every_judgemental_close_or_extended_family_member: "Cada crítico [close_family|E] o [extended_family|E] [character|E]" #NT!
+ custom.every_co_vassal_not_arrogant_or_ambitious: "Todo par [vassal|E] que no sea [GetTrait('arrogant').GetName( GetNullCharacter )] o [GetTrait('ambitious').GetName( GetNullCharacter )]" #NT!
+ custom.every_co_vassal_not_humble_or_content: "Todo par [vassal|E] que no sea [GetTrait('humble').GetName( GetNullCharacter )] o [GetTrait('content').GetName( GetNullCharacter )]" #NT!
+ custom.recipient_every_vassal: "Cada [vassal|E] de [recipient.GetTitledFirstName]" #NT!
+ custom.every_target_de_jure_vassal: "Cada [de_jure|E] [vassal|E] de [target.GetDefinitiveName]" #NT!
+ custom.every_scheme_agent_character: "Cada [agent|E] en el [scheme.GetName] [scheme|E]" #NT!
+ custom.every_adult_follower: "Cada [adult|E] [follower|E]" #NT!
+ custom.every_follower: "Cada [follower|E]" #NT!
+ custom.every_callous_follower: "Cada [GetTrait('callous').GetName( GetNullCharacter )] [follower|E]" #NT!
+ custom.every_compassionate_follower: "Cada [GetTrait('compassionate').GetName( GetNullCharacter )] [follower|E]" #NT!
+ custom.every_non_callous_or_sadistic_follower: "Cada uno que no sea [GetTrait('callous').GetName( GetNullCharacter )] o [GetTrait('sadistic').GetName( GetNullCharacter )] [follower|E]" #NT!
+ custom.every_other_follower: "Todos los demás [follower|E]" #NT!
+ custom.every_contact_with_positive_opinion: "Cada [contact_list_contact|E] con [opinion|E] positivo" #NT!
+ custom.every_contact_with_negative_opinion: "Cada [contact_list_contact|E] con negativo [opinion|E]" #NT!
   
  guest_and_family_move_to_specific_pool_effect.tt.family: "El [character|E] y cualquier [family|E] que viaje con ellos"
   
@@ -2435,12 +2552,14 @@
   
  I_DESIGNATE_DIARCH: "Designo a [TARGET_CHARACTER.GetName] como mi futuro [CHARACTER.GetDiarchTitle]"
  THEY_DESIGNATE_DIARCH: "[CHARACTER.GetName] designa a [TARGET_CHARACTER.GetName] como [CHARACTER.GetHerHis] futuro [CHARACTER.GetDiarchTitle]"
+ GLOBAL_DESIGNATE_DIARCH: "[TARGET_CHARACTER.GetName] se designa como [CHARACTER.GetNamePossessive] futuro [CHARACTER.GetDiarchTitle]" #NT!
   
  I_DESIGNATED_DIARCH: "Designé a [TARGET_CHARACTER.GetName] como mi futuro [CHARACTER.GetDiarchTitle]"
  THEY_DESIGNATED_DIARCH: "[CHARACTER.GetName] designado [TARGET_CHARACTER.GetName] como [CHARACTER.GetHerHis] futuro [CHARACTER.GetDiarchTitle]"
   
  I_START_DIARCHY: "Entro [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName]"
  THEY_START_DIARCHY: "[CHARACTER.GetName] entra [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName]"
+ GLOBAL_START_DIARCHY: "$THEY_START_DIARCHY$" #NT!
   
  I_STARTED_DIARCHY: "Ingresé [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName]"
  THEY_STARTED_DIARCHY: "[CHARACTER.GetName] ingresado [CHARACTER.Custom('GetDiarchyArticle')] [CHARACTER.GetDiarchyTypeName]"
@@ -2463,6 +2582,7 @@
   
  I_SET_DIARCH: "[TARGET_CHARACTER.GetShortUIName] es mi nuevo [CHARACTER.GetDiarchTitle]"
  THEY_SET_DIARCH: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'are', 'is' )] [CHARACTER.GetShortUINamePossessive] nuevo [CHARACTER.GetDiarchTitle]"
+ GLOBAL_SET_DIARCHY: "$THEY_SET_DIARCH$" #NT!
   
  I_CHANGED_DIARCH: "[TARGET_CHARACTER.GetShortUIName] se ha convertido en mi nuevo [CHARACTER.GetDiarchTitle]"
  THEY_CHANGED_DIARCH: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'become', 'becomes' )] [CHARACTER.GetShortUINamePossessive] nuevo [CHARACTER.GetDiarchTitle]"
@@ -2614,3 +2734,89 @@
  add_legitimacy_increase_level_global_neg: "Disminuye de [legitimacy_level|E] a $legitmacy_flavor_and_level$"
  add_legitimacy_increase_level_global_past: "Aumentó de [legitimacy_level|E] a $legitmacy_flavor_and_level$"
  add_legitimacy_increase_level_global_past_neg: "Disminuido [legitimacy_level|E] a $legitmacy_flavor_and_level$"
+  
+ GLOBAL_SET_DOMICILE_OWNER: "El propietario de #HIGH [DOMICILE.GetName]#! cambia a [TARGET_CHARACTER.GetName]" #NT!
+ GLOBAL_SET_DOMICILE_OWNER_PAST: "El propietario de #HIGH [DOMICILE.GetName]#! cambió a [TARGET_CHARACTER.GetName]" #NT!
+  
+ I_MOVE_DOMICILE_EFFECT: "[DOMICILE.GetName] [camp|E] se establece en [DOMICILE.GetLocation.GetBaronyNameExplicitly] [barony|E]" #NT!
+ THEY_MOVE_DOMICILE_EFFECT: "[DOMICILE.GetName] [camp|E] se va a establecer en [DOMICILE.GetLocation.GetBaronyNameExplicitly] [barony|E]" #NT!
+ MOVE_DOMICILE_EFFECT: "[DOMICILE.GetName] [camp|E] se mueve a [PROVINCE.GetName]" #NT!
+ MOVED_DOMICILE_EFFECT: "[DOMICILE.GetName] [camp|E] movido a [PROVINCE.GetName]" #NT!
+  
+ investment_cap_warning_tooltip: "La contribución será menor debido a que se alcanzó [investment_cap|E]" #NT!
+ investment_cap_warning: "#TOOLTIP:investment_cap_warning_tooltip @alert_icon! #!" #NT!
+  
+ change_appointment_investment_global_no_investor: "[TARGET_CHARACTER.GetShortUINamePossessive|U] [candidate_score|E] por #HIGH [TITLE.GetName]#! aumenta en $VALUE|P0+$" #NT!
+ change_appointment_investment_global_investor: "[CHARACTER.GetShortUIName|U] [CharSupportSupports(CHARACTER)] [TARGET_CHARACTER.GetShortUINamePossessive] [candidate_score|E] por #HIGH [TITLE.GetName]#! con $EFFECTIVE_CHANGE|P0+$#!$ADVERTENCIA_DE_LÍMITE_DE_INVERSIÓN$" #NT!
+ change_appointment_investment_global_no_investor_neg: "[TARGET_CHARACTER.GetShortUINamePossessive|U] [candidate_score|E] por #HIGH [TITLE.GetName]#! disminuye en #N -#!$VALUE|N0$" #NT!
+ change_appointment_investment_global_investor_neg: "[CHARACTER.GetShortUIName|U] [CharOpposeOpposes(CHARACTER)] [TARGET_CHARACTER.GetShortUINamePossessive] [candidate_score|E] por #HIGH [TITLE.GetName]#! con #N -#!$VALOR|N0$" #NT!
+ change_appointment_investment_third_no_investor: "[TARGET_CHARACTER.GetShortUINamePossessive|U] [candidate_score|E] por #HIGH [TITLE.GetName]#! aumenta en #P +#!$VALUE|P0$" #NT!
+ change_appointment_investment_third_investor: "[CHARACTER.GetShortUIName|U] [CharSupportSupports(CHARACTER)] [TARGET_CHARACTER.GetShortUINamePossessive] [candidate_score|E] por #HIGH [TITLE.GetName]#! con #P +#!$CAMBIO_EFECTIVO|P0$#!$ADVERTENCIA_DE_LÍMITE_DE_INVERSIÓN$" #NT!
+ change_appointment_investment_third_no_investor_neg: "[TARGET_CHARACTER.GetShortUINamePossessive|U] [candidate_score|E] por #HIGH [TITLE.GetName]#! disminuye en #N -#!$VALUE|N0$" #NT!
+ change_appointment_investment_third_investor_neg: "[CHARACTER.GetShortUIName|U] [CharOpposeOpposes(CHARACTER)] [TARGET_CHARACTER.GetShortUINamePossessive] [candidate_score|E] el #HIGH [TITLE.GetName]#! con #N -#!$VALOR|N0$" #NT!
+ change_appointment_investment_third_past_no_investor: "[TARGET_CHARACTER.GetShortUINamePossessive|U] [candidate_score|E] por #HIGH [TITLE.GetName]#! aumentado en #P +#!$VALUE|P0$" #NT!
+ change_appointment_investment_third_past_investor: "[CHARACTER.GetShortUIName|U] compatible [TARGET_CHARACTER.GetShortUINamePossessive] [candidate_score|E] para #HIGH [TITLE.GetName]#! con #P +#!$CAMBIO_EFECTIVO|P0$#!$ADVERTENCIA_LÍMITE_DE_INVERSIÓN$" #NT!
+ change_appointment_investment_third_past_no_investor_neg: "[TARGET_CHARACTER.GetShortUINamePossessive|U] [candidate_score|E] por #HIGH [TITLE.GetName]#! disminuido en #N -#!$VALUE|N0$" #NT!
+ change_appointment_investment_third_past_investor_neg: "[CHARACTER.GetShortUIName|U] opuesto [TARGET_CHARACTER.GetShortUINamePossessive|U] [candidate_score|E] por #HIGH [TITLE.GetName]#! con #N -#!$VALUE|N0$" #NT!
+  
+ I_GAINED_INFLUENCE_EFFECT: "Ganaste [influence_i]$VALUE|+0$" #NT!
+ I_LOST_INFLUENCE_EFFECT: "Gastaste [influence_i]$VALUE|-0$" #NT!
+ THEY_GAINED_INFLUENCE_EFFECT: "[CHARACTER.GetShortUIName|U] ganado [influence_i]$VALUE|+0$" #NT!
+ THEY_LOST_INFLUENCE_EFFECT: "[CHARACTER.GetShortUIName|U] gastado [influence_i]$VALUE|-0$" #NT!
+ GAINED_INFLUENCE_EFFECT: "Ganado [influence_i]$VALUE|+0$" #NT!
+ LOST_INFLUENCE_EFFECT: "Gastado [influence_i]$VALUE|-0$" #NT!
+ I_GAIN_INFLUENCE_EFFECT: "Ganas [influence_i]$VALUE|+0$" #NT!
+ I_LOSE_INFLUENCE_EFFECT: "Gastas [influence_i]$VALUE|-0$" #NT!
+ THEY_GAIN_INFLUENCE_EFFECT: "[CHARACTER.GetShortUIName|U] gana [influence_i]$VALUE|+0$" #NT!
+ THEY_LOSE_INFLUENCE_EFFECT: "[CHARACTER.GetShortUIName|U] gasta [influence_i]$VALUE|-0$" #NT!
+ GAIN_INFLUENCE_EFFECT: "Ganancias [influence_i]$VALUE|+0$" #NT!
+ LOSE_INFLUENCE_EFFECT: "Gasta [influence_i]$VALUE|-0$" #NT!
+  
+ I_GAIN_INFLUENCE_LEVEL_EFFECT: "Ganas $VALUE|V0$ [influence_levels|E]" #NT!
+ I_LOSE_INFLUENCE_LEVEL_EFFECT: "Pierdes $VALUE|V0$ [influence_levels|E]" #NT!
+ THEY_GAIN_INFLUENCE_LEVEL_EFFECT: "[CHARACTER.GetShortUIName|U] ganancia $VALUE|V0$ [influence_levels|E]" #NT!
+ THEY_LOSE_INFLUENCE_LEVEL_EFFECT: "[CHARACTER.GetShortUIName|U] pierde $VALUE|V0$ [influence_levels|E]" #NT!
+ GAIN_INFLUENCE_LEVEL_EFFECT: "Ganancias $VALUE|V0$ [influence_levels|E]" #NT!
+ LOSE_INFLUENCE_LEVEL_EFFECT: "Pierde $VALUE|V0$ [influence_levels|E]" #NT!
+ I_GAINED_INFLUENCE_LEVEL_EFFECT: "Ganaste $VALUE|V0$ [influence_levels|E]" #NT!
+ I_LOST_INFLUENCE_LEVEL_EFFECT: "Perdiste $VALUE|V0$ [influence_levels|E]" #NT!
+ THEY_GAINED_INFLUENCE_LEVEL_EFFECT: "[CHARACTER.GetShortUIName|U] ganado $VALUE|V0$ [influence_levels|E]" #NT!
+ THEY_LOST_INFLUENCE_LEVEL_EFFECT: "[CHARACTER.GetShortUIName|U] perdido $VALUE|V0$ [influence_levels|E]" #NT!
+ GAINED_INFLUENCE_LEVEL_EFFECT: "Ganado $VALUE|V0$ [influence_levels|E]" #NT!
+ LOST_INFLUENCE_LEVEL_EFFECT: "Perdido $VALUE|V0$ [influence_levels|E]" #NT!
+  
+ accept_task_contract_global: "Aceptar [TASK_CONTRACT.GetName] \n" #NT!
+ invalidate_task_contract_global: "Invalidar el [TASK_CONTRACT.GetType.GetName] [GetPlayer.Custom('GetContractOrIssueGameConcept')]" #NT!
+ invalidate_task_contract_global_past: "Se invalidó el [TASK_CONTRACT.GetType.GetName] [GetPlayer.Custom('GetContractOrIssueGameConcept')]" #NT!
+ GLOBAL_CREATE_TASK_CONTRACT: "Crea un [TASK_CONTRACT_TYPE.GetName] [GetPlayer.Custom('GetContractOrIssueGameConcept')]" #NT!
+  
+ I_CHOOSE_FAVORITE_CHILD: "Eliges [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ THEY_CHOOSE_FAVORITE_CHILD: "[CHARACTER.GetShortUIName|U] elige [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ CHOOSES_FAVORITE_CHILD: "Elige [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ I_CHOSE_FAVORITE_CHILD: "Elegiste [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ THEY_CHOSE_FAVORITE_CHILD: "[CHARACTER.GetShortUIName|U] eligió [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ CHOSE_FAVORITE_CHILD: "Elija [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+  
+ I_LOSE_FAVORITE_CHILD: "Eliminas [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ THEY_LOSE_FAVORITE_CHILD: "[CHARACTER.GetShortUIName|U] elimina [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ LOSES_FAVORITE_CHILD: "Eliminar [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ I_LOST_FAVORITE_CHILD: "Eliminaste [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ THEY_LOST_FAVORITE_CHILD: "[CHARACTER.GetShortUIName|U] eliminó [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+ LOST_FAVORITE_CHILD: "Se eliminó [TARGET_CHARACTER.GetShortUIName] como [favorite_child|E]" #NT!
+  
+ deplete_army_third: "[ARMY.GetName] pierde $VALUE|-%0$ de sus fuerzas" #NT!
+ deplete_army_third_past: "[ARMY.GetName] perdió $VALUE|-%0$ de sus fuerzas" #NT!
+  
+ ARMY_IS_DEPLETED: "$VALUE|-%0$ de [ARMY.GetName] se perdió" #NT!
+ ARMY_IS_DEPLETED_GLOBAL: "$VALUE|-%0$ de [ARMY.GetName] se perdió" #NT!
+ ARMY_WAS_DEPLETED: "$VALUE|-%0$ de [ARMY.GetName] se perdió" #NT!
+ ARMY_WAS_DEPLETED_GLOBAL: "$VALUE|-%0$ de [ARMY.GetName] se perdió" #NT!
+  
+  # EP3 - Rebalancing Old Perks 
+ praetorian_guard_perk_effect: "Aumento [GetCourtPositionType('bodyguard_court_position').GetName()] [aptitude|E]" #NT!
+ INFLUENCE_CHILDREN_GROOMED_TO_RULE: "[influence_ward_personality|E] Aceptación: #P +[EmptyScope.ScriptValue('groomed_to_rule_value')|0]#!" #NT!
+  
+ set_state_faith_third: "El [state_faith|E] de [TITLE.GetName] se convierte en [FAITH.GetName]" #NT!
+  
+ transfer_owned_maa_control_global: "[TITLE.GetHolder.GetShortUIName|U] transfiere[_s(TITLE.GetHolder)] el [TITLE.GetAdjective] [army|E] al [TARGET_TITLE.GetNameNoTier] bajo el comando [TARGET_TITLE.GetHolder.GetShortUINamePossessive]" #NT!
+ transfer_owned_maa_control_global_past: "[TITLE.GetHolder.GetShortUIName|U] transfirió [TITLE.GetAdjective] [army|E] a [TARGET_TITLE.GetNameNoTier] bajo el comando [TARGET_TITLE.GetHolder.GetShortUINamePossessive]" #NT!

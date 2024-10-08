@@ -18,12 +18,45 @@
  agot_crown_theft.0100.desc.siege: "Mientras mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king'))], el [Select_CString(crown_theft_king.IsFemale,'queen','king')], perece dentro de los muros del castillo asediado,"
  agot_crown_theft.0200.desc.siege: "Mientras el [Select_CString(crown_theft_king.IsFemale,'queen','king')], perece dentro de los muros del castillo asediado,"
   
- #desc 
- agot_crown_theft.0100.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. Aunque hace tiempo que albergo la ambición de gobernar el reino, el heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], actualmente no se encuentra en la capital.\n\nLa oportunidad de apoderarme del trono me llama, prometiendo poder y autoridad sin medida."
- agot_crown_theft.0200.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. Aunque hace tiempo que albergo la ambición de adquirir poder en el reino, el heredero legítimo, [crown_theft_king_legit_heir.GetTitledFirstName], actualmente no se encuentra en la capital.\n\nLa oportunidad de apoderarse del trono para mi pupilo, [crown_thief.GetTitledFirstName], me llama, prometiendo poder y autoridad sin medida."
- agot_crown_theft.0300.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. De todas formas, las costumbres dictan que un bastardo no puede heredar títulos, pero yo he albergado durante mucho tiempo la ambición de gobernar el reino. El heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], se encuentra actualmente ausente de la capital.\n\nLa oportunidad de apoderarme del trono me llama, prometiendo poder y autoridad sin medida."
- agot_crown_theft.0400.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. De todos modos, fui desheredado y no puedo heredar títulos, pero desde hace mucho tiempo albergo la ambición de gobernar el reino. El heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], actualmente se encuentra ausente de la capital.\n\nLa oportunidad de apoderarme del trono me llama, prometiendo poder y autoridad sin medida."
- agot_crown_theft.0500.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. Aunque hace tiempo que albergo la ambición de gobernar el reino, el heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], no es digno de tomar el trono.\n\nLa oportunidad de tomar el trono por mí mismo me llama, prometiendo poder y autoridad sin medida."
+  #desc 
+ agot_crown_theft.0100.intro.desc: "El peso de la corona [crown_theft_king.GetHerHis] pesa en el aire." #NT!
+ agot_crown_theft.0100.intro_bastard.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. De todas formas, las costumbres dictan que un bastardo no puede heredar títulos, pero el destino ha trazado un camino diferente." #NT!
+ agot_crown_theft.0100.intro_disinherited.desc: "El peso de la corona de [crown_theft_king.GetHerHis] pesa en el aire. De todos modos, fui desheredado y no puedo heredar títulos, pero ahora los vientos del destino soplan de otra manera." #NT!
+  
+ agot_crown_theft.0100.trait_brave.desc: "Sería un desafío para mí apoderarme de él. Cuanto mayor es el peligro, más satisfactoria es la recompensa. El riesgo es real, pero resulta que" #NT!
+ agot_crown_theft.0100.trait_craven.desc: "No me tranquiliza la idea, pero podría... #italic tal vez#!... tomarlo. Me mareo solo de pensarlo, pero resulta que" #NT!
+ agot_crown_theft.0100.trait_wrathful.desc: "¡Debería ser mío! #bold ¡Mío y solo mío! #! Sin embargo, esto [crown_theft_king_legit_heir.Custom('InsultNoun')]," #NT!
+ agot_crown_theft.0100.trait_calm.desc: "Respiro profundamente, para pensar con calma, y ​​luego pienso en una cosa," #NT!
+ agot_crown_theft.0100.trait_chaste.desc: "El deseo, sea cual sea, nunca me ha interesado, pero me digo que" #NT!
+ agot_crown_theft.0100.trait_lustful.desc: "Pienso en todos los [ROOT.Char.Custom('AttractionWomanManIndef')] que estarían de rodillas frente a mí, desesperados por dormir con su nuevo [Select_CString(crown_thief.IsFemale,'queen','king')]. También resulta que" #NT!
+ agot_crown_theft.0100.trait_content.desc: "Nunca he tenido ninguna ambición, pero pienso en todas las cosas que podría hacer con tanto poder y me doy cuenta de que..." #NT!
+ agot_crown_theft.0100.trait_ambitious.desc: "No niego que mi corazón ha deseado mucho esto, y resulta que" #NT!
+ agot_crown_theft.0100.trait_diligent.desc: "He pasado mi vida trabajando incansablemente, esto sólo sería una justa recompensa por todo este trabajo, y parece que" #NT!
+ agot_crown_theft.0100.trait_lazy.desc: "Normalmente costaría mucho esfuerzo conseguirlo, pero afortunadamente resulta que..." #NT!
+ agot_crown_theft.0100.trait_forgiving.desc: ""
+ agot_crown_theft.0100.trait_vengeful.desc: "Con tanto poder en mis manos, cualquiera que quisiera hacerme daño moriría como moscas, además," #NT!
+ agot_crown_theft.0100.trait_generous.desc: "La riqueza y el poder que obtendría me permitirían tener mucho que ofrecer, además resulta que" #NT!
+ agot_crown_theft.0100.trait_greedy.desc: "Ya me veo ahogado bajo mareas de riqueza, oro y bienes. Estoy salivando de antemano, sobre todo porque" #NT!
+ agot_crown_theft.0100.trait_gregarious.desc: "En lo alto de las escaleras, yo sería el [Select_CString(crown_thief.IsFemale,'queen','king')] de la fiesta, celebrando más allá de las horas en una sala abarrotada de gente. Pienso en el hecho de que" #NT!
+ agot_crown_theft.0100.trait_shy.desc: "Si lo tomara para mí, yo... #italic ¡No!#! No puedo... cómo podría... Tendría que... eso..." #NT!
+ agot_crown_theft.0100.trait_honest.desc: ""
+ agot_crown_theft.0100.trait_deceitful.desc: "Yo sabría exactamente qué hacer con semejante poder, y podría ser fácil apoderarme de él, porque por una afortunada combinación de circunstancias," #NT!
+ agot_crown_theft.0100.trait_humble.desc: "Nunca hubiera esperado que alguien tan común como yo tuviera la oportunidad de tomar tal poder, pero sin embargo es así, porque" #NT!
+ agot_crown_theft.0100.trait_arrogant.desc: "Nadie es más digno de obtener tal poder que yo, nací para serlo, y quiero como prueba de ello" #NT!
+ agot_crown_theft.0100.trait_just.desc: "No es mi derecho. Se decidió lo contrario. Sin embargo... sin embargo, cuanto más pienso en ello, más pienso en el hecho de que" #NT!
+ agot_crown_theft.0100.trait_arbitrary.desc: "Yo no fui el elegido... pero eso no me importa. Las reglas están hechas para romperse, y además," #NT!
+ agot_crown_theft.0100.trait_patient.desc: "#italic Los dioses aún tienen que crear un [Select_CString(crown_thief.IsFemale,'woman','man')] que carezca de la paciencia para el poder absoluto#!, y parece que la paciencia me recompensa generosamente, porque" #NT!
+ agot_crown_theft.0100.trait_impatient.desc: "#italic Los dioses aún tienen que crear un [Select_CString(crown_thief.IsFemale,'woman','man')] que carezca de la paciencia para el poder absoluto#!, pero he esperado demasiado y veo una posibilidad, porque" #NT!
+ agot_crown_theft.0100.trait_temperate.desc: "La idea de tener tanto poder en mis manos es desconcertante, especialmente para mí, que prefiero la medida a la abundancia, y sin embargo pienso en el hecho de que" #NT!
+ agot_crown_theft.0100.trait_gluttonous.desc: "Quien dice cabeza coronada, dice panza llena. Obtener poder significa poder obtener todos los alimentos que uno desea. Y resulta que" #NT!
+ agot_crown_theft.0100.trait_trusting.desc: "Tomar posesión de ella sería una empresa arriesgada, pero estoy seguro de que el reino se alineará detrás del más capaz de llevarla a cabo, especialmente porque" #NT!
+ agot_crown_theft.0100.trait_paranoid.desc: "#italic ¡¿Qué me va a pasar?!#! No soy #bold el heredero, pero estoy en la #bold línea de sucesión#!. Ellos #bold podrían#! decidir hacerme #bold ejecutar#! para eliminar a cualquier #italic potencial#! #bold rival#!. Yo #italic todavía#! tengo una #bold posibilidad#! de #italic sobrevivir#! porque" #NT!
+ agot_crown_theft.0100.trait_zealous.desc: "Siempre he sido el más devoto de la familia, el más piadoso, y por eso veo esto como una señal de [ROOT.Char.GetFaith.HighGodName]. Este poder es un regalo de [ROOT.Char.GetFaith.HighGodName], la recompensa por seguir fielmente su camino. Quiero como prueba que" #NT!
+ agot_crown_theft.0100.trait_cynical.desc: "#italic Según las leyes de los dioses y los hombres...#! No me importan los dioses y los hombres siguen la ley de los que tienen el poder. Entonces reflexiono sobre el hecho de que" #NT!
+ agot_crown_theft.0100.trait_fallback.desc: "Aunque desde hace mucho tiempo albergo ambiciones de gobernar el reino," #NT!
+  
+ agot_crown_theft.0100.outro.desc: "El heredero legítimo, mi [SCOPE.sC('crown_thief').Custom2('RelationToMeShort', SCOPE.sC('crown_theft_king_legit_heir'))], [crown_theft_king_legit_heir.GetTitledFirstName], se encuentra actualmente ausente de la capital.\n\nLa oportunidad de apoderarme del trono me llama, prometiendo poder y autoridad más allá de toda medida." #NT!
+ agot_crown_theft.0100.outro_guardian.desc: "El heredero legítimo, [crown_theft_king_legit_heir.GetTitledFirstName], se encuentra actualmente ausente de la capital.\n\nLa oportunidad de apoderarse del trono para mi pupilo, [crown_thief.GetTitledFirstName], se presenta, prometiendo poder y autoridad más allá de toda medida." #NT!
   
  agot_crown_theft.0100.a: "¡El trono es mío!"
  agot_crown_theft.0200.a: "¡El trono es [crown_thief.GetTitledFirstNamePossessiveNoTooltip]!"
@@ -226,6 +259,11 @@
   ####################### 
   ### POST-WAR EVENTS ### 
   ####################### 
+ agot_crown_theft.9955.t: "Un nuevo viaje" #NT!
+ agot_crown_theft.9955.desc: "Me quedé al borde del conflicto, lista para actuar, pero al final elegí otro camino. El fuego dentro de mí todavía arde, pero el momento de actuar ya pasó, por ahora. Mientras emprende este viaje, la incertidumbre llena el camino que tengo por delante. El viento frío de lo desconocido me recorre el rostro, pero hay una extraña sensación de libertad que lo acompaña. Las decisiones que tomé persisten en mi mente, pero el peso es menor del que esperaba. El camino que tengo por delante se vuelve más claro, como si el destino mismo se revelara con cada paso que doy." #NT!
+ agot_crown_theft.9955.a: "El camino es mío para recorrerlo, y el futuro es mío para darle forma." #NT!
+ agot_crown_theft.9955.a.tt: "Mi título recibe un nuevo nombre" #NT!
+  
  agot_crown_theft.9966.t: "Una guerra que se avecina"
  agot_crown_theft.9966.legit.desc: "Una sensación de inquietud se apodera del reino cuando me llegan noticias de una guerra inminente. El usurpador [crown_thief.GetTitledFirstName] ha arrebatado el trono al legítimo heredero [crown_theft_king_legit_heir.GetTitledFirstName], y ahora el reino se tambalea al borde del conflicto.\n\nComo vasallo, debo considerar mis lealtades y decidir a quién apoyar en la guerra que se avecina. ¿Debo apoyar a [crown_thief.GetTitledFirstName], el gobernante actual, o apoyar a [crown_theft_king_legit_heir.GetTitledFirstName], el verdadero heredero al trono?"
  agot_crown_theft.9966.helper.desc: "Una sensación de inquietud se apodera del reino cuando me llegan noticias de una guerra inminente. El usurpador [crown_thief.GetTitledFirstName] ha arrebatado el trono al legítimo heredero [crown_theft_king_legit_heir.GetTitledFirstName], y ahora el reino se tambalea al borde del conflicto.\n\nComo vasallo, debo considerar mis lealtades y decidir a quién apoyar en la próxima guerra. ¿Debo apoyar a [crown_thief.GetTitledFirstName], el gobernante actual, o apoyar a [landed_helper.GetTitledFirstName], el verdadero heredero [crown_thief.GetTitledFirstNamePossessive], aliado fiel?"
@@ -256,3 +294,12 @@
  agot_crown_theft.9992.t: "Restauración del orden"
  agot_crown_theft.9992.desc: "[unlawful_ruler.GetTitledFirstName] ha elegido sabiamente devolver las tierras que me pertenecen por derecho, lo que marca un paso importante hacia la restauración del antiguo orden. Con cada recuperación, nos acercamos a la estabilidad y la unidad que una vez definieron nuestro reino."
  agot_crown_theft.9992.a: "[unlawful_ruler.GetSheHe|U] ha actuado con justicia."
+  
+  ############ 
+  ### MISC ### 
+  ############ 
+  
+ #agot_crown_theft_adventurer_name: "Anfitrión de [crown_theft_king_legit_heir.GetFirstNameNoTooltip] [crown_theft_king_legit_heir.GetHouse.GetNameNoTooltip]" #NT!
+ agot_crown_theft_adventurer_name: "[crown_theft_king_legit_heir.GetShortUINamePossessiveNotMyNoTooltip] Anfitrión" #NT!
+ agot_crown_theft_adventurer_name_message_title: "$agot_crown_theft_adventurer_name$" #NT!
+ agot_crown_theft_adventurer_name_message_tt: "[crown_theft_king_legit_heir.GetShortUIName|U] ha creado [crown_theft_king_legit_heir.GetHerHis] host después de que [crown_theft_king_legit_heir.GetHerHis] títulos fueran usurpados." #NT!
