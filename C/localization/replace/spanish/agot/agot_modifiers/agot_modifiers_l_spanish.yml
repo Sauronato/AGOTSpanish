@@ -270,6 +270,11 @@
  divided_dynasty_house_modifier: "Dinastía dividida"
  divided_dynasty_house_modifier_desc: "Esta casa ha sido expulsada de la dinastía principal y no puede pedir ayuda a miembros que no sean de la dinastía. Las muertes entre casas divididas no resultarán en un rasgo [kinslayer|E]."
   
+ bittersteel_modifier: "Acero amargo" #NT!
+ bittersteel_modifier_desc: "Este personaje es Aegor Bittersteel, el descendiente de Aegon IV y fiel partidario de la Casa Fuegoscuro." #NT!
+ walled_off_no_more_modifier: "Ya no está más amurallado" #NT!
+ walled_off_no_more_modifier_desc: "Este clan estuvo a la vanguardia en la tarea de ahuyentar a los cuervos de su Muro y de presentar a los Pueblos Libres las maravillas del mundo más allá." #NT!
+  
  dealt_with_traders_modifier: "Tratado con dornienses"
  dealt_with_traders_modifier_desc: "Tu gente no apreciará que trates con sus enemigos históricos."
  dealt_with_traders_county_modifier: "Tratado con dornienses"
@@ -1274,6 +1279,11 @@
  agot_discuss_scholars: "Mayor conocimiento"
  agot_discuss_scholars_desc: "Este personaje ha estado discutiendo con los eruditos y ha adquirido muchos conocimientos de ellos."
   
+  # The Flesh-Stripping Wind 
+  
+ agot_reclaimed_knowledge_modifier: "Conocimiento recuperado" #NT!
+ agot_reclaimed_knowledge_modifier_desc: "Este personaje reunió conocimientos insólitos a partir de pictogramas ancestrales y antiguos." #NT!
+  
   
   ##################### 
   # NPK FILLER EVENTS # 
@@ -1366,3 +1376,11 @@
   
  stepstones_adventurer_modifier: "Aventurero de los peldaños de piedra"
  stepstones_adventurer_modifier_desc: "Este personaje dejó su hogar con un ejército de pícaros y aventureros, buscando hacerse un reino en los Peldaños de Piedra."
+  
+  #################### 
+  # SCHEME MODIFIERS # 
+  #################### 
+  
+ bond_with_dragon_scheme_scheme_phase_duration_add: "[GetScheme('bond_with_dragon_scheme').GetTypeName] [scheme_speed_single|E]" #NT!
+ deepen_bond_with_dragon_scheme_scheme_phase_duration_add: "[GetScheme('deepen_bond_with_dragon_scheme').GetTypeName] [scheme_speed_single|E]" #NT!
+ steal_back_artifact_enemy_scheme_phase_duration_add: "[GetScheme('steal_back_artifact').GetTypeName] [scheme_speed_single|E]" #NT!

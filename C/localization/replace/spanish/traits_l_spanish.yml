@@ -404,6 +404,7 @@
   
  TRAIT_FLAG_DESC_join_factions_less: "Menos probable que se una a [factions|E] contra su [liege|E]"
  TRAIT_FLAG_DESC_join_factions_more: "Más probable que se una a [factions|E] contra su [liege|E]"
+ TRAIT_FLAG_DESC_cannot_inherit_titles: "@warning_icon! #N No se puede heredar [titles|E]#!" #NT!
   
  trait_disloyal: "Desleal"
  trait_disloyal_desc: "Donde la mayoría de la gente ve una relación, esta persona ve una oportunidad."
@@ -560,8 +561,12 @@
  trait_track_scarred: "Cicatrizado"
  trait_track_scarred_desc: "Una cicatriz a menudo se ve como un signo de valentía, pero siempre hay un punto de inflexión en ese atractivo..."
  trait_eunuch: "Eunuco"
- trait_eunuch_desc: "Este personaje ha sido castrado intencionadamente."
- trait_eunuch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido castrado intencionadamente."
+ trait_eunuch_1: "Eunuco" #NT!
+ trait_eunuch_1_desc: "Este personaje ha sido castrado intencionalmente después de la madurez sexual." #NT!
+ trait_eunuch_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido castrado intencionalmente después de la madurez sexual." #NT!
+ trait_beardless_eunuch: "Eunuco imberbe" #NT!
+ trait_beardless_eunuch_desc: "La castración antes de la pubertad ha atrofiado los músculos y el vello corporal de esta persona, dejándola como el eunuco por excelencia." #NT!
+ trait_beardless_eunuch_character_desc: "La castración antes de la pubertad ha atrofiado los músculos y el vello corporal de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip], dejando a [ROOT.GetCharacter.GetHerHim] como el eunuco por excelencia." #NT!
  trait_blind: "Ciego"
  trait_blind_desc: "Este personaje no ve nada de nacimiento o a causa de un #EMP accidente#!."
  trait_blind_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] no ve nada de nacimiento o a causa de un #EMP accidente#!."
@@ -758,6 +763,9 @@
  trait_greatest_of_khans: "El mayor de los kanes"
  trait_greatest_of_khans_desc: "Este personaje ha sido proclamado gobernante de todo el universo por derecho de conquista."
  trait_greatest_of_khans_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha sido proclamado gobernante de todo el universo por derecho de conquista."
+ trait_conqueror: "Conquistador" #NT!
+ trait_conqueror_desc: "#low El mundo está ante mí, listo para ser conquistado. Será mío.#!" #NT!
+ TRAIT_FLAG_DESC_conqueror_bonuses_modifier: "$struggle_parameter_unlocks_forced_vassalization_casus_belli$\nElimina [prestige_i|E][prestige|E] Costos de [casus_bellis|E]\nElimina [piety_i|E][piety|E] Costos de [casus_bellis|E]\n[armies|e] #bold se congregarán#! alrededor de sus estandartes\n[prestige_i|E]0 #bold se agolparán #!en sus [prestige_i|E]3\n[prestige_i|E]4 #bold se alinearán#!" #NT!
  trait_savior: "Salvador"
  trait_savior_desc: "Este personaje está aquí para liberarnos a todos."
  trait_savior_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] está aquí para liberarnos a todos."
@@ -783,6 +791,9 @@
  trait_legend: "Leyenda viviente"
  trait_legend_character_desc: "Reconocido por su vida heroica, [ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido por todos como una leyenda viviente."
  trait_legend_desc: "Conocido por su vida heroica, este personaje es conocido por todos como una leyenda viviente."
+ trait_historical_character: "Personaje histórico" #NT!
+ trait_historical_character_character_desc: "[ROOT.GetCharacter.GetFullNameNicknamed] ha surgido dinámicamente y tiene importancia histórica en la vida real." #NT!
+ trait_historical_character_desc: "Este personaje ha surgido de forma dinámica y tiene importancia histórica en la vida real." #NT!
  trait_order_member: "Miembro de orden"
  trait_order_member_desc: "Este personaje sirve en una orden religiosa militarizada."
  trait_order_member_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] sirve en una orden religiosa militarizada."
@@ -876,6 +887,10 @@
  trait_adventurer: "Aventurero"
  trait_adventurer_desc: "Este personaje ha tenido una vida de valentía y acción como parte de una facción aventurera."
  trait_adventurer_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha tenido una vida de valentía y acción como aventurero."
+ trait_adventurer_follower: "Seguidor" #NT!
+ trait_adventurer_follower_desc: "Este personaje pasó algún tiempo en el campamento de [GetTrait('adventurer').GetName( GetNullCharacter )], siendo parte de su séquito cuando desembarcaron." #NT!
+ trait_adventurer_follower_remembers_leader_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] pasó algún tiempo en el campamento [ROOT.Var('former_camp_leader').Char.GetTitledFirstNamePossessive] cuando [ROOT.Var('former_camp_leader').Char.GetSheHe] era un [GetTrait('adventurer').GetName( GetNullCharacter )], siendo parte del séquito [ROOT.Var('former_camp_leader').Char.GetHerHis] cuando [ROOT.Var('former_camp_leader').Char.GetSheHe] desembarcó." #NT!
+ trait_adventurer_follower_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] pasó algún tiempo en el campamento de [GetTrait('adventurer').GetName( GetNullCharacter )], siendo parte de su séquito cuando desembarcaron." #NT!
   
  trait_education_republican_knowledge: "Conocimiento republicano"
   #AGOT Modified 
@@ -922,11 +937,11 @@
  trait_witch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] coquetea con asuntos que muchos considerarían ocultismo."
   
  #Revolting Leader Traits 
-   #Peasnt Leaders 
+  #Peasant Leaders 
  trait_peasant_leader: "Líder campesino"
  trait_peasant_leader_desc: "Este personaje es un campesino con ínfulas que se rebeló contra sus superiores."
  trait_peasant_leader_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un[ROOT.GetCharacter.Custom('ES_XA')] campesino con ínfulas que se rebeló contra sus superiores."
-   #Heretic Uprisings 
+  #Heretic Uprisings 
  trait_heresiarch: "Heresiarca"
  trait_heresiarch_desc: "Este personaje es el líder local de una secta herética."
  trait_heresiarch_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] es el/la líder local de una secta herética."
@@ -1003,6 +1018,9 @@
  trait_extolled: "Exaltado por la casa"
  trait_extolled_desc: "Este personaje ha tenido sus virtudes ensalzadas por su [house_head|E]. Ya sea que la atención sea merecida o no, ahora les resulta difícil mantenerse alejados de las miradas indiscretas del público."
  trait_extolled_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha tenido [ROOT.GetCharacter.GetHerHis] virtudes ensalzadas por [ROOT.GetCharacter.GetHerHis] [house_head|E]. Ya sea que la atención sea merecida o no, a [ROOT.GetCharacter.GetSheHe] ahora le resulta difícil mantenerse alejado de las miradas indiscretas del público."
+ trait_gallivanter: "Gallivanter" #NT!
+ trait_gallivanter_desc: "Este personaje evita responsabilidades más allá de las que ya tiene: su tiempo es precioso y no desea desperdiciarlo en deberes inútiles y ambiciones sin sentido." #NT!
+ trait_gallivanter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] elude responsabilidades más allá de las que [ROOT.GetCharacter.GetSheHe] ya tiene: el tiempo de [ROOT.GetCharacter.GetHerHis] es ​​precioso y [ROOT.GetCharacter.GetSheHe] no desea que se desperdicie en deberes inútiles y ambiciones sin sentido." #NT!
   
  genetic_desc: "Este rasgo es [congenital|E]"
  inheritable_desc: "Se puede heredar"
@@ -1192,3 +1210,73 @@
  trait_track_lifestyle_blademaster_desc: "Años de vida dedicados al dominio de un arma, para que su gracia resultante un día pueda salvar una vida, y otro, darle fin."
  trait_track_lifestyle_physician: "Médico"
  trait_track_lifestyle_physician_desc: "Detener el flujo de la sangre ahí, abrir una vena allá. ¡Pronto habremos equilibrado estos humores!"
+  
+  # EP3 
+ trait_governor: "Gobernador" #NT!
+ trait_track_governor: "$trait_governor$" #NT!
+ trait_track_governor_desc: "Impuestos. Tierra. Tropas. Todo puede y debe administrarse a la perfección.\n\n#weak Este [trait|E] puede subir de nivel mediante acciones que mejoren el [counties|E] o beneficien al [realm|E], como completar el [governance_issues|E], construir el [buildings|E] o elegir ciertas opciones en los eventos.#!" #NT!
+ trait_governor_desc: "Este personaje ha adquirido valiosas habilidades en su papel de gobernador." #NT!
+ trait_governor_3_byz: "Veterano $duke_administrative_male_byzantine_group$" #NT!
+ trait_governor_3: "Gobernador veterano" #NT!
+ trait_governor_2_byz: "Experimentado $duke_administrative_male_byzantine_group$" #NT!
+ trait_governor_2: "Gobernador experimentado" #NT!
+ trait_governor_1_byz: "$duke_administrative_male_byzantine_group$" #NT!
+ trait_governor_1_byz_female: "$duke_administrative_female_byzantine_group$" #NT!
+ trait_governor_1: "Gobernador" #NT!
+ trait_governor_3_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] es un administrador y adjudicador excepcional, lo que hace que [ROOT.GetCharacter.GetHerHim] sea perfecto para el puesto de gobernador." #NT!
+ trait_governor_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene mucha experiencia administrando tierras y se desempeña bien como gobernador." #NT!
+ trait_governor_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] ha adquirido habilidades valiosas en el [ROOT.GetCharacter.GetHerHis] rol de gobernador." #NT!
+  
+ trait_gallowsbait: "Cebo de horca" #NT!
+ trait_gallowsbait_desc: "No todos los crímenes conciernen a los Grandes y Buenos: este personaje se está haciendo un nombre como un delincuente de poca monta." #NT!
+ trait_gallowsbait_character_desc: "No todos los crímenes conciernen a los Grandes y Buenos: [ROOT.GetCharacter.GetFirstNameNoTooltip] le ha ganado a [ROOT.GetCharacter.GetHerselfHimself] la reputación de ser un pequeño delincuente." #NT!
+ trait_track_bandit: "Bandido" #NT!
+ trait_track_bandit_desc: "La luz de la ley no se extiende más allá de los muros de una ciudad; aquí afuera, la fuerza hace el derecho." #NT!
+ trait_track_trickster: "Embaucador" #NT!
+ trait_track_trickster_desc: "Una mente lenta no es sólo una tragedia: para los inteligentes, es una #EMP oportunidad#!." #NT!
+ trait_track_thief: "Ladrón" #NT!
+ trait_track_thief_desc: "La posesión es, después de todo, nueve décimas partes de la ley." #NT!
+ trait_track_poacher: "Cazador furtivo" #NT!
+ trait_track_poacher_desc: "No pasa nada si es solo un animal, ¿no?" #NT!
+ trait_track_marauder: "Merodeador" #NT!
+ trait_track_marauder_desc: "Secuestrar y asesinar fuera de la alta sociedad es menos glamoroso, pero no necesariamente menos rentable." #NT!
+  
+ trait_despoiler_of_byzantium: "Saqueador de Bizancio" #NT!
+ trait_despoiler_of_byzantium_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] fue uno de los temibles señores latinos que conquistaron y arruinaron un antiguo imperio cristiano." #NT!
+  
+ trait_campeador: "Campeador" #NT!
+ trait_campeador_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] La experiencia en el campo de batalla le ha valido a [ROOT.GetCharacter.GetHerHim] el título de "Campeón del campo de batalla"." #NT!
+  
+ trait_violet_poet: "Poeta violeta" #NT!
+ trait_violet_poet_desc: "¿Qué hace cantar más a un corazón y tronar a una voz que el amor mismo? [ROOT.GetCharacter.GetFirstNameNoTooltip] lo sabe, y lo sabe magistralmente." #NT!
+ trait_track_violet_poet: "Rapsoda" #NT!
+ trait_track_violet_poet_desc: "La expresión más verdadera de un poeta no puede ser sólo a través de las palabras, sino también del alma y del cuerpo.\n\n#weak Este [trait|E] se puede nivelar a través de dos medios diferentes: ya sea escribiendo poesía, o por métodos más #UND amorosos#!." #NT!
+  
+ trait_knight_errant: "Caballero andante" #NT!
+ trait_knight_errant_character: "$knight_culture_player_no_tooltip$-Errante" #NT!
+ trait_knight_errant_desc: "Un caballero de la fama, este personaje defiende a los débiles, protege a los desarmados y derrota a los malvados." #NT!
+ trait_knight_errant_character_desc: "Un $knight_culture_player_no_tooltip_lowercase$ de fama, [ROOT.GetCharacter.GetFirstNameNoTooltip] defiende a los débiles, protege a los desarmados y derrota a los malvados." #NT!
+ trait_track_knight_errant: "Hacedor de lo correcto" #NT!
+ trait_track_knight_errant_desc: "No basta con afirmar que uno es justo, sino que hay que demostrarlo.\n\n#weak Este [trait|E] se puede subir de nivel completando Justicar, Destreza o Marcial [task_contracts|E] que muestren cualidades honorables." #NT!
+  
+ the_wake: "El velorio" #NT!
+ trait_track_the_wake: "Acechador de pantano" #NT!
+ trait_track_the_wake_desc: "El destino teje su sutil red. Lo que es mío por derecho será recuperado por la fuerza.\n\n#weak Este rasgo se puede subir de nivel al derrotar a [characters|E] de #BOL $norman$#! [culture|E] en [battle|E] o en [single_combat_duel_plural|E].#!" #NT!
+ the_wake_1: "Exiliado" #NT!
+ the_wake_2: "El proscrito" #NT!
+ the_wake_3: "El carnicero" #NT!
+ the_wake_4: "El Ankou" #NT!
+ the_wake_5: "$the_wake$" #NT!
+  
+ the_wake_1_desc: "Lástima del joven Hereweard, el noble exiliado. Un hombre sin propósito, un vagabundo apático. Tanto potencial, sin aprovechar." #NT!
+ the_wake_2_desc: "Se ha encontrado un objetivo, pero queda mucho por hacer. Un trabajo sangriento, hasta que los pantanos fangosos se tiñan de rojo con la sangre de los forasteros." #NT!
+ the_wake_3_desc: "Los hombres más pequeños se revuelcan y se ahogan en los pantanos pegajosos y malolientes de los que proviene este. Algunos incluso susurran que puede caminar sobre la superficie de cualquier pantano, tal es su dominio de los lagos." #NT!
+ the_wake_4_desc: "A los niños pequeños aterrorizados se les cuentan historias sobre la bestia que ronda en los pantanos, para que no se alejen demasiado de su seguridad." #NT!
+ the_wake_5_desc: "La sombra oscura en el crepúsculo acecha la tierra, siempre vigilante, siempre alerta. Hereweard el Sangriento, Hereweard el Temido. Hereweard el Vigilia." #NT!
+  
+ norman_opinion: "Opinión de Norman" #NT!
+ TRAIT_FLAG_DESC_can_raid: "Habilita [raiding|E]" #NT!
+  
+ trait_immortal: "Inmortal" #NT!
+ trait_immortal_desc: "Este personaje se distingue del resto de la humanidad y no sufre los rigores de la edad, la decadencia y el tiempo." #NT!
+ trait_immortal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] se distingue del resto de la humanidad, no sufre los rigores de la edad, la decadencia y el tiempo." #NT!

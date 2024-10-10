@@ -16,6 +16,9 @@
  mansions: "Palacios"
  temple: "Templo"
  temples: "Templos"
+  
+ residence: "residencia" #NT!
+ residences: "residencias" #NT!
   #IndefiniteBodyOfWater 
  body_of_water_a_lake: "Un lago"
  body_of_water_an_oasis: "Un oasis"
@@ -40,6 +43,12 @@
  terrain_floodplains: "Llanura aluvial"
  terrain_drylands: "Tierra árida"
  terrain_forest: "Bosque"
+ terrain_deserts: "playa" #NT!
+ terrain_oases: "oasis" #NT!
+ terrain_jungles: "árboles" #NT!
+ terrain_forests: "bosque" #NT!
+ terrain_taigas: "taigas" #NT!
+ terrain_steppes: "estepas" #NT!
   #LocalAnimal 
  animal_hart: "Ciervo"
  animal_stag: "Venado"
@@ -139,6 +148,9 @@
  random_religious_text_the_small_book_on_theism: "El Librito del teísmo"
  random_religious_text_modern_philosophy: "Filosofía moderna"
  random_religious_text_stories_from_holy_book: "Historias del libro sagrado"
+ random_religious_text_symeon_menologion: "El Menologio de Simeón" #NT!
+ random_religious_text_chrysostomos: "Las Homilías de Crisóstomo" #NT!
+ random_religious_text_god_and_christ: "Sobre Dios y Cristo" #NT!
   
   #Random Entertainment texts 
  random_entertainment_text_beowulf: "Beowulf"
@@ -150,6 +162,8 @@
  random_entertainment_text_travels_to_byzantium: "Viajes a Bizancio"
  random_entertainment_text_digenes_akrites: "Digenes Akrites"
  random_entertainment_text_riddle_poems: "Acertijos"
+ random_entertainment_text_epigrams: "Poesía epigramática" #NT!
+ random_entertainment_text_philogelos: "El filogelos" #NT!
   
   #Random Informative Texts 
  random_informative_text_on_the_judgement_of_the_stars: "Sobre el juicio de las estrellas"
@@ -159,6 +173,8 @@
  random_informative_text_the_improvement_of_the_moral_qualities: "La Mejora de las cualidades morales"
  random_informative_text_armes_prydein: "El Armes Prydein"
  random_informative_text_almagest: "El Almagesto"
+ random_informative_text_anekdota: "La anécdota" #NT!
+ random_informative_text_chronographia: "La cronografía" #NT!
   
   #Musical Performer 
  music_performer_troubadour: "Trovador"
@@ -172,6 +188,7 @@
  palm_wine: "Vino de palma"
  slivovitz: "Slivovitz"
  byzantine_cypriot: "Chipriota bizantina"
+ byzantine_cypriots: "Vinos chipriotas de Commandaria" #NT!
  shiraz_white: "Shiraz blanco"
  prunelle_liquer: "Licor de endrinas"
  sack_wine: "Vino de bota"
@@ -179,6 +196,16 @@
  arrack: "Arrack"
  tea: "Té"
  soma: "Soma"
+ macedonian_wine: "Vino macedonio" #NT!
+ macedonian_wines: "Vinos de Macedonia" #NT!
+ cretan_muscat: "Moscatel de Creta" #NT!
+ cretan_muscats: "Moscateles de Creta" #NT!
+ rumney: "Rumney" #NT!
+ rumneys: "Vinos de Rumney" #NT!
+ malvasia: "Malvasía" #NT!
+ malvasias: "Vinos de malvasía" #NT!
+ retsina: "Retsina" #NT!
+ retsinas: "Vinos de Retsina" #NT!
   
   #Game 
  deck_of_cards: "Baraja de cartas"
@@ -338,6 +365,7 @@
  kasbah: "Alcazaba"
  durga: "Durga"
  kastron: "Kástron"
+ KASTRON_GLOSS: "El #bold kástron#!, que originalmente hacía referencia a una fortaleza o ciudadela, pasó a significar la ciudad bizantina en su conjunto." #NT!
  stronghold: "Bastión"
   #Mythical Horned Creatures 
  horned_mythical_creature_tarasque: "Tarasca"
@@ -351,27 +379,30 @@
  horned_mythical_creature_catoblepas: "Catoblepas"
  horned_mythical_creature_keewakw: "Kee-wakw"
   #Regional Mythical Creatures 
-   #Britannia 
+  #Britannia 
  mythical_creature_britannia_water_leper: "Saltador de agua"
  mythical_creature_britannia_fomorian: "Fomoriano"
  mythical_creature_britannia_fachan: "Fachen"
-   #West Europe 
+  #West Europe 
  mythical_creature_west_europe_cockatrice: "Cocatriz"
  mythical_creature_west_europe_lou_carcolh: "El carcolh"
  mythical_creature_west_europe_myrmecoleon: "Mirmicoleón"
-   #North Europe 
+  #North Europe 
  mythical_creature_north_europe_antero_vipunen: "Antero Vipunen"
  mythical_creature_north_europe_tjelvar: "Tjelvar"
  mythical_creature_north_europe_fin: "Fin"
-   #South Europe 
+  ##Gotland 
+ mythical_creature_north_europe_bysn: "Por favor" #NT!
+ mythical_creature_north_europe_disma: "El pequeño Undar Jårdi" #NT!
+  #South Europe 
  mythical_creature_south_europe_basilisk: "Basilisco"
  mythical_creature_south_europe_lhombri: "L'hombri"
  mythical_creature_south_europe_argus_panoptes: "Argos Panoptes"
-   #East Europe 
+  #East Europe 
  mythical_creature_east_europe_baba_yaga: "Baba Yaga"
  mythical_creature_east_europe_psoglav: "Psoglav"
  mythical_creature_east_europe_sirin: "Sirin"
-   #West Africa 
+  #West Africa 
  mythical_creature_west_africa_mami_wata: "Mami Wata"
  mythical_creature_west_africa_dodo: "Dodó"
  mythical_creature_west_africa_utelif: "Utelif"
@@ -383,37 +414,48 @@
  mythical_creature_middle_east_manticore: "Mantícora"
  mythical_creature_middle_east_behemoth: "Behemot"
  mythical_creature_middle_east_humbaba: "Humbaba"
-   #India 
+  #India 
  mythical_creature_india_makara: "Makara"
  mythical_creature_india_yali: "Yali"
  mythical_creature_india_rakshasha: "Ráksasa"
-   #East Asia 
+  #East Asia 
  mythical_creature_east_asia_manaul: "Manaul"
  mythical_creature_east_asia_bashee: "Bashee"
  mythical_creature_east_asia_camphruch: "Camphruch"
-   #Other/Fallback 
+  #West Steppe 
+ mythical_creature_west_steppe_aptah_baga: "Aptah-Baga" #NT!
+ mythical_creature_west_steppe_xullykuns: "Xullykuns" #NT!
+ mythical_creature_west_steppe_zilant: "Zilant" #NT!
+  #East Steppe 
+ mythical_creature_east_steppe_yelbeghen: "Yelbeghen" #NT!
+ mythical_creature_east_steppe_tepegoz: "Tepegoz" #NT!
+ mythical_creature_east_steppe_archura: "Arcoiris" #NT!
+  #Other/Fallback 
  mythical_creature_other_cipactli: "Cipactli"
  mythical_creature_other_dragon: "Dragón"
   #Lowercase 
-   #Britannia 
+  #Britannia 
  mythical_creature_britannia_water_leper_lower: "Saltador de agua"
  mythical_creature_britannia_fomorian_lower: "Fomoriano"
  mythical_creature_britannia_fachan_lower: "Fachen"
-   #West Europe 
+  #West Europe 
  mythical_creature_west_europe_cockatrice_lower: "Cocatriz"
  mythical_creature_west_europe_lou_carcolh_lower: "El carcolh"
  mythical_creature_west_europe_myrmecoleon_lower: "Mirmicoleón"
-   #North Europe 
+  #North Europe 
  mythical_creature_north_europe_giant_lower: "Gigante"
-   #South Europe 
+  ##Gotland 
+ mythical_creature_north_europe_bysn_lower: "Bysn" #NT!
+ mythical_creature_north_europe_disma_lower: "Duendes" #NT!
+  #South Europe 
  mythical_creature_south_europe_basilisk_lower: "Basilisco"
  mythical_creature_south_europe_lhombri_lower: "L'hombri"
  mythical_creature_south_europe_argus_panoptes_lower: "Argos panoptes"
-   #East Europe 
+  #East Europe 
  mythical_creature_east_europe_baba_yaga_lower: "Baba yaga"
  mythical_creature_east_europe_psoglav_lower: "Psoglav"
  mythical_creature_east_europe_sirin_lower: "Sirin"
-   #West Africa 
+  #West Africa 
  mythical_creature_west_africa_mami_wata_lower: "Mami wata"
  mythical_creature_west_africa_dodo_lower: "Dodó"
  mythical_creature_west_africa_utelif_lower: "Utelif"
@@ -421,22 +463,30 @@
  mythical_creature_east_africa_liqimsa_lower: "Liqimsa"
  mythical_creature_east_africa_bulgu_lower: "Bulgu"
  mythical_creature_east_africa_opimachus_lower: "Opimachus"
-   #Middle East 
+  #Middle East 
  mythical_creature_middle_east_manticore_lower: "Mantícora"
  mythical_creature_middle_east_behemoth_lower: "Behemot"
  mythical_creature_middle_east_humbaba_lower: "Humbaba"
-   #India 
+  #India 
  mythical_creature_india_makara_lower: "Makara"
  mythical_creature_india_yali_lower: "Yali"
  mythical_creature_india_rakshasha_lower: "Ráksasa"
-   #East Asia 
+  #East Asia 
  mythical_creature_east_asia_manaul_lower: "Manaul"
  mythical_creature_east_asia_bashee_lower: "Bashee"
  mythical_creature_east_asia_camphruch_lower: "Camphruch"
-   #Other/Fallback 
+  #West Steppe 
+ mythical_creature_west_steppe_aptah_baga_lower: "Apta-baga" #NT!
+ mythical_creature_west_steppe_xullykuns_lower: "xullykuns" #NT!
+ mythical_creature_west_steppe_zilant_lower: "zilante" #NT!
+  #East Steppe 
+ mythical_creature_east_steppe_yelbeghen_lower: "amarillo" #NT!
+ mythical_creature_east_steppe_tepegoz_lower: "$mythical_creature_north_europe_giant_lower$" #NT!
+ mythical_creature_east_steppe_archura_lower: "arcoura" #NT!
+  #Other/Fallback 
  mythical_creature_other_cipactli_lower: "Cipactli"
  mythical_creature_other_dragon_lower: "Dragón"
-   #Root vegetables 
+  #Root vegetables 
  root_vegetable_onion: "Cebolla"
  root_vegetable_okra: "Quingombó"
  root_vegetable_carrot: "Zanahoria"
@@ -482,14 +532,117 @@
  regional_edible_meat_pork: "Carne de cerdo"
   #GetRandomRegionalSmallGame 
  animal_squirrel: "Ardilla"
+ animal_squirrel_plural: "ardillas" #NT!
  animal_otter: "Nutria"
+ animal_otter_plural: "nutrias" #NT!
  animal_vole: "Ratón de campo"
+ animal_vole_plural: "ratones de campo" #NT!
  animal_beaver: "Castor"
+ animal_beaver_plural: "castores" #NT!
  animal_ferret: "Hurón"
+ animal_ferret_plural: "hurones" #NT!
  animal_ermine: "Armiño"
+ animal_ermine_plural: "armiños" #NT!
  animal_badger: "Tejón"
+ animal_badger_plural: "tejones" #NT!
  animal_rabbit: "Conejo"
+ animal_rabbit_plural: "Conejos" #NT!
  animal_mole: "Topo"
+ animal_mole_plural: "lunares" #NT!
  animal_snake: "Serpiente"
+ animal_snake_plural: "serpientes" #NT!
  animal_lizard: "Lagarto"
+ animal_lizard_plural: "lagartos" #NT!
  animal_gerbil: "Jerbo"
+ animal_gerbil_plural: "jerbos" #NT!
+  #Landless 
+ camp: "acampar" #NT!
+ camp_plural: "campamentos" #NT!
+ estate: "bienes" #NT!
+ estate_plural: "fincas" #NT!
+ court: "corte" #NT!
+ tent: "carpa" #NT!
+ tent_plural: "tiendas de campaña" #NT!
+ room: "habitación" #NT!
+ room_plural: "alojamiento" #NT!
+ courtier_plural: "cortesanos" #NT!
+ courtier: "cortesano" #NT!
+ follower_male: "seguidor" #NT!
+ follower_female: "seguidor" #NT!
+ follower_plural: "seguidores" #NT!
+ follower: "seguidor" #NT!
+ subject: "sujeto" #NT!
+ subject_plural: "Sujetos" #NT!
+ vassal: "vasallo" #NT!
+ vassal_plural: "vasallos" #NT!
+ encampment: "campamento" #NT!
+ encampments: "campamentos" #NT!
+ chamber: "cámara" #NT!
+ chamber_plural: "cámaras" #NT!
+ dungeon_plural: "mazmorras" #NT!
+ stockade: "estacada" #NT!
+ stockade_plural: "empalizadas" #NT!
+ STOCKADE_CONCEPT: "[stockade|E]" #NT!
+ STOCKADE_CONCEPT_plural: "[stockades|E]" #NT!
+ DUNGEON_CONCEPT_plural: "[dungeons|E]" #NT!
+ realm: "reino" #NT!
+ officer: "oficial" #NT!
+ officer_plural: "oficiales" #NT!
+ court_position: "$game_concept_court_position$" #NT!
+ court_position_plural: "$game_concept_court_positions$" #NT!
+ door: "puerta" #NT!
+ door_plural: "puertas" #NT!
+ tent_flap: "solapa de tienda" #NT!
+ tent_flap_plural: "solapas de tienda" #NT!
+  
+ courtyard_location: "patio" #NT!
+ court_owner_liege: "feudal" #NT!
+ court_owner_adventurer: "líder" #NT!
+  
+  #Fish 
+  
+  #Ocean Fish 
+ fish_mackerel: "caballa" #NT!
+ fish_sea-bream: "besugo" #NT!
+ fish_cod: "bacalao" #NT!
+ fish_sturgeon: "esturión" #NT!
+ fish_pollock: "abadejo" #NT!
+ fish_bass: "bajo" #NT!
+ fish_red_snapper: "pargo" #NT!
+ fish_trout: "trucha" #NT!
+ fish_scamp: "pícaro" #NT!
+ fish_tuna: "atún" #NT!
+ fish_whitefish: "pescado blanco" #NT!
+ fish_nemo: "Nemo" #NT!
+ fish_ling: "abadejo" #NT!
+  
+  #North Atlantic Fish 
+ fish_salmon: "salmón" #NT!
+ fish_eel: "Anguila" #NT!
+ fish_smelt: "eperlano" #NT!
+ fish_plaice: "platija" #NT!
+ fish_flounder: "platija" #NT!
+ fish_herring: "arenque" #NT!
+  
+  #Mediterranean Fish 
+ fish_wrasse: "lábrido" #NT!
+ fish_anchovy: "anchoa" #NT!
+ fish_grouper: "agrupador" #NT!
+ fish_seahorse: "caballito de mar" #NT!
+ fish_angler_fish: "pez rape" #NT!
+  
+  #River Fish 
+ fish_perch: "perca" #NT!
+ fish_catfish: "bagre" #NT!
+ fish_ide: "idea" #NT!
+ fish_carp: "carpa" #NT!
+ fish_pike: "lucio" #NT!
+  
+  #African Fish 
+ fish_needlefish: "aguja" #NT!
+ fish_squeaker: "chirriador" #NT!
+  
+  #Indian Fish 
+ fish_arowana: "arowana" #NT!
+ fish_barramundi: "barramundi" #NT!
+ fish_croaker: "corvina" #NT!

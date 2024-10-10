@@ -1,5 +1,6 @@
 ﻿l_spanish:
  feudal_government: "Feudal"
+ feudal_government_with_icon: "@gobierno_tipo_feudal! $feudal_government$" #NT!
  feudal_government_adjective: "Feudal"
  feudal_government_realm: "Reino Feudal"
  feudal_government_vassals_label: "Los [obligations|E] feudales se basan en el [feudal_contract|E] de cada [vassal|E]"
@@ -57,12 +58,16 @@
  special_contract_scutage_desc: "#flavor Mientras esté sujeto a un $special_contract_scutage$, el [vassal|E] pagará #high [EmptyScope.ScriptValue('scutage_contract_tax_tooltip')|0]%#! más [tax|E] de lo que dicta su $feudal_government_taxes$ [obligation|E], mientras que al mismo tiempo proporcionará #high $special_contract_scutage$0%#! menos $special_contract_scutage$2 que lo que dicta su $special_contract_scutage$3 [obligation|E].#!"
  special_contract_march: "Contrato de marzo"
  special_contract_march_desc: "#flavor Mientras estén sujetos a un $special_contract_march$, los [vassal|E] recibirán bonificaciones a sus [levies] capacidades defensivas, pero proporcionarán #high [EmptyScope.ScriptValue('march_contract_taxes_tooltip')|0]%#! menos [tax|E] de lo que dicta su $feudal_government_taxes$ [obligation|E].#!"
+ special_contract_march_border_trigger: "[vassal.GetName] no tiene frontera con un extranjero [realm|E]" #NT!
  special_contract_palatinate: "Contrato Palatinado"
  special_contract_palatinate_desc: "#flavor Aunque está sujeto a un $special_contract_palatinate$, el [vassal|E] disfruta de muchos privilegios dentro del reino, lo que aumenta su posición y les da más influencia política. $special_contract_palatinate_short$ [vassals|E] aumentan sus [liege|E] [prestige|E] pero proporcionan #high [EmptyScope.ScriptValue('palatinate_contract_taxes_tooltip')|0]%#! menos $special_contract_palatinate$0 y $special_contract_palatinate$1 de lo que dictan sus $special_contract_palatinate$2 y $special_contract_palatinate$3 $special_contract_palatinate$4.#!"
+ special_contract_castellan: "Contrato de Castellano" #NT!
+ special_contract_castellan_desc: "#flavor Mientras esté sujeto a un $special_contract_castellan$, el [vassal|E] recibirá bonificaciones a sus [levies] y capacidades defensivas. Proporcionan #high [EmptyScope.ScriptValue('march_contract_taxes_tooltip')|0]%#! menos [tax|E], pero #high [EmptyScope.ScriptValue('castellan_contract_levies_tooltip')0]%#! más $special_contract_castellan$1 de lo que dicta su $special_contract_castellan$2 $special_contract_castellan$3.#!" #NT!
  special_contract_none_short: "Ninguno"
  special_contract_scutage_short: "Escena"
  special_contract_march_short: "Marzo"
  special_contract_palatinate_short: "Palatinado"
+ special_contract_castellan_short: "Castellano" #NT!
   
  religious_rights: "Derechos religiosos"
  religious_rights_none: "Religiosamente desprotegidos"
@@ -115,6 +120,7 @@
  title_revocation_rights_protected_short: "Protegido"
   
  clan_government: "Clan"
+ clan_government_with_icon: "@clan_tipo_gobierno! $clan_government$" #NT!
  clan_government_adjective: "Clan"
  clan_government_realm: "Clan"
  clan_government_desc: "$game_concept_clan_desc$\n\n#F El clan está unido por parentesco, ya sea por sangre o por una relación compartida con un antepasado simbólico. El líder de un clan depende en gran medida del apoyo del clan. Unidos, son una fuerza a tener en cuenta, pero un clan descontento se marchita desde dentro.#!"
@@ -126,6 +132,7 @@
  clan_government_min_contribution_label: "[crown_authority|E] mínimo"
   
  republic_government: "República"
+ republic_government_with_icon: "@gobierno_tipo_republica! $republic_government$" #NT!
  republic_government_adjective: "República"
  republic_government_realm: "República"
  republic_government_desc: "$game_concept_republic_desc$\n\n#F Las ciudades están gobernadas por los ciudadanos privilegiados de la clase burguesa, entre los cuales uno es elegido alcalde. Si bien el alcalde tiene una influencia significativa, depende de la popularidad para ser reelegido.#!"
@@ -134,6 +141,7 @@
  republican_vassals_pay_more_parameter: "Desde [liege|E] [culture_traditions|E]"
   
  tribal_government: "Tribal"
+ tribal_government_with_icon: "@tipo_de_gobierno_tribal! $tribal_government$" #NT!
  tribal_government_adjective: "Tribal"
  tribal_government_realm: "Tribu"
  tribal_government_desc: "$game_concept_tribal_desc$\n\n#F En la tribu, la fuerza lo es todo. Un líder tribal depende del respeto y el renombre más que del dinero para desarrollar su reino y reforzar sus ejércitos.#!"
@@ -145,6 +153,7 @@
  has_detailed_ledgers_perk: "[liege|E] tiene [GetPerk( 'detailed_ledgers_perk' ).GetName( GetPlayer )]"
   
  theocracy_government: "Teocracia"
+ theocracy_government_with_icon: "@teocracia_tipo_gobierno! $theocracy_government$" #NT!
  theocracy_government_adjective: "Teocrático"
  theocracy_government_realm: "Teocracia"
  theocracy_government_desc: "$game_concept_theocracy_desc$\n\n#F En un gobierno teocrático, toda autoridad pertenece a una institución religiosa. Está gobernado por un sacerdote o sacerdotisa que lleva a cabo la voluntad divina en la Tierra.#!"
@@ -154,11 +163,13 @@
  theocracy_government_vassal_contribution_piety_level: "[liege|E] es [GetPietyLevelName(liege.GetPietyLevel)|L]"
   
  holy_order_government: "Orden sagrada"
+ holy_order_government_with_icon: "@gobierno_tipo_orden_sagrada! $holy_order_government$" #NT!
  holy_order_government_desc: "Los santos guerreros de las órdenes han dedicado su vida a luchar contra los infieles y servir a su fe. Pueden poseer castillos que les hayan regalado terratenientes piadosos. El líder de la orden se elige dentro de los rangos de la orden."
  holy_order_government_adjective: "Santa Orden"
  holy_order_government_realm: "Santa Orden"
   
  mercenary_government: "Compañía Mercenaria"
+ mercenary_government_with_icon: "@mercenario_tipo_gobierno! $mercenary_government$" #NT!
  mercenary_government_realm: "Compañía Mercenaria"
  mercenary_government_desc: "Compañías de mercenarios deambulan por las tierras en busca de empleo y toman las armas para el mejor postor. La lealtad es esencial para una buena reputación, pero sólo dura hasta el final del contrato. El líder mercenario se elige entre las filas de la empresa."
  mercenary_government_adjective: "Compañía Mercenaria"
@@ -170,6 +181,7 @@
  GOVERNMENT_CLAN_NOT_ALLIED: "No [alliance|E] como Clan [vassal|E]"
  GOVERNMENT_CLAN_NOT_ALLIED_POWERFUL: "No [alliance|E] como Clan poderoso [vassal|E]"
  government_can_raid_rule: "[government|E] permite el [raiding|E] de [counties|E] extranjero para [raid_loot|E]"
+ may_elevate_co_monarch: "#indent_newline:3 Permite que [rulers|E] de al menos [kingdom|E]-[title_tier|E] eleve a [co_monarch|E] de entre sus [children|E]#! adultos." #NT!
  government_is_feudal: "El tipo [government|E] es [GetGovernment( 'feudal_government' ).GetName]"
  government_is_republic: "El tipo [government|E] es [GetGovernment( 'republic_government' ).GetName]"
  government_is_theocracy: "El tipo [government|E] es [GetGovernment( 'theocracy_government' ).GetName]"
@@ -177,7 +189,14 @@
  government_is_tribal: "El tipo [government|E] es [GetGovernment( 'tribal_government' ).GetName]"
  government_is_mercenary: "El tipo [government|E] es [GetGovernment( 'mercenary_government' ).GetName]"
  government_is_holy_order: "El tipo [government|E] es [GetGovernment( 'holy_order_government' ).GetName]"
+ government_is_landless_adventurer: "Tiene acceso a un [camp|E]" #NT!
+ government_is_administrative: "Tiene acceso a un [estate|E]" #NT!
+ government_has_influence: "Usos [influence_i|E][influence|E]" #NT!
+ government_has_title_men_at_arms: "Permite el reclutamiento de [title_men_at_arms|E]" #NT!
+ government_has_powerful_families: "Habilita [noble_families|E]" #NT!
  may_appoint_viziers: "Puede nombrar [viziers|E]"
+  
+ government_is_not_republic_or_admin_desc: "[government|E] es #bold, no #!, [GetGovernment('republic_government').GetName] o [GetGovernment('administrative_government').GetName]" #NT!
   
  SUPPLY_MULT_DIFERENT_GOVERNMENT: "[GOVERNMENT_TYPE.GetAdjective] Tierras"
   
@@ -380,6 +399,13 @@
  jizya_special_rights_tax_collector_flavor_desc: "Jizya es un impuesto especial asignado a #italic dhimmis#!, minorías religiosas, a cambio del privilegio de practicar su fe errante en paz."
  unlock_jizya_contract_name: "[GetFaithDoctrine('tenet_tax_nonbelievers').GetBaseName] [core_tenet|E]"
   
+ jizya_special_rights: "$jizya_special_rights_tax_collector$" #NT!
+ jizya_special_rights_default: "Predeterminado $jizya_special_rights$" #NT!
+ jizya_special_rights_default_short: "Por defecto" #NT!
+ jizya_special_rights_granted: "Obligado $jizya_special_rights$" #NT!
+ jizya_special_rights_granted_desc: "$jizya_special_rights_tax_collector_desc$" #NT!
+ jizya_special_rights_granted_short: "Otorgada" #NT!
+  
   
  iqta_special_rights_tax_collector: "Beca Iqta"
  iqta_special_rights_tax_collector_desc: "El [vassal|E] tiene obligaciones menores pero ayuda a contribuir con el [men_at_arms|E] al [liege|E]."
@@ -407,3 +433,58 @@
   
  has_house_unity_parameter: "Tiene el $PARAMETER_NAME$"
  not_has_house_unity_parameter: "No tiene acceso a $PARAMETER_NAME$"
+  
+  # Administrative 
+ administrative_government: "Administrativo" #NT!
+ administrative_government_with_icon: "@gobierno_tipo_administrativo! $administrative_government$" #NT!
+ administrative_government_adjective: "Administrativo" #NT!
+ administrative_government_realm: "Reino administrativo" #NT!
+ administrative_government_desc: "\n$game_concept_administrative_desc$\n\n#F El sistema administrativo es un gobierno altamente centralizado, donde el poder reside principalmente en la capital. El derecho de nacimiento, aunque sigue siendo importante, no es tan prominente como en un reino feudal. Con suficiente habilidad y ambición, cualquiera, incluso del origen más humilde, puede ascender y convertirse en un gobernador influyente o intentar hacerse con el trono y convertirse en emperador.#!" #NT!
+ administrative_government_vassals_label: "[administrative|E] [obligations|E] se basan en [GetPlayer.Custom('GetProvinceAdministrationConcept')]" #NT!
+ administrative_obligations: "Obligaciones administrativas" #NT!
+ administrative_themes: "Tipos de administración disponibles" #NT!
+ admin_theme_balanced: "@balanced_administration! Administración equilibrada" #NT!
+ admin_theme_balanced_short: "@balanced_administration! Equilibrado" #NT!
+ admin_theme_balanced_text_icon: "@administración_equilibrada!" #NT!
+ admin_theme_balanced_desc: "#flavor Una administración equilibrada busca la moderación para garantizar la igualdad de atención en todas las áreas de gobernanza.#!" #NT!
+ admin_theme_military: "@military_administration! Administración Militar" #NT!
+ admin_theme_military_short: "@military_administration! Militar" #NT!
+ admin_theme_military_text_icon: "@administracion_militar!" #NT!
+ admin_theme_military_benefits: "#emphasis #bold [vassal|E] Beneficios:#!#!\nIncreases [governor_efficiency|E] basado en [martial|E]#indent_newline:4 \n#weak Agrega un [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] extra por cada [skill|E] Punto#bold0" #NT!
+ admin_theme_military_desc: "#flavor Una administración militar pone toda su energía en reclutar y entrenar tropas formidables para el ejército imperial.#!" #NT!
+ admin_theme_civilian: "@civilian_administration! Administración Civil" #NT!
+ admin_theme_civilian_short: "@civilian_administration! Civil" #NT!
+ admin_theme_civilian_text_icon: "@administracion_civil!" #NT!
+ admin_theme_civilian_benefits: "#emphasis #bold [vassal|E] Beneficios:#!#!\nIncreases [governor_efficiency|E] basado en [stewardship|E]#indent_newline:4 \n#weak Agrega un [EmptyScope.ScriptValue('efficiency_skill_increase_value')|+1%/] adicional por cada [skill|E] Punto#bold0 obtenido al construir #bold1 en #bold2 mantenido se incrementa" #NT!
+ admin_theme_civilian_desc: "#flavor Exenta del servicio militar, una administración civil se centra en mejorar la economía y el bienestar de los ciudadanos.#!" #NT!
+ admin_theme_frontier: "@frontier_administration! Administración Fronteriza" #NT!
+ admin_theme_frontier_short: "@frontier_administration! Frontera" #NT!
+ admin_theme_frontier_text_icon: "@frontier_administration!" #NT!
+ admin_theme_frontier_benefits: "#emphasis #bold [liege|E] Beneficios:#!#!\nUnlocks el #high $frontier_influence_war_interaction$#! [interaction|E] permitiendo al señor solicitar al [vassal|E] declarar la guerra a un [duchy|E]-tier #bold0\n\n#emphasis #bold [vassal|E] Beneficios:#!#!\nAumenta #bold5 en base a #bold6#bold7 \n#bold8 Agrega un #bold9 extra por cada [liege|E]0 Punto#!#!\nUnlocks el #high [liege|E]3#! [liege|E]5" #NT!
+ admin_theme_frontier_desc: "#flavor No se pueden dejar las fronteras sin defender. Una administración fronteriza garantizará las defensas del reino y estará preparada para repeler a cualquier posible invasor.#!" #NT!
+ admin_theme_imperial: "@imperial_administration! Administración Imperial" #NT!
+ admin_theme_imperial_short: "@imperial_administration! Imperial" #NT!
+ admin_theme_imperial_text_icon: "@imperial_administration!" #NT!
+ admin_theme_imperial_benefits: "#emphasis #bold [vassal|E] Beneficios:#!#!\nIncreases [governor_efficiency|E] basado en [prestige_level|E]#indent_newline:4 \n#weak Agrega un [EmptyScope.ScriptValue('efficiency_currency_level_increase_value')|+0%/] adicional por cada nivel#!#!\nIncreases #bold0 Calificación\nNo se puede revocar una cita sin un #bold1" #NT!
+ admin_theme_imperial_desc: "#flavor Una administración imperial proporciona un nivel significativo de autonomía y libertad respecto de muchas responsabilidades habituales. Es la administración más prestigiosa que se puede tener.#!" #NT!
+ admin_theme_naval: "@naval_administration! Administración Naval" #NT!
+ admin_theme_naval_short: "@naval_administration! Naval" #NT!
+ admin_theme_naval_text_icon: "@administracion_naval!" #NT!
+ admin_theme_naval_benefits: "#emphasis #bold [liege|E] Beneficios:#!#!\nUnlocks el #high $frontier_influence_war_interaction$#! [interaction|E] permitiendo al señor solicitar al [vassal|E] declarar la guerra por un [duchy|E]-tier #bold0 extranjero\n\n#emphasis #bold [vassal|E] Beneficios:#!#!\nAumenta #bold5 por cada #high #bold7#! controlado#indent_newline:4 \n#bold9 Agrega [liege|E]0 extra por cada #bold7#!#!\nUnlocks el #high [liege|E]4#! [liege|E]6" #NT!
+ admin_theme_naval_desc: "#flavor La marina es la columna vertebral de cualquier reino en expansión. Con una administración naval dedicada, la seguridad y la eficiencia en el mar aumentarán enormemente.#!" #NT!
+ ADMINISTRATIVE_CONTRACT: "[Character.Custom( 'GetProvinceConceptNoTooltip' )] Administración" #NT!
+ admin_theme_frontier_valid_desc: "El [vassal.Custom( 'GetProvinceConceptNoTooltip' )] debe bordear otro [realm|E]" #NT!
+ admin_theme_imperial_valid_desc: "Solo un [vassal.Custom( 'GetProvinceConceptNoTooltip' )] puede tener activa esta administración" #NT!
+ admin_theme_naval_valid_desc: "El [vassal.Custom( 'GetProvinceConceptNoTooltip' )] debe ser costero" #NT!
+ admin_contract_forbids_revocation_desc: "No puedes revocar [titles|E] ni los nombramientos de un [vassal|E] que gobierna con el [GetVassalContractType( 'administrative_themes' ).GetObligationName( 'admin_theme_imperial' )] a menos que tengas un [revoke_title_reason|E]" #NT!
+  
+  # Landless Adventurer Camps 
+ landless_adventurer_government: "Aventurero" #NT!
+ landless_adventurer_government_with_icon: "@aventurero_tipo_gobierno! $landless_adventurer_government$" #NT!
+ landless_adventurer_government_adjective: "Aventurero" #NT!
+ landless_adventurer_government_realm: "Campamento de aventureros" #NT!
+ landless_adventurer_government_desc: "\n$game_concept_adventurer_desc$" #NT!
+ conditional_maa_refill_rule: "solo [reinforce_soldiers|E] tropas" #NT!
+ adventurer_rule: "solo gana [gold|E] y [prestige|E] al realizar [task_contracts|E]" #NT!
+ mercenary_rule: "ser contratado para servir como [mercenaries|E] por [landed|E] [rulers|E]" #NT!
+ adult_rulers_only: "#N Solo puede ser gobernado por [adults|E]#!" #NT!

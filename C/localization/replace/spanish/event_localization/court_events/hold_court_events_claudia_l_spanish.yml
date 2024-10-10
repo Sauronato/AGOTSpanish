@@ -15,22 +15,6 @@
  hold_court.6000.c: "Conozco a la persona adecuada para el trabajo."
  hold_court.6000.c.tt: "Envías a [inspector.GetTitledFirstName] como inspector oficial para supervisar la recuperación del condado."
  hold_court.6000.d: "Estoy seguro de que puedes gestionarlo por tu cuenta."
- hold_court.6000.e: "Será mejor que pagues tus impuestos o habrá consecuencias..."
-  #Land Grants 
- hold_court.6010.t: "Concesiones de tierras"
- hold_court.6010.desc: "Un enviado de una ciudad provincial, [6010_embassy.Custom2('MyCharacterIntroduction', ROOT.Char)], ha venido a protestar por el abuso que [6010_embassy.GetHerHis] ciudad ha estado sufriendo por parte de su vecina, [6010_church.GetCouncilTitle] [6010_church.GetFirstNameNoTooltip] bajo la protección de su señor, [6010_count.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Ocupan y recuperar por la fuerza nuestras tierras cultivables, y amenazar a los propietarios con la condenación espiritual y la violencia material para obligarlos a vender sus pertenencias. ¡Te lo ruego, mi [ROOT.Char.GetLadyLord], que nos hagas justicia!"
- hold_court.6010.a: "[6010_church.GetFirstNameNoTooltip] está dentro de los derechos de [6010_church.GetHerHis]."
- hold_court.6010.b: "[6010_church.GetFirstNameNoTooltip] no está por encima de la ley."
- 6010_revoke_title_reason: "Obtienes un [revoke_title_reason|E] en [6010_count.GetFirstNameNoTooltip]"
- hold_court.6010.c: "No me molestes con estas riñas locales."
- hold_court.6010.d: "[6010_embassy.GetFirstNameNoTooltip|U], puedes servirme mejor."
- hold_court.6010.d.tt: "[6010_county.GetNameNoTooltip|U] se convierte en vasallo de la República"
-  #Hawks and Doves 
- hold_court.6020.t: "Halcones y palomas"
- hold_court.6020.desc: "[hawk.Custom2('MyCharacterIntroduction', ROOT.Char)|U] y [dove.Custom2('MyCharacterIntroduction', ROOT.Char)] están frente a mí, discutiendo, como siempre, sobre la mejor política para nuestro país.\n\n"¡La guerra es la única manera de hacer que un país sea rico y poderoso!" afirma [hawk.GetFirstNameNoTooltip] asertivamente.\n\n"¡Sólo en paz un país puede crecer y prosperar!" responde [dove.GetFirstNameNoTooltip].\n\nEsta vez, sin embargo, esperan que yo tome una posición."
- hold_court.6020.a: "¡Nuestro pueblo son guerreros orgullosos, no campesinos cobardes!"
- hold_court.6020.b: "¡Sólo la paz puede traernos prosperidad!"
- hold_court.6020.c: "Sólo hacemos lo que #EMP I#! decide."
   #From Beyond the Border 
  hold_court.6030.t: "Desde más allá de la frontera"
  hold_court.6030.desc: ""Mi [ROOT.Char.GetLadyLord], vengo de la comunidad religiosa de [6030_church.GetName], en el [6030_border.GetName].\n\n"Allí, los sabios y piadosos [6030_monk.GetWomenMen] han estado recopilando y preservando el conocimiento tradicional de la cultura [6030_monk.GetCulture.GetName] durante siglos. Como señal de nuestra buena voluntad, les ofrezco esta preciosa antología de [6030_monk.GetCulture.GetNameNoTooltip] textos traducidos a su propio idioma.\n\n"Esperamos que la acepten y obtengan una nueva perspectiva de nuestro pueblo"."
@@ -66,6 +50,12 @@
  hold_court.6050.b: "Ya lo se. El Santo vino a mí en un sueño."
  hold_court.6050.c: "¡Erradicaré esta tontería blasfema de inmediato!"
  hold_court.6050.d: "No me importan las supersticiones campesinas."
+ tougher_to_convert: "Comunidad religiosa fuerte" #NT!
+ tougher_to_convert_desc: "La identidad religiosa de este condado se ha fortalecido recientemente, lo que hace que sea más difícil convertirlos.\n\n#N -25%#! Velocidad de conversión de fe" #NT!
+ easier_to_convert: "Comunidad religiosa debilitada" #NT!
+ easier_to_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión de fe" #NT!
+ easier_to_culture_convert: "Comunidad religiosa debilitada" #NT!
+ easier_to_culture_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión cultural" #NT!
   #A Convenient offer 
  hold_court.6060.t: "Una oferta conveniente"
  hold_court.6060.desc: "[6060_rich.Custom2('MyCharacterIntroduction', ROOT.Char)|U] está frente a mí, con una expresión esperanzada en su rostro.\n\n"Mi [ROOT.Char.GetLadyLord],"
@@ -76,6 +66,8 @@
  hold_court.6060.b.tt.success: "[6060_rich.GetFirstNameNoTooltip] acepta pagar más"
  hold_court.6060.b.tt.failure: "[6060_rich.GetFirstNameNoTooltip] mantiene la última oferta de [6060_rich.GetHerHis] y pareces un tonto codicioso"
  hold_court.6060.c: "No necesito tu oro."
+ character_title_cannot_be_revoked_tt: "No podrás revocar el título durante 25 años." #NT!
+ protected_from_revocation.tt: "Los títulos de este personaje están protegidos contra revocación." #NT!
   #Budding Ally 
  hold_court.6070.t: "Aliado en ciernes"
  hold_court.6070.desc: "" Mi [ROOT.Char.GetLadyLord], mi nombre es [6070_embassy.GetTitledFirstName] y soy embajador de su aliado, [6070_sender.GetTitledFirstName]. Le traigo [6070_sender.GetHerHis] saludos amistosos y una oferta.\n\n"Mi señor valora su amistad por encima de todo, así que, como signo de buena voluntad, [6070_sender.GetSheHe] te envía este niño — [6070_sender.GetHerHis] [6070_child.Custom('GetDaughterSon')] [6070_child.GetFirstName] — para que lo eduques como quieras.\n\n"Mi [6070_sender.GetLadyLord] espera que este gesto fortalezca vuestra alianza y confía en que [6070_child.GetFirstNameNoTooltip] estará en Grandes manos.""
@@ -101,6 +93,7 @@
  hold_court.6090.a: "[court_chaplain.GetFirstNameNicknamedNoTooltip], mira lo que puedes hacer."
  hold_court.6090.b: "[high_almoner.GetFirstNameNoTooltip], organizar algunas limosnas locales."
  hold_court.6090.c: "La convivencia pacífica es siempre la mejor solución."
+ title_granted_to_local_leader_tt: "Se le otorgará [6090_main_county.GetName] a un local de la fe [6090_main_county.GetCountyData.GetFaith.GetName]. Tendrás un [hook|E] en ellos." #NT!
  hold_court.6090.d: "[executioner.GetFirstNameNoTooltip], haz un ejemplo de algunos incrédulos."
  hold_court.6090.e: "Parece que ese es tu problema, no el mío."
   #A Land at War 
@@ -129,9 +122,7 @@
  hold_court.6110.a: "Estoy seguro de que un poco de oro aliviará tus desgracias."
  hold_court.6110.b: "¡Decreto que la guerra se detenga inmediatamente!"
  hold_court.6110.c: "Pagarán una multa por sus excesos."
- hold_court.6110.d: "¡¿Cómo #EMP te atreves#! a criticar a tus superiores?!"
  hold_court.6110.e: "Un campesino no debería inmiscuirse en los asuntos de la nobleza."
- hold_court.6110.f: "[almoner.GetFirstNameNoTooltip], procurar que las limosnas generosas lleguen a los campesinos necesitados."
  6110_custom_every_realm_1: "Todos los condados en el reino [6110_vassal_1.GetShortUINamePossessive]"
  6110_custom_every_realm_2: "Todos los condados en el reino [6110_vassal_2.GetShortUINamePossessive]"
   #The Day of Truth 
@@ -162,13 +153,8 @@
   #The Cadastre 
  hold_court.6130.t: "El Catastro"
  hold_court.6130.desc: ""Mi [ROOT.Char.GetLadyLord]" [6130_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)] habla "Propongo un estudio catastral de todos los condados que posee.\n\n"¡Un mejor conocimiento y cartografía de su tierra sin duda aumentará su prosperidad!"
- hold_court.6130.desc_tutor: "\n\n"Esta sería una gran oportunidad para que [6130_tutored.Custom2('YourCharacterIntroduction', ROOT.Char)] adquiera algo de experiencia en matemáticas y geometría en el campo. Permítanos acompañarlo", requiere [tutor.Custom2('MyCharacterIntroduction', ROOT.Char)]."
- hold_court.6130.desc_hunt: "\n\n"¡Nadie conoce tus tierras y bosques mejor que yo! ¡Déjame ayudarte!" interviene [m_hunt.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6130.a: "Muy bien, [6130_proposer.GetFirstNameNoTooltip]. Puedes proceder."
  hold_court.6130.a.tt: "[6130_proposer.GetFirstNameNoTooltip] comienza a trabajar en el levantamiento catastral. Tardarán varios meses en completarse."
- hold_court.6130.b: "Buena idea. ¡Llévate [tutor.GetFirstNameNoTooltip] y [6130_tutored.GetFirstNameNoTooltip] contigo!"
- hold_court.6130.b.tt: "[6130_proposer.GetFirstNameNoTooltip] y [tutor.GetFirstName] comienzan a trabajar en el levantamiento catastral. Tardarán varios meses en completarse."
- hold_court.6130.c: "[m_hunt.GetFirstNameNoTooltip], ayuda."
  hold_court.6130.d: "Los mapas están sobrevalorados."
  hold_court.6131.t: "El Catastro: ¡Completado!"
  hold_court.6131.desc:0 "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se inclina brevemente ante mí y explica con una sonrisa de satisfacción: "Mi [ROOT.Char.GetLadyLord], quizás recuerdes que, hace unos meses, invertiste una gran suma de oro en un catastro de tus condados. \n\n"¡He supervisado personalmente el asunto y puedo decir con orgullo que el trabajo está hecho!"" #NT!
@@ -176,6 +162,7 @@
  hold_court.6131.desc_hunt: "\n\nTambién me complace escuchar un informe detallado de la importante ayuda ofrecida por [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6131.desc_dead: "\n\nLamentablemente, [6130_helper.GetTitledFirstName] no vivió lo suficiente para ver completado el catastro que [6130_helper.GetSheHe] había prometido ayudar a realizar."
  hold_court.6131.a: "¡Oro bien gastado!"
+ all_realm_county: "Cada [realm|E] [county|E]" #NT!
   #A Cumbersome Gift 
  hold_court.6140.t: "Un regalo engorroso"
  hold_court.6140.desc:2 "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "Toda la sala del trono queda en silencio mientras [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] entra triunfante, seguido por dos sirvientes que luchan y arrastran con orgullo a #EMP y a [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling encadenados. [6140_gifter.GetFirstNameNoTooltip] exclama: "¡Mi [ROOT.Char.GetLadyLord], te presento un regalo digno del gobernante más poderoso del mundo! ¡Esta magnífica bestia fue cazada en el [6140_province.GetTerrain.GetNameNoTooltip] de [6140_province.GetCounty.GetName], y ahora te la ofrezco como símbolo de mi devoción y de tu poder incomparable!"" #NT!
@@ -254,15 +241,6 @@
  hold_court.6170.c: "Sólo le concederé a [6170_relative.GetHerHim] una pequeña misericordia."
  hold_court.6170.d: "¡Fuera la cabeza, fuera el problema!"
  hold_court.6170.e: "Realmente no me importan tus peleas."
-  #The Shadow Behind the Throne 
- hold_court.6180.t: "La sombra detrás del trono"
- hold_court.6180.desc: ""Mi [6180_enemy.Custom2('RelationToMe', ROOT.Char)]", comienza [6180_enemy.Custom2('MyCharacterIntroduction', ROOT.Char)], "muchos de los que están cerca de ti se han preocupado cada vez más por la presencia constante de tu $chief_eunuch_court_position$ a tu alrededor.\n\n"Dondequiera que vayas, [c_eunuch.GetSheHe] vela por ti, siempre que ¡Preside la corte, [c_eunuch.GetSheHe] está a tu lado, y cualquier cosa que digas, [c_eunuch.GetSheHe] te lo ha susurrado al oído un momento antes!\n\n"¡Te rogamos que te deshagas de las sutiles manipulaciones de [c_eunuch.GetFirstNamePossessive]!""
- hold_court.6180.a: "Supongo que no debería confiar tanto en [c_eunuch.GetHerHim]..."
- hold_court.6180.b: "¡Bien! ¡No necesito [c_eunuch.GetFirstNamePossessiveNoTooltip] mentiras!"
- hold_court.6180.c: "Ciertamente confío en [c_eunuch.GetFirstNameNoTooltip] más que en #EMP en ti#!!"
- hold_court.6180.d: "¡Blasfemia! ¡Los eunucos son como ángeles que permanecen junto a [ROOT.Char.GetFaith.HighGodName]!"
- hold_court.6180.e: "¿Por qué no reemplazas [c_eunuch.GetHerHim] entonces?"
- hold_court.6180.f: "Preocupaciones infundadas. Despedido."
   #A Shadow in the Night 
  hold_court.6190.t: "Una sombra en la noche"
  hold_court.6190.desc: "El [6190_local.GetWomanMan] que se acerca a mi trono es claramente un plebeyo. "Mi [ROOT.Char.GetLadyLord]", [6190_local.GetSheHe] comienza el discurso de [6190_local.GetHerHis], "represento a la comunidad local de [capital.GetNameNoTooltip]."\n\n"¡En los últimos meses, nuestros cementerios han estado plagados de desaparición de cadáveres! Todos habían sido excavados y no dejó ningún rastro Al principio temíamos a los animales salvajes o a poderes oscuros en acción, pero luego su propio $court_physician_court_position$ [physician.GetTitledFirstName] fue atrapado con las manos en la masa arrastrando a los muertos para [physician.GetHerHis] experimentos!\n\n"Por favor, ponlo. ¡Basta de esta blasfemia!""
@@ -271,35 +249,7 @@
  hold_court.6190.c: "Fresco — #EMP living#! — los cuerpos son mejores sujetos de prueba..."
  hold_court.6190.d: "#EMP ¡GUARDIAS!#! ¡Arresten al ladrón de tumbas!"
  hold_court.6190.e: "[physician.GetFirstNameNoTooltip], simplemente córtalo."
-  #The Monster of X 
- hold_court.6200.t: "El monstruo de [6200_province.GetNameNoTooltip]"
- hold_court.6200.desc: "Frente a mí se encuentra ahora un campesino de aspecto demacrado. "¡Mi [ROOT.Char.GetLadyLord], te ruego que me ayudes! \n\n"Un monstruo #EMP#! merodea en el [6200_province.Custom('TerrainTypeProvince')] del [6200_province.GetName], matando ganado y granjeros por igual... Pocos lo han visto, pero los restos destrozados de su Las pobres víctimas no dejan lugar a dudas: es claramente un enorme [ROOT.Char.Custom('GetAnimalType')], ¡tan sanguinario como pocos jamás vistos!\n\n"¡Por favor, envía a tus cazadores más fuertes y sálvanos de sus voraces fauces!""
- hold_court.6200.a: "Toma este oro y contrata tú mismo algunos cazadores."
- hold_court.6200.b: "Mi $master_of_hunt_court_position$ [m_hunt.GetFirstNameNoTooltip] lo investigará."
- hold_court.6200.b.success: "[m_hunt.GetFirstNameNoTooltip] mata al monstruo"
- hold_court.6200.b.success.tt: "Monstruo asesinado"
- hold_court.6200.b.failure: "[m_hunt.GetFirstNameNoTooltip] es herido por la bestia"
- hold_court.6200.b.failure.tt: "Monstruo ileso"
- hold_court.6200.b.crit_failure: "[m_hunt.GetFirstNameNoTooltip] es asesinado por animales salvajes"
- hold_court.6200.b.crit_failure.tt: "Monstruo triunfante"
- hold_court.6200.c: "¡Mi $champion_court_position$ [champion.GetFirstNameNoTooltip] matará a la bestia!"
- hold_court.6200.c.success: "[champion.GetFirstNameNoTooltip] mata a la bestia"
- hold_court.6200.c.failure: "[champion.GetFirstNameNoTooltip] es herido por la bestia"
- hold_court.6200.c.crit_failure: "[champion.GetFirstNameNoTooltip] es asesinado por el monstruo"
- hold_court.6200.d: "¡Yo mismo derribaré a la bestia!"
- hold_court.6200.d.tt: "Saldrás lo antes posible."
- hold_court.6200.e: "Eso suena como #EMP tu#! problema."
- hold_court.6201.desc_start: "Una vez completados los preparativos, salí con un grupo seleccionado de guardias para enfrentar al infame monstruo que aterroriza a [6200_province.GetNameNoTooltip]."
- hold_court.6201.desc: "No nos lleva mucho tiempo encontrarlo: un claro rastro de sangre nos lleva directamente a la morada de la criatura.\n\nYa estaba informado de qué esperar, pero, cuando el enorme [ROOT.Char.Custom('GetAnimalType')] finalmente se encuentra frente a mí, me No puedo evitar estremecerme."
- hold_court.6201.desc_hare: "Sin embargo, no importa cuánto busquemos, por todas partes, no podemos encontrar ningún rastro del asqueroso [ROOT.Char.Custom('GetAnimalType')].\n\nMis compañeros se están poniendo inquietos y, para ser justos, yo también estoy bastante cansado de todo este asunto. ..."
- hold_court.6201.a: "¡Enfréntame, bestia asquerosa!"
- hold_court.6201.a.success: "Matas al monstruo"
- hold_court.6201.a.failure: "Estas herido por la bestia"
- hold_court.6201.a.crit_failure: "Te mata la bestia"
- hold_court.6201.b: "¡El monstruo se encogió ante mi llegada!"
- hold_court.6201.c: "#EMP Vaya, ese animal es más grande de lo que esperaba...#!"
- hold_court.6201.c.tt: "Dejas que los aldeanos se las arreglen solos."
-  #A Land of Barbarians 
+  #A Land of Foreigners 
  hold_court.6210.t: "Una tierra de bárbaros"
  hold_court.6210.desc: ""¡Mi [ROOT.Char.GetLadyLord], lamento informarte que estoy al límite de mis fuerzas!" [6210_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] está claramente exasperado.\n\n"¡El pueblo sobre el que debería gobernar es una turba incontrolable de bárbaros rebeldes, con costumbres ridículas y un #EMP terrible#! gusto por la comida! Todos mis esfuerzos hasta ahora han sido en vano. simplemente parece imposible convertirlos en personas civilizadas.\n\n"Me temo que una fuerte intervención desde arriba es la única solución disponible ahora.""
  hold_court.6210.a: "[steward.GetFirstNameNoTooltip], muéstrales el camino correcto."
@@ -307,16 +257,6 @@
  hold_court.6210.b.tt: "Envía tu $royal_architect_court_position$ para desarrollar la infraestructura de los condados."
  hold_court.6210.c: "Respetamos las tradiciones de todos nuestros súbditos."
  hold_court.6210.d: "Mientras paguen sus impuestos, no me importa."
-  #Studying the Dead 
- hold_court.6220.t: "Estudiando a los muertos"
- hold_court.6220.desc:0 ""My [ROOT.Char.GetLadyLord], this is #EMP outrageous#!!" An agitated [6220_vassal.GetTitledFirstName] stands before my throne.\n\n"The body of my poor [6220_vassal.Custom2('RelationToMe', SCOPE.sC('6220_relative'))], the recently-deceased [6220_relative.GetTitledFirstName], has been #EMP violated#! by that #EMP fiend#! you keep as your $court_physician_court_position$, [physician.GetFirstName]! That vile monster has tampered with the corpse, using it to practice [physician.GetHerHis] obscure knowledge and leaving it disfigured and defaced! Please, [physician.GetSheHe] can't go unpunished!"\n\nOf course, [physician.GetFirstName] looks appropriately offended by the accusations: ""Mi [ROOT.Char.GetLadyLord], esto es #EMP indignante#!!". Un agitado [6220_vassal.GetTitledFirstName] se para ante mi trono.\n\n"¡El cuerpo de mi pobre [6220_vassal.Custom2('RelationToMe', SCOPE.sC('6220_relative'))], el recientemente fallecido [6220_relative.GetTitledFirstName], ha sido #EMP violado#! por ese #EMP demonio#! que mantienes como tu #EMP0, #EMP1! ¡Ese vil monstruo ha manipulado el cadáver, usándolo para practicar #EMP2 conocimientos oscuros y dejándolo desfigurado y profanado! ¡Por favor, #EMP3 no puede quedar impune!"\n\nPor supuesto, #EMP1 parece apropiadamente ofendido por las acusaciones: "¡No tengo idea de lo que está hablando ese #EMP5, mi [ROOT.Char.GetLadyLord]!"" #NT!
- hold_court.6220.a: "¡Calumnia! Confío en [physician.GetFirstNameNoTooltip]."
- hold_court.6220.b: "¡Sacrílego! ¡Guardias, arresten a [physician.GetFirstNameNoTooltip]!"
- hold_court.6220.c: "Quien esta diciendo la verdad?"
- hold_court.6220.c.vassal: "[6220_vassal.GetFirstNameNoTooltip] está mintiendo"
- hold_court.6220.c.physician: "[physician.GetFirstNameNoTooltip] está mintiendo"
- hold_court.6220.c.failure: "No puedes encontrar quién miente"
- hold_court.6220.d: "¿Así que lo que?"
   #A Massive Problem 
  hold_court.6230.t: "Un problema #EMP masivo#!"
  hold_court.6230.desc: ""Mi [ROOT.Char.GetLadyLord], un momento de su atención, si me permite..." [6230_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U] habla. "[6230_province.GetName] ha estado sufriendo un problema bastante #EMP engorroso#! en las últimas semanas...\n\n"Verás, una #EMP completamente fuera de control#! manada de elefantes ha estado haciendo estragos por todo el condado, dejando tras de sí un rastro de devastación y, en ocasiones, ¡muerte! Sus temibles trompetas resuenan en nuestros oídos noche y día. ¡Todavía puedo escucharlas incluso ahora!" [6230_vassal.GetSheHe] procede a hacer #EMP ruidos de trompetas indecorosos#!. "¡Por favor, mi [ROOT.Char.GetLadyLord], envía ayuda!""

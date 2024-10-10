@@ -78,6 +78,8 @@
  #CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórico: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: #!\nID:\ norte"
  CHARACTER_DEBUG_TOOLTIP: "#D DEPURACIÓN:#!\nID: [CHARACTER.GetID|V], ID histórica: [CHARACTER.GetSlowHistoryIdForDebug|V]\n$CHARACTER_DEBUG_REAL_FATHER_TOOLTIP$Fertilidad: [CHARACTER.GetFertility|%0V], Salud: [CHARACTER.GetHealth|1V], Estrés: [CHARACTER.GetStress|0V]\nPeso base: [CHARACTER.GetBaseWeight], Peso objetivo: [CHARACTER.GetTargetWeight], Peso actual: [CHARACTER.GetCurrentWeight]\n"
  CHARACTER_AI_VALUES_DEBUG_TOOLTIP: "#D DEPURACIÓN#! Valores IA:\nHonor: [Character.GetAIHonor|V]\nCodicia: [Character.GetAIGreed|V]\nRacionalidad: [Character.GetAIRationality|V]\nEnergía: [Character.GetAIEnergy|V]\nValor: [Character.GetAIBoldness|V]\nValor modificado por temor: [Character.GetAIBoldnessAsAffectedByPlayerDread|V]\nCelo: [Character.GetAIZeal|V]\nRevanchismo: [Character.GetAIVengefulness|V]\nCompasión: [Character.GetAICompassion|V]\nSociabilidad: [Character.GetAISociability|V]\n[Character.GetVariablesDescription]\n\n[Character.GetAiBudgetDescription]"
+ test_difficulty: "[Character.Custom('CharacterDifficulty')]: [Character.CalcScriptedValue('character_difficulty_value')|0]#!" #NT!
+ test_interest: "Interés: #V [Character.CalcDestinyScriptedValue( 'destiny_score_interest', GetPlayer, GetPlayer.GetPlayerHeir )|0]#!" #NT!
  CHARACTER_AI_VALUE: " #DEBUG Valores IA#!"
  CHARACTER_AI_BUDGET_TOOLTIP: "$BUDGET_CATEGORY$: $BUDGET_GOLD|V0$/$BUDGET_MAXIMUM|0$\n"
  DEBUG_OFFENSIVE_WAR: "Guerra ofensiva contra $NAME$"
@@ -101,6 +103,7 @@
  WEALTH_POOR: "Pobre"
  ARMY_NAME: "$NUM|O$ Ejército de [PROVINCE.GetNameNoTooltip]"
  ARMY_NAME_RAIDER: "$NUM|O$ Incursores de [PROVINCE.GetNameNoTooltip]"
+ ARMY_NAME_LANDLESS: "$NUM|O$ Ejército de [CHARACTER.GetPrimaryTitle.GetNameNoTooltip]" #NT!
  GATHERING_ARMY_NAME: "Reuniendo ejército en $LOCATION$"
  DEAD: "Muerto"
  DEAD_SINCE: "Muerto desde [DATE.GetStringShort|V]"
@@ -132,6 +135,7 @@
  BASE_GOLD: "[gold_i|E] base"
  BASE_PIETY: "[piety_i|E] base"
  BASE_PRESTIGE: "[prestige_i|E] base"
+ BASE_INFLUENCE: "Base [influence_i|E]" #NT!
  BASE_TIME: "@time_icon! base"
  VALUE_COLON: "$KEY$: $VALUE|V0$"
  VALUE_COLON_POSITIVE_DIFF: "$KEY$: $VALUE|+=0$"
@@ -226,6 +230,7 @@
  KNIGHT: "[CHARACTER.GetLiege.Custom('KnightCulture')]"
  COUNCILLOR: "[CHARACTER.GetCouncilTitle]"
  COURTIER: "[courtier|E]"
+ COURTIER_PLURAL: "[courtiers|E]" #NT!
  GUEST: "[guest|E]"
  RELATION_NEIGHBORING_RULER: "[ruler|E] vecino"
  RELATION_FOREIGN_RULER: "[ruler|E] extranjero"
@@ -326,6 +331,7 @@
  PRESTIGE_K: "$VALUE|1$K [prestige_i]"
  PRESTIGE_CONCEPT: "[prestige|E]"
  PRESTIGE_LEVEL_CONCEPT: "[prestige_level|E]"
+ NOT_PRESTIGE_LEVEL_CONCEPT: "No es suficiente [prestige_level|E]" #NT!
  PRESTIGE_WITH_BALANCE_TOOLTIP: "#T [prestige|E]: $VALUE|V0$#!\n$BALANCE|V=1$/mes\n\n#T [prestige_level|E]: #!$LEVEL$"
  DYNASTY_PRESTIGE: "$VALUE|0$ [dynasty_prestige_i]"
  DYNASTY_PRESTIGE_COST: "$VALUE|0$ [dynasty_prestige_i]"
@@ -333,6 +339,10 @@
  DYNASTY_PRESTIGE_K: "$VALUE|1$K [dynasty_prestige_i]"
  DYNASTY_PRESTIGE_CONCEPT: "[dynasty_prestige|E]"
  DYNASTY_PRESTIGE_LEVEL_CONCEPT: "[dynasty_prestige_level|E]"
+ INFLUENCE_COST: "[influence_i] $VALUE|0$" #NT!
+ INFLUENCE_COST_LONG: "Influencia: [influence_i] $VALUE|0$" #NT!
+ INFLUENCE_CONCEPT: "[influence|E]" #NT!
+ INFLUENCE_LEVEL_CONCEPT: "[influence_level|E]" #NT!
  NUMBER_OF_MEN_DESC: "[soldiers|E]"
  NUMBER_OF_MEN_VALUE: "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE|0$ #!"
  NUMBER_OF_MEN_VALUE_K: "#TOOLTIP:NUMBER_OF_MEN_DESC $VALUE$ #!"
@@ -383,6 +393,7 @@
  PAUSED: "Pausado"
  PAUSED_BY_EVENT: "#X Pausado por evento: $TITLE$#!"
  PAUSED_BY_TUTORIAL: "#X Pausado por tutorial: [TUTORIAL.GetStepName]#!"
+ PAUSED_BY_SUCCESSION: "#X Pausa por sucesión#!" #NT!
  EXIT: "Salir de la partida"
  EXIT_TO_DESKTOP: "Salir a escritorio"
  SHOW_LEGACY: "Legado"
@@ -453,6 +464,7 @@
  REMOVE_SCRIPTED_RELATION: "$CHAR01$ ya no será $RELATION|V$ de $CHAR02$"
  HAS_SCRIPTED_RELATION: "$CHAR01$ es el $RELATION|V$ de $CHAR02$"
  TITLE_DEFINITE_FORM: "$TITLE$"
+ DEFAULT_TITLE_NAME_ARTICLE: "el" #NT!
  DURATION_FOREVER: "#V Para siempre#! "
  DURATION_DATE: "[DATE.GetStringShort|V]"
  DURATION_DATE_RANGE: "$[DATE_MIN.GetStringShort|V]$ - $[DATE_MAX.GetStringShort|V]$"
@@ -611,9 +623,14 @@
  TRAIT_FLAG_DESC_scheme_start_progress: "Inicial [scheme|E] Progreso: #P +3#!"
  TRAIT_FLAG_DESC_offer_vassalisation_25: "[offer_vassalization|E] Aceptación: #P +25#!"
  TRAIT_FLAG_DESC_better_war_hostages: "[war_score|E] de la oferta [hostages|E]: #P +5#!\nMax [war_score|E] de la oferta [hostages|E]: #P +10#!"
- TRAIT_FLAG_DESC_extra_scheme_power_vs_rivals: "[success_chance|E] de [hostile_scheme|E] contra rivales: #P +[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]#!"
+ TRAIT_FLAG_DESC_extra_scheme_success_chance_vs_rivals: "[hostile_scheme|E] [success_chance|E] contra rivales: #P +[EmptyScope.ScriptValue('vengeful_scheme_success_chance_modifier')|0]#!" #NT!
  TRAIT_FLAG_DESC_lower_chance_of_dying_in_combat: "Probabilidad de morir en [battle|E]: #P -50%#!"
  TRAIT_FLAG_DESC_higher_chance_of_dying_in_battle: "Probabilidad de morir en [battle|E]: #N +100%#!"
+ TRAIT_FLAG_DESC_can_offer_strong_hook_to_agents: "Puede ofrecer potencial [agents|E] a [strong_hook|E]" #NT!
+ TRAIT_FLAG_DESC_is_immortal: "No pueden morir de viejos ni perder [health|E] a medida que envejecen." #NT!
+ TRAIT_FLAG_DESC_immortal_visuals: "No envejecerá visualmente" #NT!
+ TRAIT_FLAG_DESC_immortal_fertility: "[fertility|E] depende de la edad visual de [character|E]" #NT!
+ TRAIT_FLAG_DESC_immortal_incapability: "No puede convertirse en [GetTrait('incapable').GetName( GetNullCharacter )]" #NT!
  TRAIT_BLOCK_INHERITANCE: "@warning_icon!#X Quizás no herede títulos#!"
  TRAIT_FLAVOR_DESC: "$DESC|F$"
  FERTILITY_COLON: "[fertility|E]: $VALUE|V$"
@@ -718,6 +735,7 @@
  RESOURCE_MISSING_PIETY: "@warning_icon! #X Falta $VALUE|^$ [piety_i]#!"
  RESOURCE_MISSING_PRESTIGE: "@warning_icon! #X Falta $VALUE|^$ [prestige_i]#!"
  RESOURCE_MISSING_DYNASTY_PRESTIGE: "@warning_icon! #X Falta $VALUE|^$ [dynasty_prestige_i]#!"
+ RESOURCE_MISSING_INFLUENCE: "@warning_icon! #X Faltan [influence_i] $VALUE|^$#!" #NT!
  BREAKDOWN_MULTIPLICATION_PREFIX: "×"
  CLICK_TO_VIEW: "#I Clic para ver#!"
  CLICK_TO_SELECT: "#I Clic para seleccionar#!"
@@ -727,6 +745,7 @@
  BASE_VALUE: "Base"
  BREAKDOWN_FORMAT_POSITIVE_IS_BAD: "$KEY$: $VALUE|=-0$"
  BREAKDOWN_FORMAT_PIETY_PERCENTAGE_POSITIVE_IS_BAD: "$KEY$: $VALUE|=-0%$ [piety_i]"
+ BREAKDOWN_FORMAT_SCHEME_SECRECY_PERCENTAGE: "$KEY$: @icono_del_esquema_secreto!$VALUE|=+0%/$" #NT!
  BREAKDOWN_ENTRY_FORMAT: "$KEY$:"
  BREAKDOWN_ENTRY_FORMAT_NO_COLON: "$KEY$"
  BASE_VALUE_FORMAT: "$KEY$: $VALUE|V0$"
@@ -804,6 +823,22 @@
  RENAME_STRING_ENDS_WITH_SPACE_NAMED: "@warning_icon!#X $NAME$ termina con un espacio#!"
  DEFAULT_TEXT: "#D TEXTO PREDETERMINADO#!"
   
+ MUSIC_PLAYER_VOLUME_VALUE: "[MusicPlayer.GetVolumeString]" #NT!
+ MUSIC_PLAYER_SETTING_MUSIC_DENSITY_VALUE: "[MusicPlayer.GetMusicDensityString]" #NT!
+ MUSIC_PLAYER_CATEGORY_ENABLED_CK3: "#P $MUSIC_PLAYER_CATEGORY_ENABLED$#!" #NT!
+ MUSIC_PLAYER_CATEGORY_DISABLED_CK3: "#X $MUSIC_PLAYER_CATEGORY_DISABLED$#!" #NT!
+ MUSIC_PLAYER_CATEGORY_ENABLED_DISABLED_TEXT: "[MusicPlayerCategory.GetName] [SelectLocalization( MusicPlayerCategory.IsEnabled, 'MUSIC_PLAYER_CATEGORY_ENABLED_CK3', 'MUSIC_PLAYER_CATEGORY_DISABLED_CK3' )]" #NT!
+ MUSIC_PLAYER_NO_CATEGORIES_FOUND: "#X No se pueden encontrar categorías de música.#!" #NT!
+ MUSIC_PLAYER_NO_TRACKS_FOUND: "#X No se encontraron pistas para esta categoría.#!" #NT!
+ MUSIC_PLAYER_PLAY_TT: "Jugar" #NT!
+ MUSIC_PLAYER_PAUSE_TT: "Pausa" #NT!
+ MUSIC_PLAYER_DENSITY_TT: "#T Densidad musical#!\nControls El equilibrio entre canciones completas, silencio y segmentos de música ambiental\n\n#bold Intenso#! - Principalmente canciones completas que se reproducen una tras otra, similar a una estación de radio\n\n#bold Equilibrado#! - El equilibrio perfecto entre canciones, silencio y segmentos de música ambiental\n\n#bold Relajado#! - Principalmente segmentos de música ambiental que brindan una experiencia más tranquila y menos sensación de repetición después de varias horas de reproducción." #NT!
+ MUSIC_PLAYER_PLAY_TRACK_TT: "Haz clic para jugar [MusicTrack.GetName]" #NT!
+ MUSIC_PLAYER_TRACK_ENABLE_DISABLE_TT: "Haga clic para [SelectLocalization( MusicTrack.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )] [MusicTrack.GetName]" #NT!
+ MUSIC_PLAYER_ENABLE_CATEGORY_TT: "Haz clic para [SelectLocalization( MusicPlayerCategory.IsEnabled, 'MUSIC_PLAYER_TRACK_DISABLE', 'MUSIC_PLAYER_TRACK_ENABLE' )] las pistas de música en #bold [MusicPlayerCategory.GetName]#!" #NT!
+ MUSIC_PLAYER_SELECT_CATEGORY_TT: "Selecciona para ver las pistas de música en #bold [MusicPlayerCategory.GetName]#!" #NT!
+ MUSIC_PLAYER_OPEN_PLAYER_TT: "#T $MUSIC_PLAYER_OPEN_PLAYER$#!" #NT!
+  
  OR: " o "
  OR_LIST: "O "
   
@@ -831,6 +866,44 @@
  compare_date_trigger_operator_equal: "En"
  compare_date_trigger_operator_not_equal: "No en"
   
+ COURT_CONCEPT: "[court|E]" #NT!
+ CAMP: "[camp|E]" #NT!
+ CAMP_BUILDINGS: "[camp_buildings|E]" #NT!
+ DUNGEON_CONCEPT: "[dungeon|E]" #NT!
+ ESTATE: "[estate|E]" #NT!
+ ESTATE_BUILDINGS: "[estate_buildings|E]" #NT!
+ GOVERNORSHIP: "[governorship|E]" #NT!
+ FOLLOWER: "[follower|E]" #NT!
+ FOLLOWER_PLURAL: "[followers|E]" #NT!
+ ADVENTURER: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [ROOT.Char.Custom('GetAdventurerType')]" #NT!
+ TASK_CONTRACT: "[task_contract|E]" #NT!
+ TASK_CONTRACT_TIER: "[task_contract_tier|E]" #NT!
+ GOVERNANCE_ISSUE: "[governance_issue|E]" #NT!
+ GOVERNANCE_ISSUE_TIER: "[governance_issue_tier|E]" #NT!
+ COURT_POISTION: "[court_position|E]" #NT!
+ OFFICER: "[officer|E]" #NT!
+ OFFICER_PLURAL: "[officers|E]" #NT!
+ COURT_POSITION_PLURAL: "[court_positions|E]" #NT!
+ NOBLE_FAMILY: "[SelectLocalization( ROOT.Char.GetGovernment.IsValid(), 'GOVERNMENT_ADJECTIVE_ICON', '' )] [noble_family|E]" #NT!
+ ESTATE_FAMILY: "[Character.GetHouse.GetBaseName]" #NT!
+ CAMP_LEADER: "[Character.GetFirstNamePossessive]" #NT!
+  
  CONFIRM_COMMAND_TITLE: "Confirmar acción"
  CONFIRM_COMMAND_TEXT: "¿Seguro que quieres hacer esto?"
  CONFIRM_COMMAND_ACCEPT: "Aceptar"
+  
+ secrecy.num_agents: "Número de [agents|E]" #NT!
+ secrecy.scheme_owner.diplomacy: "Tu [diplomacy|E]" #NT!
+ secrecy.scheme_owner.martial: "Tu [martial|E]" #NT!
+ secrecy.scheme_owner.stewardship: "Tu [stewardship|E]" #NT!
+ secrecy.scheme_owner.intrigue: "Tu [intrigue|E]" #NT!
+ secrecy.scheme_owner.learning: "Tu [learning|E]" #NT!
+ secrecy.scheme_owner.prowess: "Tu [prowess|E]" #NT!
+ secrecy.scheme_owner.spymaster.disrupt_schemes: "[spymaster|E] asignado a [disrupt_schemes|E]" #NT!
+  
+ tooltipped_camp_purpose_wanderers: "[GetLaw('camp_purpose_wanderers').GetName]" #NT!
+ tooltipped_camp_purpose_mercenaries: "[GetLaw('camp_purpose_mercenaries').GetName]" #NT!
+ tooltipped_camp_purpose_scholars: "[GetLaw('camp_purpose_scholars').GetName]" #NT!
+ tooltipped_camp_purpose_explorers: "[GetLaw('camp_purpose_explorers').GetName]" #NT!
+ tooltipped_camp_purpose_brigands: "[GetLaw('camp_purpose_brigands').GetName]" #NT!
+ tooltipped_camp_purpose_legitimists: "[GetLaw('camp_purpose_legitimists').GetName]" #NT!

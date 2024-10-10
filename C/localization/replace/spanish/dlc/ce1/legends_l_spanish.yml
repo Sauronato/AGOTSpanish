@@ -56,7 +56,7 @@
  game_concept_legends: "Leyendas"
  game_concept_legends_desc: "$game_concept_legend_desc$"
  game_concept_legend_seed: "Semilla de leyenda"
-   #AGOT Modified 
+  #AGOT Modified 
  #game_concept_legend_seed_desc: "Un [legend|E] en ciernes. $game_concept_legend_seeds$ son la base de un $game_concept_legend$ y, al fundarlos, un [ruler|E] puede iniciar un $game_concept_legend$.\n\n$game_concept_legend_seeds$ se puede ganar cumpliendo algunos criterios como ser heredero de Carlomagno o realizar hazañas legendarias: Mayor [decisions|E], ganar un [great_holy_war|E], convertirse en [king|E] o [emperor|E], organizar un Grand $game_concept_legend_seeds$0, cazar un animal legendario, etcétera.\n\nLos $game_concept_legend_seeds$ inactivos no tienen coste, pero no tienen efectos. Fundar un $game_concept_legend_seeds$2 por primera vez tiene un coste de $game_concept_legend_seeds$3."
  game_concept_legend_seed_desc: "Un [legend|E] en ciernes. $game_concept_legend_seeds$ son la base de un $game_concept_legend$ y, al fundarlos, un [ruler|E] puede iniciar un $game_concept_legend$.\n\n$game_concept_legend_seeds$ se puede ganar cumpliendo algunos criterios o realizando hazañas legendarias: Mayor [decisions|E], convertirse en un $game_concept_legend$ _7 o [emperor|E], organizar un Gran [activity|E], cazar un animal legendario, etcétera.\n\nLos $game_concept_legend_seeds$ inactivos no tienen coste, pero no tienen efectos. Fundar un $game_concept_legend_seeds$1 por primera vez tiene un coste de $game_concept_legend_seeds$2."
  game_concept_legend_seeds: "Semillas de leyenda"
@@ -198,6 +198,7 @@
  legend_godly_descent_name: "La sangre de [Localize( god )|U]"
  legend_godly_descent_desc: "[Localize( god )|U] es mi antepasado, y con esa sangre en mis venas haré maravillas."
  legend_chronicle_ancestral_glory_desc: "[ancestor.GetName] fue un verdadero grande [ancestor.GetWomanMan] venerado por todos."
+ legend_chronicle_ancestral_glory_nohistory_desc: "Nuestro antepasado fue verdaderamente uno de los grandes, venerado por todos." #NT!
  legend_crusader: "[GetTrait('faith_warrior').GetNameNoTooltip( protagonist )] [ancestor.GetTitleAsNameNoTooltip|U]"
  legend_crusader_desc: "[protagonist.GetName] cometió muchos hechos grandes y piadosos al tomar la tierra santa."
  legend_chronicle_raised_by_animals: "[Localize( beast )|U] Niño"
@@ -257,6 +258,8 @@
  legend_chronicle_debug_legend: "#D La leyenda del control de calidad#!"
  legend_chronicle_debug_legend_desc: "#D La calidad es una profesión ancestral y noble#!"
  legend_chronicle_beast_slayer: "El asesino [Localize( beast )|U]"
+  #AGOT Modified 
+ #legend_chronicle_beast_slayer_desc: "En [location.GetName] fue asesinado un [Localize( beast )]" #NT!
  legend_chronicle_beast_slayer_desc: "En [location.GetName] un [Localize( beast )] fue asesinado"
  legend_chronicle_holy_war: "La Guerra Santa [location.GetName]"
  legend_chronicle_holy_war_desc: "En [location.GetName] [Localize( antagonist )] fue derrotado"
@@ -332,6 +335,8 @@
  legend_chapter_motivation_peasant: "Cuando un campesino pobre, lloroso y desesperado pidió audiencia con [ROOT.Legend.GetProtagonist.GetHerHim], el piadoso [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] no pudo dejar de atender sus súplicas y rápidamente se lanzó a la aventura."
  legend_chapter_motivation_spouse: "Cuando [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] cónyuge llegó a [ROOT.Legend.GetProtagonist.GetHerHim] una mañana con rumores alarmantes, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] se apresuró y prometió honrar su amor eterno."
  legend_chapter_motivation_honor_lady: "Cuando [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip|U] ojos se encontraron con los de [ROOT.Legend.GetProtagonist.GetHerHis] amante, todo estaba decidido. Escuchando las súplicas de auxilio y queriendo demostrar cuán grande era la [ROOT.Legend.GetProtagonist.GetHerHis] valentía, [ROOT.Legend.GetProtagonist.GetSheHe] se lanzó a la aventura."
+  #AGOT Modified, Vanilla Error 
+ #legend_chapter_discovery_generic: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] vigiló a [Localize( location )] con el séquito de [ROOT.Legend.GetProtagonist.GetHerHis], y [ROOT.Legend.GetProtagonist.GetHerHim] no tardó mucho en encontrar el lugar exacto." #NT!
  legend_chapter_discovery_generic: "[ROOT.Legend.GetProtagonist.GetNameNoTooltip] vigiló a [Localize( location )] con el séquito de [ROOT.Legend.GetProtagonist.GetHerHis], y [ROOT.Legend.GetProtagonist.GetHerHim] no tardó mucho en encontrar el lugar exacto."
  legend_chapter_hunt_generic: "El [Localize( beast )] ya estaba allí, bebiendo de un arroyo. Levantó la cabeza y avanzó rápidamente hacia [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]. Hambriento. Pero [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] fue más rápido y con un hábil golpe [ROOT.Legend.GetProtagonist.GetSheHe] mató a la bestia."
  legend_chapter_battle_generic: "La batalla fue feroz. [ROOT.Legend.GetProtagonist.GetNameNoTooltip] se encontró con [loser.GetNameNoTooltip] en medio del campo, [ROOT.Legend.GetProtagonist.GetHerHis] ojos llenos de valor. [ROOT.Legend.GetProtagonist.GetSheHe|U] levantó el arma [ROOT.Legend.GetProtagonist.GetHerHis] y asestó un golpe en el pecho del enemigo [ROOT.Legend.GetProtagonist.GetHerHis]. La sangre fluyó. Victoria."
@@ -475,6 +480,13 @@
   
  legend_chronicle_accolade_chronicle: "El más valiente de $knight_culture_player_plural_no_tooltip$"
  legend_chronicle_accolade_chronicle_desc: "[founder.GetName|U] tenía muchos $knight_culture_player_plural_no_tooltip_lowercase$ excelentes, pero ninguno era mayor que [first_accolade_knight.GetName] de [first_accolade.GetName]."
+  
+ legend_conqueror_chronicle: "$legend_chronicle_conqueror_chronicle$" #NT!
+ legend_conqueror_chronicle_desc: "$legend_chronicle_conqueror_chronicle_desc$" #NT!
+ legend_chronicle_conqueror_chronicle: "El mayor conquistador" #NT!
+ legend_chronicle_conqueror_chronicle_desc: "Ya no soy un vagabundo. De un alma indomable nació un conquistador." #NT!
+ legend_chapter_opening_conqueror: "De las cenizas nada volverá a nacer. [ROOT.Legend.GetProtagonist.GetTitledFirstNamePossessiveNoTooltip] juró convertirse en el azote de [ROOT.Legend.GetProtagonist.GetFaith.HighGodName] sobre tierra carmesí. Y la tierra solo será carmesí a partir de ahora." #NT!
+ legend_chapter_famous_deed_conqueror: "Batalla tras batalla, los cánticos se hicieron más fuertes. Batalla tras batalla, el botín se hizo más grande. Batalla tras batalla, la leyenda de [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] se hizo más brillante." #NT!
   
  heroic_legend_seed_drop.t: "Nueva semilla legendaria disponible"
  legend_chapter_opening_great_deed: "$legend_chapter_opening_generic$"

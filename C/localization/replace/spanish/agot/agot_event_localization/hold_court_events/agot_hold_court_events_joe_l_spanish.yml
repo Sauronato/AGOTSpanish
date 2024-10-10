@@ -2,3 +2,13 @@
  court_position_desc_master_of_arms: "Presidiendo los rollos heráldicos y anunciando vuestras llegadas"
  hold_court_8090_interest_master_of_arms: "\n\n"Tengo un gran conocimiento de las armas del reino, soy una opción obvia."
  court_position_master_of_arms: "[GetCourtPositionType('master_of_arms_court_position').GetName()]"
+  
+  #Gaoler 
+ gaoler_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] es [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )]" #NT!
+ gaoler_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] es [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'gaoler_court_position' ) )])#!" #NT!
+ gaoler_salary_tooltip: "[GetCourtPositionType( 'gaoler_court_position' ).GetName()] tiene un salario mensual de [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]" #NT!
+  
+  #Household_Guard 
+ household_guard_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] es [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )]" #NT!
+ household_guard_old_holder_aptitude_tooltip: "[candidate.GetHerHisMy|U] [aptitude|E] es [candidate.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )] #weak ([old_holder.GetFirstName] [old_holder.GetCourtPositionAptitude( GetCourtPositionType( 'household_guard_court_position' ) )])#!" #NT!
+ household_guard_salary_tooltip: "[GetCourtPositionType( 'household_guard_court_position' ).GetName()] tiene un salario mensual de [gold_i][SCOPE.ScriptValue('medium_court_position_salary')|2]" #NT!

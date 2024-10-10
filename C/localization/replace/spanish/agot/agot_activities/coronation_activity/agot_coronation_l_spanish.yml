@@ -1,0 +1,262 @@
+﻿l_spanish:
+  #Tooltips 
+ agot_is_coronated_crown_tooltip_desc: "Coronado" #NT!
+ agot_was_crowned_third_tooltip: "[officiant.GetShortUIName|U] coronado [coronation_target.GetShortUIName]" #NT!
+ agot_was_crowned_first_tooltip: "Fuiste coronado por [officiant.GetShortUIName|U]" #NT!
+ must_be_crowned_tooltip_desc: "Un gobernante debe ser coronado antes de que él, sus cónyuges y sus herederos puedan usar coronas." #NT!
+ coronation_gold_recoup_title: "Gastos recuperados" #NT!
+ coronation_gold_recoup_desc: "Pudiste recuperar parte de tus gastos de coronación." #NT!
+ agot_in_coronation: "No se puede encargar una corona durante una ceremonia de coronación." #NT!
+  
+  #Coronation 
+ activity_coronation: "Coronación" #NT!
+ activity_coronation_name: "Coronación" #NT!
+ invite_to_activity_flavor_coronation_seven_kingdoms: "Es con gran honor y anticipación que yo, [ROOT.Char.GetFirstNameNoTooltip|U], de la Casa [ROOT.Char.GetHouse.GetName|U], [ROOT.Char.GetTitleAsNameNoTooltip|U] de los Ándalos, los Rhoynar y los Primeros Hombres, [ROOT.Char.GetLadyLord|U] de los Siete Reinos y Protector del Reino, les extiendo esta invitación. La ocasión auspiciosa de mi [GetActivityType('activity_coronation').GetName|l] está programada para tener lugar en [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]." #NT!
+ invite_to_activity_flavor_coronation_other: "Es con gran honor y anticipación que yo, [ROOT.Char.GetFirstNameNoTooltip|U], de la Casa [ROOT.Char.GetHouse.GetName|U], [ROOT.Char.GetTitleAsNameNoTooltip|U] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], les extiendo esta invitación. La ocasión auspiciosa de mi [GetActivityType('activity_coronation').GetName|l] está programada para tener lugar en [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]." #NT!
+  
+ coronation_invite_to_activity_interaction_desc: "Es con gran honor y anticipación que yo, [actor.GetFirstNameNoTooltip|U], de la Casa [actor.GetHouse.GetName|U], [actor.GetTitleAsNameNoTooltip|U] de [actor.GetPrimaryTitle.GetNameNoTierNoTooltip], les extiendo esta invitación. La ocasión auspiciosa de mi [GetActivityType('activity_coronation').GetName|l] está programada para tener lugar en [actor.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName] en $ACTIVITY_CURRENT_LOCATION$." #NT!
+  
+ coronation_activity_cost_desc: "Costo base" #NT!
+ activity_coronation_predicted_cost: "El costo de una Coronación se ve afectado principalmente por el [activity_options|E] y el Título [title_tier|E]." #NT!
+ coronation_cost_pomp_grandiose: "Pompa grandiosa" #NT!
+ coronation_cost_pomp_impressive: "Impresionante pompa" #NT!
+ coronation_cost_pomp_appropriate: "Pompa apropiada" #NT!
+ coronation_cost_pomp_humble: "Humilde pompa" #NT!
+ ruler_already_had_coronation: "Ya has sido coronado, ante los dioses y ante los hombres." #NT!
+ needs_to_be_of_age: "Tienes #bold no#! al menos #high 7#! años" #NT!
+ needs_crown_for_to_select: "No tienes corona [artifact|E]" #NT!
+ ruler_under_regency_coronation: "Eres un niño. Sólo tu regente puede organizar tu coronación." #NT!
+ activity_coronation_selection_tooltip: "Organiza una ceremonia para marcar el inicio oficial de tu reinado, demostrar tu legitimidad al [realm|E] y renovar tu lealtad al [vassals|E].\n\nRecompensas anticipadas:\n$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i][prestige|E]\n$BULLET_WITH_TAB$[realm|E]0[realm|E]1\n$BULLET_WITH_TAB$[realm|E]3[realm|E]4\n$BULLET_WITH_TAB$[realm|E]6[realm|E]7 Pérdida\n$BULLET_WITH_TAB$[realm|E]9[vassals|E]0 [vassals|E] [realm|E]4\n$BULLET_WITH_TAB$[vassals|E]4[vassals|E]5 [vassals|E] [realm|E]4\n$BULLET_WITH_TAB$[vassals|E]9$BULLET_WITH_TAB$0 [vassals|E] [realm|E]4\n$BULLET_WITH_TAB$$BULLET_WITH_TAB$4$BULLET_WITH_TAB$5 [vassals|E] [realm|E]4\n$BULLET_WITH_TAB$Puede ganar $BULLET_WITH_TAB$9 [legitimacy_i]0" #NT!
+ activity_coronation_desc: "Todo [vassal|E] y persona de estatura en el reino ha sido invitado a presenciar la coronación de un nuevo monarca, a doblar la rodilla y jurarle obediencia." #NT!
+  
+ coronation_invite_to_activity_interaction: "$invite_to_activity_interaction$" #NT!
+  
+  #Special Guests 
+ coronation_target: "Monarca" #NT!
+ coronation_target_for_host: "$coronation_target$" #NT!
+ coronation_target_desc: "Un [GetActivityType( 'activity_coronation' ).GetName] marca el comienzo oficial de un reinado. Por lo tanto, solo un nuevo gobernante de los Siete Reinos puede ser seleccionado para participar." #NT!
+ coronation_target_desc_for_host: "$coronation_target_desc$" #NT!
+  
+ coronation_officiant: "Oficiante" #NT!
+ coronation_officiant_for_host: "$coronation_officiant$" #NT!
+ coronation_officiant_desc: "A veces, quien coloca la corona sobre la cabeza de un gobernante es tan importante como el propio monarca. Por lo tanto, es importante elegir a la persona adecuada, o la legitimidad de un reinado puede ponerse en duda.\n\nAlgunas recompensas dependen del oficiante:\n$BULLET_WITH_TAB$Mayor ganancia de [piety_i] [piety|E] por [heads_of_faith|E].\n$BULLET_WITH_TAB$Mayor ganancia de [legitimacy_i] [legitimacy|E] por [powerful_vassals|E].\n$BULLET_WITH_TAB$Mayor ganancia de [dynasty_prestige_i] [piety_i]0 por [piety_i]1." #NT!
+ coronation_officiant_desc_for_host: "$coronation_officiant_desc$" #NT!
+  
+  
+ TRAVEL_NAME_FOR_activity_coronation: "[Character.GetFirstNamePossessiveNoTooltip] viaje a [Activity.GetNameNoTooltip]" #NT!
+ HEAD_OF_FAITH_REASON: "[ROOT.Char.GetSheHe|U] es tu Cabeza de Fe: $VALUE|=+0$" #NT!
+ CORONATION_ALLY_REASON: "Eres [allies|E]: $VALUE|=+0$" #NT!
+ CORONATION_OFFICIANT_REASON: "[ROOT.Char.GetSheHe|U] será el Oficiante: $VALUE|=+0$" #NT!
+  
+ ACTIVITY_GUEST_OPTION_CORONATION_POMP_GRANDIOSE: "Pompa grandiosa: $VALUE|=+0$" #NT!
+ ACTIVITY_GUEST_OPTION_CORONATION_POMP_IMPRESSIVE: "Impresionante pompa: $VALUE|=+0$" #NT!
+ ACTIVITY_GUEST_OPTION_CORONATION_POMP_APPROPRIATE: "Pompa apropiada: $VALUE|=+0$" #NT!
+ ACTIVITY_GUEST_OPTION_CORONATION_POMP_HUMBLE: "Humilde pompa: $VALUE|=+0$" #NT!
+  
+ activity_coronation_destination_selection: "El condado elegido recibirá el modificador [GetModifier( 'recent_coronation_modifier' ).GetNameWithTooltip|L] durante 5 años." #NT!
+ activity_coronation_host_desc: "\n$BULLET_WITH_TAB$[legitimacy_i][legitimacy|E]\n$BULLET_WITH_TAB$[prestige_i][prestige|E]\n$BULLET_WITH_TAB$[piety_i][piety|E]\n$BULLET_WITH_TAB$[legitimacy_i]0[legitimacy_i]1\n$BULLET_WITH_TAB$[legitimacy_i]3[legitimacy_i]4 Pérdida\n$BULLET_WITH_TAB$[legitimacy_i]6[legitimacy_i]7 [legitimacy_i]8 [legitimacy_i]1\n$BULLET_WITH_TAB$[legitimacy|E]1[legitimacy|E]2 [legitimacy_i]8 [legitimacy_i]1\n$BULLET_WITH_TAB$[legitimacy|E]6[legitimacy|E]7 [legitimacy_i]8 [legitimacy_i]1\n$BULLET_WITH_TAB$$BULLET_WITH_TAB$1$BULLET_WITH_TAB$2 [legitimacy_i]8 [legitimacy_i]1\n$BULLET_WITH_TAB$Ganancia de mayo $BULLET_WITH_TAB$6 $BULLET_WITH_TAB$7\n\n@alert_icon! $BULLET_WITH_TAB$8 Las coronaciones solo se pueden realizar $BULLET_WITH_TAB$9 una vez en la vida[prestige_i]0" #NT!
+ activity_coronation_guest_desc: "$BULLET_WITH_TAB$ Los participantes pueden ganar personajes asistentes [opinion|E]\n$BULLET_WITH_TAB$ Los participantes pueden perder [stress_loss_i][stress|E]" #NT!
+ activity_coronation_conclusion_desc: "El [GetActivityType( 'activity_coronation' ).GetName] ha concluido" #NT!
+ activity_coronation_guest_help_text: "Cualquier [guests|E] invitado tendrá la oportunidad de aumentar su [opinion|E] de ustedes.\nLas coronaciones también son una oportunidad para ganar [prestige|E], perder algunos [stress|E], ganar [piety|E] y aumentar su [legitimacy|E]." #NT!
+ coronation_positive_increase: "#P aumento#!" #NT!
+ coronation_negative_decrease: "#N disminución#!" #NT!
+ coronation_option_pomp: "Pompa" #NT!
+ coronation_pomp_humble: "Humilde" #NT!
+ coronation_pomp_humble_desc: "$EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'zealot' ).GetName] y [GetVassalStance( 'parochial' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'courtly' ).GetName] y [GetVassalStance( 'glory_hound' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Se obtienen muchos más $coronation_positive_increase$3 al completarlo, pero menos $coronation_positive_increase$4 y $coronation_positive_increase$5.\n\n$coronation_positive_increase$6 Sin fanfarrias, solo la colocación de una corona sobre tu cabeza. Una coronación es un momento para demostrar la deferencia hacia los dioses, no para inflar el ego.$coronation_positive_increase$7" #NT!
+ coronation_pomp_appropriate: "Adecuado" #NT!
+ coronation_pomp_appropriate_desc: "$EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'parochial' ).GetName] y [GetVassalStance( 'zealot' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'courtly' ).GetName] y [GetVassalStance( 'glory_hound' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ $coronation_positive_increase$3, $coronation_positive_increase$4 y $coronation_positive_increase$5 las recompensas al completar no se ven afectadas\n\n$coronation_positive_increase$6 Las casas del reino, tanto grandes como pequeñas, solo te considerarán legítimo una vez que se coloque una corona sobre tu cabeza. Solo entonces se arrodillarán.$coronation_positive_increase$7" #NT!
+ coronation_pomp_impressive: "Impresionante" #NT!
+ coronation_pomp_impressive_desc: "$EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'courtly' ).GetName] y [GetVassalStance( 'glory_hound' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'parochial' ).GetName] y [GetVassalStance( 'zealot' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Menos $coronation_positive_increase$3 obtenidos al completar.\n$EFFECT_LIST_BULLET$ Más $coronation_positive_increase$5 y $coronation_positive_increase$6 obtenidos al completar.\n\n$coronation_positive_increase$7 Una coronación apropiada exige formalidad, estas son las cosas que se esperan de quienes gobiernan. No has escatimado en gastos para asegurarte de que todos los señores de los reinos honrarán sus juramentos.$coronation_positive_increase$8" #NT!
+ coronation_pomp_grandiose: "Grandioso" #NT!
+ coronation_pomp_grandiose_desc: "$EFFECT_LIST_BULLET$ Will $coronation_positive_increase$ [GetVassalStance( 'glory_hound' ).GetName] y [GetVassalStance( 'courtly' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Will $coronation_negative_decrease$ [GetVassalStance( 'parochial' ).GetName] y [GetVassalStance( 'zealot' ).GetName] [vassal|E] [opinion|E].\n$EFFECT_LIST_BULLET$ Mucho menos $coronation_positive_increase$3 obtenidos al completar.\n$EFFECT_LIST_BULLET$ Mucho más $coronation_positive_increase$5 y $coronation_positive_increase$6 obtenidos al completar.\n\n$coronation_positive_increase$7 ¿Qué sentido tiene gobernar si no puedes presumir? Como mínimo, este será un monumento viviente a tu ostentosa vanidad.$coronation_positive_increase$8" #NT!
+  
+ activity_window_character_coronation_target: "[Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_travel_coronation_target: "[Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+  
+ activity_window_character_coronation_officiant: "Oficiante\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_travel_coronation_officiant: "Oficiante\n[Character.GetShortUINameNoTooltip|U]" #NT!
+  
+ activity_window_character_coronation_consort: "[Character.Custom('GetQueenKing')|U]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+  
+  #Phases 
+ coronation_phase_ceremony: "Coronación" #NT!
+ coronation_phase_ceremony_desc: "Ante los dioses y los hombres, será coronado un nuevo gobernante de los Siete Reinos." #NT!
+ coronation_phase_homage: "Homenaje" #NT!
+ coronation_phase_homage_desc: "Ahora, los señores del reino doblarán la rodilla y mostrarán reverencia a su nuevo señor." #NT!
+ coronation_phase_banquet: "Banquete" #NT!
+  coronation_phase_banquet_desc:0 "A celebration to mark the occasion. A chance to be merry and forge new friendships. 
+  
+  #Memories 
+ was_coronated: "fue coronado por [officiant.GetTitledFirstNameNicknamed]" #NT!
+ was_coronated_desc_1: "Me coronó [officiant.GetTitledFirstNameNicknamed]" #NT!
+ was_coronated_desc_second_perspective_1: "Fuiste coronado por [officiant.GetTitledFirstNameNicknamed]" #NT!
+ was_coronated_desc_third_perspective_1: "[owner.GetName] fue coronado por [officiant.GetTitledFirstNameNicknamed]" #NT!
+  
+  
+ performed_coronation: "realizó [coronation_target.GetTitledFirstNameNicknamedPossessive] coronación" #NT!
+ performed_coronation_desc_1: "Realicé la coronación [coronation_target.GetTitledFirstNameNicknamedPossessive]" #NT!
+ performed_coronation_desc_second_perspective_1: "Realizaste la coronación [coronation_target.GetTitledFirstNameNicknamedPossessive]" #NT!
+ performed_coronation_desc_third_perspective_1: "[owner.GetTitledFirstNameNicknamed] realizado [coronation_target.GetTitledFirstNameNicknamedPossessive] coronación" #NT!
+  
+ witnessed_coronation: "presenciado [officiant.GetTitledFirstNameNicknamed] corona [coronation_target.GetTitledFirstNameNicknamed]" #NT!
+ witnessed_coronation_desc_1: "Fui testigo de [officiant.GetTitledFirstNameNicknamed] corona [coronation_target.GetTitledFirstNameNicknamed]" #NT!
+ witnessed_coronation_desc_second_perspective_1: "Fuiste testigo de [officiant.GetTitledFirstNameNicknamed] corona [coronation_target.GetTitledFirstNameNicknamed]" #NT!
+ witnessed_coronation_desc_third_perspective_1: "[owner.GetTitledFirstName] presenciados [officiant.GetTitledFirstNameNicknamed] corona [coronation_target.GetTitledFirstNameNicknamed]" #NT!
+  
+  #Opinions 
+ came_to_my_coronation_opinion: "Vino a mi [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ chose_me_to_crown_opinion: "Elígeme como [GetActivityType( 'activity_coronation' ).GetName] Oficiante" #NT!
+  
+ hosted_grandiose_coronation_opinion: "Grandioso hospedado [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ hosted_impressive_coronation_opinion: "Alojado Impresionante [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ hosted_appropriate_coronation_opinion: "Alojado Apropiado [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ hosted_humble_coronation_opinion: "Hospedado en Humble [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ refused_to_be_officiant_opinion: "Se negó a oficiar mi [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ hof_officiated_coronation_opinion: "Organizado [GetActivityType( 'activity_coronation' ).GetName] Oficiado por el Jefe de la Fe" #NT!
+  
+ legitimized_my_house_member_opinion: "Legitimado Miembro de mi Casa" #NT!
+ refused_to_legitimize_my_house_member_opinion: "Se negó a legitimar a mi miembro de la Cámara" #NT!
+ coronation_treachery_opinion: "$treachery_opinion$" #NT!
+  
+ best_friend_great_time_at_coronation: "[CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName] ignoraron a todos los demás en un banquete de coronación para disfrutar de la compañía del otro." #NT!
+ best_friend_great_time_at_coronation_corresponding: "[TARGET_CHARACTER.GetShortUIName] y [CHARACTER.GetShortUIName] ignoraron a todos los demás en un banquete de coronación para disfrutar de la compañía del otro." #NT!
+  
+  
+ friend_coronation_made_officiant: "[CHARACTER.GetShortUIName|U] eligió [TARGET_CHARACTER.GetShortUIName] para coronar a [CHARACTER.GetHerHim|l]." #NT!
+ friend_coronation_made_officiant_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] eligió [CHARACTER.GetShortUIName] para coronar a [TARGET_CHARACTER.GetHerHim|l]." #NT!
+  
+ friend_great_time_at_coronation: "[CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName] pasaron un banquete de coronación conversando y disfrutaron de la compañía del otro." #NT!
+ friend_great_time_at_coronation_corresponding: "[TARGET_CHARACTER.GetShortUIName] y [CHARACTER.GetShortUIName] pasaron un banquete de coronación conversando y disfrutaron de la compañía del otro." #NT!
+  
+ rival_bad_time_at_coronation: "[CHARACTER.GetShortUIName] se peleó con [TARGET_CHARACTER.GetShortUIName] en un banquete de coronación." #NT!
+ rival_bad_time_at_wedding_coronation: "[TARGET_CHARACTER.GetShortUIName] se peleó con [CHARACTER.GetShortUIName] en un banquete de coronación." #NT!
+  
+ friend_reconciled_at_coronation: "[CHARACTER.GetShortUIName] y [TARGET_CHARACTER.GetShortUIName], que alguna vez fueron rivales acérrimos, se reconciliaron en una coronación." #NT!
+ friend_reconciled_at_coronation_corresponding: "$friend_reconciled_at_coronation$" #NT!
+  
+ nemesis_spurned_reconciliation_at_coronation: "Cuando [TARGET_CHARACTER.GetShortUIName] buscó una reconciliación, [CHARACTER.GetShortUIName] humilló a [TARGET_CHARACTER.GetHerHim]." #NT!
+ nemesis_spurned_reconciliation_at_coronation_corresponding: "Cuando [CHARACTER.GetShortUIName] buscó una reconciliación, [TARGET_CHARACTER.GetShortUIName] humilló a [CHARACTER.GetHerHim]." #NT!
+  
+ friend_coronation_enjoyable_chat: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] disfrutaron mucho de la mutua compañía durante el banquete de coronación." #NT!
+  
+ lover_coronation_saved_from_flames: "[CHARACTER.GetShortUIName|U] salvó a [TARGET_CHARACTER.GetShortUIName|U] de las llamas durante una coronación que salió mal." #NT!
+ lover_coronation_saved_from_flames_corresponding: "[CHARACTER.GetShortUIName|U] salvó a [TARGET_CHARACTER.GetShortUIName|U] de las llamas durante una coronación que salió mal." #NT!
+  
+ friend_coronation_saved_from_beasts: "[CHARACTER.GetShortUIName|U] salvó a [TARGET_CHARACTER.GetShortUIName] de unas bestias escapadas durante un banquete de coronación." #NT!
+ friend_coronation_saved_from_beasts_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] salvó a [CHARACTER.GetShortUIName] de unas bestias escapadas durante un banquete de coronación." #NT!
+  
+ rival_dishonored_coronation_banquet: "[CHARACTER.GetShortUIName] se ofendió cuando [TARGET_CHARACTER.GetShortUIName] se escabulló de un banquete de coronación para evitar a [CHARACTER.GetHerHim]." #NT!
+ rival_dishonored_coronation_banquet_corresponding: "[TARGET_CHARACTER.GetShortUIName] se ofendió cuando [CHARACTER.GetShortUIName] se escabulló de un banquete de coronación para evitar a [TARGET_CHARACTER.GetHerHim]." #NT!
+  
+ friend_coronation: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName|U] unidos en una coronación" #NT!
+  
+ friend_promised_to_support_claim: "[CHARACTER.GetShortUIName|U] prometió apoyar [TARGET_CHARACTER.GetShortUIName|U] reclamo" #NT!
+  
+ rival_betrayed_confidence: "[CHARACTER.GetShortUIName|U] traicionado [TARGET_CHARACTER.GetShortUINamePossessive|U] confianza" #NT!
+  
+ rival_ruined_plans: "[CHARACTER.GetShortUIName|U] planes arruinados [TARGET_CHARACTER.GetShortUINamePossessive|U]" #NT!
+  
+ activity_invite_rule_high_lords: "Altos señores" #NT!
+ activity_invite_rule_minor_lords: "Señores menores" #NT!
+ activity_invite_kingsguard: "Guardia real" #NT!
+  
+ legitimate_ruler_opinion: "Gobernante legítimo" #NT!
+  
+  #Modifiers 
+ coronation_grandiose_modifier: "Se celebró una grandiosa coronación" #NT!
+ coronation_grandiose_modifier_desc: "Este personaje fue coronado con un grandioso [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ coronation_impressive_modifier: "Se celebró una impresionante coronación" #NT!
+ coronation_impressive_modifier_desc: "Este personaje fue coronado con un impresionante [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ coronation_appropriate_modifier: "Se celebró una coronación apropiada" #NT!
+ coronation_appropriate_modifier_desc: "Este personaje fue coronado de manera apropiada [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ coronation_humble_modifier: "Organizamos una humilde coronación" #NT!
+ coronation_humble_modifier_desc: "Este personaje fue coronado con un humilde [GetActivityType( 'activity_coronation' ).GetName]" #NT!
+ travel_to_coronation_modifier: "Viajando con un séquito de guardia personal" #NT!
+ travel_to_coronation_modifier_desc: "Este personaje está en un viaje importante. Por ello, ha tomado precauciones adicionales para garantizar que llegue sano y salvo." #NT!
+  
+ coronation_rushed_modifier: "Coronación apresurada" #NT!
+ coronation_rushed_modifier_desc: "Los tiempos desesperados requieren medidas desesperadas. Este personaje se vio obligado a ser coronado en una ceremonia apresurada durante una época de conflicto." #NT!
+ cut_by_iron_throne: "Cortado por el Trono de Hierro" #NT!
+ cut_by_iron_throne_desc: "Este personaje ha sido eliminado del Trono de Hierro y se lo considera indigno de gobernar los Siete Reinos. Para empeorar las cosas, parece que esta herida nunca sanará." #NT!
+  
+ uncoronated_modifier: "Gobernante sin corona" #NT!
+ uncoronated_modifier_desc: "Este gobernante no es considerado un monarca legítimo hasta que ha sido coronado." #NT!
+ uncoronated_child_modifier: "Gobernante infantil sin corona" #NT!
+ uncoronated_child_modifier_desc: "Este gobernante aún no ha sido coronado. Como es un niño, gran parte del reino está dispuesta a pasar por alto este hecho." #NT!
+  
+  #Buildings 
+ province_desc_the_red_keep_01: "\n#P ++ $building_the_red_keep_01$#!\n#weak Esto dará lugar a un aumento de la ganancia [dynasty_prestige_i] [dynasty_prestige|E], de la ganancia [legitimacy_i] [legitimacy|E] y de la pérdida [stress_loss_i] [stress|E].#!" #NT!
+ province_desc_the_red_keep_02: "\n#P +++ $building_the_red_keep_02$#!\n#weak Esto dará lugar a un aumento de [dynasty_prestige_i] [dynasty_prestige|E] ganancia, [legitimacy_i] [legitimacy|E] ganancia y [stress_loss_i] [stress|E] pérdida.#!" #NT!
+ province_desc_the_red_keep_03: "\n#P ++++ $building_the_red_keep_03$#!\n#weak Esto dará lugar a un aumento de [dynasty_prestige_i] [dynasty_prestige|E] ganancia, [legitimacy_i] [legitimacy|E] ganancia y [stress_loss_i] [stress|E] pérdida.#!" #NT!
+ province_desc_coronation_capital: "\n#P + Es tu capital#!\n#weak Esto te dará una ganancia de [gold_i] [gold|E].#!" #NT!
+ province_desc_coronation_gardens: "\n#P + $building_royal_garden_01$#!\n#weak Esto dará lugar a un aumento de [dynasty_prestige_i] [dynasty_prestige|E] ganancia y [stress_loss_i] [stress|E] pérdida.#!" #NT!
+ province_desc_coronation_gardens_2: "\n#P ++ $building_royal_garden_02$#!\n#weak Esto dará lugar a una mayor ganancia [dynasty_prestige_i] [dynasty_prestige|E] y una mayor pérdida [stress_loss_i] [stress|E].#!" #NT!
+ province_desc_coronation_gardens_3: "\n#P +++ $building_royal_garden_03$#!\n#weak Esto provocará un aumento de [dynasty_prestige_i] [dynasty_prestige|E] ganancia y [stress_loss_i] [stress|E] pérdida.#!" #NT!
+ province_desc_coronation_palace: "\n#P + $building_leisure_palace_01$#!\n#weak Esto dará lugar a un aumento de [dynasty_prestige_i] [dynasty_prestige|E] ganancia y [stress_loss_i] [stress|E] pérdida.#!" #NT!
+ province_desc_coronation_palace_2: "\n#P ++ $building_leisure_palace_02$#!\n#weak Esto dará lugar a una mayor ganancia [dynasty_prestige_i] [dynasty_prestige|E] y una mayor pérdida [stress_loss_i][stress|E].#!" #NT!
+ province_desc_coronation_palace_3: "\n#P +++ $building_leisure_palace_03$#!\n#weak Esto provocará un aumento de [dynasty_prestige_i] [dynasty_prestige|E] ganancia y [stress_loss_i][stress|E] pérdida.#!" #NT!
+ province_desc_coronation_holy_site: "\n#P + Es un lugar sagrado de tu fe#!\n#weak Esto te dará una ganancia de [piety_i] [piety|E].#!" #NT!
+  
+  #Rewards 
+ coronation_entertainment_title: "Entretenimiento de la coronación" #NT!
+ host_coronation_entertainment_good: "El entretenimiento ofrecido causó impresión en los invitados." #NT!
+ host_coronation_entertainment_good_title: "$coronation_entertainment_title$" #NT!
+ host_coronation_entertainment_normal: "El entretenimiento ofrecido fue considerado aceptable por los invitados." #NT!
+ host_coronation_entertainment_normal_title: "$coronation_entertainment_title$" #NT!
+ host_coronation_entertainment_bad: "Los invitados no quedaron impresionados con el entretenimiento ofrecido." #NT!
+ host_coronation_entertainment_bad_title: "$coronation_entertainment_title$" #NT!
+ coronation_food_title: "Comida de la coronación" #NT!
+ host_coronation_food_good: "Todos los invitados quedaron impresionados con la comida ofrecida." #NT!
+ host_coronation_food_good_title: "$coronation_food_title$" #NT!
+ host_coronation_food_normal: "Los invitados apreciaron la comida ofrecida." #NT!
+ host_coronation_food_normal_title: "$coronation_food_title$" #NT!
+ host_coronation_food_bad: "Los invitados encontraron la comida ofrecida un poco decepcionante." #NT!
+ host_coronation_food_bad_title: "$coronation_food_title$" #NT!
+  host_coronation_pomp_title:0 "Coronation Pomp 
+ host_coronation_pomp_grandiose: "La grandiosa pompa de la coronación fue celebrada por algunos invitados y criticada por otros." #NT!
+ host_coronation_pomp_grandiose_title: "$host_coronation_pomp_title$" #NT!
+ host_coronation_pomp_impressive: "La impresionante pompa de la coronación agradó a algunos invitados y fue criticada por otros." #NT!
+ host_coronation_pomp_impressive_title: "$host_coronation_pomp_title$" #NT!
+ host_coronation_pomp_appropriate: "El nivel apropiado de pompa durante la coronación fue considerado aceptable por algunos invitados y criticado por otros." #NT!
+ host_coronation_pomp_appropriate_title: "$host_coronation_pomp_title$" #NT!
+ host_coronation_pomp_humble: "La falta de pompa durante la coronación fue celebrada por algunos invitados y criticada por otros." #NT!
+ host_coronation_pomp_humble_title: "$host_coronation_pomp_title$" #NT!
+ host_coronation_venue_title: "Lugar de la coronación" #NT!
+  
+ every_courtly_vassal_coronation: "Cada $courtly_vassal$" #NT!
+ every_glory_hound_vassal_coronation: "Cada $glory_hound_vassal$" #NT!
+ every_parochial_vassal_coronation: "Cada $parochial_vassal$" #NT!
+ every_zealot_vassal_coronation: "Cada $zealot_vassal$" #NT!
+  
+ coronation_start_log_title: "[host.GetShortUINamePossessiveNoTooltip] Comienza la coronación" #NT!
+ coronation_start_log: "Los cuervos han sido enviados y los señores del reino hacen todo lo posible para presenciar la coronación de [host.GetFirstNamePossessiveNoTooltip] como el nuevo [host.GetTitleAsNameNoTooltip] de los Siete Reinos." #NT!
+  
+ coronation_officiant_arrives_log_title: "[ROOT.Char.GetShortUINameNoTooltip] llega" #NT!
+ coronation_officiant_arrives_log: "[ROOT.Char.GetShortUIName] llegó a [county.GetNameNoTier] para realizar la tarea de [ROOT.Char.GetHerHis|l] como oficiante." #NT!
+  
+ coronation_slip_log_title: "[coronation_target.GetShortUINameNoTooltip|U] Se resbala en el [sabotage_target_throne.GetNameNoTooltip]" #NT!
+ coronation_slip_title: "[coronation_target.GetShortUINameNoTooltip|U] Se resbaló en el [sabotage_target_throne.GetNameNoTooltip]" #NT!
+ coronation_slip_log: "[coronation_target.GetShortUIName|U] se resbaló en el escalón más alto del [sabotage_target_throne.GetNameNoTooltip] y cayó al suelo." #NT!
+  
+ coronation_recovery_log_title: "[coronation_target.GetShortUINameNoTooltip|U] se recupera de un resbalón" #NT!
+ coronation_recovery_title: "[coronation_target.GetShortUINameNoTooltip|U] Recuperado de un resbalón" #NT!
+ coronation_recovery_log: "[coronation_target.GetShortUIName|U] logró recuperarse de perder [coronation_target.GetHerHisMy|l] punto de apoyo en el escalón más alto del [sabotage_target_throne.GetNameNoTooltip]." #NT!
+  
+ coronation_homage_submission_log_title: "[vassal.GetShortUINameNoTooltip|U] Dobla la rodilla" #NT!
+ coronation_homage_submission_log: "[vassal.GetShortUIName|U] sólo ofreció su lealtad a [vassal.GetHerHis|l]." #NT!
+ coronation_homage_gold_log_title: "[vassal.GetShortUINameNoTooltip|U] Dobla la rodilla" #NT!
+ coronation_homage_gold_log: "[vassal.GetShortUIName|U] otorgó un regalo de oro." #NT!
+ coronation_homage_hook_log_title: "[vassal.GetShortUINameNoTooltip|U] Dobla la rodilla" #NT!
+ coronation_homage_hook_log: "[vassal.GetShortUIName|U] prometió a la corona un favor futuro." #NT!
+ coronation_homage_contract_log_title: "[vassal.GetShortUINameNoTooltip|U] Dobla la rodilla" #NT!
+ coronation_homage_contract_log: "[vassal.GetShortUIName|U] aumentó [vassal.GetHerHis|l] impuestos a la corona." #NT!
+ coronation_homage_refusal_log_title: "[vassal.GetShortUINameNoTooltip|U] se niega a doblar la rodilla" #NT!
+ coronation_homage_refusal_log: "[vassal.GetShortUIName|U] violó [vassal.GetHerHis|l] juramento a la corona." #NT!
+ coronation_homage_submission_representative_log_title: "[representative.GetShortUINameNoTooltip|U] Dobla la rodilla" #NT!
+ coronation_homage_submission_representative_log: "[representative.GetShortUIName|U] jura lealtad en nombre de [vassal.GetShortUIName|U]." #NT!
+ coronation_completed_log: "[coronation_target.GetTitledFirstNameOrMe|U] fue coronado por [officiant.GetTitledFirstNameNicknamed|U]." #NT!
+ coronation_completed_log_title: "El legítimo [coronation_target.GetTitleAsNameNoTooltip|U]" #NT!
+  
+ nick_the_queenmaker: "El hacedor de reinas"
+ nick_the_queenmaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] conocido por coronar a una reina."
+ nick_the_kingmaker_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] conocido por coronar a un rey."

@@ -82,6 +82,7 @@
  COURT_POSITIONS_replace_position_confirmation_with_cost_and_effect: "Se reemplazará a [CHARACTER.GetShortUINameNoTooltip] como $COURT_POSITION$ por [TARGET_CHARACTER.GetShortUINameNoTooltip], $COSTS$ y tendrá estos efectos:\n$EFFECT$"
   
  COURT_POSITION_CATEGORY_COMMON_NAME: "Común"
+ COURT_POSITION_CATEGORY_OFFICER_NAME: "Oficial" #NT!
  COURT_POSITION_CATEGORY_ROYAL_NAME: "Real"
  COURT_POSITION_CATEGORY_SPECIAL_NAME: "Especial"
  COURT_POSITIONS_category_day_to_day: "Cotidiana"
@@ -108,6 +109,8 @@
  COURT_POSITION_TOOLTIP_SALARIES_PIETY_EARNED: "Piedad ganada en salarios"
  COURT_POSITION_TOOLTIP_REVOKE_COST: "• Te cuesta: [CourtPosition.GetRevokeCostText]"
  COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER: "Revocar este [court_position|E] causará:"
+ COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER.COURT_POSITION: "[court_position|E]" #NT!
+ COURT_POSITION_TOOLTIP_REVOKE_EFFECT_HEADER.CAMP_OFFICER: "[officer|E]" #NT!
  COURT_POSITION_TYPE_TOOLTIP_EFFECT_ON_EMPLOYEE: "Efecto sobre [CourtPositionType.GetNameNoTooltip]:"
  COURT_POSITION_TYPE_TOOLTIP_SALARY: "Salario: [CourtPositionType.GetSalaryText]"
  COURT_POSITION_TYPE_TOOLTIP_REVOKE_COST: "• Te cuesta: [CourtPositionType.GetRevokeCostText]"
@@ -174,6 +177,7 @@
  court_position_skill_diplomacy: "Habilidad de [diplomacy|E]"
  court_position_skill_stewardship: "Habilidad de [stewardship|E]"
  court_position_skill_intrigue: "Habilidad de [intrigue|E]"
+ court_position_skill_all: "Suma de todos los [skills|E]" #NT!
  court_position_languages: "[languages|E] conocidos"
  court_position_landed_penalty: "Gobierno ocupado"
  court_position_imprisoned_penalty: "Encarcelado"
@@ -231,6 +235,8 @@
  court_position_inappetetic_trait: "[GetTrait('inappetetic').GetName( ROOT.Char )]"
  court_position_torturer_trait: "[GetTrait('torturer').GetName( ROOT.Char )]"
  court_position_sadistic_trait: "[GetTrait('sadistic').GetName( ROOT.Char )]"
+ court_position_callous_trait: "[GetTrait('callous').GetName( ROOT.Char )]"
+ court_position_fickle_trait: "[GetTrait('fickle').GetName( ROOT.Char )]" #NT!
  court_position_clergy_trait: "Es parte del [clergy|E]"
  court_position_completed_inspiration: "Ha cumplido una [inspiration|E]"
  court_position_high_skills_trait: "Muy calificado"
@@ -245,6 +251,7 @@
  court_position_tradition_culinary_art: "[culture_tradition|E] $tradition_culinary_art_name$"
  court_position_compassionate_trait: "[GetTrait('compassionate').GetName( ROOT.Char )]"
  court_position_avaricious_trait: "[GetTrait('avaricious').GetName( ROOT.Char )]"
+ court_position_schemer_trait: "[GetTrait('schemer').GetName( ROOT.Char )]" #NT!
  court_position_trusting_trait: "[GetTrait('trusting').GetName( ROOT.Char )]"
  court_position_deceitful_trait: "[GetTrait('deceitful').GetName( ROOT.Char )]"
  court_position_honest_trait: "[GetTrait('honest').GetName( ROOT.Char )]"
@@ -258,6 +265,11 @@
  court_position_faith_warrior_trait: "[GetTrait('faith_warrior').GetName( ROOT.Char )]"
  court_position_diligent_trait: "[GetTrait('diligent').GetName( ROOT.Char )]"
  court_position_lazy_trait: "[GetTrait('lazy').GetName( ROOT.Char )]"
+ court_position_reveler_trait: "[GetTrait('lifestyle_reveler').GetName( ROOT.Char )]" #NT!
+ court_position_flagellant_trait: "[GetTrait('flagellant').GetName( ROOT.Char )]" #NT!
+ court_position_seducer_trait: "[GetTrait('seducer').GetName( ROOT.Char )]" #NT!
+ court_position_improvident_trait: "[GetTrait('improvident').GetName( ROOT.Char )]" #NT!
+ court_position_strategist_trait: "[GetTrait('strategist').GetName( ROOT.Char )]" #NT!
  court_position_logistician_trait: "[GetTrait('logistician').GetName( ROOT.Char )]"
  court_position_forder_trait: "[GetTrait('forder').GetName( ROOT.Char )]"
  court_position_lots_of_travel: "Experiencia de viaje"
@@ -273,6 +285,7 @@
  court_position_desert_warrior_trait: "[GetTrait('desert_warrior').GetName( ROOT.Char )]"
  court_position_jungle_stalker_trait: "[GetTrait('jungle_stalker').GetName( ROOT.Char )]"
  court_position_winter_soldier_trait: "[GetTrait('winter_soldier').GetName( ROOT.Char )]"
+ court_position_commander_traits: "Tiene alguna [commander_trait|E]" #NT!
  court_position_whole_of_body_trait: "[GetTrait('whole_of_body').GetName( ROOT.Char )]"
  court_position_traveler_trait: "[GetTrait('lifestyle_traveler').GetName( ROOT.Char )]"
  court_position_traveler_trait_experienced: "[GetTrait('lifestyle_traveler').GetName( ROOT.Char )]"
@@ -280,6 +293,10 @@
  court_position_beastmaster_modifier: "$ep2_beastmaster_modifier$"
  court_position_speed: "Contribución a la [travel_speed|E]"
  court_position_safety: "Contribución a la [travel_speed|E]"
+ court_position_soulmate: "¿Es tu [soulmate|E]?" #NT!
+ court_position_best_friend: "¿Es tu [best_friend|E]?" #NT!
+ court_position_friend: "¿Es tu [friend|E]?" #NT!
+ court_position_improved_by_camp_fire_capering_fools: "[GetDomicileBuilding('camp_fire_capering_fools').GetName]" #NT!
   
  court_position_tradition_poetry: "[culture_tradition|E] $tradition_poetry_name$"
  court_position_tradition_horse_lords: "[culture_tradition|E] $tradition_horse_lords_name$"
@@ -394,14 +411,14 @@
  capable_magistrates_modifier: "Magistrados capaces"
  opinion_of_liege: "Opinión de [liege|E]"
   
- court_cave_hermit_position: "Jardinero ermitaño"
- court_cave_hermit_position_desc: "El $court_cave_hermit_position$ es alguien que morará en los terrenos de tu castillo y entretendrá a tus invitados con profecías y acertijos. Algunos dicen que puede ser un auténtico místico."
- court_cave_hermit_position_tt: "Encontraste un $court_cave_hermit_position$ en tus viajes"
+ cave_hermit_court_position: "Ermitaño del jardín" #NT!
+ cave_hermit_court_position_desc: "El $cave_hermit_court_position$ es alguien que habitará los terrenos de tu castillo y entretendrá a tus invitados con profecías y acertijos. Algunos dicen que pueden ser verdaderos místicos." #NT!
+ cave_hermit_court_position_tt: "Has encontrado un $cave_hermit_court_position$ en tus viajes" #NT!
   
  travel_leader_court_position: "Jefe de la caravana"
  travel_leader_court_position_desc: "El $travel_leader_court_position$ te ayuda en tus viajes y se ocupa de todos los itinerarios. Su objetivo es conseguir que llegues a tu destino sano, salvo y a tiempo."
  hire_travel_leader_decision: "Buscar a un $travel_leader_court_position$"
- hire_travel_leader_decision_effect_tooltip: "Tus servidores te sugerirán una serie de candidatos adecuados para el puesto de [GetCourtPositionType('travel_leader_court_position').GetName()|l]"
+ hire_travel_leader_decision_tooltip: "Sus servidores le sugerirán una serie de candidatos adecuados para el puesto de [GetCourtPositionType('travel_leader_court_position').GetName()]" #NT!
  hire_travel_leader_decision_desc: "Un buen $travel_leader_court_position$ es clave para un viaje exitoso. Solicitaré que se sugieran una serie de candidatos adecuados."
  hire_travel_leader_decision_confirm: "Comenzar la búsqueda"
  wet_nurse_court_position: "Enfermera humeda"
@@ -409,7 +426,7 @@
  wet_nurse_employer_custom_effect_description: "Reduce la posibilidad de que [children|E] contraiga [illnesses|E].\nPosibilidad de eventos de desarrollo de [child|E]"
  find_wet_nurse_decision: "Buscar un $wet_nurse_court_position$"
  find_wet_nurse_decision_desc: "Un $wet_nurse_court_position$ es un símbolo de la riqueza y prosperidad de la corte: una mujer encargada de amamantar a los niños, protegerlos de las enfermedades y cuidar de su desarrollo. Un candidato sano y salvo es esencial."
- find_wet_nurse_decision_effect_tooltip: "Sus servidores le sugerirán una serie de candidatos adecuados para el puesto de [GetCourtPositionType('wet_nurse_court_position').GetName()]"
+ find_wet_nurse_decision_tooltip: "Sus servidores le sugerirán una serie de candidatos adecuados para el puesto de [GetCourtPositionType('wet_nurse_court_position').GetName()]" #NT!
  find_wet_nurse_decision_confirm: "Iniciar la búsqueda"
  court_position_has_child: "Tiene un niño"
   
@@ -426,3 +443,126 @@
  chronicler_espouse_legend: "Elogiar la leyenda en el extranjero"
  chronicler_espouse_legend_desc: "Este personaje viajará por tu reino y más allá para convencer a [vassals|E] y al vecino [rulers|E] de que hagan de tu leyenda su [promoted_legend|E]."
  yearly_legend_spread_tt: "Cada año, uno de sus [vassals|E] o su vecino [rulers|E] puede convertir su leyenda en su [promoted_legend|E]. Los niveles más altos de [aptitude|E] aumentarán las posibilidades de que esto ocurra."
+  
+ court_position_tourney_participant_trait: "$tourney_participant_horse$" #NT!
+ charioteer_court_position: "Campeón auriga" #NT!
+ charioteer_court_position_desc: "El $charioteer_court_position$ es un corredor de carros profesional, patrocinado por su empleador." #NT!
+ charioteer_employer_custom_effect_description: "$BULLET$Quedar en tercer lugar o más alto durante un [GetActivityType( 'activity_chariot_race' ).GetName] otorga [influence|E]" #NT!
+  
+ bookmaker_court_position: "Corredor de apuestas" #NT!
+ bookmaker_court_position_desc: "El $bookmaker_court_position$ es un contable profesional que se encarga del manejo de juegos de azar en [GetActivityType( 'activity_chariot_race' ).GetName]." #NT!
+ bookmaker_employer_custom_effect_description: "$BULLET$Reduce el costo de hospedaje de un [GetActivityType( 'activity_chariot_race' ).GetName] (basado en [aptitude|E])\n$BULLET$Proporciona [gold|E] de las apuestas realizadas durante un [GetActivityType( 'activity_chariot_race' ).GetName]" #NT!
+  
+ bookmaker_cook_the_books: "Cocinar los libros" #NT!
+ bookmaker_cook_the_books_desc: "Este personaje se asegurará de que los resultados de las apuestas en un [GetActivityType('activity_chariot_race').GetName] siempre estén a tu favor." #NT!
+ bookmaker_cook_the_books.tt: "Durante el próximo [GetActivityType('activity_chariot_race').GetName] que albergues, tu [GetCourtPositionType('bookmaker_court_position').GetName()] empleará algo de aritmética creativa para reducir la cantidad de [gold|E] que se paga por las apuestas exitosas, lo que significa más para la corona." #NT!
+  
+ bookmaker_distribute_bribes: "Distribuir sobornos" #NT!
+ bookmaker_distribute_bribes_desc: "Este personaje distribuirá sobornos discretamente en tu nombre, aumentando tu influencia en todo el reino." #NT!
+  
+ charioteer_training: "Entrenamiento de carros" #NT!
+ charioteer_training_desc: "Este personaje entrenará día y noche para mejorar sus habilidades como auriga y ganar una valiosa experiencia." #NT!
+ charioteer_training_tt: "$charioteer_court_position$ ganará experiencia en su #high Auriga#! [trait|E] con el tiempo" #NT!
+  
+ court_position_fickle: "[GetTrait('fickle').GetName( ROOT.Char )]" #NT!
+  #AGOT Disabled, Errors 
+ # court_position_varangian_trait: "[GetTrait('varangian').GetName( ROOT.Char )]" #NT!
+ court_position_fp1_coastal_warriors: "[GetCultureTradition('tradition_fp1_coastal_warriors').GetName] [tradition|E]" #NT!
+ court_position_hird: "[GetCultureTradition('tradition_hird').GetName] [tradition|E]" #NT!
+ court_position_fp1_performative_honour: "[GetCultureTradition('tradition_fp1_performative_honour').GetName] [tradition|E]" #NT!
+  
+ akolouthos_court_position: "Akolouthos" #NT!
+  #AGOT Modified, Errors 
+ # akolouthos_employer_custom_effect_description: "$BULLET$Aumenta [GetTrait('varangian').GetName( GetNullCharacter )] [GetCourtPositionType('bodyguard_court_position').GetName()] [aptitude|E] (según [aptitude|E])\n$BULLET$Cuantos más [courtiers|E] sean elegibles, más [GetTrait('varangian').GetName( GetNullCharacter )] y [GetTrait('loyal').GetName( GetNullCharacter )] [traits|E]\n$BULLET$Aparecerán más varegos\n@warning_icon! [GetTrait('varangian').GetName( GetNullCharacter )]1 Los varegos reclamarán algo de [GetTrait('varangian').GetName( GetNullCharacter )]2 oro después de la muerte de Basileus.[GetTrait('varangian').GetName( GetNullCharacter )]3" #NT!
+ akolouthos_employer_custom_effect_description: ""
+ akolouthos_court_position_desc: "El $akolouthos_court_position$ comanda gran parte de la guardia imperial bizantina, incluidos los famosos varegos, que están muy dispuestos a morir honorablemente por su amo." #NT!
+  
+ court_position_akolouthos_bonus: "[GetCourtPositionType('akolouthos_court_position').GetName()]" #NT!
+  
+ court_position_palace_politics: "[GetCultureTradition('tradition_ep3_palace_politics').GetName]" #NT!
+ court_position_north_germanic: "$heritage_north_germanic_name$ [heritage|E]" #NT!
+ court_position_west_germanic: "$heritage_west_germanic_name$ [heritage|E]" #NT!
+ court_position_not_same_culture_heritage: "Diferente [heritage|E] de [liege|E]'s [culture|E]" #NT!
+ court_position_not_same_culture_language: "Diferente [language|E] de [liege|E]'s [culture|E]" #NT!
+ COURT_POSITION_LOYAL_TRAIT: "[GetTrait('loyal').GetName( GetNullCharacter )] [trait|E]" #NT!
+  
+ #CAMP OFFICERS 
+ officer_positions: "[officer|E] posiciones" #NT!
+ second_camp_officer: "Segundo" #NT!
+ second_camp_officer_desc: "Un $second_camp_officer$ es el oficial de mayor confianza del campamento y ayuda al líder como siguiente al mando. Es responsable de las órdenes y la organización en ausencia del líder." #NT!
+ quartermaster_camp_officer: "Oficial de intendencia" #NT!
+ quartermaster_camp_officer_desc: "El $quartermaster_camp_officer$ es responsable de garantizar que el campamento esté bien alimentado y provisto de agua. Gestiona, protege y distribuye las provisiones según sea necesario." #NT!
+ armorer_camp_officer: "Armero" #NT!
+ armorer_camp_officer_desc: "El $armorer_camp_officer$ es un herrero que se especializa en cascos y mallas. Es responsable de confeccionar y remendar las vestimentas de los hombres de armas y los caballos." #NT!
+ chief_forager_camp_officer: "Jefe recolector" #NT!
+ chief_forager_camp_officer_desc: "El $chief_forager_camp_officer$ se encarga de complementar las provisiones del campamento. Son responsables de organizar grupos para reunir alimentos de la zona." #NT!
+ chief_forager_camp_officer_employer_custom_effect_description: "$BULLET$Puede ayudar a reunir provisiones [decisions|E]" #NT!
+ master_thief_camp_officer: "Maestro ladrón" #NT!
+ master_thief_camp_officer_desc: "El $master_thief_camp_officer$ es un pícaro al que se le han encomendado las variadas y moralmente dudosas artes del robo. Puede garantizar el acceso a objetos que de otro modo estarían fuera de su alcance." #NT!
+ master_thief_camp_officer_employer_custom_effect_description: "$BULLET$Desbloquea $steal_back_artifact$ [interaction|E]" #NT!
+ head_porter_camp_officer: "Portero jefe" #NT!
+ head_porter_camp_officer_desc: "El $head_porter_camp_officer$ se encarga de transportar el campamento y todas sus provisiones. Se encarga de que todo llegue intacto al siguiente destino." #NT!
+ head_groom_camp_officer: "Jefe de novios" #NT!
+ head_groom_camp_officer_desc: "El $head_groom_camp_officer$ se encarga de la cuadra de los caballos y bestias de carga del campamento. Es responsable del alimento, cuidado y aparejos de los animales." #NT!
+ huntperson_camp_officer: "Cazador" #NT!
+ huntperson_camp_officer_desc: "El $huntperson_camp_officer$ es un acólito en el arte del cuerno, el sabueso y el arco. Es responsable de planificar y dirigir las expediciones de caza del campamento." #NT!
+ huntperson_camp_officer_employer_custom_effect_description: "$BULLET$[GetActivityType('activity_hunt').GetName] [hunt_success_chance_no_prefix|E] aumenta con [aptitude|E]\n$BULLET$Mejora [martial|E] [education|E] los resultados para todos los [children|E] en tu [camp|E]\n$BULLET$Puede ayudar en la recolección de provisiones [GetActivityType('activity_hunt').GetName]0" #NT!
+ kennelperson_camp_officer: "Perrera" #NT!
+ kennelperson_camp_officer_desc: "El $kennelperson_camp_officer$ se encarga del cuidado y el entrenamiento de la jauría de perros del campamento. Mantiene a los perros sanos y bien alimentados, la mayor parte del tiempo." #NT!
+ kennelperson_camp_officer_employer_custom_effect_description: "$BULLET$Permite lanzar a los perros [execution|E] [prisoners|E] método" #NT!
+ chief_engineer_camp_officer: "Ingeniero jefe" #NT!
+ chief_engineer_camp_officer_desc: "El $chief_engineer_camp_officer$ es responsable de todas las tareas que requieren conocimientos de mecanismos y maquinaria. Construye y repara armas de asedio e instruye a los hombres en su uso." #NT!
+ witness_camp_officer: "Testigo" #NT!
+ witness_camp_officer_desc: "El $witness_camp_officer$ tiene la solemne tarea de registrar los hechos y las reivindicaciones legítimas del líder del campamento. Son testigos de las grandes hazañas y luchas del campamento." #NT!
+ person_haggler_camp_officer: "Hombre regateador" #NT!
+ person_haggler_camp_officer_desc: "El $person_haggler_camp_officer$ es responsable de los prisioneros valiosos y de extraerles el máximo beneficio posible. Se encarga de los cautivos y de las negociaciones para el rescate." #NT!
+ person_haggler_camp_officer_employer_custom_effect_description: "$BULLET$[gold|E] ganancia por pedir rescate por [prisoners|E]: [gold_i]#P +7%#! a [gold_i]#P +33%#! (según [aptitude|E])\n$BULLET$[gold|E] a pagar para pedir rescate por tu [gold|E]2: [gold_i]#P -9%#! a [gold_i]#P -33%#! (según [aptitude|E])" #NT!
+ person_haggler_aptitude_effect_1: "$BULLET$ [gold_i][gold|E] por pedir rescate por [prisoners|E]: #P +7%#!\n$BULLET$[gold_i][gold|E] por pedir rescate por tu [followers|E]: #P -9%#!" #NT!
+ person_haggler_aptitude_effect_2: "$BULLET$ [gold_i][gold|E] por pedir rescate por [prisoners|E]: #P +13%#!\n$BULLET$[gold_i][gold|E] por pedir rescate por tu [followers|E]: #P -17%#!" #NT!
+ person_haggler_aptitude_effect_3: "$BULLET$ [gold_i][gold|E] por pedir rescate por [prisoners|E]: #P +20%#!\n$BULLET$[gold_i][gold|E] por pedir rescate por tu [followers|E]: #P -23%#!" #NT!
+ person_haggler_aptitude_effect_4: "$BULLET$ [gold_i][gold|E] por pedir rescate por [prisoners|E]: #P +27%#!\n$BULLET$[gold_i][gold|E] por pedir rescate por tu [followers|E]: #P -29%#!" #NT!
+ person_haggler_aptitude_effect_5: "$BULLET$ [gold_i][gold|E] por pedir rescate por [prisoners|E]: #P +33%#!\n$BULLET$[gold_i][gold|E] por pedir rescate por tu [followers|E]: #P -33%#!" #NT!
+  
+ camp_cook_camp_officer: "Jefe de cocina" #NT!
+ camp_cook_camp_officer_desc: "Los $camp_cook_camp_officer$ preparan comida abundante para mantener al campamento bien alimentado y de buen humor. También son responsables de preparar las comidas de los oficiales." #NT!
+ master_bard_camp_officer: "Maestro Bardo" #NT!
+ master_bard_camp_officer_desc: "El $master_bard_camp_officer$ entretiene al campamento y a sus oficiales con baladas y cuentos fantásticos. Sus esfuerzos también pueden contribuir a inmortalizar las grandes hazañas de un aventurero." #NT!
+ master_bard_camp_officer_employer_custom_effect_description: "$BULLET$Desbloquea $send_poem_interaction$ [interaction|E]" #NT!
+ stooge_camp_officer: "Secuaz" #NT!
+ stooge_camp_officer_desc: "El $stooge_camp_officer$ es el foco involuntario de la irritación y el humor cruel del campamento. Su maltrato es una gran fuente de moral y el origen de muchas historias risibles junto al fuego." #NT!
+ master_of_arms_camp_officer: "Maestro de armas" #NT!
+ master_of_arms_camp_officer_desc: "El $master_of_arms_camp_officer$ tiene la misión de mantener a raya a los combatientes, tanto en el campamento como en el campo de batalla. Es responsable de la disciplina y el entrenamiento." #NT!
+ master_of_arms_employer_custom_effect_description: "$BULLET$Desbloquea $train_for_tournament_decision_name$ [decision|E]#!" #NT!
+ light_cavalry_captain_camp_officer: "Capitán de caballería ligera" #NT!
+ light_cavalry_captain_camp_officer_desc: "El $light_cavalry_captain_camp_officer$ es el comandante de los jinetes más veloces del campamento. Es responsable del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ camelry_captain_camp_officer: "Capitán de Camelry" #NT!
+ camelry_captain_camp_officer_desc: "El $camelry_captain_camp_officer$ comanda a los jinetes de camellos del campamento. Es responsable del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ elephantry_captain_camp_officer: "Capitán de Elefantría" #NT!
+ elephantry_captain_camp_officer_desc: "El $elephantry_captain_camp_officer$ comanda los cornacas del campamento. Son responsables del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ heavy_cavalry_captain_camp_officer: "Capitán de caballería pesada" #NT!
+ heavy_cavalry_captain_camp_officer_desc: "El $heavy_cavalry_captain_camp_officer$ comanda los corceles blindados del campamento. Es responsable del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ horse_archer_captain_camp_officer: "Capitán arquero a caballo" #NT!
+ horse_archer_captain_camp_officer_desc: "El $horse_archer_captain_camp_officer$ comanda a los tiradores montados del campamento. Es responsable del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ archer_captain_camp_officer: "Capitán arquero" #NT!
+ archer_captain_camp_officer_desc: "El $archer_captain_camp_officer$ comanda a los arqueros del campamento. Es responsable del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ heavy_infantry_captain_camp_officer: "Capitán de infantería pesada" #NT!
+ heavy_infantry_captain_camp_officer_desc: "El $heavy_infantry_captain_camp_officer$ comanda la línea de batalla blindada del campamento. Es responsable del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ light_infantry_captain_camp_officer: "Capitán de infantería ligera" #NT!
+ light_infantry_captain_camp_officer_desc: "El $light_infantry_captain_camp_officer$ comanda a los escaramuzadores del campamento. Es responsable del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ pike_captain_camp_officer: "Capitán de Pike" #NT!
+ pike_captain_camp_officer_desc: "Los $pike_captain_camp_officer$ dirigen las líneas de lanza. Son responsables del liderazgo, el entrenamiento y las tácticas del contingente." #NT!
+ master_of_spoils_camp_officer: "Maestro del botín" #NT!
+ master_of_spoils_camp_officer_desc: "El $master_of_spoils_camp_officer$ es responsable de la recolección y distribución del botín del campamento. Se asegura de que el botín de guerra se divida adecuadamente entre los hombres." #NT!
+ master_of_spoils_camp_officer_employer_custom_effect_description: "$BULLET$Aumenta la ganancia de [gold_i][gold|E], [prestige_i][prestige|E] y [piety_i][piety|E] al ganar [battles|E] y [sieges|E] (según [aptitude|E])\n$BULLET$Aumenta la probabilidad de robar un [gold_i]1 después de un [gold_i]2 (según [aptitude|E])" #NT!
+ court_position_eunuch_trait: "[GetTrait('eunuch_1').GetName( ROOT.Char )]" #NT!
+ court_position_beardless_eunuch_trait: "[GetTrait('beardless_eunuch').GetName( ROOT.Char )]" #NT!
+ court_position_eunuch_falsetto: "Falsetto de [GetTrait('beardless_eunuch').GetName( ROOT.Char )]" #NT!
+ court_position_traveling_friend: "El compañero de viaje tiene otro [court_position|E]" #NT!
+ camp_priest_camp_officer: "Sacerdote del campamento" #NT!
+ camp_priest_camp_officer_desc: "El $camp_priest_camp_officer$ ofrece apoyo espiritual al campamento." #NT!
+ laureate_camp_officer: "Laureado" #NT!
+ laureate_camp_officer_desc: "$laureate_camp_officer$ es un compositor de versos que vive en su ciudad natal para todas las ocasiones. Su obra es conocida en todas partes y atrae a muchos poetas ansiosos por aprender a sus pies." #NT!
+ laureate_camp_officer_employer_custom_effect_description: "$master_bard_camp_officer_employer_custom_effect_description$\n$BULLET$Habilita la opción Invitar poetas [decision|E]" #NT!
+  
+ court_position_bodyguard_modifier: "[GetPerk('praetorian_guard_perk').GetName( GetNullCharacter )]" #NT!
+ court_position_bodyguard_liege_modifier: "El empleador tiene [GetPerk('praetorian_guard_perk').GetName( GetNullCharacter )]" #NT!

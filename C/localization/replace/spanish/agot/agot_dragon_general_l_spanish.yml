@@ -50,6 +50,10 @@
   #Dragon Mil Tooltip Stuff 
  realm_dragons_faux_tt: "Reino [dragons|E]:"
  realm_dragons_faux_armies_tt: "ejércitos"
+ dragons_military_war_participant_text: "Dragones:" #NT!
+ dragons_military_war_overview_text: "Dragones totales:" #NT!
+ dragons_versus_war_overview_attacker_text: "Dragones de los atacantes:" #NT!
+ dragons_versus_war_overview_defender_text: "Dragones de los defensores:" #NT!
   
  building_dragonpit_effect: "Este edificio actúa como un [dragonpit|e], lo que permite que el poseedor del [county|e] almacene [dragons|e]. Sin embargo, los dragones internados en él sufrirán penalizaciones de salud y crecimiento."
  building_dragonmont_dragonpit_effect: "Este edificio actúa como un [natural_dragonpit|e], lo que permite que el poseedor del [county|e] guarde [dragons|e]. Los dragones encerrados en él sufrirán considerablemente menos que un dragón en un pozo de dragones artificial."
@@ -112,7 +116,6 @@
   
   
  tame_unbonded_dragon_scheme_scheme_power_mult: "[GetScheme('tame_unbonded_dragon_scheme').GetTypeName] [scheme_power|E]"
- steal_back_artifact_scheme_resistance_mult: "[GetScheme('steal_back_artifact').GetTypeName] [scheme_resistance|E]"
   
  title_is_dragonpit_warning: "@warning_icon! #warning [target.GetNameNoTier] tiene un [dragonpit|e], ¡regalarlo significaría entregarle el control a un gobernante externo! #!"
  title_is_dragonpit_and_ruler_is_not_king_warning: "@warning_icon! #warning [target.GetNameNoTier] tiene un [dragonpit|e], [recipient.GetShortUIName] no es un gobernante de nivel rey, lo que limitaría su acceso al Pozo del Dragón. #!"

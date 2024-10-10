@@ -415,6 +415,8 @@
   
  feature_decoration_material_inlay_HSB_placeholder: "#D REFERENTE#!"
   
+ feature_icon_decoration_pattern_saint: "[Artifact.GetOwner.Custom('PredeterminedSaintName')]" #NT!
+  
   ########### 
   # Quality and wealth # 
   ########### 
@@ -640,7 +642,6 @@
   
  create_artifact_regalia_tooltip: "[inspiration_owner.GetShortUIName] ha creado un conjunto de vestiduras de [SCOPE.Custom('ArtifactQuality')] factura"
   
-  
   # Crowns 
  artifact_crown_name: "Corona $artifact_name_prefix$"
  artifact_crown_description: "Un [SCOPE.Custom('ArtifactArticleWealth')|l] ejemplo de corona de [SCOPE.Custom('ArtifactQuality')] factura. La corona se ha forjado de [newly_created_artifact.GetFeatureText( 'decoration_material_wire' )] y [newly_created_artifact.GetFeatureText( 'crown_decoration' )]."
@@ -651,6 +652,9 @@
   
  create_artifact_crown_tooltip: "[inspiration_owner.GetShortUIName] ha creado una corona de [SCOPE.Custom('ArtifactQuality')] manufactura"
   
+  # Icons 
+ artifact_icon_name: "Icono de [newly_created_artifact.GetFeatureText('icon_decoration')]" #NT!
+ artifact_icon_description: "[SCOPE.Custom('ArtifactArticleWealth')] icono de [SCOPE.Custom('ArtifactQuality')] artesanía que representa [newly_created_artifact.GetFeatureText('icon_decoration')]" #NT!
   
   # Brooches 
  artifact_brooch: "Broche"
@@ -1308,3 +1312,11 @@
   
  medicine_jar: "Tarro Medicinal"
  medicine_jar_desc: "Esta loza de barro fino vidriado contiene hierbas raras y potentes, minerales curativos y varias partes secas de animales, todos utilizados por los médicos para tratar enfermedades y equilibrar los humores."
+ whale_fat_candles_name: "Velas de grasa de ballena" #NT!
+ whale_fat_candles_description: "Estas velas están hechas de la grasa de un terrible leviatán y amenazan con púas de grasa de ballena." #NT!
+  
+ warenne_coin: "Moneda Warenne" #NT!
+ warenne_coin_description: "Esta moneda lleva en el anverso la insignia de la dinastía Warenne en forma de tablero de ajedrez azul y amarillo. Una mancha oscura de sangre marca su borde." #NT!
+  
+ traitors_head: "Cabeza de traidor" #NT!
+ traitors_head_description: "Una cabeza incorpórea, cuidadosamente arrancada de su dueño. Es más un mensaje que un recuerdo." #NT!
