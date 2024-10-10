@@ -74,7 +74,11 @@
  epidemic_events.1010.a: ""¡Cómo te atreves!""
  epidemic_events.1010.b: "Quizás [superstitious_courtier.GetSheHe] tenga razón..."
  epidemic_events.1010.c: "¡Cierra todos los ataúdes del reino!"
+<<<<<<< HEAD
  all_realm_county_epidemic_scope: "Cada [realm|E] [county|E] con [epidemic_scope.GetName]" #NT!
+=======
+ all_realm_county_epidemic_scope: "Every [realm|E] [county|E] with [epidemic_scope.GetName]" #NT!
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  epidemic_events.1020.t: "Mal aire sobre [epidemic_county.GetNameNoTierNoTooltip|U]"
  epidemic_events.1020.desc: "[epidemic_scope.GetName|U] ha devastado a la gente de [epidemic_county.GetNameNoTier]. [miasma_courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] me informa que el comercio y los productos locales se han secado por completo mientras la gente se revuelca en sus casas y en las calles, esperando la llamada de [ROOT.Char.GetFaith.DeathDeityNamePossessive|U].\n\n[miasma_courtier.GetSheHe|U] culpa de la plaga al mal aire que rodea a los muertos y moribundos, y propone que contrarrestarlo con un vasto campo de [epidemic_province.Custom('get_region_flower_type_plural')] contribuiría en gran medida a disipar este mal aire y frenar la propagación de la enfermedad."
  epidemic_events.1020.a: "Vale la pena intentarlo."
@@ -176,7 +180,7 @@
  epidemic_events.1067.c: "Ofrecer santuario en la capital."
  every_bordering_county: "Cada condado limítrofe con [bigoted_ruler_that_everyone_hates.GetName]"
  epidemic_events.1068.t: "Prestado"
- epidemic_events.1068.desc: "La caza de brujas contra [faith_blamed.GetAdherentNamePlural] basada en la acusación de difundir [epidemic_scope.GetName] ha tenido un gran número de consecuencias financieras para todos los estratos de la sociedad y eso no podría ser más claro para mí que cuando [loneless_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] llega a los tribunales como un mendigo común.\ n\n"La situación es desesperada, mi persecución [ROOT.Char.GetTitleAsNameNoTooltip|U]. [faith_blamed.GetAdjectiveNoTooltip|U] ha aterrorizado a todo tipo de no creyentes lejos de mis tierras. No se puede encontrar a nadie que se dedique a la práctica necesaria de la usura, y mi tesoro se está agotando. Debemos ¡Encuentra una solución y encuéntrala rápido!""
+ epidemic_events.1068.desc: "La caza de brujas contra [faith_blamed.GetAdherentNamePlural] basada en la acusación de difundir [epidemic_scope.GetName] ha tenido un gran número de consecuencias financieras para todos los estratos de la sociedad y eso no podría ser más claro para mí que cuando [loneless_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] llega a los tribunales como un mendigo común.\n\n"La situación es desesperada, mi persecución [ROOT.Char.GetTitleAsNameNoTooltip|U]. [faith_blamed.GetAdjectiveNoTooltip|U] ha aterrorizado a todo tipo de no creyentes lejos de mis tierras. No se puede encontrar a nadie que se dedique a la práctica necesaria de la usura, y mi tesoro se está agotando. Debemos ¡Encuentra una solución y encuéntrala rápido!""
  epidemic_events.1068.a: "[loneless_vassal.GetPrimaryTitle.GetNameNoTierNoTooltip|U] será un lugar seguro para todos."
  epidemic_events.1068.b: "Puedo ofrecerle un préstamo."
  epidemic_events.1068.c: "Es desafortunado."

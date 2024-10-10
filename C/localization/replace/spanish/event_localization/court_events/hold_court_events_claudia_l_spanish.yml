@@ -50,24 +50,38 @@
  hold_court.6050.b: "Ya lo se. El Santo vino a mí en un sueño."
  hold_court.6050.c: "¡Erradicaré esta tontería blasfema de inmediato!"
  hold_court.6050.d: "No me importan las supersticiones campesinas."
+<<<<<<< HEAD
  tougher_to_convert: "Comunidad religiosa fuerte" #NT!
  tougher_to_convert_desc: "La identidad religiosa de este condado se ha fortalecido recientemente, lo que hace que sea más difícil convertirlos.\n\n#N -25%#! Velocidad de conversión de fe" #NT!
  easier_to_convert: "Comunidad religiosa debilitada" #NT!
  easier_to_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión de fe" #NT!
  easier_to_culture_convert: "Comunidad religiosa debilitada" #NT!
  easier_to_culture_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión cultural" #NT!
+=======
+ tougher_to_convert: "Comunidad religiosa fuerte"
+ tougher_to_convert_desc: "La identidad religiosa de este condado se ha fortalecido recientemente, lo que hace que sea más difícil convertirlos.\n\n#N -25%#! Velocidad de conversión de fe"
+ easier_to_convert: "Comunidad religiosa debilitada"
+ easier_to_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión de fe"
+ easier_to_culture_convert: "Comunidad religiosa debilitada"
+ easier_to_culture_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión cultural"
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   #A Convenient offer 
  hold_court.6060.t: "Una oferta conveniente"
  hold_court.6060.desc: "[6060_rich.Custom2('MyCharacterIntroduction', ROOT.Char)|U] está frente a mí, con una expresión esperanzada en su rostro.\n\n"Mi [ROOT.Char.GetLadyLord],"
  hold_court.6060.desc_merchant: ""Mi [ROOT.Char.GetLadyLord], déjame presentarme: mi nombre es [6060_rich.GetTitledFirstName] y soy un rico comerciante de la capital.\n\n"
- hold_court.6060.desc_ending: ""No pude evitar notar que, en los últimos tiempos, las finanzas del reino no han sido las más saludables. Por supuesto, las has estado administrando atrozmente, pero, tal vez, podrías encontrar alguna utilidad para algo de oro extra.\n\ n"Estoy dispuesto a comprar un acuerdo menor a cambio de una generosa suma de oro. ¿Sería aceptable?"."
+ hold_court.6060.desc_ending: ""No pude evitar notar que, en los últimos tiempos, las finanzas del reino no han sido las más saludables. Por supuesto, las has estado administrando atrozmente, pero, tal vez, podrías encontrar alguna utilidad para algo de oro extra.\n\n"Estoy dispuesto a comprar un acuerdo menor a cambio de una generosa suma de oro. ¿Sería aceptable?"."
  hold_court.6060.a: "Muy bien. Puedes tener [6060_offer.GetNameNoTooltip]."
  hold_court.6060.b: "Estoy seguro de que puedes ofrecer #EMP un poco más#!..."
  hold_court.6060.b.tt.success: "[6060_rich.GetFirstNameNoTooltip] acepta pagar más"
  hold_court.6060.b.tt.failure: "[6060_rich.GetFirstNameNoTooltip] mantiene la última oferta de [6060_rich.GetHerHis] y pareces un tonto codicioso"
  hold_court.6060.c: "No necesito tu oro."
+<<<<<<< HEAD
  character_title_cannot_be_revoked_tt: "No podrás revocar el título durante 25 años." #NT!
  protected_from_revocation.tt: "Los títulos de este personaje están protegidos contra revocación." #NT!
+=======
+ character_title_cannot_be_revoked_tt: "No podrás revocar el título durante 25 años."
+ protected_from_revocation.tt: "Los títulos de este personaje están protegidos contra revocación."
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   #Budding Ally 
  hold_court.6070.t: "Aliado en ciernes"
  hold_court.6070.desc: "" Mi [ROOT.Char.GetLadyLord], mi nombre es [6070_embassy.GetTitledFirstName] y soy embajador de su aliado, [6070_sender.GetTitledFirstName]. Le traigo [6070_sender.GetHerHis] saludos amistosos y una oferta.\n\n"Mi señor valora su amistad por encima de todo, así que, como signo de buena voluntad, [6070_sender.GetSheHe] te envía este niño — [6070_sender.GetHerHis] [6070_child.Custom('GetDaughterSon')] [6070_child.GetFirstName] — para que lo eduques como quieras.\n\n"Mi [6070_sender.GetLadyLord] espera que este gesto fortalezca vuestra alianza y confía en que [6070_child.GetFirstNameNoTooltip] estará en Grandes manos.""
@@ -93,13 +107,17 @@
  hold_court.6090.a: "[court_chaplain.GetFirstNameNicknamedNoTooltip], mira lo que puedes hacer."
  hold_court.6090.b: "[high_almoner.GetFirstNameNoTooltip], organizar algunas limosnas locales."
  hold_court.6090.c: "La convivencia pacífica es siempre la mejor solución."
+<<<<<<< HEAD
  title_granted_to_local_leader_tt: "Se le otorgará [6090_main_county.GetName] a un local de la fe [6090_main_county.GetCountyData.GetFaith.GetName]. Tendrás un [hook|E] en ellos." #NT!
+=======
+ title_granted_to_local_leader_tt: "Se le otorgará [6090_main_county.GetName] a un local de la fe [6090_main_county.GetCountyData.GetFaith.GetName]. Tendrás un [hook|E] en ellos."
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  hold_court.6090.d: "[executioner.GetFirstNameNoTooltip], haz un ejemplo de algunos incrédulos."
  hold_court.6090.e: "Parece que ese es tu problema, no el mío."
   #A Land at War 
  hold_court.6100.t: "Una tierra en guerra"
  hold_court.6100.desc: "Frente a mí se encuentran [6100_vassal_1.Custom2('MyCharacterIntroduction', ROOT.Char)] y [6100_vassal_2.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Mi [ROOT.Char.GetLadyLord]" comienza [6100_vassal_1.GetFirstNameNoTooltip] "la guerra entre [6100_vassal_2.GetTitledFirstNameNoTooltip] y yo se prolonga debido a la obstinada negativa de [6100_vassal_2.GetHerHis] a entrar en razón, por lo que acudimos a usted en busca de mediación. ."\n\n"Así que ahora es #EMP mi culpa#!!?" interviene [6100_vassal_2.GetFirstNameNoTooltip] "¡Increíble perro! Mi [ROOT.Char.GetLadyLord], ¡díselo a [6100_vassal_2.Custom2('MyCharacterIntroduction', ROOT.Char)]0!""
- hold_court.6100.desc.jester:0 "\n\n[jester.Custom2('MyCharacterIntroduction', ROOT.Char)|U] perks up: "\n\n[jester.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se anima: "Ohh, ¡me #EMP encantan#! las pequeñas peleas! Quedan bien con... ¡RIMAS DIVERTIDAS!"" #NT!
+ hold_court.6100.desc.jester:0 "\n\n[jester.Custom2('MyCharacterIntroduction', ROOT.Char)|U] perks up: "\n\n[jester.Custom2('MyCharacterIntroduction', ROOT.Char)|U] perks up: "Ohh, I #EMP love#! petty squabbles! They go well with... FUNNY RHYMES!"" #NT!
  hold_court.6100.a: "Cualquiera podría ver que [6100_vassal_1.GetFirstNameNoTooltip] está en lo cierto."
  hold_court.6100.b: "La posición [6100_vassal_2.GetFirstNamePossessiveNoTooltip] es legítima."
  hold_court.6100.c: "Cesen la lucha de inmediato, o si no..."
@@ -157,15 +175,19 @@
  hold_court.6130.a.tt: "[6130_proposer.GetFirstNameNoTooltip] comienza a trabajar en el levantamiento catastral. Tardarán varios meses en completarse."
  hold_court.6130.d: "Los mapas están sobrevalorados."
  hold_court.6131.t: "El Catastro: ¡Completado!"
- hold_court.6131.desc:0 "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se inclina brevemente ante mí y explica con una sonrisa de satisfacción: "Mi [ROOT.Char.GetLadyLord], quizás recuerdes que, hace unos meses, invertiste una gran suma de oro en un catastro de tus condados. \n\n"¡He supervisado personalmente el asunto y puedo decir con orgullo que el trabajo está hecho!"" #NT!
+ hold_court.6131.desc:0 "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "[6131_proposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] bows briefly before me and explains with a satisfied smile: "My [ROOT.Char.GetLadyLord], you might remember that, some months ago, you invested a large sum of gold into a cadastre of your counties. \n\n"I have personally supervised the matter and can proudly say that the job is done!"" #NT!
  hold_court.6131.desc_tutor: "También me complace escuchar un informe detallado de los aprendizajes de [6130_tutored.GetTitledFirstNamePossessive] bajo la dirección de [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6131.desc_hunt: "\n\nTambién me complace escuchar un informe detallado de la importante ayuda ofrecida por [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6131.desc_dead: "\n\nLamentablemente, [6130_helper.GetTitledFirstName] no vivió lo suficiente para ver completado el catastro que [6130_helper.GetSheHe] había prometido ayudar a realizar."
  hold_court.6131.a: "¡Oro bien gastado!"
+<<<<<<< HEAD
  all_realm_county: "Cada [realm|E] [county|E]" #NT!
+=======
+ all_realm_county: "Cada [realm|E] [county|E]"
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   #A Cumbersome Gift 
  hold_court.6140.t: "Un regalo engorroso"
- hold_court.6140.desc:2 "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "Toda la sala del trono queda en silencio mientras [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] entra triunfante, seguido por dos sirvientes que luchan y arrastran con orgullo a #EMP y a [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling encadenados. [6140_gifter.GetFirstNameNoTooltip] exclama: "¡Mi [ROOT.Char.GetLadyLord], te presento un regalo digno del gobernante más poderoso del mundo! ¡Esta magnífica bestia fue cazada en el [6140_province.GetTerrain.GetNameNoTooltip] de [6140_province.GetCounty.GetName], y ahora te la ofrezco como símbolo de mi devoción y de tu poder incomparable!"" #NT!
+ hold_court.6140.desc:2 "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "My [ROOT.Char.GetLadyLord], I present you a gift worthy of the mightiest ruler in the world! This magnificent beast was hunted in the [6140_province.GetTerrain.GetNameNoTooltip] of [6140_province.GetCounty.GetName], and now I offer it to you as a symbol of my devotion and your unparalleled power!"" #NT!
  6140_bear: "Oso"
  6140_tiger: "Tigre"
  6140_lion: "León"
@@ -189,7 +211,7 @@
  6140_every_prisoner: "Cada prisionero en tus celdas"
   #The End Is Nigh! 
  hold_court.6150.t: "¡El final está cerca!"
- hold_court.6150.desc:0 "As soon as it is [6150_preacher.GetHerHis] turn to speak, the agitated [6150_preacher.GetWomanMan] in front of me screams: "Tan pronto como es el turno de hablar de [6150_preacher.GetHerHis], el agitado [6150_preacher.GetWomanMan] frente a mí grita: "#EMP ¡EL FIN ESTÁ CERCA!#!\n\n"The Las señales son claras y están en todas partes:" #NT!
+ hold_court.6150.desc:0 "As soon as it is [6150_preacher.GetHerHis] turn to speak, the agitated [6150_preacher.GetWomanMan] in front of me screams: "As soon as it is [6150_preacher.GetHerHis] turn to speak, the agitated [6150_preacher.GetWomanMan] in front of me screams: "#EMP THE END IS NIGH!#!\n\n"The signs are clear and everywhere:" #NT!
  hold_court.6150.desc_county: "La gente de [6150_county.GetName] lo sabe muy bien."
  hold_court.6150.desc_unsafety: "¡Desórdenes, bandidos, ladrones, violencia y desaparición de la justicia entre los hombres!"
  hold_court.6150.desc_nature: "Cosechas fallidas, saltamontes invadiendo los campos, frío interminable, inundaciones y ¡la plaga caminando entre nosotros!"

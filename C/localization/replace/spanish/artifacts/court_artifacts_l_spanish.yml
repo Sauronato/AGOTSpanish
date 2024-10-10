@@ -58,8 +58,13 @@
  artifact_throne_solomon_description: "Un ostentoso trono del que se rumorea que perteneció al legendario rey Salomón. Construido en marfil y chapado en oro, el trono también tiene engastadas muchas piedras preciosas y unas esculturas de metal de diversos animales adornan los escalones que llevan hasta él."
  artifact_throne_stone_scone_name: "La piedra de Scone"
  artifact_throne_stone_scone: "Un sencillo asiento de arenisca roja sobre el que se han coronado todos los monarcas de Alba, desde el rey Kenneth I."
+<<<<<<< HEAD
  artifact_byz_throne_name: "Trono bizantino de Salomón" #NT!
  artifact_byz_throne_description: "Un elegante trono desde el que los gobernantes bizantinos administran justicia con una sabiduría igual a la del rey bíblico. Su característica más destacada es el mecanismo oculto que permite elevarlo hasta el techo y luego volverlo a bajar." #NT!
+=======
+ artifact_byz_throne_name: "Trono bizantino de Salomón"
+ artifact_byz_throne_description: "Un elegante trono desde el que los gobernantes bizantinos administran justicia con sabiduría igual a la del rey bíblico. Su característica más destacada es el mecanismo oculto que permite elevarlo hasta el techo y luego volverlo a bajar."
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   # Banner 
  artifact_wall_banner_battle_name: "Estandarte de guerra [epic_loser.GetPrimaryTitle.GetAdjectiveNoTooltip]"
@@ -126,6 +131,7 @@
  animal_type_dragon: "Dragón"
  animal_type_lynx: "Lince"
   
+<<<<<<< HEAD
  animal_type_lions: "leones" #NT!
  animal_type_tigers: "tigres" #NT!
  animal_type_leopards: "leopardos" #NT!
@@ -135,6 +141,17 @@
  animal_type_wolves: "Lobos" #NT!
  animal_type_bears: "osos" #NT!
  animal_type_dogs: "perros" #NT!
+=======
+ animal_type_lions: "leones"
+ animal_type_tigers: "tigres"
+ animal_type_leopards: "leopardos"
+ animal_type_boars: "jabalíes"
+ animal_type_hyenas: "hienas"
+ animal_type_lynxs: "linces"
+ animal_type_wolves: "Lobos"
+ animal_type_bears: "osos"
+ animal_type_dogs: "perros"
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   # Hides 
  artifact_hide_type_cat: "El amor [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitledFirstName], el gato [ROOT.Char.Custom('CatStoryName')]"
@@ -290,6 +307,7 @@
  artifact_sculpture_cabinet_pentapyrgion_description: "Este elegante aparador fue construido por el emperador Teófilo para exponer jarrones, coronas y otros objetos de valor en el Chrysotriklinos, el salón de recepciones del Gran Palacio de Constantinopla."
  create_artifact_epic_tooltip: "[inspiration_owner.GetShortUIName] ha traído tal [epic.GetName] de tierras extranjeras"
  create_artifact_adventure_tooltip: "[inspiration_owner.GetShortUIName] ha traído tal [newly_created_artifact.GetName] de tierras extranjeras"
+<<<<<<< HEAD
  artifact_statue_constantine_name: "Estatua de Constantino" #NT!
  artifact_statue_constantine: "Una estatua antigua, ligeramente dañada, pero aún imponente, de Constantino el Grande, fundador de Constantinopla y modelo para todos los emperadores romanos." #NT!
  artifact_statue_roman_woman_name: "Estatua de una mujer romana" #NT!
@@ -298,6 +316,16 @@
  artifact_statue_four_tetrarchs_desc: "Una imponente estatua de pórfido que representa a dos miembros de la primera Tetrarquía instituida por Diocleciano." #NT!
  artifact_hydraulic_organ_name: "Órgano hidráulico" #NT!
  artifact_hydraulic_organ_desc: "Un impresionante órgano de tubos impulsado por agua que tararea con orgullo las melodías del pasado griego." #NT!
+=======
+ artifact_statue_constantine_name: "Estatua de Constantino"
+ artifact_statue_constantine: "Una estatua antigua, ligeramente dañada, pero aún imponente, de Constantino el Grande, fundador de Constantinopla y modelo para todos los emperadores romanos."
+ artifact_statue_roman_woman_name: "Estatua de una mujer romana"
+ artifact_statue_roman_woman_desc: "Una estatua antigua, ligeramente dañada, pero aún hermosa, de una mujer romana."
+ artifact_statue_four_tetrarchs_name: "Estatua de los Cuatro Tetrarcas"
+ artifact_statue_four_tetrarchs_desc: "Una imponente estatua de pórfido que representa a dos miembros de la primera Tetrarquía instituida por Diocleciano."
+ artifact_hydraulic_organ_name: "Órgano hidráulico"
+ artifact_hydraulic_organ_desc: "Un impresionante órgano de tubos impulsado por agua que tararea con orgullo las melodías del pasado griego."
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   # Pedestal Artifacts: 
   # Box 
@@ -339,7 +367,7 @@
  artifact_pedestal_scroll_name: "Leyes $artifact_name_prefix$"
  artifact_pedestal_scroll_description: "Un pergamino de aspecto formal que contiene las leyes fundamentales del [owner.GetPrimaryTitle.GetNameNoTooltip], establecidas por [owner.GetTitledFirstNameNoTooltip|l]."
  artifact_pedestal_religious_head_letter_name: "Carta de [compliment_receiver.GetTitledFirstNameNoTooltip|l]"
- artifact_pedestal_religious_head_letter_description:0 "It reads: "Dice: "$learning_theology.3022.desc$"\n\nLa carta está dedicada a [letter_receiver.GetTitledFirstName], y firmada por [compliment_receiver.GetTitledFirstName]." #NT!
+ artifact_pedestal_religious_head_letter_description:0 "It reads: "It reads: "$learning_theology.3022.desc$"\n\nThe letter is dedicated to [letter_receiver.GetTitledFirstName], and signed by [compliment_receiver.GetTitledFirstName]." #NT!
   
  artifact_pedestal_crucifix_name: "Crucifijo $artifact_name_prefix$"
  artifact_pedestal_crucifix_description: "Un crucifijo de madera de exquisita manufactura: la triste expresión del rostro de Cristo puede llevar al arrepentimiento hasta al pecador más incondicional."
@@ -393,8 +421,13 @@
  artifact_pedestal_cornerstone_name_desc: "Una piedra angular de [rival.Custom('FortifiedBuilding')] de [rival.GetTitledFirstName|l]"
  #artifact_pedestal_mosque_lamp_name: "Precious Oil Lamp"
  #artifact_pedestal_mosque_lamp: "A magnificent mosque lamp — a precious oil lamp made of enamelled glass and gilded."
+<<<<<<< HEAD
  artifact_tree_automa_name: "Árbol autómata" #NT!
  artifact_tree_automa: "Un árbol dorado y finamente esculpido con pájaros que parecen reales posados ​​en sus ramas. Solo los griegos conocen los secretos de su bomba hidráulica oculta, que hace que los pájaros se muevan y canten agradablemente." #NT!
+=======
+ artifact_tree_automa_name: "Árbol autómata"
+ artifact_tree_automa: "Un árbol dorado y finamente esculpido con pájaros que parecen reales posados ​​en sus ramas. Solo los griegos conocen los secretos de su bomba hidráulica oculta, que hace que los pájaros se muevan y canten agradablemente."
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   
   # Books 
@@ -500,7 +533,11 @@
  #feature_book_title_diplomacy_hitopadesa: "$artifact_name_prefix_artifact_scope$ Hitopadesa"
  feature_book_title_diplomacy_hitopadesa: "$artifact_name_prefix_artifact_scope$ Antología de fábulas"
   #AGOT Modified 
+<<<<<<< HEAD
  #feature_book_topic_diplomacy_hitopadesa: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] manuscrito iluminado que contiene una nueva colección de antiguas fábulas tradicionales, conocida como Hitopadesa." #NT!
+=======
+ #feature_book_topic_diplomacy_hitopadesa: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] manuscrito iluminado que contiene una nueva colección de antiguas fábulas tradicionales, conocida como Hitopadesa."
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  feature_book_topic_diplomacy_hitopadesa: "[Artifact.GetOwner.Custom('ArtifactArticleWealth')|U], [Artifact.GetOwner.Custom('ArtifactAdverbWealth')] manuscrito iluminado que contiene una nueva colección de antiguas fábulas tradicionales, conocidas como Hitopadesa."
   #AGOT Modified 
  #feature_book_title_diplomacy_hitopadesa: "$artifact_name_prefix_artifact_scope$ Hitopadesa"
@@ -856,5 +893,10 @@
   
  artifact_scepter_pedestal: "Cetro"
   
+<<<<<<< HEAD
  artifact_wall_icon_court_large: "Icono grande" #NT!
  artifact_wall_icon_court_small: "Icono pequeño" #NT!
+=======
+ artifact_wall_icon_court_large: "Icono grande"
+ artifact_wall_icon_court_small: "Icono pequeño"
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158

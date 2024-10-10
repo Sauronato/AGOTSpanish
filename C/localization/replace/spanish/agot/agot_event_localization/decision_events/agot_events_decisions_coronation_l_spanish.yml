@@ -2,6 +2,7 @@
   
   # MAINTENANCE 
   # Officiant Selection 
+<<<<<<< HEAD
  coronation_decision.0001.t: "El oficiante" #NT!
  coronation_decision.0001.desc: "Debo seleccionar a alguien para oficiar mi coronación." #NT!
  coronation_decision.0001.a: "¡Me coronarán!" #NT!
@@ -23,3 +24,26 @@
  coronation_decision.0002.b: "Ninguno de estos es adecuado; encargaré una nueva corona." #NT!
   
  already_hosting_coronation: "Ya estás organizando una coronación." #NT!
+=======
+ coronation_decision.0001.t: "El oficiante"
+ coronation_decision.0001.desc: "Debo seleccionar a alguien para oficiar mi coronación."
+ coronation_decision.0001.a: "¡Me coronarán!"
+ coronation_decision.0001.a.tt: "[officiant.GetTitledFirstNameNicknamed|U] servirá como oficiante de su coronación."
+ coronation_decision.0001.a.tt_hof: "[officiant.GetTitledFirstNameNicknamed|U] es tu [head_of_faith|E], lo que aumenta tu ganancia [piety_i] [piety|E]."
+ coronation_decision.0001.a.tt_pv: "[officiant.GetTitledFirstNameNicknamed|U] es un [powerful_vassal|E], lo que aumenta su ganancia de [legitimacy_i] [legitimacy|E]."
+ coronation_decision.0001.a.tt_dynn: "[officiant.GetTitledFirstNameNicknamed|U] es un miembro de tu [dynasty|E], lo que aumenta tu ganancia [dynasty_prestige_i] [dynasty_prestige|E]."
+ coronation_decision.0001.b: "¡En realidad lo haré yo mismo!"
+ coronation_decision.0001.b.tt: "Te coronarás a ti mismo."
+  
+  # Selecting a Crown - Decides which crown the officiant will use to crown them and set up for sabotage 
+ coronation_decision.0002.t: "Seleccionar una corona"
+ coronation_decision.0002.desc: "Con los preparativos finales en marcha, [officiant.GetTitledFirstNameNoTooltip] se acerca a mí. "Su Gracia, debemos decidir con qué corona desea ser coronado".\n\nMe tomo un momento para considerar cuál de las coronas de mi colección debería usarse."
+ coronation_decision.0002.desc_crowning_self: "Con los preparativos finales en marcha, debo decidir con qué corona deseo ser coronado."
+ coronation_decision.0002.desc_high_septon: "Con los preparativos finales en marcha, [officiant.GetTitledFirstNameNicknamedNoTooltip|U] se acerca a mí. "Su Gracia, debemos decidir con qué corona desea ser coronado".\n\nMe tomo un momento para considerar cuál de las coronas de mi colección debería usarse."
+ coronation_decision.0002.desc_after_sabotage: "Después de que alguien me robó mi corona, ahora debo seleccionar entre las demás de mi colección."
+ coronation_decision.0002.a: "Esto estará bien"
+ coronation_decision.0002.a.tt: "[selected_crown_for_coronation.GetNameNoTooltip] se utilizará para coronarte"
+ coronation_decision.0002.b: "Ninguno de estos es adecuado; encargaré una nueva corona."
+  
+ already_hosting_coronation: "Ya estás organizando una coronación"
+>>>>>>> 6733dbc0a382c359375589301a41d4b308022158
