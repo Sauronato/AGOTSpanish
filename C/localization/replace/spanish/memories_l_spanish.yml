@@ -37,17 +37,10 @@
  became_nemesis_desc: "[nemesis.GetFullName] y me convertí en enemigo"
  became_nemesis_desc_second_perspective: "Tú y [nemesis.GetFullName] se convirtieron en enemigos"
  became_nemesis_desc_third_perspective: "[nemesis.GetName] y [owner.GetFullName] se convirtieron en némesis"
-<<<<<<< HEAD
  became_grudge: "Empezó a guardar rencor" #NT!
  became_grudge_desc: "Empecé a guardar rencor contra [grudge.GetFullName]" #NT!
  became_grudge_desc_second_perspective: "Empezaste a guardar rencor contra [grudge.GetFullName]" #NT!
  became_grudge_desc_third_perspective: "[owner.GetFullName] comenzó a guardar rencor contra [grudge.GetName] y se convirtieron en rivales." #NT!
-=======
- became_grudge: "Empezó a guardar rencor"
- became_grudge_desc: "Empecé a guardar rencor contra [grudge.GetFullName]"
- became_grudge_desc_second_perspective: "Empezaste a guardar rencor contra [grudge.GetFullName]"
- became_grudge_desc_third_perspective: "[owner.GetFullName] comenzó a guardar rencor contra [grudge.GetName] y se convirtieron en rivales."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  became_soulmates_desc: "Me di cuenta de que [new_soulmate.GetFullName] era mi alma gemela"
  became_soulmates_desc_second_perspective: "Te diste cuenta que [new_soulmate.GetFullName] era tu alma gemela"
  became_soulmates_desc_third_perspective: "[owner.GetName] se dio cuenta de que [new_soulmate.GetFullName] era su alma gemela"
@@ -514,17 +507,10 @@
  stopped_being_rivals_desc_second_perspective: "Tu y [old_rival.GetName] dejaron de lado sus rencores y dejaron de ser rivales"
  stopped_being_rivals_desc_third_perspective: "[owner.GetName] y [old_rival.GetName] dejaron de lado sus rencores y dejaron de ser rivales"
   
-<<<<<<< HEAD
  stopped_being_grudge: "Dejó de guardar rencor" #NT!
  stopped_being_grudge_desc: "Dejé de guardar rencor contra [old_grudge.GetName]" #NT!
  stopped_being_grudge_desc_second_perspective: "Dejaste de guardar rencor contra [old_grudge.GetName]" #NT!
  stopped_being_grudge_desc_third_perspective: "[owner.GetName] dejó de guardar rencor contra [old_grudge.GetName]" #NT!
-=======
- stopped_being_grudge: "Dejó de guardar rencor"
- stopped_being_grudge_desc: "Dejé de guardar rencor contra [old_grudge.GetName]"
- stopped_being_grudge_desc_second_perspective: "Dejaste de guardar rencor contra [old_grudge.GetName]"
- stopped_being_grudge_desc_third_perspective: "[owner.GetName] dejó de guardar rencor contra [old_grudge.GetName]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  was_shown_execution_memory_desc: "Me vi obligado a ver la ejecución de [victim.GetName] por [guardian.GetName]"
  was_shown_execution_memory_desc_second_perspective: "Te obligaron a ver la ejecución de [victim.GetName] por [guardian.GetName]"
@@ -644,7 +630,6 @@
  witnessed_death_battle_bad_killer: "$witnessed_death_battle_good$"
  married: "Casado"
  ascended_throne_memory: "Trono ascendido"
-<<<<<<< HEAD
  ascended_throne_memory_desc_intro: "Gané el [ROOT.Var('landed_title').Title.GetBaseName]" #NT!
  ascended_throne_memory_desc_intro_conquest: "Conquisté el [ROOT.Var('landed_title').Title.GetBaseName]" #NT!
  ascended_throne_memory_desc_intro_inheritance: "Heredé el [ROOT.Var('landed_title').Title.GetBaseName]" #NT!
@@ -740,117 +725,14 @@
  ascended_throne_memory_desc_stepped_down: "después de que [flavor_character.GetTitledFirstName] dimitió" #NT!
  ascended_throne_memory_desc_stepped_down_second_perspective: "después de que [flavor_character.GetTitledFirstName] dimitió" #NT!
  ascended_throne_memory_desc_stepped_down_third_perspective: "después de que [flavor_character.GetTitledFirstName] dimitió" #NT!
-=======
- ascended_throne_memory_desc_intro: "Gané el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_conquest: "Conquisté el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_inheritance: "Heredé el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_created: "Yo creé el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_usurped: "Yo usurpé el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_granted: "Me concedieron el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_election: "Fui elegido para gobernar el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_faction_demand: "Yo exigí el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_purchased: "Compré el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_appointment: "Me designaron para gobernar el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_appointment_succession: "$ascended_throne_memory_desc_intro_appointment$"
- ascended_throne_memory_desc_intro_stepped_down: "$ascended_throne_memory_desc_intro_appointment$"
- ascended_throne_memory_desc_intro_second_perspective: "Ganaste el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_conquest_second_perspective: "Conquistaste el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_inheritance_second_perspective: "Heredaste el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_created_second_perspective: "Tú creaste el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_usurped_second_perspective: "Usurpaste el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_granted_second_perspective: "Se te concedió el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_election_second_perspective: "Fuiste elegido para gobernar el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_faction_demand_second_perspective: "Exigiste el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_purchased_second_perspective: "Compraste el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_appointment_second_perspective: "Fuiste designado para gobernar el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_appointment_succession_second_perspective: "$ascended_throne_memory_desc_intro_appointment_second_perspective$"
- ascended_throne_memory_desc_intro_stepped_down_second_perspective: "$ascended_throne_memory_desc_intro_appointment_second_perspective$"
- ascended_throne_memory_desc_intro_third_perspective: "[owner.GetTitledFirstName] ganó el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_conquest_third_perspective: "[owner.GetTitledFirstName] conquistó el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_inheritance_third_perspective: "[owner.GetTitledFirstName] heredó el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_created_third_perspective: "[owner.GetTitledFirstName] creó el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_usurped_third_perspective: "[owner.GetTitledFirstName] usurpó el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_granted_third_perspective: "A [owner.GetTitledFirstName] se le concedió el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_election_third_perspective: "[owner.GetTitledFirstName] fue elegido para gobernar el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_faction_demand_third_perspective: "[owner.GetTitledFirstName] exigió el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_purchased_third_perspective: "[owner.GetTitledFirstName] compró el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_appointment_third_perspective: "[owner.GetTitledFirstName] fue designado para gobernar el [ROOT.Var('landed_title').Title.GetBaseName]"
- ascended_throne_memory_desc_intro_appointment_succession_third_perspective: "$ascended_throne_memory_desc_intro_appointment_third_perspective$"
- ascended_throne_memory_desc_intro_stepped_down_third_perspective: "$ascended_throne_memory_desc_intro_appointment_third_perspective$"
- ascended_throne_memory_desc_conquest: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_second_perspective: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_third_perspective: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_holy_war: "de [flavor_character.GetTitledFirstName] en una guerra santa"
- ascended_throne_memory_desc_conquest_holy_war_second_perspective: "de [flavor_character.GetTitledFirstName] en una guerra santa"
- ascended_throne_memory_desc_conquest_holy_war_third_perspective: "de [flavor_character.GetTitledFirstName] en una guerra santa"
- ascended_throne_memory_desc_conquest_claim: "presionando mi reclamo contra [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_claim_second_perspective: "presionando su reclamo contra [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_claim_third_perspective: "presionando mi reclamo contra [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_populist: "liderando una revuelta populista contra [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_populist_second_perspective: "liderando una revuelta populista contra [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_populist_third_perspective: "liderando una revuelta populista contra [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_conquest_support: "desde [flavor_character.GetTitledFirstName] con [ROOT.Var('ascended_throne_extra').Char.GetTitledFirstNamePossessive] apoyo"
- ascended_throne_memory_desc_conquest_support_second_perspective: "desde [flavor_character.GetTitledFirstName] con [ROOT.Var('ascended_throne_extra').Char.GetTitledFirstNamePossessive] apoyo"
- ascended_throne_memory_desc_conquest_support_third_perspective: "desde [flavor_character.GetTitledFirstName] con [ROOT.Var('ascended_throne_extra').Char.GetTitledFirstNamePossessive] apoyo"
- ascended_throne_memory_desc_inheritance: "de mi [owner.Custom2('RelationToMeShort', flavor_character)], [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_inheritance_second_perspective: "desde tu [owner.Custom2('RelationToMeShort', flavor_character)], [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_inheritance_third_perspective: "desde [owner.GetHerHis] [owner.Custom2('RelationToMeShort', flavor_character)], [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_double: "y [ROOT.Var('title_count').GetValue] más"
- ascended_throne_memory_desc_multi: "y [ROOT.Var('title_count').GetValue] más"
- ascended_throne_memory_desc_abdication: "después de la abdicación de [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_abdication_second_perspective: "después de la abdicación de [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_abdication_third_perspective: "después de la abdicación de [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_created_first: "como un nuevo titulo"
- ascended_throne_memory_desc_created_first_second_perspective: "como un nuevo titulo"
- ascended_throne_memory_desc_created_first_third_perspective: "como un nuevo titulo"
- ascended_throne_memory_desc_created: "después de un período de desuso"
- ascended_throne_memory_desc_created_second_perspective: "después de un período de desuso"
- ascended_throne_memory_desc_created_third_perspective: "después de un período de desuso"
- ascended_throne_memory_desc_usurped: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_usurped_second_perspective: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_usurped_third_perspective: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_granted: "por [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_granted_second_perspective: "por [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_granted_third_perspective: "por [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_election: "como sucesor de [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_election_second_perspective: "como sucesor de [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_election_third_perspective: "como sucesor de [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_faction_demand: "desde [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_faction_demand_second_perspective: "desde [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_faction_demand_third_perspective: "desde [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_purchased: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_purchased_second_perspective: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_purchased_third_perspective: "desde [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_negotiated: "después de la negociación con [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_negotiated_second_perspective: "después de la negociación con [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_negotiated_third_perspective: "después de la negociación con [flavor_character.GetTitledFirstName]"
- ascended_throne_memory_desc_seize_realm: "Apoderándose del reino [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_seize_realm_second_perspective: "Apoderándose del reino [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_seize_realm_third_perspective: "Apoderándose del reino [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_appointment: "por [flavor_character.GetTitledFirstNameRegnal]"
- ascended_throne_memory_desc_appointment_second_perspective: "por [flavor_character.GetTitledFirstNameRegnal]"
- ascended_throne_memory_desc_appointment_third_perspective: "por [flavor_character.GetTitledFirstNameRegnal]"
- ascended_throne_memory_desc_appointment_succession: "en el lugar [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_appointment_succession_second_perspective: "en el lugar [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_appointment_succession_third_perspective: "en el lugar [flavor_character.GetTitledFirstNamePossessive]"
- ascended_throne_memory_desc_stepped_down: "después de que [flavor_character.GetTitledFirstName] dimitió"
- ascended_throne_memory_desc_stepped_down_second_perspective: "después de que [flavor_character.GetTitledFirstName] dimitió"
- ascended_throne_memory_desc_stepped_down_third_perspective: "después de que [flavor_character.GetTitledFirstName] dimitió"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  lost_title_memory: "Perdió un título importante"
  lost_title_memory_desc: "Perdí el [ROOT.Var('landed_title').Title.GetBaseName] por el [new_holder.GetFullName]"
  lost_title_memory_desc_second_perspective: "Perdiste el [ROOT.Var('landed_title').Title.GetBaseName] por el [new_holder.GetFullName]"
  lost_title_memory_desc_third_perspective: "[owner.GetFirstName] perdió el [ROOT.Var('landed_title').Title.GetBaseName] ante [new_holder.GetFullName]"
-<<<<<<< HEAD
  lost_title_memory_desc_double: "y [ROOT.Var('title_count').GetValue] otro título" #NT!
  lost_title_memory_desc_multi: "y [ROOT.Var('title_count').GetValue] otros títulos" #NT!
  lost_title_memory_ending: "hasta [new_holder.GetFullName]" #NT!
-=======
- lost_title_memory_desc_double: "y [ROOT.Var('title_count').GetValue] otro título"
- lost_title_memory_desc_multi: "y [ROOT.Var('title_count').GetValue] otros títulos"
- lost_title_memory_ending: "hasta [new_holder.GetFullName]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   # Debug Interaction Title 
  give_memories_interaction: "Dar recuerdos"
@@ -878,7 +760,6 @@
  twins_born_desc_third_perspective_bastard: "[owner.GetNamePossessive] gemelos, [child.GetFirstName] y [child_2.GetFirstName], nacieron fuera del matrimonio de [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
  twins_born_desc_third_perspective_1: "[owner.GetNamePossessive] gemelos, [child.GetFirstName] y [child_2.GetFirstName], nacieron de [owner.GetHerHis] [owner.Custom2('RelationToMeShort', SCOPE.sC('child').GetMother)], [child.GetMother.GetFirstName]"
   
-<<<<<<< HEAD
  child_stillborn: "niño nacido muerto" #NT!
  child_stillborn_desc_1_mother: "Di a luz a un bebé muerto" #NT!
  child_stillborn_desc_1: "Mi [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstName], dio a luz a un bebé muerto" #NT!
@@ -893,22 +774,6 @@
  child_premature_desc_second_perspective_1: "Tu embarazo de [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstNamePossessive], terminó prematuramente" #NT!
  child_premature_desc_third_perspective_1_mother: "[owner.GetNamePossessive] embarazo terminó prematuramente" #NT!
  child_premature_desc_third_perspective_1: "[owner.GetNamePossessive] [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstNamePossessive], el embarazo terminó prematuramente" #NT!
-=======
- child_stillborn: "niño nacido muerto"
- child_stillborn_desc_1_mother: "Di a luz a un bebé muerto"
- child_stillborn_desc_1: "Mi [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstName], dio a luz a un bebé muerto"
- child_stillborn_desc_second_perspective_1_mother: "Diste a luz a un bebé muerto"
- child_stillborn_desc_second_perspective_1: "Tu [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstName], dio a luz a un bebé muerto"
- child_stillborn_desc_third_perspective_1_mother: "[mother.GetName] dio a luz a un bebé muerto"
- child_stillborn_desc_third_perspective_1: "[owner.GetNamePossessive] [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstName], dio a luz a un bebé muerto"
- child_premature: "niño prematuro"
- child_premature_desc_1_mother: "Mi embarazo terminó prematuramente"
- child_premature_desc_1: "Mi embarazo de [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstNamePossessive], terminó prematuramente"
- child_premature_desc_second_perspective_1_mother: "Su embarazo terminó prematuramente"
- child_premature_desc_second_perspective_1: "Tu embarazo de [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstNamePossessive], terminó prematuramente"
- child_premature_desc_third_perspective_1_mother: "[owner.GetNamePossessive] embarazo terminó prematuramente"
- child_premature_desc_third_perspective_1: "[owner.GetNamePossessive] [owner.Custom2('RelationToMeShort', SCOPE.sC('mother'))], [mother.GetFirstNamePossessive], el embarazo terminó prematuramente"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  feral_child_found_memory: "Encontró un niño salvaje"
  feral_child_found_memory_desc: "Encontré un niño salvaje llamado [feral_child.GetFirstName]"
@@ -1066,11 +931,7 @@
  house_feud_started_family_broken_grand_wedding: "Mi compromiso [owner.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetFirstNamePossessive], con [attacker.GetFirstName] fue roto"
  house_feud_started_murder_feast: "Mi [owner.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetFirstNamePossessive] fue asesinado descaradamente en una fiesta organizada por [attacker.GetFirstName]"
  house_feud_started_bloody_wedding: "[attacker.GetFirstName] no pudo proteger mi [owner.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetFirstNamePossessive] durante la propia boda de [victim.GetHerHis]"
-<<<<<<< HEAD
  house_feud_started_raid_estate: "Mi finca fue asaltada por [attacker.GetFirstName]" #NT!
-=======
- house_feud_started_raid_estate: "Mi finca fue asaltada por [attacker.GetFirstName]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  house_feud_started_memory_desc_second_perspective: "Empezaste a pelear con [house_head.GetTitledFirstName] de la Casa [house_head.GetHouse.GetBaseName] después"
  house_feud_started_head_rivalry_second_perspective: "Tu rivalidad con [house_head.GetHerHim] se salió de control"
@@ -1093,11 +954,7 @@
  house_feud_started_family_broken_grand_wedding_second_perspective: "Su compromiso [owner.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetFirstNamePossessive], con [attacker.GetFirstName] fue roto"
  house_feud_started_murder_feast_second_perspective: "Tu [owner.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetFirstNamePossessive] fue descaradamente asesinado en una fiesta organizada por [attacker.GetFirstName]"
  house_feud_started_bloody_wedding_second_perspective: "[attacker.GetFirstName] no pudo proteger su [owner.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetFirstNamePossessive] durante su propia boda [victim.GetHerHis]"
-<<<<<<< HEAD
  house_feud_started_raid_estate_second_perspective: "Tu finca fue allanada por [attacker.GetFirstName]" #NT!
-=======
- house_feud_started_raid_estate_second_perspective: "Tu finca fue allanada por [attacker.GetFirstName]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  house_feud_started_memory_desc_third_perspective: "[owner.GetTitledFirstName] comenzó a pelear con [house_head.GetTitledFirstName] de la Casa [house_head.GetHouse.GetBaseName] después"
  house_feud_started_head_rivalry_third_perspective: "La rivalidad de [owner.GetTitledFirstNamePossessive] con [house_head.GetHerHim] se salió de control"
@@ -1120,11 +977,7 @@
  house_feud_started_family_broken_grand_wedding_third_perspective: "[owner.GetTitledFirstNamePossessive] [owner.Custom2('RelationToMeShort', SCOPE.sC('victim'))], [victim.GetFirstNamePossessive], se rompió el compromiso con [attacker.GetFirstName]"
  house_feud_started_murder_feast_third_perspective: "[owner.GetTitledFirstNamePossessive] fue descaradamente asesinado en una fiesta organizada por [attacker.GetFirstName]"
  house_feud_started_bloody_wedding_third_perspective: "[attacker.GetFirstName] no pudo proteger a [owner.GetFirstNamePossessive] familia durante su propia boda"
-<<<<<<< HEAD
  house_feud_started_raid_estate_third_perspective: "La finca [victim.GetFirstNamePossessive] fue asaltada por [attacker.GetFirstName]" #NT!
-=======
- house_feud_started_raid_estate_third_perspective: "La finca [victim.GetFirstNamePossessive] fue asaltada por [attacker.GetFirstName]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  house_feud_ended_memory: "La pelea terminó"
  house_feud_ended_memory_desc: "Terminé la disputa de mi familia con House [house_head.GetHouse.GetBaseName]"
@@ -1317,19 +1170,11 @@
   
  childhood_education_guardian: "Educación Infantil"
  childhood_education_guardian_desc: "Mi tutor, [guardian.GetTitledFirstName], y el tribunal de [ROOT.Var('education_realm').Title.GetNameNoTier] finalmente me reconocieron como un adulto [owner.GetWomanMan]"
-<<<<<<< HEAD
  childhood_education_guardian_landless_desc: "Mi tutor, [guardian.GetTitledFirstName], finalmente me reconoció como un adulto [owner.GetWomanMan]" #NT!
  childhood_education_guardian_desc_second_perspective: "Tu tutor, [guardian.GetTitledFirstName], y el tribunal de [ROOT.Var('education_realm').Title.GetNameNoTier] finalmente te reconocieron como un adulto [owner.GetWomanMan]"
  childhood_education_guardian_landless_desc_second_perspective: "Mi tutor, [guardian.GetTitledFirstName], finalmente me reconoció como un adulto [owner.GetWomanMan]" #NT!
  childhood_education_guardian_desc_third_perspective: "[owner.GetTitledFirstNamePossessive] tutor, [guardian.GetTitledFirstName], y el tribunal de [ROOT.Var('education_realm').Title.GetNameNoTier] finalmente reconoció a [owner.GetHerHim] como un [owner.GetWomanMan] adulto"
  childhood_education_guardian_landless_desc_third_perspective: "[owner.GetTitledFirstNamePossessive] guardián, [guardian.GetTitledFirstName], finalmente reconoció a [owner.GetHerHim] como un adulto [owner.GetWomanMan]" #NT!
-=======
- childhood_education_guardian_landless_desc: "Mi tutor, [guardian.GetTitledFirstName], finalmente me reconoció como un adulto [owner.GetWomanMan]"
- childhood_education_guardian_desc_second_perspective: "Tu tutor, [guardian.GetTitledFirstName], y el tribunal de [ROOT.Var('education_realm').Title.GetNameNoTier] finalmente te reconocieron como un adulto [owner.GetWomanMan]"
- childhood_education_guardian_landless_desc_second_perspective: "Mi tutor, [guardian.GetTitledFirstName], finalmente me reconoció como un adulto [owner.GetWomanMan]"
- childhood_education_guardian_desc_third_perspective: "[owner.GetTitledFirstNamePossessive] tutor, [guardian.GetTitledFirstName], y el tribunal de [ROOT.Var('education_realm').Title.GetNameNoTier] finalmente reconoció a [owner.GetHerHim] como un [owner.GetWomanMan] adulto"
- childhood_education_guardian_landless_desc_third_perspective: "[owner.GetTitledFirstNamePossessive] guardián, [guardian.GetTitledFirstName], finalmente reconoció a [owner.GetHerHim] como un adulto [owner.GetWomanMan]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  childhood_education_no_guardian: "Educación Infantil"
  childhood_education_no_guardian_desc: "Toda la corte de [ROOT.Var('education_realm').Title.GetNameNoTier] finalmente me reconoció como un [owner.GetWomanMan] adulto"
@@ -1447,7 +1292,6 @@
  ce1_contracted_black_death_desc_second_perspective: "Tuviste aflicción con [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )]"
  ce1_contracted_black_death_desc_third_perspective: "[owner.GetTitledFirstName] se vio afectado por [GetTrait('bubonic_plague').GetNameNoTooltip( GetNullCharacter )]"
   
-<<<<<<< HEAD
  byz_held_triumph: "Triunfo" #NT!
  byz_held_triumph_desc: "Celebré un triunfo imperial en [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]" #NT!
  byz_held_triumph_desc_second_perspective: "Celebraste un triunfo imperial en [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]" #NT!
@@ -1538,95 +1382,3 @@
  procured_estate_memory_desc: "Con la ayuda de [benefactor.GetTitledFirstNamePossessive], abandoné las aventuras por una hermosa propiedad y una vida de política administrativa." #NT!
  procured_estate_memory_desc_second_perspective: "Con la ayuda de [benefactor.GetTitledFirstNamePossessive], abandonaste la aventura por una buena propiedad y una vida de política administrativa." #NT!
  procured_estate_memory_desc_third_perspective: "Con la ayuda de [benefactor.GetTitledFirstNamePossessive], [owner.GetFirstName] abandonó las aventuras por una buena propiedad y una vida de política administrativa." #NT!
-=======
- byz_held_triumph: "Triunfo"
- byz_held_triumph_desc: "Celebré un triunfo imperial en [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]"
- byz_held_triumph_desc_second_perspective: "Celebraste un triunfo imperial en [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]"
- byz_held_triumph_desc_third_perspective: "[owner.GetTitledFirstName] celebró un triunfo imperial en [ROOT.Var('triumph_location').GetProvince.GetNameNoTier]"
- byz_theodosian_border_memory: "Se restauraron las fronteras teodosianas"
- byz_theodosian_border_memory_desc: "Restauré las fronteras del Imperio Oriental de Teodosio"
- byz_theodosian_border_memory_desc_second_perspective: "Restableciste las fronteras del Imperio Oriental de Teodosio"
- byz_theodosian_border_memory_desc_third_perspective: "[owner.GetTitledFirstName] restauró las fronteras del Imperio Oriental de Teodosio"
- refounded_pandidakterion_memory: "Refundó el Pandidakterion"
- refounded_pandidakterion_memory_desc: "Refundé la Universidad de Constantinopla, el Pandidakterion"
- refounded_pandidakterion_memory_desc_second_perspective: "refundaste la Universidad de Constantinopla, el Pandidakterion"
- refounded_pandidakterion_memory_desc_third_perspective: "[owner.GetTitledFirstName] refundó la Universidad de Constantinopla, el Pandidakterion"
- western_help_pope: "Incitó a una guerra santa"
- western_help_pope_desc: "Recibí ayuda de [pope.GetTitledFirstName] en forma de convocar una Guerra Santa contra [enemy.GetTitledFirstName]"
- western_help_pope_desc_second_perspective: "Recibiste ayuda de [pope.GetTitledFirstName] en forma de convocar una Guerra Santa contra [enemy.GetTitledFirstName]"
- western_help_pope_desc_third_perspective: "[owner.GetTitledFirstName] recibió ayuda de [pope.GetTitledFirstName] en forma de convocar una Guerra Santa contra [enemy.GetTitledFirstName]"
- western_help_ally: "Recibió ayuda"
- western_help_ally_desc: "Recibí ayuda militar de [ally.GetTitledFirstName] en mi guerra contra [enemy.GetTitledFirstName]"
- western_help_ally_desc_second_perspective: "Recibiste ayuda militar de [ally.GetTitledFirstName] en tu guerra contra [enemy.GetTitledFirstName]"
- western_help_ally_desc_third_perspective: "[owner.GetTitledFirstName] recibió ayuda militar de [ally.GetTitledFirstName] en la [owner.GetHerHis] guerra contra [enemy.GetTitledFirstName]"
- evangelized_memory: "Conversión exitosa"
- evangelized_memory_desc: "Mi misionero [missionary.GetTitledFirstName] convirtió [pagan.GetTitledFirstName] a [missionary.GetFaith.GetNameNoTooltip]"
- evangelized_memory_desc_second_perspective: "Tu misionero [missionary.GetTitledFirstName] convirtió [pagan.GetTitledFirstName] a [missionary.GetFaith.GetNameNoTooltip]"
- evangelized_memory_desc_third_perspective: "[owner.GetTitledFirstNamePossessive] misionero [missionary.GetTitledFirstName] convertido [pagan.GetTitledFirstName] a [missionary.GetFaith.GetNameNoTooltip]"
- was_evangelized_memory: "Conversión"
- was_evangelized_memory_desc: "Fui convertido a [missionary.GetFaith.GetNameNoTooltip] por [sender.GetTitledFirstNamePossessive] misionero, [missionary.GetTitledFirstName]"
- was_evangelized_memory_desc_second_perspective: "Fuiste convertido a [missionary.GetFaith.GetNameNoTooltip] por [sender.GetTitledFirstNamePossessive] misionero, [missionary.GetTitledFirstName]"
- was_evangelized_memory_desc_third_perspective: "[owner.GetTitledFirstName] fue convertido a [missionary.GetFaith.GetNameNoTooltip] por [sender.GetTitledFirstNamePossessive] misionero, [missionary.GetTitledFirstName]"
- reformed_ere_memory: "Recreado [GetTitleByKey('e_byzantium').GetName]"
- reformed_ere_memory_desc: "Recreé [GetTitleByKey('e_byzantium').GetName] después de su desintegración."
- reformed_ere_memory_desc_second_perspective: "recreaste [GetTitleByKey('e_byzantium').GetName] después de su desintegración"
- reformed_ere_memory_desc_third_perspective: "[owner.GetTitledFirstName] recreó [GetTitleByKey('e_byzantium').GetName] después de su desintegración"
- found_varangian_memory: "Fundó la Guardia Varega"
- found_varangian_memory_desc: "Fundé la Guardia Varega"
- found_varangian_memory_desc_second_perspective: "Tú fundaste la Guardia Varega"
- found_varangian_memory_desc_third_perspective: "[owner.GetTitledFirstName] fundó la Guardia Varega"
- grain_dole_memory: "Se restableció el sistema de distribución de cereales en Constantinopla"
- grain_dole_memory_desc: "Restablecí el programa de distribución de cereales en Constantinopla."
- grain_dole_memory_desc_second_perspective: "Restableciste el reparto de cereales en Constantinopla"
- grain_dole_memory_desc_third_perspective: "[owner.GetTitledFirstName] restableció el programa de distribución de cereales en Constantinopla"
-  
- seized_realm_memory: "Reino conquistado"
- seized_realm_memory_desc: "Me apoderé del [ROOT.Var('realm').GetLandedTitle.GetName] de [deposed.GetTitledFirstNameRegnal]"
- seized_realm_memory_desc_second_perspective: "Te apoderaste del [ROOT.Var('realm').GetLandedTitle.GetName] de [deposed.GetTitledFirstNameRegnal]e"
- seized_realm_memory_desc_third_perspective: "[owner.GetTitledFirstName] le arrebató el [ROOT.Var('realm').GetLandedTitle.GetName] a [deposed.GetTitledFirstNameRegnal]"
- realm_seized_memory: "Reino conquistado"
- realm_seized_memory_desc: "[deposer.GetTitledFirstNameRegnal] me arrebató el [ROOT.Var('realm').GetLandedTitle.GetName]"
- realm_seized_memory_desc_second_perspective: "[deposer.GetTitledFirstNameRegnal] te arrebató el [ROOT.Var('realm').GetLandedTitle.GetName]"
- realm_seized_memory_desc_third_perspective: "[deposer.GetTitledFirstNameRegnal] le arrebató el [ROOT.Var('realm').GetLandedTitle.GetName] a [owner.GetShortUIName]"
- seized_realm_failed_memory: "No se logró apoderarse del reino"
- seized_realm_failed_memory_desc: "Fallé en mi intento de apoderarme del [ROOT.Var('realm').GetLandedTitle.GetName] de [deposed.GetTitledFirstNameRegnal]"
- seized_realm_failed_memory_desc_second_perspective: "Fallaste en tu intento de apoderarte del [ROOT.Var('realm').GetLandedTitle.GetName] de [deposed.GetTitledFirstNameRegnal]"
- seized_realm_failed_memory_desc_third_perspective: "[owner.GetShortUIName|U] falló en [owner.GetHerHis] intento de apoderarse de [ROOT.Var('realm').GetLandedTitle.GetName] de [deposed.GetTitledFirstNameRegnal]"
- realm_seized_failed_memory: "Intento de apoderarse del reino"
- realm_seized_failed_memory_desc: "[deposer.GetTitledFirstNameRegnal] intentó arrebatarme el [ROOT.Var('realm').GetLandedTitle.GetName]"
- realm_seized_failed_memory_desc_second_perspective: "[deposer.GetTitledFirstNameRegnal] intentó arrebatarte el [ROOT.Var('realm').GetLandedTitle.GetName]"
- realm_seized_failed_memory_desc_third_perspective: "[deposer.GetTitledFirstNameRegnal] intentó apoderarse del [ROOT.Var('realm').GetLandedTitle.GetName] de [owner.GetShortUIName]"
-  
- frankokratia_installed_byz_claimant_memory: "Reclamante bizantino instalado"
- frankokratia_installed_byz_claimant_memory_desc: "Mis compañeros cruzados y yo luchamos con éxito por [claimant.GetTitledFirstNamePossessive] reclamo en [GetTitleByKey('e_byzantium').GetNameNoTier]"
- frankokratia_installed_byz_claimant_memory_desc_second_perspective: "Tú y tus compañeros cruzados lucharon con éxito por [claimant.GetTitledFirstNamePossessive] reclamar [GetTitleByKey('e_byzantium').GetNameNoTier]"
- frankokratia_installed_byz_claimant_memory_desc_third_perspective: "[owner.GetTitledFirstName] y [owner.GetHerHis] compañeros cruzados lucharon con éxito por [claimant.GetTitledFirstNamePossessive] reclamos en [GetTitleByKey('e_byzantium').GetNameNoTier]"
-  
- sacked_byzantium_memory: "Bizancio saqueado"
- sacked_byzantium_memory_desc: "Participé en la destrucción y saqueo de [GetTitleByKey('e_byzantium').GetNameNoTier] y en el nacimiento de [GetTitleByKey('e_latin_empire').GetName]"
- sacked_byzantium_memory_desc_second_perspective: "Participaste en la destrucción y saqueo de [GetTitleByKey('e_byzantium').GetNameNoTier] y en el nacimiento de [GetTitleByKey('e_latin_empire').GetName]"
- sacked_byzantium_memory_desc_third_perspective: "[owner.GetTitledFirstName] participó en la destrucción y saqueo de [GetTitleByKey('e_byzantium').GetNameNoTier] y en el nacimiento de [GetTitleByKey('e_latin_empire').GetName]"
-  
- noble_family_adopted: "Adopción de una familia noble"
- noble_family_adopted_desc_1: "Adopté a [adoptee.GetTitledFirstName] en la Casa [ROOT.Var('adopted_house').House.GetBaseName]"
- noble_family_adopted_desc_second_perspective_1: "Adoptaste a [adoptee.GetTitledFirstName] en la Casa [ROOT.Var('adopted_house').House.GetBaseName]"
- noble_family_adopted_desc_third_perspective_1: "[owner.GetFirstName] adoptado [adoptee.GetTitledFirstName] en la Casa [ROOT.Var('adopted_house').House.GetBaseName]"
- was_noble_family_adopted: "Adoptado en una familia noble"
- was_noble_family_adopted_desc_1: "Fui adoptado en la Casa [ROOT.Var('adopted_house').House.GetBaseName] por [house_head.GetTitledFirstName]"
- was_noble_family_adopted_desc_second_perspective_1: "Fuiste adoptado en la Casa [ROOT.Var('adopted_house').House.GetBaseName] por [house_head.GetTitledFirstName]"
- was_noble_family_adopted_desc_third_perspective_1: "[owner.GetFirstName] fue adoptado en la Casa [ROOT.Var('adopted_house').House.GetBaseName] por [house_head.GetTitledFirstName]"
-  
- adventurer_family_adopted: "Adopción de aventureros"
- adventurer_family_adopted_desc_1: "Adopté a [adoptee.GetFullName] en la dinastía [ROOT.Var('adopted_dynasty').Dynasty.GetBaseName]"
- adventurer_family_adopted_desc_second_perspective_1: "Adoptaste a [adoptee.GetFullName] en la dinastía [ROOT.Var('adopted_dynasty').Dynasty.GetBaseName]"
- adventurer_family_adopted_desc_third_perspective_1: "[owner.GetFirstName] adoptó a [adoptee.GetFullName] en la dinastía [ROOT.Var('adopted_dynasty').Dynasty.GetBaseName]"
- was_adventurer_family_adopted: "Adoptado en una familia noble"
- was_adventurer_family_adopted_desc_1: "Fui adoptado en la dinastía [ROOT.Var('adopted_dynasty').Dynasty.GetBaseName] por [adopter.GetFullName]"
- was_adventurer_family_adopted_desc_second_perspective_1: "Fuiste adoptado en la dinastía [ROOT.Var('adopted_dynasty').Dynasty.GetBaseName] por [adopter.GetFullName]"
- was_adventurer_family_adopted_desc_third_perspective_1: "[owner.GetFirstName] fue adoptado en la dinastía [ROOT.Var('adopted_dynasty').Dynasty.GetBaseName] por [adopter.GetFullName]"
-  
- procured_estate_memory: "Patrimonio adquirido"
- procured_estate_memory_desc: "Con la ayuda de [benefactor.GetTitledFirstNamePossessive], abandoné las aventuras por una hermosa propiedad y una vida de política administrativa."
- procured_estate_memory_desc_second_perspective: "Con la ayuda de [benefactor.GetTitledFirstNamePossessive], abandonaste la aventura por una buena propiedad y una vida de política administrativa."
- procured_estate_memory_desc_third_perspective: "Con la ayuda de [benefactor.GetTitledFirstNamePossessive], [owner.GetFirstName] abandonó las aventuras por una buena propiedad y una vida de política administrativa."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158

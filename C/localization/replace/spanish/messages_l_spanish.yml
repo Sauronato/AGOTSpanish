@@ -48,13 +48,8 @@
  msg_multiple_agents_removed_my_scheme: "Agentes eliminados del esquema"
  msg_multiple_agents_removed_my_scheme_desc: "[LEFT_CHARACTER.GetUINameNoTooltip] y $OTHER|V$ otros [agents|E] ya no forman parte de sus [scheme|E] a [SCHEME.GetFullActionName]"
  msg_scheme_froze_title: "Tu plan ha sido congelado"
-<<<<<<< HEAD
  msg_scheme_pulse_effect: "Efecto pulso" #NT!
  msg_scheme_pulse_effect_desc: "$EFFECT$" #NT!
-=======
- msg_scheme_pulse_effect: "Efecto pulso"
- msg_scheme_pulse_effect_desc: "$EFFECT$"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  msg_scheme_froze_desc: "Tu [scheme|E] a [SCHEME.GetFullActionName] se ha congelado porque $REASON$"
  msg_scheme_froze_until_desc: "Tu [scheme|E] a [SCHEME.GetFullActionName] se ha congelado hasta [DATE.GetString|V] porque $REASON$"
  msg_council_task_finished_location: "Tarea terminada"
@@ -122,7 +117,6 @@
  msg_liege_war_ended_invalid: "#D MENSAJE NO UTILIZADO#!"
  msg_liege_war_ended_invalid_desc: "#D MENSAJE NO UTILIZADO#!"
   
-<<<<<<< HEAD
  msg_domicile_moved.title: "Campamento trasladado a [CHARACTER.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip]" #NT!
  msg_domicile_moved.desc: "Tu [camp|E] se ha movido a [CHARACTER.GetCurrentLocation.GetBaronyNameExplicitly]" #NT!
  msg_domicile_building_started.title: "#high [CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetName]#! Comenzó" #NT!
@@ -131,16 +125,6 @@
  msg_domicile_building_cancelled.desc: "[CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetName] en construcción en [CHARACTER.GetDomicile.GetType.GetTitleText( CHARACTER.Self )] ha sido cancelado" #NT!
  msg_domicile_building_completed.title: "#high [CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetNameNoTooltip]#! Completado" #NT!
  msg_domicile_building_completed.desc: "[CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetName] se ha construido en [CHARACTER.GetDomicile.GetType.GetTitleText( CHARACTER.Self )]" #NT!
-=======
- msg_domicile_moved.title: "Campamento trasladado a [CHARACTER.GetCurrentLocation.GetBaronyNameExplicitlyNoTooltip]"
- msg_domicile_moved.desc: "Tu [camp|E] se ha movido a [CHARACTER.GetCurrentLocation.GetBaronyNameExplicitly]"
- msg_domicile_building_started.title: "#high [CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetName]#! Comenzó"
- msg_domicile_building_started.desc: "[CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetName] está en construcción en [CHARACTER.GetDomicile.GetType.GetTitleText( CHARACTER.Self )]"
- msg_domicile_building_cancelled.title: "#high [CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetNameNoTooltip]#! Cancelado"
- msg_domicile_building_cancelled.desc: "[CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetName] en construcción en [CHARACTER.GetDomicile.GetType.GetTitleText( CHARACTER.Self )] ha sido cancelado"
- msg_domicile_building_completed.title: "#high [CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetNameNoTooltip]#! Completado"
- msg_domicile_building_completed.desc: "[CHARACTER.GetDomicile.GetBuildingUnderConstruction.GetName] se ha construido en [CHARACTER.GetDomicile.GetType.GetTitleText( CHARACTER.Self )]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  event_message_title: "$TITLE$"
  event_message_text: "$DESCRIPTION$"
@@ -293,11 +277,7 @@
  msg_raid_war_invalidated_message: "El [war.GetName] ha finalizado: [defender.GetTitledFirstName] ya no puede ser atacado"
  msg_free_house_member_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetTitledFirstName] ya no tiene ningún miembro encarcelado de [house|E] [attacker.GetHouse.GetBaseNameNoTooltip]"
  msg_unify_house_war_invalidated_message: "El [war.GetName] ha terminado: [defender.GetTitledFirstName] ya no tiene vasallos de [house|E] [attacker.GetHouse.GetBaseNameNoTooltip]"
-<<<<<<< HEAD
  msg_laamp_raid_contract_war_invalidated_message: "El [war.GetName] ha finalizado: [attacker.GetShortUINamePossessive] [GetTaskContractType('laamp_raid_contract').GetName] [task_contract|E] ya no es válido." #NT!
-=======
- msg_laamp_raid_contract_war_invalidated_message: "El [war.GetName] ha finalizado: [attacker.GetShortUINamePossessive] [GetTaskContractType('laamp_raid_contract').GetName] [task_contract|E] ya no es válido."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  msg_my_hook_replaced: "Gancho reemplazado"
  msg_my_hook_replaced_desc: "Su [hook|E] en [LEFT_CHARACTER.GetShortUIName] ha sido reemplazado por un gancho [HOOK.GetName]"
@@ -319,13 +299,8 @@
   #AGOT Modified 
  #councillor_death_notification_title: "Su Concejal #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Murió"
  councillor_death_notification_title: "Su concejal murió"
-<<<<<<< HEAD
  prisoner_death_notification_title: "Tu prisionero #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! murió" #NT!
  notable_death_notification_title: "#high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Murió" #NT!
-=======
- prisoner_death_notification_title: "Tu prisionero #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! murió"
- notable_death_notification_title: "#high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! Murió"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  msg_perk_point_added: "[LIFESTYLE.GetName] beneficio disponible"
  msg_perk_point_added_desc: "Puedes desbloquear una nueva ventaja para el estilo de vida [LIFESTYLE.GetName]"
@@ -349,17 +324,10 @@
  prestige_level_gain.desc: "Tu gloria es ampliamente conocida"
  prestige_level_loss.message: "Perdido [prestige_level|E]"
  prestige_level_loss.desc: "Tu deshonra tiene un costo"
-<<<<<<< HEAD
  influence_level_gain.message: "Ganado [influence_level|E]" #NT!
  influence_level_gain.desc: "Tu red de conexiones se extiende" #NT!
  influence_level_loss.message: "Perdido [influence_level|E]" #NT!
  influence_level_loss.desc: "Tu pozo de favores se ha secado" #NT!
-=======
- influence_level_gain.message: "Ganado [influence_level|E]"
- influence_level_gain.desc: "Tu red de conexiones se extiende"
- influence_level_loss.message: "Perdido [influence_level|E]"
- influence_level_loss.desc: "Tu pozo de favores se ha secado"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  stress_level_reduced.message: "Reducido [stress_level|E]"
  stress_level_reduced.text: "Ya no estás tan abrumado por [stress|E]"
  msg_holy_order_patronage_lost: "[holy_order|E] Patrocinio perdido"
@@ -473,13 +441,8 @@
  msg_set_relation_rival_desc: "[GetRelation( 'rival' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
  msg_set_relation_nemesis_title: "@nemesis_icon! Némesis ganada"
  msg_set_relation_nemesis_desc: "[GetRelation( 'nemesis' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
-<<<<<<< HEAD
  msg_set_relation_grudge_title: "@grudge_icon! Empecé a guardar rencor" #NT!
  msg_set_relation_grudge_desc: "[GetRelation( 'grudge' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]" #NT!
-=======
- msg_set_relation_grudge_title: "@grudge_icon! Empecé a guardar rencor"
- msg_set_relation_grudge_desc: "[GetRelation( 'grudge' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
  msg_set_relation_lover_title: "@lover_icon! Gané un amante"
  msg_set_relation_lover_desc: "[GetRelation( 'lover' ).GetReasonFor( LEFT_CHARACTER.Self, RIGHT_CHARACTER.Self )]"
@@ -550,7 +513,6 @@
  msg_legend_library_added_desc: "[Legend.GetName] se agregó a tu [legend_library|E]."
  message_consolidation_names: "#T Otros#!\n[PlayerMessageItem.GetConsolidationNames]"
  message_consolidation_others: "#tooltip:message_consolidation_names #L [Subtract_int32( PlayerMessageItem.GetConsolidationCount, '(int32)2' )|V] [Select_CString( GreaterThan_int32( PlayerMessageItem.GetConsolidationCount, '(int32)3' ), 'others', 'other' )] #!#!"
-<<<<<<< HEAD
  msg_raid_completed_title: "Incursión [RIGHT_TITLE.GetNameNoTierNoTooltip]" #NT!
  msg_raid_completed_desc: "Tú [raided|E] el [RIGHT_TITLE.GetName] ([RIGHT_TITLE.GetHolder.GetShortUIName])" #NT!
  msg_raid_lost_title: "[RIGHT_TITLE.GetNameNoTierNoTooltip] asaltado" #NT!
@@ -593,47 +555,3 @@
   
  msg_dynasty_child_of_age_title: "El niño dinástico llega a la mayoría de edad" #NT!
  msg_dynasty_child_of_age_desc: "Tu [relative.Custom2('RelationToMeShort', SCOPE.sC('educated_child'))], [educated_child.GetShortUIName|U], ha alcanzado la mayoría de edad en tu [relative.Custom('GetCourt')|l]" #NT!
-=======
- msg_raid_completed_title: "Incursión [RIGHT_TITLE.GetNameNoTierNoTooltip]"
- msg_raid_completed_desc: "Tú [raided|E] el [RIGHT_TITLE.GetName] ([RIGHT_TITLE.GetHolder.GetShortUIName])"
- msg_raid_lost_title: "[RIGHT_TITLE.GetNameNoTierNoTooltip] asaltado"
- msg_raid_lost_desc: "[LEFT_CHARACTER.GetUIName] tiene [raided|E] el [RIGHT_TITLE.GetName] ([RIGHT_TITLE.GetHolder.GetShortUIName])"
- msg_known_pregnancy: "[LEFT_CHARACTER.GetTitledFirstNameNoTooltip] queda embarazada"
-  
- msg_government_changed: "El gobierno cambió"
-  
- msg_poem_sold_title: "Poema Muwashshah vendido"
- msg_poem_kept_title: "Poema de Muwashshah guardado"
- msg_poem_kept_message: "[double_moon_book.GetName] recibe un modificador aleatorio"
- msg_poem_distributed_title: "Se distribuye el poema Muwashshah"
-  
- msg_contract_completion_reward: "[GetPlayer.Custom('GetContractOrIssue')] Completado"
- msg_contract_completion_reward_desc: "$REWARD_TYPE$"
-  
- msg_governor_candidate_promoted_leading: "[GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self)|U] [CharAreIs(LEFT_CHARACTER)] en la fila para [TITLE.GetNameNoTierNoTooltip|V]"
- msg_governor_candidate_promoted_leading_desc: "[LEFT_CHARACTER.GetShortUIName|U] superó a [RIGHT_CHARACTER.GetShortUIName] como el siguiente en la fila para [TITLE.GetName]"
- msg_governor_candidate_demoted_leading: "[GetPlayer.Custom2('RelationToMeShort', RIGHT_CHARACTER.Self)|U] [CharAreIs(RIGHT_CHARACTER)] Perdiendo [TITLE.GetNameNoTierNoTooltip|V]"
- msg_governor_candidate_demoted_leading_desc: "[LEFT_CHARACTER.GetShortUIName|U] [CharHaveHas(LEFT_CHARACTER)] superó a [RIGHT_CHARACTER.GetShortUIName] como el siguiente en la fila para el [TITLE.GetName]"
- msg_provincial_army_reassigned: "[TITLE.GetAdjectiveNoTooltip|V] Ejército reasignado"
- msg_provincial_army_reassigned_desc: "[LEFT_CHARACTER.GetShortUINameNotMe] ha reasignado el [provincial|E] [army|E] de [TITLE.GetNameNoTier] al [RIGHT_TITLE.GetName]"
-  
- msg_admin_title_gained_house.tt: "Miembro de la Cámara de Representantes obtiene nombramiento"
- msg_admin_title_gained_investor.tt: "Candidato apoyado obtiene nombramiento"
- msg_admin_title_gained_foe.tt: "Candidato de la oposición obtiene nombramiento"
- msg_admin_title_gained.desc: "Tu [GetPlayer.Custom2('RelationToMeShort', SCOPE.sC('title_gainer'))], [title_gainer.GetShortUIName|U], ahora gobierna el [title.GetName]"
-  
- msg_admin_title_lost_house.tt: "Miembro de la Cámara perdió su nombramiento"
- msg_admin_title_lost_investor.tt: "Titular apoyado perdió la cita"
- msg_admin_title_lost_foe.tt: "Titular Opuesto Perdió Designación"
- msg_admin_title_lost.desc: "Tu [GetPlayer.Custom2('RelationToMeShort', SCOPE.sC('title_loser'))], [title_loser.GetShortUIName|U], ya no gobierna el [title.GetName]"
-  
- msg_estate_damaged.title: "$game_concept_estate$ Dañado"
- msg_estate_damaged.desc: "Tu [estate|E] fue dañado y uno o más [estate_buildings|E] perdieron un nivel o fueron destruidos.\n\nEl [estate|E] fue reubicado en [new_estate_location.GetName]."
-  
- msg_admin_provincial_army_request_accepted.title: "Solicitud de tropas aceptada"
- msg_admin_provincial_army_request_denied.title: "Solicitud de tropas denegada"
- msg_admin_provincial_army_request_denied.desc: "[recipient.GetShortUIName|U] rechazó tu solicitud de tropas"
-  
- msg_dynasty_child_of_age_title: "El niño dinástico llega a la mayoría de edad"
- msg_dynasty_child_of_age_desc: "Tu [relative.Custom2('RelationToMeShort', SCOPE.sC('educated_child'))], [educated_child.GetShortUIName|U], ha alcanzado la mayoría de edad en tu [relative.Custom('GetCourt')|l]"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158

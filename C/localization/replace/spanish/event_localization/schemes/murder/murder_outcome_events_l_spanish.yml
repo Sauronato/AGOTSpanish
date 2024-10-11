@@ -50,11 +50,7 @@
   
  murder_outcome.1201.t: "Un rastro apenas investigado"
  murder_outcome.1201.desc: "[acting_agent.GetTitledFirstName] prepara un viaje especial para joven [target.GetTitledFirstName|l], que piensa que va a pasar un agradable día en el bosque.\n\nLamentablemente, [target.GetFirstNameNoTooltip] se perderá y no habrá quien [target.GetHerHim] encuentre antes de que caiga la noche. Ay, era tan joven…"
-<<<<<<< HEAD
  murder_outcome.1201.no_assassin: "Uno de mis agentes está preparando un viaje especial para el joven [target.GetTitledFirstName]. El niño confía en que [target.GetSheHe] pasará un día agradable en el bosque.\n\n[target.GetFirstNameNoTooltip] lamentablemente se perderá y será imposible encontrarlo antes del anochecer. Oh, [target.GetSheHe] también era muy joven..." #NT!
-=======
- murder_outcome.1201.no_assassin: "Uno de mis agentes está preparando un viaje especial para el joven [target.GetTitledFirstName]. El niño confía en que [target.GetSheHe] pasará un día agradable en el bosque.\n\n[target.GetFirstNameNoTooltip] lamentablemente se perderá y será imposible encontrarlo antes del anochecer. Oh, [target.GetSheHe] también era muy joven..."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  murder_outcome.1201.a: "¡Otr[target.Custom('ES_OA')] niñ[target.Custom('ES_OA')] que se pierde en el bosque! Por desgracia, ocurre muy a menudo…"
  murder_outcome.1201.b: "¡No, tengo que repensarlo!"
   
@@ -370,11 +366,7 @@
  murder_outcome.5001.poisoned_drink_alcohol: "Disfruto de la cena y de una copa de [ROOT.Char.Custom('RegionalAlcoholicDrink')] cuando, de repente, noto una curiosa sensación en la garganta."
  murder_outcome.5001.poisoned_drink_no_alcohol: "Disfruto de la cena y de una copa de [ROOT.Char.Custom('RegionalDrink')] cuando, de repente, noto una curiosa sensación en la garganta."
  murder_outcome.5001.poisoned_drink: "Al poco tiempo empiezo a #EMP arañarme#! el cuello para tratar de respirar, gritar, que pase algo de aire por mi garganta hinchada y sangrante. Mientras pierdo el sentido, veo que tengo sangre y piel bajo las uñas. Tendré que lavármelas, qué indecoroso..."
-<<<<<<< HEAD
  murder_outcome.5001.assassin: "[assassin.GetFirstName] me ha llevado al bosque a jugar y nos hemos divertido mucho hoy. Sin embargo, [assassin.GetSheHe] se fue a esconder hace mucho tiempo y no puedo encontrar a [assassin.GetHerHim]. Además, está oscureciendo y da miedo muy rápido..." #NT!
-=======
- murder_outcome.5001.assassin: "[assassin.GetFirstName] me ha llevado al bosque a jugar y nos hemos divertido mucho hoy. Sin embargo, [assassin.GetSheHe] se fue a esconder hace mucho tiempo y no puedo encontrar a [assassin.GetHerHim]. Además, está oscureciendo y da miedo muy rápido..."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
  murder_outcome.5001.courtier: "Algunos cortesanos me trajeron al bosque a jugar, o al menos, eso creía al principio. Sin embargo, no mucho después de que fueran a esconderse, me di cuenta de que me habían abandonado."
  murder_outcome.5001.lured_into_forest: "\n\nIntento encontrar el camino de vuelta, pero anochece pronto y enseguida oigo a los animales en el bosque. Empiezo a correr, pero enseguida logran alcanzarme."
  murder_outcome.5001.stab_infant: "Las luces se mueven. Caras familiares, caras desconocidas. Sonidos que conozco y sonidos que no conozco. Un ruido agudo y frío hace que me duelan los oídos y me echo a llorar.\n\nNoto que alguien me sujeta la cabeza. Después dolor y luego, nada."
@@ -445,7 +437,6 @@
   # Outcome Declarations 
   
   # Success 
-<<<<<<< HEAD
  murder_outcome_reworked.0000.success_declaration.generic.1: "¡[target.GetTitledFirstName] finalmente está muerto!" #NT!
  murder_outcome_reworked.0000.success_declaration.generic.2: "¡Mis agentes han logrado asesinar a [target.GetTitledFirstName]!" #NT!
  murder_outcome_reworked.0000.success_declaration.generic.3: "[target.GetTitledFirstName] ha sido enviado a [ROOT.Char.GetFaith.DeathDeityNamePossessive] ¡abrazo fatídico!" #NT!
@@ -478,11 +469,11 @@
   
   # Memories (Scheme Target) 
  murder_outcome_reworked.0000.memories.target.voice_overheard: "\n\nMientras me desvanezco, una voz susurra fríamente: #EMP "Considera esa venganza por el momento [bad_memory.GetSecondPerspectiveDescription], querido [target.GetTitleAsNameNoTooltip]. Espero que haya valido la pena". #!" #NT!
- murder_outcome_reworked.0000.memories.target.note_discovered: "\n\nCerca de la escena se encuentra una nota arrugada: #EMP "Pago incluido en su totalidad. Contrato emitido para cuando [bad_memory.GetThirdPerspectiveDescription]."#!" #NT!
+ murder_outcome_reworked.0000.memories.target.note_discovered: "\n\nCerca de la escena se encuentra una nota arrugada: #EMP "Pago completo incluido. Contrato emitido para cuando [bad_memory.GetThirdPerspectiveDescription]."#!" #NT!
   
   # Revealed (Scheme Target) 
  murder_outcome_reworked.0000.revealed.scheme_target.success.1: "\n\nMientras la muerte me reclama, no hay un momento de duda en mi mente sobre quién trajo esto sobre mí: [owner.GetTitledFirstName]!" #NT!
- murder_outcome_reworked.0000.revealed.scheme_target.success.2: "\n\nAunque mi mente se desvanece, mis últimos pensamientos son que esto fue sin duda obra de ese [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')], [owner_to_reveal.GetTitledFirstName]." #NT!
+ murder_outcome_reworked.0000.revealed.scheme_target.success.2: "\n\nIncluso mientras mi mente se desvanece, mis últimos pensamientos son que esto fue sin duda obra de ese [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')], [owner_to_reveal.GetTitledFirstName]." #NT!
  murder_outcome_reworked.0000.revealed.scheme_target.success.child: "\n\nI will never see the heartwrenching desperation of my family, nor will I ever hear the whispers among the servants: "\n\nNunca veré la desesperación desgarradora de mi familia, ni escucharé los susurros entre los sirvientes: "¡Fue [owner_to_reveal.GetTitledFirstName]!"" #NT!
  murder_outcome_reworked.0000.revealed.scheme_target.success.baby: "\n\nI would have not understood the panic when the servants found me, nor their whispers: "\n\nNo habría entendido el pánico cuando los sirvientes me encontraron, ni sus susurros: "¡Era [owner_to_reveal.GetTitledFirstName]!"" #NT!
  murder_outcome_reworked.0000.revealed.scheme_target.failure.baby: "\n\nI do not understand the screams of the servants when they find me, nor their whispers: "\n\nNo entiendo los gritos de los sirvientes cuando me encuentran, ni sus susurros: "¡Debe haber sido [owner_to_reveal.GetTitledFirstName]!"" #NT!
@@ -495,83 +486,22 @@
  murder_outcome_reworked.0000.revealed.scheme_target.success.no_linebreak.2: "¡Esto sin duda fue obra de ese [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')], [owner_to_reveal.GetTitledFirstName]!" #NT!
  murder_outcome_reworked.0000.revealed.scheme_target.failure.1: "\n\nA pesar de la ferviente protesta de [owner_to_reveal.GetHerHis], todas las evidencias apuntan a la participación directa de [owner_to_reveal.GetTitledFirstName] en el incidente." #NT!
  murder_outcome_reworked.0000.revealed.scheme_target.failure.2: "\n\nNo sólo fracasó el asesinato, sino que el torpe rastro de evidencia que quedó lleva directamente a su cerebro: [owner_to_reveal.GetTitledFirstName]!" #NT!
-=======
- murder_outcome_reworked.0000.success_declaration.generic.1: "¡[target.GetTitledFirstName] finalmente está muerto!"
- murder_outcome_reworked.0000.success_declaration.generic.2: "¡Mis agentes han logrado asesinar a [target.GetTitledFirstName]!"
- murder_outcome_reworked.0000.success_declaration.generic.3: "[target.GetTitledFirstName] ha sido enviado a [ROOT.Char.GetFaith.DeathDeityNamePossessive] ¡abrazo fatídico!"
-  
-  # Failure 
- murder_outcome_reworked.0000.failure_declaration.generic.1: "[target.GetTitledFirstName] escapó ileso!\n\n"
- murder_outcome_reworked.0000.failure_declaration.generic.2: "¡Mi intento de vida [target.GetTitledFirstNamePossessive] se ha visto frustrado!\n\n"
- murder_outcome_reworked.0000.failure_declaration.generic.3: "¡Parece que [target.GetTitledFirstName] ha escapado de las garras de [ROOT.Char.GetFaith.DeathDeityName]!\n\n"
- murder_outcome_reworked.0000.failure_declaration.generic.4: "[target.GetTitledFirstName] ¡aún vive!\n\n"
- murder_outcome_reworked.0000.failure_declaration.generic.5: "¡Parece que mi plan de matar a [target.GetTitledFirstName] ha fallado!\n\n"
- murder_outcome_reworked.0000.failure_declaration.generic.6: "¡De alguna manera, #EMP de alguna manera#!, [target.GetTitledFirstName] todavía vive!\n\n"
-  
-  # Memories (Scheme Owner) 
- murder_outcome_reworked.0000.memories.bad.general: "Siempre recordaré cuando [bad_memory.GetDescription], [ROOT.Char.Custom('MurderMemoryEnding')]\n\n"
- murder_outcome_reworked.0000.memories.bad.house_feud: "Un [target.GetHouse.GetBaseName] menos del que preocuparse.\n\n"
- murder_outcome_reworked.0000.memories.line_break: "Ya no es una espina en mi costado, gracias [owner.GetFaith.FateGodName].\n\n"
-  
-  # Kept Secret (Scheme Owner) 
- murder_outcome_reworked.0000.kept_secret.generic.1: "\n\nAfortunadamente, aunque siempre habrá rumores, mi participación en el crimen sigue siendo desconocida."
- murder_outcome_reworked.0000.kept_secret.generic.2: "\n\nHe cubierto bien mis huellas, y si alguien sospecha que estoy detrás del ataque, entonces no se atreverá a decirlo en voz alta."
-  
-  # Revealed (Scheme Owner) 
- murder_outcome_reworked.0000.revealed.generic.1: "\n\nDesafortunadamente, por mucho que proteste, acusaciones sin fundamento de todos lados apuntan directamente a #EMP me#! como la mente detrás del incidente."
- murder_outcome_reworked.0000.revealed.success.1: "\n\nDesafortunadamente, alguien, en algún lugar, cometió un desliz y dejó que se supiera mi participación en el crimen; al menos puedo consolarme con el hecho de que [target.GetTitledFirstName] está en peor situación que yo."
- murder_outcome_reworked.0000.revealed.failure.1: "\n\nPeor aún, han salido a la luz suficientes pruebas para demostrar mi participación en el crimen, lo que me marca como un fracasado y un asesino."
- murder_outcome_reworked.0000.addendum.house_feud.1: "Malditos sean estos [target.GetHouse.GetBaseName] #EMP bastardos#!."
- murder_outcome_reworked.0000.addendum.house_feud.2: "Casa [owner_to_reveal.GetHouse.GetBaseName], ¡maldícelos a todos a [target.GetFaith.random_NegativeAfterLife]!"
- murder_outcome_reworked.0000.addendum.house_feud.2.2: "Y "$murder_outcome_reworked.0000.addendum.house_feud.2$""
- murder_outcome_reworked.0000.addendum.house_feud.2.servants: "Los sirvientes se quejan: $murder_outcome_reworked.0000.addendum.house_feud.2.2$"
-  
-  # Memories (Scheme Target) 
- murder_outcome_reworked.0000.memories.target.voice_overheard: "\n\nMientras me desvanezco, una voz susurra fríamente: #EMP "Considera esa venganza por el momento [bad_memory.GetSecondPerspectiveDescription], querido [target.GetTitleAsNameNoTooltip]. Espero que haya valido la pena". #!"
- murder_outcome_reworked.0000.memories.target.note_discovered: "\n\nCerca de la escena se encuentra una nota arrugada: #EMP "Pago completo incluido. Contrato emitido para cuando [bad_memory.GetThirdPerspectiveDescription]."#!"
-  
-  # Revealed (Scheme Target) 
- murder_outcome_reworked.0000.revealed.scheme_target.success.1: "\n\nMientras la muerte me reclama, no hay un momento de duda en mi mente sobre quién trajo esto sobre mí: [owner.GetTitledFirstName]!"
- murder_outcome_reworked.0000.revealed.scheme_target.success.2: "\n\nIncluso mientras mi mente se desvanece, mis últimos pensamientos son que esto fue sin duda obra de ese [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')], [owner_to_reveal.GetTitledFirstName]."
- murder_outcome_reworked.0000.revealed.scheme_target.success.child: "\n\nI will never see the heartwrenching desperation of my family, nor will I ever hear the whispers among the servants: "\n\nI will never see the heartwrenching desperation of my family, nor will I ever hear the whispers among the servants: "It was [owner_to_reveal.GetTitledFirstName]!"" #NT!
- murder_outcome_reworked.0000.revealed.scheme_target.success.baby: "\n\nI would have not understood the panic when the servants found me, nor their whispers: "\n\nI would have not understood the panic when the servants found me, nor their whispers: "It was [owner_to_reveal.GetTitledFirstName]!"" #NT!
- murder_outcome_reworked.0000.revealed.scheme_target.failure.baby: "\n\nI do not understand the screams of the servants when they find me, nor their whispers: "\n\nI do not understand the screams of the servants when they find me, nor their whispers: "It must have been [owner_to_reveal.GetTitledFirstName]!"" #NT!
- murder_outcome_reworked.0000.revealed.scheme_target.failure.baby.2: "\n\nI do not understand the servants' angry whispers: "\n\nI do not understand the servants' angry whispers: ""It must have been [owner_to_reveal.GetTitledFirstName]!"" #NT!
- murder_outcome_reworked.0000.revealed.scheme_target.success.baby.end: "Después de todo, yo sólo era un bebé."
- murder_outcome_reworked.0000.revealed.scheme_target.failure.baby.end: "Sólo soy un bebé, después de todo."
- murder_outcome_reworked.0000.revealed.scheme_target.success.1.incapable: "\n\nBy the time my body will be found, many words will be spoken, the meaning of which has long escaped my feeble mind: "\n\nBy the time my body will be found, many words will be spoken, the meaning of which has long escaped my feeble mind: "It was [owner_to_reveal.GetTitledFirstName]!"" #NT!
- murder_outcome_reworked.0000.revealed.scheme_target.failure.1.incapable: "\n\nIf words still held any meaning to me, I would recognize what everyone around me mutters and repeats angily: "\n\nIf words still held any meaning to me, I would recognize what everyone around me mutters and repeats angily: "It must have been [owner_to_reveal.GetTitledFirstName]!"" #NT!
- murder_outcome_reworked.0000.revealed.scheme_target.success.no_linebreak.1: "No tengo ni un momento de duda sobre quién me trajo esto. [owner.GetTitledFirstName]!"
- murder_outcome_reworked.0000.revealed.scheme_target.success.no_linebreak.2: "¡Esto sin duda fue obra de ese [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')], [owner_to_reveal.GetTitledFirstName]!"
- murder_outcome_reworked.0000.revealed.scheme_target.failure.1: "\n\nA pesar de la ferviente protesta de [owner_to_reveal.GetHerHis], todas las evidencias apuntan a la participación directa de [owner_to_reveal.GetTitledFirstName] en el incidente."
- murder_outcome_reworked.0000.revealed.scheme_target.failure.2: "\n\nNo sólo fracasó el asesinato, sino que el torpe rastro de evidencia que quedó lleva directamente a su cerebro: [owner_to_reveal.GetTitledFirstName]!"
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   ################################################# 
   # Outcome Responses 
   
   # Revealed (Scheme Owner) 
-<<<<<<< HEAD
  murder_outcome_reworked.0000.revealed.owner.response.1: "¡Qué acusaciones más escandalosas!" #NT!
   
   # General Successful Responses (Scheme Target) 
  murder_outcome_reworked.0000.successful_scheme_target.adult: "Aún me quedaba mucho por hacer..." #NT!
  murder_outcome_reworked.0000.successful_scheme_target.child: "¡No es justo!" #NT!
  murder_outcome_reworked.0000.successful_scheme_target.incapable: "Luego, sólo nada." #NT!
-=======
- murder_outcome_reworked.0000.revealed.owner.response.1: "¡Qué acusaciones más escandalosas!"
-  
-  # General Successful Responses (Scheme Target) 
- murder_outcome_reworked.0000.successful_scheme_target.adult: "Aún me quedaba mucho por hacer..."
- murder_outcome_reworked.0000.successful_scheme_target.child: "¡No es justo!"
- murder_outcome_reworked.0000.successful_scheme_target.incapable: "Luego, sólo nada."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   ################################################# 
   # Outcomes — Standard 
   
   # Hired an Assassin 
-<<<<<<< HEAD
  murder_outcome_reworked.0001.desc.assassin_present_at_location.consort: "[assassin.GetFirstName], al igual que [target.GetHerHis] [assassin.Custom2('GetYourConsortType', target)], ya estaba en su lugar: todo lo que [assassin.GetSheHe] tenía que hacer era esperar a que [target.GetFirstNameNoTooltip] se durmiera, sacar el cuchillo provisto de debajo de la almohada de [assassin.GetHerHis] y cortar la garganta de [target.Custom('InsultNoun')]. Una cuerda arrojada desde la ventana, algunos cortes autoinfligidos y señales de una pelea preparada de antemano debajo simularon bastante bien la huida del "verdadero" asesino." #NT!
  murder_outcome_reworked.0001.desc.hired_assassin.assassin_present_at_location: "[assassin.GetFirstName] ejecutó nuestro plan a la perfección. En plena noche, [assassin.GetSheHe] se coló por un hueco entre las patrullas errantes, dejó entrar a [assassin.GetHerselfHimself] en la cámara de nuestra presa con una llave robada y llevó la miserable existencia de [target.GetFirstNamePossessiveNoTooltip] a un final húmedo y gorgoteante." #NT!
  murder_outcome_reworked.0001.desc.hired_assassin.assassin_remote_working: "El mercenario [assassin.GetFirstNamePossessive] ejecutó nuestro plan a la perfección. En plena noche, el [dummy_assassin_gender.GetWomanMan] se coló por un hueco descubierto por las patrullas itinerantes, dejó entrar a [dummy_assassin_gender.GetHerselfHimself] en la cámara de nuestra presa con una llave robada y llevó la miserable existencia de [target.GetFirstNamePossessiveNoTooltip] a un final húmedo y gorgoteante." #NT!
@@ -622,64 +552,11 @@
  murder_outcome_reworked.0071.desc: "¡Mis cómplices obtuvieron acceso a nada menos que la copa de [target.GetFirstNamePossessiveNoTooltip] en la última cena de [target.GetHerHis]! Sin que nadie se diera cuenta, vertieron unas gotas de un poderoso veneno en la bebida de [target.GetHerHis]. ¡El pobre [target.Custom('InsultNoun')] se bebió toda la copa de un trago y se fue a la mierda antes de darse cuenta de lo que estaba pasando!" #NT!
  murder_outcome_reworked.0073.desc: "Mis cómplices lograron introducir un barril envenenado en la cocina de [target.GetFirstNamePossessiveNoTooltip] y prepararon y sirvieron a [target.GetHerHim] una copa llena de la bebida adulterada. La idea del barril fue un error.\n\nAntes de que [target.Custom('InsultNoun')] pudiera llevar la copa a los labios de [target.GetHerHis], los sirvientes irrumpieron en la habitación y anunciaron que otra persona que había bebido del mismo barril había muerto inmediatamente." #NT!
  murder_outcome_reworked.0074.desc: "Estoy disfrutando de una cena como cualquier otra noche. Una deliciosa copa llena hasta el borde se encuentra frente a mí, tentadora. Cuando finalmente la alcanzo, una multitud de sirvientes irrumpe en la habitación gritando. "¡Mi [ROOT.Char.GetLadyLord], para! ¡Está envenenado! ¡Uno de nosotros bebió del mismo barril y cayó muerto de inmediato!" Mi mano se congela en el aire." #NT!
-=======
- murder_outcome_reworked.0001.desc.assassin_present_at_location.consort: "[assassin.GetFirstName], al igual que [target.GetHerHis] [assassin.Custom2('GetYourConsortType', target)], ya estaba en su lugar: todo lo que [assassin.GetSheHe] tenía que hacer era esperar a que [target.GetFirstNameNoTooltip] se durmiera, sacar el cuchillo provisto de debajo de la almohada de [assassin.GetHerHis] y cortar la garganta de [target.Custom('InsultNoun')]. Una cuerda arrojada desde la ventana, algunos cortes autoinfligidos y señales de una pelea preparada de antemano debajo simularon bastante bien la huida del "verdadero" asesino."
- murder_outcome_reworked.0001.desc.hired_assassin.assassin_present_at_location: "[assassin.GetFirstName] ejecutó nuestro plan a la perfección. En plena noche, [assassin.GetSheHe] se coló por un hueco entre las patrullas errantes, dejó entrar a [assassin.GetHerselfHimself] en la cámara de nuestra presa con una llave robada y llevó la miserable existencia de [target.GetFirstNamePossessiveNoTooltip] a un final húmedo y gorgoteante."
- murder_outcome_reworked.0001.desc.hired_assassin.assassin_remote_working: "El mercenario [assassin.GetFirstNamePossessive] ejecutó nuestro plan a la perfección. En plena noche, el [dummy_assassin_gender.GetWomanMan] se coló por un hueco descubierto por las patrullas itinerantes, dejó entrar a [dummy_assassin_gender.GetHerselfHimself] en la cámara de nuestra presa con una llave robada y llevó la miserable existencia de [target.GetFirstNamePossessiveNoTooltip] a un final húmedo y gorgoteante."
- murder_outcome_reworked.0002.desc: "$murder_outcome.5001.hired_assassin$"
- murder_outcome_reworked.0003.desc: "¡El asesino cometió un error crítico en el momento más delicado! [target.GetFirstNameNoTooltip] se despertó y vio una figura amenazante envuelta en oscuridad junto a la cama de [target.GetHerHis] e inmediatamente gritó pidiendo ayuda, lo que hizo que nuestro asustado agente huyera apresuradamente."
- murder_outcome_reworked.0004.desc: "Ruidos de manos torpes y maldiciones en voz baja me despiertan de mi letargo.\n\nCerca de mí —#EMP demasiado cerca para mi comodidad#!— hay una figura envuelta en oscuridad, aparentemente tan asustada como yo. Mi repentino grito de ayuda la hace correr, mientras mis guardias entran corriendo."
-  
-  # Hired A Gang Of Thugs 
- murder_outcome_reworked.0011.desc: "En realidad, no hizo falta mucho: solo una pandilla de bandidos desesperados y ávidos de plata y una oportunidad diseñada para atacar, pero los resultados han sido #EMP excepcionales#!.. El combate cuerpo a cuerpo tomó a [target.GetHerHis] defensores completamente desprevenidos, lo que permitió que uno de los asesinos le atravesara el ojo al bastardo."
- murder_outcome_reworked.0012.desc.alley: "Mi séquito y yo viajamos por los callejones de [target.GetCurrentLocation.GetName],"
- murder_outcome_reworked.0012.desc.wilderness: "Mi séquito y yo estamos viajando por las tierras salvajes de [target.GetCurrentLocation.GetName],"
- murder_outcome_reworked.0012.desc: "Cuando un grito espeluznante atraviesa nuestras filas... ¡De la nada, nos ataca una banda de bribones! Flechas y espadas vuelan rápido y en masa, pura ferocidad y sed de muerte diezmando a mis guardias en un abrir y cerrar de ojos. No dispuesto a permitir que esta emboscada sea mi tumba, emprendo el vuelo, corriendo hacia un lugar más seguro. Entonces, por encima del ruido de la batalla, oigo el sonido puro de una sola cuerda de arco."
- murder_outcome_reworked.0013.desc: "Nuestro plan parecía... tan perfecto... una distracción planeada, una turba de bandidos desesperados y una emboscada repentina. Debería haber sido grave, pero los malditos guardias se lanzaron frente a cada golpe, rayo o espada, se unieron y contraatacaron. Nuestros mercenarios cayeron en masa."
- murder_outcome_reworked.0014.desc: "Cuando un grito espeluznante atraviesa nuestras filas.\n\n¡Aparentemente de la nada, nos aborda una banda de renegados! Su asalto es feroz, pero nada comparado con la furia de mis guardias, y nos lanzamos a enfrentarlos. Se produce una feroz pelea, y los asesinos #EMP claramente#! me atacan a mí sobre todo. Solo un tonto no reconocería esto como un intento de asesinato."
-  
-  # Poisoning 
- murder_outcome_reworked.0021.desc: "Me llevó semanas sentar las bases de mi plan: un plato envenenado, digno de un [target.GetWomanMan] de la estatura de [target.GetHerHis]. [target.GetFirstNameNoTooltip], siempre tan tonto, demostró ser incapaz de oler el veneno más allá del lecho de hierbas exóticas del pato contaminado. Claramente no notó la amargura mortal hasta que ya era demasiado, demasiado tarde."
- murder_outcome_reworked.0022.desc: "Estoy disfrutando de un pato asado particularmente bueno en mi banquete cuando... ¿qué amargura extraña es esta en el regusto? Ese cocinero tonto debe tener...\n\nMi garganta se hincha. Algo espeso y pesado estalla en mi cuello, nublando mi visión con un dolor de cabeza palpitante que se instala en mi frente como una tormenta furiosa. ¿Por qué... por qué mi visión se nubla y se oscurece tanto? En algún lugar, una risa distante se transforma en un grito horrorizado. No puedo concentrarme, #DIE1 No puedo pensar#!, #DIE2 No puedo...#!"
- murder_outcome_reworked.0023.desc: "#EMP ¡Tonto!#! ¡¿Cómo es posible que siempre haya uno de ellos para arruinar incluso el más perfecto de los planes?!\n\nEl pato estaba listo para ser servido, el olor a veneno ingeniosamente escondido por un lecho de hierbas aromáticas, el silencio de los cocineros generosamente comprado... ¡Y sin embargo, un sirviente tonto #EMP tuvo#! que probar el plato, solo para caer muerto frente a [target.GetFirstNameNoTooltip]!"
- murder_outcome_reworked.0024.desc: "Cuando estoy a punto de morder el trozo de pato más suculento que he visto en mi vida, uno de mis sirvientes se desploma, se desploma de bruces sobre la mesa y se lleva las manos a la garganta. ¡Había estado probando un poco de mi comida!\n\nAl menos sirvió como advertencia para que no tocasen el ave, mientras recibía el justo castigo por su crimen."
-  
-  # Creepy-Crawly 
- murder_outcome_reworked.0031.desc: "El plan funcionó a las mil maravillas: mi precioso [SCOPE.Custom('VenomousCreature')] estaba esperando a [target.GetFirstNameNoTooltip] en la cama de [target.GetHerHis] cuando [target.GetSheHe] se retiró a dormir, silencioso y listo para atacar a la primera provocación. Y entonces [target.GetFirstNameNoTooltip] se movió."
- murder_outcome_reworked.0033.desc: "El plan era, supuestamente, infalible: un [SCOPE.Custom('VenomousCreature')] esperaba a [target.GetFirstNameNoTooltip] en la cama de [target.GetHerHis] cuando [target.GetSheHe] se retiraba a dormir; ¡[target.GetSheHe] solo tenía que acostarse y dejar que el pequeño enredadera hiciera su trabajo! En cambio, el [target.Custom('InsultNoun')] notó el movimiento sospechoso entre las sábanas y mató al [SCOPE.Custom('VenomousCreatureType')] antes de que pudiera atacar."
- murder_outcome_reworked.0034.desc: "Al retirarme a dormir, un movimiento sospechoso entre las sábanas de mi cama atrae mi atención. Retiro las mantas con cuidado para no asustar a ningún huésped no deseado, ¡y me encuentro con un [SCOPE.Custom('VenomousCreatureType')] esperándome!\n\n"
- murder_outcome_reworked.0034.desc_unknown: "No puedo identificar con precisión a la pequeña enredadera, pero dudo que sea amigable."
- murder_outcome_reworked.0034.desc_end: "Sin dudarlo un momento, tomo mi daga y clavo a la criatura firmemente en su lugar."
-  
-  # Riled-Up Mob 
- murder_outcome_reworked.0041.desc: "Una turba agitada de campesinos furiosos esperaba a [target.GetFirstNameNoTooltip] en el camino de [target.GetHerHis] a través de la ciudad.\n\nLa mera visión de [target.GetLadyLord] cabalgando descuidadamente fue suficiente para que estallaran en una violencia asesina. Los pocos guardias que acompañaban a su señor eran impotentes ante la furia ciega de una multitud sedienta de sangre; [target.GetFirstNameNoTooltip] fue pisoteado, golpeado y apuñalado hasta quedar irreconocible, sin posibilidad alguna de sobrevivir."
- murder_outcome_reworked.0042.desc: "Estoy absorto en mis pensamientos mientras atravieso la ciudad, así que no presto atención a los murmullos nerviosos de mis guardias ni a la multitud cada vez mayor que bloquea nuestro camino. Cuando me doy cuenta, ya es demasiado tarde.\n\nCampesinos furiosos nos rodean, nos arrancan de nuestros caballos y nos golpean sin piedad. Mientras me golpean sin cesar, demasiados para contarlos, mi vista se ve nublada por la sangre, luego todo se vuelve negro."
- murder_outcome_reworked.0043.desc: "Todo iba bien: mis agitadores habían logrado reunir una multitud de campesinos y habían enardecido lo suficiente sus ánimos contra [target.GetFirstNameNoTooltip].\n\nSin embargo, cuando [target.GetFirstNameNoTooltip] hizo su aparición [target.GetHerHis] rodeado de guardias armados, la sed de sangre de la multitud se evaporó como la nieve al sol. Solo unos pocos rezagados atacaron y fueron rápidamente reprimidos por los soldados."
- murder_outcome_reworked.0044.desc: "Mientras atravieso la ciudad con mi séquito, no puedo evitar notar la creciente multitud que nos rodea por todos lados. Por suerte, esta mañana decidí partir con un grupo considerable de soldados bien armados, cuya vista está haciendo maravillas para calmar el descontento de la multitud. Cuando un pequeño contingente de campesinos de aspecto enfadado intenta atacarnos, mis guardias los eliminan con facilidad, dispersando a los malhechores restantes."
-  
-  # Bricked Up Alive 
- murder_outcome_reworked.0051.desc: "El plan era elegante en su simplicidad: invité a [target.GetFirstNameNoTooltip] a tomar algo, sabiendo muy bien que [target.GetSheHe] no podría parar hasta estar completamente borracho. Entonces, el tonto me siguió sin protestar hasta el sótano y se quedó dormido enseguida. [target.GetSheHe|U] ni siquiera se movió mientras mis sirvientes construían una pared para sellar la entrada a la habitación. #EMP Para siempre.#!"
- murder_outcome_reworked.0053.desc: "Todo iba según lo planeado: invité a [target.GetFirstNameNoTooltip] a tomar algo, sabiendo muy bien que [target.GetSheHe] no podría parar hasta estar completamente borracho. Entonces, el tonto me siguió sin protestar hasta el sótano y se quedó dormido enseguida. Mis sirvientes solo debían construir un muro y encerrar a [target.GetHerHim] dentro, pero aparentemente se cansaron demasiado #EMP #! y no terminaron el trabajo, ¡así que [target.GetFirstNameNoTooltip] logró escapar!"
-  
-  # Sink A Boat They're On 
- murder_outcome_reworked.0061.desc: "Los barcos se hunden todo el tiempo. Es un hecho de la vida. A veces, #EMP ayuda#! a hundirse mediante alguna manipulación, justo cuando están un poquito demasiado lejos de la costa. El frío abrazo del mar abierto es impactante, me dicen. Podría preguntarle a [target.GetFirstNameNoTooltip] si [target.GetSheHe] no se hubiera ahogado. Una verdadera #EMP tragedia#!."
- murder_outcome_reworked.0062.desc_port: "Me encuentro a bordo de un barco local para un breve viaje de supervisión. La costa todavía está cerca y mi mente está absorta en algún que otro informe, por lo que apenas escucho el repentino crujido y los gritos de los marineros."
- murder_outcome_reworked.0062.desc_travel: "¡Me encanta el mar abierto! El sol besando mi rostro, el viento agitando mi capa, el olor fresco del agua salada llenando mi nariz, los espeluznantes crujidos acompañados de gritos frenéticos de los marineros... Espera, #EMP QUÉ#!?!"
- murder_outcome_reworked.0062.desc: "\n\nNo tengo tiempo de reaccionar cuando el mástil roto cae sobre mí, dejándome sin aire y lanzándome por la borda. El impacto con el agua fría hace el resto, mientras mi ropa pesada me arrastra hacia abajo... bajo las olas..."
- murder_outcome_reworked.0063.desc: "Los barcos se hunden todo el tiempo. Es un hecho de la vida. O, al menos, ¡debería serlo! ¿Qué tan difícil es sabotear un trozo de chatarra flotante para que termine bajo las olas, junto con [target.GetFirstNameNoTooltip]?\n\nAparentemente fue demasiado difícil para mis cómplices, ya que el barco [target.GetFirstNamePossessiveNoTooltip] regresó sano y salvo con solo un pequeño contratiempo en el camino. Un contratiempo claramente preparado y potencialmente letal."
- murder_outcome_reworked.0064.desc: "Mi barco navega tranquilamente bajo el sol poniente cuando un crujido y los gritos frenéticos de los marineros llaman mi atención. En un momento, me veo arrastrado por uno de mis guardias mientras una parte del mástil cae y se detiene exactamente frente a mí.\n\nLos daños en el barco son considerables, pero el capitán confía en que llegaremos sanos y salvos al puerto más cercano. Y lo más importante, nadie resultó herido."
-  
-  # Poisoned Drink 
- murder_outcome_reworked.0071.desc: "¡Mis cómplices obtuvieron acceso a nada menos que la copa de [target.GetFirstNamePossessiveNoTooltip] en la última cena de [target.GetHerHis]! Sin que nadie se diera cuenta, vertieron unas gotas de un poderoso veneno en la bebida de [target.GetHerHis]. ¡El pobre [target.Custom('InsultNoun')] se bebió toda la copa de un trago y se fue a la mierda antes de darse cuenta de lo que estaba pasando!"
- murder_outcome_reworked.0073.desc: "Mis cómplices lograron introducir un barril envenenado en la cocina de [target.GetFirstNamePossessiveNoTooltip] y prepararon y sirvieron a [target.GetHerHim] una copa llena de la bebida adulterada. La idea del barril fue un error.\n\nAntes de que [target.Custom('InsultNoun')] pudiera llevar la copa a los labios de [target.GetHerHis], los sirvientes irrumpieron en la habitación y anunciaron que otra persona que había bebido del mismo barril había muerto inmediatamente."
- murder_outcome_reworked.0074.desc: "Estoy disfrutando de una cena como cualquier otra noche. Una deliciosa copa llena hasta el borde se encuentra frente a mí, tentadora. Cuando finalmente la alcanzo, una multitud de sirvientes irrumpe en la habitación gritando. "¡Mi [ROOT.Char.GetLadyLord], para! ¡Está envenenado! ¡Uno de nosotros bebió del mismo barril y cayó muerto de inmediato!" Mi mano se congela en el aire."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   ################################################# 
   # Outcomes — Children 
   
   # Left Child In Forest 
-<<<<<<< HEAD
  murder_outcome_reworked.4001.desc: "[target.GetSheHe|U] estaba muy emocionada por el viaje de [target.GetHerHis] al bosque. Lamentablemente, todos saben que los bosques no son lugar para niños, son tan pequeños, tan #EMP ingenuos#!, es muy fácil que se dejen llevar por su entusiasmo y pierdan su orientación, sus guardianes y su camino a casa. Nunca regresan. Igual que el pequeño [target.GetFirstNameNoTooltip]. Qué tragedia." #NT!
  murder_outcome_reworked.4003.desc: "¡Se suponía que iba a ser muy fácil! Los bosques no son lugar para niños: son oscuros, peligrosos, llenos de barrancos, plantas venenosas y bestias hambrientas de carne. ¡¿Qué tan difícil es para un niño simplemente perderse y morir?!\n\n¡Aparentemente fue demasiado difícil para [target.GetFirstNameNoTooltip], ya que el pequeño cabrón tuvo la #EMP audacia#! de encontrar [target.GetHerHis] el camino de regreso a casa sano y salvo!" #NT!
   
@@ -700,34 +577,11 @@
   # Child Pushed To Death 
  murder_outcome_reworked.4041.desc: "Todas las cosas eventualmente caen: reinos, [ROOT.Char.Custom('LadiesLords')], #EMP niños empujados desde lugares altos#!...\n\nSuch una tragedia inevitable." #NT!
  murder_outcome_reworked.4043.desc: "Mientras mi agente empujaba a [target.GetHerHim] por el borde, la ropa de [target.GetHerHis] se enganchó en un trozo de pared que sobresalía justo debajo. Sostuvo a [target.GetHerHim] el tiempo suficiente para que llegara ayuda para salvar tanto al niño como a la niña." #NT!
-=======
- murder_outcome_reworked.4001.desc: "[target.GetSheHe|U] estaba muy emocionada por el viaje de [target.GetHerHis] al bosque. Lamentablemente, todos saben que los bosques no son lugar para niños, son tan pequeños, tan #EMP ingenuos#!, es muy fácil que se dejen llevar por su entusiasmo y pierdan su orientación, sus guardianes y su camino a casa. Nunca regresan. Igual que el pequeño [target.GetFirstNameNoTooltip]. Qué tragedia."
- murder_outcome_reworked.4003.desc: "¡Se suponía que iba a ser muy fácil! Los bosques no son lugar para niños: son oscuros, peligrosos, llenos de barrancos, plantas venenosas y bestias hambrientas de carne. ¡¿Qué tan difícil es para un niño simplemente perderse y morir?!\n\n¡Aparentemente fue demasiado difícil para [target.GetFirstNameNoTooltip], ya que el pequeño cabrón tuvo la #EMP audacia#! de encontrar [target.GetHerHis] el camino de regreso a casa sano y salvo!"
-  
-  # Infant Stabbed To Death 
- murder_outcome_reworked.4011.desc: "Los niños son criaturas tan frágiles... Cualquier enfermedad podría arrebatárselos a su familia. ¡O cualquier accidente! Como aquellos que involucran cabecitas delicadas y agujas afiladas. No necesitaba ni quería escuchar los detalles, siempre y cuando el trabajo estuviera hecho. Qué espantoso, qué #EMP desgracia#!."
- murder_outcome_reworked.4013.desc: "La gente tiene tantos reparos cuando se trata de niños. Mis cómplices coincidieron en que [target.GetFirstNameNoTooltip] tenía que irse, les pagaron generosamente para que lo hicieran, ¡y aun así dudaron al ver al bebé durmiendo pacíficamente! Fue tan fácil, solo una puñalada fuerte en el punto más blando de la cabeza y se habría acabado... Qué ocasión desperdiciada."
-  
-  # Infant Bitten By Creepy Crawly 
- murder_outcome_reworked.4021.desc: "La gente es rara. Es difícil encontrar a alguien dispuesto a levantar la mano contra un bebé, pero colocar un [SCOPE.Custom('VenomousCreature')] en una cuna es, al parecer, mucho más aceptable. El [SCOPE.Custom('VenomousCreatureType')], por su parte, tampoco tuvo ningún reparo particular y acertó. El veneno cumplió su parte rápidamente y sin piedad."
- murder_outcome_reworked.4023.desc: "El [SCOPE.Custom('VenomousCreature')] fue entregado a la cama [target.GetFirstNamePossessiveNoTooltip] como estaba previsto, pero, al parecer, los movimientos del bebé lo asustaron y se escondió en lugar de atacar. La inútil criatura fue encontrada algunas horas después por un sirviente, escondida debajo de un armario. El maldito bebé salió ileso."
- murder_outcome_reworked.4024.desc: "Una cama blanda debajo de mí y una manta cálida cubriéndome es todo lo que deseo. Estoy casi inconsciente cuando siento vagamente una sensación curiosa, como si algo se estuviera moviendo por mi cuerpo. Me doy vuelta bruscamente hacia un lado y la sensación desaparece. Me duermo.\n\nMás tarde, me despiertan los gritos agudos de un sirviente. No estoy seguro de lo que está sucediendo: hay muchos adultos corriendo por todos lados, sus voces fuertes retumban, y muchos señalan algo que no puedo ver debajo de un armario."
-  
-  # Poisoned Candy 
- murder_outcome_reworked.4031.desc: "¡Los niños son tan crédulos! Tuve que disfrazar a uno de mis cómplices como sirviente, pedirle que trajera un trozo de pastel de aspecto delicioso y absolutamente envenenado a [target.GetFirstNameNoTooltip], ¡y el pequeño tonto se lo tragó de un bocado enorme, sin hacer preguntas!\n\nTal vez deberíamos empezar a enseñarles a los niños a no aceptar dulces de extraños..."
- murder_outcome_reworked.4033.desc: "¡Malditos niños y su imprevisibilidad! Se suponía que iba a ser muy fácil: darle a escondidas un dulce envenenado pero irresistible a [target.GetFirstNameNoTooltip], y [target.GetFirstNameNoTooltip] muere. ¿Qué clase de niño responde "no tengo hambre" cuando le ofrecen un dulce a #EMP? #!"
- murder_outcome_reworked.4034.desc: "Estoy jugando afuera, sintiéndome un poco sediento, cuando un sirviente aparece de la nada ofreciéndome un [ROOT.Char.Custom('FavoriteTreat')]. Pero no quiero un [ROOT.Char.Custom('FavoriteTreat')], ¡quiero beber! ¡Sirviente tonto!\n\nYa me había olvidado de todo sobre el incidente cuando varios sirvientes se me acercan, horas después, felicitándome por ser tan inteligente y valiente y frustrar algún plan malvado o algo así. Lo que sea. ¡Pero ahora sí quiero un [ROOT.Char.Custom('FavoriteTreat')]!"
-  
-  # Child Pushed To Death 
- murder_outcome_reworked.4041.desc: "Todas las cosas eventualmente caen: reinos, [ROOT.Char.Custom('LadiesLords')], #EMP niños empujados desde lugares altos#!...\n\nSuch una tragedia inevitable."
- murder_outcome_reworked.4043.desc: "Mientras mi agente empujaba a [target.GetHerHim] por el borde, la ropa de [target.GetHerHis] se enganchó en un trozo de pared que sobresalía justo debajo. Sostuvo a [target.GetHerHim] el tiempo suficiente para que llegara ayuda para salvar tanto al niño como a la niña."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   ################################################# 
   # Outcomes — Prison 
   
   # Beaten To Death In Prison 
-<<<<<<< HEAD
  murder_outcome_reworked.7001.desc: "Una certeza de la vida es que a los carceleros sólo les importa quién puede salir de la prisión, y poco les importa quién entra o qué les sucede. Cuando mis cómplices les ofrecieron un generoso soborno para que les permitieran visitar a su #EMP buen amigo#! [target.GetFirstNameNoTooltip], aceptaron con mucho entusiasmo. Hacerse los sordos a los gritos y a los huesos que crujían era parte del servicio." #NT!
  murder_outcome_reworked.7003.desc: "$murder_outcome_reworked.7001.desc$ Entonces ¿por qué tuvieron que intervenir antes de concluir el trabajo?" #NT!
  murder_outcome_reworked.7004.desc: "$murder_outcome.5001.beat_to_death_in_dungeon$ Entonces entran mis carceleros habituales y la paliza cesa." #NT!
@@ -736,25 +590,10 @@
  murder_outcome_reworked.7011.desc: "Se supone que los prisioneros bajo arresto domiciliario deben ser vigilados de cerca; por lo tanto, introducir a escondidas a uno de mis agentes en la casa de [target.GetFirstNamePossessiveNoTooltip] con el pretexto de visitar a un viejo amigo fue un verdadero golpe de genialidad, si se me permite decirlo. Mi cómplice entró y salió antes de que los guardias se dieran cuenta de que algo andaba mal." #NT!
  murder_outcome_reworked.7012.desc: "Mis guardias han introducido una figura encapuchada desconocida en mi habitación, haciéndola pasar por un viejo amigo mío. Estoy a punto de protestar diciendo que debe haber habido un error, ya que claramente no conozco a esta persona, cuando una daga brillante aparece de un bolsillo oculto. #EMP Oh.#! Es uno de #EMP esos#! viejos amigos.\n\nNo tengo tiempo de reaccionar cuando la daga se lanza hacia mí más rápido que una flecha y caigo al suelo sin hacer ningún sonido." #NT!
  murder_outcome_reworked.7013.desc: "Se supone que los prisioneros bajo arresto domiciliario deben ser vigilados de cerca; por lo tanto, colar a uno de mis agentes en la casa de [target.GetFirstNamePossessiveNoTooltip] con el pretexto de visitar a un viejo amigo se suponía que sería un verdadero golpe de genialidad. Lamentablemente, los guardias no se creyeron la historia de mi cómplice y esperaron justo afuera de la habitación, listos para intervenir en caso de cualquier asunto sospechoso. Aparentemente, el intento de asesinato #EMP cuenta como #EMP asunto sospechoso#!." #NT!
-=======
- murder_outcome_reworked.7001.desc: "Una certeza de la vida es que a los carceleros sólo les importa quién puede salir de la prisión, y poco les importa quién entra o qué les sucede. Cuando mis cómplices les ofrecieron un generoso soborno para que les permitieran visitar a su #EMP buen amigo#! [target.GetFirstNameNoTooltip], aceptaron con mucho entusiasmo. Hacerse los sordos a los gritos y a los huesos que crujían era parte del servicio."
- murder_outcome_reworked.7003.desc: "$murder_outcome_reworked.7001.desc$ Entonces ¿por qué tuvieron que intervenir antes de concluir el trabajo?"
- murder_outcome_reworked.7004.desc: "$murder_outcome.5001.beat_to_death_in_dungeon$ Entonces entran mis carceleros habituales y la paliza cesa."
-  
-  # Unwelcome Guest - House Arrest 
- murder_outcome_reworked.7011.desc: "Se supone que los prisioneros bajo arresto domiciliario deben ser vigilados de cerca; por lo tanto, introducir a escondidas a uno de mis agentes en la casa de [target.GetFirstNamePossessiveNoTooltip] con el pretexto de visitar a un viejo amigo fue un verdadero golpe de genialidad, si se me permite decirlo. Mi cómplice entró y salió antes de que los guardias se dieran cuenta de que algo andaba mal."
- murder_outcome_reworked.7012.desc: "Mis guardias han introducido una figura encapuchada desconocida en mi habitación, haciéndola pasar por un viejo amigo mío. Estoy a punto de protestar diciendo que debe haber habido un error, ya que claramente no conozco a esta persona, cuando una daga brillante aparece de un bolsillo oculto. #EMP Oh.#! Es uno de #EMP esos#! viejos amigos.\n\nNo tengo tiempo de reaccionar cuando la daga se lanza hacia mí más rápido que una flecha y caigo al suelo sin hacer ningún sonido."
- murder_outcome_reworked.7013.desc: "Se supone que los prisioneros bajo arresto domiciliario deben ser vigilados de cerca; por lo tanto, colar a uno de mis agentes en la casa de [target.GetFirstNamePossessiveNoTooltip] con el pretexto de visitar a un viejo amigo se suponía que sería un verdadero golpe de genialidad. Lamentablemente, los guardias no se creyeron la historia de mi cómplice y esperaron justo afuera de la habitación, listos para intervenir en caso de cualquier asunto sospechoso. Aparentemente, el intento de asesinato #EMP cuenta como #EMP asunto sospechoso#!."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
   
   ################################################# 
   # Outcomes — Special/Other 
   
   # Strangling Incapable 
-<<<<<<< HEAD
  murder_outcome_reworked.8001.desc: "[target.GetFirstNamePossessiveNoTooltip] Los días de gloria han quedado atrás hace mucho [target.GetHerHim]. Sin embargo, [target.GetSheHe] me aferré a la vida tanto tiempo, tan desesperadamente, tan #EMP en vano#!... Creo que lo que hizo mi agente no fue más que un acto de misericordia. [target.GetFirstNameNoTooltip] fue solo un cascarón vacío. ¿Eso es realmente un asesinato?" #NT!
  murder_outcome_reworked.8003.desc: "Es indignante lo increíblemente incompetente que puede ser un agente. ¡Qué difícil puede ser estrangular a una persona frágil cuya mente ya no está presente y que apenas está viva! Y, sin embargo, solo me encuentro con el fracaso." #NT!
-=======
- murder_outcome_reworked.8001.desc: "[target.GetFirstNamePossessiveNoTooltip] Los días de gloria han quedado atrás hace mucho [target.GetHerHim]. Sin embargo, [target.GetSheHe] me aferré a la vida tanto tiempo, tan desesperadamente, tan #EMP en vano#!... Creo que lo que hizo mi agente no fue más que un acto de misericordia. [target.GetFirstNameNoTooltip] fue solo un cascarón vacío. ¿Eso es realmente un asesinato?"
- murder_outcome_reworked.8003.desc: "Es indignante lo increíblemente incompetente que puede ser un agente. ¡Qué difícil puede ser estrangular a una persona frágil cuya mente ya no está presente y que apenas está viva! Y, sin embargo, solo me encuentro con el fracaso."
->>>>>>> 6733dbc0a382c359375589301a41d4b308022158
