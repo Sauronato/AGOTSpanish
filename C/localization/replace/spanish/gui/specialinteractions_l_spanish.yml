@@ -24,7 +24,7 @@
  DESIRES_ALLIANCE: "[recipient.GetShortUIName|U] desea un [alliance|E]: $VALUE|=+0$"
  DOES_NOT_WANT_ALLIANCE: "[recipient.GetShortUIName|U] no quiere una Alianza: $VALUE|=+0$"
  YOU_HAVE_TOO_MANY_ALLIANCES: "Tienes demasiados [alliances|E] existentes: $VALUE|=+0$"
- YOU_ARE_AT_WAR: "Estás en [war|E]: $VALUE|=+0$" #NT!
+ YOU_ARE_AT_WAR: "Estás en [war|E]: $VALUE|=+0$"
  INTIMIDATED_REASON: "[intimidated_i][intimidated|E] por ti: $VALUE|=+0$"
  COWED_REASON: "[terrified_i][cowed|E] de ti: $VALUE|=+0$"
  GRANDEUR_REASON: "Tu [court_grandeur|E]: $VALUE|=+0$"
@@ -104,19 +104,19 @@
  WAR_WITH_ALLY_REASON: "Guerra contra otro aliado: $VALUE|=+0$"
  WONT_FIGHT_HEIR_REASON: "No peleará Heredero: $VALUE|=+0$"
  WONT_FIGHT_SPOUSE_REASON: "No peleará Cónyuge: $VALUE|=+0$"
- WONT_FIGHT_FRIEND_REASON: "No pelearé [friend|E]: $VALUE|=+0$" #NT!
- WONT_FIGHT_BEST_FRIEND_REASON: "No pelearé [best_friend|E]: $VALUE|=+0$" #NT!
- WONT_FIGHT_LOVER_REASON: "No pelearé [lover|E]: $VALUE|=+0$" #NT!
- WONT_FIGHT_SOULMATE_REASON: "No pelearé [soulmate|E]: $VALUE|=+0$" #NT!
+ WONT_FIGHT_FRIEND_REASON: "No pelearé [friend|E]: $VALUE|=+0$"
+ WONT_FIGHT_BEST_FRIEND_REASON: "No pelearé [best_friend|E]: $VALUE|=+0$"
+ WONT_FIGHT_LOVER_REASON: "No pelearé [lover|E]: $VALUE|=+0$"
+ WONT_FIGHT_SOULMATE_REASON: "No pelearé [soulmate|E]: $VALUE|=+0$"
  WONT_FIGHT_MEANINGLESS_REASON: "No participará en conflictos sin sentido: $VALUE|=+0$"
  HAS_YOUR_SUPPORT_REASON: "Tiene su apoyo: $VALUE|=+0$"
  ENTRENCHED_REGENT_WILL_SUPPORT_LIEGE: "[entrenched_regent|E] Protege [realm|E]: $VALUE|=+0$"
  NO_CHARACTERS_TO_SELECT: "#weak No se encontraron caracteres válidos#!"
  NO_VASSALS_TO_DISPLAY: "No tienes [vassals|E]"
  ALREADY_AT_WAR: "Ya en [war|E]: $VALUE|=+0$"
- RECIPIENT_MILITARY_STRENGTH: "[recipient.GetShortUINamePossessive|U] [military_power|E]: $VALUE|=+0$" #NT!
- SECONDARY_RECIPIENT_MILITARY_STRENGTH: "[secondary_recipient.GetShortUINamePossessive|U] [military_power|E]: $VALUE|=+0$" #NT!
- PROMISED_TITLE_MAA: "Prometido [title|E] [men_at_arms|E]: $VALUE|=+0$" #NT!
+ RECIPIENT_MILITARY_STRENGTH: "[recipient.GetShortUINamePossessive|U] [military_power|E]: $VALUE|=+0$"
+ SECONDARY_RECIPIENT_MILITARY_STRENGTH: "[secondary_recipient.GetShortUINamePossessive|U] [military_power|E]: $VALUE|=+0$"
+ PROMISED_TITLE_MAA: "Prometido [title|E] [men_at_arms|E]: $VALUE|=+0$"
  MARRY_PROMPT_SOMEONE: "#I Elige a alguien para casarlo#!"
  MARRY_PROMPT_BUILDING_LIST: "#I Encontrar cónyuges potenciales para [CHARACTER.GetShortUIName]#!"
  MARRY_PROMPT_CHARACTER: "#I Elige a alguien para que [CHARACTER.GetShortUIName] se case#!"
@@ -266,9 +266,9 @@
  GRANT_TITLES_ITEM_CANT_CAPITAL: "@warning_icon! #X No puedes otorgar tu [realm_capital|E]#!"
  GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH: "No puedes otorgar títulos de Cabeza de Fe"
  GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH_TO_INFIDEL: "No puedes otorgar títulos de Jefe de Fe a personajes que no comparten tu Jefe de Fe."
- GRANT_TITLES_ITEM_CANT_GIVE_NOBLE_FAMILY: "No puedes regalar tu título [noble_family|E]" #NT!
- GRANT_TITLES_ITEM_CANT_GIVE_ADMIN_PRIMARY: "No puedes regalar tu primaria [governorship|E]" #NT!
- GRANT_TITLES_ITEM_ADMIN_CANT_GIVE_MORE_THAN_ONE: "Solo puedes otorgar un [governorship|E] a la vez" #NT!
+ GRANT_TITLES_ITEM_CANT_GIVE_NOBLE_FAMILY: "No puedes regalar tu título [noble_family|E]"
+ GRANT_TITLES_ITEM_CANT_GIVE_ADMIN_PRIMARY: "No puedes regalar tu primaria [governorship|E]"
+ GRANT_TITLES_ITEM_ADMIN_CANT_GIVE_MORE_THAN_ONE: "Solo puedes otorgar un [governorship|E] a la vez"
  GRANT_TITLE_BARONY_HAS_COUNTY_SELECTED: "Se concederá ya que se está concediendo [TITLE.GetName]"
  CANNOT_GRANT_LEASED_OUT_TITLE: "@warning_icon! #X No puedes otorgar un [leased|E] título de salida#!"
  CANNOT_GRANT_TITLE_OF_LESSEE: "@warning_icon! #X No puedes otorgar este título, debería estar [leased|El] fuera de tu [court_chaplain|E]. Busque uno para su [council|E] si no tiene uno.#!"
@@ -368,11 +368,11 @@
  REVOKE_BARONY_TITLE_CANT_GIVE_REASON_OCCUPIED: "@warning_icon! #X [TITLE.GetName] es [occupied|E]#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_BARONY_WITHOUT_COUNTY: "@warning_icon! #X Debes revocar todo [TITLE_2.GetName] en lugar de solo [TITLE.GetName]#!"
  REVOKE_TITLE_CANT_REVOKE_REASON_NON_DOMAIN_BARONY: "@warning_icon! #X [TITLE.GetName] es un [barony|E] que no forma parte de tu [domain|E] y por lo tanto no puede ser revocado de [CHARACTER.GetShortUIName]#!"
- REVOKE_TITLE_CANT_REVOKE_NOBLE_FAMILY: "#X [TITLE.GetName] es un título [noble_family|E] y por lo tanto no puede revocarse#!" #NT!
+ REVOKE_TITLE_CANT_REVOKE_NOBLE_FAMILY: "#X [TITLE.GetName] es un título [noble_family|E] y por lo tanto no puede revocarse#!"
   
- create_noble_family_title: "Crear título de familia noble para [THIS.GetCharacter.GetNameNoTooltip]" #NT!
- create_noble_family_tt: "Se convierte en el jefe de un nuevo [noble_family|E]" #NT!
- create_noble_family_tt_past: "Se convirtió en el jefe de un nuevo [noble_family|E]" #NT!
+ create_noble_family_title: "Crear título de familia noble para [THIS.GetCharacter.GetNameNoTooltip]"
+ create_noble_family_tt: "Se convierte en el jefe de un nuevo [noble_family|E]"
+ create_noble_family_tt_past: "Se convirtió en el jefe de un nuevo [noble_family|E]"
   
  REVOKE_TITLE_SELECT: "@warning_icon! #X No hay ningún título seleccionado#!"
  REVOKE_TITLE_REVOKE: "#T Revocar el título seleccionado de [CHARACTER.GetShortUIName]#!"
@@ -426,15 +426,15 @@
  WE_ARE_BEST_FRIENDS: "Sois mejores amigos: $VALUE|=+0$"
  YOU_ARE_MY_RELATIVE: "Eres familia: $VALUE|=+0$"
  THEY_ARE_MY_CLOSE_KIN: "[secondary_recipient.GetShortUINameNoTooltip] es familia: $VALUE|=+0$"
- THEY_ARE_MY_CLOSE_FAMILY: "[secondary_recipient.GetShortUINameNoTooltip] es [recipient.GetHerHis] [close_family|E]: $VALUE|=+0$" #NT!
+ THEY_ARE_MY_CLOSE_FAMILY: "[secondary_recipient.GetShortUINameNoTooltip] es [recipient.GetHerHis] [close_family|E]: $VALUE|=+0$"
  YOU_ARE_MY_HOUSE_MEMBER: "Eres de [recipient.GetHerHis] [house|E]: $VALUE|=+0$"
  YOU_ARE_MY_DYNASTY_MEMBER: "Eres de [recipient.GetHerHis] [dynasty|E]: $VALUE|=+0$"
  THEY_ARE_MY_HOUSE_MEMBER: "[secondary_recipient.GetShortUINameNoTooltip] es de [recipient.GetHerHis] [house|E]: $VALUE|=+0$"
  THEY_ARE_MY_DYNASTY_MEMBER: "[secondary_recipient.GetShortUINameNoTooltip] es de [recipient.GetHerHis] [dynasty|E]: $VALUE|=+0$"
  I_AM_A_KINSLAYER: "Soy un [kinslayer|E]: $VALUE|=+0$"
  THEY_ARE_A_KINSLAYER: "[secondary_recipient.GetShortUINameNoTooltip] es un [kinslayer|E]: $VALUE|=+0$"
- SECONDARY_RECIPIENT_GOVERNOR_EFFICIENCY: "[secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$" #NT!
- RECIPIENT_GOVERNOR_EFFICIENCY: "[recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$" #NT!
+ SECONDARY_RECIPIENT_GOVERNOR_EFFICIENCY: "[secondary_recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
+ RECIPIENT_GOVERNOR_EFFICIENCY: "[recipient.GetShortUINamePossessiveNoTooltip|U] [governor_efficiency|E]: $VALUE|=+0$"
   # Divorce interaction loc 
  DIVORCE_GIVEN_CHILDREN: "[secondary_recipient.GetShortUINameNoTooltip] te ha dado varios hijos sanos: $VALUE|=+0$"
  I_DIVORCED_X: "¡[recipient.GetShortUINameNoTooltip] le ha concedido a [actor.GetShortUINameNoTooltip] el divorcio de [secondary_recipient.GetShortUINameNoTooltip]!"
@@ -567,11 +567,12 @@
  INTRIGUE_SKILL_REASON: "Habilidad de intriga: $VALUE|=+0$"
  LEARNING_SKILL_REASON: "Habilidad de aprendizaje: $VALUE|=+0$"
  PROWESS_SKILL_REASON: "Habilidad de destreza: $VALUE|=+0$"
+ SCHEME_TARGET_LEARNING: "[target.GetShortUINamePossessive|U] [learning|E]: $VALUE|+=0$" #NT!
  AI_I_AM_INCAPABLE: "Soy [GetTrait('incapable').GetName(GetNullCharacter)]: $VALUE|=+0$"
  AI_I_AM_IMPRISONED: "Soy [imprisoned|E]: $VALUE|=+0$"
  AI_LACKS_POLITICAL_CAPITAL: "No tengo el [prestige|E] para resistirme: $VALUE|=+0$"
- SPYMASTER_INTRIGUE_SKILL_REASON: "[owner.GetShortUINamePossessive|U] [owner.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionNamePossesive ] Habilidad de intriga: $VALUE|=+0$" #NT!
- SECOND_INTRIGUE_SKILL_REASON: "Habilidad de intriga de [owner.GetShortUINamePossessive|U] [GetCourtPositionType( 'second_camp_officer' ).GetName ]: $VALUE|=+0$" #NT!
+ SPYMASTER_INTRIGUE_SKILL_REASON: "[owner.GetShortUINamePossessive|U] [owner.GetCouncillorPosition( 'councillor_spymaster' ).GetPositionNamePossesive ] Habilidad de intriga: $VALUE|=+0$"
+ SECOND_INTRIGUE_SKILL_REASON: "Habilidad de intriga de [owner.GetShortUINamePossessive|U] [GetCourtPositionType( 'second_camp_officer' ).GetName ]: $VALUE|=+0$"
   
  HAS_DIPLOMACY_SKILL_REASON: "Tiene [diplomacy_skill|E]: $VALUE|=+0$"
  HAS_MARTIAL_SKILL_REASON: "Tiene [martial_skill|E]: $VALUE|=+0$"
@@ -585,27 +586,29 @@
  LOW_LEGITIMACY_REASON: "[actor.GetShortUINamePossessive|U] bajo [legitimacy|E]: $VALUE|=+0$"
  HIGH_LEGITIMACY_REASON: "[actor.GetShortUINamePossessive|U] alto [legitimacy|E]: $VALUE|=+0$"
   
- INFLUENCE_REASON: "Ejercitando [influence|E]: $VALUE|=+0$ #weak (basado en tu [influence_level])#!" #NT!
- RECIPIENT_SECRET: "Usando [recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$" #NT!
- SECONDARY_RECIPIENT_SECRET: "Usando [secondary_recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$" #NT!
+ INFLUENCE_REASON: "Ejercitando [influence|E]: $VALUE|=+0$ #weak (basado en tu [influence_level])#!"
+ RECIPIENT_SECRET: "Usando [recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$"
+ SECONDARY_RECIPIENT_SECRET: "Usando [secondary_recipient.GetShortUINamePossessive] [secret|E]: $VALUE|=+0$"
   
- AI_OPINION_INFLUENCE_LEVEL_IMPOTENT: "[GetInfluenceLevelName('(int32)0')] [influence_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_INFLUENCE_LEVEL_PERSUASIVE: "[GetInfluenceLevelName('(int32)2')] [influence_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_INFLUENCE_LEVEL_CONTROLLING: "[GetInfluenceLevelName('(int32)3')] [influence_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_INFLUENCE_LEVEL_AUTHORITATIVE: "[GetInfluenceLevelName('(int32)4')] [influence_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_INFLUENCE_LEVEL_IMPERIOUS: "[GetInfluenceLevelName('(int32)5')] [influence_level|E]: $VALUE|=+0$" #NT!
+ AI_OPINION_INFLUENCE_LEVEL_IMPOTENT: "[GetInfluenceLevelName('(int32)0')] [influence_level|E]: $VALUE|=+0$"
+ AI_OPINION_INFLUENCE_LEVEL_PERSUASIVE: "[GetInfluenceLevelName('(int32)2')] [influence_level|E]: $VALUE|=+0$"
+ AI_OPINION_INFLUENCE_LEVEL_CONTROLLING: "[GetInfluenceLevelName('(int32)3')] [influence_level|E]: $VALUE|=+0$"
+ AI_OPINION_INFLUENCE_LEVEL_AUTHORITATIVE: "[GetInfluenceLevelName('(int32)4')] [influence_level|E]: $VALUE|=+0$"
+ AI_OPINION_INFLUENCE_LEVEL_IMPERIOUS: "[GetInfluenceLevelName('(int32)5')] [influence_level|E]: $VALUE|=+0$"
   
- AI_OPINION_PRESTIGE_LEVEL_DISGRACED: "[GetPrestigeLevelName('(int32)0')] [prestige_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_PRESTIGE_LEVEL_ESTABLISHED: "[GetPrestigeLevelName('(int32)1')] [prestige_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_PRESTIGE_LEVEL_DISTINGUISHED: "[GetPrestigeLevelName('(int32)2')] [prestige_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_PRESTIGE_LEVEL_ILLUSTRIOUS: "[GetPrestigeLevelName('(int32)3')] [prestige_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_PRESTIGE_LEVEL_EXALTED: "[GetPrestigeLevelName('(int32)4')] [prestige_level|E]: $VALUE|=+0$" #NT!
- AI_OPINION_PRESTIGE_LEVEL_LEGENDARY: "[GetPrestigeLevelName('(int32)5')] [prestige_level|E]: $VALUE|=+0$" #NT!
+ AI_OPINION_PRESTIGE_LEVEL_DISGRACED: "[GetPrestigeLevelName('(int32)0')] [prestige_level|E]: $VALUE|=+0$"
+ AI_OPINION_PRESTIGE_LEVEL_ESTABLISHED: "[GetPrestigeLevelName('(int32)1')] [prestige_level|E]: $VALUE|=+0$"
+ AI_OPINION_PRESTIGE_LEVEL_DISTINGUISHED: "[GetPrestigeLevelName('(int32)2')] [prestige_level|E]: $VALUE|=+0$"
+ AI_OPINION_PRESTIGE_LEVEL_ILLUSTRIOUS: "[GetPrestigeLevelName('(int32)3')] [prestige_level|E]: $VALUE|=+0$"
+ AI_OPINION_PRESTIGE_LEVEL_EXALTED: "[GetPrestigeLevelName('(int32)4')] [prestige_level|E]: $VALUE|=+0$"
+ AI_OPINION_PRESTIGE_LEVEL_LEGENDARY: "[GetPrestigeLevelName('(int32)5')] [prestige_level|E]: $VALUE|=+0$"
   
- TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE: "¡Gasta @influence_icon![influence|E] para aumentar la aceptación" #NT!
- INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION: "Gasto [influence|E]: $VALUE|=+0$" #NT!
- not_same_realm_tt: "Tú y [recipient.GetShortUIName] son #BOLD, no #! en el mismo reino" #NT!
- INFLUENCE_SEND_OPTION: "¡Gasta @influence_icon![influence|E]" #NT!
- HISTORICAL_ADMIN_REASON: "Histórico [recipient.GetCulture.GetName] vínculos con [administrative|E] [government|E]: $VALUE|=+0$" #NT!
- WILL_BE_VASSALIZED_REASON: "Se convertirá en tu [vassal|E]: $VALUE|=+0$" #NT!
- RIVAL_VASSAL_REASON: "Rival [vassal|E] dentro del [realm|E]: $VALUE|=+0$" #NT!
+ TRADE_INFLUENCE_FOR_BETTER_AI_ACCEPTANCE: "¡Gasta @influence_icon![influence|E] para aumentar la aceptación"
+ INFLUENCE_INTERACTION_ACCEPTANCE_SEND_OPTION: "Gasto [influence|E]: $VALUE|=+0$"
+ not_same_realm_tt: "Tú y [recipient.GetShortUIName] son #BOLD, no #! en el mismo reino"
+ INFLUENCE_SEND_OPTION: "¡Gasta @influence_icon![influence|E]"
+ HISTORICAL_ADMIN_REASON: "Histórico [recipient.GetCulture.GetName] vínculos con [administrative|E] [government|E]: $VALUE|=+0$"
+ WILL_BE_VASSALIZED_REASON: "Se convertirá en tu [vassal|E]: $VALUE|=+0$"
+ RIVAL_VASSAL_REASON: "Rival [vassal|E] dentro del [realm|E]: $VALUE|=+0$"
+  
+ negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe] debe poseer o recibir al menos un condado junto con [target.GetName]" #NT!

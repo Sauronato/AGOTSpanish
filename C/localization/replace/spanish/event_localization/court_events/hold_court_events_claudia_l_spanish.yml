@@ -50,12 +50,12 @@
  hold_court.6050.b: "Ya lo se. El Santo vino a mí en un sueño."
  hold_court.6050.c: "¡Erradicaré esta tontería blasfema de inmediato!"
  hold_court.6050.d: "No me importan las supersticiones campesinas."
- tougher_to_convert: "Comunidad religiosa fuerte" #NT!
- tougher_to_convert_desc: "La identidad religiosa de este condado se ha fortalecido recientemente, lo que hace que sea más difícil convertirlos.\n\n#N -25%#! Velocidad de conversión de fe" #NT!
- easier_to_convert: "Comunidad religiosa debilitada" #NT!
- easier_to_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión de fe" #NT!
- easier_to_culture_convert: "Comunidad religiosa debilitada" #NT!
- easier_to_culture_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión cultural" #NT!
+ tougher_to_convert: "Comunidad religiosa fuerte"
+ tougher_to_convert_desc: "La identidad religiosa de este condado se ha fortalecido recientemente, lo que hace que sea más difícil convertirlos.\n\n#N -25%#! Velocidad de conversión de fe"
+ easier_to_convert: "Comunidad religiosa debilitada"
+ easier_to_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión de fe"
+ easier_to_culture_convert: "Comunidad religiosa debilitada"
+ easier_to_culture_convert_desc: "La identidad religiosa de este condado se ha debilitado recientemente, lo que los hace más susceptibles a nuevas creencias.\n\n#P +25%#! Velocidad de conversión cultural"
   #A Convenient offer 
  hold_court.6060.t: "Una oferta conveniente"
  hold_court.6060.desc: "[6060_rich.Custom2('MyCharacterIntroduction', ROOT.Char)|U] está frente a mí, con una expresión esperanzada en su rostro.\n\n"Mi [ROOT.Char.GetLadyLord],"
@@ -66,8 +66,8 @@
  hold_court.6060.b.tt.success: "[6060_rich.GetFirstNameNoTooltip] acepta pagar más"
  hold_court.6060.b.tt.failure: "[6060_rich.GetFirstNameNoTooltip] mantiene la última oferta de [6060_rich.GetHerHis] y pareces un tonto codicioso"
  hold_court.6060.c: "No necesito tu oro."
- character_title_cannot_be_revoked_tt: "No podrás revocar el título durante 25 años." #NT!
- protected_from_revocation.tt: "Los títulos de este personaje están protegidos contra revocación." #NT!
+ character_title_cannot_be_revoked_tt: "No podrás revocar el título durante 25 años."
+ protected_from_revocation.tt: "Los títulos de este personaje están protegidos contra revocación."
   #Budding Ally 
  hold_court.6070.t: "Aliado en ciernes"
  hold_court.6070.desc: "" Mi [ROOT.Char.GetLadyLord], mi nombre es [6070_embassy.GetTitledFirstName] y soy embajador de su aliado, [6070_sender.GetTitledFirstName]. Le traigo [6070_sender.GetHerHis] saludos amistosos y una oferta.\n\n"Mi señor valora su amistad por encima de todo, así que, como signo de buena voluntad, [6070_sender.GetSheHe] te envía este niño — [6070_sender.GetHerHis] [6070_child.Custom('GetDaughterSon')] [6070_child.GetFirstName] — para que lo eduques como quieras.\n\n"Mi [6070_sender.GetLadyLord] espera que este gesto fortalezca vuestra alianza y confía en que [6070_child.GetFirstNameNoTooltip] estará en Grandes manos.""
@@ -93,7 +93,7 @@
  hold_court.6090.a: "[court_chaplain.GetFirstNameNicknamedNoTooltip], mira lo que puedes hacer."
  hold_court.6090.b: "[high_almoner.GetFirstNameNoTooltip], organizar algunas limosnas locales."
  hold_court.6090.c: "La convivencia pacífica es siempre la mejor solución."
- title_granted_to_local_leader_tt: "Se le otorgará [6090_main_county.GetName] a un local de la fe [6090_main_county.GetCountyData.GetFaith.GetName]. Tendrás un [hook|E] en ellos." #NT!
+ title_granted_to_local_leader_tt: "Se le otorgará [6090_main_county.GetName] a un local de la fe [6090_main_county.GetCountyData.GetFaith.GetName]. Tendrás un [hook|E] en ellos."
  hold_court.6090.d: "[executioner.GetFirstNameNoTooltip], haz un ejemplo de algunos incrédulos."
  hold_court.6090.e: "Parece que ese es tu problema, no el mío."
   #A Land at War 
@@ -162,7 +162,7 @@
  hold_court.6131.desc_hunt: "\n\nTambién me complace escuchar un informe detallado de la importante ayuda ofrecida por [6130_helper.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  hold_court.6131.desc_dead: "\n\nLamentablemente, [6130_helper.GetTitledFirstName] no vivió lo suficiente para ver completado el catastro que [6130_helper.GetSheHe] había prometido ayudar a realizar."
  hold_court.6131.a: "¡Oro bien gastado!"
- all_realm_county: "Cada [realm|E] [county|E]" #NT!
+ all_realm_county: "Cada [realm|E] [county|E]"
   #A Cumbersome Gift 
  hold_court.6140.t: "Un regalo engorroso"
  hold_court.6140.desc:2 "The whole throne room falls silent as [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] enters triumphantly, followed by two struggling servants who are dragging #EMP a chained [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling proudly, [6140_gifter.GetFirstNameNoTooltip] exclaims: "Toda la sala del trono queda en silencio mientras [6140_gifter.Custom2('MyCharacterIntroduction', ROOT.Char)] entra triunfante, seguido por dos sirvientes que luchan y arrastran con orgullo a #EMP y a [ROOT.Char.Custom('GetAnimalType')]#!.\n\nSmiling encadenados. [6140_gifter.GetFirstNameNoTooltip] exclama: "¡Mi [ROOT.Char.GetLadyLord], te presento un regalo digno del gobernante más poderoso del mundo! ¡Esta magnífica bestia fue cazada en el [6140_province.GetTerrain.GetNameNoTooltip] de [6140_province.GetCounty.GetName], y ahora te la ofrezco como símbolo de mi devoción y de tu poder incomparable!"" #NT!

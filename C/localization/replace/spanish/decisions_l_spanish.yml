@@ -170,8 +170,8 @@
  seek_aid_of_the_spirits_decision: "Buscar la ayuda de los espíritus"
  seek_aid_of_the_spirits_decision_tooltip: "Intentar contactar con los espíritus"
  seek_aid_of_the_spirits_decision_desc: "#F Los espíritus habitan el mundo que nos rodea. Algunos son útiles, otros malignos y otros indiferentes a las vidas humanas.\n\nPuedo pedir a mi [ROOT.Char.Custom('MyPriestTitle')] que los invoque para que me ayuden en mis empeños, pero quién sabe cuál será el resultado…#!"
- seek_aid_of_the_spirits_decision_desc_landless: "\n\nPuedo realizar un ritual para invocarlos y pedirles que me ayuden en mis esfuerzos, pero no se sabe cuál será el resultado...#!" #NT!
- seek_aid_of_the_spirits_decision_desc_landed: "\n\nPuedo pedirle a mi [ROOT.Char.Custom('MyPriestTitle')] que los invoque para que me ayuden en mis esfuerzos, pero no hay forma de saber cuál será el resultado...#!" #NT!
+ seek_aid_of_the_spirits_decision_desc_landless: "\n\nPuedo realizar un ritual para invocarlos y pedirles que me ayuden en mis esfuerzos, pero no se sabe cuál será el resultado...#!"
+ seek_aid_of_the_spirits_decision_desc_landed: "\n\nPuedo pedirle a mi [ROOT.Char.Custom('MyPriestTitle')] que los invoque para que me ayuden en mis esfuerzos, pero no hay forma de saber cuál será el resultado...#!"
  seek_aid_of_the_spirits_decision_effect.tt: "Ruegas a lo invisible…"
  seek_aid_of_the_spirits_decision_confirm: "Buscar la ayuda de los espíritus"
   
@@ -338,8 +338,8 @@
  embrace_english_culture_decision_confirm: "Adoptar cultura inglesa"
  decision_embrace_english_culture_get_innovations: "La [culture|E] inglesa gana todas las [innovations|E] normandas y anglosajonas"
  MY_CAPITAL_IS_IN_ENGLAND: "Tu [realm_capital|E] está en Inglaterra"
- HARRYING_ENDED: "El acoso al Norte ha terminado" #NT!
- HIGH_PACIFICATION: "El [harrying_pacification|E] de The Harrying of the North ha sido:\n$EFFECT_LIST_BULLET$Mayor que [harrying_resistance|E]\n$EFFECT_LIST_BULLET$Más de #V 16#! durante al menos #V 1#! año" #NT!
+ HARRYING_ENDED: "El acoso al Norte ha terminado"
+ HIGH_PACIFICATION: "El [harrying_pacification|E] de The Harrying of the North ha sido:\n$EFFECT_LIST_BULLET$Mayor que [harrying_resistance|E]\n$EFFECT_LIST_BULLET$Más de #V 16#! durante al menos #V 1#! año"
   
  restore_dumnonia_decision: "Restaurar el reino de Cornualles"
  restore_dumnonia_decision_desc: "El espíritu de la antigua Dumnonia ha ardido en nuestro corazón desde que Bruto desembarcó por vez primera en las costas brumosas de Britania. Ahora arderá con más fuerza si cabe."
@@ -447,17 +447,17 @@
  convert_to_feudalism_liege_converted_decision_confirm: "Adoptar el método [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip]"
  convert_to_feudalism_liege_converted_decision_tooltip: "Cambiar el tipo de [government|E] convirtiéndose en [feudal|E] o [clan|E]"
   
- convert_clan_to_feudalism_through_liege_decision: "Adopta [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] Caminos por Lieja" #NT!
- convert_clan_to_feudalism_through_liege_decision_desc: "Mi gobierno [ROOT.Char.GetGovernment.GetNameNoTooltip] está desactualizado en comparación con el sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] de mi señor; podría pedirle ayuda a [ROOT.Char.GetLiege.GetHerHis] para reestructurar mi reino en líneas similares." #NT!
- convert_clan_to_feudalism_through_liege_decision_confirm: "Adoptar [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U] Maneras" #NT!
- convert_clan_to_feudalism_through_liege_decision_tooltip: "Cambia el tipo [government|E] a [feudal|E]" #NT!
+ convert_clan_to_feudalism_through_liege_decision: "Adopta [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] Caminos por Lieja"
+ convert_clan_to_feudalism_through_liege_decision_desc: "Mi gobierno [ROOT.Char.GetGovernment.GetNameNoTooltip] está desactualizado en comparación con el sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] de mi señor; podría pedirle ayuda a [ROOT.Char.GetLiege.GetHerHis] para reestructurar mi reino en líneas similares."
+ convert_clan_to_feudalism_through_liege_decision_confirm: "Adoptar [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U] Maneras"
+ convert_clan_to_feudalism_through_liege_decision_tooltip: "Cambia el tipo [government|E] a [feudal|E]"
   
- convert_feudalism_to_clan_through_liege_decision: "Adopta [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] Caminos por Lieja" #NT!
- convert_feudalism_to_clan_through_liege_decision_desc: "Mi gobierno [ROOT.Char.GetGovernment.GetNameNoTooltip] está desactualizado en comparación con el sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] de mi señor; podría pedirle ayuda a [ROOT.Char.GetLiege.GetHerHis] para reestructurar mi reino en líneas similares." #NT!
- convert_feudalism_to_clan_through_liege_decision_confirm: "Adoptar [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U] Maneras" #NT!
- convert_feudalism_to_clan_through_liege_decision_tooltip: "Cambia el tipo [government|E] a [clan|E]" #NT!
- same_faith_as_liege: "Lo mismo [religion|E] que [liege|E] o un [faith_righteous|E] [faith|E]" #NT!
- same_culture_as_liege: "Lo mismo [culture|E] que [liege|E] o [cultural_acceptance|E] #P +90%#!" #NT!
+ convert_feudalism_to_clan_through_liege_decision: "Adopta [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] Caminos por Lieja"
+ convert_feudalism_to_clan_through_liege_decision_desc: "Mi gobierno [ROOT.Char.GetGovernment.GetNameNoTooltip] está desactualizado en comparación con el sistema [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip] de mi señor; podría pedirle ayuda a [ROOT.Char.GetLiege.GetHerHis] para reestructurar mi reino en líneas similares."
+ convert_feudalism_to_clan_through_liege_decision_confirm: "Adoptar [ROOT.Char.GetLiege.GetGovernment.GetNameNoTooltip|U] Maneras"
+ convert_feudalism_to_clan_through_liege_decision_tooltip: "Cambia el tipo [government|E] a [clan|E]"
+ same_faith_as_liege: "Lo mismo [religion|E] que [liege|E] o un [faith_righteous|E] [faith|E]"
+ same_culture_as_liege: "Lo mismo [culture|E] que [liege|E] o [cultural_acceptance|E] #P +90%#!"
   
  convert_whole_realm_to_feudalism_decision: "Adoptar el método [ROOT.Char.Custom('GetTribalReformGovernment')]"
  convert_whole_realm_to_feudalism_decision_desc: "Para que [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip] se siga extendiendo y desarrollando, necesitamos abandonar los viejos métodos y adoptar un nuevo modo de gobierno, todos juntos."
@@ -773,11 +773,11 @@
  declare_canarias_decision_tooltip: "Formar el [kingdom|E] de las Canarias"
  canarias_must_be_developed_tt: "Todo [county|E] de las [GetTitleByKey('d_canarias').GetNameNoTier] debe tener al menos 10 de [development|E]"
  canarias_must_be_filled_tt: "Toda [barony|E] de las [GetTitleByKey('d_canarias').GetNameNoTier] debe contener al menos una [holding|E]"
- government_is_feudal_tt: "Tu [government|E] es [GetGovernment('feudal_government').GetNameWithIcon]" #NT!
- government_is_clan_tt: "Tu [government|E] es [GetGovernment('clan_government').GetNameWithIcon]" #NT!
- government_is_tribal_tt: "Tu [government|E] es [GetGovernment('tribal_government').GetNameWithIcon]" #NT!
- government_is_adventurer_tt: "Tu [government|E] es [GetGovernment('landless_adventurer_government').GetNameWithIcon]" #NT!
- you_are_an_adventurer_tt: "Eres un [GetGovernment('landless_adventurer_government').GetNameWithIcon]" #NT!
+ government_is_feudal_tt: "Tu [government|E] es [GetGovernment('feudal_government').GetNameWithIcon]"
+ government_is_clan_tt: "Tu [government|E] es [GetGovernment('clan_government').GetNameWithIcon]"
+ government_is_tribal_tt: "Tu [government|E] es [GetGovernment('tribal_government').GetNameWithIcon]"
+ government_is_adventurer_tt: "Tu [government|E] es [GetGovernment('landless_adventurer_government').GetNameWithIcon]"
+ you_are_an_adventurer_tt: "Eres un [GetGovernment('landless_adventurer_government').GetNameWithIcon]"
   
   
   #Form custom kingdom or empire 
@@ -809,13 +809,13 @@
  minor_decisions.0001.desc: "[knight.GetTitledFirstName] ha escuchado mi llamamiento y llega a la corte como invitado"
  invite_knights_decision_tooltip: "Se invita a $knight_culture_player_plural$ a visitar la corte"
   
- invite_poets_decision: "Invitar a los poetas" #NT!
- invite_poets_decision_desc: "Como promotor de las bellas artes y protector de todos aquellos que aprecian las palabras, es justo que reúna a más poetas para que se unan a mi salón. Enviaré un heraldo para que mis súbditos sepan que estoy en busca de hábiles escritores." #NT!
- invite_poets_decision.tt: "Al menos #P 3#! poetas con #V [SCOPE.ScriptValue('invite_poets_decision_standard_value')|0]#! o más [diplomacy|E] llegarán a tu Campamento en los próximos meses\n$EFFECT_LIST_BULLET$En algunos casos raros, llegarán candidatos extremadamente capaces." #NT!
- invite_poets_decision_tooltip: "Los poetas son convocados a visitar tu corte." #NT!
- minor_decisions.0004.t: "El poeta ha llegado" #NT!
- minor_decisions.0004.desc: "[poet.GetTitledFirstName] se enteró de mi convocatoria y llegó como mi invitado" #NT!
- invite_poets_decision_confirm: "$invite_knights_decision_confirm$" #NT!
+ invite_poets_decision: "Invitar a los poetas"
+ invite_poets_decision_desc: "Como promotor de las bellas artes y protector de todos aquellos que aprecian las palabras, es justo que reúna a más poetas para que se unan a mi salón. Enviaré un heraldo para que mis súbditos sepan que estoy en busca de hábiles escritores."
+ invite_poets_decision.tt: "Al menos #P 3#! poetas con #V [SCOPE.ScriptValue('invite_poets_decision_standard_value')|0]#! o más [diplomacy|E] llegarán a tu Campamento en los próximos meses\n$EFFECT_LIST_BULLET$En algunos casos raros, llegarán candidatos extremadamente capaces."
+ invite_poets_decision_tooltip: "Los poetas son convocados a visitar tu corte."
+ minor_decisions.0004.t: "El poeta ha llegado"
+ minor_decisions.0004.desc: "[poet.GetTitledFirstName] se enteró de mi convocatoria y llegó como mi invitado"
+ invite_poets_decision_confirm: "$invite_knights_decision_confirm$"
   
  invite_claimants_decision: "Invitar pretendientes"
  invite_claimants_decision_desc: "Para poder ampliar mi señorío, debo tener derechos válidos sobre tierras extranjeras. Por suerte, hay muchos pretendientes dispuestos a ser mis vasallos a cambio de apoyo militar."
@@ -857,7 +857,7 @@
  revoke_false_conversion_decision.tt: "Reconvertirme públicamente a mi antigua [faith|E]"
  revoke_false_conversion_decision.desc: "#F Aunque oficialmente sigo la fe [ROOT.Char.GetFaith.GetAdjectiveNoTooltip], no puedo abandonar muchos de los rituales y creencias privadas de mis antepasados. ¿Y si eran mejores las antiguas costumbres?#!"
  revoke_false_conversion_decision.desc.tt: "Me reconvierto públicamente a mi [faith|E] anterior. Mis [vassals|E] y [close_family|E] pueden convertirse conmigo"
- revoke_false_conversion_decision.desc.tt_landless: "Te reconviertes a tu anterior [faith|E]. Tu [close_family|E] puede convertirse contigo." #NT!
+ revoke_false_conversion_decision.desc.tt_landless: "Te reconviertes a tu anterior [faith|E]. Tu [close_family|E] puede convertirse contigo."
  revoke_false_conversion_decision.desc.tt_own_faith_counties: "Si eres [independent|E], los [counties|E] dentro de tu [realm|E] que tengan [GetModifier('false_convert_modifier').GetNameWithTooltip] pueden convertirse contigo en caso de que profesen tu [faith|E] en secreto"
  revoke_false_conversion_decision_confirm: "Hacer una proclamación"
  encourage_confession_of_false_conversions_decision: "Amnistía para las conversiones falsas"
@@ -975,7 +975,7 @@
  stress_loss_irritable_decision: "Despotricar"
  stress_loss_irritable_decision_desc: "Descargar toda la ira y la frustración que estaba conteniendo… ¡No hay nada mejor para despejar la mente! La próxima vez que tenga ocasión, lo haré."
  stress_loss_irritable_decision_effect_tooltip: "Insulto a un vasallo al azar"
- stress_loss_irritable_decision_effect_courtier_tooltip: "Insultas a un desconocido [THIS.Char.Custom('GetCourtier')|l]" #NT!
+ stress_loss_irritable_decision_effect_courtier_tooltip: "Insultas a un desconocido [THIS.Char.Custom('GetCourtier')|l]"
  stress_loss_irritable_decision_tooltip: "Desbarrar para calmar la mente"
  stress_loss_irritable_decision_confirm: "¡Oye, tú! ¡Sí, tú!"
   
@@ -1316,7 +1316,7 @@
  clear_ground_for_legendary_building_tooltip: "Desbloquea un espacio de [special_building|E] en una de tus provincias"
  clear_ground_for_legendary_building_desc: "La leyenda está completa y mi gente está inspirada. Mis tierras están maduras para un nuevo monumento a mi leyenda, pero ¿qué debería construirse exactamente?"
  clear_ground_for_legendary_building_confirm: "Limpiar el terreno"
- clear_ground_for_legendary_building_no_barony_tt: "Debes tener un [barony|E] que sea el capital de su [county|E], no sea [leased|E] y no tenga ya una ranura [special_building|E]#!" #NT!
+ clear_ground_for_legendary_building_no_barony_tt: "Debes tener un [barony|E] que sea el capital de su [county|E], no sea [leased|E] y no tenga ya una ranura [special_building|E]#!"
  clear_ground_legendary_hunting_lodge_tt: "Debes haber completado un [legend|E] Mítico o Ilustre sobre una bestia, o tener #V 50#! experiencia en el [GetTrait('lifestyle_hunter').GetName( GetNullCharacter )] [trait|E], o el [GetCultureTradition('tradition_hunters').GetName] o [GetCultureTradition('tradition_ep2_avid_falconers').GetName] [tradition|E]"
  clear_ground_legendary_watchtower_tt: "Debes haber completado un [legend|E] Mítico o Ilustre mientras tenías [GetDynastyPerk('ce1_legitimacy_legacy_5').GetName] [dynasty_perk|E]"
  clear_ground_legendary_shrine_tt: "Debes haber completado un Santo Mítico o Ilustre [legend|E]"
@@ -1329,12 +1329,12 @@
  can_build_legendary_hunting_lodge_tt: "Obtenga acceso a la opción [GetBuilding('legendary_hunting_lodge').GetName] en el #EMP $clear_ground_for_legendary_building$#! [decision|E]"
  CHOOSE_LEGENDARY_BUILDING: "Seleccione un edificio"
  clear_ground_for_legendary_building.toast: "Los motivos son claros"
- pick_legendary_barony_decision: "$clear_ground_for_legendary_building$" #NT!
- pick_legendary_barony_decision_desc: "$clear_ground_for_legendary_building_desc$" #NT!
- pick_legendary_barony_decision_tooltip: "$clear_ground_for_legendary_building_tooltip$" #NT!
- pick_legendary_barony_decision_confirm: "Limpiar el terreno" #NT!
- clear_ground_for_legendary_building_custom_tt: "Ahora elegirás un [barony|E] retenido para tu legendario [building|E]\n#weak Debe ser la capital de su [county|E], no ser [leased|E], y no tener ya una ranura [special_building|E]#!" #NT!
- PICK_LEGENDARY_BARONY_DECISION_LABEL: "Ubicación:" #NT!
+ pick_legendary_barony_decision: "$clear_ground_for_legendary_building$"
+ pick_legendary_barony_decision_desc: "$clear_ground_for_legendary_building_desc$"
+ pick_legendary_barony_decision_tooltip: "$clear_ground_for_legendary_building_tooltip$"
+ pick_legendary_barony_decision_confirm: "Limpiar el terreno"
+ clear_ground_for_legendary_building_custom_tt: "Ahora elegirás un [barony|E] retenido para tu legendario [building|E]\n#weak Debe ser la capital de su [county|E], no ser [leased|E], y no tener ya una ranura [special_building|E]#!"
+ PICK_LEGENDARY_BARONY_DECISION_LABEL: "Ubicación:"
   
   
  isolate_family_decision: "Entrar en aislamiento"
@@ -1361,86 +1361,87 @@
   
  SELECT_ACTION: "Seleccione una acción"
   
- restore_old_vasconia_decision: "Restaurar la antigua Vasconia" #NT!
- restore_old_vasconia_decision_desc: "Las antiguas tierras de los vascos han sido oprimidas por invasores extranjeros durante demasiado tiempo; ya es hora de que les quede claro nuestro reclamo sobre las tierras de nuestros antepasados." #NT!
- restore_old_vasconia_decision_tooltip: "[GetTitleByKey('k_navarra').GetNameNoTier] se convierte en el Reino de Vasconia." #NT!
- restore_old_vasconia_decision_effects_de_jure_tt: "Si está completamente controlado, el [duchies|E] de [GetTitleByKey('d_gascogne').GetNameNoTier], [GetTitleByKey('d_armagnac').GetNameNoTier], [GetTitleByKey('d_languedoc').GetNameNoTier], [GetTitleByKey('d_barcelona').GetNameNoTier], [GetTitleByKey('d_aragon').GetNameNoTier], [GetTitleByKey('d_castilla').GetNameNoTier] y [GetTitleByKey('d_cantabria').GetNameNoTier] se convertirán cada uno en [de_jure|E] Vasconia." #NT!
- restore_old_vasconia_decision_confirm: "¡Nuestras tierras, devueltas!" #NT!
- restore_old_vasconia_decision_navarra_tt: "Tienes el [kingdom|E] de [GetTitleByKey('k_navarra').GetNameNoTier], o no existe" #NT!
- restore_old_vasconia_decision_vasconia_tt: "[kingdom|E] de [GetTitleByKey('k_navarra').GetNameNoTier] se renombra #V Vasconia#!" #NT!
- restore_old_vasconia_decision_vasconia_past_tt: "[kingdom|E] de Navarra pasa a llamarse #V Vasconia#!" #NT!
- restore_old_vasconia_decision_superseded_tt: "Cualquier [de_jure|E] [kingdoms|E] retenido que se vuelva redundante por esto será destruido" #NT!
- restore_old_vasconia_decision_counties_tt: "Al menos 4 [realm|E] [counties|E] debe tener tu [culture|E]" #NT!
- restore_old_vasconia_decision_culture_tt: "Tu [culture|E] debe ser $basque$, o un [divergent_culture|E] con la herencia $heritage_iberian_name$" #NT!
+ restore_old_vasconia_decision: "Restaurar la antigua Vasconia"
+ restore_old_vasconia_decision_desc: "Las antiguas tierras de los vascos han sido oprimidas por invasores extranjeros durante demasiado tiempo; ya es hora de que les quede claro nuestro reclamo sobre las tierras de nuestros antepasados."
+ restore_old_vasconia_decision_tooltip: "[GetTitleByKey('k_navarra').GetNameNoTier] se convierte en el Reino de Vasconia."
+ restore_old_vasconia_decision_effects_de_jure_tt: "Si está completamente controlado, el [duchies|E] de [GetTitleByKey('d_gascogne').GetNameNoTier], [GetTitleByKey('d_armagnac').GetNameNoTier], [GetTitleByKey('d_languedoc').GetNameNoTier], [GetTitleByKey('d_barcelona').GetNameNoTier], [GetTitleByKey('d_aragon').GetNameNoTier], [GetTitleByKey('d_castilla').GetNameNoTier] y [GetTitleByKey('d_cantabria').GetNameNoTier] se convertirán cada uno en [de_jure|E] Vasconia."
+ restore_old_vasconia_decision_confirm: "¡Nuestras tierras, devueltas!"
+ restore_old_vasconia_decision_navarra_tt: "Tienes el [kingdom|E] de [GetTitleByKey('k_navarra').GetNameNoTier], o no existe"
+ restore_old_vasconia_decision_vasconia_tt: "[kingdom|E] de [GetTitleByKey('k_navarra').GetNameNoTier] se renombra #V Vasconia#!"
+ restore_old_vasconia_decision_vasconia_past_tt: "[kingdom|E] de Navarra pasa a llamarse #V Vasconia#!"
+ restore_old_vasconia_decision_superseded_tt: "Cualquier [de_jure|E] [kingdoms|E] retenido que se vuelva redundante por esto será destruido"
+ restore_old_vasconia_decision_counties_tt: "Al menos 4 [realm|E] [counties|E] debe tener tu [culture|E]"
+ restore_old_vasconia_decision_culture_tt: "Tu [culture|E] debe ser $basque$, o un [divergent_culture|E] con la herencia $heritage_iberian_name$"
   
- recruit_court_position_decision: "Reclutar para un puesto en la corte" #NT!
- recruit_court_position_decision_desc: "Para que un [ROOT.Char.Custom('RealmType')] funcione bien es necesario el trabajo de muchas manos. Enviaré a mis sirvientes a todas partes para encontrar candidatos adecuados para los puestos vacantes en mi corte." #NT!
- recruit_court_position_decision_tooltip: "Busca un personaje para ocupar un [court_position|E] u otro rol necesario en tu [court|E] por una tarifa\n\n#weak Por ejemplo, puedes contratar a un [GetCourtPositionType('court_physician_court_position').GetName]#!" #NT!
- CHOOSE_CHARACTER_ROLE_DECISION_NEXT_STEP_BUTTON: "Elija el tipo de puesto" #NT!
- recruit_court_position_decision_confirm: "Confirmar" #NT!
- find_wet_nurse_decision.tt: "No hay ningún niño en la corte que necesite un $wet_nurse_court_position$" #NT!
- recruit_court_physician_cooldown_tt: "Reclutar un [GetCourtPositionType('court_physician_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_court_physician_cooldown' ))]" #NT!
- recruit_travel_leader_cooldown_tt: "Reclutar un [GetCourtPositionType('travel_leader_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_travel_leader_cooldown' ))]" #NT!
- recruit_wet_nurse_cooldown_tt: "Reclutar un [GetCourtPositionType('wet_nurse_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_wet_nurse_cooldown' ))]" #NT!
- recruit_charioteer_cooldown_tt: "Reclutar un [GetCourtPositionType('charioteer_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_charioteer_cooldown' ))]" #NT!
- recruit_bookmaker_cooldown_tt: "Reclutar un [GetCourtPositionType('bookmaker_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bookmaker_cooldown' ))]" #NT!
- recruit_court_gardener_cooldown_tt: "Reclutar un [GetCourtPositionType('court_gardener_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_court_gardener_cooldown' ))]" #NT!
- recruit_linguist_self_cooldown_tt: "El reclutamiento de un lingüista está en espera por [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_linguist_self_cooldown' ))]" #NT!
- recruit_linguist_liege_cooldown_tt: "El reclutamiento de un lingüista está en espera por [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_linguist_liege_cooldown' ))]" #NT!
- recruit_court_position_decision_tt: "Recibirás dos candidatos adecuados entre los cuales elegir para el seleccionado [court_position|E]" #NT!
+ recruit_court_position_decision: "Reclutar para un puesto en la corte"
+ recruit_court_position_decision_desc: "Para que un [ROOT.Char.Custom('RealmType')] funcione bien es necesario el trabajo de muchas manos. Enviaré a mis sirvientes a todas partes para encontrar candidatos adecuados para los puestos vacantes en mi corte."
+ recruit_court_position_decision_tooltip: "Busca un personaje para ocupar un [court_position|E] u otro rol necesario en tu [court|E] por una tarifa\n\n#weak Por ejemplo, puedes contratar a un [GetCourtPositionType('court_physician_court_position').GetName]#!"
+ CHOOSE_CHARACTER_ROLE_DECISION_NEXT_STEP_BUTTON: "Elija el tipo de puesto"
+ recruit_court_position_decision_confirm: "Confirmar"
+ find_wet_nurse_decision.tt: "No hay ningún niño en la corte que necesite un $wet_nurse_court_position$"
+ recruit_court_physician_cooldown_tt: "Reclutar un [GetCourtPositionType('court_physician_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_court_physician_cooldown' ))]"
+ recruit_travel_leader_cooldown_tt: "Reclutar un [GetCourtPositionType('travel_leader_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_travel_leader_cooldown' ))]"
+ recruit_wet_nurse_cooldown_tt: "Reclutar un [GetCourtPositionType('wet_nurse_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_wet_nurse_cooldown' ))]"
+ recruit_charioteer_cooldown_tt: "Reclutar un [GetCourtPositionType('charioteer_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_charioteer_cooldown' ))]"
+ recruit_bookmaker_cooldown_tt: "Reclutar un [GetCourtPositionType('bookmaker_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bookmaker_cooldown' ))]"
+ recruit_court_gardener_cooldown_tt: "Reclutar un [GetCourtPositionType('court_gardener_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_court_gardener_cooldown' ))]"
+ recruit_chief_eunuch_cooldown_tt: "Reclutar un [GetCourtPositionType('chief_eunuch_court_position').GetName] está en tiempo de reutilización para [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_chief_eunuch_cooldown' ))]" #NT!
+ recruit_linguist_self_cooldown_tt: "El reclutamiento de un lingüista está en espera por [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_linguist_self_cooldown' ))]"
+ recruit_linguist_liege_cooldown_tt: "El reclutamiento de un lingüista está en espera por [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_linguist_liege_cooldown' ))]"
+ recruit_court_position_decision_tt: "Recibirás dos candidatos adecuados entre los cuales elegir para el seleccionado [court_position|E]"
   
- write_muwashshah_poem_decision: "Escribe un poema de Muwashshah" #NT!
- write_muwashshah_poem_decision_desc: "Con todas las mentes brillantes que tengo a mi alrededor, escribir un nuevo poema en el popular estilo Muwashshah sería bastante sencillo. Con tantas personas ansiosas por leer mis obras, también tengo múltiples opciones para su lugar de descanso final." #NT!
- write_muwashshah_poem_decision_tooltip: "Escribe un nuevo poema para venderlo por dinero, conservarlo para ti o distribuirlo gratis.\n\n$EFFECT_LIST_BULLET$Vender el poema te reportará una suma de [gold_i][gold|E]\n$EFFECT_LIST_BULLET$Conservar el poema agrega un modificador al Tomo de Doble Luna [artifact|E]\n$EFFECT_LIST_BULLET$Distribuir el poema resultará en [prestige_i][prestige|E] adicionales." #NT!
- sell_poem_decision: "Vender poema" #NT!
- sell_poem_decision_tooltip: "Vende el poema, trae [gold_i][gold|E]" #NT!
- keep_poem_decision: "Conservar el poema" #NT!
- keep_poem_decision_tooltip: "Mantén el poema, modificando tu Tomo de Doble Luna [artifact|E]" #NT!
- distribute_poem_decision: "Distribuir poema" #NT!
- distribute_poem_decision_tooltip: "Distribuye el poema a las masas de forma gratuita, ganando [prestige_i][prestige|E]" #NT!
- CHOOSE_POEM_DECISION_NEXT_STEP_BUTTON: "Elige el destino del poema" #NT!
- write_muwashshah_poem_decision_confirm: "Empezar a trabajar" #NT!
+ write_muwashshah_poem_decision: "Escribe un poema de Muwashshah"
+ write_muwashshah_poem_decision_desc: "Con todas las mentes brillantes que tengo a mi alrededor, escribir un nuevo poema en el popular estilo Muwashshah sería bastante sencillo. Con tantas personas ansiosas por leer mis obras, también tengo múltiples opciones para su lugar de descanso final."
+ write_muwashshah_poem_decision_tooltip: "Escribe un nuevo poema para venderlo por dinero, conservarlo para ti o distribuirlo gratis.\n\n$EFFECT_LIST_BULLET$Vender el poema te reportará una suma de [gold_i][gold|E]\n$EFFECT_LIST_BULLET$Conservar el poema agrega un modificador al Tomo de Doble Luna [artifact|E]\n$EFFECT_LIST_BULLET$Distribuir el poema resultará en [prestige_i][prestige|E] adicionales."
+ sell_poem_decision: "Vender poema"
+ sell_poem_decision_tooltip: "Vende el poema, trae [gold_i][gold|E]"
+ keep_poem_decision: "Conservar el poema"
+ keep_poem_decision_tooltip: "Mantén el poema, modificando tu Tomo de Doble Luna [artifact|E]"
+ distribute_poem_decision: "Distribuir poema"
+ distribute_poem_decision_tooltip: "Distribuye el poema a las masas de forma gratuita, ganando [prestige_i][prestige|E]"
+ CHOOSE_POEM_DECISION_NEXT_STEP_BUTTON: "Elige el destino del poema"
+ write_muwashshah_poem_decision_confirm: "Empezar a trabajar"
   
- rebuke_roman_revanchism_sicily: "Reprender el revanchismo romano por Sicilia" #NT!
- rebuke_roman_revanchism_sicily_desc: "¿Qué derecho tienen estos orientales a las hermosas tierras de la península meridional? No han traído a este lugar más que ruina y una burocracia incompetente, y su expulsión sin duda sólo traerá beneficios." #NT!
- rebuke_roman_revanchism_sicily_tooltip: "Quitar [GetTitleByKey('k_sicily').GetNameNoTier] de [GetTitleByKey('e_byzantium').GetDefinitiveName]" #NT!
- rebuke_roman_revanchism_sicily_confirm: "¡Destruye la memoria de Justiniano!" #NT!
- rebuke_roman_revanchism_sicily.tt.requirements.lower_tally: "Controlas al menos [EmptyScope.ScriptValue('rebuke_roman_revanchism_sicily_requirements_no_ere_county_value')|V0] [counties|E] dentro de [GetGeographicalRegion('custom_sicily').GetName]" #NT!
- rebuke_roman_revanchism_sicily.tt.requirements.ere_booted: "[GetTitleByKey('e_byzantium').GetDefinitiveName] controla #V 0#! [counties|E] dentro de [GetGeographicalRegion('custom_sicily').GetName]" #NT!
- rebuke_roman_revanchism_sicily.tt.requirements.higher_tally: "Controlas al menos [EmptyScope.ScriptValue('rebuke_roman_revanchism_sicily_requirements_some_ere_county_value')|V0] [counties|E] dentro de [GetGeographicalRegion('custom_sicily').GetName]" #NT!
- rebuke_roman_revanchism_sicily.tt.sicily_has_no_holder: "No [ruler|E] contiene [GetTitleByKey('k_sicily').GetNameNoTier]" #NT!
- rebuke_roman_revanchism_sicily.tt.requirements.ere_cant_be_revanchising: "O bien [GetTitleByKey('e_byzantium').GetBaseNameNoTier] no ha tomado [GetDecisionWithKey('retake_eastern_provinces_decision').GetName] [decision|E] o no existe" #NT!
- rebuke_roman_revanchism_sicily.tt.requirements.ere_not_in_italy: "[GetTitleByKey('e_byzantium').GetDefinitiveName] controla menos de [EmptyScope.ScriptValue('rebuke_roman_revanchism_sicily_requirements_no_ere_in_italy_county_value')|V0] [counties|E] dentro de [GetGeographicalRegion('world_europe_south_italy').GetName]" #NT!
- rebuke_roman_revanchism_sicily.tt.effects.option.1: "Si te reúnes [GetTitleByKey('k_sicily').GetNameNoTier] con el norte" #NT!
- rebuke_roman_revanchism_sicily.tt.effects.option.2: "Si alineas [GetTitleByKey('k_sicily').GetNameNoTier] con sus vecinos mediterráneos" #NT!
- rebuke_roman_revanchism_sicily.tt.effects.option.3: "Si decides anexar [GetTitleByKey('k_sicily').GetNameNoTier]" #NT!
+ rebuke_roman_revanchism_sicily: "Reprender el revanchismo romano por Sicilia"
+ rebuke_roman_revanchism_sicily_desc: "¿Qué derecho tienen estos orientales a las hermosas tierras de la península meridional? No han traído a este lugar más que ruina y una burocracia incompetente, y su expulsión sin duda sólo traerá beneficios."
+ rebuke_roman_revanchism_sicily_tooltip: "Quitar [GetTitleByKey('k_sicily').GetNameNoTier] de [GetTitleByKey('e_byzantium').GetDefinitiveName]"
+ rebuke_roman_revanchism_sicily_confirm: "¡Destruye la memoria de Justiniano!"
+ rebuke_roman_revanchism_sicily.tt.requirements.lower_tally: "Controlas al menos [EmptyScope.ScriptValue('rebuke_roman_revanchism_sicily_requirements_no_ere_county_value')|V0] [counties|E] dentro de [GetGeographicalRegion('custom_sicily').GetName]"
+ rebuke_roman_revanchism_sicily.tt.requirements.ere_booted: "[GetTitleByKey('e_byzantium').GetDefinitiveName] controla #V 0#! [counties|E] dentro de [GetGeographicalRegion('custom_sicily').GetName]"
+ rebuke_roman_revanchism_sicily.tt.requirements.higher_tally: "Controlas al menos [EmptyScope.ScriptValue('rebuke_roman_revanchism_sicily_requirements_some_ere_county_value')|V0] [counties|E] dentro de [GetGeographicalRegion('custom_sicily').GetName]"
+ rebuke_roman_revanchism_sicily.tt.sicily_has_no_holder: "No [ruler|E] contiene [GetTitleByKey('k_sicily').GetNameNoTier]"
+ rebuke_roman_revanchism_sicily.tt.requirements.ere_cant_be_revanchising: "O bien [GetTitleByKey('e_byzantium').GetBaseNameNoTier] no ha tomado [GetDecisionWithKey('retake_eastern_provinces_decision').GetName] [decision|E] o no existe"
+ rebuke_roman_revanchism_sicily.tt.requirements.ere_not_in_italy: "[GetTitleByKey('e_byzantium').GetDefinitiveName] controla menos de [EmptyScope.ScriptValue('rebuke_roman_revanchism_sicily_requirements_no_ere_in_italy_county_value')|V0] [counties|E] dentro de [GetGeographicalRegion('world_europe_south_italy').GetName]"
+ rebuke_roman_revanchism_sicily.tt.effects.option.1: "Si te reúnes [GetTitleByKey('k_sicily').GetNameNoTier] con el norte"
+ rebuke_roman_revanchism_sicily.tt.effects.option.2: "Si alineas [GetTitleByKey('k_sicily').GetNameNoTier] con sus vecinos mediterráneos"
+ rebuke_roman_revanchism_sicily.tt.effects.option.3: "Si decides anexar [GetTitleByKey('k_sicily').GetNameNoTier]"
   
- roman_restoration.1211.t: "El sueño de Justiniano deshecho" #NT!
- roman_restoration.1211.desc.intro: "Durante cientos de años, los bizantinos se han aferrado a sus últimos bastiones en la península italiana, hundiendo clavos ensangrentados en la tierra y negándose a soltarse sin importar cuánto los pateemos.\n\nYa no más. Hoy, su control finalmente está lo suficientemente suelto como para liberarse para siempre, y me aseguraré de que todo el mundo lo sepa.\n\n" #NT!
- roman_restoration.1211.desc.body.emperor_exists: "[emperor.GetTitledFirstNameNicknamed] puede enfurecerse y quejarse de todo lo que le gusta a [emperor.GetSheHe] —si a [emperor.GetSheHe] le puede molestarse siquiera en mencionar una provincia separatista lejos del cómodo palacio de [emperor.GetHerHis]— pero [emperor.GetSheHe] no puede hacer nada para detenerme." #NT!
- roman_restoration.1211.desc.body.emperor_absent: "Ni siquiera hay un emperador que proteste por mi proclamación. Patético." #NT!
- roman_restoration.1211.desc.outro: "\n\nLa única pregunta es... ¿dónde veo que pertenece la bella [GetTitleByKey('k_sicily').GetNameNoTier] ahora?" #NT!
- roman_restoration.1211.a: "Estamos atados para siempre a nuestros hermanos del norte." #NT!
- roman_restoration.1211.b: "El destino de Sicilia está, como siempre, al otro lado del mar." #NT!
- roman_restoration.1211.c: "¡Por supuesto, con [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]!" #NT!
+ roman_restoration.1211.t: "El sueño de Justiniano deshecho"
+ roman_restoration.1211.desc.intro: "Durante cientos de años, los bizantinos se han aferrado a sus últimos bastiones en la península italiana, hundiendo clavos ensangrentados en la tierra y negándose a soltarse sin importar cuánto los pateemos.\n\nYa no más. Hoy, su control finalmente está lo suficientemente suelto como para liberarse para siempre, y me aseguraré de que todo el mundo lo sepa.\n\n"
+ roman_restoration.1211.desc.body.emperor_exists: "[emperor.GetTitledFirstNameNicknamed] puede enfurecerse y quejarse de todo lo que le gusta a [emperor.GetSheHe] —si a [emperor.GetSheHe] le puede molestarse siquiera en mencionar una provincia separatista lejos del cómodo palacio de [emperor.GetHerHis]— pero [emperor.GetSheHe] no puede hacer nada para detenerme."
+ roman_restoration.1211.desc.body.emperor_absent: "Ni siquiera hay un emperador que proteste por mi proclamación. Patético."
+ roman_restoration.1211.desc.outro: "\n\nLa única pregunta es... ¿dónde veo que pertenece la bella [GetTitleByKey('k_sicily').GetNameNoTier] ahora?"
+ roman_restoration.1211.a: "Estamos atados para siempre a nuestros hermanos del norte."
+ roman_restoration.1211.b: "El destino de Sicilia está, como siempre, al otro lado del mar."
+ roman_restoration.1211.c: "¡Por supuesto, con [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]!"
   
- roman_restoration.1212.t: "$roman_restoration.1211.t$" #NT!
- roman_restoration.1212.desc.intro: "Después de cientos de años de resistencia tenaz y decidida a las hordas bárbaras de un tipo u otro que despojaban los últimos vestigios de nuestra antigua patria, [taker.GetTitledFirstName] finalmente ha tenido éxito donde tantos otros han fracasado.\n\nEl perro ha eliminado los últimos restos del control romano en la península occidental." #NT!
- roman_restoration.1212.desc.new_empire.italia: "En lugar de alinear fuertemente el territorio con [GetTitleByKey('e_italy').GetNameNoTier]." #NT!
- roman_restoration.1212.desc.new_empire.maghreb: "llevándolo a la esfera africana junto con el [GetTitleByKey('e_maghreb').GetNameNoTier]." #NT!
- roman_restoration.1212.desc.new_empire.own: "absorbiendo el territorio en el propio reino de [taker.GetHerHis] de [taker.GetPrimaryTitle.GetBaseNameNoTier]." #NT!
- roman_restoration.1212.desc.outro.territory_left: "Los escasos y dispersos puestos de avanzada que nos quedan no ofrecen ninguna resistencia real a esta farsa." #NT!
- roman_restoration.1212.desc.outro.no_territory_left: "\n\nSin ni un solo puerto en el sur a nuestro nombre, no hay nada que podamos hacer para resistir esta injusticia." #NT!
- roman_restoration.1212.a: "¡Ese patán presuntuoso!" #NT!
+ roman_restoration.1212.t: "$roman_restoration.1211.t$"
+ roman_restoration.1212.desc.intro: "Después de cientos de años de resistencia tenaz y decidida a las hordas bárbaras de un tipo u otro que despojaban los últimos vestigios de nuestra antigua patria, [taker.GetTitledFirstName] finalmente ha tenido éxito donde tantos otros han fracasado.\n\nEl perro ha eliminado los últimos restos del control romano en la península occidental."
+ roman_restoration.1212.desc.new_empire.italia: "En lugar de alinear fuertemente el territorio con [GetTitleByKey('e_italy').GetNameNoTier]."
+ roman_restoration.1212.desc.new_empire.maghreb: "llevándolo a la esfera africana junto con el [GetTitleByKey('e_maghreb').GetNameNoTier]."
+ roman_restoration.1212.desc.new_empire.own: "absorbiendo el territorio en el propio reino de [taker.GetHerHis] de [taker.GetPrimaryTitle.GetBaseNameNoTier]."
+ roman_restoration.1212.desc.outro.territory_left: "Los escasos y dispersos puestos de avanzada que nos quedan no ofrecen ninguna resistencia real a esta farsa."
+ roman_restoration.1212.desc.outro.no_territory_left: "\n\nSin ni un solo puerto en el sur a nuestro nombre, no hay nada que podamos hacer para resistir esta injusticia."
+ roman_restoration.1212.a: "¡Ese patán presuntuoso!"
   
- roman_restoration.1213.t: "$roman_restoration.1211.t$" #NT!
- roman_restoration.1213.desc.intro: "A pesar de haber derramado un océano de sangre por sus territorios italianos a lo largo de los siglos, [taker.GetTitledFirstNameNicknamed] finalmente ha obligado a los romanos a admitir que [GetTitleByKey('k_sicily').GetNameNoTier] está perdido para ellos.\n\nEn cambio, las tierras ahora parecen" #NT!
- roman_restoration.1213.desc.new_empire.italia: "el resto de la península en busca de socorro." #NT!
- roman_restoration.1213.desc.new_empire.maghreb: "sus vecinos africanos del otro lado del océano, considerándose parte de sus antiguos primos del otro lado del [GetTitleByKey('e_maghreb').GetNameNoTier]." #NT!
- roman_restoration.1213.desc.new_empire.own: "[taker.GetHerHis] posee [taker.GetPrimaryTitle.GetBaseName] como el #EMP nuevo#! imperio." #NT!
- roman_restoration.1213.desc.body.emperor_exists: "[emperor.GetTitledFirstName] protesta tanto como se puede esperar por la pérdida de una provincia menor, pero no más que eso." #NT!
- roman_restoration.1213.desc.body.emperor_absent: "Sin siquiera un emperador que exprese su oposición, la Italia romana muere con un gemido." #NT!
- roman_restoration.1213.desc.outro.territory_left: "Los pocos remanentes del imperio que quedan al otro lado del Adriático ahora parecen más amenazados que nunca." #NT!
- roman_restoration.1213.desc.outro.no_territory_left: "\n\nSin que quede siquiera una sola ciudad romana en las tierras perdidas, simplemente no queda nadie que lamente la muerte del sueño de Justiniano." #NT!
- roman_restoration.1213.a: "¡Buena suerte!" #NT!
- roman_restoration.1213.b: "¡En qué tiempos tan oscuros vivimos!" #NT!
+ roman_restoration.1213.t: "$roman_restoration.1211.t$"
+ roman_restoration.1213.desc.intro: "A pesar de haber derramado un océano de sangre por sus territorios italianos a lo largo de los siglos, [taker.GetTitledFirstNameNicknamed] finalmente ha obligado a los romanos a admitir que [GetTitleByKey('k_sicily').GetNameNoTier] está perdido para ellos.\n\nEn cambio, las tierras ahora parecen"
+ roman_restoration.1213.desc.new_empire.italia: "el resto de la península en busca de socorro."
+ roman_restoration.1213.desc.new_empire.maghreb: "sus vecinos africanos del otro lado del océano, considerándose parte de sus antiguos primos del otro lado del [GetTitleByKey('e_maghreb').GetNameNoTier]."
+ roman_restoration.1213.desc.new_empire.own: "[taker.GetHerHis] posee [taker.GetPrimaryTitle.GetBaseName] como el #EMP nuevo#! imperio."
+ roman_restoration.1213.desc.body.emperor_exists: "[emperor.GetTitledFirstName] protesta tanto como se puede esperar por la pérdida de una provincia menor, pero no más que eso."
+ roman_restoration.1213.desc.body.emperor_absent: "Sin siquiera un emperador que exprese su oposición, la Italia romana muere con un gemido."
+ roman_restoration.1213.desc.outro.territory_left: "Los pocos remanentes del imperio que quedan al otro lado del Adriático ahora parecen más amenazados que nunca."
+ roman_restoration.1213.desc.outro.no_territory_left: "\n\nSin que quede siquiera una sola ciudad romana en las tierras perdidas, simplemente no queda nadie que lamente la muerte del sueño de Justiniano."
+ roman_restoration.1213.a: "¡Buena suerte!"
+ roman_restoration.1213.b: "¡En qué tiempos tan oscuros vivimos!"

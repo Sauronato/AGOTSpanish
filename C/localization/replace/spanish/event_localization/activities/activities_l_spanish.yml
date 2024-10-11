@@ -157,8 +157,8 @@
  hunt_phase_desc: "Persigue tu presa y decide cómo derribarla."
  activity_hunt_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Caza"
  activity_hunt_desc: "La caza proporciona emociones y peligros en abundancia, y sirve para proporcionar una base firme en la equitación y el tiro con arco.\n\nLas cacerías son supervisadas por el [GetCourtPositionType('master_of_hunt_court_position').GetName()], quien anunciará el [hunt_sightings_no_prefix|E] de las bestias comunes, raras y feroces."
- activity_hunt_desc_regular: "La persecución proporciona emociones y peligros en abundancia, y sirve para proporcionar una base sólida en la equitación y el tiro con arco.\n\nLas cacerías son supervisadas por el [GetCourtPositionType('master_of_hunt_court_position').GetName()], que anunciará [hunt_sightings_no_prefix|E] de bestias comunes, raras y feroces." #NT!
- activity_hunt_desc_adventurer: "La caza proporciona emociones y peligros en abundancia, y sirve para proporcionar una base sólida en la equitación y el tiro con arco.\n\nComo una caza [GetGovernment('landless_adventurer_government').GetName] da menos [prestige_i][prestige|E] pero proporciona [provisions_i][provisions|E]. Las cacerías están supervisadas por el [GetCourtPositionType('huntperson_camp_officer').GetName()].\n\nAl comienzo de una cacería, tendrás la oportunidad de comprar derechos de caza por [gold_i][gold|E], de lo contrario obtendrás [GetTrait('gallowsbait').GetName( GetNullCharacter )] [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName] [prestige_i]0." #NT!
+ activity_hunt_desc_regular: "La persecución proporciona emociones y peligros en abundancia, y sirve para proporcionar una base sólida en la equitación y el tiro con arco.\n\nLas cacerías son supervisadas por el [GetCourtPositionType('master_of_hunt_court_position').GetName()], que anunciará [hunt_sightings_no_prefix|E] de bestias comunes, raras y feroces."
+ activity_hunt_desc_adventurer: "La caza proporciona emociones y peligros en abundancia, y sirve para proporcionar una base sólida en la equitación y el tiro con arco.\n\nComo una caza [GetGovernment('landless_adventurer_government').GetName] da menos [prestige_i][prestige|E] pero proporciona [provisions_i][provisions|E]. Las cacerías están supervisadas por el [GetCourtPositionType('huntperson_camp_officer').GetName()].\n\nAl comienzo de una cacería, tendrás la oportunidad de comprar derechos de caza por [gold_i][gold|E], de lo contrario obtendrás [GetTrait('gallowsbait').GetName( GetNullCharacter )] [GetTrait( 'gallowsbait' ).GetTraitTrackByKey( 'poacher' ).GetName] [prestige_i]0."
  activity_hunt_owner: "Cazador"
   #Meditation 
  activity_meditation: "Meditación aislada"
@@ -216,7 +216,7 @@
  activity_invite_rule_vassals: "Vasallos"
  activity_invite_rule_vassals_no_default: "$activity_invite_rule_vassals$"
  activity_invite_rule_fellow_vassals: "Compañeros vasallos"
- activity_invite_rule_vassals_and_below: "Todas las materias" #NT!
+ activity_invite_rule_vassals_and_below: "Todas las materias"
  activity_invite_neighbouring_rulers: "Gobernantes vecinos"
  activity_invite_rule_knights: "Caballeros"
  activity_invite_rule_knights_no_default: "$activity_invite_rule_knights$"
@@ -314,5 +314,5 @@
  liege_accolades_glory_reward_tour: "[root_scope.GetShortUINamePossessive] [root_scope.Custom('KnightCulturePluralNoTooltip')|l] cabalgaron por la tierra, su esplendor y dominio más evidentes"
   
   # Chariot Race 
- activity_chariot_race_province_constantinople: "\n#P +++ Constantinopla#!" #NT!
- activity_chariot_race_province_capital: "\n#P ++ Es tu capital#!" #NT!
+ activity_chariot_race_province_constantinople: "\n#P +++ Constantinopla#!"
+ activity_chariot_race_province_capital: "\n#P ++ Es tu capital#!"
