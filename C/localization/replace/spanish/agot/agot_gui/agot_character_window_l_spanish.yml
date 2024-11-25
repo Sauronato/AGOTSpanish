@@ -1,7 +1,70 @@
 ﻿l_spanish:
+  #Bastard Surnames 
+ bastard_surname_flowers: "Flores" #NT!
+ bastard_surname_hill: "Colina" #NT!
+ bastard_surname_pyke: "Pico" #NT!
+ bastard_surname_rivers: "Ríos" #NT!
+ bastard_surname_sand: "Arena" #NT!
+ bastard_surname_snow: "Nieve" #NT!
+ bastard_surname_stone: "Piedra" #NT!
+ bastard_surname_storm: "Tormenta" #NT!
+ bastard_surname_waters: "Aguas" #NT!
+ regular_surname: "[ROOT.Char.GetHouse.GetNameNoTooltip]" #NT!
+ SURNAME_SWITCH: "[ROOT.Char.Custom('SurnameSwitch')]" #NT!
+  
+  #Bastard Surnames Possessive 
+ bastard_surname_flowers_possessive: "Flores'" #NT!
+ bastard_surname_hill_possessive: "Sierras" #NT!
+ bastard_surname_pyke_possessive: "De Pyke" #NT!
+ bastard_surname_rivers_possessive: "Ríos" #NT!
+ bastard_surname_sand_possessive: "Playa" #NT!
+ bastard_surname_snow_possessive: "Nieve" #NT!
+ bastard_surname_stone_possessive: "De piedra" #NT!
+ bastard_surname_storm_possessive: "Tormenta" #NT!
+ bastard_surname_waters_possessive: "Aguas" #NT!
+ regular_surname_possessive: "[ROOT.Char.GetHouse.GetNameNoTooltip]" #NT!
+ SURNAME_SWITCH_POSSESSIVE: "[ROOT.Char.Custom('SurnameSwitchPossessive')]" #NT!
+  
+ word_no_space: ""
+ word_with_space: " "
+  
+ of_title_loc: "[ROOT.Char.Custom('AdditionalWordSpace')]de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ of_title_spouse_loc: "[ROOT.Char.Custom('AdditionalWordSpace')]de [ROOT.Char.GetPrimarySpouse.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ of_title_father_loc: "[ROOT.Char.Custom('AdditionalWordSpace')]de [ROOT.Char.GetFather.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+ of_title_mother_loc: "[ROOT.Char.Custom('AdditionalWordSpace')]de [ROOT.Char.GetMother.GetPrimaryTitle.GetNameNoTierNoTooltip]" #NT!
+  
+ AGOT_NAME_CHARACTER: "#high [Character.GetCharacterViewNameNicknamedNoTooltipRegnal][Character.Custom('WordSpace')][Character.Custom('SurnameSwitch')]#!" #NT!
+ AGOT_NAME_CHARACTER_COMMA: "#high [Character.GetCharacterViewNameNicknamedNoTooltipRegnal][Character.Custom('WordSpace')][Character.Custom('SurnameSwitch')]#!#medium, #!" #NT!
+ AGOT_NAME_CHARACTER_TOOLTIP: "#high [Character.GetCharacterViewNameNicknamedNoTooltipRegnal][Character.Custom('WordSpace')][Character.Custom('SurnameSwitch')]#![Character.Custom('TitleSuffix')]" #NT!
+  
+ AGOT_NAME_UNLANDED_CHARACTER: "#high [Character.GetCharacterViewNameNicknamedNoTooltipRegnal]#!" #NT!
+ AGOT_NAME_UNLANDED_CHARACTER_COMMA: "#high [Character.GetCharacterViewNameNicknamedNoTooltipRegnal]#!#medium , #!" #NT!
+ AGOT_NAME_UNLANDED_CHARACTER_TOOLTIP: "#high [ROOT.Char.GetCharacterViewNameNicknamedNoTooltipRegnal]#![ROOT.Char.Custom('TitleSuffix')]" #NT!
+  
  AGOT_NAME_SER: "Ser [Character.GetTitledFirstNameNicknamedNoTooltip] [Character.GetHouse.GetNameNoTooltip]"
+ AGOT_NAME_SER_COMMA: "Ser [Character.GetFirstNameNicknamedNoTooltip] [Character.Custom('SurnameSwitch')]#medium , #!" #NT!
+ AGOT_NAME_SER_TOOLTIP: "#high Ser [Character.GetFirstNameNicknamedNoTooltip] [Character.Custom('SurnameSwitch')]#!" #NT!
+  
  AGOT_NAME_SER_BASTARD: "Ser [Character.GetTitledFirstNameNicknamedNoTooltip]"
+ AGOT_NAME_SER_BASTARD_COMMA: "Ser [Character.GetTitledFirstNameNicknamedNoTooltip] [Character.Custom('SurnameSwitch')]#medium , #!" #NT!
+ AGOT_NAME_SER_BASTARD_TOOLTIP: "#high Ser [Character.GetTitledFirstNameNicknamedNoTooltip] [Character.Custom('SurnameSwitch')]#!" #NT!
+  
  AGOT_NAME_SILENT_SISTER: "Hermana silenciosa [Character.GetTitledFirstNameNicknamedNoTooltip]"
+ AGOT_NAME_SILENT_SISTER_COMMA: "Hermana silenciosa [Character.GetTitledFirstNameNicknamedNoTooltip]#medium , #!" #NT!
+ AGOT_NAME_SILENT_SISTER_TOOLTIP: "#high Hermana silenciosa [Character.GetTitledFirstNameNicknamedNoTooltip]#!" #NT!
+  
+ AGOT_NAME_MAESTER: "[Character.Custom('MaesterCheck')] [Character.GetTitledFirstNameNicknamedNoTooltip]" #NT!
+ AGOT_NAME_MAESTER_COMMA: "[Character.Custom('MaesterCheck')] [Character.GetTitledFirstNameNicknamedNoTooltip]#medium , #!" #NT!
+ AGOT_NAME_MAESTER_TOOLTIP: "#high [Character.Custom('MaesterCheck')] [Character.GetTitledFirstNameNicknamedNoTooltip]#!" #NT!
+  
+ AGOT_NAME_BASTARD: "[Character.GetTitledFirstNameNicknamedNoTooltip] [Character.Custom('SurnameSwitch')]" #NT!
+ AGOT_NAME_BASTARD_COMMA: "[Character.GetTitledFirstNameNicknamedNoTooltip] [Character.Custom('SurnameSwitch')]#medium , #!" #NT!
+ AGOT_NAME_BASTARD_TOOLTIP: "#high [Character.GetTitledFirstNameNicknamedNoTooltip] [Character.Custom('SurnameSwitch')]#!" #NT!
+  
+ AGOT_NAME_HIGH_SEPTON: "[Character.GetNickname]" #NT!
+ AGOT_NAME_HIGH_SEPTON_COMMA: "[Character.GetNickname]#medium , #!" #NT!
+  
+  
  KNIGHT_LABEL: "Caballero"
  SQUIRES_LABEL: "Escudero"
  PARAMOUR_LABEL: "Amante"

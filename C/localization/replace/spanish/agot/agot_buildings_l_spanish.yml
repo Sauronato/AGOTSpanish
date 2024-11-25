@@ -292,10 +292,10 @@
  building_agot_shadow_tower_01: "Torre de la sombra"
  building_agot_shadow_tower_01_desc: "El segundo castillo más occidental de la Guardia, la Torre de las Sombras, sirve para proteger el Puente de las Calaveras."
   
- building_type_agot_bridge_of_skulls_01: "$building_agot_bridge_of_skulls_01$" #NT!
- building_type_agot_bridge_of_skulls_01_desc: "$building_agot_bridge_of_skulls_01_desc$" #NT!
- building_agot_bridge_of_skulls_01: "Puente de las Calaveras" #NT!
- building_agot_bridge_of_skulls_01_desc: "El Puente de las Calaveras cruza la Garganta y es la única forma de rodear el Muro por tierra. Sin embargo, está protegido por dos castillos de la Guardia de la Noche: la Torre de las Sombras y el de Westwatch-by-the-Bridge." #NT!
+ building_type_agot_bridge_of_skulls_01: "$building_agot_bridge_of_skulls_01$"
+ building_type_agot_bridge_of_skulls_01_desc: "$building_agot_bridge_of_skulls_01_desc$"
+ building_agot_bridge_of_skulls_01: "Puente de las Calaveras"
+ building_agot_bridge_of_skulls_01_desc: "El Puente de las Calaveras cruza la Garganta y es la única forma de rodear el Muro por tierra. Sin embargo, está protegido por dos castillos de la Guardia de la Noche: la Torre de las Sombras y el de Westwatch-by-the-Bridge."
   
   # Crownlands Special Buildings 
  building_type_the_red_keep_01: "La fortaleza roja"
@@ -456,7 +456,7 @@
  building_agot_cider_hall_01_desc: "Famoso en todo Poniente por las habilidades de su progenitor con el arco, es más bien la elaboración de sidra de manzana lo que enriqueció Cider Hall."
   
  building_type_agot_starpike_01: "Estrella"
- building_type_agot_starpike_01_desc: "Starpike, el primero y más grande de los tres castillos de la Casa Peake, se encuentra en las Marcas de Dorne como testimonio de la longevidad y resistencia de la casa." #NT!
+ building_type_agot_starpike_01_desc: "Starpike, el primero y más grande de los tres castillos de la Casa Peake, se encuentra en las Marcas de Dorne como testimonio de la longevidad y resistencia de la casa."
  building_agot_starpike_01: "Solar de Lorimar"
  building_agot_starpike_01_desc: "La Casa Peake tiene numerosos antepasados ​​famosos, pero fue Lorimar Peake quien llevó a la casa a su mayor poder. Fue él quien desterró a sus antiguos rivales de la Casa Manderly del Dominio, y al hacerlo ganó no sólo su tercer castillo Dunstonbury, sino que acercó la casa a la Casa Gardener, sus señores feudales."
   
@@ -684,6 +684,10 @@
  building_moat_cailin_01_desc: "$building_type_moat_cailin_01_desc$"
  building_moat_cailin_02: "Bastión del Cuello restaurado"
  building_moat_cailin_02_desc: "Reconstruido según su glorioso pasado, con veinte fuertes torres y un gran muro cortina de basalto, Moat Cailin vuelve a ser el bastión del Norte, capaz de defenderse de cualquier amenaza."
+ building_moat_cailin_03: "Bastión del Cuello restaurado" #NT!
+ building_moat_cailin_03_desc: "Reconstruido a su glorioso pasado, con veinte fuertes torres y una gran muralla de basalto, Foso Cailin es una vez más el bastión del Norte, capaz de ser defendido de cualquier amenaza." #NT!
+ moat_cailin_fortification_rights_desc: "[GetTitleByKey('k_the_north').GetNameNoTier] tiene $game_concept_vassal_contract$: [GetVassalContractType( 'fortification_rights' ).GetObligationName( 'fortification_rights_granted' )]" #NT!
+ moat_cailin_top_liege_desc: "[GetTitleByKey('e_the_north').GetName] está en manos de tu $game_concept_top_liege$" #NT!
   
  building_type_agot_barrow_keep_01: "El gran túmulo"
  building_type_agot_barrow_keep_01_desc: "Debajo del Barrow Hall se encuentra el Gran Túmulo, que se dice que es el hogar del Primer Rey, o Rey de los Gigantes."
@@ -793,7 +797,7 @@
  building_type_agot_godsgrace_01: "La gracia de Dios"
  building_type_agot_godsgrace_01_desc: "El castillo, sede tradicional de la Casa Allyrion, fue fundado cuando la Casa se instaló en la región durante las Invasiones Ándalas."
  building_agot_godsgrace_01: "La torre de sangre verde"
-  building_agot_godsgrace_01_desc:0 "The Greenblood Tower was built by House Allyrion to give them a commanding position in the plains around the Greenblood and allowed them to maintain their independence in the face of many other petty kingdoms that surrounded it. 
+ building_agot_godsgrace_01_desc: "La Torre de Sangre Verde fue construida por la Casa Allyrion para darles una posición dominante en las llanuras alrededor de la Sangre Verde y permitirles mantener su independencia frente a muchos otros pequeños reinos que la rodeaban." #NT!
   
  building_type_agot_nymeros_tower_01: "Torre Nymeros"
  building_type_agot_nymeros_tower_01_desc: "El faro de Lanza del Sol, la Torre Nymeros, se mantiene en pie desde la llegada de los Rhoynar a las arenas de Dorne."
@@ -889,6 +893,17 @@
  building_agot_hardhome_02_desc: "Hardhome has been abandoned for sometime, and is said to be the haunt of ghouls, demons, and darker things."
  building_agot_hardhome_03: "City of the True North"
  building_agot_hardhome_03_desc: "Resettled and restored, Hardhome is now a flourishing town and the heart of the True North."
+  
+ building_type_agot_ruins_fist_of_the_first_men_01: "El puño de los primeros hombres" #NT!
+ building_type_agot_ruins_fist_of_the_first_men_01_desc: "En lo alto de la colina erosionada y azotada por el viento se encuentran los restos de un antiguo fuerte circular destruido, lo que hace que la colina parezca un puño con piedras erguidas como sus nudillos." #NT!
+ building_agot_ruins_fist_of_the_first_men_01: "El fuerte circular roto" #NT!
+ building_agot_ruins_fist_of_the_first_men_01_desc: "$building_type_agot_ruins_fist_of_the_first_men_01_desc$" #NT!
+ building_agot_ruins_fist_of_the_first_men_02: "El fuerte improvisado" #NT!
+ building_agot_ruins_fist_of_the_first_men_02_desc: "Para hacer frente a la cima del Puño, se han levantado fortificaciones improvisadas para ayudar a fortificar el lugar donde ha caído el antiguo fuerte circular." #NT!
+ building_agot_ruins_fist_of_the_first_men_03: "El fuerte circular reconstruido" #NT!
+ building_agot_ruins_fist_of_the_first_men_03_desc: "Los antiguos muros del maltrecho fuerte circular ahora se yerguen altos con torres que le dan al puño un guante de piedra para cualquier posible enemigo." #NT!
+ building_agot_ruins_fist_of_the_first_men_04: "La Fortaleza del Puño" #NT!
+ building_agot_ruins_fist_of_the_first_men_04_desc: "El Puño de los Primeros Hombres ahora hace honor a su nombre. En lo alto de la colina se encuentra un verdadero fuerte y se mantiene firme, listo para hacer retroceder a cualquier enemigo." #NT!
   
  building_type_agot_thenn_great_kilns_01: "Tun Vunag"
  building_type_agot_thenn_great_kilns_01_desc: "El asentamiento principal de los Thenn, desde aquí los Magnars han gobernado a su pueblo desde la Era del Amanecer."

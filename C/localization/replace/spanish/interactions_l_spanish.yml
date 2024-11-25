@@ -37,8 +37,8 @@
  INTERACTION_COST: "Coste:"
   
   # Custom Character Sorting Options 
- candidate_score_sort_name: "$game_concept_candidate_score$" #NT!
- governor_efficiency_sort_name: "$game_concept_governor_efficiency$" #NT!
+ candidate_score_sort_name: "$game_concept_candidate_score$"
+ governor_efficiency_sort_name: "$game_concept_governor_efficiency$"
   
  start_spying: "Espionaje #weak (conjura)#!"
  start_murder_interaction: "Asesinato #weak (conjura)#!"
@@ -492,6 +492,8 @@
  is_escaped_prisoner: "Intentaste [Concept( 'imprison', 'encarcelar' )|E] recientemente a [CHARACTER.GetShortUIName]"
  DECISION_COST: "Coste:"
   
+  #AGOT Modified 
+ #EFFECTS_ON_ME: "Efectos en #high [Character.GetUINameNoTooltip]#!" #NT!
  EFFECTS_ON_ME: "Efectos sobre #high [Character.GetUINameNoTooltip]#!"
   
  RELEASE_GAIN_HOOK: "Recibir [weak_hook|E]"
@@ -1401,6 +1403,9 @@
  feudalize_tribal_holding_interaction_title_not_county_or_below: "Elegir un [county|E] o una [barony|E]"
  feudalize_tribal_holding_interaction_notification: "Tribu feudalizada"
   
+ support_feudalize_tribal_holding_interaction: "Ayuda al desarrollo tribal" #NT!
+ support_feudalize_tribal_holding_interaction_desc: "Ayuda a [recipient.GetShortUIName] a desarrollar la tierra [recipient.GetHerHis] [tribal|E] y convierte uno de [recipient.GetHerHis] [tribal|E] [holdings|E] en un [castle|E]" #NT!
+  
  has_all_tribal_innovations: "Tiene el #V 70 %#! de todas las [innovations|E] militares y civiles de la era tribal"
   
  they_have_usable_hook_on_them: "[CHARACTER.GetShortUIName|U] tiene un [hook|E] utilizable sobre [TARGET_CHARACTER.GetShortUIName]"
@@ -1805,6 +1810,7 @@
  VASSALS_REFUSAL_indomitable_azatani: "[GetCultureTradition('tradition_ep3_indomitable_azatani').GetName]: $VALUE|=+0$"
  cowed_from_visit_interaction_reason: "[recipient.GetShortUIName] se sintió intimidado por una visita imperial: $VALUE|=+0$"
  ELUDING_CASTRATOR: "Eludiendo el intento de castración: $VALUE|=+0$"
+  
  laamp_from_contact_list_reason: "[recipient.GetShortUIName] está en [actor.GetShortUINamePossessive] [contact_list|E]: $VALUE|=+0$"
   
  prison_break_contract_interaction: "Iniciar contrato de Prison Break"
@@ -1820,11 +1826,12 @@
  TAKE_VOWS_CYNICAL_REASON: "[recipient.GetSheHe|U] es [GetTrait('cynical').GetName( GetNullCharacter )]: $VALUE|=+0$"
   
  joining_vassal_count_tt: "[actor.MakeScope.Var('joining_vassal_count').GetValue]"
-  
  will_lose_administrative_government_type_tt: "@alert_icon! #alert_trial Como [recipient.GetName] no es [actor.GetGovernment.GetName|E], tu [government|E] cambiará de [actor.GetGovernment.GetName|E] a [recipient.GetGovernment.GetName|E]#!"
  will_change_from_administrative_tt: "Adopta [recipient.GetGovernment.GetName|E] [government|E]"
   
   # EP3 - Rebalancing Old Perks 
  influence_children_groomed_to_rule_perk_tt: "Tienes [GetPerk( 'groomed_to_rule_perk' ).GetName( GetPlayer )]: $VALUE|=+0$"
+  
  distrust_laamps_for_marriage_tt: "[actor.GetGovernment.GetName|E]: $VALUE|=+0$"
  laamp_has_soldiers_negotiate_settlement_tt: "$SORT_MILITARY_STRENGTH$: $VALUE|=+0$"
+  

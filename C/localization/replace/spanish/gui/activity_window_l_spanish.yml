@@ -1,0 +1,129 @@
+﻿l_spanish:
+ ACTIVITY_HOST_HEADER: "Anfitrión" #NT!
+ ACTIVITY_CURRENT_LOCATION: "[Activity.GetCurrentPhase.GetLocation.GetBaronyNameExplicitly]" #NT!
+ TT_ACTIVITY_WIDGET: "[Activity.GetInvolvementText( Character.Self, 'hud' )]\n\n#I Haga clic para ver#!" #NT!
+  
+ activity_intent_event_widget: "Intención: [Character.GetInvolvedActivityIntent.GetName]" #NT!
+  #AGOT Modified 
+ #activity_intent_target_event_widget: "Objetivo: [Character.GetIntentTarget.GetShortUIName]" #NT!
+ activity_intent_target_event_widget: "Objetivo: [Character.GetIntentTarget.Custom('AGOTCustomGetShortUIName')]" #NT!
+  
+ ACTIVITY_WINDOW_HEADER: "[Activity.GetNameNoTooltip|U]" #NT!
+ ACTIVITY_WINDOW_EVENT_HEADER: "[Activity.GetShortNameNoTooltip]: [EventWindowData.GetTitle]" #NT!
+  
+ ACTIVITY_LOG_HEADER: "[Activity.GetShortNameNoTooltip] Iniciar sesión" #NT!
+ ACTIVITY_LOG_NO_ENTRIES: "No hay entradas de registro" #NT!
+  
+ ACTIVITY_TIMELINE_START: "#T Planificación#!" #NT!
+ ACTIVITY_TIMELINE_CONCLUSION: "#T Conclusión#!" #NT!
+ ACTIVITY_WINDOW_GUEST_LIST: "Lista de invitados ([GetDataModelSize( Activity.GetAttendingCharacters )])" #NT!
+ ACTIVITY_WINDOW_LOG: "Registro de actividad ([GetDataModelSize( Activity.GetLogEntries )])" #NT!
+ ACTIVITY_WINDOW_YOUR_INTENT: "Tu intención" #NT!
+  
+ ACTIVITY_INTENT_SELECTION_HEADER: "Cambiar [ActivityType.GetNameNoTooltip] Intención" #NT!
+ ACTIVITY_INTENT_SELECTION_TEXT: "Selecciona tu [intent|E] para el [ActivityType.GetName]" #NT!
+ ACTIVITY_CHANGE_INTENT_TOOLTIP: "#T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription][AddParagraph( VentanaSelecciónActividadIntent.GetCanPickIntentDesc(ActivityIntent.Self) )]" #NT!
+ ACTIVITY_INTENT_TARGET_LABEL: "[ActivityIntent.GetName] Objetivo" #NT!
+ ACTIVITY_SINGLE_INTENT_TOOLTIP: "#T [ActivityIntent.GetName]#!\n[ActivityIntent.GetDescription]" #NT!
+ ACTIVITY_OPEN_INTENT_WINDOW: "$ACTIVITY_SINGLE_INTENT_TOOLTIP$\n\n#I Haz clic para cambiar [intent|E]#!" #NT!
+ ACTIVITY_OPEN_INTENT_WINDOW_DISABLED: "$ACTIVITY_SINGLE_INTENT_TOOLTIP$\n\n#X ¡No se puede cambiar [intent|E] durante eventos activos!#!" #NT!
+ ACTIVITY_SELECT_INTENT_NO_VALID_TARGET: "@warning_icon! #X No hay ningún objetivo válido para [ACTIVITY_INTENT.GetName]#!" #NT!
+ ACTIVITY_CHANGE_INTENT_TARGET_TOOLTIP: "#T Cambiar [intent|E] objetivo#!" #NT!
+ ACTIVITY_CHANGE_INTENT_POTENTIAL_TARGET_HEADER: "Objetivos potenciales" #NT!
+ ACTIVITY_CHANGE_INTENT_SELECT_TARGET: "#I Seleccione un objetivo [intent|E] para continuar" #NT!
+ ACTIVITY_CHANGE_INTENT_SELECT_TARGET_FOR_ACTIVITY: "Selecciona un objetivo para tu [ActivityIntentData.GetType.GetName] [intent|E]" #NT!
+ ACTIVITY_CHANGE_INTENT_TT: "#T Intención de cambio#!" #NT!
+ ACTIVITY_CONCLUSION_HEADER: "$ACTIVITY_WINDOW_HEADER$: Conclusión" #NT!
+ ACTIVITY_CONCLUSION_COMPLETED_INTENT_MULTI: "#P Exitoso#! [intents|E]" #NT!
+ ACTIVITY_CONCLUSION_COMPLETED_INTENT: "#P Exitoso#! [intent|E]" #NT!
+ ACTIVITY_CONCLUSION_FAILED_INTENT: "#N Falló#! [intent|E]" #NT!
+ ACTIVITY_CONCLUSION_EFFECTS_HEADER: "Efectos del [Activity.GetShortNameNoTooltip]" #NT!
+ ACTIVITY_CONCLUSION_CLOSE: "Terminar [Activity.GetShortNameNoTooltip]" #NT!
+  
+ ACTIVITY_GUEST_LIST_HEADER: "[ActivityGuestListWindow.GetActivityType.GetNameNoTooltip] Invitados" #NT!
+ ACTIVITY_GUEST_LIST_INFO: "[SelectLocalization( ActivityGuestListWindow.IsSelectingSpecialGuest, 'ACTIVITY_GUEST_LIST_INFO_SPECIAL', 'ACTIVITY_GUEST_LIST_INFO_REGULAR' )]" #NT!
+ ACTIVITY_GUEST_LIST_INFO_REGULAR: "Invita a [activity_guests|E] usando las categorías de invitados" #NT!
+ ACTIVITY_GUEST_LIST_INFO_SPECIAL: "Selecciona un invitado para ser [ActivityGuestListWindow.GetSelectingSpecialGuest.GetType.GetNameIfHost( ActivityGuestListWindow.GetHost )]" #NT!
+ ACTIVITY_GUEST_LIST_INVITE_GROUP: "Categorías de invitados" #NT!
+ ACTIVITY_GUEST_LIST_INVITING_OVER_MAX: "@alert_icon! #alert_trial Se han invitado a más de [ActivityType.GetMaxNumGuests|V] invitados. Algunos optarán por rechazar tu invitación#!" #NT!
+ ACTIVITY_GUEST_LIST_SPECIAL_GUEST_TT: "#T [ActivitySpecialGuest.GetType.GetNameIfHost( ActivityGuestListWindow.GetHost )]#!\n[ActivitySpecialGuest.GetType.GetDescriptionIfHost( ActividadVentanaListaInvitados.ObtenerHost )]\n[ConcatIfNeitherEmpty('On invitation:\n', ActivityGuestListWindow.GetSpecialGuestOnInviteEffectDesc( ActivitySpecialGuest.Self ) )]" #NT!
+ ACTIVITY_SPECIAL_GUESTS_DEFAULT: "Invitados especiales" #NT!
+ ACTIVITY_SPECIAL_GUESTS: "[ActivityType.GetLocalizedTextWithFallback( 'special_guests', 'ACTIVITY_SPECIAL_GUESTS_DEFAULT' )]" #NT!
+ ACTIVITY_GUEST_LIST_HOST: "[ActivityType.GetNameNoTooltip] [activity_host_short|E]" #NT!
+ ACTIVITY_GUEST_LIST_TRAVEL_TIME_INFO: "Viaje: ~[ActivityGuestListWindow.GetTravelTimeEstimation( CharacterListItem.Self )] días" #NT!
+ ACTIVITY_GUEST_WILL_ACCEPT: "#T @check_icon! Aceptaré la invitación#!\n#indent_newline:3 Total: [ActivityGuestListWindow.GetJoinChance( CharacterListItem.Self )|+=0]\n[ActivityGuestListWindow.GetJoinChanceBreakdown( CharacterListItem.Self )]#!" #NT!
+ ACTIVITY_GUEST_WILL_DECLINE: "#T @cross_icon! Rechazaré la invitación#!\n#indent_newline:3 Total: [ActivityGuestListWindow.GetJoinChance( CharacterListItem.Self )|+=0] (solo aceptaré si el total es positivo)\n[ActivityGuestListWindow.GetJoinChanceBreakdown( CharacterListItem.Self )]#!" #NT!
+ ACTIVITY_GUEST_MAY_NOT_ARRIVE: "@warning_icon! #X Mayo #bold No#! Llegará a tiempo#!" #NT!
+ ACTIVITY_SPECIAL_GUEST_ACCEPTANCE: "[Character.GetSheHe] tiene más probabilidades de aceptar tu invitación si es seleccionado" #NT!
+ ACTIVITY_GUEST_LIST_SELECT_HONORARY_GUEST: "#T Seleccione [ActivityGuestListWindow.GetSelectingSpecialGuest.GetType.GetNameIfHost( ActivityGuestListWindow.GetHost )]#!\nSelect [Character.GetShortUINameNoTooltip] para que sea [ActivityGuestListWindow.GetSelectingSpecialGuest.GetType.GetNameIfHost( ActivityGuestListWindow.GetHost )], [ActivityType.GetLocalizedTextWithFallback( 'special_guest_acceptance', 'ACTIVITY_SPECIAL_GUEST_ACCEPTANCE' )]." #NT!
+  
+ ACTIVITY_SPECIAL_OPTION_SELECTED: "#P Seleccionado#!" #NT!
+ ESTIMATED_ARRIVAL: "Llegada estimada" #NT!
+ JOIN_CHANCE: "Posibilidad de aceptar" #NT!
+  
+ ACTIVITY_PHASE_TOOLTIP: "#T [ActivityPhase.GetName]#!\n[ActivityPhase.GetDescription]" #NT!
+  
+ activity_waiting_for_guests: "esperando [activity_guests|E], [Activity.GetNumWaitingForCharacters] restantes" #NT!
+ activity_waiting_for_phase: "Esperando que comience el [Activity.GetCurrentPhase.GetPhase.GetName]" #NT!
+  
+ activity_travel_state_short: "[Concept( 'travel', 'Travelling' )|E]" #NT!
+ activity_travel_state_full: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [Concept( 'travel', 'Travelling' )|E] al [Activity.GetShortNameNoTooltip]" #NT!
+ activity_passive_state_short: "Espera" #NT!
+ activity_passive_state_full: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [SelectLocalization( Or( Activity.GetType.IsOpenInvite, EqualTo_int32( Activity.GetNumWaitingForCharacters, '(int32)0') ), 'activity_waiting_for_phase', 'activity_waiting_for_guests' )]" #NT!
+ activity_active_state_short: "Comprometido" #NT!
+ activity_active_state_full: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] comprometido en el [Activity.GetCurrentPhase.GetPhase.GetName]" #NT!
+ activity_uninvolved_state_short: "No involucrado" #NT!
+ activity_uninvolved_state_full: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] no está involucrado en el [Activity.GetCurrentPhase.GetPhase.GetName]" #NT!
+  
+ activity_travel_state_verb: "[Concept( 'travel', 'Travelling' )|E]" #NT!
+ activity_passive_state_verb: "Llegó" #NT!
+ activity_active_state_verb: "Llegó" #NT!
+ activity_uninvolved_state_verb: "No involucrado" #NT!
+  
+ ACTIVITY_WINDOW_CURRENT_LOCATION: "#T Ubicación#!\nThe [Activity.GetShortNameNoTooltip] se encuentra actualmente en $ACTIVITY_CURRENT_LOCATION$\n\n#I $GO_TO_CLICK$#!" #NT!
+ ACTIVITY_IN_CURRENT_LOCATION: "En $ACTIVITY_CURRENT_LOCATION$" #NT!
+ ACTIVITY_INVOLVED_HOST_status: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] hospedando esto [Activity.GetShortNameNoTooltip]" #NT!
+ ACTIVITY_INVOLVED_SPECIAL_GUEST_status: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [activity_attending|E] este [Activity.GetShortNameNoTooltip] como el [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )]" #NT!
+ ACTIVITY_INVITED_SPECIAL_GUEST_status: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] invitado a este [Activity.GetShortNameNoTooltip] como el [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )]" #NT!
+ ACTIVITY_INVOLVED_GUEST_status: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [activity_attending|E] esto [Activity.GetShortNameNoTooltip]" #NT!
+ ACTIVITY_INVITED_GUEST_status: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] invitado a esto [Activity.GetShortNameNoTooltip]" #NT!
+ ACTIVITY_UNINVOLVED_status: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] no estoy involucrado en esto [Activity.GetShortNameNoTooltip]" #NT!
+  
+ ACTIVITY_INVOLVED_HOST_hud: "#T Actividad de alojamiento#!\n[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] alojando a [Activity.GetShortNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$.\n[Character.GetActivityStateText( 'full' )]." #NT!
+ ACTIVITY_INVOLVED_SPECIAL_GUEST_hud: "#T Actividad involucrada#!\n[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [activity_attending|E] [Activity.GetNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$ como el [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )].\n[Character.GetActivityStateText( 'full' )]." #NT!
+ ACTIVITY_INVITED_SPECIAL_GUEST_hud: "#T Actividad invitada#!\n[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] invitado como el [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )] a [Activity.GetNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$." #NT!
+ ACTIVITY_INVOLVED_GUEST_hud: "#T Actividad involucrada#!\n[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [activity_attending|E] [Activity.GetNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$.\n[Character.GetActivityStateText( 'full' )]." #NT!
+ ACTIVITY_INVITED_GUEST_hud: "#T Actividad Invitada#!\n[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] invitado a [Activity.GetNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$." #NT!
+ ACTIVITY_UNINVOLVED_hud: "#T Actividad#!\n[Activity.GetHost.GetUIName] está organizando una [Activity.GetShortName] en $ACTIVITY_CURRENT_LOCATION$." #NT!
+  
+ ACTIVITY_INVOLVED_HOST_tooltip: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] aloja a [Activity.GetShortNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$.\n[Character.GetActivityStateText( 'full' )]." #NT!
+ ACTIVITY_INVOLVED_SPECIAL_GUEST_tooltip: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [activity_attending|E] [Activity.GetShortNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$ como el [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )].\n[Character.GetActivityStateText( 'full' )]." #NT!
+ ACTIVITY_INVITED_SPECIAL_GUEST_tooltip: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] invitado como el [ACTIVITY_SPECIAL_GUEST.GetNameIfHost( Activity.GetHost )] a [Activity.GetShortNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$." #NT!
+ ACTIVITY_INVOLVED_GUEST_tooltip: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] [activity_attending|E] [Activity.GetShortNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$.\n[Character.GetActivityStateText( 'full' )]." #NT!
+ ACTIVITY_INVITED_GUEST_tooltip: "[Character.GetUIName|U] [Character.LocalPlayerString( 'are', 'is' )] invitado a [Activity.GetShortNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$." #NT!
+ ACTIVITY_UNINVOLVED_tooltip: "[Activity.GetHost.GetUIName] está alojando a [Activity.GetShortNameNoTooltip] en $ACTIVITY_CURRENT_LOCATION$." #NT!
+  
+ ACTIVITY_JOIN_ACTIVITY: "Unirse a la actividad" #NT!
+  
+ activity_window_character_host: "[activity_host_short|E]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_tour_host: "[Concept('activity_host_short', 'Itinerant Liege' )|E]" #NT!
+ activity_window_character_officiant: "Oficiante\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_travel_tour_host: "$activity_window_character_tour_host$\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ activity_window_character_travel_host: "[activity_host_short|E]\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ activity_window_character_honorary_guest_regular_traveling: "$honorary_guest$\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ honorary_guest_traveling_murder: "$activity_window_character_honorary_guest$\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ activity_window_character_travel_spouse_1: "[Character.Custom('GetBrideGroom')|U]\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ activity_window_character_travel_spouse_2: "[Character.Custom('GetBrideGroom')|U]\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ activity_window_character_guest: "[activity_guest_short|E]\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_player: "[SelectLocalization( IsActivityHost( Activity, Character ), 'activity_window_character_host', 'activity_window_character_guest' )]" #NT!
+  
+ activity_window_character_travel_noble_student: "Estudiante noble\n[Character.GetShortUINameNoTooltip|U]\n[traveling|E] en [Character.GetCurrentLocation.GetName]\n ~[Character.GetTravelPlan.GetData.GetNextDestination.GetEstimatedArrivalDate.GetStringLong|V]" #NT!
+ activity_window_character_noble_student: "Estudiante noble\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_student: "Estudiante\n[Character.GetShortUINameNoTooltip|U]" #NT!
+ activity_window_character_teacher: "Profesor\n[Character.GetShortUINameNoTooltip|U]" #NT!
+  
+ ACTIVITY_WINDOW_SPECIAL_PROGRESS_TOOLTIP: "Puntuación: [ActivityWindow.GetSpecialProgressValue|^V]" #NT!
+  
+ ACTIVITY_WINDOW_PHASE_IN_PROGRESS_TOOLTIP: "#T [ActivityPhase.GetName]#!\nLast acción: [ActivityWindow.GetLastWeeklyPulseEffectData.GetTitle|V][AddLine( ActivityWindow.GetLastWeeklyPulseEffectData.GetEffectText )]\n\n[Subtract_int32( DaysPerWeek, GetTicksSinceLastProgress( Activity.GetID, DaysPerWeek ) )|V] días hasta la próxima [activity_phase_action|E] oportunidad.\n\n[ActivityPhase.GetDescription]" #NT!
+ ACTIVITY_PULSE_ACTION_NONE: "Ninguno" #NT!
+ ACTIVITY_TIME_UNTIL_PROGRESS: "([Activity.GetEstimatedProgressPhaseDate.GetTimeToDate] hasta que [Select_CString(Activity.IsCurrentPhaseActive, 'ends', 'begins')])" #NT!

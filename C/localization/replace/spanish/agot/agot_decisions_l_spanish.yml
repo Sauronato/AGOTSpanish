@@ -193,3 +193,52 @@
  coa_new_name: "[GetGlobalVariable('coa_new_name').Char.GetFirstNamePossessive] Armas personales"
  CUSTOMIZE_PERSONAL_ARMS: "#T Personaliza [agot_personal_coa|e]#!\nOpen el menú de personalización para editar tus brazos personales."
  agot_dylan_house_name_key: "[GetGlobalVariable('coa_new_name').Char.GetDynastyNameNoTooltip]"
+  
+  ##################################### 
+  ## Epidemic Isolate Realm Decision ## 
+  ##################################### 
+  ########### Close Option 
+ control_realm_borders_close_decision: "Reino aislado" #NT!
+ control_realm_borders_decision: "Comienza el aislamiento" #NT!
+ control_realm_borders_decision_desc: "$control_realm_borders_decision$" #NT!
+ control_realm_borders_decision_tooltip: "Restringe los viajes a tu reino y evita la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_decision_alert_tt: "Tu reino debe estar libre de [plague_apocalyptic|E] [epidemics|E]." #NT!
+ control_realm_borders_decision_confirm: "$control_realm_borders_decision$" #NT!
+  # Opening Description 
+ control_realm_borders_close_decision_opening_desc.dorne: "Puedo restringir los viajes por las carreteras y los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] para evitar la propagación de la infección a mi dominio. Normalmente, esto es muy eficaz." #NT!
+ control_realm_borders_close_decision_opening_desc.vale: "Puedo restringir los viajes por las carreteras y los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] para evitar la propagación de la infección a mi dominio. Normalmente, esto es muy eficaz." #NT!
+ control_realm_borders_close_decision_opening_desc.north: "Puedo restringir los viajes por las carreteras y los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] para evitar la propagación de la infección a mi dominio. Normalmente, esto es muy eficaz." #NT!
+ control_realm_borders_close_decision_opening_desc.iron_islands: "Puedo restringir los viajes a los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] para evitar la propagación de la infección a mi dominio. Esto suele ser muy eficaz." #NT!
+  # Tooltip Description 
+ control_realm_borders_close_decision_tooltip.dorne: "Restrinja los viajes a [ROOT.Char.GetPrimaryTitle.GetName] y evite la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_close_decision_tooltip.vale: "Restrinja los viajes a [ROOT.Char.GetPrimaryTitle.GetName] y evite la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_close_decision_tooltip.north: "Restrinja los viajes a [ROOT.Char.GetPrimaryTitle.GetName] y evite la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_close_decision_tooltip.iron_islands: "Restrinja los viajes a [ROOT.Char.GetPrimaryTitle.GetName] y evite la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+  # Effect Description 
+ control_realm_borders_close_effect_tt.dorne: "Restringirás los viajes a [title.GetName] y serás altamente resistente a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_close_effect_tt.vale: "Restringirás los viajes a [title.GetName] y serás altamente resistente a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_close_effect_tt.north: "Restringirás los viajes a [title.GetName] y serás altamente resistente a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_close_effect_tt.iron_islands: "Restringirás los viajes a [title.GetName] y serás muy resistente a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+  
+  ########### Open Option 
+ control_realm_borders_open_decision: "Fin del aislamiento del reino" #NT!
+ uncontrol_realm_borders_decision: "Poner fin al aislamiento" #NT!
+ uncontrol_realm_borders_decision_desc: "$uncontrol_realm_borders_decision$" #NT!
+ uncontrol_realm_borders_decision_tooltip: "Permite viajar a tu reino y arriesgarte a un spread de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ uncontrol_realm_borders_decision_alert_tt: "Tu reino debe haber sido aislado previamente de [plague_apocalyptic|E] [epidemics|E]." #NT!
+ uncontrol_realm_borders_decision_confirm: "$uncontrol_realm_borders_decision$" #NT!
+  # Opening Description 
+ control_realm_borders_open_decision_opening_desc.dorne: "Puedo permitir nuevamente los viajes por las carreteras y hacia los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], pero habrá un mayor riesgo de propagación infecciosa." #NT!
+ control_realm_borders_open_decision_opening_desc.vale: "Puedo permitir nuevamente los viajes por las carreteras y hacia los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], pero habrá un mayor riesgo de propagación infecciosa." #NT!
+ control_realm_borders_open_decision_opening_desc.north: "Puedo permitir nuevamente los viajes por las carreteras y hacia los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], pero habrá un mayor riesgo de propagación infecciosa." #NT!
+ control_realm_borders_open_decision_opening_desc.iron_islands: "Puedo permitir nuevamente los viajes a los puertos de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip], pero correré un mayor riesgo de propagación infecciosa." #NT!
+  # Tooltip Description 
+ control_realm_borders_open_decision_tooltip.dorne: "Permite viajar a [ROOT.Char.GetPrimaryTitle.GetName] y arriesga un diferencial de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_open_decision_tooltip.vale: "Permite viajar a [ROOT.Char.GetPrimaryTitle.GetName] y arriesga un diferencial de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_open_decision_tooltip.north: "Permite viajar a [ROOT.Char.GetPrimaryTitle.GetName] y arriesga un diferencial de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_open_decision_tooltip.iron_islands: "Permite viajar a [ROOT.Char.GetPrimaryTitle.GetName] y arriesga un diferencial de [plague_apocalyptic|E] [epidemic|E]." #NT!
+  # Effect Description 
+ control_realm_borders_open_effect_tt.dorne: "Se le permitirá viajar a [title.GetName] nuevamente, pero será susceptible a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_open_effect_tt.vale: "Se le permitirá viajar a [title.GetName] nuevamente, pero será susceptible a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_open_effect_tt.north: "Se le permitirá viajar a [title.GetName] nuevamente, pero será susceptible a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!
+ control_realm_borders_open_effect_tt.iron_islands: "Se le permitirá viajar a [title.GetName] nuevamente, pero será susceptible a la propagación de [plague_apocalyptic|E] [epidemic|E]." #NT!

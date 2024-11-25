@@ -379,7 +379,6 @@
  GAME_RULE_BLOCKS_ACHIEVEMENTS_ENTRY: "#indent_newline:2 $EFFECT_LIST_BULLET$[GAME_RULE.GetName]: [GAME_RULE_SETTING.GetName]#!"
  GAME_CHECKSUM_CHANGED_FROM_SAVE_FILE: "@warning_icon!#X Suma de verificación no válida para logros.#!\nEsta partida era válida para logros con una suma de verificación distinta. Si se carga, se desactivarán los logros."
  TIER_TYPE: "[$TIER_KEY$|E]"
- DYNASTY_MEMBERS: "Miembros de la dinastía «$DYNASTY$»: \n$LIST$"
  GOOD_COLOR: "$KEY|P$"
  BAD_COLOR: "$KEY|N$"
  NEUTRAL_COLOR: "$KEY|Z$"
@@ -478,7 +477,11 @@
  VALUE_DAYS: "#V $VALUE$ días#! "
  MAINTENANCE: "Mantenimiento"
  BANNER: "Punto de reunión"
+  #AGOT Modified 
+ #SCOPE_CHARACTER: "[ROOT.GetCharacter.GetUIName]:" #NT!
  SCOPE_CHARACTER: "[ROOT.GetCharacter.GetUIName]:"
+  #AGOT Modified 
+ #SCOPE_CHARACTER_ME: "Yo, [ROOT.GetCharacter.GetUIName]:" #NT!
  SCOPE_CHARACTER_ME: "Yo, [ROOT.GetCharacter.GetUIName]:"
  SCOPE_LANDED_TITLE: "[ROOT.GetLandedTitle.GetName]:"
  SCOPE_PROVINCE: "[ROOT.GetProvince.GetName]:"
@@ -761,10 +764,10 @@
  character_modifiers_law_cost_tooltip: "Modificadores de personaje"
  SCRIPTED_COST_HEADER: "#S $TEXT$#!"
  SCRIPTED_COST_NO_DYNAST: "Solo el [dynast|E] puede gastar [dynasty_prestige|E]"
- GAME_DATE_STRING: "$DAY$ $MONTH$ $YEAR$"
- GAME_DATE_STRING_SHORT: "$DAY$ $MONTH_SHORT$ $YEAR$"
- GAME_DATE_STRING_SHORT_NO_YEAR: "$DAY$ $MONTH_SHORT$"
- GAME_DATE_STRING_LONG: "$DAY|O$ de $MONTH$ de $YEAR$ d.C."
+ GAME_DATE_STRING: "$DAY|O$ $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
+ GAME_DATE_STRING_SHORT: "$DAY|O$ $MONTH_SHORT$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
+ GAME_DATE_STRING_SHORT_NO_YEAR: "$DAY|O$ $MONTH$"
+ GAME_DATE_STRING_LONG: "$DAY|O$ de $MONTH$, $YEAR_SEL_IG$ $ERA_SEL_IG$"
  CONCEPT_TEXT: "[$KEY$|E]"
  NOT_IN_DIPLOMATIC_RANGE: "Fuera del alcance diplomático"
  FIND_CHARACTER: "Encontrar personaje"
@@ -823,6 +826,7 @@
  RENAME_STRING_ENDS_WITH_SPACE_NAMED: "@warning_icon!#X $NAME$ termina con un espacio#!"
  DEFAULT_TEXT: "#D TEXTO PREDETERMINADO#!"
   
+ MUSIC_PLAYER_NAME: "Reproductor de música" #NT!
  MUSIC_PLAYER_VOLUME_VALUE: "[MusicPlayer.GetVolumeString]"
  MUSIC_PLAYER_SETTING_MUSIC_DENSITY_VALUE: "[MusicPlayer.GetMusicDensityString]"
  MUSIC_PLAYER_CATEGORY_ENABLED_CK3: "#P $MUSIC_PLAYER_CATEGORY_ENABLED$#!"
@@ -899,6 +903,9 @@
  secrecy.scheme_owner.intrigue: "Tu [intrigue|E]"
  secrecy.scheme_owner.learning: "Tu [learning|E]"
  secrecy.scheme_owner.prowess: "Tu [prowess|E]"
+  
+  #BP3 
+ realm_chart_perk_same_realm_secrecy: "$realm_charts_perk_name$" #NT!
  secrecy.scheme_owner.spymaster.disrupt_schemes: "[spymaster|E] asignado a [disrupt_schemes|E]"
   
  tooltipped_camp_purpose_wanderers: "[GetLaw('camp_purpose_wanderers').GetName]"

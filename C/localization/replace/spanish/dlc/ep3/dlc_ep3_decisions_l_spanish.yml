@@ -161,7 +161,7 @@
  admin_confirmation_rank_tt: "Eres un [governor|E]"
  admin_confirmation_liege_tt: "Eres un [direct_vassal|E] de los [THIS.Char.GetTopLiege.GetTitleAsNameNoTooltip] ([THIS.Char.GetTopLiege.GetFirstNameRegnal])"
  admin_confirmation_time_tt: "Has mantenido tu [primary_title|E] durante al menos #V 1#! año ([THIS.Char.GetPrimaryTitle.GetNameNoTier])"
- admin_confirmation_decision.tt.if_accepted: "Si [CHARACTER.GetLiege.GetTitledFirstName] acepta tu audiencia:" #NT!
+ admin_confirmation_decision.tt.if_accepted: "Si [CHARACTER.GetLiege.GetTitledFirstName] acepta tu audiencia:"
   
   # General Loc Strings 
  admin_confirmation_event_header: "Confirmación:"
@@ -332,7 +332,7 @@
  greek_backwater_modifier_region: "Grecia"
  backwater_county_eligible_modifier_removal_tt: "El [development|E] de al menos un subreino [county|E] con el [GetModifier('backwater_county_modifier').GetName] [county_modifier|E] es #V 50#! o superior"
  restored_greek_theme_modifier: "Tema restaurado"
- restored_greek_theme_modifier_desc: "Este personaje ha restaurado un tema para superar los días dorados de antaño.\n[governor_efficiency|E]: @governor_efficiency!#P +10%#!" #NT!
+ restored_greek_theme_modifier_desc: "Este personaje ha restaurado un tema para superar los días dorados de antaño.\n[governor_efficiency|E]: @governor_efficiency!#P +10%#!"
   
  ep3_theme_not_backwater.t: "[target_theme.GetNameNoTierNoTooltip] Restaurado"
  ep3_theme_not_backwater.desc: "Cada [county|E] en [target_theme.GetNameNoTierNoTooltip] perdió el [GetModifier('backwater_county_modifier').GetName] [county_modifier|E]"
@@ -677,17 +677,23 @@
  ep3_decisions_event.7000.b_trapping: "[SelectLocalization(ObjectsEqual(ROOT.Char.MakeScope.Var('has_golden_aplomb_perk').GetFlagName,'yes'),'ep3_decisions_event.7000.a_flavor_golden_aplomb','ep3_decisions_event.7000.a_flavor')]"
  ep3_decisions_event.7000.b_flavor: "#medium Las trampas se ven afectadas por [terrain|E]\n#flavor Muy efectivas en:#!\n $EFFECT_LIST_BULLET$Selva, Bosques, Colinas, Llanuras, Oasis, Tierras secas\n#flavor Algo efectivas en:#!\n $EFFECT_LIST_BULLET$Desiertos, Montañas desérticas, Montañas, Taiga, Estepas\n#flavor No efectivas en:#!\n $EFFECT_LIST_BULLET$Tierras agrícolas, Llanuras aluviales, Humedales[terrain|E]1"
  ep3_decisions_event.7000.b_flavor_golden_aplomb: "#medium Las trampas se ven afectadas por [terrain|E]\n#flavor Muy efectivas en:#!\n$EFFECT_LIST_BULLET$Jungle, Bosques, Colinas, Llanuras, Oasis, Tierras secas, Desiertos, Montañas desérticas, Montañas, Taiga, Estepas (gracias a [GetPerk('golden_aplomb_perk').GetName(GetPlayer)] [perk|e])\n#flavor No efectivas en:#!\n $EFFECT_LIST_BULLET$ Tierras de cultivo, Llanuras aluviales, Humedales#!"
+ ep3_decisions_event.7000.a.crit_success: "Traes mucha comida" #NT!
  ep3_decisions_event.7000.a.success: "Traes comida"
  ep3_decisions_event.7000.a.failure: "No encuentras nada"
+ ep3_decisions_event.7000.a.crit_failure: "Estás herido" #NT!
  ep3_decisions_event.7000.b: "Con mis trampas nos alimentaré a todos."
  ep3_decisions_event.7000.c: "Envía a los recolectores."
  ep3_decisions_event.7000.c.named: "Reúne un equipo de recolectores, [chief_forager.GetFirstNameNoTooltip]."
+ ep3_decisions_event.7000.c.crit_success: "[chief_forager.GetFirstNameNoTooltip] trae mucha comida" #NT!
  ep3_decisions_event.7000.c.success: "[chief_forager.GetFirstNameNoTooltip] trae comida"
  ep3_decisions_event.7000.c.failure: "[chief_forager.GetFirstNameNoTooltip] no encuentra nada"
+ ep3_decisions_event.7000.c.crit_failure: "[chief_forager.GetFirstNameNoTooltip] está herido" #NT!
  ep3_decisions_event.7000.d: "Mi cazador nos atrapará alguna presa."
  ep3_decisions_event.7000.d.named: "Eres un cazador, [huntperson.GetFirstNameNoTooltip]: ¡ve y caza!"
+ ep3_decisions_event.7000.d.crit_success: "[huntperson.GetFirstNameNoTooltip] trae mucha comida" #NT!
  ep3_decisions_event.7000.d.success: "[huntperson.GetFirstNameNoTooltip] trae comida"
  ep3_decisions_event.7000.d.failure: "[huntperson.GetFirstNameNoTooltip] no encuentra nada"
+ ep3_decisions_event.7000.d.crit_failure: "[huntperson.GetFirstNameNoTooltip] está herido" #NT!
  ep3_decisions_event.7000.no_provisions_tt: "No se encontró [provisions|E]"
   
   # EP3 Split the Empire 
@@ -791,11 +797,11 @@
  become_conqueror_decision_war: "Comenzarás una guerra contra [conq_war_target.GetName]"
   
  ep3_laamp_decision_event.1110.t: "$become_conqueror_decision$"
- ep3_laamp_decision_event.1110.desc.has_kill: "Todavía recuerdo la muerte de [first_kill.GetTitledFirstNamePossessive], la primera persona que recuerdo que murió por capricho mío. ¿Ya entonces me gustaba? ¿Acaso esta... #EMP hambre#! dentro de mí, esta necesidad de más, se encendió en ese instante o simplemente ardió lo suficientemente fuerte como para finalmente ser vista?\n\nMuchos más se han unido a [first_kill.GetHerHim] desde entonces." #NT!
- ep3_laamp_decision_event.1110.desc.hasnt_kill: "Es un pensamiento extraño, en verdad. No tengo un recuerdo claro de la primera persona asesinada por orden mía, y mucho menos por mi mano. Uno pensaría que se quedaría con un [ROOT.Char.GetWomanMan], pero nunca me han importado mucho los rostros o los nombres de los muertos.\n\nNo puedo contar cuántos he enviado a sus tumbas, y mucho menos exactamente #EMP quién#!." #NT!
- ep3_laamp_decision_event.1110.desc.outro: "Para la mayoría, semejante matanza sería suficiente, pero no para mí. No puedo evitar sonreír mientras miro al horizonte. No por los que murieron. Sonrío por los que morirán." #NT!
+ ep3_laamp_decision_event.1110.desc.has_kill: "Todavía recuerdo la muerte de [first_kill.GetTitledFirstNamePossessive], la primera persona que recuerdo que murió por capricho mío. ¿Ya entonces me gustaba? ¿Acaso esta... #EMP hambre#! dentro de mí, esta necesidad de más, se encendió en ese instante o simplemente ardió lo suficientemente fuerte como para finalmente ser vista?\n\nMuchos más se han unido a [first_kill.GetHerHim] desde entonces."
+ ep3_laamp_decision_event.1110.desc.hasnt_kill: "Es un pensamiento extraño, en verdad. No tengo un recuerdo claro de la primera persona asesinada por orden mía, y mucho menos por mi mano. Uno pensaría que se quedaría con un [ROOT.Char.GetWomanMan], pero nunca me han importado mucho los rostros o los nombres de los muertos.\n\nNo puedo contar cuántos he enviado a sus tumbas, y mucho menos exactamente #EMP quién#!."
+ ep3_laamp_decision_event.1110.desc.outro: "Para la mayoría, semejante matanza sería suficiente, pero no para mí. No puedo evitar sonreír mientras miro al horizonte. No por los que murieron. Sonrío por los que morirán."
  ep3_laamp_decision_event.1110.desc: "Hace años, maté a [first_kill.GetName] en batalla. El recuerdo ha permanecido conmigo desde entonces. [first_kill.GetHerHis|U] pecho destrozado por mi golpe, [first_kill.GetHerHis] ojos abiertos de par en par con incredulidad, [first_kill.GetHerHis] sangre goteando al suelo, haciendo que la tierra sea fértil.\n\nMuchos más se han unido a [first_kill.GetHerHim] desde entonces. Para la mayoría, tal matanza sería suficiente. Pero no para mí.\n\nNo puedo evitar sonreír mientras miro al horizonte. No por los que murieron. Sonrío por los que lo harán."
- #ep3_laamp_decision_event.1110.desc: "Hace años, maté a [first_kill.GetName] en batalla. El recuerdo ha permanecido conmigo desde entonces. [first_kill.GetHerHis|U] pecho destrozado por mi golpe, [first_kill.GetHerHis] ojos abiertos de par en par con incredulidad, [first_kill.GetHerHis] sangre goteando al suelo, haciendo que la tierra sea fértil.\n\nMuchos más se han unido a [first_kill.GetHerHim] desde entonces. Para la mayoría, tal matanza sería suficiente. Pero no para mí.\n\nNo puedo evitar sonreír mientras miro al horizonte. No por los que murieron. Sonrío por los que lo harán." #NT!
+ #ep3_laamp_decision_event.1110.desc: "Hace años, maté a [first_kill.GetName] en batalla. El recuerdo ha permanecido conmigo desde entonces. [first_kill.GetHerHis|U] pecho destrozado por mi golpe, [first_kill.GetHerHis] ojos abiertos de par en par con incredulidad, [first_kill.GetHerHis] sangre goteando al suelo, haciendo que la tierra sea fértil.\n\nMuchos más se han unido a [first_kill.GetHerHim] desde entonces. Para la mayoría, tal matanza sería suficiente. Pero no para mí.\n\nNo puedo evitar sonreír mientras miro al horizonte. No por los que murieron. Sonrío por los que lo harán."
  ep3_laamp_decision_event.1110.a: "Conquistar el mundo a caballo es fácil..."
  ep3_laamp_decision_event.1110.a.flavor: "...lo difícil es desmontar y gobernar."
  ep3_laamp_decision_event.1110.a.desc: "$become_conqueror_decision_reward$"
@@ -893,25 +899,27 @@
  ep3_decisions_event.4090.a: "Estaré esperando."
   
   # Change Imperial Aspirations 
- change_imperial_aspirations_decision: "Cambiar [GetPlayer.GetTopLiege.Custom('GetRoyalCourtRank')|U] Aspiraciones" #NT!
- change_imperial_aspirations_decision_desc: "No todo el mundo es apto, ni siquiera quiere, para subir la escalera lo suficiente como para sentarse en el trono. ¿Por qué correr el riesgo cuando estoy perfectamente satisfecho con mi posición actual? ¡Otros pueden luchar en esta cueva de víboras!" #NT!
- change_imperial_aspirations_decision_tooltip: "Toma una postura para dejar en claro si deseas el trono o no" #NT!
- change_imperial_aspirations_decision_confirm: "Que se conozcan mis intenciones" #NT!
- admin_renounce_throne_personal_name: "Renunciar a la ambición personal" #NT!
- admin_renounce_throne_personal_desc: "Que se sepa que no #bold #! quieres competir por el trono." #NT!
- admin_renounce_throne_personal_tooltip: "$admin_renounce_throne_personal_desc$" #NT!
- admin_desire_throne_personal_name: "Proclamar la ambición personal" #NT!
- admin_desire_throne_personal_desc: "Competirás por el trono." #NT!
- admin_desire_throne_personal_tooltip: "$admin_desire_throne_personal_desc$" #NT!
- admin_renounce_throne_house_name: "Renunciar a la ambición doméstica" #NT!
- admin_renounce_throne_house_desc: "Que se sepa que no #bold permites#! que #EMP nadie#! de [house|E] [GetPlayer.GetHouse.GetName] compita por el trono." #NT!
- admin_renounce_throne_house_tooltip: "$admin_renounce_throne_house_desc$" #NT!
- admin_desire_throne_house_name: "Proclamar la ambición de la casa" #NT!
- admin_desire_throne_house_desc: "Todos los [house|E] [GetPlayer.GetHouse.GetName] pueden competir por el trono." #NT!
- admin_desire_throne_house_tooltip: "$admin_desire_throne_house_desc$" #NT!
+ change_imperial_aspirations_decision: "Cambiar [GetPlayer.GetTopLiege.Custom('GetRoyalCourtRank')|U] Aspiraciones"
+ change_imperial_aspirations_decision_desc: "No todo el mundo es apto, ni siquiera quiere, para subir la escalera lo suficiente como para sentarse en el trono. ¿Por qué correr el riesgo cuando estoy perfectamente satisfecho con mi posición actual? ¡Otros pueden luchar en esta cueva de víboras!"
+ change_imperial_aspirations_decision_tooltip: "Toma una postura para dejar en claro si deseas el trono o no"
+ change_imperial_aspirations_decision_confirm: "Que se conozcan mis intenciones"
+ admin_renounce_throne_personal_name: "Renunciar a la ambición personal"
+ admin_renounce_throne_personal_desc: "Que se sepa que no #bold #! quieres competir por el trono."
+ admin_renounce_throne_personal_tooltip: "$admin_renounce_throne_personal_desc$"
+ admin_desire_throne_personal_name: "Proclamar la ambición personal"
+ admin_desire_throne_personal_desc: "Competirás por el trono."
+ admin_desire_throne_personal_tooltip: "$admin_desire_throne_personal_desc$"
+ admin_renounce_throne_house_name: "Renunciar a la ambición doméstica"
+ admin_renounce_throne_house_desc: "Que se sepa que no #bold permites#! que #EMP nadie#! de [house|E] [GetPlayer.GetHouse.GetName] compita por el trono."
+ admin_renounce_throne_house_tooltip: "$admin_renounce_throne_house_desc$"
+ admin_desire_throne_house_name: "Proclamar la ambición de la casa"
+ admin_desire_throne_house_desc: "Todos los [house|E] [GetPlayer.GetHouse.GetName] pueden competir por el trono."
+ admin_desire_throne_house_tooltip: "$admin_desire_throne_house_desc$"
   
   # The Knight of the Swan 
  knight_errant_decision: "El $knight_culture_player_no_tooltip$ del [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')|U]"
+  #AGOT Modified 
+ #knight_errant_decision_desc: "Se dice que un misterioso $knight_culture_player_no_tooltip_lowercase$ llega en un barco conducido por [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] para rescatar a aquellos en peligro.\n\nUn pequeño barco de brillo perlado y un majestuoso $knight_culture_player_no_tooltip_lowercase$ que estaba sentado en él." #NT!
  knight_errant_decision_desc: "Se dice que un misterioso $knight_culture_player_no_tooltip_lowercase$ llega en un barco conducido por [ROOT.Char.CustomFixedRandom('GetKnightErrantAnimal')] para rescatar a aquellos en peligro.\n\nUn pequeño barco de brillo perlado y un majestuoso $knight_culture_player_no_tooltip_lowercase$ que estaba sentado en él."
  knight_errant_decision_tooltip: "Conviértete en un [GetTrait('knight_errant').GetName( GetNullCharacter )]"
  knight_errant_decision_confirm: "Lo mejor del tipo [ROOT.Char.GetHerHis]."
@@ -1003,7 +1011,7 @@
   
   # Hire Chief Eunuch 
  hire_eunuch_decision: "Buscar $chief_eunuch_court_position$"
- hire_eunuch_decision_desc: "[GetCourtPositionType('chief_eunuch_court_position').GetDescription|U]" #NT!
+ hire_eunuch_decision_desc: "[GetCourtPositionType('chief_eunuch_court_position').GetDescription|U]"
  hire_eunuch_decision_tooltip: "Sus servidores le sugerirán una serie de candidatos adecuados para el puesto de [GetCourtPositionType('chief_eunuch_court_position').GetName()]"
  ep3_decisions_event.5010.t: "Un digno [GetCourtPositionType('chief_eunuch_court_position').GetNameNoTooltip|U]"
  ep3_decisions_event.5010.desc: "Mis sirvientes han buscado por todas partes a un $chief_eunuch_court_position$ digno de unirse a mi corte.\n\nDos candidatos en particular han llamado mi atención: [mediocre_eunuch.GetFirstName] está decidido a demostrar su valía, pero [good_eunuch.GetFirstName] parece ser más hábil."

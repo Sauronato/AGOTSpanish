@@ -1,15 +1,33 @@
 ﻿l_spanish:
  CHARACTER_DEATH_EFFECT: "¡@death_icon! Muere"
+  #AGOT Modified 
+ #CHARACTER_DEATH_EFFECT_THIRD: "@death_icon! [CHARACTER.GetShortUIName|U] muere" #NT!
  CHARACTER_DEATH_EFFECT_THIRD: "@death_icon! [CHARACTER.GetShortUIName|U] muere"
  CHARACTER_DEATH_EFFECT_FIRST: "@death_icon! Te mueres"
+  #AGOT Modified 
+ #CHARACTER_DIED_EFFECT: "@death_icon! [CHARACTER.GetShortUIName|U] murió" #NT!
  CHARACTER_DIED_EFFECT: "@death_icon! [CHARACTER.GetShortUIName|U] murió"
+  #AGOT Modified 
+ #CHARACTER_DIED_EFFECT_THIRD: "@death_icon! [CHARACTER.GetShortUIName|U] murió" #NT!
  CHARACTER_DIED_EFFECT_THIRD: "@muerte_icon! [CHARACTER.GetShortUIName|U] murió"
  CHARACTER_DIED_EFFECT_FIRST: "@muerte_icon! moriste"
+  #AGOT Modified 
+ #CHARACTER_DEATH_EFFECT_KILLER: "@death_icon! Es asesinado por [TARGET_CHARACTER.GetShortUIName]" #NT!
  CHARACTER_DEATH_EFFECT_KILLER: "@death_icon! Es asesinado por [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #CHARACTER_DEATH_EFFECT_KILLER_THIRD: "@death_icon! [CHARACTER.GetShortUIName|U] es asesinado por [TARGET_CHARACTER.GetShortUIName]" #NT!
  CHARACTER_DEATH_EFFECT_KILLER_THIRD: "@death_icon! [CHARACTER.GetShortUIName|U] es asesinado por [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #CHARACTER_DEATH_EFFECT_KILLER_FIRST: "@death_icon! Te mata [TARGET_CHARACTER.GetShortUIName]" #NT!
  CHARACTER_DEATH_EFFECT_KILLER_FIRST: "@death_icon! Te mata [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #CHARACTER_DIED_EFFECT_KILLER: "[CHARACTER.GetShortUIName|U] fue asesinado por [TARGET_CHARACTER.GetShortUIName]" #NT!
  CHARACTER_DIED_EFFECT_KILLER: "[CHARACTER.GetShortUIName|U] fue asesinado por [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #CHARACTER_DIED_EFFECT_KILLER_THIRD: "@death_icon! [CHARACTER.GetShortUIName|U] fue asesinado por [TARGET_CHARACTER.GetShortUIName]" #NT!
  CHARACTER_DIED_EFFECT_KILLER_THIRD: "@death_icon! [CHARACTER.GetShortUIName|U] fue asesinado por [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #CHARACTER_DIED_EFFECT_KILLER_FIRST: "@death_icon! Te mató [TARGET_CHARACTER.GetShortUIName]" #NT!
  CHARACTER_DIED_EFFECT_KILLER_FIRST: "@death_icon! Te mató [TARGET_CHARACTER.GetShortUIName]"
  RANDOM_LIST_EFFECT: "1 de $SIZE$ cosas pasarán: \n"
  RANDOM_EFFECT: "$CHANCE$% de probabilidad de:"
@@ -44,42 +62,110 @@
  SET_EMPLOYER_EFFECT: "$COURTIER$ se convierte en [courtier|E] en la corte de $EMPLOYER$"
  REMOVE_COURT_CHARACTER_EFFECT: "[TARGET_CHARACTER.GetUIName] deja [CHARACTER.GetShortUINamePossessive] corte"
  REMOVED_COURT_CHARACTER_EFFECT: "[TARGET_CHARACTER.GetUIName] quedan [CHARACTER.GetShortUINamePossessive] cancha"
+  #AGOT Modified 
+ #GAIN_HOOK_EFFECT: "Obtiene un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  GAIN_HOOK_EFFECT: "Obtiene un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #GAINED_HOOK_EFFECT: "Obtuve un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  GAINED_HOOK_EFFECT: "Obtuve un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #I_GAIN_HOOK_EFFECT: "Obtienes un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  I_GAIN_HOOK_EFFECT: "Obtienes un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #I_GAINED_HOOK_EFFECT: "Obtuviste un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  I_GAINED_HOOK_EFFECT: "Obtuviste un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #THEY_GAIN_HOOK_EFFECT: "[CHARACTER.GetShortUIName|U] obtiene un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  THEY_GAIN_HOOK_EFFECT: "[CHARACTER.GetShortUIName|U] obtiene un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #THEY_GAINED_HOOK_EFFECT: "[CHARACTER.GetShortUIName|U] obtuvo un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  THEY_GAINED_HOOK_EFFECT: "[CHARACTER.GetShortUIName|U] obtuvo un [weak_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #GAIN_HOOK_EFFECT_STRONG: "Obtiene un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  GAIN_HOOK_EFFECT_STRONG: "Obtiene un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #GAINED_HOOK_EFFECT_STRONG: "Obtuve un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  GAINED_HOOK_EFFECT_STRONG: "Obtuve un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #I_GAIN_HOOK_EFFECT_STRONG: "Obtienes un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  I_GAIN_HOOK_EFFECT_STRONG: "Obtienes un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #I_GAINED_HOOK_EFFECT_STRONG: "Obtuviste un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  I_GAINED_HOOK_EFFECT_STRONG: "Obtuviste un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #THEY_GAIN_HOOK_EFFECT_STRONG: "[CHARACTER.GetShortUIName|U] obtiene un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  THEY_GAIN_HOOK_EFFECT_STRONG: "[CHARACTER.GetShortUIName|U] obtiene un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #THEY_GAINED_HOOK_EFFECT_STRONG: "[CHARACTER.GetShortUIName|U] obtuvo un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  THEY_GAINED_HOOK_EFFECT_STRONG: "[CHARACTER.GetShortUIName|U] obtuvo un [strong_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #GAIN_HOOK_EFFECT_PERPETUAL: "Obtiene un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  GAIN_HOOK_EFFECT_PERPETUAL: "Obtiene un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #GAINED_HOOK_EFFECT_PERPETUAL: "Obtuve un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  GAINED_HOOK_EFFECT_PERPETUAL: "Obtuve un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #I_GAIN_HOOK_EFFECT_PERPETUAL: "Obtienes un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  I_GAIN_HOOK_EFFECT_PERPETUAL: "Obtienes un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #I_GAINED_HOOK_EFFECT_PERPETUAL: "Obtuviste un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  I_GAINED_HOOK_EFFECT_PERPETUAL: "Obtuviste un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #THEY_GAIN_HOOK_EFFECT_PERPETUAL: "[CHARACTER.GetShortUIName|U] obtiene un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  THEY_GAIN_HOOK_EFFECT_PERPETUAL: "[CHARACTER.GetShortUIName|U] obtiene un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #THEY_GAINED_HOOK_EFFECT_PERPETUAL: "[CHARACTER.GetShortUIName|U] obtuvo un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]" #NT!
  THEY_GAINED_HOOK_EFFECT_PERPETUAL: "[CHARACTER.GetShortUIName|U] obtuvo un [perpetual_hook|E] #weak ($TYPE$)#! en [TARGET_CHARACTER.GetShortUIName]"
   
+  #AGOT Modified 
+ #REMOVE_HOOK_EFFECT: "Pierde un $TYPE$ [hook|E] en [TARGET_CHARACTER.GetShortUIName]" #NT!
  REMOVE_HOOK_EFFECT: "Pierde un $TYPE$ [hook|E] en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #REMOVE_HOOK_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] pierde un $TYPE$ [hook|E] en [TARGET_CHARACTER.GetShortUIName]" #NT!
  REMOVE_HOOK_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] pierde un $TYPE$ [hook|E] en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #REMOVE_HOOK_EFFECT_FIRST: "Pierdes tu $TYPE$ [hook|E] en [TARGET_CHARACTER.GetShortUIName]" #NT!
  REMOVE_HOOK_EFFECT_FIRST: "Pierdes tu $TYPE$ [hook|E] en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #REMOVED_HOOK_EFFECT_FIRST: "Perdiste tu $TYPE$ [hook|E] en [TARGET_CHARACTER.GetShortUIName]" #NT!
  REMOVED_HOOK_EFFECT_FIRST: "Perdiste tu $TYPE$ [hook|E] el [TARGET_CHARACTER.GetShortUIName]"
   
+  #AGOT Modified 
+ #USE_HOOK_EFFECT: "Utiliza Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]" #NT!
  USE_HOOK_EFFECT: "Utiliza Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #USE_HOOK_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] usa [CHARACTER.GetHerHis] Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]" #NT!
  USE_HOOK_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] usa [CHARACTER.GetHerHis] Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #USE_HOOK_EFFECT_FIRST: "Usas tu Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]" #NT!
  USE_HOOK_EFFECT_FIRST: "Usas tu Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #USE_HOOK_EFFECT_PAST: "Usado [CHARACTER.GetHerHis] Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]" #NT!
  USE_HOOK_EFFECT_PAST: "Usado [CHARACTER.GetHerHis] Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #USE_HOOK_EFFECT_THIRD_PAST: "[CHARACTER.GetShortUIName|U] usado [CHARACTER.GetHerHis] Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]" #NT!
  USE_HOOK_EFFECT_THIRD_PAST: "[CHARACTER.GetShortUIName|U] usado [CHARACTER.GetHerHis] Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]"
+  #AGOT Modified 
+ #USE_HOOK_EFFECT_FIRST_PAST: "Usaste tu Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]" #NT!
  USE_HOOK_EFFECT_FIRST_PAST: "Usaste tu Débil [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName]"
   
+  #AGOT Modified 
+ #USE_STRONG_HOOK_EFFECT: "Utiliza un fuerte [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a utilizar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!" #NT!
  USE_STRONG_HOOK_EFFECT: "Utiliza un Strong [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a utilizar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!"
+  #AGOT Modified 
+ #USE_STRONG_HOOK_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] usa [CHARACTER.GetHerHis] Fuerte [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!" #NT!
  USE_STRONG_HOOK_EFFECT_THIRD: "[CHARACTER.GetShortUIName|U] usa [CHARACTER.GetHerHis] Fuerte [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!"
+  #AGOT Modified 
+ #USE_STRONG_HOOK_EFFECT_FIRST: "Usas tu Strong [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!" #NT!
  USE_STRONG_HOOK_EFFECT_FIRST: "Usas tu Strong [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!"
+  #AGOT Modified 
+ #USE_STRONG_HOOK_EFFECT_PAST: "Usó un Strong [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!" #NT!
  USE_STRONG_HOOK_EFFECT_PAST: "Usó un Strong [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!"
+  #AGOT Modified 
+ #USE_STRONG_HOOK_EFFECT_THIRD_PAST: "[CHARACTER.GetShortUIName|U] usado [CHARACTER.GetHerHis] Fuerte [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!" #NT!
  USE_STRONG_HOOK_EFFECT_THIRD_PAST: "[CHARACTER.GetShortUIName|U] usado [CHARACTER.GetHerHis] Fuerte [hook|E] ($TYPE$) en [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!"
+  #AGOT Modified 
+ #USE_STRONG_HOOK_EFFECT_FIRST_PAST: "Usaste tu Strong [hook|E] ($TYPE$) el [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!" #NT!
  USE_STRONG_HOOK_EFFECT_FIRST_PAST: "Usaste tu Strong [hook|E] ($TYPE$) el [TARGET_CHARACTER.GetShortUIName] #weak (no se puede volver a usar durante [GetDefine('NCharacter', 'HOOK_COOLDOWN_DURATION_YEARS')] años)#!"
   
  EVERY_COURTIER_EFFECT: "Cada [courtier|E]"
@@ -414,6 +500,8 @@
  SET_SECRET_OWNER_EFFECT: "Será dueño del secreto [SECRET.GetName]"
  MY_SET_SECRET_OWNER_EFFECT: "Serás el dueño del secreto [SECRET.GetName]"
  THEIR_SET_SECRET_OWNER_EFFECT: "[CHARACTER.GetUIName] será el dueño del secreto [SECRET.GetName]"
+  #AGOT Modified 
+ #EFFECT_CHARACTER_HEADER: "[CHARACTER.GetShortUINameNoTooltip]:\n" #NT!
  EFFECT_CHARACTER_HEADER: "[CHARACTER.GetShortUINameNoTooltip]:\n"
  MAKE_CONCUBINE_EFFECT: "Toma [TARGET_CHARACTER.GetShortUIName] como [concubine|E]"
  MADE_CONCUBINE_EFFECT: "Tomó [TARGET_CHARACTER.GetShortUIName] como [concubine|E]"
@@ -569,8 +657,14 @@
  REMOVED_MY_TRAIT: "Perdiste el [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
  REMOVED_THEIR_TRAIT: "[CHARACTER.GetShortUIName|U] perdió el [trait|E] [TRAIT.GetName( CHARACTER.Self )|LV]"
   
+  #AGOT Modified 
+ #ADD_COURTIER_TO_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se une a [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourt')|l]" #NT!
  ADD_COURTIER_TO_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se une a la corte"
+  #AGOT Modified 
+ #ADD_COURTIER_TO_MY_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se une a tu [CHARACTER.Custom('GetCourt')|l]" #NT!
  ADD_COURTIER_TO_MY_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se une a tu corte"
+  #AGOT Modified 
+ #ADD_COURTIER_TO_THEIR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se une a [CHARACTER.GetShortUINamePossessive] [CHARACTER.Custom('GetCourt')|l]" #NT!
  ADD_COURTIER_TO_THEIR_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se une a la corte [CHARACTER.GetShortUINamePossessive]"
  ADDED_COURTIER_TO_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se unió a la corte"
  ADDED_COURTIER_TO_MY_COURT: "[TARGET_CHARACTER.GetShortUIName|U] se unió a tu corte"
@@ -652,9 +746,17 @@
  I_LOSE_A_GUARDIAN: "Pierdes [TARGET_CHARACTER.GetShortUIName] ya que tu [guardian|E]"
  I_LOST_A_GUARDIAN: "Perdiste [TARGET_CHARACTER.GetShortUIName] como tu [guardian|E]"
   
+  #AGOT Modified 
+ #GLOBAL_BECOME_WARD: "Se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] [ward|E]" #NT!
  GLOBAL_BECOME_WARD: "Se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] [ward|E]"
+  #AGOT Modified 
+ #GLOBAL_BECAME_WARD: "Se convirtió en [TARGET_CHARACTER.GetShortUINamePossessive] [ward|E]" #NT!
  GLOBAL_BECAME_WARD: "Se convirtió en [TARGET_CHARACTER.GetShortUINamePossessive] [ward|E]"
+  #AGOT Modified 
+ #THEY_GET_A_WARD: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHARACTER.GetShortUINamePossessive] [ward|E]" #NT!
  THEY_GET_A_WARD: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHARACTER.GetShortUINamePossessive] [ward|E]"
+  #AGOT Modified 
+ #GLOBAL_BECOME_GUARDIAN: "Se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] [guardian|E]" #NT!
  GLOBAL_BECOME_GUARDIAN: "Se convierte en [TARGET_CHARACTER.GetShortUINamePossessive] [guardian|E]"
   
  THEY_LOSE_A_WARD: "[TARGET_CHARACTER.GetShortUIName|U] [CharAreIs(TARGET_CHARACTER)] ya no [CHARACTER.GetShortUINamePossessive] [ward|E]"
@@ -772,7 +874,7 @@
   
  GET_CRUSH: "Se enamora de [TARGET_CHARACTER.GetShortUIName]"
  I_GET_CRUSH: "Te enamoras de [TARGET_CHARACTER.GetShortUIName]"
- THEY_GET_CRUSH: "[TARGET_CHARACTER.GetShortUIName|U] desarrolla un [crush|E] en [CHARACTER.GetShortUIName]" #NT!
+ THEY_GET_CRUSH: "[TARGET_CHARACTER.GetShortUIName|U] desarrolla un [crush|E] en [CHARACTER.GetShortUIName]"
  LOSE_CRUSH: "Deja de enamorarte de [TARGET_CHARACTER.GetShortUIName]"
  I_LOSE_CRUSH: "Dejaste de estar enamorado de [TARGET_CHARACTER.GetShortUIName]"
   
@@ -1422,6 +1524,11 @@
  CLEAR_DESIGNATED_HEIR_FIRST: "Ya no tendrás un [designated_heir|E]"
  CLEAR_DESIGNATED_HEIR_THIRD: "[CHARACTER.GetShortUIName|U] ya no tendrá un [designated_heir|E]"
   
+ set_designated_heir_unsafe_global: "$SET_DESIGNATED_HEIR_GLOBAL$" #NT!
+ set_designated_heir_unsafe_first: "$SET_DESIGNATED_HEIR_FIRST$" #NT!
+ set_designated_heir_unsafe_first_past: "$SET_DESIGNATED_HEIR_FIRST_PAST$" #NT!
+ set_designated_heir_unsafe_third: "$SET_DESIGNATED_HEIR_THIRD$" #NT!
+  
  DIVORCE_GLOBAL: "Divorcios [TARGET_CHARACTER.GetUIName]"
  DIVORCE_FIRST: "Te divorcias [TARGET_CHARACTER.GetUIName]"
  DIVORCE_THIRD: "[CHARACTER.GetShortUIName|U] divorcios [TARGET_CHARACTER.GetUIName]"
@@ -1759,6 +1866,13 @@
  TARGET_GAINS_LEARNING_LIFESTYLE_XP: "[CHARACTER.GetShortUIName|U] ganancias $VALUE|V0$ [learning_lifestyle|E] Experiencia"
  TARGET_GAINED_LEARNING_LIFESTYLE_XP: "[CHARACTER.GetShortUIName|U] ganado $VALUE|V0$ [learning_lifestyle|E] Experiencia"
   
+ GAINS_WANDERER_LIFESTYLE_XP: "Ganancias $VALUE|V0$ [wanderer_lifestyle|E] Experiencia" #NT!
+ GAINED_WANDERER_LIFESTYLE_XP: "Obtuvo $VALUE|V0$ [wanderer_lifestyle|E] Experiencia" #NT!
+ I_GAIN_WANDERER_LIFESTYLE_XP: "Obtienes $VALUE|V0$ [wanderer_lifestyle|E] de experiencia" #NT!
+ I_GAINED_WANDERER_LIFESTYLE_XP: "Ganaste $VALUE|V0$ [wanderer_lifestyle|E] Experiencia" #NT!
+ TARGET_GAINS_WANDERER_LIFESTYLE_XP: "[CHARACTER.GetShortUIName|U] gana $VALUE|V0$ [wanderer_lifestyle|E] Experiencia" #NT!
+ TARGET_GAINED_WANDERER_LIFESTYLE_XP: "[CHARACTER.GetShortUIName|U] ganado $VALUE|V0$ [wanderer_lifestyle|E] Experiencia" #NT!
+  
  GAINS_A_DIPLOMACY_LIFESTYLE_PERKPOINT: "Ganancias $VALUE|V0$ [diplomacy_lifestyle|E] [perk|E] Desbloquear"
  GAINED_A_DIPLOMACY_LIFESTYLE_PERKPOINT: "Obtenido $VALUE|V0$ [diplomacy_lifestyle|E] [perk|E] Desbloquear"
  I_GAIN_A_DIPLOMACY_LIFESTYLE_PERKPOINT: "Obtienes $VALUE|V0$ [diplomacy_lifestyle|E] [perk|E] Desbloquear"
@@ -1793,6 +1907,13 @@
  I_GAINED_A_LEARNING_LIFESTYLE_PERKPOINT: "Ganaste $VALUE|V0$ [learning_lifestyle|E] [perk|E] Desbloquear"
  TARGET_GAINS_A_LEARNING_LIFESTYLE_PERKPOINT: "[CHARACTER.GetShortUIName|U] gana $VALUE|V0$ [learning_lifestyle|E] [perk|E] Desbloquea"
  TARGET_GAINED_A_LEARNING_LIFESTYLE_PERKPOINT: "[CHARACTER.GetShortUIName|U] ganado $VALUE|V0$ [learning_lifestyle|E] [perk|E] Desbloquear"
+  
+ GAINS_A_WANDERER_LIFESTYLE_PERKPOINT: "Ganancias $VALUE|V0$ [wanderer_lifestyle|E] [perk|E] Desbloquear" #NT!
+ GAINED_A_WANDERER_LIFESTYLE_PERKPOINT: "Obtenido $VALUE|V0$ [wanderer_lifestyle|E] [perk|E] Desbloquear" #NT!
+ I_GAIN_WANDERER_A_LIFESTYLE_PERKPOINT: "Obtienes $VALUE|V0$ [wanderer_lifestyle|E] [perk|E] Desbloquear" #NT!
+ I_GAINED_A_WANDERER_LIFESTYLE_PERKPOINT: "Ganaste $VALUE|V0$ [wanderer_lifestyle|E] [perk|E] Desbloquear" #NT!
+ TARGET_GAINS_A_WANDERER_LIFESTYLE_PERKPOINT: "[CHARACTER.GetShortUIName|U] gana $VALUE|V0$ [wanderer_lifestyle|E] [perk|E] Desbloquea" #NT!
+ TARGET_GAINED_A_WANDERER_LIFESTYLE_PERKPOINT: "[CHARACTER.GetShortUIName|U] ganado $VALUE|V0$ [wanderer_lifestyle|E] [perk|E] Desbloquear" #NT!
   
  REFUND_ALL_PERKS_EFFECT: "Se reembolsarán todos tus [perks|E] desbloqueados"
   
@@ -2498,10 +2619,10 @@
   
  PAUSE_TRAVEL_PLAN_EFFECT: "El plan de viaje se pausará"
  PAUSE_TRAVEL_PLAN_EFFECT_PAST: "El plan de viaje se suspendió"
- FIRST_PAUSE_TRAVEL_PLAN_EFFECT: "Tu [travel|E] será pausado" #NT!
- FIRST_PAUSE_TRAVEL_PLAN_EFFECT_PAST: "Tu [travel|E] fue pausado" #NT!
- THIRD_PAUSE_TRAVEL_PLAN_EFFECT: "[CHARACTER.GetNamePossessive] [travel|E] se pausará" #NT!
- THIRD_PAUSE_TRAVEL_PLAN_EFFECT_PAST: "[CHARACTER.GetNamePossessive] [travel|E] fue pausado" #NT!
+ FIRST_PAUSE_TRAVEL_PLAN_EFFECT: "Tu [travel|E] será pausado"
+ FIRST_PAUSE_TRAVEL_PLAN_EFFECT_PAST: "Tu [travel|E] fue pausado"
+ THIRD_PAUSE_TRAVEL_PLAN_EFFECT: "[CHARACTER.GetNamePossessive] [travel|E] se pausará"
+ THIRD_PAUSE_TRAVEL_PLAN_EFFECT_PAST: "[CHARACTER.GetNamePossessive] [travel|E] fue pausado"
   
  RESUME_TRAVEL_PLAN_EFFECT: "Se reanudará el plan de viaje"
  RESUME_TRAVEL_PLAN_EFFECT_PAST: "Se retomó el plan de viaje"
@@ -2817,14 +2938,14 @@
  ARMY_WAS_DEPLETED: "$VALUE|-%0$ de [ARMY.GetName] se perdió"
  ARMY_WAS_DEPLETED_GLOBAL: "$VALUE|-%0$ de [ARMY.GetName] se perdió"
   
- ARMY_ADD_SUPPLY: "[ARMY.GetName] gana $VALUE|-%0$ [supplies|e]" #NT!
- ARMY_ADDED_SUPPLY: "[ARMY.GetName] ganado $VALUE|-%0$ [supplies|e]" #NT!
- ARMY_SUBTRACT_SUPPLY: "[ARMY.GetName] pierde $VALUE|-%0$ [supplies|e]" #NT!
- ARMY_SUBTRACTED_SUPPLY: "[ARMY.GetName] perdido $VALUE|-%0$ [supplies|e]" #NT!
- ARMY_CLEAR_SUPPLY: "[ARMY.GetName] pierde todo [supplies|e]" #NT!
- ARMY_CLEARED_SUPPLY: "[ARMY.GetName] perdió todo [supplies|e]" #NT!
- ARMY_REFILL_SUPPLY: "[ARMY.GetName] recargas todas [supplies|e]" #NT!
- ARMY_REFILLED_SUPPLY: "[ARMY.GetName] rellenó todo [supplies|e]" #NT!
+ ARMY_ADD_SUPPLY: "[ARMY.GetName] gana $VALUE|-%0$ [supplies|e]"
+ ARMY_ADDED_SUPPLY: "[ARMY.GetName] ganado $VALUE|-%0$ [supplies|e]"
+ ARMY_SUBTRACT_SUPPLY: "[ARMY.GetName] pierde $VALUE|-%0$ [supplies|e]"
+ ARMY_SUBTRACTED_SUPPLY: "[ARMY.GetName] perdido $VALUE|-%0$ [supplies|e]"
+ ARMY_CLEAR_SUPPLY: "[ARMY.GetName] pierde todo [supplies|e]"
+ ARMY_CLEARED_SUPPLY: "[ARMY.GetName] perdió todo [supplies|e]"
+ ARMY_REFILL_SUPPLY: "[ARMY.GetName] recargas todas [supplies|e]"
+ ARMY_REFILLED_SUPPLY: "[ARMY.GetName] rellenó todo [supplies|e]"
   
   # EP3 - Rebalancing Old Perks 
  praetorian_guard_perk_effect: "Aumento [GetCourtPositionType('bodyguard_court_position').GetName()] [aptitude|E]"
@@ -2835,9 +2956,81 @@
  transfer_owned_maa_control_global: "[TITLE.GetHolder.GetShortUIName|U] transfiere[_s(TITLE.GetHolder)] el [TITLE.GetAdjective] [army|E] al [TARGET_TITLE.GetNameNoTier] bajo el comando [TARGET_TITLE.GetHolder.GetShortUINamePossessive]"
  transfer_owned_maa_control_global_past: "[TITLE.GetHolder.GetShortUIName|U] transfirió [TITLE.GetAdjective] [army|E] a [TARGET_TITLE.GetNameNoTier] bajo el comando [TARGET_TITLE.GetHolder.GetShortUINamePossessive]"
   
- force_step_down_landed_titles_first: "Renuncias y pierdes todos los títulos de propiedad." #NT!
- force_step_down_landed_titles_third: "[CHARACTER.GetUIName] se retira y pierde todos los títulos adquiridos" #NT!
- force_step_down_landed_titles_global: "Will dimite y pierde todos los títulos de propiedad." #NT!
- force_step_down_landed_titles_first_past: "Dimitiste y perdiste todos los títulos de propiedad." #NT!
- force_step_down_landed_titles_third_past: "[CHARACTER.GetUIName] renunció y perdió todos los títulos adquiridos" #NT!
- force_step_down_landed_titles_global_past: "Dimitió y perdió todos los títulos territoriales." #NT!
+ force_step_down_landed_titles_first: "Renuncias y pierdes todos los títulos de propiedad."
+ force_step_down_landed_titles_third: "[CHARACTER.GetUIName] se retira y pierde todos los títulos adquiridos"
+ force_step_down_landed_titles_global: "Will dimite y pierde todos los títulos de propiedad."
+ force_step_down_landed_titles_first_past: "Dimitiste y perdiste todos los títulos de propiedad."
+ force_step_down_landed_titles_third_past: "[CHARACTER.GetUIName] renunció y perdió todos los títulos adquiridos"
+ force_step_down_landed_titles_global_past: "Dimitió y perdió todos los títulos territoriales."
+  
+  # BP3 - New Perks 
+ well_prepared_perk_effect: "Disminuido [travel_option|E] Costo: [gold_i|E]#P -25%#!" #NT!
+ far_and_wide_perk_effect: "Aumenta [prestige_experience_i|E][prestige_experience|E] en #P 10#! por cada [holding|E] visitado" #NT!
+ first_far_and_wide_perk_effect: "Tu [prestige_experience_i|E][prestige_experience|E] se incrementa en #P 10#! por cada [holding|E] que visites" #NT!
+ just_one_more_hill_perk_effect: "Los niños tienen la posibilidad de ganar $game_concept_prowess_i$[prowess|E] y [GetTrait('lifestyle_traveler').GetName]" #NT!
+ first_just_one_more_hill_perk_effect: "Tus hijos tienen la oportunidad de ganar $game_concept_prowess_i$[prowess|E] y [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] [trait|E]" #NT!
+ roaming_perk_effect: "¡Puede ganar [prestige_experience_i|E] [prestige_experience] de los eventos [travel|E] y @activity_hike![GetActivityType('activity_roaming').GetName]\nObtenga acceso a @activity_hike![GetActivityType('activity_roaming').GetName] [activity|E]" #NT!
+ first_roaming_perk_effect: "¡Puedes ganar [prestige_experience_i|E][prestige_experience|E] de los eventos [travel|E] y @activity_hike![GetActivityType('activity_roaming').GetName]\nObtienes acceso a @activity_hike![GetActivityType('activity_roaming').GetName] [activity|E]" #NT!
+ of_the_people_perk_effect: "[accept_culture|E] Efectividad: #P +30%#!\nIncrease el [county_opinion|E] de un [realm|E] [county|E] cuando [traveling|E] le llega" #NT!
+ first_of_the_people_perk_effect: "[accept_culture|E] Efectividad: #P +30%#!\nIncrease el [county_opinion|E] de cualquier [realm|E] [county|E] que [travel|E] a" #NT!
+ of_the_people_perk_2_effect: "[adventurer_i] Cada vez que muevas tu [camp|E], ganas [prestige_experience_i][prestige_experience|E] igual a 15 veces tu [diplomacy|E] [skill|E] #weak (una vez cada 3 meses)#!" #NT!
+ travel_companion_perk_effect: "[GetCourtPositionType('travel_leader_court_position').GetName()] [aptitude|E]: #P +15#!" #NT!
+ the_home_away_from_home_perk_effect: "¡Desbloquea la @activity_hike![GetActivityType('activity_roaming').GetName] [activity_option|E] [roaming_longer_length_travel|E]\n[stress_loss_i|E] [stress_loss|E] aumentada en #P +50#! mientras que [traveling|E]" #NT!
+ first_the_home_away_from_home_perk_effect: "¡Desbloquea la @activity_hike![GetActivityType('activity_roaming').GetName] [activity_option|E] [roaming_longer_length_travel|E]\n[stress_loss_i|E] [stress_loss|E] aumentada en #P +50%#! mientras estás [traveling|E]" #NT!
+ local_arbitration_perk_effect: "Desbloquea el [local_arbitration|E] [decision|E]" #NT!
+ local_arbitration_perk_2_effect: "[GetCourtPositionType('second_camp_officer').GetName()] [aptitude|E]: #P +15#!" #NT!
+ local_arbitration_purpose_short: "Gana [skill|E] puntos en base a [camp_purpose|E]" #NT!
+ local_arbitration_bullet: "\n\t\t$BULLET_WITH_TAB$" #NT!
+ local_arbitration_wanderers_purpose: "$local_arbitration_purpose_short$ #weak (Wanderers)#!:$local_arbitration_bullet$Your [diplomacy|E] aumenta en #P [diplomacy_i]1#!$local_arbitration_bullet$Your [martial|E] aumenta en #P [martial_i]1#!$local_arbitration_bullet$Your #weak1 aumenta en #P #weak31#!$local_arbitration_bullet$Your #weak5 aumenta en #P #weak71#!$local_arbitration_bullet$Your #weak9 aumenta en #P #!:$local_arbitration_bullet$Your11#!:$local_arbitration_bullet$Your2" #NT!
+ local_arbitration_mercenaries_purpose: "$local_arbitration_purpose_short$ #weak (Espadas a sueldo)#!:$local_arbitration_bullet$Your [martial|E] aumenta en #P [martial_i]2#!$local_arbitration_bullet$Your [prowess|E] aumenta en #P [prowess_i]2#weak0" #NT!
+ local_arbitration_scholar_purpose: "$local_arbitration_purpose_short$ #weak (Académicos)#!:$local_arbitration_bullet$Your [learning|E] aumenta en #P [learning_i]2#!$local_arbitration_bullet$Your [stewardship|E] aumenta en #P [stewardship_i]2#weak0" #NT!
+ local_arbitration_explorers_purpose: "$local_arbitration_purpose_short$ #weak (Exploradores)#!:$local_arbitration_bullet$Your [diplomacy|E] aumenta en #P [diplomacy_i]2#!$local_arbitration_bullet$Your [intrigue|E] aumenta en #P [intrigue_i]2#weak0" #NT!
+ local_arbitration_brigands_purpose: "$local_arbitration_purpose_short$ #weak (Filipenses)#!:$local_arbitration_bullet$Your [prowess|E] aumenta en #P [prowess_i]2#!$local_arbitration_bullet$Your [intrigue|E] aumenta en #P [intrigue_i]2#weak0" #NT!
+ local_arbitration_legitimists_purpose: "$local_arbitration_purpose_short$ #weak (Legitimistas)#!:$local_arbitration_bullet$Your [diplomacy|E] aumenta en #P [diplomacy_i]2#!$local_arbitration_bullet$Your [martial|E] aumenta en #P [martial_i]2#weak0" #NT!
+ power_at_home_perk_effect: "[swing_scales_of_power|E] ha aumentado la eficiencia durante [travel|E]\n[diarchs|E] son más leales cuando su [liege|E] es [traveling|E]" #NT!
+ first_power_at_home_perk_effect: "[swing_scales_of_power|E] ha aumentado la eficiencia y [diarchs|E] es más leal, cuando eres [traveling|E]" #NT!
+ journey_planner_perk_effect: "[activity_options|E] Costo: @gold_icon!#P -20%#!" #NT!
+ finally_there_perk_effect: "Gana [prestige_i] [prestige|E] y reduce [stress_loss_i] [stress|E] al llegar al [destination|E] en un [travel|E]" #NT!
+ first_finally_there_perk_effect: "Gana [prestige_i] [prestige|E] y reduce [stress_loss_i] [stress|E] cuando llegues a tu [destination|E] en un [travel|E]" #NT!
+ finally_there_perk_2_effect: "[point_of_interest|E] [stress_loss|E]: [stress_loss_i]-#p 5#!\n[point_of_interest|E] [prestige|E]: [prestige_i]#P +10#!" #NT!
+ mercenary_contacts_perk_effect: "Desbloquea el [GetTravelOption('hire_allied_mercenaries_option').GetName] [travel_option|E]" #NT!
+ been_there_done_that_perk_effect: "[point_of_interest|E] Recompensas: #P +30%#!\nCan aprende #V 1#! adicional [language|E] sin ninguna penalización" #NT!
+ souvenirs_aplenty_perk_effect: "El [capital|E] ganará [development|E] si el propietario [traveled|E] a un [destination|E] más desarrollado" #NT!
+ first_souvenirs_aplenty_perk_effect: "Tu [capital|E] ganará [development|E] si pasas [travel|E] a un [destination|E] más desarrollado." #NT!
+ souvenirs_aplenty_perk_2_effect: "[adventurer_i] Siempre que muevas tu [camp|E], ganas #p +10#! [opinion|E] con [courtiers|E] y [guests|E]" #NT!
+ souvenirs_aplenty_perk_3_effect: "[adventurer_i] Siempre que muevas tu [camp|E], puedes ganar #p +25#! [gold|E] y #color_yellow +5#! [GetTrait('gallowsbait').GetName( GetNullCharacter )] [trait_level_track_xp|E] #weak (una vez cada 3 meses)#!" #NT!
+ gracious_host_impeccable_guest_perk_effect: "Gana #P 10#! opinión con cualquier persona [traveling|E] a la [capital|E], y #P 10#! opinión al viajar a la capital de otros" #NT!
+ gracious_host_impeccable_guest_perk_2_effect: "Gana #P 10#! Opinión al visitar a alguien [capital|E]" #NT!
+ gracious_host_impeccable_guest_perk_3_effect: "[adventurer_i] Bono [modifiers|E] de los #P $DOMICILE_WINDOW_BOOKMARK_FOLLOWERS_TEMPERAMENT_POSITIVE$#! [camp_temperament|E] ahora también escala por número de conocidos [languages|E]" #NT!
+ gracious_host_impeccable_guest_perk_4_effect: "[court_position|E] [aptitude|E] Aumentado en #p +3#! por cada [language|E] conocido" #NT!
+ first_gracious_host_impeccable_guest_perk_effect: "Gana #P 10#! Opinión con alguien [traveling|E] a tu [capital|E]\nGana #P 10#! Opinión al visitar a alguien [capital|E]" #NT!
+ journey_perk_effect: "¡Obtén acceso a la @activity_monument_expedition![GetActivityType('activity_journey').GetName] [activity|E]" #NT!
+ first_journey_perk_effect: "¡Obtienes acceso a la @activity_monument_expedition![GetActivityType('activity_journey').GetName] [activity|E]" #NT!
+ journey_perk_2_effect: "Aumenta [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] [trait_level_track_xp|E] cuando visitas un [point_of_interest|E]" #NT!
+ local_inspection_perk_effect: "¡Obtén acceso a @activity_inspection![GetActivityType('activity_survey').GetName] [activity|E]" #NT!
+ first_local_inspection_perk_effect: "¡Obtienes acceso a @activity_inspection![GetActivityType('activity_survey').GetName] [activity|E]" #NT!
+ local_inspection_perk_2_effect: "[designated_terrain|E] [provisions|E] Uso: [provisions_i]#P -25%#!\nUnlocks el [GetCourtPositionType('quartermaster_camp_officer').GetName] [officer|E]\n[GetCourtPositionType('quartermaster_camp_officer').GetName] [aptitude|E]: #P +10#!\nUnlocks el [provisions|E]1 [officer|E]\n[provisions|E]1 [aptitude|E]: #P +10[provisions|E]6" #NT!
+  
+ local_hero_perk_effect: "Desbloquea el [GetTravelOption('leisurely_option').GetName ( GetPlayer )] [travel_option|E]\nDesbloquea el [GetTravelOption('appeasement_option').GetName ( GetPlayer )] [travel_option|E]" #NT!
+  
+  
+ travel_logs_effect: "Gana [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] $trait_track_danger$ [trait_level_track_xp|E] cuando llegues a tu [destination|E]" #NT!
+ travel_logs_2_effect: "Gana el [GetTrait('lifestyle_traveler').GetName( GetNullCharacter )] [trait|E]" #NT!
+ know_your_land_know_your_people_perk_effect: "Mismo reino [marriage|E] Aceptación para uno mismo: #P +[EmptyScope.ScriptValue('promising_prospects_self_value')|0]#!\nSame Reino [marriage|E] Aceptación para [close_family|E] y [extended_family|E]: #P +[EmptyScope.ScriptValue('promising_prospects_other_value')|0]#!" #NT!
+ know_your_land_know_your_people_perk_2_effect: "Desbloquea el [GetTravelOption('tutor_child_option').GetName ( GetPlayer )] [travel_option|E]" #NT!
+ know_your_land_know_your_people_perk_3_effect: "[GetDecisionWithKey('gather_provisions_decision').GetName] en [designated_terrain|E]: [provisions_i]#P +50%#!" #NT!
+ mustering_the_troops_perk_effect: "[traveling|E] a [domain|E] [holdings|E] mejora la eficacia de su [stationed|E] [men_at_arms|E]" #NT!
+ mustering_the_troops_perk_2_effect: "Desbloquea el [designated_terrain|E] [decision|E]\n[designated_terrain|E] [travel_danger|E]: [travel_danger_i]#p -20#!" #NT!
+ surveyor_no_stone_unturned_perk_effect: "Gana [development|E] y [control|E] en [counties|E] propios al alojar [activities|E] en ellos" #NT!
+ no_stone_unturned_perk_2_effect: "[command_modifier_i][designated_terrain|E] [advantage|E]: @advantage_icon!#P +5[designated_terrain|E]2\n[command_modifier_i]Máximo [combat_roll|E] en [designated_terrain|E]: #P +2[designated_terrain|E]2\n[command_modifier_i]Mínimo [combat_roll|E] en [designated_terrain|E]: #P +2[designated_terrain|E]2" #NT!
+ personal_touch_effect: "Realizar una @activity_inspection![GetActivityType('activity_survey').GetName] [activity|E] también aplicará los efectos de una [GetDecisionWithKey('local_arbitration_decision').GetName] en ese [county|E]\n[GetPerk('no_stone_unturned_perk').GetName(GetPlayer)] Efectos: #p +50%#!" #NT!
+ personal_touch_2_effect: "Desbloquea el [master_terrain|E] [decision|E]" #NT!
+ personal_touch_3_effect: "Efectos para [master_terrain|E]:\n$BULLET_WITH_TAB$[travel_danger|E]: [travel_danger_i]#P -20#!\n$BULLET_WITH_TAB$[provisiones|E] Uso: [provisions_i]#P -25%#!\n$BULLET_WITH_TAB$#color_white Recarga Hombres de armas#! Coste: $BULLET_WITH_TAB$0[provisions_i]#P -25%#!\n$BULLET_WITH_TAB$[prestigio|E] y $BULLET_WITH_TAB$4 de $BULLET_WITH_TAB$5: $BULLET_WITH_TAB$6#P +50%#!\n$BULLET_WITH_TAB$[modificador_de_comando_i][ventaja|E]: @advantage_icon!#P +5#!\n$BULLET_WITH_TAB$[command_modifier_i]Máximo [travel_danger|E]1: #P +1#!\n$BULLET_WITH_TAB$[command_modifier_i]Mínimo [travel_danger|E]1: #P +1#!\n$BULLET_WITH_TAB$[command_modifier_i]Negar [travel_danger|E]7 Penalización: #P Sí#!\n$BULLET_WITH_TAB$[command_modifier_i][attrition|E] Tomado: #P -50%#!" #NT!
+ local_adjudicate_location_tt: "Los siguientes efectos se aplicarán en tu ubicación actual:" #NT!
+ realm_charts_perk_effect: "Esquema del mismo reino Secreto @scheme_secrecy_icon!#P +[EmptyScope.ScriptValue('realm_charts_perk_value')|+0%/]#!" #NT!
+ realm_charts_perk_2_effect: "Desbloquea el [draw_up_new_charts|E] [decision|E]" #NT!
+  
+ random_economic_building_tt: "Mantener [building_scope.GetName] genera un [economic_building|E] aleatorio" #NT!
+ random_fortification_building_tt: "Mantener [building_scope.GetName] genera un [fortification_building|E] aleatorio" #NT!
+ random_military_building_tt: "Mantener [building_scope.GetName] genera un [military_building|E] aleatorio" #NT!
+  

@@ -257,6 +257,9 @@
  friend_motivated_by_parent: "[TARGET_CHARACTER_2.GetShortUIName] [Select_CString(CHARACTER.IsLocalPlayer, 'te animó ', 'animó' )] a [Select_CString(CHARACTER.IsLocalPlayer, 'ti', CHARACTER.GetShortUINameNoTooltip )] a tener actitud amigable con [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'tu persona', TARGET_CHARACTER.GetShortUIName )]."
  friend_motivated_by_parent_corresponding: "[TARGET_CHARACTER_2.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'te animó ', 'animó' )] a [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'ti', TARGET_CHARACTER.GetShortUIName )] a tener actitud amigable con [Select_CString(CHARACTER.IsLocalPlayer, 'tu persona', CHARACTER.GetShortUIName )]."
   
+ friend_helped_me_marry: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'were', 'was' )] ayudó a [CHARACTER.GetShortUIName] a casarse con [TARGET_CHARACTER_2.GetShortUIName]." #NT!
+ friend_helped_me_marry_corresponding: "[CHARACTER.GetShortUIName|U] ayudó a [TARGET_CHARACTER.GetShortUIName] a casarse con [TARGET_CHARACTER_2.GetShortUIName]." #NT!
+  
  friend_good_chats: "Cuando era una criatura, [CHARACTER.GetShortUIName] [CHARACTER.LocalPlayerString( 'aprendiste', 'aprendió' )] mucho al hablar con [TARGET_CHARACTER.GetShortUIName]."
  friend_good_chats_corresponding: "Cuando era una criatura, [TARGET_CHARACTER.GetShortUIName] aprendió mucho al hablar con [CHARACTER.LocalPlayerString( 'tu persona', CHARACTER.GetShortUIName )]."
   
@@ -2905,10 +2908,6 @@
  friend_comforting_words: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] se hicieron amigos después de que [CHARACTER.GetShortUIName] consolara a [TARGET_CHARACTER.GetShortUIName] en su momento de necesidad."
  friend_comforting_words_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] se hicieron amigos después de que [TARGET_CHARACTER.GetShortUIName] consolara a [CHARACTER.GetShortUIName] en su momento de necesidad."
   
-  #AGOT Modified fixing vanilla errors 
- #best_friend_imaginary_friend: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] se convirtieron en mejores amigos después de que el amigo imaginario de [ CHARACTER.GetShortUINamePossessiveNoTooltip] los animara."
- #best_friend_imaginary_friend_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] se convirtieron en mejores amigos después de que el amigo imaginario de [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] los animara."
- #lover_imaginary_friend: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] se convirtieron en amantes después del estímulo del amigo imaginario de [ CHARACTER.GetShortUINamePossessiveNoTooltip]."
  best_friend_imaginary_friend: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] se convirtieron en mejores amigos después de que el amigo imaginario de [CHARACTER.GetShortUINamePossessiveNoTooltip] los animara."
  best_friend_imaginary_friend_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] se convirtieron en mejores amigos después de que el amigo imaginario de [TARGET_CHARACTER.GetShortUINamePossessiveNoTooltip] los animara."
   
@@ -3149,7 +3148,19 @@
  rival_tried_to_have_me_disinherited: "[CHARACTER.GetShortUIName|U] descubrió que [TARGET_CHARACTER.GetShortUIName|U] había intentado desheredarlos, o incluso matarlos."
  rival_tried_to_have_me_disinherited_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] descubrió que [CHARACTER.GetShortUIName|U] había intentado desheredarlos, o incluso matarlos."
   
- rival_conquered_me: "El reino [CHARACTER.GetShortUINamePossessive|U] fue conquistado por [TARGET_CHARACTER.GetShortUIName|U]." #NT!
- rival_conquered_me_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] conquistó [CHARACTER.GetShortUINamePossessive|U] reino." #NT!
+ rival_conquered_me: "El reino [CHARACTER.GetShortUINamePossessive|U] fue conquistado por [TARGET_CHARACTER.GetShortUIName|U]."
+ rival_conquered_me_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] conquistó [CHARACTER.GetShortUINamePossessive|U] reino."
   
+ friend_opened_up: "[CHARACTER.GetShortUIName|U] se abrió a [TARGET_CHARACTER.GetShortUIName] sobre [CHARACTER.GetShortUINamePossessive] problemas más internos." #NT!
+ friend_opened_up_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] escuchó a [CHARACTER.GetShortUIName] hablar sobre [CHARACTER.GetHerHis] problemas más internos." #NT!
   
+ soulmate_absconded_during_wedding: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] se enteraron de su verdadero amor mientras huían juntos de una boda." #NT!
+ soulmate_absconded_during_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] se enteraron de su verdadero amor mientras huían juntos de una boda." #NT!
+ lover_absconded_during_wedding: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] desafiaron un día de fidelidad matrimonial y se escaparon en medio de una boda." #NT!
+ lover_absconded_during_wedding_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] desafiaron un día de fidelidad matrimonial y se escaparon en medio de una boda." #NT!
+  
+ lover_incestuous_wedding_threesome: "[CHARACTER.GetShortUIName|U] y [TARGET_CHARACTER.GetShortUIName] abrazaron el libertinaje compartido durante su boda... en compañía de los propios parientes de [TARGET_CHARACTER.GetFirstNamePossessive]." #NT!
+ lover_incestuous_wedding_threesome_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] y [CHARACTER.GetShortUIName] abrazaron el libertinaje compartido durante su boda... en compañía de los propios parientes de [CHARACTER.GetFirstNamePossessive]." #NT!
+  
+ rival_wedding_infidelity: "[TARGET_CHARACTER.GetShortUIName|U] engañó a [CHARACTER.GetShortUIName] #EMP con un miembro de [CHARACTER.GetFirstNamePossessive] su propia familia!#!" #NT!
+ rival_wedding_infidelity_corresponding: "[CHARACTER.GetShortUIName|U] engañó a [TARGET_CHARACTER.GetShortUIName] con un miembro de la propia familia de [TARGET_CHARACTER.GetFirstNamePossessive]." #NT!

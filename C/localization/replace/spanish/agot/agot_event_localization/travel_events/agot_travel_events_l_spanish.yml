@@ -57,7 +57,7 @@
  agot_travel_events.0005.d.tt: "Dejad a los hijos del hierro con sus juegos."
   
  agot_travel_events.0006.t: "Viaje: problemas de posada"
- agot_travel_events.0006.desc:0 "Once we get closer, the atmosphere grows uneasy. As I push the door, we are greeted by the sight of overturned tables and shattered glass. \n\nThe innkeeper welcomes us with a worried look on [innkeeper.GetHerHis] face: "A medida que nos acercamos, la atmósfera se vuelve inquietante. Cuando empujo la puerta, nos recibe la vista de mesas volcadas y vidrios rotos. \n\nEl posadero nos da la bienvenida con una mirada preocupada en el rostro de [innkeeper.GetHerHis]: "Disculpas, viajeros, me temo que no encontrarán la cálida bienvenida que estaban buscando aquí. Un grupo de bandidos atacó la posada recientemente, logramos defendernos de ellos, pero me preocupa que regresen pronto con venganza". \n\n"Sin embargo, nos vendrían bien algunas manos capaces"." #NT!
+ agot_travel_events.0006.desc:0 "Once we get closer, the atmosphere grows uneasy. As I push the door, we are greeted by the sight of overturned tables and shattered glass. \n\nThe innkeeper welcomes us with a worried look on [innkeeper.GetHerHis] face: "A medida que nos acercamos, la atmósfera se vuelve inquietante. Cuando empujo la puerta, nos recibe la vista de mesas volcadas y vidrios rotos. \n\nEl posadero nos da la bienvenida con una mirada preocupada en el rostro de [innkeeper.GetHerHis]: "Disculpas, viajeros, me temo que no encontrarán la cálida bienvenida que estaban buscando aquí. Un grupo de bandidos atacó la posada recientemente, logramos defendernos de ellos, pero me preocupa que regresen pronto con venganza". \n\n"Aunque nos vendrían bien algunas manos capaces"." #NT!
  agot_travel_events.0006.a: "Nos quedaremos y ayudaremos."
  agot_travel_events.0006.a.brave: "Proteger a los necesitados es mi voto sagrado."
  agot_travel_events.0006.a.tt: "Aceptas enfrentarte a los bandidos."
@@ -206,26 +206,31 @@
  agot_travel_events.3000.c.tt: "Participarás en combate singular."
  agot_travel_events.3000.d: "Dejémosles que lo hagan solos."
  agot_travel_events.3000.d.tt: "Continuarás tu camino."
+  
  agot_travel_events.3001.t: "Pruebas de la banda de guerra: la alineación"
  agot_travel_events.3001.desc: "Mientras me acerco a los concursantes, muchos de ellos retrocediendo ante mi mirada con lastimosa deferencia, veo a tres que se muestran prometedores, señalando a cada uno de ellos por turno. [3000_county_liege.GetName] los llama hacia adelante, y se presentan como [skilled_fighter.GetName], un peligroso guerrero famoso por su [skilled_fighter.GetHerHis] habilidad, [fit_fighter.GetName], conocido por su [fit_fighter.GetHerHis] atletismo puro, y un luchador imponente llamado [big_fighter.GetName]."
  agot_travel_events.3001.a: "Bueno, adelante, obviamente elegiré al ganador."
  agot_travel_events.3001.a.tt: "El ganador de las pruebas se une a ti."
  agot_travel_events.3001.b: "La fortuna es voluble en un concurso, ya sé quién es el mejor aquí."
  agot_travel_events.3001.b.tt: "Harás tu selección de los favoritos del concurso."
+  
  agot_travel_events.3002.t: "Pruebas de la banda de guerra: el ganador"
  agot_travel_events.3002.desc: "Después de agotadoras horas de trabajo y penurias, en las que cada uno de ellos lucha contra pesos pesados, carreras largas y pruebas de acero, los finalistas se enfrentan en un combate individual. Los dos combatientes toman sus posiciones, el aire se vuelve tenso por la tensión. Las espadas se sacuden y comienza el baile. Después de un momento que parece una eternidad, [tryouts_winner.GetName] deja a su oponente [tryouts_winner.GetHerHis] solo en el suelo."
  agot_travel_events.3002.a: "Allí está mi campeón."
+  
  agot_travel_events.3003.t: "Pruebas de Warband: ¡elige tu equipo!"
  agot_travel_events.3003.desc: "Vuelvo la mirada hacia los tres favoritos. No hay duda de que son los mejores de [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]. Ahora debo encontrar mi preferencia."
  agot_travel_events.3003.a: "Nada supera la habilidad marcial, prefiero [skilled_fighter.GetFirstNameNoTooltip]."
  agot_travel_events.3003.b: "[fit_fighter.GetNamePossessive] el atletismo está más allá de toda reputación, tomaré [fit_fighter.GetHerHim]."
  agot_travel_events.3003.c: "Con alguien de ese tamaño, puede que ni siquiera necesite pelear. Lo aceptaré [big_fighter.GetFirstNameNoTooltip]"
+  
  agot_travel_events.3010.t: "Pruebas de Warband: cómo unirse a la competencia"
  agot_travel_events.3010.desc: "Avanzando hacia el frente del grupo, comienzo a prepararme para los desafíos físicos que presencié a mi llegada. Sin embargo, antes de poder comenzar, [3000_county_liege.GetName] levanta una mano y anuncia que, debido a mi posición, me dirigiré directamente a la etapa de combate individual de la competencia, donde me enfrentaré a uno de los mejores guerreros de los aspirantes a asaltantes. El concursante que avanza es un guerrero de aspecto formidable llamado [first_duelist.GetName]."
-  agot_travel_events.3010.a:0 "Ha! Let us see what you [ROOT.Char.GetCurrentLocation.GetNameNoTooltip] folk are made of. 
+ agot_travel_events.3010.a: "¡Ja! Veamos de qué están hechos ustedes, gente [ROOT.Char.GetCurrentLocation.GetNameNoTooltip]." #NT!
  agot_travel_events.3010.a.tt: "Comenzará el combate individual con [first_duelist.GetNameNoTooltip]."
  agot_travel_events.3010.b: "Pensándolo mejor, fue de mala educación de mi parte interrumpir."
  agot_travel_events.3010.b.tt: "Evitarás el combate singular."
+  
  agot_travel_events.3012.t: "Pruebas de la banda de guerra: Triunfo"
  agot_travel_events.3012.desc: "El sonido del acero resuena en el aire mientras nuestras espadas chocan. Vamos de un lado a otro, las espadas bailan entre nosotros en un borrón, en un momento de total claridad veo una oportunidad. Mi arma encuentra su camino a casa, y el duelo termina. Mientras me levanto victorioso miro a mi alrededor, y por el rostro de [3000_county_liege.GetNamePossessive] puedo decir que este no es el resultado que [3000_county_liege.GetSheHe] esperaba. Aun así, sería un desperdicio no usar esta victoria a mi favor."
  agot_travel_events.3012.a: "¿Esto fue lo mejor que tuvieron los [first_duelist.GetCulture.GetCollectiveNounNoTooltip]? Patético."
@@ -236,11 +241,56 @@
  agot_travel_events.3012.c.tt: "Llevarás contigo a los mejores concursantes."
  agot_travel_events.3012.d: "Buena pelea, [first_duelist.GetFirstNameNoTooltip], servirás bien a [3000_county_liege.GetNameNoTooltip]."
  agot_travel_events.3012.d.tt: "[first_duelist.GetNameNoTooltip] se unirá a [3000_county_liege.GetNameNoTooltip]."
+  
  agot_travel_events.3013.t: "Pruebas de banda de guerra: eliminadas"
  agot_travel_events.3013.desc: "Mi espada cae al suelo y me veo obligado a rendirme. Mis mejillas se sonrojan de vergüenza ante las miradas de reproche y las caras risueñas de los guerreros reunidos. Después de tanta humillación, realmente solo hay una opción."
  agot_travel_events.3013.a: "Uhm, sigue con el buen trabajo, estaremos en camino."
  agot_travel_events.3013.a.tt: "Te vas, humillado."
+  
  agot_travel_events.3014.t: "Pruebas de la banda de guerra: combate singular invalidado"
  agot_travel_events.3014.desc: "Algo salió mal y la pelea se canceló."
  agot_travel_events.3014.a: "Entonces, allá vamos."
  agot_travel_events.3014.a.tt: "Tu viaje continúa."
+  
+  #Laughter in the Trees 
+  
+ agot_travel_events.4000.t: "Risas en los arboles" #NT!
+ agot_travel_events.4000.desc: "Mientras avanzamos por el espeso bosque, me invade la sensación de que me están observando. A cada momento que pasa, el susurro de los árboles suena cada vez más como un susurro, y las expresiones ansiosas en los rostros de mis compañeros indican que también ellos comparten mi percepción. En ese momento, un sonido inconfundible de risa, agudo como el de un niño, nos llega desde lo más profundo del bosque. Pronto otras voces, igualmente infantiles, se unen al coro de risas aparentemente divertidas que resuena, inquietantemente, a nuestro alrededor." #NT!
+ agot_travel_events.4000.unknownchildren.desc: "Intento distinguir alguna silueta entre los árboles, pero el bosque es demasiado espeso. El origen de la risa sigue siendo tan misterioso como inquietante." #NT!
+ agot_travel_events.4000.knownchildren.desc: "Dado dónde estamos, solo puede haber una conclusión: estamos siendo observados por nuestros esquivos vecinos, los Niños del Bosque." #NT!
+ agot_travel_events.4000.a: "¿Te atreves a reírte de un [ROOT.Char.GetTitleAsNameNoTooltip|U]? ¡Te lo demostraré!" #NT!
+ agot_travel_events.4000.a.tt: "Corres tras las voces para castigar la insolencia." #NT!
+ agot_travel_events.4000.b: "Los niños no son una amenaza, podemos acampar aquí." #NT!
+ agot_travel_events.4000.b.tt: "Instalas tu campamento para pasar la noche como de costumbre y dejas que los observadores sacien su curiosidad." #NT!
+ agot_travel_events.4000.c.knownchildren: "No se puede confiar en esos pequeños bichos, salgamos de aquí cuanto antes." #NT!
+ agot_travel_events.4000.c.unknownchildren: "Tenemos que abandonar estos malditos bosques." #NT!
+ agot_travel_events.4000.c.tt: "Ordenas a tu grupo que acelere el paso y continúe adelante." #NT!
+  
+ agot_travel_events.4001.t: "$agot_travel_events.4000.t$: Persiguiendo el viento" #NT!
+ agot_travel_events.4001.desc: "Lleno de ira, me lanzo entre los árboles con intenciones vengativas. Las risitas no cesan y, por más rápido que corra, siguen estando demasiado lejos para poder ver a los agresores. La frustración alimenta mi ira, pero al final la necesidad de recuperar el aliento se impone a la persecución y me doy cuenta de que he dejado a mi grupo muy atrás. Estoy solo, rodeado de risas notablemente menos divertidas y más despectivas." #NT!
+ agot_travel_events.4001.a: "¡Mostraos o haré quemar todo este bosque!" #NT!
+ agot_travel_events.4001.a.tt: "Intentas burlarte de las voces para que salgan de su escondite." #NT!
+ agot_travel_events.4001.b: "Yo... yo no debería haberme metido en esta situación." #NT!
+ agot_travel_events.4001.b.tt: "Intentas encontrar el camino de regreso, humillado." #NT!
+  
+ agot_travel_events.4002.t: "$agot_travel_events.4000.t$: No es motivo de risa" #NT!
+ agot_travel_events.4002.desc: "La risa se detiene de repente. Un momento después, puedo oír débilmente un intercambio de susurros y luego un sonido inconfundible de madera crujiendo y deslizándose contra madera al unísono." #NT!
+ agot_travel_events.4002.a: "Oh, ¿crees que ca-#XB ACK!#!" #NT!
+ agot_travel_events.4002.a.tt: "Mientras el bosque que te rodea se vuelve negro, escuchas una salva de risas que estalla una última vez." #NT!
+  
+ agot_travel_events.4003.t: "$agot_travel_events.4000.t$: Una velada con la canción" #NT!
+ agot_travel_events.4003.desc: "Los susurros y las risas nos siguen mientras nos dirigimos al primer claro apto para acampar. Nuestro esfuerzo por prepararnos para el anochecer es, sin duda, una fuente de diversión considerable para los Niños, ya que las risas aumentan cada vez que comenzamos una nueva tarea, pero cuando nos instalamos se apagan y dan paso a un sonido de canto algo más distante. Saciados de novedades, los Niños del Bosque decidieron pasar la tarde compartiendo una canción, de la misma manera que solemos hacer nosotros. Pero no nos atrevemos a competir, ya que su canto es más hermoso que cualquier cosa que hayamos escuchado jamás. Mientras nos sentamos alrededor del fuego, oigo a [other_traveller.GetName] con los ojos llorosos susurrar: "Daría cualquier cosa por seguir escuchando eso"." #NT!
+ agot_travel_events.4003.a: "En ese sentido, deberíamos dejar un regalo." #NT!
+ agot_travel_events.4003.a.tt: "Dejarás algunos suministros de viaje de repuesto para los niños." #NT!
+ agot_travel_events.4003.b: "Los juglares de esta calidad merecen una recompensa especial." #NT!
+ agot_travel_events.4003.b.tt: "Obsequiarás a los Niños del Bosque tu [artifact_gift.GetName]" #NT!
+ agot_travel_events.4003.c: "Shhh... simplemente disfrutemos esto." #NT!
+ agot_travel_events.4003.c.tt: "Dejarás que la canción te acune hasta dormir." #NT!
+  
+ agot_travel_events.4004.t: "$agot_travel_events.4000.t$: Despertar placentero" #NT!
+ agot_travel_events.4004.desc: "Amanece un nuevo día y el canto matinal de los pájaros me despierta de un sueño placentero. Me descubro sonriendo antes incluso de abrir los ojos. Al observar el campamento, veo que mi séquito está aparentemente de un humor similar. Los Niños del Bosque no están por ningún lado, pero el recuerdo de la noche anterior persiste." #NT!
+ agot_travel_events.4004.gotreward.desc: "\n\n Notas que el regalo que dejaste en una roca plana en las afueras del campamento ya no está y en su lugar hay un paquete de cuero. Al abrirlo, descubres [reward_artifact.GetName]." #NT!
+ agot_travel_events.4004.a.gotreward: "¡Qué generosos de su parte!" #NT!
+ agot_travel_events.4004.a.noreward: "Eso estuvo bien." #NT!
+ agot_travel_events.4004.a.tt: "Tu viaje continúa" #NT!
+  

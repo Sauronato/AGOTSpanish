@@ -138,9 +138,7 @@
  trait_education_martial_prowess_4_character_desc: "Ver a [ROOT.GetCharacter.GetFirstNameNoTooltip] en el campo de batalla es encontrarse con [ROOT.Char.GetFaith.DeathDeityName]. [ROOT.Char.GetSheHe|U] goza de una reputación mortal; amado, respetado y temido en todo el reino como un dechado de poderío marcial de [ROOT.Char.GetCulture.GetName]."
  trait_education_martial_prowess_5: "Hoja de mercurio"
  trait_education_martial_prowess_5_desc: "Se habla en voz baja de la habilidad del Quicksilver Blade en combate, y su nombre es suficiente para detener incluso al veterano más canoso."
-  #AGOT Modified 
- # trait_education_martial_prowess_5_character_desc: "Se habla de su habilidad en combate en voz baja, y su nombre es suficiente para detener incluso al veterano más canoso."
- trait_education_martial_prowess_5_desc: "Se habla en voz baja de la habilidad del Quicksilver Blade en combate, y su nombre es suficiente para detener incluso al veterano más canoso."
+ trait_education_martial_prowess_5_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] La habilidad en combate se menciona en voz baja, su nombre es suficiente para detener incluso al veterano más curtido." #NT!
  trait_education_martial_5: "Lord de la guerra exaltado"
  trait_education_martial_5_desc: "El Exaltado Lord de la Guerra supera obstáculos aparentemente insuperables en el campo de batalla con suma facilidad, transformando campañas enteras con una única y hábil maniobra."
  trait_education_martial_5_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] supera obstáculos aparentemente insuperables en el campo de batalla con suma facilidad, cambiando campañas enteras con una sola hábil maniobra."
@@ -800,6 +798,16 @@
  trait_bastard: "Bastardo"
  trait_bastard_desc: "Este personaje no nació de la unión legal de sus padres, ni de una concubina, y tendrá que vivir con la mancha de la ilegitimidad toda su vida."
  trait_bastard_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] no nació de la unión legal de sus padres, y tendrá que vivir con la mancha de la ilegitimidad toda su vida."
+  #AGOT Added - Bastard Surnames 
+ trait_bastard_flowers_desc: "Nacido o criado como [bastard|E] en el Dominio, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Flores#!." #NT!
+ trait_bastard_hill_desc: "Nacido o criado como [bastard|E] en las Tierras del Oeste, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Hill#!." #NT!
+ trait_bastard_pyke_desc: "Nacido o criado como [bastard|E] en las Islas del Hierro, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Pyke#!." #NT!
+ trait_bastard_rivers_desc: "Nacido o criado como [bastard|E] en las Tierras de los Ríos, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Ríos#!." #NT!
+ trait_bastard_sand_desc: "Nacido o criado como [bastard|E] en Dorne, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Sand#!." #NT!
+ trait_bastard_snow_desc: "Nacido o criado como [bastard|E] en el Norte, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Snow#!." #NT!
+ trait_bastard_stone_desc: "Nacido o criado como [bastard|E] en el Valle, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Stone#!." #NT!
+ trait_bastard_storm_desc: "Nacido o criado como [bastard|E] en las Tierras de la Tormenta, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Tormenta#!.." #NT!
+ trait_bastard_waters_desc: "Nacido o criado como [bastard|E] en las Tierras de la Corona, [ROOT.GetCharacter.GetFirstNameNoTooltip] se ve obligado a vivir con la mancha de la ilegitimidad [ROOT.GetCharacter.GetHerHis] toda la vida al llevar el apellido #high Waters#!." #NT!
  trait_twin: "Gemelo"
  trait_twin_desc: "Este personaje tiene un hermano gemelo."
  trait_twin_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] tiene un[ROOT.GetCharacter.Custom('ES_XA')] hermano gemelo."
@@ -1280,3 +1288,14 @@
  trait_immortal: "Inmortal"
  trait_immortal_desc: "Este personaje se distingue del resto de la humanidad y no sufre los rigores de la edad, la decadencia y el tiempo."
  trait_immortal_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] se distingue del resto de la humanidad, no sufre los rigores de la edad, la decadencia y el tiempo."
+  
+  # BP3 
+ trait_lifestyle_wayfarer: "Caminante" #NT!
+ trait_lifestyle_wayfarer_desc: "Viajar es más que un medio para un fin para [ROOT.GetCharacter.GetFirstNameNoTooltip]. Desapareciendo durante días, [ROOT.GetCharacter.GetSheHe] siempre regresará para contar historias fantásticas de lugares lejanos, altas montañas, cuevas oscuras o bosques profundos." #NT!
+ trait_lifestyle_voyager: "Viajero" #NT!
+ trait_lifestyle_voyager_desc: "La más gloriosa de las ciudades, las ruinas de lo antiguo, reyes y reinas de reinos lejanos. [ROOT.GetCharacter.GetFirstNameNoTooltip] lo ha visto todo y está feliz de compartir [ROOT.GetCharacter.GetHerHis] experiencias con otros." #NT!
+ trait_lifestyle_surveyor: "Inspector" #NT!
+ trait_lifestyle_surveyor_desc: "El reino prospera bajo la atenta mirada de [ROOT.GetCharacter.GetFirstNameNoTooltip]. Con una inclinación por los viajes intrínsecamente arraigada en la estructura del gobierno, [ROOT.GetCharacter.GetSheHe] supervisa personalmente a sus vasallos y se enfrenta a los desafíos de la gestión, asegurando un dominio próspero y bien cuidado." #NT!
+ trait_lifestyle_surveyor_adventurer_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] es conocido por su habilidad para viajar por la tierra. [ROOT.GetCharacter.GetSheHe] conoce la naturaleza como la palma de la mano, puede sortear ejércitos enemigos, preparar emboscadas aterradoras o simplemente garantizar un viaje seguro de una ciudad a otra." #NT!
+  
+  

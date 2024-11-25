@@ -1,4 +1,6 @@
 ﻿l_spanish:
+  #AGOT Modified 
+ #APPOINT_COURT_POSITION_VIEW_replace_character_header: "Reemplace [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] por [AppointCourtPositionView.GetCourtPositionType.GetName]" #NT!
  APPOINT_COURT_POSITION_VIEW_replace_character_header: "Reemplazar a [AppointCourtPositionView.GetCourtPositionToReplace.GetEmployee.GetShortUINameNoTooltip] como [AppointCourtPositionView.GetCourtPositionType.GetName]"
  APPOINT_COURT_POSITION_VIEW_select_character_header: "Nombrar [AppointCourtPositionView.GetCourtPositionType.GetName]"
  APPOINT_COURT_POSITION_VIEW_salary: "Salario: [CourtPositionType.GetSalaryTextFor(AppointCourtPositionView.GetCourtOwner)]"
@@ -30,7 +32,11 @@
  COURT_POSITION_FOR_EMPLOYER: "Para [Select_CString( CourtPosition.GetEmployer.IsLocalPlayer, 'ti', CourtPosition.GetEmployer.GetUINameNoTooltip )]"
   
  COURT_WINDOW_COURT_POSITIONS: "Puestos en la corte"
+  #AGOT Modified 
+ #COURT_POSITION_REPLACE: "#T Reemplazar [Character.GetShortUINameNoTooltip]#!" #NT!
  COURT_POSITION_REPLACE: "#T Reemplazar a [Character.GetShortUINameNoTooltip]#!"
+  #AGOT Modified 
+ #COURT_POSITION_REVOKE: "#T Fuego [Character.GetShortUINameNoTooltip]#!" #NT!
  COURT_POSITION_REVOKE: "#T Despedir a [Character.GetShortUINameNoTooltip]#!"
  COURT_POSITION_POWERFUL_AGENT: "@alert_icon! #alert_trial Un [agent|E] poderoso en [hostile_schemes|E] contra ti#!"
  COURT_POSITION_OPINION_BONUS: "Bonificación de [opinion|E]: [CourtPosition.GetOpinionBonus|=+]"
@@ -205,6 +211,7 @@
  court_position_strong_trait: "[GetTrait('strong').GetName( ROOT.Char )]"
  court_position_loyal_trait: "[GetTrait('loyal').GetName( ROOT.Char )]"
  court_position_patient_trait: "[GetTrait('patient').GetName( ROOT.Char )]"
+ court_position_calm_trait: "[GetTrait('calm').GetName( ROOT.Char )]" #NT!
  court_position_impatient_trait: "[GetTrait('impatient').GetName( ROOT.Char )]"
  court_position_generous_trait: "[GetTrait('generous').GetName( ROOT.Char )]"
  court_position_greedy_trait: "[GetTrait('greedy').GetName( ROOT.Char )]"
@@ -243,6 +250,7 @@
  court_position_gardener_trait: "[GetTrait('lifestyle_gardener').GetName( ROOT.Char )]"
  court_position_herbalist_trait: "[GetTrait('lifestyle_herbalist').GetName( ROOT.Char )]:"
  court_position_overseer_trait: "[GetTrait('overseer').GetName( ROOT.Char )]"
+ court_position_organizer_trait: "[GetTrait('organizer').GetName( ROOT.Char )]"
  court_position_gallant_trait: "[GetTrait('gallant').GetName( ROOT.Char )]"
  court_position_tradition_music_theory: "[culture_tradition|E] $tradition_music_theory_name$"
  court_position_just_trait: "[GetTrait('just').GetName( ROOT.Char )]"
@@ -290,6 +298,7 @@
  court_position_traveler_trait: "[GetTrait('lifestyle_traveler').GetName( ROOT.Char )]"
  court_position_traveler_trait_experienced: "[GetTrait('lifestyle_traveler').GetName( ROOT.Char )]"
  court_position_traveler_trait_experienced_danger: "[GetTrait('lifestyle_traveler').GetName( ROOT.Char )]"
+ court_position_humble_trait: "[GetTrait('humble').GetName( ROOT.Char )]" #NT!
  court_position_beastmaster_modifier: "$ep2_beastmaster_modifier$"
  court_position_speed: "Contribución a la [travel_speed|E]"
  court_position_safety: "Contribución a la [travel_speed|E]"
@@ -317,6 +326,7 @@
  hire_physician_decision_confirm: "Comenzar la búsqueda"
   
  antiquarian_employer_custom_effect_description: "Te permite $repair_or_reforge_and_repair$ [artifacts|E]\nDesbloquea la [decision|E] #V $commission_artifact_decision$#!\nProtege [artifacts|E] durante [sieges|E] y [raids|E]"
+ antiquarian_employer_custom_effect_reforge_description: "$BULLET$Te permite [reforge|E] [artifacts|E]\n" #NT!
   
  chief_eunuch_court_position: "Eunuco jefe"
  chief_eunuch_court_position_desc: "El $chief_eunuch_court_position$ es un servidor de confianza responsable de los eunucos de la corte. No hay muchas cosas que no sepa, tanto entre los sirvientes como entre la realeza."
@@ -479,6 +489,19 @@
   
  court_position_akolouthos_bonus: "[GetCourtPositionType('akolouthos_court_position').GetName()]"
   
+ court_brewmaster_court_position: "Maestro cervecero de la corte" #NT!
+ court_brewmaster_court_position_desc: "El $court_brewmaster_court_position$ es un representante elegido para interactuar directamente con los cerveceros del reino, para garantizar que el señor pueda tener en sus manos las mejores cervezas." #NT!
+ court_brewmaster_employer_custom_effect_description: "$BULLET$[GetActivityType( 'activity_feast' ).GetName] costos reducidos en #positive_value @gold_icon!-5%#! a #positive_value @gold_icon!-25%#! (basado en [aptitude|E])\n$BULLET$[GetActivityType( 'activity_feast' ).GetName] recompensas aumentadas en #positive_value +5%#! a #positive_value +25%#! (basado en [aptitude|E])" #NT!
+ court_brewmaster_popular_opinion: "Vaciar las bodegas" #NT!
+ court_brewmaster_popular_opinion_desc: "Aumentar la producción en todo el reino para que podamos compartir periódicamente algunas de nuestras mejores cervezas con nuestra gente." #NT!
+ court_brewmaster_court_opinion: "Compartir con la Corte" #NT!
+ court_brewmaster_court_opinion_desc: "Saquen algunas de las mejores cervezas para que la corte pueda ver lo que tenemos." #NT!
+ court_brewmaster_experimental_brew: "Cerveza experimental" #NT!
+ court_brewmaster_experimental_brew_desc: "El maestro cervecero ha creado algo verdaderamente único y memorable, aunque... no necesariamente bueno." #NT!
+ court_brewmaster_experimental_brew_tt: "Obtendrás un #color_yellow Brew Experimental#! por #color_white 6 meses#!\n#color_yellow Brew Experimental#! se cambiará cada #color_white 6 meses#!" #NT!
+ court_brewmaster_explanation: "[GetCourtPositionType('court_brewmaster_court_position').GetName]" #NT!
+ court_brewmaster_task_cooldown: "Esta tarea no se puede iniciar hasta el #color_white [GetCurrentDateWithDiff( GetVarTimeRemaining( liege.MakeScope, 'experimental_brew_cooldown') )]#!" #NT!
+  
  court_position_palace_politics: "[GetCultureTradition('tradition_ep3_palace_politics').GetName]"
  court_position_north_germanic: "$heritage_north_germanic_name$ [heritage|E]"
  court_position_west_germanic: "$heritage_west_germanic_name$ [heritage|E]"
@@ -566,3 +589,9 @@
   
  court_position_bodyguard_modifier: "[GetPerk('praetorian_guard_perk').GetName( GetNullCharacter )]"
  court_position_bodyguard_liege_modifier: "El empleador tiene [GetPerk('praetorian_guard_perk').GetName( GetNullCharacter )]"
+  
+  # BP3 
+ court_position_travel_companion_modifier: "[GetPerk('travel_companion_perk').GetName( GetNullCharacter )]" #NT!
+ court_position_travel_companion_liege_modifier: "El empleador tiene [GetPerk('travel_companion_perk').GetName( GetNullCharacter )]" #NT!
+ gracious_host_impeccable_guest_perk_bonus: "[GetPerk('gracious_host_impeccable_guest_perk').GetName( GetNullCharacter )]" #NT!
+  

@@ -225,6 +225,7 @@
  tradition_desert_nomads_desc: "Esta cultura no es ajena al duro entorno del desierto y ha dominado el uso de camellos para ayudarlos en los viajes, la guerra y la vida cotidiana."
  tradition_gardening_name: "Arquitectos de jardines"
  tradition_gardening_desc: "Esta cultura tiene una larga tradición en la construcción y mantenimiento de diversos tipos de jardines, construyéndose un pequeño paraíso."
+ can_appoint_court_gardener_name: "$tradition_gardening_name$" #NT!
  tradition_monogamous_name: "Monógamo"
  tradition_monogamous_desc: "En esta cultura se mantiene un solo cónyuge, independientemente de la fe."
  tradition_polygamous_name: "Polígamo"
@@ -824,6 +825,7 @@
  has_other_cultures_in_council_desc: "No debes tener ningún [councillors|E] con un [culture|E] diferente al tuyo"
  20_percent_churches: "El [culture|E] no tiene un [temple|E] en #V 20%#! de su [counties|E]"
  must_be_feudal_or_clan: "Debes tener el [feudal|E] o [clan|E] [government|E]"
+ must_be_feudal_clan_or_admin: "Debes tener el [feudal|E], [clan|E] o [administrative|E] [government|E]" #NT!
  only_one_marriage_tradition_allowed: "Sólo se permite un [marriage|E] [tradition|E] y no se pueden combinar los siguientes: $tradition_monogamous_name$, $tradition_polygamous_name$ y $tradition_concubines_name$"
  no_warrior_culture: "$tradition_fp3_beacon_of_learning_name$ es incompatible con $tradition_warrior_culture$"
  no_philosopher_culture: "$tradition_fp3_beacon_of_learning_name$ es incompatible con $tradition_philosopher_culture_name$"
@@ -1212,8 +1214,6 @@
  culture_parameter_mountains_hunt_success_chance: "Aumento de [hunt_success_chance|E] en [GetTerrain( 'mountains' ).GetName] y [GetTerrain( 'desert_mountains' ).GetName]"
  culture_parameter_drylands_hunt_success_chance: "Aumento de [hunt_success_chance|E] en [GetTerrain( 'drylands' ).GetName] y [GetTerrain( 'desert' ).GetName]"
  culture_parameter_jungle_hunt_success_chance: "Aumento de [hunt_success_chance|E] en [GetTerrain( 'jungle' ).GetName]"
-  #AGOT Modified, Vanilla bug 
- #culture_parameter_wetlands_hunt_success_chance: "Aumento de [hunt_success_chance|E] en [GetTerrain( 'wetlands' ).GetName] y [GetTerrain( 'wetlands' ).floodplains]"
  culture_parameter_wetlands_hunt_success_chance: "Aumento de [hunt_success_chance|E] en [GetTerrain( 'wetlands' ).GetName] y [GetTerrain( 'floodplains' ).GetName]"
   
  can_host_joust_contests_name: "[GetCultureTradition('tradition_chanson_de_geste').GetName] o [GetCultureTradition('tradition_chivalry').GetName]"
@@ -1316,3 +1316,11 @@
  culture_parameter_resistant_to_desert_privation: ""
  culture_parameter_resistant_to_mountain_privation: ""
  culture_parameter_resistant_to_winter_privation: ""
+  
+ allows_brewery: "Desbloquea la línea #color_white $building_type_breweries_01$#! de [buildings|E]" #NT!
+ culture_parameter_allows_brewery: "$allows_brewery$ por [city_holdings|E]" #NT!
+ culture_parameter_brewery_farming_bonus: "Las líneas #color_white $building_type_cereal_fields_01$#! y #color_white $building_type_farm_estates_01$#! de [buildings|E] proporcionan bonificaciones de [county_opinion|E]" #NT!
+ tradition_brewery_name: "Cultura cervecera" #NT!
+ tradition_brewery_desc: "Esta cultura tiene una cultura donde la elaboración y consumo de alcohol juega un papel importante tanto en las festividades como en la vida diaria." #NT!
+ culture_in_farm_or_mansion_count_desc: "El [culture|E] no está presente en al menos #V 5#! [counties|E] con un #color_white $building_type_cereal_fields_01$#! o #color_white $building_type_farm_estates_01$#! #V0" #NT!
+  

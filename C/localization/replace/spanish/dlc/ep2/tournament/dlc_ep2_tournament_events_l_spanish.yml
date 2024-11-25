@@ -1,0 +1,891 @@
+﻿l_spanish:
+  ##### TOURNAMENT ##### 
+  
+ tournament_events.0050.t: "Llegada al torneo" #NT!
+ tournament_events.0050.desc: "He llegado al lugar del Torneo, ¡aquí en [activity.GetCurrentPhase.GetLocation.GetName]!\n\nAunque no han llegado todos los juerguistas todavía, multitudes de personas deambulan por los coloridos alrededores, todos esperando con ansias las próximas exhibiciones de habilidad y destreza.\n\n" #NT!
+ tournament_events.0050.murder: "Yo, por mi parte, tengo ambiciones mucho más grandes que simplemente disfrutar. Si juego bien mis cartas, [starting_intent.GetFirstName] no llegará a ver la ceremonia final..." #NT!
+ tournament_events.0050.seduce: "¡La primera orden del día para mí, por supuesto, será ganar el corazón de [starting_intent.GetFirstName]!" #NT!
+ tournament_events.0050.befriend: "¡Qué mejor entorno que este para entablar una firme amistad con [starting_intent.GetFirstName]!" #NT!
+ tournament_events.0050.win: "No hay tiempo que perder: ¡debo empezar a prepararme! ¡Debo ser un vencedor, cueste lo que cueste!" #NT!
+ tournament_events.0050.recruit: "¡Ya he visto muchos candidatos listos para ser incluidos en las filas de mi [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')]!" #NT!
+ tournament_events.0050.relax: "Hay pocos lugares tan excelentes para aliviar el estrés y disfrutar como un Torneo, ¡y pienso aprovecharlo al máximo!" #NT!
+ tournament_events.0050.a: "¡No puedo esperar a que empiece!" #NT!
+  
+  # START 
+ tournament_events.0100.t: "$tournament_header$ Apertura" #NT!
+ tournament_events.0100.desc: "¡Por fin se acerca el torneo!\n\n" #NT!
+ tournament_events.0100.host: "Muchos han acudido a mis instalaciones en [activity.GetCurrentPhase.GetLocation.GetName], ansiosos por demostrar su valía o simplemente disfrutar del espectáculo." #NT!
+ tournament_events.0100.contestant: "Como muchos otros que han acudido en masa a [activity.GetCurrentPhase.GetLocation.GetName], esperando ansiosamente los concursos que vendrán, me ocupo de socializar y preparar mi equipo." #NT!
+ tournament_events.0100.spectator: ""Muchos han acudido al recinto de [host.GetTitledFirstNamePossessive] en [activity.GetCurrentPhase.GetLocation.GetName], tanto para competir como, como yo, para entretenerse." #NT!
+ tournament_events.0100.closing: "\n\nEl sol se eleva cada vez más en el cielo y las sombras se acortan. Si voy a participar en el concurso [activity.GetCurrentPhase.GetPhase.GetName], debo asegurarme de clasificarme. Pronto comenzará." #NT!
+ tournament_events.0100.a: "¡No hay tiempo que perder!" #NT!
+  
+  # END 
+ tournament_events.0150.t: "$tournament_header$ Conclusión" #NT!
+ tournament_events.0150.desc: "El sol se pone el último día del torneo y la multitud comienza a dispersarse. Me pongo a reflexionar sobre los resultados:\n\n" #NT!
+ tournament_events.0150.melee: "El equipo [melee_winner.GetTitledFirstNamePossessive|U] se impuso en el Melee.\n" #NT!
+ tournament_events.0150.melee_self: "Mi equipo salió vencedor en el combate cuerpo a cuerpo." #NT!
+ tournament_events.0150.archery: "[archery_winner.GetTitledFirstName|U] tenía la mejor puntería de todos en el tiro con arco.\n" #NT!
+ tournament_events.0150.archery_self: "Tuve la mejor puntería de todos en el tiro con arco." #NT!
+ tournament_events.0150.recital: "[recital_winner.GetTitledFirstNamePossessive|U] su dominio del verso les valió un merecido triunfo en el Recital.\n" #NT!
+ tournament_events.0150.recital_self: "Mi dominio del verso me convirtió en el digno ganador del Recital." #NT!
+ tournament_events.0150.joust: "[joust_winner.GetTitledFirstName|U] rompió innumerables lanzas para demostrar su calidad en la Justa.\n" #NT!
+ tournament_events.0150.joust_self: "Rompí innumerables lanzas para demostrar mi calidad en la justa." #NT!
+ tournament_events.0150.wrestling: "[wrestling_winner.GetTitledFirstName|U] fue un oponente indomable ya que obtuvo el primer lugar en la lucha libre.\n" #NT!
+ tournament_events.0150.wrestling_self: "Fui un oponente indomable y obtuve el primer lugar en la lucha libre." #NT!
+ tournament_events.0150.duel: "[duel_winner.GetTitledFirstNamePossessive|U] La superioridad con la espada les hizo llevarse a casa el premio en el Duelo.\n" #NT!
+ tournament_events.0150.duel_self: "Mi superioridad con la espada me hizo llevarme a casa el premio en el Duelo." #NT!
+ tournament_events.0150.board_game: "[board_game_winner.GetTitledFirstNamePossessive|U] La mente aguda superó a todos los adversarios para ganar los juegos de mesa.\n" #NT!
+ tournament_events.0150.board_game_self: "Mi mente aguda superó a todos los adversarios para ganar los juegos de mesa." #NT!
+ tournament_events.0150.horse_race: "[horse_race_winner.GetTitledFirstNamePossessive|U] caballo terminó primero en las carreras de caballos.\n" #NT!
+ tournament_events.0150.horse_race_self: "Mi caballo terminó primero en las carreras de caballos." #NT!
+ tournament_events.0150.murdersuccess: "\n[finishing_intent.GetFirstName] obtuvieron su merecido final.\n" #NT!
+ tournament_events.0150.murderfailure: "\n[finishing_intent.GetFirstName] escapó de mis garras esta vez.\n" #NT!
+ tournament_events.0150.seducesuccess: "\nMis persuasiones carnales de [finishing_intent.GetFirstName] resultaron exitosas.\n" #NT!
+ tournament_events.0150.seducefailure: "\n[finishing_intent.GetFirstName] resistió mis persuasiones carnales.\n" #NT!
+ tournament_events.0150.befriendsuccess: "\n[finishing_intent.GetFirstName] y yo nos hicimos buenos amigos!\n" #NT!
+ tournament_events.0150.befriendfailure: "\n[finishing_intent.GetFirstName] y yo aún tenemos que establecer una amistad firme.\n" #NT!
+ tournament_events.0150.winsuccess: "\n¡Cumplí mi objetivo de ganar un concurso!\n" #NT!
+ tournament_events.0150.winfailure: "\nNo pude ganar un concurso.\n" #NT!
+ tournament_events.0150.knightsuccess: "\nReforcé las filas de mi [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')].\n" #NT!
+ tournament_events.0150.knightfailure: "\nNo pude encontrar ningún buen candidato para unirse a las filas de mi [ROOT.Char.Custom('KnightCulturePluralNoTooltipLowercase')].\n" #NT!
+ tournament_events.0150.end: "\n¡Espero con ansias el próximo!" #NT!
+ tournament_events.0150.a: "¡Qué gran ocasión!" #NT!
+ tournament_events.0150.b: "Quizás unas pocas palabras, dado que soy el anfitrión..." #NT!
+ tournament_events.0150.c: "¡[tournament_champion.GetFirstNameNoTooltip] merece una bonificación por la victoria de [tournament_champion.GetHerHis]!" #NT!
+ tournament_events.0150.b.success: "Tus palabras te traen algún reconocimiento" #NT!
+ tournament_events.0150.b.failure: "Nadie le presta mucha atención" #NT!
+ tournament_events.0150.legendseeddrop: "\nPor tercera vez he ganado un concurso. Las historias de mis logros ya se están extendiendo por todas partes.\n" #NT!
+  
+ tournament_events.0160.t: "$tournament_header$ El botín" #NT!
+ tournament_events.0160.desc: "Los concursos finalmente terminaron, y mi premio anunciado de [marriage_prize.GetTitledFirstNamePossessive] mano en matrimonio con un ganador digno no ha sido olvidado por los concursantes, ni por mi [ROOT.Char.Custom2('RelationToMeShort', marriage_prize)]...\n\n" #NT!
+ tournament_events.0160.a: "¡Parece que te he ganado yo mismo, [ROOT.Char.Custom2('RelationToMeShort', marriage_prize)]!" #NT!
+ tournament_events.0160.b: "¡Felicitaciones, [bachelor_1.GetFirstNameNoTooltip]!" #NT!
+ tournament_events.0160.c: "¡[bachelor_2.GetFirstNameNoTooltip] será un excelente [marriage_prize.Custom('GetBrideGroom')], [bachelor_2.GetFirstNameNoTooltip]!" #NT!
+ tournament_events.0160.d: "¡Cuida a [marriage_prize.GetHerHim], [bachelor_3.GetFirstNameNoTooltip]!" #NT!
+ tournament_events.0160.e: "He... cambiado de opinión." #NT!
+ tournament_events.0160.f: "No me refería a mí mismo..." #NT!
+ tournament_events.0160.g: "Bueno..." #NT!
+  
+ tournament_events.0161.desc: "Los concursos finalmente terminaron, y el premio anunciado de [host.GetTitledFirstNamePossessive] de [marriage_prize.GetTitledFirstNamePossessive] mano en matrimonio con un ganador digno no ha sido olvidado por los concursantes — o [host.GetHerHis] [ROOT.Char.Custom2('RelationToMeShort', marriage_prize)]...\n\n" #NT!
+ tournament_events.0161.a: "¡Ven, querida mía!" #NT!
+ tournament_events.0161.b: "Indignante." #NT!
+ tournament_events.0161.c: "Bueno..." #NT!
+  # ACCIDENT PING 
+ tournament_events.0701.t: "$tournament_contest_header$ Accident" #NT!
+ tournament_events.0701.desc: "¡Tu [ROOT.Char.Custom2('RelationToMeShort', accident_victim)], [accident_victim.GetName], murió en un extraño accidente con una maza durante el concurso [activity.GetCurrentPhase.GetPhase.GetName|l]!" #NT!
+ tournament_events.0701.a: "Trágico..." #NT!
+ tournament_accident_death_msg_title: "Muerte accidental" #NT!
+  
+  # CONTESTANT INVALIDATION 
+ tournament_events.0800.t: "$tournament_contest_header$ Retiro" #NT!
+ tournament_events.0800.wounded: "Temo que mis heridas sean demasiado graves para continuar en este torneo. No voy a hacer un buen papel en este estado y no debería arriesgarme a sufrir más lesiones..." #NT!
+ tournament_events.0800.disease: "Temo que mi enfermedad sea demasiado grave para que pueda seguir en este torneo. No haré un buen papel en este estado y no debería tentar la ira del físico..." #NT!
+ tournament_events.0800.health: "Temo que mi estado de ánimo me impida seguir adelante en este torneo. No haré una buena actuación en este estado y no debería tentar la ira del físico..." #NT!
+ tournament_events.0800.a: "No puedo continuar." #NT!
+ tournament_events.0800.b: "¡Nunca, puedo hacer esto!" #NT!
+  
+ tournament_events.0801.t: "$tournament_events.0800.t$" #NT!
+ tournament_events.0801.desc: "[contest_withdrawal.GetTitledFirstName] se ha retirado formalmente de los concursos." #NT!
+ tournament_events.0801.wounded: "Parece que las heridas son demasiado graves como para arriesgarse a continuar." #NT!
+ tournament_events.0801.disease: "Parece que la enfermedad de [contest_withdrawal.GetHerHis] se ha vuelto demasiado grave para continuar." #NT!
+ tournament_events.0801.health: "Parece que los humores [contest_withdrawal.GetHerHis] están demasiado desequilibrados para continuar." #NT!
+ tournament_events.0801.a: "Es una pena." #NT!
+  
+  # WAGERING 
+ tournament_events.1000.t: "$tournament_contest_header$ Hagan sus apuestas" #NT!
+ tournament_events.1000.desc: "Mientras escudriño al corredor de apuestas a la tenue luz de la taberna, reflexiono sobre el torrente de probabilidades que grita sobre las cabezas de los apostadores reunidos." #NT!
+ tournament_events.1000.horse_race: ""[wager_top_contestant.GetTitledFirstNamePossessive] [wager_top_contestant.Custom('ContestHorseRaceGender')], #EMP [wager_top_contestant.Custom('GetContestHorseRaceName')]#!, es el favorito! Cuatro a uno por #EMP [wager_top_contestant.Custom('GetContestHorseRaceName')]#!!"" #NT!
+ tournament_events.1000.fallback: ""¡[wager_top_contestant.GetTitledFirstName] es el favorito [activity.GetCurrentPhase.GetPhase.GetName]! ¡Cuatro a uno por [wager_top_contestant.GetNameNoTooltip]!"" #NT!
+ tournament_events.1000.a: "¡Ah, apostaré por mí mismo!" #NT!
+ tournament_events.1000.a.horse: "Mi mejor caballo, #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#!, puede ganar." #NT!
+ tournament_events.1000.a.best_horse: "¡Sí, #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! ganará!" #NT!
+ tournament_events.1000.b: "[wager_top_contestant.GetFirstNameNoTooltip] es una apuesta segura." #NT!
+ tournament_events.1000.b.horse: "#EMP [wager_top_contestant.Custom('GetContestHorseRaceName')]#! es ​​de hecho una apuesta segura." #NT!
+ tournament_events.1000.c: "Por otra parte, [wager_second_contestant.GetFirstNameNoTooltip] ocupa el segundo lugar." #NT!
+ tournament_events.1000.c.horse: "Por otra parte, [wager_second_contestant.GetFirstNamePossessiveNoTooltip] '[wager_second_contestant.Custom('GetContestHorseRaceName')]' ocupa el segundo lugar." #NT!
+ tournament_events.1000.d: "¡Mi campeón, [wager_champion_contestant.GetFirstNameNoTooltip], triunfará!" #NT!
+ tournament_events.1000.e: "Hm, [wager_underdog_contestant.GetFirstNameNoTooltip] es un perdedor poco probable." #NT!
+ tournament_events.1000.e.horse: "[wager_underdog_contestant.GetFirstNamePossessiveNoTooltip] #EMP [wager_underdog_contestant.Custom('GetContestHorseRaceName')]#! es un perdedor poco probable." #NT!
+ tournament_events.1000.f: "¿Qué puedo obtener en mi [ROOT.Char.Custom2('RelationToMeShort', wager_flavor_contestant)], [wager_flavor_contestant.GetFirstNameNoTooltip]?" #NT!
+ tournament_events.1000.f.horse: "¿Qué puedo conseguir en mi caballo [ROOT.Char.Custom2('RelationToMePossessive', wager_flavor_contestant)], #EMP [wager_flavor_contestant.Custom('GetContestHorseRaceName')]#!??" #NT!
+ tournament_events.1000.g: "Tengo un buen presentimiento sobre este '[mysterious_stranger.GetFirstNameNoTooltip] de [attending_barony.GetNameNoTierNoTooltip].'" #NT!
+ tournament_events.1000.g.horse: "Tengo un buen presentimiento sobre [mysterious_stranger.GetFirstNamePossessiveNoTooltip] #EMP [mysterious_stranger.Custom('GetContestHorseRaceName')]#!." #NT!
+ tournament_events.1000.h: "No, esto es una mala idea..." #NT!
+  
+ tournament_events.1000.bet_debug_tt: "#D valor_puntuación_objetivo_apuesta_torneo#!: [SCOPE.ScriptValue('tournament_wager_target_score_value')|V]\n#D valor_puntuación_máxima_apuesta_torneo#!: [SCOPE.ScriptValue('tournament_wager_top_score_value')|V]\n#D valor_puntuación_inferior_apuesta_torneo#!: [SCOPE.ScriptValue('tournament_wager_bottom_score_value')|V]\n#D valor_puntuación_máxima_apuesta_torneo menos_inferior:#!:0 #!:1\n#D valor_puntuación_objetivo_menos_inferior_apuesta_torneo#!: #!:4\n#D valor_porcentaje_probabilidades_apuesta_torneo#!: #!:7\n#D valor_pago_apuesta_torneo#!: [SCOPE.ScriptValue('tournament_wager_target_score_value')|V]0" #NT!
+  
+ tournament_events.1000.winnings_tt: "Si el ganador es [wager_target.GetShortUIName]:\n¡Gana @gold_icon! #positive_value [SCOPE.ScriptValue('tournament_wager_payout_value')|0]#!" #NT!
+ tournament_events.1000.horse_winnings_tt: "Si el caballo [wager_target.GetShortUINamePossessive], [wager_target.Custom('GetContestHorseRaceName')|V], gana la carrera:\n¡Gana @gold_icon! #positive_value [SCOPE.ScriptValue('tournament_wager_payout_value')|0]#!" #NT!
+  
+  # PASSAGE OF ARMS 
+ tournament_events.1100.t: "Combate" #NT!
+ tournament_events.1100.desc: "Inquieto mientras espera que comiencen las contiendas, o simplemente ansioso por exhibir su habilidad, mi [ROOT.Char.Custom2('RelationToMeShort', pas_darmes_instigator)], [pas_darmes_instigator.GetFullName], ha proclamado un 'paso de armas' en las afueras de [activity.GetCurrentPhase.GetLocation.GetName].\n\n"#EMP Si algún [pas_darmes_instigator.Custom('MountedWarriorTerm')] físicamente apto desea pasar, ¡que se enfrente a mí o será deshonrado!#!"\n\nIt Se dice que [pas_darmes_instigator.GetSheHe] guarda las espuelas de todas las [pas_darmes_instigator.GetSheHe] derrotas, y cualquier dama que desee pasar sin escolta debe dejar una ficha para ser reclamada más tarde en su nombre." #NT!
+ tournament_events.1100.a: "¡Ahora #EMP ese #! es un [ROOT.Char.Custom('MountedWarriorTerm')]!" #NT!
+ tournament_events.1100.b: "¡Qué divertido!" #NT!
+ tournament_events.1100.c: "Necesito ver esto [pas_darmes_instigator.GetWomanMan]!" #NT!
+ tournament_events.1100.d: "Esta tontería está prohibida." #NT!
+ pas_darmes_token_claim_tt: "Cada [spouse|E], padre, y [child|E] de [pas_darmes_victim.GetName]" #NT!
+  
+ tournament_events.1101.t: "$tournament_events.1100.t$" #NT!
+ tournament_events.1101.desc: "Sin duda, atraído a mi torneo por la promesa de gloria y la abundancia de adversarios, un extranjero [pas_darmes_instigator.Custom('MountedWarriorTerm')] ha declarado un 'paso de armas' cerca de [activity.GetCurrentPhase.GetLocation.GetName].\n\n[pas_darmes_instigator.GetSheHe|U] llama a [pas_darmes_instigator.GetHerselfHimself] '[pas_darmes_instigator.GetFullName]' y afirma provenir de las lejanas tierras [exotic_origin.GetDeJureLiege.GetAdjectiveNoTooltip]. Cualquier [ROOT.Char.Custom('MountedWarriorTerm')] que desee pasar por el campamento [pas_darmes_instigator.GetHerHis] debe romper lanzas con [pas_darmes_instigator.GetHerHim], o de lo contrario perderá su orgullo.\n\nSer tratado así por un aventurero extranjero seguramente enfadará a la nobleza [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]." #NT!
+ tournament_events.1101.a: "Bien, nuestros combatientes deben mantenerse alerta." #NT!
+ tournament_events.1101.b: "No lo creo, echad a ese vagabundo." #NT!
+ tournament_events.1101.c: "¡Eso es un verdadero $knight_culture_player_no_tooltip_lowercase$! ¡Qué inspiración!" #NT!
+  
+ tournament_events.1102.t: "$tournament_events.1100.t$" #NT!
+ tournament_events.1102.desc: "Ansioso por demostrar [pas_darmes_instigator.GetHerselfHimself], mi [ROOT.Char.Custom2('RelationToMeShort', pas_darmes_instigator)], [pas_darmes_instigator.GetFullName], ha declarado un 'paso de armas', bloqueando la ruta principal hacia [activity.GetCurrentPhase.GetLocation.GetName].\n\n[pas_darmes_instigator.GetSheHe|U] está acompañado por mis [ROOT.Char.Custom2('RelationToMeShort', pas_darmes_2)], [pas_darmes_2.GetFullName] y un grupo de nobles menores [pas_darmes_instigator.GetLiege.GetPrimaryTitle.GetAdjectiveNoTooltip] con algo que demostrar.\n\nMe han dicho que han declarado un juramento de romper trescientas lanzas antes de considerar completada su misión." #NT!
+ tournament_events.1102.a: "Buena suerte para ellos." #NT!
+ tournament_events.1102.a.tt: "El paso de armas en [activity.GetCurrentPhase.GetLocation.GetName] continuará" #NT!
+ tournament_events.1102.b: "No en #EMP mi#! [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip|l]." #NT!
+ tournament_pas_darmes_forbidden_tt: "El paso de armas en [activity.GetCurrentPhase.GetLocation.GetName] terminará" #NT!
+  
+ tournament_events.1120.t: "Ganado con esfuerzo" #NT!
+ tournament_events.1120.desc: "[pas_darmes_instigator.GetTitledFirstName], el llamativo [pas_darmes_instigator.Custom('MountedWarriorTerm')] que protege el paso de [pas_darmes_instigator.GetHerHis] desafiando a todos los que llegan, ha tenido una pelea de más.\n\nSe dice que [pas_darmes_victim.GetTitledFirstName] le ha infligido a [pas_darmes_victim.GetHerHim] una herida terrible, abriendo el camino para que los nobles pasen libremente una vez más." #NT!
+ tournament_events.1120.a: "Tales son los riesgos de una vida galante." #NT!
+ tournament_events.1120.a.dead: "Una forma honorable de irse." #NT!
+  
+ tournament_events.1130.opening: "[pas_darmes_victim.Custom2('AppropriateGreeting', ROOT.Char)]" #NT!
+ tournament_events.1130.desc: "Mientras viajaba a [activity.GetCurrentPhase.GetLocation.GetName] con mis sirvientes, [pas_darmes_instigator.GetFullName] detuvo nuestra compañía y exigió escandalosamente un recuerdo personal...\n\nNo tuve más opción que darle a [pas_darmes_instigator.GetHerHim] la maldita ficha... [pas_darmes_instigator.GetSheHe|U] dijo que si la quería de vuelta debía enviar un retador a [pas_darmes_instigator.GetHerHis]." #NT!
+ tournament_events.1130.a: "Hay que hacer algo." #NT!
+  
+ tournament_events.1140.t: "Un orgullo [ROOT.Char.GetTitleAsNamePossessiveNoTooltip]" #NT!
+ tournament_events.1140.desc: "Mientras tomo el aire en mi caballo, admirando el bullicio de [activity.GetCurrentPhase.GetLocation.GetName], veo a ese aclamado luchador, '[pas_darmes_instigator.GetFullName]', defendiendo el campamento del 'paso de armas' de [pas_darmes_instigator.GetHerHis].\n\n" #NT!
+ tournament_events.1140.skilled: "Algún pequeño rival se aleja cojeando por el camino mientras [pas_darmes_instigator.Custom('MountedWarriorTerm')] regresa contento al asiento de [pas_darmes_instigator.GetHerHis], admirando las espuelas que [pas_darmes_instigator.GetSheHe] acaba de recoger.\n\n" #NT!
+ tournament_events.1140.unskilled: "Un [pas_darmes_instigator.Custom('MountedWarriorTerm')] muy complacido pasa a mi lado, inclinándose para darme sus respetos, mientras [pas_darmes_instigator.GetFirstNameNoTooltip] observa desde el asiento de [pas_darmes_instigator.GetHerHis], claramente dolorido por la derrota.\n\n" #NT!
+ tournament_events.1140.wounded: "Maltratado y magullado, el [pas_darmes_instigator.GetSheHe] hace muecas de dolor a medida que me acerco. "No puedes ganarlos todos", dice [pas_darmes_instigator.GetSheHe] riéndose entre dientes, mirándome con los ojos entrecerrados." #NT!
+ tournament_events.1140.fallback: "[pas_darmes_instigator.GetSheHe|U] se levanta de un salto cuando [pas_darmes_instigator.GetSheHe] me ve, ansioso por otra pelea, pero rápidamente se da cuenta de quién soy. Entrecerrando los ojos y sonriendo, [pas_darmes_instigator.GetFirstNameNoTooltip] hace una reverencia y dice: "Bien conocido, mi [ROOT.Char.GetLadyLord] de [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"." #NT!
+ tournament_events.1140.a: "Déjame mostrarte cómo se inclina un #EMP [ROOT.Char.GetTitleAsNameNoTooltip|l]#!." #NT!
+ tournament_events.1140.a.wounded: "Tampoco ganarás esta." #NT!
+ tournament_events.1140.a.success: "Tu derrotas [pas_darmes_instigator.GetNameNoTooltip]" #NT!
+ tournament_events.1140.a.failure: "[pas_darmes_instigator.GetNameNoTooltip] te supera" #NT!
+ tournament_events.1140.b: "Eres un guerrero poderoso, podría usarte." #NT!
+ tournament_events.1140.b.success: "Me convences [pas_darmes_instigator.GetNameNoTooltip]" #NT!
+ tournament_events.1140.b.failure: "[pas_darmes_instigator.GetNameNoTooltip] rechaza tu oferta" #NT!
+ tournament_events.1140.c: "Creo que es suficiente." #NT!
+ tournament_events.1140.d: "¡Avanza!" #NT!
+  
+ tournament_events.1141.t: "$tournament_events.1140.t$" #NT!
+ tournament_events.1141.desc: "Un grupo de espectadores se reúne mientras [pas_darmes_instigator.GetFirstName] y yo montamos nuestros caballos y tomamos posición. Sin dudarlo, [pas_darmes_instigator.GetSheHe] carga de repente, con la lanza bajada, en una ráfaga de polvo y cascos atronadores.\n\nCorro hacia adelante, concentrando toda mi atención en la punta de la lanza que se balancea y se precipita a encontrarse con [pas_darmes_instigator.GetHerHim]." #NT!
+ tournament_events.1141.win: "\n\nMi eje se estrella contra el escudo de [pas_darmes_instigator.GetHerHis] con un crujido poderoso, enviando a [pas_darmes_instigator.GetHerHim] a caer hacia atrás en la silla mientras paso volando." #NT!
+ tournament_events.1141.lose: "\n\nSiento que el eje de [pas_darmes_instigator.GetHerHis] se estrella contra mi escudo con un crujido poderoso, haciéndome caer hacia atrás en la silla mientras [pas_darmes_instigator.GetSheHe] pasa volando." #NT!
+ tournament_events.1141.kill_me: "\n\nDe repente, mi rostro está muy caliente y muy húmedo. Intento hablar, pero apenas puedo mantener los ojos abiertos. [pas_darmes_instigator.GetFirstNamePossessiveNoTooltip] Una expresión preocupada aparece en mi rostro mientras el mundo se oscurece..." #NT!
+ tournament_events.1141.beat_me: "\n\n[pas_darmes_instigator.GetSheHe|U] me levanta, quitándome las astillas de la armadura. "Luchaste bien, pero perdiste". [pas_darmes_instigator.GetSheHe|U] sonríe y me extiende una mano." #NT!
+ tournament_events.1141.kill_them: "\n\nAl llegar al final del recorrido, hago girar a mi caballo sonriendo, buscando a [pas_darmes_sinstigator.GetFirstNameNoTooltip]. Veo la figura de [pas_darmes_instigator.GetHerHis] tirada boca abajo en el polvo, el caballo acariciando el pie de [pas_darmes_instigator.GetHerHis]." #NT!
+ tournament_events.1141.beat_them: "\n\nRegreso rápidamente, levanto a [pas_darmes_instigator.GetHerHim] y reviso si tiene heridas. "Estaré bien", gruñe [pas_darmes_instigator.GetHerHis], "Toma, mis espuelas"." #NT!
+ tournament_events.1141.a: ""No es más que un rasguño..." #NT!
+ tournament_events.1141.a.death: "#weak *gorgoteo*#!" #NT!
+ tournament_events.1141.b: "¡Te dije que te lo mostraría!" #NT!
+ tournament_events.1141.b.death: "[pas_darmes_instigator.GetFirstNameNoTooltip]? #EMP [pas_darmes_instigator.GetFirstNameNoTooltip]?!#!" #NT!
+  
+ tournament_events.1150.t: "$tournament_header$ Restaurando el honor" #NT!
+ tournament_events.1150.desc: "[pas_darmes_instigator.GetTitledFirstName] se sienta junto a un camino, afilando la espada de [pas_darmes_instigator.GetHerHis], mientras me acerco al exiguo campamento de [pas_darmes_instigator.GetHerHis].\n\n"Ah, me preguntaba cuándo mostrarías tu rostro, bien [ROOT.Char.GetTitleAsNameNoTooltip]". [pas_darmes_instigator.GetSheHe] sonríe, sacando una prenda del cinturón de [pas_darmes_instigator.GetHerHis]. "¿Supongo que viniste a recuperar esto?"\n\n" #NT!
+ tournament_events.1150.skilled: "Soy muy consciente de la reputación marcial de este [pas_darmes_instigator.GetWomanMan], pero el ego de [pas_darmes_instigator.GetHerHis] resultará ser la perdición de [pas_darmes_instigator.GetHerHis]." #NT!
+ tournament_events.1150.unskilled: "Es bien sabido que [pas_darmes_instigator.GetWomanMan] tiene más valentía que habilidad, pero no debo subestimar a [pas_darmes_instigator.GetHerHim]." #NT!
+ tournament_events.1150.wounded: "En cualquier caso, [pas_darmes_instigator.GetHerHis] heridas ciertamente me daría una ventaja..." #NT!
+ tournament_events.1150.fallback: "Mi honor ha sido puesto en juego por un simple [ROOT.Char.Custom('MountedWarriorTerm')]..." #NT!
+ tournament_events.1150.a: "¡Venid, inclinémonos!" #NT!
+ tournament_events.1150.a.wounded: "Te daré otra herida: una para recordar #EMP yo#! por." #NT!
+ tournament_events.1150.a.success: "Tú venciste a [pas_darmes_instigator.GetTitledFirstNameNoTooltip]" #NT!
+ tournament_events.1150.a.failure: "[pas_darmes_instigator.GetTitledFirstNameNoTooltip] te supera" #NT!
+ tournament_events.1150.b: "Guarda tu retazo de tela, bueno [pas_darmes_instigator.Custom('MountedWarriorTerm')]." #NT!
+  # FLAVOR 
+ tournament_events.1200.t: "Reproche religioso" #NT!
+ tournament_events.1200.desc: "Mientras los nobles y los plebeyos se preparan con entusiasmo para las competiciones y el entretenimiento que se avecinan, [angry_clergy.GetTitledFirstName] deja en claro la desaprobación de [angry_clergy.GetFaith.AltPriestTermPlural].\n\n"Este torneo es un vehículo del pecado; los buenos [angry_clergy.GetFaith.GetAdherentNamePluralNoTooltip] morirán en pos del orgullo; derramarán la sangre de los demás por baratijas; renunciarán a [angry_clergy.GetFaith.PositiveAfterLife] por la fama."\n\n"Estas inclinaciones deben ser aprovechadas, dirigidas contra los enemigos [angry_clergy.GetFaith.HighGodNamePossessive], no avivadas y extinguidas en la vanagloria."" #NT!
+ tournament_events.1200.a: "¡No pueden defender [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip] sin algo de práctica!" #NT!
+ tournament_events.1200.a.success: "[angry_clergy.GetTitledFirstNameNoTooltip] está convencido" #NT!
+ tournament_events.1200.a.failure: "No puedes cambiar la mente de [angry_clergy.GetTitledFirstNamePossessiveNoTooltip]" #NT!
+ tournament_events.1200.b: "Desde mi caja podrás ver las virtudes de la competencia." #NT!
+ tournament_events.1200.b.success: "[angry_clergy.GetTitledFirstNameNoTooltip] está conquistado" #NT!
+ tournament_events.1200.b.failure: "[angry_clergy.GetTitledFirstNameNoTooltip] es desdeñoso" #NT!
+ tournament_events.1200.c: "Buen punto, no competiré." #NT!
+ tournament_events.1200.d: "Oh, déjalos descansar [angry_clergy.GetFaith.PriestNeuter], déjalos disfrutar." #NT!
+ tournament_events.1230.t: "De trapos a correo" #NT!
+ tournament_events.1230.desc: "Mientras hago mis rondas por el campo de juego, disfrutando de la atmósfera y debatiendo las técnicas de los distintos concursantes que practican, un [battle_peasant.GetWomanMan] en particular me llama la atención.\n\nCada movimiento de [battle_peasant.GetHerHis|U] está preñado de gracia, eficiencia y aplomo, y acaba rápidamente con el compañero de entrenamiento y con el que se pone a prueba.\n\nCuando llamo a [battle_peasant.GetHerHim] para que me revele de qué casa noble desciende [battle_peasant.GetSheHe], los ojos de [battle_peasant.GetHerHis] se abren de par en par antes de caer al suelo. "¡M-mi [ROOT.Char.GetLadyLord]! No soy más que un campesino, nada más", tartamudea, haciendo una profunda reverencia." #NT!
+ tournament_events.1230.a: "¡No, tú serás mi campeón!" #NT!
+ tournament_events.1230.b: "Tus estrellas han cambiado, [battle_peasant.Custom('MountedWarriorTerm')]." #NT!
+ tournament_events.1230.b.tt: "Se convierte en tu [battle_peasant.Custom('KnightCulture')]" #NT!
+ tournament_events.1230.c: "¡Tengo que verte competir! Te patrocinaré." #NT!
+ tournament_events.1230.c.tt: "Se une a tu [activity.GetShortName]" #NT!
+ tournament_events.1230.d: "¡Ack, un campesino #EMP!#! ¡Qué pena...!" #NT!
+ tournament_events.1230.d.tt: "[battle_peasant.GetName] desaparece" #NT!
+ tournament_events.1240.t: "$tournament_header$ Al vencedor" #NT!
+ tournament_events.1240.desc: "Pensando en los posibles premios que puedo ofrecer al ganador del concurso [activity.GetCurrentPhase.GetPhase.GetName], me viene a la mente la mano de mi soltera [ROOT.Char.Custom2('RelationToMe', prize_child_1)], [prize_child_1.GetFirstName].\n\nAunque... si ganara un plebeyo..." #NT!
+ tournament_events.1240.a: "He decidido que [prize_child_1.GetFirstNameNoTooltip] se casará con el ganador." #NT!
+ tournament_events.1240.b: "[prize_child_2.GetFirstNameNoTooltip] es más apropiado." #NT!
+ tournament_events.1240.c: "Debería ser [prize_child_3.GetFirstNameNoTooltip]." #NT!
+ tournament_events.1240.d: "Así no es como hacemos las cosas." #NT!
+ tournament_events.1240.betrothal_tt: "Si es válido, el ganador se comprometerá con [marriage_prize.GetTitledFirstName]" #NT!
+ tournament_events.1240.marry_tt: "Si es válido el ganador se casará [marriage_prize.GetTitledFirstName]" #NT!
+  
+ tournament_events.1250.t: "$tournament_header$ Muestra de favor" #NT!
+ tournament_events.1250.desc: "Es costumbre fortalecer el ánimo de la persona amada con una muestra de favor, un pequeño recuerdo que usarán en el torneo para que todos lo vean. La única pregunta es qué concursante merece más mi afecto..." #NT!
+ tournament_events.1250.a: "Se lo daré a [favor_recipient_1.GetFirstNameNoTooltip]." #NT!
+ tournament_events.1250.b: "[favor_recipient_2.GetFirstNameNoTooltip] es digno." #NT!
+ tournament_events.1250.c: "Irá a [favor_recipient_3.GetFirstNameNoTooltip]." #NT!
+ tournament_events.1250.d: "No hay nadie que merezca mi favor..." #NT!
+ tournament_events.1250.favor_tt: "[favor_recipient.GetUIName] recibe tu favor" #NT!
+ tournament_favor_accepted_title: "Favor aceptado" #NT!
+ tournament_favor_rejected_title: "Favor rechazado" #NT!
+ tournament_favor_accepted_desc: "[THIS.Char.GetSheHe|U] acepta tu favor" #NT!
+ tournament_favor_rejected_desc: "[THIS.Char.GetSheHe|U] rechaza tu favor" #NT!
+ tournament_events.1251.t: "$tournament_events.1250.t$" #NT!
+ tournament_events.1251.discrete: "En un momento de relativa calma, lejos del recinto principal del torneo, me encuentro solo con mi [favor_recipient.Custom2('RelationToMe', favor_giver)], [favor_giver.GetTitledFirstName], cuya mirada traviesa es difícil de resistir.\n\n" #NT!
+ tournament_events.1251.open: "De pie en el terreno, observando las prácticas y preparaciones, escucho una voz arrullante detrás de mí. "¡[ROOT.Char.GetTitledFirstName]!" Mi [favor_recipient.Custom2('RelationToMe', favor_giver)], [favor_giver.GetTitledFirstName], se apresura hacia mí agarrando una prenda.\n\n" #NT!
+ tournament_events.1251.many: "Por [favor_recipient.GetFaith.HouseholdGodName], ya estoy perdiendo la cuenta de la cantidad de favores que he recibido. Si supieran unos de otros..." #NT!
+ tournament_events.1251.two: "¡Este es el segundo favor que me ofrecen! ¿Qué voy a hacer con todos estos retazos de tela?" #NT!
+ tournament_events.1251.one: "[favor_giver.GetSheHe|U] ata una ficha a mi brazo, sonriendo, "¡Usa esto cuando compitas, te traerá buena suerte!"" #NT!
+ tournament_events.1251.favor_tt: "Cada favor equipado aumenta ligeramente #positive_value la probabilidad de ganar #! [contests|E]" #NT!
+ tournament_events.1251.a.spouse: "Gracias, querida." #NT!
+ tournament_events.1251.a.consort: "Oh, qué conmovedor." #NT!
+ tournament_events.1251.a.lover: "Eres demasiado, mi amor." #NT!
+ tournament_events.1251.a: "Lo llevaré con orgullo, mi [favor_giver.GetLadyLord]." #NT!
+ tournament_events.1251.b: "Quitame esa cosa de encima." #NT!
+ tournament_events_equip_favor_tt: "Equipa tu favor" #NT!
+ tournament_events_destroy_favor_tt: "[THIS.Char.GetShortUIName|U] descarta tu favor" #NT!
+ tournament_events.1252.t: "Un favor familiar" #NT!
+ tournament_events.1252.desc: "Desde que ayer vi el favor de un admirador atado al brazo de [favor_recipient.GetTitledFirstNamePossessive], he estado devanándome los sesos tratando de descubrir por qué me parece tan familiar...\n\nCuando mi [ROOT.Char.Custom2('RelationToMe', favor_giver)], [favor_giver.GetTitledFirstName], me saludó esta mañana, de repente me di cuenta: ¡creo que pertenece a [favor_giver.GetHerHim]!" #NT!
+ tournament_events.1252.a: "¡Debo saberlo!" #NT!
+ tournament_events.1252.a.tt: "Te enfrentas a [favor_giver.GetFirstNameNoTooltip] por el favor" #NT!
+ tournament_events.1252.b: "No... absurdo..." #NT!
+ tournament_events.1253.t: "$tournament_events.1252.t$" #NT!
+ tournament_events.1253.desc: "[favor_investigator.GetTitledFirstName] irrumpe en mi habitación. Echando un vistazo alrededor, [favor_investigator.GetHerHis] se fija por fin en mí con una mirada fugaz.\n\n"Dime la verdad, ¿el favor que cuelga del brazo de [favor_recipient.GetTitledFirstNamePossessive] te pertenece?"" #NT!
+ tournament_events.1253.a: "#weak...sí.#!" #NT!
+ tournament_events.1253.b: "¿Qué? ¡No seas ridículo!" #NT!
+ tournament_events.1254.t: "$tournament_events.1252.t$" #NT!
+ tournament_events.1254.desc:0 "[favor_giver.GetFirstName] turned away during my torrent of questions, leaning on the table weakly.\n\nAt last, [favor_recipient.GetSheHe] slowly turns, and breaks the silence delicately: "[favor_giver.GetFirstName] se dio la vuelta ante mi torrente de preguntas, apoyándose débilmente en la mesa.\n\nPor fin, [favor_recipient.GetSheHe] se gira lentamente y rompe el silencio delicadamente: "Es verdad, es mi favor que [favor_recipient.GetTitledFirstName] lleva..."" #NT!
+ tournament_events.1254.a: "¿Lo es?" #NT!
+ tournament_events.1254.b: "#EMP ¡¿LO ES?!#!" #NT!
+ tournament_events.1255.t: "$tournament_events.1252.t$" #NT!
+ tournament_events.1255.desc: "[favor_giver.GetTitledFirstName] niega cualquier implicación con [favor_recipient.GetTitledFirstName] y está claramente exasperado por la acusación. "¡Apenas conozco a [favor_recipient.GetWomanMan]!"\n\nDiga lo que diga [favor_giver.GetSheHe], las semillas de la duda ya están sembradas..." #NT!
+ tournament_events.1255.a: "¿Qué más puedo hacer?" #NT!
+ tournament_events.1255.a.tt: ""Sólo el tiempo lo dirá..."" #NT!
+ tournament_events.1260.t: "Manteniendo la paz" #NT!
+ tournament_events.1260.desc: "Con innumerables señores y [ROOT.Char.Custom('MountedWarriorTermPlural')] reunidos en un solo lugar, las peleas constantes no son de extrañar, ya que las viejas disputas se reavivan y la vanidad aviva la fricción.\n\n" #NT!
+ tournament_events.1260.rival: ""¡Escucha, escurridizo [duelist_2.Custom('InsultNoun')]!" [duelist_1.GetFirstName] gruñe, mientras [duelist_2.GetTitledFirstName] agarra con los dedos [duelist_2.GetHerHis] [duelist_2.Custom('SignatureWeaponNameOrType')] amenazadoramente. Nadie está seguro de qué lo inició.\n\nPor lo general, estas pequeñas demostraciones de bravuconería terminan con un ojo morado en el peor de los casos, pero la temible pelea de [duelist_1.GetTitledFirstNamePossessive] con [duelist_2.GetTitledFirstName] amenaza con manchar todo el evento." #NT!
+ tournament_events.1260.fallback: ""¡Escucha, escurridizo [duelist_2.Custom('InsultNoun')]!" [duelist_1.GetFirstName] gruñe, mientras [duelist_2.GetFirstNameNoTooltip] agarra la espada con los dedos [duelist_2.GetHerHis] amenazadoramente.\n\nNormalmente, estas pequeñas demostraciones de bravuconería terminan con un ojo morado en el peor de los casos, pero esta temible pelea amenaza con manchar todo el evento. Nadie puede decir qué la inició." #NT!
+ tournament_events.1260.a: "¡Eso bastará! ¡Este no es un campamento de bandidos!" #NT!
+ tournament_events.1260.b: "Ven, no avergüences a tu anfitrión." #NT!
+ tournament_events.1260.c: "¡Fuera! ¡Eliminen a estos alborotadores!" #NT!
+ tournament_events.1260.d: "¡Cubierta [second_duelist.GetHerHim], [preferred_duelist.GetFirstNameNoTooltip]!" #NT!
+ tournament_events.1260.duel_toast: "[duel_winner.GetTitledFirstName] ganó el duelo" #NT!
+ tournament_events.1260.peace_toast: "Los duelistas retroceden" #NT!
+ tournament_events.1260.duel_tt: "El duelo sigue adelante, hiriendo a [duelist_1.GetFirstName] o [duelist_2.GetFirstName]" #NT!
+ tournament_events.1270.t: "$tournament_header$ Buen deporte" #NT!
+ tournament_events.1270.winner: "Veo a [congratulate_winner.GetTitledFirstName] rodeado de admiradores en el gran pabellón, sin duda alardeando de la victoria de [congratulate_winner.GetHerHis] en el concurso de [congratulate_winner.Custom('GetRandomWonContest')|l] y del premio que se llevó [congratulate_winner.GetSheHe]." #NT!
+ tournament_events.1270.matcher: "Veo a [congratulate_winner.GetTitledFirstName] en el gran pabellón, sin duda alardeando de haberme vencido en nuestra pelea." #NT!
+ tournament_events.1270.desc: "\n\nLa cortesía exige que reconozca a [congratulate_winner.GetHerHim] cuando paso: una oportunidad de hacer una declaración pública ante los invitados reunidos..." #NT!
+ tournament_events.1270.a: "¡Tres hurras por el campeón!" #NT!
+ tournament_events.1270.b: "¡Enhorabuena [congratulate_winner.GetFirstNameNoTooltip], muy merecido!" #NT!
+ tournament_events.1270.c: "Ah [congratulate_winner.GetFirstNameNoTooltip], la fortuna ciertamente trabaja misteriosamente..." #NT!
+ tournament_events.1270.d: "Acabo de recordar que necesito estar en otro lugar." #NT!
+ tournament_events.1270.nickname_toast: "El nombre se queda grabado" #NT!
+ tournament_events.1280.t: "$tournament_header$ Estándares descuidados" #NT!
+ tournament_events.1280.desc:1 "Streams of commoners and nobles alike flock to the contest grounds, vying to secure a good view of the [activity.GetCurrentPhase.GetPhase.GetName].\n\nA horrendous groan pierces the excited hubbub — a stand overloaded with spectators gives way with a #EMP crash#!! Its mass of screaming victims are sent tumbling from view.\n\nAs recriminations fly, my [ROOT.Char.Custom2('RelationToMeShort', intercessor)] [intercessor.GetName] staunchly discourages punishing the stand's builders: "Ríos de plebeyos y nobles acuden por igual al terreno del concurso, compitiendo por asegurarse una buena vista del [activity.GetCurrentPhase.GetPhase.GetName].\n\nUn gemido horrendo perfora el bullicio excitado: una tribuna sobrecargada de espectadores cede con un #EMP estrépito#!! Su masa de víctimas que gritan son enviadas dando tumbos fuera de la vista.\n\nMientras vuelan las recriminaciones, mi [ROOT.Char.Custom2('RelationToMeShort', intercessor)] [intercessor.GetName] desalienta firmemente castigar a los constructores de la tribuna: "¡Esto fue un acto de [intercessor.GetFaith.HighGodName], nada más!"" #NT!
+ tournament_events.1280.a: "Ejecuta estos llamados '#EMP constructores#!'!" #NT!
+ tournament_events.1280.b: "Es a los dolientes a quienes debemos prestar atención." #NT!
+ tournament_events.1280.c: "A veces la calamidad no se puede evitar..." #NT!
+ tournament_events.1290.t: "Malhechores inmanejables" #NT!
+ tournament_events.1290.desc: "Despertado temprano por la alarma, ahora veo a los desesperados habitantes del pueblo arrojar baldes de agua a los edificios en llamas de [fire_holding.GetBaronyNameExplicitly], mientras [fire_holder.GetTitledFirstName] explica enojado.\n\n"Un grupo de escuderos borrachos de [ROOT.Char.Custom('RegionalAlcoholicDrink')] y adictos a las competiciones prenden fuego al puesto de un comerciante después de un desacuerdo..." [fire_holder.GetSheHe] hierve de ira. "¡Esto llevará meses reconstruirlo!"\n\nAsí no es como quiero que recuerden mi torneo..." #NT!
+ tournament_events.1290.a: "Los escuderos deben pagar por su diversión." #NT!
+ tournament_events.1290.b: "Yo me encargaré de las reparaciones." #NT!
+ tournament_events.1290.c: "Me temo que es sólo una de esas cosas..." #NT!
+  
+ tournament_events.1300.t: "$tournament_header$ Bajo [old_knight.GetHerHis|U] Ala" #NT!
+ tournament_events.1300.desc: ""No, no exactamente. Mueve tu pie un poco hacia atrás para equilibrarte y haz que #EMP atraviese#! el objetivo y... ¡sí! ¡Perfecto! ¡Bien hecho [young_knight.Custom('GetLassLad')]!"\n\nFrente a mí, el veterano canoso [old_knight.GetFirstName] está entrenando a [young_knight.GetFirstName], claramente transmitiendo el conocimiento adquirido de un [ROOT.Char.Custom('KnightCultureNoTooltipLowercase')] a otro. [old_knight.GetFirstNameNoTooltip] me ve cuando me acerco.\n\n"¡Buenos días, mi [ROOT.Char.GetTitleAsNameNoTooltip]! Estoy ayudando a [young_knight.GetFirstNameNoTooltip] a perfeccionar las posturas de [young_knight.GetHerHis]. ¡Ya tienes un joven guerrero talentoso en tus manos!" [young_knight.GetFirstNameNoTooltip] intenta y no logra ocultar una sonrisa avergonzada pero complacida ante el elogio del mentor de [young_knight.GetHerHis]." #NT!
+ tournament_events.1300.a: "¡Espléndido! ¡Continúa!" #NT!
+ tournament_events.1300.b: "Quizás #EMP I#! debería encargarse de esto, en realidad." #NT!
+ tournament_events.1300.b.success: "[young_knight.GetFirstNameNoTooltip] gana #color_white 10#! [GetTrait('tourney_participant').GetName( GetNullCharacter )] $game_concept_trait_level_track_xp$ de forma aleatoria $game_concept_trait_level_track$" #NT!
+ tournament_events.1300.b.failure: "[young_knight.GetFirstNameNoTooltip] pierde #color_white 5#! [GetTrait('tourney_participant').GetName( GetNullCharacter )] $game_concept_trait_level_track_xp$ en un $game_concept_trait_level_track$ aleatorio" #NT!
+ tournament_events.1300.c: "¿Te importaría enseñarme a mí también?" #NT!
+  
+ tournament_events.1310.t: "Un invitado glorioso" #NT!
+  #AGOT Modified 
+ #tournament_events.1310.desc: "Una gloriosa fanfarria rasga el aire. Pasando a mi lado, un heraldo a caballo desenrolla un pergamino.\n\n"¡Escuchen, escuchen! En este hermoso día, tenemos la bendición de contar con la presencia de un verdadero virtuoso. ¡[famous_knight.GetSheHe|U] ha vencido a todos los que han venido desde Irlanda hasta Cathay! Es un honor y un privilegio para mí presentar al más hábil, al más esplendoroso, al mejor del mundo: ¡[famous_knight.GetTitledFirstName]!"\n\nUna figura pasa rápidamente junto al heraldo, haciendo que el caballo de [famous_knight.GetHerHis] se detenga, un rayo de sol ilumina a [famous_knight.GetHerHim] como un halo, el rugido de la multitud casi hace temblar el suelo." #NT!
+ tournament_events.1310.desc: "Una gloriosa fanfarria rasga el aire. Pasando a mi lado, un heraldo a caballo desenrolla un pergamino.\n\n"¡Escuchad, escuchad! En este día tan glorioso, tenemos la suerte de contar con la presencia de un verdadero virtuoso. ¡[famous_knight.GetSheHe|U] ha vencido a todos los que han venido desde el Muro hasta Asshai! Es un honor y un privilegio para mí presentar al más hábil, al más esplendoroso, al mejor del mundo: ¡[famous_knight.GetTitledFirstName]!"\n\nUna figura pasa rápidamente junto al heraldo, haciendo que el caballo de [famous_knight.GetHerHis] se detenga de golpe, un rayo de sol ilumina a [famous_knight.GetHerHim] como un halo, el rugido de la multitud casi hace temblar el suelo." #NT!
+ tournament_events.1310.a: "¡Qué placer tenerte aquí, [famous_knight.GetFirstNameNoTooltip]!" #NT!
+ tournament_events.1310.b: "¿Quizás podrían enseñarme una cosa o dos?" #NT!
+ tournament_events.1310.b.critsuccess: "[famous_knight.GetFirstNameNoTooltip] te enseña algunas técnicas" #NT!
+ tournament_events.1310.b.success: "Obtienes algunos consejos" #NT!
+ tournament_events.1310.b.failure: "No entiendes [famous_knight.GetFirstNamePossessiveNoTooltip] enseñanzas" #NT!
+ tournament_events.1310.c: "Perdón, ¿quién?" #NT!
+  
+ tournament_events.1311.t: "Confundido" #NT!
+ tournament_events.1311.desc: "—¡Atención a todos los que deambulan por aquí! —La voz de un heraldo atraviesa la multitud que se arremolina alrededor del torneo, y más de uno se da vuelta para enfrentarse al ruido.\n\n—Que se sepa que entrar al campo ahora mismo es... es... —El heraldo jadea levemente, escudriñando a la multitud en busca de un nombre que claramente había sido olvidado.\n\n—Es... mi buena dama... er, mi buen #EMP señor#!- er... —Las manos del heraldo se aprietan y aflojan espasmódicamente, el pánico por olvidar el nombre del [forgotten_knight.Custom('KnightCultureNoTooltipLowercase')] que estaba siendo presentado es tan claro como el día. Dicho [forgotten_knight.Custom('KnightCultureNoTooltipLowercase')], [forgotten_knight.GetTitledFirstName], se acerca al pregonero acobardado con una cara de trueno." #NT!
+ tournament_events.1311.a: "[forgotten_knight.GetFirstNameNoTooltip]! ¿Puedo ofrecerte otro heraldo?" #NT!
+ tournament_events.1311.b: "Ese mensajero probablemente necesitará un nuevo trabajo..." #NT!
+ tournament_events.1311.b.tt: "Todos los [GetTrait('compassionate').GetName( GetNullCharacter )] asistentes ganan #color_green +25#! opinión sobre ti" #NT!
+ tournament_events.1311.c: "¡Ja! ¡Se olvidaron del nombre [forgotten_knight.GetHerHis] #EMP!#!" #NT!
+ tournament_events.1312.t: "Estilo extranjero" #NT!
+ tournament_events.1312.desc: "Oohs y aahs, seguidos de aplausos, llaman mi atención mientras paso junto a una pequeña multitud. Interesado, me abro paso entre ellos.\n\nEn el centro hay un [foreign_knight.GetWomanMan], con la espada a medio sacar de su vaina, mostrando la inusual empuñadura del arma a los atónitos plebeyos. Está claro que [foreign_knight.GetSheHe] no es de aquí: el acento de [foreign_knight.GetHerHis] es ​​cadencioso y extranjero. Cuando [foreign_knight.GetSheHe] me ve, [foreign_knight.GetSheHe] inclina la cabeza respetuosamente, antes de volverse hacia la multitud.\n\n"Ahora, ¿qué tal si les muestro a todos un truco con la espada de mis tierras?" La multitud vuelve a vitorear, estridentemente." #NT!
+ tournament_events.1312.a: "¿Cómo te gustaría un nuevo señor?" #NT!
+ tournament_events.1312.a.success: "[foreign_knight.GetFirstNameNoTooltip] acepta unirse" #NT!
+ tournament_events.1312.a.failure: "[foreign_knight.GetFirstNameNoTooltip] te rechaza" #NT!
+ tournament_events.1312.b: "¡Qué personaje más fascinante!" #NT!
+ tournament_events.1312.c: "[foreign_knight.GetSheHe|U] es simplemente extranjero, ¿y qué?" #NT!
+  
+ tournament_events.1320.t: "La moneda roja" #NT!
+ tournament_events.1320.desc: "Estoy haciendo mi camino de regreso desde el baño, serpenteando entre dos tiendas, solo para que una mano me cubra la boca con firmeza desde atrás.\n\n"Cállate cuando te deje hablar. ¿Puedes hacer eso?" Mi aquiescencia amortiguada satisface la voz, y me doy vuelta para encontrar a un extraño con una vestimenta inusual. Un pequeño objeto es presionado instantáneamente en mi mano.\n\n"Necesito que alguien cuide esto. Es de gran importancia para mí. Volveré por él. Si no..." Una sonrisa extrañamente cansada se dibuja en la boca del extraño. "... entonces considéralo mi regalo para ti.\n\nMiro hacia abajo. Anidada dentro de mi palma hay una moneda dorada pero curiosamente #EMP roja#!. Se encuentra allí opaca, algo cálida al tacto." #NT!
+ tournament_events.1320.a: "Guardaré esto para ti." #NT!
+ tournament_events.1320.b: "¡No quiero nada de esto!" #NT!
+  
+ tournament_events.1321.t: "Moneda prestada" #NT!
+ tournament_events.1321.desc: "Mientras me refresco entre concursos, miro por encima de mi taza y veo que una figura encapuchada, aunque extrañamente familiar, se acerca a mí.\n\n"Creo que tienes algo mío". La persona se acerca a la luz como si no estuviera acostumbrada a su resplandor. "La moneda, mi [ROOT.Char.GetLadyLord]. Todavía la tienes, ¿no?"\n\nAl sacarla de mi bolsillo, el metal brilla a la luz del sol. Parece casi más roja que antes, un rico tono granate. La figura sonríe desde debajo de su capucha.\n\n"Mi más profundo agradecimiento, desde el fondo de mi corazón. Por favor, por tus molestias". Extiende la mano para recibirla, pero presenta una bolsa pesada con oro en la otra." #NT!
+ tournament_events.1321.a: "Ven a mi corte. Tus talentos me vendrían bien." #NT!
+ tournament_events.1321.b: "Un placer hacer negocios, amigo mío." #NT!
+ tournament_events.1321.c: "Mmm. Creo que no." #NT!
+ tournament_events.1321.c.tt: "Esto parece arriesgado..." #NT!
+  
+ tournament_events.1322.t: "¿Vale la pena el riesgo?" #NT!
+ tournament_events.1322.desc: "La furia pura que se refleja en el rostro del extraño me sorprende y hace que mis guardias den un paso adelante, sacando sus armas. El labio de la figura se curva mientras se baja la capucha, disgustado, burlón.\n\n"Puedes ver mi cara", dice [unusual_stranger.GetSheHe|U]. "También te diré mi nombre. Mi mayor deseo ahora es que te quedes despierto por la noche pensando en cómo [unusual_stranger.GetFirstName] se vengará de ti. Puede que pasen años, pero nunca lo olvido, y solo espero ahora que tú tampoco lo olvides".\n\n"Recuerda esto: #EMP habrá un ajuste de cuentas.#!" [unusual_stranger.GetSheHe|U] vuelve a subir la capucha de [unusual_stranger.GetHerHis], ajustando la capa de [unusual_stranger.GetHerHis] más alrededor del cuerpo de [unusual_stranger.GetHerHis], antes de desaparecer de nuevo entre la multitud." #NT!
+ tournament_events.1322.a: "Estoy... estoy seguro de que estará bien." #NT!
+  
+ tournament_events.1330.t: "La próxima generación" #NT!
+ tournament_events.1330.desc: "—¡Buena suerte, mi [ROOT.Char.GetLadyLord]! —respondo con un gesto agradecido al grito de un miembro de la multitud que se reúne—. ¡Y buena suerte para ti también, [heir.GetFirstName]!\n\n—¿Qué quisieron decir con eso? —pregunto a [heir.GetFirstNameNoTooltip], caminando a mi lado—. ¿Por qué tendrían que desearte suerte? —La mirada nerviosa de [heir.GetHerHis|U] rápidamente dio la respuesta a esa pregunta.\n\n—¡Yo... yo quiero competir! —insiste [heir.GetSheHe|U]—. Tú estás participando, ¿por qué yo no puedo? Me detengo en seco, [heir.GetFirstNameNoTooltip] tropieza y se detiene junto a mí con incertidumbre, la bravuconería de [heir.GetHerHis] se desmorona un poco ante mi reacción." #NT!
+ tournament_events.1330.a: "Tienes que entenderlo. Eres demasiado valioso como para arriesgarte." #NT!
+ tournament_events.1330.b: "¡Qué privilegio es tener un [heir.Custom('GetDaughterSon')] así!" #NT!
+ tournament_events.1330.c: "¡Te lo prohíbo! ¡Vete y renuncia ahora mismo!" #NT!
+ tournament_events.1330.d: "...no le digas a tu [spouse.GetMotherFather]." #NT!
+  
+ tournament_events.1331.t: "¿Para la familia?" #NT!
+ tournament_events.1331.desc: ""¡[ROOT.Char.GetFirstName]! ¡Justo el [ROOT.Char.GetWomanMan] con el que quería encontrarme!" [dynast.GetFirstName] se apresura hacia mí. "Tenemos que hablar. Verás, había oído que te habías inscrito para el próximo concurso y, bueno..."\n\nMi mirada impasible claramente endurece la postura de [dynast.GetFirstNamePossessiveNoTooltip] ante la situación. [dynast.GetSheHe|U] atrae a [dynast.GetHerselfHimself] hasta la altura máxima de [dynast.GetHerHis].\n\n"Tienes que retirarte. ¡Soy el líder de [dynast.GetDynastyName] y lo exijo! ¡Por el bien de nuestro linaje!" Mientras [dynast.GetSheHe] me regaña, miro hacia atrás, hacia donde se izaron los colores de los concursantes participantes. Incluido, como era de esperar, [dynast.GetFirstNamePossessiveNoTooltip]." #NT!
+ tournament_events.1331.a: "La intimidación no va a funcionar conmigo, [dynast.GetFirstNameNoTooltip]." #NT!
+ tournament_events.1331.b: "Por supuesto. Cualquier cosa por #EMP 'familia'#!." #NT!
+ tournament_events.1331.c: "¿Quieres reconsiderar tus palabras, [dynast.GetFirstNameNoTooltip]?" #NT!
+ tournament_events.1331.d: "¡No me obligarán a hacer nada por tu bien!" #NT!
+ tournament_events.1331.e: "Me retiraré si es necesario." #NT!
+  
+ tournament_events.1332.t: "Tomar y sacar" #NT!
+ tournament_events.1332.desc: "Veo a [powerful_vassal.GetFirstName] caminando hacia mí y cierro los ojos brevemente con consternación. Cuando los abro de nuevo, [powerful_vassal.GetSheHe] está justo frente a mí, mirándome con una sonrisa forzada que disimula mal una mirada fulminante.\n\n"[ROOT.Char.GetFirstName], mi [ROOT.Char.GetLadyLord], ¡qué #EMP maravilloso#! verte aquí y compitiendo!" [powerful_vassal.GetSheHe|U] me agarra del brazo y nos aleja un poco de la multitud para conspirar. "Mira. Necesito un favor". La fachada de [powerful_vassal.GetHerHis|U] casi se resquebraja cuando pongo los ojos en blanco.\n\n"Quiero hacerlo bien en este concurso, y como uno de tus vasallos más poderosos y #EMP leales#!, me preguntaba si podía contar con tu ayuda"." #NT!
+ tournament_events.1332.a: "Eres realmente leal, ¿no?" #NT!
+ tournament_events.1332.b: "¿El más leal, dices?" #NT!
+ tournament_events.1332.c: "Mis bolsillos se sienten un poco vacíos últimamente..." #NT!
+ tournament_events.1332.d: "Para ti, [powerful_vassal.GetFirstNameNoTooltip]? Cualquier cosa." #NT!
+ tournament_events.1332.e: "Tendrás que valerte por ti mismo." #NT!
+  
+  # SPECTATOR EVENTS 
+ tournament_events.1400.t: "$tournament_header$ Pequeños cuentos" #NT!
+ tournament_events.1400.desc: "Ser parte de una multitud en un evento deportivo puede ser un verdadero placer. La atmósfera, el sonido y las vistas. El único problema es que a veces puede traer tantas desventajas como beneficios.\n\nUna de esas desventajas acaba de materializarse, ya que me encuentro atrapado detrás del gran marco de [tall_person.GetFirstName]. Me inclino primero hacia un lado, luego hacia el otro, pero el gran tamaño de [tall_person.GetHerHis] oculta la acción casi a la perfección.\n\nSuspiro en voz alta y golpeteo con el pie. [tall_person.GetFirstNameNoTooltip] no se mueve. Se escuchan ovaciones cuando sucede algo enorme y emocionante. Mi cólera comienza a aumentar." #NT!
+ tournament_events.1400.a: "¡Te haré #EMP arrodillarte #! para mirar!" #NT!
+ tournament_events.1400.a.fight: "Una pelea al menos resolverá el problema de una manera u otra..." #NT!
+ tournament_events.1400.b: "Disculpe. ¿Podría por favor #EMP moverse#!??" #NT!
+ tournament_events.1400.b.success: "[tall_person.GetFirstNameNoTooltip] acepta a regañadientes" #NT!
+ tournament_events.1400.b.failure: "[tall_person.GetFirstNameNoTooltip] se niega" #NT!
+ tournament_events.1400.c: "¿Te gustaría luchar por mí?" #NT!
+ tournament_events.1400.c.success: "[tall_person.GetFirstNameNoTooltip] se une a ti" #NT!
+ tournament_events.1400.c.failure: "[tall_person.GetFirstNameNoTooltip] se niega" #NT!
+ tournament_events.1400.d: "No importa." #NT!
+  
+ tournament_events.1401.t: "$tournament_header$ Cuentos fantásticos" #NT!
+ tournament_events.1401.desc: "¡Qué día es hoy! Mi lugar justo en la vanguardia de la multitud me da una vista inigualable de la acción. Todo va bien hasta que siento un ligero tirón en mi ropa. Miro hacia abajo y veo el movimiento y veo una figura, mucho más pequeña que yo, tratando de pasar.\n\nCuando notan mi mirada sobre [smol_person.GetHerHim], [smol_person.GetFirstName] se endereza y comienza a defender el caso [smol_person.GetHerHis].\n\n"Eres tan... #EMP grande#!!", intenta [smol_person.GetSheHe], señalando nuestras estaturas contrastantes. "¡No puedo ver nada! Por favor, ¿puedo pararme frente a ti?"" #NT!
+ tournament_events.1401.a: "¡Jajaja! ¡No!" #NT!
+ tournament_events.1401.a.success: "Los eliminas con éxito" #NT!
+ tournament_events.1401.a.failure: "[smol_person.GetFirstNameNoTooltip] se cuela" #NT!
+ tournament_events.1401.b: "Muy bien, adelante." #NT!
+  
+ tournament_events.1402.t: "$tournament_header$ Concesiones desperdiciadas" #NT!
+ tournament_events.1402.desc: "El concurso que se desarrolla frente a mí está llegando a su clímax, los participantes están igualados. Me agarro a la barandilla de madera que tengo frente a mí y grito mi agradecimiento junto con el resto de la multitud. Dicho grito, sin embargo, se convierte rápidamente en un grito ahogado cuando siento que algo me baja por la columna vertebral. Algún tipo de líquido... algo caliente #EMP y frío #!, ¿de alguna manera?\n\nGiro sobre mis talones para encontrarme frente a [drinking_spectator.GetFirstName], la copa [drinking_spectator.GetHerHis] que se agita con los restos de la bebida no identificada que actualmente se arrastra por mi espalda.\n\n"¡Ahora, mira por dónde vas!" [drinking_spectator.GetSheHe] balbucea, haciéndome un gesto acusador con la copa. "¡Deberías tener más cuidado!" #NT!
+ tournament_events.1402.a: "¿Qué tal si nos compro otro a los dos?" #NT!
+ tournament_events.1402.b: "¡Guardias! ¡Saquen a este [drinking_spectator.Custom('InsultAdjective')] [drinking_spectator.Custom('InsultNoun')] de mi vista!" #NT!
+ tournament_events.1402.c: "Tienes razón. ¡Fue un error mío!" #NT!
+  
+ tournament_events.1403.t: "$tournament_header$ Multitud acobardada" #NT!
+ tournament_events.1403.desc: "La multitud se inclina hacia delante mientras un competidor se prepara, pero la atmósfera se ve interrumpida por una voz chillona. [realm_priest.GetFirstName] ha irrumpido en el campo.\n\n"¿Cómo #EMP puedes#! estar viendo esta basura #EMP ociosa y que te hace perder el tiempo#!?" [realm_priest.GetSheHe] retumba, volviéndose de una persona a otra, con saliva volando de los labios de [realm_priest.GetHerHis] mientras [realm_priest.GetSheHe] los sermonea. "¡Deberías pasar menos tiempo aquí y más adorando!"\n\nEl mar de gente se tambalea un poco, una pizca de verdad se percibe en las palabras, antes de que unas cuantas voces valientes y enojadas hablen en respuesta. La marea de la opinión pública se apodera de [realm_priest.GetFirstNameNoTooltip] ferozmente, pero [realm_priest.GetSheHe] se mantiene firme, lanzando una diatriba [realm_priest.GetHerHis]." #NT!
+ tournament_events.1403.a: "[realm_priest.GetFirstNameNoTooltip] tiene razón, ¡réprobos!" #NT!
+ tournament_events.1403.b: "¡Buuu! #EMP ¡Buuuuu! #!" #NT!
+ tournament_events.1403.c: "Quizás debería dejar que éste se apague solo." #NT!
+  
+ tournament_events.1404.t: "$tournament_header$ posibles pretendientes" #NT!
+ tournament_events.1404.desc: "Mientras me acomodo cerca del frente de la multitud con [ROOT.Char.Custom2('RelationToMeShort', gossip_friend)] [gossip_friend.GetFirstName], los concursantes trotan por el campo frente a nosotros. [gossip_friend.GetFirstNameNoTooltip] me da un par de codazos, señalando a dos de los competidores con un gesto de cabeza no demasiado sutil.\n\n"¿Qué piensas de esos dos?", dice [gossip_friend.GetSheHe], reprimiendo una risa de alegría. "¿Cuál es #EMP tu #! elección?", queda claro por las cejas demasiado activas de [gossip_friend.GetHerHis] que [gossip_friend.GetSheHe] no está preguntando quién creo que va a ganar.\n\n"¡Mira, mira, se están acercando! ¡Di algo! ¡Lo suficientemente fuerte para que te escuchen!"" #NT!
+ tournament_events.1404.a: ""Ninguna puede compararse con #EMP tu#! belleza"." #NT!
+ tournament_events.1404.b: ""¡Ja! ¡Lo harías mejor que cualquiera de los dos en el campo de batalla del amor!"" #NT!
+ tournament_events.1404.c: ""#BOL ¡Oh Dios! ¿Es ese un buen ejemplar [knight_1.GetFirstNameNoTooltip]?!#!"" #NT!
+ tournament_events.1404.d: ""#BOL ¡Vaya, sólo #EMP mirada#! a [knight_2.GetFirstNameNoTooltip]!#!"" #NT!
+ tournament_events.1404.e: ""#EMP ¡Shhh, shh!#! #DIE1 ¡Eso es #EMP suficiente #!, [gossip_friend.GetFirstName]!#!"" #NT!
+  
+ tournament_events.1405.t: "$tournament_header$ Un afortunado [flirty_onlooker.Custom('GetLassLad')|U]" #NT!
+ tournament_events.1405.desc: "Mi mirada se desplaza hacia la multitud. El bullicio general fluye a mi alrededor, todos los espectadores están conversando o animando a los concursantes. Me doy cuenta de que todos, excepto uno, me miran fijamente.\n\n[flirty_onlooker.GetFirstName] me está mirando directamente. Nuestras miradas se cruzan antes de que [flirty_onlooker.GetSheHe] rompa inmediatamente el contacto visual, lanzando los ojos de [flirty_onlooker.GetHerHis] a cualquier lugar que no sea yo. Normalmente sospecharía, pero el labio mordido y las constantes miradas furtivas hacia atrás para comprobar si sigo mirando dicen algo de una historia diferente en este caso." #NT!
+ tournament_events.1405.a: "¡Información útil para el futuro!" #NT!
+ tournament_events.1405.b: "Bueno, bueno, bueno..." #NT!
+ tournament_events.1405.b.tt: "Dale a [flirty_onlooker.GetFirstNameNoTooltip] una pequeña sonrisa y un guiño a cambio." #NT!
+ tournament_events.1405.c: "¡Estoy aquí para mirar, no para coquetear!" #NT!
+  
+ tournament_events.1406.t: "$tournament_header$ Nuevas Experiencias" #NT!
+ tournament_events.1406.desc: "Abriéndonos paso entre la multitud, la pequeña [root_child.GetFirstNamePossessive] mueve la cabeza de un lado a otro constantemente, absorbiendo todas las vistas y los sonidos. [root_child.GetSheHe|U] vibra positivamente de emoción, tirando de mi mano y señalando a los participantes que pasan apresurados.\n\nRetengo a [root_child.GetHerHim] con suavidad, pero [root_child.GetSheHe] continúa alejándose, simplemente incapaz de contener la emoción de [root_child.GetHerHis] ante un conjunto tan nuevo de circunstancias." #NT!
+ tournament_events.1406.a: ""Concéntrate en tus estudios, niño."" #NT!
+ tournament_events.1406.b: ""¡Vamos, súbete a mis hombros!"" #NT!
+ tournament_events.1406.c: ""¡Yo también estoy emocionado, [root_child.GetFirstNameNoTooltip]!"" #NT!
+  
+ tournament_events.1407.t: "$tournament_header$ Honor defendido" #NT!
+ tournament_events.1407.desc: "¡Ahí está [competing_family.GetSheHe]! Mi [ROOT.Char.Custom2('RelationToMeShort', competing_family)] [competing_family.GetFirstName] está compitiendo en este concurso, y finalmente logré localizar a [competing_family.GetHerHim] entre la multitud de concursantes. Apenas había abierto la boca para pedir apoyo cuando escuché otra voz.\n\n"¡Oye, [competing_family.GetFirstNameNoTooltip]! ¡Será mejor que te vayas ahora y nos ahorres todos los problemas!"\n\nMiré a mi alrededor entre los espectadores que se reían entre dientes y encontré a [shouting_fan.GetFirstName] preparando otra andanada de insultos." #NT!
+ tournament_events.1407.a: "¡¿Qué acabas de decir?!" #NT!
+ tournament_events.1407.a.success: "Tú ganas la pelea" #NT!
+ tournament_events.1407.a.failure: "Pierdes la pelea" #NT!
+ tournament_events.1407.b: "¡Vamos [competing_family.GetFirstNameNoTooltip]! ¡Es tuyo para ganar!" #NT!
+ tournament_events.1407.b.success: "Te ahogas con éxito [shouting_fan.GetFirstNameNoTooltip]" #NT!
+ tournament_events.1407.b.failure: "No logras ahogarte [shouting_fan.GetFirstNameNoTooltip]" #NT!
+ tournament_events.1407.c: "Bueno, espero que [competing_family.GetFirstNameNoTooltip] no se lo tome a pecho..." #NT!
+  
+ tournament_events.1408.t: "$tournament_header$ Apagado" #NT!
+ tournament_events.1408.desc: "El sol pega fuerte mientras observo el desarrollo del concurso desde mi posición privilegiada al frente de la multitud. Hoy hace demasiado calor. ¿O tal vez simplemente estoy demasiado bien vestido?\n\nEstoy pensando en esto cuando veo a un joven comerciante emprendedor que lleva un rondlet de alguna bebida indeterminada sobre un hombro, claramente ofreciéndosela a los transeúntes a cambio de monedas. Mi boca se seca al instante. Si tan solo pudiera llegar allí sin perder mi lugar...\n\nMiro a mi alrededor desesperadamente en busca de respuestas, pero solo veo a [drinking_fan.GetFirstName] deambulando de regreso a [drinking_fan.GetHerHis] lugar en la multitud, con la bebida firmemente en la mano." #NT!
+ tournament_events.1408.a: ""¿Puedo comprártelo?"" #NT!
+ tournament_events.1408.a.tt: "Quizás sea necesario un poco de persuasión..." #NT!
+ tournament_events.1408.b: "Quizás si soy rápido..." #NT!
+ tournament_events.1408.b.success: "Sales corriendo a tomar una copa y regresas con facilidad." #NT!
+ tournament_events.1408.b.failure: "Compras una bebida pero pierdes tu lugar" #NT!
+ tournament_events.1408.b.criticalfailure: "Pierdes tu lugar y el vendedor se aleja." #NT!
+ tournament_events.1408.c: "Tendré que soportarlo." #NT!
+  
+ tournament_events.1409.t: "$tournament_header$ Alguien por quien apoyar" #NT!
+ tournament_events.1409.desc: "Me hago a un lado para dejar pasar a alguien, pero apenas lo hago, empiezan a hablar.\n\n"¡Ah, [ROOT.Char.GetTitledFirstName]! ¡Qué alegría verte aquí!" Abro la boca para responder, pero [friendly_fan.GetFirstName] es demasiado rápido. "Supongo que no tienes ningún favorito? ¿Alguien que creas que se llevará a casa la victoria? Yo, tengo un buen presentimiento sobre [fan_favourite.GetFirstName]!"\n\nConsidero mis opciones por un momento. ¿Quizás sea mejor simplemente estar de acuerdo?" #NT!
+ tournament_events.1409.a: ""¡Por supuesto! ¡Tiene que ser [fan_favourite.GetFirstNameNoTooltip]!"" #NT!
+ tournament_events.1409.b: ""¡Obviamente va a ser [other_favourite.GetFirstNameNoTooltip], tú [friendly_fan.Custom('InsultNoun')]!"" #NT!
+ tournament_events.1409.c: "Quizás si simplemente sonrío y asiento..." #NT!
+  
+ tournament_events.1410.t: "$tournament_header$ Fans descontentos" #NT!
+ tournament_events.1410.desc: "Por encima de los aullidos de la multitud, puedo oír con claridad el auge de una pelea. Estiro el cuello para mirar detrás de mí y puedo distinguir dos figuras, cada una con un puñado de prendas de vestir de las otras. No estoy seguro de por qué se trata exactamente esta disputa, pero ya se ha formado un pequeño círculo de observadores alborotadores.\n\n"¡Tú [fan_2.Custom('InsultAdjective')] [fan_2.Custom('InsultNoun')]!", escupe [fan_1.GetFirstName], maldiciendo mientras [fan_1.GetSheHe] se encabrita hasta alcanzar la altura máxima de [fan_1.GetHerHis]. [fan_2.GetFirstName] responde de la misma manera.\n\n"¡Eres un patán y un [fan_1.Custom('InsultNoun')]! ¡Te arrancaré las tripas!". Los dos están enfrentándose con bastante claridad." #NT!
+ tournament_events.1410.a: ""¡Ya basta!"" #NT!
+ tournament_events.1410.a.tt: "Intentar interponerme entre ellos podría ser arriesgado, pero debo hacerlo #EMP algunos#!thing..." #NT!
+ tournament_events.1410.a.success: "Lo rompiste con éxito" #NT!
+ tournament_events.1410.a.failure: "Resultas herido en la pelea resultante." #NT!
+ tournament_events.1410.b: "—¡Vamos! ¡No es momento ni lugar para pelear!" #NT!
+ tournament_events.1410.b.success: "Tus palabras tranquilizadoras funcionan" #NT!
+ tournament_events.1410.b.failure: "La pareja continúa su lucha." #NT!
+ tournament_events.1410.c: "¡Sí! ¡Pulsa [fan_1.GetHerHim]!" #NT!
+ tournament_events.1410.c.fan1: "[fan_1.GetFirstNameNoTooltip] gana la pelea" #NT!
+ tournament_events.1410.c.fan2: "[fan_2.GetFirstNameNoTooltip] gana la pelea" #NT!
+  
+  # INTENT EVENTS 
+ tournament_events.6000.t: "$tournament_header$ Por todos los medios" #NT!
+ tournament_events.6000.desc: "Un torneo es el lugar perfecto para liberarme a mí mismo y al mundo de ese [murder_target.Custom('InsultNoun')], [murder_target.GetTitledFirstName]: peligros disfrazados acechan en cada esquina, y las sospechas se dispersan por la frecuencia de los accidentes.\n\n" #NT!
+ tournament_events.6000.again: "[murder_target.GetTitledFirstName] vidas aún...\n\n" #NT!
+ tournament_events.6000.deferred: "He esperado mi momento con encomiable paciencia... esperando el momento perfecto para atacar [murder_target.GetTitledFirstName]..." #NT!
+ tournament_events.6000.foot: "El [activity.GetCurrentPhase.GetPhase.GetName|l] se acerca, y una espada envenenada en las manos adecuadas podría deshacer a [murder_target.GetHerHim] en un instante...\n\n" #NT!
+ tournament_events.6000.joust: "Las lanzas [activity.GetCurrentPhase.GetPhase.GetName|l] están hechas de manera segura con puntas desafiladas, pero un reemplazo cuidadosamente preparado con sus primos más letales podría pasar desapercibido...\n\n" #NT!
+ tournament_events.6000.self_match: "Sería demasiado fácil manipular mi equipo, anulando las medidas de seguridad impuestas por el torneo, y terminar [murder_target.GetFirstNameNoTooltip] ante la multitud..." #NT!
+ tournament_events.6000.patsy_match: "Solo necesito manipular el equipo de [murder_match.GetFirstNamePossessive] antes de que [murder_match.GetSheHe] se enfrente a [murder_target.GetFirstNameNoTooltip], y rezar para que las estrellas se alineen..." #NT!
+ tournament_events.6000.injuries: "Posibles lesiones" #NT!
+ tournament_events.6000.a: "Una oportunidad interesante." #NT!
+ tournament_events.6000.b: "Sí, la culpa recaerá en [murder_match.GetFirstNameNoTooltip]." #NT!
+ tournament_events.6000.c: "¡Acabaré con el tonto!" #NT!
+ tournament_events.6000.d: "Aún no..." #NT!
+ tournament_events.6000.e: "Es demasiado arriesgado..." #NT!
+ tournament_events.6000.success: "Tu sabotaje tiene éxito" #NT!
+ tournament_events.6000.failure: "Tu sabotaje no hace nada" #NT!
+ tournament_events.6000.success_tt: "[murder_target.GetFirstNameNoTooltip] es asesinado por [murder_match.GetFirstNameNoTooltip]" #NT!
+ tournament_events.6000.blame: "Cualquier acusación recaerá sobre [murder_match.GetShortUIName]" #NT!
+ tournament_events.6000.imprisonment_tt: "Como [murder_target.GetFirstNameNoTooltip] es el anfitrión, [murder_match.GetFirstNameNoTooltip] puede ser encarcelado" #NT!
+ tournament_events.6001.t: "$tournament_events.6050.t$" #NT!
+ tournament_events.6001.foot: "Froto la hoja con veneno nocivo, reflexionando sobre las promesas del alquimista que me vendió el brebaje fétido, antes de envainarla con cuidado." #NT!
+ tournament_events.6001.horse: "Dejo las lanzas en su lugar en la armería cuando cae la noche; allí permanecen en la oscuridad, esperando el toque de trompeta del alba." #NT!
+ tournament_events.6001.success_patsy: "\n\nDespués de un momento de tensión que me hizo latir el corazón, ¡me voy! Con un poco de suerte, [murder_match.GetFirstName] no se dará cuenta hasta que sea demasiado tarde..." #NT!
+ tournament_events.6001.success: "\n\nMi equipo modificado tortuosamente está listo para el [activity.GetCurrentPhase.GetPhase.GetName|l], solo necesito asegurarme de usarlo correctamente..." #NT!
+ tournament_events.6001.failure: "\n\nPor desgracia, cuando regreso a la mañana siguiente, está claro que un astuto asistente se dio cuenta de mi obra; estos intentos no han hecho más que levantar sospechas de juego sucio, y los escuderos están más atentos que nunca." #NT!
+ tournament_events.6001.closing: "\n\nTu día llegará antes de lo que crees, [murder_target.GetFirstName]..." #NT!
+ tournament_events.6001.a: "Y no puedo esperar..." #NT!
+ tournament_events.6001.b: "¡Qué asco!" #NT!
+ tournament_events.6010.t: "$tournament_header$ Asesinato rival" #NT!
+ tournament_events.6010.desc: "Al final del día, veo a mi rival, [murder_target.GetName], claramente tranquilo, relajándose en compañía. Esta competencia brinda la oportunidad perfecta para que un #EMP accidente#! le ocurra a [murder_target.GetHerHim]...\n\nEn este entorno relajado, no debería ser difícil poner algo en la taza de [murder_target.GetHerHis]." #NT!
+ tournament_events.6010.a: "Sé de una botica cercana." #NT!
+ tournament_events.6010.a.flavor: "[murder_target.GetFirstNameNoTooltip] ¡se encontrará con otro tipo de veneno!" #NT!
+ tournament_events.6010.a.success: "Tu rival bebe [murder_target.GetHerHis] último trago" #NT!
+ tournament_events.6010.a.ill: "Los humores de tu rival están perturbados" #NT!
+ tournament_events.6010.a.failure: "Tu rival aparentemente no se ve afectado" #NT!
+ tournament_events.6010.b: "¿Dónde están esos marginados que vi antes?" #NT!
+ tournament_events.6010.b.flavor: "No hay nada más útil que un hombre desesperado..." #NT!
+ tournament_events.6010.b.success: "Tu rival ha sido asesinado" #NT!
+ tournament_events.6010.b.caught: "Tu rival somete al matón" #NT!
+ tournament_events.6010.b.failure: "Tu rival elude al matón" #NT!
+ tournament_events.6010.c: "Esto no funcionará..." #NT!
+  
+ tournament_events.6011.t: "$tournament_events.6010.t$" #NT!
+ tournament_events.6011.poison: "Vuelvo rápidamente de donde está el vendedor de pociones, que se creyó demasiado rápido mi cuento de ratas en los establos.\n\nMientras el atareado camarero rellena las copas, resulta terriblemente fácil deslizar subrepticiamente la mezcla en la taza [murder_target.GetFirstNamePossessive].\n\n" #NT!
+ tournament_events.6011.thug: "El matón toma mi moneda, aceptando mis términos con brusca resignación y confirmando mi sutil gesto en dirección a [murder_target.GetTitledFirstName].\n\n" #NT!
+ tournament_events.6011.death: "Tal vez lo más desconcertante es la rapidez con la que [murder_target.GetSheHe] se derrumba después de beber el brebaje, retorciéndose de dolor y ahogándose en busca de ayuda." #NT!
+ tournament_events.6011.ill: "Contengo la respiración mientras [murder_target.GetSheHe] acerca la copa a los labios de [murder_target.GetHerHis] y disfruto brevemente del éxito, pero no será así. [murder_target.Custom('InsultNoun')] simplemente tiene fiebre y probablemente sobrevivirá." #NT!
+ tournament_events.6011.second_chance: "Desafortunadamente, el veneno solo parece confundir a [murder_target.GetWomanMan], pero al seguir a [murder_target.GetHerHim] afuera, descubro que ahora estamos solos en un lugar apartado dentro del terreno del torneo.\n\nEsta bien puede ser mi última oportunidad de lograr mi objetivo..." #NT!
+ tournament_events.6011.ache: "Surte efecto rápidamente: observo como los clientes rodean al gimiente [murder_target.Custom('InsultNoun')], pero rápidamente queda claro que el frasco no tenía la potencia prometida.\n\nEn el mejor de los casos, [murder_target.GetSheHe] tendrá una mala noche en el retrete..." #NT!
+ tournament_events.6011.slain: "Apenas puedo dormir esperando las noticias, pero en mi corazón ya me siento aliviado de librarme de mi rival.\n\nAl amanecer, todo [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] habla del horrible ataque a [murder_target.GetFirstNameNoTooltip], quien fue encontrado destripado en la calle por un vigilante, con una daga ensangrentada al lado de [murder_target.GetHerHis]." #NT!
+ tournament_events.6011.caught: "Apenas puedo dormir esperando las noticias, un miedo informe me persigue el corazón hasta la mañana.\n\nMis asistentes llaman al amanecer, informándome que [murder_target.GetFirstNameNoTooltip] afirma que [murder_target.GetSheHe] venció a un matón que intentó asesinar a [murder_target.GetHerHim] en la noche, y dijo que yo estaba detrás de esto." #NT!
+ tournament_events.6011.escape: "Apenas puedo dormir esperando las noticias, seguro de que algo ha salido mal.\n\nMi corazón está bien, [murder_target.GetFirstNameNoTooltip] aún vive, y la noticia del intento de asesinato de [murder_target.GetHerHis] por parte de un extraño encapuchado se ha extendido por [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip]." #NT!
+ tournament_events.6011.a.death: "Eso fue casi #EMP demasiado #! fácil..." #NT!
+ tournament_events.6011.a.ill: "Todavía hay esperanza..." #NT!
+ tournament_events.6011.a.slain: "Un asunto desagradable, ese." #NT!
+ tournament_events.6011.a.caught: "Malditos vagabundos." #NT!
+ tournament_events.6011.a: "¡Qué maldita fortuna!" #NT!
+ tournament_events.6011.b: "Debo actuar ahora." #NT!
+ tournament_events.6011.b.success: "Matas a tu rival" #NT!
+ tournament_events.6011.b.failure: "Tu rival escapa" #NT!
+ tournament_events.6011.c: "Se acabó..." #NT!
+ tournament_events.6012.t: "$tournament_events.6010.t$" #NT!
+ tournament_events.6012.poison: "Estoy disfrutando de charlar sobre los próximos concursos con algunos asistentes, cuando de repente siento que mis entrañas dan un vuelco y mi respiración se contrae." #NT!
+ tournament_events.6012.thug: "Salgo hacia mi tienda, después de haber pasado la tarde charlando sobre los favoritos con otros asistentes, cuando siento una figura detrás de mí." #NT!
+ tournament_events.6012.death: "¡Dioses, qué es este fuego dentro de mí! "¡A-ayuda!", balbuceé, mientras las caras estúpidas de mis conocidos me miraban boquiabiertas." #NT!
+ tournament_events.6012.ill: "Me desplomo, agarrándome las tripas, mientras me rodean espectadores preocupados. "¡Ayuda, ve a buscar al médico!", logro balbucear." #NT!
+ tournament_events.6012.slain: "Antes de que pueda darme la vuelta, siento como si un caballo me hubiera pateado y me hubiera tirado al suelo. ¡Una figura encapuchada me inmoviliza y me clava una daga en el corazón!" #NT!
+ tournament_events.6012.caught: "Me hago a un lado justo cuando el hombre se lanza hacia mí, lo desequilibro antes de inmovilizarlo contra el suelo. Una daga brillante sobresale del barro." #NT!
+ tournament_events.6012.escape: "Los pasos pesados ​​de una figura encapuchada descienden sobre mí. Me doy vuelta con fuerza cuando se acercan, tirándolos al suelo y corriendo hacia la masa de tiendas." #NT!
+ tournament_events.6012.a.death: "#EMP *estrangulamiento*#! H- #weak ¡ayuda...!" #NT!
+ tournament_events.6012.a.ill: "S-solo n-necesito acostarme." #NT!
+ tournament_events.6012.a.poison: "¡Estas bebidas son pecado!" #NT!
+ tournament_events.6012.a.slain: "#weak ¡¿Quién...?!#!" #NT!
+ tournament_events.6012.a.caught: "#EMP ¡¿Quién te envió?!" #NT!
+ tournament_events.6012.a: "Estaré bien..." #NT!
+ tournament_events.6013.t: "$tournament_events.6010.t$" #NT!
+ tournament_events.6013.death: "Corro detrás de [murder_target.GetHerHim] tan silenciosamente como puedo, agarrando la cabeza de [murder_target.GetHerHis] y cruzo con mi espada el cuello de [murder_target.GetHerHis].\n\n[murder_target.GetSheHe|U] balbucea y patea mientras corro hacia el laberinto de tiendas." #NT!
+ tournament_events.6013.fallback: "Corro detrás de [murder_target.GetHerHim] tan silenciosamente como puedo, pero [murder_target.GetFirstName] me escucha llegar y se da vuelta, mirando con los ojos muy abiertos mi daga brillante.\n\n[murder_target.GetSheHe|U] dispara con nueva energía, dejándome sin aliento y desapareciendo en el laberinto de tiendas." #NT!
+ tournament_events.6013.a.death: "¡Eso debería bastar!" #NT!
+ tournament_events.6013.a: "¡Noooo!" #NT!
+ tournament_events.6014.t: "$tournament_events.6010.t$" #NT!
+ tournament_events.6014.desc: "Mientras regreso a mi tienda, sujetándome débilmente el costado, ¡un [murder_target.GetHerHis] aparece corriendo detrás de mí!" #NT!
+ tournament_events.6014.death: "¡Antes de poder reaccionar, [murder_target.GetSheHe] me ha tirado la cabeza hacia atrás y me ha puesto una daga en el cuello!" #NT!
+ tournament_events.6014.fallback: "Me doy la vuelta, tirando a [murder_target.GetHerHim] al suelo con un gemido y corro de cabeza hacia el laberinto de tiendas." #NT!
+ tournament_events.6014.a.death: "¡¿Qué- #EMP N-!#! *gorgoteo*" #NT!
+ tournament_events.6014.a: "Eso fue... no... #EMP [murder_actor.GetFirstNameNoTooltip]#!!" #NT!
+  
+ tournament_events.6050.t: "$tournament_contest_header$ Sabotaje" #NT!
+ tournament_events.6050.desc: "Me juré a mí mismo que ganaría un concurso en este torneo, y no puedo evitar considerar un enfoque menos... #EMP 'justo'#! para asegurar el premio de la [activity.GetCurrentPhase.GetPhase.GetName|l] competencia.\n\nEstoy seguro de que mis oponentes harían lo mismo, si solo tuvieran la idea; ¿quién sabe, tal vez ya la tengan?" #NT!
+ tournament_events.6050.a: "[sabotage_target_1.GetFirstNameNoTooltip] es la amenaza." #NT!
+ tournament_events.6050.a.horse_race: "[sabotage_target_1.GetFirstNamePossessiveNoTooltip] #EMP [sabotage_target_1.Custom('GetContestHorseRaceName')]#! es la amenaza." #NT!
+ tournament_events.6050.b: "No puedo soportar que [sabotage_target_2.GetFirstNameNoTooltip] gane." #NT!
+ tournament_events.6050.b.horse_race: "No puedo soportar que [sabotage_target_2.GetFirstNameNoTooltip] gane con #EMP [sabotage_target_2.Custom('GetContestHorseRaceName')]#!." #NT!
+ tournament_events.6050.c: "[sabotage_target_3.GetFirstNameNoTooltip] debe ser pacificado." #NT!
+ tournament_events.6050.c.horse_race: "[sabotage_target_3.GetFirstNamePossessiveNoTooltip] #EMP [sabotage_target_3.Custom('GetContestHorseRaceName')]#! debe ser pacificado." #NT!
+ tournament_events.6050.d: "Esta no es manera de ganar..." #NT!
+ tournament_events.6050.success: "Tu sabotaje tiene éxito" #NT!
+ tournament_events.6050.detected: "Tu sabotaje ha sido detectado" #NT!
+ tournament_events.6050.failure: "Su sabotaje no tiene éxito" #NT!
+ tournament_host_disqualification_tt: "[host.GetTitledFirstName] puede descalificarte por intentar sabotearlos." #NT!
+ tournament_contestant_disqualification_tt: "[host.GetTitledFirstName] puede descalificarte por intentar sabotear a un compañero concursante" #NT!
+ contest_sabotage_score_diff_far_behind_horse_race_tt: "[sabotage_target.GetShortUINamePossessive] #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#! es #negative_value mucho mejor#! que #EMP [sabotage_actor.Custom('GetContestHorseRaceName')]#!" #NT!
+ contest_sabotage_score_diff_behind_horse_race_tt: "[sabotage_target.GetShortUINamePossessive] #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#! es #negative_value mejor#! que tu #EMP [sabotage_actor.Custom('GetContestHorseRaceName')]#!" #NT!
+ contest_sabotage_score_diff_close_horse_race_tt: "[sabotage_target.GetShortUINamePossessive] #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#! está cerca de tu #EMP [sabotage_actor.Custom('GetContestHorseRaceName')]#!" #NT!
+ contest_sabotage_score_diff_ahead_horse_race_tt: "[sabotage_target.GetShortUINamePossessive] #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#! es #positive_value peor#! que #EMP [sabotage_actor.Custom('GetContestHorseRaceName')]#!" #NT!
+ contest_sabotage_score_diff_far_ahead_horse_race_tt: "[sabotage_target.GetShortUINamePossessive] #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#! es #positive_value mucho peor#! que #EMP [sabotage_actor.Custom('GetContestHorseRaceName')]#!" #NT!
+ contest_sabotage_score_diff_far_behind_tt: "[sabotage_target.GetShortUIName] es #negative_value mucho mejor#! que tú" #NT!
+ contest_sabotage_score_diff_behind_tt: "[sabotage_target.GetShortUIName] es #negative_value mejor #! que tú" #NT!
+ contest_sabotage_score_diff_close_tt: "[sabotage_target.GetShortUIName] tiene una habilidad similar a la tuya" #NT!
+ contest_sabotage_score_diff_ahead_tt: "[sabotage_target.GetShortUIName] es #positive_value peor #! que tú" #NT!
+ contest_sabotage_score_diff_far_ahead_tt: "[sabotage_target.GetShortUIName] es #positive_value mucho peor#! que tú" #NT!
+ tournament_events.6051.t: "$tournament_events.6050.t$" #NT!
+ tournament_events.6051.foot: "Intenté sabotear la armadura [sabotage_target.GetTitledFirstNamePossessive] antes de que la [activity.GetCurrentPhase.GetPhase.GetName|l] continuara, debilitando los puntos de cuero que aseguran los componentes con la esperanza de que se desgastaran." #NT!
+ tournament_events.6051.archery: "Intenté sabotear el arco de [sabotage_target.GetTitledFirstNamePossessive] antes de que el de [activity.GetCurrentPhase.GetPhase.GetName|l] continuara, cambiando sutilmente el tirón de la cuerda para despistar a [sabotage_target.GetHerHim]." #NT!
+ tournament_events.6051.pugilism: "Intenté sabotear los envoltorios de [sabotage_target.GetTitledFirstNamePossessive] antes de que el de [activity.GetCurrentPhase.GetPhase.GetName|l] continuara, cubriéndolos con un ungüento irritante para confundir a [sabotage_target.GetHerHim]." #NT!
+ tournament_events.6051.horse: "Intenté envenenar al caballo [sabotage_target.GetTitledFirstNamePossessive] antes de que el [activity.GetCurrentPhase.GetPhase.GetName|l] continuara, intercambiando el alimento del establo por lotes contaminados mientras los escuderos dormían." #NT!
+ tournament_events.6051.horse_race: "Intenté envenenar al caballo de carreras [sabotage_target.GetTitledFirstNamePossessive], #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#!, antes de que comenzara el [activity.GetCurrentPhase.GetPhase.GetName|l], intercambiando el alimento del establo por lotes contaminados mientras los escuderos dormían." #NT!
+ tournament_events.6051.falconry: "Intenté envenenar al pájaro [sabotage_target.GetTitledFirstNamePossessive] antes de que comenzara el [activity.GetCurrentPhase.GetPhase.GetName|l], contaminando su alimento mientras los escuderos dormían." #NT!
+ tournament_events.6051.success: "\n\nMi paciencia finalmente dio sus frutos; hice el cambio sin despertar sospechas y me fui hacia la noche. Cuando llegó la mañana, me sentí aliviado al descubrir que no había ni un susurro de mis maquinaciones." #NT!
+ tournament_events.6051.detected: "\n\nJusto cuando estaba a punto de irme, a unos momentos de terminar mi minucioso trabajo, me di vuelta y encontré al asistente [sabotage_target.GetFirstNamePossessiveNoTooltip] con la boca abierta. Antes de que pudiera reaccionar, ¡[sabotage_target.GetSheHe] se había apresurado a contárselo al amo [sabotage_target.GetHerHis]!" #NT!
+ tournament_events.6051.failure: "\n\nPor desgracia, entre mi astucia y mi mala suerte, estos intentos no han hecho más que levantar sospechas de juego sucio entre los concursantes, que ahora están más atentos que nunca." #NT!
+ tournament_events.6051.disqualified: "\n\nNo pasa mucho tiempo antes de que me descalifiquen..." #NT!
+ tournament_events.6051.forgiven: "\n\nAfortunadamente, me permiten seguir participando..." #NT!
+ tournament_events.6051.a: "Todo es justo." #NT!
+ tournament_events.6051.a.disqualified: "Por amor de Dios..." #NT!
+ tournament_events.6051.a.detected: "¡Qué mala suerte...!" #NT!
+ tournament_events.6051.a.failure: "Tonterías..." #NT!
+  
+ tournament_events.6052.t: "$tournament_events.6050.t$" #NT!
+ tournament_events.6052.host: "¡Mis asistentes afirman haber atrapado a [sabotage_actor.GetTitledFirstName], uno de los concursantes del próximo concurso [activity.GetCurrentPhase.GetPhase.GetName], intentando sabotearme en el evento!\n\n" #NT!
+ tournament_events.6052.guest: "[sabotage_target.GetTitledFirstName], uno de los concursantes del próximo concurso [activity.GetCurrentPhase.GetPhase.GetName|l], ha acusado a [sabotage_actor.GetTitledFirstName] de juego sucio, ¡incluso antes del día del evento!\n\n" #NT!
+ tournament_events.6052.foot: ""[sabotage_actor.GetSheHe|U] estaba manipulando la armadura de [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat], debilitando los puntos de cuero que aseguran los componentes con la esperanza de que se desgastaran a mitad del combate"." #NT!
+ tournament_events.6052.archery: ""[sabotage_actor.GetSheHe|U] estaba manipulando el arco de [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat], alterando sutilmente la tensión de la cuerda"." #NT!
+ tournament_events.6052.pugilism: ""[sabotage_actor.GetSheHe|U] estaba manipulando los envoltorios de [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat], cubriéndolos con un ungüento irritante"." #NT!
+ tournament_events.6052.horse: ""[sabotage_actor.GetSheHe|U] estaba intentando envenenar al caballo [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat], intercambiando el alimento del establo por lotes contaminados mientras los escuderos dormían"." #NT!
+ tournament_events.6052.horse_race: ""[sabotage_actor.GetSheHe|U] estaba intentando envenenar a [sabotage_target.GetShortUINamePossessiveNoTooltipNoFormat] caballo de carreras, #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#!, intercambiando alimento estable por lotes contaminados mientras los escuderos dormían"." #NT!
+ tournament_events.6052.a: "No se tolerarán trampas." #NT!
+ tournament_events.6052.a.host: "¡Hacer trampa exige descalificación!" #NT!
+ tournament_events.6052.b: "Ven, fue inofensivo." #NT!
+ tournament_events.6053.t: "$tournament_events.6050.t$" #NT!
+ tournament_events.6053.desc: "¡Antes de que el concurso [activity.GetCurrentPhase.GetPhase.GetName|l] siquiera comenzara, alguien fue descubierto en el acto de sabotaje!" #NT!
+ tournament_events.6053.foot: ""[sabotage_actor.GetTitledFirstName] estaba manipulando la armadura de [sabotage_target.GetTitledFirstNamePossessive], debilitando los puntos de cuero que aseguran los componentes con la esperanza de que se desgastaran a mitad del combate"." #NT!
+ tournament_events.6053.archery: ""[sabotage_actor.GetTitledFirstName] estaba manipulando el arco de [sabotage_target.GetTitledFirstNamePossessive], alterando sutilmente el tirón de la cuerda para despistarme"." #NT!
+ tournament_events.6053.pugilism: ""[sabotage_actor.GetTitledFirstName] estaba manipulando los envoltorios de [sabotage_target.GetTitledFirstNamePossessive], cubriéndolos con un ungüento irritante para confundirme"." #NT!
+ tournament_events.6053.horse: ""[sabotage_actor.GetTitledFirstName] estaba intentando envenenar al caballo [sabotage_target.GetTitledFirstNamePossessive], intercambiando el alimento del establo por lotes contaminados mientras los escuderos dormían"." #NT!
+ tournament_events.6053.horse_race: ""[sabotage_actor.GetTitledFirstName] estaba intentando envenenar a [sabotage_target.GetTitledFirstNamePossessive] caballo de carreras, #EMP [sabotage_target.Custom('GetContestHorseRaceName')]#!, intercambiando alimento estable por lotes contaminados mientras los escuderos dormían"." #NT!
+ tournament_events.6053.disqualified_target: "\n\n[host.GetTitledFirstName] ha descalificado con justicia al miserable perro de la competición. ¡Qué descaro!" #NT!
+ tournament_events.6053.disqualified: "\n\nEs comprensible que [host.GetTitledFirstName] haya descalificado a [sabotage_actor.GetHerHim] del concurso, para gran deleite de la víctima prevista de [host.GetHerHis]." #NT!
+ tournament_events.6053.forgiven_target: "\n\n[host.GetTitledFirstName] ha perdonado escandalosamente al miserable perro, ¡a quien todavía se le permitirá competir! ¡Qué descaro!" #NT!
+ tournament_events.6053.forgiven: "\n\nSorprendentemente, [host.GetTitledFirstName] no ha tomado ninguna medida contra [sabotage_actor.GetHerHim], desestimando el asunto." #NT!
+ tournament_events.6053.a: "¡Desvergonzado!" #NT!
+ tournament_events.6500.t: "$tournament_header$ Las cosas que hacemos por amor" #NT!
+ tournament_events.6500.desc:0 "My attempts to win the attention of [woo_target.GetTitledFirstName] have not gone unnoticed, but [woo_target.GetHerHis] heart is not yet open to me.\n\n"I am not some [woo_target.Custom('GirlBoy')], a naive thing for a noble to chase and discard. Show me — prove to me — your affections, and we will talk..."\n\n"Show you?" I enquire, "...how would you have me do that?"\n\n[woo_target.GetFirstNamePossessiveNoTooltip] reply comes quickly: "Mis intentos de ganar la atención de [woo_target.GetTitledFirstName] no han pasado desapercibidos, pero el corazón de [woo_target.GetHerHis] aún no se ha abierto a mí.\n\n"No soy ninguna [woo_target.Custom('GirlBoy')], una cosa ingenua que un noble pueda perseguir y descartar. Muéstrame, demuéstrame, tus afectos y hablaremos..."\n\n"¿Muéstrame?", pregunto, "... ¿cómo quieres que haga eso?"\n\nLa respuesta de [woo_target.GetFirstNamePossessiveNoTooltip] llega rápidamente: "Perder el concurso"." #NT!
+ tournament_events.6500.a: "Como dices querido [woo_target.GetFirstNameNoTooltip]." #NT!
+ tournament_events.6500.b: "¡No hay honor en la derrota!" #NT!
+ tournament_events.6510.t: "El encanto del triunfo" #NT!
+ tournament_events.6510.opening: "Las pausas en las festividades del torneo me dan mucho tiempo para planear un encuentro con [woo_target.GetFirstName]." #NT!
+ tournament_events.6510.married: "Fue fácil asegurar que [woo_target.GetHerHis] [woo_target.GetPrimarySpouse.GetWifeHusband], [woo_target.GetPrimarySpouse.GetTitledFirstName] estaría en otro lugar." #NT!
+ tournament_events.6510.currentspouse: "¡Una oportunidad de demostrar mi devoción a mi [woo_target.GetWomanMan]!" #NT!
+ tournament_events.6510.desc: "\n\n"Felicitaciones por ganar el [ROOT.Char.Custom('GetRandomWonContest')|l], [ROOT.Char.GetTitledFirstName]", ofrece [woo_target.GetSheHe] cortésmente. "Fue todo un espectáculo".\n\nHay un brillo genuino en los ojos de [woo_target.GetHerHis], estoy seguro de ello." #NT!
+ tournament_events.6510.a: "Lo hice todo por #EMP ti#!, mi [woo_target.GetLadyLord]." #NT!
+ tournament_events.6510.a.tt: "#F Apelación al lado emocional [woo_target.GetFirstNamePossessiveNoTooltip].#!" #NT!
+ tournament_events.6510.b: "¿Ah, eso? No fue nada, en realidad." #NT!
+ tournament_events.6510.b.tt: "#F Apelación al lado arrogante [woo_target.GetFirstNamePossessiveNoTooltip].#!" #NT!
+ tournament_events.6510.c: "Tuve suerte: mis oponentes pelearon bien." #NT!
+ tournament_events.6510.c.tt: "#F Apelación al lado humilde del [woo_target.GetFirstNamePossessiveNoTooltip].#!" #NT!
+ tournament_events.6510.d: "[ROOT.Char.GetFaith.HighGodName] respondió mis oraciones con [ROOT.Char.GetFaith.HighGodHerHis] favor." #NT!
+ tournament_events.6510.d.tt: "#F Apelación al lado religioso [woo_target.GetFirstNamePossessiveNoTooltip].#!" #NT!
+ tournament_events.6511.reply_dedicate: "[woo_actor.GetSheHe|U] responde descaradamente que [woo_actor.GetSheHe] lo hizo todo por mí!\n\n" #NT!
+ tournament_events.6511.reply_dismiss: "[woo_actor.GetSheHe|U] responde con indiferencia que ni siquiera debería mencionar semejante nimiedad.\n\n" #NT!
+ tournament_events.6511.reply_praise: "[woo_actor.GetSheHe|U] responde rápidamente que [woo_actor.GetSheHe] simplemente tuvo suerte; los oponentes de [woo_actor.GetHerHis] no son menos poderosos que [woo_actor.GetSheHe].\n\n" #NT!
+ tournament_events.6511.reply_god: "[woo_actor.GetSheHe|U] responde sinceramente que [woo_actor.GetSheHe] está agradecido de ser favorecido por [woo_actor.GetFaith.HighGodName].\n\n" #NT!
+ tournament_events.6511.opening: "Me encuentro con [woo_actor.GetTitledFirstName] en el pabellón y le ofrezco mis felicitaciones por la victoria de [woo_actor.GetHerHis] en el [ROOT.Char.Custom('GetRandomWonContest')|l].\n\n" #NT!
+ tournament_events.6511.dedicate: "$tournament_events.6511.reply_dedicate$No puedo evitar sonrojarme ante este descarado coqueteo..." #NT!
+ tournament_events.6511.dismiss: "$tournament_events.6511.reply_dismiss$Qué atrevido [woo_actor.GetWomanMan]..." #NT!
+ tournament_events.6511.praise: "$tournament_events.6511.reply_praise$Qué humildad..." #NT!
+ tournament_events.6511.god: "$tournament_events.6511.reply_god$A [woo_actor.GetWomanMan] de fe, en verdad." #NT!
+ tournament_events.6511.fallback: "[woo_actor.GetSheHe|U] simplemente me sonríe con complicidad y me resulta difícil apartar la mirada." #NT!
+ tournament_events.6511.a: "No puedo negar que [woo_actor.GetSheHe] tiene cierto encanto..." #NT!
+  
+ tournament_events.6512.dedicate: "$tournament_events.6511.reply_dedicate$No puedo evitar encogerme por dentro..." #NT!
+ tournament_events.6512.dismiss: "$tournament_events.6511.reply_dismiss$Qué arrogancia..." #NT!
+ tournament_events.6512.praise: "$tournament_events.6511.praise$¡Aprende a aceptar los cumplidos, por cierto!" #NT!
+ tournament_events.6512.god: "$tournament_events.6511.god$Qué aburrimiento..." #NT!
+ tournament_events.6512.fallback: "[woo_actor.GetSheHe|U] simplemente me sonríe con complicidad, haciéndome sentir #EMP profundamente#! incómodo." #NT!
+ tournament_events.6512.a: "¡Qué ridículo [woo_actor.GetWomanMan]!" #NT!
+ tournament_events.6513.reply: "[woo_target.GetTitledFirstName] parece haber reaccionado cálidamente a mi respuesta" #NT!
+ tournament_events.6513.dedicate: "$tournament_events.6513.reply$, sonrojándose mientras [woo_target.GetSheHe] se ríe tímidamente." #NT!
+ tournament_events.6513.dismiss: "$tournament_events.6513.reply$, casi pareciendo mirarme con un nuevo par de ojos." #NT!
+ tournament_events.6513.praise: "$tournament_events.6513.reply$, respondiendo [woo_target.GetSheHe] está seguro de que fue más que suerte." #NT!
+ tournament_events.6513.god: "$tournament_events.6513.reply$, respondiendo que [woo_target.GetFaith.HighGodName] debió haberlo deseado de verdad." #NT!
+ tournament_events.6513.fallback: "$tournament_events.6513.reply$, mirándome larga y profundamente a los ojos." #NT!
+ tournament_events.6513.desc: "\n\nCuando [woo_target.GetSheHe] se va, la tensión es palpable en cada comentario amable. ¡Sabía que encontraría las palabras adecuadas para conquistar a [woo_target.GetHerHim]!" #NT!
+ tournament_events.6513.a: "Creo que [woo_target.GetSheHe] está en el anzuelo..." #NT!
+ tournament_events.6514.reply: "Mi respuesta parece no haber impresionado [woo_target.GetTitledFirstName]" #NT!
+ tournament_events.6514.dedicate: "$tournament_events.6514.reply$, porque [woo_target.GetSheHe] evita mi mirada cuando [woo_target.GetSheHe] me agradece y rápidamente se va [woo_target.GetHerHis]." #NT!
+ tournament_events.6514.dismiss: "$tournament_events.6514.reply$, por [woo_target.GetSheHe] rueda [woo_target.GetHerHis] ojos despectivamente." #NT!
+ tournament_events.6514.praise: "$tournament_events.6514.reply$, porque [woo_target.GetSheHe] pierde rápidamente el interés, desanimado por mis palabras." #NT!
+ tournament_events.6514.god: "$tournament_events.6514.reply$, por [woo_target.GetSheHe] se queda mirando fijamente, aparentemente escuchando solo a medias." #NT!
+ tournament_events.6514.fallback: "$tournament_events.6513.reply$, porque [woo_target.GetSheHe] no puede dejar mi compañía antes." #NT!
+ tournament_events.6514.desc: "\n\nDe pie, solo después de que [woo_target.GetHerHis] se despidiera de [woo_target.GetHerHis], no puedo evitar sentirme un tonto por semejante paso en falso..." #NT!
+ tournament_events.6514.a: "¿En qué estaba pensando...?" #NT!
+ tournament_events.6900.t: "$tournament_header$ Lancero local" #NT!
+ tournament_events.6900.desc: "Al observar a la pequeña nobleza reunida en [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip], veo justo el tipo de [local_lancer.GetWomanMan] que necesito.\n\n" #NT!
+ tournament_events.6900.new: "[local_lancer.GetFullName] es un caballo local[local_lancer.GetWomanMan] con cierta experiencia, conocido en estos lugares por su [local_lancer.GetHerHis] valor a pesar de su [local_lancer.GetHerHis] baja posición — un [ROOT.Char.Custom('MountedWarriorTerm')] de una línea provincial olvidada." #NT!
+ tournament_events.6900.pool: "[local_lancer.GetFullName] es un jinete descarriado con cierta experiencia, que viaja de corte en corte en busca de un [ROOT.Char.GetLadyLord] al que servir. Normalmente, hay que desconfiar de esos [local_lancer.GetWomenMen], pero los talentos de los [local_lancer.GetHerHis] saltan a la vista de inmediato." #NT!
+ tournament_events.6900.closing: "\n\nMientras me acerco para hacer mi presentación, [bidder.GetTitledFirstName] aparece al lado de [local_lancer.GetHerHim], claramente compartiendo mi idea..." #NT!
+ tournament_events.6900.a: "Tenga la seguridad de que le pagaré mejor." #NT!
+ tournament_events.6900.a.success: "[local_lancer.GetFirstNameNoTooltip] es impulsado por moneda" #NT!
+ tournament_events.6900.a.failure: "[local_lancer.GetFirstNameNoTooltip] prefiere [bidder.GetFirstNameNoTooltip]" #NT!
+ tournament_events.6900.b: "[local_lancer.GetFirstNameNoTooltip], ¡te sentarás en mi gran pabellón!" #NT!
+ tournament_events.6900.b.success: "[local_lancer.GetFirstNameNoTooltip] busca la gratificación mundana" #NT!
+ tournament_events.6900.c: "Ven, realmente preferirías servir a un simple #EMP [bidder.GetTitleAsNameNoTooltip]#!?" #NT!
+ tournament_events.6900.c.success: "[local_lancer.GetFirstNameNoTooltip] es un tipo ambicioso" #NT!
+ tournament_events.6900.d: "Hazte a un lado [bidder.GetFirstNameNoTooltip], tu [ROOT.Char.GetTitleAsNameNoTooltip] es primero." #NT!
+ tournament_events.6900.e: "No voy a negociar por un [ROOT.Char.Custom('MountedWarriorTerm')]." #NT!
+  
+ tournament_events.7000.t: "$tournament_header$ ¡Sé un [ROOT.Char.GetWomanMan|U]!" #NT!
+ tournament_events.7000.desc: "Saludo a una banda de [ROOT.GetCharacter.Custom('KnightCulturePluralNoTooltipLowercase')] que pasan a mi lado. Uno, que va rezagado detrás del resto, me hace detenerme. Dando media vuelta, llamo a la figura.\n\nEstán vestidos con una armadura informe y mal ajustada, con los ojos muy abiertos y claramente aterrorizados debajo de su casco. #EMP Algo#! no está bien aquí. Doy un paso adelante y les arranco el casco antes de que tengan la oportunidad de reaccionar.\n\nDe pie frente a mí, mirando furtivamente a su alrededor para ver si alguien más se había dado cuenta, ¡no hay otro que [mulan.GetWomanMan]! Vestido como un [ROOT.GetCharacter.Custom('KnightCultureNoTooltipLowercase')], nada menos. ¡Incluso planean competir #EMP #! como un [ROOT.GetCharacter.Custom('KnightCultureNoTooltipLowercase')]!" #NT!
+ tournament_events.7000.a: "Guardaré tu secreto." #NT!
+ tournament_events.7000.a.tt: "Se une al [activity.GetShortName]" #NT!
+ tournament_events.7000.b: "Me vendrían bien los servicios de alguien como tú." #NT!
+ tournament_events.7000.b.tt: "Se convierte en tu [mulan.Custom('KnightCulture')]" #NT!
+ tournament_events.7000.c: "¡Guardias! #EMP ¡Guardias! #! ¡Hay un #EMP [mulan.GetWomanMan]#! en nuestro torneo!" #NT!
+  
+  # TOOLTIPS 
+ tournament_not_competing_tt: "[THIS.Char.GetShortUIName|U] no competirá en ninguna [contests|E]" #NT!
+ tournament_prize_template_tt: "No se puede equipar un [GetActivityType( 'activity_tournament' ).GetName] [prize|E] hasta que se haya otorgado" #NT!
+  
+  # ACTIVITY LOG 
+ tournament_placed_joust_wager_log_title: "Apuesta de justa realizada" #NT!
+ tournament_placed_joust_wager_log: "[CHARACTER.GetTitledFirstName] apostó a que [TARGET_CHARACTER.GetTitledFirstName] ganaría el concurso Joust" #NT!
+ tournament_placed_archery_wager_log_title: "Apuesta de tiro con arco realizada" #NT!
+ tournament_placed_archery_wager_log: "[CHARACTER.GetTitledFirstName] apostó a que [TARGET_CHARACTER.GetTitledFirstName] ganaría el concurso de tiro con arco" #NT!
+ tournament_pas_darmes_spurs_won_log_title: "Desafío Pas D'Armes" #NT!
+ tournament_pas_darmes_spurs_won_log: "[TARGET_CHARACTER.GetTitledFirstName] fue derrotado y cedió [TARGET_CHARACTER.GetHerHis] espuelas a [CHARACTER.GetTitledFirstName] al pasar por [PROVINCE.GetBaronyNameExplicitly]." #NT!
+ tournament_pas_darmes_spurs_lost_log_title: "$tournament_pas_darmes_spurs_won_log_title$" #NT!
+ tournament_pas_darmes_spurs_lost_log: "[TARGET_CHARACTER.GetTitledFirstName] defendió [TARGET_CHARACTER.GetHerHis] honor contra [CHARACTER.GetTitledFirstName] al pasar por [PROVINCE.GetBaronyNameExplicitly]" #NT!
+ tournament_pas_darmes_token_log_title: "Token cedido" #NT!
+ tournament_pas_darmes_token_log: "[TARGET_CHARACTER.GetTitledFirstName] le entregó la bufanda [TARGET_CHARACTER.GetHerHis] a [CHARACTER.GetTitledFirstName] al pasar por [PROVINCE.GetBaronyNameExplicitly]." #NT!
+ tournament_pas_darmes_refused_log_title: "Pas D'Armes rechazado" #NT!
+ tournament_pas_darmes_refused_log: "[TARGET_CHARACTER.GetTitledFirstName] rechazó el desafío [CHARACTER.GetTitledFirstNamePossessive] al pasar por [PROVINCE.GetBaronyNameExplicitly]." #NT!
+ tournament_favor_given_log_title: "Favor dado" #NT!
+ tournament_favor_given_log: "[CHARACTER.GetTitledFirstName] recibió un favor" #NT!
+  
+ tournament_accident_melee_log_title: "Concursante asesinado" #NT!
+ tournament_accident_melee_log: "[CHARACTER.GetTitledFirstName] murió en un accidente durante el concurso $tournament_phase_melee$" #NT!
+ tournament_accident_melee_killer_log_title: "Concursante asesinado" #NT!
+ tournament_accident_melee_killer_log: "[CHARACTER.GetTitledFirstName] fue asesinado por [TARGET_CHARACTER.GetTitledFirstName] en un accidente durante el concurso $tournament_phase_melee$" #NT!
+  
+ tournament_sabotage_log_title: "Intento de sabotaje [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName]" #NT!
+ tournament_sabotage_log: "[CHARACTER.GetTitledFirstName] intentó sabotear a [TARGET_CHARACTER.GetTitledFirstName] en el concurso [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName]" #NT!
+ tournament_murder_attempt_log_title: "Tentativa de asesinato" #NT!
+ tournament_murder_attempt_log: "[CHARACTER.GetTitledFirstName] intentó asesinar a [TARGET_CHARACTER.GetTitledFirstName]" #NT!
+ tournament_poison_ill_log_title: "Rival envenenado" #NT!
+ tournament_poison_ill_log: "[TARGET_CHARACTER.GetTitledFirstName] se enfermó después de que [CHARACTER.GetTitledFirstName] lo envenenó" #NT!
+ tournament_poison_death_log_title: "Rival envenenado" #NT!
+ tournament_poison_death_log: "[TARGET_CHARACTER.GetTitledFirstName] murió después de que [CHARACTER.GetTitledFirstName] los envenenó" #NT!
+ tournament_murder_death_log_title: "Rival asesinado" #NT!
+ tournament_murder_death_log: "[TARGET_CHARACTER.GetTitledFirstName] fue asesinado por [CHARACTER.GetTitledFirstName]" #NT!
+ tournament_murder_wound_log_title: "$tournament_murder_attempt_log_title$" #NT!
+ tournament_murder_wound_log: "[TARGET_CHARACTER.GetTitledFirstName] resultó herido cuando [CHARACTER.GetTitledFirstName] intentó asesinarlo" #NT!
+ tournament_thug_death_log_title: "$tournament_murder_death_log_title$" #NT!
+ tournament_thug_death_log: "[CHARACTER.GetTitledFirstName] tuvo [TARGET_CHARACTER.GetTitledFirstName] asesinado" #NT!
+ tournament_thug_caught_log_title: "Asesinato fallido" #NT!
+ tournament_thug_caught_log: "[TARGET_CHARACTER.GetTitledFirstName] reveló [CHARACTER.GetTitledFirstName] intentó tener [TARGET_CHARACTER.GetHerHim] asesinado" #NT!
+ tournament_contest_withdrawal_log_title: "[CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] Retiro" #NT!
+ tournament_contest_withdrawal_log: "[CHARACTER.GetTitledFirstName] se retiró del concurso [CHARACTER.GetInvolvedActivity.GetCurrentPhase.GetPhase.GetName] debido a la mala salud" #NT!
+ tournament_collapsed_stand_log_title: "El soporte se derrumbó" #NT!
+ tournament_collapsed_stand_log: "[CHARACTER.GetTitledFirstName] lidió con el repentino y trágico colapso de una de las gradas del torneo." #NT!
+ tournament_failed_defuse_duel_log_title: "No se pudo desactivar un duelo" #NT!
+ tournament_failed_defuse_duel_log: "[CHARACTER.GetTitledFirstName] intentó y no logró detener un duelo que dejó a [TARGET_CHARACTER.GetTitledFirstName] herido" #NT!
+ tournament_encouraged_duel_log_title: "Duelo Animado" #NT!
+ tournament_encouraged_duel_log: "[CHARACTER.GetTitledFirstName] alentó un duelo que dejó a [TARGET_CHARACTER.GetTitledFirstName] herido" #NT!
+ tournament_defused_duel_log_title: "Duelo desactivado" #NT!
+ tournament_defused_duel_log: "[CHARACTER.GetTitledFirstName] detuvo un duelo entre concursantes del torneo muy impetuosos" #NT!
+ tournament_squire_fire_log_title: "Incendio en el mercado" #NT!
+ tournament_squire_fire_log: "Unos escuderos estridentes provocaron un incendio en el mercado de [PROVINCE.GetName] tras un desacuerdo entre borrachos" #NT!
+ tournament_squire_fire_punished_log_title: "Escuderos castigados" #NT!
+ tournament_squire_fire_punished_log: "[CHARACTER.GetTitledFirstName] castigó a los escuderos que iniciaron un incendio en [PROVINCE.GetName]" #NT!
+ tournament_squire_fire_donate_log_title: "Reparaciones por incendio donadas" #NT!
+ tournament_squire_fire_donate_log: "[CHARACTER.GetTitledFirstName] materiales de construcción donados para reparaciones en [PROVINCE.GetName]" #NT!
+ tournament_squire_fire_dismiss_log_title: "Fuego Desestimado" #NT!
+ tournament_squire_fire_dismiss_log: "[CHARACTER.GetTitledFirstName] descartó el incendio en [PROVINCE.GetName] como una desventura" #NT!
+ tournament_champion_battle_peasant_log_title: "Campeón campesino" #NT!
+ tournament_champion_battle_peasant_log: "[CHARACTER.GetTitledFirstName] designado [TARGET_CHARACTER.GetTitledFirstName], un campesino, [CHARACTER.GetHerHis] campeón" #NT!
+ tournament_recruited_battle_peasant_log_title: "Caballero campesino" #NT!
+ tournament_recruited_battle_peasant_log: "[CHARACTER.GetTitledFirstName] nombrado caballero [TARGET_CHARACTER.GetTitledFirstName], un campesino" #NT!
+ tournament_sponsored_battle_peasant_log_title: "Patrocinador campesino" #NT!
+ tournament_sponsored_battle_peasant_log: "[CHARACTER.GetTitledFirstName] patrocinó [TARGET_CHARACTER.GetTitledFirstName], un campesino, para competir" #NT!
+  # MODIFIERS 
+ tournament_allow_foreign_pas_darmes_modifier: "Intruso tolerado" #NT!
+ tournament_allow_foreign_pas_darmes_modifier_desc: "La aprobación por parte de este personaje de un caballero extranjero, que acosa a la nobleza con desafíos marciales, ha levantado sospechas." #NT!
+ tournament_butt_tragedy_modifier: "Consternación popular" #NT!
+ tournament_butt_tragedy_modifier_desc: "La bajeza con la que se trató la vida de un campesino local que recibió un disparo accidental ha horrorizado a la gente común." #NT!
+ tournament_battle_peasant_modifier: "Plebeyo advenedizo" #NT!
+ tournament_battle_peasant_modifier_desc: "El ascenso de este personaje desde la humilde plebeya hasta las filas de la caballería ha irritado a la nobleza existente." #NT!
+ tournament_battle_peasant_county_modifier: "Movilidad social" #NT!
+ tournament_battle_peasant_county_modifier_desc: "La promoción de un humilde campesino de la localidad ha inspirado esperanza y aspiraciones entre los plebeyos." #NT!
+ tournament_favor_scheme_modifier: "Favor regalado" #NT!
+ tournament_favor_rejected_scheme_modifier: "Favor rechazado" #NT!
+ tournament_thug_escape_modifier: "Pelo erizado" #NT!
+ tournament_thug_escape_modifier_desc: "Este personaje ha escapado recientemente de un nefasto intento de asesinato." #NT!
+ tournament_poison_tummy_ache_modifier: "Dolor de estómago" #NT!
+ tournament_poison_tummy_ache_modifier_desc: "Este personaje ha pasado por una mala racha y todavía está un poco desequilibrado." #NT!
+ tournament_attempted_sabotage_modifier: "Saboteador conocido" #NT!
+ tournament_attempted_sabotage_modifier_desc: "Este personaje fue capturado intentando sabotear a otros concursantes en un torneo." #NT!
+ tournament_stands_collapsed_modifier: "Las gradas se derrumbaron" #NT!
+ tournament_stands_collapsed_modifier_desc: "Este condado se está tambaleando por la pérdida de vidas y de confianza en la corona después de que una tribuna del torneo cediera repentinamente." #NT!
+ tournament_stands_compensated_modifier: "Colapso compensado" #NT!
+ tournament_stands_compensated_modifier_desc: "Este condado sufrió un desastre trágico, pero la compensación a las víctimas del derrumbe fue una misericordia inesperada." #NT!
+ tournament_executed_builders_modifier: "Constructores ejecutados" #NT!
+ tournament_executed_builders_modifier_desc: "El rápido castigo que este personaje infligió a los constructores sació parte de la ira de los plebeyos, pero ¿a qué costo?" #NT!
+ tournament_compensated_stands_modifier: "Víctimas indemnizadas" #NT!
+ tournament_compensated_stands_modifier_desc: "La compensación que este personaje ha brindado a las víctimas del derrumbe de una tribuna ha restablecido la confianza de los plebeyos en un gobierno benévolo." #NT!
+ tournament_punished_arsonists_modifier: "Pirómanos castigados" #NT!
+ tournament_punished_arsonists_modifier_desc: "El duro castigo que este personaje impone a los escuderos rebeldes ha sembrado mala voluntad entre sus propios caballeros, pero le ha ganado el respeto de muchos otros." #NT!
+ tournament_coddled_arsonists_modifier: "Pirómanos mimados" #NT!
+ tournament_coddled_arsonists_modifier_desc: "La forma en que este personaje mima a los escuderos rebeldes los ha hecho ganarse el cariño de sus [ROOT.Char.Custom('KnightCulture')], pero ha dejado a muchos otros horrorizados." #NT!
+ tournament_squire_riot_modifier: "Fuego del escudero" #NT!
+ tournament_squire_riot_modifier_desc: "Este condado fue afectado por un incendio provocado por escuderos rebeldes que se encontraban celebrando un torneo." #NT!
+ tournament_tyrannical_disqualification_modifier: "Descalificación tiránica" #NT!
+ tournament_tyrannical_disqualification_modifier_desc: "Este personaje se ha ganado la reputación de no seguir exactamente las reglas." #NT!
+  
+ tournament_melee_winner_modifier: "Vencedor cuerpo a cuerpo" #NT!
+ tournament_melee_winner_modifier_desc: "El equipo de este personaje se impuso en un combate cuerpo a cuerpo, lo que les trajo gran fama y aclamación." #NT!
+ tournament_joust_winner_modifier: "Campeón justador" #NT!
+ tournament_joust_winner_modifier_desc: "Este personaje consiguió fama y fortuna al ganar una justa en un torneo." #NT!
+ tournament_wrestling_winner_modifier: "Luchador consumado" #NT!
+ tournament_wrestling_winner_modifier_desc: "Este personaje demostró su temple y poderío al ganar un concurso de lucha libre en un torneo." #NT!
+ tournament_duel_winner_modifier: "Duelista talentoso" #NT!
+ tournament_duel_winner_modifier_desc: "La habilidad de este personaje con la espada le permitió ganar un duelo en un torneo." #NT!
+ tournament_archery_winner_modifier: "Feliz objetivo" #NT!
+ tournament_archery_winner_modifier_desc: "La puntería infalible de este personaje le permitió ganar un concurso de tiro con arco en un torneo." #NT!
+ tournament_recital_winner_modifier: "Virtuoso yámbico" #NT!
+ tournament_recital_winner_modifier_desc: "La lengua de plata de este personaje le permitió ganar un concurso de recitales en un torneo." #NT!
+ tournament_horse_race_winner_modifier: "Caballo de carreras campeón" #NT!
+ tournament_horse_race_winner_modifier_desc: "El caballo de este personaje prevaleció en una competición de carreras de caballos en un torneo." #NT!
+ tournament_board_game_winner_modifier: "Gran Maestro" #NT!
+ tournament_board_game_winner_modifier_desc: "El dominio de este personaje sobre la mesa quedó demostrado cuando ganó un concurso de juegos de mesa en un torneo." #NT!
+  
+ tournament_melee_participant_modifier: "Participante de combate cuerpo a cuerpo" #NT!
+ tournament_melee_participant_modifier_desc: "Este personaje participó en un combate cuerpo a cuerpo en un torneo, ganándose cierta fama y fortuna." #NT!
+ tournament_joust_participant_modifier: "Justa" #NT!
+ tournament_joust_participant_modifier_desc: "Este personaje participó en una justa en un torneo, ganándose cierta fama y fortuna." #NT!
+ tournament_wrestling_participant_modifier: "Luchador" #NT!
+ tournament_wrestling_participant_modifier_desc: "Este personaje participó en un torneo de lucha libre, ganándose cierta fama y fortuna." #NT!
+ tournament_duel_participant_modifier: "Duelista" #NT!
+ tournament_duel_participant_modifier_desc: "Este personaje participó en un Duelo en un Torneo, ganándose cierta fama y fortuna." #NT!
+ tournament_archery_participant_modifier: "Arquero" #NT!
+ tournament_archery_participant_modifier_desc: "Este personaje participó en un torneo de tiro con arco, ganándose cierta fama y fortuna." #NT!
+ tournament_recital_participant_modifier: "Rimador" #NT!
+ tournament_recital_participant_modifier_desc: "Este personaje participó en un Recital en un Torneo, ganándose cierta fama y fortuna." #NT!
+ tournament_horse_race_participant_modifier: "Corredor de caballos" #NT!
+ tournament_horse_race_participant_modifier_desc: "Este personaje participó en un torneo de carreras de caballos, ganándose cierta fama y fortuna." #NT!
+ tournament_board_game_participant_modifier: "Jugador de mesa" #NT!
+ tournament_board_game_participant_modifier_desc: "Este personaje participó en Juegos de Mesa en un Torneo, ganándose cierta fama y fortuna." #NT!
+  
+ tournament_contest_spectator_modifier: "Asistente al torneo" #NT!
+ tournament_contest_spectator_modifier_desc: "Este personaje visitó un torneo y disfrutó de las vistas y los sonidos." #NT!
+ tournament_refreshed_modifier: "Refrescado" #NT!
+ tournament_parched_modifier: "Tostado" #NT!
+  
+  # OPINIONS 
+ tournament_disqualified_opinion: "Descalificado del concurso" #NT!
+ tournament_upset_crowd_opinion: "Multitud enojada" #NT!
+ tournament_host_pas_darmes_opinion: "Me desafió" #NT!
+ tournament_ejected_interloper_opinion: "Intruso expulsado" #NT!
+ tournament_ejected_opinion: "Expulsado del torneo" #NT!
+ tournament_stole_knight_opinion: "Caballero reclutado" #NT!
+ tournament_pas_darmes_forbidden_opinion: "Prohibido pasar las armas" #NT!
+ tournament_compensated_tragedy_opinion: "Tragedia compensada" #NT!
+ tournament_forgave_tragedy_opinion: "Perdonó la tragedia" #NT!
+ tournament_replaced_champion_opinion: "Campeón reemplazado" #NT!
+ tournament_marriage_prize_opinion: "Ofrecido como premio" #NT!
+ tournament_marriage_prize_parent_opinion: "Ofrecieron un niño como premio" #NT!
+ tournament_received_favor_opinion: "Favor dado" #NT!
+ tournament_spurned_favor_opinion: "Favor rechazado" #NT!
+ tournament_refused_to_lose_opinion: "Se negó a perder el concurso" #NT!
+ tournament_vowed_to_lose_opinion: "Prometió perder el concurso" #NT!
+ tournament_lost_for_love_opinion: "Concurso perdido para mí" #NT!
+ tournament_convinced_priest_opinion: "Convencido del valor del torneo" #NT!
+ tournament_unconvinced_priest_opinion: "Desaprueba el torneo" #NT!
+ tournament_not_competing_opinion: "No competir en el torneo" #NT!
+ tournament_dismissed_priest_opinion: "Torneo impío" #NT!
+ tournament_elevated_peasant_knight_opinion: "Caballero campesino elevado" #NT!
+ tournament_mocked_opinion: "Burlado" #NT!
+ tournament_confused_opinion: "Confundido" #NT!
+ tournament_respected_wishes_opinion: "Deseos respetados" #NT!
+ tournament_mercy_opinion: "Mostró misericordia" #NT!
+ tournament_agreed_opinion: "Estuvo de acuerdo conmigo" #NT!
+ tournament_savagely_beaten_opinion: "Golpeado salvajemente" #NT!
+ tournament_savagely_beaten_friend_opinion: "Amigo golpeado salvajemente" #NT!
+ tournament_savagely_beaten_lover_opinion: "Amante golpeado salvajemente" #NT!
+ tournament_savagely_beaten_consort_opinion: "Consorte brutalmente golpeada" #NT!
+ tournament_savagely_beaten_family_opinion: "Familia cercana brutalmente golpeada" #NT!
+ tournament_savagely_beaten_liege_opinion: "Sujeto golpeado salvajemente" #NT!
+ tournament_failed_woo_opinion: "Coqueteo incómodo" #NT!
+ tournament_attempted_sabotage_opinion: "Intento de sabotaje" #NT!
+ tournament_tolerated_sabotage_opinion: "Sabotaje tolerado" #NT!
+ tournament_lancer_vassal_tyranny_opinion: "Reclutamiento tiránico" #NT!
+ tournament_lancer_gazumped_opinion: "Caballero con gatillo" #NT!
+ tournament_congratulate_opinion: "Felicitó Victoria" #NT!
+ tournament_congratulate_toast_opinion: "Sinceramente felicitado" #NT!
+ tournament_congratulate_vague_opinion: "Victoria desestimada" #NT!
+ tournament_dishonorable_gamer_opinion: "Jugador deshonroso" #NT!
+ tournament_rubbed_in_board_game_opinion: "Frotado por la pérdida" #NT!
+ tournament_insult_to_injury_board_game_opinion: "Insulto a la herida" #NT!
+ tournament_take_back_board_game_opinion: "Concedido, recuperar" #NT!
+ tournament_shared_vulnerability_board_game_opinion: "Vulnerabilidad indicada" #NT!
+ tournament_admonished_duelist_opinion: "Duelista amonestado" #NT!
+ tournament_failed_pas_darmes_reclaim_opinion: "Honor destrozado" #NT!
+ tournament_expelled_opinion: "Expulsado del torneo" #NT!
+ tournament_executed_workers_opinion: "Constructores ejecutados" #NT!
+ tournament_spared_workers_opinion: "Constructores perdonados" #NT!
+ tournament_compensated_victims_opinion: "Víctimas indemnizadas" #NT!
+ tournament_collapse_victim_family_opinion: "Familia murió en colapso" #NT!
+ tournament_tyrannical_disqualification_opinion: "Descalificación tiránica" #NT!
+ tournament_punished_arsonists_opinion: "Pirómanos castigados" #NT!
+ tournament_donated_materials_opinion: "Materiales donados" #NT!
+ tournament_fire_uncompensated_opinion: "Pirómanos sin control" #NT!
+ tournament_reneged_marriage_prize_opinion: "Premio al matrimonio renegado" #NT!
+ tournament_honored_marriage_prize_opinion: "Premio al matrimonio de honor" #NT!
+ tournament_bought_round_opinion: "Comprado redondo" #NT!
+ tournament_streaker_opinion: "Desnudo público" #NT!
+ tournament_dragged_off_opinion: "Arrastrado" #NT!
+ tournament_bribed_replacement_opinion: "Reemplazo de calificador" #NT!
+ tournament_liege_concession_opinion: "Concesión forzosa" #NT!
+  # OTHER 
+ cultural_acceptance_expelled_contestant: "Concursante expulsado" #NT!
+ cultural_acceptance_accepted_contestant: "Concursante aceptado" #NT!
+ tournament_contest_versus_battle_win_tt: "Ganas la ronda [activity.GetCurrentPhase.GetPhase.GetName]" #NT!
+ tournament_contest_versus_battle_lose_tt: "[versus_contestant.GetTitledFirstNameNoTooltip] gana la ronda [activity.GetCurrentPhase.GetPhase.GetName]" #NT!

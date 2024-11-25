@@ -73,6 +73,7 @@
  religious_taxation: "Impuestos religiosos"
  religious_protection_tt: "[contract|E] comienza con [GetVassalContractType( 'religious_rights' ).GetObligationName( 'religious_rights_protected' )]"
  jizya_religious_protection_tt: "[contract|E] comienza con [GetVassalContractType( 'jizya_special_rights' ).GetObligationName( 'jizya_special_rights_granted' )]"
+ SURVEYOR_PERK_REALM_ACCEPTANCE: "Tienes [GetPerk( 'know_your_land_know_your_people_perk' ).GetName( GetPlayer )]: $VALUE|=+0$" #NT!
   
  AI_ELOPE_CONSEQUENCES: "[recipient.GetShortUIName|U] desconfía de las consecuencias: $VALUE|=+0$"
  AI_SPOUSE_OPINION: "[CHARACTER.GetShortUINamePossessive] Opinión de [CHARACTER.GetHerHis] Cónyuge: $VALUE|=+0$"
@@ -567,7 +568,7 @@
  INTRIGUE_SKILL_REASON: "Habilidad de intriga: $VALUE|=+0$"
  LEARNING_SKILL_REASON: "Habilidad de aprendizaje: $VALUE|=+0$"
  PROWESS_SKILL_REASON: "Habilidad de destreza: $VALUE|=+0$"
- SCHEME_TARGET_LEARNING: "[target.GetShortUINamePossessive|U] [learning|E]: $VALUE|+=0$" #NT!
+ SCHEME_TARGET_LEARNING: "[target.GetShortUINamePossessive|U] [learning|E]: $VALUE|+=0$"
  AI_I_AM_INCAPABLE: "Soy [GetTrait('incapable').GetName(GetNullCharacter)]: $VALUE|=+0$"
  AI_I_AM_IMPRISONED: "Soy [imprisoned|E]: $VALUE|=+0$"
  AI_LACKS_POLITICAL_CAPITAL: "No tengo el [prestige|E] para resistirme: $VALUE|=+0$"
@@ -611,4 +612,10 @@
  WILL_BE_VASSALIZED_REASON: "Se convertirá en tu [vassal|E]: $VALUE|=+0$"
  RIVAL_VASSAL_REASON: "Rival [vassal|E] dentro del [realm|E]: $VALUE|=+0$"
   
- negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe] debe poseer o recibir al menos un condado junto con [target.GetName]" #NT!
+ negotiate_settlement_title_cant_receive_reason_higher_tier_without_county: "[recipient.GetShortUINameNotMe] debe poseer o recibir al menos un condado junto con [target.GetName]"
+  
+ STATE_FAITH_CREATE_FAITH_REASON: "Tienes mucha influencia dentro del [realm|E]: $VALUE|=+0$" #NT!
+ HAS_PERK_PROPHET_REASON: "Tienes el [GetPerk('prophet_perk').GetName(GetPlayer)] [perk|E]: $VALUE|=+0$" #NT!
+  
+ INSPECTION_REASON: "[inspection|E] Bono: $VALUE|=+0$" #NT!
+  

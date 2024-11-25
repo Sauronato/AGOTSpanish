@@ -16,6 +16,7 @@
  game_concept_rulerpossessive: "Del gobernante"
  game_concept_ruler_desc: "$game_concept_ruler$ es el [character|E] que posee al menos un [title|E]"
  game_concept_title: "Título"
+ game_concept_title_i: "@titles_icon!" #NT!
  game_concept_titles: "Títulos"
  game_concept_titlepossessive: "Del título"
  game_concept_title_desc: "Un título es básicamente un certificado de propiedad de tierras.\n\nLa unidad más pequeña del mapa es la [barony|E]. Las baronías se organizan en áreas mayores llamadas [counties|E]. Los condados [de_jure|E] pertenecen a un [duchy|E], los ducados a un [kingdom|E] y los reinos a un [empire|E].\n\nDucados, reinos e imperios no siempre tienen un [holder|E], pero son títulos que un gobernante puede [Concept( 'created', 'crear' )|E] si controla una porción suficiente del territorio."
@@ -396,6 +397,7 @@
  game_concept_prestigious: "Prestigioso"
  game_concept_prestige_i: "@prestige_icon!"
  game_concept_prestige_desc: "El prestigio representa la fama y posición social de un personaje.\n\nSe puede gastar el prestigio en diferentes aspectos mundanos dependiendo de la [Concept( 'government_form', 'forma de gobierno' )|E], las [Concept( 'doctrines', 'doctrinas' )|E], etcétera.\n\nCada vez que un personaje gana prestigio, también progresa hacia el [Concept( 'prestige_level', 'nivel de prestigio' )|E] siguiente."
+ game_concept_prestige_experience_i: "$game_concept_prestige_i$" #NT!
  game_concept_prestige_experience: "Fama"
  game_concept_prestige_experience_desc: "Todo punto de fama que gane un personaje hará que progrese hacia el siguiente [Concept( 'prestige_level', 'nivel de prestigio' )|E]. Cuando un personaje gana [Concept( 'prestige', 'prestigio' )|E], también obtiene una cantidad similar de fama."
  game_concept_prestige_level: "Nivel de fama"
@@ -526,6 +528,7 @@
  game_concept_stress_i: "@stress_icon!"
  game_concept_stress_gain_i: "@stress_gain_icon!"
  game_concept_stress_loss_i: "@stress_loss_icon!"
+ game_concept_stress_loss: "Pérdida de estrés" #NT!
  game_concept_stress_critical_i: "@stress_critical_icon!"
  game_concept_stress_desc: "Un personaje acumula estrés si emprende acciones que entren en conflicto con sus [personality_traits|E].\n\nLos personajes que acumulen suficiente estrés obtendrán un [stress_level|E] que tendrá efectos negativos en su salud mental y que persistirán hasta que consigan reducirlo.\n\nUna forma bastante directa de aliviar el estrés es participar en [activities|E] como pueda ser una [GetActivityType( 'activity_hunt' ).GetName|l]."
  game_concept_adult: "Adulto"
@@ -765,9 +768,9 @@
  game_concept_taxation: "Tributación"
  game_concept_taxes_desc: "Los impuestos son la fuente más importante de [Concept( 'income', 'ingresos' )|E] mensuales de [gold|E] que tienen los [rulers|E].\n\nToda [holding|E] proporciona mensualmente [domain_taxes|E] a su gobernante. Además, la mayoría de [vassals|E] tiene la [obligation|E] de pagar a su [liege|E] una parte de sus propios impuestos en forma de [liege_taxes|E]."
  game_concept_dread: "Temor"
- game_concept_dread_i: "¡@dread_icon!"
  game_concept_dreadful: "Temible"
  game_concept_dreaded: "Temido"
+ game_concept_dread_i: "¡@dread_icon!"
  game_concept_dread_desc: "El temor indica cuánto desasosiego suscita un [ruler|E].\n\nEl temor que infunde un gobernador aumenta conforme realiza actos crueles y atroces, como torturar o ejecutar [prisoners|E].\n\nEl temor te permite jugar como un tirano, porque los [vassals|E] rebeldes pueden sentirse [Concept( 'intimidated', 'intimidados' )|E] o [Concept( 'cowed', 'amedrentados' )|E] y no se atreverán a enfrentarse a ti.\n\nEl temor va de 0 a 100 y tenderá a regresar a su valor natural definido por los [personality_traits|E].\n\n#high Un [ruler|E] temible consigue estos beneficios:#!\n$BULLET_WITH_TAB$Los [vassals|E] son menos dados a unirse a [factions|E].\n$BULLET_WITH_TAB$Los [vassals|E] no se ven con ánimos para [Concept( 'scheming', 'generar conjuras' )|E].\n$BULLET_WITH_TAB$Aumenta la aceptación de los [vassals|E] #weak (por ejemplo, para la revocación de títulos)#!.\n$BULLET_WITH_TAB$Aumenta la aceptación de [offer_vassalization|E].\n$BULLET_WITH_TAB$Aumenta la probabilidad de que los [electors|E] voten lo que tú quieres.\n$BULLET_WITH_TAB$Hace que los vasallos estén más dispuestos a oponerse a cambios en la [law|E].\n\n#weak ¡Atención! Los [vassals|E] más valientes se ven menos afectados por el temor.#!"
  game_concept_truce: "Tregua"
  game_concept_truces: "Treguas"
@@ -857,6 +860,7 @@
  game_concept_advantage_rolls: "Tiradas de ventaja"
  game_concept_combat_roll_desc: "Cada [Concept( 'commanders', 'comandante' )|E] realiza tiradas de [advantage|E] durante la [Concept( 'battle', 'batalla' )|E]. Tienen una escala de 0 a 10 y son totalmente aleatorias, pero pueden tener un efecto decisivo en el resultado de la batalla."
  game_concept_terrain: "Terreno"
+ game_concept_terrains: "Terrenos" #NT!
  game_concept_terrain_desc: "Toda [barony|E] tiene un [terrain|E] dominante específico que puede afectar a elementos como los [Concept( 'supply', 'suministros' )|E], la velocidad de movimiento de los [armies|E], la eficacia de los diferentes tipos de [regiments|E] de [Concept( 'men_at_arms', 'hombres de armas' )|E] en la [battle|E] y los [buildings|E] que se pueden construir ahí.\n\nMuchos [commander_traits|E] también están relacionados con el terreno."
  game_concept_independent_ruler: "Gobernante independiente"
  game_concept_independent_ruler_desc: "Un [Concept( 'ruler', 'gobernante' )|E] independiente no tiene [Concept( 'liege', 'señor' )|E], por lo que disfruta de mayor libertad de acción (por ejemplo, para declarar [Concept( 'war', 'la guerra' )|E]).\n\nSin embargo, al contrario que los [Concept( 'vassals', 'vasallos' )|E], también pueden ser atacados directamente por [Concept( 'rulers', 'gobernantes' )|E] extranjeros."
@@ -954,6 +958,8 @@
  game_concept_learning_lifestyle: "Estilo de vida erudita"
  game_concept_learning_lifestyle_i: "@learning_lifestyle_icon!"
  game_concept_learning_lifestyle_desc: "El estilo de vida erudita es adecuado para personajes que quieran tener una vida larga y sana, ganar [Concept( 'piety', 'piedad' )|E], o bonificaciones extras por su [Concept( 'faith', 'fe' )|E]."
+ game_concept_wanderer_lifestyle: "Estilo de vida errante" #NT!
+ game_concept_wanderer_lifestyle_desc: "El $game_concept_wanderer_lifestyle$ es adecuado para personajes que quieran ver [points_of_interest|E] u obtener bonificaciones adicionales de [traveling|E]." #NT!
  game_concept_crime: "Delito"
  game_concept_crimes: "Delitos"
  game_concept_criminal: "Delincuente"
@@ -1686,6 +1692,14 @@
  game_concept_commission_epic_decision: "Decisión de encargar epopeya"
  game_concept_commission_epic_desc: "Una [decision|E] que permite a un personaje intercambiar [Concept( 'gold', 'oro' )|E] por [Concept( 'prestige', 'prestigio' )|E] encargando una epopeya familiar."
   
+ game_concept_draw_up_new_charts: "$draw_up_new_charts_decision$" #NT!
+ game_concept_draw_up_new_charts_decision: "$draw_up_new_charts_decision$ Decisión" #NT!
+ game_concept_draw_up_new_charts_desc: "Un [decision|E] que permite a un personaje intercambiar [gold|E] por un [artifact|E], al encargar un itinerario de viaje que describa los lugares que ha visitado.\nEl itinerario [artifact|E] dará diferentes efectos dependiendo de dónde hayas estado y las elecciones que hagas." #NT!
+  
+ game_concept_local_arbitration: "$local_arbitration_decision$" #NT!
+ game_concept_local_arbitration_decision: "$local_arbitration_decision$ Decisión" #NT!
+ game_concept_local_arbitration_desc: "Un [decision|E] que permite a un personaje mejorar un [county|E] en su ubicación actual." #NT!
+  
  game_concept_exceptional_epic: "Épica excepcional"
  game_concept_exceptional_epic_desc: "La épica familiar creada mediante la decisión de encargar epopeya tiene una probabilidad de ser una obra excepcional, que da mayores bonificaciones que una épica normal.\n\nLa probabilidad de que la épica sea excepcional puede cambiar en función de decisiones en eventos."
   
@@ -2248,14 +2262,15 @@
  game_concept_locale_desc: "Puedes elegir explorar el [GetActivityType( 'activity_tournament').GetName|l] mientras se preparan las [contests|E].\n\nCada escenario ofrece oportunidades para socializar con los invitados, mejorar el [progress_to_victory|E] o sabotear a los [contestants|E].\n\nSi no se elige un escenario, visitarás uno al azar pasado un breve periodo de tiempo."
   
  game_concept_travel: "Viaje"
- game_concept_traveled: "Viajado"
  game_concept_travels: "Viajes"
  game_concept_traveling: "Viajar"
+ game_concept_traveled: "Viajado"
  game_concept_travel_desc: "[Concept( 'travel', 'Viajar' )] es el medio por el que un [character|E] va de una [location|E] a otra, sobre todo para asistir a [activities|E].\n\nHay numerosas formas de planificar un viaje, como elegir a un [GetCourtPositionType('travel_leader_court_position').GetName()|l] al que contratar, seleccionar «[travel_options|EU]» y personalizarte la ruta. Conocerás a muchos personajes interesantes a lo largo del camino, pero ten cuidado con los [Concept( 'travel_danger', 'peligros' )|E] que pueden acecharte en él."
  game_concept_travel_option: "Opción de viaje"
  game_concept_travel_options: "Opciones de viaje"
  game_concept_travel_option_desc: "Una opción que se elige cuando se planea un [travel|E] para ampliar o modificar el periplo en el que estás a punto de embarcarte."
  game_concept_travel_danger: "Peligro"
+ game_concept_travel_danger_i: "¡@travel_danger_icon!" #NT!
  game_concept_travel_danger_desc: "En tus [travels|E] puedes atravesar tierras peligrosas —por ejemplo, desiertos o pantanos— que pueden obstaculizar tu avance.\n\nPuedes mitigar los riesgos del peligro si mejoras tu [travel_safety|E]. Para ello, invierte en [travel_options|E] o contrata un [GetCourtPositionType('travel_leader_court_position').GetName()|l].\n\nVarias [culture_traditions|E] reducen o eliminan el riesgo de ciertos tipos de peligro."
  game_concept_travel_safety: "Seguridad"
  game_concept_travel_safety_desc: "Tener un valor de seguridad alto te ayudará a evitar el [travel_danger|E] en tus [travels|E]. La seguridad se ve afectada por tus [skills|E] y las de tu [GetCourtPositionType('travel_leader_court_position').GetName()|l]."
@@ -2263,7 +2278,7 @@
  game_concept_travel_speed_desc: "Llevar una buena velocidad mientras [Concept( 'travel', 'viajas' )|E] te permitirá llegar más rápido a tu destino. La velocidad se ve afectada por tus [skills|E] y las de tu [GetCourtPositionType('travel_leader_court_position').GetName()|l]."
  game_concept_entourage: "Séquito"
  game_concept_entourage_desc: "Es peligroso aventurarse en solitario, así que deberías llevar contigo a algunos compañeros en tu séquito. Todos los que [Concept( 'travel', 'viajen' )|E] contigo forman parte de este y compartirán los retos a los que te enfrentes en tu periplo.\n\nTu [GetCourtPositionType('travel_leader_court_position').GetName()|l] es el líder del séquito y hace los planes para el viaje.\n\nAlgunos [characters|E] se incorporan al séquito de manera automática cuando planeas un viaje. Las [travel_options|E] y [activity_options|E] ofrecen más formas de añadir personajes."
- min_travel_contribution: "Una contribución de [character_possessive|lE] nunca puede ser inferior a #HIGH 0#!." #NT!
+ min_travel_contribution: "Una contribución de [character_possessive|lE] nunca puede ser inferior a #HIGH 0#!."
   
  game_concept_point_of_interest: "Lugar de interés"
  game_concept_points_of_interest: "Puntos de interés"
@@ -2507,6 +2522,12 @@
  game_concept_scheme_breaches: "Infracciones del plan"
  game_concept_scheme_breach_desc: "Un $game_concept_scheme_breach_short$ representa una complicación en un [secret_scheme|e]. Cuando se infringe un [scheme|e], se reduce su [success_chance|e]. La penalización a $game_concept_success_chance$ aumenta por cada $game_concept_scheme_breach_short$ acumulado. Una vez que un $game_concept_scheme$ llega a #V 5#! $game_concept_scheme_breaches_short$, fallará automáticamente.\n\n[secret_scheme|e]0 [secret_scheme|e]1 también comprueban su [secret_scheme|e]2 cuando finalmente se ejecutan; las infracciones no tienen ningún efecto en esto de una forma u otra."
   
+ game_concept_influence_ward_personality: "Influencia en la personalidad de Ward"
+ game_concept_influence_ward_personality_desc: "Un [interaction|E] donde uno puede intentar influenciar a un [ward|E] para que elija un [personality_trait|E] similar al propio."
+  
+ game_concept_faction_commitment: "Compromiso de facción"
+ game_concept_faction_commitment_desc: "La probabilidad de que un [character|E] apoye a un [faction|E] contra su [liege|E].\n\nPuede verse afectada por una multitud de razones, siendo las más comunes [personality|E], [opinion|E] y [culture|E]."
+  
  game_concept_state_faith: "Fe del Estado"
  game_concept_state_faith_desc: "$game_concept_state_faith$ es el [faith|E] apoyado y tolerado por un [administrative_government|E]. Esta fe está ligada al [title|E] y no a ningún [character|E] específico. Es más fácil convertir personajes del [realm|E] a la fe estatal y muy difícil convertirlos a otra.\n\nSolo el [ruler|E] de un Reino Administrativo puede cambiar la Fe Estatal, pero el [governors|E] puede convertirse libremente a ella."
   
@@ -2520,12 +2541,6 @@
  game_concept_story_content_wallada_desc: "#tooltip_heading Estilo de la historia: Moderado#!\n\nAs Wallada, subirás de nivel en el nivel [GetTrait('violet_poet').GetName( GetNullCharacter )] a medida escribiendo poesía y fundando salones líricos en todo el mundo, mejorando un tomo único a medida que avanzas.\n\nLa conclusión de tu historia es tan dramática como elijas que sea, pero a pesar de no tener hijos, se te darán formas de seguir jugando.\n\n$game_concept_story_generic_desc_boilerplate$"
  game_concept_story_content_hasan: "$game_concept_story_generic_prefix$ $bookmark_laamps_hassan_sabbah$"
  game_concept_story_content_hasan_desc: "#tooltip_heading Estilo de la historia: Moderado#!\n\nAs Hasan, serás guiado por un camino de fanatismo religioso, eligiendo un lugar para llevar la luz de la Fe Verdadera y convirtiendo a [counties|E] de debajo de su [rulers|E].\n\nFinalmente, tu historia culminará con un importante levantamiento religioso contra tu enemigo elegido.\n\n$game_concept_story_generic_desc_boilerplate$"
-  
- game_concept_influence_ward_personality: "Influencia en la personalidad de Ward"
- game_concept_influence_ward_personality_desc: "Un [interaction|E] donde uno puede intentar influenciar a un [ward|E] para que elija un [personality_trait|E] similar al propio."
-  
- game_concept_faction_commitment: "Compromiso de facción"
- game_concept_faction_commitment_desc: "La probabilidad de que un [character|E] apoye a un [faction|E] contra su [liege|E].\n\nPuede verse afectada por una multitud de razones, siendo las más comunes [personality|E], [opinion|E] y [culture|E]."
   
  game_concept_harrying_widget_i: "¡@harrying_widget!"
  game_concept_harrying_widget: "@harrying_widget! Harrying del Norte"
@@ -2543,3 +2558,42 @@
  game_concept_game_rule_unique_i: "@alert_icon!"
  game_concept_game_rule_unique: "Regla de juego única"
  game_concept_game_rule_unique_desc: "Esta regla del juego #bold altera significativamente#! la experiencia de juego."
+  
+  ### BP3 
+ game_concept_swing_scales_of_power: "$swing_scales_currency_interaction$" #NT!
+ game_concept_swing_scales_of_power_interaction: "$game_concept_swing_scales_of_power$" #NT!
+ game_concept_swing_scales_of_power_desc: "A costa de [prestige|E], [piety|E] o [gold|E], un [liege|E] o un [diarch|E] pueden mover al [scales_of_power|E] a su favor." #NT!
+  
+ game_concept_destination: "Destino" #NT!
+ game_concept_travel_destination: "Destino de viaje" #NT!
+ game_concept_destination_desc: "El Destino es el objetivo mientras que [traveling|E], o uno de varios objetivos. Para un [pilgrimage|E] sería el [holy_site|E] al que se viaja, mientras que para un [tour|E] cada [vassal|E] que se visita se consideraría un Destino." #NT!
+  
+ game_concept_roaming_longer_length_travel: "Caminata larga" #NT!
+ game_concept_roaming_longer_length_travel_desc: "Caminata larga es un [activity_option|E] para [GetActivityType('activity_roaming').GetName] [activity|E]. El personaje pasará mucho más tiempo con la actividad y tendrá más oportunidades." #NT!
+  
+ game_concept_inspection_success_chance: "Posibilidad de éxito en la inspección" #NT!
+ game_concept_inspection_success_chance_no_prefix: "Oportunidad de éxito" #NT!
+ game_concept_inspection_success_chance_desc: "El éxito no es algo seguro cuando se realiza una inspección [inspection|E]. Los principales factores que afectan estas probabilidades son:\n$BULLET_WITH_TAB$@skill_learning_icon![skills|E]\n$BULLET_WITH_TAB$@control_icon![county_control|E]\n$BULLET_WITH_TAB$@county_icon!Limítrofe con el extranjero [realm|E]\n\nLa probabilidad de éxito de la inspección nunca puede ser mayor que #bold 95#!." #NT!
+  
+ game_concept_inspection: "Inspección" #NT!
+ game_concept_inspections: "Inspecciones" #NT!
+ game_concept_inspection_i: "¡@actividad_inspección!" #NT!
+ game_concept_inspection_desc: "Una actividad en la que los [liege|E] viajan a un [county|E] en el [realm|E] para supervisar a los magnates y nobles locales.\n\nTendrán oportunidades en una de las siguientes áreas de enfoque: $rewards_inspection_tt$" #NT!
+  
+ game_concept_skill_challenges: "Desafíos de habilidades" #NT!
+ game_concept_skill_challenges_no_prefix: "Desafíos" #NT!
+ game_concept_skill_challenges_desc: "Los desafíos de habilidad son momentos en los que un personaje tiene la oportunidad de usar uno de sus [skills|E] para afectar el resultado de un evento. Cuanto mayor sea la habilidad o habilidades, más probabilidades hay de que el personaje obtenga su voluntad o se produzca un resultado beneficioso." #NT!
+  
+ game_concept_hike: "Caminata" #NT!
+ game_concept_hike_i: "¡@actividad_hike!" #NT!
+ game_concept_hike_desc: "Embárcate en una expedición solitaria para tomarte un descanso de la presión de la existencia cortesana.\n\nRecompensas previstas:\n$activity_roaming_host_desc$" #NT!
+  
+ game_concept_monument_expedition: "Expedición al monumento" #NT!
+ game_concept_monument_expedition_i: "@actividad_monumento_expedición!" #NT!
+ game_concept_monument_expedition_desc: "Una actividad en la que un personaje elige viajar a un monumento o punto de referencia famoso para mejorar, profundizando en su historia, conocimiento y misterios.\n\nRecompensas anticipadas:\n\t$BULLET_WITH_TAB$[intrigue_i|E][diplomacy_i|E][martial_i|E][learning_i|E][stewardship_i|E] [skill|E] Puntos\n$BULLET_WITH_TAB$[court_position_i]Excelente-[aptitude|E] [intrigue_i|E]0\n$BULLET_WITH_TAB$[intrigue_i|E]2[intrigue_i|E]3" #NT!
+  
+ game_concept_designated_terrain: "Terreno designado" #NT!
+ game_concept_designated_terrain_desc: "Un [decision|E] desbloqueado del árbol [wanderer_lifestyle|E], donde puedes elegir un grupo [terrain|E] en el que especializarte. Ciertos [perks|E] proporcionarán diferentes beneficios al grupo de terreno elegido.\n\nGrupos de terreno entre los que puedes elegir:\n$BULLET_WITH_TAB$@bosque! Bosques / @jungla! Junglas / @taiga! Taiga / @humedales! Humedales\n$BULLET_WITH_TAB$@montañas! Montañas / @colinas! Colinas / @montañas_desérticas! Montañas del desierto\n$BULLET_WITH_TAB$@llanuras! Llanuras / @estepa! Estepa / @tierras agrícolas! Tierras agrícolas / @llanuras de inundación! Llanuras de inundación\n$BULLET_WITH_TAB$@desierto! Desiertos / @tierras secas! Tierras secas / @oasis! Oasis" #NT!
+  
+ game_concept_master_terrain: "Terreno maestro" #NT!
+ game_concept_master_terrain_desc: "Un [decision|E] desbloqueado del árbol [wanderer_lifestyle|E], donde puedes elegir un [terrain|E] para especializarse, según el grupo que elegiste en [designated_terrain|E].\n\nEsta decisión otorgará beneficios significativos para el terreno elegido, otorgando bonificaciones como [advantage|E] aumentado, [combat_roll|E] mejorado, [attrition|E] reducido y [prestige|E] y [prestige_experience|E] aumentados de [battle|E]." #NT!
